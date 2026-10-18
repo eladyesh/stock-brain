@@ -188,7 +188,7 @@
         {
           "id": "C11",
           "kind": "reported",
-          "text": "At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding USD 5,296 million of current maturities and other short-term borrowings.",
+          "text": "At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding current maturities of USD 5,296 million and separate short-term borrowings of USD 229 million.",
           "evidence": [
             {
               "source_id": "S02",

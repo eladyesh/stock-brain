@@ -1,0 +1,105 @@
+{
+  "ticker": "PLTR",
+  "packet_sha256": "3f321ce7b8090e7c9d62f96e3d21e185ec1233e03506aa7de9419d59f97d3cb1",
+  "draft_sha256": "80f8465131390466654dc2005b7c6799c30f7c94408e79eaac6139ed5185fd06",
+  "reviewer": "Codex AI — primary-source editorial review (not independent human sign-off)",
+  "reviewed_at": "2026-10-18",
+  "notes": "Reopened the cited primary documents and checked each claim, with particular attention to fiscal periods, units, accounting basis, future events and relationship types. Interpretation is assessed for grounding, not certified as a forecast. Review covers this packet, not exhaustive news completeness. ",
+  "claim_checks": [
+    {
+      "id": "C01",
+      "result": "supported",
+      "note": "Quarterly cover and annual Business support Nasdaq listing and operational software scope."
+    },
+    {
+      "id": "C02",
+      "result": "supported",
+      "note": "Annual segment and revenue policies distinguish government/commercial and contract timing."
+    },
+    {
+      "id": "C03",
+      "result": "supported",
+      "note": "Annual platform descriptions distinguish Foundry, AIP, Apollo and Gotham functions."
+    },
+    {
+      "id": "C04",
+      "result": "supported",
+      "note": "Annual contract and termination disclosures support the caveat about deal value."
+    },
+    {
+      "id": "C05",
+      "result": "supported",
+      "note": "Annual AIP description permits third-party/self-hosted models; integration conclusion labeled interpretation."
+    },
+    {
+      "id": "C06",
+      "result": "supported",
+      "note": "Annual competition identifies internal development and other vendor categories; no invented ranking."
+    },
+    {
+      "id": "C07",
+      "result": "supported",
+      "note": "Ontology workflow descriptions support a hypothesis only; retention/pricing remain unproven."
+    },
+    {
+      "id": "C08",
+      "result": "supported",
+      "note": "August release guidance range 8150-8158 million is prospective and issuer-provided."
+    },
+    {
+      "id": "C09",
+      "result": "supported",
+      "note": "Quarterly statements converted thousands to millions; 1061.890 common income differs from consolidated 1065.962."
+    },
+    {
+      "id": "C10",
+      "result": "supported",
+      "note": "Quarterly balance sheet and compensation note confirm 2030.047 cash, 7379.052 securities, 265.209 quarterly SBC."
+    },
+    {
+      "id": "C11",
+      "result": "supported",
+      "note": "Release names Karp; quarterly Class F language conditions founder control on ownership threshold."
+    },
+    {
+      "id": "C12",
+      "result": "supported",
+      "note": "Release Q3 range 2160-2164 million verified; no earnings date inferred."
+    },
+    {
+      "id": "C13",
+      "result": "supported",
+      "note": "Annual/quarterly contract and governance risks support explicitly conditional thesis breakers."
+    },
+    {
+      "id": "C14",
+      "result": "supported",
+      "note": "Scenarios are assumptions; no numerical probability, retention rate or valuation introduced."
+    },
+    {
+      "id": "C15",
+      "result": "supported",
+      "note": "Microsoft announcement explicitly conditions classified service availability on authorization/accreditation."
+    },
+    {
+      "id": "C16",
+      "result": "supported",
+      "note": "Release and filing dates checked; adjusted metrics remain separate from GAAP."
+    }
+  ],
+  "gaps_acknowledged": [
+    "Evidence cutoff 2026-10-18; latest financial statements reviewed cover 2026-06-30. SEC submission index was checked, but the issuer news site dynamically omitted article bodies on direct retrieval, so post-earnings news coverage is incomplete.",
+    "Current valuation, verified next earnings-release date, detailed customer concentration, and customer-level unit economics remain unsourced.",
+    "Liquidity amounts use all marketable securities in the balance sheet, not the narrower cash-plus-short-term-Treasury headline in the release.",
+    "Management forecasts and scenario assumptions are not realized results; no claim of independent verification of product superiority is made."
+  ],
+  "review_metrics": {
+    "elapsed_seconds": null,
+    "cost_usd": null,
+    "correction_count": 0,
+    "measurement_note": "This interactive review was not timed or billed per company. Unknown is not zero."
+  },
+  "packet_path": "research/pilot/PLTR.json",
+  "profile_path": "sectors/information-technology/companies/PLTR/README.md",
+  "approved_profile_sha256": "f571af6e851fa30863ead220100d23656c7ed6d2385e1be3cbf0c1738f584c79"
+}

@@ -245,10 +245,18 @@
     },
     {
       "id": "Q17",
-      "question": "What is ORCL's revenue growth?",
-      "expected_behavior": "abstain",
-      "expected_answer": "ORCL is a draft in this pilot and excluded from the reviewed retrieval corpus.",
-      "evidence": []
+      "question": "What was ORCL GAAP revenue in FY2027 Q1?",
+      "expected_behavior": "answer",
+      "expected_answer": "FY2027 Q1 revenue was USD 19,345 million; Oracle now has a reviewed packet.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0001341439",
+          "section_id": "financial-performance",
+          "source_ids": [
+            "S02"
+          ]
+        }
+      ]
     },
     {
       "id": "Q18",

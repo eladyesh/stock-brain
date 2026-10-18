@@ -12,53 +12,7 @@ import sys
 import stock_brain as kb
 
 
-STOP = {"a", "an", "the", "is", "are", "was", "were", "of", "for", "in", "and", "to", "what", "which", "how", "does", "do", "its", "by", "as", "on", "with", "from"}
-
-
-def tokens(text):
-    return [w for w in re.findall(r"[a-z0-9]+", text.lower()) if w not in STOP]
-
-
-def lexical_retrieve(question, records, universe, top_k=6):
-    """Small English-only BM25 baseline with explicit entity and freshness guards."""
-    covered = {r.get("ticker") for r in records if r.get("document_type") == "company"}
-    mentions = set()
-    for company in universe:
-        if re.search(r"\b" + re.escape(company["ticker"]) + r"\b", question):
-            mentions.add(company["ticker"])
-        name = re.sub(r"\b(?:Corporation|Technologies|Technology|Inc|Corp)\.?", "", company["company_name"]).strip(" ,.")
-        if name and name.lower() in question.lower():
-            mentions.add(company["ticker"])
-    unknown_symbols = set(re.findall(r"\b[A-Z]{2,5}\b", question)) - {c["ticker"] for c in universe} - {"AI", "GAAP", "EPS", "USD", "HBM", "CPU", "GPU", "ADR", "NYSE", "SEC"}
-    relation_question = bool(re.search(r"\b(?:relationship|collaboration|partnership|supplier|customer)\b", question, re.I))
-    missing_issuer = bool(mentions - covered) and not (relation_question and mentions & covered)
-    # Uppercase product/program acronyms are common inside an identified issuer's
-    # question. They are not automatically additional tickers.
-    unresolved = bool(unknown_symbols) and (not mentions or bool(re.search(r"\bcompare\b|\bversus\b|\bvs\b", question, re.I)))
-    if missing_issuer or unresolved:
-        return {"abstain": True, "reason": "Requested issuer lacks reviewed coverage or the symbol needs disambiguation.", "chunk_ids": []}
-    if re.search(r"(?:today|current|live|right now).*(?:price|multiple|market cap)|(?:price|multiple).*(?:today|right now)|consensus|price target|fair value", question, re.I):
-        return {"abstain": True, "reason": "This corpus has no live market-data or consensus feed.", "chunk_ids": []}
-    candidates = [r for r in records if not mentions or r.get("ticker") in mentions]
-    if not candidates:
-        return {"abstain": True, "reason": "No eligible evidence.", "chunk_ids": []}
-    documents = [tokens(r["text"]) for r in candidates]
-    frequencies = Counter(word for document in documents for word in set(document))
-    avg = sum(map(len, documents)) / len(documents)
-    query = tokens(question)
-    scored = []
-    for record, document in zip(candidates, documents):
-        counts = Counter(document)
-        score = 0.0
-        for term in query:
-            tf = counts[term]
-            if tf:
-                idf = math.log(1 + (len(documents) - frequencies[term] + .5) / (frequencies[term] + .5))
-                score += idf * tf * 2.2 / (tf + 1.2 * (.25 + .75 * len(document) / avg))
-        if score > 0:
-            scored.append((score, record["id"]))
-    ids = [cid for _, cid in sorted(scored, key=lambda x: (-x[0], x[1]))[:top_k]]
-    return {"abstain": not bool(ids), "reason": None if ids else "No lexical evidence match.", "chunk_ids": ids}
+from retrieval import tokens, retrieve as lexical_retrieve
 
 
 def evaluate(cases, predictions, records):
@@ -106,6 +60,9 @@ def main():
     parser.add_argument("--predictions", type=Path, help="Optional JSON mapping case ID to abstain/chunk_ids from another retriever")
     parser.add_argument("--output", type=Path, default=Path("build/evaluation.json"))
     parser.add_argument("--top-k", type=int, default=6)
+    parser.add_argument("--min-retrieval", type=float, default=1.0)
+    parser.add_argument("--min-abstention", type=float, default=1.0)
+    parser.add_argument("--report-only", action="store_true", help="Explicit exploratory run without a quality gate")
     args = parser.parse_args()
     try:
         root = args.root.resolve()
@@ -118,14 +75,20 @@ def main():
         if args.predictions:
             predictions = json.loads(args.predictions.read_text())
         else:
-            predictions = {c["id"]: lexical_retrieve(c["question"], records, universe, args.top_k) for c in cases}
-        report = {"retriever": "external" if args.predictions else "English BM25 baseline", "top_k": args.top_k,
+            predictions = {c["id"]: lexical_retrieve(c["question"], records, universe, args.top_k, root=root) for c in cases}
+        report = {"retriever": "external" if args.predictions else "Bilingual entity-scoped BM25", "top_k": args.top_k,
                   "corpus_chunks": len(records), "corpus_sha256": hashlib.sha256(json.dumps(records, sort_keys=True).encode()).hexdigest(),
                   "cases_sha256": hashlib.sha256(cases_path.read_bytes()).hexdigest(), **evaluate(cases, predictions, records)}
         output = args.output if args.output.is_absolute() else root / args.output
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(report, indent=2) + "\n")
         print(json.dumps({k: v for k, v in report.items() if k != "results"}, indent=2))
+        kb.need(0 <= args.min_retrieval <= 1 and 0 <= args.min_abstention <= 1, "thresholds must be in [0, 1]")
+        failures = [key for key, minimum in (("retrieval_case_pass_rate", args.min_retrieval), ("abstention_pass_rate", args.min_abstention))
+                    if report[key] is not None and report[key] < minimum]
+        if failures and not args.report_only:
+            print("QUALITY GATE FAILED: " + ", ".join(failures), file=sys.stderr)
+            return 2
         return 0
     except (OSError, ValueError, KeyError) as error:
         print(f"ERROR: {error}", file=sys.stderr)

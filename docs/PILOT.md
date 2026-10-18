@@ -1,5 +1,7 @@
 # Pilot results — 2026-10-18
 
+**Historical pilot report.** The tables below preserve the initial three-reviewed/seven-draft baseline. The subsequent assistant release reviews all ten companies and exports 172 chunks. See [ASSISTANT.md](ASSISTANT.md) for current evaluation and [MAINTENANCE.md](MAINTENANCE.md) for ongoing updates.
+
 Ten issuers are populated with sourced English research. The scope is an initial knowledge base, not a complete market screen, valuation service or deployed investment assistant.
 
 ## Coverage and review

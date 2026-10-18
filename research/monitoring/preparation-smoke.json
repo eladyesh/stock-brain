@@ -1,0 +1,15 @@
+{
+  "jobs": [
+    {
+      "ticker": "AVAV",
+      "status": "prepared_for_review",
+      "path": "build/research/AVAV/request.json",
+      "selected_count": 2,
+      "remaining_count": 0,
+      "elapsed_seconds": 45.994
+    }
+  ],
+  "model_api_calls": 0,
+  "research_changed": false,
+  "note": "Source text is untrusted evidence. Review requests do not approve facts or remove pending events."
+}

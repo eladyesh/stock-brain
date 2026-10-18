@@ -31,3 +31,7 @@ jobs:
         run: python scripts/research_company.py audit
       - name: Validate retrieval gold evidence and run baseline
         run: python scripts/evaluate_retrieval.py
+      - name: Enforce frozen bilingual acceptance cases
+        run: python scripts/evaluate_retrieval.py --cases eval/acceptance-v1.json
+      - name: Verify answer evidence, numbers, basis and citations
+        run: python scripts/evaluate_answers.py

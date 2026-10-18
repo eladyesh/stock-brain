@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "overlap_days": 90,
+  "issuer_feeds": {
+    "MSFT": ["https://news.microsoft.com/source/feed/"],
+    "NVDA": ["https://nvidianews.nvidia.com/rss.xml"],
+    "AMD": ["https://ir.amd.com/news-events/press-releases/rss"],
+    "AVGO": ["https://investors.broadcom.com/rss/news-releases.xml"],
+    "LMT": ["https://news.lockheedmartin.com/news-releases?pagetemplate=rss"],
+    "RTX": ["https://www.rtx.com/rss-feeds/news"]
+  },
+  "coverage_notes": {
+    "MU": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+    "AVAV": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+    "ORCL": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+    "PLTR": "SEC discovery enabled; dynamic issuer news listings require a separate adapter."
+  }
+}

@@ -15,10 +15,10 @@ tags:
 - ai
 - semiconductors
 - data-centers
-status: draft
+status: reviewed
 as_of: '2026-10-18'
 updated_at: '2026-10-18'
-reviewed_at: null
+reviewed_at: '2026-10-18'
 sources:
 - id: S01
   title: AMD FY2025 Form 10-K
@@ -86,7 +86,7 @@ Reported: Core families include EPYC server CPUs, Instinct accelerators, Ryzen P
 
 ## Customers and end markets
 
-Reported: AMD sells through OEMs, hyperscalers, distributors and system integrators. Semi-custom customers can pay engineering fees and purchase the resulting chips; standard forecast arrangements generally do not guarantee minimum purchases. [S01]
+Reported: AMD sells through OEMs, hyperscalers, distributors and system integrators. Certain customers pay engineering fees for design and development and purchase the resulting chips. [S01]
 
 
 ## Industry and value chain

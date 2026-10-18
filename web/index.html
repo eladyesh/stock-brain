@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Stock Brain — מחקר עם מקורות</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body><main>
+<header><span class="brand" dir="ltr">STOCK BRAIN</span><p>מחקר חברות, עם מקור לכל טענה</p></header>
+<h1>מה תרצה להבין על החברה?</h1>
+<p class="intro">שאל בעברית או באנגלית על פעילות, תוצאות, סיכונים וקשרים. כל תשובה מציגה את תאריך המחקר ואת סוג הטענה.</p>
+<form id="ask"><label for="question">השאלה שלך</label><textarea id="question" maxlength="4000" required placeholder="מה הסיכונים של מיקרוסופט?"></textarea><button type="submit" id="submit">בדיקת הראיות</button></form>
+<div class="examples"><button type="button" data-question="השווה את המודל העסקי של מיקרוסופט ואורקל.">מיקרוסופט ואורקל</button><button type="button" data-question="מה הקשר בין מיקרון לאנבידיה?">מיקרון ואנבידיה</button><button type="button" data-question="מה הסיכונים של RTX?">סיכוני RTX</button></div>
+<section id="answer" aria-live="polite"></section>
+<section class="monitor"><h2>מצב המחקר</h2><p>״נבדק״ מתייחס לראיות שבמאגר. סריקה מוצלחת אינה בדיקה ממצה של כל החדשות. הודעות חדשות ממתינות לבדיקה לפני שילובן בתשובות.</p><div id="companies"></div><details><summary id="queue-label">עדכונים ממתינים לבדיקה</summary><ul id="queue"></ul></details></section>
+<footer>אין כאן נתוני מסחר חיים. מחירים, מכפילים, קונצנזוס והמלצות קנייה אינם נתמכים. הביקורות והתרגומים כוללים בדיקת AI; פרטי הביקורת שמורים במאגר.</footer>
+</main></body></html>

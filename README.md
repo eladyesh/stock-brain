@@ -1,10 +1,10 @@
 # Stock Brain
 
-A structured, source-backed knowledge base for U.S.-listed stocks, written in English and designed for a future retrieval-augmented generation (RAG) system.
+A structured, source-backed knowledge base for U.S.-listed stocks, with canonical English research and a cited Hebrew/English lookup interface.
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-18):** ten sourced company profiles: MSFT, MU and AVAV are reviewed dated snapshots; ORCL, PLTR, NVDA, AMD, AVGO, LMT and RTX remain drafts. Two bounded sector guides are reviewed. The pipeline collects primary sources, prepares evidence requests, renders drafts, validates reviews, and proposes incremental updates. An English retrieval baseline has 20 development questions. This is not a live market-data feed or a deployed question-answering application. The pilot reviews were performed by Codex with a separate evidence-checking agent, not human sign-off.
+**Current state (2026-10-18):** all ten company profiles have hash-bound research reviews, with 169 claims and Hebrew translations. A local question-answering interface cites reviewed evidence and shows freshness. Daily disclosure discovery maintains a separate pending-review queue; six issuer feeds supplement SEC coverage for all ten companies. Reviews include Codex AI checks, not independent human sign-off. Prices and valuation feeds are not connected. See [the maintenance guide](docs/MAINTENANCE.md) for activation and coverage limits.
 
 ## Start here
 
@@ -15,6 +15,8 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Sector template](templates/sector/README.md) | See the shared sector structure |
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |
 | [Data contract](docs/DATA_CONTRACT.md) | Metadata, identifiers, and validation |
+| [Research assistant](docs/ASSISTANT.md) | Local interface, Hebrew answers, citations and acceptance results |
+| [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
 | [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
 | [Pilot results](docs/PILOT.md) | Coverage, validation, collection timing, and limitations |
@@ -70,7 +72,7 @@ python -m unittest discover -s tests -v
 python scripts/stock_brain.py export --output build/chunks.jsonl
 ```
 
-The exporter includes only `reviewed` company profiles and explicitly registered reviewed sector research. The pilot exports 59 chunks: 49 company chunks and 10 sector chunks. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are excluded. See the pipeline guide to collect sources or use an explicitly configured model runner.
+The exporter includes only `reviewed` company profiles and explicitly registered reviewed sector research. The reviewed corpus exports 172 chunks: 162 company chunks and 10 sector chunks. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are excluded. See the pipeline guide to collect sources or use an explicitly configured model runner.
 
 ## What is implemented
 
@@ -80,16 +82,24 @@ The exporter includes only `reviewed` company profiles and explicitly registered
 - Validation of structure, metadata, source references, and review requirements.
 - Section-aware JSONL export with company context, evidence, dates, content hashes, and stable section identifiers.
 - A local test suite and GitHub Actions validation for changes.
-- Ten source-backed evidence packets, three separately audited reference profiles, and two bounded sector guides.
+- Ten source-backed evidence packets, ten reviewed profiles (three previous reference reviews and seven new AI source reviews), and two bounded sector guides.
 - SEC submissions/company-facts collection, curated IR HTML/PDF sources, content-addressed caching, and disclosure-change detection.
 - Provider-neutral model runner protocol, optional Responses API adapter, deterministic metric calculations, and hash-bound review records.
-- Twenty retrieval/abstention development cases with a reproducible lexical baseline.
+- Twenty development cases and 50 frozen bilingual acceptance cases, with failing retrieval and answer-integrity gates.
+- Local Hebrew/English Q&A, exact claim citations, bound translations and freshness indicators.
+- Daily SEC/RSS discovery, a persistent review queue and bounded incremental request preparation.
 
-## Next stages
+## Use the assistant
 
-1. Independently review the seven drafts and close their recorded research gaps.
-2. Expand in cohorts of three to five issuers while monitoring collection and review effort.
-3. Add a held-out evaluation set, then compare embeddings/hybrid retrieval against the lexical baseline.
-4. Build cited question answering and evaluate answer factuality separately from retrieval.
+```bash
+python scripts/serve.py
+python scripts/ask.py 'מה עושה אורקל?'
+python scripts/evaluate_retrieval.py --cases eval/acceptance-v1.json
+python scripts/evaluate_answers.py
+```
 
-Local validation, collection and retrieval evaluation need no model API key. Automated model drafting is opt-in and requires explicit configuration; no scheduled job or paid request is enabled by default.
+Open `http://127.0.0.1:8765`. No model API key is needed for lookup, discovery, or evaluation. Optional model drafting requires explicit configuration.
+
+## Next priorities
+
+Triage the initial discovery backlog, add the four missing issuer-feed adapters, and keep source/translation reviews current. Add independent evaluation questions before expanding beyond this bounded lookup interface. Introduce timestamped market data only as a separate, explicitly sourced layer.

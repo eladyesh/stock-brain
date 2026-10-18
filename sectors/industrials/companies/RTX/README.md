@@ -15,10 +15,10 @@ tags:
 - defense
 - aerospace
 - commercial-aviation
-status: draft
+status: reviewed
 as_of: '2026-10-18'
 updated_at: '2026-10-18'
-reviewed_at: null
+reviewed_at: '2026-10-18'
 sources:
 - id: S01
   title: Form 10-K for the year ended December 31, 2025
@@ -100,7 +100,7 @@ Reported: Adjusted diluted EPS was USD 1.89 for that quarter. This company-defin
 
 ## Balance sheet and capital allocation
 
-Reported: At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding USD 5,296 million of current maturities and other short-term borrowings. [S02]
+Reported: At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding current maturities of USD 5,296 million and separate short-term borrowings of USD 229 million. [S02]
 
 
 ## Management and governance

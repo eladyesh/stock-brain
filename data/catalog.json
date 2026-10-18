@@ -9,7 +9,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Computing semiconductors",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -72,7 +72,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "ai",
         "semiconductors",
@@ -157,7 +157,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Semiconductors and infrastructure software",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -196,7 +196,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "ai",
         "semiconductors",
@@ -216,7 +216,7 @@
       "domicile_country": "US",
       "exchange": "NYSE",
       "industry": "Aerospace and defense",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "industrials",
       "security_type": "common_stock",
@@ -255,7 +255,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/d177255d8k.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "defense",
         "aerospace",
@@ -424,7 +424,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Accelerated computing semiconductors",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -463,7 +463,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "ai",
         "semiconductors",
@@ -482,7 +482,7 @@
       "domicile_country": "US",
       "exchange": "NYSE",
       "industry": "Enterprise software and cloud infrastructure",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -529,7 +529,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "ai",
         "cloud",
@@ -549,7 +549,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Enterprise analytics software",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -588,7 +588,7 @@
           "url": "https://news.microsoft.com/source/2024/08/08/palantir-and-microsoft-partner-to-deliver-enhanced-analytics-and-ai-services-to-classified-networks-for-critical-national-security-operations/"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "ai",
         "software",
@@ -607,7 +607,7 @@
       "domicile_country": "US",
       "exchange": "NYSE",
       "industry": "Aerospace and defense",
-      "reviewed_at": null,
+      "reviewed_at": "2026-10-18",
       "schema_version": 1,
       "sector": "industrials",
       "security_type": "common_stock",
@@ -646,7 +646,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm"
         }
       ],
-      "status": "draft",
+      "status": "reviewed",
       "tags": [
         "defense",
         "aerospace",

@@ -111,7 +111,7 @@
         {
           "id": "C04",
           "kind": "reported",
-          "text": "AMD sells through OEMs, hyperscalers, distributors and system integrators. Semi-custom customers can pay engineering fees and purchase the resulting chips; standard forecast arrangements generally do not guarantee minimum purchases.",
+          "text": "AMD sells through OEMs, hyperscalers, distributors and system integrators. Certain customers pay engineering fees for design and development and purchase the resulting chips.",
           "evidence": [
             {
               "source_id": "S01",
@@ -318,7 +318,7 @@
     }
   },
   "gaps": [
-    "Draft: complete independent claim review is outstanding.",
+    "Independent human review remains outstanding; this packet has received a Codex AI claim-level source review.",
     "The FY2025 10-K/A corrects Client ASP and unit-shipment growth; no figures from the superseded narrative are carried into this packet.",
     "SEC inventory was checked through 2026-10-18 and post-quarter 8-Ks were read; other investor announcements have not been exhaustively covered.",
     "Current debt, acquisition dilution, valuation, customer concentration and product economics require further work."

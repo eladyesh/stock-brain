@@ -1,0 +1,511 @@
+{
+  "retriever": "Bilingual entity-scoped BM25",
+  "top_k": 6,
+  "corpus_chunks": 172,
+  "corpus_sha256": "19eb95e334484f574408b0d7ef80ab5d1a15fab4a6daba1837454a75256d32d8",
+  "cases_sha256": "2b40a81c2f313f01de7d8344e82fd686449757e36306a431d90e239a931812fd",
+  "cases": 50,
+  "retrieval_case_pass_rate": 1.0,
+  "mean_evidence_recall": 1.0,
+  "abstention_pass_rate": 1.0,
+  "answer_factuality": "Not evaluated: this command retrieves evidence but does not generate answers.",
+  "results": [
+    {
+      "id": "H01",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000789019:business-overview:001",
+        "company-cik-0000789019:competitive-landscape:001",
+        "company-cik-0000789019:growth-drivers:001",
+        "company-cik-0000789019:industry-and-value-chain:001",
+        "company-cik-0000789019:revenue-model-and-segments:001"
+      ]
+    },
+    {
+      "id": "H02",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000789019:revenue-model-and-segments:001",
+        "company-cik-0000789019:catalysts:001",
+        "company-cik-0000789019:recent-developments:001",
+        "company-cik-0000789019:financial-performance:001",
+        "company-cik-0000789019:balance-sheet-and-capital-allocation:001",
+        "company-cik-0000789019:risks-and-thesis-breakers:001"
+      ]
+    },
+    {
+      "id": "H03",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000789019:risks-and-thesis-breakers:001",
+        "company-cik-0000789019:competitive-landscape:001",
+        "company-cik-0000789019:relationships-and-themes:001"
+      ]
+    },
+    {
+      "id": "H04",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000723125:business-overview:001",
+        "company-cik-0000723125:products-and-services:001",
+        "company-cik-0000723125:growth-drivers:001",
+        "company-cik-0000723125:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H05",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000723125:financial-performance:001",
+        "company-cik-0000723125:balance-sheet-and-capital-allocation:001"
+      ]
+    },
+    {
+      "id": "H06",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000723125:relationships-and-themes:001",
+        "company-cik-0001045810:relationships-and-themes:001",
+        "company-cik-0001045810:management-and-governance:001",
+        "company-cik-0000723125:management-and-governance:001"
+      ]
+    },
+    {
+      "id": "H07",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001368622:revenue-model-and-segments:001",
+        "company-cik-0001368622:financial-performance:001",
+        "company-cik-0001368622:growth-drivers:001"
+      ]
+    },
+    {
+      "id": "H08",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001368622:financial-performance:001",
+        "company-cik-0001368622:valuation-context:001",
+        "company-cik-0001368622:catalysts:001",
+        "company-cik-0001368622:balance-sheet-and-capital-allocation:001",
+        "company-cik-0001368622:revenue-model-and-segments:001",
+        "company-cik-0001368622:growth-drivers:001"
+      ]
+    },
+    {
+      "id": "H09",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001368622:risks-and-thesis-breakers:001",
+        "company-cik-0001368622:business-overview:001",
+        "company-cik-0001368622:growth-drivers:001",
+        "company-cik-0001368622:moat-and-differentiation:001",
+        "company-cik-0001368622:scenarios-and-open-questions:001",
+        "company-cik-0001368622:revenue-model-and-segments:001"
+      ]
+    },
+    {
+      "id": "H10",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001341439:business-overview:001",
+        "company-cik-0001341439:revenue-model-and-segments:001"
+      ]
+    },
+    {
+      "id": "H11",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001341439:financial-performance:001",
+        "company-cik-0001341439:growth-drivers:001",
+        "company-cik-0001341439:relationships-and-themes:001",
+        "company-cik-0001341439:revenue-model-and-segments:001",
+        "company-cik-0001341439:balance-sheet-and-capital-allocation:001",
+        "company-cik-0001341439:risks-and-thesis-breakers:001"
+      ]
+    },
+    {
+      "id": "H12",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001341439:growth-drivers:001",
+        "company-cik-0001341439:scenarios-and-open-questions:001",
+        "company-cik-0001341439:customers-and-end-markets:001",
+        "company-cik-0001341439:industry-and-value-chain:001",
+        "company-cik-0001341439:moat-and-differentiation:001"
+      ]
+    },
+    {
+      "id": "H13",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001321655:business-overview:001",
+        "company-cik-0001321655:customers-and-end-markets:001",
+        "company-cik-0001321655:industry-and-value-chain:001",
+        "company-cik-0001321655:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H14",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001321655:products-and-services:001",
+        "company-cik-0001321655:relationships-and-themes:001"
+      ]
+    },
+    {
+      "id": "H15",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001321655:risks-and-thesis-breakers:001"
+      ]
+    },
+    {
+      "id": "H16",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001045810:products-and-services:001",
+        "company-cik-0001045810:business-overview:001",
+        "company-cik-0001045810:moat-and-differentiation:001",
+        "company-cik-0001045810:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H17",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001045810:financial-performance:001",
+        "company-cik-0001045810:revenue-model-and-segments:001",
+        "company-cik-0001045810:customers-and-end-markets:001",
+        "company-cik-0001045810:growth-drivers:001",
+        "company-cik-0001045810:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H18",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001045810:risks-and-thesis-breakers:001",
+        "company-cik-0001045810:competitive-landscape:001",
+        "company-cik-0001045810:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H19",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000002488:competitive-landscape:001"
+      ]
+    },
+    {
+      "id": "H20",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000002488:financial-performance:001",
+        "company-cik-0000002488:industry-and-value-chain:001",
+        "company-cik-0000002488:management-and-governance:001",
+        "company-cik-0000002488:revenue-model-and-segments:001",
+        "company-cik-0000002488:growth-drivers:001",
+        "company-cik-0000002488:catalysts:001"
+      ]
+    },
+    {
+      "id": "H21",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000002488:products-and-services:001",
+        "company-cik-0000002488:business-overview:001",
+        "company-cik-0000002488:industry-and-value-chain:001"
+      ]
+    },
+    {
+      "id": "H22",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001730168:revenue-model-and-segments:001",
+        "company-cik-0001730168:recent-developments:001",
+        "company-cik-0001730168:financial-performance:001"
+      ]
+    },
+    {
+      "id": "H23",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001730168:balance-sheet-and-capital-allocation:001",
+        "company-cik-0001730168:business-overview:001",
+        "company-cik-0001730168:risks-and-thesis-breakers:001",
+        "company-cik-0001730168:recent-developments:001"
+      ]
+    },
+    {
+      "id": "H24",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001730168:risks-and-thesis-breakers:001",
+        "company-cik-0001730168:competitive-landscape:001",
+        "company-cik-0001730168:scenarios-and-open-questions:001"
+      ]
+    },
+    {
+      "id": "H25",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000936468:business-overview:001",
+        "company-cik-0000936468:products-and-services:001",
+        "company-cik-0000936468:revenue-model-and-segments:001",
+        "company-cik-0000936468:customers-and-end-markets:001"
+      ]
+    },
+    {
+      "id": "H26",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000936468:risks-and-thesis-breakers:001",
+        "company-cik-0000936468:business-overview:001",
+        "company-cik-0000936468:revenue-model-and-segments:001",
+        "company-cik-0000936468:customers-and-end-markets:001",
+        "company-cik-0000936468:moat-and-differentiation:001"
+      ]
+    },
+    {
+      "id": "H27",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000936468:relationships-and-themes:001",
+        "company-cik-0000101829:relationships-and-themes:001",
+        "company-cik-0000936468:management-and-governance:001",
+        "company-cik-0000936468:industry-and-value-chain:001",
+        "company-cik-0000101829:industry-and-value-chain:001",
+        "company-cik-0000936468:risks-and-thesis-breakers:001"
+      ]
+    },
+    {
+      "id": "H28",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000101829:revenue-model-and-segments:001"
+      ]
+    },
+    {
+      "id": "H29",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000101829:risks-and-thesis-breakers:001",
+        "company-cik-0000101829:competitive-landscape:001",
+        "company-cik-0000101829:moat-and-differentiation:001",
+        "company-cik-0000101829:balance-sheet-and-capital-allocation:001"
+      ]
+    },
+    {
+      "id": "H30",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000101829:management-and-governance:001",
+        "company-cik-0000101829:growth-drivers:001",
+        "company-cik-0000101829:recent-developments:001",
+        "company-cik-0000101829:catalysts:001"
+      ]
+    },
+    {
+      "id": "H31",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000789019:business-overview:001",
+        "company-cik-0001341439:business-overview:001",
+        "company-cik-0000789019:competitive-landscape:001",
+        "company-cik-0000789019:growth-drivers:001",
+        "company-cik-0000789019:industry-and-value-chain:001",
+        "company-cik-0001341439:revenue-model-and-segments:001"
+      ]
+    },
+    {
+      "id": "H32",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000002488:products-and-services:001",
+        "company-cik-0001045810:products-and-services:001",
+        "company-cik-0000002488:business-overview:001",
+        "company-cik-0000002488:industry-and-value-chain:001",
+        "company-cik-0001045810:business-overview:001",
+        "company-cik-0001045810:moat-and-differentiation:001"
+      ]
+    },
+    {
+      "id": "H33",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0000936468:risks-and-thesis-breakers:001",
+        "company-cik-0000101829:risks-and-thesis-breakers:001",
+        "company-cik-0000101829:competitive-landscape:001",
+        "company-cik-0000101829:moat-and-differentiation:001",
+        "company-cik-0000936468:moat-and-differentiation:001"
+      ]
+    },
+    {
+      "id": "H34",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001368622:customers-and-end-markets:001",
+        "company-cik-0000789019:customers-and-end-markets:001",
+        "company-cik-0001368622:business-overview:001",
+        "company-cik-0000789019:business-overview:001"
+      ]
+    },
+    {
+      "id": "H35",
+      "kind": "retrieval",
+      "passed": true,
+      "evidence_recall": 1.0,
+      "retrieved": [
+        "company-cik-0001730168:revenue-model-and-segments:001",
+        "company-cik-0000723125:revenue-model-and-segments:001",
+        "company-cik-0001730168:recent-developments:001",
+        "company-cik-0000723125:financial-performance:001",
+        "company-cik-0001730168:financial-performance:001",
+        "company-cik-0000723125:balance-sheet-and-capital-allocation:001"
+      ]
+    },
+    {
+      "id": "H36",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H37",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H38",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H39",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H40",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H41",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H42",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H43",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H44",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H45",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H46",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H47",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H48",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H49",
+      "kind": "abstention",
+      "passed": true
+    },
+    {
+      "id": "H50",
+      "kind": "abstention",
+      "passed": true
+    }
+  ]
+}
