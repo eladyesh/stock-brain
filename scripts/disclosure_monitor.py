@@ -218,7 +218,7 @@ def main():
         pipeline.write_json(output, result)
         pending = [e for e in result['queue'] if e['status'] == 'pending_review']
         errors = [t for t, s in result['companies'].items() if s['status'] == 'error']
-        print(json.dumps({'output': str(output), 'pending': len(pending), 'failed_issuers': errors}))
+        print(json.dumps({'output': str(output), 'pending': len(pending), 'failed_issuers': errors, 'errors': {t: result['companies'][t]['errors'] for t in errors}}))
         if args.summary:
             lines = ['# Stock Brain disclosure review queue', '', f"Checked: {result['checked_at']}",
                      f'Pending disclosures: {len(pending)}. Failed issuer checks: {len(errors)}.', '',
@@ -228,6 +228,10 @@ def main():
                 lines.append(f"- {event['ticker']} — {title} — {event['url']}")
             if errors:
                 lines.append('\nFailed checks: ' + ', '.join(errors))
+                for ticker in errors:
+                    for error in result['companies'][ticker]['errors']:
+                        detail = str(error['error']).replace('\n', ' ').replace('<', '').replace('>', '')
+                        lines.append(f"- {ticker}: {error['source']} — {detail}")
             args.summary.write_text('\n'.join(lines) + '\n')
         return 1 if errors else 0
     except (OSError, ValueError, KeyError) as error:

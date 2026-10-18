@@ -21,7 +21,10 @@ concurrency:
 
 jobs:
   discover:
-    runs-on: ubuntu-latest
+    # The live hosted-runner probe returned HTTP 403 from SEC and two issuer feeds.
+    # Configure an authorized runner before enabling unattended execution.
+    if: vars.STOCK_BRAIN_RUNNER_LABELS != '' || github.event_name == 'workflow_dispatch'
+    runs-on: ${{ fromJSON(vars.STOCK_BRAIN_RUNNER_LABELS || '["ubuntu-latest"]') }}
     timeout-minutes: 20
     env:
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'StockBrain/1.0 (https://github.com/eladyesh/stock-brain)' }}

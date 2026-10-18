@@ -4,7 +4,15 @@ The unit of maintenance is a changed disclosure and the claims it affects. Disco
 
 ## Daily operation
 
-`.github/workflows/disclosures.yml` runs daily at 05:23 UTC, supports manual runs, and runs when its implementation changes on main or the initial implementation branch. Scheduled runs become active only after the workflow reaches the default branch and GitHub Actions is enabled. GitHub scheduling is best-effort, not a real-time delivery guarantee.
+`.github/workflows/disclosures.yml` runs daily at 05:23 UTC, supports manual runs, and runs when its implementation changes on main or the initial implementation branch. Unattended runs require the workflow on the default branch, GitHub Actions enabled, and `STOCK_BRAIN_RUNNER_LABELS` configured. They are deliberately paused until a permitted execution host is selected. GitHub scheduling is best-effort, not a real-time delivery guarantee.
+
+## Activation requirement found during live testing
+
+The first GitHub-hosted run returned HTTP 403 for SEC submissions for all ten issuers and for the Broadcom/RTX feeds. The same requests succeeded in the development environment. This is an access/deployment blocker, not a passed automation test. The failed run retained all 112 pending events and surfaced errors correctly.
+
+For this public repository, prefer the local scheduler described below on a stable machine with permitted source access and an identifying `SEC_USER_AGENT`. If using GitHub orchestration, use a dedicated isolated machine restricted to trusted workflows. Configure it as a repository self-hosted runner, then set the repository variable `STOCK_BRAIN_RUNNER_LABELS` to its labels, for example `["self-hosted", "linux", "stock-brain"]`. Run the workflow manually and verify source access before relying on the schedule. GitHub's [self-hosted runner setup](https://docs.github.com/en/actions/how-tos/manage-runners/self-hosted-runners/add-runners) covers registration. No runner, credential, paid server, or hosting account was provisioned by this PR. A manual dispatch without that variable can diagnose the hosted environment; ordinary push/scheduled runs remain paused.
+
+Alternatively, run `scripts/refresh_research.sh` daily from an existing authorized host's scheduler, with `PYTHON_BIN` pointing to this checkout's virtual-environment Python and `SEC_USER_AGENT` set. Keep its working directory persistent and inspect nonzero exits. The local workflow stores pending state in `build/monitoring/latest.json`.
 
 The job:
 

@@ -4,7 +4,7 @@ A structured, source-backed knowledge base for U.S.-listed stocks, with canonica
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-18):** all ten company profiles have hash-bound research reviews, with 169 claims and Hebrew translations. A local question-answering interface cites reviewed evidence and shows freshness. Daily disclosure discovery maintains a separate pending-review queue; six issuer feeds supplement SEC coverage for all ten companies. Reviews include Codex AI checks, not independent human sign-off. Prices and valuation feeds are not connected. See [the maintenance guide](docs/MAINTENANCE.md) for activation and coverage limits.
+**Current state (2026-10-18):** all ten company profiles have hash-bound research reviews, with 169 claims and Hebrew translations. A local question-answering interface cites reviewed evidence and shows freshness. Daily disclosure discovery maintains a separate pending-review queue (unattended activation requires a permitted runner; the GitHub-hosted live probe returned HTTP 403); six issuer feeds supplement SEC coverage for all ten companies. Reviews include Codex AI checks, not independent human sign-off. Prices and valuation feeds are not connected. See [the maintenance guide](docs/MAINTENANCE.md) for activation and coverage limits.
 
 ## Start here
 
