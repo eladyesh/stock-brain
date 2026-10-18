@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "ticker": "PLTR",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Palantir fiscal 2025 Form 10-K",
+      "publisher": "Palantir Technologies Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+      "published_at": "2026-02-17",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "Palantir Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Palantir Technologies Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+      "published_at": "2026-08-04",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "Palantir Q2 2026 earnings release, Form 8-K Exhibit 99.1",
+      "publisher": "Palantir Technologies Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+      "published_at": "2026-08-03",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "Palantir and Microsoft Partner to Deliver Enhanced Analytics and AI Services to Classified Networks for Critical National Security Operations",
+      "publisher": "Microsoft Corporation and Palantir Technologies Inc.",
+      "url": "https://news.microsoft.com/source/2024/08/08/palantir-and-microsoft-partner-to-deliver-enhanced-analytics-and-ai-services-to-classified-networks-for-critical-national-security-operations/",
+      "published_at": "2024-08-08",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "Palantir sells software that connects organizational data to operational decisions for commercial and government users. PLTR common stock is listed on Nasdaq in the 2026 quarterly filing.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Cover page; MD&A, Overview"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "Government and commercial are separate operating segments. Revenue is generally recognized across contract terms, so current revenue can lag changes in new sales or renewals.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 7, Overview; risk factor on revenue recognized over contractual terms"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Foundry integrates data and workflows through the Ontology; AIP connects AI models to governed operations; Apollo delivers software updates; Gotham supports defense and intelligence missions.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Our Platforms"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "Customers span government and commercial organizations. Government procurement and commercial deployment differ; multi-period contracts and termination provisions make contracted deal value an imperfect proxy for future recognized revenue.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Customers; Item 1A, government contracts and termination provisions"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "interpretation",
+          "text": "AIP connects third-party, open-source, or self-hosted models with customer data and actions. Interpretation: Palantir sells operational integration and governance rather than being interchangeable with the underlying model suppliers.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, AIP"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "Palantir identifies internal software development as a central alternative, alongside enterprise software vendors, government contractors, and systems integrators. The issuer does not provide a complete ranked competitor map.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: an Ontology embedded in operational workflows can create switching costs. The claim depends on durable customer use and value; product descriptions alone cannot establish retention or pricing power.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Ontology and Foundry"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "On August 3 management raised full-year 2026 revenue guidance to USD 8,150–8,158 million. This forecast depends on continued deployment and expansion; it is neither earned revenue nor consensus.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Outlook, full year 2026"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For Q2 2026 ended June 30, GAAP revenue was USD 1,935.464 million, operating income USD 912.004 million, and net income attributable to common stockholders USD 1,061.890 million. Diluted GAAP EPS was USD 0.41. Common-stockholder net income differs from consolidated net income.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Statements of Operations, three months ended June 30, 2026"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C10",
+          "kind": "interpretation",
+          "text": "At June 30, cash and equivalents were USD 2,030.047 million and marketable securities USD 7,379.052 million. Q2 GAAP stock-based compensation expense was USD 265.209 million. Interpretation: assess equity compensation and dilution alongside cash generation.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Balance Sheets; Note 9, Stock-based Compensation Expense"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "The August release identifies Alex Karp as CEO. The quarterly filing describes founder-controlled Class F voting rights subject to an ownership threshold; ordinary shareholders should distinguish economic ownership from voting influence.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening CEO statement"
+            },
+            {
+              "source_id": "S02",
+              "locator": "Note 8, Stockholders Equity / Class F common stock"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "unavailable": "A current market price and forward consensus were not sourced. Any valuation must distinguish GAAP earnings, adjusted measures, and dilution; no current multiple or target is supplied."
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "management_guidance",
+          "text": "The August 3 outlook called for Q3 2026 revenue of USD 2,160–2,164 million. The next results will test that guidance; an independently verified release date was not retained in this packet.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Outlook, Q3 2026"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Interpretation: long sales cycles, contract termination, deployment friction, and data or AI governance failures can impede growth. Repeated weak conversion of deals to durable production revenue would challenge the adoption thesis.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Forward-Looking Statements, sales cycles, termination and deployment risks"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "interpretation",
+          "text": "Bull: customers expand production use; base: deployment remains uneven; bear: internal alternatives or procurement constraints slow adoption. These are assumptions. Contract durability, customer-level economics, and the recurring role of investment gains remain open questions.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "MD&A, Overview / Results of Operations; Item 1A risks"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "reported",
+          "text": "The 2024 Microsoft partnership pairs Palantir platforms with Azure government and classified environments. Classified availability was subject to authorization. This establishes an integration relationship, not exclusivity or proof that all announced deployments occurred.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Partnership scope and authorization condition"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "reported",
+          "text": "August 3, 2026: Palantir reported Q2 results and raised full-year guidance. The August 4 quarterly filing supplies GAAP statements and updated risk disclosures; adjusted operating income and cash-flow measures require their separate reconciliations.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Q2 Financial Summary; Outlook; non-GAAP reconciliations"
+            },
+            {
+              "source_id": "S02",
+              "locator": "Financial Statements; Item 1A, Risk Factors"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "Evidence cutoff 2026-10-18; latest financial statements reviewed cover 2026-06-30. SEC submission index was checked, but the issuer news site dynamically omitted article bodies on direct retrieval, so post-earnings news coverage is incomplete.",
+    "Current valuation, verified next earnings-release date, detailed customer concentration, and customer-level unit economics remain unsourced.",
+    "Liquidity amounts use all marketable securities in the balance sheet, not the narrower cash-plus-short-term-Treasury headline in the release.",
+    "Management forecasts and scenario assumptions are not realized results; no claim of independent verification of product superiority is made."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C08",
+      "name": "FY2026 revenue guidance low",
+      "value": 8150,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Outlook, full year 2026 revenue range",
+      "kind": "management_guidance"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C08",
+      "name": "FY2026 revenue guidance high",
+      "value": 8158,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Outlook, full year 2026 revenue range",
+      "kind": "management_guidance"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Revenue",
+      "value": 1935.464,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations (source amounts in thousands, converted to millions except EPS)"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C09",
+      "name": "Operating income",
+      "value": 912.004,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations (source amounts in thousands, converted to millions except EPS)"
+    },
+    {
+      "id": "M05",
+      "claim_id": "C09",
+      "name": "Net income attributable to common stockholders",
+      "value": 1061.89,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations (source amounts in thousands, converted to millions except EPS)"
+    },
+    {
+      "id": "M06",
+      "claim_id": "C09",
+      "name": "Diluted EPS attributable to common stockholders",
+      "value": 0.41,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations (source amounts in thousands, converted to millions except EPS)"
+    },
+    {
+      "id": "M07",
+      "claim_id": "C10",
+      "name": "Cash and cash equivalents",
+      "value": 2030.047,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets, cash and cash equivalents (thousands converted to millions)"
+    },
+    {
+      "id": "M08",
+      "claim_id": "C10",
+      "name": "Marketable securities",
+      "value": 7379.052,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets, marketable securities (thousands converted to millions)"
+    },
+    {
+      "id": "M09",
+      "claim_id": "C10",
+      "name": "Stock-based compensation expense",
+      "value": 265.209,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Note 9, total stock-based compensation expense (thousands converted to millions)"
+    },
+    {
+      "id": "M10",
+      "claim_id": "C12",
+      "name": "Q3 2026 revenue guidance low",
+      "value": 2160,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Outlook, Q3 2026 revenue range",
+      "kind": "management_guidance"
+    },
+    {
+      "id": "M11",
+      "claim_id": "C12",
+      "name": "Q3 2026 revenue guidance high",
+      "value": 2164,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Outlook, Q3 2026 revenue range",
+      "kind": "management_guidance"
+    }
+  ]
+}

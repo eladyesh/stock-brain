@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "ticker": "NVDA",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "published_at": "2026-02-25",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "NVIDIA Q2 FY2027 Form 10-Q",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "published_at": "2026-08-26",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+      "published_at": "2026-08-26",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "NVIDIA Form 8-K: proposed Hugging Face acquisition",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+      "published_at": "2026-09-03",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "NVIDIA supplies accelerated-computing platforms combining processors, networking, systems and software for AI, graphics and other compute-intensive workloads.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Our Company, p. 4"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "Reportable segments are Compute & Networking and Graphics. The Q2 FY2027 market presentation groups revenue into Data Center and Edge Computing; those market categories are not the reportable segments.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 13, Segment Information, pp. 22-24"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "CUDA and acceleration libraries accompany GPU platforms; NVIDIA also sells networking and enterprise software. The August release reports Vera Rubin ramping into full production.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Highlights / Data Center"
+            },
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Data Center, pp. 5-6"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "Direct buyers include distributors, OEMs, cloud providers and model makers. Revenue concentration among direct customers does not identify the ultimate users of their systems.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 13, Segment Information / direct and indirect customers, p. 23"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "NVIDIA uses outsourced manufacturing. Its annual report identifies TSMC and Samsung as foundries and Micron, SK hynix and Samsung as memory suppliers.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Manufacturing, p. 8"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "AMD and Intel compete in accelerated computing; large cloud customers also design substitutes internally. Broadcom appears among networking competitors. Competition differs by product rather than mapping neatly to one sector list.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition, pp. 8-9"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: software compatibility and system integration can reinforce adoption of successive NVIDIA platforms. They do not eliminate customer incentives to develop custom accelerators or negotiate price.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Our Company and Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "Management links growth to AI training, inference and emerging agent workloads. Its August outlook assumes no China Data Center compute revenue, emphasizing that geographic access is a constraint.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "CEO commentary and Outlook"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For Q2 FY2027 ended July 26, 2026, GAAP revenue was USD 96,221 million, operating income USD 63,734 million and net income USD 59,688 million.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Statements of Income, p. 3"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "At July 26, 2026, GAAP cash and equivalents were USD 22,443 million, separate from marketable investments. The subsequently announced Hugging Face acquisition remains conditional and should not be treated as completed.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Balance Sheets, p. 5"
+            },
+            {
+              "source_id": "S04",
+              "locator": "Item 8.01, proposed acquisition and closing conditions"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "The August 26 results identify Jensen Huang as founder and CEO and Colette Kress as executive vice president and CFO. Ownership and compensation have not been reviewed.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "CEO commentary; CFO commentary and conference-call information"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "unavailable": "No dated price, current capitalization, investment-adjusted enterprise value or consensus forecast is included. A valuation requires separating operating earnings from investment gains and testing AI-spending durability."
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "management_guidance",
+          "text": "NVIDIA expects the Hugging Face transaction to close in the first half of 2027, subject to customary conditions and regulatory approvals. Approval and integration remain uncertain.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 8.01, expected closing"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Supply commitments, export restrictions and customer financing expose the business to demand and execution risk. Interpretation: weakening deployments despite growing commitments would challenge the growth thesis.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 1A, Risk Factors / demand, supply, manufacturing and customer financing"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "interpretation",
+          "text": "Interpretation: bull requires sustained deployment of new platforms; base assumes orderly transitions; bear combines customer delays and competing accelerators. Investigate deployment economics and repeat demand rather than treating announced capacity as realized revenue.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Highlights and Cautionary Statement"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "reported",
+          "text": "Hugging Face is a proposed acquisition target, not yet a subsidiary in this packet. NVIDIA commits to an open platform supporting other silicon vendors if the transaction completes.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 8.01, open-platform commitment"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "reported",
+          "text": "NVIDIA signed the Hugging Face agreement on September 2 and disclosed it September 3, 2026. This extends the research focus from hardware deployment to model-development tooling and acquisition execution.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 8.01, agreement date and description"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "Draft: broader source review and a second claim-level pass are outstanding.",
+    "SEC inventory was checked through 2026-10-18, including the post-earnings September 3 filing; this is not exhaustive monitoring of all investor announcements.",
+    "No current valuation, ownership analysis, complete debt reconciliation or independent product benchmark is included.",
+    "Platform adoption, direct-customer concentration and ultimate end-user economics need deeper analysis."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C09",
+      "name": "Revenue",
+      "value": 96221,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-27",
+      "period_end": "2026-07-26",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Income / Revenue"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C09",
+      "name": "Operating income",
+      "value": 63734,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-27",
+      "period_end": "2026-07-26",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Income / Operating income"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Net income",
+      "value": 59688,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-27",
+      "period_end": "2026-07-26",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Income / Net income"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C10",
+      "name": "Cash and cash equivalents",
+      "value": 22443,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-07-26",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets / Cash and cash equivalents"
+    }
+  ]
+}

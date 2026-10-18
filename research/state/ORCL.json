@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "ticker": "ORCL",
+  "as_of": "2026-10-18",
+  "packet_sha256": "3cec7a0d416442e1633422d46f1e5f53a3a4a412ff744ea279d4cafd38438adf",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+      "sha256": "8ae8f5324717538f8c9a957a6a3db4ce091b3a325f102e6f08e817137fd56fd7",
+      "form": "10-K",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+      "sha256": "18aa70245770a73ef2f06539b4e6dab1d3db0eb5ef90dcd0ffe9fc3527b859fd",
+      "form": "10-Q",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm",
+      "sha256": "710a1f208f894d171a369fa02d85872623c1bfc3b1810d889d3724fb1476534e",
+      "form": "8-K",
+      "items": "8.01,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
+      "sha256": "3b985ac6df31ae0f63ffb1f71c53ffbe9946bc059acf7d7effb58b61c1ad3012",
+      "form": "8-K",
+      "items": "2.02,8.01,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+      "sha256": "f6ed6950eadc9f8f64a18487115a7e15e11cdc14f7c01f807dd9cb1e61873d5b",
+      "form": "IR",
+      "sections": [
+        "industry-and-value-chain",
+        "growth-drivers",
+        "risks-and-thesis-breakers",
+        "scenarios-and-open-questions",
+        "relationships-and-themes"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+      "sha256": "e95799a6281b856c4f1f693ccb88513723c43dbe15a0a77cd9b8ae9bcdfa4e1f",
+      "form": "IR",
+      "sections": [
+        "management-and-governance"
+      ]
+    }
+  ]
+}

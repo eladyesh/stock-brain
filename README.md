@@ -4,7 +4,7 @@ A structured, source-backed knowledge base for U.S.-listed stocks, written in En
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state:** the repository contains the knowledge structure and working maintenance tools. Company research has not been populated yet. Empty sectors and unresearched profiles are labeled explicitly. This is not a live market-data feed or a deployed question-answering application.
+**Current state (2026-10-18):** ten sourced company profiles: MSFT, MU and AVAV are reviewed dated snapshots; ORCL, PLTR, NVDA, AMD, AVGO, LMT and RTX remain drafts. Two bounded sector guides are reviewed. The pipeline collects primary sources, prepares evidence requests, renders drafts, validates reviews, and proposes incremental updates. An English retrieval baseline has 20 development questions. This is not a live market-data feed or a deployed question-answering application. The pilot reviews were performed by Codex with a separate evidence-checking agent, not human sign-off.
 
 ## Start here
 
@@ -16,6 +16,9 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |
 | [Data contract](docs/DATA_CONTRACT.md) | Metadata, identifiers, and validation |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
+| [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
+| [Pilot results](docs/PILOT.md) | Coverage, validation, collection timing, and limitations |
+| [Evidence contract](docs/EVIDENCE_PACKET.md) | Claim locators, metric definitions, and review binding |
 | [Contributing](CONTRIBUTING.md) | Add, research, validate, and update a company |
 
 ## Organization
@@ -31,6 +34,9 @@ The Markdown files are the source of truth. Every company uses the same sections
 | `templates/` | Canonical starting templates |
 | `data/catalog.json` | Generated machine-readable company catalog |
 | `scripts/stock_brain.py` | Add, validate, index, and export commands |
+| `scripts/research_company.py` | Source collection and evidence/review workflow |
+| `research/` | Evidence packets, review records, and compact source-state checkpoints |
+| `eval/` | Source-backed development questions and retrieval results |
 | `build/` | Local generated retrieval output; excluded from Git |
 
 A company has one primary sector. Tags such as `ai`, `defense`, or `data-centers` connect companies across sectors without duplicating their research. The 11 top-level sector names follow the broad [GICS sector structure](https://www.msci.com/indexes/index-resources/gics); individual company classifications are research decisions, not a licensed GICS constituent dataset.
@@ -48,17 +54,14 @@ python -m pip install -r requirements.txt
 python scripts/stock_brain.py check
 ```
 
-Create a company profile, for example:
+Inspect the populated pilot and validate its evidence:
 
 ```bash
-python scripts/stock_brain.py add \
-  --ticker MSFT \
-  --name "Microsoft Corporation" \
-  --sector information-technology \
-  --exchange NASDAQ
+python scripts/research_company.py audit
+python scripts/evaluate_retrieval.py
 ```
 
-This creates a **stub**, not researched company facts. Fill the profile using the research guide, update its metadata, and rebuild the indexes:
+After editing research, rebuild and validate:
 
 ```bash
 python scripts/stock_brain.py build
@@ -67,7 +70,7 @@ python -m unittest discover -s tests -v
 python scripts/stock_brain.py export --output build/chunks.jsonl
 ```
 
-The exporter includes only `reviewed` company profiles. With the initial empty knowledge base it produces zero chunks, successfully and explicitly. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are never embedded as company research.
+The exporter includes only `reviewed` company profiles and explicitly registered reviewed sector research. The pilot exports 59 chunks: 49 company chunks and 10 sector chunks. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are excluded. See the pipeline guide to collect sources or use an explicitly configured model runner.
 
 ## What is implemented
 
@@ -77,12 +80,16 @@ The exporter includes only `reviewed` company profiles. With the initial empty k
 - Validation of structure, metadata, source references, and review requirements.
 - Section-aware JSONL export with company context, evidence, dates, content hashes, and stable section identifiers.
 - A local test suite and GitHub Actions validation for changes.
+- Ten source-backed evidence packets, three separately audited reference profiles, and two bounded sector guides.
+- SEC submissions/company-facts collection, curated IR HTML/PDF sources, content-addressed caching, and disclosure-change detection.
+- Provider-neutral model runner protocol, optional Responses API adapter, deterministic metric calculations, and hash-bound review records.
+- Twenty retrieval/abstention development cases with a reproducible lexical baseline.
 
 ## Next stages
 
-1. Choose a coverage universe and research the first companies using primary sources.
-2. Expand coverage while keeping unknowns, review status, and source dates explicit.
-3. Select embeddings, lexical search, a vector store, and a retrieval evaluation set.
-4. Build question answering that cites its evidence and states when information is missing or stale.
+1. Independently review the seven drafts and close their recorded research gaps.
+2. Expand in cohorts of three to five issuers while monitoring collection and review effort.
+3. Add a held-out evaluation set, then compare embeddings/hybrid retrieval against the lexical baseline.
+4. Build cited question answering and evaluate answer factuality separately from retrieval.
 
-No API keys, scheduled scraping, external messaging, paid services, or embedding provider are required for this foundation.
+Local validation, collection and retrieval evaluation need no model API key. Automated model drafting is opt-in and requires explicit configuration; no scheduled job or paid request is enabled by default.

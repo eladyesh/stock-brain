@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "ticker": "LMT",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Form 10-K for the year ended December 31, 2025",
+      "publisher": "Lockheed Martin Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
+      "published_at": "2026-01-29",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "Form 10-Q for the quarter ended June 28, 2026",
+      "publisher": "Lockheed Martin Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/lmt-20260628.htm",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "Lockheed Martin Reports Second Quarter 2026 Financial Results",
+      "publisher": "Lockheed Martin Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/ex991q22026.htm",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "Form 8-K: revolving credit agreements dated August 24, 2026",
+      "publisher": "Lockheed Martin Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/d177255d8k.htm",
+      "published_at": "2026-08-28",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "Lockheed Martin designs, builds and sustains aerospace, missile, naval and space systems, principally for U.S. government agencies and allied governments.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, General"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "The four reporting segments are Aeronautics, Missiles and Fire Control, Rotary and Mission Systems, and Space. Sales include products and services.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 3, Information on Business Segments; Consolidated Statements of Earnings"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Major programs include F-35 aircraft, PAC-3 and THAAD interceptors, HIMARS launchers, Sikorsky helicopters, Aegis combat systems and Orion spacecraft.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business Segments"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "U.S. military agencies and NASA are disclosed customers. International sales use both direct contracts and foreign military sales through the U.S. government.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Regulatory Matters"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "The prime contractor depends on specialized suppliers, scarce materials and government funding. Supplier disruption can raise costs and delay program delivery.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Raw Materials, Suppliers and Seasonality"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "Company-identified peers include Boeing, General Dynamics, Northrop Grumman, L3Harris and RTX. A peer may compete on one program and partner on another.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: program incumbency, technical integration and sustainment capabilities support repeat work; procurement competition and government intellectual-property rights limit exclusivity.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Intellectual Property; Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "reported",
+          "text": "The July results attributed missile growth to PAC-3, THAAD and Precision Strike Missile production increases. Continued growth requires successful manufacturing expansion.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Segment Results, Missiles and Fire Control"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For March 30–June 28, 2026, GAAP sales were USD 20,063 million, net earnings USD 1,836 million and diluted EPS USD 7.94.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Consolidated Statements of Earnings, quarter ended June 28, 2026"
+            }
+          ]
+        },
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "Year-over-year profit comparisons benefit from the absence of large prior-year program losses. The rebound should not be treated entirely as recurring operational improvement.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Consolidated Operating Profit; Net Earnings and Diluted EPS"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "GAAP cash and equivalents were USD 3,791 million at June 28, 2026. GAAP operating cash inflow was USD 3,455 million for January 1–June 28, 2026.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Consolidated Balance Sheets; Consolidated Statements of Cash Flows"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "reported",
+          "text": "The July 23, 2026 results identify Jim Taiclet as chairman, president and CEO. Detailed compensation and ownership analysis remains outside this pilot.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening management commentary"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Interpretation: evaluate cash flow and earnings after distinguishing program charges and pension adjustments. No verified current share price, multiple or fair-value estimate is included.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Summary Financial Results; Use of Non-GAAP Financial Measures"
+            }
+          ]
+        }
+      ]
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "interpretation",
+          "text": "Monitoring trigger: subsequent results should test the higher July 2026 outlook and missile-production ramps. The next earnings announcement date was not sourced.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "2026 Financial Outlook; Missiles and Fire Control"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "interpretation",
+          "text": "Concentrated exposure to F-35, complex fixed-price development and supplier performance can produce delays or losses. Repeat material program charges would weaken an execution-improvement thesis.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1A, F-35; estimating costs; suppliers"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "interpretation",
+          "text": "Interpretation: upside requires profitable backlog conversion; downside includes program overruns or delayed funding. Test margin quality and working-capital needs before extrapolating the quarter.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Summary Financial Results; Forward-Looking Statements"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C17",
+          "kind": "reported",
+          "text": "RTX is both a named competitor and Lockheed Martin’s Javelin joint-venture partner. The Javelin relationship is specific; it does not imply cooperation across all programs.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Missiles and Fire Control / Javelin; Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C18",
+          "kind": "reported",
+          "text": "On August 24, 2026, Lockheed Martin entered a replacement revolving credit agreement and extended another facility. The related filing reports no borrowing at the new facility’s closing.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 1.01, 364-Day Revolving Credit Agreement; Extension of 5-Year Revolving Credit Agreement"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "No current stock price, consensus estimates or valuation multiples were sourced.",
+    "Filings-first pilot, with latest reported results through June 28, 2026; not an exhaustive subsequent news or contract-award feed.",
+    "Full debt maturities, pensions, compensation incentives and pending transaction developments require deeper review.",
+    "No independently verified next earnings release date."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C09",
+      "name": "Sales",
+      "value": 20063,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-30",
+      "period_end": "2026-06-28",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Consolidated Statements of Earnings / Total sales"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C09",
+      "name": "Net earnings",
+      "value": 1836,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-30",
+      "period_end": "2026-06-28",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Consolidated Statements of Earnings / Net earnings"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Diluted EPS",
+      "value": 7.94,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-03-30",
+      "period_end": "2026-06-28",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Consolidated Statements of Earnings / Diluted earnings per common share"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C11",
+      "name": "Cash and cash equivalents",
+      "value": 3791,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-28",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Consolidated Balance Sheets / Cash and cash equivalents"
+    },
+    {
+      "id": "M05",
+      "claim_id": "C11",
+      "name": "Operating cash flow",
+      "value": 3455,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-28",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Consolidated Statements of Cash Flows / Net cash provided by operating activities"
+    }
+  ]
+}

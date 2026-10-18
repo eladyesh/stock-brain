@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "ticker": "RTX",
+  "as_of": "2026-10-18",
+  "packet_sha256": "2fd4ed8a3cce9f0313ce4eddfd196cb57c280c8d29392534889d44c3e1f01cca",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+      "sha256": "405d936a0cef1dcbea6eb756bfbc467f9c3107c630d560c30309c9fc84877fdf",
+      "form": "10-K",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/rtx-20260630.htm",
+      "sha256": "9efb665d589b7aceecdca8c32bd7cc18581d49026db21368fb68e8658b5c36f9",
+      "form": "10-Q",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm",
+      "sha256": "47342d7cb6d61db86068ae360b2065576ed6ab2e8ec656d46efb7a7162e92eed",
+      "form": "8-K",
+      "items": "5.02,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000025/rtx-20260723.htm",
+      "sha256": "95c90b90082fb78c989b9d81a3ac8844c7526e2342e31a1aae4d96d761328471",
+      "form": "8-K",
+      "items": "2.02,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126018932/ef20072402_8k.htm",
+      "sha256": "6118767b1526456f5fd9dbd84c586c6e922c8446b1e35b4a1fcbe83aa22ab5e7",
+      "form": "8-K",
+      "items": "5.07"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000025/a2026-07x238xkerexhibit99.htm",
+      "sha256": "f3c04e996d841fd00f982a0ac81cec3b3bc3fcc930e2ea3ac65ddb2f6151f5a9",
+      "form": "IR",
+      "sections": [
+        "growth-drivers",
+        "financial-performance",
+        "management-and-governance",
+        "valuation-context",
+        "recent-developments"
+      ]
+    }
+  ]
+}

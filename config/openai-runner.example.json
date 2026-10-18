@@ -1,0 +1,4 @@
+{
+  "argv": ["python", "scripts/openai_runner.py"],
+  "timeout_seconds": 300
+}

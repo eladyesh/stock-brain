@@ -6,8 +6,12 @@
 
 ## Coverage
 
-Profiles: **0**. Reviewed: **0**.
+Profiles: **3**. Reviewed: **1**.
 
 ## Companies
 
-No company profiles yet. Coverage has not started.
+| Ticker | Company | Status | Research as of |
+| --- | --- | --- | --- |
+| [AVAV](companies/AVAV/README.md) | AeroVironment, Inc. | reviewed | 2026-10-18 |
+| [LMT](companies/LMT/README.md) | Lockheed Martin Corporation | draft | 2026-10-18 |
+| [RTX](companies/RTX/README.md) | RTX Corporation | draft | 2026-10-18 |

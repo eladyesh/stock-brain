@@ -1,0 +1,104 @@
+{
+  "ticker": "MU",
+  "packet_sha256": "80b9a14ba35d45c630613670f1c468fc00e571e93ea5fa540e0d5ea31a33aa2d",
+  "draft_sha256": "7ed8e75287c4f8e07d3bad85df5298c12032b18fafce2851543a46f9a9ad5173",
+  "reviewer": "Codex primary-source research with separate reference-evidence audit agent (AI review, not human sign-off)",
+  "reviewed_at": "2026-10-18",
+  "notes": "All claim and metric support checked against primary documents; three wording corrections resolved before this binding. See research/reviews/reference-audit.md and issuer notes for checks, metric reconciliation and scope. Reviewed as a constrained dated research snapshot, not exhaustive diligence or a valuation model.",
+  "claim_checks": [
+    {
+      "id": "C01",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Item 1, Business, Overview and Product Technologies, pp. 7-8"
+    },
+    {
+      "id": "C02",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Item 1, Products by Business Unit and Market, pp. 9-11"
+    },
+    {
+      "id": "C03",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S04: March 16 release, News highlights, product descriptions and footnotes 1-6"
+    },
+    {
+      "id": "C04",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Item 1, Marketing and Customers, p. 12"
+    },
+    {
+      "id": "C05",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S03: Prepared remarks, Manufacturing expansions pp. 2-3 and Market outlook p. 5"
+    },
+    {
+      "id": "C06",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Item 1, Competitive Conditions, p. 12"
+    },
+    {
+      "id": "C07",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S04: March 16 release, collaboration statement and product integration descriptions"
+    },
+    {
+      "id": "C08",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S03: Prepared remarks, Data center, pp. 3-4"
+    },
+    {
+      "id": "C09",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S02: Quarterly Financial Results and Annual Financial Results, pp. 1-2; S01: Definitions, fiscal-year convention, p. 5"
+    },
+    {
+      "id": "C10",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S02: Consolidated Balance Sheets, p. 6; S01: Note 1, Revenue Recognition / Contract Liabilities"
+    },
+    {
+      "id": "C11",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Information About Our Executive Officers, pp. 20-21"
+    },
+    {
+      "id": "C12",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S03: Prepared remarks, Manufacturing expansions, pp. 2-3"
+    },
+    {
+      "id": "C13",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S01: Item 1A, Risk Factors; product pricing, competition, technology and trade restrictions"
+    },
+    {
+      "id": "C14",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S03: Prepared remarks, Data center and Market outlook, pp. 3-5"
+    },
+    {
+      "id": "C15",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S04: March 16 release, NVIDIA collaboration and product integration descriptions"
+    },
+    {
+      "id": "C16",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S02: Product Highlights, p. 3"
+    },
+    {
+      "id": "C17",
+      "result": "supported",
+      "note": "Primary-source passages read and independently checked; see reference-audit.md MU claim table. Evidence: S02: Product Highlights, p. 3"
+    }
+  ],
+  "gaps_acknowledged": [
+    "This pilot checks SEC filing inventory through 2026-10-18 and the named issuer documents; it is not an exhaustive review of every intervening announcement.",
+    "Verify customer-level concentration, geographic exposure and strategic-agreement enforceability before building a detailed model.",
+    "Obtain a current proxy and independently benchmark product claims; no valuation or investment recommendation is established.",
+    "The unusually large FY2026 financial results were checked against the issuer release and filed 10-K; scenario normalization is still missing."
+  ],
+  "packet_path": "research/pilot/MU.json",
+  "profile_path": "sectors/information-technology/companies/MU/README.md",
+  "approved_profile_sha256": "c733c5b0f07cf7235e5975890b5963f39b60dc0912866c420bb17887e8786302"
+}

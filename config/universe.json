@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "scope": "Ten U.S.-listed common-stock issuers; a pilot, not complete market coverage or an investment recommendation.",
+  "companies": [
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "cik": "0000789019",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Enterprise software and cloud infrastructure",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "cloud",
+        "software",
+        "data-centers"
+      ],
+      "group": "software",
+      "reference_review": true,
+      "extra_sources": [
+        {
+          "title": "Microsoft Cloud and AI Strength Fuels Fourth Quarter Results",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "published_at": "2026-07-29",
+          "sections": [
+            "financial-performance",
+            "balance-sheet-and-capital-allocation"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
+          "published_at": "2026-07-29",
+          "sections": [
+            "industry-and-value-chain",
+            "growth-drivers",
+            "balance-sheet-and-capital-allocation",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "FY27 Segments and Investor Metrics, Form 8-K Exhibit 99.1",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965dex991.htm",
+          "published_at": "2026-09-02",
+          "sections": [
+            "revenue-model-and-segments",
+            "products-and-services",
+            "moat-and-differentiation"
+          ],
+          "mutable": false
+        },
+        {
+          "title": "Microsoft announces quarterly dividend increase",
+          "publisher": "Microsoft Corporation",
+          "url": "https://news.microsoft.com/source/2026/09/15/microsoft-announces-quarterly-dividend-increase-7/",
+          "published_at": "2026-09-15",
+          "sections": [
+            "management-and-governance",
+            "recent-developments"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "Microsoft Investor Relations: upcoming FY27 Q1 earnings",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.microsoft.com/en-us/investor/default",
+          "published_at": null,
+          "sections": [
+            "catalysts"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "Palantir and Microsoft Partner to Deliver Enhanced Analytics and AI Services to Classified Networks for Critical National Security Operations",
+          "publisher": "Microsoft Corporation and Palantir Technologies Inc.",
+          "url": "https://news.microsoft.com/source/2024/08/08/palantir-and-microsoft-partner-to-deliver-enhanced-analytics-and-ai-services-to-classified-networks-for-critical-national-security-operations/",
+          "published_at": "2024-08-08",
+          "sections": [
+            "relationships-and-themes"
+          ],
+          "mutable": true
+        }
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "company_name": "Oracle Corporation",
+      "cik": "0001341439",
+      "exchange": "NYSE",
+      "sector": "information-technology",
+      "industry": "Enterprise software and cloud infrastructure",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "cloud",
+        "software",
+        "data-centers"
+      ],
+      "group": "software",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "Oracle Announces Q1 Results Driven by Triple Digit Growth in Cloud Infrastructure Revenues, Form 8-K Exhibit 99.1",
+          "publisher": "Oracle Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+          "published_at": "2026-09-10",
+          "sections": [
+            "industry-and-value-chain",
+            "growth-drivers",
+            "risks-and-thesis-breakers",
+            "scenarios-and-open-questions",
+            "relationships-and-themes"
+          ],
+          "mutable": false
+        },
+        {
+          "title": "Oracle 2026 proxy statement",
+          "publisher": "Oracle Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526402816/orcl-20260925.htm",
+          "published_at": "2026-09-25",
+          "sections": [
+            "management-and-governance"
+          ],
+          "mutable": false
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "company_name": "Palantir Technologies Inc.",
+      "cik": "0001321655",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Enterprise analytics software",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "software",
+        "defense"
+      ],
+      "group": "software",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "Palantir Q2 2026 earnings release, Form 8-K Exhibit 99.1",
+          "publisher": "Palantir Technologies Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+          "published_at": "2026-08-03",
+          "sections": [
+            "growth-drivers",
+            "management-and-governance",
+            "catalysts",
+            "risks-and-thesis-breakers",
+            "recent-developments"
+          ],
+          "mutable": false
+        },
+        {
+          "title": "Palantir and Microsoft Partner to Deliver Enhanced Analytics and AI Services to Classified Networks for Critical National Security Operations",
+          "publisher": "Microsoft Corporation and Palantir Technologies Inc.",
+          "url": "https://news.microsoft.com/source/2024/08/08/palantir-and-microsoft-partner-to-deliver-enhanced-analytics-and-ai-services-to-classified-networks-for-critical-national-security-operations/",
+          "published_at": "2024-08-08",
+          "sections": [
+            "relationships-and-themes"
+          ],
+          "mutable": true
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "cik": "0000723125",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Memory and storage semiconductors",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "semiconductors",
+        "memory",
+        "data-centers"
+      ],
+      "group": "semiconductors",
+      "reference_review": true,
+      "extra_sources": [
+        {
+          "title": "Micron Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results",
+          "publisher": "Micron Technology, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+          "published_at": "2026-09-30",
+          "sections": [
+            "financial-performance",
+            "balance-sheet-and-capital-allocation",
+            "recent-developments"
+          ],
+          "mutable": false
+        },
+        {
+          "title": "Fiscal Q4 2026 Earnings Call Prepared Remarks",
+          "publisher": "Micron Technology, Inc.",
+          "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+          "published_at": "2026-09-30",
+          "sections": [
+            "industry-and-value-chain",
+            "growth-drivers",
+            "catalysts",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+          "publisher": "Micron Technology, Inc.",
+          "url": "https://micron.gcs-web.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+          "published_at": "2026-03-16",
+          "sections": [
+            "products-and-services",
+            "moat-and-differentiation",
+            "relationships-and-themes"
+          ],
+          "mutable": true
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "cik": "0001045810",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Accelerated computing semiconductors",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "semiconductors",
+        "data-centers"
+      ],
+      "group": "semiconductors",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "publisher": "NVIDIA Corporation",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "published_at": "2026-08-26",
+          "sections": [
+            "products-and-services",
+            "growth-drivers",
+            "management-and-governance",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": true
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices, Inc.",
+      "cik": "0000002488",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Computing semiconductors",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "semiconductors",
+        "data-centers"
+      ],
+      "group": "semiconductors",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "AMD Reports Second Quarter 2026 Financial Results",
+          "publisher": "Advanced Micro Devices, Inc.",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          "published_at": "2026-08-04",
+          "sections": [
+            "growth-drivers",
+            "management-and-governance",
+            "catalysts",
+            "risks-and-thesis-breakers",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": true
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom Inc.",
+      "cik": "0001730168",
+      "exchange": "NASDAQ",
+      "sector": "information-technology",
+      "industry": "Semiconductors and infrastructure software",
+      "domicile_country": "US",
+      "tags": [
+        "ai",
+        "semiconductors",
+        "software",
+        "data-centers"
+      ],
+      "group": "semiconductors",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "Broadcom Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+          "publisher": "Broadcom Inc.",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+          "published_at": "2026-09-02",
+          "sections": [
+            "growth-drivers",
+            "financial-performance",
+            "management-and-governance",
+            "catalysts"
+          ],
+          "mutable": true
+        },
+        {
+          "title": "NVIDIA FY2026 Form 10-K: networking competitors",
+          "publisher": "NVIDIA Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "published_at": "2026-02-25",
+          "sections": [
+            "competitive-landscape",
+            "relationships-and-themes"
+          ],
+          "mutable": false
+        }
+      ]
+    },
+    {
+      "ticker": "AVAV",
+      "company_name": "AeroVironment, Inc.",
+      "cik": "0001368622",
+      "exchange": "NASDAQ",
+      "sector": "industrials",
+      "industry": "Defense technology and autonomous systems",
+      "domicile_country": "US",
+      "tags": [
+        "defense",
+        "autonomous-systems",
+        "space"
+      ],
+      "group": "defense",
+      "reference_review": true,
+      "extra_sources": [
+        {
+          "title": "AeroVironment Announces Fiscal 2027 First Quarter Results",
+          "publisher": "AeroVironment, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm",
+          "published_at": "2026-09-09",
+          "sections": [
+            "growth-drivers",
+            "financial-performance",
+            "management-and-governance",
+            "valuation-context",
+            "catalysts"
+          ],
+          "mutable": false
+        },
+        {
+          "title": "2026 Proxy Statement",
+          "publisher": "AeroVironment, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926096689/tm264166-4_def14a.htm",
+          "published_at": "2026-08-14",
+          "sections": [
+            "management-and-governance"
+          ],
+          "mutable": false
+        }
+      ]
+    },
+    {
+      "ticker": "LMT",
+      "company_name": "Lockheed Martin Corporation",
+      "cik": "0000936468",
+      "exchange": "NYSE",
+      "sector": "industrials",
+      "industry": "Aerospace and defense",
+      "domicile_country": "US",
+      "tags": [
+        "defense",
+        "aerospace",
+        "space"
+      ],
+      "group": "defense",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "Lockheed Martin Reports Second Quarter 2026 Financial Results",
+          "publisher": "Lockheed Martin Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/ex991q22026.htm",
+          "published_at": "2026-07-23",
+          "sections": [
+            "growth-drivers",
+            "financial-performance",
+            "management-and-governance",
+            "valuation-context",
+            "catalysts",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": false
+        }
+      ]
+    },
+    {
+      "ticker": "RTX",
+      "company_name": "RTX Corporation",
+      "cik": "0000101829",
+      "exchange": "NYSE",
+      "sector": "industrials",
+      "industry": "Aerospace and defense",
+      "domicile_country": "US",
+      "tags": [
+        "defense",
+        "aerospace",
+        "commercial-aviation"
+      ],
+      "group": "defense",
+      "reference_review": false,
+      "extra_sources": [
+        {
+          "title": "RTX Reports Q2 2026 Results",
+          "publisher": "RTX Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000025/a2026-07x238xkerexhibit99.htm",
+          "published_at": "2026-07-23",
+          "sections": [
+            "growth-drivers",
+            "financial-performance",
+            "management-and-governance",
+            "valuation-context",
+            "recent-developments"
+          ],
+          "mutable": false
+        }
+      ]
+    }
+  ]
+}

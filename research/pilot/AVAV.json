@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "ticker": "AVAV",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Form 10-K for the fiscal year ended April 30, 2026",
+      "publisher": "AeroVironment, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm",
+      "published_at": "2026-06-29",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "Form 10-Q for the fiscal quarter ended August 1, 2026",
+      "publisher": "AeroVironment, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/avav-20260801x10q.htm",
+      "published_at": "2026-09-10",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "AeroVironment Announces Fiscal 2027 First Quarter Results",
+      "publisher": "AeroVironment, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm",
+      "published_at": "2026-09-09",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "Form 8-K: September 24, 2026 annual meeting voting results",
+      "publisher": "AeroVironment, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926112083/tm2626631d1_8k.htm",
+      "published_at": "2026-09-30",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S05",
+      "title": "2026 Proxy Statement",
+      "publisher": "AeroVironment, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926096689/tm264166-4_def14a.htm",
+      "published_at": "2026-08-14",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "AeroVironment develops autonomous, precision-strike, counter-drone, space and cyber capabilities for defense customers. The latest quarter covered here ended August 1, 2026.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 1, Organization and Significant Accounting Policies; cover page"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "The reportable segments are Autonomous Systems (AxS) and Space, Cyber and Directed Energy (SCDE). Revenue comes from hardware, support, customer-funded development and mission services, principally through fixed-price and cost-plus contracts.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 7, Overview / Revenue"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Examples include Puma and JUMP reconnaissance aircraft, Switchblade loitering munitions, Titan counter-drone systems and LOCUST laser systems. Product families address different missions; their technical capabilities should not be treated as interchangeable.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Autonomous Systems; Space, Cyber and Directed Energy"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "Disclosed buyers include U.S. military services, intelligence agencies, allied governments and government subcontractors. U.S. Army purchases can include orders for other defense organizations; country exposure must therefore distinguish end users from contracting agencies.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Customers"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "The company combines engineering, supplier management, assembly, integration, testing and field support. Contract awards, appropriations, component availability and customer acceptance affect delivery timing.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Manufacturing and Operations; Seasonality"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "The annual report identifies Lockheed Martin and RTX among loitering-munitions and counter-drone competitors, and Anduril and Elbit among precision-strike competitors. These are company-identified competitive overlaps, not verified market-share rankings.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: integrated autonomy, installed products and field support may support repeat procurement. This does not establish a durable moat: government intellectual-property rights and rapid technology changes constrain exclusivity.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Technological Competence and Intellectual Property; Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "Management prioritizes manufacturing capacity and supply-chain expansion to meet autonomous-system demand. Conversion of funded orders into deliveries is the test; management commentary is not an independent demand forecast.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening management commentary"
+            }
+          ]
+        },
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "The latest quarter also showed Switchblade order delays and lower SCDE revenue associated with the terminated SCAR program and reduced cyber-service contract scope. Consolidated expansion should not be generalized to every product line.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 2, Results of Operations / Revenue; SCDE Revenue"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "For May 1–August 1, 2026, GAAP revenue was USD 480.490 million, versus USD 454.676 million in the prior fiscal first quarter ended August 2, 2025. GAAP net loss was USD 5.066 million; GAAP diluted loss per share was USD 0.10.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Condensed Consolidated Statements of Operations, three months ended August 1, 2026 and August 2, 2025"
+            }
+          ]
+        },
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "For that same fiscal 2027 first quarter, company-defined non-GAAP adjusted EBITDA was USD 53.4 million and adjusted diluted EPS was USD 0.59. These exclude specified expenses and are not GAAP profit or operating cash flow.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Fiscal 2027 First Quarter Results; Non-GAAP Measures and reconciliations"
+            }
+          ]
+        },
+        {
+          "id": "C12",
+          "kind": "derived",
+          "text": "Calculated revenue growth for those fiscal first quarters was 5.68%. Acquisition contributions and differing product trends mean this consolidated rate is not a pure organic-growth measure.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Condensed Consolidated Statements of Operations, revenue; Item 2 Revenue in S02"
+            },
+            {
+              "source_id": "S02",
+              "locator": "Item 2, Results of Operations / Revenue"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "reported",
+          "text": "At August 1, 2026, GAAP cash and equivalents were USD 278.390 million, short-term investments USD 301.837 million and long-term debt carrying value USD 730.057 million.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Balance Sheets; Note 9, Debt"
+            }
+          ]
+        },
+        {
+          "id": "C14",
+          "kind": "reported",
+          "text": "GAAP operating cash inflow was USD 13.496 million for May 1–August 1, 2026. Positive operating cash flow should be assessed alongside capital spending and increases in inventory and unbilled receivables.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Statements of Cash Flows; Item 2, Liquidity and Capital Resources"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "reported",
+          "text": "The August 14 proxy identifies Wahid Nawabi as chair, president and CEO, and Sean Woodward as CFO; September disclosures confirm those roles. September 24 shareholders elected the nominated directors and approved executive compensation on an advisory basis.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Executive Officers, information as of August 14, 2026"
+            },
+            {
+              "source_id": "S03",
+              "locator": "Conference Call and Presentation"
+            },
+            {
+              "source_id": "S04",
+              "locator": "Item 5.07, Proposals 1 and 3"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "interpretation",
+          "text": "Interpretation: compare GAAP earnings, cash generation and reconciled adjusted EBITDA separately because acquisition amortization materially affects reported profit. No current price, enterprise value or target multiple is supplied; market valuation remains unresearched.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Fiscal 2027 First Quarter Results; Non-GAAP Measures"
+            }
+          ]
+        }
+      ]
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C17",
+          "kind": "interpretation",
+          "text": "Monitoring trigger: the next fiscal 2027 results should test backlog conversion, production expansion and the reiterated annual outlook. The fiscal year ends April 30, 2027; no date for the next earnings release was verified.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Fiscal 2027 Outlook for the Full Year"
+            },
+            {
+              "source_id": "S02",
+              "locator": "Note 1, Basis of Presentation"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C18",
+          "kind": "reported",
+          "text": "The SCAR agreement was terminated for convenience in March 2026. The latest quarterly report also discloses continuing weaknesses in BlueHalo IT controls and goodwill-review controls, plus related securities litigation; allegations are not findings of liability.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 2, Critical Accounting Policies / Goodwill; Item 4, Controls and Procedures; Part II Item 1, Legal Proceedings"
+            },
+            {
+              "source_id": "S01",
+              "locator": "Item 1A, acquisition and goodwill impairment risks"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C19",
+          "kind": "interpretation",
+          "text": "Interpretation: upside requires profitable deliveries; downside includes order delays or impairments. Verify control remediation, organic growth and cash conversion before strengthening a thesis.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 2, Results of Operations; Item 4, Controls and Procedures"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C20",
+          "kind": "reported",
+          "text": "BlueHalo was acquired on May 1, 2025; ESAero on March 16, 2026. These are ownership relationships. Shared autonomy and counter-drone themes alone establish no commercial relationship.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 15, Business Acquisitions / BlueHalo Acquisition; ESAero Acquisition"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C21",
+          "kind": "reported",
+          "text": "The September 30 filing reports September 24 annual-meeting votes. This October 18 evidence cutoff covers reviewed filings, not an exhaustive announcement feed.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 5.07, Submission of Matters to a Vote of Security Holders"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "No independently sourced current stock price, consensus estimates or valuation multiples.",
+    "Filings-first pilot; all company announcements and contract awards through the cutoff have not been exhaustively catalogued.",
+    "Full product-level market shares, organic-growth reconciliation and customer retention are not established.",
+    "Internal-control remediation and pending litigation require subsequent evidence; no clean-audit or litigation-outcome conclusion is inferred.",
+    "Financial reference window: latest reported quarter ended August 1, 2026, not current trading data."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C10",
+      "name": "Revenue",
+      "value": 480.49,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Revenue"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C10",
+      "name": "Prior-year fiscal first-quarter revenue",
+      "value": 454.676,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-05-01",
+      "period_end": "2025-08-02",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Revenue"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C10",
+      "name": "Net income (loss)",
+      "value": -5.066,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Net loss"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C10",
+      "name": "Diluted EPS",
+      "value": -0.1,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Net loss per share, diluted"
+    },
+    {
+      "id": "M05",
+      "claim_id": "C11",
+      "name": "Adjusted EBITDA",
+      "value": 53.4,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "non-GAAP",
+      "source_id": "S03",
+      "locator": "Fiscal 2027 First Quarter Results / Non-GAAP adjusted EBITDA"
+    },
+    {
+      "id": "M06",
+      "claim_id": "C11",
+      "name": "Adjusted diluted EPS",
+      "value": 0.59,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "non-GAAP",
+      "source_id": "S03",
+      "locator": "Fiscal 2027 First Quarter Results / Non-GAAP earnings per diluted share"
+    },
+    {
+      "id": "M07",
+      "claim_id": "C12",
+      "name": "Revenue growth",
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Revenue",
+      "calculation": {
+        "operation": "growth_pct",
+        "inputs": [
+          "M01",
+          "M02"
+        ]
+      }
+    },
+    {
+      "id": "M08",
+      "claim_id": "C13",
+      "name": "Cash and cash equivalents",
+      "value": 278.39,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets / Cash and cash equivalents"
+    },
+    {
+      "id": "M09",
+      "claim_id": "C13",
+      "name": "Short-term investments",
+      "value": 301.837,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets / Short-term investments"
+    },
+    {
+      "id": "M10",
+      "claim_id": "C13",
+      "name": "Long-term debt carrying value",
+      "value": 730.057,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets / Long-term debt"
+    },
+    {
+      "id": "M11",
+      "claim_id": "C14",
+      "name": "Operating cash flow",
+      "value": 13.496,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-01",
+      "period_end": "2026-08-01",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Cash Flows / Net cash provided by operating activities"
+    }
+  ]
+}
