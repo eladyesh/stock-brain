@@ -1,0 +1,12 @@
+# Contributor instructions
+
+- Keep all repository content, code, comments, and output in English.
+- Markdown company profiles are the source of truth; preserve the ordered sections in `config/sections.json`.
+- Keep company IDs stable across ticker, company-name, and sector changes.
+- Never fabricate company facts, sources, financial numbers, or research review status.
+- New profiles start as stubs. Review must be based on actual evidence, not passing format validation.
+- Update source dates and distinguish reported facts, guidance, estimates, and interpretation.
+- Do not hand-edit generated indexes or `data/catalog.json`; use the build command.
+- Do not include stubs, drafts, templates, indexes, or archives in retrieval exports.
+- After changes, run the validator and the tests relevant to changed behavior.
+- Keep credentials and generated embeddings out of Git.
