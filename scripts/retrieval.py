@@ -11,6 +11,8 @@ from pathlib import Path
 import re
 import unicodedata
 
+import query_contract
+
 ROOT = Path(__file__).resolve().parents[1]
 STOP = set('a an the is are was were of for in and to what which how does do its by as on with from s me give explain describe summarize tell about main reported report company companies corporation inc corp current latest has have versus vs compare'.split())
 
@@ -99,11 +101,14 @@ def retrieve(question, records, universe, top_k=6, root=None):
         candidates = [r for r in records if r.get('ticker') in entities]
     if not candidates:
         return refuse('No reviewed evidence exists for this scope.', 'no_evidence', entities)
-    years = re.findall(r'\b(?:19|20)\d{2}\b', q)
-    if years and 'financial-performance' in hints:
-        candidates = [r for r in candidates if all(y in r['text'].split('\n\n', 1)[-1] for y in years)]
-        if not candidates:
-            return refuse('The requested financial period is not in the reviewed evidence.', 'unsupported_period', entities)
+    candidates, allowed_claims, contract_error = query_contract.constrain(
+        question, candidates, entities, hints, root or ROOT)
+    if contract_error:
+        result = refuse('The requested metric, period, basis or scope is not fully supported.', contract_error['code'], entities)
+        result['missing_evidence'] = contract_error['missing']
+        return result
+    if allowed_claims:
+        hints = list(dict.fromkeys(r['section_id'] for r in candidates))
     # Ranking excludes metadata headers, so an issuer symbol alone cannot create a hit.
     docs = [tokens(r['text'].split('\n\n', 1)[-1]) for r in candidates]
     if not docs:
@@ -137,7 +142,11 @@ def retrieve(question, records, universe, top_k=6, root=None):
     for _, record in ranked:
         if record['id'] not in chosen and len(chosen) < top_k:
             chosen.append(record['id'])
+    comparison = query_contract.parse(question)['comparison']
+    present = {r.get('ticker') for _, r in ranked if r['id'] in chosen}
+    if comparison and set(entities) - present:
+        return refuse('Evidence is missing for at least one comparison issuer.', 'incomplete_comparison', entities)
     if not chosen:
         return refuse('No matching reviewed evidence was found.', 'no_evidence', entities)
     return {'abstain': False, 'reason': None, 'reason_code': None, 'chunk_ids': chosen,
-            'entities': entities, 'section_ids': hints}
+            'entities': entities, 'section_ids': hints, 'allowed_claim_ids': allowed_claims}

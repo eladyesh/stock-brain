@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "ticker": "PLTR",
+  "price": 186.03,
+  "currency": "USD",
+  "trade_at": "2026-10-16T20:00:01+00:00",
+  "retrieved_at": "2026-10-18T12:38:17.522985+00:00",
+  "exchange": "NMS",
+  "price_type": "last_regular_session_trade",
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/quote/PLTR/",
+  "split_events": [],
+  "status": "available",
+  "limitations": [
+    "Provider snapshot; may be delayed. Not an exchange-certified real-time quote.",
+    "A current price does not make older financial statements current."
+  ],
+  "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?interval=1mo&range=5y&events=splits",
+  "source_sha256": "86dc5a4fec4bda2f0633891d16e6063b67f86ddee33452dc0f6adc8cb717d452"
+}

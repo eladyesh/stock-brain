@@ -7,12 +7,28 @@
     "AMD": ["https://ir.amd.com/news-events/press-releases/rss"],
     "AVGO": ["https://investors.broadcom.com/rss/news-releases.xml"],
     "LMT": ["https://news.lockheedmartin.com/news-releases?pagetemplate=rss"],
-    "RTX": ["https://www.rtx.com/rss-feeds/news"]
+    "RTX": ["https://www.rtx.com/rss-feeds/news"],
+    "AVAV": ["https://investor.avinc.com/rss/news-releases.xml"],
+    "ORCL": ["https://www.oracle.com/corporate/press/rss/rss-pr.xml"]
+  },
+  "issuer_adapters": {
+    "MU": [{
+      "kind": "q4_news",
+      "url": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year={year}&includeTags=true&pressReleaseDateFilter=1",
+      "documented_by": "https://investors.micron.com/js/module/widgets/dist/latest/evergreen.q4Api.min.js",
+      "issuer_page": "https://investors.micron.com/news/default.aspx"
+    }],
+    "PLTR": [{
+      "kind": "q4_news",
+      "url": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year={year}&includeTags=true&pressReleaseDateFilter=1",
+      "documented_by": "https://investors.palantir.com/bundle.js",
+      "issuer_page": "https://investors.palantir.com/news"
+    }]
   },
   "coverage_notes": {
-    "MU": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
-    "AVAV": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
-    "ORCL": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
-    "PLTR": "SEC discovery enabled; dynamic issuer news listings require a separate adapter."
+    "MU": "Public Q4 JSON list used by the issuer news page; verified locally on 2026-10-18. Its former Drupal RSS endpoint returns 404.",
+    "AVAV": "Official issuer RSS verified locally on 2026-10-18; rolling feed coverage is not an exhaustive announcement archive.",
+    "ORCL": "RSS is documented at https://www.oracle.com/corporate/rss/ and readable via web retrieval; local fetch on 2026-10-18 returned Site Unavailable HTML. This remains an explicit source-access error until a permitted host retrieves valid RSS.",
+    "PLTR": "Public Q4 JSON list used by the issuer's own news-page JavaScript; verified locally on 2026-10-18. HTML app shells are not accepted as empty feeds."
   }
 }

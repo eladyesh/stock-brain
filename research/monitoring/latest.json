@@ -1,157 +1,367 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-18T08:32:25.075388+00:00",
+  "checked_at": "2026-10-18T12:35:40.094967+00:00",
   "cutoff": "2026-10-18",
   "companies": {
     "MSFT": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "3ee790a4ccf36d6279e7c5775a8374c0178c046a6994ca195478fac71c1291a5",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 1
+        },
+        {
+          "source": "https://news.microsoft.com/source/feed/",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 10,
+          "candidate_count": 10,
+          "warnings": [],
+          "source_sha256": "e1fd172f8dc1ae410dff84d23141b3eff0ca627b912403703eed808908ccd37d",
+          "latest_publication": "2026-10-16"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 11
+      "pending_count": 10,
+      "reviewed_disposition_count": 1
     },
     "ORCL": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "3cec7a0d416442e1633422d46f1e5f53a3a4a412ff744ea279d4cafd38438adf",
-      "status": "needs_review",
-      "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
-      "issuer_feed_count": 0,
+      "status": "error",
+      "coverage_status": "error",
+      "errors": [
+        {
+          "source": "https://www.oracle.com/corporate/press/rss/rss-pr.xml",
+          "error": "source is not an RSS or Atom feed (an HTML error page is not an empty feed)"
+        }
+      ],
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 1
+        },
+        {
+          "source": "https://www.oracle.com/corporate/press/rss/rss-pr.xml",
+          "kind": "rss",
+          "status": "error"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
+      "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
-      "coverage_note": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+      "coverage_note": "RSS is documented at https://www.oracle.com/corporate/rss/ and readable via web retrieval; local fetch on 2026-10-18 returned Site Unavailable HTML. This remains an explicit source-access error until a permitted host retrieves valid RSS.",
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 1
+      "pending_count": 1,
+      "reviewed_disposition_count": 0
     },
     "PLTR": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "3f321ce7b8090e7c9d62f96e3d21e185ec1233e03506aa7de9419d59f97d3cb1",
-      "status": "partial",
+      "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 0
+        },
+        {
+          "source": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+          "kind": "q4_news",
+          "status": "checked",
+          "entry_count": 49,
+          "candidate_count": 15,
+          "warnings": [],
+          "source_sha256": "f93bffd57ba6635d79b0cfed8270a5b2b4af9e54ef0b191cfa563d2ad48b2054",
+          "latest_publication": "2026-10-15"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 0,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
-      "coverage_note": "SEC discovery enabled; dynamic issuer news listings require a separate adapter.",
+      "coverage_note": "Public Q4 JSON list used by the issuer's own news-page JavaScript; verified locally on 2026-10-18. HTML app shells are not accepted as empty feeds.",
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 0
+      "pending_count": 15,
+      "reviewed_disposition_count": 0
     },
     "MU": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "80b9a14ba35d45c630613670f1c468fc00e571e93ea5fa540e0d5ea31a33aa2d",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 1
+        },
+        {
+          "source": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+          "kind": "q4_news",
+          "status": "checked",
+          "entry_count": 39,
+          "candidate_count": 8,
+          "warnings": [],
+          "source_sha256": "c0e8e021031c003e7aa2e10c80acac8b62754a8d8abb7506f60959f7b6808f5b",
+          "latest_publication": "2026-09-30"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 0,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
-      "coverage_note": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+      "coverage_note": "Public Q4 JSON list used by the issuer news page; verified locally on 2026-10-18. Its former Drupal RSS endpoint returns 404.",
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 1
+      "pending_count": 8,
+      "reviewed_disposition_count": 1
     },
     "NVDA": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "da235a0cf3675ea2f215418e7ad2456fc250876406a69702420f7ebda1730a54",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 2
+        },
+        {
+          "source": "https://nvidianews.nvidia.com/rss.xml",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 20,
+          "candidate_count": 20,
+          "warnings": [],
+          "source_sha256": "c7b258d4edafe25b9aac806e9bde306482e1a9139b8b01891dbcb5e8de3b0b32",
+          "latest_publication": "2026-10-17"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 22
+      "pending_count": 22,
+      "reviewed_disposition_count": 0
     },
     "AMD": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "41d7f7006a02c9513c46ef3e9eb06bcc1b09ab2e0342814c97949754478ef691",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 1
+        },
+        {
+          "source": "https://ir.amd.com/news-events/press-releases/rss",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 10,
+          "candidate_count": 10,
+          "warnings": [],
+          "source_sha256": "e74ab5f93da96f63bd98c6047d24fea96973ef4e769f87da58909ac9c1279f9a",
+          "latest_publication": "2026-10-12"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 10
+      "pending_count": 10,
+      "reviewed_disposition_count": 0
     },
     "AVGO": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "9a366e0f6e132d7cd3b308f2ff78c49a3ad05836dc0732a31aabeeb8fb62d7b5",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 1
+        },
+        {
+          "source": "https://investors.broadcom.com/rss/news-releases.xml",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 10,
+          "candidate_count": 10,
+          "warnings": [],
+          "source_sha256": "f716f9015792d22a63f643263084d8551c465b8c848fa7dd2884c8145b7cab5c",
+          "latest_publication": "2026-10-13"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 10
+      "pending_count": 9,
+      "reviewed_disposition_count": 1
     },
     "AVAV": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "2b78bc9f35d9e416c4328036bd589f972354a5ccc53190c3bbd3d371cb5af7d1",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
-      "issuer_feed_count": 0,
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 2
+        },
+        {
+          "source": "https://investor.avinc.com/rss/news-releases.xml",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 10,
+          "candidate_count": 10,
+          "warnings": [],
+          "source_sha256": "134d5c50d7bcf43a355d22a294273f13d9976798b8e719cec2b06f5897359ae6",
+          "latest_publication": "2026-10-14"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
+      "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
-      "coverage_note": "SEC discovery enabled; a verified issuer RSS endpoint is not configured.",
+      "coverage_note": "Official issuer RSS verified locally on 2026-10-18; rolling feed coverage is not an exhaustive announcement archive.",
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 2
+      "pending_count": 11,
+      "reviewed_disposition_count": 1
     },
     "LMT": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "dfa457b0655aaf61de07a6df82829af641c18affb0b991e4f61ce00e87706009",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 0
+        },
+        {
+          "source": "https://news.lockheedmartin.com/news-releases?pagetemplate=rss",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 5,
+          "candidate_count": 5,
+          "warnings": [],
+          "source_sha256": "dfac90b8eb3e56832eef7e3c9d615f536be515d19544514ed9cd5927bc8e9805",
+          "latest_publication": "2026-10-16"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 5
+      "pending_count": 5,
+      "reviewed_disposition_count": 0
     },
     "RTX": {
-      "checked_at": "2026-10-18T08:32:25.075388+00:00",
+      "checked_at": "2026-10-18T12:35:40.094967+00:00",
       "packet_sha256": "f26796ce4ab5c36094d910a20b142e5d37699b965c9c89675c5b62bbf2f9c2b3",
       "status": "needs_review",
+      "coverage_status": "checked",
       "errors": [],
-      "scope": "SEC filings and configured issuer feeds",
+      "source_checks": [
+        {
+          "source": "SEC submissions",
+          "kind": "sec",
+          "status": "checked",
+          "candidate_count": 0
+        },
+        {
+          "source": "https://www.rtx.com/rss-feeds/news",
+          "kind": "rss",
+          "status": "checked",
+          "entry_count": 50,
+          "candidate_count": 50,
+          "warnings": [],
+          "source_sha256": "af94ce0666ec7552ed881edfa3ba352c1f4f6e54aaac445c38ee8f64c2b4d30a",
+          "latest_publication": "2026-10-15"
+        }
+      ],
+      "scope": "SEC filings and configured public issuer announcement sources",
       "issuer_feed_count": 1,
+      "issuer_source_count": 1,
       "discovery_since": "2026-07-20",
       "coverage_note": null,
       "limits": [
-        "Unfiled announcements are covered only when present in a configured issuer feed.",
+        "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 50
+      "pending_count": 49,
+      "reviewed_disposition_count": 1
     }
   },
   "queue": [
@@ -230,6 +440,17 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "5a8620f57a4d73209562de30",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Customers-Bank-and-Palantir-Collaborate-to-Build-an-AI-Native-Future-for-Banking/default.aspx",
+      "title": "Customers Bank and Palantir Collaborate to Build an AI-Native Future for Banking",
+      "published_at": "2026-10-15",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -420,6 +641,39 @@
       "status": "pending_review"
     },
     {
+      "id": "e2920f99c71d5c5839f9e8bc",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-and-thunder-tiger-sign-mou-explore-uncrewed-systems",
+      "title": "AV and Thunder Tiger Sign MOU to Explore Uncrewed Systems Integration and Co-Production in Taiwan",
+      "published_at": "2026-10-14",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "c92a31ca2ac9acd2967fa91b",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-and-alpha-unmanned-systems-announce-mou-explore-jump-20",
+      "title": "AV and Alpha Unmanned Systems Announce MOU to Explore JUMP 20 Support in Spain",
+      "published_at": "2026-10-14",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "8a46d2a897ca1c7e6406f434",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-and-elsight-partner-strengthen-mayhem-10-connectivity",
+      "title": "AV and Elsight Partner to Strengthen Mayhem 10 Connectivity in Contested Environments",
+      "published_at": "2026-10-14",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "5f4276099c2d39e9f8b085c3",
       "ticker": "RTX",
       "url": "https://www.rtx.com/news/news-center/2026/10/13/rtxs-raytheon-awarded-729-million-in-counter-drone-contracts-for-u-s-qatar-a",
@@ -519,6 +773,17 @@
       "status": "pending_review"
     },
     {
+      "id": "eb28176b0ccfadfade382c43",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-and-nioa-sign-agreement-advance-one-way-attack-localization",
+      "title": "AV and NIOA Sign Agreement to Advance One-Way Attack Localization and Co-Production in Australia",
+      "published_at": "2026-10-13",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "eda1a3b009693395c7f3a289",
       "ticker": "RTX",
       "url": "https://www.rtx.com/news/news-center/2026/10/12/vietjet-air-expands-contract-with-rtxs-collins-aerospace",
@@ -549,6 +814,17 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "da30577ec4fae9500a13352c",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/default.aspx",
+      "title": "Palantir Announces Date of Third Quarter 2026 Earnings Release and Webcast",
+      "published_at": "2026-10-12",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -607,6 +883,17 @@
       "status": "pending_review"
     },
     {
+      "id": "b05a59280e5b4b5942063c66",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Technologies-Announces-October-Seoul-Pop-Up-with-Korea-First-Exclusive-Merchandise-Release/default.aspx",
+      "title": "Palantir Technologies Announces October Seoul Pop-Up with Korea-First Exclusive Merchandise Release",
+      "published_at": "2026-10-11",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "e409b49b4e4036ad9f0b30d2",
       "ticker": "RTX",
       "url": "https://www.rtx.com/news/news-center/2026/10/09/r2s-delivers-first-us-produced-tamir-interceptors",
@@ -662,6 +949,17 @@
       "status": "pending_review"
     },
     {
+      "id": "77c8fe10cdbc458299c428a3",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/avs-videoray-selected-subcontractor-navy-mine-countermeasure",
+      "title": "AV’s VideoRay Selected as Subcontractor Navy Mine Countermeasure Prototype Effort",
+      "published_at": "2026-10-08",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "957bfddef0a6b576d607071b",
       "ticker": "AMD",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
@@ -693,6 +991,30 @@
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
       "status": "pending_review"
+    },
+    {
+      "id": "0a3f1e48f960b1906dbeafdf",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-and-Armada-Partner-to-Accelerate-Sovereign-AI-Infrastructure/default.aspx",
+      "title": "Palantir and Armada Partner to Accelerate Sovereign AI Infrastructure",
+      "published_at": "2026-10-01",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "9e609c07a6dfe2e3e0fe7ea5",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "title": "Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results",
+      "published_at": "2026-09-30",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "24dbf5e610d06fe3c2c8ef19",
+      "resolution_basis": "no_material_change: Read the entire September 30 issuer release, including quarterly and annual statements, Q1 outlook, capital-spending and non-GAAP reconciliations, and compared it with the SEC earnings exhibit already listed as S02. Disclosures agree; differences are site navigation, contacts, typography and page numbering. Current C09-C10 and C16-C17 already distinguish reported results, cash/debt and product milestones. This closes a second publication of the same reviewed release, not a finding that the original earnings were immaterial. No incremental or conflicting disclosure was found."
     },
     {
       "id": "7c3619d336180a473bbb8f79",
@@ -874,6 +1196,118 @@
       "status": "pending_review"
     },
     {
+      "id": "df2b63bf75e02b815ee0b9b9",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Appoints-Deirdre-Hanford-to-Lead-Micron-Research-Labs/default.aspx",
+      "title": "Micron Appoints Deirdre Hanford to Lead Micron Research Labs",
+      "published_at": "2026-09-15",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "90510673d3a9541920929950",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Advances-Memory-Innovation-With-the-Worlds-First-Ultra-Dense-Module-for-Next-Generation-Servers/default.aspx",
+      "title": "Micron Advances Memory Innovation With the World's First Ultra-Dense Module for Next-Generation Servers",
+      "published_at": "2026-09-15",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "faeae76e85082bcb19c65f23",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/NVIDIA-and-Palantir-Bring-Sovereign-Intelligence-to-Critical-Supply-Chains/default.aspx",
+      "title": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
+      "published_at": "2026-09-10",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "ebf0ee12744de11444d52cd5",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Customers-Set-New-Standard-for-AI-at-AIPCon-11/default.aspx",
+      "title": "Palantir Customers Set New Standard for AI at AIPCon 11",
+      "published_at": "2026-09-10",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "c8138d63ba009fecd4d59a7e",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-and-Fujitsu-Deepen-Partnership-to-Advance-Enterprise-AI-Transformation-with-Fujitsu-Strengthening-as-a-Global-FDE-Partner/default.aspx",
+      "title": "Palantir and Fujitsu Deepen Partnership to Advance Enterprise AI Transformation, with Fujitsu Strengthening as a Global FDE Partner",
+      "published_at": "2026-09-10",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "aa354b2ca2e0f1c239bc2458",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Method-Security-and-Palantir-Announce-The-Cardinal-Program-Delivering-Methods-Autonomous-Cyber-Systems-via-Palantirs-Ontology-for-Cybersecurity/default.aspx",
+      "title": "Method Security and Palantir Announce The Cardinal Program, Delivering Method’s Autonomous Cyber Systems via Palantir’s Ontology for Cybersecurity",
+      "published_at": "2026-09-10",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "7ec58348faa3424ae14bf5eb",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Customers-Set-New-Standard-for-AI-at-AIPCon-11v2/default.aspx",
+      "title": "Palantir Customers Set New Standard for AI at AIPCon 11",
+      "published_at": "2026-09-10",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "d24b2856106983595ba27680",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/aerovironment-announces-fiscal-2027-first-quarter-results",
+      "title": "AeroVironment Announces Fiscal 2027 First Quarter Results",
+      "published_at": "2026-09-09",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "5edd4af60351c0b5d5d861f2",
+      "resolution_basis": "no_material_change: Read the entire September 9 issuer release, including segment tables, annual guidance and non-GAAP reconciliations, and compared it with the SEC exhibit already listed as S03. Financial disclosures and outlook agree; remaining differences are webpage chrome, contacts, punctuation and page numbering. Current claims C08-C14/C17 distinguish the quarterly loss, adjusted measures, cash flow, order delays and reiterated outlook. This is an additional publication of reviewed evidence, with no incremental or conflicting event. The original fiscal-quarter results remain material research evidence."
+    },
+    {
+      "id": "ec44024d2e7d57a798947bd3",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-and-Nebius-Partner-to-Deliver-a-Complete-Sovereign-AI-Stack-to-Palantir-Customers/default.aspx",
+      "title": "Palantir and Nebius Partner to Deliver a Complete Sovereign AI Stack to Palantir Customers",
+      "published_at": "2026-09-08",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "f08b18e62d22829afd254757",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-secures-first-international-order-locustr-directed-energy",
+      "title": "AV Secures First International Order for LOCUST® Directed Energy Counter‑Drone Systems",
+      "published_at": "2026-09-08",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "04fcc96e64d4df06f8eaf612",
       "ticker": "RTX",
       "url": "https://www.rtx.com/news/news-center/2026/09/04/rtxs-pratt-whitney-invests-25-million-to-expand-precision-parts-manufacturing",
@@ -882,6 +1316,28 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "980ac472dd516dee4a650336",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/PwC-and-Palantir-Expand-Strategic-Alliance-to-Help-Organizations-Scale-Enterprise-AI/default.aspx",
+      "title": "PwC and Palantir Expand Strategic Alliance to Help Organizations Scale Enterprise AI",
+      "published_at": "2026-09-03",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "d3e369ac1a845a42d36ba359",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Peter-Zaffino-to-Join-Palantir-Technologies-as-Global-Head-of-Financial-Services/default.aspx",
+      "title": "Peter Zaffino to Join Palantir Technologies as Global Head of Financial Services",
+      "published_at": "2026-09-02",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -909,6 +1365,19 @@
       "items": "2.02,8.01,9.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0001730168.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "105b23f7ec39bd1585cac72f",
+      "resolution_basis": "no_material_change: Read the complete September 2 Form 8-K and Exhibit 99.1 and compared them with the release already listed as S03. Both the earnings release and the Item 8.01 dividend declaration repeat that source, including the $0.65 declaration, September 21 record date and September 30 payment date. Financial results and Q4 guidance agree. Current claims C08-C10/C12 are consistent; the later software-revenue recast in C16 remains controlling. The queued wrapper introduces no additional disclosure requiring a research change."
+    },
+    {
+      "id": "3b07257cfc7f7cf26ab3a94e",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/avs-locustr-selected-nearly-500-million-army-counter-uas",
+      "title": "AV’s LOCUST® Selected for Nearly $500 million Army Counter-UAS Contract for Enduring-High Energy Laser (E-HEL) Program",
+      "published_at": "2026-09-02",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -920,6 +1389,17 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "2d32f64321ac1e2bbcefd43b",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army/default.aspx",
+      "title": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+      "published_at": "2026-09-01",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -1011,6 +1491,28 @@
       "status": "pending_review"
     },
     {
+      "id": "f6a629afa1de19dff4d14b85",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-present-2026-jefferies-global-industrials-conference",
+      "title": "AV to Present at the 2026 Jefferies Global Industrials Conference",
+      "published_at": "2026-08-27",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "95b8efd9d334614cedf9b7c4",
+      "ticker": "AVAV",
+      "url": "https://investor.avinc.com/news-releases/news-release-details/av-awarded-contract-three-autonomous-helicopters-support-nasas",
+      "title": "AV Awarded Contract for Three Autonomous Helicopters in Support of NASA’s SkyFall Mission to Mars",
+      "published_at": "2026-08-27",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investor.avinc.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "36233869aa3d76f8787af342",
       "ticker": "NVDA",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
@@ -1022,6 +1524,28 @@
       "items": "2.02,9.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0001045810.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "360a3ad6cdeda7a8150be32d",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
+      "title": "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026",
+      "published_at": "2026-08-26",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "1d300fd783cae4c971a57848",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Announces-Leadership-Appointments-to-Accelerate-Innovation-and-Growth/default.aspx",
+      "title": "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
+      "published_at": "2026-08-26",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -1061,6 +1585,39 @@
       "status": "pending_review"
     },
     {
+      "id": "afc506e270bf522b44c379f1",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Opens-State-of-the-Art-Training-Center-in-Boise-to-Strengthen-Americas-Semiconductor-Workforce/default.aspx",
+      "title": "Micron Opens State-of-the-Art Training Center in Boise to Strengthen America’s Semiconductor Workforce",
+      "published_at": "2026-08-24",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "35b6d18808300accaa66bc0b",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+      "title": "Micron Unveils Micron Research Labs, a U.S.-Based Long-Horizon Innovation Hub to Shape the Future of Memory and AI",
+      "published_at": "2026-08-20",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "ebb032182bd32b21858cd0c4",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantirs-Sovereignty-Bootcamps-Draw-Nearly-200-Organizations-in-30-Days/default.aspx",
+      "title": "Palantir's Sovereignty Bootcamps Draw Nearly 200 Organizations in <30 Days",
+      "published_at": "2026-08-19",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "a4d847e532c7b32cec9d73c7",
       "ticker": "AMD",
       "url": "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
@@ -1094,6 +1651,17 @@
       "items": "1.01,2.03,7.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0001045810.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "f231232d52f86b6ca56b3525",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Ventures-Launches-250-Million-Fund-to-Invest-in-the-Next-Generation-of-AI/default.aspx",
+      "title": "Micron Ventures Launches $250 Million Fund to Invest in the Next Generation of AI",
+      "published_at": "2026-08-13",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
       "status": "pending_review"
     },
     {
@@ -1193,6 +1761,17 @@
       "status": "pending_review"
     },
     {
+      "id": "609c95009405c422867acb70",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q2-2026-U-S--Comm-Revenue-Growth-of-149-YY-and-Revenue-Growth-of-93-YY-Raises-FY-2026-Revenue-Guidance-to-82-YY-Growth-and-U-S--Comm-Revenue-Guidance-to-134-YY-Crushing-Consensus-Expectations/default.aspx",
+      "title": "Palantir Reports Q2 2026 U.S. Comm Revenue Growth of 149% Y/Y and Revenue Growth of 93% Y/Y; Raises FY 2026 Revenue Guidance to 82% Y/Y Growth and U.S. Comm Revenue Guidance to 134% Y/Y, Crushing Consensus Expectations",
+      "published_at": "2026-08-03",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-18T12:02:38.544223+00:00",
+      "status": "pending_review"
+    },
+    {
       "id": "dc10da1686e68d1f0aa9c88d",
       "ticker": "RTX",
       "url": "https://www.rtx.com/news/news-center/2026/07/31/rtxs-pratt-whitney-awarded-1-3-billion-f135-sustainment-contract",
@@ -1215,7 +1794,9 @@
       "items": "2.02,9.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0000789019.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
-      "status": "pending_review"
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "d0a46c683eacad500345407d",
+      "resolution_basis": "no_material_change: Read the complete July 29 Form 8-K and Exhibit 99.1, then compared the exhibit with the FY2026 Q4 release already listed as S02. The wrapper only furnishes that release; the financial statements, OpenAI reconciliation and business commentary match the reviewed issuer copy. Current claims C09-C10 retain annual GAAP results, investment-effect distinctions, liquidity and cash capex. The July old-segment presentation does not supersede the separately reviewed September recast. No incremental or conflicting event was identified."
     },
     {
       "id": "1ce7b7cc72bd1ff18df1eeab",
@@ -1240,7 +1821,9 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
-      "status": "pending_review"
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "d008ece3b5357ddd5747223f",
+      "resolution_basis": "no_material_change: Read the complete July 23 issuer release, including financial tables, outlook and reconciliations, and compared it with the SEC-hosted earnings release already listed as S03. The disclosures agree; differences are navigation, pagination and formatting. Current claims C08-C11 and C18 already cover the quarter, adjusted-EPS basis, balance sheet and raised outlook. This closes an additional copy of existing reviewed evidence, not the original earnings event or any later announcement. No new or conflicting disclosure requires changing this packet."
     },
     {
       "id": "922ca87c8e07fa39371fd209",

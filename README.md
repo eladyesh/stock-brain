@@ -4,7 +4,9 @@ A structured, source-backed knowledge base for U.S.-listed stocks, with canonica
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-18):** all ten company profiles have hash-bound research reviews, with 169 claims and Hebrew translations. A local question-answering interface cites reviewed evidence and shows freshness. Daily disclosure discovery maintains a separate pending-review queue (unattended activation requires a permitted runner; the GitHub-hosted live probe returned HTTP 403); six issuer feeds supplement SEC coverage for all ten companies. Reviews include Codex AI checks, not independent human sign-off. Prices and valuation feeds are not connected. See [the maintenance guide](docs/MAINTENANCE.md) for activation and coverage limits.
+**Current state (2026-10-18):** ten hash-bound reviewed company profiles with 169 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
+
+**Open [Stock Brain research desk](https://stock-brain-desk.neatibex64.chatgpt.site)** (owner-private). The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures; the linked Site task is the intended daily updater.
 
 ## Start here
 
@@ -16,6 +18,8 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |
 | [Data contract](docs/DATA_CONTRACT.md) | Metadata, identifiers, and validation |
 | [Research assistant](docs/ASSISTANT.md) | Local interface, Hebrew answers, citations and acceptance results |
+| [Hosted research desk](docs/DESK.md) | Financial history, comparisons, scenario assumptions and build instructions |
+| [Cloud updates](docs/CLOUD_UPDATES.md) | Durable daily data refresh and failure handling |
 | [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
 | [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
@@ -87,7 +91,9 @@ The exporter includes only `reviewed` company profiles and explicitly registered
 - Provider-neutral model runner protocol, optional Responses API adapter, deterministic metric calculations, and hash-bound review records.
 - Twenty development cases and 50 frozen bilingual acceptance cases, with failing retrieval and answer-integrity gates.
 - Local Hebrew/English Q&A, exact claim citations, bound translations and freshness indicators.
-- Daily SEC/RSS discovery, a persistent review queue and bounded incremental request preparation.
+- Daily SEC/RSS/public Q4 discovery, source diagnostics, a persistent review queue, source-bound triage decisions and bounded incremental request preparation.
+- Exact-definition SEC history, explicit revision/comparability flags, optional public market snapshots and assumption-based valuation sensitivity.
+- A private hosted Hebrew desk and a durable data-only update branch; no runtime model API key is required.
 
 ## Use the assistant
 
@@ -102,4 +108,4 @@ Open `http://127.0.0.1:8765`. No model API key is needed for lookup, discovery, 
 
 ## Next priorities
 
-Triage the initial discovery backlog, add the four missing issuer-feed adapters, and keep source/translation reviews current. Add independent evaluation questions before expanding beyond this bounded lookup interface. Introduce timestamped market data only as a separate, explicitly sourced layer.
+Resolve the substantive disclosure backlog and the stored financial comparability flags before expanding the universe. Deepen issuer-specific moat, customer concentration, management incentives and measurable thesis-breaker work. Add independent human review and holdout questions. Consensus, forward valuation and a general language-model assistant remain separate future capabilities; scenario calculations do not supply them.

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "ticker": "MU",
+  "price": 878.84,
+  "currency": "USD",
+  "trade_at": "2026-10-16T20:00:00+00:00",
+  "retrieved_at": "2026-10-18T12:38:22.282201+00:00",
+  "exchange": "NMS",
+  "price_type": "last_regular_session_trade",
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/quote/MU/",
+  "split_events": [],
+  "status": "available",
+  "limitations": [
+    "Provider snapshot; may be delayed. Not an exchange-certified real-time quote.",
+    "A current price does not make older financial statements current."
+  ],
+  "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1mo&range=5y&events=splits",
+  "source_sha256": "a07ed9e655edee1f1b49e35d45b6004c0d33d6e56f0563fd008fc984d1d6833e"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "ticker": "ORCL",
+  "price": 128.23,
+  "currency": "USD",
+  "trade_at": "2026-10-16T20:03:50+00:00",
+  "retrieved_at": "2026-10-18T12:38:12.867159+00:00",
+  "exchange": "NYQ",
+  "price_type": "last_regular_session_trade",
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/quote/ORCL/",
+  "split_events": [],
+  "status": "available",
+  "limitations": [
+    "Provider snapshot; may be delayed. Not an exchange-certified real-time quote.",
+    "A current price does not make older financial statements current."
+  ],
+  "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?interval=1mo&range=5y&events=splits",
+  "source_sha256": "0d93e9c6841b9c930a957f4a9579dfc4b207941333c597e333e6fd207c7f0808"
+}

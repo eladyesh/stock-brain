@@ -230,7 +230,7 @@
     {
       "code": "live_market_data",
       "pattern": "stock price|share price|trading at|market cap|market value|(?:current|live|today).*price|price.*(?:today|now)|p/e|pe ratio|forward multiple|מחיר.*(?:היום|עכשיו|מניה|מניית)|המחיר של|שווי שוק|מכפיל",
-      "reason": "No timestamped live market-price or valuation feed is available."
+      "reason": "Research lookup does not provide live prices or valuation multiples. A separate dated market snapshot is available in the desk."
     },
     {
       "code": "unsourced_forecast",

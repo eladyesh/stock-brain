@@ -8,14 +8,11 @@ import time
 
 import research_pipeline as pipeline
 import stock_brain as kb
+import triage_disclosures
 
 
 def priority(event):
-    if event.get('form') in {'10-K','10-K/A','10-Q','10-Q/A','20-F','20-F/A'}:
-        return 0
-    if event.get('kind') == 'sec_filing':
-        return 1
-    return 2
+    return triage_disclosures.priority(event)[0]
 
 
 def prepare(root, report_path, limit=2):
@@ -36,7 +33,7 @@ def prepare(root, report_path, limit=2):
         selected = events[:10]
         company = deepcopy(pipeline.issuer(root, ticker))
         company.setdefault('extra_sources', []).extend({'url': e['url'], 'title': e['title'],
-            'published_at': e['published_at'], 'publisher': company['company_name'], 'mutable': e['kind'] == 'issuer_feed',
+            'published_at': e['published_at'], 'publisher': company['company_name'], 'mutable': e['kind'] != 'sec_filing',
             **({'form': e['form'], 'items': e.get('items', '')} if e.get('form') else {})} for e in selected)
         try:
             manifest = pipeline.collect(root, company, report['cutoff'], os.environ.get('SEC_USER_AGENT', ''), max_events=5)

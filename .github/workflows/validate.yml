@@ -21,6 +21,12 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install UI test dependencies
+        run: npm ci --ignore-scripts
       - name: Validate profiles and generated indexes
         run: python scripts/stock_brain.py check
       - name: Exercise knowledge-base behavior
@@ -35,3 +41,7 @@ jobs:
         run: python scripts/evaluate_retrieval.py --cases eval/acceptance-v1.json
       - name: Verify answer evidence, numbers, basis and citations
         run: python scripts/evaluate_answers.py
+      - name: Build and verify hosted desk, source links and numerical gates
+        run: |
+          npm run build
+          npm test

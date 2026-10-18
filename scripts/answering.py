@@ -19,7 +19,7 @@ HE_REASONS = {
     'invalid_question': 'יש להזין שאלת מחקר באורך של עד 4,000 תווים.',
     'unknown_issuer': 'לא זוהתה בוודאות אחת החברות. יש לציין שם חברה או טיקר ולהבהיר את ההשוואה.',
     'unreviewed_issuer': 'לפחות אחת החברות המבוקשות אינה כלולה במחקר שנבדק.',
-    'live_market_data': 'אין במאגר מקור עדכני למחיר מניה, לשווי שוק או למכפילים.',
+    'live_market_data': 'חיפוש המחקר אינו מספק מחיר בזמן אמת או מכפילים. בממשק קיימת תמונת מחיר נפרדת עם תאריך העסקה.',
     'unsourced_forecast': 'אין במאגר מקור לתחזית אנליסטים, למחיר יעד או לשווי הוגן.',
     'investment_action': 'הכלי מספק מחקר מבוסס מקורות; אין בו בסיס להמלצת קנייה או מכירה אישית.',
     'unsupported_period': 'התקופה הכספית המבוקשת אינה מופיעה בראיות שנבדקו.',
@@ -27,6 +27,10 @@ HE_REASONS = {
     'no_evidence': 'לא נמצאה ראיה בדוקה שעונה על השאלה.',
     'translation_missing': 'אין תרגום בדוק ועדכני לראיה המתאימה. אפשר לשאול באנגלית.',
     'freshness_unverified': 'לא ניתן להציג את המידע כעדכני: קיימים פרסומים שטרם נבדקו או שחסרה בדיקת עדכניות תקפה.',
+    'unsupported_metric': 'המדד או הבסיס החשבונאי המבוקש אינם זמינים במלואם בראיות שנבדקו.',
+    'unsupported_qualifier': 'אין ראיות בדוקות לחיתוך, להחרגה או להתאמה המבוקשים.',
+    'incomplete_answer': 'לא נמצאו ראיות מלאות לכל חלקי הבקשה. יש לצמצם או לפצל את השאלה.',
+    'incomplete_comparison': 'אין נתונים תואמים לכל החברות בהשוואה. יש לצמצם או לשנות את הבקשה.',
     'too_many_issuers': 'יש לצמצם את מספר החברות בהשוואה.',
 }
 HE_KINDS = {'reported': 'דיווח החברה', 'management_guidance': 'תחזית או צפי הנהלה',
@@ -113,6 +117,9 @@ def answer(question, root=None, language='auto', monitor_report=None):
         for record in selection:
             data = packet['sections'][record['section_id']]
             for claim in data.get('claims', []):
+                allowed = result.get('allowed_claim_ids', {}).get(ticker)
+                if allowed is not None and claim['id'] not in allowed:
+                    continue
                 if 'relationships-and-themes' in result['section_ids'] and len(result['entities']) > 1:
                     aliases = retrieval.settings(root)['issuer_aliases']
                     others = [name for t in result['entities'] if t != ticker for name in [t] + aliases.get(t, [])]
@@ -136,6 +143,10 @@ def answer(question, root=None, language='auto', monitor_report=None):
     output['coverage'] = [c for c in output['coverage'] if any(s['ticker'] == c['ticker'] for s in output['statements'])]
     if not output['statements']:
         return finish('no_evidence', 'No claim supports the question.')
+    present = {(s['ticker'], s['claim_id']) for s in output['statements']}
+    required = {(ticker, claim_id) for ticker, claims in result.get('allowed_claim_ids', {}).items() for claim_id in claims}
+    if not required <= present:
+        return finish('incomplete_answer', 'The available answer does not cover every requested metric.')
     validate_answer(output, root)
     return finish()
 

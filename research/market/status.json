@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-18T12:38:49.290904+00:00",
+  "results": [
+    {
+      "ticker": "MSFT",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:01+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "status": "available",
+      "trade_at": "2026-10-16T20:03:50+00:00"
+    },
+    {
+      "ticker": "PLTR",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:01+00:00"
+    },
+    {
+      "ticker": "MU",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:00+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:00+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:01+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:01+00:00"
+    },
+    {
+      "ticker": "AVAV",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:01+00:00"
+    },
+    {
+      "ticker": "LMT",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:02+00:00"
+    },
+    {
+      "ticker": "RTX",
+      "status": "available",
+      "trade_at": "2026-10-16T20:00:02+00:00"
+    }
+  ]
+}
