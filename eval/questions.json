@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "purpose": "Twenty frozen pilot questions. Gold answers are evidence expectations, not generated investment recommendations. Evaluate retrieval and abstention separately from answer factuality.",
+  "cases": [
+    {
+      "id": "Q01",
+      "question": "How does MSFT make money?",
+      "expected_behavior": "answer",
+      "expected_answer": "Subscriptions, usage, licenses, hardware and services across business/consumer software, cloud, devices, advertising and gaming.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "business-overview",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "What changed in Microsoft's FY2027 reportable segments?",
+      "expected_behavior": "answer",
+      "expected_answer": "The three FY2026 segments were replaced by Agents and Infra and Devices and Consumer; comparisons require the recast.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "revenue-model-and-segments",
+          "source_ids": [
+            "S04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "What was MSFT FY2026 GAAP revenue and net income?",
+      "expected_behavior": "answer",
+      "expected_answer": "Revenue USD 331,839 million and net income USD 133,749 million, fiscal year ended June 30, 2026. Preserve GAAP basis and investment-effects caveat.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "financial-performance",
+          "source_ids": [
+            "S02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "Does Microsoft cash capex include noncash finance lease additions?",
+      "expected_behavior": "answer",
+      "expected_answer": "No. The profile separates cash additions to property/equipment from noncash finance-lease additions.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "balance-sheet-and-capital-allocation",
+          "source_ids": [
+            "S02",
+            "S03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "Is Microsoft's declared December 2026 dividend already a completed payment?",
+      "expected_behavior": "answer",
+      "expected_answer": "No. September 15 declaration specifies payment December 10 and record date November 19; declaration is not payment.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "recent-developments",
+          "source_ids": [
+            "S05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "What does MU manufacture?",
+      "expected_behavior": "answer",
+      "expected_answer": "DRAM, NAND and NOR memory/storage components and integrated solutions.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000723125",
+          "section_id": "business-overview",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question": "Which reporting units does MU use in FY2026?",
+      "expected_behavior": "answer",
+      "expected_answer": "Cloud Memory; Core Data Center; Mobile and Client; Automotive and Embedded. HBM belongs to Cloud Memory.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000723125",
+          "section_id": "revenue-model-and-segments",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "question": "What were MU fiscal Q4 2026 revenue and gross margin, and when did the quarter end?",
+      "expected_behavior": "answer",
+      "expected_answer": "USD 54,229 million GAAP revenue and 86.8% GAAP gross margin; September 3, 2026 fiscal end, not calendar September 30.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000723125",
+          "section_id": "financial-performance",
+          "source_ids": [
+            "S02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "question": "Is Micron's HBM4 relationship with NVIDIA a GPU competitive relationship?",
+      "expected_behavior": "answer",
+      "expected_answer": "The evidence describes a memory/platform supply-chain collaboration for Vera Rubin, not GPU competition.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000723125",
+          "section_id": "relationships-and-themes",
+          "source_ids": [
+            "S04"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Are Micron fab output targets proof of full production capacity?",
+      "expected_behavior": "answer",
+      "expected_answer": "No. Singapore packaging and Idaho initial wafer-output targets are management outlooks; commissioning, qualification and full shipment ramp differ.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000723125",
+          "section_id": "catalysts",
+          "source_ids": [
+            "S03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "What are AVAV reportable segments?",
+      "expected_behavior": "answer",
+      "expected_answer": "Autonomous Systems and Space, Cyber and Directed Energy.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0001368622",
+          "section_id": "revenue-model-and-segments",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Was AVAV profitable on a GAAP basis in fiscal Q1 2027 despite positive adjusted EBITDA?",
+      "expected_behavior": "answer",
+      "expected_answer": "GAAP net loss USD 5.066 million and diluted loss USD 0.10; company-defined adjusted EBITDA USD 53.4 million and adjusted EPS USD 0.59 are different bases.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0001368622",
+          "section_id": "financial-performance",
+          "source_ids": [
+            "S02",
+            "S03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "What happened to AVAV SCAR and what control risks remain?",
+      "expected_behavior": "answer",
+      "expected_answer": "SCAR terminated for convenience March 2026; latest report describes BlueHalo IT and goodwill-review weaknesses and related litigation, with no inferred liability finding.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0001368622",
+          "section_id": "risks-and-thesis-breakers",
+          "source_ids": [
+            "S02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "How do acquisition ownership relationships differ from shared themes at AVAV?",
+      "expected_behavior": "answer",
+      "expected_answer": "BlueHalo and ESAero are dated acquisitions; a shared autonomy theme alone does not prove a commercial relationship.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0001368622",
+          "section_id": "relationships-and-themes",
+          "source_ids": [
+            "S02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "How do MSFT and AVAV differ in customers and end markets?",
+      "expected_behavior": "answer",
+      "expected_answer": "Microsoft serves enterprise/public-sector and consumer channels; AeroVironment emphasizes defense agencies, allies and subcontractors. Describe exposure without inventing customer contracts.",
+      "evidence": [
+        {
+          "document_id": "company-cik-0000789019",
+          "section_id": "customers-and-end-markets",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "document_id": "company-cik-0001368622",
+          "section_id": "customers-and-end-markets",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "What is MU's stock price today?",
+      "expected_behavior": "abstain",
+      "expected_answer": "No live price source is supplied; dated company research must not be presented as a current quote.",
+      "evidence": []
+    },
+    {
+      "id": "Q17",
+      "question": "What is ORCL's revenue growth?",
+      "expected_behavior": "abstain",
+      "expected_answer": "ORCL is a draft in this pilot and excluded from the reviewed retrieval corpus.",
+      "evidence": []
+    },
+    {
+      "id": "Q18",
+      "question": "Explain AAPL's current business mix.",
+      "expected_behavior": "abstain",
+      "expected_answer": "AAPL is outside this pilot's coverage; do not invent an answer from general knowledge.",
+      "evidence": []
+    },
+    {
+      "id": "Q19",
+      "question": "What is MSFT's next-quarter analyst consensus EPS?",
+      "expected_behavior": "abstain",
+      "expected_answer": "Consensus was not sourced. Management statements and historical actuals are not analyst consensus.",
+      "evidence": []
+    },
+    {
+      "id": "Q20",
+      "question": "What does CAT stand for in this corpus?",
+      "expected_behavior": "abstain",
+      "expected_answer": "CAT has no reviewed issuer mapping in this pilot; ask for disambiguation instead of treating ordinary language as a covered ticker.",
+      "evidence": []
+    }
+  ]
+}

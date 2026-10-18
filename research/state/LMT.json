@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "ticker": "LMT",
+  "as_of": "2026-10-18",
+  "packet_sha256": "dfa457b0655aaf61de07a6df82829af641c18affb0b991e4f61ce00e87706009",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm",
+      "sha256": "01d36a91775fbacbe1ce3c41a59c23ed2bd9278af9464d997507d0d5420f36ab",
+      "form": "10-K",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/lmt-20260628.htm",
+      "sha256": "2e12dd47d30520ea677a53ceb9b5b430f08c558252f0673f53fa41922d06790a",
+      "form": "10-Q",
+      "items": ""
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/d177255d8k.htm",
+      "sha256": "f4032f5b81340422669555de667b56f178edbde9a821665735efd70b12c9fd91",
+      "form": "8-K",
+      "items": "1.01,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/lmt-20260723.htm",
+      "sha256": "9974beebda59015fd52f8e05da848b1001ded624eef280d49de04c67de7e7420",
+      "form": "8-K",
+      "items": "2.02,9.01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000093646826000011/lmt-20260512.htm",
+      "sha256": "5a681bcd8c41dbb0164c43114ee7c0cb73580296ff2484a619ff1ccb93b47912",
+      "form": "8-K",
+      "items": "5.07"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026049277/ex991q22026.htm",
+      "sha256": "24573d49fd95471d2fbdbe2e6ffd99256acac84340b51b6c8c51ee2ac28a163d",
+      "form": "IR",
+      "sections": [
+        "growth-drivers",
+        "financial-performance",
+        "management-and-governance",
+        "valuation-context",
+        "catalysts",
+        "scenarios-and-open-questions"
+      ]
+    }
+  ]
+}

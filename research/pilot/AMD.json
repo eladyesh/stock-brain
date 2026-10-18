@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "ticker": "AMD",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "AMD FY2025 Form 10-K",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "published_at": "2026-02-04",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "AMD FY2025 Form 10-K/A",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000021/amd-20251227.htm",
+      "published_at": "2026-02-04",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "AMD Q2 2026 Form 10-Q",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "published_at": "2026-08-05",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "AMD Reports Second Quarter 2026 Financial Results",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+      "published_at": "2026-08-04",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S05",
+      "title": "AMD Form 8-K: senior-note offering",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
+      "published_at": "2026-08-17",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S06",
+      "title": "AMD Form 8-K: board changes",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+      "published_at": "2026-08-19",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S07",
+      "title": "AMD Form 8-K: World Labs acquisition agreement",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+      "published_at": "2026-09-28",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "AMD designs processors, accelerators and adaptive-computing products sold into data centers, PCs, gaming and embedded systems. Manufacturing relies on external foundries.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business and Manufacturing Arrangements"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "The Q2 2026 report uses Data Center, Client and Gaming, and Embedded segments. Client and Gaming are combined for segment reporting, despite separate business revenue disclosures.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Note 4, Segment Reporting"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Core families include EPYC server CPUs, Instinct accelerators, Ryzen PC processors, Radeon graphics and adaptive SoCs/FPGAs. Software tools support deployment and programmability.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Products; Design Platforms and Services"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "AMD sells through OEMs, hyperscalers, distributors and system integrators. Semi-custom customers can pay engineering fees and purchase the resulting chips; standard forecast arrangements generally do not guarantee minimum purchases.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Sales and Marketing; Customers"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "TSMC supplies wafers for high-performance and adaptive products; GlobalFoundries supplies specified older process nodes. Product execution therefore depends on both design and outsourced capacity.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Third-Party Wafer Foundry Facilities"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "Intel competes in CPUs; NVIDIA competes in GPUs and data-center acceleration. Customer-designed processors and accelerators also constrain the addressable market.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition in Data Center and Client and Gaming"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: a broad compute portfolio and software support can aid system adoption, but competitiveness requires timely launches, power efficiency and customer qualification. Portfolio breadth alone does not prove pricing power.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition and Research and Development"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "Management expects EPYC demand, Instinct deployments and the Helios ramp to support second-half 2026 growth. These are management expectations, not a committed revenue schedule.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Opening CEO/CFO commentary"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For Q2 2026 ended June 27, GAAP revenue was USD 11,536 million, operating income USD 1,990 million and net income USD 2,297 million. Prior-year comparisons require considering the MI308 export-control inventory charge.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Condensed Consolidated Statements of Operations; MD&A Executive Summary"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "AMD completed a senior-note offering on August 17, 2026, after the quarter-end balance sheet. In September it agreed to acquire World Labs using shares, so quarter-end debt and share counts are insufficient for a current capitalization.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Item 1.01, completed offering and use of proceeds"
+            },
+            {
+              "source_id": "S07",
+              "locator": "Item 3.02, consideration and share-pricing mechanism"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "The earnings release names Lisa Su as chair/CEO and Jean Hu as CFO. The August 19 board change appointed Tim Ryan and made KC McClure chair of Audit and Finance.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Opening management commentary"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Item 5.02, Director Retirement and Director Appointment"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "unavailable": "No market-price snapshot or forecast valuation is included. Update debt and potential acquisition dilution before calculating enterprise value or per-share scenarios; compare GAAP and adjusted earnings consistently."
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "interpretation",
+          "text": "The Helios rollout and Instinct deployments are operational checkpoints for the second-half outlook. The packet does not assume that partnership announcements automatically convert to completed deployments or recognized revenue.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "CEO commentary and Recent PR Highlights"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Export controls, memory availability and third-party manufacturing constrain execution. Interpretation: delayed deployment or weak platform adoption despite product spending would challenge the growth case.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Cautionary Statement / material risks"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "interpretation",
+          "text": "Interpretation: bull assumes successful accelerator scaling; base assumes product ramps with mixed end markets; bear assumes export restrictions and competitive displacement. Validate software readiness and customer economics before quantifying these scenarios.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Management commentary and Cautionary Statement"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "reported",
+          "text": "World Labs is a proposed acquisition counterparty. The September filing describes share consideration with the share count determined near closing; it does not establish that the acquisition has closed.",
+          "evidence": [
+            {
+              "source_id": "S07",
+              "locator": "Item 3.02, Merger Agreement and share-pricing terms"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "reported",
+          "text": "The World Labs agreement was signed September 26 and disclosed September 28, 2026. Separately, the February 4 annual-report amendment corrected transposed Client ASP and unit-growth disclosures; use the amended MD&A for historical comparisons.",
+          "evidence": [
+            {
+              "source_id": "S07",
+              "locator": "Item 3.02 and signature date"
+            },
+            {
+              "source_id": "S02",
+              "locator": "Explanatory Note"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "Draft: complete independent claim review is outstanding.",
+    "The FY2025 10-K/A corrects Client ASP and unit-shipment growth; no figures from the superseded narrative are carried into this packet.",
+    "SEC inventory was checked through 2026-10-18 and post-quarter 8-Ks were read; other investor announcements have not been exhaustively covered.",
+    "Current debt, acquisition dilution, valuation, customer concentration and product economics require further work."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C09",
+      "name": "Revenue",
+      "value": 11536,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-29",
+      "period_end": "2026-06-27",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Net revenue"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C09",
+      "name": "Operating income",
+      "value": 1990,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-29",
+      "period_end": "2026-06-27",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Operating income"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Net income",
+      "value": 2297,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-29",
+      "period_end": "2026-06-27",
+      "basis": "GAAP",
+      "source_id": "S03",
+      "locator": "Condensed Consolidated Statements of Operations / Net income"
+    }
+  ]
+}

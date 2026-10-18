@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "ticker": "AVGO",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Broadcom FY2025 Form 10-K",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "published_at": "2025-12-18",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "Broadcom Q3 FY2026 Form 10-Q",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "published_at": "2026-09-10",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "Broadcom Announces Third Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+      "publisher": "Broadcom Inc.",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "published_at": "2026-09-02",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "NVIDIA FY2026 Form 10-K: networking competitors",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "published_at": "2026-02-25",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "Broadcom supplies semiconductors and infrastructure software. Its portfolio connects AI and communications hardware with enterprise virtualization, security and mainframe software.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business / semiconductor and infrastructure software portfolios"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "The segments are Semiconductor Solutions and Infrastructure Software. Some software license revenue is recognized upfront, so software revenue should not automatically be equated with recurring subscription revenue.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 2, Revenue from Contracts with Customers; Note 9, Segment Information"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Offerings include custom accelerators, networking chips and wireless components, plus VMware Cloud Foundation, mainframe tools and security software. Product exposure spans multiple purchasing cycles.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Products / Infrastructure Software portfolio"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "Semiconductor distribution includes OEMs, contract manufacturers and distributors. Software buyers include large enterprises with complex IT systems. End-customer concentration can differ from invoiced distributor concentration.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Customers, Sales and Distribution"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "Broadcom outsources most manufacturing, including wafer production to TSMC, while retaining proprietary-process capabilities such as wireless filters. This combination preserves some manufacturing IP but leaves external capacity dependencies.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Manufacturing"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "NVIDIA explicitly lists Broadcom among its networking competitors. This is a product-specific overlap; Broadcom also faces separate competition in enterprise software and custom silicon.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 1, Competition / networking products"
+            },
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: customer co-design and software embedded in critical systems can support retention. Switching costs and engineering integration require evidence by product; acquisitions and portfolio breadth are not sufficient proof.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Research and Development; Customers, Sales and Distribution"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "Management attributes AI-semiconductor demand to custom accelerators and networking. Its next-quarter outlook assumes continued growth; actual shipments depend on customer programs and deployment timing.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "CEO commentary and Fourth Quarter Business Outlook"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For Q3 FY2026 ended August 2, GAAP revenue was USD 29,591 million, operating income USD 15,955 million and net income USD 13,088 million. The adjusted figures in the earnings release exclude material categories of expense.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Statements of Operations, p. 3"
+            },
+            {
+              "source_id": "S03",
+              "locator": "Non-GAAP Financial Measures"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "At August 2, 2026, GAAP cash and equivalents were USD 23,975 million and debt carrying value was USD 59,419 million. Debt principal differs from carrying value because of discounts and issuance costs.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Balance Sheets; Note 6, Borrowings"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "The September 2 results identify Hock Tan as president and CEO and Amie Thuener as CFO. Current ownership and incentive design still need proxy-level review.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening management commentary"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "unavailable": "No timestamped price or normalized forecast is provided. Separate semiconductor and software economics, debt, stock compensation and acquisition amortization before constructing a consolidated valuation."
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "interpretation",
+          "text": "Q4 FY2026 ends November 1, 2026. The next results can test the September growth outlook; the fiscal period end is not an earnings-release date or guaranteed outcome.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Fourth Quarter Fiscal Year 2026 Business Outlook"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Custom products can be difficult to resell if customers cancel. Alternative financing arrangements add counterparty exposure. Interpretation: project delays or poor cash conversion would weaken the reported-growth thesis.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 1A, Risk Factors / design wins, alternative financing and competition"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "interpretation",
+          "text": "Interpretation: bull assumes successful custom-AI ramps and software retention; base assumes uneven program timing; bear combines customer concentration and deployment delays. Financing exposure and license-renewal quality need investigation before assigning probabilities.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 1A, Risk Factors / customers, competition and software demand"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "reported",
+          "text": "NVIDIA is a documented networking competitor; TSMC is a manufacturing supplier. These are different relationship types within AI infrastructure, not evidence that all semiconductor companies compete directly.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 1, Competition / networking products"
+            },
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Manufacturing"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "reported",
+          "text": "The September 10 quarterly filing reclassifies upfront software license revenue into products revenue and recasts comparative periods. Mix comparisons must use the recast presentation rather than treating the change as economic growth.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 2, Reclassifications to Condensed Consolidated Statements of Operations"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "Draft: a second claim-level source review remains outstanding.",
+    "SEC inventory was checked through 2026-10-18; this packet covers the annual and latest quarterly filings and results, not every intervening issuer announcement.",
+    "No named ultimate AI customer is inferred from aggregate disclosures.",
+    "Software competitors, renewal economics, debt maturities, ownership and valuation require deeper work."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C09",
+      "name": "Revenue",
+      "value": 29591,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-04",
+      "period_end": "2026-08-02",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations / Total net revenue"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C09",
+      "name": "Operating income",
+      "value": 15955,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-04",
+      "period_end": "2026-08-02",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations / Operating income"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Net income",
+      "value": 13088,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-05-04",
+      "period_end": "2026-08-02",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statements of Operations / Net income"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C10",
+      "name": "Cash and cash equivalents",
+      "value": 23975,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-08-02",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheets / Cash and cash equivalents"
+    },
+    {
+      "id": "M05",
+      "claim_id": "C10",
+      "name": "Debt carrying value",
+      "value": 59419,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-08-02",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Note 6, Borrowings / Total debt"
+    }
+  ]
+}

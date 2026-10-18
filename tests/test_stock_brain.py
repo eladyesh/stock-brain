@@ -14,6 +14,7 @@ import yaml
 
 
 REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO / "scripts"))
 spec = importlib.util.spec_from_file_location("stock_brain", REPO / "scripts/stock_brain.py")
 brain = importlib.util.module_from_spec(spec)
 sys.modules[spec.name] = brain
@@ -30,6 +31,7 @@ class KnowledgeBaseTests(unittest.TestCase):
         # Tests remain isolated if real profiles are added to the repository later.
         for folder in (self.root / "sectors").glob("*/companies"):
             shutil.rmtree(folder)
+        (self.root / "config/sector_research.json").unlink(missing_ok=True)
         brain.build(self.root)
 
     def add(self, ticker="SYNTH", sector="information-technology"):

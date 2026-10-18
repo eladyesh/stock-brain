@@ -1,43 +1,34 @@
 # Industrials
 
-[Company index](INDEX.md) · [Master index](../../INDEX.md)
+[Master index](../../INDEX.md) · [Contribution guide](../../CONTRIBUTING.md)
 
 ## Sector overview
 
-Capital goods, transportation, aerospace, defense, and industrial or professional services.
-
-This page is a research guide. It does not contain a completed sector investment assessment.
+Reviewed through 2026-10-18. This pilot guide covers a defense-technology slice of industrials using AeroVironment filings. It does not assess the full industrials sector or establish rankings among defense suppliers. AeroVironment operates Autonomous Systems and Space, Cyber and Directed Energy businesses. [S01] [S02]
 
 ## Industry map
 
-> TODO: Map industries, value-chain stages, and relevant business models using primary sources. Explain classification choices and record exceptions.
+AeroVironment combines design, suppliers, assembly, integration, testing and support for autonomous systems, precision strike, counter-UAS and other defense capabilities. Defense agencies, allies and subcontractors are customer channels. A contracting organization can buy for another end user; contracting customer and ultimate user should remain separate fields in research. [S01]
 
 ## Research questions
 
-- How do orders, backlog, capacity, and delivery timing translate into cash?
-- Which supply bottlenecks, contracts, or end markets determine profitability?
+Research interpretation: test whether awards turn into accepted deliveries and collected cash; separate organic trends from acquired revenue. Examine funding, manufacturing lead times, acceptance, supplier constraints and program changes before treating a demand narrative as a financial result. [S01] [S02]
 
 ## Metrics to investigate
 
-- Orders and backlog
-- Book-to-bill ratio
-- Capacity utilization
-- Operating margin and cash conversion
-
-Select metrics that fit each business model. These are research prompts, not reported figures or standardized definitions across all companies.
+Compare fiscal-period revenue and GAAP earnings with separately labeled company-adjusted measures. Track operating cash flow, inventory, unbilled receivables, debt carrying amounts and acquisition effects. Backlog or contract value should not be treated as current revenue. No cross-company numeric benchmark or current valuation is supplied in this guide. [S01] [S02]
 
 ## Cross-sector themes
 
-Potential tags: `defense`, `aerospace`, `infrastructure`, `automation`.
-
-Use company tags and sourced relationship sections to connect companies across sector boundaries. Theme membership does not prove a supplier, customer, or competitive relationship.
+Research interpretation: defense, autonomous-systems, aerospace and space are useful navigation themes. AeroVironment discloses specific competitive overlaps and dated acquisitions; theme membership alone does not establish a commercial relationship, competitive equivalence or ownership. Control-remediation and integration questions need issuer-specific evidence. [S01] [S02]
 
 ## Company index
 
-Browse the [company index](INDEX.md). It is generated from the company READMEs in this sector and reports each profile's research status.
+[Browse company profiles and review status](INDEX.md). The index is generated; drafts are excluded from retrieval.
 
 ## Sources and updates
 
-Taxonomy reference: [MSCI GICS overview](https://www.msci.com/indexes/index-resources/gics). The folder uses a broad sector name; individual company assignments are maintained by this project.
+- [S01] [Form 10-K for the fiscal year ended April 30, 2026](https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm) — AeroVironment, Inc.; published 2026-06-29; accessed 2026-10-18.
+- [S02] [Form 10-Q for the fiscal quarter ended August 1, 2026](https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/avav-20260801x10q.htm) — AeroVironment, Inc.; published 2026-09-10; accessed 2026-10-18.
 
-Sector-specific research sources have not been added. When enriching this guide, record source URLs, publication and access dates, the date through which research was reviewed, and material changes. Sector guides are not included in the company retrieval export.
+2026-10-18: Codex source review of this bounded pilot guide, drawing on the independently audited company packets. The sector registry binds these exact bytes. Broader sector research remains open.

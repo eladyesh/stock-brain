@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "sectors": [
+    {
+      "sector": "information-technology",
+      "status": "reviewed",
+      "as_of": "2026-10-18",
+      "updated_at": "2026-10-18",
+      "reviewed_at": "2026-10-18",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Microsoft fiscal 2026 Form 10-K",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "published_at": "2026-07-29",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "id": "S02",
+          "title": "Micron FY2026 Form 10-K",
+          "publisher": "Micron Technology, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+          "published_at": "2026-10-09",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "id": "S03",
+          "title": "FY27 Segments and Investor Metrics, Form 8-K Exhibit 99.1",
+          "publisher": "Microsoft Corporation",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965dex991.htm",
+          "published_at": "2026-09-02",
+          "accessed_at": "2026-10-18"
+        }
+      ],
+      "content_sha256": "ba8bf5c9208806532f6606fb82f5e5ec3201b0b70d12e882082ce182dae10516"
+    },
+    {
+      "sector": "industrials",
+      "status": "reviewed",
+      "as_of": "2026-10-18",
+      "updated_at": "2026-10-18",
+      "reviewed_at": "2026-10-18",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "Form 10-K for the fiscal year ended April 30, 2026",
+          "publisher": "AeroVironment, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/avav-20260430x10k.htm",
+          "published_at": "2026-06-29",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "id": "S02",
+          "title": "Form 10-Q for the fiscal quarter ended August 1, 2026",
+          "publisher": "AeroVironment, Inc.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/avav-20260801x10q.htm",
+          "published_at": "2026-09-10",
+          "accessed_at": "2026-10-18"
+        }
+      ],
+      "content_sha256": "30bc0f6eb5acae0e8549d982efcee0e2a61883e2d0ae82d6914c1647bbb1b6ec"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "ticker": "RTX",
+  "as_of": "2026-10-18",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Form 10-K for the year ended December 31, 2025",
+      "publisher": "RTX Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm",
+      "published_at": "2026-02-06",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S02",
+      "title": "Form 10-Q for the quarter ended June 30, 2026",
+      "publisher": "RTX Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/rtx-20260630.htm",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S03",
+      "title": "RTX Reports Q2 2026 Results",
+      "publisher": "RTX Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000025/a2026-07x238xkerexhibit99.htm",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S04",
+      "title": "Form 8-K: Pratt & Whitney leadership succession",
+      "publisher": "RTX Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm",
+      "published_at": "2026-09-15",
+      "accessed_at": "2026-10-18"
+    }
+  ],
+  "sections": {
+    "business-overview": {
+      "claims": [
+        {
+          "id": "C01",
+          "kind": "reported",
+          "text": "RTX supplies commercial aerospace systems, aircraft engines and defense technologies. It combines aircraft production and aftermarket exposure with government procurement.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, General; Business Segments"
+            }
+          ]
+        }
+      ]
+    },
+    "revenue-model-and-segments": {
+      "claims": [
+        {
+          "id": "C02",
+          "kind": "reported",
+          "text": "The three segments are Collins Aerospace, Pratt & Whitney and Raytheon. Revenue includes equipment sales, parts, repairs, engine support and defense contracts.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business Segments"
+            }
+          ]
+        }
+      ]
+    },
+    "products-and-services": {
+      "claims": [
+        {
+          "id": "C03",
+          "kind": "reported",
+          "text": "Examples include Collins aircraft systems, Pratt & Whitney GTF and F135 engines, and Raytheon Patriot, AMRAAM and radar systems.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business Segments / Collins Aerospace; Pratt & Whitney; Raytheon"
+            }
+          ]
+        }
+      ]
+    },
+    "customers-and-end-markets": {
+      "claims": [
+        {
+          "id": "C04",
+          "kind": "reported",
+          "text": "Customers include airframe manufacturers, aircraft operators, U.S. government agencies and international buyers. Commercial aviation and defense create distinct demand drivers.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Business Segments; Sales and Customers"
+            }
+          ]
+        }
+      ]
+    },
+    "industry-and-value-chain": {
+      "claims": [
+        {
+          "id": "C05",
+          "kind": "reported",
+          "text": "Original engine and aircraft-system placements create later service opportunities. Supplier reliability, overhaul capacity and regulatory approval affect delivery and service economics.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition; Item 1A, suppliers and product quality"
+            }
+          ]
+        }
+      ]
+    },
+    "competitive-landscape": {
+      "claims": [
+        {
+          "id": "C06",
+          "kind": "reported",
+          "text": "The filing describes competition in aircraft equipment, spares and defense systems. Defense suppliers may also be partners or competitors on different programs.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition"
+            }
+          ]
+        }
+      ]
+    },
+    "moat-and-differentiation": {
+      "claims": [
+        {
+          "id": "C07",
+          "kind": "interpretation",
+          "text": "Interpretation: installed engines and certified systems can support aftermarket durability. Alternative parts suppliers, pricing competition and maintenance obligations limit the advantage.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Competition; Item 1A, product performance"
+            }
+          ]
+        }
+      ]
+    },
+    "growth-drivers": {
+      "claims": [
+        {
+          "id": "C08",
+          "kind": "management_guidance",
+          "text": "The July results reported commercial aftermarket and defense growth. Management plans capacity and productivity improvements; future backlog conversion still depends on execution.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening management commentary; Segment Results"
+            }
+          ]
+        }
+      ]
+    },
+    "financial-performance": {
+      "claims": [
+        {
+          "id": "C09",
+          "kind": "reported",
+          "text": "For April 1–June 30, 2026, GAAP sales were USD 24,708 million, net income attributable to common shareowners USD 2,139 million and diluted EPS USD 1.57.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Statement of Operations"
+            }
+          ]
+        },
+        {
+          "id": "C10",
+          "kind": "reported",
+          "text": "Adjusted diluted EPS was USD 1.89 for that quarter. This company-defined non-GAAP measure excludes acquisition accounting and specified restructuring and other items.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Summary Financial Results; EPS reconciliation"
+            }
+          ]
+        }
+      ]
+    },
+    "balance-sheet-and-capital-allocation": {
+      "claims": [
+        {
+          "id": "C11",
+          "kind": "reported",
+          "text": "At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding USD 5,296 million of current maturities and other short-term borrowings.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Condensed Consolidated Balance Sheet"
+            }
+          ]
+        }
+      ]
+    },
+    "management-and-governance": {
+      "claims": [
+        {
+          "id": "C12",
+          "kind": "reported",
+          "text": "The July results identify Chris Calio as chairman and CEO. The September succession filing names Jill Albertelli as Pratt & Whitney’s future president.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Opening management commentary"
+            },
+            {
+              "source_id": "S04",
+              "locator": "Item 5.02, Retirement of Named Executive Officer"
+            }
+          ]
+        }
+      ]
+    },
+    "valuation-context": {
+      "claims": [
+        {
+          "id": "C13",
+          "kind": "interpretation",
+          "text": "Interpretation: compare segment profitability and cash generation while reconciling acquisition adjustments and engine remediation costs. No current stock price, valuation multiple or price target is supplied.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Summary Financial Results; Use and Definitions of Non-GAAP Financial Measures"
+            }
+          ]
+        }
+      ]
+    },
+    "catalysts": {
+      "claims": [
+        {
+          "id": "C14",
+          "kind": "reported",
+          "text": "Announced September 15, 2026: Jill Albertelli is scheduled to succeed Shane Eddy as Pratt & Whitney president on January 1, 2027. Execution effects remain uncertain.",
+          "evidence": [
+            {
+              "source_id": "S04",
+              "locator": "Item 5.02, Retirement of Named Executive Officer"
+            }
+          ]
+        }
+      ]
+    },
+    "risks-and-thesis-breakers": {
+      "claims": [
+        {
+          "id": "C15",
+          "kind": "interpretation",
+          "text": "Powder-metal issues require accelerated GTF inspections and additional shop visits. Costs depend on inspection findings, overhaul capacity and customer compensation; deteriorating estimates would weaken a cash-recovery thesis.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Note 16, Pratt & Whitney Powder Metal Matter"
+            }
+          ]
+        }
+      ]
+    },
+    "scenarios-and-open-questions": {
+      "claims": [
+        {
+          "id": "C16",
+          "kind": "interpretation",
+          "text": "Interpretation: upside combines aftermarket growth with profitable defense deliveries; downside includes engine remediation, supply constraints or contract overruns. No scenario probabilities or target prices are assigned.",
+          "evidence": [
+            {
+              "source_id": "S02",
+              "locator": "Item 2, Business Overview; Note 16, Commitments and Contingencies"
+            }
+          ]
+        }
+      ]
+    },
+    "relationships-and-themes": {
+      "claims": [
+        {
+          "id": "C17",
+          "kind": "reported",
+          "text": "Pratt & Whitney’s F135 powers Lockheed Martin’s F-35. This is a documented propulsion-platform relationship; shared defense exposure alone does not establish another customer relationship.",
+          "evidence": [
+            {
+              "source_id": "S01",
+              "locator": "Item 1, Pratt & Whitney / F135"
+            }
+          ]
+        }
+      ]
+    },
+    "recent-developments": {
+      "claims": [
+        {
+          "id": "C18",
+          "kind": "management_guidance",
+          "text": "RTX raised its adjusted sales, adjusted EPS and free-cash-flow outlook on July 23, 2026. These were management forecasts, not realized annual results.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "Updates outlook for full year 2026"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gaps": [
+    "No current stock price, consensus estimates or valuation multiples were sourced.",
+    "Latest quarterly evidence covers June 30, 2026; filings-first pilot is not an exhaustive news or contract-award feed.",
+    "Full debt maturity, engine-remediation cash and litigation models are not built.",
+    "Named commercial aerospace competitors and market shares require separate primary-source comparison."
+  ],
+  "metrics": [
+    {
+      "id": "M01",
+      "claim_id": "C09",
+      "name": "Net sales",
+      "value": 24708,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statement of Operations / Total net sales"
+    },
+    {
+      "id": "M02",
+      "claim_id": "C09",
+      "name": "Net income attributable to common shareowners",
+      "value": 2139,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statement of Operations / Net income attributable to common shareowners"
+    },
+    {
+      "id": "M03",
+      "claim_id": "C09",
+      "name": "Diluted EPS",
+      "value": 1.57,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Statement of Operations / Diluted EPS"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C10",
+      "name": "Adjusted diluted EPS",
+      "value": 1.89,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-04-01",
+      "period_end": "2026-06-30",
+      "basis": "non-GAAP",
+      "source_id": "S03",
+      "locator": "Summary Financial Results / Adjusted EPS"
+    },
+    {
+      "id": "M05",
+      "claim_id": "C11",
+      "name": "Cash and cash equivalents",
+      "value": 8305,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheet / Cash and cash equivalents"
+    },
+    {
+      "id": "M06",
+      "claim_id": "C11",
+      "name": "Long-term debt excluding current maturities",
+      "value": 31858,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheet / Long-term debt"
+    },
+    {
+      "id": "M07",
+      "claim_id": "C11",
+      "name": "Current maturities of long-term debt",
+      "value": 5296,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "GAAP",
+      "source_id": "S02",
+      "locator": "Condensed Consolidated Balance Sheet / Long-term debt currently due"
+    }
+  ]
+}

@@ -293,6 +293,13 @@ def generated(root: Path, docs: list[Document]) -> dict[Path, str]:
 def build(root: Path, check: bool = False) -> int:
     validate_sector_guides(root)
     docs = documents(root)
+    from review_gates import check_managed_reviews
+    try:
+        check_managed_reviews(root, docs)
+    except ValueError as error:
+        raise Invalid(str(error)) from error
+    from sector_corpus import sector_records
+    sector_records(root)
     for relative, content in generated(root, docs).items():
         path = root / relative
         if check:
@@ -374,7 +381,13 @@ def export_records(root: Path, max_chars: int = 3000) -> list[dict]:
     _, definitions = config(root)
     titles = {entry["id"]: entry["title"] for entry in definitions}
     records = []
-    for doc in documents(root):
+    docs = documents(root)
+    from review_gates import check_managed_reviews
+    try:
+        check_managed_reviews(root, docs)
+    except ValueError as error:
+        raise Invalid(str(error)) from error
+    for doc in docs:
         meta = doc.metadata
         if meta["status"] != "reviewed":
             continue
@@ -392,6 +405,8 @@ def export_records(root: Path, max_chars: int = 3000) -> list[dict]:
                 payload = json.dumps(record, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
                 record["content_sha256"] = hashlib.sha256(payload.encode()).hexdigest()
                 records.append(record)
+    from sector_corpus import sector_records
+    records.extend(sector_records(root, max_chars))
     return records
 
 
@@ -427,7 +442,7 @@ def main() -> int:
             need(output.suffix == ".jsonl", "export output must end in .jsonl")
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_text("".join(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n" for row in records), encoding="utf-8")
-            print(f"Exported {len(records)} chunks from reviewed company profiles to {output}.")
+            print(f"Exported {len(records)} chunks from reviewed research to {output}.")
         return 0
     except (Invalid, OSError, json.JSONDecodeError) as error:
         print(f"ERROR: {error}", file=sys.stderr)
