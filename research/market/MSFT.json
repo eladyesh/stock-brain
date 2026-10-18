@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "ticker": "MSFT",
+  "price": 529.05,
+  "currency": "USD",
+  "trade_at": "2026-10-16T20:00:01+00:00",
+  "retrieved_at": "2026-10-18T12:38:08.266387+00:00",
+  "exchange": "NMS",
+  "price_type": "last_regular_session_trade",
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/quote/MSFT/",
+  "split_events": [],
+  "status": "available",
+  "limitations": [
+    "Provider snapshot; may be delayed. Not an exchange-certified real-time quote.",
+    "A current price does not make older financial statements current."
+  ],
+  "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?interval=1mo&range=5y&events=splits",
+  "source_sha256": "79195a08adf2f8aaa5c83decf95a76e68e8897044f6128fd12dc7e2e77e6f2d4"
+}

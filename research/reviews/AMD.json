@@ -1,0 +1,105 @@
+{
+  "ticker": "AMD",
+  "packet_sha256": "41d7f7006a02c9513c46ef3e9eb06bcc1b09ab2e0342814c97949754478ef691",
+  "draft_sha256": "f57a699799baedc9f5bf0c8c347161e5040fcc544b0739389f2eeb2b2aadf6bd",
+  "reviewer": "Codex AI — primary-source editorial review (not independent human sign-off)",
+  "reviewed_at": "2026-10-18",
+  "notes": "Reopened the cited primary documents and checked each claim, with particular attention to fiscal periods, units, accounting basis, future events and relationship types. Interpretation is assessed for grounding, not certified as a forecast. Review covers this packet, not exhaustive news completeness. ",
+  "claim_checks": [
+    {
+      "id": "C01",
+      "result": "supported",
+      "note": "Annual Business and manufacturing sections support markets and external fabrication."
+    },
+    {
+      "id": "C02",
+      "result": "supported",
+      "note": "Quarterly Note 4 combines Client and Gaming for segment reporting."
+    },
+    {
+      "id": "C03",
+      "result": "supported",
+      "note": "Annual product families and design tools support listed offerings."
+    },
+    {
+      "id": "C04",
+      "result": "supported",
+      "note": "Annual sales channels and non-recurring engineering fees verified. Removed unlocated minimum-purchase assertion."
+    },
+    {
+      "id": "C05",
+      "result": "supported",
+      "note": "Annual wafer arrangements specify TSMC and older-node GlobalFoundries supply."
+    },
+    {
+      "id": "C06",
+      "result": "supported",
+      "note": "Annual Competition verifies Intel/NVIDIA and customer internal designs."
+    },
+    {
+      "id": "C07",
+      "result": "supported",
+      "note": "Annual competitive factors support conditional product execution assessment, not proven pricing power."
+    },
+    {
+      "id": "C08",
+      "result": "supported",
+      "note": "Release commentary supports second-half EPYC/Instinct/Helios expectations."
+    },
+    {
+      "id": "C09",
+      "result": "supported",
+      "note": "Quarterly GAAP three-month column: 11536 revenue,1990 operating,2297 net; MI308 comparison caveat verified."
+    },
+    {
+      "id": "C10",
+      "result": "supported",
+      "note": "August 17 note closing and September share consideration checked; quarter-end capitalization caveat retained."
+    },
+    {
+      "id": "C11",
+      "result": "supported",
+      "note": "Annual officer/release names checked; August 19 effective Ryan appointment and McClure succession verified."
+    },
+    {
+      "id": "C12",
+      "result": "supported",
+      "note": "Release Helios deployments are checkpoints; no additional realized revenue asserted."
+    },
+    {
+      "id": "C13",
+      "result": "supported",
+      "note": "Release cautionary risks include exports, memory and outsourced execution; thesis breaker conditional."
+    },
+    {
+      "id": "C14",
+      "result": "supported",
+      "note": "Scenarios are assumptions tied to launch/competitive risks, without numerical forecasts."
+    },
+    {
+      "id": "C15",
+      "result": "supported",
+      "note": "World Labs Item 3.02 defines stock consideration near closing; no completed acquisition asserted."
+    },
+    {
+      "id": "C16",
+      "result": "supported",
+      "note": "September 26 agreement/28 filing checked; February amendment corrects swapped ASP/unit-growth disclosures."
+    }
+  ],
+  "gaps_acknowledged": [
+    "Independent human review remains outstanding; this packet has received a Codex AI claim-level source review.",
+    "The FY2025 10-K/A corrects Client ASP and unit-shipment growth; no figures from the superseded narrative are carried into this packet.",
+    "SEC inventory was checked through 2026-10-18 and post-quarter 8-Ks were read; other investor announcements have not been exhaustively covered.",
+    "Current debt, acquisition dilution, valuation, customer concentration and product economics require further work."
+  ],
+  "review_metrics": {
+    "elapsed_seconds": null,
+    "cost_usd": null,
+    "correction_count": 1,
+    "measurement_note": "This interactive review was not timed or billed per company. Unknown is not zero."
+  },
+  "packet_path": "research/pilot/AMD.json",
+  "profile_path": "sectors/information-technology/companies/AMD/README.md",
+  "approved_profile_sha256": "d821c29999a97aa8fd35929943a68b05e8fff1bfdd2ec3c10970ee51699d0e2b"
+}

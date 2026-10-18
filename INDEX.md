@@ -6,7 +6,7 @@
 
 ## Coverage
 
-Profiles: **10**. Reviewed: **3**. Counts describe this repository, not the entire U.S. market.
+Profiles: **10**. Reviewed: **10**. Counts describe this repository, not the entire U.S. market.
 
 ## Sectors
 
@@ -18,8 +18,8 @@ Profiles: **10**. Reviewed: **3**. Counts describe this repository, not the enti
 | [Energy](sectors/energy/README.md) | 0 | 0 | [Browse](sectors/energy/INDEX.md) |
 | [Financials](sectors/financials/README.md) | 0 | 0 | [Browse](sectors/financials/INDEX.md) |
 | [Health Care](sectors/health-care/README.md) | 0 | 0 | [Browse](sectors/health-care/INDEX.md) |
-| [Industrials](sectors/industrials/README.md) | 3 | 1 | [Browse](sectors/industrials/INDEX.md) |
-| [Information Technology](sectors/information-technology/README.md) | 7 | 2 | [Browse](sectors/information-technology/INDEX.md) |
+| [Industrials](sectors/industrials/README.md) | 3 | 3 | [Browse](sectors/industrials/INDEX.md) |
+| [Information Technology](sectors/information-technology/README.md) | 7 | 7 | [Browse](sectors/information-technology/INDEX.md) |
 | [Materials](sectors/materials/README.md) | 0 | 0 | [Browse](sectors/materials/INDEX.md) |
 | [Real Estate](sectors/real-estate/README.md) | 0 | 0 | [Browse](sectors/real-estate/INDEX.md) |
 | [Utilities](sectors/utilities/README.md) | 0 | 0 | [Browse](sectors/utilities/INDEX.md) |
@@ -28,16 +28,16 @@ Profiles: **10**. Reviewed: **3**. Counts describe this repository, not the enti
 
 | Ticker | Company | Status | Research as of |
 | --- | --- | --- | --- |
-| [AMD](sectors/information-technology/companies/AMD/README.md) | Advanced Micro Devices, Inc. | draft | 2026-10-18 |
+| [AMD](sectors/information-technology/companies/AMD/README.md) | Advanced Micro Devices, Inc. | reviewed | 2026-10-18 |
 | [AVAV](sectors/industrials/companies/AVAV/README.md) | AeroVironment, Inc. | reviewed | 2026-10-18 |
-| [AVGO](sectors/information-technology/companies/AVGO/README.md) | Broadcom Inc. | draft | 2026-10-18 |
-| [LMT](sectors/industrials/companies/LMT/README.md) | Lockheed Martin Corporation | draft | 2026-10-18 |
+| [AVGO](sectors/information-technology/companies/AVGO/README.md) | Broadcom Inc. | reviewed | 2026-10-18 |
+| [LMT](sectors/industrials/companies/LMT/README.md) | Lockheed Martin Corporation | reviewed | 2026-10-18 |
 | [MSFT](sectors/information-technology/companies/MSFT/README.md) | Microsoft Corporation | reviewed | 2026-10-18 |
 | [MU](sectors/information-technology/companies/MU/README.md) | Micron Technology, Inc. | reviewed | 2026-10-18 |
-| [NVDA](sectors/information-technology/companies/NVDA/README.md) | NVIDIA Corporation | draft | 2026-10-18 |
-| [ORCL](sectors/information-technology/companies/ORCL/README.md) | Oracle Corporation | draft | 2026-10-18 |
-| [PLTR](sectors/information-technology/companies/PLTR/README.md) | Palantir Technologies Inc. | draft | 2026-10-18 |
-| [RTX](sectors/industrials/companies/RTX/README.md) | RTX Corporation | draft | 2026-10-18 |
+| [NVDA](sectors/information-technology/companies/NVDA/README.md) | NVIDIA Corporation | reviewed | 2026-10-18 |
+| [ORCL](sectors/information-technology/companies/ORCL/README.md) | Oracle Corporation | reviewed | 2026-10-18 |
+| [PLTR](sectors/information-technology/companies/PLTR/README.md) | Palantir Technologies Inc. | reviewed | 2026-10-18 |
+| [RTX](sectors/industrials/companies/RTX/README.md) | RTX Corporation | reviewed | 2026-10-18 |
 
 ## Cross-sector themes
 

@@ -106,3 +106,8 @@ python scripts/evaluate_retrieval.py
 ```
 
 Only reviewed company evidence and hash-bound reviewed sector guides enter export. Sector sources/dates and exact guide hashes are maintained in `config/sector_research.json`; index/navigation sections remain excluded. See [RAG.md](RAG.md) for the retrieval baseline and its limits. Commit concise evidence, reviews, checkpoints and generated indexes, not raw filings, credentials or generated embeddings.
+
+
+## Recurring discovery and review requests
+
+Use [the maintenance workflow](MAINTENANCE.md) for daily SEC/RSS discovery, durable pending state, bounded preparation, and failure handling. It feeds this existing draft/review pipeline without approving or rewriting research automatically. The assistant and translation contracts are in [ASSISTANT.md](ASSISTANT.md).

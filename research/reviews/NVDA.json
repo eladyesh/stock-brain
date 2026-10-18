@@ -1,0 +1,105 @@
+{
+  "ticker": "NVDA",
+  "packet_sha256": "da235a0cf3675ea2f215418e7ad2456fc250876406a69702420f7ebda1730a54",
+  "draft_sha256": "562129437ac8de977089b2d79edf33579cd0c5556b24b731287c94db9cb7351f",
+  "reviewer": "Codex AI — primary-source editorial review (not independent human sign-off)",
+  "reviewed_at": "2026-10-18",
+  "notes": "Reopened the cited primary documents and checked each claim, with particular attention to fiscal periods, units, accounting basis, future events and relationship types. Interpretation is assessed for grounding, not certified as a forecast. Review covers this packet, not exhaustive news completeness. ",
+  "claim_checks": [
+    {
+      "id": "C01",
+      "result": "supported",
+      "note": "Annual company description supports integrated accelerated-computing scope."
+    },
+    {
+      "id": "C02",
+      "result": "supported",
+      "note": "Quarterly Note 13 distinguishes two segments from the Data Center/Edge market presentation."
+    },
+    {
+      "id": "C03",
+      "result": "supported",
+      "note": "Annual software stack and release Vera Rubin production-ramp statement checked."
+    },
+    {
+      "id": "C04",
+      "result": "supported",
+      "note": "Quarterly direct/indirect customer definitions support concentration caveat."
+    },
+    {
+      "id": "C05",
+      "result": "supported",
+      "note": "Annual Manufacturing names the foundries and three memory suppliers."
+    },
+    {
+      "id": "C06",
+      "result": "supported",
+      "note": "Annual Competition identifies AMD/Intel, internal alternatives and Broadcom networking overlap."
+    },
+    {
+      "id": "C07",
+      "result": "supported",
+      "note": "Software compatibility supports a hypothesis, with customer alternatives retained."
+    },
+    {
+      "id": "C08",
+      "result": "supported",
+      "note": "August outlook excludes China Data Center compute revenue; demand commentary is guidance."
+    },
+    {
+      "id": "C09",
+      "result": "supported",
+      "note": "Quarterly GAAP three-month column verifies 96221 revenue, 63734 operating and 59688 net income."
+    },
+    {
+      "id": "C10",
+      "result": "supported",
+      "note": "Quarterly cash 22443 excludes investments; September acquisition filing remains conditional."
+    },
+    {
+      "id": "C11",
+      "result": "supported",
+      "note": "August release identifies Huang and Kress; ownership analysis is explicitly missing."
+    },
+    {
+      "id": "C12",
+      "result": "supported",
+      "note": "Acquisition Item 8.01 expects first-half 2027 closing subject to approvals."
+    },
+    {
+      "id": "C13",
+      "result": "supported",
+      "note": "Quarterly demand/manufacturing/financing risks support the conditional thesis breaker."
+    },
+    {
+      "id": "C14",
+      "result": "supported",
+      "note": "Release platform and risk discussion grounds scenarios without assigning probabilities."
+    },
+    {
+      "id": "C15",
+      "result": "supported",
+      "note": "Acquisition filing commits to other-vendor support if completed; no subsidiary status asserted."
+    },
+    {
+      "id": "C16",
+      "result": "supported",
+      "note": "Agreement September 2 and filing September 3 checked; tooling emphasis is descriptive."
+    }
+  ],
+  "gaps_acknowledged": [
+    "Independent human review remains outstanding; this packet has received a Codex AI claim-level source review.",
+    "SEC inventory was checked through 2026-10-18, including the post-earnings September 3 filing; this is not exhaustive monitoring of all investor announcements.",
+    "No current valuation, ownership analysis, complete debt reconciliation or independent product benchmark is included.",
+    "Platform adoption, direct-customer concentration and ultimate end-user economics need deeper analysis."
+  ],
+  "review_metrics": {
+    "elapsed_seconds": null,
+    "cost_usd": null,
+    "correction_count": 0,
+    "measurement_note": "This interactive review was not timed or billed per company. Unknown is not zero."
+  },
+  "packet_path": "research/pilot/NVDA.json",
+  "profile_path": "sectors/information-technology/companies/NVDA/README.md",
+  "approved_profile_sha256": "eab7cfe189b222de58bc5e24d1dd6b2ecb18f5746e4ffd6c49e27be867560cea"
+}

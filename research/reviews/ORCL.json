@@ -1,0 +1,98 @@
+{
+  "ticker": "ORCL",
+  "packet_sha256": "3cec7a0d416442e1633422d46f1e5f53a3a4a412ff744ea279d4cafd38438adf",
+  "draft_sha256": "28eaad24ad7c37236770169395af9c5a42c8430e5286ed3efd4b5966bd1ddb87",
+  "reviewer": "Codex AI — primary-source editorial review (not independent human sign-off)",
+  "reviewed_at": "2026-10-18",
+  "notes": "Reopened the cited primary documents and checked each claim, with particular attention to fiscal periods, units, accounting basis, future events and relationship types. Interpretation is assessed for grounding, not certified as a forecast. Review covers this packet, not exhaustive news completeness. Oracle SEC annual HTML exceeded the reader size limit; the matching FY2026 annual PDF was checked at https://s23.q4cdn.com/440135859/files/doc_downloads/2026/09/10K_Bookmarked.pdf, including printed pages 11-12 for competitors. The original competitor names were ultimately confirmed.",
+  "claim_checks": [
+    {
+      "id": "C01",
+      "result": "supported",
+      "note": "Annual cover and Business identify ORCL and its enterprise portfolio."
+    },
+    {
+      "id": "C02",
+      "result": "supported",
+      "note": "Annual business and revenue policies distinguish three businesses and recognition methods."
+    },
+    {
+      "id": "C03",
+      "result": "supported",
+      "note": "Annual product descriptions support each named application and infrastructure family."
+    },
+    {
+      "id": "C04",
+      "result": "supported",
+      "note": "Annual sales discussion supports enterprise and public-sector reach; concentration remains unquantified."
+    },
+    {
+      "id": "C05",
+      "result": "supported",
+      "note": "Release capacity and funding risks support the explicitly labeled operating-constraint inference."
+    },
+    {
+      "id": "C06",
+      "result": "supported",
+      "note": "Annual Competition, printed pages 11-12, confirms the named vendors; no universal overlap implied."
+    },
+    {
+      "id": "C07",
+      "result": "supported",
+      "note": "Annual installed-product discussion supports a hypothesis only, not measured switching costs."
+    },
+    {
+      "id": "C08",
+      "result": "supported",
+      "note": "Release FY2027 outlook confirms 90000 million revenue floor and 8.10 non-GAAP EPS."
+    },
+    {
+      "id": "C09",
+      "result": "supported",
+      "note": "Quarterly income statement: 19345 revenue, 6728 operating, 4679 common income, 1.56 EPS; not consolidated net income."
+    },
+    {
+      "id": "C10",
+      "result": "supported",
+      "note": "Quarterly cash flow confirms 23103 operating, 11363 financing-component prepayments, 28499 capex, 19909 ATM proceeds."
+    },
+    {
+      "id": "C11",
+      "result": "supported",
+      "note": "Proxy officer table confirms both CEOs, Maxson and Catz; superseded CEO role retained as historical."
+    },
+    {
+      "id": "C12",
+      "result": "supported",
+      "note": "Quarterly liquidity and release risk language support the stated hypothetical thesis breakers."
+    },
+    {
+      "id": "C13",
+      "result": "supported",
+      "note": "Release RPO and capital program underpin scenarios, with no probabilities asserted."
+    },
+    {
+      "id": "C14",
+      "result": "supported",
+      "note": "Release ontology positioning is explicitly issuer marketing; no partnership inferred."
+    },
+    {
+      "id": "C15",
+      "result": "supported",
+      "note": "8-K Item 8.01: cancellation September 12, filed September 14; no prior plan sales or purchase claim."
+    }
+  ],
+  "gaps_acknowledged": [
+    "Evidence cutoff 2026-10-18; latest financial period verified is 2026-08-31. SEC submissions and selected issuer releases were reviewed, not all intervening product or legal news.",
+    "No current valuation or complete debt, preferred-stock, lease, customer-concentration, and contract-funding model."
+  ],
+  "review_metrics": {
+    "elapsed_seconds": null,
+    "cost_usd": null,
+    "correction_count": 0,
+    "measurement_note": "This interactive review was not timed or billed per company. Unknown is not zero."
+  },
+  "packet_path": "research/pilot/ORCL.json",
+  "profile_path": "sectors/information-technology/companies/ORCL/README.md",
+  "approved_profile_sha256": "18075b236c057744029b137ad4f7295beaa8f29b5e3b0ae9c0fbf78a388522cd"
+}

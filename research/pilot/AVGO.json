@@ -294,7 +294,7 @@
     }
   },
   "gaps": [
-    "Draft: a second claim-level source review remains outstanding.",
+    "Independent human review remains outstanding; this packet has received a Codex AI claim-level source review.",
     "SEC inventory was checked through 2026-10-18; this packet covers the annual and latest quarterly filings and results, not every intervening issuer announcement.",
     "No named ultimate AI customer is inferred from aggregate disclosures.",
     "Software competitors, renewal economics, debt maturities, ownership and valuation require deeper work."

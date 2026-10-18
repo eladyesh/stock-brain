@@ -15,10 +15,10 @@ tags:
 - ai
 - software
 - defense
-status: draft
+status: reviewed
 as_of: '2026-10-18'
 updated_at: '2026-10-18'
-reviewed_at: null
+reviewed_at: '2026-10-18'
 sources:
 - id: S01
   title: Palantir fiscal 2025 Form 10-K

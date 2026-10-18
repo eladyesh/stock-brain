@@ -1,10 +1,12 @@
 # Stock Brain
 
-A structured, source-backed knowledge base for U.S.-listed stocks, written in English and designed for a future retrieval-augmented generation (RAG) system.
+A structured, source-backed knowledge base for U.S.-listed stocks, with canonical English research and a cited Hebrew/English lookup interface.
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-18):** ten sourced company profiles: MSFT, MU and AVAV are reviewed dated snapshots; ORCL, PLTR, NVDA, AMD, AVGO, LMT and RTX remain drafts. Two bounded sector guides are reviewed. The pipeline collects primary sources, prepares evidence requests, renders drafts, validates reviews, and proposes incremental updates. An English retrieval baseline has 20 development questions. This is not a live market-data feed or a deployed question-answering application. The pilot reviews were performed by Codex with a separate evidence-checking agent, not human sign-off.
+**Current state (2026-10-18):** ten hash-bound reviewed company profiles with 169 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
+
+**Open [Stock Brain research desk](https://stock-brain-desk.neatibex64.chatgpt.site)** (owner-private). The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures; the linked Site task is the intended daily updater.
 
 ## Start here
 
@@ -15,6 +17,10 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Sector template](templates/sector/README.md) | See the shared sector structure |
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |
 | [Data contract](docs/DATA_CONTRACT.md) | Metadata, identifiers, and validation |
+| [Research assistant](docs/ASSISTANT.md) | Local interface, Hebrew answers, citations and acceptance results |
+| [Hosted research desk](docs/DESK.md) | Financial history, comparisons, scenario assumptions and build instructions |
+| [Cloud updates](docs/CLOUD_UPDATES.md) | Durable daily data refresh and failure handling |
+| [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
 | [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
 | [Pilot results](docs/PILOT.md) | Coverage, validation, collection timing, and limitations |
@@ -70,7 +76,7 @@ python -m unittest discover -s tests -v
 python scripts/stock_brain.py export --output build/chunks.jsonl
 ```
 
-The exporter includes only `reviewed` company profiles and explicitly registered reviewed sector research. The pilot exports 59 chunks: 49 company chunks and 10 sector chunks. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are excluded. See the pipeline guide to collect sources or use an explicitly configured model runner.
+The exporter includes only `reviewed` company profiles and explicitly registered reviewed sector research. The reviewed corpus exports 172 chunks: 162 company chunks and 10 sector chunks. Templates, indexes, stubs, drafts, archived profiles, and sector planning prompts are excluded. See the pipeline guide to collect sources or use an explicitly configured model runner.
 
 ## What is implemented
 
@@ -80,16 +86,26 @@ The exporter includes only `reviewed` company profiles and explicitly registered
 - Validation of structure, metadata, source references, and review requirements.
 - Section-aware JSONL export with company context, evidence, dates, content hashes, and stable section identifiers.
 - A local test suite and GitHub Actions validation for changes.
-- Ten source-backed evidence packets, three separately audited reference profiles, and two bounded sector guides.
+- Ten source-backed evidence packets, ten reviewed profiles (three previous reference reviews and seven new AI source reviews), and two bounded sector guides.
 - SEC submissions/company-facts collection, curated IR HTML/PDF sources, content-addressed caching, and disclosure-change detection.
 - Provider-neutral model runner protocol, optional Responses API adapter, deterministic metric calculations, and hash-bound review records.
-- Twenty retrieval/abstention development cases with a reproducible lexical baseline.
+- Twenty development cases and 50 frozen bilingual acceptance cases, with failing retrieval and answer-integrity gates.
+- Local Hebrew/English Q&A, exact claim citations, bound translations and freshness indicators.
+- Daily SEC/RSS/public Q4 discovery, source diagnostics, a persistent review queue, source-bound triage decisions and bounded incremental request preparation.
+- Exact-definition SEC history, explicit revision/comparability flags, optional public market snapshots and assumption-based valuation sensitivity.
+- A private hosted Hebrew desk and a durable data-only update branch; no runtime model API key is required.
 
-## Next stages
+## Use the assistant
 
-1. Independently review the seven drafts and close their recorded research gaps.
-2. Expand in cohorts of three to five issuers while monitoring collection and review effort.
-3. Add a held-out evaluation set, then compare embeddings/hybrid retrieval against the lexical baseline.
-4. Build cited question answering and evaluate answer factuality separately from retrieval.
+```bash
+python scripts/serve.py
+python scripts/ask.py 'מה עושה אורקל?'
+python scripts/evaluate_retrieval.py --cases eval/acceptance-v1.json
+python scripts/evaluate_answers.py
+```
 
-Local validation, collection and retrieval evaluation need no model API key. Automated model drafting is opt-in and requires explicit configuration; no scheduled job or paid request is enabled by default.
+Open `http://127.0.0.1:8765`. No model API key is needed for lookup, discovery, or evaluation. Optional model drafting requires explicit configuration.
+
+## Next priorities
+
+Resolve the substantive disclosure backlog and the stored financial comparability flags before expanding the universe. Deepen issuer-specific moat, customer concentration, management incentives and measurable thesis-breaker work. Add independent human review and holdout questions. Consensus, forward valuation and a general language-model assistant remain separate future capabilities; scenario calculations do not supply them.

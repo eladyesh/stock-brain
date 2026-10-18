@@ -2,6 +2,9 @@ __pycache__/
 *.py[cod]
 .venv/
 build/
+node_modules/
+dist/
+data/desk.json
 .env
 .env.*
 !.env.example

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "ticker": "NVDA",
+  "price": 214.13,
+  "currency": "USD",
+  "trade_at": "2026-10-16T20:00:00+00:00",
+  "retrieved_at": "2026-10-18T12:38:26.919028+00:00",
+  "exchange": "NMS",
+  "price_type": "last_regular_session_trade",
+  "provider": "Yahoo Finance",
+  "source_url": "https://finance.yahoo.com/quote/NVDA/",
+  "split_events": [
+    {
+      "effective_at": "2024-06-10T13:30:00+00:00",
+      "numerator": 10.0,
+      "denominator": 1.0
+    }
+  ],
+  "status": "available",
+  "limitations": [
+    "Provider snapshot; may be delayed. Not an exchange-certified real-time quote.",
+    "A current price does not make older financial statements current."
+  ],
+  "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1mo&range=5y&events=splits",
+  "source_sha256": "66dff21ad8ed64e429dd3140244d85a98c1c74ac0bc167b79c9964534eb386b9"
+}
