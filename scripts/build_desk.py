@@ -7,6 +7,7 @@ import shutil
 
 import answering
 import financial_history
+import financial_answers
 import research_pipeline as p
 import stock_brain as kb
 import valuation
@@ -19,7 +20,7 @@ def build(root, output=None):
     sections = p.read_json(root / 'config/sections.json')
     reports = [p.read_json(path) for path in [root / 'build/monitoring/latest.json', root / 'research/monitoring/latest.json'] if path.exists()]
     monitor = max(reports, key=lambda r: r.get('checked_at', ''), default=None)
-    result = {'schema_version': 1, 'built_at': datetime.now(timezone.utc).isoformat(),
+    result = {'schema_version': 1, 'answer_contract_version': 2, 'built_at': datetime.now(timezone.utc).isoformat(),
               'repository': 'https://github.com/eladyesh/stock-brain',
               'config': config, 'section_definitions': sections, 'companies': [],
               'metric_patterns': list(query_contract.METRICS.items()), 'he_reasons': answering.HE_REASONS,
@@ -54,7 +55,8 @@ def build(root, output=None):
                 'as_of': packet['as_of'], 'sections': claims, 'sources': packet['sources'], 'metrics': packet.get('metrics', []), 'metric_index': metric_index,
                 'gaps': gaps, 'freshness': answering.disclosure_monitor.freshness(root, ticker, monitor),
                 'quote': p.read_json(quote_path) if quote_path.exists() else None,
-                'history': history, 'ratios': valuation.historical_ratios(history) if history else []}
+                'history': history, 'historical_index': financial_answers.index(history),
+                'ratios': valuation.historical_ratios(history) if history else []}
         result['companies'].append(item)
     triage_path = root / 'research/monitoring/triage.json'
     if triage_path.exists(): result['triage'] = p.read_json(triage_path)

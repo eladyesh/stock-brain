@@ -18,6 +18,7 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |
 | [Data contract](docs/DATA_CONTRACT.md) | Metadata, identifiers, and validation |
 | [Research assistant](docs/ASSISTANT.md) | Local interface, Hebrew answers, citations and acceptance results |
+| [Exact numerical answers](docs/EXACT_ANSWERS.md) | Calendar/fiscal period matching and sourced historical lookup |
 | [Hosted research desk](docs/DESK.md) | Financial history, comparisons, scenario assumptions and build instructions |
 | [Cloud updates](docs/CLOUD_UPDATES.md) | Durable daily data refresh and failure handling |
 | [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |

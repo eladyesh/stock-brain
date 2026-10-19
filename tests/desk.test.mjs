@@ -4,6 +4,25 @@ import fs from 'node:fs';
 import {ask,scenario} from '../site/engine.mjs';
 const data=JSON.parse(fs.readFileSync(new URL('../data/desk.json',import.meta.url)));
 const cases=JSON.parse(fs.readFileSync(new URL('../eval/acceptance-v1.json',import.meta.url))).cases;
+const historicalCases=JSON.parse(fs.readFileSync(new URL('./historical-answer-cases.json',import.meta.url)));
+
+for(const c of historicalCases)test('Exact historical answer: '+c.question,()=>{
+  const out=ask(c.question,data);
+  assert.equal(out.abstain,c.abstain||false,c.question+' '+out.reason_code);
+  if(out.abstain){assert.deepEqual(out.statements,[]);if(c.reason)assert.equal(out.reason_code,c.reason);return;}
+  assert.equal(out.mode,'financial_history');assert.equal(out.statements.length,1);
+  const row=out.statements[0];
+  assert.deepEqual([row.ticker,row.value,row.period_start,row.period_end],[c.ticker,c.value,c.start,c.end]);
+  assert(row.sources.length>0&&row.sources.every(s=>s.url.startsWith('https://www.sec.gov/Archives/')&&s.locator.includes('us-gaap:')));
+});
+
+test('Historical comparison returns every issuer or abstains',()=>{
+  const q='Compare MSFT and PLTR revenue in FY2024';
+  const result=ask(q,data);assert.equal(result.abstain,false);
+  assert.deepEqual(new Set(result.statements.map(s=>s.ticker)),new Set(['MSFT','PLTR']));
+  const missing=structuredClone(data);missing.companies.find(c=>c.ticker==='PLTR').historical_index=[];
+  assert.equal(ask(q,missing).abstain,true);assert.deepEqual(ask(q,missing).statements,[]);
+});
 
 for(const c of cases)test('Browser evidence gate '+c.id,()=>{
   const out=ask(c.question,data);
@@ -20,8 +39,6 @@ for(const c of cases)test('Browser evidence gate '+c.id,()=>{
   }
 });
 for(const q of [
-  'What was MSFT revenue in Q1 FY2026?',
-  'מה היו הכנסות מיקרוסופט ברבעון הראשון של 2026?',
   'What was MSFT revenue excluding Azure in FY2026?',
   'מה שיעור הרווח הגולמי של אנבידיה?',
   'What is NVDA gross margin?',
@@ -33,8 +50,6 @@ for(const q of [
   'Compare NVDA and AMD revenue in 2027',
   'Compare MSFT and ORCL revenue in Q1 FY2027',
   'What was NVDA annual revenue in FY2027?',
-  'What was MU revenue in fiscal Q1 2026?',
-  'What was MSFT revenue in FY2024?',
   'What was MSFT FY2026 adjusted EPS?',
   'Compare MSFT GAAP and adjusted EPS in FY2026',
   'What are MSFT net income and ROIC?',
@@ -82,13 +97,36 @@ test('All UI views, question submission and scenario calculation render with rea
     document.getElementById('question').value='מה עושה אורקל?';
     document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
     assert(document.querySelectorAll('#answer .claim').length>0);
-    document.getElementById('question').value='What was MSFT revenue in Q1 FY2026?';
+    document.getElementById('question').value='What was MSFT revenue in calendar year 2026?';
     document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
     assert.equal(document.querySelectorAll('#answer .claim').length,0);
     assert(document.querySelector('#answer .notice.amber'));
+    document.getElementById('question').value='מה היו ההכנסות של מיקרוסופט בשנת הכספים 2024?';
+    document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
+    assert(document.getElementById('answer').textContent.includes('245,122,000,000'));
+    assert(document.getElementById('answer').textContent.includes('2023-07-01'));
+    assert(document.getElementById('answer').textContent.includes('שכבה נפרדת'));
     for(const button of document.querySelectorAll('.company-button'))button.click();
     assert(document.querySelector('.company-button.active'));
     assert.equal(document.querySelectorAll('a[href="#"]').length,0,'No dead source links');
+  }finally{globalThis.fetch=oldFetch;}
+});
+
+test('Unavailable or incompatible remote data keeps a labelled usable snapshot',async()=>{
+  const {parseHTML}=await import('linkedom');
+  const {document,window}=parseHTML(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8'));
+  globalThis.document=document;globalThis.Node=window.Node;
+  const oldFetch=globalThis.fetch;
+  globalThis.fetch=async url=>url.startsWith('./')?{ok:true,json:async()=>structuredClone(data)}:{ok:false,status:404};
+  try{
+    await import('../site/app.mjs?offline-test');await new Promise(resolve=>setTimeout(resolve,0));
+    assert(document.getElementById('data-status').textContent.includes('לא התקבל עדכון'));
+    assert.equal(document.querySelectorAll('.company-button').length,data.companies.length);
+    const legacy=structuredClone(data);delete legacy.answer_contract_version;
+    globalThis.fetch=async()=>({ok:true,json:async()=>legacy});
+    document.getElementById('refresh').click();await new Promise(resolve=>setTimeout(resolve,0));
+    assert(document.getElementById('data-status').textContent.includes('לא התקבל עדכון'));
+    assert.equal(document.querySelectorAll('.company-button').length,data.companies.length);
   }finally{globalThis.fetch=oldFetch;}
 });
 

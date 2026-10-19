@@ -13,6 +13,12 @@ The server binds to localhost. The interface provides company research status, a
 
 ## Answer contract
 
+The numerical interface also supports an exact-period fallback to the separate
+normalized SEC history. See [Exact numerical answers](EXACT_ANSWERS.md) for fiscal
+versus calendar semantics, historical provenance, quality gates and examples.
+These responses are labelled historical financial data rather than editorially
+reviewed narrative. They do not renew research freshness.
+
 The first version selects exact, reviewed claims. Hebrew output uses 169 editorially translated claims in `research/locales/he`, bound to the source claim, its cited source metadata and the evidence cutoff. It does not paraphrase through a model at runtime, invent calculations, or silently fall back from a missing research section. Relationship answers discard claims unrelated to the named counterparty.
 
 English canonical research remains in the existing profiles and evidence packets. New or changed claims need both a renewed research review and an updated translation before Hebrew output is available. Each translation stores an explicitly named AI reviewer, source digest and text digest. Number-token parity is checked, but hashes and matching numbers do not prove semantic accuracy. Independent human review remains valuable.

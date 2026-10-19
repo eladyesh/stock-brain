@@ -4,6 +4,7 @@ This gate never substitutes a whole-year figure for a quarter or computes a
 missing measure from a nearby narrative. Unknown qualifiers fail closed.
 """
 from datetime import date
+import calendar
 import json
 import re
 
@@ -41,9 +42,10 @@ def parse(question):
         metrics.append("net_income")
     quarters = set(int(n) for n in re.findall(r"\bq([1-4])\b", q) if n)
     for number, words in QUARTER_WORDS.items():
-        if re.search(r"(?:" + words + r")[- ]quarter|quarter\s*" + str(number) + r"|רבעון\s+(?:ה)?(?:" + words + r")|רבעון\s*" + str(number), q):
+        if re.search(r"(?:" + words + r")[- ]quarter|quarter\s*" + str(number) + r"|רבעון\s+(?:(?:ה)?(?:קלנדרי|פיסקלי)\s+)?(?:ה)?(?:" + words + r")|רבעון\s*" + str(number), q):
             quarters.add(number)
-    explicit_fiscal = bool(re.search(r"\bfy\s*\d{4}|fiscal|שנת כספים|שנה פיסקלית", q))
+    explicit_fiscal = bool(re.search(r"\bfy\s*\d{4}|fiscal|שנת (?:ה)?כספים|פיסקלי", q))
+    explicit_calendar = bool(re.search(r"\bcalendar\b|\bcy\s*\d{4}|קלנדרי|אזרחי", q))
     years = set(int(y) for y in re.findall(r"(?<!\d)(?:19|20)\d{2}(?!\d)", q))
     non_gaap = bool(re.search(r"non[ -]?gaap|adjusted|מתואמ", q))
     gaap = bool(re.search(r"(?<!non-)(?<!non )\bgaap\b", q))
@@ -57,8 +59,21 @@ def parse(question):
         qualifier = "unsupported_qualifier"
     if metrics and re.search(r"azure|copilot|data cent(?:er|re)|aws|cloud revenue|revenue.*cloud|הכנסות.*ענן|הכנסות.*אזור|הכנסות.*(?:סין|ארה״ב)", q):
         qualifier = "unsupported_qualifier"
+    # Relative/rolling periods need their own sourced calculation. They must
+    # never fall through to a nearby annual or quarterly narrative claim.
+    relative_period = bool(re.search(
+        r"\b(?:ttm|ltm|ytd)\b|(?:last|past|trailing)\s+(?:12|twelve)\s+months|"
+        r"(?:last|past|trailing)\s+(?:4|four)\s+quarters|year.to.date|"
+        r"(?:last|previous|next|current)\s+(?:fiscal\s+)?(?:year|quarter)|"
+        r"(?:12|שנים[ -]עשר)\s+(?:ה)?חודשים|ארבעת\s+(?:ה)?רבעונים|"
+        r"מתחילת השנה|השנה שעברה|בשנה שעברה|השנה הנוכחית|הרבעון (?:הקודם|הנוכחי|הבא)|"
+        r"\bh[12]\b|(?:first|second) half|מחצית|\bq(?:[05-9]|\d{2,})\b|"
+        r"\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\b|"
+        r"ינואר|פברואר|מרץ|אפריל|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר", q))
+    period_error = "unsupported_period" if relative_period or (explicit_fiscal and explicit_calendar) or (quarters and not years) else None
     return {"metrics": metrics, "years": sorted(years), "quarters": sorted(quarters),
             "fiscal": explicit_fiscal, "annual": bool(years and not quarters), "basis": basis, "both_bases": gaap and non_gaap,
+            "calendar": explicit_calendar, "period_error": period_error,
             "guidance": bool(re.search(r"guidance|outlook|forecast|תחזית|צפי", q)),
             "comparison": bool(re.search(r"\bcompare|versus|\bvs\b|השוו|השוה|השוואה|לעומת", q)),
             "qualifier_error": qualifier}
@@ -73,7 +88,7 @@ def period_identity(metric, claim, context=None):
     pairs += [(q, y) for y, q in re.findall(r"FY\s*((?:19|20)\d{2})\s+Q([1-4])", text, re.I)]
     for number, words in QUARTER_WORDS.items():
         pairs += [(str(number), year) for year in re.findall(r"fiscal\s*((?:19|20)\d{2})\s+(?:" + words + r")[ -]quarter", text, re.I)]
-    fiscal_years = set(int(y) for y in re.findall(r"(?:FY|fiscal(?: year)?)\s*((?:19|20)\d{2})", text, re.I))
+    fiscal_years = set(int(y) for y in re.findall(r"(?:FY|fiscal(?: year)?|full[ -]year)\s*((?:19|20)\d{2})", text, re.I))
     # Some releases say "fiscal Q4 ended September 3, 2026" then state FY2026.
     bare_quarters = set(int(n) for n in re.findall(r"fiscal Q([1-4])\b", text, re.I))
     if not pairs and len(bare_quarters) == 1 and len(fiscal_years) == 1:
@@ -114,16 +129,34 @@ def period_context(packet):
     return result
 
 
-def match_period(metric, claim, request, context=None):
-    identity = period_identity(metric, claim, context)
-    if request["quarters"] and (identity["type"] != "quarterly" or identity["quarter"] not in request["quarters"]):
+def match_identity(identity, start, end, request):
+    """Exact fiscal identity, or exact calendar boundaries for unqualified years."""
+    if request.get("period_error"):
         return False
-    if request["years"] and identity["year"] not in request["years"]:
+    if request["quarters"] and identity["type"] != "quarterly":
         return False
     if request["annual"] and identity["type"] != "annual":
         return False
-    # Do not silently treat an unqualified calendar year as a different fiscal year.
-    if request["years"] and not request["fiscal"] and metric.get("period_end") and identity["year"] != date.fromisoformat(metric["period_end"]).year:
+    if request["years"] and not request["fiscal"]:
+        year = request["years"][0]
+        quarter = request["quarters"][0] if request["quarters"] else None
+        first_month = (quarter - 1) * 3 + 1 if quarter else 1
+        last_month = first_month + 2 if quarter else 12
+        expected_start = date(year, first_month, 1).isoformat()
+        expected_end = date(year, last_month, calendar.monthrange(year, last_month)[1]).isoformat()
+        if (start, end) != (expected_start, expected_end):
+            return False
+    else:
+        if request["quarters"] and identity["quarter"] not in request["quarters"]:
+            return False
+        if request["years"] and identity["year"] not in request["years"]:
+            return False
+    return True
+
+
+def match_period(metric, claim, request, context=None):
+    identity = period_identity(metric, claim, context)
+    if not match_identity(identity, metric.get("period_start"), metric.get("period_end"), request):
         return False
     if request["basis"] and metric.get("basis") != request["basis"]:
         return False
@@ -140,6 +173,8 @@ def constrain(question, candidates, entities, hints, root):
         return candidates, {}, None
     if request["qualifier_error"]:
         return [], {}, {"code": request["qualifier_error"], "missing": []}
+    if request["period_error"]:
+        return [], {}, {"code": request["period_error"], "missing": []}
     if len(request["quarters"]) > 1 or len(request["years"]) > 1:
         return [], {}, {"code": "unsupported_period", "missing": []}
     # Broad financial summaries without a metric or period use their whole reviewed section.

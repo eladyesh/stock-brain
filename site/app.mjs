@@ -43,7 +43,7 @@ function claimView(claim,c,answer=false){
   return h('article',{class:'claim'},answer?h('span',{class:'result-company',dir:'ltr'},c.ticker+' / '+(SECTIONS[claim.section]||'')):null,
     h('p',{dir:'auto'},claim.text_he||claim.text),
     h('div',{class:'claim-meta'},h('span',{class:'kind '+claim.kind},KIND[claim.kind]||claim.kind),
-      sourceRefs(claim,c),h('span',{},'מחקר ל־'+date(c.as_of))));
+      sourceRefs(claim,c),h('span',{},(claim.source_kind==='financial_history'?'נתונים היסטוריים ל־':'מחקר ל־')+date(claim.as_of||c.as_of))));
 }
 function companySummary(c){return h('div',{class:'company-summary'},h('div',{class:'company-avatar','aria-hidden':'true'},c.ticker.slice(0,1)),h('div',{},h('h2',{dir:'ltr'},c.name),h('p',{},c.ticker+' · '+(c.sector==='information-technology'?'טכנולוגיה':'תעשייה וביטחון')+' · מחקר ל־'+date(c.as_of))),h('span',{class:'badge'},(c.freshness.pending_count||0)+' דיווחים ממתינים לסקירה'));}
 function stat(label,value,description){return h('div',{class:'stat'},h('div',{class:'stat-label'},label),h('div',{class:'stat-value'},value),h('div',{class:'stat-note'},description));}
@@ -172,13 +172,13 @@ function runQuestion(question){
   const result=ask(question,data),out=$('answer');out.hidden=false;
   const header=h('div',{class:'answer-title'},result.abstain?'אין תשובה נתמכת לשאלה המדויקת':'תשובה מתוך המחקר',button('סגור',()=>{out.hidden=true;}));
   if(result.abstain){out.replaceChildren(header,note(result.reason+' נתונים היסטוריים נוספים זמינים בלשונית ההיסטוריה הפיננסית.','amber'));return;}
-  out.replaceChildren(header,h('p',{class:'caption'},'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
+  out.replaceChildren(header,h('p',{class:'caption'},result.mode==='financial_history'?'תשובה מההיסטוריה הפיננסית של SEC. התקופה, ההגדרה והמקור מופיעים בכל נתון; זו שכבה נפרדת מסקירת המחקר.':'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
     ...result.statements.map(s=>claimView({...s,text_he:s.text},data.companies.find(c=>c.ticker===s.ticker),true)));
 }
 $('question-form').addEventListener('submit',event=>{event.preventDefault();runQuestion($('question').value);});
 $('examples').replaceChildren(...['איך מיקרוסופט מרוויחה כסף?','מה הסיכונים של אנבידיה?','Compare AMD and NVDA risks'].map(q=>button(q,()=>{$('question').value=q;runQuestion(q);},'example')));
 function validateData(value){
-  if(value?.schema_version!==1||!Array.isArray(value.companies)||value.companies.length!==10||!value.config||!value.metric_patterns||!Number.isFinite(Date.parse(value.built_at)))throw Error('Invalid research snapshot');
+  if(value?.schema_version!==1||value.answer_contract_version!==2||!Array.isArray(value.companies)||!value.companies.length||new Set(value.companies.map(c=>c.ticker)).size!==value.companies.length||value.companies.some(c=>!Array.isArray(c.historical_index))||!value.config||!value.metric_patterns||!Number.isFinite(Date.parse(value.built_at)))throw Error('Invalid or incompatible research snapshot');
   return value;
 }
 async function fetchData(url){
