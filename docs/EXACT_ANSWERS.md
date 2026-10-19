@@ -61,3 +61,17 @@ rules with an older data export. The number of companies is no longer hardcoded.
 Daily maintenance uses the separate data branch described in CLOUD_UPDATES.md.
 Source failures retain prior values and remain visible as partial updates; data
 refreshes do not clear research review obligations.
+
+## Derived percentages and semantic holdouts
+
+Exact fiscal/quarterly questions can return gross, operating and parent-attributable
+net margins, plus year-over-year revenue growth. Margins divide compatible,
+model-usable income by revenue. Growth requires the same fiscal period one year
+earlier, compatible revenue concepts and comparable period lengths. Every
+calculation binds its formula, input records and source locators. Rates use `%`;
+an absolute revenue amount is never substituted for growth or revenue per share.
+
+Explicit FX requests, unsupported per-share ratios, CAGR and QoQ calculations are
+refused. Sixteen independently added semantic cases run unchanged in both Python
+and the browser. Verified NVDA/AVGO split-adjusted EPS additionally cites the
+primary split disclosure; original reported inputs remain inspectable.

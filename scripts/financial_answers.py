@@ -6,6 +6,7 @@ calendarization, rolling-period calculation, or missing-to-zero fill is used.
 """
 import hashlib
 import json
+from datetime import date
 
 import financial_history
 import query_contract
@@ -51,6 +52,17 @@ def index(history):
                                 'publisher': ticker + ' / SEC EDGAR', 'url': source['url'],
                                 'published_at': source['filed'],
                                 'accessed_at': history['source']['retrieved_at'][:10], 'locator': locator})
+            share_basis = cell.get('share_basis')
+            if share_basis:
+                for source_id in share_basis['evidence_source_ids']:
+                    source = history['source_index'][source_id]
+                    sources.append({'id': source_id, 'ticker': ticker,
+                                    'title': source['source_name'], 'publisher': source['owner_or_provider'],
+                                    'url': source['url'], 'published_at': source['as_of_date'],
+                                    'accessed_at': source['retrieved_at'][:10],
+                                    'locator': 'Retrospective split disclosure; effective ' + share_basis['effective_date'] +
+                                               '; ratio ' + str(share_basis['new_shares_per_old_share']) +
+                                               '; verified post-split EPS basis; review ' + share_basis['review_id']})
             identifier = 'H:' + period['id'] + ':' + metric
             amount = format(cell['value'], ',.6f').rstrip('0').rstrip('.')
             unit_he = {'USD': 'דולר', 'USD/shares': 'דולר למניה', 'shares': 'מניות'}[cell['unit']]
@@ -58,6 +70,9 @@ def index(history):
             instant = metric in financial_history.INSTANT
             period_label = ('as of ' + period['end']) if instant else duration
             kind = 'derived' if cell['status'] == 'derived' else 'reported'
+            label_en = 'Diluted EPS (verified post-split basis)' if metric == 'eps_diluted' and share_basis else english
+            label_he = 'רווח מדולל למניה (בסיס מאומת לאחר פיצול)' if metric == 'eps_diluted' and share_basis else hebrew
+            formula_note = ' Formula: ' + str(cell['formula']) + '.' if cell.get('formula') else ''
             rows.append({'id': identifier, 'claim_id': identifier, 'ticker': ticker,
                          'section': 'financial-history', 'section_id': 'financial-history',
                          'metric_keys': [key], 'metric': metric, 'value': cell['value'], 'unit': cell['unit'],
@@ -66,10 +81,67 @@ def index(history):
                          'period_start': period['start'], 'period_end': period['end'],
                          'period_label': period['label'], 'model_usable': cell['model_usable'],
                          'flags': cell['flags'], 'as_of': history['as_of'], 'sources': sources,
-                         'source_sha256': digest({'cell': cell, 'period': period, 'snapshot': history['source']}),
-                         'text': f"{ticker} — {period['label']} ({period_label}): {english}: {amount} {cell['unit']}. US GAAP; {kind}. Data snapshot: {history['as_of']}.",
-                         'text_he': f"{ticker} — {period['label']} ({'ליום ' + period['end'] if instant else duration}): {hebrew}: {amount} {unit_he}. US GAAP · {'חישוב מנתונים מדווחים' if kind == 'derived' else 'נתון מדווח'}. תמונת נתונים ל־{history['as_of']}."})
+                         'source_sha256': digest({'cell': cell, 'period': period, 'snapshot': history['source'], 'sources': sources}),
+                         'text': f"{ticker} — {period['label']} ({period_label}): {label_en}: {amount} {cell['unit']}. US GAAP; {kind}.{formula_note} Data snapshot: {history['as_of']}.",
+                         'text_he': f"{ticker} — {period['label']} ({'ליום ' + period['end'] if instant else duration}): {label_he}: {amount} {unit_he}. US GAAP · {'חישוב מנתונים מדווחים' if kind == 'derived' else 'נתון מדווח'}.{formula_note} תמונת נתונים ל־{history['as_of']}."})
+    rows.extend(derived_rows(history, rows))
     return rows
+
+
+def derived_rows(history, raw_rows):
+    """Source-bound percentages; never treat an absolute amount as a rate.
+
+    Each input must already pass normalization quality gates. YoY compares the
+    same sourced fiscal period and compatible revenue concepts, not adjacent rows.
+    """
+    by_period = {}
+    for row in raw_rows:
+        by_period.setdefault(row['period_label'] + '|' + row['period_end'], {})[row['metric']] = row
+    periods = history['periods']
+    output = []
+    for period in periods:
+        current = by_period.get(period['label'] + '|' + period['end'], {})
+        revenue = current.get('revenue')
+        if not revenue or not revenue['model_usable'] or revenue['value'] <= 0:
+            continue
+        calculations = []
+        for metric, key, label, hebrew in [
+            ('gross_profit', 'gross_margin', 'Gross margin', 'שיעור הרווח הגולמי'),
+            ('operating_income', 'operating_margin', 'Operating margin', 'שיעור הרווח התפעולי'),
+            ('net_income', 'net_margin', 'Parent-attributable net margin', 'שיעור הרווח הנקי המיוחס לחברה האם')]:
+            numerator = current.get(metric)
+            if numerator and numerator['model_usable']:
+                calculations.append((key, label, hebrew, numerator['value'] / revenue['value'] * 100,
+                                     [numerator, revenue], metric + ' / revenue * 100'))
+        previous = [p for p in periods if p['type'] == period['type']
+                    and p.get('fiscal_year') is not None and period.get('fiscal_year') is not None
+                    and p['fiscal_year'] == period['fiscal_year'] - 1
+                    and p.get('fiscal_quarter') == period.get('fiscal_quarter')]
+        if len(previous) == 1:
+            prior = previous[0]
+            denominator = by_period.get(prior['label'] + '|' + prior['end'], {}).get('revenue')
+            now_days = (date.fromisoformat(period['end']) - date.fromisoformat(period['start'])).days
+            old_days = (date.fromisoformat(prior['end']) - date.fromisoformat(prior['start'])).days
+            current_concepts = {(p['taxonomy'], p['tag'], p['unit']) for p in history['financials'][period['id']]['revenue']['provenance']}
+            prior_concepts = {(p['taxonomy'], p['tag'], p['unit']) for p in history['financials'][prior['id']]['revenue']['provenance']}
+            if (denominator and denominator['model_usable'] and denominator['value'] > 0
+                    and abs(now_days - old_days) <= 7 and current_concepts == prior_concepts):
+                calculations.append(('revenue_growth', 'Year-over-year revenue growth', 'צמיחה בהכנסות לעומת התקופה המקבילה אשתקד',
+                                     (revenue['value'] / denominator['value'] - 1) * 100,
+                                     [revenue, denominator], '(current revenue / prior-year revenue - 1) * 100'))
+        for key, label, hebrew, value, inputs, formula in calculations:
+            sources = list({(s['id'], s['locator']): s for r in inputs for s in r['sources']}.values())
+            amount = format(value, '.4f').rstrip('0').rstrip('.')
+            input_labels = '; '.join(r['period_label'] + ': ' + format(r['value'], ',.6f').rstrip('0').rstrip('.') + ' ' + r['unit'] for r in inputs)
+            output.append({**revenue, 'id': 'D:' + period['id'] + ':' + key,
+                           'claim_id': 'D:' + period['id'] + ':' + key,
+                           'metric_keys': [key], 'metric': key, 'value': value, 'unit': '%',
+                           'kind': 'derived', 'claim_kind': 'derived', 'model_usable': True,
+                           'sources': sources, 'formula': formula, 'input_records': [r['id'] for r in inputs],
+                           'source_sha256': digest({'inputs': inputs, 'formula': formula}),
+                           'text': f"{history['ticker']} — {period['label']} ({period['start']} – {period['end']}): {label}: {amount}%. Derived from US GAAP inputs ({input_labels}). Formula: {formula}. Data snapshot: {history['as_of']}.",
+                           'text_he': f"{history['ticker']} — {period['label']} ({period['start']} – {period['end']}): {hebrew}: {amount}%. חישוב מנתוני US GAAP ({input_labels}). נוסחה: {formula}. תמונת נתונים ל־{history['as_of']}."})
+    return output
 
 
 def eligible(request):

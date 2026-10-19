@@ -14,12 +14,16 @@ export function parseQuestion(question, data) {
   const fiscal=/\bfy\s*\d{4}|fiscal|שנת (?:ה)?כספים|פיסקלי/.test(q);
   const calendar=/\bcalendar\b|\bcy\s*\d{4}|קלנדרי|אזרחי/.test(q);
   const relativePeriod=/\b(?:ttm|ltm|ytd)\b|(?:last|past|trailing)\s+(?:12|twelve)\s+months|(?:last|past|trailing)\s+(?:4|four)\s+quarters|year.to.date|(?:last|previous|next|current)\s+(?:fiscal\s+)?(?:year|quarter)|(?:12|שנים[ -]עשר)\s+(?:ה)?חודשים|ארבעת\s+(?:ה)?רבעונים|מתחילת השנה|השנה שעברה|בשנה שעברה|השנה הנוכחית|הרבעון (?:הקודם|הנוכחי|הבא)/.test(q);
-  const unsupportedDuration=/\bh[12]\b|(?:first|second) half|מחצית|\bq(?:[05-9]|\d{2,})\b|\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\b|ינואר|פברואר|מרץ|אפריל|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר/.test(q);
+  const unsupportedDuration=/\bh[12]\b|(?:first|second) half|מחצית|\bq(?:[05-9]|\d{2,})\b|\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\b|ינואר|פברואר|מרץ|אפריל|(?:ב)?מאי|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר/.test(q);
   const periodError=relativePeriod||unsupportedDuration||(fiscal&&calendar)||(quarters.size&&!years.length)?'unsupported_period':null;
   let error=null;
   if(/\broic\b|\broe\b|\broa\b|ebit margin|return on (?:capital|equity|assets)|תשואה על (?:ההון|נכסים)/.test(q))error='unsupported_metric';
   if(/excluding|except for|without|ללא|בניכוי|למעט/.test(q))error='unsupported_qualifier';
   if(metrics.length && /per employee|per customer|per user|לעובד|ללקוח|למשתמש|inflation.adjusted|constant.currency|במטבע קבוע|בנטרול|azure|copilot|data cent(?:er|re)|aws|cloud revenue|revenue.*cloud|הכנסות.*ענן|הכנסות.*אזור|הכנסות.*(?:סין|ארה״ב)/.test(q))error='unsupported_qualifier';
+  if(metrics.length && /\b(?:eur|gbp|ils|nis|jpy|cny|cad|aud|chf)\b|[€£₪¥]|euros?|pounds?|yen|shekels?|אירו|יורו|שקל|ש״ח|שח\b|ליש[״"]?ט|במטבע|currency conversion|convert.*(?:revenue|income|cash)/.test(q))error='unsupported_qualifier';
+  if(metrics.length && /per[- ]share|למניה|לכל מניה/.test(q.replace(new RegExp(data.metric_patterns.find(([key])=>key==='eps')[1][0],'giu'),' ')) && metrics.some(key=>key!=='eps'))error='unsupported_qualifier';
+  if(metrics.length && /\bcagr\b|compound annual|מצטבר|מצטברת|צמיחה שנתית ממוצעת|quarter.over.quarter|\bqoq\b|לעומת הרבעון הקודם/.test(q))error='unsupported_qualifier';
+  if(metrics.includes('eps') && /\bbasic\b|בסיסי/.test(q))error='unsupported_qualifier';
   return {metrics,quarters:[...quarters],years,fiscal,calendar,periodError,annual:years.length>0 && quarters.size===0,bothBases:gaap&&non,basis:gaap&&non?null:non?'non-GAAP':gaap?'GAAP':null,guidance:/guidance|outlook|forecast|תחזית|צפי/.test(q),comparison:/\bcompare|versus|\bvs\b|השוו|השוה|השוואה|לעומת/.test(q),error};
 }
 export function matchesPeriod(row,spec){

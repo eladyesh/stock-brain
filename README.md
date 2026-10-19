@@ -4,9 +4,9 @@ A structured, source-backed knowledge base for U.S.-listed stocks, with canonica
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-18):** ten hash-bound reviewed company profiles with 169 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
+**Current state (2026-10-19):** ten hash-bound AI-reviewed company profiles with 179 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
 
-**Research desk:** the owner-private Site implementation is in `site/`. Publication and the daily update task require the verified rollout in [release readiness](docs/RELEASE_READINESS.md); a README link is not evidence of a live deployment. The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures.
+**Research desk:** the owner-private Site implementation is in `site/`. The authorized publication and daily-update rollout is tracked in [release readiness](docs/RELEASE_READINESS.md). The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures.
 
 ## Start here
 
@@ -93,7 +93,7 @@ The exporter includes only `reviewed` company profiles and explicitly registered
 - Twenty development cases and 50 frozen bilingual acceptance cases, with failing retrieval and answer-integrity gates.
 - Local Hebrew/English Q&A, exact claim citations, bound translations and freshness indicators.
 - Daily SEC/RSS/public Q4 discovery, source diagnostics, a persistent review queue, source-bound triage decisions and bounded incremental request preparation.
-- Exact-definition SEC history, explicit revision/comparability flags, optional public market snapshots and assumption-based valuation sensitivity.
+- Exact-definition SEC history, source-bound growth/margin answers, verified NVDA/AVGO split bridges, explicit remaining comparability flags, public market snapshots and assumption-based valuation sensitivity.
 - A private hosted Hebrew desk and a durable data-only update branch; no runtime model API key is required.
 
 ## Use the assistant
@@ -109,4 +109,4 @@ Open `http://127.0.0.1:8765`. No model API key is needed for lookup, discovery, 
 
 ## Next priorities
 
-Resolve the substantive disclosure backlog and the stored financial comparability flags before expanding the universe. Deepen issuer-specific moat, customer concentration, management incentives and measurable thesis-breaker work. Add independent human review and holdout questions. Consensus, forward valuation and a general language-model assistant remain separate future capabilities; scenario calculations do not supply them.
+Both critical AMD/NVDA updates are integrated. Resolve the remaining substantive disclosure backlog and 77 financial QA flags before expanding the universe. See [financial remediation](docs/FINANCIAL_REMEDIATION.md) for exact source tasks. Deepen issuer-specific moat, customer concentration, management incentives and measurable thesis-breaker work. Add independent human review and holdout questions. Consensus, forward valuation and a general language-model assistant remain separate future capabilities; scenario calculations do not supply them.

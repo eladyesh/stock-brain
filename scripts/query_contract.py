@@ -17,9 +17,9 @@ METRICS = {
     "operating_cash_flow": (r"operating cash flow|cash (?:from|provided by) operations|\bocf\b|תזרים.*(?:מפעילות שוטפת|תפעולי)", r"operating cash flow"),
     "capex": (r"capex|capital expenditures|השקעות הוניות", r"capital expenditures|additions to property"),
     "sbc": (r"stock.based compensation|\bsbc\b|תגמול מבוסס מניות", r"stock.based compensation"),
-    "eps": (r"\beps\b|earnings per share|רווח (?:ה)?(?:מדולל )?למניה", r"eps"),
+    "eps": (r"\beps\b|earnings per[- ]share|רווח (?:ה)?(?:(?:מדולל|בסיסי) )?למניה", r"eps"),
     "ebitda": (r"\bebitda\b", r"ebitda"),
-    "revenue_growth": (r"revenue growth|צמיחת (?:ה)?הכנסות|שיעור צמיחה", r"revenue growth"),
+    "revenue_growth": (r"revenue growth|growth (?:rate )?(?:in|of) (?:the )?revenue|צמיחת (?:ה)?הכנסות|שיעור (?:ה)?צמיחה(?: ב(?:ה)?הכנסות)?|(?:ה)?צמיחה ב(?:ה)?הכנסות", r"revenue growth"),
     "revenue": (r"\brevenue\b|\bsales\b|הכנסות|מכירות", r"revenue|sales"),
     "operating_income": (r"operating (?:income|profit)|רווח (?:ה)?תפעולי", r"operating income|operating profit"),
     "net_income": (r"net (?:income|earnings|profit)|gaap loss|\bprofit(?:able)?\b|רווח (?:ה)?נקי|הפסד", r"net income|net earnings"),
@@ -59,6 +59,16 @@ def parse(question):
         qualifier = "unsupported_qualifier"
     if metrics and re.search(r"azure|copilot|data cent(?:er|re)|aws|cloud revenue|revenue.*cloud|הכנסות.*ענן|הכנסות.*אזור|הכנסות.*(?:סין|ארה״ב)", q):
         qualifier = "unsupported_qualifier"
+    # A unit conversion or denominator is part of the requested metric. Do not
+    # return an unconverted total when these transformations are unavailable.
+    if metrics and re.search(r"\b(?:eur|gbp|ils|nis|jpy|cny|cad|aud|chf)\b|[€£₪¥]|euros?|pounds?|yen|shekels?|אירו|יורו|שקל|ש״ח|שח\b|ליש[״\"]?ט|במטבע|currency conversion|convert.*(?:revenue|income|cash)", q):
+        qualifier = "unsupported_qualifier"
+    if metrics and re.search(r"per[- ]share|למניה|לכל מניה", re.sub(METRICS['eps'][0], " ", q)) and any(key != 'eps' for key in metrics):
+        qualifier = "unsupported_qualifier"
+    if metrics and re.search(r"\bcagr\b|compound annual|מצטבר|מצטברת|צמיחה שנתית ממוצעת|quarter.over.quarter|\bqoq\b|לעומת הרבעון הקודם", q):
+        qualifier = "unsupported_qualifier"
+    if "eps" in metrics and re.search(r"\bbasic\b|בסיסי", q):
+        qualifier = "unsupported_qualifier"
     # Relative/rolling periods need their own sourced calculation. They must
     # never fall through to a nearby annual or quarterly narrative claim.
     relative_period = bool(re.search(
@@ -69,7 +79,7 @@ def parse(question):
         r"מתחילת השנה|השנה שעברה|בשנה שעברה|השנה הנוכחית|הרבעון (?:הקודם|הנוכחי|הבא)|"
         r"\bh[12]\b|(?:first|second) half|מחצית|\bq(?:[05-9]|\d{2,})\b|"
         r"\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\b|"
-        r"ינואר|פברואר|מרץ|אפריל|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר", q))
+        r"ינואר|פברואר|מרץ|אפריל|(?:ב)?מאי|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר", q))
     period_error = "unsupported_period" if relative_period or (explicit_fiscal and explicit_calendar) or (quarters and not years) else None
     return {"metrics": metrics, "years": sorted(years), "quarters": sorted(quarters),
             "fiscal": explicit_fiscal, "annual": bool(years and not quarters), "basis": basis, "both_bases": gaap and non_gaap,

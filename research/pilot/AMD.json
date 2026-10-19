@@ -58,6 +58,14 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
       "published_at": "2026-09-28",
       "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S08",
+      "title": "AMD Second Quarter 2026 Financial Results Presentation, Form 8-K Exhibit 99.2",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm",
+      "published_at": "2026-08-04",
+      "accessed_at": "2026-10-19"
     }
   ],
   "sections": {
@@ -193,6 +201,32 @@
               "locator": "Condensed Consolidated Statements of Operations; MD&A Executive Summary"
             }
           ]
+        },
+        {
+          "id": "C17",
+          "kind": "management_guidance",
+          "text": "On August 4, 2026, AMD guided Q3 2026 revenue to approximately USD 13 billion, plus or minus USD 300 million. It guided non-GAAP gross margin to approximately 56%, operating expenses to approximately USD 3.65 billion, other income net of interest expense to approximately USD 55 million, and an effective tax rate of 13%. Except revenue, these outlook measures are non-GAAP; they are dated management expectations, not reported Q3 results.",
+          "evidence": [
+            {
+              "source_id": "S08",
+              "locator": "Slide 17, Financial Outlook – NON-GAAP; slide 2, Cautionary Statement"
+            }
+          ]
+        },
+        {
+          "id": "C19",
+          "kind": "reported",
+          "text": "Q2 2026 GAAP earnings include USD 483 million of net gains on long-term investments. The earnings reconciliation removes these gains when presenting non-GAAP income and separately adjusts stock compensation, acquired-intangible amortization, other costs and taxes. GAAP net income and the adjusted outlook therefore use different accounting bases.",
+          "evidence": [
+            {
+              "source_id": "S08",
+              "locator": "Slide 23, Reconciliation of GAAP to Non-GAAP Net Income / Diluted Earnings Per Share"
+            },
+            {
+              "source_id": "S03",
+              "locator": "MD&A, Other Income (Expense), Net; Condensed Consolidated Statements of Cash Flows"
+            }
+          ]
         }
       ]
     },
@@ -210,6 +244,32 @@
             {
               "source_id": "S07",
               "locator": "Item 3.02, consideration and share-pricing mechanism"
+            }
+          ]
+        },
+        {
+          "id": "C18",
+          "kind": "management_guidance",
+          "text": "The August 4, 2026 presentation estimates Q3 2026 diluted weighted-average shares at 1,661 million for GAAP and non-GAAP EPS. The employee-equity dilution estimate uses an average stock price of USD 534 from June 29 through July 24, 2026. That historical assumption is not a current stock quote, and the estimate predates the World Labs acquisition agreement.",
+          "evidence": [
+            {
+              "source_id": "S08",
+              "locator": "Slide 25, Share Count Overview and footnotes"
+            },
+            {
+              "source_id": "S07",
+              "locator": "Item 3.02, September acquisition agreement and undetermined closing share count"
+            }
+          ]
+        },
+        {
+          "id": "C20",
+          "kind": "reported",
+          "text": "At June 27, 2026, AMD reported approximately USD 30.3 billion of unconditional commitments, including USD 17.4 billion for the remainder of fiscal 2026, and data-center lease guarantees with maximum potential future payments of USD 4.1 billion. Purchase commitments and contingent guarantees are funding exposures, not customer revenue backlog.",
+          "evidence": [
+            {
+              "source_id": "S03",
+              "locator": "MD&A, Financial Condition / contractual obligations, purchase commitments and data-center lease guarantees"
             }
           ]
         }
@@ -242,11 +302,15 @@
         {
           "id": "C12",
           "kind": "interpretation",
-          "text": "The Helios rollout and Instinct deployments are operational checkpoints for the second-half outlook. The packet does not assume that partnership announcements automatically convert to completed deployments or recognized revenue.",
+          "text": "Interpretation: compare the next reported Q3 2026 revenue, non-GAAP gross margin and operating expenses with the dated August outlook, and reconcile differences to Helios deployment, Instinct shipments and Data Center growth. A missed outlook alongside delayed deployments warrants a thesis review. Product announcements alone do not establish recognized revenue.",
           "evidence": [
             {
               "source_id": "S04",
-              "locator": "CEO commentary and Recent PR Highlights"
+              "locator": "CEO commentary and Recent Highlights"
+            },
+            {
+              "source_id": "S08",
+              "locator": "Slides 14 and 17, Data Center and Financial Outlook"
             }
           ]
         }
@@ -257,11 +321,19 @@
         {
           "id": "C13",
           "kind": "interpretation",
-          "text": "Export controls, memory availability and third-party manufacturing constrain execution. Interpretation: delayed deployment or weak platform adoption despite product spending would challenge the growth case.",
+          "text": "Interpretation: the growth thesis weakens if export restrictions, memory shortages or qualification delays prevent the expected accelerator ramp while unconditional purchase commitments remain. Monitor the reported commitment schedule, cash generation and acquisition dilution alongside the dated revenue and margin outlook; persistent execution misses or funding needs unsupported by operating cash flow require reassessment.",
           "evidence": [
             {
-              "source_id": "S04",
-              "locator": "Cautionary Statement / material risks"
+              "source_id": "S03",
+              "locator": "MD&A, Financial Condition and Risk Factors / supplier dependence and export restrictions"
+            },
+            {
+              "source_id": "S08",
+              "locator": "Slides 2 and 17, Cautionary Statement and Financial Outlook"
+            },
+            {
+              "source_id": "S07",
+              "locator": "Item 3.02, stock consideration"
             }
           ]
         }
@@ -321,7 +393,8 @@
     "Independent human review remains outstanding; this packet has received a Codex AI claim-level source review.",
     "The FY2025 10-K/A corrects Client ASP and unit-shipment growth; no figures from the superseded narrative are carried into this packet.",
     "SEC inventory was checked through 2026-10-18 and post-quarter 8-Ks were read; other investor announcements have not been exhaustively covered.",
-    "Current debt, acquisition dilution, valuation, customer concentration and product economics require further work."
+    "Current debt, acquisition dilution, valuation, customer concentration and product economics require further work.",
+    "The August earnings presentation was added in an incremental AI review on 2026-10-19. The evidence cutoff remains 2026-10-18; later issuer announcements and subsequent realized Q3 results are not asserted to be fully reviewed."
   ],
   "metrics": [
     {
@@ -362,6 +435,181 @@
       "basis": "GAAP",
       "source_id": "S03",
       "locator": "Condensed Consolidated Statements of Operations / Net income"
+    },
+    {
+      "id": "M04",
+      "claim_id": "C17",
+      "name": "Q3 revenue guidance midpoint",
+      "value": 13,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "GAAP revenue outlook",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M05",
+      "claim_id": "C17",
+      "name": "Q3 revenue guidance plus-or-minus range",
+      "value": 300,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "GAAP revenue outlook range",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M06",
+      "claim_id": "C17",
+      "name": "Q3 gross margin guidance",
+      "value": 56,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "non-GAAP",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M07",
+      "claim_id": "C17",
+      "name": "Q3 operating expense guidance",
+      "value": 3.65,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "non-GAAP",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M08",
+      "claim_id": "C17",
+      "name": "Q3 other income net of interest expense guidance",
+      "value": 55,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "non-GAAP",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M09",
+      "claim_id": "C17",
+      "name": "Q3 effective tax rate guidance",
+      "value": 13,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "non-GAAP",
+      "source_id": "S08",
+      "locator": "Slide 17, Financial Outlook – NON-GAAP",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M10",
+      "claim_id": "C18",
+      "name": "Q3 diluted weighted-average shares estimate",
+      "value": 1661,
+      "unit": "million",
+      "currency": null,
+      "period_start": "2026-06-28",
+      "period_end": "2026-09-26",
+      "basis": "Diluted share estimate used for GAAP and non-GAAP EPS",
+      "source_id": "S08",
+      "locator": "Slide 25, Share Count Overview",
+      "kind": "management_guidance",
+      "period_date_basis": "Fiscal Q3 2026 mapped to the next 13-week quarter under the issuer fiscal calendar (S03 Note 2); dates are calendar mapping, not a subsequent results disclosure."
+    },
+    {
+      "id": "M11",
+      "claim_id": "C18",
+      "name": "Historical average price used for employee-equity dilution assumption",
+      "value": 534,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-06-29",
+      "period_end": "2026-07-24",
+      "basis": "Historical stock-price input; not a current quote",
+      "source_id": "S08",
+      "locator": "Slide 25, footnote 2",
+      "kind": "reported"
+    },
+    {
+      "id": "M12",
+      "claim_id": "C19",
+      "name": "Net gains on long-term investments",
+      "value": 483,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-03-29",
+      "period_end": "2026-06-27",
+      "basis": "GAAP",
+      "source_id": "S08",
+      "locator": "Slide 23, (Gains) loss on long-term investments, net; positive gain is removed in the reconciliation",
+      "kind": "reported"
+    },
+    {
+      "id": "M13",
+      "claim_id": "C20",
+      "name": "Unconditional commitments",
+      "value": 30.3,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "basis": "Contractual commitments; not debt or revenue",
+      "source_id": "S03",
+      "locator": "MD&A, Financial Condition / contractual obligations and guarantees",
+      "kind": "reported"
+    },
+    {
+      "id": "M14",
+      "claim_id": "C20",
+      "name": "Unconditional commitments due in remainder of fiscal 2026",
+      "value": 17.4,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "basis": "Contractual commitments; scheduled remainder of fiscal 2026",
+      "source_id": "S03",
+      "locator": "MD&A, Financial Condition / contractual obligations and guarantees",
+      "kind": "reported"
+    },
+    {
+      "id": "M15",
+      "claim_id": "C20",
+      "name": "Data-center lease guarantees maximum future payments",
+      "value": 4.1,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-27",
+      "basis": "Contingent maximum exposure; not a recognized debt balance",
+      "source_id": "S03",
+      "locator": "MD&A, Financial Condition / contractual obligations and guarantees",
+      "kind": "reported"
     }
   ]
 }

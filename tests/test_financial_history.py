@@ -36,6 +36,19 @@ def q(value, n, start, end, accn, filed):
     return row(value, start, end, filed, 2026, f'Q{n}', accn)
 
 
+def split_review(metric, source_rows, *, evidence_filed='2026-02-01', effective='2025-09-01'):
+    """Synthetic filing review with explicit values, precision and document hashes."""
+    tag = fh.METRICS[metric][1][0]
+    return {'review_id': 'TEST-10-for-1', 'type': 'stock_split', 'cik': CIK,
+            'effective_date': effective, 'new_shares_per_old_share': 10,
+            'evidence': [{'source_id': 'SPLIT-TEST', 'filed': evidence_filed, 'sha256': 'a' * 64,
+                          'title': 'Synthetic split disclosure', 'url': 'https://www.sec.gov/test'}],
+            'observations': [{**fh._provenance(r, tag, fh.METRICS[metric][0], CIK),
+                              'decimals': 2 if metric.startswith('eps_') else -6,
+                              'split_basis': 'pre_split' if r['filed'] < effective else 'post_split',
+                              'source_document': {'sha256': 'b' * 64, 'url': 'https://www.sec.gov/test'}} for r in source_rows]}
+
+
 class FinancialHistoryTests(unittest.TestCase):
     def test_comparative_filing_focus_does_not_change_fiscal_year(self):
         old = year()
@@ -220,6 +233,110 @@ class FinancialHistoryTests(unittest.TestCase):
         self.assertIn('gross_profit_tieout_failed', result['flags'])
         self.assertFalse(result['model_usable'])
         self.assertTrue(any(c['result'] == 'fail' for c in history['validation_checks']))
+
+    def test_source_verified_split_reconciles_eps_and_retains_versions(self):
+        old = year(32.98)
+        new = year(3.30, filed='2026-02-01', accn='0000000001-26-000001')
+        review = split_review('eps_diluted', [old, new])
+        data = facts({REVENUE: [year()], 'EarningsPerShareDiluted': {'USD/shares': [old, new]}})
+        h = fh.normalize_companyfacts(data, COMPANY, '2026-02-02', normalization_reviews=[review])
+        c = fh.get_metric(h, 'eps_diluted')
+        self.assertEqual(c['value'], 3.3)
+        self.assertTrue(c['model_usable'])
+        self.assertFalse(c['conflicts'])
+        self.assertEqual(c['resolved_conflicts'][0]['alternatives'][0]['source_value'], 32.98)
+        self.assertIn('SEC-' + old['accn'], h['source_index'])
+        self.assertEqual(c['status'], 'reported')
+        self.assertEqual(h['coverage']['resolved_conflict_cells'], 1)
+
+    def test_source_rounding_intervals_reconcile_weighted_shares(self):
+        old = year(427_000_000)
+        new = year(4_272_000_000, filed='2026-02-01', accn='0000000001-26-000001')
+        data = facts({'WeightedAverageNumberOfDilutedSharesOutstanding': {'shares': [old, new]}})
+        cell = fh.exact_metric(data, 'shares_diluted', old['start'], old['end'], '2026-02-02', CIK)
+        fh.reconcile_share_split(cell, 'shares_diluted', CIK, '2026-02-02', [split_review('shares_diluted', [old, new])])
+        self.assertTrue(cell['model_usable'])
+        self.assertEqual(cell['value'], 4_272_000_000)
+        self.assertFalse(cell['conflicts'])
+
+    def test_oldest_pre_split_fact_is_explicit_derived_value(self):
+        old = year(3.85)
+        data = facts({REVENUE: [year()], 'EarningsPerShareDiluted': {'USD/shares': [old]}})
+        h = fh.normalize_companyfacts(data, COMPANY, '2026-02-02', normalization_reviews=[split_review('eps_diluted', [old])])
+        c = fh.get_metric(h, 'eps_diluted')
+        self.assertAlmostEqual(c['value'], 0.385)
+        self.assertEqual(c['status'], 'derived')
+        self.assertEqual(c['evidence_label'], 'derived_calculation')
+        self.assertEqual(c['provenance'][0]['source_value'], 3.85)
+        self.assertTrue(c['model_usable'])
+        damaged = copy.deepcopy(h)
+        damaged['financials'][c['period']['id']]['eps_diluted']['value'] = 3.85
+        with self.assertRaises(ValueError):
+            fh.validate_history(damaged)
+
+    def test_split_does_not_waive_unexplained_revision_or_unreviewed_source(self):
+        old = year(32.98)
+        new = year(4.0, filed='2026-02-01', accn='0000000001-26-000001')
+        data = facts({'EarningsPerShareDiluted': {'USD/shares': [old, new]}})
+        review = split_review('eps_diluted', [old, new])
+        c = fh.exact_metric(data, 'eps_diluted', old['start'], old['end'], '2026-02-02', CIK)
+        fh.reconcile_share_split(c, 'eps_diluted', CIK, '2026-02-02', [review])
+        self.assertFalse(c['model_usable'])
+        self.assertTrue(c['conflicts'])
+        self.assertIn('revision_requires_review', c['flags'])
+        new['val'] = 3.3
+        unreviewed = fh.exact_metric(data, 'eps_diluted', old['start'], old['end'], '2026-02-02', CIK)
+        fh.reconcile_share_split(unreviewed, 'eps_diluted', CIK, '2026-02-02', [review])
+        self.assertFalse(unreviewed['model_usable'])
+        self.assertNotIn('share_basis', unreviewed)
+
+    def test_split_review_cannot_leak_past_historical_cutoff(self):
+        old = year(32.98)
+        new = year(3.3, filed='2026-02-01', accn='0000000001-26-000001')
+        review = split_review('eps_diluted', [old, new])
+        data = facts({REVENUE: [year()], 'EarningsPerShareDiluted': {'USD/shares': [old, new]}})
+        h = fh.normalize_companyfacts(data, COMPANY, '2025-12-01', normalization_reviews=[review])
+        self.assertEqual(fh.get_metric(h, 'eps_diluted')['value'], 32.98)
+        self.assertFalse(fh.get_metric(h, 'eps_diluted')['model_usable'])
+        self.assertNotIn('normalization_reviews', h)
+        self.assertNotIn('SPLIT-TEST', h['source_index'])
+
+    def test_post_cutoff_observation_is_removed_even_when_action_is_known(self):
+        old = year(32.98)
+        later = year(3.3, filed='2026-02-01', accn='0000000001-26-000001')
+        review = split_review('eps_diluted', [old, later], evidence_filed='2025-10-01')
+        data = facts({REVENUE: [year()], 'EarningsPerShareDiluted': {'USD/shares': [old, later]}})
+        h = fh.normalize_companyfacts(data, COMPANY, '2025-12-01', normalization_reviews=[review])
+        self.assertEqual(len(h['normalization_reviews'][0]['observations']), 1)
+        self.assertAlmostEqual(fh.get_metric(h, 'eps_diluted')['value'], 3.298)
+        self.assertEqual(fh.get_metric(h, 'eps_diluted')['status'], 'derived')
+        self.assertNotIn('SEC-' + later['accn'], h['source_index'])
+
+    def test_split_review_rejects_wrong_issuer_or_missing_document_proof(self):
+        data = facts({REVENUE: [year()]})
+        review = split_review('eps_diluted', [year(3.3)])
+        review['cik'] = '0000000002'
+        with self.assertRaises(ValueError):
+            fh.normalize_companyfacts(data, COMPANY, '2026-02-02', normalization_reviews=[review])
+        review['cik'] = CIK
+        review['observations'][0]['source_document']['sha256'] = ''
+        with self.assertRaises(ValueError):
+            fh.normalize_companyfacts(data, COMPANY, '2026-02-02', normalization_reviews=[review])
+
+    def test_same_basis_and_same_day_conflicts_stay_gated_after_review(self):
+        first = year(3.3, filed='2026-02-01', accn='0000000001-26-000001')
+        second = year(3.31, filed='2026-02-02', accn='0000000001-26-000002')
+        data = facts({'EarningsPerShareDiluted': {'USD/shares': [first, second]}})
+        review = split_review('eps_diluted', [first, second])
+        c = fh.exact_metric(data, 'eps_diluted', first['start'], first['end'], '2026-02-03', CIK)
+        fh.reconcile_share_split(c, 'eps_diluted', CIK, '2026-02-03', [review])
+        self.assertFalse(c['model_usable'])
+        self.assertTrue(c['conflicts'])
+        second['filed'] = first['filed']
+        c = fh.exact_metric(data, 'eps_diluted', first['start'], first['end'], '2026-02-03', CIK)
+        fh.reconcile_share_split(c, 'eps_diluted', CIK, '2026-02-03', [review])
+        self.assertIsNone(c['value'])
+        self.assertEqual(c['status'], 'conflicted')
 
 
 if __name__ == '__main__':

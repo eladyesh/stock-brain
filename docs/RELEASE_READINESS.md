@@ -1,48 +1,65 @@
 # Release readiness — 2026-10-19
 
-Code changes are proposed in GitHub PR #3. The release is staged pending user
-approval to merge the PR, publish the private Site and activate daily updates.
+The user authorized merging PR #3, publishing the existing owner-private Site
+and activating daily updates. This file records implementation and the rollout
+procedure; native GitHub/Sites receipts establish completed publication.
 
-## Verified preparation
+## Verified implementation
 
-- Exact-period and historical-answer changes pass Python, browser-engine/DOM and
-  frozen acceptance checks. GitHub Actions also passed for the implementation.
-- SEC financial history and dated market data refreshed for all ten issuers on
-  October 19. Oracle's announcement feed remains an explicit partial-refresh
-  error. The 140 pending disclosure reviews remain open.
-- The Site exists with owner-only access. The observed initial state had no saved
-  version, live URL or linked task. The source and deployment package are prepared
-  for saving without publication.
-- The production data branch did not exist. Its initial payload is prepared from
-  the completed refresh, including exact answer contract v2, without resetting
-  the queue or approving research.
+- 114 Python tests and 117 browser-engine/DOM tests pass.
+- Both retrieval suites (20 development and 50 frozen bilingual cases) and all
+  50 frozen answer-integrity cases pass; the frozen questions were not changed.
+- Sixteen additional semantic cases cover growth versus absolute amounts,
+  unsupported per-share requests, currency conversions and date qualifiers.
+- Gross/operating/net margins and YoY revenue growth carry their inputs, formulas
+  and source locators. Comparisons still require complete compatible evidence.
+- AMD and NVIDIA critical filings are incorporated into source-bound English
+  profiles and Hebrew evidence. Review is explicitly by AI.
+- NVDA/AVGO split reconciliation resolves 32 flags and verifies 112 share/EPS
+  cells. 77 financial QA flags remain; no global gate was waived.
+- Refresh tests verify that normalization evidence survives the daily writer and
+  does not approve newly filed, unreviewed observations.
 
-## Approval-dependent rollout
+## Live update verification
 
-1. Recheck PR #3 head/base and CI, then merge the approved head into main.
-2. Verify the candidate four-file data payload's manifest and publish it to
-   `automation/research-data`. If that branch was created meanwhile, preserve and
-   restore its state first; never overwrite it with the bootstrap snapshot.
-3. Read back the persisted files and hashes through GitHub and verify the raw
-   `desk.json` is accessible with `answer_contract_version: 2`.
-4. Deploy the prepared archive-backed Site version, retaining owner-only access.
-   Use the version's returned ID and the native private deployment operation.
-5. Once publication succeeds, get the Site again. Reuse a matching linked task;
-   create one only when the task list is available and contains no match.
-6. Verify the saved task, publication URL and data readback. A saved schedule is
-   not evidence that a future run has completed.
+The October 19 refresh retrieved financial histories and dated market snapshots
+for all ten issuers and discovered one additional PLTR item. The queue contains
+148 events, 138 pending, zero P0 and 24 P1. Oracle announcement access is the only
+source error, so the run is explicitly partial. All 77 QA flags and the verified
+split reviews survived the refresh. Persistence and publication are checked in
+the authorized rollout below.
 
-Proposed task: **Update Stock Brain**. Daily at **08:30 Asia/Jerusalem**, starting
-at the next occurrence after activation. Run instructions:
+## Authorized rollout
 
-> Refresh Stock Brain's financial history, market snapshots and company disclosures
-> using the connected GitHub repository eladyesh/stock-brain and its main-branch
-> docs/CLOUD_UPDATES.md runbook. Restore the existing research-data branch, preserve
-> the disclosure queue and previous values on source failures, and publish only
-> the validated four-file data payload. Read back the saved update. Keep research
-> approvals separate and report a short Hebrew summary of the refresh, pending
-> reviews, source failures and successful persistence. Routine data refreshes do
-> not require Site republication or paid services.
+1. Run the live cloud refresher from current source, preserving review decisions
+   and previous values if a source fails. Oracle announcement HTML failures must
+   remain visible as partial coverage.
+2. Recheck PR #3 head/base and CI, then merge the tested head.
+3. Verify the four-file manifest and persist `desk.json`, `latest.json`,
+   `triage.json` and `run-status.json` to `automation/research-data`. Read back
+   exact Git blob hashes and the raw answer-contract-v2 snapshot.
+4. Push the exact Site source, build/package it and publish its saved version
+   with owner-only access unchanged.
+5. After publication, read linked tasks and create the daily task only if no
+   equivalent one exists. Record the saved task and its timezone.
 
-Visual browser QA was unavailable. Real data, DOM interactions, numerical gates
-and the offline/incompatible-snapshot fallback were checked.
+Task: **Update Stock Brain**, daily **08:30 Asia/Jerusalem**, starting at the next
+occurrence after activation. Each run follows [CLOUD_UPDATES.md](CLOUD_UPDATES.md),
+restores the existing state branch, retains queues, validates the export,
+publishes only the four data payloads and verifies persistence. Research approval
+is separate from data refresh. No paid data/model service or external messaging
+is required.
+
+A saved schedule does not prove a future run occurred. `run-status.json` retains
+actual dated outcomes. Three successful daily runs remain an observation gate.
+
+## Remaining scope
+
+The unresolved disclosure queue, issuer-specific debt/revision reconciliation,
+Oracle announcement access and independent human review remain open. Coverage is
+ten companies in two populated sectors. A general language-model assistant, live
+analyst consensus and issuer-specific forward valuation are not supplied by this
+release; the scenario tool remains an explicit sensitivity calculator.
+
+Visual browser QA was unavailable in this runtime. Real data, all DOM views,
+source links, numerical gates and offline/incompatible-snapshot fallback passed.

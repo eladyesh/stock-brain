@@ -4,11 +4,11 @@
   "ticker": "AVGO",
   "company_name": "Broadcom Inc.",
   "cik": "0001730168",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "source": {
     "provider": "SEC EDGAR Company Facts",
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json",
-    "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+    "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
     "sha256": "3bdb6644c12addf1e63c4dc861008d7804fbf3d3f5aa6eb9b97f72c0e89a7adf",
     "raw_cache": "build/research-cache/http/objects/3bdb6644c12addf1e63c4dc861008d7804fbf3d3f5aa6eb9b97f72c0e89a7adf"
   },
@@ -497,8 +497,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -520,8 +520,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -530,8 +541,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -553,8 +564,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -563,8 +585,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -586,8 +608,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -596,8 +629,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -619,8 +652,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -1250,8 +1294,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -1273,8 +1317,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -1283,8 +1338,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -1306,8 +1361,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -1316,8 +1382,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -1339,8 +1405,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -1349,8 +1426,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -1372,8 +1449,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -2034,9 +2122,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -2056,7 +2144,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2077,13 +2169,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -2091,9 +2192,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -2113,7 +2214,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2134,13 +2239,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -2148,9 +2262,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -2170,7 +2284,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2191,13 +2309,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -2205,9 +2332,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -2227,7 +2354,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2248,13 +2379,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -2971,9 +3111,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -2993,7 +3133,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -3030,13 +3174,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -3044,9 +3197,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -3066,7 +3219,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -3103,13 +3260,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -3117,9 +3283,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -3139,7 +3305,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -3176,13 +3346,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -3190,9 +3369,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -3212,7 +3391,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -3249,13 +3432,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -3894,14 +4086,14 @@
         "flags": []
       },
       "eps_basic": {
-        "status": "reported",
-        "value": 15.7,
+        "status": "derived",
+        "value": 1.57,
         "unit": "USD/shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -3923,18 +4115,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        },
+        "formula": "Reported eps_basic divided by verified split ratio 10; source rounding retained."
       },
       "eps_diluted": {
-        "status": "reported",
-        "value": 15,
+        "status": "derived",
+        "value": 1.5,
         "unit": "USD/shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -3956,18 +4161,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        },
+        "formula": "Reported eps_diluted divided by verified split ratio 10; source rounding retained."
       },
       "shares_basic": {
-        "status": "reported",
-        "value": 410000000,
+        "status": "derived",
+        "value": 4100000000,
         "unit": "shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -3989,18 +4207,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        },
+        "formula": "Reported shares_basic multiplied by verified split ratio 10; source rounding retained."
       },
       "shares_diluted": {
-        "status": "reported",
-        "value": 429000000,
+        "status": "derived",
+        "value": 4290000000,
         "unit": "shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -4022,8 +4253,21 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        },
+        "formula": "Reported shares_diluted multiplied by verified split ratio 10; source rounding retained."
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -4718,8 +4962,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -4741,8 +4985,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -4751,8 +5006,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -4774,8 +5029,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -4784,8 +5050,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -4807,8 +5073,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -4817,8 +5094,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -4840,8 +5117,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -5532,8 +5820,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -5555,8 +5843,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -5565,8 +5864,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -5588,8 +5887,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -5598,8 +5908,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -5621,8 +5931,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -5631,8 +5952,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -5654,8 +5975,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -6346,8 +6678,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -6369,8 +6701,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -6379,8 +6722,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -6402,8 +6745,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -6412,8 +6766,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -6435,8 +6789,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -6445,8 +6810,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -6468,8 +6833,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -7904,8 +8280,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -7927,8 +8303,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -7937,8 +8324,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -7960,8 +8347,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -7970,8 +8368,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -7993,8 +8391,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -8003,8 +8412,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -8026,8 +8435,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -8746,8 +9166,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -8769,8 +9189,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -8779,8 +9210,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -8802,8 +9233,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -8812,8 +9254,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -8835,8 +9277,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -8845,8 +9298,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -8868,8 +9321,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -9588,8 +10052,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -9611,8 +10075,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -9621,8 +10096,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -9644,8 +10119,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -9654,8 +10140,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -9677,8 +10163,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -9687,8 +10184,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -9710,8 +10207,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -11205,8 +11713,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -11228,8 +11736,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -11238,8 +11757,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -11261,8 +11780,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -11271,8 +11801,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -11294,8 +11824,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -11304,8 +11845,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -11327,8 +11868,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -11985,9 +12537,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -12007,7 +12559,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12028,13 +12584,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -12042,9 +12607,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -12064,7 +12629,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12085,13 +12654,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -12099,9 +12677,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -12121,7 +12699,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12142,13 +12724,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -12156,9 +12747,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -12178,7 +12769,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12199,13 +12794,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -12879,9 +13483,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -12901,7 +13505,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12922,13 +13530,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -12936,9 +13553,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -12958,7 +13575,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12979,13 +13600,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -12993,9 +13623,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -13015,7 +13645,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -13036,13 +13670,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -13050,9 +13693,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -13072,7 +13715,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -13093,13 +13740,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "AVGO-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-07-12",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001730168-24-000139"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -14436,6 +15092,18 @@
     }
   },
   "source_index": {
+    "SEC-0001730168-24-000139": {
+      "source_id": "SEC-0001730168-24-000139",
+      "source_name": "AVGO annual report: retrospective ten-for-one stock split disclosure",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2024-12-20",
+      "retrieved_at": "2026-10-19T11:23:29.652867+00:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+      "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+      "freshness_status": "acceptable_for_period"
+    },
     "SEC-0001730168-25-000121": {
       "source_id": "SEC-0001730168-25-000121",
       "source_name": "AVGO 10-K 0001730168-25-000121",
@@ -14443,7 +15111,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-12-18",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14454,19 +15122,8 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-09-10",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
-      "freshness_status": "acceptable_for_period"
-    },
-    "SEC-0001730168-24-000139": {
-      "source_id": "SEC-0001730168-24-000139",
-      "source_name": "AVGO 10-K 0001730168-24-000139",
-      "source_type": "filing",
-      "source_rank": 1,
-      "owner_or_provider": "SEC EDGAR / issuer",
-      "as_of_date": "2024-12-20",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
-      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html",
       "freshness_status": "acceptable_for_period"
     },
     "SEC-0001730168-25-000021": {
@@ -14476,7 +15133,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-03-12",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14487,7 +15144,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-06-11",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14498,7 +15155,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-09-10",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14509,7 +15166,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-12-14",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14520,7 +15177,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-03-14",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14531,7 +15188,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-06-13",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14542,7 +15199,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-09-11",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000099/0001730168-24-000099-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14553,7 +15210,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2022-12-16",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/0001730168-22-000118-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14564,7 +15221,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-03-08",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000008/0001730168-23-000008-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14575,7 +15232,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-06-07",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000064/0001730168-23-000064-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14586,7 +15243,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-09-06",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000077/0001730168-23-000077-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14597,7 +15254,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2021-12-17",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016821000153/0001730168-21-000153-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14608,7 +15265,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2022-03-10",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000029/0001730168-22-000029-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14619,7 +15276,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2022-06-09",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000081/0001730168-22-000081-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14630,7 +15287,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2022-09-08",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000094/0001730168-22-000094-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14641,7 +15298,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-06-09",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -14652,7 +15309,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-03-11",
-      "retrieved_at": "2026-10-18T12:37:48.569813+00:00",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
       "freshness_status": "acceptable_for_period"
     }
@@ -14828,50 +15485,6 @@
     {
       "severity": "high",
       "period": "annual:2023-10-29",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000121"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-10-29",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000121"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-10-29",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000121"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-10-29",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000121"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-10-29",
       "metric": "debt_current",
       "code": "source_value_revision_or_conflict",
       "impact": "Historical comparison or derived quarter requires filing reconciliation.",
@@ -14884,50 +15497,6 @@
       "severity": "high",
       "period": "annual:2023-10-29",
       "metric": "shares_outstanding",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-24-000139"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2022-10-30",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-24-000139"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2022-10-30",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-24-000139"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2022-10-30",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-24-000139"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2022-10-30",
-      "metric": "shares_diluted",
       "code": "source_value_revision_or_conflict",
       "impact": "Historical comparison or derived quarter requires filing reconciliation.",
       "source_ids": [
@@ -15059,99 +15628,11 @@
     {
       "severity": "high",
       "period": "quarterly:2024-05-05",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000064"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-05-05",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000064"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-05-05",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000064"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-05-05",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000064"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-05-05",
       "metric": "debt_current",
       "code": "source_value_revision_or_conflict",
       "impact": "Historical comparison or derived quarter requires filing reconciliation.",
       "source_ids": [
         "SEC-0001730168-24-000080"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-02-04",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-02-04",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-02-04",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-02-04",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001730168-25-000021"
       ],
       "status": "open"
     },
@@ -15232,10 +15713,6 @@
       "severity": "high",
       "code": "share_basis_unverified",
       "metrics": [
-        "eps_basic",
-        "eps_diluted",
-        "shares_basic",
-        "shares_diluted",
         "shares_outstanding"
       ],
       "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
@@ -15536,14 +16013,1939 @@
     }
   ],
   "readiness": "partial",
+  "normalization_reviews": [
+    {
+      "review_id": "AVGO-2024-ten-for-one-2026-10-19",
+      "type": "stock_split",
+      "cik": "0001730168",
+      "reviewed_at": "2026-10-19",
+      "effective_date": "2024-07-12",
+      "new_shares_per_old_share": 10,
+      "scope": "Exact EPS and weighted-average-share observations below, independently matched to nondimensional inline-XBRL facts including source decimals. Does not review outstanding-share classes, other revisions, debt, or financial completeness.",
+      "evidence": [
+        {
+          "source_id": "SEC-0001730168-24-000139",
+          "title": "AVGO annual report: retrospective ten-for-one stock split disclosure",
+          "filed": "2024-12-20",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+          "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+          "retrieved_at": "2026-10-19T11:23:29.652867+00:00",
+          "section": "Note 1, Organization and Summary of Significant Accounting Policies / Basis of Presentation; stock split disclosure",
+          "finding": "Ten-for-one common stock split effective 2024-07-12; the filing retrospectively presents share and per-share amounts on the post-split basis."
+        }
+      ],
+      "observations": [
+        {
+          "source_id": "SEC-0001730168-22-000118",
+          "accession": "0001730168-22-000118",
+          "filed": "2022-12-16",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 409000000,
+          "filing_fiscal_year": 2022,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/0001730168-22-000118-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "sha256": "ff2f158e578a380bce87d69e493c78c45c6c5e5daafa21e9ee1afe5fe2a06f22",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:17.985574+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-22-000118",
+          "accession": "0001730168-22-000118",
+          "filed": "2022-12-16",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 423000000,
+          "filing_fiscal_year": 2022,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/0001730168-22-000118-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "sha256": "ff2f158e578a380bce87d69e493c78c45c6c5e5daafa21e9ee1afe5fe2a06f22",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:17.985574+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-22-000118",
+          "accession": "0001730168-22-000118",
+          "filed": "2022-12-16",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 27.44,
+          "filing_fiscal_year": 2022,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/0001730168-22-000118-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "sha256": "ff2f158e578a380bce87d69e493c78c45c6c5e5daafa21e9ee1afe5fe2a06f22",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:17.985574+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-22-000118",
+          "accession": "0001730168-22-000118",
+          "filed": "2022-12-16",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 26.53,
+          "filing_fiscal_year": 2022,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/0001730168-22-000118-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+            "sha256": "ff2f158e578a380bce87d69e493c78c45c6c5e5daafa21e9ee1afe5fe2a06f22",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:17.985574+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 415000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 427000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 33.93,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 32.98,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 409000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 423000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 27.44,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 26.53,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2020-11-02",
+          "end": "2021-10-31",
+          "source_value": 410000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2020-11-02",
+          "end": "2021-10-31",
+          "source_value": 429000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2020-11-02",
+          "end": "2021-10-31",
+          "source_value": 15.7,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-23-000096",
+          "accession": "0001730168-23-000096",
+          "filed": "2023-12-14",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2020-11-02",
+          "end": "2021-10-31",
+          "source_value": 15,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/0001730168-23-000096-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+            "sha256": "198ff50ce75cd2cd4a109ca2b26c9ac59f4790c35b60c92667cfb03eb0e5de10",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:22.376710+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000023",
+          "accession": "0001730168-24-000023",
+          "filed": "2024-03-14",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 452000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "sha256": "a7cdf6d26300587567bd403a276be4e65509a912653cbbcc435c38f8e7de47ad",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:26.516312+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000023",
+          "accession": "0001730168-24-000023",
+          "filed": "2024-03-14",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 467000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "sha256": "a7cdf6d26300587567bd403a276be4e65509a912653cbbcc435c38f8e7de47ad",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:26.516312+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000023",
+          "accession": "0001730168-24-000023",
+          "filed": "2024-03-14",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 2.93,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "sha256": "a7cdf6d26300587567bd403a276be4e65509a912653cbbcc435c38f8e7de47ad",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:26.516312+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000023",
+          "accession": "0001730168-24-000023",
+          "filed": "2024-03-14",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 2.84,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+            "sha256": "a7cdf6d26300587567bd403a276be4e65509a912653cbbcc435c38f8e7de47ad",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:26.516312+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000080",
+          "accession": "0001730168-24-000080",
+          "filed": "2024-06-13",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 465000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "sha256": "76f8340a6206709a7de113185c02f340d3aa3e2898999312484aabcbc3d2c938",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:30.752087+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000080",
+          "accession": "0001730168-24-000080",
+          "filed": "2024-06-13",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 480000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "sha256": "76f8340a6206709a7de113185c02f340d3aa3e2898999312484aabcbc3d2c938",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:30.752087+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000080",
+          "accession": "0001730168-24-000080",
+          "filed": "2024-06-13",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 4.56,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "sha256": "76f8340a6206709a7de113185c02f340d3aa3e2898999312484aabcbc3d2c938",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:30.752087+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000080",
+          "accession": "0001730168-24-000080",
+          "filed": "2024-06-13",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 4.42,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/0001730168-24-000080-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+            "sha256": "76f8340a6206709a7de113185c02f340d3aa3e2898999312484aabcbc3d2c938",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:30.752087+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000139",
+          "accession": "0001730168-24-000139",
+          "filed": "2024-12-20",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 4089000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:29.652867+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000139",
+          "accession": "0001730168-24-000139",
+          "filed": "2024-12-20",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 4232000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:29.652867+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000139",
+          "accession": "0001730168-24-000139",
+          "filed": "2024-12-20",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 2.74,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:29.652867+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-24-000139",
+          "accession": "0001730168-24-000139",
+          "filed": "2024-12-20",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2021-11-01",
+          "end": "2022-10-30",
+          "source_value": 2.65,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/0001730168-24-000139-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+            "sha256": "bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:29.652867+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000021",
+          "accession": "0001730168-25-000021",
+          "filed": "2025-03-12",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 4517000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2023Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "sha256": "42b937f8f6ff156099d23e58a3ea76d1f7088d8c338cc09c103a9021fb04b852",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:34.923394+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000021",
+          "accession": "0001730168-25-000021",
+          "filed": "2025-03-12",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 4666000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2023Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "sha256": "42b937f8f6ff156099d23e58a3ea76d1f7088d8c338cc09c103a9021fb04b852",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:34.923394+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000021",
+          "accession": "0001730168-25-000021",
+          "filed": "2025-03-12",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 0.29,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2023Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "sha256": "42b937f8f6ff156099d23e58a3ea76d1f7088d8c338cc09c103a9021fb04b852",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:34.923394+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000021",
+          "accession": "0001730168-25-000021",
+          "filed": "2025-03-12",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-02-04",
+          "source_value": 0.28,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2023Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/0001730168-25-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+            "sha256": "42b937f8f6ff156099d23e58a3ea76d1f7088d8c338cc09c103a9021fb04b852",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:34.923394+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000064",
+          "accession": "0001730168-25-000064",
+          "filed": "2025-06-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 4645000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "sha256": "4a13d32448636cd700c974a2d32947a91aafcdcd427cf9056355f9b281a16128",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:39.135540+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000064",
+          "accession": "0001730168-25-000064",
+          "filed": "2025-06-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 4799000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "sha256": "4a13d32448636cd700c974a2d32947a91aafcdcd427cf9056355f9b281a16128",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:39.135540+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000064",
+          "accession": "0001730168-25-000064",
+          "filed": "2025-06-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 0.46,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "sha256": "4a13d32448636cd700c974a2d32947a91aafcdcd427cf9056355f9b281a16128",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:39.135540+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000064",
+          "accession": "0001730168-25-000064",
+          "filed": "2025-06-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-02-05",
+          "end": "2024-05-05",
+          "source_value": 0.44,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/0001730168-25-000064-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+            "sha256": "4a13d32448636cd700c974a2d32947a91aafcdcd427cf9056355f9b281a16128",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:39.135540+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000098",
+          "accession": "0001730168-25-000098",
+          "filed": "2025-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-05-06",
+          "end": "2024-08-04",
+          "source_value": 4663000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "sha256": "b5103db4112b1672db6caa26cbe7ab1d6b6eb97c307e868c8045de811663638a",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:43.223581+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000098",
+          "accession": "0001730168-25-000098",
+          "filed": "2025-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-05-06",
+          "end": "2024-08-04",
+          "source_value": 4663000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "sha256": "b5103db4112b1672db6caa26cbe7ab1d6b6eb97c307e868c8045de811663638a",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:43.223581+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000098",
+          "accession": "0001730168-25-000098",
+          "filed": "2025-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-05-06",
+          "end": "2024-08-04",
+          "source_value": -0.4,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "sha256": "b5103db4112b1672db6caa26cbe7ab1d6b6eb97c307e868c8045de811663638a",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:43.223581+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000098",
+          "accession": "0001730168-25-000098",
+          "filed": "2025-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-05-06",
+          "end": "2024-08-04",
+          "source_value": -0.4,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/0001730168-25-000098-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+            "sha256": "b5103db4112b1672db6caa26cbe7ab1d6b6eb97c307e868c8045de811663638a",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:43.223581+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "source_value": 4712000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "source_value": 4853000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "source_value": 4.91,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-11-04",
+          "end": "2025-11-02",
+          "source_value": 4.77,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "source_value": 4624000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "source_value": 4778000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "source_value": 1.27,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-10-30",
+          "end": "2024-11-03",
+          "source_value": 1.23,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 4149000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 4272000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 3.39,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-25-000121",
+          "accession": "0001730168-25-000121",
+          "filed": "2025-12-18",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2022-10-31",
+          "end": "2023-10-29",
+          "source_value": 3.3,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "sha256": "c572697c42f38f3c0a44652e4229efbcfa41b73441fc6557f7f0c612fcf2c97b",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:34.048676+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-11-03",
+          "end": "2026-02-01",
+          "source_value": 4741000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-11-03",
+          "end": "2026-02-01",
+          "source_value": 4888000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-11-03",
+          "end": "2026-02-01",
+          "source_value": 1.55,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-11-03",
+          "end": "2026-02-01",
+          "source_value": 1.5,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-11-04",
+          "end": "2025-02-02",
+          "source_value": 4695000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-11-04",
+          "end": "2025-02-02",
+          "source_value": 4836000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-11-04",
+          "end": "2025-02-02",
+          "source_value": 1.17,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000016",
+          "accession": "0001730168-26-000016",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-11-04",
+          "end": "2025-02-02",
+          "source_value": 1.14,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+            "sha256": "d258f5d7b7b887aa608493caea66f5df43d86f719ee8b72eb848f11281e912fd",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:47.347217+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2026-02-02",
+          "end": "2026-05-03",
+          "source_value": 4747000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2026-02-02",
+          "end": "2026-05-03",
+          "source_value": 4876000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2026-02-02",
+          "end": "2026-05-03",
+          "source_value": 1.96,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2026-02-02",
+          "end": "2026-05-03",
+          "source_value": 1.91,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-02-03",
+          "end": "2025-05-04",
+          "source_value": 4707000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-02-03",
+          "end": "2025-05-04",
+          "source_value": 4826000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-02-03",
+          "end": "2025-05-04",
+          "source_value": 1.05,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000054",
+          "accession": "0001730168-26-000054",
+          "filed": "2026-06-09",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-02-03",
+          "end": "2025-05-04",
+          "source_value": 1.03,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+            "sha256": "d0dfb60f80c40307be9f09d7e2963a5d9f1edadde326e622083d541cb9f5c3d5",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:51.475125+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2026-05-04",
+          "end": "2026-08-02",
+          "source_value": 4766000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2026-05-04",
+          "end": "2026-08-02",
+          "source_value": 4887000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2026-05-04",
+          "end": "2026-08-02",
+          "source_value": 2.75,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2026-05-04",
+          "end": "2026-08-02",
+          "source_value": 2.68,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "source_value": 4714000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "source_value": 4860000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "source_value": 0.88,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001730168-26-000080",
+          "accession": "0001730168-26-000080",
+          "filed": "2026-09-10",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "source_value": 0.85,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+            "sha256": "c6388ed02412fd35c760bbf4764cd40fb8eb7687b0ab5db629dd1074a7465df3",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:55.783246+00:00"
+          }
+        }
+      ]
+    }
+  ],
   "coverage": {
     "annual_periods": 5,
     "quarterly_periods": 12,
     "metric_count": 24,
     "cell_status_counts": {
-      "reported": 232,
+      "reported": 228,
       "missing_required_source": 108,
-      "derived": 68
+      "derived": 72
     },
     "latest_period_end": "2026-08-02",
     "latest_filed_date": "2026-09-10",
@@ -15559,14 +17961,17 @@
       "long_term_debt_total": 11,
       "short_term_borrowings": 17,
       "debt_total": 9
-    }
+    },
+    "model_usable_cells": 235,
+    "resolved_conflict_cells": 16,
+    "split_normalized_cells": 4
   },
   "limitations": [
     "Company Facts excludes custom taxonomy and dimensional/segment facts; absent data is not zero.",
     "Company Facts does not carry the full filing context. Revisions may reflect restatements, stock splits, scope changes or tagging differences; flagged revisions are not automatically reconciled.",
     "Fiscal labels come from primary filing focus and annual boundaries; SEC calendar frames are retained only as provenance.",
     "Standalone quarters derived from cumulative values use exact matching fiscal starts/tags/units; cross-filing inputs are disclosed. EPS and weighted-average shares are never subtracted.",
-    "Debt lease coverage, short-term borrowings, principal versus carrying value, and share split basis require filing-level review before valuation.",
+    "Debt lease coverage, short-term borrowings, principal versus carrying value, and unverified share cells require filing-level review before valuation. Explicit split reviews cover exact approved observations only; outstanding share classes remain outside those reviews.",
     "Cash excludes marketable securities unless independently presented as short_term_investments. Cash plus investments is not assumed to be unrestricted cash.",
     "This is a selected historical metric schedule, not complete statements, a three-statement model, consensus, forecasts or a valuation.",
     "Full balance-sheet and cash-flow reconciliations are outside the selected metric scope and have not been performed."

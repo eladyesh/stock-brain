@@ -55,11 +55,49 @@ class HistoricalAnswerTests(unittest.TestCase):
         self.assertTrue(error)
         self.assertEqual(rows, [])
 
+    def test_independent_semantic_requests_keep_the_requested_measure(self):
+        cases = json.loads((kb.ROOT / 'tests/semantic-holdout-cases.json').read_text())
+        for case in cases:
+            with self.subTest(question=case['question']):
+                out = answering.answer(case['question'])
+                self.assertEqual(out['abstain'], case.get('abstain', False), out)
+                if out['abstain']:
+                    self.assertEqual(out['reason_code'], case['reason'])
+                    self.assertEqual(out['statements'], [])
+                else:
+                    self.assertEqual(len(out['statements']), 1)
+                    self.assertEqual(out['statements'][0]['metric'], case['metric'])
+                    self.assertEqual(out['statements'][0]['unit'], case['unit'])
+                    answering.validate_answer(out, kb.ROOT)
+
+    def test_growth_uses_two_compatible_source_periods(self):
+        history = financial_history.load_history(kb.ROOT, 'MSFT')
+        rows = financial_answers.index(history)
+        growth = next(r for r in rows if r['metric'] == 'revenue_growth' and r['period_label'] == 'FY2024')
+        revenue = history['financials']['annual:2024-06-30']['revenue']['value']
+        prior = history['financials']['annual:2023-06-30']['revenue']['value']
+        self.assertAlmostEqual(growth['value'], (revenue / prior - 1) * 100)
+        self.assertEqual(len(growth['input_records']), 2)
+        changed = copy.deepcopy(history)
+        changed['financials']['annual:2023-06-30']['revenue']['model_usable'] = False
+        self.assertFalse(any(r['metric'] == 'revenue_growth' and r['period_label'] == 'FY2024'
+                             for r in financial_answers.index(changed)))
+
     def test_invalid_financial_history_is_not_exported(self):
         history = financial_history.load_history(kb.ROOT, 'MSFT')
         history['financials']['annual:2024-06-30']['revenue']['provenance'] = []
         with self.assertRaises(ValueError):
             financial_answers.index(history)
+
+    def test_split_adjusted_eps_cites_both_numeric_input_and_split_evidence(self):
+        history = financial_history.load_history(kb.ROOT, 'NVDA')
+        row = next(r for r in financial_answers.index(history)
+                   if r['metric'] == 'eps_diluted' and r['period_label'] == 'FY2022')
+        self.assertAlmostEqual(row['value'], .385)
+        self.assertEqual(row['kind'], 'derived')
+        self.assertIn('verified post-split', row['text'])
+        self.assertTrue(any('us-gaap:EarningsPerShareDiluted' in s['locator'] for s in row['sources']))
+        self.assertTrue(any('Retrospective split disclosure' in s['locator'] for s in row['sources']))
 
 
 if __name__ == '__main__':

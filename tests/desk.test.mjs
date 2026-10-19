@@ -6,6 +6,13 @@ const data=JSON.parse(fs.readFileSync(new URL('../data/desk.json',import.meta.ur
 const cases=JSON.parse(fs.readFileSync(new URL('../eval/acceptance-v1.json',import.meta.url))).cases;
 const historicalCases=JSON.parse(fs.readFileSync(new URL('./historical-answer-cases.json',import.meta.url)));
 
+const semanticCases=JSON.parse(fs.readFileSync(new URL('./semantic-holdout-cases.json',import.meta.url)));
+for(const c of semanticCases)test('Independent semantic contract: '+c.question,()=>{
+  const out=ask(c.question,data);assert.equal(out.abstain,c.abstain||false,JSON.stringify(out));
+  if(out.abstain){assert.equal(out.reason_code,c.reason);assert.deepEqual(out.statements,[]);return;}
+  assert.equal(out.statements.length,1);assert.equal(out.statements[0].metric,c.metric);assert.equal(out.statements[0].unit,c.unit);
+});
+
 for(const c of historicalCases)test('Exact historical answer: '+c.question,()=>{
   const out=ask(c.question,data);
   assert.equal(out.abstain,c.abstain||false,c.question+' '+out.reason_code);

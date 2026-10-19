@@ -9,7 +9,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Computing semiconductors",
-      "reviewed_at": "2026-10-18",
+      "reviewed_at": "2026-10-19",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -70,6 +70,14 @@
           "publisher": "Advanced Micro Devices, Inc.",
           "title": "AMD Form 8-K: World Labs acquisition agreement",
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+        },
+        {
+          "accessed_at": "2026-10-19",
+          "id": "S08",
+          "published_at": "2026-08-04",
+          "publisher": "Advanced Micro Devices, Inc.",
+          "title": "AMD Second Quarter 2026 Financial Results Presentation, Form 8-K Exhibit 99.2",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm"
         }
       ],
       "status": "reviewed",
@@ -80,7 +88,7 @@
       ],
       "ticker": "AMD",
       "ticker_aliases": [],
-      "updated_at": "2026-10-18"
+      "updated_at": "2026-10-19"
     },
     {
       "as_of": "2026-10-18",
@@ -424,7 +432,7 @@
       "domicile_country": "US",
       "exchange": "NASDAQ",
       "industry": "Accelerated computing semiconductors",
-      "reviewed_at": "2026-10-18",
+      "reviewed_at": "2026-10-19",
       "schema_version": 1,
       "sector": "information-technology",
       "security_type": "common_stock",
@@ -461,6 +469,14 @@
           "publisher": "NVIDIA Corporation",
           "title": "NVIDIA Form 8-K: proposed Hugging Face acquisition",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+        },
+        {
+          "accessed_at": "2026-10-19",
+          "id": "S05",
+          "published_at": "2026-08-26",
+          "publisher": "NVIDIA Corporation",
+          "title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results, Form 8-K Exhibit 99.2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm"
         }
       ],
       "status": "reviewed",
@@ -471,7 +487,7 @@
       ],
       "ticker": "NVDA",
       "ticker_aliases": [],
-      "updated_at": "2026-10-18"
+      "updated_at": "2026-10-19"
     },
     {
       "as_of": "2026-10-18",

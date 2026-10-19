@@ -4,7 +4,7 @@
   "price": 214.13,
   "currency": "USD",
   "trade_at": "2026-10-16T20:00:00+00:00",
-  "retrieved_at": "2026-10-18T12:38:26.919028+00:00",
+  "retrieved_at": "2026-10-19T11:38:03.270165+00:00",
   "exchange": "NMS",
   "price_type": "last_regular_session_trade",
   "provider": "Yahoo Finance",
@@ -22,5 +22,5 @@
     "A current price does not make older financial statements current."
   ],
   "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1mo&range=5y&events=splits",
-  "source_sha256": "66dff21ad8ed64e429dd3140244d85a98c1c74ac0bc167b79c9964534eb386b9"
+  "source_sha256": "36698006a0d044d3b88fadc3bbcc63ddcebed66609815d40df91f917917c717e"
 }

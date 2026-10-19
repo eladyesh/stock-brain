@@ -4,7 +4,7 @@
   "price": 128.23,
   "currency": "USD",
   "trade_at": "2026-10-16T20:03:50+00:00",
-  "retrieved_at": "2026-10-18T12:38:12.867159+00:00",
+  "retrieved_at": "2026-10-19T11:37:45.202223+00:00",
   "exchange": "NYQ",
   "price_type": "last_regular_session_trade",
   "provider": "Yahoo Finance",
@@ -16,5 +16,5 @@
     "A current price does not make older financial statements current."
   ],
   "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?interval=1mo&range=5y&events=splits",
-  "source_sha256": "0d93e9c6841b9c930a957f4a9579dfc4b207941333c597e333e6fd207c7f0808"
+  "source_sha256": "8a48a4a0882dbb2140eef50e17f4905129138d4d454b5ed289facb44421bab29"
 }

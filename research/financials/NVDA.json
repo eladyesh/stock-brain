@@ -4,11 +4,11 @@
   "ticker": "NVDA",
   "company_name": "NVIDIA CORP",
   "cik": "0001045810",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "source": {
     "provider": "SEC EDGAR Company Facts",
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
-    "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+    "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
     "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
     "raw_cache": "build/research-cache/http/objects/19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff"
   },
@@ -497,8 +497,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -520,8 +520,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -530,8 +541,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -553,8 +564,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -563,8 +585,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -586,8 +608,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -596,8 +629,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -619,8 +652,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -1183,8 +1227,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -1206,8 +1250,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -1216,8 +1271,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -1239,8 +1294,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -1249,8 +1315,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -1272,8 +1338,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -1282,8 +1359,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -1305,8 +1382,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -1868,9 +1956,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -1890,7 +1978,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -1911,13 +2003,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -1925,9 +2026,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -1947,7 +2048,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -1968,13 +2073,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -1982,9 +2096,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -2004,7 +2118,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2025,13 +2143,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -2039,9 +2166,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -2061,7 +2188,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2082,13 +2213,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -2674,9 +2814,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -2696,7 +2836,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2733,13 +2877,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -2747,9 +2900,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -2769,7 +2922,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2806,13 +2963,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -2820,9 +2986,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -2842,7 +3008,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2879,13 +3049,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -2893,9 +3072,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -2915,7 +3094,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2952,13 +3135,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -3515,14 +3707,14 @@
         "flags": []
       },
       "eps_basic": {
-        "status": "reported",
-        "value": 3.91,
+        "status": "derived",
+        "value": 0.391,
         "unit": "USD/shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -3544,18 +3736,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        },
+        "formula": "Reported eps_basic divided by verified split ratio 10; source rounding retained."
       },
       "eps_diluted": {
-        "status": "reported",
-        "value": 3.85,
+        "status": "derived",
+        "value": 0.385,
         "unit": "USD/shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -3577,18 +3782,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        },
+        "formula": "Reported eps_diluted divided by verified split ratio 10; source rounding retained."
       },
       "shares_basic": {
-        "status": "reported",
-        "value": 2496000000,
+        "status": "derived",
+        "value": 24960000000,
         "unit": "shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -3610,18 +3828,31 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        },
+        "formula": "Reported shares_basic multiplied by verified split ratio 10; source rounding retained."
       },
       "shares_diluted": {
-        "status": "reported",
-        "value": 2535000000,
+        "status": "derived",
+        "value": 25350000000,
         "unit": "shares",
         "basis": "US GAAP",
-        "evidence_label": "fact_source_reported",
-        "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "evidence_label": "derived_calculation",
+        "confidence": "medium",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -3643,8 +3874,21 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified",
+          "historical_fact_split_normalized"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "pre_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        },
+        "formula": "Reported shares_diluted multiplied by verified split ratio 10; source rounding retained."
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -4207,8 +4451,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -4230,8 +4474,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -4240,8 +4495,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -4263,8 +4518,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -4273,8 +4539,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -4296,8 +4562,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -4306,8 +4583,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -4329,8 +4606,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -4931,8 +5219,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -4954,8 +5242,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -4964,8 +5263,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -4987,8 +5286,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -4997,8 +5307,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -5020,8 +5330,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -5030,8 +5351,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -5053,8 +5374,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -6365,8 +6697,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -6388,8 +6720,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -6398,8 +6741,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -6421,8 +6764,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -6431,8 +6785,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -6454,8 +6808,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -6464,8 +6829,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -6487,8 +6852,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -7089,8 +7465,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -7112,8 +7488,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -7122,8 +7509,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -7145,8 +7532,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -7155,8 +7553,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -7178,8 +7576,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -7188,8 +7597,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -7211,8 +7620,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -7757,8 +8177,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -7780,8 +8200,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -7790,8 +8221,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -7813,8 +8244,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -7823,8 +8265,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -7846,8 +8288,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -7856,8 +8309,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -7879,8 +8332,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -9135,8 +9599,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -9158,8 +9622,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -9168,8 +9643,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -9191,8 +9666,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -9201,8 +9687,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -9224,8 +9710,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -9234,8 +9731,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -9257,8 +9754,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -9859,8 +10367,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -9882,8 +10390,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -9892,8 +10411,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -9915,8 +10434,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -9925,8 +10455,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -9948,8 +10478,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -9958,8 +10499,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -9981,8 +10522,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "share_split_basis_verified"
+        ],
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -10582,9 +11134,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -10604,7 +11156,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -10625,13 +11181,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -10639,9 +11204,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -10661,7 +11226,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -10682,13 +11251,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -10696,9 +11274,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -10718,7 +11296,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -10739,13 +11321,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -10753,9 +11344,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -10775,7 +11366,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -10796,13 +11391,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -12136,9 +12740,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -12158,7 +12762,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12179,13 +12787,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -12193,9 +12810,9 @@
         "unit": "USD/shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -12215,7 +12832,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12236,13 +12857,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": 2,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -12250,9 +12880,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -12272,7 +12902,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12293,13 +12927,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -12307,9 +12950,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -12329,7 +12972,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12350,13 +12997,22 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-ten-for-one-2026-10-19"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "SEC-0001045810-25-000023"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "derived",
@@ -12768,6 +13424,18 @@
     }
   },
   "source_index": {
+    "SEC-0001045810-25-000023": {
+      "source_id": "SEC-0001045810-25-000023",
+      "source_name": "NVDA annual report: retrospective ten-for-one stock split disclosure",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2025-02-26",
+      "retrieved_at": "2026-10-19T11:23:21.138396+00:00",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+      "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+      "freshness_status": "acceptable_for_period"
+    },
     "SEC-0001045810-26-000021": {
       "source_id": "SEC-0001045810-26-000021",
       "source_name": "NVDA 10-K 0001045810-26-000021",
@@ -12775,7 +13443,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-02-25",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12786,7 +13454,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-08-26",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12797,19 +13465,8 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-02-21",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
-      "freshness_status": "acceptable_for_period"
-    },
-    "SEC-0001045810-25-000023": {
-      "source_id": "SEC-0001045810-25-000023",
-      "source_name": "NVDA 10-K 0001045810-25-000023",
-      "source_type": "filing",
-      "source_rank": 1,
-      "owner_or_provider": "SEC EDGAR / issuer",
-      "as_of_date": "2025-02-26",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
       "freshness_status": "acceptable_for_period"
     },
     "SEC-0001045810-23-000017": {
@@ -12819,7 +13476,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-02-24",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/0001045810-23-000017-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12830,7 +13487,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-05-20",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12841,7 +13498,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-11-19",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12852,7 +13509,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-08-27",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12863,7 +13520,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-05-28",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12874,7 +13531,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-11-20",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12885,7 +13542,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-08-28",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/0001045810-24-000264-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12896,7 +13553,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-05-29",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -12907,7 +13564,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-11-21",
-      "retrieved_at": "2026-10-18T12:37:38.153995+00:00",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
       "freshness_status": "acceptable_for_period"
     }
@@ -13037,143 +13694,11 @@
     {
       "severity": "high",
       "period": "annual:2024-01-28",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-26-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2024-01-28",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-26-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2024-01-28",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-26-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2024-01-28",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-26-000021"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2024-01-28",
       "metric": "shares_outstanding",
       "code": "source_value_revision_or_conflict",
       "impact": "Historical comparison or derived quarter requires filing reconciliation.",
       "source_ids": [
         "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-01-29",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-01-29",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-01-29",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "annual:2023-01-29",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-04-28",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000116"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-04-28",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000116"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-04-28",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000116"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-04-28",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000116"
       ],
       "status": "open"
     },
@@ -13190,56 +13715,8 @@
     },
     {
       "severity": "high",
-      "period": "quarterly:2023-10-29",
-      "metric": "eps_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-24-000316"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2023-10-29",
-      "metric": "eps_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-24-000316"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2023-10-29",
-      "metric": "shares_basic",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-24-000316"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2023-10-29",
-      "metric": "shares_diluted",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-24-000316"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
       "code": "share_basis_unverified",
       "metrics": [
-        "eps_basic",
-        "eps_diluted",
-        "shares_basic",
-        "shares_diluted",
         "shares_outstanding"
       ],
       "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
@@ -13491,14 +13968,1939 @@
   ],
   "comparability_bridge": [],
   "readiness": "partial",
+  "normalization_reviews": [
+    {
+      "review_id": "NVDA-2024-ten-for-one-2026-10-19",
+      "type": "stock_split",
+      "cik": "0001045810",
+      "reviewed_at": "2026-10-19",
+      "effective_date": "2024-06-07",
+      "new_shares_per_old_share": 10,
+      "scope": "Exact EPS and weighted-average-share observations below, independently matched to nondimensional inline-XBRL facts including source decimals. Does not review outstanding-share classes, other revisions, debt, or financial completeness.",
+      "evidence": [
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "title": "NVDA annual report: retrospective ten-for-one stock split disclosure",
+          "filed": "2025-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+          "retrieved_at": "2026-10-19T11:23:21.138396+00:00",
+          "section": "Note 1, Organization and Summary of Significant Accounting Policies / Basis of Presentation; stock split disclosure",
+          "finding": "Ten-for-one common stock split effective 2024-06-07; the filing retrospectively presents share and per-share amounts on the post-split basis."
+        }
+      ],
+      "observations": [
+        {
+          "source_id": "SEC-0001045810-23-000017",
+          "accession": "0001045810-23-000017",
+          "filed": "2023-02-24",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 2487000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/0001045810-23-000017-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "sha256": "60f3dfd3792abaaff550e096ecebc8e7d388d335c14f8068458a8877faa844bb",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:39.916695+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000017",
+          "accession": "0001045810-23-000017",
+          "filed": "2023-02-24",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 2507000000,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/0001045810-23-000017-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "sha256": "60f3dfd3792abaaff550e096ecebc8e7d388d335c14f8068458a8877faa844bb",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:39.916695+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000017",
+          "accession": "0001045810-23-000017",
+          "filed": "2023-02-24",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 1.76,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/0001045810-23-000017-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "sha256": "60f3dfd3792abaaff550e096ecebc8e7d388d335c14f8068458a8877faa844bb",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:39.916695+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000017",
+          "accession": "0001045810-23-000017",
+          "filed": "2023-02-24",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 1.74,
+          "filing_fiscal_year": 2023,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/0001045810-23-000017-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+            "sha256": "60f3dfd3792abaaff550e096ecebc8e7d388d335c14f8068458a8877faa844bb",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:39.916695+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000227",
+          "accession": "0001045810-23-000227",
+          "filed": "2023-11-21",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 2468000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "sha256": "4f64ba25c94849428ae5dca3f0efd415b8619b8d5ea11732c53b66ddf4d051de",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:44.195845+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000227",
+          "accession": "0001045810-23-000227",
+          "filed": "2023-11-21",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 2494000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "sha256": "4f64ba25c94849428ae5dca3f0efd415b8619b8d5ea11732c53b66ddf4d051de",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:44.195845+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000227",
+          "accession": "0001045810-23-000227",
+          "filed": "2023-11-21",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 3.75,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "sha256": "4f64ba25c94849428ae5dca3f0efd415b8619b8d5ea11732c53b66ddf4d051de",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:44.195845+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-23-000227",
+          "accession": "0001045810-23-000227",
+          "filed": "2023-11-21",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 3.71,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm",
+            "sha256": "4f64ba25c94849428ae5dca3f0efd415b8619b8d5ea11732c53b66ddf4d051de",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:44.195845+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 2469000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 2494000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 12.05,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 11.93,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 2487000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 2507000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 1.76,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 1.74,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "source_value": 2496000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "source_value": 2535000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "source_value": 3.91,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "source_value": 3.85,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2021",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+            "sha256": "ce0bc7a8bb45de9ade6298d1918de2c6791a472fd494a0672b4cc34beed58bf2",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:48.421102+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000124",
+          "accession": "0001045810-24-000124",
+          "filed": "2024-05-29",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 2462000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "sha256": "1403df27494bb5248bcf51d106bc522b7e9e3273a4a517535f3e5c3d2f85df37",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:52.571039+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000124",
+          "accession": "0001045810-24-000124",
+          "filed": "2024-05-29",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 2489000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "sha256": "1403df27494bb5248bcf51d106bc522b7e9e3273a4a517535f3e5c3d2f85df37",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:52.571039+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000124",
+          "accession": "0001045810-24-000124",
+          "filed": "2024-05-29",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 6.04,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "sha256": "1403df27494bb5248bcf51d106bc522b7e9e3273a4a517535f3e5c3d2f85df37",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:52.571039+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000124",
+          "accession": "0001045810-24-000124",
+          "filed": "2024-05-29",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 5.98,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/0001045810-24-000124-index.html",
+          "decimals": 2,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm",
+            "sha256": "1403df27494bb5248bcf51d106bc522b7e9e3273a4a517535f3e5c3d2f85df37",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:52.571039+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000316",
+          "accession": "0001045810-24-000316",
+          "filed": "2024-11-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 24680000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2023Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "sha256": "b04d91b8319b50f419ff947dae876c257f7ecc43ff6714fa128e1d9748ba71df",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:56.643250+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000316",
+          "accession": "0001045810-24-000316",
+          "filed": "2024-11-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 24940000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2023Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "sha256": "b04d91b8319b50f419ff947dae876c257f7ecc43ff6714fa128e1d9748ba71df",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:56.643250+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000316",
+          "accession": "0001045810-24-000316",
+          "filed": "2024-11-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 0.37,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2023Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "sha256": "b04d91b8319b50f419ff947dae876c257f7ecc43ff6714fa128e1d9748ba71df",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:56.643250+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-24-000316",
+          "accession": "0001045810-24-000316",
+          "filed": "2024-11-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-07-31",
+          "end": "2023-10-29",
+          "source_value": 0.37,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2023Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/0001045810-24-000316-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm",
+            "sha256": "b04d91b8319b50f419ff947dae876c257f7ecc43ff6714fa128e1d9748ba71df",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:25:56.643250+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 24870000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:21.138396+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 25070000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:21.138396+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 0.18,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:21.138396+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "source_value": 0.17,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+            "sha256": "1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:21.138396+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000116",
+          "accession": "0001045810-25-000116",
+          "filed": "2025-05-28",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 24620000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "sha256": "925934711df45938760ffae70636cd3b922936aaa2ee9d6950b1072748365568",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:00.950863+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000116",
+          "accession": "0001045810-25-000116",
+          "filed": "2025-05-28",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 24890000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "sha256": "925934711df45938760ffae70636cd3b922936aaa2ee9d6950b1072748365568",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:00.950863+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000116",
+          "accession": "0001045810-25-000116",
+          "filed": "2025-05-28",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 0.6,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "sha256": "925934711df45938760ffae70636cd3b922936aaa2ee9d6950b1072748365568",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:00.950863+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000116",
+          "accession": "0001045810-25-000116",
+          "filed": "2025-05-28",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2024-04-28",
+          "source_value": 0.6,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2024Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/0001045810-25-000116-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
+            "sha256": "925934711df45938760ffae70636cd3b922936aaa2ee9d6950b1072748365568",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:00.950863+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000209",
+          "accession": "0001045810-25-000209",
+          "filed": "2025-08-27",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-04-29",
+          "end": "2024-07-28",
+          "source_value": 24578000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "sha256": "ebfa22d6c9a8d7823e3cfa89d3f14ad3abfb587f274caa29653e855e8a859fec",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:05.171008+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000209",
+          "accession": "0001045810-25-000209",
+          "filed": "2025-08-27",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-04-29",
+          "end": "2024-07-28",
+          "source_value": 24848000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "sha256": "ebfa22d6c9a8d7823e3cfa89d3f14ad3abfb587f274caa29653e855e8a859fec",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:05.171008+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000209",
+          "accession": "0001045810-25-000209",
+          "filed": "2025-08-27",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-04-29",
+          "end": "2024-07-28",
+          "source_value": 0.68,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "sha256": "ebfa22d6c9a8d7823e3cfa89d3f14ad3abfb587f274caa29653e855e8a859fec",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:05.171008+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000209",
+          "accession": "0001045810-25-000209",
+          "filed": "2025-08-27",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-04-29",
+          "end": "2024-07-28",
+          "source_value": 0.67,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2024Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/0001045810-25-000209-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+            "sha256": "ebfa22d6c9a8d7823e3cfa89d3f14ad3abfb587f274caa29653e855e8a859fec",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:05.171008+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-07-28",
+          "end": "2025-10-26",
+          "source_value": 24327000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-07-28",
+          "end": "2025-10-26",
+          "source_value": 24483000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-07-28",
+          "end": "2025-10-26",
+          "source_value": 1.31,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-07-28",
+          "end": "2025-10-26",
+          "source_value": 1.3,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2025Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-07-29",
+          "end": "2024-10-27",
+          "source_value": 24533000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-07-29",
+          "end": "2024-10-27",
+          "source_value": 24774000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-07-29",
+          "end": "2024-10-27",
+          "source_value": 0.79,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-25-000230",
+          "accession": "0001045810-25-000230",
+          "filed": "2025-11-19",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-07-29",
+          "end": "2024-10-27",
+          "source_value": 0.78,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "Q3",
+          "calendar_frame": "CY2024Q3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/0001045810-25-000230-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
+            "sha256": "e8232ec182290c9b77e95bda4167c6826506260854ac4732a1018256d6733105",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:09.267475+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "source_value": 24359000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "source_value": 24514000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "source_value": 4.93,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "source_value": 4.9,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "source_value": 24555000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "source_value": 24804000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "source_value": 2.97,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "source_value": 2.94,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 24690000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 24940000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 1.21,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "source_value": 1.19,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+            "sha256": "46e6f4eb68039531c24211c439feda464484715252e89a09b8df2ad0dca6535e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:41.751449+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2026-01-26",
+          "end": "2026-04-26",
+          "source_value": 24286000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2026-01-26",
+          "end": "2026-04-26",
+          "source_value": 24391000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2026-01-26",
+          "end": "2026-04-26",
+          "source_value": 2.4,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2026-01-26",
+          "end": "2026-04-26",
+          "source_value": 2.39,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2026Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-01-27",
+          "end": "2025-04-27",
+          "source_value": 24441000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-01-27",
+          "end": "2025-04-27",
+          "source_value": 24611000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-01-27",
+          "end": "2025-04-27",
+          "source_value": 0.77,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000052",
+          "accession": "0001045810-26-000052",
+          "filed": "2026-05-20",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-01-27",
+          "end": "2025-04-27",
+          "source_value": 0.76,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q1",
+          "calendar_frame": "CY2025Q1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+            "sha256": "793062f97083334ebcb7ba66999a91fbc379ce66308d25128d92ca0663755711",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:26:13.674983+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2026-04-27",
+          "end": "2026-07-26",
+          "source_value": 24190000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2026-04-27",
+          "end": "2026-07-26",
+          "source_value": 24285000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2026-04-27",
+          "end": "2026-07-26",
+          "source_value": 2.47,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2026-04-27",
+          "end": "2026-07-26",
+          "source_value": 2.46,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-04-28",
+          "end": "2025-07-27",
+          "source_value": 24366000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-04-28",
+          "end": "2025-07-27",
+          "source_value": 24532000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-04-28",
+          "end": "2025-07-27",
+          "source_value": 1.08,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-04-28",
+          "end": "2025-07-27",
+          "source_value": 1.08,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "decimals": 2,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "final_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+            "sha256": "2b1eadbe143ef9835cdd7a207bc6d32151b04828f3c06de5e57e1f4fe30faf1e",
+            "content_type": "text/html",
+            "fetched_at": "2026-10-19T11:23:48.379209+00:00"
+          }
+        }
+      ]
+    }
+  ],
   "coverage": {
     "annual_periods": 5,
     "quarterly_periods": 12,
     "metric_count": 24,
     "cell_status_counts": {
-      "reported": 224,
+      "reported": 220,
       "missing_required_source": 127,
-      "derived": 57
+      "derived": 61
     },
     "latest_period_end": "2026-07-26",
     "latest_filed_date": "2026-08-26",
@@ -13516,14 +15918,17 @@
       "debt_total": 2,
       "shares_outstanding": 9,
       "free_cash_flow": 17
-    }
+    },
+    "model_usable_cells": 209,
+    "resolved_conflict_cells": 16,
+    "split_normalized_cells": 4
   },
   "limitations": [
     "Company Facts excludes custom taxonomy and dimensional/segment facts; absent data is not zero.",
     "Company Facts does not carry the full filing context. Revisions may reflect restatements, stock splits, scope changes or tagging differences; flagged revisions are not automatically reconciled.",
     "Fiscal labels come from primary filing focus and annual boundaries; SEC calendar frames are retained only as provenance.",
     "Standalone quarters derived from cumulative values use exact matching fiscal starts/tags/units; cross-filing inputs are disclosed. EPS and weighted-average shares are never subtracted.",
-    "Debt lease coverage, short-term borrowings, principal versus carrying value, and share split basis require filing-level review before valuation.",
+    "Debt lease coverage, short-term borrowings, principal versus carrying value, and unverified share cells require filing-level review before valuation. Explicit split reviews cover exact approved observations only; outstanding share classes remain outside those reviews.",
     "Cash excludes marketable securities unless independently presented as short_term_investments. Cash plus investments is not assumed to be unrestricted cash.",
     "This is a selected historical metric schedule, not complete statements, a three-statement model, consensus, forecasts or a valuation.",
     "Full balance-sheet and cash-flow reconciliations are outside the selected metric scope and have not been performed."

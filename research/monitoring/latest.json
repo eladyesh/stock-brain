@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-18T12:35:40.094967+00:00",
-  "cutoff": "2026-10-18",
+  "checked_at": "2026-10-19T11:34:36.380573+00:00",
+  "cutoff": "2026-10-19",
   "companies": {
     "MSFT": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "3ee790a4ccf36d6279e7c5775a8374c0178c046a6994ca195478fac71c1291a5",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -40,7 +40,7 @@
       "reviewed_disposition_count": 1
     },
     "ORCL": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "3cec7a0d416442e1633422d46f1e5f53a3a4a412ff744ea279d4cafd38438adf",
       "status": "error",
       "coverage_status": "error",
@@ -76,7 +76,7 @@
       "reviewed_disposition_count": 0
     },
     "PLTR": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "3f321ce7b8090e7c9d62f96e3d21e185ec1233e03506aa7de9419d59f97d3cb1",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -92,11 +92,11 @@
           "source": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
           "kind": "q4_news",
           "status": "checked",
-          "entry_count": 49,
-          "candidate_count": 15,
+          "entry_count": 50,
+          "candidate_count": 16,
           "warnings": [],
-          "source_sha256": "f93bffd57ba6635d79b0cfed8270a5b2b4af9e54ef0b191cfa563d2ad48b2054",
-          "latest_publication": "2026-10-15"
+          "source_sha256": "226ee582208662aed200ee4f1f9e432353d83cb25fc4de1495cfdac503d613a6",
+          "latest_publication": "2026-10-19"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -108,11 +108,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 15,
+      "pending_count": 16,
       "reviewed_disposition_count": 0
     },
     "MU": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "80b9a14ba35d45c630613670f1c468fc00e571e93ea5fa540e0d5ea31a33aa2d",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -148,8 +148,8 @@
       "reviewed_disposition_count": 1
     },
     "NVDA": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
-      "packet_sha256": "da235a0cf3675ea2f215418e7ad2456fc250876406a69702420f7ebda1730a54",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "packet_sha256": "c071b72ccf7516e647f39736f1985d14b700132d4a6bb5a1df4c9640e4898866",
       "status": "needs_review",
       "coverage_status": "checked",
       "errors": [],
@@ -158,7 +158,7 @@
           "source": "SEC submissions",
           "kind": "sec",
           "status": "checked",
-          "candidate_count": 2
+          "candidate_count": 1
         },
         {
           "source": "https://nvidianews.nvidia.com/rss.xml",
@@ -180,12 +180,12 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 22,
+      "pending_count": 21,
       "reviewed_disposition_count": 0
     },
     "AMD": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
-      "packet_sha256": "41d7f7006a02c9513c46ef3e9eb06bcc1b09ab2e0342814c97949754478ef691",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "packet_sha256": "d506a7c0f326928380fd5d6247da097961ebe2a4733c692ec3ad77330b210960",
       "status": "needs_review",
       "coverage_status": "checked",
       "errors": [],
@@ -194,7 +194,7 @@
           "source": "SEC submissions",
           "kind": "sec",
           "status": "checked",
-          "candidate_count": 1
+          "candidate_count": 0
         },
         {
           "source": "https://ir.amd.com/news-events/press-releases/rss",
@@ -203,7 +203,7 @@
           "entry_count": 10,
           "candidate_count": 10,
           "warnings": [],
-          "source_sha256": "e74ab5f93da96f63bd98c6047d24fea96973ef4e769f87da58909ac9c1279f9a",
+          "source_sha256": "504a4989ec28f6307937b1f864aafa0a03dc0bddbc8c8925b958ce7a2edfd42e",
           "latest_publication": "2026-10-12"
         }
       ],
@@ -216,11 +216,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 10,
-      "reviewed_disposition_count": 0
+      "pending_count": 8,
+      "reviewed_disposition_count": 1
     },
     "AVGO": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "9a366e0f6e132d7cd3b308f2ff78c49a3ad05836dc0732a31aabeeb8fb62d7b5",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -256,7 +256,7 @@
       "reviewed_disposition_count": 1
     },
     "AVAV": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "2b78bc9f35d9e416c4328036bd589f972354a5ccc53190c3bbd3d371cb5af7d1",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -292,7 +292,7 @@
       "reviewed_disposition_count": 1
     },
     "LMT": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "dfa457b0655aaf61de07a6df82829af641c18affb0b991e4f61ce00e87706009",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -328,7 +328,7 @@
       "reviewed_disposition_count": 0
     },
     "RTX": {
-      "checked_at": "2026-10-18T12:35:40.094967+00:00",
+      "checked_at": "2026-10-19T11:34:36.380573+00:00",
       "packet_sha256": "f26796ce4ab5c36094d910a20b142e5d37699b965c9c89675c5b62bbf2f9c2b3",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -365,6 +365,17 @@
     }
   },
   "queue": [
+    {
+      "id": "dad237fa0e115dde1a537256",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud/default.aspx",
+      "title": "Knox and Palantir Partner to Further Accelerate Delivery of Software through Largest Federal Cloud",
+      "published_at": "2026-10-19",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-19T11:34:36.380573+00:00",
+      "status": "pending_review"
+    },
     {
       "id": "712597290a0251e6b5d39d96",
       "ticker": "NVDA",
@@ -1524,7 +1535,9 @@
       "items": "2.02,9.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0001045810.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
-      "status": "pending_review"
+      "status": "reviewed",
+      "resolved_by_profile_sha256": "72771808db7a0b5723bf5abfef46cf166f5ae5c1a725e23c919e6617ee74b7dc",
+      "resolution_basis": "Source or SEC filing accession included in the hash-bound reviewed packet."
     },
     {
       "id": "360a3ad6cdeda7a8150be32d",
@@ -1626,7 +1639,9 @@
       "kind": "issuer_feed",
       "discovered_from": "https://ir.amd.com/news-events/press-releases/rss",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
-      "status": "pending_review"
+      "status": "reviewed_disposition",
+      "resolved_by_triage_review": "b1bb8a301d0aa11aab32ade1",
+      "resolution_basis": "no_material_change: Read the full August 19 issuer announcement and the reviewed August 19 Form 8-K. Both describe the same Tim Ryan appointment, Householder retirement and McClure/Denzel committee changes. Current C11 already represents the dated director and audit-chair changes; the press release adds biographical context and management quotations, not a new appointment, financial result or changed governance effective date. This closes only the additional announcement copy, not the separate World Labs or Taalas events."
     },
     {
       "id": "eee53832a2f047f671f1b3f3",
@@ -1732,7 +1747,7 @@
       "discovered_from": "https://ir.amd.com/news-events/press-releases/rss",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
       "status": "reviewed",
-      "resolved_by_profile_sha256": "d821c29999a97aa8fd35929943a68b05e8fff1bfdd2ec3c10970ee51699d0e2b",
+      "resolved_by_profile_sha256": "cac7422c49b8235eb7379d7b9af5531ef2cc84b6f7c0d623ac79aca5dfe1f307",
       "resolution_basis": "Source or SEC filing accession included in the hash-bound reviewed packet."
     },
     {
@@ -1747,7 +1762,9 @@
       "items": "2.02,7.01,9.01",
       "discovered_from": "https://data.sec.gov/submissions/CIK0000002488.json",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
-      "status": "pending_review"
+      "status": "reviewed",
+      "resolved_by_profile_sha256": "cac7422c49b8235eb7379d7b9af5531ef2cc84b6f7c0d623ac79aca5dfe1f307",
+      "resolution_basis": "Source or SEC filing accession included in the hash-bound reviewed packet."
     },
     {
       "id": "4b6d102a093ee0a36b88adb0",

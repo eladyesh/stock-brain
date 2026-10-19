@@ -4,11 +4,11 @@
   "ticker": "MU",
   "company_name": "Micron Technology, Inc.",
   "cik": "0000723125",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-19",
   "source": {
     "provider": "SEC EDGAR Company Facts",
     "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
-    "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+    "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
     "sha256": "162439f31208eaf4cd1a33939d80fd40479a559735b9488d32ac43d5516ff7bf",
     "raw_cache": "build/research-cache/http/objects/162439f31208eaf4cd1a33939d80fd40479a559735b9488d32ac43d5516ff7bf"
   },
@@ -13127,7 +13127,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-10-09",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13138,7 +13138,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-10-03",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/0000723125-25-000028-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13149,7 +13149,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-10-04",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/0000723125-24-000027-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13160,7 +13160,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-10-06",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312523000054/0000723125-23-000054-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13171,7 +13171,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2022-10-07",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312522000048/0000723125-22-000048-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13182,7 +13182,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-06-25",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/0000723125-26-000015-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13193,7 +13193,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2026-03-19",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/0000723125-26-000006-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13204,7 +13204,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-12-18",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/0000723125-25-000046-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13215,7 +13215,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-06-26",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000021/0000723125-25-000021-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13226,7 +13226,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2025-03-21",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000009/0000723125-25-000009-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13237,7 +13237,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-12-19",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000047/0000723125-24-000047-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13248,7 +13248,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-06-27",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000019/0000723125-24-000019-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13259,7 +13259,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2024-03-21",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000007/0000723125-24-000007-index.html",
       "freshness_status": "acceptable_for_period"
     },
@@ -13270,7 +13270,7 @@
       "source_rank": 1,
       "owner_or_provider": "SEC EDGAR / issuer",
       "as_of_date": "2023-12-21",
-      "retrieved_at": "2026-10-18T12:37:32.863027+00:00",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312523000077/0000723125-23-000077-index.html",
       "freshness_status": "acceptable_for_period"
     }
@@ -13689,14 +13689,17 @@
       "short_term_investments": 17,
       "long_term_debt_total": 2,
       "short_term_borrowings": 17
-    }
+    },
+    "model_usable_cells": 171,
+    "resolved_conflict_cells": 0,
+    "split_normalized_cells": 0
   },
   "limitations": [
     "Company Facts excludes custom taxonomy and dimensional/segment facts; absent data is not zero.",
     "Company Facts does not carry the full filing context. Revisions may reflect restatements, stock splits, scope changes or tagging differences; flagged revisions are not automatically reconciled.",
     "Fiscal labels come from primary filing focus and annual boundaries; SEC calendar frames are retained only as provenance.",
     "Standalone quarters derived from cumulative values use exact matching fiscal starts/tags/units; cross-filing inputs are disclosed. EPS and weighted-average shares are never subtracted.",
-    "Debt lease coverage, short-term borrowings, principal versus carrying value, and share split basis require filing-level review before valuation.",
+    "Debt lease coverage, short-term borrowings, principal versus carrying value, and unverified share cells require filing-level review before valuation. Explicit split reviews cover exact approved observations only; outstanding share classes remain outside those reviews.",
     "Cash excludes marketable securities unless independently presented as short_term_investments. Cash plus investments is not assumed to be unrestricted cash.",
     "This is a selected historical metric schedule, not complete statements, a three-statement model, consensus, forecasts or a valuation.",
     "Full balance-sheet and cash-flow reconciliations are outside the selected metric scope and have not been performed."

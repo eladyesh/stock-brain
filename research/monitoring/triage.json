@@ -1,33 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T12:37:13.469569+00:00",
-  "discovery_checked_at": "2026-10-18T12:35:40.094967+00:00",
-  "queue_sha256": "bc3b7fd429c2debdcf96efe86112ebce23743886529e444cb302846476d1343c",
+  "generated_at": "2026-10-19T11:36:36.357333+00:00",
+  "discovery_checked_at": "2026-10-19T11:34:36.380573+00:00",
+  "queue_sha256": "2af7926d6a918136e39ee0e96169c0126c5a5822ce234623bc74040fecb35369",
   "policy": "Priority and exact-URL/accession duplicate grouping use metadata only. No materiality finding or research approval is implied. All unresolved items remain pending.",
   "summary": {
-    "total": 147,
-    "pending": 140,
+    "total": 148,
+    "pending": 138,
     "by_priority": {
-      "P0": 2,
-      "P1": 25,
-      "P2": 104,
+      "P1": 24,
+      "P2": 105,
       "P3": 9
     },
     "by_classification": {
-      "already_in_reviewed_evidence": 2,
-      "needs_review": 140,
-      "reviewed_no_material_change": 5
+      "already_in_reviewed_evidence": 4,
+      "needs_review": 138,
+      "reviewed_no_material_change": 6
     },
     "by_company_pending": {
-      "AMD": 10,
+      "AMD": 8,
       "AVAV": 11,
       "AVGO": 9,
       "LMT": 5,
       "MSFT": 10,
       "MU": 8,
-      "NVDA": 22,
+      "NVDA": 21,
       "ORCL": 1,
-      "PLTR": 15,
+      "PLTR": 16,
       "RTX": 49
     }
   },
@@ -69,10 +68,10 @@
       "event_sha256": "960b740d6694ef92dd31b47866b0481698a4793b8a0b76f34bf26c27372c6b75",
       "priority": "P0",
       "priority_reason": "Results or capital-return disclosure indicated by filing items/headline.",
-      "classification": "needs_review",
+      "classification": "already_in_reviewed_evidence",
       "duplicate_of": null,
       "review_record_id": null,
-      "queue_status": "pending_review"
+      "queue_status": "reviewed"
     },
     {
       "event_id": "8a59e72a762921d421c151c0",
@@ -97,10 +96,10 @@
       "event_sha256": "9b99b7ebb106a134053fbd6f5fa415d8b74d76ff7d058a4cffce4ce1d8c2ebf0",
       "priority": "P0",
       "priority_reason": "Results or capital-return disclosure indicated by filing items/headline.",
-      "classification": "needs_review",
+      "classification": "already_in_reviewed_evidence",
       "duplicate_of": null,
       "review_record_id": null,
-      "queue_status": "pending_review"
+      "queue_status": "reviewed"
     },
     {
       "event_id": "013cb238b1fd13cdd76d0e95",
@@ -293,10 +292,10 @@
       "event_sha256": "9c0c13647487d88081ac6d315a1f6ea86da536981ceb264a61b9284a90e181a6",
       "priority": "P1",
       "priority_reason": "Filing, transaction, contract, financing or leadership review candidate.",
-      "classification": "needs_review",
+      "classification": "reviewed_no_material_change",
       "duplicate_of": null,
-      "review_record_id": null,
-      "queue_status": "pending_review"
+      "review_record_id": "b1bb8a301d0aa11aab32ade1",
+      "queue_status": "reviewed_disposition"
     },
     {
       "event_id": "0c4f28ff7e2553469e149c2a",
@@ -1965,6 +1964,20 @@
       "queue_status": "pending_review"
     },
     {
+      "event_id": "dad237fa0e115dde1a537256",
+      "ticker": "PLTR",
+      "title": "Knox and Palantir Partner to Further Accelerate Delivery of Software through Largest Federal Cloud",
+      "url": "https://investors.palantir.com/news-details/2026/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud/default.aspx",
+      "published_at": "2026-10-19",
+      "event_sha256": "86d3911db6109c26a05dabb633ff53fc62c1d393096a41375d10b08417b73c7c",
+      "priority": "P2",
+      "priority_reason": "Product, partnership or other issuer announcement; materiality is undetermined.",
+      "classification": "needs_review",
+      "duplicate_of": null,
+      "review_record_id": null,
+      "queue_status": "pending_review"
+    },
+    {
       "event_id": "360a3ad6cdeda7a8150be32d",
       "ticker": "MU",
       "title": "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026",
@@ -2392,6 +2405,43 @@
       ],
       "recorded_at": "2026-10-18T12:34:51.884774+00:00",
       "record_id": "24dbf5e610d06fe3c2c8ef19"
+    },
+    {
+      "event_id": "a4d847e532c7b32cec9d73c7",
+      "event_sha256": "9c0c13647487d88081ac6d315a1f6ea86da536981ceb264a61b9284a90e181a6",
+      "packet_sha256": "d506a7c0f326928380fd5d6247da097961ebe2a4733c692ec3ad77330b210960",
+      "profile_sha256": "cac7422c49b8235eb7379d7b9af5531ef2cc84b6f7c0d623ac79aca5dfe1f307",
+      "reviewer": "OpenAI Codex AI /root/critical_disclosures — full disclosure comparison, not human sign-off",
+      "reviewer_type": "ai",
+      "reviewed_at": "2026-10-19T11:33:55.821275+00:00",
+      "source_read_in_full": true,
+      "sections_checked": [
+        "management-and-governance",
+        "recent-developments",
+        "risks-and-thesis-breakers"
+      ],
+      "disposition": "no_material_change",
+      "reason": "Read the full August 19 issuer announcement and the reviewed August 19 Form 8-K. Both describe the same Tim Ryan appointment, Householder retirement and McClure/Denzel committee changes. Current C11 already represents the dated director and audit-chair changes; the press release adds biographical context and management quotations, not a new appointment, financial result or changed governance effective date. This closes only the additional announcement copy, not the separate World Labs or Taalas events.",
+      "evidence": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1297/amd-appoints-tim-ryan-to-board-of-directors",
+          "sha256": "a82c026c14db2fd01a38d98f6bf0df98eb00692081e0abbc044a567cb19b4b8f",
+          "excerpt": "KC McClure named chair of the Audit and Finance Committee",
+          "verification": "exact_source_bytes",
+          "verified_at": "2026-10-19T11:34:02.294367+00:00",
+          "content_type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+          "sha256": "09ddfd4746bcb629a46cbc6b6620043cdcd5aa03a2661eba9d367a109828d0fd",
+          "excerpt": "the Board appointed Mr. Tim Ryan as a member of the Board effective as of August 19, 2026.",
+          "verification": "exact_source_bytes",
+          "verified_at": "2026-10-19T11:34:05.502177+00:00",
+          "content_type": "text/html"
+        }
+      ],
+      "recorded_at": "2026-10-19T11:34:05.506628+00:00",
+      "record_id": "b1bb8a301d0aa11aab32ade1"
     }
   ]
 }

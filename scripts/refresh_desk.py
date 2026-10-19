@@ -89,7 +89,10 @@ def collect_financials(root, cutoff):
     for company in p.universe(root):
         try:
             raw, meta = fetcher.fetch('https://data.sec.gov/api/xbrl/companyfacts/CIK' + company['cik'] + '.json', refresh=True)
-            history = financials.normalize_companyfacts(json.loads(raw), company, cutoff, meta, 5, 12)
+            previous_path = root / 'research/financials' / (company['ticker'] + '.json')
+            previous = financials.load_history(root, company['ticker']) if previous_path.exists() else None
+            history = financials.normalize_companyfacts(json.loads(raw), company, cutoff, meta, 5, 12,
+                normalization_reviews=(previous or {}).get('normalization_reviews', []))
             p.write_json(root / 'research/financials' / (company['ticker'] + '.json'), history)
             results.append({'ticker': company['ticker'], 'status': 'collected',
                             'as_of': cutoff, 'qa_flags': len(history['qa_flags'])})

@@ -1,6 +1,6 @@
 # Research desk and numerical question contract
 
-The desk is configured as an owner-private Site; the GitHub repository and its source data remain public. The October 19 check found no saved publication or linked task. See [release readiness](RELEASE_READINESS.md) for the deployment gate rather than assuming that a documented URL is live.
+The desk is configured as an owner-private Site; the GitHub repository and its source data remain public. The October 19 release is tracked in [release readiness](RELEASE_READINESS.md), including publication, persistence and scheduling verification.
 
 ## Three distinct data layers
 
@@ -40,3 +40,8 @@ CSS supports mobile widths and right-to-left Hebrew. Source URLs are rendered as
 - Add independently written holdout questions and review answers with a human before expanding coverage or replacing the bounded engine.
 - Add consensus or forward valuation only when a permitted, dated source is connected. The current sensitivity tool does not supply these.
 
+
+The overview includes source-bound growth and profitability calculations for the
+latest fiscal year when compatible inputs are available. Financial cells with an
+explicit split review expose the split date, ratio and filing alongside the
+original numeric provenance. Other share-basis warnings remain visible.
