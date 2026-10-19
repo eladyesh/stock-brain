@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What was MSFT revenue per share in FY2024?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה היו ההכנסות למניה של מיקרוסופט בשנת הכספים 2024?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "What was MSFT revenue in FY2024 in EUR?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה היו ההכנסות של מיקרוסופט בשנת הכספים 2024 בשקלים?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה שיעור הצמיחה בהכנסות של מיקרוסופט בשנת הכספים 2024?",
+    "metric": "revenue_growth",
+    "unit": "%"
+  },
+  {
+    "question": "What was MSFT revenue growth in FY2024?",
+    "metric": "revenue_growth",
+    "unit": "%"
+  },
+  {
+    "question": "מה הייתה הצמיחה בהכנסות של מיקרוסופט בשנת הכספים 2024?",
+    "metric": "revenue_growth",
+    "unit": "%"
+  },
+  {
+    "question": "What was MSFT operating margin in FY2024?",
+    "metric": "operating_margin",
+    "unit": "%"
+  },
+  {
+    "question": "מה שיעור הרווח הגולמי של מיקרוסופט בשנת הכספים 2024?",
+    "metric": "gross_margin",
+    "unit": "%"
+  },
+  {
+    "question": "What was MSFT revenue CAGR in FY2024?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה היו הכנסות פלנטיר במאי 2024?",
+    "abstain": true,
+    "reason": "unsupported_period"
+  },
+  {
+    "question": "What was MSFT revenue in FY2024?",
+    "metric": "revenue",
+    "unit": "USD"
+  },
+  {
+    "question": "What was MSFT revenue in FY2024 in €?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה היו ההכנסות של מיקרוסופט בשנת הכספים 2024 ב־₪?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "What was MSFT basic EPS in FY2024?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  },
+  {
+    "question": "מה היה הרווח הבסיסי למניה של מיקרוסופט בשנת הכספים 2024?",
+    "abstain": true,
+    "reason": "unsupported_qualifier"
+  }
+]

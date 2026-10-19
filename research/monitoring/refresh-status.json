@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-18T12:35:40.094139+00:00",
-  "cutoff": "2026-10-18",
+  "started_at": "2026-10-19T11:34:36.379226+00:00",
+  "cutoff": "2026-10-19",
   "research_changed": false,
   "research_automatically_approved": false,
   "model_api_calls": 0,
@@ -66,61 +66,61 @@
     {
       "ticker": "MSFT",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 3
     },
     {
       "ticker": "ORCL",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 6
     },
     {
       "ticker": "PLTR",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 3
     },
     {
       "ticker": "MU",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 3
     },
     {
       "ticker": "NVDA",
       "status": "collected",
-      "as_of": "2026-10-18",
-      "qa_flags": 21
+      "as_of": "2026-10-19",
+      "qa_flags": 5
     },
     {
       "ticker": "AMD",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 3
     },
     {
       "ticker": "AVGO",
       "status": "collected",
-      "as_of": "2026-10-18",
-      "qa_flags": 42
+      "as_of": "2026-10-19",
+      "qa_flags": 26
     },
     {
       "ticker": "AVAV",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 16
     },
     {
       "ticker": "LMT",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 3
     },
     {
       "ticker": "RTX",
       "status": "collected",
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-19",
       "qa_flags": 9
     }
   ],
@@ -177,14 +177,14 @@
     }
   ],
   "status": "partial",
-  "completed_at": "2026-10-18T12:38:49.291149+00:00",
-  "pending_count": 140,
+  "completed_at": "2026-10-19T11:38:21.290064+00:00",
+  "pending_count": 138,
   "run_history": [
     {
-      "cutoff": "2026-10-18",
-      "completed_at": "2026-10-18T12:38:49.291149+00:00",
+      "cutoff": "2026-10-19",
+      "completed_at": "2026-10-19T11:38:21.290064+00:00",
       "status": "partial",
-      "pending_count": 140
+      "pending_count": 138
     }
   ]
 }

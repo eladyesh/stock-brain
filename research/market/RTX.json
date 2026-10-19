@@ -4,7 +4,7 @@
   "price": 193.92,
   "currency": "USD",
   "trade_at": "2026-10-16T20:00:02+00:00",
-  "retrieved_at": "2026-10-18T12:38:49.289944+00:00",
+  "retrieved_at": "2026-10-19T11:38:21.288617+00:00",
   "exchange": "NYQ",
   "price_type": "last_regular_session_trade",
   "provider": "Yahoo Finance",
@@ -16,5 +16,5 @@
     "A current price does not make older financial statements current."
   ],
   "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/RTX?interval=1mo&range=5y&events=splits",
-  "source_sha256": "ca726d9adcb21284239f5732f609a8abbea2d132297402969268ad675231c21b"
+  "source_sha256": "b0a7a2228be0cbb308a2bf0bdf0969a990d8b540985f5f86d0556740660d2656"
 }

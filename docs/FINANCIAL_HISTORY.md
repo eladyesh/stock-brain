@@ -1,6 +1,8 @@
 # Sourced financial history
 
-`research/financials/{TICKER}.json` contains a selected historical financial-metric schedule for each of the ten configured issuers. The collection cutoff is **2026-10-18**. Each schedule contains five annual periods and twelve standalone fiscal quarters, including sourced-boundary Q4 calculations where supported. All data comes from SEC Company Facts; there are no paid-provider inputs, market prices, consensus estimates, forecasts, or human-review claims.
+`research/financials/{TICKER}.json` contains a selected historical financial-metric schedule for each of the ten configured issuers. The initial collection cutoff is **2026-10-18**; refreshed schedules carry their own `as_of` and source retrieval timestamps. Each schedule contains five annual periods and twelve standalone fiscal quarters, including sourced-boundary Q4 calculations where supported. All data comes from SEC Company Facts; there are no paid-provider inputs, market prices, consensus estimates, forecasts, or human-review claims.
+
+The [October 19 source reconciliation](FINANCIAL_REMEDIATION.md) reduces open QA flags from 109 to 77 and verifies 112 share/EPS cells for NVIDIA and Broadcom. The baseline below is preserved for comparison.
 
 These schedules are **partial research inputs**, not complete financial statements or a valuation-ready model. Source revisions, profit attribution, debt scope, share basis, and missing concepts remain visible. Canonical Markdown profiles and their research review states are unchanged.
 
@@ -71,7 +73,7 @@ The SEC documents that Company Facts includes non-custom, entity-wide concepts, 
 - [SEC EDGAR API documentation](https://www.sec.gov/search-filings/edgar-application-programming-interfaces)
 - [SEC Financial Statement Data Sets documentation, fiscal-focus fields](https://www.sec.gov/files/fsds.pdf)
 
-## Collection coverage and QA as of 2026-10-18
+## Original collection baseline (before October 19 remediation)
 
 All ten Company Facts sources were retrieved successfully. There are 170 period records and 24 separately defined metric slots per period: **2,303 reported cells, 561 derived cells and 1,216 explicit missing cells**. The denominator includes intentionally separate alternative definitions, such as parent/common/consolidated net income and PP&E/productive-asset investment. Their absence is not a claim that the issuer failed to publish financial results.
 

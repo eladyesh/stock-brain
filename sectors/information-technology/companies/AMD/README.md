@@ -17,8 +17,8 @@ tags:
 - data-centers
 status: reviewed
 as_of: '2026-10-18'
-updated_at: '2026-10-18'
-reviewed_at: '2026-10-18'
+updated_at: '2026-10-19'
+reviewed_at: '2026-10-19'
 sources:
 - id: S01
   title: AMD FY2025 Form 10-K
@@ -62,6 +62,13 @@ sources:
   url: https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm
   published_at: '2026-09-28'
   accessed_at: '2026-10-18'
+- id: S08
+  title: AMD Second Quarter 2026 Financial Results Presentation, Form 8-K Exhibit
+    99.2
+  publisher: Advanced Micro Devices, Inc.
+  url: https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm
+  published_at: '2026-08-04'
+  accessed_at: '2026-10-19'
 ---
 # AMD — Advanced Micro Devices, Inc.
 
@@ -113,10 +120,18 @@ Management guidance: Management expects EPYC demand, Instinct deployments and th
 
 Reported: For Q2 2026 ended June 27, GAAP revenue was USD 11,536 million, operating income USD 1,990 million and net income USD 2,297 million. Prior-year comparisons require considering the MI308 export-control inventory charge. [S03]
 
+Management guidance: On August 4, 2026, AMD guided Q3 2026 revenue to approximately USD 13 billion, plus or minus USD 300 million. It guided non-GAAP gross margin to approximately 56%, operating expenses to approximately USD 3.65 billion, other income net of interest expense to approximately USD 55 million, and an effective tax rate of 13%. Except revenue, these outlook measures are non-GAAP; they are dated management expectations, not reported Q3 results. [S08]
+
+Reported: Q2 2026 GAAP earnings include USD 483 million of net gains on long-term investments. The earnings reconciliation removes these gains when presenting non-GAAP income and separately adjusts stock compensation, acquired-intangible amortization, other costs and taxes. GAAP net income and the adjusted outlook therefore use different accounting bases. [S08] [S03]
+
 
 ## Balance sheet and capital allocation
 
 Reported: AMD completed a senior-note offering on August 17, 2026, after the quarter-end balance sheet. In September it agreed to acquire World Labs using shares, so quarter-end debt and share counts are insufficient for a current capitalization. [S05] [S07]
+
+Management guidance: The August 4, 2026 presentation estimates Q3 2026 diluted weighted-average shares at 1,661 million for GAAP and non-GAAP EPS. The employee-equity dilution estimate uses an average stock price of USD 534 from June 29 through July 24, 2026. That historical assumption is not a current stock quote, and the estimate predates the World Labs acquisition agreement. [S08] [S07]
+
+Reported: At June 27, 2026, AMD reported approximately USD 30.3 billion of unconditional commitments, including USD 17.4 billion for the remainder of fiscal 2026, and data-center lease guarantees with maximum potential future payments of USD 4.1 billion. Purchase commitments and contingent guarantees are funding exposures, not customer revenue backlog. [S03]
 
 
 ## Management and governance
@@ -130,12 +145,12 @@ Not available: No market-price snapshot or forecast valuation is included. Updat
 
 ## Catalysts
 
-Interpretation: The Helios rollout and Instinct deployments are operational checkpoints for the second-half outlook. The packet does not assume that partnership announcements automatically convert to completed deployments or recognized revenue. [S04]
+Interpretation: compare the next reported Q3 2026 revenue, non-GAAP gross margin and operating expenses with the dated August outlook, and reconcile differences to Helios deployment, Instinct shipments and Data Center growth. A missed outlook alongside delayed deployments warrants a thesis review. Product announcements alone do not establish recognized revenue. [S04] [S08]
 
 
 ## Risks and thesis breakers
 
-Interpretation: Export controls, memory availability and third-party manufacturing constrain execution. Interpretation: delayed deployment or weak platform adoption despite product spending would challenge the growth case. [S04]
+Interpretation: the growth thesis weakens if export restrictions, memory shortages or qualification delays prevent the expected accelerator ramp while unconditional purchase commitments remain. Monitor the reported commitment schedule, cash generation and acquisition dilution alongside the dated revenue and margin outlook; persistent execution misses or funding needs unsupported by operating cash flow require reassessment. [S03] [S08] [S07]
 
 
 ## Scenarios and open questions
@@ -162,5 +177,6 @@ Reported: The World Labs agreement was signed September 26 and disclosed Septemb
 - [S05] [AMD Form 8-K: senior-note offering](https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm) — Advanced Micro Devices, Inc.; published 2026-08-17; accessed 2026-10-18.
 - [S06] [AMD Form 8-K: board changes](https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm) — Advanced Micro Devices, Inc.; published 2026-08-19; accessed 2026-10-18.
 - [S07] [AMD Form 8-K: World Labs acquisition agreement](https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm) — Advanced Micro Devices, Inc.; published 2026-09-28; accessed 2026-10-18.
+- [S08] [AMD Second Quarter 2026 Financial Results Presentation, Form 8-K Exhibit 99.2](https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm) — Advanced Micro Devices, Inc.; published 2026-08-04; accessed 2026-10-19.
 
-2026-10-18: Evidence packet rendered for review. Source locators and metric definitions are retained in the research packet.
+2026-10-19: Evidence packet rendered for review. Source locators and metric definitions are retained in the research packet.

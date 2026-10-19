@@ -257,6 +257,19 @@
             "scenarios-and-open-questions"
           ],
           "mutable": true
+        },
+        {
+          "title": "NVIDIA Second Quarter Fiscal 2027 CFO Commentary, Form 8-K Exhibit 99.2",
+          "publisher": "NVIDIA Corporation / SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
+          "published_at": "2026-08-26",
+          "sections": [
+            "financial-performance",
+            "balance-sheet-and-capital-allocation",
+            "risks-and-thesis-breakers",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": false
         }
       ]
     },
@@ -289,6 +302,19 @@
             "scenarios-and-open-questions"
           ],
           "mutable": true
+        },
+        {
+          "title": "AMD Second Quarter 2026 Earnings Slides, Form 8-K Exhibit 99.2",
+          "publisher": "Advanced Micro Devices, Inc. / SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm",
+          "published_at": "2026-08-04",
+          "sections": [
+            "financial-performance",
+            "growth-drivers",
+            "risks-and-thesis-breakers",
+            "scenarios-and-open-questions"
+          ],
+          "mutable": false
         }
       ]
     },

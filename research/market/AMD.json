@@ -4,7 +4,7 @@
   "price": 528.75,
   "currency": "USD",
   "trade_at": "2026-10-16T20:00:01+00:00",
-  "retrieved_at": "2026-10-18T12:38:31.604324+00:00",
+  "retrieved_at": "2026-10-19T11:38:09.290339+00:00",
   "exchange": "NMS",
   "price_type": "last_regular_session_trade",
   "provider": "Yahoo Finance",
@@ -16,5 +16,5 @@
     "A current price does not make older financial statements current."
   ],
   "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1mo&range=5y&events=splits",
-  "source_sha256": "bb891066646282d33318f79dfa7fca176a6f67bf42aaf53265748d5104b9ba5a"
+  "source_sha256": "e3d2b13fb9c33763c9e705940f823932c9769d50aefc76173b1a48d62a705c30"
 }

@@ -10,8 +10,6 @@ import query_contract
 class QuestionPrecisionTests(unittest.TestCase):
     def test_unsupported_questions_never_substitute_nearby_facts(self):
         questions = [
-            'What was MSFT revenue in Q1 FY2026?',
-            'מה היו הכנסות מיקרוסופט ברבעון הראשון של 2026?',
             'What was MSFT revenue excluding Azure in FY2026?',
             'מה שיעור הרווח הגולמי של אנבידיה?',
             'What is NVDA gross margin?',
@@ -23,8 +21,6 @@ class QuestionPrecisionTests(unittest.TestCase):
             'Compare NVDA and AMD revenue in 2027',
             'Compare MSFT and ORCL revenue in Q1 FY2027',
             'What was NVDA annual revenue in FY2027?',
-            'What was MU revenue in fiscal Q1 2026?',
-            'What was MSFT revenue in FY2024?',
             'What was MSFT FY2026 adjusted EPS?',
             'Compare MSFT GAAP and adjusted EPS in FY2026',
             'What are MSFT net income and ROIC?',
@@ -45,6 +41,10 @@ class QuestionPrecisionTests(unittest.TestCase):
             ('Was AVAV profitable on a GAAP basis in fiscal Q1 2027 despite positive adjusted EBITDA?', 'AVAV'),
             ('What was NVDA revenue in Q2 FY2027?', 'NVDA'),
             ('מה ההכנסות של מיקרוסופט?', 'MSFT'),
+            ('What was MSFT revenue in Q1 FY2026?', 'MSFT'),
+            ('מה היו הכנסות מיקרוסופט ברבעון הראשון של 2026?', 'MSFT'),
+            ('What was MU revenue in fiscal Q1 2026?', 'MU'),
+            ('What was MSFT revenue in FY2024?', 'MSFT'),
         ]:
             with self.subTest(question=question):
                 out = answering.answer(question)

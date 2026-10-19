@@ -43,9 +43,9 @@ function claimView(claim,c,answer=false){
   return h('article',{class:'claim'},answer?h('span',{class:'result-company',dir:'ltr'},c.ticker+' / '+(SECTIONS[claim.section]||'')):null,
     h('p',{dir:'auto'},claim.text_he||claim.text),
     h('div',{class:'claim-meta'},h('span',{class:'kind '+claim.kind},KIND[claim.kind]||claim.kind),
-      sourceRefs(claim,c),h('span',{},'מחקר ל־'+date(c.as_of))));
+      sourceRefs(claim,c),h('span',{},(claim.source_kind==='financial_history'?'נתונים היסטוריים ל־':'מחקר ל־')+date(claim.as_of||c.as_of))));
 }
-function companySummary(c){return h('div',{class:'company-summary'},h('div',{class:'company-avatar','aria-hidden':'true'},c.ticker.slice(0,1)),h('div',{},h('h2',{dir:'ltr'},c.name),h('p',{},c.ticker+' · '+(c.sector==='information-technology'?'טכנולוגיה':'תעשייה וביטחון')+' · מחקר ל־'+date(c.as_of))),h('span',{class:'badge'},(c.freshness.pending_count||0)+' דיווחים ממתינים לסקירה'));}
+function companySummary(c){return h('div',{class:'company-summary'},h('div',{class:'company-avatar','aria-hidden':'true'},c.ticker.slice(0,1)),h('div',{},h('h2',{dir:'ltr'},c.name),h('p',{},c.ticker+' · '+({'information-technology':'טכנולוגיה','industrials':'תעשייה וביטחון'}[c.sector]||c.sector)+' · מחקר ל־'+date(c.as_of))),h('span',{class:'badge'},(c.freshness.pending_count||0)+' דיווחים ממתינים לסקירה'));}
 function stat(label,value,description){return h('div',{class:'stat'},h('div',{class:'stat-label'},label),h('div',{class:'stat-value'},value),h('div',{class:'stat-note'},description));}
 function chart(c,key,type='annual'){
   const rows=periods(c,type).slice().reverse().map(p=>({period:p,cell:cell(c,p,key)}));
@@ -78,8 +78,10 @@ function overview(c){
   const risk=card('מה יכול לשבור את התזה?',h('div',{},...(c.sections['risks-and-thesis-breakers']||[]).map(x=>claimView(x,c))));
   const growth=card('מנועי צמיחה',h('div',{},...(c.sections['growth-drivers']||[]).map(x=>claimView(x,c))));
   const history=card('הכנסות לאורך זמן',h('div',{},h('p',{class:'caption'},'דולר · שנים פיסקליות · SEC Company Facts'),chart(c,'revenue'),h('p',{class:'caption'},'הגדרת המדד והמקורות המדויקים מופיעים בהיסטוריה הפיננסית.')),button('הנתונים המלאים ←',()=>navigate('financials')));
+  const calculated=(c.historical_index||[]).filter(r=>r.id.startsWith('D:')&&r.period_label===revenue.period?.label);
+  const performance=card('צמיחה ורווחיות',calculated.length?h('div',{},h('p',{class:'caption'},revenue.period.label+' · חישובים מנתוני SEC תואמים'),...calculated.map(r=>h('details',{class:'cell-detail'},h('summary',{},({'revenue_growth':'צמיחה שנתית בהכנסות','gross_margin':'שיעור רווח גולמי','operating_margin':'שיעור רווח תפעולי','net_margin':'שיעור רווח נקי'}[r.metric]||r.metric)+' · '+num(r.value,2)+'%'),claimView({...r,source_kind:"financial_history"},c)))):note('אין מספיק נתונים תואמים לחישוב בתקופה האחרונה.'));
   const gaps=card('מה עדיין צריך לבדוק',h('ul',{class:'gap-list'},...c.gaps.map(g=>h('li',{},g.he||g.en))));
-  return [companySummary(c),stats,h('div',{class:'grid-2'},h('div',{},main,history),h('div',{},growth,risk,gaps))];
+  return [companySummary(c),stats,h('div',{class:'grid-2'},h('div',{},main,performance,history),h('div',{},growth,risk,gaps))];
 }
 function cellView(c,p,key){
   const m=cell(c,p,key);if(!m||m.value===null)return h('span',{class:'missing',title:m?.flags?.join(', ')||'הנתון חסר במקור'},'—');
@@ -87,6 +89,7 @@ function cellView(c,p,key){
   const detail=h('details',{class:'cell-detail'},h('summary',{},m.model_usable?'מקור ופרטים':'⚑ בדיקת התאמה נדרשת'),h('p',{},m.basis+' · '+(m.status==='derived'?'חישוב':'דיווח')+' · '+num(m.value)+' '+m.unit),
     m.formula?h('p',{dir:'ltr'},String(typeof m.formula==='string'?m.formula:JSON.stringify(m.formula))):null,
     ...Array.from(new Map((m.provenance||[]).map(s=>[s.url,s])).values()).map(s=>h('p',{},link((s.form||'SEC')+' · '+date(s.filed),s.url),h('span',{class:'period-date'},s.tag))),
+    m.share_basis?h('p',{},'בסיס מניות מאומת לאחר פיצול מ־'+date(m.share_basis.effective_date)+' · '+m.share_basis.new_shares_per_old_share+' מניות לכל מניה קודמת',...m.share_basis.evidence_source_ids.map(id=>{const source=c.history.source_index[id];return h('span',{},' · ',link('אסמכתת הפיצול ↗',source.url));})):null,
     warnings.length?h('ul',{},...warnings.map(f=>h('li',{dir:'ltr'},f))):null,
     conflicts.length?h('p',{},conflicts.length+' ערכים/גרסאות חלופיים נשמרו. ',link('לנתונים המלאים',data.repository+'/blob/main/research/financials/'+c.ticker+'.json')):null);
   return h('div',{},h('span',{class:'metric-value'},cellValue(m)),detail);
@@ -96,7 +99,7 @@ function financials(c){
   const controls=h('div',{class:'section-tools'},h('div',{class:'segmented'},...['annual','quarterly'].map(type=>button(type==='annual'?'שנתי':'רבעוני',()=>{state.period=type;renderContent();},state.period===type?'active':''))),h('label',{for:'chart-metric'},'מדד בגרף'),h('select',{id:'chart-metric',onChange:e=>{state.metric=e.target.value;renderContent();}},...Object.entries(METRICS).map(([key,label])=>option(key,label,key===state.metric))));
   const table=h('table',{},h('thead',{},h('tr',{},h('th',{scope:'col'},'מדד / תקופה'),...ps.map(p=>h('th',{scope:'col'},p.label,h('span',{class:'period-date'},p.start+' – '+p.end))))),h('tbody',{},...Object.entries(METRICS).map(([key,label])=>h('tr',{},h('td',{},label,h('span',{class:'metric-unit'},unit(cell(c,ps[0],key)))),...ps.map(p=>h('td',{},cellView(c,p,key)))))));
   return [companySummary(c),note('נתוני SEC מנורמלים לפי תקופות והגדרות מדויקות. יתרות מאזניות הן ליום סיום התקופה. מקף מציין חוסר בנתון. לחיצה על „מקור ופרטים” פותחת את הדיווח. סימון ⚑ מצביע על סתירה, שינוי בהגדרה או בסיס מניות שטרם אומת.','amber'),
-    card('היסטוריה פיננסית',h('div',{},controls,chart(c,state.metric,state.period),h('p',{class:'caption'},'נתונים נשלפו ב־'+date(c.history?.source?.retrieved_at)+' · '+METRICS[state.metric]+'. נתוני מניות ו־EPS אינם סדרה מתואמת לפיצולים.'),
+    card('היסטוריה פיננסית',h('div',{},controls,chart(c,state.metric,state.period),h('p',{class:'caption'},'נתונים נשלפו ב־'+date(c.history?.source?.retrieved_at)+' · '+METRICS[state.metric]+'. התאמה לפיצולים מוצגת בפרטי כל נתון רק כאשר אומתה; נתונים אחרים נשארים מסומנים לבדיקה.'),
       h('div',{class:'table-wrap',tabindex:'0','aria-label':'טבלת נתונים פיננסיים, ניתן לגלול לרוחב'},table))),
     note('תזרים חופשי מחושב רק כאשר קיימים תזרים שוטף ורכישת רכוש קבוע לפי אותה תקופה. „רכישת נכסים יצרניים” נשמרת בנפרד. תקופה רבעונית שנגזרה ממצטבר מסומנת כחישוב.'),
     h('p',{class:'caption'},link('קובץ הנתונים, ההגדרות וכל החריגים ↗',data.repository+'/blob/main/research/financials/'+c.ticker+'.json'))];
@@ -127,7 +130,7 @@ function scenarios(c){
   const rows=[['שלילי',-10,15],['אמצע',5,25],['חיובי',15,35]];
   const form=h('form',{id:'scenario-form',onSubmit:e=>{e.preventDefault();calculateScenario(rows);}},fields,h('div',{class:'table-wrap'},h('table',{class:'assumptions'},h('thead',{},h('tr',{},h('th',{},'תרחיש'),h('th',{},'צמיחת EPS שנתית (%)'),h('th',{},'מכפיל רווח בסוף התקופה'))),h('tbody',{},...rows.map(([name,growth,pe],i)=>h('tr',{},h('td',{},name),h('td',{},h('input',{id:'growth-'+i,type:'number',min:-99.99,max:300,step:'any',required:true,value:growth,'aria-label':'צמיחת EPS בתרחיש '+name})),h('td',{},h('input',{id:'pe-'+i,type:'number',min:'.01',max:200,step:'any',required:true,value:pe,'aria-label':'מכפיל בתרחיש '+name}))))))),h('p',{class:'caption'},'ערכי הצמיחה והמכפילים ההתחלתיים הם דוגמה כללית לכל החברות. שנה אותם לפי ההנחות שלך.'),h('button',{type:'submit',class:'primary'},'חשב את התרחישים ←'));
   const baseInfo=h('div',{},note('זהו מחשבון רגישות לפי הנחותיך. הוא אינו תחזית של החברה, קונצנזוס אנליסטים או מחיר יעד. EPS מדווח אינו בהכרח בסיס מתאים לרווח מנורמל.','amber'),
-    h('p',{class:'caption'},'EPS מדולל מדווח: '+(typeof eps.cell?.value==='number'?num(eps.cell.value)+' $':'לא זמין')+' · '+(eps.period?.label||'')+' · עד '+date(eps.period?.end)+'. בסיס המניות והפיצולים עדיין דורש בדיקה. ',
+    h('p',{class:'caption'},'EPS מדולל היסטורי: '+(typeof eps.cell?.value==='number'?num(eps.cell.value)+' $':'לא זמין')+' · '+(eps.period?.label||'')+' · עד '+date(eps.period?.end)+(eps.cell?.share_basis?' · בסיס מניות מאומת לאחר הפיצול מ־'+date(eps.cell.share_basis.effective_date)+'. ':'. בסיס המניות והפיצולים עדיין דורש בדיקה. '),
       eps.cell?.provenance?.[0]?link('מקור ↗',eps.cell.provenance[0].url):null),
     h('p',{class:'caption'},'מחיר הייחוס שנשלף: '+(q?num(q.price)+' $ · עסקה מ־'+date(q.trade_at)+' · Yahoo Finance':'אין מחיר זמין')+'. ניתן לשנותו.'));
   return [companySummary(c),card('מה קורה לשווי כשההנחות משתנות?',h('div',{},baseInfo,form,h('div',{id:'scenario-result','aria-live':'polite'}),h('p',{class:'caption',dir:'ltr'},'EPS × (1 + growth)^years × exit P/E'),h('p',{class:'caption'},'השינוי המוצג הוא במחיר בלבד, ללא דיבידנדים, מס, עמלות או מט״ח. המכפיל דורש EPS חיובי; אין תמיכה בתרחיש הפסד או בשינוי עתידי במספר המניות.')))];
@@ -172,13 +175,13 @@ function runQuestion(question){
   const result=ask(question,data),out=$('answer');out.hidden=false;
   const header=h('div',{class:'answer-title'},result.abstain?'אין תשובה נתמכת לשאלה המדויקת':'תשובה מתוך המחקר',button('סגור',()=>{out.hidden=true;}));
   if(result.abstain){out.replaceChildren(header,note(result.reason+' נתונים היסטוריים נוספים זמינים בלשונית ההיסטוריה הפיננסית.','amber'));return;}
-  out.replaceChildren(header,h('p',{class:'caption'},'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
+  out.replaceChildren(header,h('p',{class:'caption'},result.mode==='financial_history'?'תשובה מההיסטוריה הפיננסית של SEC. התקופה, ההגדרה והמקור מופיעים בכל נתון; זו שכבה נפרדת מסקירת המחקר.':'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
     ...result.statements.map(s=>claimView({...s,text_he:s.text},data.companies.find(c=>c.ticker===s.ticker),true)));
 }
 $('question-form').addEventListener('submit',event=>{event.preventDefault();runQuestion($('question').value);});
 $('examples').replaceChildren(...['איך מיקרוסופט מרוויחה כסף?','מה הסיכונים של אנבידיה?','Compare AMD and NVDA risks'].map(q=>button(q,()=>{$('question').value=q;runQuestion(q);},'example')));
 function validateData(value){
-  if(value?.schema_version!==1||!Array.isArray(value.companies)||value.companies.length!==10||!value.config||!value.metric_patterns||!Number.isFinite(Date.parse(value.built_at)))throw Error('Invalid research snapshot');
+  if(value?.schema_version!==1||value.answer_contract_version!==2||!Array.isArray(value.companies)||!value.companies.length||new Set(value.companies.map(c=>c.ticker)).size!==value.companies.length||value.companies.some(c=>!Array.isArray(c.historical_index))||!value.config||!value.metric_patterns||!Number.isFinite(Date.parse(value.built_at)))throw Error('Invalid or incompatible research snapshot');
   return value;
 }
 async function fetchData(url){
@@ -188,6 +191,7 @@ async function fetchData(url){
 }
 function display(value,origin){
   data=value;
+  $('coverage-count').textContent=value.companies.length+' חברות במעקב';
   $('data-status').textContent=origin+' · נבנה ב־'+date(value.built_at);
   renderNavigation();renderCompanies();renderContent();
 }

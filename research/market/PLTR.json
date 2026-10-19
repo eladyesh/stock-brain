@@ -4,7 +4,7 @@
   "price": 186.03,
   "currency": "USD",
   "trade_at": "2026-10-16T20:00:01+00:00",
-  "retrieved_at": "2026-10-18T12:38:17.522985+00:00",
+  "retrieved_at": "2026-10-19T11:37:51.106351+00:00",
   "exchange": "NMS",
   "price_type": "last_regular_session_trade",
   "provider": "Yahoo Finance",
@@ -16,5 +16,5 @@
     "A current price does not make older financial statements current."
   ],
   "request_url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?interval=1mo&range=5y&events=splits",
-  "source_sha256": "86dc5a4fec4bda2f0633891d16e6063b67f86ddee33452dc0f6adc8cb717d452"
+  "source_sha256": "2d7e6eb8d8535f4e23719ef23989883683cfcbe0744eff6147085aa130646951"
 }

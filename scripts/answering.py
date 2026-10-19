@@ -11,6 +11,8 @@ import re
 import time
 
 import disclosure_monitor
+import financial_answers
+import query_contract
 import research_pipeline as pipeline
 import retrieval
 import stock_brain as kb
@@ -22,7 +24,8 @@ HE_REASONS = {
     'live_market_data': 'חיפוש המחקר אינו מספק מחיר בזמן אמת או מכפילים. בממשק קיימת תמונת מחיר נפרדת עם תאריך העסקה.',
     'unsourced_forecast': 'אין במאגר מקור לתחזית אנליסטים, למחיר יעד או לשווי הוגן.',
     'investment_action': 'הכלי מספק מחקר מבוסס מקורות; אין בו בסיס להמלצת קנייה או מכירה אישית.',
-    'unsupported_period': 'התקופה הכספית המבוקשת אינה מופיעה בראיות שנבדקו.',
+    'unsupported_period': 'אין נתון לתקופה המדויקת שביקשת. ציין שנת כספים (למשל FY2024) או תקופה קלנדרית; חישובי 12 חודשים אחרונים אינם נתמכים.',
+    'data_quality_unverified': 'הנתון לתקופה קיים אך יש בו מגבלת התאמה שטרם נפתרה. ניתן לבדוק את המקור והדגלים בלשונית ההיסטוריה הפיננסית.',
     'missing_scope': 'יש לציין חברה מכוסה או נושא מחקר מוגדר.',
     'no_evidence': 'לא נמצאה ראיה בדוקה שעונה על השאלה.',
     'translation_missing': 'אין תרגום בדוק ועדכני לראיה המתאימה. אפשר לשאול באנגלית.',
@@ -80,18 +83,36 @@ def answer(question, root=None, language='auto', monitor_report=None):
             output['reason'] = HE_REASONS.get(output['reason_code'], HE_REASONS['no_evidence'])
         output['metrics']['elapsed_seconds'] = round(time.monotonic() - started, 4)
         return output
-    if result['abstain']:
-        return finish()
-    by_id = {r['id']: r for r in records}
-    candidates = [by_id[i] for i in result['chunk_ids'] if by_id[i].get('ticker')]
-    if not candidates:
-        return finish('no_evidence', 'No claim-level company evidence is available for this question.')
     if monitor_report is None:
         path = root / 'build/monitoring/latest.json'
         if not path.exists():
             path = root / 'research/monitoring/latest.json'
         monitor_report = pipeline.read_json(path) if path.exists() else None
     requested_current = bool(re.search(r'\b(?:today|current|latest|right now)\b|היום|כרגע|עדכני|האחרון|האחרונה', question, re.I))
+    if result['abstain']:
+        request = query_contract.parse(question)
+        if result['reason_code'] in {'unsupported_period', 'unsupported_metric', 'no_evidence'} and financial_answers.eligible(request):
+            tickers = result['entities']
+            statements, sources, error = financial_answers.lookup(root, question, tickers, language)
+            if error == 'data_quality_unverified':
+                return finish(error, 'The exact-period cell requires comparability review; inspect the history tab.')
+            if not error:
+                coverage = [{'ticker': t, 'as_of': next(s['as_of'] for s in statements if s['ticker'] == t),
+                             'freshness': disclosure_monitor.freshness(root, t, monitor_report)} for t in tickers]
+                if requested_current and any(c['freshness']['status'] != 'checked' for c in coverage):
+                    return finish('freshness_unverified', 'Currentness against new disclosures is not established.')
+                output.update(abstain=False, reason_code=None, reason=None, mode='financial_history',
+                              statements=statements, sources=sources, coverage=coverage,
+                              retrieval={'mode': 'financial_history', 'entities': tickers, 'chunk_ids': []},
+                              limitations=[{'ticker': t, 'text': ('נתוני SEC היסטוריים מנורמלים, בנפרד מסקירת המחקר. התקופה ותאריך תמונת הנתונים מצוינים בכל נתון.' if language == 'he' else
+                                            'Normalized historical SEC data, separate from editorial research review. Each value identifies its exact period and snapshot date.')} for t in tickers])
+                validate_answer(output, root)
+                return finish()
+        return finish()
+    by_id = {r['id']: r for r in records}
+    candidates = [by_id[i] for i in result['chunk_ids'] if by_id[i].get('ticker')]
+    if not candidates:
+        return finish('no_evidence', 'No claim-level company evidence is available for this question.')
     chosen = []
     tickers = list(dict.fromkeys(r['ticker'] for r in candidates))
     for ticker in tickers:
@@ -157,6 +178,13 @@ def validate_answer(output, root):
         kb.need(not output['statements'] and not output['sources'], 'abstention contains factual output')
         return
     kb.need(bool(output['statements']), 'answer has no evidence')
+    if output.get('mode') == 'financial_history':
+        tickers, unknown = retrieval.resolve_entities(output['question'], pipeline.universe(root), [], retrieval.settings(root))
+        kb.need(not unknown, 'historical answer has unresolved issuer scope')
+        expected, sources, error = financial_answers.lookup(root, output['question'], tickers, output['language'])
+        kb.need(not error and output['statements'] == expected and output['sources'] == sources,
+                'answer differs from exact historical financial evidence')
+        return
     supplied = {s['id']: s for s in output['sources']}
     for statement in output['statements']:
         packet = pipeline.read_json(pipeline.managed_packet_path(root, statement['ticker']))
@@ -180,7 +208,7 @@ def markdown(output):
     he = output['language'] == 'he'
     lines = []
     for coverage in output['coverage']:
-        label = 'מחקר נכון ל־' if he else 'Research as of '
+        label = ('נתונים היסטוריים ל־' if he else 'Historical data snapshot: ') if output.get('mode') == 'financial_history' else ('מחקר נכון ל־' if he else 'Research as of ')
         lines.append(f"**{coverage['ticker']} — {label}{coverage['as_of']}**")
         state = coverage['freshness']
         if state['status'] != 'checked':
