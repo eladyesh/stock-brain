@@ -6,7 +6,7 @@ The Markdown files are the source of truth. Every company uses the same sections
 
 **Current state (2026-10-18):** ten hash-bound reviewed company profiles with 169 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
 
-**Open [Stock Brain research desk](https://stock-brain-desk.neatibex64.chatgpt.site)** (owner-private). The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures; the linked Site task is the intended daily updater.
+**Research desk:** the owner-private Site implementation is in `site/`. Publication and the daily update task require the verified rollout in [release readiness](docs/RELEASE_READINESS.md); a README link is not evidence of a live deployment. The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures.
 
 ## Start here
 

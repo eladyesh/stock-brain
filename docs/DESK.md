@@ -1,6 +1,6 @@
 # Research desk and numerical question contract
 
-The hosted desk is [Stock Brain](https://stock-brain-desk.neatibex64.chatgpt.site). It is owner-private; the GitHub repository and its source data remain public.
+The desk is configured as an owner-private Site; the GitHub repository and its source data remain public. The October 19 check found no saved publication or linked task. See [release readiness](RELEASE_READINESS.md) for the deployment gate rather than assuming that a documented URL is live.
 
 ## Three distinct data layers
 
@@ -16,7 +16,7 @@ scripts/query_contract.py makes numeric evidence eligibility a prerequisite to r
 
 An explicit fiscal Q2 FY2027 is not interchangeable with calendar Q2 2027. Annual values never fill a missing quarter. Financial periods come from source-backed claims/locators and exact duration boundaries, not month-to-quarter guesses. Unqualified years cannot silently cross a calendar/fiscal boundary. A missing answer in reviewed narrative does not mean a metric is absent from the separate history tab.
 
-site/engine.mjs implements the portable gate with precomputed metric identities exported by Python. Seventy-seven browser-engine/DOM tests cover the fifty frozen bilingual acceptance cases, new numerical rejection/positive cases, citation coverage, scenario math and all principal UI interactions. These are reproducible integrity checks, not general natural-language or factual-truth guarantees.
+site/engine.mjs implements the portable gate with precomputed metric identities exported by Python. The browser-engine/DOM suite covers the fifty frozen bilingual acceptance cases, exact-period historical answers, numerical refusals, citation coverage, scenario math and principal UI interactions. These are reproducible integrity checks, not general natural-language or factual-truth guarantees. See EXACT_ANSWERS.md for the historical fallback and calendar-period rules.
 
 ## Build and run
 
