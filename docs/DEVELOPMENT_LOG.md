@@ -34,7 +34,7 @@ Only `eladyesh/stock-brain` and Render service `srv-d8i2kla8qa3s73e10t50` are in
 
 ### Evidence and local verification
 
-- Actual Render shell request on 2026-10-22 returned HTTP 403 with the SEC title “Your Request Originates from an Undeclared Automated Tool”. No alternate IP, proxy or browser impersonation was attempted. The release configuration will pause SEC requests while legitimate access is unresolved; issuer feeds and market refresh continue.
+- Actual Render shell request on 2026-10-22 returned HTTP 403 with the SEC title “Your Request Originates from an Undeclared Automated Tool”. No alternate IP, proxy or browser impersonation was attempted. The deployed configuration pauses SEC requests while legitimate access is unresolved; issuer feeds and market refresh continue.
 - Both repository histories and the downloaded live histories pass the stricter integrity checks. The generated `docs/FINANCIAL_QA_STATUS.json` records **77 open flags** across 10 issuers; integrity is not filing-level review.
 - Actual cold restore from the GitHub data branch passed at `2026-10-22T08:28:40Z`: **216 queue records** restored, with review decisions, prices and financial histories preserved. Baseline pending-review count was 206, distinct from total queue size.
 - Python test suite: **128 passed**. Browser/engine tests: **128 passed**. Regression coverage includes mutated numbers, derived arithmetic, blocked SEC sources, operator pause, empty/truncated downloads, real Node-worker answers, malformed/oversized requests, busy/timeout recovery, startup retry, latest-period scope guards and labelled offline fallback.
@@ -45,4 +45,24 @@ Only `eladyesh/stock-brain` and Render service `srv-d8i2kla8qa3s73e10t50` are in
 1. **SEC access:** confirmed external automated-access denial from Render. An approved contact identity and permitted source access are needed before re-enabling it. Existing dated data remains available; complete daily SEC refresh is not claimed.
 2. **Financial reconciliation:** 77 existing flags still need issuer/filing-specific primary evidence (revision/definition, share-class/split scope, debt coverage, fiscal identity and missing coverage). The ledger and FINANCIAL_REMEDIATION.md identify the cases. No unsupported numbers were substituted.
 3. **Schedules:** daily collection and twice-hourly GitHub backup are configured. The first manual backup succeeded; at the latest inspection, no scheduled run of the new backup workflow had appeared. GitHub cron delivery can be delayed, so scheduled execution is not yet proven.
-4. **Deployment:** local work is complete; GitHub CI and the live release verification are pending below. The service's public-Git source has automatic code deploys disabled, so code releases are triggered explicitly.
+4. **Code deployments:** the service's public-Git source has automatic code deploys disabled, so tested code releases require an explicit Render deployment. Runtime collection and GitHub backup do not require ChatGPT.
+
+### Production release and recovery evidence
+
+- [PR #5](https://github.com/eladyesh/stock-brain/pull/5) merged as `05e8222419e5d74e0f2743005e9bfe766f112d97`. Both head CI runs passed; the [main-branch validation run](https://github.com/eladyesh/stock-brain/actions/runs/39749126995) also passed. Uploaded blobs and the Git tree were checked against the locally tested content.
+- Render deploy `dep-dbcsmovavr4c738mmolg` became **live at 2026-10-22T08:38:49Z** (11:38 Israel). It uses the existing starter instance, Python and Node; no new paid service was created. `STOCK_BRAIN_SEC_ENABLED=0` was merged into this service's existing configuration.
+- Startup restored the existing backup, then completed its independent source collection at **08:39:01Z**. All 10 prices were available, all 10 financial histories matched the previous live histories exactly as parsed objects, and all prior disclosure IDs remained. The queue contains **216 total / 206 pending** records. Collection remains labelled **partial** because SEC collection is paused.
+- Public `/healthz`, `/api/status`, and `/api/ask` were checked. Hebrew business and latest-stored-quarter questions returned cited answers; a buy recommendation question abstained. Browser verification visibly showed “answer from server”, the selected fiscal period, the dataset limitation and source links.
+- [Backup and recovery run 39749692374](https://github.com/eladyesh/stock-brain/actions/runs/39749692374) completed successfully. Job `119726847963` persisted data commit `749b0e78c9e8369011765388d4b98cf8a71b2842`, and the branch ref was verified.
+- The job's actual recovery check at **08:42:19Z** reported `cold_restore=pass`, `restored_queue_count=216`, `answer_api=pass`, `financial_integrity=pass`, `open_financial_flags=77`, `refresh_status=partial` and `sec_collection_enabled=false`.
+- GitHub's workflow menu confirmed backup is enabled. Both observed backup runs were manually dispatched; scheduled delivery remains unobserved at this checkpoint. The next configured app collection is **2026-10-23 08:30 Asia/Jerusalem** (`05:30Z`). The old ChatGPT automation remains disabled; the legacy disclosure workflow was skipped on the main release.
+- The separate `finlotus` Render service was read back unchanged (`updatedAt=2026-07-14T00:39:23.612689Z`) and still points to `eladyesh/finlotus`. No code or settings in that project were modified.
+
+### Handoff / next actions
+
+1. Resolve the SEC application's identifying-contact/access requirements with the source; only then re-enable SEC collection and verify an actual successful refresh. No private contact was published or used as a guessed identity.
+2. Work through the issuer-specific cases in `FINANCIAL_REMEDIATION.md` and the generated QA ledger using primary filing evidence. Keep open flags and old source dates until each case is genuinely reconciled.
+3. Observe the next scheduled backup and daily collection in GitHub Actions and `/api/status`. Automated recovery/API checks are now in the backup job; a passing manual run proves the pipeline, not delivery of a future cron event.
+4. For broader natural-language chat, choose and benchmark an independently hosted model against available memory and evidence requirements before adding it. The deployed product is deterministic cited retrieval, with no paid model dependency.
+
+This documentation update records the completed release; it changes no deployed application code.
