@@ -37,7 +37,8 @@ venue, instrument and issuer mappings must not be silently guessed.
 ## Daily production path
 
 1. `.github/workflows/coverage-daily.yml` runs at **06:23 UTC daily**, or by manual
-   dispatch on main. Changing this workflow on main also runs a bootstrap check.
+   dispatch on main. Changing this workflow or directory importer on main also
+   runs a bootstrap check.
    One concurrency group prevents simultaneous writers.
 2. `coverage_release.py build` restores the last complete verified data release,
    validates the four-file pilot checkpoint, then merges both complete directories.
@@ -165,3 +166,31 @@ Source field definitions: https://www.nasdaqtrader.com/trader.aspx?id=symboldird
 Vendor API contracts: https://docs.financialdatasets.ai/api/company/facts/ticker ,
 https://docs.financialdatasets.ai/api/financials/all-financial-statements and
 https://docs.financialdatasets.ai/api/prices/snapshot .
+
+## First production evidence — October 22, 2026
+
+PRs #8 and #9 passed CI and were merged. The first broad-market run
+[39790049607](https://github.com/eladyesh/stock-brain/actions/runs/39790049607)
+completed its source import, release publication and published-byte cold recovery.
+Its newer 09:31 source files contain **13,260 non-test securities** and **5,960
+equity candidates**. These supersede the earlier local-file counts above. Counts
+are dated observations, not constants; consult the live API for the active release.
+
+Release `coverage-20261022-39790049607-1` includes both data assets and a passing
+off-host proof. Render deploy `dep-dbd18p1srm7s73b9od1g` became live at 13:50:37 UTC
+from commit `bba9cf0f19bc5680bc8611362873bf74c271ae36` and loaded that verified
+generation. Live checks passed for MSFT identity/detail, AAPL's explicit missing
+data, ETF filtering, pagination bounds and health. Initial local verification
+passed 271 Python and 173 JavaScript tests.
+
+The pilot backup also passed after deployment in run
+[39791215719](https://github.com/eladyesh/stock-brain/actions/runs/39791215719).
+The earlier pilot backup run 39782948227 was genuinely schedule-triggered. The
+new broad-market run was push-triggered; its first cron execution remains to be
+observed. Daily autonomous continuation was enabled at 08:30 Asia/Jerusalem.
+
+The live directory exposed packaged units whose names also mention warrants.
+The importer now classifies the traded unit before its components, and avoids
+treating an issuer named Unit Corporation as a unit. A subsequent run must
+re-import the existing release to apply this refinement and prove continuity.
+Its final run/deploy evidence is recorded in the follow-up PR.

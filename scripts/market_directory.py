@@ -31,11 +31,14 @@ def classify(row):
         return 'managed_fund', 'directory NextShares flag'
     name = row['Security Name'].lower()
     rules = (
+        # Packaged units often mention their warrant/right components. The
+        # traded instrument is still the unit, not one of those components.
+        ('unit', r'\bunits\b'),
         ('preferred', r'\b(preferred|preference|depositary shares.*(?:interest|preferred))\b'),
         ('warrant', r'\bwarrants?\b'),
         ('right', r'\brights\b'),
         ('debt', r'\b(notes|debentures|bonds)\b'),
-        ('unit', r'\bunits?\b'),
+        ('unit', r'\bunit\s*$'),
         ('depositary_receipt', r'\b(american depositary|american depository|ads|adrs?)\b'),
         ('common_stock', r'\b(common stock|common shares|ordinary shares|ordinary stock|shares of beneficial interest)\b'),
     )

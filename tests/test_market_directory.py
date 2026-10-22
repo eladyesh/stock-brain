@@ -66,6 +66,14 @@ class DirectoryTests(unittest.TestCase):
             with self.subTest(raw=raw[:60]), self.assertRaises(ValueError):
                 directory.parse_directory(raw, name, retrieved_at=NOW, now=NOW)
 
+    def test_packaged_unit_is_not_one_of_its_components_or_an_issuer_name(self):
+        record = {'ETF': 'N', 'Security Name': 'Example Acquisition Units, each consisting of one ordinary share and one redeemable warrant'}
+        self.assertEqual(directory.classify(record)[0], 'unit')
+        record['Security Name'] = 'Unit Corporation - Common Stock'
+        self.assertEqual(directory.classify(record)[0], 'common_stock')
+        record['Security Name'] = 'Example Acquisition Redeemable warrants, each exercisable for one ordinary share'
+        self.assertEqual(directory.classify(record)[0], 'warrant')
+
     def test_atomic_pair_and_shrink_guards_preserve_prior_registry(self):
         initial = fixtures()
         directory.import_directories(self.store, initial)
