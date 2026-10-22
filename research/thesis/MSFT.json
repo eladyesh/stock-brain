@@ -40,7 +40,9 @@
       },
       "interpretation_en": "The larger cloud revenue base supports the demand thesis. Quarter-to-quarter scale alone does not establish returns on AI capex.",
       "interpretation_he": "בסיס ההכנסות המתרחב בענן תומך בתזת הביקוש. הגידול הרבעוני לבדו אינו מוכיח תשואה על השקעות AI.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Cloud expansion",
+      "title_he": "התרחבות פעילות הענן"
     },
     {
       "id": "azure-growth",
@@ -73,7 +75,9 @@
       },
       "interpretation_en": "Reported growth accelerated three percentage points. FX and future segment presentation changes require care; this is not evidence that the rate persists through FY2030.",
       "interpretation_he": "הצמיחה המדווחת האיצה בשלוש נקודות אחוז. מטבע ושינויים עתידיים בהצגת המגזרים דורשים זהירות; אין בכך הוכחה שהקצב יימשך עד FY2030.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Azure growth",
+      "title_he": "צמיחת Azure ושירותי ענן אחרים"
     },
     {
       "id": "earnings-quality",
@@ -106,7 +110,9 @@
       },
       "interpretation_en": "Earnings increased, but the disclosed one-off effects weaken straight-line EPS extrapolation. Review operating profit and cash conversion separately.",
       "interpretation_he": "הרווח גדל, אך ההשפעות הנקודתיות שדווחו מחלישות השלכה ישירה של צמיחת הרווח למניה. יש לבחון בנפרד רווח תפעולי והמרה למזומן.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Earnings quality",
+      "title_he": "איכות הרווח"
     }
   ],
   "falsifiers": [

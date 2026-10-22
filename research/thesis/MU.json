@@ -40,7 +40,9 @@
       },
       "interpretation_en": "The upcycle strengthened. Higher shipments and prices must still be distinguished; a revenue jump alone cannot establish through-cycle earnings.",
       "interpretation_he": "מחזור העלייה התחזק. עדיין צריך להפריד בין כמויות ומחירים; קפיצה בהכנסות אינה מוכיחה רווחיות לאורך מחזור מלא.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Revenue growth",
+      "title_he": "צמיחת ההכנסות"
     },
     {
       "id": "cycle-margin",
@@ -73,7 +75,9 @@
       },
       "interpretation_en": "Margins expanded further. The model deliberately tests normalization when supply expands rather than treating this quarter as a permanent margin.",
       "interpretation_he": "המרווחים התרחבו שוב. המודל בוחן חזרה לרווחיות מתונה יותר עם התרחבות ההיצע, ואינו מניח שהמרווח הרבעוני יישאר לצמיתות.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Profit margins",
+      "title_he": "שיעורי הרווחיות"
     },
     {
       "id": "cycle-cash",
@@ -106,7 +110,9 @@
       },
       "interpretation_en": "Cash generation improved, but gross factory spending and incentives must remain separate. Issuer adjusted FCF is not interchangeable with strict cash-PP&E FCF.",
       "interpretation_he": "ייצור המזומן השתפר, אך יש להפריד בין השקעה גולמית במפעלים לתמריצים. התזרים החופשי המתואם של החברה אינו זהה להגדרה המחמירה של תזרים פחות רכישת רכוש קבוע.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Cash generation",
+      "title_he": "יצירת מזומנים"
     }
   ],
   "falsifiers": [

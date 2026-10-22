@@ -40,12 +40,32 @@ market coverage or production throughput claims. A cloud-browser preview could
 not be completed because its URL authority check rejected the tab; DOM behavior
 and real WSGI/Node routes were tested locally.
 
-Production remains on the preceding release until an explicit Render deployment.
-No SEC access was re-enabled and no market-wide import or continuous worker was
-started. Activation needs legitimate source access, a durable shared database
-path and off-host recovery. Universe/security-type reconciliation, foreign filing
-adapters, evidence-bound narrative automation and retention/capacity work are
-documented in [U.S. coverage infrastructure](US_COVERAGE.md).
+### Production deployment and recovery proof
+
+- PR #6 merged as `35c9169dc2fb8c1df5565f77724819bf2b985b61`; head and main CI passed.
+  Render deployment `dep-dbcvfnt9fdbs73a1n7rg` became live at **11:48:45Z** on
+  October 22, using the existing service, plan and instance count.
+- The new registry, bounded company search/detail and source-linked TTM display
+  were exercised against the live app and in the browser. This later production
+  verification supersedes the local-preview browser limitation above. A follow-up
+  presentation correction replaces internal thesis IDs with readable bilingual headings.
+- Startup collection committed at **11:48:54Z**. All 216 existing event IDs,
+  historical financial values and financial-source timestamps were preserved.
+  Three new issuer disclosures increased the queue to **219 total / 208 pending**.
+  Oracle's official RSS was successfully retrieved from Render at 11:48:43Z;
+  the earlier local-runtime source error is not a claim of a continuing Render failure.
+- [Backup/recovery run 39773645859](https://github.com/eladyesh/stock-brain/actions/runs/39773645859)
+  succeeded, preserving data commit `8f3b2bd4a8cba4a00f6ec6485767bdc61036aebb`.
+  Actual restoration into empty state at **11:51:01Z** reported 219 restored events,
+  passing public answers and financial integrity, and 75 open QA flags.
+  The dated verification artifact was uploaded. This was a manual dispatch;
+  scheduled delivery is still not established by that result.
+- SEC collection remains disabled and no broad worker or market-wide import was
+  started. Ten issuer identities seed the new registry; this is not full-market
+  coverage. The new SQLite store is still ephemeral on this deployment and is
+  excluded from the pilot backup. Broad activation requires permitted SEC access,
+  durable storage and verified off-host recovery. The remaining universe,
+  accounting and capacity milestones are in [U.S. coverage infrastructure](US_COVERAGE.md).
 
 ## 2026-10-22 — reliable collection and server-side answers
 
