@@ -73,6 +73,17 @@ class SECArchive:
                     f'SEC archive entry count outside bounds: {len(entries)} (limit {MAX_ENTRIES})')
             total = 0
             for entry in entries:
+                # SEC includes this non-issuer marker in its real submissions
+                # archive. Accept only this exact bounded regular entry, verify
+                # its CRC, and never interpret it as a company document.
+                if kind == 'submissions' and entry.filename == 'placeholder.txt':
+                    require(entry.filename not in self.members, 'duplicate SEC ZIP member')
+                    require(not stat.S_ISLNK(entry.external_attr >> 16) and not entry.flag_bits & 1
+                            and 0 <= entry.file_size <= 1024, 'invalid SEC archive placeholder')
+                    with self.archive.open(entry) as marker:
+                        require(len(marker.read(1025)) == entry.file_size, 'invalid SEC archive placeholder length')
+                    self.members[entry.filename] = entry
+                    continue
                 pattern = r'CIK([0-9]{10})(?:-submissions-[0-9]{3,})?\.json' if kind == 'submissions' else r'CIK([0-9]{10})\.json'
                 match = re.fullmatch(pattern, entry.filename)
                 require(match is not None and int(match[1]) > 0, 'unexpected SEC ZIP member name')

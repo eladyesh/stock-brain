@@ -256,6 +256,20 @@ function coverageCatalog(){
       const title=company.name||company.company_name||company.cik;
       const metrics=['revenue','operating_income','net_income','operating_cash_flow','free_cash_flow'];
       const rows=metrics.map(key=>h('tr',{},h('td',{},METRICS[key]),h('td',{},cellValue(ttm?.financials?.[key]))));
+      const latestPeriods=['annual','quarterly'].map(type=>(history?.periods||[]).filter(p=>p.type===type).sort((a,b)=>b.end.localeCompare(a.end))[0]).filter(Boolean);
+      const reported=latestPeriods.map(period=>{
+        const metricRows=metrics.map(key=>{
+          const cell=history.financials?.[period.id]?.[key];
+          return h('tr',{},h('td',{},METRICS[key]),
+            h('td',{},cellValue(cell),cell?.model_usable===false&&typeof cell?.value==='number'?h('div',{class:'caption'},'דורש בדיקה לפני השוואה או חישוב'):null),
+            h('td',{},...[...new Set((cell?.provenance||[]).map(p=>p.url))].map((url,i)=>link('מקור '+(i+1)+' ↗',url))));
+        });
+        return h('div',{},h('h3',{},period.type==='annual'?'הדוח השנתי האחרון במאגר':'הרבעון האחרון במאגר'),
+          h('p',{class:'caption',dir:'ltr'},period.start+' – '+period.end+' · USD millions'),
+          h('div',{class:'table-wrap'},h('table',{},h('thead',{},h('tr',{},...['מדד','ערך','מקורות'].map(text=>h('th',{},text)))),h('tbody',{},...metricRows))));
+      });
+      const filingRows=(item.collected?.submissions?.recent_filing_inventory||item.collected?.submissions?.filings||[]).slice(0,20)
+        .map(filing=>h('tr',{},h('td',{dir:'ltr'},filing.form),h('td',{},date(filing.filed)),h('td',{},link('פתח ב־SEC ↗',filing.url))));
       const changes=item.collected?.automatic_changes;
       const changeRows=(changes?.changes||[]).map(change=>h('tr',{},h('td',{},METRICS[change.metric]||change.metric),
         h('td',{},cellValue({value:change.previous_value,unit:change.unit}),h('div',{class:'caption',dir:'ltr'},change.previous_period_start?change.previous_period_start+' – '+change.previous_period_end:'—')),
@@ -264,6 +278,10 @@ function coverageCatalog(){
         h('td',{},...(change.source_urls||[]).map((url,i)=>link('מקור '+(i+1)+' ↗',url)))));
       detail.replaceChildren(card(title,h('div',{},note(item.collection_status==='registry-only'?'החברה נוספה למרשם; הנתונים הפיננסיים טרם נאספו.':'נתונים שנאספו אוטומטית. מדדים שאינם עומדים בבדיקות ההתאמה נשארים חסומים.'),
         h('p',{class:'caption'},'מקור פיננסי נשלף ב־'+date(history?.source?.retrieved_at)+' · מחקר שנבדק: '+(item.research?.as_of?date(item.research.as_of):'טרם הושלם')),
+        ...reported,
+        history?.source?.url?h('p',{},link('נתוני המקור הפיננסיים ב־SEC ↗',history.source.url)):null,
+        filingRows.length?h('details',{},h('summary',{},'דיווחים אחרונים ל־SEC'),h('p',{class:'caption'},'20 ההגשות האחרונות שנאספו. קישור לדיווח אינו אישור שהמסמך נותח או שהמחקר עודכן.'),
+          h('div',{class:'table-wrap'},h('table',{},h('thead',{},h('tr',{},...['סוג דיווח','תאריך הגשה','מסמך מקור'].map(text=>h('th',{},text)))),h('tbody',{},...filingRows)))):null,
         ttm?.period?h('div',{},h('h3',{},'TTM · ארבעה רבעונים רצופים במאגר'),h('p',{class:'caption',dir:'ltr'},ttm.period.start+' – '+ttm.period.end+' · USD millions'),h('div',{class:'table-wrap'},h('table',{},h('tbody',{},...rows))),h('details',{},h('summary',{},'מקורות החישוב'),...(ttm.source_urls||[]).map(url=>h('p',{},link('דיווח מקור ↗',url))))):note('עדיין אין ארבעה רבעונים תקפים לחישוב TTM.'),
         changes?h('details',{},h('summary',{},'טיוטת השינויים האוטומטית'),h('p',{class:'caption'},'השוואת נתונים שטרם עברה סקירת מחקר · סכומים ומניות במיליונים, EPS בדולר למניה. שינוי בין תקופות מוצג רק כשההגדרות תואמות; זו אינה בהכרח השוואה שנתית.'),
           changeRows.length?h('div',{class:'table-wrap'},h('table',{},h('thead',{},h('tr',{},...['מדד','בתצפית הקודמת','בתצפית החדשה','הפרש','מקורות'].map(title=>h('th',{},title)))),h('tbody',{},...changeRows))):note('אין שינוי מספרי בר השוואה בטיוטה זו.'),

@@ -123,6 +123,11 @@ of the actual uploaded assets restored into an empty database.
   runs on the Actions runner, not the web service. One issuer JSON is read at a time. ZIP traversal,
   symlinks, encryption, duplicates, unexpected names, excessive sizes/ratios,
   invalid hashes, duplicate JSON fields and CIK mismatches are rejected.
+- The real submissions ZIP also contains `placeholder.txt`. Only that exact
+  non-issuer marker is allowed, at most 1 KiB, with link/encryption/duplicate and
+  CRC checks; it is never parsed as a company. A full central-directory inventory
+  found no other exceptional names. Observed expanded totals: submissions
+  5,760,756,934 bytes; Company Facts 19,327,197,919 bytes across 20,488 entries.
 - ZIP members are never extracted. `inspect` validates the archive hash and
   inventory; member CRC, JSON and issuer identity are checked as members are read.
 - Evidence carries both archive and member hashes plus original retrieval time.
