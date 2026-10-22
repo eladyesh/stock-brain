@@ -11,7 +11,10 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
   const issuer={cik:'0000000123',ticker:'SYNTH',company_name:'Synthetic Issuer',listings:[{ticker:'SYNTH'}],collection_status:'registry-only'};
   const security={listing_key:'a'.repeat(32),security_name:'Synthetic Issuer',ticker:'SYNTH',exchange:'NASDAQ',cik:issuer.cik,instrument_type:'common_stock',datasets:{},source:{url:'https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt'}};
   const detail={company:issuer,collection_status:'review-required',research:{as_of:null,canonical_reviewed:false},
-    collected:{history:{source:{retrieved_at:'2026-10-22T10:00:00+00:00'}},automatic_changes:{changes:[{
+    collected:{history:{source:{retrieved_at:'2026-10-22T10:00:00+00:00'},
+      periods:[{id:'annual-fixture',type:'annual',start:'2025-01-01',end:'2025-12-31'}],
+      financials:{'annual-fixture':{revenue:{value:100e6,unit:'USD',model_usable:false,provenance:[{url:'https://www.sec.gov/Archives/edgar/data/123/annual.htm'}]}}}},
+      submissions:{recent_filing_inventory:[{form:'20-F',filed:'2026-04-01',url:'https://www.sec.gov/Archives/edgar/data/123/foreign.htm'}]},automatic_changes:{changes:[{
       metric:'revenue',previous_value:100e6,value:120e6,unit:'USD',delta:null,comparison:'blocked',
       previous_period_start:'2025-01-01',previous_period_end:'2025-12-31',period_start:'2026-01-01',period_end:'2026-09-30',
       source_urls:['https://www.sec.gov/Archives/edgar/data/123/fixture.htm'],
@@ -41,6 +44,10 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     [...document.querySelectorAll('button')].find(x=>x.textContent==='הצג נתונים פיננסיים ומחקר ←').click();await settle();
     const text=document.getElementById('content').textContent;
     assert(text.includes('מחקר שנבדק: טרם הושלם'));
+    assert(text.includes('הדוח השנתי האחרון במאגר'));
+    assert(text.includes('דורש בדיקה לפני השוואה או חישוב'));
+    assert(text.includes('דיווחים אחרונים ל־SEC'));
+    assert(document.querySelector('a[href="https://www.sec.gov/Archives/edgar/data/123/foreign.htm"]'));
     assert(text.includes('השוואה חסומה'));
     assert(text.includes('2026-01-01 – 2026-09-30'));
     assert.equal(document.querySelectorAll('pre').length,0);

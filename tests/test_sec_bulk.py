@@ -201,6 +201,20 @@ class BulkTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'duplicate SEC ZIP member'):
             bulk.SECArchive(path, 'submissions', retrieved_at=NOW, sha256=bulk.digest_file(path), now=NOW)
 
+    def test_official_placeholder_is_bounded_and_never_an_issuer(self):
+        path = self.root / 'marker.zip'
+        for name, marker in [('placeholder.txt', ''), ('placeholder.txt', 'x' * 1025), ('other.txt', '')]:
+            with zipfile.ZipFile(path, 'w', compression=zipfile.ZIP_DEFLATED) as output:
+                output.writestr(name, marker)
+                output.writestr('CIK0000000123.json', json.dumps(issuer()))
+            if name == 'placeholder.txt' and not marker:
+                with bulk.SECArchive(path, 'submissions', retrieved_at=NOW, sha256=bulk.digest_file(path), now=NOW) as source:
+                    self.assertEqual(len(source.issuers), 1)
+                    self.assertEqual(len(source.members), 2)
+            else:
+                with self.assertRaises(ValueError):
+                    bulk.SECArchive(path, 'submissions', retrieved_at=NOW, sha256=bulk.digest_file(path), now=NOW)
+
     def test_stale_directory_blocks_bulk_association(self):
         sub, _ = self.sources()
         self.store.clock = lambda: NOW + timedelta(days=2)
