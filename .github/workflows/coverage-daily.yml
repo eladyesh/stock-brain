@@ -3,7 +3,7 @@ name: Refresh broad market directory
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/coverage-daily.yml']
+    paths: ['.github/workflows/coverage-daily.yml', 'scripts/market_directory.py']
   workflow_dispatch:
   schedule:
     - cron: '23 6 * * *'

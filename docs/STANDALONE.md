@@ -64,7 +64,9 @@ Financial refresh validation rejects empty/truncated schedules, missing previous
 
 ## Expanding beyond the pilot
 
-The web app seeds a separate SQLite coverage registry from the ten reviewed pilot companies. It does not start a market-wide collector. Configure `STOCK_BRAIN_COVERAGE_DB` to share this registry with the opt-in `coverage_cycle.py` process. Without that setting, the web app places it beside the pilot checkpoint; this is ephemeral on the current Render service. The four-file GitHub backup **does not include** this database, its jobs, listing snapshots or additional issuer histories. The pilot can be reseeded; broad collection cannot be restored from that four-file backup. See [coverage operation and activation](US_COVERAGE.md) before running continuous collection.
+The web app seeds a separate SQLite coverage registry from the ten reviewed pilot companies. It does not start a market-wide collector. The production service now uses `STOCK_BRAIN_COVERAGE_MIRROR=1` to load a verified, independently backed-up broad directory from daily GitHub data releases; see [broad market operations](BROAD_MARKET_OPERATIONS.md). The four-file pilot backup **does not include** this database. Its durability comes from the separate verified release and cold-restore path.
+
+For the alternative same-host worker mode, configure `STOCK_BRAIN_COVERAGE_DB` on a durable path shared with the opt-in `coverage_cycle.py` process. Do not run that collector against a release-mirror replica: local writes will not become authoritative releases. Without either durable mode, broad collection remains ephemeral and cannot be restored from the pilot's four-file backup. See [coverage operation and activation](US_COVERAGE.md) before running continuous collection.
 
 ## Operations
 
