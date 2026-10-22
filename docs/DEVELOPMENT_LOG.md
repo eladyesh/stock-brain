@@ -1,5 +1,22 @@
 # Stock Brain development log
 
+## 2026-10-22 — Broad SEC acquisition after legitimate access recovery
+
+The operator supplied the missing contact. A same-origin Render Company Facts
+request and all ten subsequent pilot SEC refreshes succeeded; both official bulk
+archive HEAD checks also returned HTTP 200. See SEC_ACCESS.md for evidence.
+Earlier paused-access entries below are historical and superseded.
+
+Added fixed-source, bounded streaming archive acquisition to the existing daily
+GitHub publisher, with a private identity secret and no denial retry/redirect.
+The importer now completes successive batches with one archive validation/open,
+durable checkpoints, time/storage bounds and visible partial progress. Identical
+source bytes no longer duplicate history/submission payloads each day, while
+corrections preserve all versions and new checks retain their actual source dates.
+The broad workflow is scheduled for 09:23 UTC. Full-market completion must still
+be assessed from the resulting real data generation and production coverage counts.
+
+
 ## 2026-10-22 — SEC access diagnosis and shared identity preflight
 
 Read-only Render inspection confirmed that the production service lacks

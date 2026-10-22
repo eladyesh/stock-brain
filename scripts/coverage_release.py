@@ -173,7 +173,8 @@ def build(root, output, *, tag, use_saved_directories=None, sec_bulk_manifest=No
     else:
         directories = market_directory.fetch_directories()
     result = market_directory.import_directories(store, directories)
-    bulk = (sec_bulk.ingest_manifest(store, sec_bulk_manifest, root=root) if sec_bulk_manifest else
+    bulk = (sec_bulk.ingest_manifest(store, sec_bulk_manifest, root=root, complete=True,
+                on_progress=lambda report: print(json.dumps({'sec_bulk_progress': report}), flush=True)) if sec_bulk_manifest else
             {'status': 'not_configured', 'network_requests': 0})
     copy_pilot_prices(store, checkpoint['files']['desk.json'])
     vendor = vendor_data.collect(store)

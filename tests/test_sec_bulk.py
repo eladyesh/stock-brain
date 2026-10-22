@@ -103,6 +103,38 @@ class BulkTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'finish this archive issuer scan'):
             bulk.collect_financials(self.store, sub, facts, root=self.root)
 
+    def test_complete_mode_drains_all_batches_with_one_archive_open(self):
+        sub = self.archive('submissions', {f'CIK{123+i:010d}.json': issuer(123+i, f'T{i}', f'Company {i}') for i in range(3)})
+        facts = self.archive('companyfacts', {f'CIK{123+i:010d}.json': financial_facts(cik=123+i) for i in range(3)})
+        path = self.root / 'all.json'
+        path.write_text(json.dumps({'format': 'stock-brain-sec-bulk-v1', **{a.kind: {
+            'file': a.path.name, 'url': bulk.URLS[a.kind], 'retrieved_at': a.retrieved_at, 'sha256': a.sha256}
+            for a in (sub, facts)}}))
+        events = []
+        with patch.object(bulk, 'open_manifest', wraps=bulk.open_manifest) as opened:
+            report = bulk.ingest_manifest(self.store, path, root=self.root, issuer_limit=1,
+                                         financial_limit=1, complete=True, on_progress=events.append)
+        self.assertEqual(report['status'], 'completed')
+        self.assertEqual(report['financials']['imported'], 3)
+        self.assertEqual(len(events), 6)
+        self.assertEqual(opened.call_count, 1)
+
+    def test_unchanged_daily_bytes_retain_history_and_record_new_check(self):
+        old_time = NOW - timedelta(hours=2)
+        sub = self.archive('submissions', {'CIK0000000123.json': issuer()}, stamp=old_time)
+        facts = self.archive('companyfacts', {'CIK0000000123.json': financial_facts(cik=123)}, stamp=old_time)
+        bulk.import_issuers(self.store, sub)
+        bulk.collect_financials(self.store, sub, facts, root=self.root)
+        before = self.store.get_payload_record('123', 'history')
+        before_sub = self.store.get_payload_record('123', 'submissions')
+        new_sub = self.archive('submissions', {'CIK0000000123.json': issuer()}, filename='new-sub.zip')
+        new_facts = self.archive('companyfacts', {'CIK0000000123.json': financial_facts(cik=123)}, filename='new-facts.zip')
+        bulk.import_issuers(self.store, new_sub)
+        self.assertEqual(bulk.collect_financials(self.store, new_sub, new_facts, root=self.root)['failed'], 0)
+        self.assertEqual(self.store.get_payload_record('123', 'history'), before)
+        self.assertEqual(self.store.get_payload_record('123', 'submissions'), before_sub)
+        self.assertEqual(self.store.get_payload('123', 'collector_state')['facts_checked_at'], new_facts.retrieved_at)
+
     def test_new_archive_checks_same_accession_corrections_and_keeps_previous_version(self):
         sub, facts = self.sources()
         bulk.import_issuers(self.store, sub)

@@ -25,12 +25,31 @@ stocks. Nasdaq Trader directories establish current exchange/symbol slots;
 submissions match a slot to CIK only when ticker, venue and issuer name agree.
 Ticker and exchange arrays are not presumed to have matching positions.
 
-The existing Render origin received an SEC automated-access denial. Keep
-`STOCK_BRAIN_SEC_ENABLED=0`. Do not move the same blocked acquisition to GitHub,
-another host, a proxy or a browser, or disguise the client. Resume live SEC
-acquisition only after legitimate access is resolved with the operator/provider
-and a real contact is configured. No contact, credential or successful SEC
-download was invented in this implementation.
+The earlier undeclared-identity denial was resolved using the operator-supplied
+contact on the same Render origin. Pilot Company Facts retrievals and both archive
+HEAD checks returned HTTP 200 on October 22. See [SEC_ACCESS.md](SEC_ACCESS.md)
+for the actual evidence; access checks alone do not prove broad coverage.
+
+## Scheduled acquisition and publication
+
+The existing `coverage-daily.yml` workflow runs at **09:23 UTC daily**, after the
+normal nightly SEC publication window. It reads a private `SEC_USER_AGENT` secret,
+streams each official archive once, and stops on any denial or invalid response.
+No new paid service or source credential is needed. The archive downloader rejects
+redirects and bounds each file at 8 GiB with disk headroom and download deadlines.
+
+The release builder opens both archives once and drains bounded identity and
+financial batches, instead of stopping after the first 5,000/100 records. It has
+a 90-minute import budget and preserves storage headroom within the existing
+512 MiB release cap. Progress, explicit stopping reason, per-issuer errors and
+source hashes are included in the verified data generation. A time/storage stop
+is partial coverage, not a successful all-market completion.
+
+Unchanged Company Facts bytes and unchanged normalized content keep their existing
+history version and original observation date. The new collection check is stored
+separately. Same-accession corrections and changed review evidence still create
+versions. Identical recent filing metadata and identity payloads are not copied
+again merely because a new archive was downloaded.
 
 ## Implemented offline path
 
@@ -75,7 +94,7 @@ scan can still include quarantined failures; inspect `failed` and
 New archive hashes, retrieval evidence or directory generations create a new
 pass. A fresh directory (at most 36 hours old) is required for identity matching.
 
-Each issuer checkpoint is durable. A crash between publication and checkpointing
+Matched-issuer and error checkpoints are durable; skipped private filers checkpoint every 100 records. A crash between publication and checkpointing
 can replay an issuer safely. Bulk jobs claim their own ID; online collectors claim
 only `refresh_company`, including when reclaiming expired leases. Neither consumes
 the other queue. Operate this as a **single writer**: do not run a live collector,
@@ -89,11 +108,10 @@ database and refreshing directories:
 python scripts/coverage_release.py build --tag coverage-YYYYMMDD-RUN-ATTEMPT --sec-bulk-manifest /data/sec/acquisition.json
 ```
 
-It performs up to 5,000 identity scans and 100 financial jobs, includes progress
-in the release manifest, and retains checkpoint/error tables in the backup.
-Archive acquisition/staging on a scheduled host is not enabled in production.
-The existing daily workflow therefore truthfully reports `not_configured` for
-SEC bulk ingestion and continues its working directory refresh.
+It completes successive batches and includes progress in the release manifest,
+retaining checkpoint/error tables in the backup. Publication occurs only after
+local restore verification; the web mirror additionally waits for verification
+of the actual uploaded assets restored into an empty database.
 
 ## Validation and boundaries
 

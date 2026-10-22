@@ -20,7 +20,7 @@ Use one Python web-service instance with Node.js 20+ available on PATH. Waitress
 | `STOCK_BRAIN_REFRESH_ON_START` | `1` |
 | `STOCK_BRAIN_TIMEZONE` | `Asia/Jerusalem` |
 | `STOCK_BRAIN_REFRESH_TIME` | `08:30` |
-| `STOCK_BRAIN_SEC_ENABLED` | `0` while the observed SEC access denial is unresolved |
+| `STOCK_BRAIN_SEC_ENABLED` | `1` after the verified 2026-10-22 identity/access recovery |
 
 Replace only Render service `NEW-finlotus` (`srv-d8i2kla8qa3s73e10t50`), currently at `https://finlotus-1.onrender.com`. Keep its current plan, region and instance count. Do not change the other `finlotus` service or code in `eladyesh/finlotus`. Remove unrelated application secrets from the replaced service; Stock Brain needs none.
 
@@ -54,13 +54,19 @@ All routes except `/api/ask` accept only GET/HEAD. Assets are allowlisted. Repos
 
 The engine supports reviewed business/risk/comparison questions, exact supported financial periods, and explicit latest-*stored* fiscal quarter/year questions in Hebrew and English. “Latest available” refers to the selected dataset period, not verified current reporting. Missing or unreviewed data still causes abstention; it never searches backward for an easier period.
 
-## SEC access limitation
+## SEC access and broad collection
 
-On 2026-10-22 the actual Render service received HTTP 403 with the SEC title “Your Request Originates from an Undeclared Automated Tool”. SEC requests are paused on this service via `STOCK_BRAIN_SEC_ENABLED=0`; issuer announcements and market collection continue. There is no proxy, browser impersonation, alternate-IP retry or paid replacement. Existing financial records keep their original collection dates. A shared collector circuit breaker also skips remaining SEC requests after the first 403 in a run.
+The earlier undeclared-tool denial was resolved on October 22 with the operator's
+private application/contact identity. The Render pilot now has SEC collection
+enabled and its verified refresh collected all ten financial histories. The
+separate Oracle RSS denial remains visible as partial issuer-source coverage.
+See [SEC_ACCESS.md](SEC_ACCESS.md) for timestamps and request evidence.
 
-The follow-up diagnosis found that Render has no `SEC_USER_AGENT` and no linked environment group supplying one. The fallback contains only the app and repository URL, without the contact email shown in SEC's declared-bot guidance. This is a confirmed configuration defect; the error title alone does not prove whether IP screening also contributed. Public EDGAR data APIs do not require an API key or account. See [SEC access diagnosis and recovery](SEC_ACCESS.md) for the specific correction, access-denial support route, and bulk collection design. The shared fetcher now checks the identity before SEC network access. `/api/status.sec_configuration` reports configuration booleans without exposing the contact and explicitly says it did not test the network. No contact address was invented or published in the code, and SEC remains paused.
+The GitHub daily broad pipeline downloads official SEC archives, matches current
+US exchange stock listings to issuer CIKs, and publishes only a verified data
+generation. Render restores that generation without writing into its live mirror.
+See [SEC_BULK.md](SEC_BULK.md) for schedule, checkpoints and explicit coverage gaps.
 
-Financial refresh validation rejects empty/truncated schedules, missing previously available source cells, mismatched reported numbers, invalid arithmetic, inconsistent issuer/period maps and unsafe model eligibility. The reproducible [QA ledger](FINANCIAL_QA_STATUS.json) records 75 open source/comparability flags after the October 22 exact evidence reviews. Integrity checks do not resolve these flags or constitute a new review of filings.
 
 ## Expanding beyond the pilot
 
