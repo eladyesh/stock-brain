@@ -1,5 +1,26 @@
 # Stock Brain development log
 
+## 2026-10-22 — stock scope and resumable SEC bulk ingestion
+
+Expanded stock search to preferred shares and common partnership units while
+retaining packaged-unit exclusions and explicit OTC/uncertain-classification gaps.
+Added schema-5 SEC archive checkpoints and quarantines, bounded zero-network ZIP
+ingestion, conservative SEC/directory issuer mapping, and financial collection
+through existing provenance and accounting gates. Job-specific claims avoid
+consuming another collector's queue. New archives check same-accession corrections;
+older source timestamps cannot roll history back. Research stays unreviewed.
+
+The release builder can ingest a supplied archive manifest, preserve progress in
+its backup and report the bulk state through the mirror. Production archive
+staging remains unconfigured because SEC access is still denied. The connected
+Financial Datasets probes returned $0.00 balance errors. Its current terms also
+require a separate written grant for raw public snapshot exports; both ingestion
+and release packaging now enforce that gate in addition to display rights.
+
+See [SEC_BULK.md](SEC_BULK.md) for verified source contracts, commands, tests and
+remaining IFRS/OTC/storage limits. Deployment and real-source validation evidence
+will be recorded in the implementation PR.
+
 ## 2026-10-22 — broad directory and daily data releases
 
 Added strict import of both official Nasdaq Trader exchange directories, separate

@@ -19,7 +19,7 @@ import uuid
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = 4
+SCHEMA_VERSION = 5
 MAX_RETRY_SECONDS = 24 * 60 * 60
 ACTIVE_JOB_STATUSES = ('queued', 'running', 'retry')
 JOB_STATUSES = (*ACTIVE_JOB_STATUSES, 'completed', 'failed', 'blocked')
@@ -230,6 +230,15 @@ MIGRATIONS = {1: [
     '''CREATE TABLE provider_daily_usage (
         provider TEXT NOT NULL, day TEXT NOT NULL, request_count INTEGER NOT NULL,
         PRIMARY KEY(provider,day))''',
+], 5: [
+    '''CREATE TABLE sec_bulk_runs (
+        run_key TEXT NOT NULL, phase TEXT NOT NULL, cursor TEXT NOT NULL,
+        report_json TEXT NOT NULL, updated_at TEXT NOT NULL,
+        PRIMARY KEY(run_key,phase))''',
+    '''CREATE TABLE sec_bulk_errors (
+        run_key TEXT NOT NULL, phase TEXT NOT NULL, cik TEXT NOT NULL,
+        error TEXT NOT NULL, observed_at TEXT NOT NULL,
+        PRIMARY KEY(run_key,phase,cik))''',
 ]}
 
 
@@ -654,16 +663,17 @@ class CoverageStore:
                        (source, 'paused', stamp, _json({'blocked_until': _stamp(until), 'error': error})))
             return self._source_state(db.execute('SELECT * FROM source_limits WHERE source=?', (source,)).fetchone(), source, moment)
 
-    def claim(self, worker_id, now=None, lease_seconds=300):
+    def claim(self, worker_id, now=None, lease_seconds=300, *, job_id=None):
         worker_id = _text(worker_id, 'worker ID', 200)
         require(type(lease_seconds) is int and 1 <= lease_seconds <= 86_400, 'lease_seconds must be 1..86400')
+        require(job_id is None or type(job_id) is int and job_id > 0, 'invalid requested job ID')
         with self._connection(write=True) as db:
             moment = _datetime(now) if now is not None else self._now()
             stamp, expires = _stamp(moment), _stamp(moment + timedelta(seconds=lease_seconds))
             while True:
                 row = db.execute('''SELECT * FROM jobs WHERE
-                    (status IN ('queued','retry') AND available_at<=?) OR (status='running' AND lease_expires_at<=?)
-                    ORDER BY available_at,id LIMIT 1''', (stamp, stamp)).fetchone()
+                    ((status IN ('queued','retry') AND available_at<=?) OR (status='running' AND lease_expires_at<=?))
+                    AND (? IS NULL OR id=?) ORDER BY available_at,id LIMIT 1''', (stamp, stamp, job_id, job_id)).fetchone()
                 if not row:
                     return None
                 if row['attempts'] >= row['max_attempts']:

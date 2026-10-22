@@ -204,10 +204,10 @@ function calculateScenario(rows){
   }catch{out.replaceChildren(note('יש להזין EPS ומחיר חיוביים, צמיחה מעל ‎-100%, מכפיל עד 200 ואופק של שנה עד עשר שנים.','red'));}
 }
 function coverageCatalog(){
-  const scope=note('חיפוש ברשימות המסחר הרשמיות של Nasdaq ובורסות נוספות בארה״ב. הופעה ברשימה אינה מעידה שהמידע הפיננסי נאסף או שהמחקר הושלם. מניות שטרם סווגו בוודאות מסומנות כמועמדות.');
+  const scope=note('מניות הנסחרות בבורסות בארה״ב, כולל מניות בכורה, תעודות פיקדון ויחידות שותפות. כיסוי OTC טרם נוסף. הסיווג מבוסס על רשימות המסחר ושמות הניירות; מועמדות עדיין דורשות בדיקה. רישום למסחר אינו מעיד שהמידע הפיננסי נאסף או שהמחקר הושלם.');
   const query=h('input',{type:'search',placeholder:'שם חברה, סימול או CIK','aria-label':'חיפוש במרשם החברות'});
-  const instrument=h('select',{'aria-label':'סוג נייר'},option('equities','מניות ומועמדות',true),option('all','כל סוגי הניירות'),option('etf','קרנות ETF'),option('unknown','סיווג טעון בדיקה'));
-  const types={common_stock:'מניה רגילה',depositary_receipt:'תעודת פיקדון',equity_candidate:'מועמדת · סוג הנייר טרם אומת',etf:'ETF',preferred:'מניית בכורה',warrant:'כתב אופציה',unit:'יחידה',right:'זכות',debt:'חוב',managed_fund:'קרן מנוהלת'};
+  const instrument=h('select',{'aria-label':'סוג נייר'},option('equities','מניות ומועמדות',true),option('stocks','מניות שסווגו לפי הרשימה'),option('preferred','מניות בכורה'),option('partnership_unit','יחידות שותפות'),option('all','כל סוגי הניירות'),option('etf','קרנות ETF'),option('unknown','סיווג טעון בדיקה'));
+  const types={common_stock:'מניה רגילה',depositary_receipt:'תעודת פיקדון',partnership_unit:'יחידת שותפות',equity_candidate:'מועמדת · סוג הנייר טרם אומת',etf:'ETF',preferred:'מניית בכורה',warrant:'כתב אופציה',unit:'יחידה',right:'זכות',debt:'חוב',managed_fund:'קרן מנוהלת'};
   const datasets={profile:'פרופיל חברה',financials:'דוחות כספיים',prices:'מחירי מסחר',filings:'דיווחים',news:'חדשות',estimates:'תחזיות אנליסטים',ownership:'בעלי מניות'};
   const results=h('div',{'aria-live':'polite'}),detail=h('div',{}),summary=h('p',{class:'caption'}),coverageInfo=h('p',{class:'caption'});
   let offset=0,total=0;

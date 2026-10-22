@@ -20,7 +20,8 @@ EXCHANGES = {'A': 'NYSE_AMERICAN', 'N': 'NYSE', 'P': 'NYSE_ARCA',
              'Z': 'CBOE_BZX', 'V': 'IEX', 'M': 'NYSE_TEXAS'}
 MAX_BYTES = 5_000_000
 DATASETS = ('profile', 'financials', 'prices', 'filings', 'news', 'estimates', 'ownership')
-EQUITY_TYPES = ('common_stock', 'depositary_receipt', 'equity_candidate')
+STOCK_TYPES = ('common_stock', 'depositary_receipt', 'partnership_unit', 'preferred')
+EQUITY_TYPES = (*STOCK_TYPES, 'equity_candidate')
 
 
 def classify(row):
@@ -33,11 +34,13 @@ def classify(row):
     rules = (
         # Packaged units often mention their warrant/right components. The
         # traded instrument is still the unit, not one of those components.
-        ('unit', r'\bunits\b'),
+        ('unit', r'\bunits?\b.*\b(?:each\s+(?:consisting|comprised)|consisting of)\b'),
         ('preferred', r'\b(preferred|preference|depositary shares.*(?:interest|preferred))\b'),
         ('warrant', r'\bwarrants?\b'),
         ('right', r'\brights\b'),
         ('debt', r'\b(notes|debentures|bonds)\b'),
+        ('partnership_unit', r'\b(?:common units|(?:limited|operating) partnership units|representing limited partner(?:ship)? interests)\b'),
+        ('unit', r'\bunits\b'),
         ('unit', r'\bunit\s*$'),
         ('depositary_receipt', r'\b(american depositary|american depository|ads|adrs?)\b'),
         ('common_stock', r'\b(common stock|common shares|ordinary shares|ordinary stock|shares of beneficial interest)\b'),
@@ -177,9 +180,10 @@ def directory_status(store):
             SELECT s.listing_key,o.dataset FROM market_securities s JOIN market_observations o
               ON o.listing_key=s.listing_key AND o.identity_revision=s.identity_revision
               WHERE s.directory_status='present' AND s.is_test=0
-            UNION SELECT s.listing_key,CASE p.kind WHEN 'history' THEN 'financials' ELSE p.kind END
+            UNION SELECT s.listing_key,CASE p.kind WHEN 'history' THEN 'financials'
+              WHEN 'sec_bulk_identity' THEN 'profile' WHEN 'submissions' THEN 'filings' ELSE p.kind END
               FROM market_securities s JOIN company_payloads p ON p.cik=s.cik
-              WHERE s.directory_status='present' AND s.is_test=0 AND p.kind IN ('history','reviewed_research')
+              WHERE s.directory_status='present' AND s.is_test=0 AND p.kind IN ('history','reviewed_research','sec_bulk_identity','submissions')
             ) GROUP BY dataset''').fetchall()
     sources = json.loads(last['sources_json']) if last else {}
     oldest = min((_datetime(s['retrieved_at']) for s in sources.values()), default=None)
@@ -189,17 +193,24 @@ def directory_status(store):
             'imported_at': last['imported_at'] if last else None, 'age_hours': round(age_hours, 2) if age_hours is not None else None,
             'sources': sources, 'listed_securities': sum(counts.values()), 'equity_candidates': sum(counts.get(k, 0) for k in EQUITY_TYPES),
             'instrument_counts': counts, 'linked_issuer_count': linked,
+            'stock_scope': {'classified_stock_listings': sum(counts.get(k, 0) for k in STOCK_TYPES),
+                           'unresolved_instruments': counts.get('equity_candidate', 0),
+                           'included_types': list(STOCK_TYPES), 'otc': 'not_collected',
+                           'domicile': 'US trading venue, not US incorporation',
+                           'classification': 'Directory flags and names; fund/issuer review still required'},
             'data_coverage': {**{k: 0 for k in (*DATASETS, 'reviewed_research')}, **{r['dataset']: r['n'] for r in dataset_rows}},
             'scope': 'Two Nasdaq Trader directories; non-test listings. Candidates are not a verified count of operating companies. No OTC coverage.'}
 
 
 def list_securities(store, *, query='', limit=50, offset=0, instrument='equities', exchange='', status='present'):
     require(1 <= limit <= 100 and 0 <= offset <= 1_000_000, 'invalid pagination')
-    require(instrument in ('equities', 'all', 'etf', 'unknown'), 'invalid instrument filter')
+    require(instrument in ('equities', 'stocks', 'all', 'etf', 'unknown', 'preferred', 'partnership_unit'), 'invalid instrument filter')
     require(status in ('present', 'all', 'not_in_latest_directory'), 'invalid listing status')
     clauses, params = ['s.is_test=0'], []
     if status != 'all': clauses.append('s.directory_status=?'); params.append(status)
-    if instrument == 'equities': clauses.append("s.instrument_type IN ('common_stock','depositary_receipt','equity_candidate')")
+    if instrument in ('equities', 'stocks'):
+        kinds = EQUITY_TYPES if instrument == 'equities' else STOCK_TYPES
+        clauses.append('s.instrument_type IN (' + ','.join('?' for _ in kinds) + ')'); params.extend(kinds)
     elif instrument != 'all': clauses.append('s.instrument_type=?'); params.append('equity_candidate' if instrument == 'unknown' else instrument)
     if exchange: clauses.append('s.exchange=?'); params.append(exchange)
     if query:
@@ -228,6 +239,10 @@ def _public_record(db, row):
     result['datasets'] = {kind: {'status': 'available' if kind in observations else 'not_collected', 'retrieved_at': observations.get(kind)} for kind in DATASETS}
     if 'history' in payloads and 'financials' not in observations:
         result['datasets']['financials'] = {'status': 'retained', 'retrieved_at': payloads['history']}
+    for kind, payload, scope in (('profile', 'sec_bulk_identity', 'issuer_identity_only'),
+                                 ('filings', 'submissions', 'recent_metadata_only')):
+        if payload in payloads and kind not in observations:
+            result['datasets'][kind] = {'status': 'retained', 'retrieved_at': payloads[payload], 'scope': scope}
     result['research_status'] = 'dated_review_available' if 'reviewed_research' in payloads else 'not_reviewed'
     return result
 

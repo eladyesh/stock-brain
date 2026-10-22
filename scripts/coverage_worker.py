@@ -18,6 +18,7 @@ import urllib.parse
 import financial_history as fh
 import research_pipeline as p
 import stock_brain as kb
+from coverage_store import _datetime
 
 
 def utc_now():
@@ -76,6 +77,19 @@ def has_accession(data, accession):
                         'invalid Company Facts observations')
                 found = found or any(row.get('accn') == accession for row in rows)
     return found
+
+
+def recent_filing_inventory(submissions, cik, cutoff):
+    """Keep filing metadata for foreign and non-financial forms without modeling it."""
+    rows = []
+    for row in p.filing_rows(submissions):
+        accession, filed, form = row.get('accessionNumber'), row.get('filingDate'), row.get('form')
+        kb.need(isinstance(form, str) and 0 < len(form) <= 40, 'invalid filing form')
+        kb.iso_date(filed, 'filing date', required=True)
+        kb.need(isinstance(accession, str) and re.fullmatch(r'\d{10}-\d{2}-\d{6}', accession), 'invalid filing accession')
+        if filed <= cutoff:
+            rows.append({'accession': accession, 'filed': filed, 'form': form, 'url': fh.filing_url(cik, accession)})
+    return sorted(rows, key=lambda r: (r['filed'], r['accession']), reverse=True)[:1000]
 
 
 def previous_accession(history):
@@ -277,7 +291,7 @@ class CoverageWorker:
         cik = company['cik']
         kb.need(bool(re.fullmatch(r'\d{10}', cik)), 'invalid collection CIK')
         checked_at = self.clock().astimezone(timezone.utc).isoformat()
-        cutoff = checked_at[:10]
+        cutoff = min(checked_at[:10], getattr(self.provider, 'cutoff', checked_at[:10]))
         previous = self.store.get_payload(cik, 'history')
         if previous:
             fh.validate_history(previous)
@@ -285,12 +299,20 @@ class CoverageWorker:
             kb.need(previous['as_of'] <= cutoff, 'stored history exceeds the collection cutoff')
         state = self.store.get_payload(cik, 'collector_state') or {}
         submissions, sub_source = self.provider.submissions(cik)
+        # Offline archives must not roll a newer live observation backwards.
+        for kind, incoming in (('collector_state', sub_source), ('history', sub_source)):
+            old = self.store.get_payload_record(cik, kind)
+            if old and old['metadata'].get('source'):
+                kb.need(_datetime(incoming['retrieved_at']) >= _datetime(old['metadata']['source']['retrieved_at']),
+                        'older source cannot replace newer issuer evidence')
         filings = financial_filings(submissions, cik, cutoff)
         latest = filings[0] if filings else None
         submission_payload = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'],
                               'checked_at': checked_at, 'source': sub_source,
                               'issuer': {'name': submissions.get('name'), 'cik': cik},
-                              'latest_financial_filing': latest, 'filings': filings[:100]}
+                              'latest_financial_filing': latest, 'filings': filings[:100],
+                              'recent_filing_inventory': recent_filing_inventory(submissions, cik, cutoff),
+                              'scope': 'Recent filing metadata only; older submission shards and document bodies are not collected here'}
         payloads = {'submissions': {'value': submission_payload, 'source': sub_source}}
         if latest is None:
             draft = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'], 'generated_at': checked_at,
@@ -303,11 +325,15 @@ class CoverageWorker:
             result = {'classification': 'quality_review_required', 'action': 'no_supported_filing', 'facts_fetched': False}
         else:
             processed = state.get('latest_financial_accession') or previous_accession(previous)
-            fetch_facts = previous is None or latest['accession'] != processed
+            fetch_facts = previous is None or latest['accession'] != processed or getattr(self.provider, 'force_facts', False)
             history = previous
             sources = [sub_source]
             if fetch_facts:
                 facts, fact_source = self.provider.companyfacts(cik)
+                old = self.store.get_payload_record(cik, 'history')
+                if old and old['metadata'].get('source'):
+                    kb.need(_datetime(fact_source['retrieved_at']) >= _datetime(old['metadata']['source']['retrieved_at']),
+                            'older Company Facts cannot replace newer history')
                 kb.need(has_accession(facts, latest['accession']), 'latest filing is not yet available in Company Facts; prior history retained')
                 reviews = list((previous or {}).get('normalization_reviews', []))
                 by_id = {review['review_id']: review for review in reviews}
@@ -318,6 +344,10 @@ class CoverageWorker:
                 history = fh.normalize_companyfacts(facts, company, cutoff,
                     {'fetched_at': fact_source['retrieved_at'], 'sha256': fact_source['sha256']},
                     normalization_reviews=list(by_id.values()))
+                if fact_source.get('acquisition') == 'operator_supplied_sec_bulk_archive':
+                    history['source']['acquisition'] = fact_source['acquisition']
+                    history['source']['archive'] = fact_source['archive']
+                    history['source']['raw_cache'] = None
                 expected_kind = 'annual' if latest['form'].startswith('10-K') else 'quarterly'
                 current_periods = [period for period in history['periods']
                                    if period['end'] == latest['period_end'] and period['type'] == expected_kind]

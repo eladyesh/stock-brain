@@ -23,6 +23,13 @@ classifier. Candidates include 329 unresolved instrument types. These counts are
 neither unique verified U.S. companies nor completed research profiles. The
 directories include foreign issuers listed in the U.S. and do not cover OTC.
 
+The expanded stock scope also includes preferred shares and common partnership
+units, with separate filters; packaged SPAC units remain excluded. The earlier
+counts above use the earlier classifier. `/api/coverage` reports the current
+counts and `stock_scope` explicitly separates classified listings, unresolved
+instruments and missing OTC coverage. These are name/flag classifications, not
+verified issuer counts; closed-end funds still need independent identification.
+
 The ten pilot issuers retain dated financial history, quotes and reviewed research.
 Other securities initially have directory information only. Filings, financials,
 prices, news, estimates and ownership are measured separately. Missing datasets
@@ -75,19 +82,26 @@ first scheduled run separately; do not relabel a manual test as a scheduled run.
 ## Optional authorized vendor
 
 The Financial Datasets adapter is an independent contracted source. It is not an
-SEC access workaround. All four prerequisites must be supplied through GitHub
+SEC access workaround. All five prerequisites must be supplied through GitHub
 repository secrets/variables before network acquisition becomes enabled:
 
 | Configuration | Location | Meaning |
 | --- | --- | --- |
 | `FINANCIAL_DATASETS_API_KEY` | Actions secret | Authorized server credential |
 | `STOCK_BRAIN_FD_ENABLED=1` | Actions variable | Explicit enablement |
-| `STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE=1` | Actions variable | Operator confirms rights for the public data releases/site |
+| `STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE=1` | Actions variable | Operator confirms public display rights |
+| `STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION=1` | Actions variable | Separate written permission for raw/bulk public release exports |
 | `STOCK_BRAIN_FD_MAX_DAILY_REQUESTS` | Actions variable | Explicit request allowance, 1–1,000 |
 
 Never extract a connected app's credentials or assume its interactive access grants
 server usage. Never print the key. No purchase, new service or key was made for
 this release. The default makes zero vendor requests.
+
+The October 21 provider terms prohibit raw/bulk redistribution even on standard
+redistribution plans. A display license alone is insufficient for our public
+SQLite assets. Packaging checks retained vendor data too. Two connected-provider
+probes on October 22 returned a zero-balance error and no data. See
+[SEC access and bulk ingestion](SEC_BULK.md) for source contracts and alternatives.
 
 Before requests, a create-only daily reservation in `automation/vendor-budget`
 consumes the entire daily allowance. It survives failed jobs and lost runners;
@@ -109,6 +123,18 @@ SEC access stays `STOCK_BRAIN_SEC_ENABLED=0` until the existing denial is resolv
 through legitimate provider/operator access. Do not rotate hosts, IPs, proxies or
 user agents to bypass it. Do not replace the actual contact with a fabricated one.
 
+## Offline SEC bulk path
+
+`sec_bulk.py` now supports bounded, resumable archive ingestion with CIK checks,
+per-member provenance, isolated failures, exact job claims and existing financial
+quality gates. `coverage_release.py build --sec-bulk-manifest PATH` integrates it
+before snapshot publication. It reads already legitimately acquired local archives
+and makes zero network requests. No production SEC archive has yet been acquired
+or loaded; the daily release reports `sec_bulk_collection.status=not_configured`.
+See [the operator commands and limits](SEC_BULK.md). This is not an alternate host
+for a blocked SEC downloader. Foreign-form accounting, OTC and scalable financial
+storage remain separate work items.
+
 ## Capacity and next implementation priorities
 
 This is a bounded single-writer batch system, not a claim of unlimited scale.
@@ -120,6 +146,12 @@ intraday updates or concurrent collectors will require a costed durable database
 and object-storage design before provisioning anything paid.
 
 Continue in this order, completing and verifying each unblocked item:
+
+First finish the storage design/migration before any whole-market financial
+backfill. The new archive adapter makes collection possible once legitimate
+access is available; it does not remove the existing 512 MiB public snapshot cap.
+Prepare adapters from actual authorized source samples. Never count a synthetic
+archive test as production coverage or a configured schedule as observed delivery.
 
 1. Verify first cron-triggered release, its published-byte recovery proof and live
    generation; expose stale data, source failures, coverage percentages and update
