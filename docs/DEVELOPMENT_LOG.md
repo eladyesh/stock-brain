@@ -1,5 +1,27 @@
 # Stock Brain development log
 
+## 2026-10-22 — compressed history, multipart recovery and coverage progress
+
+Added schema-6 content-addressed compressed payloads, resumable lossless migration,
+historical version reads and end-to-end payload validation during backup/recovery.
+Version-2 data releases split snapshots into bounded independently hashed chunks,
+with backward recovery of legacy single-file releases and disk-space preflights.
+The restored 512 MiB limit and public vendor-export permission gate remain active.
+
+Online claims now filter job kind before reclaiming or exhausting leases. Exact
+preferred-share symbols containing `$` round-trip through the issuer registry and
+detail API. Broad-directory progress distinguishes listings, distinct mapped
+issuers and filing checks due after 48 hours, using original source retrieval
+times. The Render site's registry displays these gaps; storage migration and
+directory refresh do not turn old financial evidence into fresh coverage.
+
+The production-data migration probe preserved all 20 pilot payloads and metadata
+exactly. Content storage fell from 3,834,793 to 244,049 bytes; the 15,564,800-byte
+compacted snapshot passed local cold recovery. See [COVERAGE_STORAGE.md](COVERAGE_STORAGE.md)
+for the successful 7,000-issuer synthetic test: 14,000 payloads, 192,098,304 database
+bytes, six release parts and complete local cold recovery. Synthetic load tests are never
+published as company information. CI, release and Render proof belong in the PR.
+
 ## 2026-10-22 — stock scope and resumable SEC bulk ingestion
 
 Expanded stock search to preferred shares and common partnership units while

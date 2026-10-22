@@ -72,7 +72,7 @@ def _identifier(value):
         return value.zfill(10) if int(value) > 0 else None
     # Match registry listing symbols, including encoded preferred/unit suffixes.
     # The identifier is only passed to a parameterized lookup, never a file path.
-    if re.fullmatch(r"[A-Z0-9][A-Z0-9.\-^/+=]{0,31}", value):
+    if re.fullmatch(r"[A-Z0-9][A-Z0-9.\-^/+=\$]{0,31}", value):
         return value
     return None
 

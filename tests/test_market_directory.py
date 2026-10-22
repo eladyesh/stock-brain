@@ -55,6 +55,32 @@ class DirectoryTests(unittest.TestCase):
         unknown = directory.list_securities(self.store, query='T1')['items'][0]
         self.assertIsNone(unknown['cik'])
 
+    def test_filing_freshness_uses_source_evidence_and_counts_issuers_separately(self):
+        self.store.seed_companies([{'cik': 123, 'ticker': 'T1', 'company_name': 'Company 0', 'exchange': 'NASDAQ'}])
+        directories = fixtures()
+        directories[0]['rows'][1]['security_name'] = 'Company 0 Class B - Common Stock'
+        directory.import_directories(self.store, directories)
+        source = {'url': 'https://data.sec.gov/submissions/CIK0000000123.json', 'sha256': 'a' * 64,
+                  'retrieved_at': (NOW - timedelta(hours=49)).isoformat()}
+        # A new stored version with old acquisition evidence is still overdue.
+        self.store.put_payload(123, 'collector_state', {'synthetic': True}, source)
+        progress = directory.directory_status(self.store)['coverage_progress']
+        self.assertEqual((progress['mapped_listings'], progress['distinct_mapped_issuers']), (2, 1))
+        self.assertEqual((progress['filing_checks']['overdue'], progress['filing_checks']['not_checked']), (2, 12))
+        listing = directory.list_securities(self.store, query='T0')['items'][0]
+        self.assertEqual(listing['filing_check']['status'], 'overdue')
+        self.assertEqual(listing['filing_check']['last_checked_at'], self.store.company(123)['payloads']['collector_state']['source']['retrieved_at'])
+        # Refreshing the directory alone cannot make filing checks recent.
+        directory.import_directories(self.store, directories)
+        self.assertEqual(directory.directory_status(self.store)['coverage_progress'], progress)
+        self.store.put_payload(123, 'collector_state', {'synthetic': True}, {**source, 'retrieved_at': NOW.isoformat()})
+        fresh = directory.directory_status(self.store)['coverage_progress']['filing_checks']
+        self.assertEqual((fresh['recent'], fresh['overdue'], fresh['not_checked']), (2, 0, 12))
+
+    def test_invalid_filing_timestamp_cannot_look_recent(self):
+        for stamp in ('not-a-date', (NOW + timedelta(days=1)).isoformat()):
+            self.assertEqual(directory._collection_check(stamp, NOW)['status'], 'invalid_timestamp')
+
     def test_malformed_truncated_duplicate_flag_and_stale_files_are_rejected(self):
         name = directory.FILES[0]
         row = ['X', 'Example - Common Stock', 'Q', 'N', 'N', '100', 'N', 'N']

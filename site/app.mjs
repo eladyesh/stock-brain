@@ -209,7 +209,7 @@ function coverageCatalog(){
   const instrument=h('select',{'aria-label':'סוג נייר'},option('equities','מניות ומועמדות',true),option('stocks','מניות שסווגו לפי הרשימה'),option('preferred','מניות בכורה'),option('partnership_unit','יחידות שותפות'),option('all','כל סוגי הניירות'),option('etf','קרנות ETF'),option('unknown','סיווג טעון בדיקה'));
   const types={common_stock:'מניה רגילה',depositary_receipt:'תעודת פיקדון',partnership_unit:'יחידת שותפות',equity_candidate:'מועמדת · סוג הנייר טרם אומת',etf:'ETF',preferred:'מניית בכורה',warrant:'כתב אופציה',unit:'יחידה',right:'זכות',debt:'חוב',managed_fund:'קרן מנוהלת'};
   const datasets={profile:'פרופיל חברה',financials:'דוחות כספיים',prices:'מחירי מסחר',filings:'דיווחים',news:'חדשות',estimates:'תחזיות אנליסטים',ownership:'בעלי מניות'};
-  const results=h('div',{'aria-live':'polite'}),detail=h('div',{}),summary=h('p',{class:'caption'}),coverageInfo=h('p',{class:'caption'});
+  const results=h('div',{'aria-live':'polite'}),detail=h('div',{}),summary=h('p',{class:'caption'}),coverageInfo=h('p',{class:'caption'}),progressInfo=h('p',{class:'caption','aria-label':'התקדמות כיסוי המידע'});
   let offset=0,total=0;
   const load=async()=>{
     const token=++catalogToken;results.replaceChildren(note('טוען חברות…'));detail.replaceChildren();
@@ -221,6 +221,8 @@ function coverageCatalog(){
       total=page.total;summary.textContent=total+' ניירות תואמים · '+(total?offset+1:0)+'–'+Math.min(offset+25,total)+' מוצגים · רשימה נבדקה: '+date(page.directory?.imported_at)+(page.directory?.status==='stale'?' · העדכון היומי מתעכב':'');
       const counts=page.directory?.data_coverage||{};
       coverageInfo.textContent='כיסוי מידע בכל המרשם: דוחות כספיים '+(counts.financials||0)+' · מחירים '+(counts.prices||0)+' · מחקר שנבדק '+(counts.reviewed_research||0)+'. כל נתון נשמר עם תאריך המקור שלו.';
+      const progress=page.directory?.coverage_progress,checks=progress?.filing_checks;
+      progressInfo.textContent=progress?'מניות ומועמדות במאגר: '+progress.total_listings+' · קישור לזהות חברה: '+progress.mapped_listings+' · ממתינות לקישור: '+progress.unmapped_listings+' · חברות מזוהות שונות: '+progress.distinct_mapped_issuers+'. בדיקת דיווחים ב־48 השעות האחרונות: '+(checks?.recent||0)+' · בדיקה מתעכבת: '+(checks?.overdue||0)+' · טרם נבדקו: '+(checks?.not_checked||0)+'. עדכון רשימת המסחר אינו עדכון של דוחות החברה.':'';
       results.replaceChildren(...page.items.map(row=>h('article',{class:'registry-row'},h('div',{},h('h3',{dir:'auto'},row.security_name||row.ticker),h('p',{class:'caption',dir:'auto'},row.ticker+' · '+row.exchange+(row.cik?' · CIK '+row.cik:'')),h('p',{class:'caption'},types[row.instrument_type]||'סוג אחר', ' · ',row.datasets?.financials?.retrieved_at?'קיימים נתונים פיננסיים מתוארכים':'נתונים פיננסיים טרם נאספו')),button('פתח נייר ←',()=>openSecurity(row.listing_key),'text-button'))));
       if(!page.items.length)results.append(note('לא נמצאו חברות במסנן הזה.'));
       previous.disabled=offset===0;next.disabled=offset+25>=total;
@@ -236,6 +238,7 @@ function coverageCatalog(){
       const rows=Object.entries(datasets).map(([key,label])=>{const value=security.datasets?.[key];return h('tr',{},h('td',{},label),h('td',{},value?.retrieved_at?'נאסף · '+date(value.retrieved_at):'טרם נאסף'));});
       detail.replaceChildren(card(security.security_name,h('div',{},h('p',{dir:'auto'},security.ticker+' · '+security.exchange+' · '+(types[security.instrument_type]||'סוג אחר')),
         note(security.cik?'זהות המנפיק מקושרת. כל תחום מידע מוצג לפי מועד האיסוף שלו.':'זהות המנפיק עדיין דורשת קישור מאומת. רישום נייר למסחר אינו מחקר על החברה.'),
+        h('p',{class:'caption'},'בדיקת דיווחים אחרונה: '+date(security.filing_check?.last_checked_at)+(security.filing_check?.status==='overdue'?' · נדרשת בדיקה חדשה':security.filing_check?.status==='recent'?' · נבדק ב־48 השעות האחרונות':' · בדיקה עדכנית טרם הושלמה')),
         h('div',{class:'table-wrap'},h('table',{},h('tbody',{},...rows))),
         h('p',{class:'caption'},'רשימת המסחר נשלפה: '+date(security.source?.retrieved_at)+' · תאריך קובץ המקור: '+date(security.source?.file_created_at_local)),
         link('רשימת המסחר המקורית ↗',security.source?.url),
@@ -269,7 +272,7 @@ function coverageCatalog(){
   };
   const previous=button('הקודם',()=>{offset=Math.max(0,offset-25);load();}),next=button('הבא',()=>{offset+=25;load();});
   const form=h('form',{class:'section-tools',onSubmit:e=>{e.preventDefault();offset=0;load();}},query,instrument,h('button',{type:'submit',class:'primary'},'חפש'));
-  const body=card('חיפוש מניות בארה״ב',h('div',{},scope,form,summary,coverageInfo,results,h('div',{class:'section-tools'},previous,next)));
+  const body=card('חיפוש מניות בארה״ב',h('div',{},scope,form,summary,coverageInfo,progressInfo,results,h('div',{class:'section-tools'},previous,next)));
   load();
   return [body,detail];
 }

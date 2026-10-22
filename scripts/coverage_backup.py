@@ -37,6 +37,8 @@ import sqlite3
 import tempfile
 import time
 
+import payload_codec
+
 
 MANIFEST_VERSION = 1
 FORMAT = 'stock-brain-sqlite-online-backup'
@@ -152,6 +154,10 @@ def _check(connection, full=False):
     result = connection.execute('PRAGMA integrity_check' if full else 'PRAGMA quick_check').fetchall()
     if result != [('ok',)]:
         raise BackupError('SQLite integrity check failed: ' + repr(result[:5]))
+    try:
+        payload_codec.validate_snapshot(connection)
+    except payload_codec.PayloadIntegrityError as error:
+        raise BackupError('Company payload integrity check failed') from error
 
 
 def _snapshot_stats(connection):
@@ -227,7 +233,7 @@ def status(snapshot, manifest=None):
     return result
 
 
-def backup(source, target, *, replace=False, timeout=300):
+def backup(source, target, *, replace=False, timeout=300, compact=False):
     """Create a standalone, consistent SQLite online backup and its manifest."""
     source, target = _path(source), _path(target)
     _file(source)
@@ -262,6 +268,9 @@ def backup(source, target, *, replace=False, timeout=300):
                 reader.backup(writer, pages=256, progress=progress, sleep=0.05)
                 writer.execute('PRAGMA trusted_schema=OFF')
                 writer.execute('PRAGMA journal_mode=DELETE')
+                if compact:
+                    # This is a private copied snapshot, never the live source.
+                    writer.execute('VACUUM')
                 _check(writer, full=True)
                 stats = _snapshot_stats(writer)
             _no_sidecars(temporary)

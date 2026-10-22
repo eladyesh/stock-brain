@@ -17,14 +17,17 @@ import sqlite3
 from urllib.parse import urlsplit
 import uuid
 
+import payload_codec
+import coverage_storage
+
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = 5
+SCHEMA_VERSION = 6
 MAX_RETRY_SECONDS = 24 * 60 * 60
 ACTIVE_JOB_STATUSES = ('queued', 'running', 'retry')
 JOB_STATUSES = (*ACTIVE_JOB_STATUSES, 'completed', 'failed', 'blocked')
 KIND = re.compile(r'[a-z][a-z0-9_]{0,63}\Z')
-TICKER = re.compile(r'[A-Z0-9][A-Z0-9.\-^/+=]{0,31}\Z')
+TICKER = re.compile(r'[A-Z0-9][A-Z0-9.\-^/+=\$]{0,31}\Z')
 SCOPE = ('Imported or seeded issuer/listing registry only. Source-relative snapshot completeness '
          'does not establish all U.S.-listed securities, collected data, or reviewed research.')
 
@@ -239,6 +242,14 @@ MIGRATIONS = {1: [
         run_key TEXT NOT NULL, phase TEXT NOT NULL, cik TEXT NOT NULL,
         error TEXT NOT NULL, observed_at TEXT NOT NULL,
         PRIMARY KEY(run_key,phase,cik))''',
+], 6: [
+    '''CREATE TABLE payload_objects (
+        sha256 TEXT PRIMARY KEY CHECK(length(sha256)=64), codec TEXT NOT NULL,
+        raw_size INTEGER NOT NULL CHECK(raw_size>0 AND raw_size<=67108864),
+        data BLOB NOT NULL, created_at TEXT NOT NULL)''',
+    '''ALTER TABLE company_payloads ADD COLUMN object_sha256 TEXT REFERENCES payload_objects(sha256)''',
+    '''CREATE INDEX company_payloads_objects ON company_payloads(object_sha256) WHERE object_sha256 IS NOT NULL''',
+    '''CREATE INDEX jobs_claim_kind ON jobs(kind,status,available_at,id)''',
 ]}
 
 
@@ -483,22 +494,32 @@ class CoverageStore:
         encoded = _json(value)
         require(len(encoded.encode()) <= 64 * 1024 * 1024, 'company payload exceeds 64 MiB')
         evidence = _source(source, now) if source is not None else None
-        return kind, encoded, _hash(encoded), evidence
+        return kind, encoded, _hash(encoded), evidence, payload_codec.pack(encoded)
+
+    @staticmethod
+    def _store_object(db, sha, packed, now):
+        inserted = db.execute('''INSERT OR IGNORE INTO payload_objects(sha256,codec,raw_size,data,created_at)
+                              VALUES (?,?,?,?,?)''', (sha, packed['codec'], packed['raw_size'], packed['data'], now))
+        if not inserted.rowcount:
+            existing = db.execute('SELECT sha256,codec,raw_size,data FROM payload_objects WHERE sha256=?', (sha,)).fetchone()
+            payload_codec.unpack(*existing)
 
     @staticmethod
     def _put_payload(db, cik, prepared, now):
-        kind, encoded, sha, evidence = prepared
+        kind, encoded, sha, evidence, packed = prepared
         source_json = _json(evidence) if evidence is not None else None
         old = db.execute('SELECT version,sha256,source_json FROM company_payloads WHERE cik=? AND kind=? ORDER BY version DESC LIMIT 1',
                          (cik, kind)).fetchone()
         if old and old['sha256'] == sha and old['source_json'] == source_json:
             return sha
+        if packed:
+            CoverageStore._store_object(db, sha, packed, now)
         db.execute('''INSERT INTO company_payloads
-            (cik,kind,version,sha256,value_json,stored_at,source_url,source_sha256,source_retrieved_at,source_json)
-            VALUES (?,?,?,?,?,?,?,?,?,?)''',
-            (cik, kind, old['version'] + 1 if old else 1, sha, encoded, now,
+            (cik,kind,version,sha256,value_json,stored_at,source_url,source_sha256,source_retrieved_at,source_json,object_sha256)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?)''',
+            (cik, kind, old['version'] + 1 if old else 1, sha, '' if packed else encoded, now,
              evidence['url'] if evidence else None, evidence['sha256'] if evidence else None,
-             evidence['retrieved_at'] if evidence else None, source_json))
+             evidence['retrieved_at'] if evidence else None, source_json, sha if packed else None))
         return sha
 
     def put_payload(self, cik, kind, value, source=None):
@@ -535,23 +556,53 @@ class CoverageStore:
                 return None
             return self._put_payload(db, cik, prepared, _stamp(self._now()))
 
-    def get_payload_record(self, cik, kind):
+    def get_payload_record(self, cik, kind, *, version=None):
         """Read one payload and its CAS metadata together from a single snapshot."""
         cik, kind = normalize_cik(cik), _kind(kind)
+        require(version is None or type(version) is int and version > 0, 'version must be a positive integer')
         with self._connection() as db:
-            row = db.execute('''SELECT value_json,version,sha256,stored_at,source_json FROM company_payloads
-                                WHERE cik=? AND kind=? ORDER BY version DESC LIMIT 1''', (cik, kind)).fetchone()
+            row = db.execute('''SELECT p.value_json,p.version,p.sha256,p.stored_at,p.source_json,p.object_sha256,
+                                o.codec,o.raw_size,o.data FROM company_payloads p
+                                LEFT JOIN payload_objects o ON o.sha256=p.object_sha256
+                                WHERE p.cik=? AND p.kind=? AND (? IS NULL OR p.version=?)
+                                ORDER BY p.version DESC LIMIT 1''', (cik, kind, version, version)).fetchone()
             if not row:
                 return None
-            return {'value': json.loads(row['value_json']),
+            if row['object_sha256'] is not None:
+                if row['object_sha256'] != row['sha256'] or row['value_json'] != '':
+                    raise payload_codec.PayloadIntegrityError('invalid payload object reference')
+                value = payload_codec.unpack(row['sha256'], row['codec'], row['raw_size'], row['data'])
+            else:
+                value = json.loads(row['value_json'])
+            return {'value': value,
                     'metadata': {'version': row['version'], 'sha256': row['sha256'], 'stored_at': row['stored_at'],
                                  'source': json.loads(row['source_json']) if row['source_json'] else None}}
 
     def get_payload(self, cik, kind):
-        cik, kind = normalize_cik(cik), _kind(kind)
-        with self._connection() as db:
-            row = db.execute('SELECT value_json FROM company_payloads WHERE cik=? AND kind=? ORDER BY version DESC LIMIT 1', (cik, kind)).fetchone()
-            return json.loads(row['value_json']) if row else None
+        record = self.get_payload_record(cik, kind)
+        return record['value'] if record else None
+
+    def compact_payloads(self, limit=100):
+        """Resume legacy JSON compaction in bounded transactions without deleting versions."""
+        require(type(limit) is int and 1 <= limit <= 1000, 'compaction limit must be 1..1000')
+        converted = 0
+        with self._connection(write=True) as db:
+            ids = [r[0] for r in db.execute('''SELECT id FROM company_payloads
+                WHERE object_sha256 IS NULL AND length(CAST(value_json AS BLOB))>=?
+                ORDER BY id LIMIT ?''', (payload_codec.COMPRESS_AT, limit))]
+            for row_id in ids:
+                row = db.execute('SELECT id,sha256,value_json,stored_at FROM company_payloads WHERE id=?', (row_id,)).fetchone()
+                require(_hash(row['value_json']) == row['sha256'], 'legacy payload digest mismatch')
+                packed = payload_codec.pack(row['value_json'])
+                # Validate before replacing the last inline copy of the historical value.
+                payload_codec.unpack(row['sha256'], packed['codec'], packed['raw_size'], packed['data'])
+                self._store_object(db, row['sha256'], packed, row['stored_at'])
+                db.execute("UPDATE company_payloads SET value_json='',object_sha256=sha256 WHERE id=?", (row['id'],))
+                converted += 1
+            remaining = db.execute('''SELECT count(*) FROM company_payloads
+                WHERE object_sha256 IS NULL AND length(CAST(value_json AS BLOB))>=?''', (payload_codec.COMPRESS_AT,)).fetchone()[0]
+        return {'converted': converted, 'remaining': remaining, 'complete': remaining == 0,
+                'versions_removed': 0}
 
     @staticmethod
     def _job(row):
@@ -663,17 +714,27 @@ class CoverageStore:
                        (source, 'paused', stamp, _json({'blocked_until': _stamp(until), 'error': error})))
             return self._source_state(db.execute('SELECT * FROM source_limits WHERE source=?', (source,)).fetchone(), source, moment)
 
-    def claim(self, worker_id, now=None, lease_seconds=300, *, job_id=None):
+    def claim(self, worker_id, now=None, lease_seconds=300, *, job_id=None, kind=None):
         worker_id = _text(worker_id, 'worker ID', 200)
         require(type(lease_seconds) is int and 1 <= lease_seconds <= 86_400, 'lease_seconds must be 1..86400')
         require(job_id is None or type(job_id) is int and job_id > 0, 'invalid requested job ID')
+        if kind is not None:
+            kind = _kind(kind)
         with self._connection(write=True) as db:
             moment = _datetime(now) if now is not None else self._now()
             stamp, expires = _stamp(moment), _stamp(moment + timedelta(seconds=lease_seconds))
+            scope, args = [], [stamp, stamp]
+            if job_id is not None:
+                scope.append('id=?')
+                args.append(job_id)
+            if kind is not None:
+                scope.append('kind=?')
+                args.append(kind)
+            predicate = ' AND ' + ' AND '.join(scope) if scope else ''
             while True:
                 row = db.execute('''SELECT * FROM jobs WHERE
                     ((status IN ('queued','retry') AND available_at<=?) OR (status='running' AND lease_expires_at<=?))
-                    AND (? IS NULL OR id=?) ORDER BY available_at,id LIMIT 1''', (stamp, stamp, job_id, job_id)).fetchone()
+                    ''' + predicate + ' ORDER BY available_at,id LIMIT 1', args).fetchone()
                 if not row:
                     return None
                 if row['attempts'] >= row['max_attempts']:
@@ -762,4 +823,5 @@ class CoverageStore:
                            'source_blocked': [dict(r) for r in db.execute("SELECT id,cik,kind,error,updated_at FROM jobs WHERE status='blocked' ORDER BY id DESC LIMIT 10")],
                            'sources': {r['source']: self._source_state(r, r['source'], self._now()) for r in db.execute('SELECT * FROM source_limits ORDER BY source')},
                            'scope': SCOPE})
+            counts['storage'] = coverage_storage.status(self)
             return counts
