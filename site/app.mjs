@@ -218,10 +218,16 @@ function coverageCatalog(){
       if(!response.ok)throw Error('registry unavailable');
       const page=await response.json();if(!Array.isArray(page.items)||!Number.isInteger(page.total))throw Error('invalid registry');
       if(token!==catalogToken)return;
+      if(page.directory?.status==='unavailable'){
+        summary.textContent='';coverageInfo.textContent='';progressInfo.textContent='';
+        results.replaceChildren(note('מאגר המניות נטען כעת. אפשר לחפש שוב בעוד רגע.'));
+        previous.disabled=true;next.disabled=true;return;
+      }
       total=page.total;summary.textContent=total+' ניירות תואמים · '+(total?offset+1:0)+'–'+Math.min(offset+25,total)+' מוצגים · רשימה נבדקה: '+date(page.directory?.imported_at)+(page.directory?.status==='stale'?' · העדכון היומי מתעכב':'');
       const counts=page.directory?.data_coverage||{};
       coverageInfo.textContent='כיסוי מידע בכל המרשם: דוחות כספיים '+(counts.financials||0)+' · מחירים '+(counts.prices||0)+' · מחקר שנבדק '+(counts.reviewed_research||0)+'. כל נתון נשמר עם תאריך המקור שלו.';
       const progress=page.directory?.coverage_progress,checks=progress?.filing_checks;
+      if(state.tab==='coverage'&&progress)$('coverage-count').textContent=progress.total_listings+' מניות ומועמדות בחיפוש';
       progressInfo.textContent=progress?'מניות ומועמדות במאגר: '+progress.total_listings+' · קישור לזהות חברה: '+progress.mapped_listings+' · ממתינות לקישור: '+progress.unmapped_listings+' · חברות מזוהות שונות: '+progress.distinct_mapped_issuers+'. בדיקת דיווחים ב־48 השעות האחרונות: '+(checks?.recent||0)+' · בדיקה מתעכבת: '+(checks?.overdue||0)+' · טרם נבדקו: '+(checks?.not_checked||0)+'. עדכון רשימת המסחר אינו עדכון של דוחות החברה.':'';
       results.replaceChildren(...page.items.map(row=>h('article',{class:'registry-row'},h('div',{},h('h3',{dir:'auto'},row.security_name||row.ticker),h('p',{class:'caption',dir:'auto'},row.ticker+' · '+row.exchange+(row.cik?' · CIK '+row.cik:'')),h('p',{class:'caption'},types[row.instrument_type]||'סוג אחר', ' · ',row.datasets?.financials?.retrieved_at?'קיימים נתונים פיננסיים מתוארכים':'נתונים פיננסיים טרם נאספו')),button('פתח נייר ←',()=>openSecurity(row.listing_key),'text-button'))));
       if(!page.items.length)results.append(note('לא נמצאו חברות במסנן הזה.'));
@@ -311,6 +317,9 @@ function updates(){
 function navigate(tab){state.tab=tab;renderNavigation();renderContent();}
 function renderNavigation(){
   $('page-title').textContent=NAV.find(n=>n[0]===state.tab)[2];
+  const broad=state.tab==='coverage';
+  for(const id of ['reviewed-search','reviewed-companies-heading','companies'])$(id).hidden=broad;
+  $('coverage-count').textContent=broad?'חיפוש במרשם המניות':data.companies.length+' חברות במחקר המעמיק';
   $('navigation').replaceChildren(...NAV.map(([id,icon,label])=>h('button',{type:'button',class:'nav-button '+(state.tab===id?'active':''),'aria-current':state.tab===id?'page':null,onClick:()=>navigate(id)},h('span',{class:'nav-icon','aria-hidden':'true'},icon),label)));
 }
 function renderCompanies(){
@@ -320,7 +329,7 @@ function renderCompanies(){
 function renderContent(){
   const c=company();
   const pages={overview:()=>overview(c),financials:()=>financials(c),compare,scenarios:()=>scenarios(c),updates,coverage:coverageCatalog};
-  const warning=data.refresh_status?.status==='partial'?note('עדכון הנתונים האחרון היה חלקי. שגיאות המקור מוצגות במעקב; נתונים קודמים נשמרו עם תאריכיהם.','amber'):null;
+  const warning=state.tab!=='coverage'&&data.refresh_status?.status==='partial'?note('עדכון הנתונים האחרון היה חלקי. שגיאות המקור מוצגות במעקב; נתונים קודמים נשמרו עם תאריכיהם.','amber'):null;
   $('content').replaceChildren(...(warning?[warning]:[]),...pages[state.tab]());
 }
 async function runQuestion(question){

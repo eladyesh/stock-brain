@@ -8,6 +8,7 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
   const {document,window}=parseHTML(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8'));
   globalThis.document=document;globalThis.Node=window.Node;
   const priorFetch=globalThis.fetch,requests=[];
+  let warming=false;
   const issuer={cik:'0000000123',ticker:'SYNTH',company_name:'Synthetic Issuer',listings:[{ticker:'SYNTH'}],collection_status:'registry-only'};
   const security={listing_key:'a'.repeat(32),security_name:'Synthetic Issuer',ticker:'SYNTH',exchange:'NASDAQ',cik:issuer.cik,instrument_type:'common_stock',datasets:{},source:{url:'https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt'}};
   const detail={company:issuer,collection_status:'review-required',research:{as_of:null,canonical_reviewed:false},
@@ -21,9 +22,9 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     }],limitations:[]}},ttm:null};
   globalThis.fetch=async url=>{
     requests.push(url);
-    const value=url.startsWith('./api/securities?')?{items:[security],total:50000,limit:25,offset:0,
+    const value=url.startsWith('./api/securities?')?(warming?{items:[],total:0,directory:{status:'unavailable'}}:{items:[security],total:50000,limit:25,offset:0,
       directory:{coverage_progress:{total_listings:50000,mapped_listings:2,unmapped_listings:49998,distinct_mapped_issuers:1,
-        filing_checks:{recent:0,overdue:2,not_checked:49998}}}}:
+        filing_checks:{recent:0,overdue:2,not_checked:49998}}}}):
       url==='./api/securities/'+security.listing_key?{security}:
       url==='./api/companies/0000000123'?detail:snapshot;
     return {ok:true,json:async()=>structuredClone(value)};
@@ -38,6 +39,9 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     assert(document.getElementById('content').textContent.includes('ממתינות לקישור: 49998'));
     assert(document.getElementById('content').textContent.includes('חברות מזוהות שונות: 1'));
     assert(document.getElementById('content').textContent.includes('בדיקה מתעכבת: 2'));
+    assert(document.getElementById('companies').hidden);
+    assert(document.getElementById('reviewed-search').hidden);
+    assert(document.getElementById('coverage-count').textContent.includes('50000'));
     document.querySelector('.registry-row button').click();await settle();
     assert(document.getElementById('content').textContent.includes('תחזיות אנליסטים'));
     assert(document.getElementById('content').textContent.includes('טרם נאסף'));
@@ -55,5 +59,11 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     assert(!text.includes('NaN'));
     [...document.querySelectorAll('button')].find(x=>x.textContent==='הבא').click();await settle();
     assert(requests.some(x=>x.includes('limit=25&offset=25')));
+    warming=true;
+    [...document.querySelectorAll('button')].find(x=>x.textContent==='הבא').click();await settle();
+    assert(document.getElementById('content').textContent.includes('מאגר המניות נטען כעת'));
+    assert(!document.getElementById('content').textContent.includes('0 ניירות תואמים'));
+    [...document.querySelectorAll('.nav-button')].find(x=>x.textContent.includes('תמונת המחקר')).click();
+    assert(!document.getElementById('companies').hidden);
   }finally{globalThis.fetch=priorFetch;}
 });
