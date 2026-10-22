@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "ticker": "RTX",
+  "as_of": "2026-10-20",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI — source-backed earnings comparison; not independent human review",
+  "current_period": "Quarter ended 2026-09-30; FY2026 guidance issued 2026-10-20",
+  "previous_period": "Quarter ended 2026-06-30; FY2026 guidance issued 2026-07-23",
+  "summary_en": "The full-year sales, EPS and cash outlook rose and defense backlog expanded. The earnings-quality check became more important: adjusted profit includes IEEPA recovery, Pratt excluded a new customer-bankruptcy charge, and quarterly cash flow fell. The thesis is stronger on demand, conditional on cash delivery and repeatable earnings.",
+  "summary_he": "תחזיות המכירות, הרווח למניה והמזומן לשנה כולה עלו והצבר הביטחוני גדל. בדיקת איכות הרווח נעשתה חשובה יותר: הרווח המתואם כולל החזר IEEPA, Pratt החריגה הוצאה חדשה בגין פשיטת רגל של לקוח והתזרים הרבעוני ירד. התזה התחזקה בצד הביקוש, והיא תלויה בהשגת תזרים וברווחיות שניתן לשמר.",
+  "changes": [
+    {
+      "id": "RTX-T01",
+      "topic": "Full-year adjusted sales guidance",
+      "before": {
+        "label": "July 23, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "July guidance: FY2026 adjusted sales USD 95.0–96.0 billion.",
+        "text_he": "תחזית יולי: מכירות מתואמות לשנת 2026 של 95.0–96.0 מיליארד דולר.",
+        "value": [
+          95.0,
+          96.0
+        ],
+        "unit": "USD billion",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026 / guidance bullets"
+        ]
+      },
+      "after": {
+        "label": "October 20, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "October guidance: FY2026 adjusted sales USD 97.0–97.5 billion; organic growth guidance also increased from 8–9% to 10–11%.",
+        "text_he": "תחזית אוקטובר: מכירות מתואמות לשנת 2026 של 97.0–97.5 מיליארד דולר; תחזית הצמיחה האורגנית עלתה גם היא מ־8–9% ל־10–11%.",
+        "value": [
+          97.0,
+          97.5
+        ],
+        "unit": "USD billion",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026 / guidance bullets"
+        ]
+      },
+      "interpretation_en": "Interpretation: the raised range strengthens the revenue-execution case. It remains a non-GAAP management forecast and does not establish a valuation or future margin.",
+      "interpretation_he": "פרשנות: העלאת הטווח מחזקת את הצפי לביצועי ההכנסות. זו עדיין תחזית הנהלה לפי non-GAAP, והיא אינה קובעת שווי או שיעור רווח עתידי."
+    },
+    {
+      "id": "RTX-T02",
+      "topic": "Full-year adjusted EPS guidance",
+      "before": {
+        "label": "July 23, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "July guidance: FY2026 adjusted EPS USD 7.10–7.25.",
+        "text_he": "תחזית יולי: רווח מתואם למניה בשנת 2026 של 7.10–7.25 דולר.",
+        "value": [
+          7.1,
+          7.25
+        ],
+        "unit": "USD per share",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026 / guidance bullets"
+        ]
+      },
+      "after": {
+        "label": "October 20, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "October guidance: FY2026 adjusted EPS USD 7.65–7.75. Q3 adjusted EPS of USD 2.26 includes USD 0.25 of IEEPA recovery.",
+        "text_he": "תחזית אוקטובר: רווח מתואם למניה בשנת 2026 של 7.65–7.75 דולר. הרווח המתואם ברבעון השלישי, 2.26 דולר, כולל החזר IEEPA של 0.25 דולר.",
+        "value": [
+          7.65,
+          7.75
+        ],
+        "unit": "USD per share",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026; Third quarter 2026 / IEEPA recovery"
+        ]
+      },
+      "interpretation_en": "Interpretation: the earnings outlook improved, but the quarter includes a disclosed cost recovery. Treating the entire EPS increase as recurring operating improvement would overstate the evidence.",
+      "interpretation_he": "פרשנות: תחזית הרווח השתפרה, אך הרבעון כולל החזר עלויות שדווח במפורש. ייחוס מלוא העלייה ברווח למניה לשיפור תפעולי חוזר יחרוג מן הראיות."
+    },
+    {
+      "id": "RTX-T03",
+      "topic": "Full-year free-cash-flow guidance",
+      "before": {
+        "label": "July 23, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "July guidance: FY2026 free cash flow USD 8.50–8.75 billion.",
+        "text_he": "תחזית יולי: תזרים חופשי בשנת 2026 של 8.50–8.75 מיליארד דולר.",
+        "value": [
+          8.5,
+          8.75
+        ],
+        "unit": "USD billion",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026 / guidance bullets"
+        ]
+      },
+      "after": {
+        "label": "October 20, 2026 outlook for FY2026",
+        "kind": "management_guidance",
+        "text_en": "October guidance: FY2026 free cash flow USD 9.0–9.2 billion.",
+        "text_he": "תחזית אוקטובר: תזרים חופשי בשנת 2026 של 9.0–9.2 מיליארד דולר.",
+        "value": [
+          9.0,
+          9.2
+        ],
+        "unit": "USD billion",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Updates outlook for full year 2026 / guidance bullets"
+        ]
+      },
+      "interpretation_en": "Interpretation: the cash-recovery thesis now has a higher company target to test. The reported nine-month result is below the annual target; the remaining quarter must still deliver it.",
+      "interpretation_he": "פרשנות: לתזת התאוששות המזומן יש כעת יעד חברה גבוה יותר שאפשר לבחון. התוצאה המדווחת לתשעת החודשים נמוכה מהיעד השנתי; הרבעון הנותר עדיין צריך להשלים אותו."
+    },
+    {
+      "id": "RTX-T04",
+      "topic": "Defense backlog",
+      "before": {
+        "label": "June 30, 2026 backlog",
+        "kind": "reported",
+        "text_en": "Defense backlog USD 119 billion; total backlog USD 289 billion, including commercial backlog USD 170 billion.",
+        "text_he": "צבר ביטחוני של 119 מיליארד דולר; צבר כולל של 289 מיליארד, כולל צבר מסחרי של 170 מיליארד.",
+        "value": 119,
+        "unit": "USD billion",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Second quarter 2026 highlights / backlog"
+        ]
+      },
+      "after": {
+        "label": "September 30, 2026 backlog",
+        "kind": "reported",
+        "text_en": "Defense backlog USD 164 billion; total backlog USD 340 billion, including commercial backlog USD 176 billion. Q3 awards included undefinitized Tomahawk and AMRAAM multiyear production contracts.",
+        "text_he": "צבר ביטחוני של 164 מיליארד דולר; צבר כולל של 340 מיליארד, כולל צבר מסחרי של 176 מיליארד. הזכיות ברבעון השלישי כללו חוזי ייצור רב־שנתיים ל־Tomahawk ול־AMRAAM שתנאיהם טרם סוכמו סופית.",
+        "value": 164,
+        "unit": "USD billion",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Third quarter 2026 highlights / backlog and undefinitized contracts"
+        ]
+      },
+      "interpretation_en": "Interpretation: the increase supports defense demand visibility. Undefinitized awards and backlog size alone do not establish final contract economics, shipment dates or cash conversion.",
+      "interpretation_he": "פרשנות: הגידול תומך בנראות הביקוש הביטחוני. חוזים שתנאיהם טרם סוכמו וגודל הצבר לבדם אינם קובעים את כלכלת החוזה הסופית, מועדי המסירה או קצב ההמרה למזומן."
+    },
+    {
+      "id": "RTX-T05",
+      "topic": "Pratt & Whitney customer-credit charge",
+      "before": {
+        "label": "Quarter ended June 30, 2026",
+        "kind": "reported",
+        "text_en": "The Q2 reconciliation shows no current-quarter customer-bankruptcy charge at Pratt & Whitney.",
+        "text_he": "בהתאמת הרבעון השני לא מופיעה הוצאה בגין פשיטת רגל של לקוח ב־Pratt & Whitney ברבעון הנוכחי.",
+        "value": 0,
+        "unit": "USD million",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Adjusted operating profit reconciliation / Pratt & Whitney / Customer bankruptcy, Q2 2026 column, lines 808–811"
+        ]
+      },
+      "after": {
+        "label": "Quarter ended September 30, 2026",
+        "kind": "reported",
+        "text_en": "Q3 includes a USD 363 million Pratt & Whitney customer-bankruptcy charge, excluded from adjusted profit. Reported segment operating profit was USD 608 million versus USD 751 million a year earlier.",
+        "text_he": "הרבעון השלישי כולל הוצאה של 363 מיליון דולר ב־Pratt & Whitney בשל פשיטת רגל של לקוח, שהוחרגה מהרווח המתואם. הרווח התפעולי המדווח של המגזר היה 608 מיליון דולר לעומת 751 מיליון שנה קודם.",
+        "value": 363,
+        "unit": "USD million",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Pratt & Whitney results; adjusted operating profit reconciliation / Customer bankruptcy"
+        ]
+      },
+      "interpretation_en": "Interpretation: the new credit loss complicates the improved adjusted-earnings story. The issuer classifies the charge as unusual; recurrence would weaken the case for treating such losses as outside normal economics.",
+      "interpretation_he": "פרשנות: הפסד האשראי החדש מסבך את תמונת השיפור ברווח המתואם. החברה מסווגת את ההוצאה כחריגה; הישנות תחליש את ההצדקה לראות הפסדים כאלה כמחוץ לכלכלה השוטפת."
+    },
+    {
+      "id": "RTX-T06",
+      "topic": "Quarterly cash conversion",
+      "before": {
+        "label": "Quarter ended June 30, 2026",
+        "kind": "reported",
+        "text_en": "Q2 free cash flow USD 2,878 million, equal to operating cash flow USD 3,547 million less capital expenditures USD 669 million.",
+        "text_he": "התזרים החופשי ברבעון השני היה 2,878 מיליון דולר: תזרים תפעולי של 3,547 מיליון פחות השקעות הוניות של 669 מיליון.",
+        "value": 2878,
+        "unit": "USD million",
+        "source_ids": [
+          "S06"
+        ],
+        "locators": [
+          "Free Cash Flow Reconciliation / quarter ended June 30, 2026"
+        ]
+      },
+      "after": {
+        "label": "Quarter ended September 30, 2026",
+        "kind": "reported",
+        "text_en": "Q3 free cash flow USD 2,119 million, equal to operating cash flow USD 2,868 million less capital expenditures USD 749 million. The year-earlier Q3 free cash flow was USD 4,025 million; nine-month free cash flow rose to USD 6,306 million from USD 4,745 million.",
+        "text_he": "התזרים החופשי ברבעון השלישי היה 2,119 מיליון דולר: תזרים תפעולי של 2,868 מיליון פחות השקעות הוניות של 749 מיליון. התזרים החופשי ברבעון המקביל אשתקד היה 4,025 מיליון דולר; התזרים לתשעת החודשים עלה ל־6,306 מיליון מ־4,745 מיליון.",
+        "value": 2119,
+        "unit": "USD million",
+        "source_ids": [
+          "S05"
+        ],
+        "locators": [
+          "Free Cash Flow Reconciliation / quarter and nine months ended September 30"
+        ]
+      },
+      "interpretation_en": "Interpretation: cash did not improve in step with headline quarterly earnings. One quarter does not establish structural deterioration, because year-to-date cash improved; the annual cash target and working-capital detail are the next tests.",
+      "interpretation_he": "פרשנות: המזומן לא השתפר במקביל לרווח הרבעוני שבכותרת. רבעון אחד אינו מוכיח הידרדרות מבנית, משום שהתזרים המצטבר השתפר; היעד השנתי ופירוט ההון החוזר הם המבחנים הבאים."
+    }
+  ],
+  "falsifiers": [
+    {
+      "id": "RTX-F01",
+      "metric": "FY2026 issuer-defined free cash flow",
+      "threshold": {
+        "operator": "<",
+        "value": 9000,
+        "unit": "USD million"
+      },
+      "cadence": "At the FY2026 results release and every intervening guidance update",
+      "window": "Year ending 2026-12-31",
+      "assumption_kind": "analyst_monitoring_rule",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": [
+        "Updates outlook for full year 2026 / free cash flow; Free Cash Flow Reconciliation / nine months"
+      ],
+      "text_en": "A FY2026 result or revised full-year guidance below USD 9,000 million would break the newly raised cash-flow floor. With nine-month FCF of USD 6,306 million, at least USD 2,694 million in Q4 is needed to reach that floor.",
+      "text_he": "תוצאה לשנת 2026 או תחזית שנתית מעודכנת הנמוכה מ־9,000 מיליון דולר תשבור את הרף התחתון החדש לתזרים. לאחר תזרים של 6,306 מיליון בתשעת החודשים, דרושים לפחות 2,694 מיליון ברבעון הרביעי כדי להגיע לרף.",
+      "assumption_en": "The USD 9,000 million floor is company guidance; using a miss as a thesis trigger is an analyst choice. The Q4 requirement is arithmetic, not additional management guidance.",
+      "assumption_he": "הרף של 9,000 מיליון דולר מקורו בתחזית החברה; השימוש בהחמצתו כתנאי להפרכת התזה הוא בחירה אנליטית. הדרישה לרבעון הרביעי היא חישוב, ולא תחזית נוספת של ההנהלה.",
+      "supporting_calculation": {
+        "formula": "9000 - 6306",
+        "result": 2694,
+        "unit": "USD million",
+        "inputs": [
+          {
+            "value": 9000,
+            "source_id": "S05",
+            "locator": "FY2026 free cash flow guidance / low endpoint, converted from USD billion"
+          },
+          {
+            "value": 6306,
+            "source_id": "S05",
+            "locator": "Nine-month free cash flow reconciliation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RTX-F02",
+      "metric": "FY2026 company-defined adjusted diluted EPS",
+      "threshold": {
+        "operator": "<",
+        "value": 7.65,
+        "unit": "USD per share"
+      },
+      "cadence": "Every earnings release or formal guidance revision",
+      "window": "Year ending 2026-12-31",
+      "assumption_kind": "analyst_monitoring_rule",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": [
+        "Updates outlook for full year 2026 / adjusted EPS"
+      ],
+      "text_en": "Adjusted EPS below USD 7.65 for FY2026, or guidance cut below that floor, would invalidate the October earnings guide. This test does not certify recurring earnings quality.",
+      "text_he": "רווח מתואם למניה הנמוך מ־7.65 דולר בשנת 2026, או הורדת תחזית מתחת לרף זה, יפריכו את תחזית הרווח מאוקטובר. מבחן זה אינו מאשר את איכות הרווח החוזר.",
+      "assumption_en": "The EPS floor comes from management. Treating failure to meet it as thesis evidence is an analyst monitoring choice; the reported adjusted measure can include cost recoveries.",
+      "assumption_he": "הרף למניה נקבע בידי ההנהלה. ההתייחסות להחמצתו כראיה נגד התזה היא בחירת מעקב אנליטית; המדד המתואם עשוי לכלול החזרי עלויות."
+    },
+    {
+      "id": "RTX-F03",
+      "metric": "New Pratt & Whitney customer-bankruptcy charge in any quarter",
+      "threshold": {
+        "operator": ">=",
+        "value": 363,
+        "unit": "USD million"
+      },
+      "cadence": "Quarterly, from segment reconciliation and filing notes",
+      "window": "The four quarters following 2026-09-30",
+      "assumption_kind": "analyst_assumption",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": [
+        "Pratt & Whitney / customer bankruptcy charge; Non-GAAP Financial Adjustments / Customer bankruptcy"
+      ],
+      "text_en": "Another customer-bankruptcy charge of at least USD 363 million in any of the next four quarters would challenge the assumption that the current exclusion is unusual rather than a recurring customer-credit cost.",
+      "text_he": "הוצאה נוספת של לפחות 363 מיליון דולר בשל פשיטת רגל של לקוח באחד מארבעת הרבעונים הבאים תאתגר את ההנחה שההחרגה הנוכחית חריגה, ולא עלות אשראי חוזרת של לקוחות.",
+      "assumption_en": "The threshold equals the observed Q3 charge but the amount, recurrence window and thesis consequence are analyst-selected, not a company forecast or covenant.",
+      "assumption_he": "הרף שווה להוצאה שנצפתה ברבעון השלישי, אך הסכום, חלון ההישנות וההשלכה על התזה נבחרו אנליטית; הם אינם תחזית חברה או אמת מידה חוזית."
+    },
+    {
+      "id": "RTX-F04",
+      "metric": "Raytheon quarterly organic sales growth year over year",
+      "threshold": {
+        "operator": "<",
+        "value": 0,
+        "unit": "percent",
+        "consecutive_quarters": 2
+      },
+      "cadence": "Each quarterly organic-sales reconciliation",
+      "window": "Rolling two-quarter windows after 2026-09-30",
+      "assumption_kind": "analyst_assumption",
+      "source_ids": [
+        "S05"
+      ],
+      "locators": [
+        "Organic Sales Reconciliation / Raytheon; Third quarter highlights / backlog"
+      ],
+      "text_en": "Negative Raytheon organic sales growth for two consecutive future quarters would weaken the thesis that the enlarged defense backlog is converting into deliveries.",
+      "text_he": "צמיחה אורגנית שלילית במכירות Raytheon במשך שני רבעונים עתידיים רצופים תחליש את התזה שהצבר הביטחוני המוגדל הופך למסירות.",
+      "assumption_en": "Zero growth and a two-quarter persistence requirement are analyst-selected warning thresholds. If a comparable organic growth measure is unavailable, record an evidence gap rather than assume failure.",
+      "assumption_he": "צמיחה אפסית ודרישה להתמשכות של שני רבעונים הם רפי אזהרה שנבחרו אנליטית. אם מדד צמיחה אורגנית בר־השוואה אינו זמין, יש לרשום פער ראיות במקום להניח כישלון."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S05",
+      "title": "RTX Reports Q3 2026 Results",
+      "publisher": "RTX Corporation",
+      "url": "https://www.rtx.com/news/news-center/2026/10/20/rtx-reports-q3-2026-results",
+      "published_at": "2026-10-20",
+      "accessed_at": "2026-10-22",
+      "representation": "UTF-8 line-numbered web-tool extraction, line indices zero-based; not original HTTP response bytes",
+      "extracted_text_sha256": "df2a8418f51b9bc0c7099ca9f9eda04bbb656cf479246a54b6bcbc0882b6330f",
+      "extracted_line_count": 1344,
+      "raw_sha256": null
+    },
+    {
+      "id": "S06",
+      "title": "RTX Reports Q2 2026 Results (issuer release)",
+      "publisher": "RTX Corporation",
+      "url": "https://www.rtx.com/news/news-center/2026/07/23/rtx-reports-q2-2026-results",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-22",
+      "representation": "UTF-8 line-numbered web-tool extraction, line indices zero-based; not original HTTP response bytes",
+      "extracted_text_sha256": "4c6ba6e64ff5365e61422581757914b731f68e8d0852076adba86c5c22f9f3c7",
+      "extracted_line_count": 1322,
+      "raw_sha256": null
+    }
+  ],
+  "limitations": [
+    {
+      "text_en": "Only the issuer Q3 and Q2 releases were fully read for this comparison. The new SEC quarterly filing/current report, earnings-call transcript and presentation were not accessed.",
+      "text_he": "לצורך ההשוואה נקראו במלואן רק הודעות התוצאות של החברה לרבעון השלישי והשני. הדוח הרבעוני והדיווח המיידי החדשים ל־SEC, תמליל שיחת המשקיעים והמצגת לא נקראו."
+    },
+    {
+      "text_en": "No before-after conclusion is made about GTF remediation estimates, aircraft-on-ground counts, detailed cash obligations or litigation exposure without the missing filing-level evidence.",
+      "text_he": "לא מוסקת מסקנת לפני־ואחרי לגבי אומדני תיקון מנועי GTF, מספר המטוסים המושבתים, התחייבויות מזומן מפורטות או חשיפה משפטית ללא הראיות החסרות מהדיווחים."
+    },
+    {
+      "text_en": "No current share price, consensus revision, recommendation, valuation multiple or price target is inferred. Quarterly cash comparisons do not remove seasonality or working-capital timing.",
+      "text_he": "לא מוסקים מחיר מניה נוכחי, שינוי בקונצנזוס, המלצה, מכפיל או מחיר יעד. השוואת התזרים בין רבעונים אינה מנטרלת עונתיות או עיתוי הון חוזר."
+    },
+    {
+      "text_en": "Source hashes identify complete line-numbered web extractions, not original HTTP bytes. Unread SEC documents remain separate pending review obligations.",
+      "text_he": "טביעות המקור מזהות חילוץ מלא וממוספר של טקסט דרך כלי הרשת, ולא את הבתים המקוריים של תגובת HTTP. מסמכי SEC שלא נקראו נשארים משימות בדיקה נפרדות."
+    }
+  ],
+  "packet_sha256": "3bd043381e577db27bfd936d7bb401deda4ac0d768328ccc6cf40cfb895e9f82",
+  "profile_sha256": "b89b3721126f25b50cd971a9e9aa6a70c13dbbba7b50260cedc702f620ed497e",
+  "comparison_periods": [
+    {
+      "role": "before",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 2
+    },
+    {
+      "role": "after",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 3
+    }
+  ]
+}

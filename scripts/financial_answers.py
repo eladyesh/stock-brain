@@ -63,6 +63,19 @@ def index(history):
                                     'locator': 'Retrospective split disclosure; effective ' + share_basis['effective_date'] +
                                                '; ratio ' + str(share_basis['new_shares_per_old_share']) +
                                                '; verified post-split EPS basis; review ' + share_basis['review_id']})
+            scope_review = cell.get('scope_review')
+            if scope_review:
+                review = next(r for r in history['normalization_reviews'] if r['review_id'] == scope_review['review_id'])
+                for source_id in scope_review['evidence_source_ids']:
+                    source = history['source_index'][source_id]
+                    locators = sorted({o['source_document']['locator'] for o in review['observations']
+                                       if o['metric'] == metric and o['source_document']['url'] == source['url']})
+                    sources.append({'id': source_id, 'ticker': ticker,
+                                    'title': source['source_name'], 'publisher': source['owner_or_provider'],
+                                    'url': source['url'], 'published_at': source['as_of_date'],
+                                    'accessed_at': (source.get('retrieved_at') or '')[:10],
+                                    'locator': '; '.join(locators) + '; reviewed scope: ' + scope_review['scope'] +
+                                               '; review ' + scope_review['review_id']})
             identifier = 'H:' + period['id'] + ':' + metric
             amount = format(cell['value'], ',.6f').rstrip('0').rstrip('.')
             unit_he = {'USD': 'דולר', 'USD/shares': 'דולר למניה', 'shares': 'מניות'}[cell['unit']]
@@ -73,6 +86,10 @@ def index(history):
             label_en = 'Diluted EPS (verified post-split basis)' if metric == 'eps_diluted' and share_basis else english
             label_he = 'רווח מדולל למניה (בסיס מאומת לאחר פיצול)' if metric == 'eps_diluted' and share_basis else hebrew
             formula_note = ' Formula: ' + str(cell['formula']) + '.' if cell.get('formula') else ''
+            scope_text = {
+                'carrying_value_including_finance_leases': (' Carrying value including finance leases.', ' ערך בספרים כולל חכירות מימוניות.'),
+                'carrying_value_excluding_finance_leases': (' Borrowing carrying value excluding finance leases.', ' ערך ההלוואות בספרים ללא חכירות מימוניות.'),
+            }.get((scope_review or {}).get('scope'), ('', ''))
             rows.append({'id': identifier, 'claim_id': identifier, 'ticker': ticker,
                          'section': 'financial-history', 'section_id': 'financial-history',
                          'metric_keys': [key], 'metric': metric, 'value': cell['value'], 'unit': cell['unit'],
@@ -81,9 +98,10 @@ def index(history):
                          'period_start': period['start'], 'period_end': period['end'],
                          'period_label': period['label'], 'model_usable': cell['model_usable'],
                          'flags': cell['flags'], 'as_of': history['as_of'], 'sources': sources,
+                         'reviewed_scope': (scope_review or {}).get('scope'),
                          'source_sha256': digest({'cell': cell, 'period': period, 'snapshot': history['source'], 'sources': sources}),
-                         'text': f"{ticker} — {period['label']} ({period_label}): {label_en}: {amount} {cell['unit']}. US GAAP; {kind}.{formula_note} Data snapshot: {history['as_of']}.",
-                         'text_he': f"{ticker} — {period['label']} ({'ליום ' + period['end'] if instant else duration}): {label_he}: {amount} {unit_he}. US GAAP · {'חישוב מנתונים מדווחים' if kind == 'derived' else 'נתון מדווח'}.{formula_note} תמונת נתונים ל־{history['as_of']}."})
+                         'text': f"{ticker} — {period['label']} ({period_label}): {label_en}: {amount} {cell['unit']}. US GAAP; {kind}.{formula_note}{scope_text[0]} Data snapshot: {history['as_of']}.",
+                         'text_he': f"{ticker} — {period['label']} ({'ליום ' + period['end'] if instant else duration}): {label_he}: {amount} {unit_he}. US GAAP · {'חישוב מנתונים מדווחים' if kind == 'derived' else 'נתון מדווח'}.{formula_note}{scope_text[1]} תמונת נתונים ל־{history['as_of']}."})
     rows.extend(derived_rows(history, rows))
     return rows
 

@@ -497,8 +497,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -520,8 +520,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "basic_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -530,8 +537,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -553,8 +560,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "diluted_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -563,8 +577,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -586,8 +600,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_basic_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -596,8 +617,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -619,8 +640,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_diluted_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -782,7 +810,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -805,9 +833,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -816,7 +851,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtAndCapitalLeaseObligations",
         "provenance": [
@@ -839,9 +874,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -850,7 +892,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -873,9 +915,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -898,7 +947,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtAndCapitalLeaseObligations",
         "provenance": [
@@ -921,9 +970,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_outstanding": {
         "status": "reported",
@@ -932,8 +988,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -955,8 +1011,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "derived",
@@ -1198,8 +1261,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -1221,8 +1284,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "basic_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -1231,8 +1301,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -1254,8 +1324,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "diluted_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -1264,8 +1341,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -1287,8 +1364,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_basic_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -1297,8 +1381,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -1320,8 +1404,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_diluted_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -1483,7 +1574,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -1506,9 +1597,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -1517,7 +1615,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtAndCapitalLeaseObligations",
         "provenance": [
@@ -1540,9 +1638,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -1599,7 +1704,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtAndCapitalLeaseObligations",
         "provenance": [
@@ -1622,9 +1727,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_outstanding": {
         "status": "reported",
@@ -1633,8 +1745,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -1656,8 +1768,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "derived",
@@ -1899,8 +2018,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareBasic",
         "provenance": [
           {
@@ -1922,8 +2041,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "basic_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "eps_diluted": {
         "status": "reported",
@@ -1932,8 +2058,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "EarningsPerShareDiluted",
         "provenance": [
           {
@@ -1955,8 +2081,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "diluted_common_eps",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_basic": {
         "status": "reported",
@@ -1965,8 +2098,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfSharesOutstandingBasic",
         "provenance": [
           {
@@ -1988,8 +2121,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_basic_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_diluted": {
         "status": "reported",
@@ -1998,8 +2138,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
         "provenance": [
           {
@@ -2021,8 +2161,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "weighted_average_diluted_common_shares",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "operating_cash_flow": {
         "status": "reported",
@@ -4387,7 +4534,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -4410,9 +4557,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -4421,7 +4575,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtAndCapitalLeaseObligations",
         "provenance": [
@@ -4444,9 +4598,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -4455,7 +4616,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -4478,9 +4639,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -4503,7 +4671,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtAndCapitalLeaseObligations",
         "provenance": [
@@ -4526,9 +4694,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_outstanding": {
         "status": "reported",
@@ -4537,8 +4712,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -4560,8 +4735,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "derived",
@@ -7457,7 +7639,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -7480,9 +7662,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -7491,7 +7680,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtAndCapitalLeaseObligations",
         "provenance": [
@@ -7514,9 +7703,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -7573,7 +7769,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtAndCapitalLeaseObligations",
         "provenance": [
@@ -7596,9 +7792,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "includes_capital_or_finance_leases"
+        "debt_scope": "carrying_value_including_finance_leases",
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_including_finance_leases",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "shares_outstanding": {
         "status": "reported",
@@ -7607,8 +7810,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -7630,8 +7833,15 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "MU-FY2026-SCOPE-REVIEW"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "derived",
@@ -13273,6 +13483,18 @@
       "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312523000077/0000723125-23-000077-index.html",
       "freshness_status": "acceptable_for_period"
+    },
+    "MU-FY2026-SCOPE-REVIEW": {
+      "source_id": "MU-FY2026-SCOPE-REVIEW",
+      "source_name": "Micron FY2026 Form 10-K, issuer-hosted report",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2026-10-09",
+      "retrieved_at": "2026-10-22T10:43:30.658224+00:00",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+      "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+      "freshness_status": "acceptable_for_period"
     }
   },
   "source_concepts": {
@@ -13690,9 +13912,12 @@
       "long_term_debt_total": 2,
       "short_term_borrowings": 17
     },
-    "model_usable_cells": 171,
+    "model_usable_cells": 201,
     "resolved_conflict_cells": 0,
-    "split_normalized_cells": 0
+    "split_normalized_cells": 0,
+    "filing_scope_verified_cells": 30,
+    "unverified_share_cells": 57,
+    "unverified_debt_cells": 52
   },
   "limitations": [
     "Company Facts excludes custom taxonomy and dimensional/segment facts; absent data is not zero.",
@@ -13703,5 +13928,552 @@
     "Cash excludes marketable securities unless independently presented as short_term_investments. Cash plus investments is not assumed to be unrestricted cash.",
     "This is a selected historical metric schedule, not complete statements, a three-statement model, consensus, forecasts or a valuation.",
     "Full balance-sheet and cash-flow reconciliations are outside the selected metric scope and have not been performed."
+  ],
+  "normalization_reviews": [
+    {
+      "type": "filing_scope",
+      "cik": "0000723125",
+      "review_id": "MU-FY2026-exact-observation-scope-2026-10-22",
+      "effective_date": "2026-10-09",
+      "reviewed_at": "2026-10-22",
+      "evidence": [
+        {
+          "source_id": "MU-FY2026-SCOPE-REVIEW",
+          "title": "Micron FY2026 Form 10-K, issuer-hosted report",
+          "filed": "2026-10-09",
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+          "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+          "retrieved_at": "2026-10-22T10:43:30.658224+00:00"
+        }
+      ],
+      "observations": [
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "source_value": 75.38,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_basic",
+          "scope": "basic_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "source_value": 74.33,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_diluted",
+          "scope": "diluted_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "source_value": 1127000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_basic",
+          "scope": "weighted_average_basic_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2025-08-29",
+          "end": "2026-09-03",
+          "source_value": 1143000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_diluted",
+          "scope": "weighted_average_diluted_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2024-08-30",
+          "end": "2025-08-28",
+          "source_value": 7.65,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_basic",
+          "scope": "basic_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2024-08-30",
+          "end": "2025-08-28",
+          "source_value": 7.59,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_diluted",
+          "scope": "diluted_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2024-08-30",
+          "end": "2025-08-28",
+          "source_value": 1116000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_basic",
+          "scope": "weighted_average_basic_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2024-08-30",
+          "end": "2025-08-28",
+          "source_value": 1125000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_diluted",
+          "scope": "weighted_average_diluted_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareBasic",
+          "unit": "USD/shares",
+          "start": "2023-09-01",
+          "end": "2024-08-29",
+          "source_value": 0.7,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_basic",
+          "scope": "basic_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "EarningsPerShareDiluted",
+          "unit": "USD/shares",
+          "start": "2023-09-01",
+          "end": "2024-08-29",
+          "source_value": 0.7,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "eps_diluted",
+          "scope": "diluted_common_eps",
+          "decimals": 2,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "unit": "shares",
+          "start": "2023-09-01",
+          "end": "2024-08-29",
+          "source_value": 1105000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_basic",
+          "scope": "weighted_average_basic_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "unit": "shares",
+          "start": "2023-09-01",
+          "end": "2024-08-29",
+          "source_value": 1118000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_diluted",
+          "scope": "weighted_average_diluted_common_shares",
+          "decimals": -6,
+          "rationale": "Note 19 reconciles annual common-share basic and diluted EPS with basic shares and dilutive equity-compensation shares. FY2026/FY2025/FY2024 diluted denominators are 1,143/1,125/1,118 million; basic denominators are 1,127/1,116/1,105 million. The exact annual observation is on this common-share basis; this does not cover subsequent corporate actions or period-end counts.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 19 Earnings Per Share, printed page 92"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2026-09-03",
+          "source_value": 1131000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_outstanding",
+          "scope": "period_end_common_shares_outstanding",
+          "decimals": -6,
+          "rationale": "Issued common shares less treasury shares establish the period-end outstanding count: 1,131 million at FY2026 and 1,122 million at FY2025. Not the October 2, 2026 cover-page count and not a weighted-average diluted denominator.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K consolidated balance sheets, printed page 69"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-09-03",
+          "source_value": 491000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_current",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtAndCapitalLeaseObligations",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-09-03",
+          "source_value": 4688000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_noncurrent",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtAndCapitalLeaseObligations",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-09-03",
+          "source_value": 5179000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2025-08-28",
+          "source_value": 1122000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "shares_outstanding",
+          "scope": "period_end_common_shares_outstanding",
+          "decimals": -6,
+          "rationale": "Issued common shares less treasury shares establish the period-end outstanding count: 1,131 million at FY2026 and 1,122 million at FY2025. Not the October 2, 2026 cover-page count and not a weighted-average diluted denominator.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K consolidated balance sheets, printed page 69"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-08-28",
+          "source_value": 560000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_current",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtAndCapitalLeaseObligations",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-08-28",
+          "source_value": 14017000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_noncurrent",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtAndCapitalLeaseObligations",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-08-28",
+          "source_value": 14577000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_including_finance_leases",
+          "decimals": -6,
+          "rationale": "Note 9 total net carrying debt includes finance lease liabilities: FY2026 491 current + 4,688 noncurrent = 5,179 million, of which finance leases are 2,387 million; FY2025 560 + 14,017 = 14,577 million, including 3,044 million finance leases. Operating leases are excluded. Principal and carrying values differ; no missing borrowing has been set to zero.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, printed pages 77-79"
+          }
+        },
+        {
+          "source_id": "SEC-0000723125-26-000023",
+          "accession": "0000723125-26-000023",
+          "filed": "2026-10-09",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebt",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-09-03",
+          "source_value": 2792000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2026Q3I",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html",
+          "metric": "long_term_debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Notes payable principal 2,808 million less discounts 16 million gives borrowing carrying amount 2,792 million, excluding 2,387 million of finance lease liabilities. The combined 5,179 million is separately retained as debt_total.",
+          "source_document": {
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+            "sha256": "aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3",
+            "locator": "FY2026 Form 10-K Note 9 Debt, maturities of notes payable and finance lease liabilities, printed page 79"
+          }
+        }
+      ],
+      "limitation": "Only the listed exact source observations are reviewed. This does not certify other periods, current quote-date shares, missing facts, full statements or an enterprise-value bridge."
+    }
   ]
 }

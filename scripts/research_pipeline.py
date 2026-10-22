@@ -125,9 +125,19 @@ def document_text(raw: bytes, content_type: str) -> str:
     return "\n".join(line for line in lines if line)
 
 
+def validate_sec_user_agent(user_agent):
+    """Require an operator-supplied application name/contact, never invent an identity."""
+    contact = re.search(r"[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@([A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+)", user_agent)
+    kb.need(contact is not None and not any(c in user_agent for c in "\r\n")
+            and len(user_agent.replace(contact.group(0), '').strip()) >= 2
+            and contact.group(1).lower() not in {'example.com', 'example.org', 'example.net', 'invalid.test'},
+            'Set SEC_USER_AGENT to your actual application name and contact email; no placeholder or borrowed identity')
+    return True
+
+
 class Fetcher:
     """Content-addressed local cache; a process makes at most two requests/second."""
-    def __init__(self, root: Path, user_agent: str):
+    def __init__(self, root: Path, user_agent: str, before_request=None):
         kb.need(bool(user_agent.strip()), "Set SEC_USER_AGENT to an identifying application/contact string")
         self.cache = root / "build/research-cache/http"
         self.user_agent = user_agent
@@ -135,6 +145,7 @@ class Fetcher:
         self.downloads = 0
         self.hits = 0
         self.sec_block = None
+        self.before_request = before_request
 
     def fetch(self, url: str, refresh: bool = False) -> tuple[bytes, dict]:
         parsed = urllib.parse.urlparse(url)
@@ -156,6 +167,8 @@ class Fetcher:
         request = urllib.request.Request(url, headers={"User-Agent": self.user_agent, "Accept-Encoding": "identity"})
         for attempt in range(3):
             time.sleep(max(0.0, 0.5 - (time.monotonic() - self.last_request)))
+            if self.before_request:
+                self.before_request(url)
             self.last_request = time.monotonic()
             try:
                 with urllib.request.urlopen(request, timeout=30) as response:

@@ -79,6 +79,8 @@ def restore_payloads(root, payloads):
             old = p.read_json(path) if path.exists() else None
             stamp = lambda row: (row.get('source', {}).get('retrieved_at', '') if timestamp == 'source' else row.get(timestamp, ''))
             if not old or stamp(value) >= stamp(old):
+                if key == 'history' and old:
+                    value = financials.apply_normalization_reviews(value, old.get('normalization_reviews', []))
                 p.write_json(path, value)
     report_path = root / 'research/monitoring/latest.json'
     canonical = p.read_json(report_path) if report_path.exists() else {}
@@ -127,6 +129,10 @@ def refresh(root, output, previous_run=None):
         report = monitor.run(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT, cutoff, previous, fetcher=fetcher)
         p.write_json(report_path, report)
         run['discovery'] = {ticker: {'status': state['status'], 'coverage_status': state.get('coverage_status'),
+                                     'checked_at': state.get('checked_at'),
+                                     'sec_coverage_status': state.get('sec_coverage_status'),
+                                     'issuer_coverage_status': state.get('issuer_coverage_status'),
+                                     'last_successful_scan_at': state.get('last_successful_scan_at'),
                                      'errors': state.get('errors', [])}
                             for ticker, state in report['companies'].items()}
     except (OSError, ValueError, KeyError, TypeError) as error:

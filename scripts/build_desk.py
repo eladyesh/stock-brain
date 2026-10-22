@@ -12,6 +12,9 @@ import research_pipeline as p
 import stock_brain as kb
 import valuation
 import query_contract
+import company_models
+import research_insights
+import ttm
 
 
 def build(root, output=None):
@@ -57,6 +60,9 @@ def build(root, output=None):
                 'quote': p.read_json(quote_path) if quote_path.exists() else None,
                 'history': history, 'historical_index': financial_answers.index(history),
                 'ratios': valuation.historical_ratios(history) if history else []}
+        item['ttm'] = ttm.build_ttm(history) if history else None
+        item['thesis'] = research_insights.load_thesis(root, ticker)
+        item['model'] = company_models.load_company_model(root, ticker, history, item['quote'])
         result['companies'].append(item)
     triage_path = root / 'research/monitoring/triage.json'
     if triage_path.exists(): result['triage'] = p.read_json(triage_path)

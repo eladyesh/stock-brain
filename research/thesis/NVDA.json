@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "ticker": "NVDA",
+  "as_of": "2026-10-22",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI primary-document review",
+  "current_period": "FY2027 Q2",
+  "previous_period": "FY2027 Q1",
+  "summary_en": "AI revenue and operating profit expanded again. Longer-term demand durability and margin protection remain the critical tests.",
+  "summary_he": "הכנסות AI והרווח התפעולי התרחבו שוב. עמידות הביקוש והגנת המרווחים לטווח ארוך נותרו המבחנים המרכזיים.",
+  "changes": [
+    {
+      "id": "ai-revenue",
+      "topic": "Quarterly revenue",
+      "before": {
+        "label": "FY2027 Q1",
+        "value": 81615000000,
+        "unit": "USD",
+        "text_en": "Revenue: $81.615bn.",
+        "text_he": "הכנסות: ‏81.615 מיליארד דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "Q2 Fiscal 2027 Summary, Q1 FY27 revenue"
+        ]
+      },
+      "after": {
+        "label": "FY2027 Q2",
+        "value": 96221000000,
+        "unit": "USD",
+        "text_en": "Revenue: $96.221bn.",
+        "text_he": "הכנסות: ‏96.221 מיליארד דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "Q2 Fiscal 2027 Summary, Q2 FY27 revenue"
+        ]
+      },
+      "interpretation_en": "Revenue scale increased again, supporting near-term AI demand. Concentrated customer spending and export access remain risks to later-year growth.",
+      "interpretation_he": "ההכנסות גדלו שוב ותומכות בביקוש ל-AI בטווח הקרוב. ריכוז השקעות אצל לקוחות גדולים והגישה לשוקי יצוא עדיין מסכנים את הצמיחה בהמשך.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "operating-scale",
+      "topic": "GAAP operating income",
+      "before": {
+        "label": "FY2027 Q1",
+        "value": 53536000000,
+        "unit": "USD",
+        "text_en": "Operating income: $53.536bn.",
+        "text_he": "רווח תפעולי: ‏53.536 מיליארד דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "GAAP summary, Q1 FY27 operating income"
+        ]
+      },
+      "after": {
+        "label": "FY2027 Q2",
+        "value": 63734000000,
+        "unit": "USD",
+        "text_en": "Operating income: $63.734bn.",
+        "text_he": "רווח תפעולי: ‏63.734 מיליארד דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "GAAP summary, Q2 FY27 operating income"
+        ]
+      },
+      "interpretation_en": "Operating earnings grew with revenue. Sustaining this economics requires pricing power, product transitions and supply execution; the scenarios test margin erosion.",
+      "interpretation_he": "הרווח התפעולי גדל עם ההכנסות. שימור התוצאה דורש כוח תמחור, מעברי מוצרים וביצוע באספקה; התרחישים בוחנים שחיקת מרווחים.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "earnings-quality",
+      "topic": "Non-GAAP diluted EPS",
+      "before": {
+        "label": "FY2027 Q1",
+        "value": 1.87,
+        "unit": "USD/share",
+        "text_en": "Non-GAAP diluted EPS: $1.87; GAAP EPS: $2.39.",
+        "text_he": "רווח מתואם למניה מדוללת: ‏1.87 דולר; GAAP: ‏2.39 דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "GAAP and non-GAAP summary, Q1 FY27 diluted EPS"
+        ]
+      },
+      "after": {
+        "label": "FY2027 Q2",
+        "value": 2.22,
+        "unit": "USD/share",
+        "text_en": "Non-GAAP diluted EPS: $2.22; GAAP EPS: $2.46.",
+        "text_he": "רווח מתואם למניה מדוללת: ‏2.22 דולר; GAAP: ‏2.46 דולר.",
+        "source_ids": [
+          "NVDA-FY27-Q2"
+        ],
+        "locators": [
+          "GAAP and non-GAAP summary, Q2 FY27 diluted EPS"
+        ]
+      },
+      "interpretation_en": "Adjusted EPS grew faster sequentially than GAAP EPS. Keep the two accounting bases separate; neither automatically sets future GAAP net margins.",
+      "interpretation_he": "הרווח המתואם למניה צמח רבעונית מהר יותר מרווח GAAP. יש להפריד בין בסיסי הדיווח; אף אחד מהם אינו קובע אוטומטית את מרווח ה-GAAP העתידי.",
+      "interpretation_type": "analyst_interpretation"
+    }
+  ],
+  "falsifiers": [
+    {
+      "id": "ai-demand",
+      "metric": "Data Center year-over-year revenue growth",
+      "threshold": {
+        "operator": "<",
+        "value": 0.3,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report; two consecutive quarters",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess AI growth durability if Data Center revenue growth is below 30% for two consecutive quarters. This is an analyst threshold.",
+      "text_he": "יש לבחון מחדש את עמידות צמיחת ה-AI אם הכנסות מרכזי הנתונים צומחות בפחות מ-30% בשני רבעונים רצופים. זהו סף שנבחר בניתוח.",
+      "source_ids": [
+        "NVDA-FY27-Q2"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    },
+    {
+      "id": "pricing-power",
+      "metric": "GAAP gross margin",
+      "threshold": {
+        "operator": "<",
+        "value": 0.65,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report; two consecutive quarters",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess pricing power and product mix if GAAP gross margin falls below 65% for two consecutive quarters. The threshold is an assumption.",
+      "text_he": "יש לבחון מחדש כוח תמחור ותמהיל אם המרווח הגולמי GAAP יורד מתחת ל-65% בשני רבעונים רצופים. הסף הוא הנחה.",
+      "source_ids": [
+        "NVDA-FY27-Q2"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "NVDA-FY26-Q4",
+      "title": "NVIDIA fourth quarter and fiscal 2026 earnings release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+      "date": "2026-02-25",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review"
+    },
+    {
+      "id": "NVDA-FY27-Q2",
+      "title": "NVIDIA second quarter fiscal 2027 earnings release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+      "date": "2026-08-26",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review"
+    }
+  ],
+  "limitations": [
+    "These are observed quarter-to-quarter comparisons and analyst interpretations, not a claim that the company issued a four-year outlook.",
+    "Monitoring thresholds are selected analyst assumptions, not issuer guidance or automatic trade triggers.",
+    "Review is by AI against the linked primary documents; format validation is not independent factual verification."
+  ],
+  "packet_sha256": "c071b72ccf7516e647f39736f1985d14b700132d4a6bb5a1df4c9640e4898866",
+  "profile_sha256": "72771808db7a0b5723bf5abfef46cf166f5ae5c1a725e23c919e6617ee74b7dc"
+}

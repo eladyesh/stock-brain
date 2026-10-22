@@ -615,7 +615,7 @@
       "updated_at": "2026-10-18"
     },
     {
-      "as_of": "2026-10-18",
+      "as_of": "2026-10-20",
       "cik": "0000101829",
       "company_id": "company-cik-0000101829",
       "company_name": "RTX Corporation",
@@ -623,7 +623,7 @@
       "domicile_country": "US",
       "exchange": "NYSE",
       "industry": "Aerospace and defense",
-      "reviewed_at": "2026-10-18",
+      "reviewed_at": "2026-10-22",
       "schema_version": 1,
       "sector": "industrials",
       "security_type": "common_stock",
@@ -660,6 +660,22 @@
           "publisher": "RTX Corporation",
           "title": "Form 8-K: Pratt & Whitney leadership succession",
           "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm"
+        },
+        {
+          "accessed_at": "2026-10-22",
+          "id": "S05",
+          "published_at": "2026-10-20",
+          "publisher": "RTX Corporation",
+          "title": "RTX Reports Q3 2026 Results",
+          "url": "https://www.rtx.com/news/news-center/2026/10/20/rtx-reports-q3-2026-results"
+        },
+        {
+          "accessed_at": "2026-10-22",
+          "id": "S06",
+          "published_at": "2026-07-23",
+          "publisher": "RTX Corporation",
+          "title": "RTX Reports Q2 2026 Results (issuer release)",
+          "url": "https://www.rtx.com/news/news-center/2026/07/23/rtx-reports-q2-2026-results"
         }
       ],
       "status": "reviewed",
@@ -670,7 +686,7 @@
       ],
       "ticker": "RTX",
       "ticker_aliases": [],
-      "updated_at": "2026-10-18"
+      "updated_at": "2026-10-22"
     }
   ],
   "schema_version": 1

@@ -17,6 +17,7 @@ import build_desk
 import refresh_desk
 import research_pipeline as p
 import stock_brain as kb
+import triage_disclosures
 
 FILES = ('desk.json', 'latest.json', 'triage.json', 'run-status.json')
 MAX_BYTES = 40 * 1024 * 1024
@@ -112,6 +113,15 @@ def workspace(root, store, saved):
 
 
 def checkpoint_from_root(root):
+    # New reviewed research can resolve an existing queue item at release time.
+    # Re-evaluate metadata against the current hash-bound evidence without
+    # modifying the retained collection timestamp or claiming another scan.
+    report_path = root / 'research/monitoring/latest.json'
+    triage_path = root / 'research/monitoring/triage.json'
+    report, prior = p.read_json(report_path), p.read_json(triage_path)
+    current = triage_disclosures.triage(root, report, prior)
+    if current.get('entries') != prior.get('entries') or current.get('summary') != prior.get('summary'):
+        p.write_json(triage_path, current)
     desk = build_desk.build(root)
     return {'schema_version': 1, 'files': {
         'desk.json': desk,

@@ -829,7 +829,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -852,9 +852,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -863,7 +871,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtNoncurrent",
         "provenance": [
@@ -886,9 +894,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -897,7 +913,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -920,9 +936,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -945,8 +969,8 @@
         "basis": "US GAAP",
         "evidence_label": "derived_calculation",
         "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "provenance": [
           {
             "source_id": "SEC-0001045810-26-000075",
@@ -983,10 +1007,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
         "formula": "current debt + noncurrent debt; lease scope requires source review",
-        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent"
+        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        },
+        "debt_scope": "carrying_value_excluding_finance_leases"
       },
       "shares_outstanding": {
         "status": "reported",
@@ -995,8 +1028,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -1018,8 +1051,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -1559,7 +1600,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -1582,9 +1623,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -1593,7 +1642,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtNoncurrent",
         "provenance": [
@@ -1616,9 +1665,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -1627,7 +1684,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -1650,9 +1707,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -1675,8 +1740,8 @@
         "basis": "US GAAP",
         "evidence_label": "derived_calculation",
         "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "provenance": [
           {
             "source_id": "SEC-0001045810-26-000021",
@@ -1713,10 +1778,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
         "formula": "current debt + noncurrent debt; lease scope requires source review",
-        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent"
+        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        },
+        "debt_scope": "carrying_value_excluding_finance_leases"
       },
       "shares_outstanding": {
         "status": "reported",
@@ -1725,8 +1799,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -1748,8 +1822,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -2558,9 +2640,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -2580,7 +2662,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -2601,13 +2687,23 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-outstanding-share-split-2026-10-22"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-outstanding-share-split-2026-10-22",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "NVDA-FY2024-ISSUER-REPORT",
+            "NVDA-FY2025-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -4840,7 +4936,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -4863,9 +4959,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -4874,7 +4978,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtNoncurrent",
         "provenance": [
@@ -4897,9 +5001,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -4908,7 +5020,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -4931,9 +5043,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -4956,8 +5076,8 @@
         "basis": "US GAAP",
         "evidence_label": "derived_calculation",
         "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "provenance": [
           {
             "source_id": "SEC-0001045810-26-000075",
@@ -4994,10 +5114,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
         "formula": "current debt + noncurrent debt; lease scope requires source review",
-        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent"
+        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        },
+        "debt_scope": "carrying_value_excluding_finance_leases"
       },
       "shares_outstanding": {
         "status": "missing_required_source",
@@ -6299,7 +6428,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -6322,9 +6451,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -6333,7 +6470,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtNoncurrent",
         "provenance": [
@@ -6356,9 +6493,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -6367,7 +6512,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -6390,9 +6535,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -6415,8 +6568,8 @@
         "basis": "US GAAP",
         "evidence_label": "derived_calculation",
         "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "provenance": [
           {
             "source_id": "SEC-0001045810-26-000075",
@@ -6453,10 +6606,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
         "formula": "current debt + noncurrent debt; lease scope requires source review",
-        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent"
+        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        },
+        "debt_scope": "carrying_value_excluding_finance_leases"
       },
       "shares_outstanding": {
         "status": "reported",
@@ -6465,8 +6627,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -6488,8 +6650,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -9201,7 +9371,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "DebtCurrent",
         "provenance": [
@@ -9224,9 +9394,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "current_debt_as_tagged"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "debt_noncurrent": {
         "status": "reported",
@@ -9235,7 +9413,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebtNoncurrent",
         "provenance": [
@@ -9258,9 +9436,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "long_term_debt_total": {
         "status": "reported",
@@ -9269,7 +9455,7 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
+        "model_usable": true,
         "comparison_status": "comparable",
         "definition_tag": "LongTermDebt",
         "provenance": [
@@ -9292,9 +9478,17 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
-        "debt_scope": "long_term_debt_excludes_capital_leases"
+        "debt_scope": "carrying_value_excluding_finance_leases",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "short_term_borrowings": {
         "status": "missing_required_source",
@@ -9317,8 +9511,8 @@
         "basis": "US GAAP",
         "evidence_label": "derived_calculation",
         "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "provenance": [
           {
             "source_id": "SEC-0001045810-26-000021",
@@ -9355,10 +9549,19 @@
         ],
         "conflicts": [],
         "flags": [
-          "debt_scope_requires_filing_review"
+          "filing_scope_verified"
         ],
         "formula": "current debt + noncurrent debt; lease scope requires source review",
-        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent"
+        "definition_tag": "DebtCurrent + LongTermDebtNoncurrent",
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "carrying_value_excluding_finance_leases",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        },
+        "debt_scope": "carrying_value_excluding_finance_leases"
       },
       "shares_outstanding": {
         "status": "reported",
@@ -9367,8 +9570,8 @@
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
         "confidence": "high",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -9390,8 +9593,16 @@
         ],
         "conflicts": [],
         "flags": [
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+          "filing_scope_verified"
+        ],
+        "scope_review": {
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+          "scope": "period_end_common_shares_outstanding",
+          "evidence_source_ids": [
+            "NVDA-FY2026-ISSUER-REPORT",
+            "NVDA-Q2FY2027-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -12484,9 +12695,9 @@
         "unit": "shares",
         "basis": "US GAAP",
         "evidence_label": "fact_source_reported",
-        "confidence": "medium",
-        "model_usable": false,
-        "comparison_status": "not_comparable",
+        "confidence": "high",
+        "model_usable": true,
+        "comparison_status": "comparable",
         "definition_tag": "CommonStockSharesOutstanding",
         "provenance": [
           {
@@ -12506,7 +12717,11 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html"
           }
         ],
-        "conflicts": [
+        "conflicts": [],
+        "flags": [
+          "share_split_basis_verified"
+        ],
+        "resolved_conflicts": [
           {
             "type": "historical_value_revision_or_context_conflict",
             "alternatives": [
@@ -12527,13 +12742,23 @@
                 "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html"
               }
             ],
-            "resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required."
+            "resolution": "Verified stock split and overlapping source-rounding intervals; original values retained.",
+            "previous_resolution": "Latest filed exact-period value shown; filing-level reconciliation remains required.",
+            "review_id": "NVDA-2024-outstanding-share-split-2026-10-22"
           }
         ],
-        "flags": [
-          "revision_requires_review",
-          "share_split_and_corporate_action_basis_unverified"
-        ]
+        "share_basis": {
+          "review_id": "NVDA-2024-outstanding-share-split-2026-10-22",
+          "effective_date": "2024-06-07",
+          "new_shares_per_old_share": 10,
+          "basis": "post_split",
+          "source_basis": "post_split",
+          "source_decimals": -6,
+          "evidence_source_ids": [
+            "NVDA-FY2024-ISSUER-REPORT",
+            "NVDA-FY2025-ISSUER-REPORT"
+          ]
+        }
       },
       "free_cash_flow": {
         "status": "missing_required_source",
@@ -13567,6 +13792,54 @@
       "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/0001045810-23-000227-index.html",
       "freshness_status": "acceptable_for_period"
+    },
+    "NVDA-FY2024-ISSUER-REPORT": {
+      "source_id": "NVDA-FY2024-ISSUER-REPORT",
+      "source_name": "NVIDIA FY2024 issuer-hosted Form 10-K/10-Q",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2024-02-21",
+      "retrieved_at": "2026-10-22T10:48:59.717441+00:00",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf",
+      "sha256": "536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b",
+      "freshness_status": "acceptable_for_period"
+    },
+    "NVDA-FY2025-ISSUER-REPORT": {
+      "source_id": "NVDA-FY2025-ISSUER-REPORT",
+      "source_name": "NVIDIA FY2025 issuer-hosted Form 10-K/10-Q",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2025-02-26",
+      "retrieved_at": "2026-10-22T10:46:35.971006+00:00",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf",
+      "sha256": "b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e",
+      "freshness_status": "acceptable_for_period"
+    },
+    "NVDA-FY2026-ISSUER-REPORT": {
+      "source_id": "NVDA-FY2026-ISSUER-REPORT",
+      "source_name": "NVIDIA FY2026 issuer-hosted Form 10-K/10-Q",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2026-02-25",
+      "retrieved_at": "2026-10-22T10:46:35.875394+00:00",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+      "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+      "freshness_status": "acceptable_for_period"
+    },
+    "NVDA-Q2FY2027-ISSUER-REPORT": {
+      "source_id": "NVDA-Q2FY2027-ISSUER-REPORT",
+      "source_name": "NVIDIA Q2FY2027 issuer-hosted Form 10-K/10-Q",
+      "source_type": "filing",
+      "source_rank": 1,
+      "owner_or_provider": "SEC EDGAR / issuer",
+      "as_of_date": "2026-08-26",
+      "retrieved_at": "2026-10-22T10:46:35.934740+00:00",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+      "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+      "freshness_status": "acceptable_for_period"
     }
   },
   "source_concepts": {
@@ -13691,28 +13964,6 @@
     }
   },
   "qa_flags": [
-    {
-      "severity": "high",
-      "period": "annual:2024-01-28",
-      "metric": "shares_outstanding",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
-    {
-      "severity": "high",
-      "period": "quarterly:2024-01-28",
-      "metric": "shares_outstanding",
-      "code": "source_value_revision_or_conflict",
-      "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-      "source_ids": [
-        "SEC-0001045810-25-000023"
-      ],
-      "status": "open"
-    },
     {
       "severity": "high",
       "code": "share_basis_unverified",
@@ -15891,6 +16142,536 @@
           }
         }
       ]
+    },
+    {
+      "type": "stock_split",
+      "cik": "0001045810",
+      "review_id": "NVDA-2024-outstanding-share-split-2026-10-22",
+      "effective_date": "2024-06-07",
+      "new_shares_per_old_share": 10,
+      "reviewed_at": "2026-10-22",
+      "evidence": [
+        {
+          "source_id": "NVDA-FY2024-ISSUER-REPORT",
+          "title": "NVIDIA FY2024 issuer-hosted Form 10-K/10-Q",
+          "filed": "2024-02-21",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf",
+          "sha256": "536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b",
+          "retrieved_at": "2026-10-22T10:48:59.717441+00:00"
+        },
+        {
+          "source_id": "NVDA-FY2025-ISSUER-REPORT",
+          "title": "NVIDIA FY2025 issuer-hosted Form 10-K/10-Q",
+          "filed": "2025-02-26",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf",
+          "sha256": "b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e",
+          "retrieved_at": "2026-10-22T10:46:35.971006+00:00"
+        }
+      ],
+      "observations": [
+        {
+          "source_id": "SEC-0001045810-25-000023",
+          "accession": "0001045810-25-000023",
+          "filed": "2025-02-26",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2024-01-28",
+          "source_value": 24643000000,
+          "filing_fiscal_year": 2025,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2023Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/0001045810-25-000023-index.html",
+          "decimals": -6,
+          "split_basis": "post_split",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf",
+            "sha256": "b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e",
+            "locator": "Consolidated balance sheets, common stock issued and outstanding, January 28, 2024 column; FY2025 Note 1 split disclosure"
+          },
+          "finding": "FY2024 reports 2,464 million pre-split shares; FY2025 reports 24,643 million after ten-for-one split. The transformed rounding intervals overlap (24,635..24,645 million vs 24,642.5..24,643.5 million); neither original fact is overwritten."
+        },
+        {
+          "source_id": "SEC-0001045810-24-000029",
+          "accession": "0001045810-24-000029",
+          "filed": "2024-02-21",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2024-01-28",
+          "source_value": 2464000000,
+          "filing_fiscal_year": 2024,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": null,
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/0001045810-24-000029-index.html",
+          "decimals": -6,
+          "split_basis": "pre_split",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf",
+            "sha256": "536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b",
+            "locator": "Consolidated balance sheets, common stock issued and outstanding, January 28, 2024 column; FY2025 Note 1 split disclosure"
+          },
+          "finding": "FY2024 reports 2,464 million pre-split shares; FY2025 reports 24,643 million after ten-for-one split. The transformed rounding intervals overlap (24,635..24,645 million vs 24,642.5..24,643.5 million); neither original fact is overwritten."
+        }
+      ],
+      "limitation": "Only the exact period-end common-share observations listed are reviewed; future and other period-end counts remain subject to source review."
+    },
+    {
+      "type": "filing_scope",
+      "cik": "0001045810",
+      "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22",
+      "effective_date": "2026-08-26",
+      "reviewed_at": "2026-10-22",
+      "evidence": [
+        {
+          "source_id": "NVDA-FY2026-ISSUER-REPORT",
+          "title": "NVIDIA FY2026 issuer-hosted Form 10-K/10-Q",
+          "filed": "2026-02-25",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+          "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+          "retrieved_at": "2026-10-22T10:46:35.875394+00:00"
+        },
+        {
+          "source_id": "NVDA-Q2FY2027-ISSUER-REPORT",
+          "title": "NVIDIA Q2FY2027 issuer-hosted Form 10-K/10-Q",
+          "filed": "2026-08-26",
+          "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+          "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+          "retrieved_at": "2026-10-22T10:46:35.934740+00:00"
+        }
+      ],
+      "observations": [
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 24304000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "shares_outstanding",
+          "scope": "period_end_common_shares_outstanding",
+          "decimals": -6,
+          "rationale": "One common-share class issued and outstanding: January 25, 2026 24,304 million; January 26, 2025 24,477 million. All reported share amounts are retrospectively adjusted for the June 7, 2024 ten-for-one split. This is a period-end count, not the weighted-average diluted denominator or current quote-date shares.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "Consolidated balance sheets and stockholders equity; Item 5 stock split disclosure"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "CommonStockSharesOutstanding",
+          "unit": "shares",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 24477000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "shares_outstanding",
+          "scope": "period_end_common_shares_outstanding",
+          "decimals": -6,
+          "rationale": "One common-share class issued and outstanding: January 25, 2026 24,304 million; January 26, 2025 24,477 million. All reported share amounts are retrospectively adjusted for the June 7, 2024 ten-for-one split. This is a period-end count, not the weighted-average diluted denominator or current quote-date shares.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "Consolidated balance sheets and stockholders equity; Item 5 stock split disclosure"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 0,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "debt_current",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "FY2026 Note 11 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 8463000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "debt_noncurrent",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "FY2026 Note 11 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebt",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 8463000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "long_term_debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "FY2026 Note 11 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 0,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "FY2026 Note 11 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000021",
+          "accession": "0001045810-26-000021",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-01-26",
+          "source_value": 8463000000,
+          "filing_fiscal_year": 2026,
+          "filing_fiscal_period": "FY",
+          "calendar_frame": "CY2024Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf",
+            "sha256": "a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396",
+            "locator": "FY2026 Note 11 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 999000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_current",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 7469000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_noncurrent",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebt",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 8468000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "long_term_debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 999000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-01-25",
+          "source_value": 7469000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2025Q4I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-07-26",
+          "source_value": 1000000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_current",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-07-26",
+          "source_value": 32366000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_noncurrent",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebt",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-07-26",
+          "source_value": 33366000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "long_term_debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "DebtCurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-07-26",
+          "source_value": 1000000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        },
+        {
+          "source_id": "SEC-0001045810-26-000075",
+          "accession": "0001045810-26-000075",
+          "filed": "2026-08-26",
+          "form": "10-Q",
+          "taxonomy": "us-gaap",
+          "tag": "LongTermDebtNoncurrent",
+          "unit": "USD",
+          "start": null,
+          "end": "2026-07-26",
+          "source_value": 32366000000,
+          "filing_fiscal_year": 2027,
+          "filing_fiscal_period": "Q2",
+          "calendar_frame": "CY2026Q2I",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html",
+          "metric": "debt_total",
+          "scope": "carrying_value_excluding_finance_leases",
+          "decimals": -6,
+          "rationale": "Senior-note carrying amounts after discounts/issuance costs: January 26, 2025 0 current + 8,463 noncurrent = 8,463 million; January 25, 2026 999 + 7,469 = 8,468 million; July 26, 2026 1,000 + 32,366 = 33,366 million. Commercial paper outstanding is explicitly none at each report date. Lease liabilities are excluded. Reported zero is preserved from the source; no absent metric is filled with zero.",
+          "source_document": {
+            "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf",
+            "sha256": "6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd",
+            "locator": "Q2FY2027 Note 9 Debt"
+          }
+        }
+      ],
+      "limitation": "Borrowing carrying values exclude lease liabilities; a valuation must use a compatible lease treatment. Period-end common shares are not current quote-date shares or weighted-average diluted shares. Strict PP&E capex and free_cash_flow remain missing."
     }
   ],
   "coverage": {
@@ -15919,9 +16700,12 @@
       "shares_outstanding": 9,
       "free_cash_flow": 17
     },
-    "model_usable_cells": 209,
-    "resolved_conflict_cells": 16,
-    "split_normalized_cells": 4
+    "model_usable_cells": 235,
+    "resolved_conflict_cells": 18,
+    "split_normalized_cells": 4,
+    "filing_scope_verified_cells": 24,
+    "unverified_share_cells": 2,
+    "unverified_debt_cells": 44
   },
   "limitations": [
     "Company Facts excludes custom taxonomy and dimensional/segment facts; absent data is not zero.",

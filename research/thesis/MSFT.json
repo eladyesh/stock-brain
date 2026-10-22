@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "ticker": "MSFT",
+  "as_of": "2026-10-22",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI primary-document review",
+  "current_period": "FY2026 Q4",
+  "previous_period": "FY2026 Q3",
+  "summary_en": "Cloud demand strengthened; the remaining test is cash return on AI investment and earnings quality.",
+  "summary_he": "הביקוש בענן התחזק; המבחן שנותר הוא התשואה במזומן על השקעות AI ואיכות הרווח.",
+  "changes": [
+    {
+      "id": "cloud-scale",
+      "topic": "Microsoft Cloud revenue",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 54500000000,
+        "unit": "USD",
+        "text_en": "Microsoft Cloud revenue: $54.5bn.",
+        "text_he": "הכנסות Microsoft Cloud: ‏54.5 מיליארד דולר.",
+        "source_ids": [
+          "MSFT-FY26-Q3"
+        ],
+        "locators": [
+          "Business Highlights, Microsoft Cloud revenue"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 59300000000,
+        "unit": "USD",
+        "text_en": "Microsoft Cloud revenue: $59.3bn.",
+        "text_he": "הכנסות Microsoft Cloud: ‏59.3 מיליארד דולר.",
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locators": [
+          "Business Highlights, Microsoft Cloud revenue"
+        ]
+      },
+      "interpretation_en": "The larger cloud revenue base supports the demand thesis. Quarter-to-quarter scale alone does not establish returns on AI capex.",
+      "interpretation_he": "בסיס ההכנסות המתרחב בענן תומך בתזת הביקוש. הגידול הרבעוני לבדו אינו מוכיח תשואה על השקעות AI.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "azure-growth",
+      "topic": "Azure and other cloud services growth",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 0.4,
+        "unit": "YoY growth",
+        "text_en": "Azure and other cloud services revenue growth: 40% reported.",
+        "text_he": "צמיחת הכנסות Azure ושירותי ענן אחרים: ‏40% בדיווח.",
+        "source_ids": [
+          "MSFT-FY26-Q3"
+        ],
+        "locators": [
+          "Intelligent Cloud business highlights, reported growth"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 0.43,
+        "unit": "YoY growth",
+        "text_en": "Azure and other cloud services revenue growth: 43% reported.",
+        "text_he": "צמיחת הכנסות Azure ושירותי ענן אחרים: ‏43% בדיווח.",
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locators": [
+          "Intelligent Cloud business highlights, reported growth"
+        ]
+      },
+      "interpretation_en": "Reported growth accelerated three percentage points. FX and future segment presentation changes require care; this is not evidence that the rate persists through FY2030.",
+      "interpretation_he": "הצמיחה המדווחת האיצה בשלוש נקודות אחוז. מטבע ושינויים עתידיים בהצגת המגזרים דורשים זהירות; אין בכך הוכחה שהקצב יימשך עד FY2030.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "earnings-quality",
+      "topic": "GAAP diluted EPS",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 4.27,
+        "unit": "USD/share",
+        "text_en": "GAAP diluted EPS: $4.27.",
+        "text_he": "רווח GAAP למניה מדוללת: ‏4.27 דולר.",
+        "source_ids": [
+          "MSFT-FY26-Q3"
+        ],
+        "locators": [
+          "Income statements, three months ended March 31, 2026, diluted EPS"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 4.81,
+        "unit": "USD/share",
+        "text_en": "GAAP diluted EPS: $4.81; discrete items added $0.27 versus prior guidance.",
+        "text_he": "רווח GAAP למניה מדוללת: ‏4.81 דולר; פריטים נקודתיים הוסיפו 0.27 דולר ביחס לתחזית הקודמת.",
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locators": [
+          "Opening release, discrete items versus April 29 guidance; income statements"
+        ]
+      },
+      "interpretation_en": "Earnings increased, but the disclosed one-off effects weaken straight-line EPS extrapolation. Review operating profit and cash conversion separately.",
+      "interpretation_he": "הרווח גדל, אך ההשפעות הנקודתיות שדווחו מחלישות השלכה ישירה של צמיחת הרווח למניה. יש לבחון בנפרד רווח תפעולי והמרה למזומן.",
+      "interpretation_type": "analyst_interpretation"
+    }
+  ],
+  "falsifiers": [
+    {
+      "id": "azure-slowdown",
+      "metric": "Azure reported year-over-year revenue growth",
+      "threshold": {
+        "operator": "<",
+        "value": 0.25,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report; two consecutive quarters",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess growth if Azure reported growth is below 25% for two consecutive quarters. The 25% threshold is an analyst assumption.",
+      "text_he": "יש לבחון מחדש את הצמיחה אם צמיחת Azure המדווחת נמוכה מ-25% בשני רבעונים רצופים. הסף הוא הנחת ניתוח.",
+      "source_ids": [
+        "MSFT-FY26-Q4"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    },
+    {
+      "id": "ai-cash-conversion",
+      "metric": "Trailing-four-quarter strict cash-PP&E FCF / revenue",
+      "threshold": {
+        "operator": "<",
+        "value": 0.2,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report; only with four comparable quarters",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess AI cash conversion if comparable trailing-year strict FCF margin falls below 20%. The threshold is assumed; finance leases need separate monitoring.",
+      "text_he": "יש לבחון מחדש את המרת השקעות AI למזומן אם מרווח התזרים החופשי המחמיר בשנה האחרונה נמוך מ-20%, על בסיס רבעונים בני השוואה. הסף הוא הנחה ויש לעקוב בנפרד אחר חכירות מימוניות.",
+      "source_ids": [
+        "MSFT-FY26-Q4"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "MSFT-FY26-Q4",
+      "title": "Microsoft FY2026 Q4 and full-year earnings release",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "date": "2026-07-29",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review",
+      "download_sha256": "6a5ec483eac3ab2542aac55b22e31fd9aaad7662f0e0a9bfa034901ce0b49019"
+    },
+    {
+      "id": "MSFT-FY26-Q3",
+      "title": "Microsoft FY2026 Q3 earnings release",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "date": "2026-04-29",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review",
+      "download_sha256": "b7c5137c2742be191adbc86cba65b807d7708959e925cdbae363fb8fcdd5db31"
+    }
+  ],
+  "limitations": [
+    "These are observed quarter-to-quarter comparisons and analyst interpretations, not a claim that the company issued a four-year outlook.",
+    "Monitoring thresholds are selected analyst assumptions, not issuer guidance or automatic trade triggers.",
+    "Review is by AI against the linked primary documents; format validation is not independent factual verification."
+  ],
+  "packet_sha256": "3ee790a4ccf36d6279e7c5775a8374c0178c046a6994ca195478fac71c1291a5",
+  "profile_sha256": "ee340bb618dd07af26e3d465826bdc85df9a91deea64122e3bc9b62ecbeb2612"
+}

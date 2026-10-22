@@ -8,24 +8,110 @@
     "status and finite values",
     "exact-period reported numbers against provenance",
     "derived arithmetic and inputs",
-    "split review bindings",
+    "split and filing-scope review bindings",
     "source units/cutoffs",
     "model eligibility gates"
   ],
   "limitation": "Checks internal source-linked consistency, not a new filing-level review or independent verification of raw source documents.",
-  "open_flag_count": 77,
+  "open_flag_count": 75,
+  "open_flags_by_code": {
+    "share_basis_unverified": 10,
+    "debt_scope_unverified": 10,
+    "incomplete_selected_metric_coverage": 10,
+    "conflicting_fiscal_year": 3,
+    "definition_changed_across_series": 13,
+    "source_value_revision_or_conflict": 29
+  },
+  "model_usable_cells": 1905,
+  "filing_scope_verified_cells": 84,
   "companies": [
     {
       "ticker": "MSFT",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:49:27.752762+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:36:42.287759+00:00",
       "periods": 17,
       "cells": {
         "reported": 270,
         "missing_required_source": 97,
         "derived": 41
       },
-      "model_usable_cells": 187,
+      "model_usable_cells": 217,
+      "filing_scope_verified_cells": 30,
+      "open_cell_gates": {
+        "debt_scope_requires_filing_review": 39,
+        "share_split_and_corporate_action_basis_unverified": 55
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2026-06-30",
+          "value": 331839000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2026-06-30",
+          "value": 133749000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2026-06-30",
+          "value": 17.95,
+          "unit": "USD/shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "diluted_common_eps",
+          "review_id": "MSFT-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "shares_diluted": {
+          "period_end": "2026-06-30",
+          "value": 7453000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "weighted_average_diluted_common_shares",
+          "review_id": "MSFT-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "shares_outstanding": {
+          "period_end": "2026-06-30",
+          "value": 7427000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "period_end_common_shares_outstanding",
+          "review_id": "MSFT-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "free_cash_flow": {
+          "period_end": "2026-06-30",
+          "value": 66987000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2026-06-30",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -72,8 +158,8 @@
     },
     {
       "ticker": "ORCL",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:49:35.284771+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:36:48.459123+00:00",
       "periods": 17,
       "cells": {
         "reported": 200,
@@ -81,6 +167,83 @@
         "derived": 49
       },
       "model_usable_cells": 150,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "share_split_and_corporate_action_basis_unverified": 73,
+        "debt_scope_requires_filing_review": 26,
+        "definition_changed_across_series": 17
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2026-05-31",
+          "value": 67357000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2026-05-31",
+          "value": 17087000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2026-05-31",
+          "value": 5.83,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2026-05-31",
+          "value": 2914000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2026-05-31",
+          "value": 2880000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2026-05-31",
+          "value": -23686000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2026-05-31",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -155,8 +318,8 @@
     },
     {
       "ticker": "PLTR",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:49:42.068907+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:36:54.524701+00:00",
       "periods": 17,
       "cells": {
         "reported": 201,
@@ -164,6 +327,82 @@
         "derived": 62
       },
       "model_usable_cells": 189,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "share_split_and_corporate_action_basis_unverified": 73,
+        "debt_scope_requires_filing_review": 1
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2025-12-31",
+          "value": 4475446000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2025-12-31",
+          "value": 1625033000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2025-12-31",
+          "value": 0.63,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2025-12-31",
+          "value": 2565197000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2025-12-31",
+          "value": 2391192000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2025-12-31",
+          "value": 2100591000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2025-12-31",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -211,15 +450,93 @@
     },
     {
       "ticker": "MU",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:49:48.258124+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:00.840462+00:00",
       "periods": 17,
       "cells": {
         "reported": 251,
         "missing_required_source": 98,
         "derived": 59
       },
-      "model_usable_cells": 171,
+      "model_usable_cells": 201,
+      "filing_scope_verified_cells": 30,
+      "open_cell_gates": {
+        "debt_scope_requires_filing_review": 52,
+        "share_split_and_corporate_action_basis_unverified": 57
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2026-09-03",
+          "value": 133188000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2026-09-03",
+          "value": 84969000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2026-09-03",
+          "value": 74.33,
+          "unit": "USD/shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "diluted_common_eps",
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "shares_diluted": {
+          "period_end": "2026-09-03",
+          "value": 1143000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "weighted_average_diluted_common_shares",
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "shares_outstanding": {
+          "period_end": "2026-09-03",
+          "value": 1131000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "period_end_common_shares_outstanding",
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "free_cash_flow": {
+          "period_end": "2026-09-03",
+          "value": 58963000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2026-09-03",
+          "value": 5179000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "carrying_value_including_finance_leases",
+          "review_id": "MU-FY2026-exact-observation-scope-2026-10-22"
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -268,38 +585,94 @@
     },
     {
       "ticker": "NVDA",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:49:54.788941+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:07.064815+00:00",
       "periods": 17,
       "cells": {
         "reported": 220,
         "missing_required_source": 127,
         "derived": 61
       },
-      "model_usable_cells": 209,
+      "model_usable_cells": 235,
+      "filing_scope_verified_cells": 24,
+      "open_cell_gates": {
+        "debt_scope_requires_filing_review": 44,
+        "share_split_and_corporate_action_basis_unverified": 2
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2026-01-25",
+          "value": 215938000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2026-01-25",
+          "value": 120067000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2026-01-25",
+          "value": 4.9,
+          "unit": "USD/shares",
+          "model_usable": true,
+          "flags": [
+            "share_split_basis_verified"
+          ],
+          "reviewed_scope": null,
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19"
+        },
+        "shares_diluted": {
+          "period_end": "2026-01-25",
+          "value": 24514000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "share_split_basis_verified"
+          ],
+          "reviewed_scope": null,
+          "review_id": "NVDA-2024-ten-for-one-2026-10-19"
+        },
+        "shares_outstanding": {
+          "period_end": "2026-01-25",
+          "value": 24304000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "period_end_common_shares_outstanding",
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22"
+        },
+        "free_cash_flow": {
+          "period_end": "2026-01-25",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2026-01-25",
+          "value": 8468000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [
+            "filing_scope_verified"
+          ],
+          "reviewed_scope": "carrying_value_excluding_finance_leases",
+          "review_id": "NVDA-FY2026-exact-observation-scope-2026-10-22"
+        }
+      },
       "open_flags": [
-        {
-          "severity": "high",
-          "period": "annual:2024-01-28",
-          "metric": "shares_outstanding",
-          "code": "source_value_revision_or_conflict",
-          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-          "source_ids": [
-            "SEC-0001045810-25-000023"
-          ],
-          "status": "open"
-        },
-        {
-          "severity": "high",
-          "period": "quarterly:2024-01-28",
-          "metric": "shares_outstanding",
-          "code": "source_value_revision_or_conflict",
-          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
-          "source_ids": [
-            "SEC-0001045810-25-000023"
-          ],
-          "status": "open"
-        },
         {
           "severity": "high",
           "code": "share_basis_unverified",
@@ -346,8 +719,8 @@
     },
     {
       "ticker": "AMD",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:50:00.977823+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:13.408766+00:00",
       "periods": 17,
       "cells": {
         "reported": 246,
@@ -355,6 +728,82 @@
         "derived": 59
       },
       "model_usable_cells": 200,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "share_split_and_corporate_action_basis_unverified": 73,
+        "debt_scope_requires_filing_review": 32
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2025-12-27",
+          "value": 34639000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2025-12-27",
+          "value": 4335000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2025-12-27",
+          "value": 2.65,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2025-12-27",
+          "value": 1636000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2025-12-27",
+          "value": 1630000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2025-12-27",
+          "value": 6735000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2025-12-27",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -403,8 +852,8 @@
     },
     {
       "ticker": "AVGO",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:50:09.534624+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:20.072517+00:00",
       "periods": 17,
       "cells": {
         "reported": 228,
@@ -412,6 +861,86 @@
         "derived": 72
       },
       "model_usable_cells": 235,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "debt_scope_requires_filing_review": 48,
+        "definition_changed_across_series": 41,
+        "share_split_and_corporate_action_basis_unverified": 17,
+        "revision_requires_review": 3
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2025-11-02",
+          "value": 63887000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2025-11-02",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2025-11-02",
+          "value": 4.77,
+          "unit": "USD/shares",
+          "model_usable": true,
+          "flags": [
+            "share_split_basis_verified"
+          ],
+          "reviewed_scope": null,
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19"
+        },
+        "shares_diluted": {
+          "period_end": "2025-11-02",
+          "value": 4853000000,
+          "unit": "shares",
+          "model_usable": true,
+          "flags": [
+            "share_split_basis_verified"
+          ],
+          "reviewed_scope": null,
+          "review_id": "AVGO-2024-ten-for-one-2026-10-19"
+        },
+        "shares_outstanding": {
+          "period_end": "2025-11-02",
+          "value": 4741000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2025-11-02",
+          "value": 26914000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2025-11-02",
+          "value": 65136000000,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [
+            "debt_scope_requires_filing_review"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -695,8 +1224,8 @@
     },
     {
       "ticker": "AVAV",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:50:18.392446+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:26.794000+00:00",
       "periods": 17,
       "cells": {
         "reported": 242,
@@ -704,6 +1233,86 @@
         "derived": 52
       },
       "model_usable_cells": 159,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "definition_changed_across_series": 17,
+        "share_split_and_corporate_action_basis_unverified": 73,
+        "debt_scope_requires_filing_review": 41,
+        "revision_requires_review": 6
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2026-04-30",
+          "value": 1976845000,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [
+            "definition_changed_across_series"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2026-04-30",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2026-04-30",
+          "value": -5.4,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2026-04-30",
+          "value": 49087346,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2026-04-30",
+          "value": 50610514,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2026-04-30",
+          "value": -140948000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2026-04-30",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -888,8 +1497,8 @@
     },
     {
       "ticker": "LMT",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:50:22.822551+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:29.248795+00:00",
       "periods": 17,
       "cells": {
         "reported": 217,
@@ -897,6 +1506,82 @@
         "derived": 42
       },
       "model_usable_cells": 153,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "share_split_and_corporate_action_basis_unverified": 64,
+        "debt_scope_requires_filing_review": 42
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2025-12-31",
+          "value": 75048000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2025-12-31",
+          "value": 5017000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2025-12-31",
+          "value": 21.49,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2025-12-31",
+          "value": 233500000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2025-12-31",
+          "value": 229000000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2025-12-31",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2025-12-31",
+          "value": null,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",
@@ -947,8 +1632,8 @@
     },
     {
       "ticker": "RTX",
-      "as_of": "2026-10-22",
-      "retrieved_at": "2026-10-22T05:50:27.308030+00:00",
+      "as_of": "2026-10-19",
+      "retrieved_at": "2026-10-19T11:37:32.797680+00:00",
       "periods": 17,
       "cells": {
         "reported": 220,
@@ -956,6 +1641,85 @@
         "derived": 72
       },
       "model_usable_cells": 166,
+      "filing_scope_verified_cells": 0,
+      "open_cell_gates": {
+        "share_split_and_corporate_action_basis_unverified": 56,
+        "debt_scope_requires_filing_review": 68,
+        "definition_changed_across_series": 34,
+        "revision_requires_review": 2
+      },
+      "latest_annual_model_inputs": {
+        "revenue": {
+          "period_end": "2025-12-31",
+          "value": 88603000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "net_income": {
+          "period_end": "2025-12-31",
+          "value": 6732000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "eps_diluted": {
+          "period_end": "2025-12-31",
+          "value": 4.96,
+          "unit": "USD/shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_diluted": {
+          "period_end": "2025-12-31",
+          "value": 1356400000,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [
+            "share_split_and_corporate_action_basis_unverified"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "shares_outstanding": {
+          "period_end": "2025-12-31",
+          "value": null,
+          "unit": "shares",
+          "model_usable": false,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "free_cash_flow": {
+          "period_end": "2025-12-31",
+          "value": 7940000000,
+          "unit": "USD",
+          "model_usable": true,
+          "flags": [],
+          "reviewed_scope": null,
+          "review_id": null
+        },
+        "debt_total": {
+          "period_end": "2025-12-31",
+          "value": 37904000000,
+          "unit": "USD",
+          "model_usable": false,
+          "flags": [
+            "debt_scope_requires_filing_review",
+            "definition_changed_across_series"
+          ],
+          "reviewed_scope": null,
+          "review_id": null
+        }
+      },
       "open_flags": [
         {
           "severity": "high",

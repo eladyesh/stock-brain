@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "ticker": "RTX",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-20",
   "sources": [
     {
       "id": "S01",
@@ -34,6 +34,22 @@
       "url": "https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/ef20082011_8k.htm",
       "published_at": "2026-09-15",
       "accessed_at": "2026-10-18"
+    },
+    {
+      "id": "S05",
+      "title": "RTX Reports Q3 2026 Results",
+      "publisher": "RTX Corporation",
+      "url": "https://www.rtx.com/news/news-center/2026/10/20/rtx-reports-q3-2026-results",
+      "published_at": "2026-10-20",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "S06",
+      "title": "RTX Reports Q2 2026 Results (issuer release)",
+      "publisher": "RTX Corporation",
+      "url": "https://www.rtx.com/news/news-center/2026/07/23/rtx-reports-q2-2026-results",
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-22"
     }
   ],
   "sections": {
@@ -145,6 +161,32 @@
     "growth-drivers": {
       "claims": [
         {
+          "id": "C23",
+          "kind": "reported",
+          "text": "Backlog increased from USD 289 billion at June 30, 2026 to USD 340 billion at September 30, 2026. Commercial backlog moved from USD 170 billion to USD 176 billion and defense from USD 119 billion to USD 164 billion. Third-quarter awards included multiyear Tomahawk and AMRAAM production contracts whose terms were not yet fully definitized.",
+          "evidence": [
+            {
+              "source_id": "S06",
+              "locator": "Second quarter 2026 highlights / backlog, line 39"
+            },
+            {
+              "source_id": "S05",
+              "locator": "Third quarter 2026 highlights / backlog and undefinitized production contracts, lines 39–40"
+            }
+          ]
+        },
+        {
+          "id": "C26",
+          "kind": "reported",
+          "text": "In the third quarter of 2026, Collins commercial aftermarket sales grew 9% year over year, Pratt & Whitney commercial aftermarket sales grew 21%, and Raytheon total sales grew 14%.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Segment Results / Collins, Pratt & Whitney and Raytheon growth commentary, lines 123–125, 159–162 and 195"
+            }
+          ]
+        },
+        {
           "id": "C08",
           "kind": "management_guidance",
           "text": "The July results reported commercial aftermarket and defense growth. Management plans capacity and productivity improvements; future backlog conversion still depends on execution.",
@@ -152,6 +194,10 @@
             {
               "source_id": "S03",
               "locator": "Opening management commentary; Segment Results"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Opening management commentary, lines 47–48; Segment Results"
             }
           ]
         }
@@ -160,6 +206,50 @@
     "financial-performance": {
       "claims": [
         {
+          "id": "C19",
+          "kind": "reported",
+          "text": "For July 1–September 30, 2026, GAAP sales were USD 24,965 million versus USD 22,478 million in the comparable 2025 quarter. Net income attributable to common shareowners was USD 2,583 million and diluted EPS was USD 1.89.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Condensed Consolidated Statement of Operations / quarter ended September 30, 2026 and 2025; lines 236–333"
+            }
+          ]
+        },
+        {
+          "id": "C20",
+          "kind": "reported",
+          "text": "For the quarter ended September 30, 2026, company-defined non-GAAP adjusted diluted EPS was USD 2.26 versus USD 1.70 a year earlier. The adjusted figure includes USD 0.25 of IEEPA cost recovery; the recovery was not removed by the non-GAAP reconciliation.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Third quarter 2026 highlights / IEEPA recovery, lines 34–52; Adjusted Income, Earnings Per Share, and Effective Tax Rate / diluted EPS, lines 1066–1077"
+            }
+          ]
+        },
+        {
+          "id": "C22",
+          "kind": "reported",
+          "text": "For the quarter ended September 30, 2026, GAAP operating cash flow was USD 2,868 million, including approximately USD 300 million of IEEPA recovery; capital expenditures were USD 749 million and non-GAAP free cash flow was USD 2,119 million. The comparable 2025 values were USD 4,639 million, USD 614 million and USD 4,025 million, respectively. Nine-month free cash flow was USD 6,306 million versus USD 4,745 million. Free cash flow equals operating cash flow less capital expenditures.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Third quarter 2026 / cash flow commentary, lines 38 and 52; Free Cash Flow Reconciliation, lines 1198–1221"
+            }
+          ]
+        },
+        {
+          "id": "C25",
+          "kind": "reported",
+          "text": "Pratt & Whitney reported operating profit of USD 608 million for the quarter ended September 30, 2026 versus USD 751 million a year earlier. Its non-GAAP adjusted operating profit was USD 968 million: a USD 363 million customer-bankruptcy charge was excluded, while approximately USD 160 million of IEEPA recovery remained in adjusted profit.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Pratt & Whitney segment results, lines 137–162; adjusted operating profit reconciliation, lines 824–839"
+            }
+          ]
+        },
+        {
           "id": "C09",
           "kind": "reported",
           "text": "For April 1–June 30, 2026, GAAP sales were USD 24,708 million, net income attributable to common shareowners USD 2,139 million and diluted EPS USD 1.57.",
@@ -167,6 +257,10 @@
             {
               "source_id": "S02",
               "locator": "Condensed Consolidated Statement of Operations"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Condensed Consolidated Statement of Operations / quarter ended June 30, 2026, lines 234–330"
             }
           ]
         },
@@ -178,6 +272,10 @@
             {
               "source_id": "S03",
               "locator": "Summary Financial Results; EPS reconciliation"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Summary Financial Results and adjusted EPS reconciliation, lines 72–81 and 1042–1053"
             }
           ]
         }
@@ -186,6 +284,17 @@
     "balance-sheet-and-capital-allocation": {
       "claims": [
         {
+          "id": "C24",
+          "kind": "reported",
+          "text": "At September 30, 2026, GAAP cash and equivalents were USD 9,173 million. Long-term debt was USD 31,490 million excluding current maturities of USD 5,679 million; separate short-term borrowings were USD 210 million. Operating lease liabilities are not included in these debt figures.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Condensed Consolidated Balance Sheet / cash, short-term borrowings, long-term debt and current maturities, lines 508–564"
+            }
+          ]
+        },
+        {
           "id": "C11",
           "kind": "reported",
           "text": "At June 30, 2026, GAAP cash and equivalents were USD 8,305 million. GAAP long-term debt was USD 31,858 million, excluding current maturities of USD 5,296 million and separate short-term borrowings of USD 229 million.",
@@ -193,6 +302,10 @@
             {
               "source_id": "S02",
               "locator": "Condensed Consolidated Balance Sheet"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Condensed Consolidated Balance Sheet / June 30, 2026, lines 496–552"
             }
           ]
         }
@@ -222,11 +335,11 @@
         {
           "id": "C13",
           "kind": "interpretation",
-          "text": "Interpretation: compare segment profitability and cash generation while reconciling acquisition adjustments and engine remediation costs. No current stock price, valuation multiple or price target is supplied.",
+          "text": "Interpretation: value recurring segment profit and cash generation after separating cost recoveries, customer-credit charges and acquisition adjustments. The larger backlog does not establish delivery timing or profit. No current stock price, valuation multiple or price target is supplied.",
           "evidence": [
             {
-              "source_id": "S03",
-              "locator": "Summary Financial Results; Use and Definitions of Non-GAAP Financial Measures"
+              "source_id": "S05",
+              "locator": "Third quarter 2026 / IEEPA recovery; Pratt & Whitney results; Use and Definitions of Non-GAAP Financial Measures; Free Cash Flow Reconciliation"
             }
           ]
         }
@@ -259,6 +372,17 @@
               "locator": "Note 16, Pratt & Whitney Powder Metal Matter"
             }
           ]
+        },
+        {
+          "id": "C27",
+          "kind": "interpretation",
+          "text": "Interpretation: raised cash guidance and a larger defense backlog strengthen the execution case, but the quarterly cash decline, recovery-assisted earnings and customer-credit charge limit confidence in recurring profit. A miss of the new cash-flow floor, repeat customer-credit losses or sustained defense sales contraction would weaken this thesis. These are analyst monitoring conditions, not company forecasts.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Full-year outlook; Summary Financial Results; Pratt & Whitney results; Raytheon results"
+            }
+          ]
         }
       ]
     },
@@ -272,6 +396,21 @@
             {
               "source_id": "S02",
               "locator": "Item 2, Business Overview; Note 16, Commitments and Contingencies"
+            }
+          ]
+        },
+        {
+          "id": "C28",
+          "kind": "interpretation",
+          "text": "Review scope: the current earnings comparison uses the complete issuer results releases. Changes in detailed engine-remediation cash obligations, customer-credit exposure and litigation remain unverified because the new SEC quarterly filing and current report, call transcript and presentation were not reviewed. Earlier filing-based risks retain their original evidence dates.",
+          "evidence": [
+            {
+              "source_id": "S05",
+              "locator": "Issuer release / financial statements, reconciliations and Cautionary Statement Regarding Forward-Looking Statements"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Preceding issuer release / financial statements and full-year outlook"
             }
           ]
         }
@@ -295,6 +434,21 @@
     "recent-developments": {
       "claims": [
         {
+          "id": "C21",
+          "kind": "management_guidance",
+          "text": "On October 20, 2026, RTX raised full-year 2026 non-GAAP guidance from the July outlook: adjusted sales USD 95.0–96.0 billion to USD 97.0–97.5 billion; organic sales growth 8–9% to 10–11%; adjusted EPS USD 7.10–7.25 to USD 7.65–7.75; and free cash flow USD 8.50–8.75 billion to USD 9.0–9.2 billion. These ranges are forecasts.",
+          "evidence": [
+            {
+              "source_id": "S06",
+              "locator": "Updates outlook for full year 2026, lines 41–46"
+            },
+            {
+              "source_id": "S05",
+              "locator": "Updates outlook for full year 2026, lines 41–46"
+            }
+          ]
+        },
+        {
           "id": "C18",
           "kind": "management_guidance",
           "text": "RTX raised its adjusted sales, adjusted EPS and free-cash-flow outlook on July 23, 2026. These were management forecasts, not realized annual results.",
@@ -302,6 +456,10 @@
             {
               "source_id": "S03",
               "locator": "Updates outlook for full year 2026"
+            },
+            {
+              "source_id": "S06",
+              "locator": "Updates outlook for full year 2026, lines 41–46"
             }
           ]
         }
@@ -310,9 +468,10 @@
   },
   "gaps": [
     "No current stock price, consensus estimates or valuation multiples were sourced.",
-    "Latest quarterly evidence covers June 30, 2026; filings-first pilot is not an exhaustive news or contract-award feed.",
-    "Full debt maturity, engine-remediation cash and litigation models are not built.",
-    "Named commercial aerospace competitors and market shares require separate primary-source comparison."
+    "Quarterly results through September 30, 2026 were reviewed in the full issuer release published October 20, 2026. The new SEC quarterly filing and current report were not accessed; their notes, exhibits and disclosure completeness remain unreviewed.",
+    "No earnings-call transcript or presentation was reviewed; engine-remediation cash schedules, aircraft-on-ground trends, debt maturities and litigation changes still need filing-level verification.",
+    "Named commercial aerospace competitors and market shares require separate primary-source comparison.",
+    "Earlier annual-business and succession evidence retains its original source access dates; this is a bounded earnings update, not an exhaustive news or contract-award refresh."
   ],
   "metrics": [
     {
@@ -405,6 +564,722 @@
       "basis": "GAAP",
       "source_id": "S02",
       "locator": "Condensed Consolidated Balance Sheet / Long-term debt currently due"
+    },
+    {
+      "id": "M08",
+      "claim_id": "C19",
+      "name": "Net sales",
+      "value": 24965,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Statement of Operations / Net sales",
+      "kind": "reported"
+    },
+    {
+      "id": "M09",
+      "claim_id": "C19",
+      "name": "Net sales",
+      "value": 22478,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Statement of Operations / Net sales",
+      "kind": "reported"
+    },
+    {
+      "id": "M10",
+      "claim_id": "C19",
+      "name": "Net income attributable to common shareowners",
+      "value": 2583,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Statement of Operations / Net income attributable to common shareowners",
+      "kind": "reported"
+    },
+    {
+      "id": "M11",
+      "claim_id": "C19",
+      "name": "Diluted EPS",
+      "value": 1.89,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Statement of Operations / Diluted EPS",
+      "kind": "reported"
+    },
+    {
+      "id": "M12",
+      "claim_id": "C20",
+      "name": "Adjusted diluted EPS",
+      "value": 2.26,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 highlights; adjusted EPS reconciliation / Adjusted diluted EPS",
+      "kind": "reported"
+    },
+    {
+      "id": "M13",
+      "claim_id": "C20",
+      "name": "Adjusted diluted EPS",
+      "value": 1.7,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 highlights; adjusted EPS reconciliation / Adjusted diluted EPS",
+      "kind": "reported"
+    },
+    {
+      "id": "M14",
+      "claim_id": "C20",
+      "name": "IEEPA recovery included in adjusted diluted EPS",
+      "value": 0.25,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 highlights; adjusted EPS reconciliation / IEEPA recovery included in adjusted diluted EPS",
+      "kind": "reported"
+    },
+    {
+      "id": "M15",
+      "claim_id": "C21",
+      "name": "Adjusted sales guidance low",
+      "value": 95.0,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Adjusted sales",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M16",
+      "claim_id": "C21",
+      "name": "Adjusted sales guidance high",
+      "value": 96.0,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Adjusted sales",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M17",
+      "claim_id": "C21",
+      "name": "Organic sales growth guidance low",
+      "value": 8,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Organic sales growth",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M18",
+      "claim_id": "C21",
+      "name": "Organic sales growth guidance high",
+      "value": 9,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Organic sales growth",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M19",
+      "claim_id": "C21",
+      "name": "Adjusted diluted EPS guidance low",
+      "value": 7.1,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Adjusted diluted EPS",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M20",
+      "claim_id": "C21",
+      "name": "Adjusted diluted EPS guidance high",
+      "value": 7.25,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Adjusted diluted EPS",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M21",
+      "claim_id": "C21",
+      "name": "Free cash flow guidance low",
+      "value": 8.5,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Free cash flow",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M22",
+      "claim_id": "C21",
+      "name": "Free cash flow guidance high",
+      "value": 8.75,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S06",
+      "locator": "Updates outlook for full year 2026 / Free cash flow",
+      "kind": "management_guidance",
+      "announced_at": "2026-07-23"
+    },
+    {
+      "id": "M23",
+      "claim_id": "C21",
+      "name": "Adjusted sales guidance low",
+      "value": 97.0,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Adjusted sales",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M24",
+      "claim_id": "C21",
+      "name": "Adjusted sales guidance high",
+      "value": 97.5,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Adjusted sales",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M25",
+      "claim_id": "C21",
+      "name": "Organic sales growth guidance low",
+      "value": 10,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Organic sales growth",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M26",
+      "claim_id": "C21",
+      "name": "Organic sales growth guidance high",
+      "value": 11,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Organic sales growth",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M27",
+      "claim_id": "C21",
+      "name": "Adjusted diluted EPS guidance low",
+      "value": 7.65,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Adjusted diluted EPS",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M28",
+      "claim_id": "C21",
+      "name": "Adjusted diluted EPS guidance high",
+      "value": 7.75,
+      "unit": "per_share",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Adjusted diluted EPS",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M29",
+      "claim_id": "C21",
+      "name": "Free cash flow guidance low",
+      "value": 9.0,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Free cash flow",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M30",
+      "claim_id": "C21",
+      "name": "Free cash flow guidance high",
+      "value": 9.2,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-12-31",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Updates outlook for full year 2026 / Free cash flow",
+      "kind": "management_guidance",
+      "announced_at": "2026-10-20"
+    },
+    {
+      "id": "M31",
+      "claim_id": "C22",
+      "name": "Operating cash flow",
+      "value": 2868,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Operating cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M32",
+      "claim_id": "C22",
+      "name": "Capital expenditures",
+      "value": 749,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Capital expenditures",
+      "kind": "reported"
+    },
+    {
+      "id": "M33",
+      "claim_id": "C22",
+      "name": "Free cash flow",
+      "value": 2119,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Free cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M34",
+      "claim_id": "C22",
+      "name": "Operating cash flow",
+      "value": 4639,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Operating cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M35",
+      "claim_id": "C22",
+      "name": "Capital expenditures",
+      "value": 614,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Capital expenditures",
+      "kind": "reported"
+    },
+    {
+      "id": "M36",
+      "claim_id": "C22",
+      "name": "Free cash flow",
+      "value": 4025,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Free cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M37",
+      "claim_id": "C22",
+      "name": "IEEPA recovery in operating cash flow (approximate)",
+      "value": 300,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / IEEPA recovery in operating cash flow (approximate)",
+      "kind": "reported"
+    },
+    {
+      "id": "M38",
+      "claim_id": "C22",
+      "name": "Free cash flow",
+      "value": 6306,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-01-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Free cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M39",
+      "claim_id": "C22",
+      "name": "Free cash flow",
+      "value": 4745,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-01-01",
+      "period_end": "2025-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Third quarter 2026 commentary; Free Cash Flow Reconciliation / Free cash flow",
+      "kind": "reported"
+    },
+    {
+      "id": "M40",
+      "claim_id": "C23",
+      "name": "Company backlog",
+      "value": 289,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "Operating metric",
+      "source_id": "S06",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M41",
+      "claim_id": "C23",
+      "name": "Commercial backlog",
+      "value": 170,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "Operating metric",
+      "source_id": "S06",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M42",
+      "claim_id": "C23",
+      "name": "Defense backlog",
+      "value": 119,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-06-30",
+      "basis": "Operating metric",
+      "source_id": "S06",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M43",
+      "claim_id": "C23",
+      "name": "Company backlog",
+      "value": 340,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "Operating metric",
+      "source_id": "S05",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M44",
+      "claim_id": "C23",
+      "name": "Commercial backlog",
+      "value": 176,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "Operating metric",
+      "source_id": "S05",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M45",
+      "claim_id": "C23",
+      "name": "Defense backlog",
+      "value": 164,
+      "unit": "billion",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "Operating metric",
+      "source_id": "S05",
+      "locator": "Quarter highlights / backlog",
+      "kind": "reported"
+    },
+    {
+      "id": "M46",
+      "claim_id": "C24",
+      "name": "Cash and cash equivalents",
+      "value": 9173,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Balance Sheet / Cash and cash equivalents",
+      "kind": "reported"
+    },
+    {
+      "id": "M47",
+      "claim_id": "C24",
+      "name": "Long-term debt excluding current maturities",
+      "value": 31490,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Balance Sheet / Long-term debt excluding current maturities",
+      "kind": "reported"
+    },
+    {
+      "id": "M48",
+      "claim_id": "C24",
+      "name": "Current maturities of long-term debt",
+      "value": 5679,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Balance Sheet / Current maturities of long-term debt",
+      "kind": "reported"
+    },
+    {
+      "id": "M49",
+      "claim_id": "C24",
+      "name": "Short-term borrowings",
+      "value": 210,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": null,
+      "period_end": "2026-09-30",
+      "basis": "GAAP",
+      "source_id": "S05",
+      "locator": "Condensed Consolidated Balance Sheet / Short-term borrowings",
+      "kind": "reported"
+    },
+    {
+      "id": "M50",
+      "claim_id": "C25",
+      "name": "Pratt & Whitney reported operating profit",
+      "value": 608,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "Reported segment",
+      "source_id": "S05",
+      "locator": "Pratt & Whitney segment narrative and adjusted operating profit reconciliation / Pratt & Whitney reported operating profit",
+      "kind": "reported"
+    },
+    {
+      "id": "M51",
+      "claim_id": "C25",
+      "name": "Pratt & Whitney reported operating profit",
+      "value": 751,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2025-07-01",
+      "period_end": "2025-09-30",
+      "basis": "Reported segment",
+      "source_id": "S05",
+      "locator": "Pratt & Whitney segment narrative and adjusted operating profit reconciliation / Pratt & Whitney reported operating profit",
+      "kind": "reported"
+    },
+    {
+      "id": "M52",
+      "claim_id": "C25",
+      "name": "Pratt & Whitney adjusted operating profit",
+      "value": 968,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Pratt & Whitney segment narrative and adjusted operating profit reconciliation / Pratt & Whitney adjusted operating profit",
+      "kind": "reported"
+    },
+    {
+      "id": "M53",
+      "claim_id": "C25",
+      "name": "Pratt & Whitney customer-bankruptcy charge",
+      "value": 363,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "Reported segment",
+      "source_id": "S05",
+      "locator": "Pratt & Whitney segment narrative and adjusted operating profit reconciliation / Pratt & Whitney customer-bankruptcy charge",
+      "kind": "reported"
+    },
+    {
+      "id": "M54",
+      "claim_id": "C25",
+      "name": "Pratt & Whitney IEEPA recovery (approximate)",
+      "value": 160,
+      "unit": "million",
+      "currency": "USD",
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "non-GAAP",
+      "source_id": "S05",
+      "locator": "Pratt & Whitney segment narrative and adjusted operating profit reconciliation / Pratt & Whitney IEEPA recovery (approximate)",
+      "kind": "reported"
+    },
+    {
+      "id": "M55",
+      "claim_id": "C26",
+      "name": "Collins commercial aftermarket sales year-over-year growth",
+      "value": 9,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "Reported operating growth",
+      "source_id": "S05",
+      "locator": "Segment Results / Collins commercial aftermarket sales year-over-year growth",
+      "kind": "reported"
+    },
+    {
+      "id": "M56",
+      "claim_id": "C26",
+      "name": "Pratt & Whitney commercial aftermarket sales year-over-year growth",
+      "value": 21,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "Reported operating growth",
+      "source_id": "S05",
+      "locator": "Segment Results / Pratt & Whitney commercial aftermarket sales year-over-year growth",
+      "kind": "reported"
+    },
+    {
+      "id": "M57",
+      "claim_id": "C26",
+      "name": "Raytheon total sales year-over-year growth",
+      "value": 14,
+      "unit": "percent",
+      "currency": null,
+      "period_start": "2026-07-01",
+      "period_end": "2026-09-30",
+      "basis": "Reported operating growth",
+      "source_id": "S05",
+      "locator": "Segment Results / Raytheon total sales year-over-year growth",
+      "kind": "reported"
     }
   ]
 }

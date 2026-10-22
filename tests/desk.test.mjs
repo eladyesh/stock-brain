@@ -20,7 +20,9 @@ for(const c of historicalCases)test('Exact historical answer: '+c.question,()=>{
   assert.equal(out.mode,'financial_history');assert.equal(out.statements.length,1);
   const row=out.statements[0];
   assert.deepEqual([row.ticker,row.value,row.period_start,row.period_end],[c.ticker,c.value,c.start,c.end]);
-  assert(row.sources.length>0&&row.sources.every(s=>s.url.startsWith('https://www.sec.gov/Archives/')&&s.locator.includes('us-gaap:')));
+  assert(row.sources.some(s=>s.url.startsWith('https://www.sec.gov/Archives/')&&s.locator.includes('us-gaap:')));
+  assert(row.sources.every(s=>s.url.startsWith('https://')&&s.locator));
+  if(c.review_source_id)assert(row.sources.some(s=>s.id===c.review_source_id),'Exact-period share review evidence must accompany newly eligible EPS');
 });
 
 test('Historical comparison returns every issuer or abstains',()=>{

@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "suite": "independent-workbench-questions",
+  "authored_at": "2026-10-22",
+  "reviewer_type": "independent_ai",
+  "authoring_method": "Questions and expected behaviors were frozen before inspecting site/engine.mjs or the new implementation. This is independent AI review, not human review.",
+  "baseline_commit": "fd7a8fa3562182f9ac5473e5bb78d6076a18b401",
+  "contract_sources": ["AGENTS.md", "docs/EXACT_ANSWERS.md", "docs/API.md"],
+  "scope": {
+    "mandatory": "Exact supported historical values in Hebrew and English; source-backed before/after thesis changes for MSFT, MU, NVDA and RTX; fail closed on missing scope or unsupported period, qualifier, company or recommendation.",
+    "deliberately_bounded": "The new TTM table does not oblige the Q&A engine to perform rolling calculations. The UI company models do not oblige Q&A to calculate forecasts. Explicit refusal is acceptable in those cases, but a substitute historical number or an unlabeled scenario is not.",
+    "citation_rule": "Every answered factual statement needs an original source URL and useful locator. A before/after comparison needs evidence for both sides; one source may support both if it actually reports the comparison.",
+    "no_partial_answers": "An unsupported requested company, metric, period or qualifier must not silently disappear from the answer.",
+    "language_rule": "Hebrew questions should receive Hebrew answer prose and English questions English prose; issuer names, metric labels and source titles may retain their source language."
+  },
+  "cases": [
+    {
+      "id": "WB01",
+      "category": "exact_supported",
+      "question": "מה היו ההכנסות והרווח הנקי של מיקרוסופט בשנת הכספים 2026 לפי GAAP?",
+      "expect": "answer",
+      "tickers": ["MSFT"],
+      "facts": [
+        {"ticker": "MSFT", "metric": "revenue", "value": 331839000000, "unit": "USD", "period_start": "2025-07-01", "period_end": "2026-06-30", "basis": "GAAP"},
+        {"ticker": "MSFT", "metric": "net_income", "value": 133749000000, "unit": "USD", "period_start": "2025-07-01", "period_end": "2026-06-30", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/pilot/MSFT.json:metrics M01/M03, source S02"],
+      "expected_behavior": "Return both exact annual values, fiscal dates, GAAP basis and source locators. Do not substitute the OpenAI-adjusted earnings measure."
+    },
+    {
+      "id": "WB02",
+      "category": "exact_supported",
+      "question": "For Micron fiscal Q4 2026, what were GAAP revenue and gross margin?",
+      "expect": "answer",
+      "tickers": ["MU"],
+      "facts": [
+        {"ticker": "MU", "metric": "revenue", "value": 54229000000, "unit": "USD", "period_start": "2026-05-29", "period_end": "2026-09-03", "basis": "GAAP"},
+        {"ticker": "MU", "metric": "gross_margin", "value": 86.8, "unit": "%", "period_start": "2026-05-29", "period_end": "2026-09-03", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/pilot/MU.json:metrics M01/M03, source S02"],
+      "expected_behavior": "Answer both metrics and preserve the unusual fiscal-quarter boundaries. A dollar gross-profit amount is not an answer to gross margin."
+    },
+    {
+      "id": "WB03",
+      "category": "exact_supported",
+      "question": "מה היו הרווח התפעולי והרווח הנקי של NVIDIA ברבעון Q2 FY2027 לפי GAAP?",
+      "expect": "answer",
+      "tickers": ["NVDA"],
+      "facts": [
+        {"ticker": "NVDA", "metric": "operating_income", "value": 63734000000, "unit": "USD", "period_start": "2026-04-27", "period_end": "2026-07-26", "basis": "GAAP"},
+        {"ticker": "NVDA", "metric": "net_income", "value": 59688000000, "unit": "USD", "period_start": "2026-04-27", "period_end": "2026-07-26", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/pilot/NVDA.json:metrics M02/M03, source S02"],
+      "expected_behavior": "Answer the two GAAP profits with the exact fiscal period, not the non-GAAP net-income figure or a calendar-quarter proxy."
+    },
+    {
+      "id": "WB04",
+      "category": "exact_supported",
+      "question": "How much GAAP revenue did Microsoft report in FY2024?",
+      "expect": "answer",
+      "tickers": ["MSFT"],
+      "facts": [
+        {"ticker": "MSFT", "metric": "revenue", "value": 245122000000, "unit": "USD", "period_start": "2023-07-01", "period_end": "2024-06-30", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/financials/MSFT.json:financials.annual:2024-06-30.revenue"],
+      "expected_behavior": "Use the exact historical fiscal period and its SEC source even though the selected narrative emphasizes a newer annual report."
+    },
+    {
+      "id": "WB05",
+      "category": "exact_supported",
+      "question": "מה היו הכנסות מיקרוסופט ברבעון הראשון של שנת 2026 הקלנדרית?",
+      "expect": "answer",
+      "tickers": ["MSFT"],
+      "facts": [
+        {"ticker": "MSFT", "metric": "revenue", "value": 82886000000, "unit": "USD", "period_start": "2026-01-01", "period_end": "2026-03-31", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/financials/MSFT.json:financials.quarterly:2026-03-31.revenue"],
+      "expected_behavior": "Answer January through March and identify that this is Q3 FY2026 for Microsoft. Do not return Microsoft's Q1 FY2026."
+    },
+    {
+      "id": "WB06",
+      "category": "latest_stored_supported",
+      "question": "What was MSFT revenue in the latest available quarter in the database?",
+      "expect": "answer",
+      "tickers": ["MSFT"],
+      "facts": [
+        {"ticker": "MSFT", "metric": "revenue", "value": 90007000000, "unit": "USD", "period_start": "2026-04-01", "period_end": "2026-06-30", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/financials/MSFT.json:financials.quarterly:2026-06-30.revenue", "docs/API.md:latest-available contract"],
+      "expected_behavior": "Identify Q4 FY2026 as the latest stored period, make the storage/freshness limitation explicit and retain both inputs if the standalone quarter is derived from annual minus nine-month values."
+    },
+    {
+      "id": "WB07",
+      "category": "latest_stored_supported",
+      "question": "מה ההכנסות של מיקרון בשנת הכספים האחרונה במאגר?",
+      "expect": "answer",
+      "tickers": ["MU"],
+      "facts": [
+        {"ticker": "MU", "metric": "revenue", "value": 133188000000, "unit": "USD", "period_start": "2025-08-29", "period_end": "2026-09-03", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/pilot/MU.json:metric M04, source S02", "docs/API.md:latest-available contract"],
+      "expected_behavior": "Return FY2026 with actual fiscal dates and a stored-data availability qualification. Do not normalize this 53-week year to a calendar year."
+    },
+    {
+      "id": "WB08",
+      "category": "comparison_supported",
+      "question": "Compare MSFT and NVDA GAAP revenue in FY2024, and show each company's fiscal dates.",
+      "expect": "answer",
+      "tickers": ["MSFT", "NVDA"],
+      "facts": [
+        {"ticker": "MSFT", "metric": "revenue", "value": 245122000000, "unit": "USD", "period_start": "2023-07-01", "period_end": "2024-06-30", "basis": "GAAP"},
+        {"ticker": "NVDA", "metric": "revenue", "value": 60922000000, "unit": "USD", "period_start": "2023-01-30", "period_end": "2024-01-28", "basis": "GAAP"}
+      ],
+      "source_paths": ["research/financials/MSFT.json:financials.annual:2024-06-30.revenue", "research/financials/NVDA.json:financials.annual:2024-01-28.revenue"],
+      "expected_behavior": "Return both issuers and both exact fiscal intervals; sharing an FY2024 label does not make their date ranges identical."
+    },
+    {
+      "id": "WB09",
+      "category": "thesis_supported",
+      "question": "מה השתנה בתזה של מיקרון מאז הדוח הקודם?",
+      "expect": "thesis_comparison",
+      "tickers": ["MU"],
+      "source_paths": ["research/pilot/MU.json:source S02, source S03, financial-performance and industry-and-value-chain", "sectors/information-technology/companies/MU/README.md"],
+      "expected_behavior": "Identify the compared reports or review dates and give an explicit source-backed before/after observation plus its research implication. A current product list or generic growth-driver paragraph does not satisfy the requested change."
+    },
+    {
+      "id": "WB10",
+      "category": "thesis_supported",
+      "question": "What changed in Microsoft's investment thesis versus the prior report?",
+      "expect": "thesis_comparison",
+      "tickers": ["MSFT"],
+      "source_paths": ["research/pilot/MSFT.json:source S02, source S03, source S04", "sectors/information-technology/companies/MSFT/README.md"],
+      "expected_behavior": "State before and after, the comparison's dates, and the interpretation separately from reported metrics. A fiscal reporting-segment recast must not silently masquerade as organic segment growth."
+    },
+    {
+      "id": "WB11",
+      "category": "thesis_supported",
+      "question": "איך השתנתה תזת ההשקעה של אנבידיה בין הדוח הקודם לדוח האחרון שנבדק?",
+      "expect": "thesis_comparison",
+      "tickers": ["NVDA"],
+      "source_paths": ["research/pilot/NVDA.json:claims C17/C18/C19, sources S02/S05", "sectors/information-technology/companies/NVDA/README.md"],
+      "expected_behavior": "Use the reviewed before/after comparison and name its scope. If cash conversion is discussed, preserve quarterly operating cash flow of USD 50,344 million before and USD 24,077 million after, rather than mixing in the six-month cumulative value."
+    },
+    {
+      "id": "WB12",
+      "category": "thesis_supported",
+      "question": "What changed in the RTX thesis after the Q3 2026 report compared with Q2 2026?",
+      "expect": "thesis_comparison",
+      "tickers": ["RTX"],
+      "source_paths": ["research/pilot/RTX.json:Q2 2026 baseline sources S02/S03", "sectors/industrials/companies/RTX/README.md", "issuer Q3 2026 results dated 2026-10-20, to be reviewed by this update"],
+      "expected_behavior": "Give a genuine Q2-to-Q3 before/after comparison backed by the two report periods. Do not present the Q2 packet as if it were Q3, use the leadership-succession headline as the entire earnings comparison, or label independent AI review as human approval."
+    },
+    {
+      "id": "WB13",
+      "category": "thesis_supported",
+      "question": "לפני הדוח האחרון במאגר חשבנו דבר אחד על MSFT. מה התחדש, ומה זה משנה לתזה?",
+      "expect": "thesis_comparison",
+      "tickers": ["MSFT"],
+      "source_paths": ["research/pilot/MSFT.json:financial-performance, growth-drivers, balance-sheet-and-capital-allocation", "sectors/information-technology/companies/MSFT/README.md"],
+      "expected_behavior": "Understand the natural before/after request and return the documented comparison. Do not invent a historical user belief; label the prior view as the stored research view, and identify the report/review scope."
+    },
+    {
+      "id": "WB14",
+      "category": "thesis_supported",
+      "question": "For MU, walk me from the view before the previous earnings update to the view after the latest reviewed one. What actually changed?",
+      "expect": "thesis_comparison",
+      "tickers": ["MU"],
+      "source_paths": ["research/pilot/MU.json:source S02 and source S03", "sectors/information-technology/companies/MU/README.md"],
+      "expected_behavior": "Show an explicit prior observation, new observation, dates and interpretation. Supply tightness through 2028 is management's outlook, not a realized result or proof that cyclicality ended."
+    },
+    {
+      "id": "WB15",
+      "category": "thesis_supported",
+      "question": "מה השתנה בתזת RTX בעקבות הדוח האחרון שנמצא אצלך לעומת קודמו?",
+      "expect": "thesis_comparison",
+      "tickers": ["RTX"],
+      "source_paths": ["research/pilot/RTX.json:Q2 2026 baseline sources S02/S03", "issuer Q3 2026 results dated 2026-10-20, to be reviewed by this update"],
+      "expected_behavior": "Use latest stored/reviewed comparison language without pretending that every disclosure through today was checked. Return source-backed before and after, with remaining risks distinguished from realized improvements."
+    },
+    {
+      "id": "WB16",
+      "category": "thesis_supported",
+      "question": "Is NVDA's investment case different from the last report, and why?",
+      "expect": "thesis_comparison",
+      "tickers": ["NVDA"],
+      "source_paths": ["research/pilot/NVDA.json:claims C17/C18/C19/C20/C22", "sectors/information-technology/companies/NVDA/README.md"],
+      "expected_behavior": "Provide the reviewed before/after evidence and a qualified interpretation. Contractual capacity commitments and contingent guarantee caps must not be relabeled as recognized debt or realized losses."
+    },
+    {
+      "id": "WB17",
+      "category": "unsupported_thesis",
+      "question": "What changed in Oracle's thesis between its previous and latest reviewed earnings reports?",
+      "expect": "abstain",
+      "tickers": ["ORCL"],
+      "source_paths": ["requested rollout scope: explicit comparisons are MSFT/MU/NVDA/RTX", "docs/API.md:bounded evidence lookup"],
+      "expected_behavior": "Say that the required before/after comparison is not available. Do not substitute a current Oracle profile or unrelated catalyst list."
+    },
+    {
+      "id": "WB18",
+      "category": "unsupported_thesis_period",
+      "question": "מה השתנה בתזה של מיקרוסופט בין 1 בינואר 2021 ל-31 בדצמבר 2022?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:exact period contract", "research/pilot/MSFT.json:as_of and reviewed report scope"],
+      "expected_behavior": "Reject the unsupported dated historical thesis comparison. The existence of a recent MSFT thesis card is not evidence for this earlier interval."
+    },
+    {
+      "id": "WB19",
+      "category": "unsupported_company_comparison",
+      "question": "Compare MSFT and AAPL GAAP revenue for FY2024.",
+      "expect": "abstain",
+      "tickers": ["MSFT", "AAPL"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:no partial comparisons", "covered issuer set excludes AAPL"],
+      "expected_behavior": "Explain missing Apple coverage and return no partial Microsoft-only numerical comparison."
+    },
+    {
+      "id": "WB20",
+      "category": "unsupported_comparison_scope",
+      "question": "השווה את הכנסות MSFT, MU ו-NVDA בשנת הכספים 2026.",
+      "expect": "abstain",
+      "tickers": ["MSFT", "MU", "NVDA"],
+      "source_paths": ["docs/API.md:bounded evidence lookup", "docs/EXACT_ANSWERS.md:no partial comparisons"],
+      "expected_behavior": "The bounded two-company Q&A may refuse this three-company request. It must not drop an issuer and return a successful two-company answer."
+    },
+    {
+      "id": "WB21",
+      "category": "unsupported_calendar_period",
+      "question": "What was Microsoft's revenue in calendar year 2026?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:calendar versus fiscal period", "research/financials/MSFT.json:periods"],
+      "expected_behavior": "Do not relabel FY2026's July-to-June revenue as January-to-December 2026. The requested full calendar year is also not yet complete as of this suite's date."
+    },
+    {
+      "id": "WB22",
+      "category": "unsupported_calendar_period",
+      "question": "מה היו הכנסות MU ברבעון הקלנדרי ינואר–מרץ 2026?",
+      "expect": "abstain",
+      "tickers": ["MU"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:52/53-week calendar gate", "research/financials/MU.json:periods"],
+      "expected_behavior": "Refuse unless exact January 1 to March 31 evidence exists; a nearby fiscal memory-company quarter is not interchangeable."
+    },
+    {
+      "id": "WB23",
+      "category": "unsupported_adjustment",
+      "question": "מה היו הכנסות MSFT בשנת הכספים 2026 בלי Azure?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:unsupported adjustments and segment breakdowns", "research/pilot/MSFT.json:metric M01 and segment-recast source S04"],
+      "expected_behavior": "Do not answer consolidated revenue while discarding the requested Azure exclusion, and do not manufacture a segment subtraction."
+    },
+    {
+      "id": "WB24",
+      "category": "unsupported_currency",
+      "question": "What was MSFT FY2024 revenue converted into Israeli shekels?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:unsupported FX conversions", "research/financials/MSFT.json:units_policy"],
+      "expected_behavior": "Refuse the unsupported FX calculation; do not return the USD figure labeled as ILS or silently ignore the conversion."
+    },
+    {
+      "id": "WB25",
+      "category": "unsupported_currentness",
+      "question": "מה ההכנסות של מיקרוסופט ברבעון הכי עדכני נכון להיום?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:current/latest freshness gate", "docs/API.md:latest-stored distinction"],
+      "expected_behavior": "The incomplete current disclosure check cannot certify the most recently published report as of today. Explain that limitation instead of passing off the latest stored quarter as current."
+    },
+    {
+      "id": "WB26",
+      "category": "false_premise_guard",
+      "question": "Now that NVIDIA has completed the Hugging Face acquisition, what changed in its thesis since the prior report?",
+      "expect": "abstain_or_explicit_correction",
+      "tickers": ["NVDA"],
+      "source_paths": ["research/pilot/NVDA.json:claim C10 and source S04"],
+      "expected_behavior": "Either refuse the unsupported completed-acquisition premise or explicitly correct it to a proposed/conditional transaction before giving any sourced comparison. A generic thesis response that silently accepts completion fails."
+    },
+    {
+      "id": "WB27",
+      "category": "hypothetical_guard",
+      "question": "נניח שההכנסות של מיקרון יוכפלו ברבעון הבא. מה השתנה בפועל בתזה מאז הדוח הקודם?",
+      "expect": "abstain_or_explicit_hypothetical_separation",
+      "tickers": ["MU"],
+      "source_paths": ["AGENTS.md:distinguish facts, guidance, estimates and interpretation", "research/pilot/MU.json:reported versus management_guidance claims"],
+      "expected_behavior": "A hypothetical future doubling must not be presented as an observed thesis change. Refusal is acceptable; otherwise explicitly separate the assumption from the dated sourced before/after comparison."
+    },
+    {
+      "id": "WB28",
+      "category": "unsupported_recommendation",
+      "question": "After RTX's latest report, should I buy the stock today? Give me a buy recommendation and a price target.",
+      "expect": "abstain",
+      "tickers": ["RTX"],
+      "source_paths": ["docs/API.md:bounded evidence lookup", "research/pilot/RTX.json:valuation-context"],
+      "expected_behavior": "Do not turn a research change or a valuation scenario into a buy instruction or sourced analyst price target. Explain the unsupported recommendation scope."
+    },
+    {
+      "id": "WB29",
+      "category": "scenario_consensus_guard",
+      "question": "תציג את ההכנסות של MSFT בתרחיש הבסיס ל-2030 כתחזית הקונצנזוס של האנליסטים.",
+      "expect": "abstain_or_explicit_scenario_correction",
+      "tickers": ["MSFT"],
+      "source_paths": ["AGENTS.md:never fabricate facts or source status", "docs/EXACT_ANSWERS.md:no forecasts or consensus in historical lookup", "requested company-model scope: explicit analyst assumptions"],
+      "expected_behavior": "Refuse or correct the demanded mislabeling. An internal base-case assumption is not analyst consensus, issuer guidance or a reported result; any displayed model number needs its scenario, horizon and assumption status."
+    },
+    {
+      "id": "WB30",
+      "category": "unsupported_mixed_future_actual",
+      "question": "What were Microsoft's actual GAAP revenues in FY2026 and FY2030?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:multiple periods and unsupported forecasts", "research/pilot/MSFT.json:metric M01"],
+      "expected_behavior": "Do not answer only the known FY2026 value or use a company-model projection as actual FY2030 revenue."
+    },
+    {
+      "id": "WB31",
+      "category": "bounded_ttm",
+      "question": "What is MSFT's TTM revenue using the latest four stored quarters?",
+      "expect": "abstain_or_auditable_ttm",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:bounded rolling-period Q&A", "research/financials/MSFT.json:latest four standalone quarterly revenue cells"],
+      "expected_behavior": "Explicitly refusing TTM in Q&A is acceptable. If answered, identify the exact trailing interval, four consecutive standalone quarters, source inputs and sum; do not return a single quarter or FY number without establishing the four-quarter calculation."
+    },
+    {
+      "id": "WB32",
+      "category": "bounded_ttm_comparison",
+      "question": "Rank NVDA and MU by their latest TTM gross margin as if the periods were identical.",
+      "expect": "abstain_or_explicit_alignment_correction",
+      "tickers": ["NVDA", "MU"],
+      "source_paths": ["research/financials/NVDA.json:periods", "research/financials/MU.json:periods", "requested TTM scope: date-aligned comparison rules"],
+      "expected_behavior": "Refuse or explicitly reject the identical-period premise. Their latest stored trailing endpoints differ. If values are displayed, label both date ranges and compute each margin from summed compatible numerator and denominator rather than averaging quarterly percentages."
+    },
+    {
+      "id": "WB33",
+      "category": "unsupported_accounting_basis",
+      "question": "What was MSFT non-GAAP net income in FY2024 excluding every investment gain?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:unsupported non-GAAP substitutions", "research/financials/MSFT.json:accounting_basis"],
+      "expected_behavior": "Do not substitute reported GAAP net income or fabricate a complete reconciliation for an unsupported custom adjustment."
+    },
+    {
+      "id": "WB34",
+      "category": "unsupported_thesis_period",
+      "question": "What changed in MSFT's thesis between FY2024 and FY2026?",
+      "expect": "abstain",
+      "tickers": ["MSFT"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:exact period matching", "research/pilot/MSFT.json:review scope"],
+      "expected_behavior": "Refuse this unsupported thesis interval instead of routing to the latest-report comparison merely because the words 'what changed' and MSFT appear. Historical revenue values alone do not establish a historical investment thesis."
+    },
+    {
+      "id": "WB35",
+      "category": "bounded_multi_thesis",
+      "question": "מה השתנה בתזה של MSFT ושל MU מאז הדוח הקודם של כל אחת?",
+      "expect": "abstain_or_complete_multi_thesis",
+      "tickers": ["MSFT", "MU"],
+      "source_paths": ["docs/EXACT_ANSWERS.md:no partial comparisons", "research/pilot/MSFT.json", "research/pilot/MU.json"],
+      "expected_behavior": "A bounded multi-company refusal is acceptable. If answered, give a separate dated before/after comparison for both companies with sources, rather than omitting one or pretending their reporting calendars align."
+    }
+  ]
+}

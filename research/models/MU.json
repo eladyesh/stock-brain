@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "ticker": "MU",
+  "as_of": "2026-10-22",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI source review",
+  "source_posture": "Primary issuer releases independently read; historical SEC observation gates remain authoritative.",
+  "model_type": "illustrative_company_scenarios",
+  "forecast_years": [
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "assumption_label": "Analyst assumptions, not issuer forecasts or consensus estimates",
+  "assumption_label_he": "הנחות ניתוח להמחשה; אינן תחזיות הנהלה או קונצנזוס",
+  "valuation_date": "2030-08-31",
+  "valuation_date_basis": "Analyst planning date near FY2030 end; not a confirmed future issuer reporting or share-sale date.",
+  "base": {
+    "period": {
+      "id": "annual:2026-09-03",
+      "label": "FY2026",
+      "type": "annual",
+      "fiscal_year": 2026,
+      "start": "2025-08-29",
+      "end": "2026-09-03"
+    },
+    "revenue": 133188000000.0,
+    "net_income": 84969000000.0,
+    "free_cash_flow": 58963000000.0,
+    "shares_diluted": 1143000000.0,
+    "reported_eps": 74.33,
+    "operating_cash_flow": 89675000000.0,
+    "cash_capex": 30712000000.0,
+    "currency": "USD",
+    "monetary_unit": "USD",
+    "share_unit": "shares",
+    "accounting_basis": "US GAAP",
+    "shares_basis": "annual_weighted_average_diluted_common_shares",
+    "shares_note": "This is an annual EPS denominator, not current or period-end shares outstanding. Future share changes are assumptions about each annual diluted denominator.",
+    "fcf_definition": "Operating cash flow minus gross cash purchases of property, plant and equipment; excludes intangibles, asset-sale proceeds, incentives, noncash capex and finance-lease principal.",
+    "provenance": {
+      "revenue": {
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 revenue column, USD millions",
+        "evidence_label": "source_reported"
+      },
+      "net_income": {
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 GAAP net income column, USD millions",
+        "evidence_label": "source_reported"
+      },
+      "reported_eps": {
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 GAAP diluted earnings per share",
+        "evidence_label": "source_reported"
+      },
+      "shares_diluted": {
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 weighted-average diluted shares, millions",
+        "evidence_label": "source_reported"
+      },
+      "free_cash_flow": {
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locator": "Annual cash-flow statement, FY2026 operating cash flow less gross cash PP&E additions, USD millions",
+        "evidence_label": "analyst_calculated_from_reported",
+        "formula": "89675m operating cash flow - 30712m gross cash PP&E = 58963m"
+      }
+    }
+  },
+  "context": [
+    {
+      "label": "Issuer guidance",
+      "text": "FY2027 Q1 revenue guidance is $61.5bn ± $1.5bn. The full FY2027–2030 paths are independent analyst assumptions, including a cyclical decline.",
+      "value": 61500000000,
+      "low": 60000000000,
+      "high": 63000000000,
+      "source_ids": [
+        "MU-FY26-Q4"
+      ],
+      "locator": "Business Outlook, FQ1-27 revenue row",
+      "evidence_label": "issuer_guidance"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "bear",
+      "label": "Bear",
+      "label_he": "דובי",
+      "assumption_type": "analyst_assumption",
+      "rationale": "After near-term expansion, memory supply catches demand: falling DRAM/NAND prices and underutilization cause a deep earnings cycle. Fab commitments consume cash even as profit contracts; dilution and a low exit multiple add downside.",
+      "rationale_he": "לאחר צמיחה בטווח הקרוב, היצע הזיכרון משיג את הביקוש. ירידת מחירי DRAM ו-NAND וניצולת נמוכה גורמות לירידה חדה ברווח. התחייבויות למפעלים צורכות מזומן, והדילול והמכפיל הנמוך מחמירים את התוצאה.",
+      "exit_pe": 9,
+      "exit_multiple_rationale": "A lower earnings multiple reflects weaker durability and higher risk.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 0.5,
+          "net_margin": 0.55,
+          "fcf_margin": 0.3,
+          "share_change": 0.01
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": -0.35,
+          "net_margin": 0.22,
+          "fcf_margin": 0.08,
+          "share_change": 0.01
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": -0.1,
+          "net_margin": 0.12,
+          "fcf_margin": 0,
+          "share_change": 0.01
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.1,
+          "net_margin": 0.2,
+          "fcf_margin": 0.1,
+          "share_change": 0.01
+        }
+      ]
+    },
+    {
+      "id": "base",
+      "label": "Base",
+      "label_he": "בסיס",
+      "assumption_type": "analyst_assumption",
+      "rationale": "FY2027 expansion is followed by a deliberate memory-cycle downturn in FY2029 and partial recovery. HBM mix and customer agreements help, but new capacity erodes unusually high margins. Gross cash capex remains a material cash burden.",
+      "rationale_he": "הצמיחה ב-FY2027 מתחלפת במחזור ירידה ב-FY2029 ובהתאוששות חלקית. תמהיל HBM והסכמים עם לקוחות מסייעים, אך קיבולת חדשה שוחקת רווחיות חריגה. ההשקעה הגולמית במפעלים ממשיכה לצרוך מזומן.",
+      "exit_pe": 12,
+      "exit_multiple_rationale": "A selected mid-case earnings multiple, not a market consensus or peer-derived target.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 0.8,
+          "net_margin": 0.62,
+          "fcf_margin": 0.4,
+          "share_change": 0.005
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": 0.1,
+          "net_margin": 0.58,
+          "fcf_margin": 0.35,
+          "share_change": 0.005
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": -0.15,
+          "net_margin": 0.4,
+          "fcf_margin": 0.2,
+          "share_change": 0.005
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.08,
+          "net_margin": 0.45,
+          "fcf_margin": 0.27,
+          "share_change": 0.005
+        }
+      ]
+    },
+    {
+      "id": "bull",
+      "label": "Bull",
+      "label_he": "שורי",
+      "assumption_type": "analyst_assumption",
+      "rationale": "AI memory demand and supply discipline delay a sharp downcycle. HBM execution and long-duration agreements sustain strong margins, while capacity additions still lower margins by FY2030. No net dilution and a higher multiple are additional assumptions.",
+      "rationale_he": "ביקוש לזיכרון AI ומשמעת היצע דוחים ירידה חדה במחזור. ביצועי HBM והסכמים ממושכים תומכים ברווחיות, אך תוספת הקיבולת עדיין מורידה מרווחים עד FY2030. גם היעדר דילול ומכפיל גבוה הם הנחות.",
+      "exit_pe": 16,
+      "exit_multiple_rationale": "A premium earnings multiple requires durable growth and cash conversion.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 1.05,
+          "net_margin": 0.66,
+          "fcf_margin": 0.45,
+          "share_change": 0
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": 0.25,
+          "net_margin": 0.65,
+          "fcf_margin": 0.43,
+          "share_change": 0
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": 0.1,
+          "net_margin": 0.6,
+          "fcf_margin": 0.38,
+          "share_change": 0
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.1,
+          "net_margin": 0.58,
+          "fcf_margin": 0.36,
+          "share_change": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "MU-FY26-Q4",
+      "title": "Micron fiscal Q4 and full-year 2026 earnings release",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "date": "2026-09-30",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review"
+    }
+  ],
+  "readiness": {
+    "status": "illustrative",
+    "reasons": [
+      "Historical and quote gates are evaluated at build time."
+    ],
+    "per_share_ready": false,
+    "price_ready": false
+  },
+  "limitations": [
+    "Scenario paths, margins, share changes and exit P/E are analyst assumptions without probability weights; the range is not a confidence interval.",
+    "Future earnings are calculated as revenue times an assumed GAAP-style net margin; no detailed tax, investment-gain or stock-compensation bridge is forecast.",
+    "Future FCF is revenue times an assumed strict cash-PP&E FCF margin, not a fully balanced cash-flow forecast or discounted cash-flow valuation.",
+    "Price-only annualized return uses the actual interval from the displayed quote date to the assumed exit date. It excludes dividends, taxes, fees and currency effects.",
+    "No enterprise-value/debt bridge is used. Weighted-average diluted shares cannot be used as current shares outstanding for market capitalization.",
+    "Numerical validation does not establish forecast reliability. Inputs require review after each material release or corporate action."
+  ]
+}

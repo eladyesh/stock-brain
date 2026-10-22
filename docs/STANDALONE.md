@@ -44,6 +44,9 @@ Render's ordinary filesystem is ephemeral. A restart recovers the **last success
 | `/api/snapshot` | Research, financial history, prices and queue |
 | `/api/status` | Refresh history, errors, latest attempt and schedule |
 | `/api/state` | Consistent four-file backup checkpoint |
+| `/api/coverage` | Separate registry and collection-queue counts |
+| `/api/companies?q=&limit=25&offset=0` | Search/paginate registry metadata, maximum 100 issuers |
+| `/api/companies/{CIK-or-ticker}` | One issuer's collected data and distinct dated research |
 | `/healthz` | Fast readiness check without external calls |
 | `POST /api/ask` | Cited evidence answers; see [API contract](API.md) |
 
@@ -57,7 +60,11 @@ On 2026-10-22 the actual Render service received HTTP 403 with the SEC title “
 
 Restoring SEC collection requires legitimate resolution of the source's access policy. Configure `SEC_USER_AGENT` with an approved identifying application/contact string privately in Render and obtain permitted access before setting `STOCK_BRAIN_SEC_ENABLED=1`. A changed header alone is not proof that access is restored. Check [SEC developer resources](https://www.sec.gov/about/developer-resources) and [SEC webmaster guidance](https://www.sec.gov/about/webmaster-frequently-asked-questions). No contact address was invented or published in the code.
 
-Financial refresh validation rejects empty/truncated schedules, missing previously available source cells, mismatched reported numbers, invalid arithmetic, inconsistent issuer/period maps and unsafe model eligibility. The reproducible [QA ledger](FINANCIAL_QA_STATUS.json) records the existing 77 open source/comparability flags. Integrity checks do not resolve these flags or constitute a new review of filings.
+Financial refresh validation rejects empty/truncated schedules, missing previously available source cells, mismatched reported numbers, invalid arithmetic, inconsistent issuer/period maps and unsafe model eligibility. The reproducible [QA ledger](FINANCIAL_QA_STATUS.json) records 75 open source/comparability flags after the October 22 exact evidence reviews. Integrity checks do not resolve these flags or constitute a new review of filings.
+
+## Expanding beyond the pilot
+
+The web app seeds a separate SQLite coverage registry from the ten reviewed pilot companies. It does not start a market-wide collector. Configure `STOCK_BRAIN_COVERAGE_DB` to share this registry with the opt-in `coverage_cycle.py` process. Without that setting, the web app places it beside the pilot checkpoint; this is ephemeral on the current Render service. The four-file GitHub backup **does not include** this database, its jobs, listing snapshots or additional issuer histories. The pilot can be reseeded; broad collection cannot be restored from that four-file backup. See [coverage operation and activation](US_COVERAGE.md) before running continuous collection.
 
 ## Operations
 
