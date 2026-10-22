@@ -31,7 +31,12 @@ instruments and missing OTC coverage. These are name/flag classifications, not
 verified issuer counts; closed-end funds still need independent identification.
 
 The ten pilot issuers retain dated financial history, quotes and reviewed research.
-Other securities initially have directory information only. Filings, financials,
+Broad SEC collection is active. The first verified release (39824575079) contains
+4,120 mapped issuers and 3,083 stock listings with financial history; check the
+latest release for subsequent expansion rather than treating these as a target.
+The next verified release (`coverage-20261022-39825725956-1`, 18:09 UTC) increased
+this to 5,571 distinct issuers, 5,795 mapped stock listings and 4,173 listings with
+financial history. Its restored database is 212,983,808 bytes. Filings, financials,
 prices, news, estimates and ownership are measured separately. Missing datasets
 remain missing; a recent directory download never refreshes their dates.
 
@@ -43,7 +48,7 @@ venue, instrument and issuer mappings must not be silently guessed.
 
 ## Daily production path
 
-1. `.github/workflows/coverage-daily.yml` runs at **06:23 UTC daily**, or by manual
+1. `.github/workflows/coverage-daily.yml` runs at **09:23 UTC daily**, or by manual
    dispatch on main. Changing this workflow or directory importer on main also
    runs a bootstrap check.
    One concurrency group prevents simultaneous writers.
@@ -51,7 +56,11 @@ venue, instrument and issuer mappings must not be silently guessed.
    validates the four-file pilot checkpoint, then merges both complete directories.
    Invalid schemas, stale/backwards files, a shrink above 10%, missing halves and
    conflicting listings abort the new generation. Existing releases remain usable.
-3. Existing pilot quotes are copied with their original trade/retrieval dates and
+3. The private `SEC_USER_AGENT` identifies the authorized app/contact.
+   `sec_acquire.py` downloads the two fixed official nightly archives once, with
+   streaming size/time bounds and no denial retry or redirect. `sec_bulk.py`
+   drains offline identity/financial batches with durable cursors and quarantine.
+   Existing pilot quotes are copied with their original trade/retrieval dates and
    hashes. Optional vendor collection is disabled unless explicitly configured.
 4. The job takes a SQLite online backup, verifies a local cold restore, and publishes
    `coverage.part-NNNN.sqlite3.gz` assets and `coverage-manifest.json` to an immutable
@@ -125,9 +134,12 @@ Vendor statements are not yet connected to GAAP/TTM comparisons or financial
 screening: a dedicated accounting adapter with identity/unit/period/provenance
 tests is required first. Directory search does not imply those features exist.
 
-SEC access stays `STOCK_BRAIN_SEC_ENABLED=0` until the existing denial is resolved
-through legitimate provider/operator access. Do not rotate hosts, IPs, proxies or
-user agents to bypass it. Do not replace the actual contact with a fabricated one.
+SEC access was legitimately restored on October 22 after the user supplied the
+missing contact. Production and the daily publisher use `STOCK_BRAIN_SEC_ENABLED=1`
+and a private identity value. Both official ZIP downloads and real ingestion
+succeeded. Do not reapply historical paused-access instructions. If a new denial
+occurs, stop and respect it; do not rotate hosts, IPs, proxies or user agents.
+Never publish the contact or replace it with a fabricated identity.
 
 ## Offline SEC bulk path
 
@@ -135,11 +147,14 @@ user agents to bypass it. Do not replace the actual contact with a fabricated on
 per-member provenance, isolated failures, exact job claims and existing financial
 quality gates. `coverage_release.py build --sec-bulk-manifest PATH` integrates it
 before snapshot publication. It reads already legitimately acquired local archives
-and makes zero network requests. No production SEC archive has yet been acquired
-or loaded; the daily release reports `sec_bulk_collection.status=not_configured`.
-See [the operator commands and limits](SEC_BULK.md). This is not an alternate host
-for a blocked SEC downloader. Foreign-form accounting, OTC and access resolution
-remain separate work items. Online workers claim only their job kind; bulk workers
+and makes zero network requests during parsing. Acquisition and parsing are
+separate measured phases. Real generation `coverage-20261022-39824575079-1`
+completed, passed published-byte cold recovery and reached Render on October 22.
+See [the operator commands and limits](SEC_BULK.md). Foreign-form accounting and
+OTC remain separate work items; a completed scan can still have quarantined errors.
+Validated filing metadata is retained even when financial normalization fails;
+financial source dates and processed accessions remain unchanged in that case.
+Online workers claim only their job kind; bulk workers
 claim their exact job ID, so expired work is not stolen by the other queue.
 
 ## Capacity and next implementation priorities
@@ -158,7 +173,7 @@ and object-storage design before provisioning anything paid.
 Continue in this order, completing and verifying each unblocked item:
 
 Check actual storage headroom before every whole-market financial backfill. The
-archive adapter makes collection possible once legitimate access is available;
+archive adapter is now collecting from legitimately acquired SEC archives;
 compression and multipart publication do not remove the 512 MiB restored cap.
 Prepare adapters from actual authorized source samples. Never count a synthetic
 archive test as production coverage or a configured schedule as observed delivery.
@@ -236,3 +251,17 @@ The importer now classifies the traded unit before its components, and avoids
 treating an issuer named Unit Corporation as a unit. A subsequent run must
 re-import the existing release to apply this refinement and prove continuity.
 Its final run/deploy evidence is recorded in the follow-up PR.
+
+## OTC source work still open
+
+The official FINRA Symbol Directory includes historical OTCBB as well as other
+OTC issues; its page count is not proof of a complete currently active stock
+universe. The [FINRA API docs](https://developer.finra.org/docs) describe OTC Daily
+List corporate actions and require an API credential; this is not a verified
+full security-master replacement. The [FINRA FAQ](https://developer.finra.org/support)
+currently lists free Public Credentials with a 10 GB monthly cap. No credential
+was created, terms accepted or paid account provisioned. Establish the full
+current directory contract, security types, update/deletion semantics and allowed
+publication before enabling a new OTC importer. The quarterly
+[symbol categorization file](https://www.finra.org/finra-data/about-606/otc-symbol-categorization)
+is another official lead; it is not daily issuer financial information.
