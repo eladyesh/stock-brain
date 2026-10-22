@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T11:34:36.380573+00:00",
-  "cutoff": "2026-10-19",
+  "checked_at": "2026-10-22T05:47:21.206825+00:00",
+  "cutoff": "2026-10-22",
   "companies": {
     "MSFT": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "3ee790a4ccf36d6279e7c5775a8374c0178c046a6994ca195478fac71c1291a5",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -14,7 +14,7 @@
           "source": "SEC submissions",
           "kind": "sec",
           "status": "checked",
-          "candidate_count": 1
+          "candidate_count": 3
         },
         {
           "source": "https://news.microsoft.com/source/feed/",
@@ -23,8 +23,8 @@
           "entry_count": 10,
           "candidate_count": 10,
           "warnings": [],
-          "source_sha256": "e1fd172f8dc1ae410dff84d23141b3eff0ca627b912403703eed808908ccd37d",
-          "latest_publication": "2026-10-16"
+          "source_sha256": "fdbf1b1870ecf102f31607fe1b225cb3274ba2798419c163737d0d72288d47fe",
+          "latest_publication": "2026-10-21"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -36,11 +36,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 10,
+      "pending_count": 22,
       "reviewed_disposition_count": 1
     },
     "ORCL": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "3cec7a0d416442e1633422d46f1e5f53a3a4a412ff744ea279d4cafd38438adf",
       "status": "error",
       "coverage_status": "error",
@@ -76,7 +76,7 @@
       "reviewed_disposition_count": 0
     },
     "PLTR": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "3f321ce7b8090e7c9d62f96e3d21e185ec1233e03506aa7de9419d59f97d3cb1",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -92,11 +92,11 @@
           "source": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
           "kind": "q4_news",
           "status": "checked",
-          "entry_count": 50,
-          "candidate_count": 16,
+          "entry_count": 52,
+          "candidate_count": 18,
           "warnings": [],
-          "source_sha256": "226ee582208662aed200ee4f1f9e432353d83cb25fc4de1495cfdac503d613a6",
-          "latest_publication": "2026-10-19"
+          "source_sha256": "9e23af443899f45eb47065ea8b59dd5826997cdbec29a049bd2f4f115c6104eb",
+          "latest_publication": "2026-10-21"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -108,11 +108,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 16,
+      "pending_count": 18,
       "reviewed_disposition_count": 0
     },
     "MU": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "80b9a14ba35d45c630613670f1c468fc00e571e93ea5fa540e0d5ea31a33aa2d",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -128,11 +128,11 @@
           "source": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
           "kind": "q4_news",
           "status": "checked",
-          "entry_count": 39,
-          "candidate_count": 8,
+          "entry_count": 41,
+          "candidate_count": 10,
           "warnings": [],
-          "source_sha256": "c0e8e021031c003e7aa2e10c80acac8b62754a8d8abb7506f60959f7b6808f5b",
-          "latest_publication": "2026-09-30"
+          "source_sha256": "cf07028a5eee8f67228e8b8339cee288ce9a9555ce446d480a98a40757c3c9d1",
+          "latest_publication": "2026-10-20"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -144,11 +144,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 8,
+      "pending_count": 10,
       "reviewed_disposition_count": 1
     },
     "NVDA": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "c071b72ccf7516e647f39736f1985d14b700132d4a6bb5a1df4c9640e4898866",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -167,8 +167,8 @@
           "entry_count": 20,
           "candidate_count": 20,
           "warnings": [],
-          "source_sha256": "c7b258d4edafe25b9aac806e9bde306482e1a9139b8b01891dbcb5e8de3b0b32",
-          "latest_publication": "2026-10-17"
+          "source_sha256": "0b7f175f460f35c325ea4f97beeeaa17f1355ebd3d28ce2d4cdde47605f08b26",
+          "latest_publication": "2026-10-22"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -180,11 +180,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 21,
+      "pending_count": 41,
       "reviewed_disposition_count": 0
     },
     "AMD": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "d506a7c0f326928380fd5d6247da097961ebe2a4733c692ec3ad77330b210960",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -203,7 +203,7 @@
           "entry_count": 10,
           "candidate_count": 10,
           "warnings": [],
-          "source_sha256": "504a4989ec28f6307937b1f864aafa0a03dc0bddbc8c8925b958ce7a2edfd42e",
+          "source_sha256": "ea9c90b689c25f7b793231e12ac8753c18e3518cff9681e0573cbc5a14c56f58",
           "latest_publication": "2026-10-12"
         }
       ],
@@ -220,7 +220,7 @@
       "reviewed_disposition_count": 1
     },
     "AVGO": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "9a366e0f6e132d7cd3b308f2ff78c49a3ad05836dc0732a31aabeeb8fb62d7b5",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -239,8 +239,8 @@
           "entry_count": 10,
           "candidate_count": 10,
           "warnings": [],
-          "source_sha256": "f716f9015792d22a63f643263084d8551c465b8c848fa7dd2884c8145b7cab5c",
-          "latest_publication": "2026-10-13"
+          "source_sha256": "296e6c701b96c0981895fa10937a6d65b7c6ff3dc7d686ff71fc39eaec2b8930",
+          "latest_publication": "2026-10-21"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -252,11 +252,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 9,
+      "pending_count": 12,
       "reviewed_disposition_count": 1
     },
     "AVAV": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "2b78bc9f35d9e416c4328036bd589f972354a5ccc53190c3bbd3d371cb5af7d1",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -292,7 +292,7 @@
       "reviewed_disposition_count": 1
     },
     "LMT": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "dfa457b0655aaf61de07a6df82829af641c18affb0b991e4f61ce00e87706009",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -311,8 +311,8 @@
           "entry_count": 5,
           "candidate_count": 5,
           "warnings": [],
-          "source_sha256": "dfac90b8eb3e56832eef7e3c9d615f536be515d19544514ed9cd5927bc8e9805",
-          "latest_publication": "2026-10-16"
+          "source_sha256": "7dec70ecab15b8acd747fa615c8cfab14669064da31ac386b69311612480bc43",
+          "latest_publication": "2026-10-20"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -324,11 +324,11 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 5,
+      "pending_count": 7,
       "reviewed_disposition_count": 0
     },
     "RTX": {
-      "checked_at": "2026-10-19T11:34:36.380573+00:00",
+      "checked_at": "2026-10-22T05:47:21.206825+00:00",
       "packet_sha256": "f26796ce4ab5c36094d910a20b142e5d37699b965c9c89675c5b62bbf2f9c2b3",
       "status": "needs_review",
       "coverage_status": "checked",
@@ -338,7 +338,7 @@
           "source": "SEC submissions",
           "kind": "sec",
           "status": "checked",
-          "candidate_count": 0
+          "candidate_count": 2
         },
         {
           "source": "https://www.rtx.com/rss-feeds/news",
@@ -347,8 +347,8 @@
           "entry_count": 50,
           "candidate_count": 50,
           "warnings": [],
-          "source_sha256": "af94ce0666ec7552ed881edfa3ba352c1f4f6e54aaac445c38ee8f64c2b4d30a",
-          "latest_publication": "2026-10-15"
+          "source_sha256": "6d18e54ac38c950063aa20923e0f76d5f9cbc25c8e28b1b366cd365f2dbb579f",
+          "latest_publication": "2026-10-21"
         }
       ],
       "scope": "SEC filings and configured public issuer announcement sources",
@@ -360,11 +360,529 @@
         "Unfiled announcements are covered only when present in a configured issuer source; rolling feeds may not cover the full overlap interval.",
         "Discovery identifies review candidates; it does not read or approve their claims."
       ],
-      "pending_count": 49,
+      "pending_count": 58,
       "reviewed_disposition_count": 1
     }
   },
   "queue": [
+    {
+      "id": "eb1dc7e7e636db8317f29856",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "b820fe873f89b1398f220cee",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "b2db44ed1177b5ea0714896a",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "43a38da8d477c5b93f979490",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "3e6ad513763b93f48ce98b97",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "2b3240790c9fc00c1e7172e7",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "published_at": "2026-10-22",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "b9fed10b7a77506b148831dc",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/21/rtxs-pratt-whitney-canada-introduces-certified-pt9-engine",
+      "title": "RTX's Pratt & Whitney Canada introduces certified PT9 engine",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "9c739fc67885bd6cf8a3fa1b",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/21/rtxs-collins-aerospace-introduces-arincdirect-openapi-to-connect-flight-support",
+      "title": "RTX's Collins Aerospace introduces ARINCDirect℠ OpenAPI to connect flight support data across operator systems",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "6d817e19120f5626e4f218ec",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/21/rtxs-collins-aerospace-launches-tower-microelite-surveillance-solution-at-san-be",
+      "title": "RTX's Collins Aerospace launches Tower MicroELITE surveillance solution at San Bernardino International Airport",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "5817dacfa600719527bc7cc9",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/21/rtxs-collins-aerospace-announces-radio-altimeter-upgrades-to-meet-new-faa-standa",
+      "title": "RTX's Collins Aerospace announces radio altimeter upgrades to meet new FAA standards",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "3762f0d2c94fd7dfbe4665cb",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/21/raytheon-uk-to-strengthen-nato-navigation-resilience-with-gps-anti-jamming-technology",
+      "title": "Raytheon UK to strengthen NATO navigation resilience with GPS anti-jamming technology",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "4021fe5d83a19cf5d13c2487",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Accelerates-Delivery-of-Sovereign-AI-to-New-Wave-of-Customers/default.aspx",
+      "title": "Palantir Accelerates Delivery of Sovereign AI to New Wave of Customers",
+      "published_at": "2026-10-21",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "ff7829dace93514294f06337",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+      "title": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "f3e9128d1eb3506f6409f25a",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "d26cacf7743add01389a9767",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
+      "title": "NVIDIA Launches OpenShell Reference Architecture for Safe AI Agents",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "c97f53551c7aa50eb9e39ff5",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "aac0869f1368769f1294f11b",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
+      "title": "NVIDIA, Nokia and Leading Telecom Operators Turn Networks Into Distributed Intelligence Platforms",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "97709fac620f03a92ac132f0",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
+      "title": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "8d09ad20b37619da8516eeb5",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "7129bd5b20e41cf7cc9fb2ad",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
+      "title": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "54e406997a707c26f87dcfa4",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "49ef9bdf00fd2637083c9429",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "4715d38f499da2929e4ff982",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "39a2fdb24ae9e1fd61c88c1e",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "2e1fdf9e013dcdf928b7ddfa",
+      "ticker": "NVDA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+      "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "1712811f95fb6d96adb63a5b",
+      "ticker": "NVDA",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://nvidianews.nvidia.com/rss.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "d5ecbf5804a1d4a7a9d759f6",
+      "ticker": "MSFT",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "title": "With new ideas and human-directed AI, researchers solve a 31-year-old math mystery",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "b8755d434847b6305f295536",
+      "ticker": "MSFT",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518622101692436482/",
+      "title": "Today in the UK, I saw how the Yorkshire Ambulance Service NHS Trust is using Copilot to cut down on administrative work and make better use of its data, and ultimately provide a better experience for medical personnel and patients. [Read more]",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "a68d1cb7e7c5cdf045cec089",
+      "ticker": "MSFT",
+      "url": "https://news.microsoft.com/source/emea/features/before-the-ambulance-arrives-how-ai-is-helping-the-nhs-rethink-patient-care/",
+      "title": "Before the ambulance arrives: How AI is helping the NHS rethink patient care",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "90bd476c9111db5e597d4282",
+      "ticker": "MSFT",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+      "title": "MSFT DEF 14A filed 2026-10-21",
+      "published_at": "2026-10-21",
+      "kind": "sec_filing",
+      "form": "DEF 14A",
+      "accession": "000119312526427849",
+      "items": "",
+      "discovered_from": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "3791b7bf96c7264425d348d5",
+      "ticker": "MSFT",
+      "url": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
+      "title": "New PowerToys utilities make everyday Windows tasks easier",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "33b7207d01df1b33e858c7fc",
+      "ticker": "MSFT",
+      "url": "https://news.microsoft.com/source/2026/10/21/microsoft-empowers-more-than-330000-volkswagen-group-employees-with-copilot/",
+      "title": "Microsoft empowers more than 330,000 Volkswagen Group employees with Copilot",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "05b5ea4a24a6dc2301adae94",
+      "ticker": "MSFT",
+      "url": "https://www.microsoft.com/en-us/education/blog/2026/10/meet-the-educators-shaping-the-future-of-learning/",
+      "title": "Celebrating the educators shaping the future of learning",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "03fa3714c299954a68d241a8",
+      "ticker": "MSFT",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427867/d65906ddefa14a.htm",
+      "title": "MSFT DEFA14A filed 2026-10-21",
+      "published_at": "2026-10-21",
+      "kind": "sec_filing",
+      "form": "DEFA14A",
+      "accession": "000119312526427867",
+      "items": "",
+      "discovered_from": "https://data.sec.gov/submissions/CIK0000789019.json",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "0b882b7612a0f2d91a25d4aa",
+      "ticker": "AVGO",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-launches-arcot-scam-defense-block-social-engineering",
+      "title": "Broadcom Launches Arcot Scam Defense to Block Social Engineering Fraud",
+      "published_at": "2026-10-21",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investors.broadcom.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "f1bd4ee98bd5447761139da7",
+      "ticker": "RTX",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000030/rtx-20261020.htm",
+      "title": "RTX 8-K filed 2026-10-20",
+      "published_at": "2026-10-20",
+      "kind": "sec_filing",
+      "form": "8-K",
+      "accession": "000010182926000030",
+      "items": "2.02,9.01",
+      "discovered_from": "https://data.sec.gov/submissions/CIK0000101829.json",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "c98599b2cc57992119c13d82",
+      "ticker": "RTX",
+      "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm",
+      "title": "RTX 10-Q filed 2026-10-20",
+      "published_at": "2026-10-20",
+      "kind": "sec_filing",
+      "form": "10-Q",
+      "accession": "000010182926000031",
+      "items": "",
+      "discovered_from": "https://data.sec.gov/submissions/CIK0000101829.json",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "3d2b62139e3658d971853c5b",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/20/rtx-reports-q3-2026-results",
+      "title": "RTX Reports Q3 2026 Results",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "072c69985bb534c85359b1d2",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Invests-in-New-York-Critical-Minerals-Processing-With-Indium-Corporation/default.aspx",
+      "title": "Micron Invests in New York Critical Minerals Processing With Indium Corporation",
+      "published_at": "2026-10-20",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "fe3c59e14701dafbcf1926c5",
+      "ticker": "MSFT",
+      "url": "https://news.microsoft.com/source/emea/features/a-concrete-vision-saint-gobain-and-microsoft-discovery-build-for-the-future/",
+      "title": "A concrete vision: Saint-Gobain and Microsoft Discovery build for the future",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "eb33f30a2a911770371e347b",
+      "ticker": "MSFT",
+      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "title": "Advancing digital sovereignty with greater control and choice",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "ade72a347ddadf2cdd6fe0aa",
+      "ticker": "MSFT",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7518264050179313664/",
+      "title": "Great to meet with the Saint-Gobain team in Paris today and learn how they’re using Microsoft Discovery to help accelerate the development of new more-efficient construction materials.",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "6b24aa14872258ef21089ef7",
+      "ticker": "MSFT",
+      "url": "https://news.microsoft.com/source/emea/features/microsoft-opens-e1m-dream-space-hub-at-its-data-centre-campus-in-grange-castle-to-bring-stem-and-ai-skills-to-young-people-in-surrounding-communities/",
+      "title": "Microsoft opens a hands-on STEM and AI hub for students at its Grange Castle data center campus",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.microsoft.com/source/feed/",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "a4144c1ac81f50bf69d2c4dc",
+      "ticker": "LMT",
+      "url": "https://news.lockheedmartin.com/2026-10-20-Spike-NLOS-Live-Fire-Validates-Infantry-Use-and-ISV-U-Platform-Integration",
+      "title": "Spike NLOS Live‑Fire Validates Infantry Use and ISV-U Platform Integration",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.lockheedmartin.com/news-releases?pagetemplate=rss",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "80e72772d5c68aae563fc457",
+      "ticker": "AVGO",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-continued-infrastructure-agreement-fedex",
+      "title": "Broadcom Announces Continued Infrastructure Agreement with FedEx to Support Global Operations",
+      "published_at": "2026-10-20",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investors.broadcom.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "31adadfa1ac35cd377096ae5",
+      "ticker": "RTX",
+      "url": "https://www.rtx.com/news/news-center/2026/10/19/u-s-army-awards-javelin-joint-venture-215-million-contract-for-lightweight-comm",
+      "title": "U.S. Army awards Javelin Joint Venture $215 million contract for Lightweight Command Launch Unit production",
+      "published_at": "2026-10-19",
+      "kind": "issuer_feed",
+      "discovered_from": "https://www.rtx.com/rss-feeds/news",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
     {
       "id": "dad237fa0e115dde1a537256",
       "ticker": "PLTR",
@@ -374,6 +892,39 @@
       "kind": "issuer_announcement",
       "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
       "first_seen_at": "2026-10-19T11:34:36.380573+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "087ac25948883a5a7b7b000a",
+      "ticker": "MU",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-to-Host-Technology-Webinar-on-Oct--21/default.aspx",
+      "title": "Micron to Host Technology Webinar on Oct. 21",
+      "published_at": "2026-10-19",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.micron.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "b681ec43ec2765c48772012e",
+      "ticker": "LMT",
+      "url": "https://news.lockheedmartin.com/2026-10-19-ER-GMLRS-Advances-Toward-Operational-Fielding-and-Expanded-Production",
+      "title": "ER GMLRS Advances Toward Operational Fielding and Expanded Production",
+      "published_at": "2026-10-19",
+      "kind": "issuer_feed",
+      "discovered_from": "https://news.lockheedmartin.com/news-releases?pagetemplate=rss",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "d5f183987606f0b3d89e94cc",
+      "ticker": "AVGO",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-advance-ntt-docomos-private-cloud-vmware-cloud",
+      "title": "Broadcom to Advance NTT DOCOMO’s Private Cloud with VMware Cloud Foundation",
+      "published_at": "2026-10-19",
+      "kind": "issuer_feed",
+      "discovered_from": "https://investors.broadcom.com/rss/news-releases.xml",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
       "status": "pending_review"
     },
     {
@@ -825,6 +1376,17 @@
       "kind": "issuer_feed",
       "discovered_from": "https://www.rtx.com/rss-feeds/news",
       "first_seen_at": "2026-10-18T08:25:22.445461+00:00",
+      "status": "pending_review"
+    },
+    {
+      "id": "f3e3e4fb69baa6f6721929d4",
+      "ticker": "PLTR",
+      "url": "https://investors.palantir.com/news-details/2026/Ondas-Announces-Regna-AI-Powered-by-Palantir-to-Advance-Sovereign-AI/default.aspx",
+      "title": "Ondas Announces Regna AI, Powered by Palantir, to Advance Sovereign AI",
+      "published_at": "2026-10-12",
+      "kind": "issuer_announcement",
+      "discovered_from": "https://investors.palantir.com/feed/PressRelease.svc/GetPressReleaseList?languageId=1&bodyType=1&year=2026&includeTags=true&pressReleaseDateFilter=1",
+      "first_seen_at": "2026-10-22T05:47:21.206825+00:00",
       "status": "pending_review"
     },
     {

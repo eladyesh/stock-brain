@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-19T11:34:36.379226+00:00",
-  "cutoff": "2026-10-19",
+  "started_at": "2026-10-22T05:47:21.204446+00:00",
+  "cutoff": "2026-10-22",
   "research_changed": false,
   "research_automatically_approved": false,
   "model_api_calls": 0,
@@ -66,61 +66,61 @@
     {
       "ticker": "MSFT",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 3
     },
     {
       "ticker": "ORCL",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 6
     },
     {
       "ticker": "PLTR",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 3
     },
     {
       "ticker": "MU",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 3
     },
     {
       "ticker": "NVDA",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 5
     },
     {
       "ticker": "AMD",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 3
     },
     {
       "ticker": "AVGO",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 26
     },
     {
       "ticker": "AVAV",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 16
     },
     {
       "ticker": "LMT",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 3
     },
     {
       "ticker": "RTX",
       "status": "collected",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-22",
       "qa_flags": 9
     }
   ],
@@ -128,63 +128,63 @@
     {
       "ticker": "MSFT",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:01+00:00"
+      "trade_at": "2026-10-21T20:00:01+00:00"
     },
     {
       "ticker": "ORCL",
       "status": "available",
-      "trade_at": "2026-10-16T20:03:50+00:00"
+      "trade_at": "2026-10-21T20:04:38+00:00"
     },
     {
       "ticker": "PLTR",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:01+00:00"
+      "trade_at": "2026-10-21T20:00:00+00:00"
     },
     {
       "ticker": "MU",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:00+00:00"
+      "trade_at": "2026-10-21T20:00:01+00:00"
     },
     {
       "ticker": "NVDA",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:00+00:00"
+      "trade_at": "2026-10-21T20:00:00+00:00"
     },
     {
       "ticker": "AMD",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:01+00:00"
+      "trade_at": "2026-10-21T20:00:01+00:00"
     },
     {
       "ticker": "AVGO",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:01+00:00"
+      "trade_at": "2026-10-21T20:00:01+00:00"
     },
     {
       "ticker": "AVAV",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:01+00:00"
+      "trade_at": "2026-10-21T20:00:01+00:00"
     },
     {
       "ticker": "LMT",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:02+00:00"
+      "trade_at": "2026-10-21T20:03:01+00:00"
     },
     {
       "ticker": "RTX",
       "status": "available",
-      "trade_at": "2026-10-16T20:00:02+00:00"
+      "trade_at": "2026-10-21T20:00:02+00:00"
     }
   ],
   "status": "partial",
-  "completed_at": "2026-10-19T11:38:21.290064+00:00",
-  "pending_count": 138,
+  "completed_at": "2026-10-22T05:51:23.865443+00:00",
+  "pending_count": 188,
   "run_history": [
     {
-      "cutoff": "2026-10-19",
-      "completed_at": "2026-10-19T11:38:21.290064+00:00",
+      "cutoff": "2026-10-22",
+      "completed_at": "2026-10-22T05:51:23.865443+00:00",
       "status": "partial",
-      "pending_count": 138
+      "pending_count": 188
     }
   ]
 }
