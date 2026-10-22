@@ -1,45 +1,39 @@
 # SEC access diagnosis and recovery
 
-## Verified on 2026-10-22
+## Verified recovery on 2026-10-22
 
-- The actual Render service `NEW-finlotus` received HTTP 403 with the title
-  "Your Request Originates from an Undeclared Automated Tool" in the earlier probe.
-- Its Render environment has no `SEC_USER_AGENT`, and no linked environment group.
-  `refresh_desk.py` therefore falls back to the app name and repository URL, without
-  an operator email. This does not match SEC's documented declared-bot identity.
-- `STOCK_BRAIN_SEC_ENABLED=0` is an intentional pause after that denial. Current
-  skipped refreshes do not represent new failed SEC requests.
-- The legacy shared fetcher previously accepted any nonempty identity, although
-  the broad provider already required an application and contact. The shared
-  network path now enforces the same check. Issuer sources and cached bytes remain
-  available; financial refresh failures retain previous source-dated records.
+The earlier Render HTTP 403 identified an undeclared automated tool. Its fallback
+User-Agent lacked an operator contact. The operator subsequently supplied a
+contact, which is now stored privately in Render and as the GitHub Actions
+`SEC_USER_AGENT` secret. The contact is never committed or returned by public APIs.
 
-The missing contact is confirmed. IP reputation, shared cloud egress and aggregate
-traffic are possible additional factors, not established causes. No evidence
-shows this application exceeded SEC's limit. No new SEC probe was made during
-this diagnosis, and a changed header is not proof of restored access.
+A single controlled request from the same Render service at 16:50:19 UTC returned
+HTTP 200 and valid Microsoft Company Facts (4,888,108 bytes; SHA-256
+`dd0308149a8e96497989ed7c690b5a49a00bef9ceafbb24638bda41e8ae938dd`). After enabling
+`STOCK_BRAIN_SEC_ENABLED=1`, the production refresh at 16:52:35 UTC succeeded for
+all ten pilot submissions and financial histories. Oracle's separate issuer RSS
+403 still makes the pilot refresh partial; it is not an SEC failure.
 
-## Correct configuration, then resolve the denial
+Subsequent HEAD requests from the same existing Render service returned HTTP 200
+for both official archives: submissions 1,570,500,398 bytes and Company Facts
+1,411,028,297 bytes. These are access/size checks, not completed archive ingestion.
+No IP rotation, proxy, identity impersonation, redirect or denial retry was used.
+The prior pause descriptions in historical development entries are superseded.
 
-1. Obtain the operator's real contact email for Stock Brain. Store the application
-   name and email privately as `SEC_USER_AGENT` in Render. Never substitute a
-   sample address, another organization's contact, or a browser identity.
-2. Inspect `/api/status.sec_configuration` after the applicable deploy. It reports
-   `enabled`, `user_agent_configured`, `user_agent_format_valid`, `status` and
-   `network_checked: false`, never the email. Passing format validation cannot
-   verify mailbox ownership or SEC access. Keep the collection pause active while
-   addressing the existing denial.
-3. SEC's FAQ directs access-denial cases to **webmaster@sec.gov**, with the error
-   text or screenshot and the originating public IP. Include the affected URL,
-   UTC timestamp, truthful application identity, request rate and any response
-   reference ID when available. The earlier title is preserved, but a reference
-   ID and original egress IP were not retained; do not fabricate them. Prepare
-   a support request if the denial is unresolved; sending it requires operator
-   authorization. Do not rotate IPs, proxies or identities to evade the denial.
-4. Once the denial is legitimately resolved, verify a small controlled request
-   from the existing collector before resuming daily work. Retain evidence of
-   successful JSON retrieval, then enable collection and verify its published
-   source dates. An enabled flag alone is not an access check.
+## Operational contract
+
+- Keep the real application/contact identity private. The public configuration
+  endpoint reports booleans and `network_checked: false`; it is not an access test.
+- `scripts/sec_acquire.py` uses the official fixed ZIP URLs, streams to bounded
+  disk files, verifies length and ZIP signature, records retrieval evidence and
+  SHA-256, and stops on the first denial. No automatic retry or fallback exists.
+- The daily GitHub release builder is the broad collection writer. Render uses a
+  verified, immutable data generation and retains the last good generation if a
+  collection or restore fails. See [SEC_BULK.md](SEC_BULK.md).
+- If a new denial occurs, retain prior data and investigate the declared identity
+  and source response. SEC's FAQ provides webmaster@sec.gov as its support route.
+  Sending a support message requires operator authorization. Do not change hosts,
+  IPs or identities to evade a source denial.
 
 Reading public EDGAR APIs requires neither authentication nor an API key. These
 are different from APIs for submitting filings. The documented ceiling is ten

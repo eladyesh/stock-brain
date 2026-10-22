@@ -313,7 +313,14 @@ class CoverageWorker:
                               'latest_financial_filing': latest, 'filings': filings[:100],
                               'recent_filing_inventory': recent_filing_inventory(submissions, cik, cutoff),
                               'scope': 'Recent filing metadata only; older submission shards and document bodies are not collected here'}
-        payloads = {'submissions': {'value': submission_payload, 'source': sub_source}}
+        old_submissions = self.store.get_payload(cik, 'submissions')
+        def submission_content(value):
+            return {k: v for k, v in (value or {}).items() if k not in ('checked_at', 'source')}
+        unchanged_submissions = (old_submissions and
+            old_submissions['source']['sha256'] == sub_source['sha256'] and
+            submission_content(old_submissions) == submission_content(submission_payload))
+        payloads = {} if unchanged_submissions else {'submissions': {'value': submission_payload, 'source': sub_source}}
+        fact_source = None
         if latest is None:
             draft = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'], 'generated_at': checked_at,
                      'status': 'draft', 'review_status': 'unreviewed', 'canonical_reviewed': False,
@@ -362,9 +369,19 @@ class CoverageWorker:
                 prior_identity = {**previous, 'ticker': history['ticker']} if previous else None
                 fh.validate_refresh(prior_identity, history)
                 sources.append(fact_source)
-                payloads['history'] = {'value': history, 'source': fact_source}
-                draft = change_draft(previous, history, latest, checked_at, sources)
-                payloads['automatic_changes'] = {'value': draft, 'source': fact_source}
+                def content(value):
+                    return {**{k: v for k, v in value.items() if k not in ('as_of', 'source', 'source_index')},
+                        'source_index': {key: {k: v for k, v in entry.items() if k != 'retrieved_at'}
+                            for key, entry in value['source_index'].items()}}
+                if (previous and previous['source']['sha256'] == fact_source['sha256']
+                        and content(previous) == content(history)):
+                    # Keep the original source observation and all prior versions.
+                    # A tiny collector state records the new successful check.
+                    history = previous
+                else:
+                    payloads['history'] = {'value': history, 'source': fact_source}
+                    draft = change_draft(previous, history, latest, checked_at, sources)
+                    payloads['automatic_changes'] = {'value': draft, 'source': fact_source}
             else:
                 kb.need(history is not None, 'unchanged filing has no stored history')
                 # New release evidence may be applied without claiming a new SEC download.
@@ -385,6 +402,8 @@ class CoverageWorker:
             'last_checked_at': checked_at, 'status': result['classification'],
             'latest_financial_accession': result.get('latest_financial_accession'),
             'history_sha256': result.get('history_sha256'), 'last_action': result['action'],
+            'facts_checked_at': fact_source['retrieved_at'] if fact_source else state.get('facts_checked_at'),
+            'facts_sha256': fact_source['sha256'] if fact_source else state.get('facts_sha256'),
             'canonical_reviewed': False}, 'source': sub_source}
         return payloads, result
 

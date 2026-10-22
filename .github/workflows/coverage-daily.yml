@@ -1,12 +1,12 @@
-name: Refresh broad market directory
+name: Refresh US stock coverage
 
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/coverage-daily.yml', 'scripts/market_directory.py']
+    paths: ['.github/workflows/coverage-daily.yml', 'scripts/market_directory.py', 'scripts/sec_acquire.py', 'scripts/sec_bulk.py', 'scripts/coverage_worker.py']
   workflow_dispatch:
   schedule:
-    - cron: '23 6 * * *'
+    - cron: '23 9 * * *'
 
 concurrency:
   group: stock-brain-coverage-release
@@ -19,11 +19,11 @@ jobs:
   refresh:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 180
     permissions:
       contents: write
     env:
-      STOCK_BRAIN_SEC_ENABLED: '0'
+      STOCK_BRAIN_SEC_ENABLED: '1'
       GH_REPO: eladyesh/stock-brain
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -36,6 +36,10 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - name: Name immutable data generation
         run: echo "COVERAGE_TAG=coverage-$(date -u +%Y%m%d)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+      - name: Acquire official nightly SEC archives once
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/sec_acquire.py --output build/sec-nightly
       - name: Restore prior data, refresh both directories and verify local recovery
         env:
           GH_TOKEN: ${{ github.token }}
@@ -44,7 +48,7 @@ jobs:
           STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION: ${{ vars.STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION || '0' }}
           STOCK_BRAIN_FD_MAX_DAILY_REQUESTS: ${{ vars.STOCK_BRAIN_FD_MAX_DAILY_REQUESTS || '0' }}
           FINANCIAL_DATASETS_API_KEY: ${{ secrets.FINANCIAL_DATASETS_API_KEY }}
-        run: python scripts/coverage_release.py build --tag "$COVERAGE_TAG"
+        run: python scripts/coverage_release.py build --tag "$COVERAGE_TAG" --sec-bulk-manifest build/sec-nightly/acquisition.json
       - name: Publish public data assets
         env:
           GH_TOKEN: ${{ github.token }}

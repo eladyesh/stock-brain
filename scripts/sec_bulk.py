@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 import re
 import stat
+import time
 import zipfile
 
 from coverage_store import CoverageStore, _datetime, _stamp, _json, normalize_cik, require
@@ -129,7 +130,9 @@ class BulkProvider:
 
 def run_key(store, submissions, facts=None):
     # A new directory generation rechecks previously unmatched filers too.
-    scope = directory.directory_status(store)['sources']
+    with store._connection() as db:
+        row = db.execute('SELECT sources_json FROM market_directory_runs ORDER BY id DESC LIMIT 1').fetchone()
+    scope = json.loads(row[0]) if row else {}
     return hashlib.sha256(_json({'submissions': submissions.sha256,
         'submissions_retrieved_at': submissions.retrieved_at,
         'companyfacts': facts.sha256 if facts else None,
@@ -172,6 +175,7 @@ def import_issuers(store, archive, *, limit=1000):
             by_ticker.setdefault(row['ticker'], []).append(row)
     errors = []
     for cik in candidates[:limit]:
+        matches = {}
         report['scanned'] += 1
         try:
             value, source = archive.read(cik)
@@ -196,8 +200,10 @@ def import_issuers(store, archive, *, limit=1000):
                                 WHERE listing_key=? AND identity_revision=? AND (cik IS NULL OR cik=?)''',
                                 (cik, 'SEC bulk submission matched to directory ticker, venue and name',
                                  row['listing_key'], row['identity_revision'], cik))
-                    store.put_payload(cik, 'sec_bulk_identity', {'cik': cik, 'name': name,
-                        'tickers': tickers, 'exchanges': venues, 'review_status': 'unreviewed'}, source)
+                    identity = {'cik': cik, 'name': name, 'tickers': tickers,
+                                'exchanges': venues, 'review_status': 'unreviewed'}
+                    if store.get_payload(cik, 'sec_bulk_identity') != identity:
+                        store.put_payload(cik, 'sec_bulk_identity', identity, source)
                     report['imported'] += 1
                 else:
                     report['skipped'] += 1
@@ -205,7 +211,11 @@ def import_issuers(store, archive, *, limit=1000):
             report['failed'] += 1
             errors.append((cik, str(error)))
         cursor = cik
-        checkpoint(store, key, 'issuers', cursor, report, errors[-1:] if errors and errors[-1][0] == cik else [])
+        # Matched issuers and errors commit immediately. Unmatched private filers
+        # can safely replay; avoid one fsync per filer across the whole SEC archive.
+        if matches or errors and errors[-1][0] == cik or report['scanned'] % 100 == 0:
+            checkpoint(store, key, 'issuers', cursor, report, errors[-1:] if errors and errors[-1][0] == cik else [])
+    checkpoint(store, key, 'issuers', cursor, report, [])
     return {**report, 'run_key': key, 'cursor': cursor, 'complete': len(candidates) <= limit,
             'network_requests': 0, 'scope': 'matched current exchange-listed stock slots only'}
 
@@ -258,16 +268,49 @@ def open_manifest(path, stack, *, require_facts=True):
     return archives
 
 
-def ingest_manifest(store, path, *, root, issuer_limit=5000, financial_limit=100):
+def ingest_manifest(store, path, *, root, issuer_limit=5000, financial_limit=100,
+                    complete=False, max_seconds=5400, on_progress=None):
+    require(type(max_seconds) is int and 1 <= max_seconds <= 10800, 'invalid bulk time budget')
+    deadline = time.monotonic() + max_seconds
     with ExitStack() as stack:
         archives = open_manifest(path, stack)
-        identities = import_issuers(store, archives['submissions'], limit=issuer_limit)
-        financials = (collect_financials(store, archives['submissions'], archives['companyfacts'],
-            root=root, limit=financial_limit) if identities['complete'] else None)
+        stopped = None
+        financials = None
+        while True:
+            identities = import_issuers(store, archives['submissions'], limit=issuer_limit)
+            if on_progress:
+                on_progress({'phase': 'issuers', **identities})
+            if identities['complete'] or not complete:
+                break
+            if time.monotonic() >= deadline:
+                stopped = 'time_budget'
+                break
+        if identities['complete']:
+            while True:
+                # Keep room for a batch, release metadata and the next daily check.
+                # No versions are deleted and the release cap is unchanged.
+                from coverage_storage import MAX_DATABASE
+                with store._connection() as db:
+                    used = (db.execute('PRAGMA page_count').fetchone()[0] -
+                            db.execute('PRAGMA freelist_count').fetchone()[0]) * db.execute('PRAGMA page_size').fetchone()[0]
+                if used > MAX_DATABASE - 64 * 1024**2:
+                    stopped = 'storage_headroom'
+                    break
+                if time.monotonic() >= deadline:
+                    stopped = 'time_budget'
+                    break
+                financials = collect_financials(store, archives['submissions'], archives['companyfacts'],
+                    root=root, limit=financial_limit)
+                if on_progress:
+                    on_progress({'phase': 'financials', **financials})
+                if financials['complete'] or not complete or financials.get('waiting_for_job'):
+                    break
         failed = identities['failed'] + (financials or {}).get('failed', 0)
         return {'status': ('completed_with_errors' if failed else 'completed') if financials and financials['complete'] else 'in_progress',
                 'issuers': identities, 'financials': financials, 'network_requests': 0,
-                'failed': failed}
+                'failed': failed, 'stopped_reason': stopped,
+                'archives': {kind: {'sha256': value.sha256, 'retrieved_at': value.retrieved_at,
+                    'issuers': len(value.issuers)} for kind, value in archives.items()}}
 
 
 def main(argv=None):
