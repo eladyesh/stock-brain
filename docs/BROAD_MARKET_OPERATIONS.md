@@ -37,7 +37,8 @@ venue, instrument and issuer mappings must not be silently guessed.
 ## Daily production path
 
 1. `.github/workflows/coverage-daily.yml` runs at **06:23 UTC daily**, or by manual
-   dispatch on main. One concurrency group prevents simultaneous writers.
+   dispatch on main. Changing this workflow on main also runs a bootstrap check.
+   One concurrency group prevents simultaneous writers.
 2. `coverage_release.py build` restores the last complete verified data release,
    validates the four-file pilot checkpoint, then merges both complete directories.
    Invalid schemas, stale/backwards files, a shrink above 10%, missing halves and
