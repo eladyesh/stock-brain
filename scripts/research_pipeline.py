@@ -134,6 +134,7 @@ class Fetcher:
         self.last_request = 0.0
         self.downloads = 0
         self.hits = 0
+        self.sec_block = None
 
     def fetch(self, url: str, refresh: bool = False) -> tuple[bytes, dict]:
         parsed = urllib.parse.urlparse(url)
@@ -147,6 +148,11 @@ class Fetcher:
             kb.need(digest(data) == meta["sha256"], "cache checksum mismatch")
             self.hits += 1
             return data, meta
+        is_sec = parsed.hostname == 'sec.gov' or parsed.hostname.endswith('.sec.gov')
+        if is_sec:
+            kb.need(os.environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1',
+                    'SEC collection paused by operator; prior data retained pending access resolution')
+            kb.need(not self.sec_block, self.sec_block)
         request = urllib.request.Request(url, headers={"User-Agent": self.user_agent, "Accept-Encoding": "identity"})
         for attempt in range(3):
             time.sleep(max(0.0, 0.5 - (time.monotonic() - self.last_request)))
@@ -160,6 +166,11 @@ class Fetcher:
                             "fetched_at": datetime.now(timezone.utc).isoformat()}
                 break
             except urllib.error.HTTPError as error:
+                if is_sec and error.code == 403:
+                    body = error.read(8192).decode('utf-8', errors='replace').lower()
+                    reason = ('undeclared automated tool' if 'undeclared automated tool' in body else 'HTTP 403 access denied')
+                    self.sec_block = 'SEC access blocked (' + reason + '); remaining SEC requests skipped for this run'
+                    raise ValueError(self.sec_block) from error
                 if error.code not in {429, 500, 502, 503, 504} or attempt == 2:
                     raise
                 delay = error.headers.get("Retry-After", "2")

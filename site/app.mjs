@@ -6,7 +6,7 @@ const SECTIONS={'business-overview':'איך העסק עובד','revenue-model-an
 const METRICS={revenue:'הכנסות',gross_profit:'רווח גולמי',cost_of_revenue:'עלות הכנסות',operating_income:'רווח תפעולי',net_income:'רווח נקי מיוחס לחברה אם',net_income_common:'רווח מיוחס למניות רגילות',net_income_including_noncontrolling_interests:'רווח כולל זכויות שאינן מקנות שליטה',eps_diluted:'רווח מדולל למניה',eps_basic:'רווח בסיסי למניה',operating_cash_flow:'תזרים מפעילות שוטפת',capex:'רכישת רכוש קבוע',free_cash_flow:'תזרים חופשי מחושב',purchases_of_productive_assets:'רכישת נכסים יצרניים, הגדרה רחבה',stock_based_compensation:'תגמול מבוסס מניות',cash_and_equivalents:'מזומנים ושווי מזומנים',short_term_investments:'השקעות קצרות טווח',debt_current:'חוב שוטף',debt_noncurrent:'חוב שאינו שוטף',long_term_debt_total:'סך חוב ארוך טווח',short_term_borrowings:'הלוואות קצרות טווח',debt_total:'חוב כולל מחושב',shares_basic:'ממוצע מניות, בסיסי',shares_diluted:'ממוצע מניות, מדולל',shares_outstanding:'מניות קיימות למועד המאזן'};
 const KIND={reported:'נתון מדווח',derived:'חישוב',reported_fact:'נתון מדווח',management_guidance:'תחזית הנהלה',interpretation:'פרשנות',research_question:'שאלה למחקר'};
 const state={tab:'overview',ticker:'MSFT',period:'annual',metric:'revenue',section:'business-overview',compare:new Set(['MSFT','NVDA']),queueTicker:'all',priority:'all'};
-let data=null,loadToken=0;
+let data=null,loadToken=0,answerToken=0;
 function h(tag,attrs={},...children){
   const node=document.createElement(tag);
   for(const [key,value] of Object.entries(attrs)){
@@ -170,16 +170,28 @@ function renderContent(){
   const warning=data.refresh_status?.status==='partial'?note('עדכון הנתונים האחרון היה חלקי. שגיאות המקור מוצגות במעקב; נתונים קודמים נשמרו עם תאריכיהם.','amber'):null;
   $('content').replaceChildren(...(warning?[warning]:[]),...pages[state.tab]());
 }
-function runQuestion(question){
+async function runQuestion(question){
   if(!data)return;
-  const result=ask(question,data),out=$('answer');out.hidden=false;
+  const token=++answerToken,out=$('answer');out.hidden=false;
+  out.replaceChildren(note('מחפש תשובה עם מקורות…'));
+  let result,origin='תשובה מהשרת';
+  try{
+    const response=await fetch('./api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question}),signal:AbortSignal.timeout(10000)});
+    if(!response.ok)throw Error('Answer API unavailable');
+    result=await response.json();
+    if(typeof result.abstain!=='boolean'||!Array.isArray(result.statements))throw Error('Invalid answer');
+  }catch{
+    result=ask(question,data);
+    origin='השרת לא זמין למענה; תשובה מהעותק שנטען בדפדפן';
+  }
+  if(token!==answerToken)return;
   const header=h('div',{class:'answer-title'},result.abstain?'אין תשובה נתמכת לשאלה המדויקת':'תשובה מתוך המחקר',button('סגור',()=>{out.hidden=true;}));
-  if(result.abstain){out.replaceChildren(header,note(result.reason+' נתונים היסטוריים נוספים זמינים בלשונית ההיסטוריה הפיננסית.','amber'));return;}
-  out.replaceChildren(header,h('p',{class:'caption'},result.mode==='financial_history'?'תשובה מההיסטוריה הפיננסית של SEC. התקופה, ההגדרה והמקור מופיעים בכל נתון; זו שכבה נפרדת מסקירת המחקר.':'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
+  if(result.abstain){out.replaceChildren(header,h('p',{class:'caption'},origin),note(result.reason+' נתונים היסטוריים נוספים זמינים בלשונית ההיסטוריה הפיננסית.','amber'));return;}
+  out.replaceChildren(header,h('p',{class:'caption'},origin+' · תמונת נתונים מ־'+date(result.built_at||data.built_at)),result.availability_note?note(result.availability_note,'amber'):null,h('p',{class:'caption'},result.mode==='financial_history'?'תשובה מההיסטוריה הפיננסית של SEC. התקופה, ההגדרה והמקור מופיעים בכל נתון; זו שכבה נפרדת מסקירת המחקר.':'תשובה ממקורות המחקר שנבדקו, לפי תאריך כל חברה. דיווחים חדשים עשויים עדיין להמתין לסקירה.'),
     ...result.statements.map(s=>claimView({...s,text_he:s.text},data.companies.find(c=>c.ticker===s.ticker),true)));
 }
 $('question-form').addEventListener('submit',event=>{event.preventDefault();runQuestion($('question').value);});
-$('examples').replaceChildren(...['איך מיקרוסופט מרוויחה כסף?','מה הסיכונים של אנבידיה?','Compare AMD and NVDA risks'].map(q=>button(q,()=>{$('question').value=q;runQuestion(q);},'example')));
+$('examples').replaceChildren(...['איך מיקרוסופט מרוויחה כסף?','מה ההכנסות של מיקרוסופט ברבעון האחרון במאגר?','Compare AMD and NVDA risks'].map(q=>button(q,()=>{$('question').value=q;runQuestion(q);},'example')));
 function validateData(value){
   if(value?.schema_version!==1||value.answer_contract_version!==2||!Array.isArray(value.companies)||!value.companies.length||new Set(value.companies.map(c=>c.ticker)).size!==value.companies.length||value.companies.some(c=>!Array.isArray(c.historical_index))||!value.config||!value.metric_patterns||!Number.isFinite(Date.parse(value.built_at)))throw Error('Invalid or incompatible research snapshot');
   return value;

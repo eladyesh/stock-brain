@@ -92,8 +92,8 @@ def restore_payloads(root, payloads):
     return previous_run
 
 
-def collect_financials(root, cutoff):
-    fetcher = p.Fetcher(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT)
+def collect_financials(root, cutoff, fetcher=None):
+    fetcher = fetcher or p.Fetcher(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT)
     results = []
     for company in p.universe(root):
         try:
@@ -102,6 +102,7 @@ def collect_financials(root, cutoff):
             previous = financials.load_history(root, company['ticker']) if previous_path.exists() else None
             history = financials.normalize_companyfacts(json.loads(raw), company, cutoff, meta, 5, 12,
                 normalization_reviews=(previous or {}).get('normalization_reviews', []))
+            financials.validate_refresh(previous, history)
             p.write_json(root / 'research/financials' / (company['ticker'] + '.json'), history)
             results.append({'ticker': company['ticker'], 'status': 'collected',
                             'as_of': cutoff, 'qa_flags': len(history['qa_flags'])})
@@ -116,13 +117,14 @@ def refresh(root, output, previous_run=None):
     now = datetime.now(timezone.utc)
     cutoff = now.date().isoformat()
     previous_run = previous_run or {}
+    fetcher = p.Fetcher(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT)
     run = {'schema_version': 1, 'started_at': now.isoformat(), 'cutoff': cutoff,
            'research_changed': False, 'research_automatically_approved': False, 'model_api_calls': 0}
     report_path = root / 'research/monitoring/latest.json'
     previous = p.read_json(report_path)
     # A broken top-level discovery read must not replace the durable queue.
     try:
-        report = monitor.run(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT, cutoff, previous)
+        report = monitor.run(root, os.environ.get('SEC_USER_AGENT') or USER_AGENT, cutoff, previous, fetcher=fetcher)
         p.write_json(report_path, report)
         run['discovery'] = {ticker: {'status': state['status'], 'coverage_status': state.get('coverage_status'),
                                      'errors': state.get('errors', [])}
@@ -135,7 +137,7 @@ def refresh(root, output, previous_run=None):
     triage_path = root / 'research/monitoring/triage.json'
     prior_triage = p.read_json(triage_path) if triage_path.exists() else {}
     p.write_json(triage_path, triage.triage(root, report, prior_triage))
-    run['financials'] = collect_financials(root, cutoff)
+    run['financials'] = collect_financials(root, cutoff, fetcher=fetcher)
     run['market'] = market_data.collect(root)['results']
     failed = ('error' in run['discovery'] or
               any(s.get('coverage_status') != 'checked' for s in run['discovery'].values() if isinstance(s, dict)) or

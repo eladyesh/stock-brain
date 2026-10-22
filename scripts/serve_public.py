@@ -26,7 +26,37 @@ class Application:
         self.lock = threading.Lock()
         self.signature = None
         self.cached = {}
+        self.answer_slot = threading.BoundedSemaphore(1)
         self._load()
+
+    def answer(self, environ):
+        if environ.get('CONTENT_TYPE', '').split(';')[0].strip().lower() != 'application/json':
+            return '415 Unsupported Media Type', {'error': 'json_required'}
+        try:
+            size = int(environ.get('CONTENT_LENGTH') or '0')
+            if not 0 < size <= 8192:
+                return '413 Content Too Large', {'error': 'body_size_limit'}
+            request = json.loads(environ['wsgi.input'].read(size))
+            question = request.get('question') if isinstance(request, dict) else None
+            if not isinstance(question, str) or not question.strip() or len(question) > 4000 or set(request) != {'question'}:
+                raise ValueError('invalid question')
+        except (ValueError, UnicodeError, TypeError):
+            return '400 Bad Request', {'error': 'invalid_question'}
+        if not self.answer_slot.acquire(blocking=False):
+            return '503 Service Unavailable', {'error': 'answer_busy'}
+        try:
+            # No shell, network fetch, model call, dynamic code or user-supplied path.
+            result = subprocess.run(['node', '--max-old-space-size=96',
+                str(self.root / 'scripts/answer_worker.mjs'), str(self.store.path)],
+                input=data.encode({'question': question}), capture_output=True, timeout=8)
+            if result.returncode or len(result.stdout) > 1_000_000:
+                raise ValueError('worker unavailable')
+            return '200 OK', json.loads(result.stdout)
+        except (OSError, ValueError, subprocess.TimeoutExpired):
+            LOG.warning('Answer worker unavailable')
+            return '503 Service Unavailable', {'error': 'answer_unavailable'}
+        finally:
+            self.answer_slot.release()
 
     def _load(self):
         stat = self.store.path.stat()
@@ -47,15 +77,19 @@ class Application:
         run = cached['bundle']['files']['run-status.json']
         attempt_path = self.store.directory / 'attempt.json'
         attempt = data.p.read_json(attempt_path) if attempt_path.exists() else None
+        now = datetime.now(timezone.utc)
+        next_due = data.next_refresh(now, run.get('completed_at'), self.zone, self.clock)
+        if attempt and attempt.get('status') == 'failed' and attempt.get('completed_at'):
+            next_due = max(now, datetime.fromisoformat(attempt['completed_at']) + timedelta(hours=1))
         return {'service': 'stock-brain', 'generation': cached['generation'],
                 'built_at': cached['bundle']['files']['desk.json']['built_at'],
                 'company_count': len(cached['bundle']['files']['desk.json']['companies']),
                 'refresh': run, 'last_attempt': attempt,
                 'scheduler': {'enabled': self.scheduler_enabled, 'timezone': self.zone, 'time': self.clock,
-                              'next_due': data.next_refresh(datetime.now(timezone.utc), run.get('completed_at'),
-                                                            self.zone, self.clock).isoformat()},
+                              'next_due': next_due.isoformat()},
                 'persistence': 'local checkpoint; GitHub Actions backup; latest backup restored on cold start',
-                'model_api_required': False}
+                'model_api_required': False, 'answer_api': '/api/ask',
+                'sec_collection_enabled': os.environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1'}
 
     def __call__(self, environ, start_response):
         path, method = environ.get('PATH_INFO', '/'), environ.get('REQUEST_METHOD', 'GET')
@@ -64,7 +98,18 @@ class Application:
                    ('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"),
                    ('Cache-Control', 'no-cache'), ('Vary', 'Accept-Encoding')]
         try:
-            if method not in {'GET', 'HEAD'}:
+            if path == '/api/ask':
+                headers = [(key, value) for key, value in headers if key != 'Cache-Control']
+                headers.append(('Cache-Control', 'no-store'))
+                if method == 'POST':
+                    status, result = self.answer(environ)
+                    raw = data.encode(result)
+                    if status.startswith('503'):
+                        headers.append(('Retry-After', '1'))
+                else:
+                    status, raw = '405 Method Not Allowed', data.encode({'error': 'post_required'})
+                    headers.append(('Allow', 'POST'))
+            elif method not in {'GET', 'HEAD'}:
                 status, raw = '405 Method Not Allowed', data.encode({'error': 'read_only'})
                 headers.append(('Allow', 'GET, HEAD'))
             elif path in ASSETS:
@@ -105,13 +150,13 @@ class Collector:
         self.thread = threading.Thread(target=self.run, name='stock-brain-collector', daemon=True)
 
     def run(self):
-        retry_at = datetime.min.replace(tzinfo=timezone.utc)
+        retry_at = None
         while not self.stop_event.is_set():
             try:
                 run = self.app._load()['bundle']['files']['run-status.json']
                 now = datetime.now(timezone.utc)
                 due = data.next_refresh(now, run.get('completed_at'), self.app.zone, self.app.clock)
-                if self.first or (now >= due and now >= retry_at):
+                if self.first or now >= (retry_at or due):
                     self.first = False
                     LOG.info('Starting data collection')
                     self.process = subprocess.Popen([sys.executable, str(self.app.root / 'scripts/runtime_data.py'),
@@ -128,7 +173,7 @@ class Collector:
                         LOG.error('Collection failed; retaining prior checkpoint (exit %s)', code)
                     else:
                         LOG.info('Collection checkpoint committed')
-                    retry_at = datetime.now(timezone.utc) + timedelta(hours=1)
+                    retry_at = datetime.now(timezone.utc) + timedelta(hours=1) if code else None
                     self.process = None
             except Exception:
                 LOG.exception('Collector supervisor failed; retrying later')
@@ -147,6 +192,7 @@ def main():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(name)s: %(message)s')
     root = Path(__file__).resolve().parents[1]
     store = data.StateStore(os.environ.get('STOCK_BRAIN_STATE_DIR', str(root / 'build/runtime')))
+    subprocess.run(['node', '--version'], check=True, timeout=5, capture_output=True)
     data.initialize(root, store, bootstrap=os.environ.get('STOCK_BRAIN_BOOTSTRAP_GITHUB', '0') == '1')
     app = Application(root, store, os.environ.get('STOCK_BRAIN_TIMEZONE', 'Asia/Jerusalem'),
                       os.environ.get('STOCK_BRAIN_REFRESH_TIME', '08:30'),

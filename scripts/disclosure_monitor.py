@@ -209,11 +209,11 @@ def reconciled_queue(old, found, packets, reviewed, checked_at, dispositions=Non
     return sorted(queue.values(), key=lambda e: (e.get('published_at') or '', e['ticker'], e['id']), reverse=True)
 
 
-def run(root, user_agent, cutoff=None, previous=None):
+def run(root, user_agent, cutoff=None, previous=None, fetcher=None):
     cutoff = cutoff or date.today().isoformat()
     kb.need(date.fromisoformat(cutoff) <= date.today(), 'discovery cutoff cannot be in the future')
     now = utc_now()
-    fetcher = pipeline.Fetcher(root, user_agent)
+    fetcher = fetcher or pipeline.Fetcher(root, user_agent)
     docs = kb.documents(root)
     from review_gates import check_managed_reviews
     check_managed_reviews(root, docs)

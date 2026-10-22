@@ -96,6 +96,23 @@ function askReviewed(question,data) {
   return {abstain:false,statements,companies,language:he?'he':'en'};
 }
 export function ask(question,data){
+  const available = /\blatest available (?:fiscal )?(quarter|year)\b|(?:ברבעון|הרבעון) האחרון (?:הזמין )?במאגר|(?:בשנת|שנת) הכספים האחרונה (?:הזמינה )?במאגר/iu;
+  const selected = question.match(available);
+  if(selected){
+    const he=/[א-ת]/.test(question),cleaned=question.replace(available,' '),spec=parseQuestion(cleaned,data);
+    const entities=Object.entries(data.config.issuer_aliases).filter(([ticker,names])=>[ticker,...names].some(n=>match(normalize(question),n))).map(([ticker])=>ticker);
+    const fail=()=>({abstain:true,reason_code:'unsupported_period',reason:he?'יש לבחור חברה אחת ומדד נתמך, ללא ערבוב תקופות או בקשת נתונים בזמן אמת.':'Select one issuer and a supported metric without mixing periods or requesting live data.',statements:[],companies:[]});
+    if(question.length>4000||entities.length!==1||!spec.metrics.length||spec.years.length||spec.quarters.length||spec.periodError||spec.error||spec.calendar||spec.guidance||/\b(?:current|today|now|latest)\b|היום|כרגע|עכשיו/.test(normalize(cleaned)))return fail();
+    const company=data.companies.find(c=>c.ticker===entities[0]),kind=/quarter|רבעון/i.test(selected[0])?'quarterly':'annual';
+    const period=company?.history?.periods.filter(p=>p.type===kind).sort((a,b)=>b.end.localeCompare(a.end))[0];
+    if(!period||!Number.isInteger(period.fiscal_year)||period.flags.some(f=>/conflicting|mismatch/.test(f)))return fail();
+    const result=ask(cleaned+' FY'+period.fiscal_year+(kind==='quarterly'?' Q'+period.fiscal_quarter:''),data);
+    if(!result.abstain){
+      result.selected_period={start:period.start,end:period.end,label:period.label};
+      result.availability_note=he?'נבחרה התקופה האחרונה השמורה במאגר. ייתכן שקיימים דיווחים חדשים שטרם נאספו או נבדקו.':'Selected the latest period stored in this dataset. Newer disclosures may not have been collected or reviewed.';
+    }
+    return result;
+  }
   const reviewed=askReviewed(question,data);
   if(!reviewed.abstain||!['unsupported_period','unsupported_metric','no_evidence'].includes(reviewed.reason_code))return reviewed;
   const spec=parseQuestion(question,data),q=normalize(question),he=/[א-ת]/.test(question);
