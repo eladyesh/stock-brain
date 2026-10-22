@@ -1,5 +1,23 @@
 # Stock Brain development log
 
+## 2026-10-22 — Verified identity expansion and remaining formatting gaps
+
+The second real generation, `coverage-20261022-39825725956-1`, passed off-host
+cold recovery at 18:09 UTC and was verified on Render: 6,470 stock candidates,
+5,795 mapped listings / 5,571 distinct issuers, 4,173 listings with normalized
+financial history and 5,529 with filing metadata. Its database is 212,983,808
+bytes. The 675 unmapped listings and 245 financial import failures remain visible;
+this is not complete U.S. stock coverage.
+
+A production JPM lookup exposed JP Morgan/JPMorgan spacing, while a read-only
+comparison with the official SEC ticker index exposed dotted legal forms and
+explicit jurisdiction annotations. The matcher now tolerates these formatting
+differences while preserving business-name characters/order, ticker and venue
+requirements, and collision quarantine. Tests cover real matching pairs and
+reject changed business names, arbitrary parentheticals and reordered words.
+Translated names, foreign financial normalization, OTC and non-SEC reporters
+remain separate work; no unsupported identifier or financial value is guessed.
+
 ## 2026-10-22 — First verified nationwide SEC generation
 
 Actions run `39824575079` acquired both official SEC archives, completed the

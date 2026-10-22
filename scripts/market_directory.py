@@ -112,24 +112,41 @@ def _name_matches(directory_name, issuer_name):
     remain significant. SEC jurisdiction suffixes such as /DE/ are metadata.
     Exact ticker/venue evidence is still required by every caller.
     """
-    legal = {'inc', 'corp', 'co', 'ltd', 'plc', 'llc', 'lp'}
+    legal = {'inc', 'corp', 'co', 'ltd', 'plc', 'llc', 'lp', 'sa', 'nv', 'na'}
     synonyms = {'incorporated': 'inc', 'corporation': 'corp', 'company': 'co', 'limited': 'ltd'}
     def words(value):
-        value = re.sub(r'/[a-z]{2}/?\s*$', '', value.casefold())
-        value = value.replace('&', ' and ').replace("'", '').replace('’', '')
+        value = value.casefold()
+        # Observed jurisdiction/type annotations, never arbitrary parentheticals
+        # or country/business words appearing as part of the issuer's name.
+        annotation = r'(?:de|delaware|ma|nj|ca|cayman|reit)'
+        value = re.sub(r'\(' + annotation + r'\)', ' ', value)
+        value = re.sub(r'[/\\]\s*' + annotation + r'/?\s*$', '', value)
+        value = re.sub(r'/[a-z]{2}/?\s*$', '', value)
+        for dotted, plain in (('s.a.', 'sa'), ('n.v.', 'nv'), ('n.a.', 'na'),
+                              ('l.l.c.', 'llc'), ('l.p.', 'lp')):
+            value = re.sub(r'\b' + re.escape(dotted), plain, value)
+        value = value.replace('&', ' and ').replace('+', ' and ').replace("'", '').replace('’', '')
         result = [synonyms.get(w, w) for w in re.sub(r'[^a-z0-9]+', ' ', value).split()]
         if result and result[0] == 'the': result = result[1:]
         return result
     issuer, listing = words(issuer_name), words(directory_name)
     while issuer and issuer[-1] in legal | {'the'}: issuer.pop()
-    if not issuer or listing[:len(issuer)] != issuer:
+    if not issuer:
         return False
-    remainder = listing[len(issuer):]
-    while remainder and remainder[0] in legal | {'the'}: remainder = remainder[1:]
-    if len(remainder) >= 2 and remainder[0] == 'new' and remainder[1] in {'common', 'ordinary'}:
-        remainder = remainder[1:]
-    return not remainder or remainder[0] in {'common', 'ordinary', 'class', 'series', 'american',
-        'depositary', 'depository', 'preferred', 'preference', 'shares', 'units', 'rights', 'warrants'}
+    for boundary in range(1, len(listing) + 1):
+        core, remainder = listing[:boundary], listing[boundary:]
+        while core and core[-1] in legal | {'the'}: core.pop()
+        # Whitespace/punctuation differences (JP Morgan vs JPMorgan) preserve
+        # every business-name character and its order. No edit-distance match.
+        if ''.join(core) != ''.join(issuer):
+            continue
+        while remainder and remainder[0] in legal | {'the'}: remainder = remainder[1:]
+        if len(remainder) >= 2 and remainder[0] == 'new' and remainder[1] in {'common', 'ordinary'}:
+            remainder = remainder[1:]
+        if not remainder or remainder[0] in {'common', 'ordinary', 'class', 'series', 'american',
+                'depositary', 'depository', 'preferred', 'preference', 'shares', 'units', 'rights', 'warrants'}:
+            return True
+    return False
 
 
 def sec_symbol(row):

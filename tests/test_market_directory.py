@@ -37,11 +37,22 @@ class DirectoryTests(unittest.TestCase):
             ('ABM Industries Incorporated Common Stock', 'ABM INDUSTRIES INC /DE/'),
             ('Arbor Realty Trust Common Stock', 'ARBOR REALTY TRUST INC'),
             ('Berkshire Hathaway Inc. New Common Stock', 'BERKSHIRE HATHAWAY INC'),
-            ('Ares Acquisition Corporation III Class A Ordinary Shares', 'Ares Acquisition Corp III')]:
-            self.assertTrue(directory._name_matches(listing, issuer))
+            ('Ares Acquisition Corporation III Class A Ordinary Shares', 'Ares Acquisition Corp III'),
+            ('JP Morgan Chase & Co. Common Stock', 'JPMORGAN CHASE & CO'),
+            ('American Tower Corporation (REIT) Common Stock', 'AMERICAN TOWER CORP /MA/'),
+            ('Alight, Inc. Class A Common Stock', 'Alight, Inc. / Delaware'),
+            ('Actinium Pharmaceuticals, Inc. (Delaware) Common Stock', 'Actinium Pharmaceuticals, Inc.'),
+            ('Auna SA Class A Ordinary Shares', 'AUNA S.A.'),
+            ('Bausch + Lomb Corporation Common Shares', 'Bausch & Lomb Corp'),
+            ('Boise Cascade, L.L.C. Common Stock', 'BOISE CASCADE Co')]:
+            self.assertTrue(directory._name_matches(listing, issuer), (listing, issuer))
         for listing, issuer in [('Apple Holdings Inc Common Stock', 'Apple Inc'),
             ('Company 10 Common Stock', 'Company 1'), ('Acme Group Common Stock', 'Acme Corp'),
-            ('Acme New Business Common Stock', 'Acme'), ('Different Corp', 'Acme Corp')]:
+            ('Acme New Business Common Stock', 'Acme'), ('Different Corp', 'Acme Corp'),
+            ('Alight Services Inc Common Stock', 'Alight Inc'),
+            ('Smith A O Common Stock', 'A O Smith'),
+            ('Auna (Holdings) Common Stock', 'Auna SA'),
+            ('Bunge Limited Common Stock', 'Bunge Global SA')]:
             self.assertFalse(directory._name_matches(listing, issuer))
 
     def test_sec_symbol_equivalence_preserves_class_and_preferred_series(self):
