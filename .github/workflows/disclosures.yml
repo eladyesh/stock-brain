@@ -27,7 +27,9 @@ jobs:
     runs-on: ${{ fromJSON(vars.STOCK_BRAIN_RUNNER_LABELS || '["ubuntu-latest"]') }}
     timeout-minutes: 20
     env:
-      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'StockBrain/1.0 (https://github.com/eladyesh/stock-brain)' }}
+      # Real operator contact belongs in configuration, never a fabricated fallback.
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || vars.SEC_USER_AGENT || 'StockBrain/1.0 (https://github.com/eladyesh/stock-brain)' }}
+      STOCK_BRAIN_SEC_ENABLED: ${{ vars.STOCK_BRAIN_SEC_ENABLED || '0' }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5

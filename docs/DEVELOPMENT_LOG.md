@@ -1,5 +1,20 @@
 # Stock Brain development log
 
+## 2026-10-22 — SEC access diagnosis and shared identity preflight
+
+Read-only Render inspection confirmed that the production service lacks
+`SEC_USER_AGENT`, has no linked environment group, and retains the intentional
+SEC pause. The repository-URL fallback lacks the contact email in SEC guidance.
+The earlier undeclared-tool 403 does not by itself establish an IP-level cause.
+
+All shared-fetcher SEC network requests now validate the application/contact
+identity before sending. Issuer feeds, cached bytes and retained financial
+histories remain available. Public status exposes non-sensitive configuration
+booleans, explicitly without a network-access assertion. The disclosure workflow
+accepts a private identity secret and defaults to paused. [SEC_ACCESS.md](SEC_ACCESS.md)
+documents the missing operator input, official access-denial support route and
+bulk recovery plan. No contact was invented and no blocked-source retry occurred.
+
 ## 2026-10-22 — compressed history, multipart recovery and coverage progress
 
 Added schema-6 content-addressed compressed payloads, resumable lossless migration,

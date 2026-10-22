@@ -54,7 +54,7 @@ class IntegrityTests(unittest.TestCase):
 
     def test_sec_403_stops_remaining_sec_requests_without_stopping_other_sources(self):
         with tempfile.TemporaryDirectory() as directory:
-            fetcher = p.Fetcher(Path(directory), 'StockBrain test')
+            fetcher = p.Fetcher(Path(directory), 'StockBrain fixture qa@fixture.test')
             error = urllib.error.HTTPError('https://data.sec.gov/example', 403, 'Forbidden', {},
                                           io.BytesIO(b'<title>SEC.gov | Your Request Originates from an Undeclared Automated Tool</title>'))
             with patch.object(p.urllib.request, 'urlopen', side_effect=error) as request, patch.object(p.time, 'sleep'):
@@ -69,6 +69,42 @@ class IntegrityTests(unittest.TestCase):
             with patch.object(p.urllib.request, 'urlopen') as request:
                 with self.assertRaisesRegex(ValueError, 'paused by operator'):
                     p.Fetcher(Path(directory), 'StockBrain test').fetch('https://data.sec.gov/example')
+                request.assert_not_called()
+
+    def test_missing_sec_contact_stops_before_network_but_issuer_feed_still_works(self):
+        with tempfile.TemporaryDirectory() as directory, patch.dict(p.os.environ, {'STOCK_BRAIN_SEC_ENABLED': '1'}):
+            fetcher = p.Fetcher(Path(directory), refresh_desk.USER_AGENT)
+            response = Mock()
+            response.read.return_value = b'fixture issuer announcement'
+            response.url = 'https://issuer.example/news'
+            response.headers = {'Content-Type': 'text/plain'}
+            context = Mock(__enter__=Mock(return_value=response), __exit__=Mock(return_value=False))
+            with patch.object(p.urllib.request, 'urlopen', return_value=context) as request:
+                for host in ['sec.gov', 'www.sec.gov', 'data.sec.gov']:
+                    with self.assertRaisesRegex(ValueError, 'actual application name and contact email'):
+                        fetcher.fetch('https://' + host + '/fixture', refresh=True)
+                request.assert_not_called()
+                self.assertEqual(fetcher.fetch(response.url)[0], response.read.return_value)
+                self.assertEqual(request.call_count, 1)
+
+    def test_sec_preflight_rejects_placeholder_and_header_injection(self):
+        with tempfile.TemporaryDirectory() as directory, patch.dict(p.os.environ, {'STOCK_BRAIN_SEC_ENABLED': '1'}):
+            with patch.object(p.urllib.request, 'urlopen') as request:
+                for identity in ['StockBrain contact@example.com', 'StockBrain qa@fixture.test\r\nX-Test: injected']:
+                    with self.assertRaisesRegex(ValueError, 'actual application name and contact email'):
+                        p.Fetcher(Path(directory), identity).fetch('https://data.sec.gov/fixture')
+                request.assert_not_called()
+
+    def test_sec_cached_bytes_remain_available_while_network_is_paused(self):
+        with tempfile.TemporaryDirectory() as directory, patch.dict(p.os.environ, {'STOCK_BRAIN_SEC_ENABLED': '0'}):
+            fetcher = p.Fetcher(Path(directory), refresh_desk.USER_AGENT)
+            url, raw = 'https://data.sec.gov/fixture', b'cached fixture'
+            meta = {'url': url, 'sha256': p.digest(raw), 'fetched_at': '2026-01-01T00:00:00+00:00'}
+            p.write_json(fetcher.cache / 'urls' / (p.digest(url) + '.json'), meta)
+            (fetcher.cache / 'objects').mkdir()
+            (fetcher.cache / 'objects' / meta['sha256']).write_bytes(raw)
+            with patch.object(p.urllib.request, 'urlopen') as request:
+                self.assertEqual(fetcher.fetch(url), (raw, meta))
                 request.assert_not_called()
 
 
@@ -91,6 +127,23 @@ class AnswerApiTests(unittest.TestCase):
         body = b''.join(self.app({'PATH_INFO': '/api/ask', 'REQUEST_METHOD': 'POST', 'CONTENT_TYPE': 'application/json',
                                  'CONTENT_LENGTH': str(len(raw)), 'wsgi.input': io.BytesIO(raw), **extra}, start))
         return received, json.loads(body)
+
+    def test_public_sec_diagnostic_distinguishes_identity_and_pause_without_contact(self):
+        for identity, enabled, expected in [('', '1', 'identity_required'),
+                ('', '0', 'paused'), (refresh_desk.USER_AGENT, '1', 'identity_required'),
+                ('Fixture App qa@fixture.test', '1', 'configured_access_unverified')]:
+            with self.subTest(expected=expected), patch.dict(p.os.environ,
+                    {'SEC_USER_AGENT': identity, 'STOCK_BRAIN_SEC_ENABLED': enabled}):
+                received = {}
+                def start(status, headers): received['status'] = status
+                with patch.object(p.urllib.request, 'urlopen') as request:
+                    body = b''.join(self.app({'PATH_INFO': '/api/status', 'REQUEST_METHOD': 'GET'}, start))
+                    request.assert_not_called()
+                self.assertEqual(received['status'], '200 OK')
+                config = json.loads(body)['sec_configuration']
+                self.assertEqual(config['status'], expected)
+                self.assertFalse(config['network_checked'])
+                self.assertNotIn('qa@fixture.test', body.decode())
 
     def test_real_worker_returns_cited_answer_and_abstention_without_full_history(self):
         for question, abstain in [('How does Microsoft make money?', False), ('Should I buy MSFT?', True),
