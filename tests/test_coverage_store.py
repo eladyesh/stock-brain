@@ -60,7 +60,8 @@ class CoverageStoreTests(unittest.TestCase):
         self.assertFalse(reopened.source_status()['blocked'])
         with sqlite3.connect(old_path) as db:
             self.assertEqual(db.execute('PRAGMA user_version').fetchone()[0], SCHEMA_VERSION)
-            self.assertEqual(db.execute('SELECT version FROM schema_migrations ORDER BY version').fetchall(), [(1,), (2,), (3,), (4,), (5,)])
+            self.assertEqual(db.execute('SELECT version FROM schema_migrations ORDER BY version').fetchall(),
+                             [(version,) for version in range(1, SCHEMA_VERSION + 1)])
 
     def test_cik_identity_share_classes_and_all_source_venues_are_retained(self):
         payload = listings([[1, 'Example Holdings', 'ex-a', 'NYSE'], [1, 'Example Holdings', 'EX.B', 'NYSE'],

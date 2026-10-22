@@ -402,7 +402,8 @@ class CoverageWorker:
             if not ready['ready']:
                 report['stopped_reason'] = ready['reason']
                 break
-            job = self.store.claim(worker_id, now=self.clock().astimezone(timezone.utc).isoformat(), lease_seconds=300)
+            job = self.store.claim(worker_id, now=self.clock().astimezone(timezone.utc).isoformat(),
+                                   lease_seconds=300, kind='refresh_company')
             if job is None:
                 break
             job_id = job.get('job_id', job.get('id'))

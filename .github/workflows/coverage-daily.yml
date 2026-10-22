@@ -50,7 +50,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "$COVERAGE_TAG" \
-            build/coverage-daily/release/coverage.sqlite3.gz \
+            build/coverage-daily/release/coverage.part-*.sqlite3.gz \
             build/coverage-daily/release/coverage-manifest.json \
             --target "$GITHUB_SHA" --title "Coverage data $COVERAGE_TAG" \
             --notes "Public listing directory and dated available datasets. Financial and research coverage remain explicitly separate. Await the offhost-verification.json asset before using this generation." \

@@ -28,11 +28,13 @@ import market_directory
 import runtime_data
 import vendor_data
 import sec_bulk
+import coverage_storage
+import coverage_chunks
 
 REPOSITORY = 'eladyesh/stock-brain'
 API = 'https://api.github.com/repos/' + REPOSITORY
-MAX_COMPRESSED = 128 * 1024 * 1024
-MAX_DATABASE = 512 * 1024 * 1024
+MAX_COMPRESSED = coverage_storage.MAX_COMPRESSED
+MAX_DATABASE = coverage_storage.MAX_DATABASE
 ASSET = 'coverage.sqlite3.gz'
 MANIFEST = 'coverage-manifest.json'
 PROOF = 'offhost-verification.json'
@@ -59,8 +61,12 @@ def latest_release():
         _download(API + '/releases?per_page=100', target, 2_000_000)
         releases = json.loads(target.read_text())
     require(isinstance(releases, list), 'invalid release response')
-    matches = [r for r in releases if not r.get('draft') and TAG.fullmatch(r.get('tag_name', ''))
-               and {ASSET, MANIFEST, PROOF} <= {a.get('name') for a in r.get('assets', [])}]
+    matches = []
+    for r in releases:
+        assets = {a.get('name', '') for a in r.get('assets', [])}
+        if (not r.get('draft') and TAG.fullmatch(r.get('tag_name', '')) and {MANIFEST, PROOF} <= assets
+                and (ASSET in assets or any(coverage_chunks.PART_NAME.fullmatch(name) for name in assets))):
+            matches.append(r)
     require(matches or len(releases) < 100, 'complete coverage release is outside the bounded lookup window')
     return max(matches, key=lambda r: (r['published_at'], r.get('id', 0))) if matches else None
 
@@ -71,26 +77,20 @@ def unpack(compressed, manifest_path, destination):
     manifest_path, compressed = Path(manifest_path), Path(compressed)
     require(manifest_path.stat().st_size <= 1_000_000, 'manifest too large')
     manifest = json.loads(manifest_path.read_text())
-    require(manifest.get('format') == 'stock-brain-coverage-release' and manifest.get('version') == 1, 'unsupported release format')
-    item = manifest['compressed']
-    require(item['file_name'] == ASSET and 0 < item['size_bytes'] <= MAX_COMPRESSED, 'invalid compressed metadata')
-    require(compressed.stat().st_size == item['size_bytes'] and backup._hash(compressed) == item['sha256'], 'compressed digest mismatch')
+    require(manifest.get('format') == 'stock-brain-coverage-release', 'unsupported release format')
     raw_manifest = manifest['database_manifest']
     require(raw_manifest['snapshot']['file_name'] == 'coverage.sqlite3', 'unexpected database filename')
     expected_size = raw_manifest['snapshot']['size_bytes']
     require(type(expected_size) is int and 512 <= expected_size <= MAX_DATABASE, 'database exceeds capacity limit')
     require(1 <= raw_manifest['snapshot']['stats']['database_schema_version'] <= SCHEMA_VERSION, 'unsupported database schema')
+    entries = coverage_chunks.parts(manifest, expected_size)
     require(not destination.exists(), 'refuse to replace an existing generation')
     destination.parent.mkdir(parents=True, exist_ok=True)
+    require(shutil.disk_usage(destination.parent).free >= expected_size * 2 + 16 * 1024 * 1024,
+            'insufficient disk headroom for verified restore')
     with tempfile.TemporaryDirectory(dir=destination.parent) as d:
         raw_path, raw_manifest_path = Path(d) / 'coverage.sqlite3', Path(d) / 'coverage.sqlite3.manifest.json'
-        total = 0
-        with gzip.open(compressed, 'rb') as source, raw_path.open('xb') as out:
-            while block := source.read(1024 * 1024):
-                total += len(block)
-                require(total <= expected_size, 'decompressed database exceeds manifest size')
-                out.write(block)
-        require(total == expected_size, 'truncated database')
+        coverage_chunks.assemble(compressed if compressed.is_dir() else compressed.parent, entries, raw_path)
         raw_manifest_path.write_text(json.dumps(raw_manifest))
         backup.restore(raw_path, raw_manifest_path, destination)
     return manifest
@@ -105,9 +105,16 @@ def download_release(release, destination):
         root = Path(d)
         base = 'https://github.com/' + REPOSITORY + '/releases/download/' + tag + '/'
         _download(base + MANIFEST, root / MANIFEST, 1_000_000)
-        require(json.loads((root / MANIFEST).read_text()).get('release_tag') == tag, 'manifest/release mismatch')
-        _download(base + ASSET, root / ASSET, MAX_COMPRESSED)
-        result = unpack(root / ASSET, root / MANIFEST, destination)
+        manifest = json.loads((root / MANIFEST).read_text())
+        require(manifest.get('release_tag') == tag, 'manifest/release mismatch')
+        size = manifest['database_manifest']['snapshot']['size_bytes']
+        require(type(size) is int and 512 <= size <= MAX_DATABASE, 'database exceeds capacity limit')
+        entries = coverage_chunks.parts(manifest, size)
+        require(shutil.disk_usage(root).free >= size * 2 + sum(p['size_bytes'] for p in entries) + 16 * 1024 * 1024,
+                'insufficient disk headroom for download and verified restore')
+        for item in entries:
+            _download(base + item['file_name'], root / item['file_name'], item['size_bytes'])
+        result = unpack(root, root / MANIFEST, destination)
         return result
 
 
@@ -124,24 +131,22 @@ def package(store, destination, *, release_tag, execution):
     out = Path(destination)
     out.mkdir(parents=True, exist_ok=True)
     raw = out / 'coverage.sqlite3'
-    result = backup.backup(store.path, raw)
+    result = backup.backup(store.path, raw, compact=True)
     require(raw.stat().st_size <= MAX_DATABASE, 'database exceeds release capacity; migrate storage before continuing')
-    compressed = out / ASSET
-    with raw.open('rb') as source, compressed.open('xb') as target:
-        with gzip.GzipFile(fileobj=target, mode='wb', mtime=0) as stream:
-            shutil.copyfileobj(source, stream)
-    require(compressed.stat().st_size <= MAX_COMPRESSED, 'compressed database exceeds release capacity')
-    manifest = {'format': 'stock-brain-coverage-release', 'version': 1, 'release_tag': release_tag,
+    parts = coverage_chunks.pack(raw, out)
+    manifest = {'format': 'stock-brain-coverage-release', 'version': 2, 'release_tag': release_tag,
         'created_at': datetime.now(timezone.utc).isoformat(), 'execution': execution,
-        'compressed': {'file_name': ASSET, 'size_bytes': compressed.stat().st_size, 'sha256': backup._hash(compressed)},
+        'parts': parts,
         'database_manifest': result['manifest'], 'directory': market_directory.directory_status(store),
+        'storage': coverage_storage.status(store),
         'scope': 'Public directory and available dated datasets. Does not establish complete financial or research coverage.'}
     # Internal build paths are irrelevant to recovery and are not published.
     manifest['database_manifest']['source'].pop('path', None)
+    coverage_chunks.parts(manifest, raw.stat().st_size)
     (out / MANIFEST).write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     with tempfile.TemporaryDirectory() as d:
         restored = Path(d) / 'restored.sqlite3'
-        unpack(compressed, out / MANIFEST, restored)
+        unpack(out, out / MANIFEST, restored)
         recovered = CoverageStore(restored)
         recovered_status = market_directory.directory_status(recovered)
         require(all(recovered_status[k] == manifest['directory'][k] for k in
@@ -159,6 +164,8 @@ def build(root, output, *, tag, use_saved_directories=None, sec_bulk_manifest=No
         download_release(previous, database)
     checkpoint = runtime_data.github_checkpoint()
     store = initialize_coverage(root, checkpoint['files']['desk.json'], database)
+    # Bounded, resumable migration. Older values remain readable between batches.
+    compaction = store.compact_payloads(limit=1000)
     if use_saved_directories:
         sources = Path(use_saved_directories)
         directories = [market_directory.parse_directory((sources / name).read_bytes(), name,
@@ -173,7 +180,8 @@ def build(root, output, *, tag, use_saved_directories=None, sec_bulk_manifest=No
     execution = {'event': os.environ.get('GITHUB_EVENT_NAME', 'local'), 'run_id': os.environ.get('GITHUB_RUN_ID'),
                  'scheduled_execution_observed': os.environ.get('GITHUB_EVENT_NAME') == 'schedule',
                  'previous_release': previous['tag_name'] if previous else None,
-                 'source_commit': os.environ.get('GITHUB_SHA'), 'vendor_collection': vendor, 'sec_bulk_collection': bulk}
+                 'source_commit': os.environ.get('GITHUB_SHA'), 'vendor_collection': vendor, 'sec_bulk_collection': bulk,
+                 'payload_compaction': compaction}
     manifest = package(store, output / 'release', release_tag=tag, execution=execution)
     return {'import': result, 'vendor_collection': vendor, 'sec_bulk_collection': bulk,
             'manifest': manifest, 'local_cold_restore': 'pass'}
@@ -210,7 +218,8 @@ def verify_published(tag):
         require(status['listed_securities'] == manifest['directory']['listed_securities'], 'off-host restored count differs')
         return {'verification_status': 'pass', 'cold_restore': 'pass', 'release_tag': tag,
                 'verified_at': datetime.now(timezone.utc).isoformat(), 'directory': status,
-                'execution': manifest['execution'], 'database_sha256': manifest['database_manifest']['snapshot']['sha256']}
+                'execution': manifest['execution'], 'database_sha256': manifest['database_manifest']['snapshot']['sha256'],
+                'storage': coverage_storage.status(store)}
 
 
 class CoverageMirror:

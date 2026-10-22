@@ -76,8 +76,9 @@ New archive hashes, retrieval evidence or directory generations create a new
 pass. A fresh directory (at most 36 hours old) is required for identity matching.
 
 Each issuer checkpoint is durable. A crash between publication and checkpointing
-can replay an issuer safely. Jobs claim their own ID and do not consume an online
-collector's queue. Operate this as a **single writer**: do not run a live collector,
+can replay an issuer safely. Bulk jobs claim their own ID; online collectors claim
+only `refresh_company`, including when reclaiming expired leases. Neither consumes
+the other queue. Operate this as a **single writer**: do not run a live collector,
 another bulk CLI or a release builder concurrently against the same database.
 The public web replica is never an ingestion destination.
 
@@ -112,10 +113,12 @@ SEC bulk ingestion and continues its working directory refresh.
 - Recent filing metadata includes foreign forms. **20-F/40-F/6-K and IFRS financial
   normalization remain unsupported**, and are flagged rather than converted into
   invented US GAAP results. Older submission shards are inventoried, not ingested.
-- Current public SQLite release bounds remain 512 MiB restored / 128 MiB
-  compressed. This is not yet full-market financial storage. Implement a verified
-  sharded/object-storage or database migration before a mass financial backfill;
-  the builder fails closed at those limits and preserves the last good release.
+- Schema 6 stores large JSON payloads as compressed, content-addressed objects
+  while preserving every version and original source date. Version-2 releases
+  distribute independently hashed 32 MiB raw chunks. The restored database still
+  has a **512 MiB** safety cap; check measured capacity before each large backfill.
+  See [COVERAGE_STORAGE.md](COVERAGE_STORAGE.md) for migration, verification and
+  growth boundaries. A capacity failure preserves the last good public release.
 - OTC stocks need an authoritative OTC master in addition to exchange directories.
   FINRA's public OTC Daily List describes changes, not a complete current master:
   https://developer.finra.org/docs (Equity / OTC Daily List).

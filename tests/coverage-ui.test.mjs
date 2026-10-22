@@ -18,7 +18,9 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     }],limitations:[]}},ttm:null};
   globalThis.fetch=async url=>{
     requests.push(url);
-    const value=url.startsWith('./api/securities?')?{items:[security],total:50000,limit:25,offset:0}:
+    const value=url.startsWith('./api/securities?')?{items:[security],total:50000,limit:25,offset:0,
+      directory:{coverage_progress:{total_listings:50000,mapped_listings:2,unmapped_listings:49998,distinct_mapped_issuers:1,
+        filing_checks:{recent:0,overdue:2,not_checked:49998}}}}:
       url==='./api/securities/'+security.listing_key?{security}:
       url==='./api/companies/0000000123'?detail:snapshot;
     return {ok:true,json:async()=>structuredClone(value)};
@@ -30,6 +32,9 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     assert(requests.some(x=>x.includes('limit=25&offset=0')));
     assert.equal(document.querySelectorAll('.registry-row').length,1);
     assert(document.getElementById('content').textContent.includes('50000 ניירות תואמים'));
+    assert(document.getElementById('content').textContent.includes('ממתינות לקישור: 49998'));
+    assert(document.getElementById('content').textContent.includes('חברות מזוהות שונות: 1'));
+    assert(document.getElementById('content').textContent.includes('בדיקה מתעכבת: 2'));
     document.querySelector('.registry-row button').click();await settle();
     assert(document.getElementById('content').textContent.includes('תחזיות אנליסטים'));
     assert(document.getElementById('content').textContent.includes('טרם נאסף'));

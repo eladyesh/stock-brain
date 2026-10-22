@@ -54,7 +54,9 @@ venue, instrument and issuer mappings must not be silently guessed.
 3. Existing pilot quotes are copied with their original trade/retrieval dates and
    hashes. Optional vendor collection is disabled unless explicitly configured.
 4. The job takes a SQLite online backup, verifies a local cold restore, and publishes
-   `coverage.sqlite3.gz` and `coverage-manifest.json` to an immutable prerelease tag.
+   `coverage.part-NNNN.sqlite3.gz` assets and `coverage-manifest.json` to an immutable
+   prerelease tag. Each chunk has at most 32 MiB of raw data and its own raw and
+   compressed hash. Legacy single-file releases remain readable.
 5. It downloads the actual published bytes and cold-restores them into empty state.
    Only after success is `offhost-verification.json` uploaded. Incomplete releases
    are ineligible for consumers. This is off-host recovery evidence, not just a
@@ -70,7 +72,11 @@ and expect its local changes to become durable releases. HTTP searches do no
 provider acquisition and return bounded pages. Client downloads do not include
 the whole market database.
 
-`/api/coverage` reports directory counts, per-dataset coverage and mirror state.
+`/api/coverage` reports directory counts, per-dataset coverage, storage and mirror
+state. `coverage_progress` distinguishes mapped listings from distinct verified
+issuer IDs. Filing-check freshness uses the collector's source retrieval time;
+new directory imports, storage migrations and deploys do not reset it. A 48-hour
+check window indicates collection timeliness, not completeness of financial data.
 `/api/securities?q=MSFT&limit=25` searches the broad directory;
 `/api/securities/{listing_key}` gives identity, evidence and dataset availability.
 Verified CIKs link to the existing `/api/companies/{cik}` detail API.
@@ -132,24 +138,28 @@ before snapshot publication. It reads already legitimately acquired local archiv
 and makes zero network requests. No production SEC archive has yet been acquired
 or loaded; the daily release reports `sec_bulk_collection.status=not_configured`.
 See [the operator commands and limits](SEC_BULK.md). This is not an alternate host
-for a blocked SEC downloader. Foreign-form accounting, OTC and scalable financial
-storage remain separate work items.
+for a blocked SEC downloader. Foreign-form accounting, OTC and access resolution
+remain separate work items. Online workers claim only their job kind; bulk workers
+claim their exact job ID, so expired work is not stolen by the other queue.
 
 ## Capacity and next implementation priorities
 
 This is a bounded single-writer batch system, not a claim of unlimited scale.
-Compressed releases stop at 128 MiB; restored databases at 512 MiB. Daily snapshots
-are retained off-host; web replicas retain active and previous generations. Before
-approaching these bounds, implement and verify a retention/storage migration.
+Schema 6 compresses and deduplicates large payloads while retaining every version.
+Version-2 releases use independently verified 32 MiB raw chunks; restored databases
+still stop at 512 MiB. Daily snapshots are retained off-host; web replicas retain
+active and previous generations. Before approaching the remaining bound, implement
+and verify the next storage migration. See [COVERAGE_STORAGE.md](COVERAGE_STORAGE.md)
+for measured capacity, legacy migration and the recovery contract.
 Never drop historical evidence silently to make a build pass. Larger universes,
 intraday updates or concurrent collectors will require a costed durable database
 and object-storage design before provisioning anything paid.
 
 Continue in this order, completing and verifying each unblocked item:
 
-First finish the storage design/migration before any whole-market financial
-backfill. The new archive adapter makes collection possible once legitimate
-access is available; it does not remove the existing 512 MiB public snapshot cap.
+Check actual storage headroom before every whole-market financial backfill. The
+archive adapter makes collection possible once legitimate access is available;
+compression and multipart publication do not remove the 512 MiB restored cap.
 Prepare adapters from actual authorized source samples. Never count a synthetic
 archive test as production coverage or a configured schedule as observed delivery.
 

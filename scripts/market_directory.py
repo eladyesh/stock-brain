@@ -176,6 +176,11 @@ def directory_status(store):
         last = db.execute('SELECT * FROM market_directory_runs ORDER BY id DESC LIMIT 1').fetchone()
         groups = db.execute("SELECT instrument_type,count(*) AS n FROM market_securities WHERE directory_status='present' AND is_test=0 GROUP BY instrument_type").fetchall()
         linked = db.execute("SELECT count(*) FROM market_securities WHERE directory_status='present' AND is_test=0 AND cik IS NOT NULL").fetchone()[0]
+        checks = db.execute('''SELECT s.cik,p.source_retrieved_at FROM market_securities s
+            LEFT JOIN company_payloads p ON p.id=(SELECT p2.id FROM company_payloads p2
+                WHERE p2.cik=s.cik AND p2.kind='collector_state' ORDER BY p2.version DESC LIMIT 1)
+            WHERE s.directory_status='present' AND s.is_test=0 AND s.instrument_type IN ('''
+            + ','.join('?' for _ in EQUITY_TYPES) + ')', EQUITY_TYPES).fetchall()
         dataset_rows = db.execute('''SELECT dataset,count(DISTINCT listing_key) AS n FROM (
             SELECT s.listing_key,o.dataset FROM market_securities s JOIN market_observations o
               ON o.listing_key=s.listing_key AND o.identity_revision=s.identity_revision
@@ -189,10 +194,19 @@ def directory_status(store):
     oldest = min((_datetime(s['retrieved_at']) for s in sources.values()), default=None)
     age_hours = max(0, (store._now() - oldest).total_seconds() / 3600) if oldest else None
     counts = {r['instrument_type']: r['n'] for r in groups}
+    check_counts = {key: 0 for key in ('recent', 'overdue', 'not_checked', 'invalid_timestamp')}
+    for row in checks:
+        check_counts[_collection_check(row['source_retrieved_at'], store._now())['status']] += 1
     return {'status': 'unavailable' if not last else 'stale' if age_hours > 36 else 'checked',
             'imported_at': last['imported_at'] if last else None, 'age_hours': round(age_hours, 2) if age_hours is not None else None,
             'sources': sources, 'listed_securities': sum(counts.values()), 'equity_candidates': sum(counts.get(k, 0) for k in EQUITY_TYPES),
             'instrument_counts': counts, 'linked_issuer_count': linked,
+            'coverage_progress': {'scope': 'stock candidates including unresolved instruments; counts are listing counts unless stated',
+                'total_listings': len(checks), 'mapped_listings': sum(r['cik'] is not None for r in checks),
+                'unmapped_listings': sum(r['cik'] is None for r in checks),
+                'distinct_mapped_issuers': len({r['cik'] for r in checks if r['cik']}),
+                'filing_checks': {**check_counts, 'freshness_hours': 48,
+                    'basis': 'Latest collector-state source retrieval, not directory import or payload storage time'}},
             'stock_scope': {'classified_stock_listings': sum(counts.get(k, 0) for k in STOCK_TYPES),
                            'unresolved_instruments': counts.get('equity_candidate', 0),
                            'included_types': list(STOCK_TYPES), 'otc': 'not_collected',
@@ -223,17 +237,31 @@ def list_securities(store, *, query='', limit=50, offset=0, instrument='equities
         rows = db.execute('SELECT s.* FROM market_securities s WHERE ' + where +
                           ' ORDER BY CASE WHEN s.ticker=? COLLATE NOCASE THEN 0 ELSE 1 END,s.ticker,s.exchange LIMIT ? OFFSET ?',
                           [*params, query, limit, offset]).fetchall()
-        result = [_public_record(db, row) for row in rows]
+        result = [_public_record(db, row, store._now()) for row in rows]
     return {'items': result, 'total': total, 'limit': limit, 'offset': offset}
 
 
-def _public_record(db, row):
+def _collection_check(retrieved_at, now):
+    state = 'not_checked'
+    if retrieved_at:
+        try:
+            age = (now - _datetime(retrieved_at)).total_seconds() / 3600
+            state = 'invalid_timestamp' if age < -5 / 60 else 'recent' if age <= 48 else 'overdue'
+        except (ValueError, TypeError):
+            state = 'invalid_timestamp'
+    return {'status': state, 'last_checked_at': retrieved_at, 'freshness_hours': 48,
+            'basis': 'issuer filing source retrieval; directory updates do not refresh this timestamp'}
+
+
+def _public_record(db, row, now):
     result = {k: row[k] for k in ('listing_key', 'ticker', 'exchange', 'security_name', 'instrument_type',
                                 'classification_basis', 'directory_status', 'identity_revision', 'cik', 'mapping_basis',
                                 'first_seen_at', 'last_seen_at')}
     result['source'] = json.loads(row['source_json'])
-    payloads = {r['kind']: r['source_retrieved_at'] for r in db.execute('''SELECT kind,max(source_retrieved_at) AS source_retrieved_at
-        FROM company_payloads WHERE cik=? GROUP BY kind''', (row['cik'],))} if row['cik'] else {}
+    payloads = {r['kind']: r['source_retrieved_at'] for r in db.execute('''SELECT p.kind,p.source_retrieved_at
+        FROM company_payloads p WHERE p.cik=? AND p.version=(SELECT max(p2.version) FROM company_payloads p2
+            WHERE p2.cik=p.cik AND p2.kind=p.kind)''', (row['cik'],))} if row['cik'] else {}
+    result['filing_check'] = _collection_check(payloads.get('collector_state'), now)
     observations = {r['dataset']: r['retrieved_at'] for r in db.execute('''SELECT dataset,max(retrieved_at) AS retrieved_at
         FROM market_observations WHERE listing_key=? AND identity_revision=? GROUP BY dataset''', (row['listing_key'], row['identity_revision']))}
     result['datasets'] = {kind: {'status': 'available' if kind in observations else 'not_collected', 'retrieved_at': observations.get(kind)} for kind in DATASETS}
@@ -252,6 +280,6 @@ def security_detail(store, listing_key):
     with store._connection() as db:
         row = db.execute('SELECT * FROM market_securities WHERE listing_key=?', (listing_key,)).fetchone()
         if row is None: return None
-        result = _public_record(db, row)
+        result = _public_record(db, row, store._now())
         result['raw_directory_fields'] = json.loads(row['raw_json'])
     return result

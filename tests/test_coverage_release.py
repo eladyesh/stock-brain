@@ -1,5 +1,6 @@
 from copy import deepcopy
 import json
+import gzip
 from pathlib import Path
 import sys
 import tempfile
@@ -10,6 +11,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import coverage_release as release
+import coverage_storage
 from coverage_store import CoverageStore
 import market_directory as directory
 from test_market_directory import fixtures, NOW
@@ -27,14 +29,14 @@ class ReleaseTests(unittest.TestCase):
 
     def test_roundtrip_preserves_directory_and_cold_restores_empty_database(self):
         target = self.root / 'restored.db'
-        release.unpack(self.out / release.ASSET, self.out / release.MANIFEST, target)
+        release.unpack(self.out, self.out / release.MANIFEST, target)
         restored = CoverageStore(target, clock=lambda: NOW)
         self.assertEqual(directory.list_securities(restored, instrument='all'), directory.list_securities(self.store, instrument='all'))
         self.assertEqual(self.manifest['database_manifest']['snapshot']['stats']['table_row_counts']['market_securities'], 16)
-        with self.assertRaises(ValueError): release.unpack(self.out / release.ASSET, self.out / release.MANIFEST, target)
+        with self.assertRaises(ValueError): release.unpack(self.out, self.out / release.MANIFEST, target)
 
     def test_corrupt_bytes_and_incompatible_schema_never_install(self):
-        compressed = self.out / release.ASSET
+        compressed = self.out / self.manifest['parts'][0]['file_name']
         original = compressed.read_bytes()
         compressed.write_bytes(original[:-1] + bytes([original[-1] ^ 1]))
         target = self.root / 'bad.db'
@@ -78,7 +80,7 @@ class ReleaseTests(unittest.TestCase):
             store=SimpleNamespace(directory=self.root, read=lambda: {'files': {'desk.json': {}}}))
         mirror = release.CoverageMirror(app)
         def download(item, path):
-            return release.unpack(self.out / release.ASSET, self.out / release.MANIFEST, path)
+            return release.unpack(self.out, self.out / release.MANIFEST, path)
         paths = []
         for number in range(3):
             with patch.object(release, 'latest_release', return_value={'tag_name': f'coverage-20261022-{123 + number}-1'}), \
@@ -92,6 +94,55 @@ class ReleaseTests(unittest.TestCase):
         self.assertTrue(paths[1].exists())
         self.assertTrue(paths[2].exists())
         self.assertTrue(self.store.path.exists())
+
+    def test_legacy_single_asset_release_remains_readable(self):
+        legacy = deepcopy(self.manifest)
+        legacy.pop('parts')
+        legacy['version'] = 1
+        path = self.out / release.ASSET
+        path.write_bytes(gzip.compress((self.out / 'coverage.sqlite3').read_bytes(), mtime=0))
+        legacy['compressed'] = {'file_name': release.ASSET, 'size_bytes': path.stat().st_size,
+                                'sha256': release.backup._hash(path)}
+        (self.out / release.MANIFEST).write_text(json.dumps(legacy))
+        target = self.root / 'legacy-restored.db'
+        release.unpack(path, self.out / release.MANIFEST, target)
+        self.assertEqual(directory.list_securities(CoverageStore(target))['total'], 14)
+
+    def test_multiple_parts_restore_in_order_and_reject_gaps_traversal_or_missing_bytes(self):
+        out = self.root / 'multipart'
+        with patch.object(coverage_storage, 'CHUNK_RAW_SIZE', 64 * 1024):
+            manifest = release.package(self.store, out, release_tag='coverage-20261022-456-1', execution={})
+            self.assertGreater(len(manifest['parts']), 1)
+            target = self.root / 'multi-restored.db'
+            release.unpack(out, out / release.MANIFEST, target)
+            self.assertEqual(directory.list_securities(CoverageStore(target))['total'], 14)
+            for field, bad in [('raw_offset', 1), ('file_name', '../outside.gz'), ('raw_size_bytes', 65 * 1024)]:
+                changed = deepcopy(manifest)
+                changed['parts'][0][field] = bad
+                (out / release.MANIFEST).write_text(json.dumps(changed))
+                with self.subTest(field=field), self.assertRaises(ValueError):
+                    release.unpack(out, out / release.MANIFEST, self.root / 'bad-parts.db')
+                self.assertFalse((self.root / 'bad-parts.db').exists())
+            (out / release.MANIFEST).write_text(json.dumps(manifest))
+            (out / manifest['parts'][-1]['file_name']).unlink()
+            with self.assertRaises(OSError):
+                release.unpack(out, out / release.MANIFEST, self.root / 'missing.db')
+            self.assertFalse((self.root / 'missing.db').exists())
+
+    def test_verified_multipart_release_is_discovered(self):
+        def fake_download(url, destination, limit):
+            Path(destination).write_text(json.dumps([{'tag_name': 'coverage-20261022-123-1',
+                'published_at': '2026-10-22T15:00:00Z', 'assets': [{'name': n} for n in
+                [release.MANIFEST, release.PROOF, self.manifest['parts'][0]['file_name']]]}]))
+        with patch.object(release, '_download', fake_download):
+            self.assertEqual(release.latest_release()['tag_name'], 'coverage-20261022-123-1')
+
+    def test_insufficient_disk_headroom_never_installs_a_generation(self):
+        target = self.root / 'no-space.db'
+        with patch.object(release.shutil, 'disk_usage', return_value=SimpleNamespace(free=1)):
+            with self.assertRaisesRegex(ValueError, 'disk headroom'):
+                release.unpack(self.out, self.out / release.MANIFEST, target)
+        self.assertFalse(target.exists())
 
     def test_display_license_does_not_allow_public_vendor_database_export(self):
         key = directory.list_securities(self.store)['items'][0]['listing_key']

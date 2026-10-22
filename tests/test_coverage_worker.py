@@ -92,6 +92,14 @@ class CoverageWorkerTests(unittest.TestCase):
         self.store.enqueue(CIK)
         return self.runner.run('test-worker', limit=3)
 
+    def test_online_runner_leaves_bulk_queue_untouched(self):
+        bulk = self.store.enqueue(CIK, kind='refresh_company_bulk')
+        result = self.run_job()
+        self.assertEqual((result['processed'], result['succeeded']), (1, 1))
+        with self.store._connection() as db:
+            row = db.execute('SELECT status,attempts FROM jobs WHERE id=?', (bulk['job_id'],)).fetchone()
+        self.assertEqual(tuple(row), ('queued', 0))
+
     def test_unchanged_filing_skips_facts_and_does_not_replace_draft(self):
         first = self.run_job()
         self.assertEqual(first['succeeded'], 1)
