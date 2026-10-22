@@ -28,6 +28,12 @@ Matching normalizes explicit legal spellings (Corporation/Corp, Incorporated/Inc
 Limited/Ltd, Company/Co), SEC jurisdiction suffixes, and class/preferred symbol
 separators. Business-name words such as Holdings and Group remain significant;
 no fuzzy or edit-distance match is used. Ambiguous symbol aliases are quarantined.
+Whitespace-only business-name differences (JP Morgan/JPMorgan), dotted legal
+forms (S.A., N.V., N.A., L.L.C., L.P.), ampersand/plus conjunctions, and a closed
+set of observed jurisdiction/REIT annotations are equivalent. Matching preserves
+the order and every character of the remaining business name and still requires
+the same symbol and venue. Translated names, reordered names (Smith A O/A O Smith)
+and meaningful additions (Bunge/Bunge Global) do not match automatically.
 SEC's NYSE venue family may match a Nasdaq directory's specific NYSE venue,
 which is preserved unchanged. Observed source pairs include BRK.B/BRK-B,
 BAC$B/BAC-PB, and ACCS with NYSE American in the directory versus NYSE at SEC.
