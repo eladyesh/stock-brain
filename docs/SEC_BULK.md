@@ -116,7 +116,11 @@ of the actual uploaded assets restored into an empty database.
 ## Validation and boundaries
 
 - Compressed archive limit: 8 GiB; expanded metadata total: 96 GiB; member limit:
-  64 MiB; maximum 600,000 members. One issuer JSON is read at a time. ZIP traversal,
+  64 MiB; maximum 1,200,000 members. The actual 2026-10-22 submissions ZIP has
+  995,360 entries and an 87,678,109-byte central directory, measured via its ZIP64
+  trailer. The previous 600,000-entry cap correctly rejected it; the bound now
+  allows measured current size with modest growth headroom. Archive processing
+  runs on the Actions runner, not the web service. One issuer JSON is read at a time. ZIP traversal,
   symlinks, encryption, duplicates, unexpected names, excessive sizes/ratios,
   invalid hashes, duplicate JSON fields and CIK mismatches are rejected.
 - ZIP members are never extracted. `inspect` validates the archive hash and
