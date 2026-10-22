@@ -30,7 +30,7 @@ The job:
 
 The state branch stores JSON only. Updates are fast-forward and serialized; they do not overwrite `main`. Failure to restore an existing queue stops the run. A branch test does not write production state. No email, chat messages, paid model calls, issue creation or automatic research approval is configured.
 
-The repository variable `SEC_USER_AGENT` can supply your identifying application/contact string. The default identifies Stock Brain and its repository URL. The shared fetcher limits itself to two requests/second and honors bounded retry/backoff. SEC's published ceiling is ten requests/second across clients: [EDGAR access guidance](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data).
+Set the repository secret `SEC_USER_AGENT` to the actual application name and operator contact email; the existing repository-variable form remains supported. The repository-URL fallback is only suitable for non-SEC sources and now fails locally before any SEC request. The disclosure workflow defaults `STOCK_BRAIN_SEC_ENABLED` to `0`; set its repository variable to `1` only after the observed access denial is legitimately resolved. The shared fetcher limits each instance to two requests/second and honors bounded retry/backoff; the broad worker additionally coordinates through its persisted source gate. SEC's ceiling is ten requests/second across all clients, so independent collectors must not multiply that budget. See [SEC access diagnosis and recovery](SEC_ACCESS.md) and the [official guidance](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data).
 
 ## Coverage and freshness
 

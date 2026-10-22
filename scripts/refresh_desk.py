@@ -20,6 +20,7 @@ import research_pipeline as p
 import stock_brain as kb
 import triage_disclosures as triage
 
+# Non-SEC fallback only. The shared fetcher rejects this identity for SEC requests.
 USER_AGENT = 'StockBrain/1.0 (https://github.com/eladyesh/stock-brain)'
 
 

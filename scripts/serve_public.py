@@ -97,7 +97,8 @@ class Application:
                               'next_due': next_due.isoformat()},
                 'persistence': 'local checkpoint; GitHub Actions backup; latest backup restored on cold start',
                 'model_api_required': False, 'answer_api': '/api/ask',
-                'sec_collection_enabled': os.environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1'}
+                'sec_collection_enabled': os.environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1',
+                'sec_configuration': data.p.sec_configuration()}
 
     def __call__(self, environ, start_response):
         path, method = environ.get('PATH_INFO', '/'), environ.get('REQUEST_METHOD', 'GET')

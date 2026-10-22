@@ -135,6 +135,21 @@ def validate_sec_user_agent(user_agent):
     return True
 
 
+def sec_configuration(environ=None):
+    """Report configuration only; never expose the contact or claim network access."""
+    environ = os.environ if environ is None else environ
+    user_agent = environ.get('SEC_USER_AGENT', '')
+    enabled = environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1'
+    try:
+        identified = validate_sec_user_agent(user_agent)
+    except ValueError:
+        identified = False
+    return {'enabled': enabled, 'user_agent_configured': bool(user_agent.strip()),
+            'user_agent_format_valid': identified, 'network_checked': False,
+            'status': ('paused' if not enabled else
+                       'identity_required' if not identified else 'configured_access_unverified')}
+
+
 class Fetcher:
     """Content-addressed local cache; a process makes at most two requests/second."""
     def __init__(self, root: Path, user_agent: str, before_request=None):
@@ -164,6 +179,8 @@ class Fetcher:
             kb.need(os.environ.get('STOCK_BRAIN_SEC_ENABLED', '1') == '1',
                     'SEC collection paused by operator; prior data retained pending access resolution')
             kb.need(not self.sec_block, self.sec_block)
+            # Issuer feeds may use the repository fallback; SEC requires a real contact.
+            validate_sec_user_agent(self.user_agent)
         request = urllib.request.Request(url, headers={"User-Agent": self.user_agent, "Accept-Encoding": "identity"})
         for attempt in range(3):
             time.sleep(max(0.0, 0.5 - (time.monotonic() - self.last_request)))
