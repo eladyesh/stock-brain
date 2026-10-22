@@ -264,7 +264,15 @@ def collect_financials(store, submissions, facts, *, root, limit=25):
             store.commit_job(claimed['job_id'], claimed['lease_owner'], claimed['lease_token'], payloads, result=outcome)
             report['imported'] += 1
         except (ValueError, KeyError, TypeError, OSError, RuntimeError, zipfile.BadZipFile) as error:
-            store.fail(claimed['job_id'], claimed['lease_owner'], claimed['lease_token'], str(error), blocked=True)
+            # Preserve independently valid filing metadata without approving the
+            # failed financial payload or changing its last processed accession.
+            try:
+                payloads, outcome = worker.collect(claimed, filings_only=True)
+            except (ValueError, KeyError, TypeError, OSError, RuntimeError, zipfile.BadZipFile):
+                store.fail(claimed['job_id'], claimed['lease_owner'], claimed['lease_token'], str(error), blocked=True)
+            else:
+                store.commit_job(claimed['job_id'], claimed['lease_owner'], claimed['lease_token'], payloads,
+                                 result={**outcome, 'financial_error': str(error)[:1000]})
             report['failed'] += 1
             errors.append((cik, str(error)))
         cursor = cik

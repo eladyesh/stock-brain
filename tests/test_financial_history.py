@@ -50,6 +50,22 @@ def split_review(metric, source_rows, *, evidence_filed='2026-02-01', effective=
 
 
 class FinancialHistoryTests(unittest.TestCase):
+    def test_later_series_gate_reaches_derived_gross_profit(self):
+        current = row(1200, '2025-07-01', '2026-06-30', '2026-08-01', 2026, 'FY', '0000000001-26-000004')
+        data = facts({REVENUE: [year()], 'Revenues': [current],
+                      'CostOfGoodsAndServicesSold': [dict(current, val=700)]})
+        history = fh.normalize_companyfacts(data, COMPANY, '2026-10-18')
+        gross = fh.get_metric(history, 'gross_profit')
+        self.assertEqual(gross['value'], 500)
+        self.assertFalse(gross['model_usable'])
+        self.assertIn('definition_changed_across_series', gross['flags'])
+        self.assertIn('derived_input_requires_review', gross['flags'])
+        tampered = copy.deepcopy(history)
+        tampered['financials']['annual:2026-06-30']['gross_profit'].update(
+            flags=[], model_usable=True, comparison_status='comparable')
+        with self.assertRaisesRegex(ValueError, 'derived eligibility exceeds inputs'):
+            fh.validate_history(tampered)
+
     def test_comparative_filing_focus_does_not_change_fiscal_year(self):
         old = year()
         repeated = year(filed='2026-08-01', fy=2026, accn='0000000001-26-000004')

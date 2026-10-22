@@ -285,7 +285,7 @@ class CoverageWorker:
         kb.need(history['cik'] == company['cik'], 'canonical evidence belongs to another issuer')
         return history.get('normalization_reviews', [])
 
-    def collect(self, job):
+    def collect(self, job, *, filings_only=False):
         company = self.store.company(job['cik'])
         kb.need(company is not None and company['cik'] == job['cik'], 'unknown collection issuer')
         cik = company['cik']
@@ -321,7 +321,22 @@ class CoverageWorker:
             submission_content(old_submissions) == submission_content(submission_payload))
         payloads = {} if unchanged_submissions else {'submissions': {'value': submission_payload, 'source': sub_source}}
         fact_source = None
-        if latest is None:
+        if filings_only:
+            # A separately validated submissions response remains useful when
+            # XBRL is delayed or its normalization fails. No financial value or
+            # processed accession is advanced by this metadata-only commit.
+            draft = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'], 'generated_at': checked_at,
+                     'status': 'draft', 'review_status': 'unreviewed', 'canonical_reviewed': False,
+                     'classification': 'quality_review_required', 'latest_financial_filing': latest,
+                     'history_as_of': (previous or {}).get('as_of'), 'changes': [],
+                     'qa': {'open_flag_count': 1, 'open_flags_by_code': {'financial_collection_incomplete': 1}},
+                     'sources': [sub_source],
+                     'limitations': ['Filing metadata was checked. Financial collection did not complete; any previous history retains its original source dates.']}
+            payloads['automatic_changes'] = {'value': draft, 'source': sub_source}
+            result = {'classification': 'quality_review_required', 'action': 'filings_only_financials_incomplete',
+                      'facts_fetched': False, 'latest_financial_accession': state.get('latest_financial_accession'),
+                      'history_sha256': state.get('history_sha256')}
+        elif latest is None:
             draft = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'], 'generated_at': checked_at,
                      'status': 'draft', 'review_status': 'unreviewed', 'canonical_reviewed': False,
                      'classification': 'quality_review_required', 'latest_financial_filing': None,
