@@ -1,0 +1,29 @@
+name: Back up standalone Stock Brain
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-brain-runtime-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Read and validate the server checkpoint, then persist it
+        env:
+          STOCK_BRAIN_URL: ${{ vars.STOCK_BRAIN_URL || 'https://finlotus-1.onrender.com' }}
+        run: python scripts/backup_runtime.py

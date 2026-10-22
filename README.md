@@ -6,7 +6,7 @@ The Markdown files are the source of truth. Every company uses the same sections
 
 **Current state (2026-10-19):** ten hash-bound AI-reviewed company profiles with 179 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
 
-**Research desk:** the owner-private Site implementation is in `site/`. The authorized publication and daily-update rollout is tracked in [release readiness](docs/RELEASE_READINESS.md). The desk reads dated updates from a separate GitHub state branch and retains a labelled fallback snapshot. See [desk behavior and limits](docs/DESK.md), [financial definitions](docs/FINANCIAL_HISTORY.md), and the [cloud update runbook](docs/CLOUD_UPDATES.md). The legacy GitHub-hosted disclosure job remains paused because of source-access failures.
+**Standalone research app:** `site/` is served by the public Python application in `scripts/serve_public.py`. Collection runs on the server; GitHub Actions backs up validated checkpoints to `automation/research-data`. No ChatGPT account, Sites deployment, model API key, or paid data subscription is required. See [standalone deployment](docs/STANDALONE.md), [desk behavior](docs/DESK.md), and [financial definitions](docs/FINANCIAL_HISTORY.md). The ChatGPT daily task has been disabled. The legacy GitHub disclosure collector remains paused because of source-access failures.
 
 ## Start here
 
@@ -20,7 +20,7 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Research assistant](docs/ASSISTANT.md) | Local interface, Hebrew answers, citations and acceptance results |
 | [Exact numerical answers](docs/EXACT_ANSWERS.md) | Calendar/fiscal period matching and sourced historical lookup |
 | [Hosted research desk](docs/DESK.md) | Financial history, comparisons, scenario assumptions and build instructions |
-| [Cloud updates](docs/CLOUD_UPDATES.md) | Durable daily data refresh and failure handling |
+| [Standalone application](docs/STANDALONE.md) | Public server, scheduled collection, backup and recovery |
 | [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
 | [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
@@ -94,7 +94,16 @@ The exporter includes only `reviewed` company profiles and explicitly registered
 - Local Hebrew/English Q&A, exact claim citations, bound translations and freshness indicators.
 - Daily SEC/RSS/public Q4 discovery, source diagnostics, a persistent review queue, source-bound triage decisions and bounded incremental request preparation.
 - Exact-definition SEC history, source-bound growth/margin answers, verified NVDA/AVGO split bridges, explicit remaining comparability flags, public market snapshots and assumption-based valuation sensitivity.
-- A private hosted Hebrew desk and a durable data-only update branch; no runtime model API key is required.
+- A public Hebrew web application, a server-side collector and a data-only backup branch; no runtime model API key is required.
+
+## Run the public application
+
+```bash
+python -m pip install -r requirements-web.txt
+python scripts/serve_public.py
+```
+
+Open `http://localhost:10000`. For the existing production checkpoint, set `STOCK_BRAIN_BOOTSTRAP_GITHUB=1` before the first start. See [deployment and recovery](docs/STANDALONE.md) for the full configuration.
 
 ## Use the assistant
 

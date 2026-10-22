@@ -46,10 +46,16 @@ def read_state_ref(root, ref, path):
 
 
 def restore_state(root, ref):
-    snapshot = read_state_ref(root, ref, 'desk.json')
-    report = read_state_ref(root, ref, 'latest.json')
-    saved_triage = read_state_ref(root, ref, 'triage.json')
-    previous_run = read_state_ref(root, ref, 'run-status.json')
+    return restore_payloads(root, {name: read_state_ref(root, ref, name) for name in
+                                  ['desk.json', 'latest.json', 'triage.json', 'run-status.json']})
+
+
+def restore_payloads(root, payloads):
+    """Restore a validated checkpoint without requiring Git or a model service."""
+    snapshot = payloads['desk.json']
+    report = payloads['latest.json']
+    saved_triage = payloads['triage.json']
+    previous_run = payloads['run-status.json']
     universe = {c['ticker']: c for c in p.universe(root)}
     kb.need(snapshot.get('schema_version') == 1 and
             {c['ticker'] for c in snapshot['companies']} == set(universe),
@@ -80,6 +86,9 @@ def restore_state(root, ref):
     triage_path = root / 'research/monitoring/triage.json'
     canonical_triage = p.read_json(triage_path) if triage_path.exists() else {}
     p.write_json(triage_path, merge_reviews(canonical_triage, saved_triage))
+    p.write_json(root / 'research/monitoring/refresh-status.json', previous_run)
+    if snapshot.get('market_status'):
+        p.write_json(root / 'research/market/status.json', snapshot['market_status'])
     return previous_run
 
 

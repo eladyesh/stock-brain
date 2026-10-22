@@ -124,7 +124,7 @@ test('Unavailable or incompatible remote data keeps a labelled usable snapshot',
   const {document,window}=parseHTML(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8'));
   globalThis.document=document;globalThis.Node=window.Node;
   const oldFetch=globalThis.fetch;
-  globalThis.fetch=async url=>url.startsWith('./')?{ok:true,json:async()=>structuredClone(data)}:{ok:false,status:404};
+  globalThis.fetch=async url=>url==='./snapshot.json'?{ok:true,json:async()=>structuredClone(data)}:{ok:false,status:404};
   try{
     await import('../site/app.mjs?offline-test');await new Promise(resolve=>setTimeout(resolve,0));
     assert(document.getElementById('data-status').textContent.includes('לא התקבל עדכון'));
