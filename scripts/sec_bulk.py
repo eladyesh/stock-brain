@@ -28,7 +28,10 @@ URLS = {
 MAX_ARCHIVE = 8 * 1024**3
 MAX_EXPANDED = 96 * 1024**3
 MAX_MEMBER = 64 * 1024**2
-MAX_ENTRIES = 600_000
+# The 2026-10-22 official submissions ZIP contains 995,360 entries (ZIP64
+# central directory: 87,678,109 bytes). Import runs on the existing Actions
+# runner, never inside the 512 MiB public web process.
+MAX_ENTRIES = 1_200_000
 
 
 def digest_file(path):
@@ -66,7 +69,8 @@ class SECArchive:
         try:
             self.members, self.issuers = {}, {}
             entries = self.archive.infolist()
-            require(0 < len(entries) <= MAX_ENTRIES, 'SEC archive entry count outside bounds')
+            require(0 < len(entries) <= MAX_ENTRIES,
+                    f'SEC archive entry count outside bounds: {len(entries)} (limit {MAX_ENTRIES})')
             total = 0
             for entry in entries:
                 pattern = r'CIK([0-9]{10})(?:-submissions-[0-9]{3,})?\.json' if kind == 'submissions' else r'CIK([0-9]{10})\.json'

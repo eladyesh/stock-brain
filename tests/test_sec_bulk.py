@@ -184,6 +184,8 @@ class BulkTests(unittest.TestCase):
 
     def test_paths_duplicates_hashes_size_and_identity_are_validated(self):
         sub, _ = self.sources()
+        with patch.object(bulk, 'MAX_ENTRIES', 0), self.assertRaisesRegex(ValueError, 'entry count outside bounds: 1'):
+            bulk.SECArchive(sub.path, 'submissions', retrieved_at=NOW, sha256=sub.sha256, now=NOW)
         with self.assertRaisesRegex(ValueError, 'SHA-256 mismatch'):
             bulk.SECArchive(sub.path, 'submissions', retrieved_at=NOW, sha256='0' * 64, now=NOW)
         for bad in ('../CIK0000000123.json', 'CIK0000000000.json', '/CIK0000000123.json'):
