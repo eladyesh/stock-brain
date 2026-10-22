@@ -27,3 +27,7 @@ jobs:
         env:
           STOCK_BRAIN_URL: ${{ vars.STOCK_BRAIN_URL || 'https://finlotus-1.onrender.com' }}
         run: python scripts/backup_runtime.py
+      - name: Verify public answers and restore the saved checkpoint into empty state
+        env:
+          STOCK_BRAIN_URL: ${{ vars.STOCK_BRAIN_URL || 'https://finlotus-1.onrender.com' }}
+        run: python scripts/verify_runtime.py

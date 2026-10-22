@@ -79,7 +79,7 @@ test('All UI views, question submission and scenario calculation render with rea
   const {document,window}=parseHTML(fs.readFileSync(new URL('../site/index.html',import.meta.url),'utf8'));
   globalThis.document=document;globalThis.Node=window.Node;
   const oldFetch=globalThis.fetch;
-  globalThis.fetch=async()=>({ok:true,json:async()=>structuredClone(data)});
+  globalThis.fetch=async(url,options)=>({ok:true,json:async()=>url==='./api/ask'?ask(JSON.parse(options.body).question,data):structuredClone(data)});
   try{
     await import('../site/app.mjs');
     await new Promise(resolve=>setTimeout(resolve,0));
@@ -103,13 +103,16 @@ test('All UI views, question submission and scenario calculation render with rea
     assert(!document.getElementById('scenario-result').textContent.includes('NaN'));
     document.getElementById('question').value='מה עושה אורקל?';
     document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
+    await new Promise(resolve=>setTimeout(resolve,0));
     assert(document.querySelectorAll('#answer .claim').length>0);
     document.getElementById('question').value='What was MSFT revenue in calendar year 2026?';
     document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
+    await new Promise(resolve=>setTimeout(resolve,0));
     assert.equal(document.querySelectorAll('#answer .claim').length,0);
     assert(document.querySelector('#answer .notice.amber'));
     document.getElementById('question').value='מה היו ההכנסות של מיקרוסופט בשנת הכספים 2024?';
     document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
+    await new Promise(resolve=>setTimeout(resolve,0));
     assert(document.getElementById('answer').textContent.includes('245,122,000,000'));
     assert(document.getElementById('answer').textContent.includes('2023-07-01'));
     assert(document.getElementById('answer').textContent.includes('שכבה נפרדת'));
@@ -129,6 +132,11 @@ test('Unavailable or incompatible remote data keeps a labelled usable snapshot',
     await import('../site/app.mjs?offline-test');await new Promise(resolve=>setTimeout(resolve,0));
     assert(document.getElementById('data-status').textContent.includes('לא התקבל עדכון'));
     assert.equal(document.querySelectorAll('.company-button').length,data.companies.length);
+    document.getElementById('question').value='How does Microsoft make money?';
+    document.getElementById('question-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
+    await new Promise(resolve=>setTimeout(resolve,0));
+    assert(document.getElementById('answer').textContent.includes('העותק שנטען בדפדפן'));
+    assert(document.querySelectorAll('#answer .claim').length>0);
     const legacy=structuredClone(data);delete legacy.answer_contract_version;
     globalThis.fetch=async()=>({ok:true,json:async()=>legacy});
     document.getElementById('refresh').click();await new Promise(resolve=>setTimeout(resolve,0));
@@ -137,3 +145,17 @@ test('Unavailable or incompatible remote data keeps a labelled usable snapshot',
   }finally{globalThis.fetch=oldFetch;}
 });
 
+
+for(const q of ['MSFT revenue in latest available fiscal year','MSFT revenue in latest available quarter','MSFT revenue in Latest Available Quarter','מה ההכנסות של מיקרוסופט ברבעון האחרון במאגר?'])
+  test('Latest stored period is explicit and cited: '+q,()=>{
+    const result=ask(q,data);assert.equal(result.abstain,false);assert(result.availability_note);assert(result.selected_period.end);assert(result.statements.every(s=>s.sources.length));
+  });
+for(const q of ['MSFT current revenue in latest available quarter','Compare MSFT and NVDA revenue in latest available year','MSFT revenue in latest available calendar year','MSFT revenue in latest available quarter FY2024','MSFT Azure revenue in latest available quarter','MSFT consensus revenue in latest available year'])
+  test('Latest stored period cannot relax a scope guard: '+q,()=>assert.equal(ask(q,data).abstain,true));
+test('Latest stored period never falls back to an older usable cell',()=>{
+  const changed=structuredClone(data),company=changed.companies.find(c=>c.ticker==='MSFT');
+  const end=company.history.periods.filter(p=>p.type==='annual').sort((a,b)=>b.end.localeCompare(a.end))[0].end;
+  company.metric_index=[];
+  company.historical_index.filter(r=>r.period_end===end&&r.metric_keys.includes('revenue')).forEach(r=>r.model_usable=false);
+  assert.equal(ask('MSFT revenue in latest available year',changed).abstain,true);
+});

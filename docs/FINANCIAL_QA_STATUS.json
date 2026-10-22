@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "integrity": "pass",
+  "research_approved": false,
+  "checks": [
+    "issuer identity",
+    "complete period/metric maps",
+    "status and finite values",
+    "exact-period reported numbers against provenance",
+    "derived arithmetic and inputs",
+    "split review bindings",
+    "source units/cutoffs",
+    "model eligibility gates"
+  ],
+  "limitation": "Checks internal source-linked consistency, not a new filing-level review or independent verification of raw source documents.",
+  "open_flag_count": 77,
+  "companies": [
+    {
+      "ticker": "MSFT",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:49:27.752762+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 270,
+        "missing_required_source": 97,
+        "derived": 41
+      },
+      "model_usable_cells": 187,
+      "open_flags": [
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "net_income_including_noncontrolling_interests": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "short_term_borrowings": 17,
+            "debt_total": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:49:35.284771+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 200,
+        "missing_required_source": 159,
+        "derived": 49
+      },
+      "model_usable_cells": 150,
+      "open_flags": [
+        {
+          "severity": "high",
+          "period": "quarterly:2026-08-31",
+          "code": "conflicting_fiscal_year",
+          "impact": "Use exact date boundaries; fiscal-year label is not verified.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "metric": "debt_current",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_current",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 8,
+            "net_income_including_noncontrolling_interests": 12,
+            "gross_profit": 17,
+            "cost_of_revenue": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 17,
+            "debt_noncurrent": 9,
+            "long_term_debt_total": 16,
+            "short_term_borrowings": 17,
+            "debt_total": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:49:42.068907+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 201,
+        "missing_required_source": 145,
+        "derived": 62
+      },
+      "model_usable_cells": 189,
+      "open_flags": [
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_noncurrent"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 15,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 17,
+            "debt_current": 17,
+            "debt_noncurrent": 16,
+            "long_term_debt_total": 17,
+            "short_term_borrowings": 17,
+            "debt_total": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:49:48.258124+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 251,
+        "missing_required_source": 98,
+        "derived": 59
+      },
+      "model_usable_cells": 171,
+      "open_flags": [
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "debt_total",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "net_income_including_noncontrolling_interests": 16,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 17,
+            "long_term_debt_total": 2,
+            "short_term_borrowings": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:49:54.788941+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 220,
+        "missing_required_source": 127,
+        "derived": 61
+      },
+      "model_usable_cells": 209,
+      "open_flags": [
+        {
+          "severity": "high",
+          "period": "annual:2024-01-28",
+          "metric": "shares_outstanding",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001045810-25-000023"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-01-28",
+          "metric": "shares_outstanding",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001045810-25-000023"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "debt_total",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "net_income_including_noncontrolling_interests": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "capex": 17,
+            "short_term_investments": 17,
+            "debt_current": 2,
+            "short_term_borrowings": 17,
+            "debt_total": 2,
+            "shares_outstanding": 9,
+            "free_cash_flow": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:50:00.977823+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 246,
+        "missing_required_source": 103,
+        "derived": 59
+      },
+      "model_usable_cells": 200,
+      "open_flags": [
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "net_income_including_noncontrolling_interests": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "debt_current": 3,
+            "long_term_debt_total": 16,
+            "short_term_borrowings": 4,
+            "debt_total": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:50:09.534624+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 228,
+        "missing_required_source": 108,
+        "derived": 72
+      },
+      "model_usable_cells": 235,
+      "open_flags": [
+        {
+          "severity": "high",
+          "period": "annual:2024-11-03",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000121"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2023-10-29",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000139"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2023-10-29",
+          "metric": "shares_outstanding",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000139"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2022-10-30",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-23-000096"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2021-10-31",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-22-000118"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2021-10-31",
+          "metric": "debt_noncurrent",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-22-000118"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-08-03",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000098"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-08-03",
+          "metric": "debt_total",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000098"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-05-04",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000064"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-05-04",
+          "metric": "debt_total",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000064"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-02-02",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000021"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-02-02",
+          "metric": "debt_total",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000021"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-11-03",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-25-000121"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-08-04",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000099"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-05-05",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000080"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-02-04",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000023"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2023-10-29",
+          "metric": "debt_current",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000139"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2023-10-29",
+          "metric": "shares_outstanding",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001730168-24-000139"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "metric": "debt_current",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_noncurrent",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_current",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_noncurrent",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_total",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "debt_total",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income": 14,
+            "net_income_common": 11,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 17,
+            "long_term_debt_total": 11,
+            "short_term_borrowings": 17,
+            "debt_total": 9
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "AVAV",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:50:18.392446+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 242,
+        "missing_required_source": 114,
+        "derived": 52
+      },
+      "model_usable_cells": 159,
+      "open_flags": [
+        {
+          "severity": "high",
+          "period": "annual:2025-04-30",
+          "metric": "capex",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-078906"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2025-04-30",
+          "metric": "free_cash_flow",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-078906"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-04-30",
+          "metric": "net_income_including_noncontrolling_interests",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141",
+            "SEC-0001104659-26-078906"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-04-30",
+          "metric": "operating_income",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141",
+            "SEC-0001104659-26-078906"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-01-31",
+          "metric": "net_income_including_noncontrolling_interests",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-01-31",
+          "metric": "operating_income",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-01-31",
+          "metric": "eps_basic",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2026-01-31",
+          "metric": "eps_diluted",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2025-04-30",
+          "metric": "capex",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0001104659-26-076141",
+            "SEC-0001104659-26-078906"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2024-01-27",
+          "code": "conflicting_fiscal_year",
+          "impact": "Use exact date boundaries; fiscal-year label is not verified.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "quarterly:2023-10-28",
+          "code": "conflicting_fiscal_year",
+          "impact": "Use exact date boundaries; fiscal-year label is not verified.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "metric": "revenue",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "revenue",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income": 17,
+            "net_income_common": 9,
+            "net_income_including_noncontrolling_interests": 1,
+            "operating_income": 1,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "capex": 1,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 11,
+            "debt_current": 10,
+            "short_term_borrowings": 17,
+            "debt_total": 17,
+            "free_cash_flow": 1
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "LMT",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:50:22.822551+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 217,
+        "missing_required_source": 149,
+        "derived": 42
+      },
+      "model_usable_cells": 153,
+      "open_flags": [
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted",
+            "shares_outstanding"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "net_income_including_noncontrolling_interests": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "capex": 17,
+            "short_term_investments": 17,
+            "long_term_debt_total": 9,
+            "short_term_borrowings": 17,
+            "debt_total": 17,
+            "shares_outstanding": 9,
+            "free_cash_flow": 17
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    },
+    {
+      "ticker": "RTX",
+      "as_of": "2026-10-22",
+      "retrieved_at": "2026-10-22T05:50:27.308030+00:00",
+      "periods": 17,
+      "cells": {
+        "reported": 220,
+        "missing_required_source": 116,
+        "derived": 72
+      },
+      "model_usable_cells": 166,
+      "open_flags": [
+        {
+          "severity": "high",
+          "period": "annual:2022-12-31",
+          "metric": "operating_income",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0000101829-25-000005"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "period": "annual:2021-12-31",
+          "metric": "operating_income",
+          "code": "source_value_revision_or_conflict",
+          "impact": "Historical comparison or derived quarter requires filing reconciliation.",
+          "source_ids": [
+            "SEC-0000101829-24-000008"
+          ],
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "metric": "long_term_debt_total",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_total",
+          "period_type": "annual",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "long_term_debt_total",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "metric": "debt_total",
+          "period_type": "quarterly",
+          "code": "definition_changed_across_series",
+          "status": "open",
+          "impact": "Use the comparability bridge; a source-tag change has not been reconciled."
+        },
+        {
+          "severity": "high",
+          "code": "share_basis_unverified",
+          "metrics": [
+            "eps_basic",
+            "eps_diluted",
+            "shares_basic",
+            "shares_diluted"
+          ],
+          "impact": "Per-share and share-count histories require a corporate-action review before valuation or cross-period modeling.",
+          "status": "open"
+        },
+        {
+          "severity": "high",
+          "code": "debt_scope_unverified",
+          "metrics": [
+            "debt_current",
+            "debt_noncurrent",
+            "debt_total",
+            "long_term_debt_total"
+          ],
+          "impact": "Debt amounts must be reconciled for lease coverage, complete borrowing scope and carrying value before an enterprise-value bridge.",
+          "status": "open"
+        },
+        {
+          "severity": "medium",
+          "code": "incomplete_selected_metric_coverage",
+          "missing_by_metric": {
+            "net_income_common": 17,
+            "gross_profit": 17,
+            "cost_of_revenue": 17,
+            "eps_basic": 3,
+            "eps_diluted": 3,
+            "shares_basic": 3,
+            "shares_diluted": 3,
+            "operating_cash_flow": 1,
+            "purchases_of_productive_assets": 17,
+            "short_term_investments": 17,
+            "shares_outstanding": 17,
+            "free_cash_flow": 1
+          },
+          "status": "open",
+          "impact": "Missing cells are not zero; source the relevant filing and exact definition before modeling."
+        }
+      ]
+    }
+  ]
+}

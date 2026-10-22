@@ -588,9 +588,70 @@ def normalize_companyfacts(data, company, as_of, source_meta=None, annual_limit=
     return history
 
 
+def validate_calculation(metric, cell, cells, period):
+    """Recompute supported formulas without executing a persisted expression."""
+    if cell['status'] != 'derived' or cell.get('share_basis'):
+        return
+    formula = cell.get('formula', '')
+    inputs = []
+    if metric == 'free_cash_flow':
+        inputs = [cells['operating_cash_flow'], cells['capex']]
+        value = sum(c['value'] for c in inputs if c['value'] is not None)
+    elif metric == 'gross_profit' and formula == 'revenue minus cost_of_revenue':
+        inputs = [cells['revenue'], cells['cost_of_revenue']]
+        value = (inputs[0]['value'] or 0) - (inputs[1]['value'] or 0)
+    elif metric == 'debt_total':
+        keys = (['debt_current', 'debt_noncurrent'] if formula.startswith('current debt +') else
+                ['long_term_debt_total', 'short_term_borrowings'] if formula.startswith('reported total long-term debt +') else [])
+        kb.need(bool(keys), 'unknown debt calculation')
+        inputs = [cells[k] for k in keys]
+        value = sum(c['value'] for c in inputs if c['value'] is not None)
+    else:
+        sources = cell['provenance']
+        kb.need('standalone_quarter_from_cumulative_difference' in cell['flags'] and len(sources) == 2,
+                'unknown derived calculation')
+        current, previous = sources
+        kb.need(metric not in NONADDITIVE and period['type'] == 'quarterly'
+                and current['tag'] == previous['tag'] and current['start'] == previous['start']
+                and current['end'] == period['end'] and next_day(previous['end']) == period['start'],
+                'invalid cumulative quarter inputs')
+        value = current['source_value'] - previous['source_value']
+        if metric in {'capex', 'purchases_of_productive_assets'}:
+            value = -value
+    if inputs:
+        kb.need(all(c['value'] is not None for c in inputs), 'derived calculation has missing inputs')
+        kb.need(not cell['model_usable'] or all(c['model_usable'] for c in inputs), 'derived eligibility exceeds inputs')
+        expected = {json.dumps(s, sort_keys=True) for c in inputs for s in c['provenance']}
+        kb.need({json.dumps(s, sort_keys=True) for s in cell['provenance']} == expected, 'derived provenance differs from inputs')
+    kb.need(math.isclose(cell['value'], value, rel_tol=1e-12, abs_tol=1e-9), 'derived value differs from source calculation')
+
+
+def validate_refresh(previous, candidate):
+    """Fail closed on truncated/empty successful downloads, retaining the checkpoint."""
+    validate_history(candidate)
+    kb.need(bool(candidate['periods']), 'financial response contains no supported periods')
+    if not previous:
+        return
+    kb.need((candidate['cik'], candidate['ticker']) == (previous['cik'], previous['ticker']), 'refresh issuer mismatch')
+    for kind in ('annual', 'quarterly'):
+        old = sorted((p for p in previous['periods'] if p['type'] == kind), key=lambda p: p['end'])
+        new = sorted((p for p in candidate['periods'] if p['type'] == kind), key=lambda p: p['end'])
+        kb.need(len(new) >= len(old) and (not old or new[-1]['end'] >= old[-1]['end']), 'financial response lost periods')
+    new_ids = set(candidate['financials'])
+    for period, cells in previous['financials'].items():
+        if period in new_ids:
+            for metric, cell in cells.items():
+                replacement = candidate['financials'][period][metric]
+                kb.need(cell['value'] is None or replacement['status'] != 'missing_required_source',
+                        'financial response lost a previously available source: ' + period + ':' + metric)
+
+
 def validate_history(history):
     kb.need(history.get("schema_version") == SCHEMA_VERSION, "unsupported financial history schema")
     kb.iso_date(history["as_of"], "as_of", required=True)
+    kb.need(bool(re.fullmatch(r'\d{10}', history['cik'])) and history['company_id'] == 'company-cik-' + history['cik'],
+            'financial history issuer identity mismatch')
+    kb.need(set(history['financials']) == {p['id'] for p in history['periods']}, 'financial period maps differ')
     reviews = eligible_normalization_reviews(history.get("normalization_reviews", []), history["cik"], history["as_of"])
     kb.need(reviews == history.get("normalization_reviews", []), "financial history contains future normalization evidence")
     review_by_id = {r["review_id"]: r for r in reviews}
@@ -598,15 +659,28 @@ def validate_history(history):
     for p in history["periods"]:
         kb.need(p["id"] not in ids, "duplicate normalized period")
         ids.add(p["id"])
+        kb.need(p['type'] in {'annual', 'quarterly'} and p['id'] == p['type'] + ':' + p['end'], 'invalid period identity')
+        kb.need(set(history['financials'][p['id']]) == set(METRICS), 'incomplete metric map')
         kb.need(p["end"] <= history["as_of"] and p["start"] <= p["end"], "invalid normalized period")
         if p["type"] == "quarterly":
             kb.need(60 <= days(p["start"], p["end"]) <= 110, "YTD must not be labeled quarterly")
+        else:
+            kb.need(330 <= days(p['start'], p['end']) <= 400, 'invalid annual duration')
         for metric, cell in history["financials"][p["id"]].items():
             kb.need(metric in METRICS and cell["unit"] == METRICS[metric][0], "metric unit mismatch")
             kb.need(cell["basis"] == "US GAAP", "adjusted and GAAP financials must remain separate")
+            kb.need(cell['status'] in {'reported', 'derived', 'conflicted', 'missing_required_source'}, 'unknown cell status')
+            kb.need((cell['value'] is not None) == (cell['status'] in {'reported', 'derived'}), 'status/value mismatch')
+            blocked = {'share_split_and_corporate_action_basis_unverified', 'debt_scope_requires_filing_review',
+                       'definition_changed_across_series', 'gross_profit_tieout_failed', 'unreconciled_cumulative_revision'}
+            kb.need(type(cell['model_usable']) is bool and (not cell['model_usable'] or
+                    (cell['value'] is not None and not cell['conflicts'] and not blocked.intersection(cell['flags'])
+                     and cell['comparison_status'] == 'comparable')), 'unsafe model eligibility')
             if cell["value"] is not None:
-                kb.need(isinstance(cell["value"], (int, float)) and math.isfinite(cell["value"]), "nonfinite normalized value")
+                kb.need(isinstance(cell["value"], (int, float)) and not isinstance(cell['value'], bool)
+                        and math.isfinite(cell["value"]), "nonfinite normalized value")
                 kb.need(bool(cell["provenance"]), "normalized value has no provenance")
+                validate_calculation(metric, cell, history['financials'][p['id']], p)
             if cell.get("share_basis"):
                 basis = cell["share_basis"]
                 kb.need(basis["review_id"] in review_by_id, "unindexed share normalization review")
@@ -625,11 +699,17 @@ def validate_history(history):
                 kb.need(math.isclose(cell["value"], observation["source_value"] * factor, rel_tol=1e-12, abs_tol=1e-12),
                         "normalized share value does not match its source and split factor")
             for source in cell["provenance"]:
+                kb.need(isinstance(source['source_value'], (int, float)) and not isinstance(source['source_value'], bool)
+                        and math.isfinite(source['source_value']), 'invalid source number')
+                kb.need(source['source_id'] == 'SEC-' + source['accession']
+                        and source['url'] == filing_url(history['cik'], source['accession']), 'source identity mismatch')
                 kb.need(source["source_id"] in history["source_index"], "unindexed source")
                 kb.need(source["filed"] <= history["as_of"] and source["unit"] == cell["unit"], "future source or wrong unit")
                 if cell["status"] == "reported":
                     expected_start = p["start"] if metric in DURATION else None
                     kb.need(source["start"] == expected_start and source["end"] == p["end"], "reported fact does not match the exact period")
+                    expected = -source['source_value'] if metric in {'capex', 'purchases_of_productive_assets'} else source['source_value']
+                    kb.need(cell['value'] == expected, 'reported number differs from source')
             for conflict in cell["conflicts"] + cell.get("resolved_conflicts", []):
                 for source in conflict.get("alternatives", []):
                     kb.need(source["source_id"] in history["source_index"], "unindexed alternative source")
