@@ -41,6 +41,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           STOCK_BRAIN_FD_ENABLED: ${{ vars.STOCK_BRAIN_FD_ENABLED || '0' }}
           STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE: ${{ vars.STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE || '0' }}
+          STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION: ${{ vars.STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION || '0' }}
           STOCK_BRAIN_FD_MAX_DAILY_REQUESTS: ${{ vars.STOCK_BRAIN_FD_MAX_DAILY_REQUESTS || '0' }}
           FINANCIAL_DATASETS_API_KEY: ${{ secrets.FINANCIAL_DATASETS_API_KEY }}
         run: python scripts/coverage_release.py build --tag "$COVERAGE_TAG"

@@ -86,12 +86,22 @@ class ReleaseTests(unittest.TestCase):
                  patch.object(release, 'initialize_coverage', side_effect=lambda root, snapshot, path: CoverageStore(path)):
                 mirror.refresh()
             self.assertEqual(mirror.state['status'], 'ready')
-            self.assertEqual(directory.list_securities(app.coverage)['total'], 13)
+            self.assertEqual(directory.list_securities(app.coverage)['total'], 14)
             paths.append(app.coverage.path)
         self.assertFalse(paths[0].exists())
         self.assertTrue(paths[1].exists())
         self.assertTrue(paths[2].exists())
         self.assertTrue(self.store.path.exists())
+
+    def test_display_license_does_not_allow_public_vendor_database_export(self):
+        key = directory.list_securities(self.store)['items'][0]['listing_key']
+        with self.store._connection(write=True) as db:
+            db.execute('''INSERT INTO market_observations(listing_key,identity_revision,dataset,provider,retrieved_at,as_of,source_json,payload_json,sha256)
+                VALUES (?,1,'prices','financial_datasets',?,?,'{}','{}',?)''', (key, NOW.isoformat(), NOW.isoformat(), 'a' * 64))
+        with patch.dict('os.environ', {'STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE': '1', 'STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION': '0'}):
+            with self.assertRaisesRegex(ValueError, 'separate written permission'):
+                release.package(self.store, self.root / 'restricted', release_tag='coverage-20261022-999-1', execution={})
+        self.assertFalse((self.root / 'restricted').exists())
 
 
 if __name__ == '__main__': unittest.main()

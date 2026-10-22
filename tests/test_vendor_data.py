@@ -28,6 +28,7 @@ class VendorTests(unittest.TestCase):
         directory.import_directories(self.store, fixtures())
         self.security = directory.list_securities(self.store, query='T0')['items'][0]
         self.env = {'STOCK_BRAIN_FD_ENABLED': '1', 'STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE': '1',
+                    'STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION': '1',
                     'STOCK_BRAIN_FD_MAX_DAILY_REQUESTS': '3', 'FINANCIAL_DATASETS_API_KEY': 'synthetic-test-key'}
         self.source = {'url': vendor.API + '/company/facts?ticker=T0', 'sha256': 'a' * 64, 'retrieved_at': NOW.isoformat()}
 

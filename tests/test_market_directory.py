@@ -42,10 +42,10 @@ class DirectoryTests(unittest.TestCase):
         directory.import_directories(self.store, fixtures())
         status = directory.directory_status(self.store)
         self.assertEqual(status['listed_securities'], 15)
-        self.assertEqual(status['equity_candidates'], 13)
+        self.assertEqual(status['equity_candidates'], 14)
         self.assertEqual(status['linked_issuer_count'], 1)
         page = directory.list_securities(self.store)
-        self.assertEqual(page['total'], 13)
+        self.assertEqual(page['total'], 14)
         self.assertNotIn('ETF1', {x['ticker'] for x in page['items']})
         self.assertNotIn('TEST', {x['ticker'] for x in directory.list_securities(self.store, instrument='all')['items']})
         linked = directory.list_securities(self.store, query='T0')['items'][0]
@@ -110,8 +110,8 @@ class DirectoryTests(unittest.TestCase):
         shortened[0]['rows'] = shortened[0]['rows'][:-1]
         directory.import_directories(self.store, shortened)
         self.assertEqual(directory.security_detail(self.store, key)['directory_status'], 'not_in_latest_directory')
-        self.assertEqual(directory.list_securities(self.store, status='all')['total'], 13)
-        self.assertEqual(directory.list_securities(self.store)['total'], 12)
+        self.assertEqual(directory.list_securities(self.store, status='all')['total'], 14)
+        self.assertEqual(directory.list_securities(self.store)['total'], 13)
         directory.import_directories(self.store, initial)
         self.assertEqual(directory.security_detail(self.store, key)['directory_status'], 'present')
         self.assertEqual(directory.security_detail(self.store, key)['identity_revision'], 2)
@@ -134,6 +134,7 @@ class DirectoryTests(unittest.TestCase):
         self.assertEqual(len(result['items']), 2)
         self.assertEqual(serve_market(self.store, '/api/securities', 'q=%25')[1]['total'], 0)
         self.assertEqual(serve_market(self.store, '/api/securities', 'instrument=etf')[1]['total'], 1)
+        self.assertEqual(serve_market(self.store, '/api/securities', 'instrument=preferred')[1]['total'], 1)
         for query in ('limit=101', 'q=x&q=y', 'offset=-1', 'instrument=sql', 'q=%GG', 'exchange=x%27', 'unknown=x'):
             self.assertEqual(serve_market(self.store, '/api/securities', query)[0], '400 Bad Request')
         self.assertEqual(serve_market(self.store, '/api/securities/../../etc/passwd')[0], '404 Not Found')
@@ -146,6 +147,20 @@ class DirectoryTests(unittest.TestCase):
         status = directory.directory_status(self.store)
         self.assertEqual(status['status'], 'stale')
         self.assertEqual(status['sources'][directory.FILES[0]]['file_created_at_local'], '2026-10-22T08:01:00')
+
+    def test_partnership_and_preferred_units_are_stocks_but_packaged_units_are_not(self):
+        cases = {'Alliance Resource Partners L.P. Common Units Representing Limited Partnership Interests': 'partnership_unit',
+                 'Brookfield Renewable Partners L.P. Limited Partnership Units': 'partnership_unit',
+                 'Brookfield Property Partners L.P. Cumulative Redeemable Preferred Units': 'preferred',
+                 'Example Units, each consisting of a preferred share and a warrant': 'unit',
+                 'Example Redeemable Warrants to purchase Common Units': 'warrant'}
+        for name, expected in cases.items():
+            with self.subTest(name=name):
+                self.assertEqual(directory.classify({'ETF': 'N', 'Security Name': name})[0], expected)
+        directory.import_directories(self.store, fixtures())
+        scope = directory.directory_status(self.store)['stock_scope']
+        self.assertEqual(scope['otc'], 'not_collected')
+        self.assertIn('preferred', scope['included_types'])
 
 
 if __name__ == '__main__': unittest.main()

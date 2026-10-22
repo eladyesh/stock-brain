@@ -27,6 +27,7 @@ from coverage_store import CoverageStore, SCHEMA_VERSION, require
 import market_directory
 import runtime_data
 import vendor_data
+import sec_bulk
 
 REPOSITORY = 'eladyesh/stock-brain'
 API = 'https://api.github.com/repos/' + REPOSITORY
@@ -112,6 +113,14 @@ def download_release(release, destination):
 
 def package(store, destination, *, release_tag, execution):
     require(TAG.fullmatch(release_tag) is not None, 'invalid release tag')
+    # This SQLite file is publicly downloadable, not merely an in-app display.
+    # Check retained observations too, including data collected on an older run.
+    with store._connection() as db:
+        restricted = db.execute('SELECT 1 FROM market_observations WHERE provider=? LIMIT 1',
+                                (vendor_data.PROVIDER,)).fetchone()
+        vendor_identity = db.execute("SELECT 1 FROM listing_snapshots WHERE source_url LIKE 'https://api.financialdatasets.ai/%' LIMIT 1").fetchone()
+    require(not (restricted or vendor_identity) or os.environ.get('STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION') == '1',
+            'public vendor bulk export requires a separate written permission; display rights are insufficient')
     out = Path(destination)
     out.mkdir(parents=True, exist_ok=True)
     raw = out / 'coverage.sqlite3'
@@ -140,7 +149,7 @@ def package(store, destination, *, release_tag, execution):
     return manifest
 
 
-def build(root, output, *, tag, use_saved_directories=None):
+def build(root, output, *, tag, use_saved_directories=None, sec_bulk_manifest=None):
     root, output = Path(root), Path(output)
     output.mkdir(parents=True, exist_ok=True)
     database = output / 'working.sqlite3'
@@ -157,14 +166,17 @@ def build(root, output, *, tag, use_saved_directories=None):
     else:
         directories = market_directory.fetch_directories()
     result = market_directory.import_directories(store, directories)
+    bulk = (sec_bulk.ingest_manifest(store, sec_bulk_manifest, root=root) if sec_bulk_manifest else
+            {'status': 'not_configured', 'network_requests': 0})
     copy_pilot_prices(store, checkpoint['files']['desk.json'])
     vendor = vendor_data.collect(store)
     execution = {'event': os.environ.get('GITHUB_EVENT_NAME', 'local'), 'run_id': os.environ.get('GITHUB_RUN_ID'),
                  'scheduled_execution_observed': os.environ.get('GITHUB_EVENT_NAME') == 'schedule',
                  'previous_release': previous['tag_name'] if previous else None,
-                 'source_commit': os.environ.get('GITHUB_SHA'), 'vendor_collection': vendor}
+                 'source_commit': os.environ.get('GITHUB_SHA'), 'vendor_collection': vendor, 'sec_bulk_collection': bulk}
     manifest = package(store, output / 'release', release_tag=tag, execution=execution)
-    return {'import': result, 'vendor_collection': vendor, 'manifest': manifest, 'local_cold_restore': 'pass'}
+    return {'import': result, 'vendor_collection': vendor, 'sec_bulk_collection': bulk,
+            'manifest': manifest, 'local_cold_restore': 'pass'}
 
 
 def copy_pilot_prices(store, snapshot):
@@ -240,6 +252,7 @@ class CoverageMirror:
             self.state = {**self.state, 'status': 'ready', 'release_tag': release['tag_name'],
                           'last_success_at': now, 'last_error': None, 'source_created_at': manifest['created_at'],
                           'collection': manifest['execution'].get('vendor_collection'),
+                          'sec_bulk_collection': manifest['execution'].get('sec_bulk_collection', {'status': 'not_configured'}),
                           'scheduled_execution_observed': manifest['execution'].get('scheduled_execution_observed', False)}
             LOG.info('Loaded verified coverage release %s', release['tag_name'])
         except Exception as error:
@@ -263,9 +276,11 @@ def main(argv=None):
     parser.add_argument('--tag', required=True)
     parser.add_argument('--output', type=Path, default=Path('build/coverage-daily'))
     parser.add_argument('--saved-directories', type=Path)
+    parser.add_argument('--sec-bulk-manifest', type=Path, help='Already acquired local SEC ZIPs; never downloads or bypasses an access denial')
     args = parser.parse_args(argv)
     if args.command == 'build':
-        result = build(Path(__file__).resolve().parents[1], args.output, tag=args.tag, use_saved_directories=args.saved_directories)
+        result = build(Path(__file__).resolve().parents[1], args.output, tag=args.tag,
+                       use_saved_directories=args.saved_directories, sec_bulk_manifest=args.sec_bulk_manifest)
     else:
         result = verify_published(args.tag)
         args.output.mkdir(parents=True, exist_ok=True)

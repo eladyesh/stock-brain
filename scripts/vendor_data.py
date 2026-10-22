@@ -1,7 +1,8 @@
 """Optional, budgeted vendor ingestion. Disabled until operator configuration.
 
 Financial Datasets is a separate contracted source, not a way around an SEC
-access denial. Public release publication requires an explicit data-license flag.
+access denial. Public release publication requires a separate written bulk-export
+grant; a display/redistribution plan alone is insufficient under the vendor terms.
 Vendor financials remain provider-normalized data, outside the reviewed/GAAP and
 TTM answer pipeline until a dedicated accounting adapter passes its evidence gates.
 """
@@ -87,6 +88,7 @@ class FinancialDatasets:
         reason = ('disabled' if env.get('STOCK_BRAIN_FD_ENABLED') != '1' else
                   'api_key_missing' if not env.get('FINANCIAL_DATASETS_API_KEY') else
                   'public_data_license_not_confirmed' if env.get('STOCK_BRAIN_FD_PUBLIC_DATA_LICENSE') != '1' else
+                  'written_bulk_export_permission_missing' if env.get('STOCK_BRAIN_FD_BULK_EXPORT_PERMISSION') != '1' else
                   'daily_request_budget_missing' if not budget else
                   'source_cooldown' if self.store.source_status(PROVIDER)['blocked'] else None)
         return {'provider': PROVIDER, 'ready': reason is None, 'reason': reason, 'daily_request_budget': budget,
@@ -199,11 +201,11 @@ def due_tasks(store, *, limit=1000):
             rows = db.execute('''SELECT s.*, a.attempted_at FROM market_securities s
                 LEFT JOIN market_dataset_attempts a ON a.listing_key=s.listing_key AND a.dataset=?
                 WHERE s.directory_status='present' AND s.is_test=0
-                AND s.instrument_type IN ('common_stock','depositary_receipt','equity_candidate')
+                AND s.instrument_type IN (''' + ','.join('?' for _ in directory.EQUITY_TYPES) + ''')
                 AND (?='profile' OR s.cik IS NOT NULL)
                 AND (a.attempted_at IS NULL OR a.attempted_at<=?)
                 ORDER BY coalesce(a.attempted_at,''),s.ticker LIMIT ?''',
-                (dataset, dataset, _stamp(now - timedelta(hours=hours)), limit)).fetchall()
+                (dataset, *directory.EQUITY_TYPES, dataset, _stamp(now - timedelta(hours=hours)), limit)).fetchall()
             queues[dataset] = [dict(row) for row in rows if dataset == 'profile' or row['cik']]
     result = []
     while any(queues.values()) and len(result) < limit:
@@ -227,8 +229,8 @@ def collect(store, provider=None, *, timeout_seconds=900, reserve=reserve_daily_
             report['stopped_reason'] = 'runtime_budget_exhausted'; break
         status, code = 'success', None
         try:
-            value, source = provider.request(security, dataset)
             report['attempted'] += 1
+            value, source = provider.request(security, dataset)
             validated = save_observation(store, security, dataset, value, source)
             if dataset == 'profile':
                 profile = value['company_facts']
