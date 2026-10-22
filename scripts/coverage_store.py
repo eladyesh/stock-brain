@@ -19,7 +19,7 @@ import uuid
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 4
 MAX_RETRY_SECONDS = 24 * 60 * 60
 ACTIVE_JOB_STATUSES = ('queued', 'running', 'retry')
 JOB_STATUSES = (*ACTIVE_JOB_STATUSES, 'completed', 'failed', 'blocked')
@@ -198,6 +198,38 @@ MIGRATIONS = {1: [
     '''CREATE TABLE source_events (
         id INTEGER PRIMARY KEY, source TEXT NOT NULL REFERENCES source_limits(source),
         event TEXT NOT NULL, observed_at TEXT NOT NULL, details_json TEXT NOT NULL)''',
+], 3: [
+    '''CREATE TABLE market_directory_runs (
+        id INTEGER PRIMARY KEY, imported_at TEXT NOT NULL, sources_json TEXT NOT NULL,
+        row_count INTEGER NOT NULL, summary_json TEXT NOT NULL)''',
+    '''CREATE TABLE market_securities (
+        listing_key TEXT PRIMARY KEY, ticker TEXT NOT NULL, exchange TEXT NOT NULL,
+        security_name TEXT NOT NULL, instrument_type TEXT NOT NULL, classification_basis TEXT NOT NULL,
+        is_test INTEGER NOT NULL, directory_status TEXT NOT NULL, identity_revision INTEGER NOT NULL,
+        cik TEXT REFERENCES issuers(cik), mapping_basis TEXT,
+        source_name TEXT NOT NULL, source_json TEXT NOT NULL, raw_json TEXT NOT NULL,
+        first_seen_at TEXT NOT NULL, last_seen_at TEXT NOT NULL,
+        last_run_id INTEGER NOT NULL REFERENCES market_directory_runs(id))''',
+    '''CREATE INDEX market_securities_search ON market_securities(ticker,exchange)''',
+    '''CREATE INDEX market_securities_type ON market_securities(directory_status,is_test,instrument_type,ticker)''',
+    '''CREATE TABLE market_directory_events (
+        id INTEGER PRIMARY KEY, listing_key TEXT NOT NULL, run_id INTEGER NOT NULL,
+        event TEXT NOT NULL, observed_at TEXT NOT NULL, details_json TEXT NOT NULL)''',
+    '''CREATE TABLE market_observations (
+        id INTEGER PRIMARY KEY, listing_key TEXT NOT NULL REFERENCES market_securities(listing_key),
+        identity_revision INTEGER NOT NULL, dataset TEXT NOT NULL, provider TEXT NOT NULL,
+        retrieved_at TEXT NOT NULL, as_of TEXT NOT NULL, source_json TEXT NOT NULL,
+        payload_json TEXT NOT NULL, sha256 TEXT NOT NULL,
+        UNIQUE(listing_key,identity_revision,dataset,provider,sha256))''',
+    '''CREATE INDEX market_observations_latest ON market_observations(listing_key,identity_revision,dataset,retrieved_at DESC)''',
+    '''CREATE TABLE market_dataset_attempts (
+        listing_key TEXT NOT NULL REFERENCES market_securities(listing_key), dataset TEXT NOT NULL,
+        attempted_at TEXT NOT NULL, status TEXT NOT NULL, error_code TEXT,
+        PRIMARY KEY(listing_key,dataset))''',
+], 4: [
+    '''CREATE TABLE provider_daily_usage (
+        provider TEXT NOT NULL, day TEXT NOT NULL, request_count INTEGER NOT NULL,
+        PRIMARY KEY(provider,day))''',
 ]}
 
 

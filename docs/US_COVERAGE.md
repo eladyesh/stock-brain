@@ -7,8 +7,11 @@ companies without shipping the entire market to each browser. The existing ten
 reviewed profiles remain a separate, small research corpus.
 
 This is a working collection foundation, not a claim of complete market research.
-No market-wide source import or production worker was activated in this release.
-The current service has SEC access paused and an ephemeral filesystem.
+The original foundation did not activate a market-wide source import or worker.
+SEC access remains paused. The subsequent daily exchange-directory and off-host release
+pipeline is described in [Broad market operations](BROAD_MARKET_OPERATIONS.md).
+That single-writer snapshot mode can recover a broad registry on an ephemeral web
+host; the same-host SEC worker mode below still requires a durable shared path.
 
 ## Components and data boundaries
 

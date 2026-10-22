@@ -14,6 +14,8 @@ import threading
 import runtime_data as data
 from coverage_api import serve_coverage
 from coverage_runtime import initialize_coverage
+from market_api import serve_market
+from market_directory import directory_status
 
 LOG = logging.getLogger('stock-brain')
 ASSETS = {'/': ('index.html', 'text/html'), '/app.mjs': ('app.mjs', 'text/javascript'),
@@ -31,6 +33,8 @@ class Application:
         self.cached = {}
         self.answer_slot = threading.BoundedSemaphore(1)
         self.coverage = coverage
+        self.coverage_lock = threading.RLock()
+        self.coverage_mirror = None
         self._load()
 
     def answer(self, environ):
@@ -120,7 +124,15 @@ class Application:
                 filename, mime = ASSETS[path]
                 raw = (self.root / 'site' / filename).read_bytes()
             elif path in {'/api/coverage', '/api/companies'} or path.startswith('/api/companies/'):
-                status, payload = serve_coverage(self.coverage, path, environ.get('QUERY_STRING', ''))
+                with self.coverage_lock:
+                    status, payload = serve_coverage(self.coverage, path, environ.get('QUERY_STRING', ''))
+                    if path == '/api/coverage' and status == '200 OK':
+                        payload['directory'] = directory_status(self.coverage)
+                        payload['replication'] = self.coverage_mirror.state if self.coverage_mirror else {'mode': 'local'}
+                raw = data.encode(payload)
+            elif path == '/api/securities' or path.startswith('/api/securities/'):
+                with self.coverage_lock:
+                    status, payload = serve_market(self.coverage, path, environ.get('QUERY_STRING', ''))
                 raw = data.encode(payload)
             elif path in {'/api/snapshot', '/snapshot.json', '/api/state', '/api/status', '/healthz'}:
                 cached = self._load()
@@ -209,9 +221,13 @@ def main():
     # Validate timezone/time before claiming readiness.
     app.status()
     collector = Collector(app, os.environ.get('STOCK_BRAIN_REFRESH_ON_START', '1') == '1')
+    if os.environ.get('STOCK_BRAIN_COVERAGE_MIRROR', '0') == '1':
+        from coverage_release import CoverageMirror
+        app.coverage_mirror = CoverageMirror(app)
     server = create_server(app, host='0.0.0.0', port=int(os.environ.get('PORT', '10000')),
                            threads=4, connection_limit=100, channel_timeout=30, max_request_body_size=8192)
     if app.scheduler_enabled: collector.thread.start()
+    if app.coverage_mirror: app.coverage_mirror.thread.start()
     def terminate(*_):
         raise SystemExit(0)
     signal.signal(signal.SIGTERM, terminate)
@@ -220,6 +236,7 @@ def main():
         server.run()
     finally:
         if app.scheduler_enabled: collector.stop()
+        if app.coverage_mirror: app.coverage_mirror.stop()
         server.close()
 
 
