@@ -198,14 +198,19 @@ function display(value,origin){
 async function refresh(){
   const token=++loadToken;$('refresh').disabled=true;
   try{
-    if(!data)display(await fetchData('./snapshot.json'),'עותק מצורף');
     try{
-      const remote=await fetchData('https://raw.githubusercontent.com/eladyesh/stock-brain/automation/research-data/desk.json');
+      const remote=await fetchData('./api/snapshot');
       if(token!==loadToken)return;
-      if(Date.parse(remote.built_at)>=Date.parse(data.built_at))display(remote,'מעודכן מהמאגר');
-      else $('data-status').textContent='העותק המצורף חדש מהעדכון במאגר · '+date(data.built_at);
+      display(remote,'נתונים מהשרת');
+      try{
+        const response=await fetch('./api/status',{cache:'no-store',signal:AbortSignal.timeout(5000)});
+        const status=response.ok?await response.json():null;
+        if(token===loadToken&&status?.last_attempt?.status==='failed')$('data-status').textContent+=' · העדכון האחרון נכשל; מוצגים הנתונים שנשמרו';
+      }catch{/* The dated snapshot remains usable when status is unavailable. */}
     }catch{
-      if(token===loadToken)$('data-status').textContent='עותק שמור מ־'+date(data.built_at)+' · לא התקבל עדכון מהמאגר';
+      if(token!==loadToken)return;
+      if(!data)display(await fetchData('./snapshot.json'),'עותק מצורף');
+      if(token===loadToken)$('data-status').textContent='עותק שמור מ־'+date(data.built_at)+' · לא התקבל עדכון מהשרת';
     }
   }catch{
     $('data-status').textContent='הנתונים אינם זמינים';
