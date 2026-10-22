@@ -47,7 +47,9 @@
         ]
       },
       "interpretation_en": "Interpretation: the raised range strengthens the revenue-execution case. It remains a non-GAAP management forecast and does not establish a valuation or future margin.",
-      "interpretation_he": "פרשנות: העלאת הטווח מחזקת את הצפי לביצועי ההכנסות. זו עדיין תחזית הנהלה לפי non-GAAP, והיא אינה קובעת שווי או שיעור רווח עתידי."
+      "interpretation_he": "פרשנות: העלאת הטווח מחזקת את הצפי לביצועי ההכנסות. זו עדיין תחזית הנהלה לפי non-GAAP, והיא אינה קובעת שווי או שיעור רווח עתידי.",
+      "title": "Revenue guidance",
+      "title_he": "תחזית ההכנסות"
     },
     {
       "id": "RTX-T02",
@@ -87,7 +89,9 @@
         ]
       },
       "interpretation_en": "Interpretation: the earnings outlook improved, but the quarter includes a disclosed cost recovery. Treating the entire EPS increase as recurring operating improvement would overstate the evidence.",
-      "interpretation_he": "פרשנות: תחזית הרווח השתפרה, אך הרבעון כולל החזר עלויות שדווח במפורש. ייחוס מלוא העלייה ברווח למניה לשיפור תפעולי חוזר יחרוג מן הראיות."
+      "interpretation_he": "פרשנות: תחזית הרווח השתפרה, אך הרבעון כולל החזר עלויות שדווח במפורש. ייחוס מלוא העלייה ברווח למניה לשיפור תפעולי חוזר יחרוג מן הראיות.",
+      "title": "Adjusted earnings guidance",
+      "title_he": "תחזית הרווח המתואם"
     },
     {
       "id": "RTX-T03",
@@ -127,7 +131,9 @@
         ]
       },
       "interpretation_en": "Interpretation: the cash-recovery thesis now has a higher company target to test. The reported nine-month result is below the annual target; the remaining quarter must still deliver it.",
-      "interpretation_he": "פרשנות: לתזת התאוששות המזומן יש כעת יעד חברה גבוה יותר שאפשר לבחון. התוצאה המדווחת לתשעת החודשים נמוכה מהיעד השנתי; הרבעון הנותר עדיין צריך להשלים אותו."
+      "interpretation_he": "פרשנות: לתזת התאוששות המזומן יש כעת יעד חברה גבוה יותר שאפשר לבחון. התוצאה המדווחת לתשעת החודשים נמוכה מהיעד השנתי; הרבעון הנותר עדיין צריך להשלים אותו.",
+      "title": "Free cash flow guidance",
+      "title_he": "תחזית התזרים החופשי"
     },
     {
       "id": "RTX-T04",
@@ -161,7 +167,9 @@
         ]
       },
       "interpretation_en": "Interpretation: the increase supports defense demand visibility. Undefinitized awards and backlog size alone do not establish final contract economics, shipment dates or cash conversion.",
-      "interpretation_he": "פרשנות: הגידול תומך בנראות הביקוש הביטחוני. חוזים שתנאיהם טרם סוכמו וגודל הצבר לבדם אינם קובעים את כלכלת החוזה הסופית, מועדי המסירה או קצב ההמרה למזומן."
+      "interpretation_he": "פרשנות: הגידול תומך בנראות הביקוש הביטחוני. חוזים שתנאיהם טרם סוכמו וגודל הצבר לבדם אינם קובעים את כלכלת החוזה הסופית, מועדי המסירה או קצב ההמרה למזומן.",
+      "title": "Defense backlog",
+      "title_he": "צבר ההזמנות הביטחוני"
     },
     {
       "id": "RTX-T05",
@@ -195,7 +203,9 @@
         ]
       },
       "interpretation_en": "Interpretation: the new credit loss complicates the improved adjusted-earnings story. The issuer classifies the charge as unusual; recurrence would weaken the case for treating such losses as outside normal economics.",
-      "interpretation_he": "פרשנות: הפסד האשראי החדש מסבך את תמונת השיפור ברווח המתואם. החברה מסווגת את ההוצאה כחריגה; הישנות תחליש את ההצדקה לראות הפסדים כאלה כמחוץ לכלכלה השוטפת."
+      "interpretation_he": "פרשנות: הפסד האשראי החדש מסבך את תמונת השיפור ברווח המתואם. החברה מסווגת את ההוצאה כחריגה; הישנות תחליש את ההצדקה לראות הפסדים כאלה כמחוץ לכלכלה השוטפת.",
+      "title": "Pratt & Whitney customer-credit loss",
+      "title_he": "הפסד אשראי ללקוח ב־Pratt & Whitney"
     },
     {
       "id": "RTX-T06",
@@ -229,7 +239,9 @@
         ]
       },
       "interpretation_en": "Interpretation: cash did not improve in step with headline quarterly earnings. One quarter does not establish structural deterioration, because year-to-date cash improved; the annual cash target and working-capital detail are the next tests.",
-      "interpretation_he": "פרשנות: המזומן לא השתפר במקביל לרווח הרבעוני שבכותרת. רבעון אחד אינו מוכיח הידרדרות מבנית, משום שהתזרים המצטבר השתפר; היעד השנתי ופירוט ההון החוזר הם המבחנים הבאים."
+      "interpretation_he": "פרשנות: המזומן לא השתפר במקביל לרווח הרבעוני שבכותרת. רבעון אחד אינו מוכיח הידרדרות מבנית, משום שהתזרים המצטבר השתפר; היעד השנתי ופירוט ההון החוזר הם המבחנים הבאים.",
+      "title": "Quarterly cash conversion",
+      "title_he": "המרת רווח למזומן ברבעון"
     }
   ],
   "falsifiers": [

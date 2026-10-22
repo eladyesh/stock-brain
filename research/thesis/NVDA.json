@@ -6,8 +6,8 @@
   "reviewer": "Codex AI primary-document review",
   "current_period": "FY2027 Q2",
   "previous_period": "FY2027 Q1",
-  "summary_en": "AI revenue and operating profit expanded again. Longer-term demand durability and margin protection remain the critical tests.",
-  "summary_he": "הכנסות AI והרווח התפעולי התרחבו שוב. עמידות הביקוש והגנת המרווחים לטווח ארוך נותרו המבחנים המרכזיים.",
+  "summary_en": "Revenue and operating profit expanded again. Longer-term demand durability and margin protection remain the critical tests.",
+  "summary_he": "ההכנסות והרווח התפעולי התרחבו שוב. עמידות הביקוש והגנת המרווחים לטווח ארוך נותרו המבחנים המרכזיים.",
   "changes": [
     {
       "id": "ai-revenue",
@@ -40,7 +40,9 @@
       },
       "interpretation_en": "Revenue scale increased again, supporting near-term AI demand. Concentrated customer spending and export access remain risks to later-year growth.",
       "interpretation_he": "ההכנסות גדלו שוב ותומכות בביקוש ל-AI בטווח הקרוב. ריכוז השקעות אצל לקוחות גדולים והגישה לשוקי יצוא עדיין מסכנים את הצמיחה בהמשך.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Revenue growth",
+      "title_he": "צמיחת ההכנסות"
     },
     {
       "id": "operating-scale",
@@ -73,7 +75,9 @@
       },
       "interpretation_en": "Operating earnings grew with revenue. Sustaining this economics requires pricing power, product transitions and supply execution; the scenarios test margin erosion.",
       "interpretation_he": "הרווח התפעולי גדל עם ההכנסות. שימור התוצאה דורש כוח תמחור, מעברי מוצרים וביצוע באספקה; התרחישים בוחנים שחיקת מרווחים.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Operating profitability",
+      "title_he": "רווחיות תפעולית"
     },
     {
       "id": "earnings-quality",
@@ -106,7 +110,9 @@
       },
       "interpretation_en": "Adjusted EPS grew faster sequentially than GAAP EPS. Keep the two accounting bases separate; neither automatically sets future GAAP net margins.",
       "interpretation_he": "הרווח המתואם למניה צמח רבעונית מהר יותר מרווח GAAP. יש להפריד בין בסיסי הדיווח; אף אחד מהם אינו קובע אוטומטית את מרווח ה-GAAP העתידי.",
-      "interpretation_type": "analyst_interpretation"
+      "interpretation_type": "analyst_interpretation",
+      "title": "Earnings quality",
+      "title_he": "איכות הרווח"
     }
   ],
   "falsifiers": [
