@@ -187,7 +187,7 @@ def import_issuers(store, archive, *, limit=1000):
     by_ticker = {}
     for row in rows:
         if row['instrument_type'] in directory.EQUITY_TYPES:
-            by_ticker.setdefault(row['ticker'], []).append(row)
+            by_ticker.setdefault(directory.sec_symbol(row), []).append(row)
     errors = []
     for cik in candidates[:limit]:
         matches = {}
@@ -201,7 +201,10 @@ def import_issuers(store, archive, *, limit=1000):
             require(all(isinstance(item, str) for item in tickers + venues), 'invalid SEC identity field')
             exchanges = {x.upper().replace(' ', '_') for x in venues}
             matches = {row['listing_key']: row for ticker in tickers for row in by_ticker.get(ticker, [])
-                       if row['exchange'] in exchanges and directory._name_matches(row['security_name'], name)}
+                       if directory.sec_venue_matches(row['exchange'], exchanges)
+                       and directory._name_matches(row['security_name'], name)}
+            require(len({(directory.sec_symbol(row), row['exchange']) for row in matches.values()}) == len(matches),
+                    'ambiguous directory aliases for one SEC symbol and venue')
             if not matches:
                 report['skipped'] += 1
             else:
@@ -213,7 +216,7 @@ def import_issuers(store, archive, *, limit=1000):
                         for row in matches.values():
                             db.execute('''UPDATE market_securities SET cik=?,mapping_basis=?
                                 WHERE listing_key=? AND identity_revision=? AND (cik IS NULL OR cik=?)''',
-                                (cik, 'SEC bulk submission matched to directory ticker, venue and name',
+                                (cik, 'SEC submission: equivalent symbol and legal name; SEC venue family and exact directory venue',
                                  row['listing_key'], row['identity_revision'], cik))
                     identity = {'cik': cik, 'name': name, 'tickers': tickers,
                                 'exchanges': venues, 'review_status': 'unreviewed'}

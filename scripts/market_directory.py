@@ -106,8 +106,45 @@ def fetch_directories(*, opener=urlopen):
 
 
 def _name_matches(directory_name, issuer_name):
-    clean = lambda s: re.sub(r'[^a-z0-9]+', ' ', s.casefold()).strip()
-    return clean(directory_name).startswith(clean(issuer_name) + ' ') or clean(directory_name) == clean(issuer_name)
+    """Equivalent legal spelling, followed only by a legal/security suffix.
+
+    This is not fuzzy matching: Holdings, Group and other business-name words
+    remain significant. SEC jurisdiction suffixes such as /DE/ are metadata.
+    Exact ticker/venue evidence is still required by every caller.
+    """
+    legal = {'inc', 'corp', 'co', 'ltd', 'plc', 'llc', 'lp'}
+    synonyms = {'incorporated': 'inc', 'corporation': 'corp', 'company': 'co', 'limited': 'ltd'}
+    def words(value):
+        value = re.sub(r'/[a-z]{2}/?\s*$', '', value.casefold())
+        value = value.replace('&', ' and ').replace("'", '').replace('’', '')
+        result = [synonyms.get(w, w) for w in re.sub(r'[^a-z0-9]+', ' ', value).split()]
+        if result and result[0] == 'the': result = result[1:]
+        return result
+    issuer, listing = words(issuer_name), words(directory_name)
+    while issuer and issuer[-1] in legal | {'the'}: issuer.pop()
+    if not issuer or listing[:len(issuer)] != issuer:
+        return False
+    remainder = listing[len(issuer):]
+    while remainder and remainder[0] in legal | {'the'}: remainder = remainder[1:]
+    if len(remainder) >= 2 and remainder[0] == 'new' and remainder[1] in {'common', 'ordinary'}:
+        remainder = remainder[1:]
+    return not remainder or remainder[0] in {'common', 'ordinary', 'class', 'series', 'american',
+        'depositary', 'depository', 'preferred', 'preference', 'shares', 'units', 'rights', 'warrants'}
+
+
+def sec_symbol(row):
+    """SEC class/preferred separators; the original directory slot is preserved."""
+    ticker = row['ticker']
+    if row['instrument_type'] == 'preferred':
+        ticker = re.sub(r'^([A-Z0-9]+)\$([A-Z0-9]+)$', r'\1-P\2', ticker)
+    return re.sub(r'^([A-Z0-9]+)\.([A-Z])$', r'\1-\2', ticker)
+
+
+def sec_venue_matches(exchange, sec_venues):
+    # SEC identifies NYSE-family listings as NYSE. Nasdaq's directory retains
+    # the specific primary venue; this does not change the listing's exchange.
+    return exchange in sec_venues or ('NYSE' in sec_venues and
+        exchange in {'NYSE_AMERICAN', 'NYSE_ARCA', 'NYSE_TEXAS'})
 
 
 def import_directories(store, directories):

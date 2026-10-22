@@ -67,6 +67,17 @@ class BulkTests(unittest.TestCase):
         bulk.import_issuers(self.store, source)
         self.assertIsNone(self.store.company('123'))
 
+    def test_ambiguous_normalized_symbols_cannot_assign_an_issuer(self):
+        sources = fixtures()
+        for i, symbol in enumerate(('T0.A', 'T0-A')):
+            sources[0]['rows'][i].update(ticker=symbol, security_name='Company 0 - Common Stock')
+            sources[0]['rows'][i]['listing_key'] = bulk.hashlib.sha256(('NASDAQ\n' + symbol).encode()).hexdigest()[:32]
+        directory.import_directories(self.store, sources)
+        source = self.archive('submissions', {'CIK0000000123.json': issuer(ticker='T0-A')})
+        report = bulk.import_issuers(self.store, source)
+        self.assertEqual(report['failed'], 1)
+        self.assertIsNone(self.store.company('123'))
+
     def test_bad_issuer_is_quarantined_and_other_issuers_continue(self):
         source = self.archive('submissions', {'CIK0000000123.json': issuer(999),
             'CIK0000000124.json': issuer(124, 'T1', 'Company 1')})
