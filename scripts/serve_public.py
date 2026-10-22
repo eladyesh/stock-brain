@@ -12,21 +12,25 @@ import sys
 import threading
 
 import runtime_data as data
+from coverage_api import serve_coverage
+from coverage_runtime import initialize_coverage
 
 LOG = logging.getLogger('stock-brain')
 ASSETS = {'/': ('index.html', 'text/html'), '/app.mjs': ('app.mjs', 'text/javascript'),
+          '/models.mjs': ('models.mjs', 'text/javascript'), '/workbench.mjs': ('workbench.mjs', 'text/javascript'),
           '/engine.mjs': ('engine.mjs', 'text/javascript'), '/style.css': ('style.css', 'text/css'),
           '/favicon.svg': ('favicon.svg', 'image/svg+xml')}
 
 
 class Application:
-    def __init__(self, root, store, zone='Asia/Jerusalem', clock='08:30', scheduler_enabled=True):
+    def __init__(self, root, store, zone='Asia/Jerusalem', clock='08:30', scheduler_enabled=True, coverage=None):
         self.root, self.store = Path(root), store
         self.zone, self.clock, self.scheduler_enabled = zone, clock, scheduler_enabled
         self.lock = threading.Lock()
         self.signature = None
         self.cached = {}
         self.answer_slot = threading.BoundedSemaphore(1)
+        self.coverage = coverage
         self._load()
 
     def answer(self, environ):
@@ -115,6 +119,9 @@ class Application:
             elif path in ASSETS:
                 filename, mime = ASSETS[path]
                 raw = (self.root / 'site' / filename).read_bytes()
+            elif path in {'/api/coverage', '/api/companies'} or path.startswith('/api/companies/'):
+                status, payload = serve_coverage(self.coverage, path, environ.get('QUERY_STRING', ''))
+                raw = data.encode(payload)
             elif path in {'/api/snapshot', '/snapshot.json', '/api/state', '/api/status', '/healthz'}:
                 cached = self._load()
                 if path == '/healthz':
@@ -194,9 +201,11 @@ def main():
     store = data.StateStore(os.environ.get('STOCK_BRAIN_STATE_DIR', str(root / 'build/runtime')))
     subprocess.run(['node', '--version'], check=True, timeout=5, capture_output=True)
     data.initialize(root, store, bootstrap=os.environ.get('STOCK_BRAIN_BOOTSTRAP_GITHUB', '0') == '1')
+    coverage = initialize_coverage(root, store.read()['files']['desk.json'],
+        Path(os.environ.get('STOCK_BRAIN_COVERAGE_DB', str(store.directory / 'coverage.sqlite3'))))
     app = Application(root, store, os.environ.get('STOCK_BRAIN_TIMEZONE', 'Asia/Jerusalem'),
                       os.environ.get('STOCK_BRAIN_REFRESH_TIME', '08:30'),
-                      os.environ.get('STOCK_BRAIN_REFRESH_ENABLED', '1') == '1')
+                      os.environ.get('STOCK_BRAIN_REFRESH_ENABLED', '1') == '1', coverage=coverage)
     # Validate timezone/time before claiming readiness.
     app.status()
     collector = Collector(app, os.environ.get('STOCK_BRAIN_REFRESH_ON_START', '1') == '1')

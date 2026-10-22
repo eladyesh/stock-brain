@@ -95,7 +95,58 @@ function askReviewed(question,data) {
   if(spec.comparison&&entities.some(t=>!statements.some(s=>s.ticker===t)))return fail('incomplete_comparison');
   return {abstain:false,statements,companies,language:he?'he':'en'};
 }
+export function askThesisChange(question,data){
+  const q=normalize(question),he=/[א-ת]/.test(question);
+  const thesisWords=/thes[ie]s|investment (?:case|view)|תז[הת]/.test(q);
+  const changeWords=/chang|different|before.*after|השתנ|שינוי|התחדש|משנה/.test(q);
+  const reportWords=/\breports?\b|\bearnings\b|דוח|דוחות/.test(q);
+  const comparisonWords=/previous|prior|last|before|after|קודם|קודמו|האחרון|בין/.test(q);
+  if(!(thesisWords&&changeWords)&&!(reportWords&&changeWords&&comparisonWords)&&!/מאז הדוח הקודם/.test(q))return null;
+  const fail=(code,reason)=>({abstain:true,reason_code:code,reason,statements:[],companies:[]});
+  if(!question.trim()||question.length>4000)return fail('invalid_question',he?'השאלה אינה תקינה.':'Invalid question.');
+  for(const rule of data.config.unsupported)if(new RegExp(rule.pattern,'i').test(q))return fail(rule.code,he?'השאלה כוללת בקשה שאינה נתמכת במחקר.':'The question includes an unsupported request.');
+  const entities=Object.entries(data.config.issuer_aliases).filter(([ticker,names])=>[ticker,...names].some(n=>match(q,n))).map(([ticker])=>ticker);
+  if(entities.length!==1)return fail('missing_scope',he?'בחר חברה אחת להשוואת התזה בין שני דוחות.':'Select one company for a comparison between two reports.');
+  const unknown=[...question.matchAll(/\$([A-Za-z][A-Za-z0-9.-]*)\b/g)].some(m=>!Object.keys(data.config.issuer_aliases).includes(m[1].toUpperCase()));
+  const company=data.companies.find(c=>c.ticker===entities[0]),thesis=company?.thesis;
+  if(!thesis?.changes?.length)return fail('thesis_comparison_missing',he?'אין כרגע השוואת תזה עם מקורות לשני הדוחות של החברה. קטע מחקר כללי אינו מספיק כדי לקבוע מה השתנה.':'No source-backed comparison of both reports is available for this company. A general research excerpt does not establish what changed.');
+  // Report names are not requests for a net-income metric. Never reuse an
+  // available comparison for a different explicitly requested historical pair.
+  const spec=parseQuestion(question.replace(/earnings/gi,'report'),data);
+  const described=thesis.comparison_periods||[thesis.previous_period,thesis.current_period].map(label=>{
+    const y=String(label).match(/(?:FY)?(20\d{2})/i),quarter=String(label).match(/Q([1-4])/i);
+    return {fiscal_year:y?+y[1]:null,fiscal_quarter:quarter?+quarter[1]:null};
+  });
+  const exactPair=spec.quarters.length===2&&spec.years.length>0&&described.length===2&&described.every(p=>spec.years.includes(p.fiscal_year)&&spec.quarters.includes(p.fiscal_quarter))&&spec.years.every(y=>described.some(p=>p.fiscal_year===y))&&!spec.calendar;
+  const unsupportedPeriod=spec.periodError||((spec.years.length||spec.quarters.length)&&!exactPair);
+  const unsupportedPremise=/now that|given that|assuming|suppose|hypothetical|נניח|בהנחה|לאחר שכבר|אחרי שכבר/.test(q);
+  const acronyms=new Set([...Object.keys(data.config.issuer_aliases),...data.config.non_ticker_acronyms,'FY','AI','ROIC','ROE','ROA','FCF','OCF','SBC']);
+  const unknownAcronym=[...question.matchAll(/\b[A-Z]{2,5}\b/g)].some(m=>!acronyms.has(m[0]));
+  if(unknown||unknownAcronym||spec.error||unsupportedPeriod||spec.metrics.length||unsupportedPremise||/(?:today|right now|היום|כרגע)/.test(q))return fail('unsupported_qualifier',he?'השוואת התזה זמינה רק לדוחות שמפורטים בכרטיס החברה. לא אומתה ההנחה, התקופה או התוספת שביקשת.':'This thesis comparison covers only the reports shown on the company card. The requested premise, period or additional qualifier is not verified.');
+  const statements=[];
+  for(const change of thesis.changes){
+    const refs=new Map();
+    for(const side of ['before','after']){
+      const item=change[side],ids=item?.source_ids||(item?.source_id?[item.source_id]:[]);
+      if(!item?.[he?'text_he':'text_en']||!ids.length)return fail('thesis_comparison_missing',he?'חסר מקור לאחד מצדי ההשוואה.':'A source is missing for one side of the comparison.');
+      for(const id of ids){
+        const source=thesis.sources.find(s=>s.id===id),locator=item.locator||(Array.isArray(item.locators)?item.locators.join('; '):JSON.stringify(item.locators));
+        if(!source?.url?.startsWith('https://')||!locator)return fail('thesis_comparison_missing',he?'חסר מקור לאחד מצדי ההשוואה.':'A source is missing for one side of the comparison.');
+        const old=refs.get(id);refs.set(id,{...source,locator:old?old.locator+'; '+locator:locator});
+      }
+    }
+    const interpretation=change[he?'interpretation_he':'interpretation_en'];
+    if(!interpretation)return fail('thesis_comparison_missing',he?'השוואת התזה טרם הושלמה.':'The thesis comparison is incomplete.');
+    const text=he?'לפני: '+change.before.text_he+'\nאחרי: '+change.after.text_he+'\nמשמעות לתזה (פרשנות): '+interpretation:'Before: '+change.before.text_en+'\nAfter: '+change.after.text_en+'\nThesis implication (interpretation): '+interpretation;
+    statements.push({id:'THESIS:'+change.id,ticker:company.ticker,section:'thesis-change',text,kind:'interpretation',as_of:thesis.as_of,sources:[...refs.values()],comparison:change});
+  }
+  return {abstain:false,mode:'thesis_change',statements,companies:[company],language:he?'he':'en',
+    availability_note:he?'השוואה: '+thesis.previous_period+' → '+thesis.current_period+'; נבדקה ב־'+thesis.as_of+'. דיווחים נוספים עשויים להמתין לסקירה.':'Comparison: '+thesis.previous_period+' → '+thesis.current_period+'; reviewed as of '+thesis.as_of+'. Additional disclosures may await review.'};
+}
+
 export function ask(question,data){
+  const thesis=askThesisChange(question,data);
+  if(thesis)return thesis;
   const available = /\blatest available (?:fiscal )?(quarter|year)\b|(?:ברבעון|הרבעון) האחרון (?:הזמין )?במאגר|(?:בשנת|שנת) הכספים האחרונה (?:הזמינה )?במאגר/iu;
   const selected = question.match(available);
   if(selected){

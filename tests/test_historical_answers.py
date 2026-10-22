@@ -30,7 +30,10 @@ class HistoricalAnswerTests(unittest.TestCase):
                 row = result['statements'][0]
                 self.assertEqual((row['ticker'], row['value'], row['period_start'], row['period_end']),
                                  (case['ticker'], case['value'], case['start'], case['end']))
-                self.assertTrue(all(s['url'].startswith('https://www.sec.gov/Archives/') for s in result['sources']))
+                self.assertTrue(any(s['url'].startswith('https://www.sec.gov/Archives/') for s in result['sources']))
+                self.assertTrue(all(s['url'].startswith('https://') for s in result['sources']))
+                if case.get('review_source_id'):
+                    self.assertTrue(any(s['id'] == case['ticker'] + ':' + case['review_source_id'] for s in result['sources']))
                 self.assertIn('us-gaap:', row['citations'][0]['locator'])
 
     def test_history_answer_rejects_mutated_value_period_text_and_source(self):

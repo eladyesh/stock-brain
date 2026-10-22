@@ -28,7 +28,7 @@
   "coverage_notes": {
     "MU": "Public Q4 JSON list used by the issuer news page; verified locally on 2026-10-18. Its former Drupal RSS endpoint returns 404.",
     "AVAV": "Official issuer RSS verified locally on 2026-10-18; rolling feed coverage is not an exhaustive announcement archive.",
-    "ORCL": "RSS is documented at https://www.oracle.com/corporate/rss/ and readable via web retrieval; local fetch on 2026-10-18 returned Site Unavailable HTML. This remains an explicit source-access error until a permitted host retrieves valid RSS.",
+    "ORCL": "RSS is documented at https://www.oracle.com/corporate/rss/. A direct local fetch on 2026-10-22 returned HTTP 200 text/html with Site Unavailable instead of RSS. The source remains an explicit access error; an HTTP success code does not establish announcement coverage.",
     "PLTR": "Public Q4 JSON list used by the issuer's own news-page JavaScript; verified locally on 2026-10-18. HTML app shells are not accepted as empty feeds."
   }
 }

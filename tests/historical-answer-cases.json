@@ -19,7 +19,7 @@
   {"question":"What was MSFT revenue and EBITDA in FY2024?","abstain":true},
   {"question":"What was MSFT adjusted revenue in FY2024?","abstain":true},
   {"question":"What was MSFT revenue excluding Azure in FY2024?","abstain":true},
-  {"question":"What was MSFT diluted EPS in FY2024?","abstain":true,"reason":"data_quality_unverified"},
+  {"question":"What was MSFT diluted EPS in FY2024?","ticker":"MSFT","value":11.8,"start":"2023-07-01","end":"2024-06-30","review_source_id":"MSFT-FY2026-SCOPE-REVIEW"},
   {"question":"Compare MSFT and NVDA revenue in FY2035","abstain":true},
   {"question":"What was MSFT revenue in calendar Q1 2035?","abstain":true},
   {"question":"What was PLTR revenue in July 2024?","abstain":true},

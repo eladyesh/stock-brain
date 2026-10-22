@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "ticker": "MSFT",
+  "as_of": "2026-10-22",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI source review",
+  "source_posture": "Primary issuer releases independently read; historical SEC observation gates remain authoritative.",
+  "model_type": "illustrative_company_scenarios",
+  "forecast_years": [
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "assumption_label": "Analyst assumptions, not issuer forecasts or consensus estimates",
+  "assumption_label_he": "הנחות ניתוח להמחשה; אינן תחזיות הנהלה או קונצנזוס",
+  "valuation_date": "2030-06-30",
+  "valuation_date_basis": "Analyst planning date near FY2030 end; not a confirmed future issuer reporting or share-sale date.",
+  "base": {
+    "period": {
+      "id": "annual:2026-06-30",
+      "label": "FY2026",
+      "type": "annual",
+      "fiscal_year": 2026,
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    },
+    "revenue": 331839000000.0,
+    "net_income": 133749000000.0,
+    "free_cash_flow": 66987000000.0,
+    "shares_diluted": 7453000000.0,
+    "reported_eps": 17.95,
+    "operating_cash_flow": 182935000000.0,
+    "cash_capex": 115948000000.0,
+    "currency": "USD",
+    "monetary_unit": "USD",
+    "share_unit": "shares",
+    "accounting_basis": "US GAAP",
+    "shares_basis": "annual_weighted_average_diluted_common_shares",
+    "shares_note": "This is an annual EPS denominator, not current or period-end shares outstanding. Future share changes are assumptions about each annual diluted denominator.",
+    "fcf_definition": "Operating cash flow minus gross cash purchases of property, plant and equipment; excludes intangibles, asset-sale proceeds, incentives, noncash capex and finance-lease principal.",
+    "provenance": {
+      "revenue": {
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 revenue column, USD millions",
+        "evidence_label": "source_reported"
+      },
+      "net_income": {
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 GAAP net income column, USD millions",
+        "evidence_label": "source_reported"
+      },
+      "reported_eps": {
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 GAAP diluted earnings per share",
+        "evidence_label": "source_reported"
+      },
+      "shares_diluted": {
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locator": "Annual income statement, FY2026 weighted-average diluted shares, millions",
+        "evidence_label": "source_reported"
+      },
+      "free_cash_flow": {
+        "source_ids": [
+          "MSFT-FY26-Q4"
+        ],
+        "locator": "Annual cash-flow statement, FY2026 operating cash flow less gross cash PP&E additions, USD millions",
+        "evidence_label": "analyst_calculated_from_reported",
+        "formula": "182935m operating cash flow - 115948m gross cash PP&E = 66987m"
+      }
+    }
+  },
+  "context": [
+    {
+      "label": "Reported context",
+      "text": "FY2026 Q4 Azure growth was 43%; annual GAAP EPS included investment effects. These observations anchor risks, not future growth rates.",
+      "source_ids": [
+        "MSFT-FY26-Q4"
+      ],
+      "locator": "Business Highlights; fiscal-year GAAP/non-GAAP reconciliation",
+      "evidence_label": "source_reported_context"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "bear",
+      "label": "Bear",
+      "label_he": "דובי",
+      "assumption_type": "analyst_assumption",
+      "rationale": "AI capacity spending outpaces monetization; depreciation and power costs compress margins, and stock compensation exceeds repurchases. Slower cloud growth and a lower multiple reinforce downside.",
+      "rationale_he": "ההשקעה בתשתיות AI מקדימה את ההכנסות; פחת ועלויות חשמל לוחצים על הרווחיות, והדילול עולה על הרכישות העצמיות. האטה בענן וירידת מכפיל מצטרפות לתרחיש השלילי.",
+      "exit_pe": 20,
+      "exit_multiple_rationale": "A lower earnings multiple reflects weaker durability and higher risk.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 0.1,
+          "net_margin": 0.35,
+          "fcf_margin": 0.16,
+          "share_change": 0.003
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": 0.08,
+          "net_margin": 0.33,
+          "fcf_margin": 0.15,
+          "share_change": 0.003
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": 0.06,
+          "net_margin": 0.32,
+          "fcf_margin": 0.17,
+          "share_change": 0.003
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.05,
+          "net_margin": 0.31,
+          "fcf_margin": 0.18,
+          "share_change": 0.003
+        }
+      ]
+    },
+    {
+      "id": "base",
+      "label": "Base",
+      "label_he": "בסיס",
+      "assumption_type": "analyst_assumption",
+      "rationale": "Azure and enterprise AI support growth that gradually moderates. Cash conversion recovers as new capacity is utilized. Future margins do not extrapolate the annual investment-gain benefit; modest net repurchases reduce the diluted denominator.",
+      "rationale_he": "Azure ויישומי AI לארגונים תומכים בצמיחה שמתמתנת בהדרגה. ניצול הקיבולת החדשה משפר את התזרים. המרווחים אינם משכפלים את רווחי ההשקעות של שנת הבסיס, ורכישות עצמיות מצמצמות מעט את הדילול.",
+      "exit_pe": 28,
+      "exit_multiple_rationale": "A selected mid-case earnings multiple, not a market consensus or peer-derived target.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 0.18,
+          "net_margin": 0.38,
+          "fcf_margin": 0.22,
+          "share_change": -0.005
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": 0.16,
+          "net_margin": 0.39,
+          "fcf_margin": 0.24,
+          "share_change": -0.005
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": 0.14,
+          "net_margin": 0.4,
+          "fcf_margin": 0.26,
+          "share_change": -0.005
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.12,
+          "net_margin": 0.4,
+          "fcf_margin": 0.28,
+          "share_change": -0.005
+        }
+      ]
+    },
+    {
+      "id": "bull",
+      "label": "Bull",
+      "label_he": "שורי",
+      "assumption_type": "analyst_assumption",
+      "rationale": "Copilot adoption and Azure utilization keep growth high while operating leverage and improving cash capex intensity lift margins. This requires demonstrable monetization of AI investment and supports the assumed premium multiple.",
+      "rationale_he": "אימוץ Copilot וניצול Azure שומרים על צמיחה גבוהה. יתרון הגודל וירידה בעצימות ההשקעה במזומן משפרים מרווחים. נדרשת הוכחה שהשקעות AI מניבות הכנסות ותזרים כדי להצדיק את המכפיל.",
+      "exit_pe": 34,
+      "exit_multiple_rationale": "A premium earnings multiple requires durable growth and cash conversion.",
+      "years": [
+        {
+          "fiscal_year": 2027,
+          "revenue_growth": 0.22,
+          "net_margin": 0.4,
+          "fcf_margin": 0.24,
+          "share_change": -0.008
+        },
+        {
+          "fiscal_year": 2028,
+          "revenue_growth": 0.2,
+          "net_margin": 0.41,
+          "fcf_margin": 0.27,
+          "share_change": -0.008
+        },
+        {
+          "fiscal_year": 2029,
+          "revenue_growth": 0.18,
+          "net_margin": 0.42,
+          "fcf_margin": 0.3,
+          "share_change": -0.008
+        },
+        {
+          "fiscal_year": 2030,
+          "revenue_growth": 0.15,
+          "net_margin": 0.43,
+          "fcf_margin": 0.32,
+          "share_change": -0.008
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "MSFT-FY26-Q4",
+      "title": "Microsoft FY2026 Q4 and full-year earnings release",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "date": "2026-07-29",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review",
+      "download_sha256": "6a5ec483eac3ab2542aac55b22e31fd9aaad7662f0e0a9bfa034901ce0b49019"
+    },
+    {
+      "id": "MSFT-FY26-Q3",
+      "title": "Microsoft FY2026 Q3 earnings release",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "date": "2026-04-29",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review",
+      "download_sha256": "b7c5137c2742be191adbc86cba65b807d7708959e925cdbae363fb8fcdd5db31"
+    }
+  ],
+  "readiness": {
+    "status": "illustrative",
+    "reasons": [
+      "Historical and quote gates are evaluated at build time."
+    ],
+    "per_share_ready": false,
+    "price_ready": false
+  },
+  "limitations": [
+    "Scenario paths, margins, share changes and exit P/E are analyst assumptions without probability weights; the range is not a confidence interval.",
+    "Future earnings are calculated as revenue times an assumed GAAP-style net margin; no detailed tax, investment-gain or stock-compensation bridge is forecast.",
+    "Future FCF is revenue times an assumed strict cash-PP&E FCF margin, not a fully balanced cash-flow forecast or discounted cash-flow valuation.",
+    "Price-only annualized return uses the actual interval from the displayed quote date to the assumed exit date. It excludes dividends, taxes, fees and currency effects.",
+    "No enterprise-value/debt bridge is used. Weighted-average diluted shares cannot be used as current shares outstanding for market capitalization.",
+    "Numerical validation does not establish forecast reliability. Inputs require review after each material release or corporate action."
+  ]
+}

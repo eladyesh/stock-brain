@@ -14,4 +14,4 @@ Profiles: **3**. Reviewed: **3**.
 | --- | --- | --- | --- |
 | [AVAV](companies/AVAV/README.md) | AeroVironment, Inc. | reviewed | 2026-10-18 |
 | [LMT](companies/LMT/README.md) | Lockheed Martin Corporation | reviewed | 2026-10-18 |
-| [RTX](companies/RTX/README.md) | RTX Corporation | reviewed | 2026-10-18 |
+| [RTX](companies/RTX/README.md) | RTX Corporation | reviewed | 2026-10-20 |

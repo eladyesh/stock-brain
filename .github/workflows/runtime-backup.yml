@@ -31,3 +31,11 @@ jobs:
         env:
           STOCK_BRAIN_URL: ${{ vars.STOCK_BRAIN_URL || 'https://finlotus-1.onrender.com' }}
         run: python scripts/verify_runtime.py
+      - name: Preserve dated verification evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: runtime-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: build/runtime-verification.json
+          if-no-files-found: warn
+          retention-days: 30

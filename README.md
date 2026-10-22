@@ -4,7 +4,7 @@ A structured, source-backed knowledge base for U.S.-listed stocks, with canonica
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-19):** ten hash-bound AI-reviewed company profiles with 179 claims and Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with history, comparisons, assumption-driven scenarios and disclosure triage. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit. Oracle announcement access remains blocked in this runtime.
+**Current state (2026-10-22):** ten hash-bound AI-reviewed company profiles with Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with strict TTM comparisons, issuer-specific scenario models, cited thesis changes and disclosure triage. A separate CIK-based registry, leased job queue and restartable collection cycle provide the code foundation for expanding U.S.-listed coverage. This does not mean the market has already been collected or reviewed. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit.
 
 **Standalone research app:** `site/` is served by the public Python application in `scripts/serve_public.py`. Collection runs on the server; GitHub Actions backs up validated checkpoints to `automation/research-data`. No ChatGPT account, Sites deployment, model API key, or paid data subscription is required. See [standalone deployment](docs/STANDALONE.md), [desk behavior](docs/DESK.md), and [financial definitions](docs/FINANCIAL_HISTORY.md). The ChatGPT daily task has been disabled. The legacy GitHub disclosure collector remains paused because of source-access failures.
 
@@ -21,6 +21,8 @@ The Markdown files are the source of truth. Every company uses the same sections
 | [Exact numerical answers](docs/EXACT_ANSWERS.md) | Calendar/fiscal period matching and sourced historical lookup |
 | [Hosted research desk](docs/DESK.md) | Financial history, comparisons, scenario assumptions and build instructions |
 | [Standalone application](docs/STANDALONE.md) | Public server, scheduled collection, backup and recovery |
+| [U.S. coverage infrastructure](docs/US_COVERAGE.md) | Company discovery, durable jobs, incremental collection, source gates and activation |
+| [Company scenario models](docs/MODELS.md) | Explicit FY2027–FY2030 assumptions and reverse valuation |
 | [Ongoing maintenance](docs/MAINTENANCE.md) | Daily discovery, durable queue, review cadence and scan health |
 | [RAG design](docs/RAG.md) | Chunk export and the future retrieval layer |
 | [Research pipeline](docs/PIPELINE.md) | Collect, draft, review, and update in small batches |
@@ -118,4 +120,4 @@ Open `http://127.0.0.1:8765`. No model API key is needed for lookup, discovery, 
 
 ## Next priorities
 
-Both critical AMD/NVDA updates are integrated. Resolve the remaining substantive disclosure backlog and 77 financial QA flags before expanding the universe. See [financial remediation](docs/FINANCIAL_REMEDIATION.md) for exact source tasks. Deepen issuer-specific moat, customer concentration, management incentives and measurable thesis-breaker work. Add independent human review and holdout questions. Consensus, forward valuation and a general language-model assistant remain separate future capabilities; scenario calculations do not supply them.
+Activate the [coverage infrastructure](docs/US_COVERAGE.md) after legitimate source access, durable storage and off-host backup are verified. Expand in measured batches, reconcile the eligible exchange/security universe, and add adapters for unsupported filing forms and sector-specific accounting. Keep automatic data coverage distinct from dated reviewed research. Resolve the remaining substantive disclosure backlog and 75 financial QA flags through exact source evidence; see [financial remediation](docs/FINANCIAL_REMEDIATION.md). General narrative generation, independent human review and licensed consensus data remain separate capabilities.

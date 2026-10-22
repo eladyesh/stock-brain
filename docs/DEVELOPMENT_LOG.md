@@ -1,5 +1,52 @@
 # Stock Brain development log
 
+## 2026-10-22 — automated coverage foundation and research workbench
+
+The user clarified that the main objective is code infrastructure for future
+coverage of U.S.-listed companies. This release separates a broad issuer registry
+and incremental collection pipeline from the small reviewed research corpus.
+
+- Added stable CIK issuer identity, separate listing/share-class history, validated
+  source imports, versioned per-company payloads and a leased transactional job
+  queue. Registry reads are paginated and do not load financial payload bodies.
+- Added a bounded SEC worker and explicit continuous cycle with shared request
+  pacing/cooldowns, fair scheduling, resume after restart, incremental accession
+  checks and unreviewed source-linked numerical change drafts. Startup uses CAS
+  so seeding cannot overwrite a newer concurrent collection.
+- Added read-only company APIs, a registry UI and consistent SQLite local
+  backup/restore with an integrity/hash manifest. The broad store is separate from
+  the existing four-file GitHub backup. No new hosting resource was provisioned.
+- Added strict four-quarter TTM comparisons, MSFT/MU/NVDA FY2027–FY2030 illustrative
+  models, source-bound before/after thesis comparisons, personal browser notes
+  and saved assumptions, and queue grouping without changing document obligations.
+- Updated RTX from its Q2 and Q3 official releases with evidence-bound AI review.
+  The release is covered; the separate SEC 10-Q/8-K remain pending. Actual backup
+  restoration into this release retained 216 queue items and re-triaged them to
+  205 pending, including two P0 items. This rebuild is not a new source scan.
+- Exact MSFT/MU/NVDA share/debt reviews made 84 more cells usable and resolved two
+  NVDA split conflicts: 1,905 usable cells and 75 open QA flags. NVDA strict FCF
+  remains unavailable; issuer-defined FCF stays separately labelled.
+- Source health now distinguishes SEC from issuer checks and preserves the last
+  successful timestamp across failures. Backup verification records workflow
+  trigger type and a dated artifact; a manual run does not prove cron delivery.
+
+Local validation passed: **249 Python tests**, **173 JavaScript/DOM tests**,
+10-profile evidence/review audit, 172-chunk export, 20 retrieval baseline cases,
+50 frozen bilingual retrieval cases and 50 answer-evidence cases. The JavaScript
+suite includes 35 independently selected workbench questions. Coverage testing
+includes a 50,000-synthetic-issuer paging fixture, independent concurrency
+regressions, restart progression and local backup/restore. These are not real
+market coverage or production throughput claims. A cloud-browser preview could
+not be completed because its URL authority check rejected the tab; DOM behavior
+and real WSGI/Node routes were tested locally.
+
+Production remains on the preceding release until an explicit Render deployment.
+No SEC access was re-enabled and no market-wide import or continuous worker was
+started. Activation needs legitimate source access, a durable shared database
+path and off-host recovery. Universe/security-type reconciliation, foreign filing
+adapters, evidence-bound narrative automation and retention/capacity work are
+documented in [U.S. coverage infrastructure](US_COVERAGE.md).
+
 ## 2026-10-22 — reliable collection and server-side answers
 
 ### Authorized scope

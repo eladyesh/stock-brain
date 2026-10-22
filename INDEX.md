@@ -37,7 +37,7 @@ Profiles: **10**. Reviewed: **10**. Counts describe this repository, not the ent
 | [NVDA](sectors/information-technology/companies/NVDA/README.md) | NVIDIA Corporation | reviewed | 2026-10-18 |
 | [ORCL](sectors/information-technology/companies/ORCL/README.md) | Oracle Corporation | reviewed | 2026-10-18 |
 | [PLTR](sectors/information-technology/companies/PLTR/README.md) | Palantir Technologies Inc. | reviewed | 2026-10-18 |
-| [RTX](sectors/industrials/companies/RTX/README.md) | RTX Corporation | reviewed | 2026-10-18 |
+| [RTX](sectors/industrials/companies/RTX/README.md) | RTX Corporation | reviewed | 2026-10-20 |
 
 ## Cross-sector themes
 

@@ -142,10 +142,12 @@ def issuer_sources(config, ticker, since, cutoff):
     return result
 
 
-def discover_sec(company, packet, fetcher, cutoff, since=None):
+def discover_sec(company, packet, fetcher, cutoff, since=None, receipt=None):
     since = since or packet['as_of']
     url = f"https://data.sec.gov/submissions/CIK{company['cik']}.json"
-    raw, _ = fetcher.fetch(url, refresh=True)
+    raw, meta = fetcher.fetch(url, refresh=True)
+    if receipt is not None and meta.get('fetched_at'):
+        receipt['retrieved_at'] = meta['fetched_at']
     data = json.loads(raw)
     kb.need(str(data.get('cik', '')).zfill(10) == company['cik'], 'SEC issuer identity mismatch')
     recent = data.get('filings', {}).get('recent')
@@ -209,6 +211,29 @@ def reconciled_queue(old, found, packets, reviewed, checked_at, dispositions=Non
     return sorted(queue.values(), key=lambda e: (e.get('published_at') or '', e['ticker'], e['id']), reverse=True)
 
 
+def dated_checks(checks, previous, checked_at):
+    """A failed attempt must not renew a source's successful-check timestamp."""
+    prior = {(c.get('kind'), c.get('source')): c for c in previous.get('source_checks', [])}
+    for check in checks:
+        old = prior.get((check['kind'], check['source']), {})
+        check['attempted_at'] = checked_at
+        last_success = old.get('last_successful_check_at')
+        if not last_success and old.get('status') == 'checked':
+            last_success = old.get('attempted_at') or previous.get('checked_at')
+        check['last_successful_check_at'] = checked_at if check['status'] == 'checked' else last_success
+        # A valid but incomplete feed was retrieved; it still does not establish coverage.
+        check['last_retrieved_at'] = check.get('retrieved_at') or old.get('last_retrieved_at') or old.get('retrieved_at')
+    return checks
+
+
+def source_coverage(checks):
+    if not checks:
+        return 'unconfigured'
+    if any(c['status'] == 'error' for c in checks):
+        return 'error'
+    return 'checked' if all(c['status'] == 'checked' for c in checks) else 'partial'
+
+
 def run(root, user_agent, cutoff=None, previous=None, fetcher=None):
     cutoff = cutoff or date.today().isoformat()
     kb.need(date.fromisoformat(cutoff) <= date.today(), 'discovery cutoff cannot be in the future')
@@ -234,14 +259,15 @@ def run(root, user_agent, cutoff=None, previous=None, fetcher=None):
             reviewed[ticker] = pipeline.digest(doc.path.read_bytes())
         errors, checks = [], []
         since = (date.fromisoformat(packet['as_of']) - timedelta(days=overlap)).isoformat()
+        receipt = {}
         try:
-            sec_events = discover_sec(company, packet, fetcher, cutoff, since)
+            sec_events = discover_sec(company, packet, fetcher, cutoff, since, receipt=receipt)
             found.extend(sec_events)
             checks.append({'source': 'SEC submissions', 'kind': 'sec', 'status': 'checked',
-                           'candidate_count': len(sec_events)})
+                           'candidate_count': len(sec_events), **receipt})
         except (OSError, ValueError, KeyError) as error:
             errors.append({'source': 'SEC submissions', 'error': str(error)})
-            checks.append({'source': 'SEC submissions', 'kind': 'sec', 'status': 'error'})
+            checks.append({'source': 'SEC submissions', 'kind': 'sec', 'status': 'error', 'error': str(error), **receipt})
         sources = issuer_sources(config, ticker, since, cutoff)
         for source in sources:
             url = source['url']
@@ -252,15 +278,24 @@ def run(root, user_agent, cutoff=None, previous=None, fetcher=None):
                 selected = [e for e in events if e['published_at'] is None or since <= e['published_at'] <= cutoff]
                 found.extend(selected)
                 checks.append({'source': url, 'kind': source['kind'], 'status': 'partial' if warnings else 'checked',
+                               'retrieved_at': meta.get('fetched_at') or now,
                                'entry_count': len(events), 'candidate_count': len(selected), 'warnings': warnings,
                                'source_sha256': meta.get('sha256') or pipeline.digest(raw),
                                'latest_publication': max((e['published_at'] for e in events if e['published_at']), default=None)})
             except (OSError, ValueError, ET.ParseError) as error:
                 errors.append({'source': url, 'error': str(error)})
-                checks.append({'source': url, 'kind': source['kind'], 'status': 'error'})
+                checks.append({'source': url, 'kind': source['kind'], 'status': 'error', 'error': str(error)})
         coverage = 'error' if errors else ('partial' if not sources or any(c['status'] == 'partial' for c in checks) else 'checked')
+        prior_state = (previous or {}).get('companies', {}).get(ticker, {})
+        checks = dated_checks(checks, prior_state, now)
+        last_success = prior_state.get('last_successful_scan_at')
+        if not last_success and prior_state.get('coverage_status') == 'checked':
+            last_success = prior_state.get('checked_at')
         states[ticker] = {'checked_at': now, 'packet_sha256': pipeline.digest(packet_path.read_bytes()),
                           'status': coverage, 'coverage_status': coverage, 'errors': errors, 'source_checks': checks,
+                          'sec_coverage_status': source_coverage([c for c in checks if c['kind'] == 'sec']),
+                          'issuer_coverage_status': source_coverage([c for c in checks if c['kind'] != 'sec']),
+                          'last_successful_scan_at': now if coverage == 'checked' else last_success,
                           'scope': 'SEC filings and configured public issuer announcement sources',
                           'issuer_feed_count': len(config.get('issuer_feeds', {}).get(ticker, [])),
                           'issuer_source_count': len(sources), 'discovery_since': since,
@@ -302,6 +337,10 @@ def freshness(root, ticker, report, now=None, max_age_hours=48):
         return {'status': 'unknown', 'message': 'Historical discovery is not a current check.', 'pending_count': state.get('pending_count')}
     return {'status': state['status'], 'checked_at': state['checked_at'], 'pending_count': state.get('pending_count'),
             'coverage_status': state.get('coverage_status', state['status']),
+            'sec_coverage_status': state.get('sec_coverage_status'),
+            'issuer_coverage_status': state.get('issuer_coverage_status'),
+            'last_successful_scan_at': state.get('last_successful_scan_at'),
+            'source_checks': state.get('source_checks', []),
             'reviewed_disposition_count': state.get('reviewed_disposition_count', 0),
             'scope': state.get('scope'), 'message': 'Dated research snapshot; discovery and triage do not renew its research or review date.'}
 

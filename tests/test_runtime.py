@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import backup_runtime
 import runtime_data as data
 from serve_public import Application
+from coverage_runtime import initialize_coverage
 
 
 class RuntimeTests(unittest.TestCase):
@@ -99,6 +100,33 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(json.loads(request('/api/state')[1]), self.bundle)
         self.assertEqual(json.loads(request('/healthz')[1])['status'], 'ok')
         self.assertIn("connect-src 'self'", request('/')[0]['headers']['Content-Security-Policy'])
+
+    def test_coverage_bootstrap_and_public_routes_keep_bulk_data_out_of_checkpoint(self):
+        with tempfile.TemporaryDirectory() as directory:
+            coverage = initialize_coverage(self.root, self.bundle['files']['desk.json'], Path(directory) / 'coverage.sqlite3')
+            coverage.seed_companies([{'cik': 123, 'ticker': 'SYNTH', 'company_name': 'Synthetic test issuer', 'exchange': 'NYSE'}])
+            app = Application(self.root, self.store, scheduler_enabled=False, coverage=coverage)
+            original = self.store.path.read_bytes()
+
+            def request(path, method='GET', query=''):
+                received = {}
+                def start(status, headers): received.update(status=status, headers=dict(headers))
+                body = b''.join(app({'PATH_INFO': path, 'REQUEST_METHOD': method, 'QUERY_STRING': query,
+                                     'wsgi.input': io.BytesIO()}, start))
+                return received, body
+
+            self.assertEqual(json.loads(request('/api/companies', query='q=SYNTH&limit=1')[1])['total'], 1)
+            registered = json.loads(request('/api/companies/0000000123')[1])
+            self.assertEqual(registered['collection_status'], 'registry-only')
+            self.assertFalse(registered['research']['canonical_reviewed'])
+            pilot = json.loads(request('/api/companies/MSFT')[1])
+            self.assertTrue(pilot['financials_validated'])
+            self.assertTrue(pilot['research']['canonical_reviewed'])
+            self.assertEqual(request('/api/companies', 'POST')[0]['status'], '405 Method Not Allowed')
+            self.assertEqual(request('/api/companies', query='limit=101')[0]['status'], '400 Bad Request')
+            self.assertEqual(request('/api/companies/MSFT', 'HEAD')[1], b'')
+            self.assertEqual(sum(coverage.stats()['jobs'].values()), 0)
+            self.assertEqual(self.store.path.read_bytes(), original)
 
 
 if __name__ == '__main__': unittest.main()

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "ticker": "MU",
+  "as_of": "2026-10-22",
+  "reviewed_at": "2026-10-22",
+  "reviewer": "Codex AI primary-document review",
+  "current_period": "FY2026 Q4",
+  "previous_period": "FY2026 Q3",
+  "summary_en": "The memory upcycle strengthened in revenue, margins and cash. Durability through new supply remains unproven.",
+  "summary_he": "מחזור העלייה בזיכרון התחזק בהכנסות, במרווחים ובתזרים. העמידות מול היצע חדש עדיין לא הוכחה.",
+  "changes": [
+    {
+      "id": "cycle-revenue",
+      "topic": "Quarterly revenue",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 41456000000,
+        "unit": "USD",
+        "text_en": "Revenue: $41.456bn.",
+        "text_he": "הכנסות: ‏41.456 מיליארד דולר.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "Quarterly Financial Results, FQ3-26 revenue"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 54229000000,
+        "unit": "USD",
+        "text_en": "Revenue: $54.229bn.",
+        "text_he": "הכנסות: ‏54.229 מיליארד דולר.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "Quarterly Financial Results, FQ4-26 revenue"
+        ]
+      },
+      "interpretation_en": "The upcycle strengthened. Higher shipments and prices must still be distinguished; a revenue jump alone cannot establish through-cycle earnings.",
+      "interpretation_he": "מחזור העלייה התחזק. עדיין צריך להפריד בין כמויות ומחירים; קפיצה בהכנסות אינה מוכיחה רווחיות לאורך מחזור מלא.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "cycle-margin",
+      "topic": "GAAP gross margin",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 0.846,
+        "unit": "fraction",
+        "text_en": "GAAP gross margin: 84.6%.",
+        "text_he": "מרווח גולמי GAAP: ‏84.6%.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "Quarterly Financial Results, GAAP gross margin percent, FQ3-26"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 0.868,
+        "unit": "fraction",
+        "text_en": "GAAP gross margin: 86.8%.",
+        "text_he": "מרווח גולמי GAAP: ‏86.8%.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "Quarterly Financial Results, GAAP gross margin percent, FQ4-26"
+        ]
+      },
+      "interpretation_en": "Margins expanded further. The model deliberately tests normalization when supply expands rather than treating this quarter as a permanent margin.",
+      "interpretation_he": "המרווחים התרחבו שוב. המודל בוחן חזרה לרווחיות מתונה יותר עם התרחבות ההיצע, ואינו מניח שהמרווח הרבעוני יישאר לצמיתות.",
+      "interpretation_type": "analyst_interpretation"
+    },
+    {
+      "id": "cycle-cash",
+      "topic": "Operating cash flow",
+      "before": {
+        "label": "FY2026 Q3",
+        "value": 25388000000,
+        "unit": "USD",
+        "text_en": "Operating cash flow: $25.388bn.",
+        "text_he": "תזרים מפעילות שוטפת: ‏25.388 מיליארד דולר.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "GAAP/non-GAAP reconciliation, operating cash flow, third quarter"
+        ]
+      },
+      "after": {
+        "label": "FY2026 Q4",
+        "value": 43973000000,
+        "unit": "USD",
+        "text_en": "Operating cash flow: $43.973bn.",
+        "text_he": "תזרים מפעילות שוטפת: ‏43.973 מיליארד דולר.",
+        "source_ids": [
+          "MU-FY26-Q4"
+        ],
+        "locators": [
+          "GAAP/non-GAAP reconciliation, operating cash flow, fourth quarter"
+        ]
+      },
+      "interpretation_en": "Cash generation improved, but gross factory spending and incentives must remain separate. Issuer adjusted FCF is not interchangeable with strict cash-PP&E FCF.",
+      "interpretation_he": "ייצור המזומן השתפר, אך יש להפריד בין השקעה גולמית במפעלים לתמריצים. התזרים החופשי המתואם של החברה אינו זהה להגדרה המחמירה של תזרים פחות רכישת רכוש קבוע.",
+      "interpretation_type": "analyst_interpretation"
+    }
+  ],
+  "falsifiers": [
+    {
+      "id": "memory-downcycle",
+      "metric": "Quarter-over-quarter revenue growth",
+      "threshold": {
+        "operator": "<",
+        "value": -0.15,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report; two consecutive quarters",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Move assumptions toward the downcycle case if revenue declines more than 15% sequentially in two consecutive quarters. This is an analyst monitoring threshold.",
+      "text_he": "יש לקרב את ההנחות לתרחיש ירידה במחזור אם ההכנסות יורדות ביותר מ-15% בשני רבעונים רצופים. זהו סף מעקב שנבחר בניתוח.",
+      "source_ids": [
+        "MU-FY26-Q4"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    },
+    {
+      "id": "margin-normalization",
+      "metric": "GAAP gross margin",
+      "threshold": {
+        "operator": "<",
+        "value": 0.6,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Each quarterly report",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess pricing and mix if GAAP gross margin falls below 60%; this assumed threshold would materially challenge the sustained-margin case.",
+      "text_he": "יש לבחון מחדש תמחור ותמהיל אם המרווח הגולמי GAAP יורד מתחת ל-60%; סף זה הוא הנחה שתאתגר מהותית את תרחיש הרווחיות המתמשכת.",
+      "source_ids": [
+        "MU-FY26-Q4"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    },
+    {
+      "id": "factory-cash",
+      "metric": "Annual strict cash-PP&E FCF / revenue",
+      "threshold": {
+        "operator": "<",
+        "value": 0.15,
+        "unit": "fraction"
+      },
+      "unit": "fraction",
+      "cadence": "Annual report or comparable four-quarter cash-flow bridge",
+      "threshold_basis": "analyst_assumption",
+      "text_en": "Reassess the capital spending path if strict FCF margin falls below 15%. Keep gross capex separate from incentive receipts.",
+      "text_he": "יש לבחון מחדש את מסלול ההשקעות אם מרווח התזרים החופשי המחמיר יורד מתחת ל-15%. יש להפריד בין השקעה גולמית לתקבולי תמריצים.",
+      "source_ids": [
+        "MU-FY26-Q4"
+      ],
+      "action": "Reassess model assumptions and thesis; this is not an automatic trade instruction.",
+      "assumption_kind": "analyst_assumption",
+      "locators": [
+        "Business highlights and financial statement rows for the named monitoring metric; threshold chosen by analyst."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "MU-FY26-Q4",
+      "title": "Micron fiscal Q4 and full-year 2026 earnings release",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "date": "2026-09-30",
+      "retrieved_at": "2026-10-22",
+      "source_type": "primary_issuer_release",
+      "review_type": "ai_primary_document_review"
+    }
+  ],
+  "limitations": [
+    "These are observed quarter-to-quarter comparisons and analyst interpretations, not a claim that the company issued a four-year outlook.",
+    "Monitoring thresholds are selected analyst assumptions, not issuer guidance or automatic trade triggers.",
+    "Review is by AI against the linked primary documents; format validation is not independent factual verification."
+  ],
+  "packet_sha256": "80b9a14ba35d45c630613670f1c468fc00e571e93ea5fa540e0d5ea31a33aa2d",
+  "profile_sha256": "c733c5b0f07cf7235e5975890b5963f39b60dc0912866c420bb17887e8786302"
+}

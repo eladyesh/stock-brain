@@ -1,99 +1,93 @@
 # Financial normalization remediation
 
-Reviewed on **2026-10-19**, preserving the existing **2026-10-18 information cutoff**. This is a bounded source-reconciliation pass on the selected historical metric schedules. It does not mark company research as human-reviewed or turn the schedules into complete financial statements.
+Reviewed on **2026-10-22**. This pass makes the annual model inputs for Microsoft, Micron and NVIDIA reviewable and usable where exact issuer evidence supports them. All ten financial histories remain `readiness: partial`. This is not approval of complete financial statements, company research or an enterprise-value model.
 
 ## Result
 
-Open QA flags fell from **109 to 77** after resolving **32 share/EPS revision flags** for NVIDIA and Broadcom. **112 existing cells** now have verified, comparable share bases. Eight of those cells required explicit split calculations; the other 104 keep their reported numeric values. Every company remains `readiness: partial`.
+Open QA flags decreased from **77 to 75**. Model-usable cells increased from **1,819 to 1,905**, comprising **84 exact filing-scope approvals** and **two NVIDIA period-end split reconciliations**. A cell is a metric/period view, so annual and Q4 views can reference the same underlying balance-sheet observation.
 
-Only `research/financials/NVDA.json` and `research/financials/AVGO.json` were regenerated. The other eight schedules were left intact. No non-share numeric value changed. The ten-company collection now contains **2,295 reported, 569 derived and 1,216 missing cells**. The eight-cell shift from reported to derived is the oldest-period split normalization, not new source coverage.
+No existing numeric value, cell status, original observation, raw Company Facts hash, retrieval timestamp or information cutoff changed. The histories retain the original **2026-10-19** cutoff and retrieval metadata; new issuer-document retrieval dates are recorded separately. Source facts were not refreshed by this review. The unchanged SEC collection pause must not be presented as a successful refresh.
 
-| Company | Open flags before | Open flags after | Model-usable cells before | Model-usable cells after | Readiness before / after |
-| --- | ---: | ---: | ---: | ---: | --- |
-| AMD | 3 | 3 | 200 | 200 | partial / partial |
-| AVAV | 16 | 16 | 159 | 159 | partial / partial |
-| AVGO | 42 | 26 | 179 | 235 | partial / partial |
-| LMT | 3 | 3 | 153 | 153 | partial / partial |
-| MSFT | 3 | 3 | 187 | 187 | partial / partial |
-| MU | 3 | 3 | 171 | 171 | partial / partial |
-| NVDA | 21 | 5 | 153 | 209 | partial / partial |
-| ORCL | 6 | 6 | 150 | 150 | partial / partial |
-| PLTR | 3 | 3 | 189 | 189 | partial / partial |
-| RTX | 9 | 9 | 166 | 166 | partial / partial |
-| **Total** | **109** | **77** | **1,707** | **1,819** | **partial / partial** |
+| Company | Open flags before | Open flags after | Model-usable cells before | Model-usable cells after | Newly scoped cells |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| MSFT | 3 | 3 | 187 | 217 | 30 |
+| MU | 3 | 3 | 171 | 201 | 30 |
+| NVDA | 5 | 3 | 209 | 235 | 24 |
+| AVGO | 26 | 26 | 235 | 235 | 0 |
+| AVAV | 16 | 16 | 159 | 159 | 0 |
+| RTX | 9 | 9 | 166 | 166 | 0 |
+| ORCL | 6 | 6 | 150 | 150 | 0 |
+| AMD | 3 | 3 | 200 | 200 | 0 |
+| LMT | 3 | 3 | 153 | 153 | 0 |
+| PLTR | 3 | 3 | 189 | 189 | 0 |
+| **Total** | **77** | **75** | **1,819** | **1,905** | **84** |
 
-Model usability is assessed per cell and definition. It is not permission to mix currencies, profit attribution, reporting periods or debt scopes, and does not establish valuation readiness.
+The earlier 2026-10-19 pass reduced flags from 109 to 77 by reconciling 32 NVIDIA/Broadcom EPS and weighted-share revision flags. Its original split reviews, hashes, source observations and eight explicitly derived split-normalized cells remain intact.
 
-## Verified source basis
+## Annual model inputs now verified
 
-The financial statements disclose two ten-for-one common-stock splits and retrospective presentation of share/per-share data:
+Amounts below are reported FY2026 annual values, not TTM results, estimates or current market data. Dollars and shares are in millions except EPS.
 
-| Company | Effective date | Primary evidence | Source publication date | Document SHA-256 |
-| --- | --- | --- | --- | --- |
-| NVDA | 2024-06-07 | [FY2025 Form 10-K, Note 1 and stock split disclosure](https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm) | 2025-02-26 | `1493a74bd587701ed8039d680eb91aafc9ea747eef6a325ee189953dd4dce517` |
-| AVGO | 2024-07-12 | [FY2024 Form 10-K, Note 1 and Note 11](https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm) | 2024-12-20 | `bf1e56c85495b8a2433c3ca9d7fa776ab75075dca8feadac122d4f4b77d4ad78` |
+| Issuer / fiscal end | Revenue | Net income | Diluted weighted shares | Diluted EPS | Strict cash FCF |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| MSFT / 2026-06-30 | 331,839 | 133,749 | 7,453 | 17.95 | 66,987 |
+| MU / 2026-09-03 | 133,188 | 84,969 | 1,143 | 74.33 | 58,963 |
+| NVDA / 2026-01-25 | 215,938 | 120,067 | 24,514 | 4.90 | **Missing** |
 
-**152 exact observations across 24 original SEC filings were independently matched** to their non-dimensional inline-XBRL facts: accession, concept, unit, exact start/end, numeric value and source `decimals`. This includes the selected EPS/basic/diluted weighted-share facts and every older alternative implicated in their revisions. There are 76 verified observations from 12 filings for each issuer. Raw documents and their checksum-addressed cache remain in ignored `build/`; each persisted review retains document URLs, hashes and retrieval timestamps.
+Microsoft Note 2 and Micron Note 19 verify annual basic/diluted common EPS and weighted-average share denominators for FY2024–FY2026. Those exact observations now pass the share gate. NVIDIA's annual EPS and diluted denominator already had a verified split basis. Rounding can prevent net income divided by rounded shares from exactly reproducing reported EPS; the source-reported EPS is preserved.
 
-The four reviewed metrics are `eps_basic`, `eps_diluted`, `shares_basic` and `shares_diluted`. Each issuer has 14 available periods for these metrics, or 56 verified cells. The remaining three Q4 periods still have missing EPS/share facts; EPS and weighted-average shares are never obtained by subtracting YTD amounts.
+Microsoft FCF is 182,935 operating cash flow less 115,948 cash PP&E purchases. Micron FCF is 89,675 less 30,712 gross cash PP&E purchases. Micron's calculation does not net government incentives against capex. NVIDIA reports broader productive-asset spending that includes intangibles; it is not relabeled as strict PP&E capex or used to fill the missing strict FCF cell.
 
-The verified filing accessions are retained with each observation in the schedule's `normalization_reviews`. This is an explicit approval of those exact observations, not a blanket issuer rule. A future refresh that selects a different accession or changes the value, dates, unit or concept must obtain new source evidence before that cell becomes model-usable.
+Period-end outstanding common shares are separately reviewed for MSFT FY2024–FY2026, MU FY2025–FY2026 and NVDA FY2025–FY2026. These counts are neither annual diluted weighted-average denominators nor current quote-date outstanding shares. No missing Q4 EPS/share value is obtained by subtracting YTD data.
 
-## Numerical reconciliation
+## Debt definitions and split reconciliation
 
-NVIDIA FY2024 diluted EPS of 11.93 and its later presentation of 1.19 are consistent with the disclosed split and source rounding. Broadcom FY2023 diluted EPS of 32.98 and 3.30 reconcile on the same basis. Both old and selected versions remain in the saved schedule; reconciled alternatives move from `conflicts` into `resolved_conflicts` with a resolution and review ID.
+- **Microsoft:** FY2026 long-term borrowing carrying value is 40,294 = 9,227 current + 31,067 noncurrent. FY2025 is 43,151 = 2,999 + 40,152. Note 10 distinguishes principal and carrying amounts; finance leases are separately reported in Note 13. The approved cells exclude finance leases. Missing short-term borrowings remain missing, and `debt_total` remains missing.
+- **Micron:** FY2026 debt carrying value is 5,179 = 491 current + 4,688 noncurrent, including 2,387 of finance leases. FY2025 is 14,577 = 560 + 14,017, including 3,044 of finance leases. FY2026 notes payable are separately 2,792 carrying value, excluding leases; principal is 2,808 before 16 of discounts. These scopes are retained explicitly.
+- **NVIDIA:** Borrowing carrying values are 8,463 at FY2025, 8,468 at FY2026 and 33,366 at Q2 FY2027 (2026-07-26), excluding lease liabilities. Current/noncurrent components and derived totals are bound to exact reviewed observations. The debt notes explicitly report no commercial paper outstanding; no missing metric has been filled with zero. Borrowing balances with this scope are not a lease-inclusive EV bridge.
+- **NVIDIA FY2024 outstanding shares:** The original FY2024 filing reports 2,464 million shares before the ten-for-one split; FY2025 presents 24,643 million after the split. The scaled rounding interval of the former (24,635–24,645 million) overlaps the latter (24,642.5–24,643.5 million). Both original observations remain stored; the two annual/Q4 conflict flags are resolved with the split review ID. Neither reported number is overwritten.
 
-Shares reported in millions require a precision-aware bridge. Broadcom's 427 million diluted weighted-average shares for FY2023 and its later 4,272 million are not exactly ten times apart. Both filings report shares to the nearest million. The pre-split rounding interval scaled by ten overlaps the post-split rounding interval, supporting the reconciliation. The implementation uses each observed inline-XBRL `decimals` value rather than an arbitrary percentage tolerance. It does not reconcile differing values already on the same split basis.
+## Primary evidence
 
-The oldest annual periods had no later, split-restated selected fact. Their values are now explicit derived calculations:
+Every new review retains the exact accession, concept, unit, period, value, publication date, source URL, document hash, document locator and scope rationale. The original SEC fact identity remains separate from corroborating issuer-hosted evidence.
 
-| Issuer / fiscal period | Metric | Original reported value | Comparable post-split value | Treatment |
-| --- | --- | ---: | ---: | --- |
-| NVDA FY2022, ended 2022-01-30 | Basic EPS | 3.91 | 0.391 | Divide by 10 |
-| NVDA FY2022 | Diluted EPS | 3.85 | 0.385 | Divide by 10 |
-| NVDA FY2022 | Basic weighted shares | 2,496,000,000 | 24,960,000,000 | Multiply by 10 |
-| NVDA FY2022 | Diluted weighted shares | 2,535,000,000 | 25,350,000,000 | Multiply by 10 |
-| AVGO FY2021, ended 2021-10-31 | Basic EPS | 15.70 | 1.570 | Divide by 10 |
-| AVGO FY2021 | Diluted EPS | 15.00 | 1.500 | Divide by 10 |
-| AVGO FY2021 | Basic weighted shares | 410,000,000 | 4,100,000,000 | Multiply by 10 |
-| AVGO FY2021 | Diluted weighted shares | 429,000,000 | 4,290,000,000 | Multiply by 10 |
+| Evidence | Filing date | SHA-256 |
+| --- | --- | --- |
+| [Microsoft FY2026 annual financial statements, Notes 2, 10, 13 and 15](https://www.microsoft.com/investor/reports/ar26/index.html) | 2026-07-29 | `c80ec67fe527d2f974bf84a89661b23a22c752cc2ba0f107370c7df377b25f1b` |
+| [Micron FY2026 Form 10-K, balance sheets and Notes 9/19](https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf) | 2026-10-09 | `aa227d7af0003b3ead47c7b6bb628b98668c8065d14a917d734b2638185b48b3` |
+| [NVIDIA FY2024 Form 10-K, balance sheets](https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf) | 2024-02-21 | `536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b` |
+| [NVIDIA FY2025 Form 10-K, balance sheets and split disclosure](https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf) | 2025-02-26 | `b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e` |
+| [NVIDIA FY2026 Form 10-K, balance sheets and Note 11](https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/10K-NVDA.pdf) | 2026-02-25 | `a056b59e4170c0123217a8e861a39af4a4a48d2df0d27b641017a618a280a396` |
+| [NVIDIA Q2 FY2027 Form 10-Q, Note 9](https://s201.q4cdn.com/141608511/files/doc_financials/2027/NVDA-2027-Q2-10Q-Final-including-exhibits.pdf) | 2026-08-26 | `6b5a8dc1ed21e8b2b960fd0de97103af6a2f32ccc8dd91b363f06ea192ecfebd` |
 
-The calculations preserve the precision of the original rounded input after applying the split factor. For example, 0.385 is a calculation from reported 3.85, not a newly reported three-decimal EPS. Original numeric facts remain untouched in `provenance`; adjusted cells have `status: derived`, `evidence_label: derived_calculation`, a formula and a source-basis record. Later reported, already-adjusted values keep `status: reported`.
+The PDFs present share counts in millions, establishing the rounding precision used for the new outstanding-share split bridge. The original weighted-share split reviews retain their inline-XBRL precision evidence.
 
-The action evidence is separately bound through `share_basis.evidence_source_ids` into `source_index`. Answers using a split-derived number should cite both the original numeric filing and the split evidence.
+## Remaining work
 
-## Remaining blockers
-
-| Open issue category | Before | After | Required next evidence / treatment |
+| Open issue category | Before | After | Required evidence / treatment |
 | --- | ---: | ---: | --- |
-| Source revisions or definition conflicts | 63 | 31 | Reconcile the remaining issuer-specific filing differences below; no automatic acceptance of the latest number. |
-| Definition changes across a series | 13 | 13 | Build line-item bridges, especially debt scope and AVAV revenue definitions. |
-| Share basis / outstanding-share class coverage | 10 | 10 | NVDA and AVGO now flag only `shares_outstanding`; the other issuers still require corporate-action and share-class review. |
-| Debt scope | 10 | 10 | Reconcile current/noncurrent, borrowings, leases, principal and carrying amounts before enterprise-value calculations. |
-| Missing selected-metric coverage | 10 | 10 | Source exact missing concepts and periods; no missing-to-zero conversion. |
-| Fiscal identity conflicts | 3 | 3 | Review AVAV quarters ended 2023-10-28 and 2024-01-27 and ORCL quarter ended 2026-08-31 against the original submissions. |
-| **Total** | **109** | **77** | |
+| Source revisions or definition conflicts | 31 | 29 | Issuer-specific reconciliation of every selected and conflicting observation. |
+| Definition changes across a series | 13 | 13 | Line-item bridges, especially AVGO debt and AVAV revenue definitions. |
+| Share basis / outstanding-share coverage | 10 | 10 | Review unapproved earlier/quarterly observations. Group flags remain even when some model inputs are verified. |
+| Debt scope | 10 | 10 | Extend the exact reviews to remaining periods and establish complete compatible EV scope. |
+| Missing selected-metric coverage | 10 | 10 | Obtain exact missing concepts and periods; absence is not zero. |
+| Fiscal identity conflicts | 3 | 3 | Review AVAV 2023-10-28 and 2024-01-27 and ORCL 2026-08-31 original contexts. |
+| **Total** | **77** | **75** | |
 
-The 31 remaining revision flags are cell-level issues, including derived and duplicate annual/quarter views of an underlying source difference:
+The 29 remaining revision flags comprise **AVGO 18**, **AVAV 9** and **RTX 2**. Broadcom has 16 debt-related flags plus two outstanding-share flags at 2023-10-29. Its FY2024 issuer PDF confirms the split and the later share amount, but the conflict includes three earlier filings; complete fresh document evidence was not obtained for all alternatives, so both flags remain. Its FY2023 direct issuer download returned HTTP 503. AeroVironment's revised FY2025 PP&E/cash flow, quarterly operating income, consolidated profit and EPS remain unresolved; Q4 differences from unreconciled cumulative inputs stay blocked. RTX's historical operating-income presentation changes require their own reconciliation.
 
-- **NVDA: 2.** Period-end shares outstanding at 2024-01-28 remain unreconciled. The weighted-share review does not establish period-end share-class completeness.
-- **AVGO: 18.** Sixteen concern current/noncurrent/derived debt definitions or values; two concern period-end shares outstanding at 2023-10-29. These are outside the approved EPS/weighted-share split bridge.
-- **AVAV: 9.** FY2025 PP&E payments and related FCF/quarter differences, revised quarterly operating income and consolidated profit, and revised EPS require the specific amended/revised filings and explanations. The Q4 subtraction of unreconciled cumulative facts remains blocked.
-- **RTX: 2.** FY2021 and FY2022 operating-income presentation changes remain unresolved. They are not stock-split effects.
-
-Strict PP&E capex and the corresponding defined FCF are still missing for NVDA and LMT. Broader productive-asset spending is kept separate. Outstanding shares remain a distinct period-end measure; verified weighted-average shares do not substitute for current market-cap share counts.
+For the priority issuers, remaining unverified share/debt cells are MSFT **55/39**, MU **57/52** and NVDA **2/44**. These cell counts are distinct from the grouped QA flag count. NVIDIA and Lockheed Martin still lack strict PP&E capex and the corresponding FCF. No complete balance-sheet or cash-flow tie-out has been performed.
 
 ## Refresh and verification
 
-`financial_history.py` preserves the embedded `normalization_reviews` on a normal refresh and reapplies them only to matching source observations. Direct callers can pass the existing schedule's reviews using the `normalization_reviews` keyword argument. Calling the normalizer without a review intentionally retains the original conservative share gates.
+`normalize_companyfacts(..., normalization_reviews=...)` applies only exact eligible observations. New `filing_scope` reviews verify a metric definition without clearing unrelated revisions or series-comparability gates. Share scope, borrowing scope and source evidence are validated; simply deleting a blocking flag cannot make a share/debt cell model-usable.
 
-Evidence and observations published after `as_of` are excluded. A known split cannot be applied in a historical snapshot using a proof filing that had not yet been published. The review date itself documents when the work was performed and does not change the source-information cutoff.
+`apply_normalization_reviews(history, canonical_reviews)` returns a validated deep copy for checkpoint restoration. It merges immutable review IDs, reapplies only matching source observations, recounts QA/coverage and preserves source facts and fetch metadata. If no new eligible review is added, it preserves the existing payload without changing coverage fields. Changed facts/accessions remain gated. Conflicting contents for the same review ID are rejected. Evidence published after the history cutoff is excluded. Split conflict resolutions must reproduce the reviewed source-rounding reconciliation.
 
-Verification completed:
+Verification: **34 focused financial tests pass**, including exported issuer evidence and bilingual lease-scope disclosure; all ten stored histories pass the reproducible integrity audit; semantic comparison confirms no numeric/status/provenance or original-source metadata change in MSFT/MU/NVDA. `git diff --check` and `python scripts/stock_brain.py check` pass after index regeneration. The machine-readable report is regenerated with:
 
-- All 26 financial-history tests pass, including source precision, unexplained revisions, unreviewed new observations, same-day and same-basis conflicts, historical-cutoff leakage, source identity and derived-value integrity.
-- All ten persisted histories pass schema, provenance, units, cutoff, period and normalization checks.
-- Semantic comparison against the prior schedules confirms exactly the eight numeric/status changes listed above and no non-share numeric changes.
-- The repository-wide validator was attempted during concurrent research edits and reported a stale generated sector index; the integration step must rebuild indexes and rerun that validator.
+```sh
+python scripts/audit_financials.py --output docs/FINANCIAL_QA_STATUS.json
+```
 
-This work does not change canonical company profiles, review status, forecasts, debt totals or valuation assumptions.
+The audit reports internal integrity separately from research approval and includes exact latest-annual input gates, scope-review counts and open cell gates. It does not imply that all underlying reports were independently re-audited.

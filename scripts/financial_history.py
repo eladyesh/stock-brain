@@ -7,6 +7,7 @@ The source cache is maintained by research_pipeline.Fetcher under ignored build/
 from __future__ import annotations
 
 import argparse
+import copy
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 import json
@@ -50,6 +51,14 @@ INSTANT = {
 }
 METRICS = {**DURATION, **INSTANT, "free_cash_flow": ("USD", ())}
 NONADDITIVE = {"eps_basic", "eps_diluted", "shares_basic", "shares_diluted"}
+SHARE_METRICS = NONADDITIVE | {"shares_outstanding"}
+DEBT_METRICS = {"debt_current", "debt_noncurrent", "long_term_debt_total", "debt_total"}
+SCOPE_BY_METRIC = {
+    "eps_basic": "basic_common_eps", "eps_diluted": "diluted_common_eps",
+    "shares_basic": "weighted_average_basic_common_shares",
+    "shares_diluted": "weighted_average_diluted_common_shares",
+    "shares_outstanding": "period_end_common_shares_outstanding",
+}
 CORE = tuple(tag for key in ("revenue", "net_income", "operating_income", "operating_cash_flow") for tag in DURATION[key][1])
 
 
@@ -206,30 +215,45 @@ def eligible_normalization_reviews(reviews, cik, cutoff):
     """Keep only evidence available at the requested historical cutoff."""
     eligible, review_ids = [], set()
     for review in reviews or []:
-        kb.need(review.get("type") == "stock_split" and review.get("cik") == cik,
+        kb.need(review.get("type") in {"stock_split", "filing_scope"} and review.get("cik") == cik,
                 "normalization review type or issuer mismatch")
-        kb.iso_date(review["effective_date"], "split effective date", required=True)
+        kb.iso_date(review["effective_date"], "review effective date", required=True)
         kb.need(review.get("review_id") and review["review_id"] not in review_ids, "missing or duplicate normalization review ID")
         review_ids.add(review["review_id"])
-        ratio = review.get("new_shares_per_old_share")
-        kb.need(isinstance(ratio, (int, float)) and not isinstance(ratio, bool)
-                and math.isfinite(ratio) and ratio > 0, "invalid reviewed split ratio")
+        if review["type"] == "stock_split":
+            ratio = review.get("new_shares_per_old_share")
+            kb.need(isinstance(ratio, (int, float)) and not isinstance(ratio, bool)
+                    and math.isfinite(ratio) and ratio > 0, "invalid reviewed split ratio")
         kb.need(bool(review.get("evidence")), "normalization review requires filing evidence")
         for evidence in review["evidence"]:
-            kb.iso_date(evidence["filed"], "split evidence filed", required=True)
-            kb.need(bool(re.fullmatch(r"[0-9a-f]{64}", evidence.get("sha256", ""))), "split evidence requires document hash")
+            kb.iso_date(evidence["filed"], "review evidence filed", required=True)
+            kb.need(bool(re.fullmatch(r"[0-9a-f]{64}", evidence.get("sha256", ""))), "review evidence requires document hash")
         if review["effective_date"] > cutoff or any(s["filed"] > cutoff for s in review["evidence"]):
             continue
         observations, keys = [], set()
         for observation in review["observations"]:
-            kb.need(observation.get("split_basis") in {"pre_split", "post_split"}, "invalid reviewed share basis")
+            if review["type"] == "stock_split":
+                kb.need(observation.get("split_basis") in {"pre_split", "post_split"}, "invalid reviewed share basis")
+            else:
+                metric = observation.get("metric")
+                kb.need(metric in SHARE_METRICS | DEBT_METRICS, "unsupported filing scope metric")
+                expected_scope = SCOPE_BY_METRIC.get(metric)
+                kb.need((expected_scope and observation.get("scope") == expected_scope) or
+                        (metric in DEBT_METRICS and observation.get("scope") in {
+                            "carrying_value_excluding_finance_leases", "carrying_value_including_finance_leases"}),
+                        "invalid reviewed metric scope")
+                kb.need(bool(observation.get("rationale")) and bool(observation.get("source_document", {}).get("locator")),
+                        "filing scope requires a document locator and rationale")
+                kb.need(any(e["url"] == observation["source_document"].get("url")
+                            and e["sha256"] == observation["source_document"].get("sha256")
+                            for e in review["evidence"]), "scope observation is not bound to its evidence document")
             kb.need(isinstance(observation.get("decimals"), int) and not isinstance(observation["decimals"], bool)
                     and -12 <= observation["decimals"] <= 12,
                     "invalid source rounding precision")
             kb.need(bool(re.fullmatch(r"[0-9a-f]{64}", observation.get("source_document", {}).get("sha256", ""))),
                     "reviewed observation requires document hash")
             kb.need(observation["end"] <= observation["filed"], "reviewed source end exceeds filing date")
-            key = _observation_key(observation)
+            key = (observation.get("metric"), _observation_key(observation))
             kb.need(key not in keys, "duplicate reviewed observation")
             keys.add(key)
             if observation["filed"] <= cutoff:
@@ -245,7 +269,7 @@ def reconcile_share_split(cell, metric, cik, cutoff, reviews):
     precision of every approved observation. New/changed facts, non-share
     revisions, same-day conflicts and facts outside that evidence stay gated.
     """
-    if metric not in NONADDITIVE or cell["status"] != "reported" or cell["value"] is None:
+    if metric not in SHARE_METRICS or cell["status"] != "reported" or cell["value"] is None or cell.get("share_basis"):
         return cell
     selected = cell["provenance"][0]
     for review in reviews or []:
@@ -312,6 +336,102 @@ def reconcile_share_split(cell, metric, cik, cutoff, reviews):
         cell["comparison_status"] = "comparable" if cell["model_usable"] else "not_comparable"
         return cell
     return cell
+
+
+def reconcile_filing_scope(cell, metric, reviews):
+    """Verify the definition of exact observations; never infer missing values.
+
+    Scope approval does not resolve revisions, cross-series tag changes or any
+    other gate. Weighted diluted shares and period-end outstanding shares retain
+    distinct scopes; a reviewed borrowing balance is not a lease-inclusive EV.
+    """
+    if metric not in SHARE_METRICS | DEBT_METRICS or cell["value"] is None:
+        return cell
+    sources = {_observation_key(s) for s in cell["provenance"]}
+    for review in reviews:
+        if review["type"] != "filing_scope":
+            continue
+        observations = {_observation_key(o): o for o in review["observations"] if o["metric"] == metric}
+        chosen = [observations.get(key) for key in sources]
+        if not chosen or any(o is None for o in chosen) or len({o["scope"] for o in chosen}) != 1:
+            continue
+        gate = "share_split_and_corporate_action_basis_unverified" if metric in SHARE_METRICS else "debt_scope_requires_filing_review"
+        cell["flags"] = sorted((set(cell["flags"]) - {gate}) | {"filing_scope_verified"})
+        cell["scope_review"] = {"review_id": review["review_id"], "scope": chosen[0]["scope"],
+                                "evidence_source_ids": [s["source_id"] for s in review["evidence"]]}
+        if metric in DEBT_METRICS:
+            cell["debt_scope"] = chosen[0]["scope"]
+        safe = {"filing_scope_verified", "share_split_basis_verified", "historical_fact_split_normalized"}
+        cell["model_usable"] = not cell["conflicts"] and set(cell["flags"]) <= safe
+        cell["comparison_status"] = "comparable" if cell["model_usable"] else "not_comparable"
+        return cell
+    return cell
+
+
+def apply_normalization_reviews(history, canonical_reviews):
+    """Merge release evidence into a restored snapshot without replacing facts.
+
+    Returns a validated deep copy. Review IDs are immutable; a different review
+    with the same ID is rejected. New or changed facts receive no approval unless
+    their full observation identity is explicitly present in the evidence.
+    """
+    validate_history(history)
+    updated = copy.deepcopy(history)
+    merged = {r["review_id"]: r for r in updated.get("normalization_reviews", [])}
+    for review in canonical_reviews or []:
+        old = merged.get(review["review_id"])
+        kb.need(old is None or old == review, "normalization review ID has conflicting contents")
+        merged[review["review_id"]] = copy.deepcopy(review)
+    if list(merged.values()) == updated.get("normalization_reviews", []):
+        return updated
+    reviews = eligible_normalization_reviews(list(merged.values()), history["cik"], history["as_of"])
+    if reviews:
+        updated["normalization_reviews"] = reviews
+    for review in reviews:
+        for evidence in review["evidence"]:
+            updated["source_index"][evidence["source_id"]] = {
+                "source_id": evidence["source_id"], "source_name": evidence["title"], "source_type": "filing",
+                "source_rank": 1, "owner_or_provider": "SEC EDGAR / issuer", "as_of_date": evidence["filed"],
+                "retrieved_at": evidence.get("retrieved_at"), "url": evidence["url"],
+                "sha256": evidence["sha256"], "freshness_status": "acceptable_for_period"}
+    for cells in updated["financials"].values():
+        for metric in sorted(cells, key=lambda m: m == "debt_total"):
+            cell = cells[metric]
+            reconcile_share_split(cell, metric, updated["cik"], updated["as_of"], reviews)
+            reconcile_filing_scope(cell, metric, reviews)
+    refresh_review_summary(updated)
+    validate_history(updated)
+    return updated
+
+
+def refresh_review_summary(history):
+    """Recount open evidence gates after exact reviews without erasing other QA."""
+    groups = {"share_basis_unverified": (SHARE_METRICS, "share_split_and_corporate_action_basis_unverified"),
+              "debt_scope_unverified": (DEBT_METRICS, "debt_scope_requires_filing_review")}
+    kept = []
+    for flag in history["qa_flags"]:
+        if flag["code"] in groups:
+            metrics, gate = groups[flag["code"]]
+            unresolved = {m for m in metrics for cells in history["financials"].values()
+                          if cells[m]["value"] is not None and gate in cells[m]["flags"]}
+            if unresolved:
+                kept.append({**flag, "metrics": sorted(unresolved)})
+        elif flag["code"] == "source_value_revision_or_conflict":
+            cell = history["financials"][flag["period"]][flag["metric"]]
+            if cell["conflicts"] or cell["status"] == "conflicted":
+                kept.append(flag)
+        else:
+            kept.append(flag)
+    history["qa_flags"] = kept
+    cells = [c for period in history["financials"].values() for c in period.values()]
+    history["coverage"].update(
+        cell_status_counts=dict(Counter(c["status"] for c in cells)),
+        model_usable_cells=sum(c["model_usable"] for c in cells),
+        resolved_conflict_cells=sum(bool(c.get("resolved_conflicts")) for c in cells),
+        split_normalized_cells=sum("historical_fact_split_normalized" in c["flags"] for c in cells),
+        filing_scope_verified_cells=sum(bool(c.get("scope_review")) for c in cells),
+        unverified_share_cells=sum("share_split_and_corporate_action_basis_unverified" in c["flags"] for c in cells),
+        unverified_debt_cells=sum("debt_scope_requires_filing_review" in c["flags"] for c in cells))
 
 
 def exact_metric(data, metric, start, end, cutoff, cik, tags=None):
@@ -496,9 +616,12 @@ def normalize_companyfacts(data, company, as_of, source_meta=None, annual_limit=
     for period in periods:
         cells = {metric: standalone_metric(data, metric, period, as_of, cik) for metric in DURATION}
         cells.update({metric: exact_metric(data, metric, None, period["end"], as_of, cik) for metric in INSTANT})
-        for metric in NONADDITIVE:
+        for metric in SHARE_METRICS:
             reconcile_share_split(cells[metric], metric, cik, as_of, reviews)
+        for metric in SHARE_METRICS | DEBT_METRICS:
+            reconcile_filing_scope(cells[metric], metric, reviews)
         fill_derived_metrics(cells)
+        reconcile_filing_scope(cells["debt_total"], "debt_total", reviews)
         history["financials"][period["id"]] = cells
         for metric, cell in cells.items():
             for provenance in cell["provenance"] + [p for c in cell["conflicts"] + cell.get("resolved_conflicts", []) for p in c.get("alternatives", [])]:
@@ -577,12 +700,13 @@ def normalize_companyfacts(data, company, as_of, source_meta=None, annual_limit=
                               "Company Facts does not carry the full filing context. Revisions may reflect restatements, stock splits, scope changes or tagging differences; flagged revisions are not automatically reconciled.",
                               "Fiscal labels come from primary filing focus and annual boundaries; SEC calendar frames are retained only as provenance.",
                               "Standalone quarters derived from cumulative values use exact matching fiscal starts/tags/units; cross-filing inputs are disclosed. EPS and weighted-average shares are never subtracted.",
-                              "Debt lease coverage, short-term borrowings, principal versus carrying value, and unverified share cells require filing-level review before valuation. Explicit split reviews cover exact approved observations only; outstanding share classes remain outside those reviews.",
+                              "Debt lease coverage, short-term borrowings, principal versus carrying value, and unverified share cells require filing-level review before valuation. Explicit split and scope reviews cover exact approved observations only. Weighted-average diluted shares and period-end outstanding shares are separate concepts, and neither is a current quote-date share count.",
                               "Cash excludes marketable securities unless independently presented as short_term_investments. Cash plus investments is not assumed to be unrestricted cash.",
                               "This is a selected historical metric schedule, not complete statements, a three-statement model, consensus, forecasts or a valuation.",
                               "Full balance-sheet and cash-flow reconciliations are outside the selected metric scope and have not been performed."]
     if discovery_issues:
         history["period_discovery_issues"] = discovery_issues
+    refresh_review_summary(history)
     validate_history(history)
     history["validation_checks"].append({"check": "schema_provenance_units_cutoff_and_quarter_boundaries", "result": "pass"})
     return history
@@ -655,6 +779,11 @@ def validate_history(history):
     reviews = eligible_normalization_reviews(history.get("normalization_reviews", []), history["cik"], history["as_of"])
     kb.need(reviews == history.get("normalization_reviews", []), "financial history contains future normalization evidence")
     review_by_id = {r["review_id"]: r for r in reviews}
+    for review in reviews:
+        for evidence in review["evidence"]:
+            indexed = history["source_index"].get(evidence["source_id"], {})
+            kb.need(indexed.get("sha256") == evidence["sha256"] and indexed.get("url") == evidence["url"]
+                    and indexed.get("as_of_date") == evidence["filed"], "normalization evidence binding mismatch")
     ids = set()
     for p in history["periods"]:
         kb.need(p["id"] not in ids, "duplicate normalized period")
@@ -686,10 +815,12 @@ def validate_history(history):
                 kb.need(basis["review_id"] in review_by_id, "unindexed share normalization review")
                 kb.need(all(s in history["source_index"] for s in cell["share_basis"]["evidence_source_ids"]), "unindexed split evidence")
                 review = review_by_id[basis["review_id"]]
+                kb.need(basis["evidence_source_ids"] == [s["source_id"] for s in review["evidence"]],
+                        "split evidence identity mismatch")
                 observations = {_observation_key(o): o for o in review["observations"]}
                 observation = observations.get(_observation_key(cell["provenance"][0]))
                 kb.need(observation is not None, "normalized share fact is outside its reviewed source observations")
-                kb.need(metric in NONADDITIVE and basis["basis"] == "post_split"
+                kb.need(review["type"] == "stock_split" and metric in SHARE_METRICS and basis["basis"] == "post_split"
                         and basis["new_shares_per_old_share"] == review["new_shares_per_old_share"]
                         and basis["source_basis"] == observation["split_basis"], "share normalization basis mismatch")
                 factor = 1
@@ -698,6 +829,36 @@ def validate_history(history):
                     kb.need(cell["status"] == "derived" and cell["evidence_label"] == "derived_calculation", "split adjustment must be labeled as derived")
                 kb.need(math.isclose(cell["value"], observation["source_value"] * factor, rel_tol=1e-12, abs_tol=1e-12),
                         "normalized share value does not match its source and split factor")
+                for conflict in cell.get("resolved_conflicts", []):
+                    kb.need(conflict.get("review_id") == review["review_id"]
+                            and conflict["type"] == "historical_value_revision_or_context_conflict",
+                            "unsupported split conflict resolution")
+                    for source in conflict.get("alternatives", []):
+                        alternative = observations.get(_observation_key(source))
+                        kb.need(alternative is not None and alternative["split_basis"] != observation["split_basis"],
+                                "split resolution has unreviewed or same-basis alternative")
+                        alt_factor = (1 / review["new_shares_per_old_share"] if metric.startswith("eps_")
+                                      else review["new_shares_per_old_share"]) if alternative["split_basis"] == "pre_split" else 1
+                        tolerance = 0.5 * (10 ** -observation["decimals"] * factor + 10 ** -alternative["decimals"] * alt_factor)
+                        kb.need(abs(observation["source_value"] * factor - alternative["source_value"] * alt_factor) <= tolerance + 1e-9,
+                                "split resolution does not reconcile source rounding intervals")
+            if cell.get("scope_review"):
+                scope = cell["scope_review"]
+                review = review_by_id.get(scope.get("review_id"))
+                kb.need(review is not None and review["type"] == "filing_scope", "unindexed filing scope review")
+                observations = {_observation_key(o): o for o in review["observations"] if o["metric"] == metric}
+                bound = [observations.get(_observation_key(s)) for s in cell["provenance"]]
+                kb.need(bound and all(o is not None and o["scope"] == scope["scope"] for o in bound),
+                        "fact is outside its reviewed scope observations")
+                kb.need(scope["evidence_source_ids"] == [e["source_id"] for e in review["evidence"]],
+                        "scope evidence identity mismatch")
+                for evidence in review["evidence"]:
+                    indexed = history["source_index"].get(evidence["source_id"], {})
+                    kb.need(indexed.get("sha256") == evidence["sha256"] and indexed.get("url") == evidence["url"]
+                            and indexed.get("as_of_date") == evidence["filed"], "unindexed filing scope evidence")
+            if cell["model_usable"] and metric in SHARE_METRICS | DEBT_METRICS:
+                kb.need(bool(cell.get("share_basis") or cell.get("scope_review")),
+                        "share or debt eligibility requires exact bound review evidence")
             for source in cell["provenance"]:
                 kb.need(isinstance(source['source_value'], (int, float)) and not isinstance(source['source_value'], bool)
                         and math.isfinite(source['source_value']), 'invalid source number')
