@@ -32,6 +32,25 @@ def fixtures(count=12):
 
 
 class DirectoryTests(unittest.TestCase):
+    def test_legal_name_equivalence_does_not_merge_distinct_business_names(self):
+        for listing, issuer in [('Alcoa Corporation Common Stock', 'Alcoa Corp'),
+            ('ABM Industries Incorporated Common Stock', 'ABM INDUSTRIES INC /DE/'),
+            ('Arbor Realty Trust Common Stock', 'ARBOR REALTY TRUST INC'),
+            ('Berkshire Hathaway Inc. New Common Stock', 'BERKSHIRE HATHAWAY INC'),
+            ('Ares Acquisition Corporation III Class A Ordinary Shares', 'Ares Acquisition Corp III')]:
+            self.assertTrue(directory._name_matches(listing, issuer))
+        for listing, issuer in [('Apple Holdings Inc Common Stock', 'Apple Inc'),
+            ('Company 10 Common Stock', 'Company 1'), ('Acme Group Common Stock', 'Acme Corp'),
+            ('Acme New Business Common Stock', 'Acme'), ('Different Corp', 'Acme Corp')]:
+            self.assertFalse(directory._name_matches(listing, issuer))
+
+    def test_sec_symbol_equivalence_preserves_class_and_preferred_series(self):
+        self.assertEqual(directory.sec_symbol({'ticker': 'BRK.B', 'instrument_type': 'common_stock'}), 'BRK-B')
+        self.assertEqual(directory.sec_symbol({'ticker': 'BAC$B', 'instrument_type': 'preferred'}), 'BAC-PB')
+        self.assertNotEqual(directory.sec_symbol({'ticker': 'BRK.A', 'instrument_type': 'common_stock'}), 'BRK-B')
+        self.assertTrue(directory.sec_venue_matches('NYSE_AMERICAN', {'NYSE'}))
+        self.assertFalse(directory.sec_venue_matches('NASDAQ', {'NYSE'}))
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)

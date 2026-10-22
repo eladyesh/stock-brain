@@ -24,6 +24,13 @@ These cover SEC filers, not a guaranteed complete universe of currently tradable
 stocks. Nasdaq Trader directories establish current exchange/symbol slots;
 submissions match a slot to CIK only when ticker, venue and issuer name agree.
 Ticker and exchange arrays are not presumed to have matching positions.
+Matching normalizes explicit legal spellings (Corporation/Corp, Incorporated/Inc,
+Limited/Ltd, Company/Co), SEC jurisdiction suffixes, and class/preferred symbol
+separators. Business-name words such as Holdings and Group remain significant;
+no fuzzy or edit-distance match is used. Ambiguous symbol aliases are quarantined.
+SEC's NYSE venue family may match a Nasdaq directory's specific NYSE venue,
+which is preserved unchanged. Observed source pairs include BRK.B/BRK-B,
+BAC$B/BAC-PB, and ACCS with NYSE American in the directory versus NYSE at SEC.
 
 The earlier undeclared-identity denial was resolved using the operator-supplied
 contact on the same Render origin. Pilot Company Facts retrievals and both archive
