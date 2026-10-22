@@ -184,14 +184,40 @@ class BulkTests(unittest.TestCase):
         self.assertEqual(self.store.get_payload('123', 'automatic_changes')['classification'], 'quality_review_required')
         self.assertEqual(self.store.get_payload('123', 'submissions')['recent_filing_inventory'][0]['form'], '20-F')
 
-    def test_missing_facts_does_not_publish_partial_financial_refresh(self):
+    def test_missing_facts_keeps_valid_filing_metadata_without_financial_coverage(self):
         sub = self.archive('submissions', {'CIK0000000123.json': issuer()})
         facts = self.archive('companyfacts', {'CIK0000000999.json': {'cik': 999, 'facts': {}}})
         bulk.import_issuers(self.store, sub)
         result = bulk.collect_financials(self.store, sub, facts, root=self.root)
         self.assertEqual(result['failed'], 1)
         self.assertIsNone(self.store.get_payload('123', 'history'))
-        self.assertIsNone(self.store.get_payload('123', 'collector_state'))
+        state = self.store.get_payload('123', 'collector_state')
+        self.assertEqual(state['last_action'], 'filings_only_financials_incomplete')
+        self.assertIsNone(state['latest_financial_accession'])
+        self.assertIsNone(state['facts_checked_at'])
+        item = directory.list_securities(self.store, query='T0')['items'][0]
+        self.assertEqual(item['datasets']['filings']['status'], 'retained')
+        self.assertEqual(item['datasets']['financials']['status'], 'not_collected')
+
+    def test_delayed_facts_preserves_history_and_processed_accession(self):
+        sub, facts = self.sources()
+        bulk.import_issuers(self.store, sub)
+        bulk.collect_financials(self.store, sub, facts, root=self.root)
+        before = self.store.get_payload_record('123', 'history')
+        state = self.store.get_payload('123', 'collector_state')
+        newer = issuer()
+        newer['filings']['recent']['accessionNumber'] = ['0000000123-26-999999']
+        new_sub = self.archive('submissions', {'CIK0000000123.json': newer}, filename='late-sub.zip')
+        bulk.import_issuers(self.store, new_sub)
+        result = bulk.collect_financials(self.store, new_sub, facts, root=self.root)
+        self.assertEqual(result['failed'], 1)
+        self.assertEqual(self.store.get_payload_record('123', 'history'), before)
+        after = self.store.get_payload('123', 'collector_state')
+        self.assertEqual(after['latest_financial_accession'], state['latest_financial_accession'])
+        self.assertEqual(after['facts_checked_at'], state['facts_checked_at'])
+        self.assertEqual(self.store.get_payload('123', 'submissions')['recent_filing_inventory'][0]['accession'],
+                         '0000000123-26-999999')
+        self.assertEqual(self.store.get_payload('123', 'automatic_changes')['changes'], [])
 
     def test_paths_duplicates_hashes_size_and_identity_are_validated(self):
         sub, _ = self.sources()

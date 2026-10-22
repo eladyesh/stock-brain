@@ -1,5 +1,28 @@
 # Stock Brain development log
 
+## 2026-10-22 — First verified nationwide SEC generation
+
+Actions run `39824575079` acquired both official SEC archives, completed the
+989,957-issuer identity scan and published `coverage-20261022-39824575079-1`.
+Off-host cold recovery passed at 17:52 UTC. The 146,640,896-byte snapshot has
+4,120 distinct mapped issuers / 4,234 mapped stock listings, 3,083 listings with
+normalized financial history and 4,042 with filing metadata. These are measured
+coverage counts, not complete market/research coverage. Render deploy
+`dep-dbd4r9ei0phs73eou6tg` became live at 17:54 UTC and served this generation.
+
+The real run exposed 27 normalization failures: derived gross profit could keep
+its initial eligibility after a later source-definition check blocked revenue.
+Derived calculations now inherit later input gates; values/provenance remain
+visible but blocked for modeling. The validator remains strict. A read-only AD
+Company Facts diagnostic reproduced the issue (SHA-256
+`4bb2ad4e52b5e2ea8e34b8fab4b881009101215fa0c25af5895a4e947c4b7938`).
+
+Bulk jobs now retain independently validated filing metadata when financial
+collection fails, keeping the old financial history and processed accession.
+These failures remain quarantined and counted; metadata does not assert fresh
+financials. Missing/latest-amendment XBRL, foreign accounting/forms, OTC, broad
+prices/news/ownership and reviewed research remain separate coverage gaps.
+
 ## 2026-10-22 — Broad SEC acquisition after legitimate access recovery
 
 The operator supplied the missing contact. A same-origin Render Company Facts

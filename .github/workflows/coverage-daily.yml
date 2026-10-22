@@ -3,7 +3,7 @@ name: Refresh US stock coverage
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/coverage-daily.yml', 'scripts/market_directory.py', 'scripts/sec_acquire.py', 'scripts/sec_bulk.py', 'scripts/coverage_worker.py']
+    paths: ['.github/workflows/coverage-daily.yml', 'scripts/market_directory.py', 'scripts/sec_acquire.py', 'scripts/sec_bulk.py', 'scripts/coverage_worker.py', 'scripts/financial_history.py']
   workflow_dispatch:
   schedule:
     - cron: '23 9 * * *'

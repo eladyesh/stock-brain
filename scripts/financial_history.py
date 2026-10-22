@@ -406,6 +406,8 @@ def apply_normalization_reviews(history, canonical_reviews):
 
 def refresh_review_summary(history):
     """Recount open evidence gates after exact reviews without erasing other QA."""
+    for cells in history['financials'].values():
+        propagate_derived_gates(cells)
     groups = {"share_basis_unverified": (SHARE_METRICS, "share_split_and_corporate_action_basis_unverified"),
               "debt_scope_unverified": (DEBT_METRICS, "debt_scope_requires_filing_review")}
     kept = []
@@ -584,6 +586,32 @@ def fill_derived_metrics(cells):
             cells["debt_total"]["comparison_status"] = "not_comparable"
     if cells["debt_total"]["value"] is None:
         cells["debt_total"]["note"] = "Complete, compatible debt coverage is not established by accepted tags. Missing short-term debt is not zero; long-term principal, carrying value and lease obligations must be reconciled."
+
+
+def propagate_derived_gates(cells):
+    """Later series/scope checks can only close a calculation's eligibility.
+
+    Retain the reported inputs, calculated value and provenance. Never reopen
+    an existing gate or reinterpret a standalone cumulative difference.
+    """
+    for metric, keys in (
+        ('free_cash_flow', ('operating_cash_flow', 'capex')),
+        ('gross_profit', ('revenue', 'cost_of_revenue')),
+        ('debt_total', ('debt_current', 'debt_noncurrent')
+            if cells['debt_total'].get('formula', '').startswith('current debt +')
+            else ('long_term_debt_total', 'short_term_borrowings')),
+    ):
+        cell = cells[metric]
+        if cell['status'] != 'derived' or cell.get('share_basis'):
+            continue
+        if metric == 'gross_profit' and cell.get('formula') != 'revenue minus cost_of_revenue':
+            continue
+        inputs = [cells[key] for key in keys]
+        if any(not value['model_usable'] for value in inputs):
+            cell['model_usable'] = False
+            cell['comparison_status'] = 'not_comparable'
+            cell['flags'] = sorted(set(cell['flags']) | {'derived_input_requires_review'} |
+                                   {flag for value in inputs for flag in value['flags']})
 
 
 def normalize_companyfacts(data, company, as_of, source_meta=None, annual_limit=5, quarterly_limit=12, normalization_reviews=None):
