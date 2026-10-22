@@ -1,5 +1,23 @@
 # Stock Brain development log
 
+## 2026-10-22 — broad directory and daily data releases
+
+Added strict import of both official Nasdaq Trader exchange directories, separate
+listing-slot/issuer identities, explicit instrument classification, paginated
+security search and per-dataset gaps. The real October 22 source files contained
+13,293 rows: 13,256 non-test securities and 5,958 equity candidates under the
+documented classifier. These are not 5,958 completed company research profiles.
+
+Added a daily GitHub workflow, verified immutable compressed SQLite releases,
+published-byte cold recovery and generation-based web replication. An optional
+Financial Datasets adapter requires a server key, public-use license confirmation
+and a daily request cap. Its durable reservation prevents failed-run retries from
+resetting that daily cap. SEC remains disabled; no paid resource was provisioned.
+
+The operating contract and remaining work are in
+[Broad market operations](BROAD_MARKET_OPERATIONS.md). Production commit/run IDs
+and verification results will be recorded in the release PR after deployment.
+
 ## 2026-10-22 — automated coverage foundation and research workbench
 
 The user clarified that the main objective is code infrastructure for future
