@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001805077 | [Eos Energy Enterprises, Inc.](../companies/0001805077/README.md) | EOSE | available, quality gates apply |
 | 0001805284 | [Rocket Companies, Inc.](../companies/0001805284/README.md) | RKT | available, quality gates apply |
 | 0001805385 | [Evolv Technologies Holdings, Inc.](../companies/0001805385/README.md) | EVLV | available, quality gates apply |
 | 0001805521 | [FARADAY FUTURE INTELLIGENT ELECTRIC INC.](../companies/0001805521/README.md) | FFAI | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001819253 | [biote Corp.](../companies/0001819253/README.md) | BTMD | available, quality gates apply |
 | 0001819404 | [Nerdy Inc.](../companies/0001819404/README.md) | NRDY | available, quality gates apply |
 | 0001819411 | [Gain Therapeutics, Inc.](../companies/0001819411/README.md) | GANX | available, quality gates apply |
+| 0001819493 | [Xos, Inc.](../companies/0001819493/README.md) | XOS | available, quality gates apply |

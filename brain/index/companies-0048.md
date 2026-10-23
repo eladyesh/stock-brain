@@ -4,9 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001926599 | [Translational Development Acquisition Corp.](../companies/0001926599/README.md) | TDAC | available, quality gates apply |
-| 0001926792 | [SAMFINE CREATION HOLDINGS GROUP Ltd](../companies/0001926792/README.md) | SFHG | not available |
-| 0001927578 | [NetClass Technology Inc](../companies/0001927578/README.md) | NTCL | not available |
 | 0001927719 | [Freightos Ltd](../companies/0001927719/README.md) | CRGO | not available |
 | 0001927958 | [AIRO Group Holdings, Inc.](../companies/0001927958/README.md) | AIRO | available, quality gates apply |
 | 0001928340 | [GOLDEN HEAVEN GROUP HOLDINGS LTD.](../companies/0001928340/README.md) | GDHG | not available |
@@ -15,6 +12,7 @@
 | 0001928948 | [High-Trend International Group](../companies/0001928948/README.md) | HTCO | not available |
 | 0001929561 | [RXO, Inc.](../companies/0001929561/README.md) | RXO | available, quality gates apply |
 | 0001929783 | [WORK Medical Technology Group LTD](../companies/0001929783/README.md) | WOK | not available |
+| 0001929908 | [Black Mammoth Metals Corp](../companies/0001929908/README.md) | BMMX | not available |
 | 0001930021 | [New Horizon Aircraft Ltd.](../companies/0001930021/README.md) | HOVR | not available |
 | 0001930147 | [Sound Point Meridian Capital, Inc.](../companies/0001930147/README.md) | SPMC | not available |
 | 0001930179 | [ARB IOT Group Ltd](../companies/0001930179/README.md) | ARBB | not available |
@@ -104,3 +102,5 @@
 | 0001953021 | [Mega Matrix Inc](../companies/0001953021/README.md) | MPU | not available |
 | 0001953366 | [Star Holdings](../companies/0001953366/README.md) | STHO | available, quality gates apply |
 | 0001953530 | [Oculis Holding AG](../companies/0001953530/README.md) | OCS | not available |
+| 0001953575 | [Collective Mining Ltd.](../companies/0001953575/README.md) | CNL | not available |
+| 0001953926 | [Zenas BioPharma, Inc.](../companies/0001953926/README.md) | ZBIO | available, quality gates apply |

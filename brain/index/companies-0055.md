@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002083125 | [PRESIDIO PRODUCTION Co](../companies/0002083125/README.md) | FTW | not available |
 | 0002083143 | [Social Commerce Partners Corp](../companies/0002083143/README.md) | SCPQ | available, quality gates apply |
 | 0002083217 | [QDRO Acquisition Corp.](../companies/0002083217/README.md) | QADR | available, quality gates apply |
 | 0002083452 | [Shreya Acquisition Group](../companies/0002083452/README.md) | SAGU | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0002096900 | [Averin Capital Acquisition Corp.](../companies/0002096900/README.md) | ACAA | available, quality gates apply |
 | 0002096997 | [Kailera Therapeutics, Inc.](../companies/0002096997/README.md) | KLRA | available, quality gates apply |
 | 0002097163 | [Xanadu Quantum Technologies Ltd](../companies/0002097163/README.md) | XNDU | not available |
+| 0002097288 | [BHAV Acquisition Corp](../companies/0002097288/README.md) | BHAV | available, quality gates apply |

@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001787117 | [Reformation Inc.](../companies/0001787117/README.md) | REF | available, quality gates apply |
 | 0001787297 | [Passage BIO, Inc.](../companies/0001787297/README.md) | PASG | available, quality gates apply |
 | 0001787306 | [Arcutis Biotherapeutics, Inc.](../companies/0001787306/README.md) | ARQT | available, quality gates apply |
 | 0001787400 | [Nkarta, Inc.](../companies/0001787400/README.md) | NKTX | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001804176 | [Butterfly Network, Inc.](../companies/0001804176/README.md) | BFLY | available, quality gates apply |
 | 0001804469 | [Guardforce AI Co., Ltd.](../companies/0001804469/README.md) | GFAI | not available |
 | 0001804745 | [Driven Brands Holdings Inc.](../companies/0001804745/README.md) | DRVN | available, quality gates apply |
+| 0001805077 | [Eos Energy Enterprises, Inc.](../companies/0001805077/README.md) | EOSE | available, quality gates apply |

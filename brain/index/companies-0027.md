@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001493594 | [MACOM Technology Solutions Holdings, Inc.](../companies/0001493594/README.md) | MTSI | available, quality gates apply |
 | 0001493683 | [BlackRock Taxable Municipal Bond Trust](../companies/0001493683/README.md) | BBN | not available |
 | 0001493761 | [Turtle Beach Corp](../companies/0001493761/README.md) | TBCH | available, quality gates apply |
 | 0001494259 | [CarGurus, Inc.](../companies/0001494259/README.md) | CARG | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001514597 | [FURY GOLD MINES LTD](../companies/0001514597/README.md) | FURY | not available |
 | 0001514705 | [SunCoke Energy, Inc.](../companies/0001514705/README.md) | SXC | available, quality gates apply |
 | 0001514991 | [AMC Global Media Inc.](../companies/0001514991/README.md) | AMCX | available, quality gates apply |
+| 0001515156 | [Arq, Inc.](../companies/0001515156/README.md) | ARQ | available, quality gates apply |

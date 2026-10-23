@@ -4,9 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [DUK](../unmapped/2972a9eb1b71e6185798238b6ccea59f.md) | NYSE | Duke Energy Corporation (Holding Company) Common Stock |
-| [DX$C](../unmapped/30ab2d3ffb4a9c3dd283a4ed94384d16.md) | NYSE | Dynex Capital, Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock |
-| [DX$D](../unmapped/01183624540c4fc779c5f24dc7711e3e.md) | NYSE | Dynex Capital, Inc. 9.375% Series D Fixed-Rate Cumulative Redeemable Preferred Stock |
 | [ECC$D](../unmapped/5e773d91e92bda323f3fe54173ba440a.md) | NYSE | Eagle Point Credit Company 6.75% Series D Preferred Stock |
 | [ECCC](../unmapped/948a22e0f2adc53191c31a8edda44f12.md) | NYSE | Eagle Point Credit Company 6.50% Series C Term Preferred Stock due 2031 |
 | [EDN](../unmapped/667f031b12db14774aa2591ee2954206.md) | NYSE | Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares |
@@ -95,6 +92,7 @@
 | [ITUB](../unmapped/7842915ff62e5f35882673eff036ff1f.md) | NYSE | Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares) |
 | [IVR$C](../unmapped/ff7069bcf6bc5eb3b005896e70529582.md) | NYSE | INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock, Liquation Preference $25.00 per Share |
 | [JBK](../unmapped/3da09c893941bda2f8809d3d0eee4ac1.md) | NYSE | Lehman ABS 3.50 3.50% Adjustable Corp Backed Tr Certs GS Cap I |
+| [JKS](../unmapped/40247a0a3bd981524913a9948404cb1b.md) | NYSE | Jinko Holdings Limited American Depositary Shares (each representing 4 Ordinary Shares) |
 | [KEY](../unmapped/d154215576510caa70967c0fcf313c2d.md) | NYSE | KeyCorp Common Stock |
 | [KEY$I](../unmapped/3b05d2a81b94eedcf66de022b1a64145.md) | NYSE | KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock, Series E |
 | [KEY$J](../unmapped/2779d734b7bc268cf7c6f6a945902c84.md) | NYSE | KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock, Series F |
@@ -104,3 +102,5 @@
 | [KKR$D](../unmapped/d44035c5d0a45dbfab5f1f94c122e117.md) | NYSE | KKR & Co. Inc. 6.25% Series D Mandatory Convertible Preferred Stock |
 | [KNF](../unmapped/b5db479f5ea9dcaaadf9c030fde09928.md) | NYSE | Knife Riv Holding Co. Common Stock |
 | [KREF$A](../unmapped/890ecb89e7dc5bba0b3801281a307143.md) | NYSE | KKR Real Estate Finance Trust Inc. 6.50% Series A Cumulative Redeemable Preferred Stock |
+| [KTH](../unmapped/61190f0b14a895e68ed784b32a7b24f2.md) | NYSE | Structures Products Cp 8% CorTS Issued by Peco Energy Cap Tr II Preferred Stock |
+| [KTN](../unmapped/0282cdd5577bb9c8de1b6809a3960707.md) | NYSE | Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS) |

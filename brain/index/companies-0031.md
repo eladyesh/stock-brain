@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001587732 | [ONE Gas, Inc.](../companies/0001587732/README.md) | OGS | available, quality gates apply |
 | 0001587987 | [NewtekOne, Inc.](../companies/0001587987/README.md) | NEWT, NEWTP | available, quality gates apply |
 | 0001588084 | [TANTECH HOLDINGS LTD](../companies/0001588084/README.md) | TANH | not available |
 | 0001588823 | [TFI International Inc.](../companies/0001588823/README.md) | TFII | not available |
@@ -15,7 +14,7 @@
 | 0001590364 | [FTAI Aviation Ltd.](../companies/0001590364/README.md) | FTAI | available, quality gates apply |
 | 0001590418 | [FOCUS UNIVERSAL INC.](../companies/0001590418/README.md) | FCUV | available, quality gates apply |
 | 0001590560 | [uniQure N.V.](../companies/0001590560/README.md) | QURE | not available |
-| 0001590714 | [Element Solutions Inc](../companies/0001590714/README.md) | ESI | not available |
+| 0001590714 | [Element Solutions Inc](../companies/0001590714/README.md) | ESI | available, quality gates apply |
 | 0001590715 | [American Resources Corp](../companies/0001590715/README.md) | AREC | available, quality gates apply |
 | 0001590717 | [CareTrust REIT, Inc.](../companies/0001590717/README.md) | CTRE | available, quality gates apply |
 | 0001590750 | [Viridian Therapeutics, Inc.\\DE](../companies/0001590750/README.md) | VRDN | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001609804 | [Orion S.A.](../companies/0001609804/README.md) | OEC | available, quality gates apply |
 | 0001609809 | [Seres Therapeutics, Inc.](../companies/0001609809/README.md) | MCRB | available, quality gates apply |
 | 0001610250 | [Boot Barn Holdings, Inc.](../companies/0001610250/README.md) | BOOT | available, quality gates apply |
+| 0001610590 | [MBody AI Ltd.](../companies/0001610590/README.md) | MBAI | not available |

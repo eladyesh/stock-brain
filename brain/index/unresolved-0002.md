@@ -4,9 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
-| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
-| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
@@ -104,3 +101,6 @@
 | [ABR$E](../unmapped/e076649714873b4c1e0875467be9b6df.md) | NYSE | Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock |
 | [ABR$F](../unmapped/93cb5e8665f99fda3b027454f3d2b43a.md) | NYSE | Arbor Realty Trust 6.25% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per share |
 | [ACP$A](../unmapped/88ead7aa96474957b7e31c1fc2109422.md) | NYSE | abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock |
+| [ACR$C](../unmapped/55e23ed58686440659099c87b8c89a69.md) | NYSE | ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock |
+| [ACR$D](../unmapped/e99a0fda36027ec41d4d0849947edd08.md) | NYSE | ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock |
+| [AEG](../unmapped/e90a06d8f8852583e177f75f61cf410d.md) | NYSE | Aegon Ltd. New York Registry Shares |

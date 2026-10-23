@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001829635 | [Transcode Therapeutics, Inc.](../companies/0001829635/README.md) | RNAZ | available, quality gates apply |
 | 0001829667 | [Regencell Bioscience Holdings Ltd](../companies/0001829667/README.md) | RGC | not available |
 | 0001829726 | [Triple Flag Precious Metals Corp.](../companies/0001829726/README.md) | TFPM | not available |
 | 0001829794 | [Empery Digital Inc.](../companies/0001829794/README.md) | EMPD | available, quality gates apply |
@@ -26,7 +25,6 @@
 | 0001831868 | [SeaStar Medical Holding Corp](../companies/0001831868/README.md) | ICU | available, quality gates apply |
 | 0001831907 | [LuxExperience B.V.](../companies/0001831907/README.md) | LUXE | not available |
 | 0001831915 | [Cytek Biosciences, Inc.](../companies/0001831915/README.md) | CTKB | available, quality gates apply |
-| 0001831979 | [Stardust Power Inc.](../companies/0001831979/README.md) | SDST | available, quality gates apply |
 | 0001832038 | [Invivyd, Inc.](../companies/0001832038/README.md) | IVVD | available, quality gates apply |
 | 0001832332 | [Aveanna Healthcare Holdings, Inc.](../companies/0001832332/README.md) | AVAH | available, quality gates apply |
 | 0001832466 | [Alignment Healthcare, Inc.](../companies/0001832466/README.md) | ALHC | available, quality gates apply |
@@ -104,3 +102,5 @@
 | 0001841209 | [MicroCloud Hologram Inc.](../companies/0001841209/README.md) | HOLO | available, quality gates apply |
 | 0001841330 | [Pasithea Therapeutics Corp.](../companies/0001841330/README.md) | KTTA | available, quality gates apply |
 | 0001841387 | [Candel Therapeutics, Inc.](../companies/0001841387/README.md) | CADL | available, quality gates apply |
+| 0001841408 | [Dave Inc./DE](../companies/0001841408/README.md) | DAVE | available, quality gates apply |
+| 0001841425 | [Verde Clean Fuels, Inc.](../companies/0001841425/README.md) | VGAS | available, quality gates apply |

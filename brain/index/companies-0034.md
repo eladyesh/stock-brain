@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001655210 | [BEYOND MEAT, INC.](../companies/0001655210/README.md) | BYND | available, quality gates apply |
 | 0001655759 | [ARVINAS, INC.](../companies/0001655759/README.md) | ARVN | available, quality gates apply |
 | 0001655888 | [Blue Owl Capital Corp](../companies/0001655888/README.md) | OBDC | available, quality gates apply |
 | 0001655891 | [TORM plc](../companies/0001655891/README.md) | TRMD | not available |
@@ -34,7 +33,7 @@
 | 0001662684 | [KULR Technology Group, Inc.](../companies/0001662684/README.md) | KULR | available, quality gates apply |
 | 0001662774 | [IRulya Therapeutics Inc.](../companies/0001662774/README.md) | IRLA | available, quality gates apply |
 | 0001662991 | [Sezzle Inc.](../companies/0001662991/README.md) | SEZL | available, quality gates apply |
-| 0001664703 | [Bloom Energy Corp](../companies/0001664703/README.md) | BE | not available |
+| 0001664703 | [Bloom Energy Corp](../companies/0001664703/README.md) | BE | available, quality gates apply |
 | 0001664710 | [Keros Therapeutics, Inc.](../companies/0001664710/README.md) | KROS | available, quality gates apply |
 | 0001665300 | [Phunware, Inc.](../companies/0001665300/README.md) | PHUN | available, quality gates apply |
 | 0001665918 | [US Foods Holding Corp.](../companies/0001665918/README.md) | USFD | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001680367 | [Shattuck Labs, Inc.](../companies/0001680367/README.md) | STTK | available, quality gates apply |
 | 0001680378 | [SenesTech, Inc.](../companies/0001680378/README.md) | SNES | available, quality gates apply |
 | 0001680581 | [Fulcrum Therapeutics, Inc.](../companies/0001680581/README.md) | FULC | available, quality gates apply |
+| 0001680637 | [Nuran Wireless Inc.](../companies/0001680637/README.md) | NUR | not available |

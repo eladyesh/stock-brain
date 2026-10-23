@@ -1,8 +1,8 @@
 # Stock Brain — Company Markdown
 
-Verified data release: `coverage-20261022-39831584719-1`. Source created: 2026-10-22T18:45:53.881812+00:00.
+Verified data release: `coverage-20261023-39925380279-1`. Source created: 2026-10-23T08:47:59.341415+00:00.
 
-**5634 distinct mapped issuers**, **5864 mapped stock listings**, **606 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
+**5634 distinct mapped issuers**, **5864 mapped stock listings**, **604 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
 
 ## Company pages
 
@@ -33,38 +33,38 @@ Verified data release: `coverage-20261022-39831584719-1`. Source created: 2026-1
 | [23](index/companies-0023.md) | 0001367644 | 0001396440 |
 | [24](index/companies-0024.md) | 0001396536 | 0001425450 |
 | [25](index/companies-0025.md) | 0001426800 | 0001464591 |
-| [26](index/companies-0026.md) | 0001464790 | 0001493318 |
-| [27](index/companies-0027.md) | 0001493594 | 0001514991 |
-| [28](index/companies-0028.md) | 0001515156 | 0001534504 |
-| [29](index/companies-0029.md) | 0001534525 | 0001564180 |
-| [30](index/companies-0030.md) | 0001564408 | 0001587523 |
-| [31](index/companies-0031.md) | 0001587732 | 0001610250 |
-| [32](index/companies-0032.md) | 0001610590 | 0001633917 |
-| [33](index/companies-0033.md) | 0001633978 | 0001655099 |
-| [34](index/companies-0034.md) | 0001655210 | 0001680581 |
-| [35](index/companies-0035.md) | 0001680637 | 0001704287 |
-| [36](index/companies-0036.md) | 0001704292 | 0001723128 |
-| [37](index/companies-0037.md) | 0001723464 | 0001745999 |
-| [38](index/companies-0038.md) | 0001746109 | 0001768666 |
-| [39](index/companies-0039.md) | 0001769256 | 0001786842 |
-| [40](index/companies-0040.md) | 0001787117 | 0001804745 |
-| [41](index/companies-0041.md) | 0001805077 | 0001819411 |
-| [42](index/companies-0042.md) | 0001819493 | 0001829576 |
-| [43](index/companies-0043.md) | 0001829635 | 0001841387 |
-| [44](index/companies-0044.md) | 0001841408 | 0001853962 |
-| [45](index/companies-0045.md) | 0001854139 | 0001867096 |
-| [46](index/companies-0046.md) | 0001867102 | 0001889823 |
-| [47](index/companies-0047.md) | 0001890361 | 0001926314 |
-| [48](index/companies-0048.md) | 0001926599 | 0001953530 |
-| [49](index/companies-0049.md) | 0001953575 | 0001979610 |
-| [50](index/companies-0050.md) | 0001980088 | 0002003061 |
-| [51](index/companies-0051.md) | 0002003292 | 0002024258 |
-| [52](index/companies-0052.md) | 0002024459 | 0002041385 |
-| [53](index/companies-0053.md) | 0002041493 | 0002065948 |
-| [54](index/companies-0054.md) | 0002066836 | 0002083002 |
-| [55](index/companies-0055.md) | 0002083125 | 0002097163 |
-| [56](index/companies-0056.md) | 0002097288 | 0002125567 |
-| [57](index/companies-0057.md) | 0002126043 | 0002153598 |
+| [26](index/companies-0026.md) | 0001464790 | 0001493594 |
+| [27](index/companies-0027.md) | 0001493683 | 0001515156 |
+| [28](index/companies-0028.md) | 0001515324 | 0001534525 |
+| [29](index/companies-0029.md) | 0001534675 | 0001564408 |
+| [30](index/companies-0030.md) | 0001564708 | 0001587732 |
+| [31](index/companies-0031.md) | 0001587987 | 0001610590 |
+| [32](index/companies-0032.md) | 0001610601 | 0001633978 |
+| [33](index/companies-0033.md) | 0001634117 | 0001655210 |
+| [34](index/companies-0034.md) | 0001655759 | 0001680637 |
+| [35](index/companies-0035.md) | 0001680873 | 0001704292 |
+| [36](index/companies-0036.md) | 0001704711 | 0001723464 |
+| [37](index/companies-0037.md) | 0001723690 | 0001746109 |
+| [38](index/companies-0038.md) | 0001746129 | 0001769256 |
+| [39](index/companies-0039.md) | 0001769484 | 0001787117 |
+| [40](index/companies-0040.md) | 0001787297 | 0001805077 |
+| [41](index/companies-0041.md) | 0001805284 | 0001819493 |
+| [42](index/companies-0042.md) | 0001819516 | 0001829635 |
+| [43](index/companies-0043.md) | 0001829667 | 0001841425 |
+| [44](index/companies-0044.md) | 0001841644 | 0001854270 |
+| [45](index/companies-0045.md) | 0001854368 | 0001867729 |
+| [46](index/companies-0046.md) | 0001867834 | 0001891027 |
+| [47](index/companies-0047.md) | 0001891101 | 0001927578 |
+| [48](index/companies-0048.md) | 0001927719 | 0001953926 |
+| [49](index/companies-0049.md) | 0001953984 | 0001980210 |
+| [50](index/companies-0050.md) | 0001980845 | 0002003292 |
+| [51](index/companies-0051.md) | 0002003977 | 0002024459 |
+| [52](index/companies-0052.md) | 0002024460 | 0002041493 |
+| [53](index/companies-0053.md) | 0002041610 | 0002066836 |
+| [54](index/companies-0054.md) | 0002067129 | 0002083125 |
+| [55](index/companies-0055.md) | 0002083143 | 0002097288 |
+| [56](index/companies-0056.md) | 0002097364 | 0002126043 |
+| [57](index/companies-0057.md) | 0002126198 | 0002153598 |
 
 ## Unresolved listing pages
 
@@ -76,7 +76,7 @@ Verified data release: `coverage-20261022-39831584719-1`. Source created: 2026-1
 | [4](index/unresolved-0004.md) | 100 |
 | [5](index/unresolved-0005.md) | 100 |
 | [6](index/unresolved-0006.md) | 100 |
-| [7](index/unresolved-0007.md) | 6 |
+| [7](index/unresolved-0007.md) | 4 |
 
 [Coverage gaps and next research tasks](GAPS.md)
 

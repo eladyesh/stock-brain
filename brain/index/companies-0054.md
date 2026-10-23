@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002066836 | [Conexeu Sciences Inc.](../companies/0002066836/README.md) | CNXU | available, quality gates apply |
 | 0002067129 | [Neptune Insurance Holdings Inc.](../companies/0002067129/README.md) | NP | available, quality gates apply |
 | 0002067592 | [McKinley Acquisition Corp](../companies/0002067592/README.md) | MKLY | available, quality gates apply |
 | 0002067627 | [Terra Innovatum Global N.V.](../companies/0002067627/README.md) | NKLR | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0002082847 | [Blue Water Acquisition Corp. IV](../companies/0002082847/README.md) | BWIV | available, quality gates apply |
 | 0002082866 | [Pinnacle Financial Partners, Inc.](../companies/0002082866/README.md) | PNFP | available, quality gates apply |
 | 0002083002 | [American Drive Acquisition Co](../companies/0002083002/README.md) | ADAC | available, quality gates apply |
+| 0002083125 | [PRESIDIO PRODUCTION Co](../companies/0002083125/README.md) | FTW | not available |

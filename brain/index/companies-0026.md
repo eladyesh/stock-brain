@@ -68,7 +68,6 @@
 | 0001479615 | [Silence Therapeutics plc](../companies/0001479615/README.md) | SLN | available, quality gates apply |
 | 0001479681 | [Nutex Health Inc.](../companies/0001479681/README.md) | NUTX | available, quality gates apply |
 | 0001481241 | [Performance Shipping Inc.](../companies/0001481241/README.md) | PSHG | not available |
-| 0001481513 | [JinkoSolar Holding Co., Ltd.](../companies/0001481513/README.md) | JKS | not available |
 | 0001481582 | [Ryerson Holding Corp](../companies/0001481582/README.md) | RYZ | available, quality gates apply |
 | 0001481792 | [Quad/Graphics, Inc.](../companies/0001481792/README.md) | QUAD | not available |
 | 0001482512 | [Hudson Pacific Properties, Inc.](../companies/0001482512/README.md) | HPP | not available |
@@ -104,3 +103,4 @@
 | 0001492298 | [Sabra Health Care REIT, Inc.](../companies/0001492298/README.md) | SBRA | available, quality gates apply |
 | 0001492691 | [Knight-Swift Transportation Holdings Inc.](../companies/0001492691/README.md) | KNX | not available |
 | 0001493318 | [eToro Group Ltd.](../companies/0001493318/README.md) | ETOR | not available |
+| 0001493594 | [MACOM Technology Solutions Holdings, Inc.](../companies/0001493594/README.md) | MTSI | available, quality gates apply |

@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001854139 | [Zevia PBC](../companies/0001854139/README.md) | ZVIA | available, quality gates apply |
-| 0001854270 | [Senti Biosciences Holdings, Inc.](../companies/0001854270/README.md) | SNTI | available, quality gates apply |
 | 0001854368 | [Digi Power X Inc.](../companies/0001854368/README.md) | DGXX | available, quality gates apply |
 | 0001854445 | [Brightline Interactive, Inc./NV](../companies/0001854445/README.md) | BTLN | available, quality gates apply |
 | 0001854545 | [Dingdong (Cayman) Ltd](../companies/0001854545/README.md) | DDL | not available |
@@ -104,3 +102,5 @@
 | 0001867072 | [Kyndryl Holdings, Inc.](../companies/0001867072/README.md) | KD | available, quality gates apply |
 | 0001867090 | [Fundrise Innovation Fund, LLC](../companies/0001867090/README.md) | VCX | not available |
 | 0001867096 | [Xeris Biopharma Holdings, Inc.](../companies/0001867096/README.md) | XERS | available, quality gates apply |
+| 0001867102 | [Vertical Aerospace Ltd.](../companies/0001867102/README.md) | EVTL | not available |
+| 0001867729 | [WeRide Inc.](../companies/0001867729/README.md) | WRD | not available |

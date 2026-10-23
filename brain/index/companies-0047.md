@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001890361 | [ASPAC III Acquisition Corp.](../companies/0001890361/README.md) | ASPC | available, quality gates apply |
-| 0001891027 | [MNTN, Inc.](../companies/0001891027/README.md) | MNTN | available, quality gates apply |
 | 0001891101 | [BRC Inc.](../companies/0001891101/README.md) | BRCC | available, quality gates apply |
 | 0001891856 | [GEN Restaurant Group, Inc.](../companies/0001891856/README.md) | GENK | available, quality gates apply |
 | 0001891944 | [Primech Holdings Ltd](../companies/0001891944/README.md) | PMEC | not available |
@@ -37,7 +35,6 @@
 | 0001899005 | [Beamr Imaging Ltd.](../companies/0001899005/README.md) | BMR | not available |
 | 0001899123 | [Bitdeer Technologies Group](../companies/0001899123/README.md) | BTDR | not available |
 | 0001899287 | [Amprius Technologies, Inc.](../companies/0001899287/README.md) | AMPX | available, quality gates apply |
-| 0001899830 | [Perfect Corp.](../companies/0001899830/README.md) | PERF | not available |
 | 0001899883 | [FTAI Infrastructure Inc.](../companies/0001899883/README.md) | FIP | available, quality gates apply |
 | 0001900304 | [Haleon plc](../companies/0001900304/README.md) | HLN | not available |
 | 0001901203 | [CN Healthy Food Tech Group Corp.](../companies/0001901203/README.md) | UCFI | available, quality gates apply |
@@ -104,3 +101,6 @@
 | 0001925283 | [Lincoln International, Inc.](../companies/0001925283/README.md) | LCLN | available, quality gates apply |
 | 0001926293 | [Green Circle Decarbonize Technology Ltd](../companies/0001926293/README.md) | GCDT | not available |
 | 0001926314 | [Ocean Capital Acquisition Corp](../companies/0001926314/README.md) | OCAC | available, quality gates apply |
+| 0001926599 | [Translational Development Acquisition Corp.](../companies/0001926599/README.md) | TDAC | available, quality gates apply |
+| 0001926792 | [SAMFINE CREATION HOLDINGS GROUP Ltd](../companies/0001926792/README.md) | SFHG | not available |
+| 0001927578 | [NetClass Technology Inc](../companies/0001927578/README.md) | NTCL | not available |

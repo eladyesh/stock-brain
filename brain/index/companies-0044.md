@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001841408 | [Dave Inc./DE](../companies/0001841408/README.md) | DAVE | available, quality gates apply |
-| 0001841425 | [Verde Clean Fuels, Inc.](../companies/0001841425/README.md) | VGAS | available, quality gates apply |
 | 0001841644 | [PicS N.V.](../companies/0001841644/README.md) | PICS | not available |
 | 0001841666 | [APA Corp](../companies/0001841666/README.md) | APA | available, quality gates apply |
 | 0001841675 | [Argo Blockchain Plc](../companies/0001841675/README.md) | ARBK | not available |
@@ -104,3 +102,5 @@
 | 0001853868 | [Fervo Energy Co](../companies/0001853868/README.md) | FRVO | available, quality gates apply |
 | 0001853921 | [Scribe Therapeutics, Inc.](../companies/0001853921/README.md) | SCTX | available, quality gates apply |
 | 0001853962 | [i-80 Gold Corp.](../companies/0001853962/README.md) | IAUX | available, quality gates apply |
+| 0001854139 | [Zevia PBC](../companies/0001854139/README.md) | ZVIA | available, quality gates apply |
+| 0001854270 | [Senti Biosciences Holdings, Inc.](../companies/0001854270/README.md) | SNTI | available, quality gates apply |

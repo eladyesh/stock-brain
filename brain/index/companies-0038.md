@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001746109 | [Bank First Corp](../companies/0001746109/README.md) | BFC | available, quality gates apply |
 | 0001746129 | [Bank7 Corp.](../companies/0001746129/README.md) | BSVN | available, quality gates apply |
 | 0001746466 | [Equillium, Inc.](../companies/0001746466/README.md) | EQ | available, quality gates apply |
 | 0001746473 | [PLIANT THERAPEUTICS, INC.](../companies/0001746473/README.md) | PLRX | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001768267 | [Cerence Inc.](../companies/0001768267/README.md) | CRNC | available, quality gates apply |
 | 0001768446 | [Climb Bio, Inc.](../companies/0001768446/README.md) | CLYM | available, quality gates apply |
 | 0001768666 | [BlackRock Science & Technology Term Trust](../companies/0001768666/README.md) | BSTZ | not available |
+| 0001769256 | [XChange TEC.INC](../companies/0001769256/README.md) | XHG | not available |

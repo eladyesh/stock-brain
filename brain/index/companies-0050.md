@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001980088 | [MACH NATURAL RESOURCES LP](../companies/0001980088/README.md) | MNR | available, quality gates apply |
-| 0001980210 | [WF Holding Ltd](../companies/0001980210/README.md) | WFF | not available |
 | 0001980845 | [enGene Therapeutics Inc.](../companies/0001980845/README.md) | ENGN | available, quality gates apply |
 | 0001981519 | [MIXED MARTIAL ARTS GROUP LTD](../companies/0001981519/README.md) | MMA | not available |
 | 0001981535 | [Sharplink, Inc.](../companies/0001981535/README.md) | SBET | available, quality gates apply |
@@ -32,6 +30,7 @@
 | 0001985337 | [YYForce Inc.](../companies/0001985337/README.md) | YFOR | not available |
 | 0001985487 | [Joint Stock Co Kaspi.kz](../companies/0001985487/README.md) | KSPI | not available |
 | 0001986247 | [Park Ha Biological Technology Co., Ltd.](../companies/0001986247/README.md) | BYAH | not available |
+| 0001986694 | [Bradbury Capital Inc.](../companies/0001986694/README.md) | BBCI | not available |
 | 0001987189 | [Smart Logistics Global Ltd](../companies/0001987189/README.md) | SLGB | not available |
 | 0001987240 | [SCHMID Group N.V.](../companies/0001987240/README.md) | SHMD | not available |
 | 0001987363 | [Waton Financial Ltd](../companies/0001987363/README.md) | WTF | not available |
@@ -104,3 +103,4 @@
 | 0002002660 | [Pershing Square USA, Ltd.](../companies/0002002660/README.md) | PSUS | not available |
 | 0002002988 | [Retension Pharmaceuticals, Inc.](../companies/0002002988/README.md) | RTSN | not available |
 | 0002003061 | [Star Fashion Culture Holdings Ltd](../companies/0002003061/README.md) | STFS | not available |
+| 0002003292 | [Klarna Group plc](../companies/0002003292/README.md) | KLAR | not available |

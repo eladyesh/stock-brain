@@ -4,8 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [SCHW](../unmapped/88ca3b3b7de530ad0eef33b0c88cba65.md) | NYSE | Charles Schwab Corporation (The) Common Stock |
-| [SCHW$D](../unmapped/a0840281046ac90e4b77fb20d148785f.md) | NYSE | The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock, Series D |
 | [SCHW$J](../unmapped/0052cecf672bcc4e68ef304e4ec8ae30.md) | NYSE | The Charles Schwab Corporation Depositary Shares, Each Representing a 1/40th Interest in a Share of 4.450% Non-Cumulative Perpetual Preferred Stock, Series J |
 | [SEAL$A](../unmapped/aab2dea557dec69853d76f582404212f.md) | NYSE | Seapeak LLC 9.00% Series A Cumulative Redeemable Perpetual Preferred Units |
 | [SEAL$B](../unmapped/02c13f832a483b784ee49275b2fecb6e.md) | NYSE | Seapeak LLC 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units |
@@ -104,3 +102,5 @@
 | [ET](../unmapped/2fdd4ecaeb5aa28cb65e40c102885faa.md) | UNKNOWN_F | Energy Transfer LP Common Units |
 | [ET$I](../unmapped/b5726bce706fc0cf1358cda94294bcc0.md) | UNKNOWN_F | Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units |
 | [IBOC](../unmapped/14e023a09e4e413d29101bb05c8f2f4a.md) | UNKNOWN_F | International Bancshares Corporation Common Stock |
+| [OBK](../unmapped/acd6ed0fe8227df35d7c9cf7f12c7fb4.md) | UNKNOWN_F | Origin Bancorp, Inc. Common Stock |
+| [SUN](../unmapped/625c368f84318f6c4b0c8bdd13ec4e91.md) | UNKNOWN_F | Sunoco LP Common Units representing limited partner interests |

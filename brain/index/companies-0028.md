@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001515156 | [Arq, Inc.](../companies/0001515156/README.md) | ARQ | available, quality gates apply |
 | 0001515324 | [Ares Dynamic Credit Allocation Fund, Inc.](../companies/0001515324/README.md) | ARDC | not available |
 | 0001515671 | [Duff & Phelps Utility & Infrastructure Fund Inc.](../companies/0001515671/README.md) | DPG | not available |
 | 0001515673 | [Ultragenyx Pharmaceutical Inc.](../companies/0001515673/README.md) | RARE | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001534248 | [Chemomab Therapeutics Ltd.](../companies/0001534248/README.md) | CMMB | available, quality gates apply |
 | 0001534254 | [CION Investment Corp](../companies/0001534254/README.md) | CION | available, quality gates apply |
 | 0001534504 | [PBF Energy Inc.](../companies/0001534504/README.md) | PBF | available, quality gates apply |
+| 0001534525 | [Xenetic Biosciences, Inc.](../companies/0001534525/README.md) | XBIO | available, quality gates apply |

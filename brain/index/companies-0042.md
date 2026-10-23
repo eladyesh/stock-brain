@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001819493 | [Xos, Inc.](../companies/0001819493/README.md) | XOS | available, quality gates apply |
 | 0001819516 | [Wheels Up Experience Inc.](../companies/0001819516/README.md) | UP | available, quality gates apply |
 | 0001819574 | [Bark, Inc.](../companies/0001819574/README.md) | BARK | available, quality gates apply |
 | 0001819576 | [Liquidia Corp](../companies/0001819576/README.md) | LQDA | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001829247 | [BullFrog AI Holdings, Inc.](../companies/0001829247/README.md) | BFRG | available, quality gates apply |
 | 0001829311 | [BITMINE IMMERSION TECHNOLOGIES, INC.](../companies/0001829311/README.md) | BMNR | available, quality gates apply |
 | 0001829576 | [Carter Bankshares, Inc.](../companies/0001829576/README.md) | CARE | available, quality gates apply |
+| 0001829635 | [Transcode Therapeutics, Inc.](../companies/0001829635/README.md) | RNAZ | available, quality gates apply |

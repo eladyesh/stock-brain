@@ -53,7 +53,7 @@
 | 0000771992 | [PAN AMERICAN SILVER CORP](../companies/0000771992/README.md) | PAAS | not available |
 | 0000771999 | [DSS, INC.](../companies/0000771999/README.md) | DSS | available, quality gates apply |
 | 0000772406 | [CIRRUS LOGIC, INC.](../companies/0000772406/README.md) | CRUS | available, quality gates apply |
-| 0000773840 | [HONEYWELL INTERNATIONAL INC](../companies/0000773840/README.md) | HON | not available |
+| 0000773840 | [HONEYWELL INTERNATIONAL INC](../companies/0000773840/README.md) | HON | available, quality gates apply |
 | 0000775215 | [HBT Financial, Inc.](../companies/0000775215/README.md) | HBT | available, quality gates apply |
 | 0000776867 | [WHITE MOUNTAINS INSURANCE GROUP LTD](../companies/0000776867/README.md) | WTM | available, quality gates apply |
 | 0000776901 | [INDEPENDENT BANK CORP](../companies/0000776901/README.md) | INDB | available, quality gates apply |

@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001953575 | [Collective Mining Ltd.](../companies/0001953575/README.md) | CNL | not available |
-| 0001953926 | [Zenas BioPharma, Inc.](../companies/0001953926/README.md) | ZBIO | available, quality gates apply |
 | 0001953984 | [Binah Capital Group, Inc.](../companies/0001953984/README.md) | BCG | available, quality gates apply |
 | 0001954269 | [Garden Stage Ltd](../companies/0001954269/README.md) | GSIW | not available |
 | 0001954488 | [Jyong Biotech Ltd.](../companies/0001954488/README.md) | MENS | not available |
@@ -104,3 +102,5 @@
 | 0001979407 | [ORANGEKLOUD TECHNOLOGY INC.](../companies/0001979407/README.md) | ORKT | not available |
 | 0001979414 | [NEONC TECHNOLOGIES HOLDINGS, INC.](../companies/0001979414/README.md) | NTHI | available, quality gates apply |
 | 0001979610 | [WF International Ltd.](../companies/0001979610/README.md) | WXM | not available |
+| 0001980088 | [MACH NATURAL RESOURCES LP](../companies/0001980088/README.md) | MNR | available, quality gates apply |
+| 0001980210 | [WF Holding Ltd](../companies/0001980210/README.md) | WFF | not available |

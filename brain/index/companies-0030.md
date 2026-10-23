@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001564408 | [Snap Inc](../companies/0001564408/README.md) | SNAP | available, quality gates apply |
 | 0001564708 | [NEWS CORP](../companies/0001564708/README.md) | NWS, NWSA | available, quality gates apply |
 | 0001564902 | [United Parks & Resorts Inc.](../companies/0001564902/README.md) | PRKS | available, quality gates apply |
 | 0001565025 | [AMBEV S.A.](../companies/0001565025/README.md) | ABEV | not available |
@@ -104,3 +103,4 @@
 | 0001585689 | [Hilton Worldwide Holdings Inc.](../companies/0001585689/README.md) | HLT | available, quality gates apply |
 | 0001585855 | [Gabelli Global Small & Mid Cap Value Trust](../companies/0001585855/README.md) | GGZ | not available |
 | 0001587523 | [Knowles Corp](../companies/0001587523/README.md) | KN | not available |
+| 0001587732 | [ONE Gas, Inc.](../companies/0001587732/README.md) | OGS | available, quality gates apply |

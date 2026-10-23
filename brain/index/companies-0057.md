@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002126043 | [Cartesian Growth Corp IV](../companies/0002126043/README.md) | CGCF | available, quality gates apply |
 | 0002126198 | [Expro Ltd](../companies/0002126198/README.md) | XPRO | not available |
 | 0002127043 | [Jersey Mike's Subs Inc.](../companies/0002127043/README.md) | JMKE | not available |
 | 0002128045 | [Bleichroeder Acquisition Corp. III](../companies/0002128045/README.md) | BCCQ | available, quality gates apply |
@@ -34,6 +33,7 @@
 | 0002141406 | [Accelevation Holdings Corp.](../companies/0002141406/README.md) | ACCV | not available |
 | 0002141616 | [Amaero Inc.](../companies/0002141616/README.md) | AMRO | not available |
 | 0002143673 | [Uranium Royalty Corp.](../companies/0002143673/README.md) | UROY | available, quality gates apply |
+| 0002143850 | [CITY THERAPEUTICS, INC.](../companies/0002143850/README.md) | CTY | not available |
 | 0002145659 | [JATT III Acquisition Corp](../companies/0002145659/README.md) | JTTT | not available |
 | 0002146310 | [Inflection Point Acquisition Corp. VIII](../companies/0002146310/README.md) | IPHX | not available |
 | 0002147219 | [Rainier Acquisition Corp](../companies/0002147219/README.md) | RNAQ | not available |

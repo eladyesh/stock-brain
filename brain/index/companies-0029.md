@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001534525 | [Xenetic Biosciences, Inc.](../companies/0001534525/README.md) | XBIO | available, quality gates apply |
 | 0001534675 | [Tecnoglass Holdings Inc.](../companies/0001534675/README.md) | TGLS | available, quality gates apply |
 | 0001534701 | [Phillips 66](../companies/0001534701/README.md) | PSX | available, quality gates apply |
 | 0001534708 | [Beeline Holdings, Inc.](../companies/0001534708/README.md) | BLNE | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001563696 | [Eaton Vance Municipal Income 2028 Term Trust](../companies/0001563696/README.md) | ETX | not available |
 | 0001563880 | [Trevi Therapeutics, Inc.](../companies/0001563880/README.md) | TRVI | available, quality gates apply |
 | 0001564180 | [KNOT Offshore Partners LP](../companies/0001564180/README.md) | KNOP | not available |
+| 0001564408 | [Snap Inc](../companies/0001564408/README.md) | SNAP | available, quality gates apply |

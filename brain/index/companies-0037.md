@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001723464 | [BIOHARVEST SCIENCES INC.](../companies/0001723464/README.md) | BHST | not available |
 | 0001723690 | [Bilibili Inc.](../companies/0001723690/README.md) | BILI | not available |
 | 0001723935 | [Sunlands Technology Group](../companies/0001723935/README.md) | STG | not available |
 | 0001723980 | [China SXT Pharmaceuticals, Inc.](../companies/0001723980/README.md) | SXTC | not available |
@@ -104,3 +103,4 @@
 | 0001745648 | [Apnimed, Inc.](../companies/0001745648/README.md) | APMD | available, quality gates apply |
 | 0001745916 | [PennyMac Financial Services, Inc.](../companies/0001745916/README.md) | PFSI | available, quality gates apply |
 | 0001745999 | [Beam Therapeutics Inc.](../companies/0001745999/README.md) | BEAM | available, quality gates apply |
+| 0001746109 | [Bank First Corp](../companies/0001746109/README.md) | BFC | available, quality gates apply |

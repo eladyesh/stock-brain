@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002003292 | [Klarna Group plc](../companies/0002003292/README.md) | KLAR | not available |
 | 0002003977 | [Cre8 Enterprise Ltd](../companies/0002003977/README.md) | CRE | not available |
 | 0002004024 | [Lianhe Sowell International Group Ltd](../companies/0002004024/README.md) | LHSW | not available |
 | 0002004489 | [Basel Medical Group Ltd](../companies/0002004489/README.md) | BMGL | not available |
@@ -104,3 +103,4 @@
 | 0002024203 | [Cayson Acquisition Corp](../companies/0002024203/README.md) | CAPN | available, quality gates apply |
 | 0002024218 | [Summit Midstream Corp](../companies/0002024218/README.md) | SMC | available, quality gates apply |
 | 0002024258 | [PHAOS TECHNOLOGY HOLDINGS (CAYMAN) Ltd](../companies/0002024258/README.md) | POAS | not available |
+| 0002024459 | [Charlton Aria Acquisition Corp](../companies/0002024459/README.md) | CHAR | available, quality gates apply |

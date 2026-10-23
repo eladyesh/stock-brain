@@ -8,11 +8,11 @@ tickers:
 - ENVA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -54,20 +54,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json
-    sha256: 029ff9304a46f981bc997e8eb1f41fe9afc40341e00f20d418b681fa8131e4a8
-    retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+    sha256: c68f867333478731ad5de2be9942062d6b5cc89eba980aa78e98060e4195c230
+    retrieved_at: '2026-10-23T08:33:18.308731+00:00'
     archive:
       member: CIK0001529864.json
-      sha256: 7457a528288f1e3425cba6ffd7370c6c205845aba12761763aa5ae3683c0fdc2
+      sha256: 75d1cc8bca6d990b787653521a352ab25164869485705a9fb49551e8e65a9650
       url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001529864.json
-    sha256: 1be641612d868132c5f385beaece7c33c3f9b28d7e0b621a4e01ad9d3cf16366
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001529864.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -75,400 +75,410 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001529864.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: 1be641612d868132c5f385beaece7c33c3f9b28d7e0b621a4e01ad9d3cf16366
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: 029ff9304a46f981bc997e8eb1f41fe9afc40341e00f20d418b681fa8131e4a8
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: c68f867333478731ad5de2be9942062d6b5cc89eba980aa78e98060e4195c230
 - id: S04
   title: 10-K 0001193125-26-060461
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526060461/0001193125-26-060461-index.html
   published_at: '2026-02-20'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S05
-  title: 10-Q 0001193125-26-314590
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html
-  published_at: '2026-07-23'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  title: 10-Q 0001193125-26-429122
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S06
   title: 10-K 0000950170-25-022244
   url: https://www.sec.gov/Archives/edgar/data/1529864/000095017025022244/0000950170-25-022244-index.html
   published_at: '2025-02-18'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S07
   title: 10-K 0000950170-24-019385
   url: https://www.sec.gov/Archives/edgar/data/1529864/000095017024019385/0000950170-24-019385-index.html
   published_at: '2024-02-23'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S08
   title: 10-K 0000950170-22-002334
   url: https://www.sec.gov/Archives/edgar/data/1529864/000095017022002334/0000950170-22-002334-index.html
   published_at: '2022-02-28'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S09
   title: 10-K 0000950170-23-004381
   url: https://www.sec.gov/Archives/edgar/data/1529864/000095017023004381/0000950170-23-004381-index.html
   published_at: '2023-02-24'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S10
-  title: 10-Q 0001193125-26-174021
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/0001193125-26-174021-index.html
-  published_at: '2026-04-23'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S11
-  title: 10-Q 0001193125-25-249986
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312525249986/0001193125-25-249986-index.html
-  published_at: '2025-10-24'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S12
-  title: 10-Q 0000950170-24-116660
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017024116660/0000950170-24-116660-index.html
-  published_at: '2024-10-23'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S13
-  title: 10-Q 0000950170-25-098791
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017025098791/0000950170-25-098791-index.html
-  published_at: '2025-07-25'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S14
-  title: 10-Q 0000950170-24-086053
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017024086053/0000950170-24-086053-index.html
-  published_at: '2024-07-24'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S15
-  title: 10-Q 0000950170-25-060339
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017025060339/0000950170-25-060339-index.html
-  published_at: '2025-04-29'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S16
-  title: 8-K 0001193125-26-424282
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html
-  published_at: '2026-10-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S17
-  title: 8-K 0001193125-26-420462
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S18
-  title: 8-K 0001193125-26-402851
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html
-  published_at: '2026-09-25'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S19
-  title: 4 0001193125-26-396711
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526396711/0001193125-26-396711-index.html
-  published_at: '2026-09-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S20
-  title: 144 0001628280-26-062583
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026062583/0001628280-26-062583-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S21
-  title: 8-K 0001193125-26-394356
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526394356/0001193125-26-394356-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S22
-  title: 8-K 0001193125-26-392151
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526392151/0001193125-26-392151-index.html
-  published_at: '2026-09-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S23
-  title: 8-K 0001193125-26-390599
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526390599/0001193125-26-390599-index.html
-  published_at: '2026-09-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S24
-  title: 8-K 0001193125-26-386483
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526386483/0001193125-26-386483-index.html
-  published_at: '2026-09-09'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S25
-  title: 4 0001193125-26-371385
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526371385/0001193125-26-371385-index.html
-  published_at: '2026-08-27'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S26
-  title: 144 0001628280-26-058974
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026058974/0001628280-26-058974-index.html
-  published_at: '2026-08-25'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S27
-  title: 8-K 0001193125-26-361123
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/0001193125-26-361123-index.html
-  published_at: '2026-08-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S28
-  title: 8-K 0001193125-26-352317
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/0001193125-26-352317-index.html
-  published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S29
-  title: 4 0002104070-26-000005
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000210407026000005/0002104070-26-000005-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S30
-  title: 4 0001752243-26-000006
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000175224326000006/0001752243-26-000006-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S31
-  title: 4 0001621195-26-000002
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000162119526000002/0001621195-26-000002-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S32
-  title: 4 0001575452-26-000002
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000157545226000002/0001575452-26-000002-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S33
-  title: 4 0001483333-26-000002
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000148333326000002/0001483333-26-000002-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S34
-  title: 4 0001315224-26-000004
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000131522426000004/0001315224-26-000004-index.html
-  published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S35
-  title: SCHEDULE 13G 0002100119-26-001403
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000210011926001403/0002100119-26-001403-index.html
-  published_at: '2026-07-31'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S36
   title: 10-Q 0001193125-26-314590
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html
   published_at: '2026-07-23'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S11
+  title: 10-Q 0001193125-26-174021
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/0001193125-26-174021-index.html
+  published_at: '2026-04-23'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S12
+  title: 10-Q 0001193125-25-249986
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312525249986/0001193125-25-249986-index.html
+  published_at: '2025-10-24'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S13
+  title: 10-Q 0000950170-24-116660
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017024116660/0000950170-24-116660-index.html
+  published_at: '2024-10-23'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S14
+  title: 10-Q 0000950170-25-098791
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017025098791/0000950170-25-098791-index.html
+  published_at: '2025-07-25'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S15
+  title: 10-Q 0000950170-24-086053
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017024086053/0000950170-24-086053-index.html
+  published_at: '2024-07-24'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S16
+  title: 10-Q 0000950170-25-060339
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000095017025060339/0000950170-25-060339-index.html
+  published_at: '2025-04-29'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S17
+  title: 10-Q 0001193125-26-429122
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S18
+  title: 8-K 0001193125-26-428941
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/0001193125-26-428941-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S19
+  title: 8-K 0001193125-26-424282
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html
+  published_at: '2026-10-16'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S20
+  title: 8-K 0001193125-26-420462
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html
+  published_at: '2026-10-13'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S21
+  title: 8-K 0001193125-26-402851
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html
+  published_at: '2026-09-25'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S22
+  title: 4 0001193125-26-396711
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526396711/0001193125-26-396711-index.html
+  published_at: '2026-09-21'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S23
+  title: 144 0001628280-26-062583
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026062583/0001628280-26-062583-index.html
+  published_at: '2026-09-17'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S24
+  title: 8-K 0001193125-26-394356
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526394356/0001193125-26-394356-index.html
+  published_at: '2026-09-17'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S25
+  title: 8-K 0001193125-26-392151
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526392151/0001193125-26-392151-index.html
+  published_at: '2026-09-15'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S26
+  title: 8-K 0001193125-26-390599
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526390599/0001193125-26-390599-index.html
+  published_at: '2026-09-14'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S27
+  title: 8-K 0001193125-26-386483
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526386483/0001193125-26-386483-index.html
+  published_at: '2026-09-09'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S28
+  title: 4 0001193125-26-371385
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526371385/0001193125-26-371385-index.html
+  published_at: '2026-08-27'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S29
+  title: 144 0001628280-26-058974
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026058974/0001628280-26-058974-index.html
+  published_at: '2026-08-25'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S30
+  title: 8-K 0001193125-26-361123
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/0001193125-26-361123-index.html
+  published_at: '2026-08-21'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S31
+  title: 8-K 0001193125-26-352317
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/0001193125-26-352317-index.html
+  published_at: '2026-08-14'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S32
+  title: 4 0002104070-26-000005
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000210407026000005/0002104070-26-000005-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S33
+  title: 4 0001752243-26-000006
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000175224326000006/0001752243-26-000006-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S34
+  title: 4 0001621195-26-000002
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000162119526000002/0001621195-26-000002-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S35
+  title: 4 0001575452-26-000002
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000157545226000002/0001575452-26-000002-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S36
+  title: 4 0001483333-26-000002
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000148333326000002/0001483333-26-000002-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S37
+  title: 4 0001315224-26-000004
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000131522426000004/0001315224-26-000004-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S38
+  title: SCHEDULE 13G 0002100119-26-001403
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000210011926001403/0002100119-26-001403-index.html
+  published_at: '2026-07-31'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S39
+  title: 10-Q 0001193125-26-314590
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html
+  published_at: '2026-07-23'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S40
   title: 8-K 0001193125-26-314134
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/0001193125-26-314134-index.html
   published_at: '2026-07-23'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S38
+- id: S41
   title: 4 0001315224-26-000002
   url: https://www.sec.gov/Archives/edgar/data/1529864/000131522426000002/0001315224-26-000002-index.html
   published_at: '2026-07-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S39
+- id: S42
   title: 8-K/A 0001193125-26-304876
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526304876/0001193125-26-304876-index.html
   published_at: '2026-07-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S40
+- id: S43
   title: 3 0001752243-26-000004
   url: https://www.sec.gov/Archives/edgar/data/1529864/000175224326000004/0001752243-26-000004-index.html
   published_at: '2026-07-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S41
+- id: S44
   title: 144 0001628280-26-048188
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026048188/0001628280-26-048188-index.html
   published_at: '2026-07-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S42
+- id: S45
   title: 8-K 0001193125-26-300931
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/0001193125-26-300931-index.html
   published_at: '2026-07-10'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S43
+- id: S46
   title: 8-K 0001193125-26-283034
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526283034/0001193125-26-283034-index.html
   published_at: '2026-06-25'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S44
+- id: S47
   title: 4 0001193125-26-279537
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526279537/0001193125-26-279537-index.html
   published_at: '2026-06-23'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S45
+- id: S48
   title: 4 0001193125-26-277580
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526277580/0001193125-26-277580-index.html
   published_at: '2026-06-22'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S46
+- id: S49
   title: 144 0001950047-26-006308
   url: https://www.sec.gov/Archives/edgar/data/1529864/000195004726006308/0001950047-26-006308-index.html
   published_at: '2026-06-18'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S47
+- id: S50
   title: 144 0001628280-26-044031
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026044031/0001628280-26-044031-index.html
   published_at: '2026-06-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S48
+- id: S51
   title: 144 0001628280-26-043450
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026043450/0001628280-26-043450-index.html
   published_at: '2026-06-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S49
+- id: S52
   title: 4 0001193125-26-272696
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526272696/0001193125-26-272696-index.html
   published_at: '2026-06-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S50
+- id: S53
   title: 4 0001193125-26-255557
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526255557/0001193125-26-255557-index.html
   published_at: '2026-06-03'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S51
+- id: S54
   title: 4 0001193125-26-253599
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526253599/0001193125-26-253599-index.html
   published_at: '2026-06-02'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S52
+- id: S55
   title: 144 0001628280-26-039430
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026039430/0001628280-26-039430-index.html
   published_at: '2026-06-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S53
+- id: S56
   title: 144 0001950047-26-005324
   url: https://www.sec.gov/Archives/edgar/data/1529864/000195004726005324/0001950047-26-005324-index.html
   published_at: '2026-05-29'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S54
+- id: S57
   title: 4 0001193125-26-239437
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526239437/0001193125-26-239437-index.html
   published_at: '2026-05-26'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S55
+- id: S58
   title: 144 0001628280-26-037437
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026037437/0001628280-26-037437-index.html
   published_at: '2026-05-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S56
+- id: S59
   title: 4 0001193125-26-232704
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526232704/0001193125-26-232704-index.html
   published_at: '2026-05-20'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S57
+- id: S60
   title: 144 0001628280-26-035832
   url: https://www.sec.gov/Archives/edgar/data/1529864/000162828026035832/0001628280-26-035832-index.html
   published_at: '2026-05-18'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S58
+- id: S61
   title: 4 0001193125-26-226985
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226985/0001193125-26-226985-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S59
+- id: S62
   title: 4 0001193125-26-226945
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226945/0001193125-26-226945-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S60
+- id: S63
   title: 4 0001193125-26-226944
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226944/0001193125-26-226944-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S61
+- id: S64
   title: 4 0001193125-26-226943
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226943/0001193125-26-226943-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S62
+- id: S65
   title: 4 0001193125-26-226941
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226941/0001193125-26-226941-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S63
+- id: S66
   title: 4 0001193125-26-226940
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226940/0001193125-26-226940-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S64
-  title: 4 0001193125-26-226934
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226934/0001193125-26-226934-index.html
-  published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S65
-  title: 4 0001193125-26-226933
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526226933/0001193125-26-226933-index.html
-  published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001529864
+  classification_status: reported_sic
+  entity_type: operating
   name: Enova International, Inc.
+  sic: '6141'
+  sic_description: Personal Credit Institutions
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: 1be641612d868132c5f385beaece7c33c3f9b28d7e0b621a4e01ad9d3cf16366
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
   url: https://data.sec.gov/submissions/CIK0001529864.json
 ---
 # Enova International, Inc. — CIK 0001529864
@@ -503,7 +513,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **6141**: Personal Credit Institutions. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 ## Competitive landscape
 
@@ -519,7 +531,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -629,7 +641,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S07] |
 | stock_based_compensation | 21,179,000 | USD | US GAAP / reported | ShareBasedCompensation | [S07] |
 
-### quarterly: 2026-04-01 to 2026-06-30
+### quarterly: 2026-07-01 to 2026-09-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
@@ -638,19 +650,19 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S05] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 568,066,000 | USD | US GAAP / reported | GrossProfit | [S05] |
-| net_income | 105,058,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
+| gross_profit | 614,359,000 | USD | US GAAP / reported | GrossProfit | [S05] |
+| net_income | 107,304,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 105,058,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| operating_cash_flow | 544,034,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| operating_income | 237,147,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
-| purchases_of_productive_assets | -12,614,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| revenue | 928,927,000 | USD | US GAAP / reported | Revenues | [S05] |
+| net_income_including_noncontrolling_interests | 107,304,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| operating_cash_flow | 535,615,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| operating_income | 247,212,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
+| purchases_of_productive_assets | -11,624,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| revenue | 1,009,172,000 | USD | US GAAP / reported | Revenues | [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S05] |
-| stock_based_compensation | 8,747,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| stock_based_compensation | 9,422,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
 
-### quarterly: 2026-01-01 to 2026-03-31
+### quarterly: 2026-04-01 to 2026-06-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
@@ -659,17 +671,38 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S10] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 528,959,000 | USD | US GAAP / reported | GrossProfit | [S10] |
-| net_income | 91,099,000 | USD | US GAAP / reported | NetIncomeLoss | [S10] |
+| gross_profit | 568,066,000 | USD | US GAAP / reported | GrossProfit | [S10] |
+| net_income | 105,058,000 | USD | US GAAP / reported | NetIncomeLoss | [S10] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 91,099,000 | USD | US GAAP / reported | ProfitLoss | [S10] |
-| operating_cash_flow | 474,540,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S10] |
-| operating_income | 207,106,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
-| purchases_of_productive_assets | -10,751,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S10] |
-| revenue | 875,142,000 | USD | US GAAP / reported | Revenues | [S10] |
+| net_income_including_noncontrolling_interests | 105,058,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| operating_cash_flow | 544,034,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| operating_income | 237,147,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
+| purchases_of_productive_assets | -12,614,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| revenue | 928,927,000 | USD | US GAAP / reported | Revenues | [S10] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
-| stock_based_compensation | 8,709,000 | USD | US GAAP / reported | ShareBasedCompensation | [S10] |
+| stock_based_compensation | 8,747,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+
+### quarterly: 2026-01-01 to 2026-03-31
+
+| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
+| --- | ---: | --- | --- | --- | --- |
+| capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S11] |
+| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S11] |
+| free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| gross_profit | 528,959,000 | USD | US GAAP / reported | GrossProfit | [S11] |
+| net_income | 91,099,000 | USD | US GAAP / reported | NetIncomeLoss | [S11] |
+| net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| net_income_including_noncontrolling_interests | 91,099,000 | USD | US GAAP / reported | ProfitLoss | [S11] |
+| operating_cash_flow | 474,540,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S11] |
+| operating_income | 207,106,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S11] |
+| purchases_of_productive_assets | -10,751,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S11] |
+| revenue | 875,142,000 | USD | US GAAP / reported | Revenues | [S11] |
+| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S11] |
+| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
+| stock_based_compensation | 8,709,000 | USD | US GAAP / reported | ShareBasedCompensation | [S11] |
 
 ### quarterly: 2025-10-01 to 2025-12-31
 
@@ -680,40 +713,19 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 501,894,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| net_income | 78,981,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| gross_profit | 501,894,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
+| net_income | 78,981,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 78,981,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| operating_cash_flow | 498,811,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| operating_income | 186,647,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| purchases_of_productive_assets | -11,696,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| revenue | 839,391,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| net_income_including_noncontrolling_interests | 78,981,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
+| operating_cash_flow | 498,811,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
+| operating_income | 186,647,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
+| purchases_of_productive_assets | -11,696,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
+| revenue | 839,391,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| stock_based_compensation | 8,519,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| stock_based_compensation | 8,519,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S05] |
 
 ### quarterly: 2025-07-01 to 2025-09-30
-
-| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
-| --- | ---: | --- | --- | --- | --- |
-| capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S11] |
-| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S11] |
-| free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 460,707,000 | USD | US GAAP / reported | GrossProfit | [S11] |
-| net_income | 80,314,000 | USD | US GAAP / reported | NetIncomeLoss | [S11] |
-| net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 80,314,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S05] |
-| operating_cash_flow | 481,802,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S05] |
-| operating_income | 196,775,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S11] |
-| purchases_of_productive_assets | -11,345,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S05] |
-| revenue | 802,678,000 | USD | US GAAP / reported | Revenues | [S11] |
-| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S11] |
-| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
-| stock_based_compensation | 8,535,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S05] |
-
-### quarterly: 2025-04-01 to 2025-06-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
@@ -722,19 +734,19 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S05] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 441,458,000 | USD | US GAAP / reported | GrossProfit | [S05] |
-| net_income | 76,149,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
+| gross_profit | 460,707,000 | USD | US GAAP / reported | GrossProfit | [S05] |
+| net_income | 80,314,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 76,149,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| operating_cash_flow | 447,364,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| operating_income | 184,106,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
-| purchases_of_productive_assets | -11,224,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| revenue | 764,043,000 | USD | US GAAP / reported | Revenues | [S05] |
+| net_income_including_noncontrolling_interests | 80,314,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| operating_cash_flow | 481,802,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| operating_income | 196,775,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
+| purchases_of_productive_assets | -11,345,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| revenue | 802,678,000 | USD | US GAAP / reported | Revenues | [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S05] |
-| stock_based_compensation | 8,106,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| stock_based_compensation | 8,535,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
 
-### quarterly: 2025-01-01 to 2025-03-31
+### quarterly: 2025-04-01 to 2025-06-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
@@ -743,17 +755,38 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S10] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 426,182,000 | USD | US GAAP / reported | GrossProfit | [S10] |
-| net_income | 72,945,000 | USD | US GAAP / reported | NetIncomeLoss | [S10] |
+| gross_profit | 441,458,000 | USD | US GAAP / reported | GrossProfit | [S10] |
+| net_income | 76,149,000 | USD | US GAAP / reported | NetIncomeLoss | [S10] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 72,945,000 | USD | US GAAP / reported | ProfitLoss | [S10] |
-| operating_cash_flow | 391,144,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S10] |
-| operating_income | 171,904,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
-| purchases_of_productive_assets | -12,875,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S10] |
-| revenue | 745,541,000 | USD | US GAAP / reported | Revenues | [S10] |
+| net_income_including_noncontrolling_interests | 76,149,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| operating_cash_flow | 447,364,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| operating_income | 184,106,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
+| purchases_of_productive_assets | -11,224,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+| revenue | 764,043,000 | USD | US GAAP / reported | Revenues | [S10] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
-| stock_based_compensation | 7,936,000 | USD | US GAAP / reported | ShareBasedCompensation | [S10] |
+| stock_based_compensation | 8,106,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S10] [S11] |
+
+### quarterly: 2025-01-01 to 2025-03-31
+
+| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
+| --- | ---: | --- | --- | --- | --- |
+| capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S11] |
+| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S11] |
+| free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| gross_profit | 426,182,000 | USD | US GAAP / reported | GrossProfit | [S11] |
+| net_income | 72,945,000 | USD | US GAAP / reported | NetIncomeLoss | [S11] |
+| net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| net_income_including_noncontrolling_interests | 72,945,000 | USD | US GAAP / reported | ProfitLoss | [S11] |
+| operating_cash_flow | 391,144,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S11] |
+| operating_income | 171,904,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S11] |
+| purchases_of_productive_assets | -12,875,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S11] |
+| revenue | 745,541,000 | USD | US GAAP / reported | Revenues | [S11] |
+| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S11] |
+| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
+| stock_based_compensation | 7,936,000 | USD | US GAAP / reported | ShareBasedCompensation | [S11] |
 
 ### quarterly: 2024-10-01 to 2024-12-31
 
@@ -764,17 +797,17 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 413,036,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| net_income | 63,695,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| gross_profit | 413,036,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| net_income | 63,695,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 63,695,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| operating_cash_flow | 430,520,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| operating_income | 155,196,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| purchases_of_productive_assets | -10,178,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
-| revenue | 729,551,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| net_income_including_noncontrolling_interests | 63,695,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| operating_cash_flow | 430,520,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| operating_income | 155,196,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| purchases_of_productive_assets | -10,178,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| revenue | 729,551,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| stock_based_compensation | 8,297,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S11] |
+| stock_based_compensation | 8,297,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
 
 ### quarterly: 2024-07-01 to 2024-09-30
 
@@ -782,20 +815,20 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | --- | ---: | --- | --- | --- | --- |
 | capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S11] |
-| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S11] |
+| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S12] |
+| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S12] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 400,356,000 | USD | US GAAP / reported | GrossProfit | [S11] |
-| net_income | 43,414,000 | USD | US GAAP / reported | NetIncomeLoss | [S11] |
+| gross_profit | 400,356,000 | USD | US GAAP / reported | GrossProfit | [S12] |
+| net_income | 43,414,000 | USD | US GAAP / reported | NetIncomeLoss | [S12] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 43,414,000 | USD | US GAAP / reported | ProfitLoss | [S12] |
-| operating_cash_flow | 398,551,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S13] |
-| operating_income | 153,714,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S11] |
-| purchases_of_productive_assets | -10,932,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S13] |
-| revenue | 689,924,000 | USD | US GAAP / reported | Revenues | [S11] |
-| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S11] |
-| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
-| stock_based_compensation | 8,116,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S11] [S13] |
+| net_income_including_noncontrolling_interests | 43,414,000 | USD | US GAAP / reported | ProfitLoss | [S13] |
+| operating_cash_flow | 398,551,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
+| operating_income | 153,714,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S12] |
+| purchases_of_productive_assets | -10,932,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
+| revenue | 689,924,000 | USD | US GAAP / reported | Revenues | [S12] |
+| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S12] |
+| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S12] |
+| stock_based_compensation | 8,116,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
 
 ### quarterly: 2024-04-01 to 2024-06-30
 
@@ -803,20 +836,20 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | --- | ---: | --- | --- | --- | --- |
 | capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S13] |
-| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S13] |
+| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S14] |
+| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S14] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 370,191,000 | USD | US GAAP / reported | GrossProfit | [S13] |
-| net_income | 53,911,000 | USD | US GAAP / reported | NetIncomeLoss | [S13] |
+| gross_profit | 370,191,000 | USD | US GAAP / reported | GrossProfit | [S14] |
+| net_income | 53,911,000 | USD | US GAAP / reported | NetIncomeLoss | [S14] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 53,911,000 | USD | US GAAP / reported | ProfitLoss | [S14] |
-| operating_cash_flow | 360,942,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S13] [S15] |
-| operating_income | 145,056,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S13] |
-| purchases_of_productive_assets | -11,087,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S13] [S15] |
-| revenue | 628,436,000 | USD | US GAAP / reported | Revenues | [S13] |
-| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S13] |
-| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S13] |
-| stock_based_compensation | 7,764,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S13] [S15] |
+| net_income_including_noncontrolling_interests | 53,911,000 | USD | US GAAP / reported | ProfitLoss | [S15] |
+| operating_cash_flow | 360,942,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S14] [S16] |
+| operating_income | 145,056,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S14] |
+| purchases_of_productive_assets | -11,087,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S14] [S16] |
+| revenue | 628,436,000 | USD | US GAAP / reported | Revenues | [S14] |
+| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S14] |
+| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S14] |
+| stock_based_compensation | 7,764,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S14] [S16] |
 
 ### quarterly: 2024-01-01 to 2024-03-31
 
@@ -824,20 +857,20 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | --- | ---: | --- | --- | --- | --- |
 | capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S15] |
-| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S15] |
+| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S16] |
+| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S16] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 345,866,000 | USD | US GAAP / reported | GrossProfit | [S15] |
-| net_income | 48,428,000 | USD | US GAAP / reported | NetIncomeLoss | [S15] |
+| gross_profit | 345,866,000 | USD | US GAAP / reported | GrossProfit | [S16] |
+| net_income | 48,428,000 | USD | US GAAP / reported | NetIncomeLoss | [S16] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 48,428,000 | USD | US GAAP / reported | ProfitLoss | [S15] |
-| operating_cash_flow | 348,563,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S15] |
-| operating_income | 130,792,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S15] |
-| purchases_of_productive_assets | -11,225,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S15] |
-| revenue | 609,889,000 | USD | US GAAP / reported | Revenues | [S15] |
-| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S15] |
-| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S15] |
-| stock_based_compensation | 7,639,000 | USD | US GAAP / reported | ShareBasedCompensation | [S15] |
+| net_income_including_noncontrolling_interests | 48,428,000 | USD | US GAAP / reported | ProfitLoss | [S16] |
+| operating_cash_flow | 348,563,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S16] |
+| operating_income | 130,792,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S16] |
+| purchases_of_productive_assets | -11,225,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S16] |
+| revenue | 609,889,000 | USD | US GAAP / reported | Revenues | [S16] |
+| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S16] |
+| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S16] |
+| stock_based_compensation | 7,639,000 | USD | US GAAP / reported | ShareBasedCompensation | [S16] |
 
 ### quarterly: 2023-10-01 to 2023-12-31
 
@@ -848,43 +881,22 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 325,036,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-| net_income | 34,768,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| gross_profit | 325,036,000 | USD | US GAAP / derived | GrossProfit; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
+| net_income | 34,768,000 | USD | US GAAP / derived | NetIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 34,768,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-| operating_cash_flow | 314,288,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-| operating_income | 97,539,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-| purchases_of_productive_assets | -11,812,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-| revenue | 583,592,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
+| net_income_including_noncontrolling_interests | 34,768,000 | USD | US GAAP / derived | ProfitLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
+| operating_cash_flow | 314,288,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
+| operating_income | 97,539,000 | USD | US GAAP / derived | OperatingIncomeLoss; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
+| purchases_of_productive_assets | -11,812,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
+| revenue | 583,592,000 | USD | US GAAP / derived | Revenues; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| stock_based_compensation | 7,458,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S12] |
-
-### quarterly: 2023-07-01 to 2023-09-30
-
-| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
-| --- | ---: | --- | --- | --- | --- |
-| capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| cost_of_revenue | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S12] |
-| eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S12] |
-| free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 319,611,000 | USD | US GAAP / reported | GrossProfit | [S12] |
-| net_income | 41,285,000 | USD | US GAAP / reported | NetIncomeLoss | [S12] |
-| net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 41,285,000 | USD | US GAAP / reported | ProfitLoss | [S12] |
-| operating_cash_flow | 271,242,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
-| operating_income | 103,732,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S12] |
-| purchases_of_productive_assets | -12,781,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
-| revenue | 551,360,000 | USD | US GAAP / reported | Revenues | [S12] |
-| shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S12] |
-| shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S12] |
-| stock_based_compensation | 7,075,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S12] [S14] |
+| stock_based_compensation | 7,458,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S04] [S13] |
 
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -954,11 +966,11 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
-### quarterly: 2026-04-01 to 2026-06-30
+### quarterly: 2026-07-01 to 2026-09-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 122,226,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
+| cash_and_equivalents | 105,957,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
@@ -967,16 +979,29 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
-### quarterly: 2026-01-01 to 2026-03-31
+### quarterly: 2026-04-01 to 2026-06-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 96,130,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S10] |
+| cash_and_equivalents | 122,226,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S10] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S10] |
 | shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
+| short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+
+### quarterly: 2026-01-01 to 2026-03-31
+
+| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
+| --- | ---: | --- | --- | --- | --- |
+| cash_and_equivalents | 96,130,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S11] |
+| debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S11] |
+| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -997,20 +1022,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 53,600,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S11] |
-| debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S11] |
-| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
-| short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-
-### quarterly: 2025-04-01 to 2025-06-30
-
-| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
-| --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 55,560,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
+| cash_and_equivalents | 53,600,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
@@ -1019,16 +1031,29 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
-### quarterly: 2025-01-01 to 2025-03-31
+### quarterly: 2025-04-01 to 2025-06-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 55,514,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S10] |
+| cash_and_equivalents | 55,560,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S10] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S10] |
 | shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
+| short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+
+### quarterly: 2025-01-01 to 2025-03-31
+
+| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
+| --- | ---: | --- | --- | --- | --- |
+| cash_and_equivalents | 55,514,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S11] |
+| debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
+| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S11] |
+| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -1049,12 +1074,12 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 67,500,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S11] |
+| cash_and_equivalents | 67,500,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S12] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S11] |
-| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S11] |
+| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S12] |
+| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S12] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -1062,12 +1087,12 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 60,138,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S13] |
+| cash_and_equivalents | 60,138,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S14] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S13] |
-| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S13] |
+| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S14] |
+| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S14] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -1075,12 +1100,12 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 76,458,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S15] |
+| cash_and_equivalents | 76,458,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S16] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S15] |
-| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S15] |
+| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S16] |
+| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S16] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -1094,19 +1119,6 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S06] |
 | shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S06] |
-| short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-
-### quarterly: 2023-07-01 to 2023-09-30
-
-| Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
-| --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 62,908,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S12] |
-| debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| debt_noncurrent | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| long_term_debt_total | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebt; debt_scope_requires_filing_review | [S12] |
-| shares_outstanding | Unavailable / blocked | shares | US GAAP / reported / not model usable | CommonStockSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S12] |
 | short_term_borrowings | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
@@ -1134,7 +1146,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:42:10.487763+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:44:24.481028+00:00.
 
 ## Relationships and themes
 
@@ -1146,187 +1158,189 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-16 | 8-K | 0001193125-26-424282 | — | [S16] |
-| 2026-10-13 | 8-K | 0001193125-26-420462 | — | [S17] |
-| 2026-09-25 | 8-K | 0001193125-26-402851 | — | [S18] |
-| 2026-09-21 | 4 | 0001193125-26-396711 | — | [S19] |
-| 2026-09-17 | 144 | 0001628280-26-062583 | — | [S20] |
-| 2026-09-17 | 8-K | 0001193125-26-394356 | — | [S21] |
-| 2026-09-15 | 8-K | 0001193125-26-392151 | — | [S22] |
-| 2026-09-14 | 8-K | 0001193125-26-390599 | — | [S23] |
-| 2026-09-09 | 8-K | 0001193125-26-386483 | — | [S24] |
-| 2026-08-27 | 4 | 0001193125-26-371385 | — | [S25] |
-| 2026-08-25 | 144 | 0001628280-26-058974 | — | [S26] |
-| 2026-08-21 | 8-K | 0001193125-26-361123 | — | [S27] |
-| 2026-08-14 | 8-K | 0001193125-26-352317 | — | [S28] |
-| 2026-08-07 | 4 | 0002104070-26-000005 | — | [S29] |
-| 2026-08-07 | 4 | 0001752243-26-000006 | — | [S30] |
-| 2026-08-07 | 4 | 0001621195-26-000002 | — | [S31] |
-| 2026-08-07 | 4 | 0001575452-26-000002 | — | [S32] |
-| 2026-08-07 | 4 | 0001483333-26-000002 | — | [S33] |
-| 2026-08-07 | 4 | 0001315224-26-000004 | — | [S34] |
-| 2026-07-31 | SCHEDULE 13G | 0002100119-26-001403 | — | [S35] |
-| 2026-07-23 | 10-Q | 0001193125-26-314590 | — | [S36] |
-| 2026-07-23 | 8-K | 0001193125-26-314134 | — | [S37] |
-| 2026-07-16 | 4 | 0001315224-26-000002 | — | [S38] |
-| 2026-07-15 | 8-K/A | 0001193125-26-304876 | — | [S39] |
-| 2026-07-14 | 3 | 0001752243-26-000004 | — | [S40] |
-| 2026-07-14 | 144 | 0001628280-26-048188 | — | [S41] |
-| 2026-07-10 | 8-K | 0001193125-26-300931 | — | [S42] |
-| 2026-06-25 | 8-K | 0001193125-26-283034 | — | [S43] |
-| 2026-06-23 | 4 | 0001193125-26-279537 | — | [S44] |
-| 2026-06-22 | 4 | 0001193125-26-277580 | — | [S45] |
-| 2026-06-18 | 144 | 0001950047-26-006308 | — | [S46] |
-| 2026-06-17 | 144 | 0001628280-26-044031 | — | [S47] |
-| 2026-06-16 | 144 | 0001628280-26-043450 | — | [S48] |
-| 2026-06-16 | 4 | 0001193125-26-272696 | — | [S49] |
-| 2026-06-03 | 4 | 0001193125-26-255557 | — | [S50] |
-| 2026-06-02 | 4 | 0001193125-26-253599 | — | [S51] |
-| 2026-06-01 | 144 | 0001628280-26-039430 | — | [S52] |
-| 2026-05-29 | 144 | 0001950047-26-005324 | — | [S53] |
-| 2026-05-26 | 4 | 0001193125-26-239437 | — | [S54] |
-| 2026-05-21 | 144 | 0001628280-26-037437 | — | [S55] |
-| 2026-05-20 | 4 | 0001193125-26-232704 | — | [S56] |
-| 2026-05-18 | 144 | 0001628280-26-035832 | — | [S57] |
-| 2026-05-15 | 4 | 0001193125-26-226985 | — | [S58] |
-| 2026-05-15 | 4 | 0001193125-26-226945 | — | [S59] |
-| 2026-05-15 | 4 | 0001193125-26-226944 | — | [S60] |
-| 2026-05-15 | 4 | 0001193125-26-226943 | — | [S61] |
-| 2026-05-15 | 4 | 0001193125-26-226941 | — | [S62] |
-| 2026-05-15 | 4 | 0001193125-26-226940 | — | [S63] |
-| 2026-05-15 | 4 | 0001193125-26-226934 | — | [S64] |
-| 2026-05-15 | 4 | 0001193125-26-226933 | — | [S65] |
+| 2026-10-22 | 10-Q | 0001193125-26-429122 | — | [S17] |
+| 2026-10-22 | 8-K | 0001193125-26-428941 | — | [S18] |
+| 2026-10-16 | 8-K | 0001193125-26-424282 | — | [S19] |
+| 2026-10-13 | 8-K | 0001193125-26-420462 | — | [S20] |
+| 2026-09-25 | 8-K | 0001193125-26-402851 | — | [S21] |
+| 2026-09-21 | 4 | 0001193125-26-396711 | — | [S22] |
+| 2026-09-17 | 144 | 0001628280-26-062583 | — | [S23] |
+| 2026-09-17 | 8-K | 0001193125-26-394356 | — | [S24] |
+| 2026-09-15 | 8-K | 0001193125-26-392151 | — | [S25] |
+| 2026-09-14 | 8-K | 0001193125-26-390599 | — | [S26] |
+| 2026-09-09 | 8-K | 0001193125-26-386483 | — | [S27] |
+| 2026-08-27 | 4 | 0001193125-26-371385 | — | [S28] |
+| 2026-08-25 | 144 | 0001628280-26-058974 | — | [S29] |
+| 2026-08-21 | 8-K | 0001193125-26-361123 | — | [S30] |
+| 2026-08-14 | 8-K | 0001193125-26-352317 | — | [S31] |
+| 2026-08-07 | 4 | 0002104070-26-000005 | — | [S32] |
+| 2026-08-07 | 4 | 0001752243-26-000006 | — | [S33] |
+| 2026-08-07 | 4 | 0001621195-26-000002 | — | [S34] |
+| 2026-08-07 | 4 | 0001575452-26-000002 | — | [S35] |
+| 2026-08-07 | 4 | 0001483333-26-000002 | — | [S36] |
+| 2026-08-07 | 4 | 0001315224-26-000004 | — | [S37] |
+| 2026-07-31 | SCHEDULE 13G | 0002100119-26-001403 | — | [S38] |
+| 2026-07-23 | 10-Q | 0001193125-26-314590 | — | [S39] |
+| 2026-07-23 | 8-K | 0001193125-26-314134 | — | [S40] |
+| 2026-07-16 | 4 | 0001315224-26-000002 | — | [S41] |
+| 2026-07-15 | 8-K/A | 0001193125-26-304876 | — | [S42] |
+| 2026-07-14 | 3 | 0001752243-26-000004 | — | [S43] |
+| 2026-07-14 | 144 | 0001628280-26-048188 | — | [S44] |
+| 2026-07-10 | 8-K | 0001193125-26-300931 | — | [S45] |
+| 2026-06-25 | 8-K | 0001193125-26-283034 | — | [S46] |
+| 2026-06-23 | 4 | 0001193125-26-279537 | — | [S47] |
+| 2026-06-22 | 4 | 0001193125-26-277580 | — | [S48] |
+| 2026-06-18 | 144 | 0001950047-26-006308 | — | [S49] |
+| 2026-06-17 | 144 | 0001628280-26-044031 | — | [S50] |
+| 2026-06-16 | 144 | 0001628280-26-043450 | — | [S51] |
+| 2026-06-16 | 4 | 0001193125-26-272696 | — | [S52] |
+| 2026-06-03 | 4 | 0001193125-26-255557 | — | [S53] |
+| 2026-06-02 | 4 | 0001193125-26-253599 | — | [S54] |
+| 2026-06-01 | 144 | 0001628280-26-039430 | — | [S55] |
+| 2026-05-29 | 144 | 0001950047-26-005324 | — | [S56] |
+| 2026-05-26 | 4 | 0001193125-26-239437 | — | [S57] |
+| 2026-05-21 | 144 | 0001628280-26-037437 | — | [S58] |
+| 2026-05-20 | 4 | 0001193125-26-232704 | — | [S59] |
+| 2026-05-18 | 144 | 0001628280-26-035832 | — | [S60] |
+| 2026-05-15 | 4 | 0001193125-26-226985 | — | [S61] |
+| 2026-05-15 | 4 | 0001193125-26-226945 | — | [S62] |
+| 2026-05-15 | 4 | 0001193125-26-226944 | — | [S63] |
+| 2026-05-15 | 4 | 0001193125-26-226943 | — | [S64] |
+| 2026-05-15 | 4 | 0001193125-26-226941 | — | [S65] |
+| 2026-05-15 | 4 | 0001193125-26-226940 | — | [S66] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00; source SHA-256 `0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d`.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00; source SHA-256 `6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67`.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001529864.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00; source SHA-256 `1be641612d868132c5f385beaece7c33c3f9b28d7e0b621a4e01ad9d3cf16366`.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001529864.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00; source SHA-256 `9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0`.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00; source SHA-256 `029ff9304a46f981bc997e8eb1f41fe9afc40341e00f20d418b681fa8131e4a8`.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00; source SHA-256 `c68f867333478731ad5de2be9942062d6b5cc89eba980aa78e98060e4195c230`.
 
-[S04] [10-K 0001193125-26-060461](https://www.sec.gov/Archives/edgar/data/1529864/000119312526060461/0001193125-26-060461-index.html) — published 2026-02-20; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S04] [10-K 0001193125-26-060461](https://www.sec.gov/Archives/edgar/data/1529864/000119312526060461/0001193125-26-060461-index.html) — published 2026-02-20; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S05] [10-Q 0001193125-26-314590](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html) — published 2026-07-23; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S05] [10-Q 0001193125-26-429122](https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S06] [10-K 0000950170-25-022244](https://www.sec.gov/Archives/edgar/data/1529864/000095017025022244/0000950170-25-022244-index.html) — published 2025-02-18; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S06] [10-K 0000950170-25-022244](https://www.sec.gov/Archives/edgar/data/1529864/000095017025022244/0000950170-25-022244-index.html) — published 2025-02-18; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S07] [10-K 0000950170-24-019385](https://www.sec.gov/Archives/edgar/data/1529864/000095017024019385/0000950170-24-019385-index.html) — published 2024-02-23; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S07] [10-K 0000950170-24-019385](https://www.sec.gov/Archives/edgar/data/1529864/000095017024019385/0000950170-24-019385-index.html) — published 2024-02-23; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S08] [10-K 0000950170-22-002334](https://www.sec.gov/Archives/edgar/data/1529864/000095017022002334/0000950170-22-002334-index.html) — published 2022-02-28; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S08] [10-K 0000950170-22-002334](https://www.sec.gov/Archives/edgar/data/1529864/000095017022002334/0000950170-22-002334-index.html) — published 2022-02-28; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S09] [10-K 0000950170-23-004381](https://www.sec.gov/Archives/edgar/data/1529864/000095017023004381/0000950170-23-004381-index.html) — published 2023-02-24; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S09] [10-K 0000950170-23-004381](https://www.sec.gov/Archives/edgar/data/1529864/000095017023004381/0000950170-23-004381-index.html) — published 2023-02-24; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S10] [10-Q 0001193125-26-174021](https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/0001193125-26-174021-index.html) — published 2026-04-23; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S10] [10-Q 0001193125-26-314590](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S11] [10-Q 0001193125-25-249986](https://www.sec.gov/Archives/edgar/data/1529864/000119312525249986/0001193125-25-249986-index.html) — published 2025-10-24; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S11] [10-Q 0001193125-26-174021](https://www.sec.gov/Archives/edgar/data/1529864/000119312526174021/0001193125-26-174021-index.html) — published 2026-04-23; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S12] [10-Q 0000950170-24-116660](https://www.sec.gov/Archives/edgar/data/1529864/000095017024116660/0000950170-24-116660-index.html) — published 2024-10-23; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S12] [10-Q 0001193125-25-249986](https://www.sec.gov/Archives/edgar/data/1529864/000119312525249986/0001193125-25-249986-index.html) — published 2025-10-24; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S13] [10-Q 0000950170-25-098791](https://www.sec.gov/Archives/edgar/data/1529864/000095017025098791/0000950170-25-098791-index.html) — published 2025-07-25; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S13] [10-Q 0000950170-24-116660](https://www.sec.gov/Archives/edgar/data/1529864/000095017024116660/0000950170-24-116660-index.html) — published 2024-10-23; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S14] [10-Q 0000950170-24-086053](https://www.sec.gov/Archives/edgar/data/1529864/000095017024086053/0000950170-24-086053-index.html) — published 2024-07-24; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S14] [10-Q 0000950170-25-098791](https://www.sec.gov/Archives/edgar/data/1529864/000095017025098791/0000950170-25-098791-index.html) — published 2025-07-25; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S15] [10-Q 0000950170-25-060339](https://www.sec.gov/Archives/edgar/data/1529864/000095017025060339/0000950170-25-060339-index.html) — published 2025-04-29; retrieved 2026-10-22T17:39:41.848518+00:00; filing linked by accession.
+[S15] [10-Q 0000950170-24-086053](https://www.sec.gov/Archives/edgar/data/1529864/000095017024086053/0000950170-24-086053-index.html) — published 2024-07-24; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S16] [8-K 0001193125-26-424282](https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html) — published 2026-10-16; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S16] [10-Q 0000950170-25-060339](https://www.sec.gov/Archives/edgar/data/1529864/000095017025060339/0000950170-25-060339-index.html) — published 2025-04-29; retrieved 2026-10-23T08:33:18.308731+00:00; filing linked by accession.
 
-[S17] [8-K 0001193125-26-420462](https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html) — published 2026-10-13; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S17] [10-Q 0001193125-26-429122](https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S18] [8-K 0001193125-26-402851](https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html) — published 2026-09-25; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S18] [8-K 0001193125-26-428941](https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/0001193125-26-428941-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S19] [4 0001193125-26-396711](https://www.sec.gov/Archives/edgar/data/1529864/000119312526396711/0001193125-26-396711-index.html) — published 2026-09-21; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S19] [8-K 0001193125-26-424282](https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S20] [144 0001628280-26-062583](https://www.sec.gov/Archives/edgar/data/1529864/000162828026062583/0001628280-26-062583-index.html) — published 2026-09-17; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S20] [8-K 0001193125-26-420462](https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S21] [8-K 0001193125-26-394356](https://www.sec.gov/Archives/edgar/data/1529864/000119312526394356/0001193125-26-394356-index.html) — published 2026-09-17; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S21] [8-K 0001193125-26-402851](https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html) — published 2026-09-25; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S22] [8-K 0001193125-26-392151](https://www.sec.gov/Archives/edgar/data/1529864/000119312526392151/0001193125-26-392151-index.html) — published 2026-09-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S22] [4 0001193125-26-396711](https://www.sec.gov/Archives/edgar/data/1529864/000119312526396711/0001193125-26-396711-index.html) — published 2026-09-21; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S23] [8-K 0001193125-26-390599](https://www.sec.gov/Archives/edgar/data/1529864/000119312526390599/0001193125-26-390599-index.html) — published 2026-09-14; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S23] [144 0001628280-26-062583](https://www.sec.gov/Archives/edgar/data/1529864/000162828026062583/0001628280-26-062583-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S24] [8-K 0001193125-26-386483](https://www.sec.gov/Archives/edgar/data/1529864/000119312526386483/0001193125-26-386483-index.html) — published 2026-09-09; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S24] [8-K 0001193125-26-394356](https://www.sec.gov/Archives/edgar/data/1529864/000119312526394356/0001193125-26-394356-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S25] [4 0001193125-26-371385](https://www.sec.gov/Archives/edgar/data/1529864/000119312526371385/0001193125-26-371385-index.html) — published 2026-08-27; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S25] [8-K 0001193125-26-392151](https://www.sec.gov/Archives/edgar/data/1529864/000119312526392151/0001193125-26-392151-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S26] [144 0001628280-26-058974](https://www.sec.gov/Archives/edgar/data/1529864/000162828026058974/0001628280-26-058974-index.html) — published 2026-08-25; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S26] [8-K 0001193125-26-390599](https://www.sec.gov/Archives/edgar/data/1529864/000119312526390599/0001193125-26-390599-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S27] [8-K 0001193125-26-361123](https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/0001193125-26-361123-index.html) — published 2026-08-21; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S27] [8-K 0001193125-26-386483](https://www.sec.gov/Archives/edgar/data/1529864/000119312526386483/0001193125-26-386483-index.html) — published 2026-09-09; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S28] [8-K 0001193125-26-352317](https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/0001193125-26-352317-index.html) — published 2026-08-14; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S28] [4 0001193125-26-371385](https://www.sec.gov/Archives/edgar/data/1529864/000119312526371385/0001193125-26-371385-index.html) — published 2026-08-27; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S29] [4 0002104070-26-000005](https://www.sec.gov/Archives/edgar/data/1529864/000210407026000005/0002104070-26-000005-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S29] [144 0001628280-26-058974](https://www.sec.gov/Archives/edgar/data/1529864/000162828026058974/0001628280-26-058974-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S30] [4 0001752243-26-000006](https://www.sec.gov/Archives/edgar/data/1529864/000175224326000006/0001752243-26-000006-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S30] [8-K 0001193125-26-361123](https://www.sec.gov/Archives/edgar/data/1529864/000119312526361123/0001193125-26-361123-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S31] [4 0001621195-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000162119526000002/0001621195-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S31] [8-K 0001193125-26-352317](https://www.sec.gov/Archives/edgar/data/1529864/000119312526352317/0001193125-26-352317-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S32] [4 0001575452-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000157545226000002/0001575452-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S32] [4 0002104070-26-000005](https://www.sec.gov/Archives/edgar/data/1529864/000210407026000005/0002104070-26-000005-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S33] [4 0001483333-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000148333326000002/0001483333-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S33] [4 0001752243-26-000006](https://www.sec.gov/Archives/edgar/data/1529864/000175224326000006/0001752243-26-000006-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S34] [4 0001315224-26-000004](https://www.sec.gov/Archives/edgar/data/1529864/000131522426000004/0001315224-26-000004-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S34] [4 0001621195-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000162119526000002/0001621195-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S35] [SCHEDULE 13G 0002100119-26-001403](https://www.sec.gov/Archives/edgar/data/1529864/000210011926001403/0002100119-26-001403-index.html) — published 2026-07-31; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S35] [4 0001575452-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000157545226000002/0001575452-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S36] [10-Q 0001193125-26-314590](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html) — published 2026-07-23; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S36] [4 0001483333-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000148333326000002/0001483333-26-000002-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S37] [8-K 0001193125-26-314134](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/0001193125-26-314134-index.html) — published 2026-07-23; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S37] [4 0001315224-26-000004](https://www.sec.gov/Archives/edgar/data/1529864/000131522426000004/0001315224-26-000004-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S38] [4 0001315224-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000131522426000002/0001315224-26-000002-index.html) — published 2026-07-16; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S38] [SCHEDULE 13G 0002100119-26-001403](https://www.sec.gov/Archives/edgar/data/1529864/000210011926001403/0002100119-26-001403-index.html) — published 2026-07-31; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S39] [8-K/A 0001193125-26-304876](https://www.sec.gov/Archives/edgar/data/1529864/000119312526304876/0001193125-26-304876-index.html) — published 2026-07-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S39] [10-Q 0001193125-26-314590](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S40] [3 0001752243-26-000004](https://www.sec.gov/Archives/edgar/data/1529864/000175224326000004/0001752243-26-000004-index.html) — published 2026-07-14; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S40] [8-K 0001193125-26-314134](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314134/0001193125-26-314134-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S41] [144 0001628280-26-048188](https://www.sec.gov/Archives/edgar/data/1529864/000162828026048188/0001628280-26-048188-index.html) — published 2026-07-14; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S41] [4 0001315224-26-000002](https://www.sec.gov/Archives/edgar/data/1529864/000131522426000002/0001315224-26-000002-index.html) — published 2026-07-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S42] [8-K 0001193125-26-300931](https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/0001193125-26-300931-index.html) — published 2026-07-10; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S42] [8-K/A 0001193125-26-304876](https://www.sec.gov/Archives/edgar/data/1529864/000119312526304876/0001193125-26-304876-index.html) — published 2026-07-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S43] [8-K 0001193125-26-283034](https://www.sec.gov/Archives/edgar/data/1529864/000119312526283034/0001193125-26-283034-index.html) — published 2026-06-25; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S43] [3 0001752243-26-000004](https://www.sec.gov/Archives/edgar/data/1529864/000175224326000004/0001752243-26-000004-index.html) — published 2026-07-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S44] [4 0001193125-26-279537](https://www.sec.gov/Archives/edgar/data/1529864/000119312526279537/0001193125-26-279537-index.html) — published 2026-06-23; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S44] [144 0001628280-26-048188](https://www.sec.gov/Archives/edgar/data/1529864/000162828026048188/0001628280-26-048188-index.html) — published 2026-07-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S45] [4 0001193125-26-277580](https://www.sec.gov/Archives/edgar/data/1529864/000119312526277580/0001193125-26-277580-index.html) — published 2026-06-22; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S45] [8-K 0001193125-26-300931](https://www.sec.gov/Archives/edgar/data/1529864/000119312526300931/0001193125-26-300931-index.html) — published 2026-07-10; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S46] [144 0001950047-26-006308](https://www.sec.gov/Archives/edgar/data/1529864/000195004726006308/0001950047-26-006308-index.html) — published 2026-06-18; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S46] [8-K 0001193125-26-283034](https://www.sec.gov/Archives/edgar/data/1529864/000119312526283034/0001193125-26-283034-index.html) — published 2026-06-25; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S47] [144 0001628280-26-044031](https://www.sec.gov/Archives/edgar/data/1529864/000162828026044031/0001628280-26-044031-index.html) — published 2026-06-17; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S47] [4 0001193125-26-279537](https://www.sec.gov/Archives/edgar/data/1529864/000119312526279537/0001193125-26-279537-index.html) — published 2026-06-23; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S48] [144 0001628280-26-043450](https://www.sec.gov/Archives/edgar/data/1529864/000162828026043450/0001628280-26-043450-index.html) — published 2026-06-16; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S48] [4 0001193125-26-277580](https://www.sec.gov/Archives/edgar/data/1529864/000119312526277580/0001193125-26-277580-index.html) — published 2026-06-22; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S49] [4 0001193125-26-272696](https://www.sec.gov/Archives/edgar/data/1529864/000119312526272696/0001193125-26-272696-index.html) — published 2026-06-16; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S49] [144 0001950047-26-006308](https://www.sec.gov/Archives/edgar/data/1529864/000195004726006308/0001950047-26-006308-index.html) — published 2026-06-18; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S50] [4 0001193125-26-255557](https://www.sec.gov/Archives/edgar/data/1529864/000119312526255557/0001193125-26-255557-index.html) — published 2026-06-03; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S50] [144 0001628280-26-044031](https://www.sec.gov/Archives/edgar/data/1529864/000162828026044031/0001628280-26-044031-index.html) — published 2026-06-17; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S51] [4 0001193125-26-253599](https://www.sec.gov/Archives/edgar/data/1529864/000119312526253599/0001193125-26-253599-index.html) — published 2026-06-02; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S51] [144 0001628280-26-043450](https://www.sec.gov/Archives/edgar/data/1529864/000162828026043450/0001628280-26-043450-index.html) — published 2026-06-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S52] [144 0001628280-26-039430](https://www.sec.gov/Archives/edgar/data/1529864/000162828026039430/0001628280-26-039430-index.html) — published 2026-06-01; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S52] [4 0001193125-26-272696](https://www.sec.gov/Archives/edgar/data/1529864/000119312526272696/0001193125-26-272696-index.html) — published 2026-06-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S53] [144 0001950047-26-005324](https://www.sec.gov/Archives/edgar/data/1529864/000195004726005324/0001950047-26-005324-index.html) — published 2026-05-29; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S53] [4 0001193125-26-255557](https://www.sec.gov/Archives/edgar/data/1529864/000119312526255557/0001193125-26-255557-index.html) — published 2026-06-03; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S54] [4 0001193125-26-239437](https://www.sec.gov/Archives/edgar/data/1529864/000119312526239437/0001193125-26-239437-index.html) — published 2026-05-26; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S54] [4 0001193125-26-253599](https://www.sec.gov/Archives/edgar/data/1529864/000119312526253599/0001193125-26-253599-index.html) — published 2026-06-02; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S55] [144 0001628280-26-037437](https://www.sec.gov/Archives/edgar/data/1529864/000162828026037437/0001628280-26-037437-index.html) — published 2026-05-21; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S55] [144 0001628280-26-039430](https://www.sec.gov/Archives/edgar/data/1529864/000162828026039430/0001628280-26-039430-index.html) — published 2026-06-01; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S56] [4 0001193125-26-232704](https://www.sec.gov/Archives/edgar/data/1529864/000119312526232704/0001193125-26-232704-index.html) — published 2026-05-20; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S56] [144 0001950047-26-005324](https://www.sec.gov/Archives/edgar/data/1529864/000195004726005324/0001950047-26-005324-index.html) — published 2026-05-29; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S57] [144 0001628280-26-035832](https://www.sec.gov/Archives/edgar/data/1529864/000162828026035832/0001628280-26-035832-index.html) — published 2026-05-18; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S57] [4 0001193125-26-239437](https://www.sec.gov/Archives/edgar/data/1529864/000119312526239437/0001193125-26-239437-index.html) — published 2026-05-26; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S58] [4 0001193125-26-226985](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226985/0001193125-26-226985-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S58] [144 0001628280-26-037437](https://www.sec.gov/Archives/edgar/data/1529864/000162828026037437/0001628280-26-037437-index.html) — published 2026-05-21; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S59] [4 0001193125-26-226945](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226945/0001193125-26-226945-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S59] [4 0001193125-26-232704](https://www.sec.gov/Archives/edgar/data/1529864/000119312526232704/0001193125-26-232704-index.html) — published 2026-05-20; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S60] [4 0001193125-26-226944](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226944/0001193125-26-226944-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S60] [144 0001628280-26-035832](https://www.sec.gov/Archives/edgar/data/1529864/000162828026035832/0001628280-26-035832-index.html) — published 2026-05-18; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S61] [4 0001193125-26-226943](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226943/0001193125-26-226943-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S61] [4 0001193125-26-226985](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226985/0001193125-26-226985-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S62] [4 0001193125-26-226941](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226941/0001193125-26-226941-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S62] [4 0001193125-26-226945](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226945/0001193125-26-226945-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S63] [4 0001193125-26-226940](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226940/0001193125-26-226940-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S63] [4 0001193125-26-226944](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226944/0001193125-26-226944-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S64] [4 0001193125-26-226934](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226934/0001193125-26-226934-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S64] [4 0001193125-26-226943](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226943/0001193125-26-226943-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S65] [4 0001193125-26-226933](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226933/0001193125-26-226933-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:35.977490+00:00; filing linked by accession.
+[S65] [4 0001193125-26-226941](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226941/0001193125-26-226941-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-Generated from verified data release `coverage-20261022-39831584719-1`. Exact changes are retained in the brain-data Git history.
+[S66] [4 0001193125-26-226940](https://www.sec.gov/Archives/edgar/data/1529864/000119312526226940/0001193125-26-226940-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
+
+Generated from verified data release `coverage-20261023-39925380279-1`. Exact changes are retained in the brain-data Git history.

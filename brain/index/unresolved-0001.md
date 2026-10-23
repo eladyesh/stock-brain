@@ -30,12 +30,10 @@
 | [BACCR](../unmapped/66f7e9c6f7b9b8bfaecb74c51c9a6c45.md) | NASDAQ | Blue Acquisition Corp. - Right |
 | [BANFP](../unmapped/9e906af05f2d3b2f096bfea045fad7d1.md) | NASDAQ | BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities |
 | [BANX](../unmapped/dff0b25df71013cbfd3852f73e30fb7f.md) | NASDAQ | ArrowMark Financial Corp. - Closed End Fund |
-| [BBCI](../unmapped/ec698c19c0d84be51b33d405547cfd90.md) | NASDAQ | Bradbury Capital Inc. - Ordinary Shares |
 | [BCIC](../unmapped/5d880268f9da38c6b0d402ffd6e072b6.md) | NASDAQ | BCP Investment Corporation - Closed End Fund |
 | [BDAI](../unmapped/eef8e2a48cc43eaae1f054c8d796d049.md) | NASDAQ | Biddance AI Systems, Inc. - Class A Ordinary Share |
 | [BEAGR](../unmapped/acc171bdac22ab1f342f5e58a218db79.md) | NASDAQ | Bold Eagle Acquisition Corp. - Right |
 | [BLUWU](../unmapped/fa59384397f825c26b195df58699ac27.md) | NASDAQ | Blue Water Acquisition Corp. III - Unit. |
-| [BMMX](../unmapped/6144a985c743ff2f43a67f948d3de369.md) | NASDAQ | Black Mammoth Metals Corporation - Common Shares |
 | [BPOPM](../unmapped/66b6528a28951cb9a2883ae5a96781e8.md) | NASDAQ | Popular, Inc. - Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities |
 | [BPYPM](../unmapped/bfbe4a28b609a8a2d8a216dd11c4f4a6.md) | NASDAQ | Brookfield Property Partners L.P. - 6.25% Class A Cumulative Redeemable Preferred Units, Series 1 |
 | [BPYPN](../unmapped/d1677e302e7eb9210de8953546fa72ee.md) | NASDAQ | Brookfield Property Partners L.P. - 5.750% Class A Cumulative Redeemable Perpetual Preferred Units, Series 3 |
@@ -61,7 +59,6 @@
 | [CRAQR](../unmapped/09c177ee75d269ee51d3d1a328243dc2.md) | NASDAQ | Cal Redwood Acquisition Corp. - Right |
 | [CRESY](../unmapped/bf4c41b184b443c1b5f2e17630dfae55.md) | NASDAQ | Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common Stock |
 | [CSQ](../unmapped/44e97082cb16293d14e8ee1f9d5e46c4.md) | NASDAQ | Calamos Strategic Total Return Fund - Closed End Fund |
-| [CTY](../unmapped/6550ccf3e4ed994a50420d6fe1d962a1.md) | NASDAQ | City Therapeutics, Inc. - Common Stock |
 | [DAVI](../unmapped/f00ba537a51527b843099b9a7d2c61cf.md) | NASDAQ | Davion Healthcare Plc - Ordinary Shares |
 | [DIOD](../unmapped/a59b63aceac7a24e81acdc71182d7d3e.md) | NASDAQ | Diodes Incorporated - Common Stock |
 | [DJCO](../unmapped/18a928d241f59aa2783d8e25bf28d6f9.md) | NASDAQ | Daily Journal Corp. (S.C.) - Common Stock |
@@ -104,3 +101,6 @@
 | [IMPPP](../unmapped/1055a3ccab3cffc52e57d215b2e623c6.md) | NASDAQ | Imperial Petroleum Inc. - 8.75% Series A Cumulative Redeemable Perpetual Preferred Shares |
 | [INACR](../unmapped/1e331951916005edf547f490138cc581.md) | NASDAQ | Indigo Acquisition Corp. - Right |
 | [IPXG](../unmapped/2629f2ad138f0a3fa8f8ee0cf4d6dc11.md) | NASDAQ | Inection Point Acquisition Corp. VII  - Class A Ordinary Shares |
+| [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
+| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |

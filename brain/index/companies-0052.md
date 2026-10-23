@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002024459 | [Charlton Aria Acquisition Corp](../companies/0002024459/README.md) | CHAR | available, quality gates apply |
 | 0002024460 | [ChampionsGate Acquisition Corp](../companies/0002024460/README.md) | CHPG | available, quality gates apply |
 | 0002024656 | [Kandal M Venture Ltd](../companies/0002024656/README.md) | FMFC | not available |
 | 0002024876 | [Everbright Digital Holding Ltd.](../companies/0002024876/README.md) | EDHL | not available |
@@ -22,7 +21,7 @@
 | 0002026514 | [Namib Minerals](../companies/0002026514/README.md) | NAMM | not available |
 | 0002026767 | [Calisa Acquisition Corp](../companies/0002026767/README.md) | ALIS | available, quality gates apply |
 | 0002027265 | [MASTERBEEF GROUP](../companies/0002027265/README.md) | MB | not available |
-| 0002027317 | [Curbline Properties Corp.](../companies/0002027317/README.md) | CURB | not available |
+| 0002027317 | [Curbline Properties Corp.](../companies/0002027317/README.md) | CURB | available, quality gates apply |
 | 0002027329 | [Optimi Health Corp.](../companies/0002027329/README.md) | OPTH | not available |
 | 0002027360 | [RedCloud Holdings plc](../companies/0002027360/README.md) | RCT | not available |
 | 0002027708 | [Cantor Equity Partners I, Inc.](../companies/0002027708/README.md) | CEPO | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0002041208 | [Tactical Resources Corp.](../companies/0002041208/README.md) | TREO | not available |
 | 0002041338 | [Dreamland Ltd](../companies/0002041338/README.md) | TDIC | not available |
 | 0002041385 | [Ralliant Corp](../companies/0002041385/README.md) | RAL | available, quality gates apply |
+| 0002041493 | [Alussa Energy Acquisition Corp. II](../companies/0002041493/README.md) | ALUB | available, quality gates apply |

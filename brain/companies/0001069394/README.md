@@ -8,11 +8,11 @@ tickers:
 - FSI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -80,10 +80,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001069394.json
     sha256: a60bfee8531becfcc2883da719fe052fecce50cc39817b8f61088166e925635e
-    retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001069394.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -91,13 +91,13 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001069394.json
   published_at: null
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: a60bfee8531becfcc2883da719fe052fecce50cc39817b8f61088166e925635e
 - id: S03
   title: SEC CompanyFacts source
@@ -193,309 +193,313 @@ sources:
   title: DEFR14A 0001493152-26-047450
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226047450/0001493152-26-047450-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S19
   title: DEF 14A 0001493152-26-046034
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226046034/0001493152-26-046034-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S20
   title: 8-K 0001493152-26-040991
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226040991/0001493152-26-040991-index.html
   published_at: '2026-09-01'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S21
   title: 8-K 0001493152-26-038935
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226038935/0001493152-26-038935-index.html
   published_at: '2026-08-18'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S22
   title: 10-Q 0001493152-26-038290
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226038290/0001493152-26-038290-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S23
   title: 8-K 0001493152-26-031474
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226031474/0001493152-26-031474-index.html
   published_at: '2026-07-01'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S24
   title: 424B5 0001493152-26-031461
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226031461/0001493152-26-031461-index.html
   published_at: '2026-07-01'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S25
   title: 8-K 0001493152-26-027673
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226027673/0001493152-26-027673-index.html
   published_at: '2026-06-08'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S26
   title: 8-K 0001493152-26-024160
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226024160/0001493152-26-024160-index.html
   published_at: '2026-05-18'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S27
   title: 10-Q 0001493152-26-023701
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226023701/0001493152-26-023701-index.html
   published_at: '2026-05-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S28
   title: 8-K 0001493152-26-018034
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226018034/0001493152-26-018034-index.html
   published_at: '2026-04-20'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S29
   title: 10-K 0001493152-26-016796
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226016796/0001493152-26-016796-index.html
   published_at: '2026-04-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S30
   title: NT 10-K 0001493152-26-014305
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226014305/0001493152-26-014305-index.html
   published_at: '2026-03-31'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S31
   title: EFFECT 9999999995-26-000735
   url: https://www.sec.gov/Archives/edgar/data/1069394/999999999526000735/9999999995-26-000735-index.html
   published_at: '2026-03-05'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S32
   title: S-3 0001493152-26-007912
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226007912/0001493152-26-007912-index.html
   published_at: '2026-02-24'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S33
   title: 4 0001493152-26-007332
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226007332/0001493152-26-007332-index.html
   published_at: '2026-02-18'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S34
   title: SCHEDULE 13D/A 0001493152-26-006273
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226006273/0001493152-26-006273-index.html
   published_at: '2026-02-11'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S35
   title: 4/A 0001112317-26-000007
   url: https://www.sec.gov/Archives/edgar/data/1069394/000111231726000007/0001112317-26-000007-index.html
   published_at: '2026-02-10'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S36
   title: 4 0001112317-26-000006
   url: https://www.sec.gov/Archives/edgar/data/1069394/000111231726000006/0001112317-26-000006-index.html
   published_at: '2026-02-05'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S37
   title: 4 0001112317-26-000005
   url: https://www.sec.gov/Archives/edgar/data/1069394/000111231726000005/0001112317-26-000005-index.html
   published_at: '2026-02-02'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S38
   title: 4 0001112317-26-000004
   url: https://www.sec.gov/Archives/edgar/data/1069394/000111231726000004/0001112317-26-000004-index.html
   published_at: '2026-01-29'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S39
   title: 144 0001493152-26-003837
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315226003837/0001493152-26-003837-index.html
   published_at: '2026-01-27'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S40
   title: DRS/A 0001493152-25-026879
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225026879/0001493152-25-026879-index.html
   published_at: '2025-12-09'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S41
   title: 8-K 0001493152-25-024649
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225024649/0001493152-25-024649-index.html
   published_at: '2025-11-21'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S42
   title: 8-K 0001493152-25-023818
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225023818/0001493152-25-023818-index.html
   published_at: '2025-11-17'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S43
   title: 10-Q 0001493152-25-023546
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225023546/0001493152-25-023546-index.html
   published_at: '2025-11-14'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S44
   title: DEF 14A 0001493152-25-016383
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225016383/0001493152-25-016383-index.html
   published_at: '2025-09-30'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S45
   title: DRS 0001493152-25-014650
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225014650/0001493152-25-014650-index.html
   published_at: '2025-09-23'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S46
   title: 8-K/A 0001641172-25-025722
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225025722/0001641172-25-025722-index.html
   published_at: '2025-08-27'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S47
   title: 8-K 0001641172-25-024466
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225024466/0001641172-25-024466-index.html
   published_at: '2025-08-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S48
   title: 8-K 0001641172-25-024379
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225024379/0001641172-25-024379-index.html
   published_at: '2025-08-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S49
   title: 10-Q 0001641172-25-023966
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225023966/0001641172-25-023966-index.html
   published_at: '2025-08-14'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S50
   title: 8-K 0001641172-25-011413
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225011413/0001641172-25-011413-index.html
   published_at: '2025-05-19'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S51
   title: 10-Q 0001641172-25-010832
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225010832/0001641172-25-010832-index.html
   published_at: '2025-05-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S52
   title: 8-K 0001641172-25-009188
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225009188/0001641172-25-009188-index.html
   published_at: '2025-05-08'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S53
   title: 8-K 0001641172-25-002095
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225002095/0001641172-25-002095-index.html
   published_at: '2025-04-01'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S54
   title: 10-K 0001641172-25-001675
   url: https://www.sec.gov/Archives/edgar/data/1069394/000164117225001675/0001641172-25-001675-index.html
   published_at: '2025-03-31'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S55
   title: 8-K 0001493152-25-003527
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315225003527/0001493152-25-003527-index.html
   published_at: '2025-01-24'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S56
   title: SCHEDULE 13G/A 0001398344-25-001005
   url: https://www.sec.gov/Archives/edgar/data/1069394/000139834425001005/0001398344-25-001005-index.html
   published_at: '2025-01-24'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S57
   title: 8-K 0001493152-24-052644
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224052644/0001493152-24-052644-index.html
   published_at: '2024-12-31'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S58
   title: 8-K 0001493152-24-048460
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224048460/0001493152-24-048460-index.html
   published_at: '2024-12-03'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S59
   title: DEF 14A 0001493152-24-048284
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224048284/0001493152-24-048284-index.html
   published_at: '2024-12-02'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S60
   title: 8-K 0001493152-24-046296
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224046296/0001493152-24-046296-index.html
   published_at: '2024-11-15'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S61
   title: 10-Q 0001493152-24-045777
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224045777/0001493152-24-045777-index.html
   published_at: '2024-11-14'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S62
   title: 144 0001493152-24-042115
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224042115/0001493152-24-042115-index.html
   published_at: '2024-10-22'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S63
   title: 8-K 0001493152-24-033982
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224033982/0001493152-24-033982-index.html
   published_at: '2024-08-27'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S64
   title: 8-K 0001493152-24-032777
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224032777/0001493152-24-032777-index.html
   published_at: '2024-08-16'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S65
   title: 10-Q 0001493152-24-032358
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224032358/0001493152-24-032358-index.html
   published_at: '2024-08-14'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S66
   title: 10-K/A 0001493152-24-031588
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224031588/0001493152-24-031588-index.html
   published_at: '2024-08-13'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S67
   title: 8-K 0001493152-24-020223
   url: https://www.sec.gov/Archives/edgar/data/1069394/000149315224020223/0001493152-24-020223-index.html
   published_at: '2024-05-16'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001069394
+  classification_status: reported_sic
+  entity_type: operating
   name: FLEXIBLE SOLUTIONS INTERNATIONAL INC
+  sic: '2890'
+  sic_description: Miscellaneous Chemical Products
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: a60bfee8531becfcc2883da719fe052fecce50cc39817b8f61088166e925635e
   url: https://data.sec.gov/submissions/CIK0001069394.json
 ---
@@ -531,7 +535,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **2890**: Miscellaneous Chemical Products. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 ## Competitive landscape
 
@@ -1162,7 +1168,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:39:05.461737+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:41:39.855411+00:00.
 
 ## Relationships and themes
 
@@ -1227,9 +1233,9 @@ Latest 50 filing metadata records of 624 retained records. A filing link is evid
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00; source SHA-256 `0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d`.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00; source SHA-256 `6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67`.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001069394.json) — published not supplied; retrieved 2026-10-22T17:52:50.185860+00:00; source SHA-256 `a60bfee8531becfcc2883da719fe052fecce50cc39817b8f61088166e925635e`.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001069394.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00; source SHA-256 `a60bfee8531becfcc2883da719fe052fecce50cc39817b8f61088166e925635e`.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001069394.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00; source SHA-256 `2a49964e62eb607c1ae837b7bd836ee6de6da6500090c166d08aecf8c019c67f`.
 
@@ -1261,104 +1267,104 @@ Latest 50 filing metadata records of 624 retained records. A filing link is evid
 
 [S17] [10-Q 0001493152-24-019962](https://www.sec.gov/Archives/edgar/data/1069394/000149315224019962/0001493152-24-019962-index.html) — published 2024-05-15; retrieved 2026-10-22T18:10:35.452616+00:00; filing linked by accession.
 
-[S18] [DEFR14A 0001493152-26-047450](https://www.sec.gov/Archives/edgar/data/1069394/000149315226047450/0001493152-26-047450-index.html) — published 2026-10-16; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S18] [DEFR14A 0001493152-26-047450](https://www.sec.gov/Archives/edgar/data/1069394/000149315226047450/0001493152-26-047450-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S19] [DEF 14A 0001493152-26-046034](https://www.sec.gov/Archives/edgar/data/1069394/000149315226046034/0001493152-26-046034-index.html) — published 2026-10-07; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S19] [DEF 14A 0001493152-26-046034](https://www.sec.gov/Archives/edgar/data/1069394/000149315226046034/0001493152-26-046034-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S20] [8-K 0001493152-26-040991](https://www.sec.gov/Archives/edgar/data/1069394/000149315226040991/0001493152-26-040991-index.html) — published 2026-09-01; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S20] [8-K 0001493152-26-040991](https://www.sec.gov/Archives/edgar/data/1069394/000149315226040991/0001493152-26-040991-index.html) — published 2026-09-01; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S21] [8-K 0001493152-26-038935](https://www.sec.gov/Archives/edgar/data/1069394/000149315226038935/0001493152-26-038935-index.html) — published 2026-08-18; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S21] [8-K 0001493152-26-038935](https://www.sec.gov/Archives/edgar/data/1069394/000149315226038935/0001493152-26-038935-index.html) — published 2026-08-18; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S22] [10-Q 0001493152-26-038290](https://www.sec.gov/Archives/edgar/data/1069394/000149315226038290/0001493152-26-038290-index.html) — published 2026-08-14; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S22] [10-Q 0001493152-26-038290](https://www.sec.gov/Archives/edgar/data/1069394/000149315226038290/0001493152-26-038290-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S23] [8-K 0001493152-26-031474](https://www.sec.gov/Archives/edgar/data/1069394/000149315226031474/0001493152-26-031474-index.html) — published 2026-07-01; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S23] [8-K 0001493152-26-031474](https://www.sec.gov/Archives/edgar/data/1069394/000149315226031474/0001493152-26-031474-index.html) — published 2026-07-01; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S24] [424B5 0001493152-26-031461](https://www.sec.gov/Archives/edgar/data/1069394/000149315226031461/0001493152-26-031461-index.html) — published 2026-07-01; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S24] [424B5 0001493152-26-031461](https://www.sec.gov/Archives/edgar/data/1069394/000149315226031461/0001493152-26-031461-index.html) — published 2026-07-01; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S25] [8-K 0001493152-26-027673](https://www.sec.gov/Archives/edgar/data/1069394/000149315226027673/0001493152-26-027673-index.html) — published 2026-06-08; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S25] [8-K 0001493152-26-027673](https://www.sec.gov/Archives/edgar/data/1069394/000149315226027673/0001493152-26-027673-index.html) — published 2026-06-08; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S26] [8-K 0001493152-26-024160](https://www.sec.gov/Archives/edgar/data/1069394/000149315226024160/0001493152-26-024160-index.html) — published 2026-05-18; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S26] [8-K 0001493152-26-024160](https://www.sec.gov/Archives/edgar/data/1069394/000149315226024160/0001493152-26-024160-index.html) — published 2026-05-18; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S27] [10-Q 0001493152-26-023701](https://www.sec.gov/Archives/edgar/data/1069394/000149315226023701/0001493152-26-023701-index.html) — published 2026-05-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S27] [10-Q 0001493152-26-023701](https://www.sec.gov/Archives/edgar/data/1069394/000149315226023701/0001493152-26-023701-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S28] [8-K 0001493152-26-018034](https://www.sec.gov/Archives/edgar/data/1069394/000149315226018034/0001493152-26-018034-index.html) — published 2026-04-20; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S28] [8-K 0001493152-26-018034](https://www.sec.gov/Archives/edgar/data/1069394/000149315226018034/0001493152-26-018034-index.html) — published 2026-04-20; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S29] [10-K 0001493152-26-016796](https://www.sec.gov/Archives/edgar/data/1069394/000149315226016796/0001493152-26-016796-index.html) — published 2026-04-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S29] [10-K 0001493152-26-016796](https://www.sec.gov/Archives/edgar/data/1069394/000149315226016796/0001493152-26-016796-index.html) — published 2026-04-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S30] [NT 10-K 0001493152-26-014305](https://www.sec.gov/Archives/edgar/data/1069394/000149315226014305/0001493152-26-014305-index.html) — published 2026-03-31; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S30] [NT 10-K 0001493152-26-014305](https://www.sec.gov/Archives/edgar/data/1069394/000149315226014305/0001493152-26-014305-index.html) — published 2026-03-31; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S31] [EFFECT 9999999995-26-000735](https://www.sec.gov/Archives/edgar/data/1069394/999999999526000735/9999999995-26-000735-index.html) — published 2026-03-05; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S31] [EFFECT 9999999995-26-000735](https://www.sec.gov/Archives/edgar/data/1069394/999999999526000735/9999999995-26-000735-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S32] [S-3 0001493152-26-007912](https://www.sec.gov/Archives/edgar/data/1069394/000149315226007912/0001493152-26-007912-index.html) — published 2026-02-24; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S32] [S-3 0001493152-26-007912](https://www.sec.gov/Archives/edgar/data/1069394/000149315226007912/0001493152-26-007912-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S33] [4 0001493152-26-007332](https://www.sec.gov/Archives/edgar/data/1069394/000149315226007332/0001493152-26-007332-index.html) — published 2026-02-18; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S33] [4 0001493152-26-007332](https://www.sec.gov/Archives/edgar/data/1069394/000149315226007332/0001493152-26-007332-index.html) — published 2026-02-18; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S34] [SCHEDULE 13D/A 0001493152-26-006273](https://www.sec.gov/Archives/edgar/data/1069394/000149315226006273/0001493152-26-006273-index.html) — published 2026-02-11; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S34] [SCHEDULE 13D/A 0001493152-26-006273](https://www.sec.gov/Archives/edgar/data/1069394/000149315226006273/0001493152-26-006273-index.html) — published 2026-02-11; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S35] [4/A 0001112317-26-000007](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000007/0001112317-26-000007-index.html) — published 2026-02-10; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S35] [4/A 0001112317-26-000007](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000007/0001112317-26-000007-index.html) — published 2026-02-10; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S36] [4 0001112317-26-000006](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000006/0001112317-26-000006-index.html) — published 2026-02-05; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S36] [4 0001112317-26-000006](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000006/0001112317-26-000006-index.html) — published 2026-02-05; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S37] [4 0001112317-26-000005](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000005/0001112317-26-000005-index.html) — published 2026-02-02; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S37] [4 0001112317-26-000005](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000005/0001112317-26-000005-index.html) — published 2026-02-02; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S38] [4 0001112317-26-000004](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000004/0001112317-26-000004-index.html) — published 2026-01-29; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S38] [4 0001112317-26-000004](https://www.sec.gov/Archives/edgar/data/1069394/000111231726000004/0001112317-26-000004-index.html) — published 2026-01-29; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S39] [144 0001493152-26-003837](https://www.sec.gov/Archives/edgar/data/1069394/000149315226003837/0001493152-26-003837-index.html) — published 2026-01-27; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S39] [144 0001493152-26-003837](https://www.sec.gov/Archives/edgar/data/1069394/000149315226003837/0001493152-26-003837-index.html) — published 2026-01-27; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S40] [DRS/A 0001493152-25-026879](https://www.sec.gov/Archives/edgar/data/1069394/000149315225026879/0001493152-25-026879-index.html) — published 2025-12-09; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S40] [DRS/A 0001493152-25-026879](https://www.sec.gov/Archives/edgar/data/1069394/000149315225026879/0001493152-25-026879-index.html) — published 2025-12-09; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S41] [8-K 0001493152-25-024649](https://www.sec.gov/Archives/edgar/data/1069394/000149315225024649/0001493152-25-024649-index.html) — published 2025-11-21; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S41] [8-K 0001493152-25-024649](https://www.sec.gov/Archives/edgar/data/1069394/000149315225024649/0001493152-25-024649-index.html) — published 2025-11-21; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S42] [8-K 0001493152-25-023818](https://www.sec.gov/Archives/edgar/data/1069394/000149315225023818/0001493152-25-023818-index.html) — published 2025-11-17; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S42] [8-K 0001493152-25-023818](https://www.sec.gov/Archives/edgar/data/1069394/000149315225023818/0001493152-25-023818-index.html) — published 2025-11-17; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S43] [10-Q 0001493152-25-023546](https://www.sec.gov/Archives/edgar/data/1069394/000149315225023546/0001493152-25-023546-index.html) — published 2025-11-14; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S43] [10-Q 0001493152-25-023546](https://www.sec.gov/Archives/edgar/data/1069394/000149315225023546/0001493152-25-023546-index.html) — published 2025-11-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S44] [DEF 14A 0001493152-25-016383](https://www.sec.gov/Archives/edgar/data/1069394/000149315225016383/0001493152-25-016383-index.html) — published 2025-09-30; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S44] [DEF 14A 0001493152-25-016383](https://www.sec.gov/Archives/edgar/data/1069394/000149315225016383/0001493152-25-016383-index.html) — published 2025-09-30; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S45] [DRS 0001493152-25-014650](https://www.sec.gov/Archives/edgar/data/1069394/000149315225014650/0001493152-25-014650-index.html) — published 2025-09-23; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S45] [DRS 0001493152-25-014650](https://www.sec.gov/Archives/edgar/data/1069394/000149315225014650/0001493152-25-014650-index.html) — published 2025-09-23; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S46] [8-K/A 0001641172-25-025722](https://www.sec.gov/Archives/edgar/data/1069394/000164117225025722/0001641172-25-025722-index.html) — published 2025-08-27; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S46] [8-K/A 0001641172-25-025722](https://www.sec.gov/Archives/edgar/data/1069394/000164117225025722/0001641172-25-025722-index.html) — published 2025-08-27; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S47] [8-K 0001641172-25-024466](https://www.sec.gov/Archives/edgar/data/1069394/000164117225024466/0001641172-25-024466-index.html) — published 2025-08-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S47] [8-K 0001641172-25-024466](https://www.sec.gov/Archives/edgar/data/1069394/000164117225024466/0001641172-25-024466-index.html) — published 2025-08-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S48] [8-K 0001641172-25-024379](https://www.sec.gov/Archives/edgar/data/1069394/000164117225024379/0001641172-25-024379-index.html) — published 2025-08-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S48] [8-K 0001641172-25-024379](https://www.sec.gov/Archives/edgar/data/1069394/000164117225024379/0001641172-25-024379-index.html) — published 2025-08-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S49] [10-Q 0001641172-25-023966](https://www.sec.gov/Archives/edgar/data/1069394/000164117225023966/0001641172-25-023966-index.html) — published 2025-08-14; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S49] [10-Q 0001641172-25-023966](https://www.sec.gov/Archives/edgar/data/1069394/000164117225023966/0001641172-25-023966-index.html) — published 2025-08-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S50] [8-K 0001641172-25-011413](https://www.sec.gov/Archives/edgar/data/1069394/000164117225011413/0001641172-25-011413-index.html) — published 2025-05-19; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S50] [8-K 0001641172-25-011413](https://www.sec.gov/Archives/edgar/data/1069394/000164117225011413/0001641172-25-011413-index.html) — published 2025-05-19; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S51] [10-Q 0001641172-25-010832](https://www.sec.gov/Archives/edgar/data/1069394/000164117225010832/0001641172-25-010832-index.html) — published 2025-05-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S51] [10-Q 0001641172-25-010832](https://www.sec.gov/Archives/edgar/data/1069394/000164117225010832/0001641172-25-010832-index.html) — published 2025-05-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S52] [8-K 0001641172-25-009188](https://www.sec.gov/Archives/edgar/data/1069394/000164117225009188/0001641172-25-009188-index.html) — published 2025-05-08; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S52] [8-K 0001641172-25-009188](https://www.sec.gov/Archives/edgar/data/1069394/000164117225009188/0001641172-25-009188-index.html) — published 2025-05-08; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S53] [8-K 0001641172-25-002095](https://www.sec.gov/Archives/edgar/data/1069394/000164117225002095/0001641172-25-002095-index.html) — published 2025-04-01; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S53] [8-K 0001641172-25-002095](https://www.sec.gov/Archives/edgar/data/1069394/000164117225002095/0001641172-25-002095-index.html) — published 2025-04-01; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S54] [10-K 0001641172-25-001675](https://www.sec.gov/Archives/edgar/data/1069394/000164117225001675/0001641172-25-001675-index.html) — published 2025-03-31; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S54] [10-K 0001641172-25-001675](https://www.sec.gov/Archives/edgar/data/1069394/000164117225001675/0001641172-25-001675-index.html) — published 2025-03-31; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S55] [8-K 0001493152-25-003527](https://www.sec.gov/Archives/edgar/data/1069394/000149315225003527/0001493152-25-003527-index.html) — published 2025-01-24; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S55] [8-K 0001493152-25-003527](https://www.sec.gov/Archives/edgar/data/1069394/000149315225003527/0001493152-25-003527-index.html) — published 2025-01-24; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S56] [SCHEDULE 13G/A 0001398344-25-001005](https://www.sec.gov/Archives/edgar/data/1069394/000139834425001005/0001398344-25-001005-index.html) — published 2025-01-24; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S56] [SCHEDULE 13G/A 0001398344-25-001005](https://www.sec.gov/Archives/edgar/data/1069394/000139834425001005/0001398344-25-001005-index.html) — published 2025-01-24; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S57] [8-K 0001493152-24-052644](https://www.sec.gov/Archives/edgar/data/1069394/000149315224052644/0001493152-24-052644-index.html) — published 2024-12-31; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S57] [8-K 0001493152-24-052644](https://www.sec.gov/Archives/edgar/data/1069394/000149315224052644/0001493152-24-052644-index.html) — published 2024-12-31; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S58] [8-K 0001493152-24-048460](https://www.sec.gov/Archives/edgar/data/1069394/000149315224048460/0001493152-24-048460-index.html) — published 2024-12-03; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S58] [8-K 0001493152-24-048460](https://www.sec.gov/Archives/edgar/data/1069394/000149315224048460/0001493152-24-048460-index.html) — published 2024-12-03; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S59] [DEF 14A 0001493152-24-048284](https://www.sec.gov/Archives/edgar/data/1069394/000149315224048284/0001493152-24-048284-index.html) — published 2024-12-02; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S59] [DEF 14A 0001493152-24-048284](https://www.sec.gov/Archives/edgar/data/1069394/000149315224048284/0001493152-24-048284-index.html) — published 2024-12-02; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S60] [8-K 0001493152-24-046296](https://www.sec.gov/Archives/edgar/data/1069394/000149315224046296/0001493152-24-046296-index.html) — published 2024-11-15; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S60] [8-K 0001493152-24-046296](https://www.sec.gov/Archives/edgar/data/1069394/000149315224046296/0001493152-24-046296-index.html) — published 2024-11-15; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S61] [10-Q 0001493152-24-045777](https://www.sec.gov/Archives/edgar/data/1069394/000149315224045777/0001493152-24-045777-index.html) — published 2024-11-14; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S61] [10-Q 0001493152-24-045777](https://www.sec.gov/Archives/edgar/data/1069394/000149315224045777/0001493152-24-045777-index.html) — published 2024-11-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S62] [144 0001493152-24-042115](https://www.sec.gov/Archives/edgar/data/1069394/000149315224042115/0001493152-24-042115-index.html) — published 2024-10-22; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S62] [144 0001493152-24-042115](https://www.sec.gov/Archives/edgar/data/1069394/000149315224042115/0001493152-24-042115-index.html) — published 2024-10-22; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S63] [8-K 0001493152-24-033982](https://www.sec.gov/Archives/edgar/data/1069394/000149315224033982/0001493152-24-033982-index.html) — published 2024-08-27; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S63] [8-K 0001493152-24-033982](https://www.sec.gov/Archives/edgar/data/1069394/000149315224033982/0001493152-24-033982-index.html) — published 2024-08-27; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S64] [8-K 0001493152-24-032777](https://www.sec.gov/Archives/edgar/data/1069394/000149315224032777/0001493152-24-032777-index.html) — published 2024-08-16; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S64] [8-K 0001493152-24-032777](https://www.sec.gov/Archives/edgar/data/1069394/000149315224032777/0001493152-24-032777-index.html) — published 2024-08-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S65] [10-Q 0001493152-24-032358](https://www.sec.gov/Archives/edgar/data/1069394/000149315224032358/0001493152-24-032358-index.html) — published 2024-08-14; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S65] [10-Q 0001493152-24-032358](https://www.sec.gov/Archives/edgar/data/1069394/000149315224032358/0001493152-24-032358-index.html) — published 2024-08-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S66] [10-K/A 0001493152-24-031588](https://www.sec.gov/Archives/edgar/data/1069394/000149315224031588/0001493152-24-031588-index.html) — published 2024-08-13; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S66] [10-K/A 0001493152-24-031588](https://www.sec.gov/Archives/edgar/data/1069394/000149315224031588/0001493152-24-031588-index.html) — published 2024-08-13; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-[S67] [8-K 0001493152-24-020223](https://www.sec.gov/Archives/edgar/data/1069394/000149315224020223/0001493152-24-020223-index.html) — published 2024-05-16; retrieved 2026-10-22T17:52:50.185860+00:00; filing linked by accession.
+[S67] [8-K 0001493152-24-020223](https://www.sec.gov/Archives/edgar/data/1069394/000149315224020223/0001493152-24-020223-index.html) — published 2024-05-16; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-Generated from verified data release `coverage-20261022-39831584719-1`. Exact changes are retained in the brain-data Git history.
+Generated from verified data release `coverage-20261023-39925380279-1`. Exact changes are retained in the brain-data Git history.

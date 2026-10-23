@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002097288 | [BHAV Acquisition Corp](../companies/0002097288/README.md) | BHAV | available, quality gates apply |
 | 0002097364 | [Spartacus Acquisition Corp. II](../companies/0002097364/README.md) | TMTS | available, quality gates apply |
 | 0002097376 | [MOZAYYX Acquisition Corp.](../companies/0002097376/README.md) | MZYX | available, quality gates apply |
 | 0002097702 | [GOWell Energy Technology](../companies/0002097702/README.md) | GOW | not available |
@@ -104,3 +103,4 @@
 | 0002124472 | [Orion180 Insurance Group Inc.](../companies/0002124472/README.md) | OIG | not available |
 | 0002125551 | [Alpex Acquisition Corp](../companies/0002125551/README.md) | ALPX | available, quality gates apply |
 | 0002125567 | [Samos Energy Acquisition Corp](../companies/0002125567/README.md) | SAMO | available, quality gates apply |
+| 0002126043 | [Cartesian Growth Corp IV](../companies/0002126043/README.md) | CGCF | available, quality gates apply |

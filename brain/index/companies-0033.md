@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001633978 | [Lumentum Holdings Inc.](../companies/0001633978/README.md) | LITE | available, quality gates apply |
 | 0001634117 | [Barnes & Noble Education, Inc.](../companies/0001634117/README.md) | BNED | available, quality gates apply |
 | 0001635077 | [Aclarion, Inc.](../companies/0001635077/README.md) | ACON | available, quality gates apply |
 | 0001635088 | [Roivant Sciences Ltd.](../companies/0001635088/README.md) | ROIV | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001654595 | [Medalist Diversified, Inc.](../companies/0001654595/README.md) | MDRR | available, quality gates apply |
 | 0001655050 | [Bain Capital Specialty Finance, Inc.](../companies/0001655050/README.md) | BCSF | available, quality gates apply |
 | 0001655099 | [Brookfield Real Assets Income Fund Inc.](../companies/0001655099/README.md) | RA | not available |
+| 0001655210 | [BEYOND MEAT, INC.](../companies/0001655210/README.md) | BYND | available, quality gates apply |

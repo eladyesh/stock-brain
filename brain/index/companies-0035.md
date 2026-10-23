@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001680637 | [Nuran Wireless Inc.](../companies/0001680637/README.md) | NUR | not available |
 | 0001680873 | [HF Foods Group Inc.](../companies/0001680873/README.md) | HFFG | available, quality gates apply |
 | 0001681087 | [Tectonic Therapeutic, Inc.](../companies/0001681087/README.md) | TECX | available, quality gates apply |
 | 0001681206 | [NI Holdings, Inc.](../companies/0001681206/README.md) | NODK | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001703647 | [Korro Bio, Inc.](../companies/0001703647/README.md) | KRRO | available, quality gates apply |
 | 0001703956 | [Concrete Pumping Holdings, Inc.](../companies/0001703956/README.md) | BBCP | available, quality gates apply |
 | 0001704287 | [Bluejay Diagnostics, Inc.](../companies/0001704287/README.md) | BJDX | available, quality gates apply |
+| 0001704292 | [Zai Lab Ltd](../companies/0001704292/README.md) | ZLAB | available, quality gates apply |

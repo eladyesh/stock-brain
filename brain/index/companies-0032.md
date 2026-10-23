@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001610590 | [MBody AI Ltd.](../companies/0001610590/README.md) | MBAI | not available |
 | 0001610601 | [Hello Group Inc.](../companies/0001610601/README.md) | MOMO | not available |
 | 0001610820 | [BriaCell Therapeutics Corp.](../companies/0001610820/README.md) | BCTX | available, quality gates apply |
 | 0001610853 | [Solana Co](../companies/0001610853/README.md) | HSDT | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001633336 | [Crescent Capital BDC, Inc.](../companies/0001633336/README.md) | CCAP | available, quality gates apply |
 | 0001633369 | [FreeCast, Inc.](../companies/0001633369/README.md) | CAST | available, quality gates apply |
 | 0001633917 | [PayPal Holdings, Inc.](../companies/0001633917/README.md) | PYPL | not available |
+| 0001633978 | [Lumentum Holdings Inc.](../companies/0001633978/README.md) | LITE | available, quality gates apply |

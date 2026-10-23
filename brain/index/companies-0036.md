@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001704292 | [Zai Lab Ltd](../companies/0001704292/README.md) | ZLAB | available, quality gates apply |
 | 0001704711 | [Funko, Inc.](../companies/0001704711/README.md) | FNKO | available, quality gates apply |
 | 0001704715 | [Alpha Metallurgical Resources, Inc.](../companies/0001704715/README.md) | AMR | available, quality gates apply |
 | 0001704720 | [Cannae Holdings, Inc.](../companies/0001704720/README.md) | CNNE | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001722684 | [WYNDHAM HOTELS & RESORTS, INC.](../companies/0001722684/README.md) | WH | available, quality gates apply |
 | 0001723069 | [Tiziana Life Sciences Ltd](../companies/0001723069/README.md) | TLSA | not available |
 | 0001723128 | [Amneal Pharmaceuticals, Inc.](../companies/0001723128/README.md) | AMRX | available, quality gates apply |
+| 0001723464 | [BIOHARVEST SCIENCES INC.](../companies/0001723464/README.md) | BHST | not available |

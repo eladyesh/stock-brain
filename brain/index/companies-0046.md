@@ -4,8 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001867102 | [Vertical Aerospace Ltd.](../companies/0001867102/README.md) | EVTL | not available |
-| 0001867729 | [WeRide Inc.](../companies/0001867729/README.md) | WRD | not available |
 | 0001867834 | [Bragg Gaming Group Inc.](../companies/0001867834/README.md) | BRAG | not available |
 | 0001867949 | [Chicago Atlantic Real Estate Finance, Inc.](../companies/0001867949/README.md) | REFI | available, quality gates apply |
 | 0001868159 | [Lineage, Inc.](../companies/0001868159/README.md) | LINE | available, quality gates apply |
@@ -104,3 +102,5 @@
 | 0001889123 | [Fold Holdings, Inc.](../companies/0001889123/README.md) | FLD | available, quality gates apply |
 | 0001889539 | [Corebridge Financial, Inc.](../companies/0001889539/README.md) | CRBG | available, quality gates apply |
 | 0001889823 | [DEFSEC Technologies Inc.](../companies/0001889823/README.md) | DFSC | not available |
+| 0001890361 | [ASPAC III Acquisition Corp.](../companies/0001890361/README.md) | ASPC | available, quality gates apply |
+| 0001891027 | [MNTN, Inc.](../companies/0001891027/README.md) | MNTN | available, quality gates apply |

@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0001769256 | [XChange TEC.INC](../companies/0001769256/README.md) | XHG | not available |
 | 0001769484 | [Bioceres Crop Solutions Corp.](../companies/0001769484/README.md) | BIOX | not available |
 | 0001769628 | [CoreWeave, Inc.](../companies/0001769628/README.md) | CRWV | available, quality gates apply |
 | 0001769663 | [Pioneer Bancorp, Inc./MD](../companies/0001769663/README.md) | PBFS | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0001786431 | [Reynolds Consumer Products Inc.](../companies/0001786431/README.md) | REYN | not available |
 | 0001786471 | [Aptera Motors Corp](../companies/0001786471/README.md) | SEV | available, quality gates apply |
 | 0001786842 | [Vontier Corp](../companies/0001786842/README.md) | VNT | available, quality gates apply |
+| 0001787117 | [Reformation Inc.](../companies/0001787117/README.md) | REF | available, quality gates apply |

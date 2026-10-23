@@ -4,7 +4,6 @@
 
 | CIK | Company | Current symbols | Financial history |
 | --- | --- | --- | --- |
-| 0002041493 | [Alussa Energy Acquisition Corp. II](../companies/0002041493/README.md) | ALUB | available, quality gates apply |
 | 0002041610 | [Skydance Corp](../companies/0002041610/README.md) | SKYD | available, quality gates apply |
 | 0002041829 | [ChowChow Cloud International Holdings Ltd](../companies/0002041829/README.md) | CHOW | not available |
 | 0002042022 | [WhiteFiber, Inc.](../companies/0002042022/README.md) | WYFI | available, quality gates apply |
@@ -104,3 +103,4 @@
 | 0002065708 | [Andersen Group Inc.](../companies/0002065708/README.md) | ANDG | available, quality gates apply |
 | 0002065812 | [FS Specialty Lending Fund](../companies/0002065812/README.md) | FSSL | not available |
 | 0002065948 | [Solarius Capital Acquisition Corp.](../companies/0002065948/README.md) | SOCA | available, quality gates apply |
+| 0002066836 | [Conexeu Sciences Inc.](../companies/0002066836/README.md) | CNXU | available, quality gates apply |
