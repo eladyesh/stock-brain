@@ -60,6 +60,7 @@ class BrainPublication:
                                            'financial_profiles', 'unresolved_listings', 'reviewed_generated_profiles')})
             result['index_url'] = f"https://github.com/{REPO}/blob/{m['commit']}/brain/INDEX.md"
             result['download_url'] = f"https://github.com/{REPO}/archive/{m['commit']}.zip"
+            result['sectors_url'] = f"https://github.com/{REPO}/blob/main/sectors/README.md"
         return result
 
     def document(self, *, cik=None, listing_key=None, release_tag=None):

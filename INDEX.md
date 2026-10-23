@@ -4,9 +4,9 @@
 
 [Project overview](README.md) · [Company template](templates/company/README.md)
 
-## Coverage
+## Curated research coverage
 
-Profiles: **10**. Reviewed: **10**. Counts describe this repository, not the entire U.S. market.
+Curated profiles: **10**. Reviewed: **10**. These counts describe curated research, not automatic factual coverage or the entire U.S. market.
 
 ## Sectors
 

@@ -226,7 +226,7 @@ function coverageCatalog(){
       }
       total=page.total;summary.textContent=total+' ניירות תואמים · '+(total?offset+1:0)+'–'+Math.min(offset+25,total)+' מוצגים · רשימה נבדקה: '+date(page.directory?.imported_at)+(page.directory?.status==='stale'?' · העדכון היומי מתעכב':'');
       const counts=page.directory?.data_coverage||{};
-      brainInfo.replaceChildren(...(page.brain?.available?['Brain: '+page.brain.company_profiles+' קובצי חברות · '+page.brain.unresolved_listings+' רשומות שממתינות לזיהוי · נתוני '+date(page.brain.created_at)+'. ',link('פתח את כל קובצי ה־Markdown ↗',page.brain.index_url),' · ',link('הורד את ה־Brain ↗',page.brain.download_url)]:['קובצי ה־Brain ממתינים לאימות פרסום.']));
+      brainInfo.replaceChildren(...(page.brain?.available?['Brain: '+page.brain.company_profiles+' קובצי חברות · '+page.brain.unresolved_listings+' רשומות שממתינות לזיהוי · נתוני '+date(page.brain.created_at)+'. ',link('פתח את כל קובצי ה־Markdown ↗',page.brain.index_url),' · ',link('הורד את ה־Brain ↗',page.brain.download_url),...(page.brain.sectors_url?[' · ',link('תיקיות הסקטורים וקובצי החברות ↗',page.brain.sectors_url)]:[])]:['קובצי ה־Brain ממתינים לאימות פרסום.']));
       coverageInfo.textContent='כיסוי מידע בכל המרשם: דוחות כספיים '+(counts.financials||0)+' · מחירים '+(counts.prices||0)+' · מחקר שנבדק '+(counts.reviewed_research||0)+'. כל נתון נשמר עם תאריך המקור שלו.';
       const progress=page.directory?.coverage_progress,checks=progress?.filing_checks;
       if(state.tab==='coverage'&&progress)$('coverage-count').textContent=progress.total_listings+' מניות ומועמדות בחיפוש';

@@ -1,6 +1,13 @@
 # Company Markdown at market scale
 
-The `brain-data` branch holds real, versioned Markdown files for each distinct
+The main branch contains actual factual Markdown at
+`sectors/{project-sector}/facts/{ten-digit-cik}/README.md`. Start at
+[`sectors/README.md`](../sectors/README.md). These source-backed files contain the
+latest available annual, quarterly and TTM financial tables, five recent filing
+records, source evidence and explicit research gaps, with all ordered company
+sections. They are not link-only records and are not completed investment research.
+
+The `brain-data` branch holds full-history Markdown files for each distinct
 CIK linked to a current stock candidate in the verified coverage database.
 [Browse the files](https://github.com/eladyesh/stock-brain/blob/brain-data/brain/INDEX.md).
 The generated factual profiles complement the curated company research on
@@ -41,6 +48,22 @@ Curated profiles are linked at the exact generator source commit with their
 original research date/status. Their contents are never rewritten by this job.
 The existing `stock_brain.py export` still exports only reviewed company research.
 
+## Sector assignments and main-branch files
+
+The SEC-reported SIC and industry description are retained with their submissions
+source. `config/sector_sic_rules.json` groups explicit codes into project sectors
+for navigation. These are provisional project rules, not official GICS. Curated
+assignments take precedence with their original evidence dates. Ambiguous codes,
+blank-check companies, fund-reporting signals and unknown industries remain in
+`sectors/unclassified/facts/`. In particular, SIC 6798 does not distinguish equity
+from mortgage REITs, and broad computer-services codes do not prove an IT sector.
+
+`data/sector-facts.json` inventories and hashes every generated factual file.
+The sector and master indexes distinguish actual factual files from curated and
+reviewed research. Both can exist for the same issuer; these are overlapping
+views, not additional companies. The curated `companies/` tree and retrieval
+catalog are unchanged by factual synchronization.
+
 ## Daily publication
 
 `.github/workflows/brain-markdown.yml` follows successful main-branch runs of
@@ -56,9 +79,16 @@ and supports manual dispatch. A separate concurrency group serializes publicatio
 4. In an isolated Git checkout, verify the previous branch against its manifest.
    A manual edit, added file or missing file stops the publisher without replacing
    it. Put curated research on main, not in the generated branch.
-5. Commit to `brain-data` and push a normal fast-forward. Never force-push, change
-   main, discard Git history, or store the workflow token in a Git config/file.
+5. Commit full histories to `brain-data` and push a normal fast-forward. Never
+   force-push, discard Git history, or store the workflow token in a Git config/file.
    Verify the remote ref equals the checked commit. Identical reruns do not commit.
+6. Render the bounded recent-period files from that exact published generation.
+   Verify every file and citation. In a fresh main checkout, verify the previous
+   factual-file hashes, replace only manifest-owned facts, rebuild indexes and
+   validate the result. A manual modification or concurrent main-branch change
+   stops publication. Push a normal fast-forward touching only generated factual
+   files, their manifest and indexes. Curated research and review bindings are
+   never rewritten. This bot push does not recursively trigger Actions.
 
 Current listings determine this snapshot. A disappeared listing/profile remains
 in Git history; disappearance is not a proven delisting. CIK-based paths survive
