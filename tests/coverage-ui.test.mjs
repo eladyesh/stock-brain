@@ -23,7 +23,7 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     }],limitations:[]}},ttm:null};
   globalThis.fetch=async url=>{
     requests.push(url);
-    const value=url.startsWith('./api/securities?')?(warming?{items:[],total:0,directory:{status:'unavailable'}}:{items:[security],total:50000,limit:25,offset:0,brain:{available:true,company_profiles:1,unresolved_listings:2,created_at:brain.created_at,index_url:'https://github.com/eladyesh/stock-brain/blob/'+ 'a'.repeat(40)+'/brain/INDEX.md',download_url:'https://github.com/eladyesh/stock-brain/archive/'+ 'a'.repeat(40)+'.zip'},
+    const value=url.startsWith('./api/securities?')?(warming?{items:[],total:0,directory:{status:'unavailable'}}:{items:[security],total:50000,limit:25,offset:0,brain:{available:true,sectors_url:'https://github.com/eladyesh/stock-brain/blob/main/sectors/README.md',company_profiles:1,unresolved_listings:2,created_at:brain.created_at,index_url:'https://github.com/eladyesh/stock-brain/blob/'+ 'a'.repeat(40)+'/brain/INDEX.md',download_url:'https://github.com/eladyesh/stock-brain/archive/'+ 'a'.repeat(40)+'.zip'},
       directory:{coverage_progress:{total_listings:50000,mapped_listings:2,unmapped_listings:49998,distinct_mapped_issuers:1,
         filing_checks:{recent:0,overdue:2,not_checked:49998}}}}):
       url==='./api/securities/'+security.listing_key?{security}:
@@ -41,6 +41,7 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     assert(document.getElementById('content').textContent.includes('חברות מזוהות שונות: 1'));
     assert(document.getElementById('content').textContent.includes('בדיקה מתעכבת: 2'));
     assert(document.getElementById('content').textContent.includes('Brain: 1 קובצי חברות'));
+    assert(document.querySelector('a[href="https://github.com/eladyesh/stock-brain/blob/main/sectors/README.md"]'));
     assert(document.getElementById('companies').hidden);
     assert(document.getElementById('reviewed-search').hidden);
     assert(document.getElementById('coverage-count').textContent.includes('50000'));

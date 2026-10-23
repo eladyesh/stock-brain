@@ -178,6 +178,10 @@ def profile(store, cik, rows, definitions, release, curated=None):
         evidence = submissions['source']
         cite = source(evidence['url'], 'SEC issuer submissions', evidence['retrieved_at'], sha256=evidence.get('sha256'))
         identity_lines[0] += ' ' + cite
+        issuer = submissions.get('issuer') or {}
+        if issuer.get('sic'):
+            sections['industry-and-value-chain'] = (f"SEC-reported SIC **{text(issuer['sic'])}**: {text(issuer.get('sic_description'))}. {cite}\n\n"
+                'This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.')
     identity_lines += ['', 'Not available: a reviewed explanation of the business, products, customers and competitive position.']
     sections['business-overview'] = '\n\n'.join(identity_lines[:2]) + '\n\n' + '\n'.join(identity_lines[2:])
 
@@ -249,7 +253,9 @@ def profile(store, cik, rows, definitions, release, curated=None):
                 'as_of': release['created_at'][:10], 'updated_at': release['created_at'], 'reviewed_at': None,
                 'coverage_release': release['release_tag'], 'source_commit': release['source_commit'],
                 'financial_history_available': bool(history), 'curated_research': curated,
-                'financial_gap': gap, 'input_sources': input_sources, 'sources': sources}
+                'financial_gap': gap, 'input_sources': input_sources, 'sources': sources,
+                'issuer_classification': (submissions or {}).get('issuer'),
+                'classification_source': (submissions or {}).get('source')}
     body = f"# {text(name)} — CIK {cik}\n\n> Automatically maintained factual stub. Substantive company research is incomplete.\n\n[All companies](../../INDEX.md)\n\n"
     body += '\n\n'.join(f"## {d['title']}\n\n{sections[d['id']]}" for d in definitions) + '\n'
     return '---\n' + yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True) + '---\n' + body
@@ -279,7 +285,7 @@ def export(store, output, release, *, root=ROOT):
         m = doc.metadata
         if m['cik']:
             curated[m['cik']] = {'url': f"https://github.com/{REPO}/blob/{release['source_commit']}/{doc.path.relative_to(root).as_posix()}",
-                                 'status': m['status'], 'as_of': m['as_of']}
+                                 'status': m['status'], 'as_of': m['as_of'], 'sector': m['sector']}
     grouped, missing = defaultdict(list), []
     for row in stock_rows(store):
         if row['cik']:
@@ -471,6 +477,7 @@ def main():
     parser.add_argument('--database', type=Path)
     parser.add_argument('--manifest', type=Path)
     parser.add_argument('--source-commit', default=os.environ.get('GITHUB_SHA'))
+    parser.add_argument('--result-file', type=Path)
     args = parser.parse_args()
     if args.command == 'export':
         require(SHA.fullmatch(args.source_commit or '') is not None, 'source commit required')
@@ -493,6 +500,8 @@ def main():
         result = verify(args.output)
     else:
         result = publish(args.output)
+    if args.result_file:
+        args.result_file.write_text(json.dumps(result) + '\n')
     print(json.dumps({k: v for k, v in result.items() if k not in {'company_ciks', 'unresolved_listing_keys'}}, indent=2))
 
 

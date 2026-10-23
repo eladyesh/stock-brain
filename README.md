@@ -1,10 +1,12 @@
 # Stock Brain
 
+[Browse actual company files by sector](sectors/README.md). Factual profiles and completed research are counted separately.
+
 A structured, source-backed knowledge base for U.S.-listed stocks, with canonical English research and a cited Hebrew/English lookup interface.
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Coverage expansion (2026-10-23):** the latest verified SEC/directory snapshot identifies 5,634 distinct issuers across 5,864 stock listings, with normalized financial history for 4,049 issuers. Another 606 stock candidates still require verified issuer mapping. The daily Markdown publisher creates real CIK-based company files and unresolved-listing records on `brain-data`, with source dates, hashes, financial quality gates and explicit research gaps. See the [Markdown corpus](https://github.com/eladyesh/stock-brain/blob/brain-data/brain/INDEX.md) and [publication contract](docs/BRAIN_MARKDOWN.md). These are factual stubs, not completed company analyses. OTC coverage remains unavailable.
+**Coverage layers:** the [sector index](sectors/README.md) reports the actual source-backed company Markdown files stored in this branch, financial availability and unresolved sector assignments. These files retain recent financial tables, sources and explicit research gaps. The separate [full-history corpus](https://github.com/eladyesh/stock-brain/blob/brain-data/brain/INDEX.md) retains all normalized periods and unresolved listing records. Daily synchronization updates both views from the same verified SEC/directory release. Factual files are stubs, not completed company analyses. OTC coverage remains unavailable. See the [publication contract](docs/BRAIN_MARKDOWN.md).
 
 **Curated research:** ten hash-bound AI-reviewed company profiles with Hebrew translations, exact metric/period/basis gates, 170 source-backed financial periods, dated market snapshots, TTM comparisons, issuer-specific scenario models and disclosure triage. Reviews include AI checks, not independent human sign-off. Automatic data collection never changes these review dates or promotes stubs into the reviewed retrieval corpus.
 
@@ -41,7 +43,9 @@ The Markdown files are the source of truth. Every company uses the same sections
 | `INDEX.md` | Generated master index |
 | `sectors/<sector>/README.md` | Uniform sector research guide |
 | `sectors/<sector>/INDEX.md` | Generated company index for that sector |
-| `sectors/<sector>/companies/<TICKER>/README.md` | One canonical company profile |
+| `sectors/<sector>/companies/<TICKER>/README.md` | Curated company research |
+| `sectors/<sector>/facts/<CIK>/README.md` | Automatically maintained source-backed factual profile |
+| `data/sector-facts.json` | Exact inventory, hashes and separate factual coverage totals |
 | `config/` | Sector taxonomy and ordered company sections |
 | `templates/` | Canonical starting templates |
 | `data/catalog.json` | Generated machine-readable company catalog |
