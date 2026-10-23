@@ -10,1042 +10,1042 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 
 ## Factual company files
 
-| Company | Current symbols | Financial history | Classification basis |
+| Current symbols | Company | Financial history | Classification basis |
 | --- | --- | --- | --- |
-| [10x Genomics, Inc.](facts/0001770787/README.md) | TXG | available; quality gates apply | unresolved |
-| [1RT Acquisition Corp.](facts/0002054272/README.md) | ONCH | available; quality gates apply | unresolved |
-| [908 Devices Inc.](facts/0001555279/README.md) | MASS | available; quality gates apply | unresolved |
-| [AA Mission Acquisition Corp. II](facts/0002075336/README.md) | YCY | available; quality gates apply | unresolved |
-| [ABERDEEN GOVERNMENT MARKETS INCOME FUND](facts/0000811922/README.md) | MGF | missing | unresolved |
-| [ABERDEEN INDIA FUND, INC.](facts/0000917100/README.md) | IFN | missing | unresolved |
-| [ABERDEEN INTERMEDIATE INCOME FUND](facts/0000826735/README.md) | MIN | missing | unresolved |
-| [ABERDEEN MULTI-MARKET INCOME FUND](facts/0000809173/README.md) | MMT | missing | unresolved |
-| [ABERDEEN MUNICIPAL INCOME FUND](facts/0000801961/README.md) | MFM | missing | unresolved |
-| [Abony Acquisition Corp. I](facts/0002099906/README.md) | AACO | available; quality gates apply | unresolved |
-| [ABRDN ASIA-PACIFIC INCOME FUND, INC.](facts/0000790500/README.md) | FAX | missing | unresolved |
-| [ABRDN AUSTRALIA EQUITY FUND, INC.](facts/0000779336/README.md) | IAF | missing | unresolved |
-| [abrdn Emerging Markets ex-China Fund, Inc.](facts/0000846676/README.md) | AEF | missing | unresolved |
-| [abrdn Global Dynamic Dividend Fund](facts/0001362481/README.md) | AGD | missing | unresolved |
-| [abrdn Global Infrastructure Income Fund](facts/0001793855/README.md) | ASGI | missing | unresolved |
-| [abrdn Global Premier Properties Fund](facts/0001390195/README.md) | AWP | missing | unresolved |
-| [abrdn Healthcare Investors](facts/0000805267/README.md) | HQH | missing | unresolved |
-| [abrdn Healthcare Opportunities Fund](facts/0001604522/README.md) | THQ | missing | unresolved |
-| [abrdn Income Credit Strategies Fund](facts/0001503290/README.md) | ACP | missing | unresolved |
-| [abrdn Life Sciences Investors](facts/0000884121/README.md) | HQL | missing | unresolved |
-| [abrdn Total Dynamic Dividend Fund](facts/0001379400/README.md) | AOD | missing | unresolved |
-| [abrdn World Healthcare Fund](facts/0001635977/README.md) | THW | missing | unresolved |
-| [Absci Corp](facts/0001672688/README.md) | ABSI | available; quality gates apply | unresolved |
-| [ACACIA RESEARCH CORP](facts/0000934549/README.md) | ACTG | available; quality gates apply | unresolved |
-| [ACADIA REALTY TRUST](facts/0000899629/README.md) | AKR | available; quality gates apply | unresolved |
-| [ACP Holdings Acquisition Corp.](facts/0002111542/README.md) | ACGC | available; quality gates apply | unresolved |
-| [ACRES Commercial Realty Corp.](facts/0001332551/README.md) | ACR | available; quality gates apply | unresolved |
-| [Activate Energy Acquisition Corp.](facts/0002083689/README.md) | AEAQ | available; quality gates apply | unresolved |
-| [ADAMAS TRUST, INC.](facts/0001273685/README.md) | ADAM | available; quality gates apply | unresolved |
-| [ADAMS DIVERSIFIED EQUITY FUND, INC.](facts/0000002230/README.md) | ADX | missing | unresolved |
-| [ADAMS NATURAL RESOURCES FUND, INC.](facts/0000216851/README.md) | PEO | missing | unresolved |
-| [ADDENTAX GROUP CORP.](facts/0001650101/README.md) | ATXG | available; quality gates apply | unresolved |
-| [Advanced Flower Capital Inc.](facts/0001822523/README.md) | AFCG | available; quality gates apply | unresolved |
-| [ADVENT CONVERTIBLE & INCOME FUND](facts/0001219120/README.md) | AVK | missing | unresolved |
-| [Aeon Acquisition I Corp.](facts/0002082526/README.md) | AESP | available; quality gates apply | unresolved |
-| [AGILENT TECHNOLOGIES, INC.](facts/0001090872/README.md) | A | available; quality gates apply | unresolved |
-| [AGNC Investment Corp.](facts/0001423689/README.md) | AGNC, AGNCL, AGNCM, AGNCN, AGNCO, AGNCP, AGNCZ | available; quality gates apply | unresolved |
-| [AGREE REALTY CORP](facts/0000917251/README.md) | ADC, ADC$A | available; quality gates apply | unresolved |
-| [AI Infrastructure Acquisition Corp.](facts/0002073553/README.md) | AIIA | available; quality gates apply | unresolved |
-| [Aimei Health Technology Co., Ltd.](facts/0001979005/README.md) | AFJK | available; quality gates apply | unresolved |
-| [AIRWA INC.](facts/0001674440/README.md) | YYAI | available; quality gates apply | unresolved |
-| [Alamar Biosciences, Inc.](facts/0002104204/README.md) | ALMR | available; quality gates apply | unresolved |
-| [Aldabra 4 Liquidity Opportunity Vehicle, Inc.](facts/0002083989/README.md) | ALOV | available; quality gates apply | unresolved |
-| [Aldel Financial II Inc.](facts/0002031561/README.md) | ALDF | available; quality gates apply | unresolved |
-| [ALEXANDERS INC](facts/0000003499/README.md) | ALX | available; quality gates apply | unresolved |
-| [ALEXANDRIA REAL ESTATE EQUITIES, INC.](facts/0001035443/README.md) | ARE | available; quality gates apply | unresolved |
-| [ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND INC](facts/0000906013/README.md) | AWF | missing | unresolved |
-| [ALLIANCEBERNSTEIN NATIONAL MUNICIPAL INCOME FUND](facts/0001162027/README.md) | AFB | missing | unresolved |
-| [ALLSPRING GLOBAL DIVIDEND OPPORTUNITY FUND](facts/0001386067/README.md) | EOD | missing | unresolved |
-| [ALLSPRING INCOME OPPORTUNITIES FUND](facts/0001210123/README.md) | EAD | missing | unresolved |
-| [ALLSPRING MULTI-SECTOR INCOME FUND](facts/0001227073/README.md) | ERC | missing | unresolved |
-| [ALLSPRING UTILITIES & HIGH INCOME FUND](facts/0001279014/README.md) | ERH | missing | unresolved |
-| [Alpex Acquisition Corp](facts/0002125551/README.md) | ALPX | available; quality gates apply | unresolved |
-| [ALPHA MODUS HOLDINGS, INC.](facts/0001862463/README.md) | AMOD | available; quality gates apply | unresolved |
-| [Alphabet Inc.](facts/0001652044/README.md) | GOOG, GOOGL, GOOGM, GOOGN | available; quality gates apply | unresolved |
-| [Alpine Income Property Trust, Inc.](facts/0001786117/README.md) | PINE | available; quality gates apply | unresolved |
-| [ALTISOURCE PORTFOLIO SOLUTIONS S.A.](facts/0001462418/README.md) | ASPS | available; quality gates apply | unresolved |
-| [Alussa Energy Acquisition Corp. II](facts/0002041493/README.md) | ALUB | available; quality gates apply | unresolved |
-| [Amanat Acquisition Corp.](facts/0002112457/README.md) | AMAN | available; quality gates apply | unresolved |
-| [American Assets Trust, Inc.](facts/0001500217/README.md) | AAT | missing | unresolved |
-| [American Drive Acquisition Co](facts/0002083002/README.md) | ADAC | available; quality gates apply | unresolved |
-| [American Exceptionalism Acquisition Corp. A](facts/0002079173/README.md) | AEXA | available; quality gates apply | unresolved |
-| [American Healthcare REIT, Inc.](facts/0001632970/README.md) | AHR | available; quality gates apply | unresolved |
-| [American Homes 4 Rent](facts/0001562401/README.md) | AMH, AMH$G, AMH$H | missing | unresolved |
-| [American Strategic Investment Co.](facts/0001595527/README.md) | NYC | available; quality gates apply | unresolved |
-| [AMERICAN TOWER CORP /MA/](facts/0001053507/README.md) | AMT | available; quality gates apply | unresolved |
-| [AMERICOLD REALTY TRUST](facts/0001455863/README.md) | COLD | available; quality gates apply | unresolved |
-| [AmperCap Acquisition Co](facts/0002101393/README.md) | APMC | available; quality gates apply | unresolved |
-| [Amprius Technologies, Inc.](facts/0001899287/README.md) | AMPX | available; quality gates apply | unresolved |
-| [AMR Resources Acquisition Corp.](facts/0002110119/README.md) | AMAC | available; quality gates apply | unresolved |
-| [Andretti Acquisition Corp. II](facts/0002025341/README.md) | POLE | available; quality gates apply | unresolved |
-| [Angel Oak Financial Strategies Income Term Trust](facts/0001745059/README.md) | FINS | missing | unresolved |
-| [Angi Inc.](facts/0001705110/README.md) | ANGI | available; quality gates apply | unresolved |
-| [ANNALY CAPITAL MANAGEMENT INC](facts/0001043219/README.md) | NLY | available; quality gates apply | unresolved |
-| [APARTMENT INVESTMENT & MANAGEMENT CO](facts/0000922864/README.md) | AIV | missing | unresolved |
-| [Aperture AC](facts/0002093524/README.md) | APUR | available; quality gates apply | unresolved |
-| [APEX Tech Acquisition Inc.](facts/0002085485/README.md) | TRAD | available; quality gates apply | unresolved |
-| [Apex Treasury Corp](facts/0002079253/README.md) | APXT | available; quality gates apply | unresolved |
-| [Apogee Acquisition Corp](facts/0002102123/README.md) | AACP | available; quality gates apply | unresolved |
-| [Apollo Commercial Real Estate Finance, Inc.](facts/0001467760/README.md) | ARI | available; quality gates apply | unresolved |
-| [Apple Hospitality REIT, Inc.](facts/0001418121/README.md) | APLE | available; quality gates apply | unresolved |
-| [AppLovin Corp](facts/0001751008/README.md) | APP | available; quality gates apply | unresolved |
-| [ARBOR REALTY TRUST INC](facts/0001253986/README.md) | ABR | missing | unresolved |
-| [ARC Group Securities Acquisition I](facts/0002094712/README.md) | FJDI | available; quality gates apply | unresolved |
-| [Archimedes Tech SPAC Partners III Co.](facts/0002083910/README.md) | ARCI | available; quality gates apply | unresolved |
-| [Ares Acquisition Corp III](facts/0002128115/README.md) | AAC | missing | unresolved |
-| [Ares Commercial Real Estate Corp](facts/0001529377/README.md) | ACRE | available; quality gates apply | unresolved |
-| [Ares Dynamic Credit Allocation Fund, Inc.](facts/0001515324/README.md) | ARDC | missing | unresolved |
-| [Armada Acquisition Corp. III](facts/0002092897/README.md) | AACI | available; quality gates apply | unresolved |
-| [Armour Residential REIT, Inc.](facts/0001428205/README.md) | ARR | available; quality gates apply | unresolved |
-| [Art Technology Acquisition Corp.](facts/0002086545/README.md) | ARTC | available; quality gates apply | unresolved |
-| [ASA Gold & Precious Metals Ltd](facts/0001230869/README.md) | ASA | missing | unresolved |
-| [ASHFORD HOSPITALITY TRUST INC](facts/0001232582/README.md) | AHT | available; quality gates apply | unresolved |
-| [AsiaStrategy](facts/0002033515/README.md) | SORA | missing | unresolved |
-| [ASPAC III Acquisition Corp.](facts/0001890361/README.md) | ASPC | available; quality gates apply | unresolved |
-| [ASTROTECH Corp](facts/0001001907/README.md) | ASTC | available; quality gates apply | unresolved |
-| [Aurora Mobile Ltd](facts/0001737339/README.md) | JG | missing | unresolved |
-| [Avantor, Inc.](facts/0001722482/README.md) | AVTR | missing | unresolved |
-| [Averin Capital Acquisition Corp.](facts/0002096900/README.md) | ACAA | available; quality gates apply | unresolved |
-| [Axiom Intelligence Acquisition Corp 1](facts/0002057030/README.md) | AXIN | available; quality gates apply | unresolved |
-| [B&R Technology Merger Corp.](facts/0002131350/README.md) | BRTM | available; quality gates apply | unresolved |
-| [Baidu, Inc.](facts/0001329099/README.md) | BIDU | missing | unresolved |
-| [Bain Capital GSS Investment Corp.](facts/0002064355/README.md) | BCSS | available; quality gates apply | unresolved |
-| [Bain Capital Specialty Finance, Inc.](facts/0001655050/README.md) | BCSF | available; quality gates apply | unresolved |
-| [BANCROFT FUND LTD](facts/0000009521/README.md) | BCV | missing | unresolved |
-| [Bank OZK](facts/0001569650/README.md) | OZK | missing | unresolved |
-| [Barings BDC, Inc.](facts/0001379785/README.md) | BBDC | missing | unresolved |
-| [BARINGS CORPORATE INVESTORS](facts/0000275694/README.md) | MCI | missing | unresolved |
-| [BARINGS GLOBAL SHORT DURATION HIGH YIELD FUND](facts/0001521404/README.md) | BGH | missing | unresolved |
-| [BARINGS PARTICIPATION INVESTORS](facts/0000831655/README.md) | MPV | missing | unresolved |
-| [Beam Global](facts/0001398805/README.md) | BEEM | available; quality gates apply | unresolved |
-| [Bending Spoons S.p.A.](facts/0002004711/README.md) | BSP | missing | unresolved |
-| [Berto Acquisition Corp.](facts/0002033122/README.md) | TACO | available; quality gates apply | unresolved |
-| [Berto Acquisition Corp. II](facts/0002081515/README.md) | GUAC | available; quality gates apply | unresolved |
-| [BHAV Acquisition Corp](facts/0002097288/README.md) | BHAV | available; quality gates apply | unresolved |
-| [BIO-RAD LABORATORIES, INC.](facts/0000012208/README.md) | BIO, BIO.B | available; quality gates apply | unresolved |
-| [bioAffinity Technologies, Inc.](facts/0001712762/README.md) | BIAF | available; quality gates apply | unresolved |
-| [Bionano Genomics, Inc.](facts/0001411690/README.md) | BNGO | available; quality gates apply | unresolved |
-| [Birchtech Corp.](facts/0000728385/README.md) | BCHT | available; quality gates apply | unresolved |
-| [Bitcoin Infrastructure Acquisition Corp Ltd](facts/0002082542/README.md) | BIXI | available; quality gates apply | unresolved |
-| [BlackRock 2037 Municipal Target Term Trust](facts/0001832871/README.md) | BMN | missing | unresolved |
-| [BlackRock Capital Allocation Term Trust](facts/0001809541/README.md) | BCAT | missing | unresolved |
-| [BLACKROCK CORE BOND TRUST](facts/0001160864/README.md) | BHK | missing | unresolved |
-| [BLACKROCK CORPORATE HIGH YIELD FUND, INC.](facts/0001222401/README.md) | HYT | missing | unresolved |
-| [BLACKROCK CREDIT ALLOCATION INCOME TRUST](facts/0001379384/README.md) | BTZ | missing | unresolved |
-| [BLACKROCK DEBT STRATEGIES FUND, INC.](facts/0001051003/README.md) | DSU | missing | unresolved |
-| [BlackRock Energy & Resources Trust](facts/0001306550/README.md) | BGR | missing | unresolved |
-| [BlackRock Enhanced Equity Dividend Trust](facts/0001332283/README.md) | BDJ | missing | unresolved |
-| [BlackRock Enhanced Global Dividend Trust](facts/0001320375/README.md) | BOE | missing | unresolved |
-| [BlackRock Enhanced International Dividend Trust](facts/0001393299/README.md) | BGY | missing | unresolved |
-| [BlackRock Enhanced Large Cap Core Fund, Inc.](facts/0001278895/README.md) | CII | missing | unresolved |
-| [BlackRock ESG Capital Allocation Term Trust](facts/0001864843/README.md) | ECAT | missing | unresolved |
-| [BLACKROCK FLOATING RATE INCOME STRATEGIES FUND, INC.](facts/0001259708/README.md) | FRA | missing | unresolved |
-| [BLACKROCK FLOATING RATE INCOME TRUST](facts/0001287480/README.md) | BGT | missing | unresolved |
-| [BlackRock Health Sciences Term Trust](facts/0001785971/README.md) | BMEZ | missing | unresolved |
-| [BlackRock Health Sciences Trust](facts/0001314966/README.md) | BME | missing | unresolved |
-| [BLACKROCK INCOME TRUST, INC.](facts/0000832327/README.md) | BKT | missing | unresolved |
-| [BLACKROCK Ltd DURATION INCOME TRUST](facts/0001233681/README.md) | BLW | missing | unresolved |
-| [BlackRock Multi-Sector Income Trust](facts/0001562818/README.md) | BIT | missing | unresolved |
-| [BLACKROCK MUNIASSETS FUND, INC.](facts/0000901243/README.md) | MUA | missing | unresolved |
-| [BlackRock Municipal 2030 Target Term Trust](facts/0001528437/README.md) | BTT | missing | unresolved |
-| [BLACKROCK MUNIHOLDINGS CALIFORNIA QUALITY FUND, INC.](facts/0001051004/README.md) | MUC | missing | unresolved |
-| [BLACKROCK MUNIHOLDINGS FUND, INC.](facts/0001034665/README.md) | MHD | missing | unresolved |
-| [BLACKROCK MUNIHOLDINGS NEW JERSEY QUALITY FUND, INC.](facts/0001053988/README.md) | MUJ | missing | unresolved |
-| [BLACKROCK MUNIYIELD MICHIGAN QUALITY FUND, INC.](facts/0000890393/README.md) | MIY | missing | unresolved |
-| [BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC.](facts/0000882150/README.md) | MYN | missing | unresolved |
-| [BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND](facts/0000891038/README.md) | MPA | missing | unresolved |
-| [BLACKROCK MUNIYIELD QUALITY FUND III, INC.](facts/0000883412/README.md) | MYI | missing | unresolved |
-| [BLACKROCK MUNIYIELD QUALITY FUND, INC.](facts/0000890196/README.md) | MQY | missing | unresolved |
-| [BlackRock Science & Technology Term Trust](facts/0001768666/README.md) | BSTZ | missing | unresolved |
-| [BlackRock Science & Technology Trust](facts/0001616678/README.md) | BST | missing | unresolved |
-| [BlackRock Taxable Municipal Bond Trust](facts/0001493683/README.md) | BBN | missing | unresolved |
-| [BlackRock Technology & Private Equity Term Trust](facts/0001836057/README.md) | BTX | missing | unresolved |
-| [BLACKROCK VIRGINIA MUNICIPAL BOND TRUST](facts/0001169034/README.md) | BHV | missing | unresolved |
-| [Blackstone Long-Short Credit Income Fund](facts/0001504234/README.md) | BGX | missing | unresolved |
-| [BLACKSTONE MORTGAGE TRUST, INC.](facts/0001061630/README.md) | BXMT | available; quality gates apply | unresolved |
-| [Blackstone Secured Lending Fund](facts/0001736035/README.md) | BXSL | available; quality gates apply | unresolved |
-| [Blackstone Senior Floating Rate 2027 Term Fund](facts/0001486298/README.md) | BSL | missing | unresolved |
-| [Blackstone Strategic Credit 2027 Term Fund](facts/0001546429/README.md) | BGB | missing | unresolved |
-| [Bleichroeder Acquisition Corp. III](facts/0002128045/README.md) | BCCQ | available; quality gates apply | unresolved |
-| [Blend Labs, Inc.](facts/0001855747/README.md) | BLND | available; quality gates apply | unresolved |
-| [Blink Charging Co.](facts/0001429764/README.md) | BLNK | available; quality gates apply | unresolved |
-| [Blue Acquisition Corp/Cayman](facts/0002059654/README.md) | BACC | available; quality gates apply | unresolved |
-| [Blue Owl Capital Corp](facts/0001655888/README.md) | OBDC | available; quality gates apply | unresolved |
-| [Blue Owl Technology Finance Corp.](facts/0001747777/README.md) | OTF | available; quality gates apply | unresolved |
-| [Blue Water Acquisition Corp. III](facts/0002050501/README.md) | BLUW | available; quality gates apply | unresolved |
-| [Blue Water Acquisition Corp. IV](facts/0002082847/README.md) | BWIV | available; quality gates apply | unresolved |
-| [Blueport Acquisition Ltd](facts/0002064177/README.md) | BPAC | available; quality gates apply | unresolved |
-| [Bluerock Acquisition Corp.](facts/0002081532/README.md) | BLRK | available; quality gates apply | unresolved |
-| [Bluerock Homes Trust, Inc.](facts/0001903382/README.md) | BHM | available; quality gates apply | unresolved |
-| [Bluerock Private Real Estate Fund](facts/0001551047/README.md) | BPRE | missing | unresolved |
-| [BNY MELLON HIGH YIELD STRATEGIES FUND](facts/0001057861/README.md) | DHF | missing | unresolved |
-| [BNY Mellon Municipal Bond Infrastructure Fund, Inc.](facts/0001565381/README.md) | DMB | missing | unresolved |
-| [BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.](facts/0000855887/README.md) | DSM | missing | unresolved |
-| [BNY MELLON STRATEGIC MUNICIPALS, INC.](facts/0000818972/README.md) | LEO | missing | unresolved |
-| [BOA Acquisition Corp. II](facts/0002080216/README.md) | THEO | available; quality gates apply | unresolved |
-| [Bold Eagle Acquisition Corp.](facts/0001852207/README.md) | BEAG | available; quality gates apply | unresolved |
-| [Braemar Hotels & Resorts Inc.](facts/0001574085/README.md) | BHR | available; quality gates apply | unresolved |
-| [Bragg Gaming Group Inc.](facts/0001867834/README.md) | BRAG | missing | unresolved |
-| [BRANDYWINE REALTY TRUST](facts/0000790816/README.md) | BDN | missing | unresolved |
-| [BrandywineGLOBAL-Global Income Opportunities Fund Inc](facts/0001504545/README.md) | BWG | missing | unresolved |
-| [Breeze Acquisition Corp. II](facts/0002095443/README.md) | BREZ | available; quality gates apply | unresolved |
-| [BRIGHT HORIZONS FAMILY SOLUTIONS INC.](facts/0001437578/README.md) | BFAM | available; quality gates apply | unresolved |
-| [BrightSpire Capital, Inc.](facts/0001717547/README.md) | BRSP | available; quality gates apply | unresolved |
-| [Brixmor Property Group Inc.](facts/0001581068/README.md) | BRX | available; quality gates apply | unresolved |
-| [Broadstone Net Lease, Inc.](facts/0001424182/README.md) | BNL | available; quality gates apply | unresolved |
-| [Brookfield Real Assets Income Fund Inc.](facts/0001655099/README.md) | RA | missing | unresolved |
-| [BRUKER CORP](facts/0001109354/README.md) | BRKR | available; quality gates apply | unresolved |
-| [BTC Development Corp.](facts/0002042292/README.md) | BDCI | available; quality gates apply | unresolved |
-| [BTQ Technologies Corp.](facts/0001821866/README.md) | BTQ | missing | unresolved |
-| [Bumble Inc.](facts/0001830043/README.md) | BMBL | available; quality gates apply | unresolved |
-| [Burtech Acquisition Corp II](facts/0002098707/README.md) | BRKH | available; quality gates apply | unresolved |
-| [BXP, Inc.](facts/0001037540/README.md) | BXP | missing | unresolved |
-| [Byrna Technologies Inc.](facts/0001354866/README.md) | BYRN | available; quality gates apply | unresolved |
-| [C1 Fund Inc.](facts/0002044327/README.md) | CFND | missing | unresolved |
-| [CAE INC](facts/0001173382/README.md) | CAE | missing | unresolved |
-| [Cal Redwood Acquisition Corp.](facts/0002058359/README.md) | CRAQ | available; quality gates apply | unresolved |
-| [Cambridge Acquisition Corp.](facts/0002100125/README.md) | CAQ | available; quality gates apply | unresolved |
-| [CAMDEN PROPERTY TRUST](facts/0000906345/README.md) | CPT | available; quality gates apply | unresolved |
-| [CAMTEK LTD](facts/0001109138/README.md) | CAMT | missing | unresolved |
-| [Cantor Equity Partners I, Inc.](facts/0002027708/README.md) | CEPO | available; quality gates apply | unresolved |
-| [Cantor Equity Partners IV, Inc.](facts/0002034267/README.md) | CEPF | available; quality gates apply | unresolved |
-| [Cantor Equity Partners V, Inc.](facts/0002034266/README.md) | CEPV | available; quality gates apply | unresolved |
-| [Cantor Equity Partners VI, Inc.](facts/0002089536/README.md) | CEPS | available; quality gates apply | unresolved |
-| [Cantor Equity Partners VII, Inc.](facts/0002087965/README.md) | CAES | available; quality gates apply | unresolved |
-| [CAPITAL SOUTHWEST CORP](facts/0000017313/README.md) | CSWC | available; quality gates apply | unresolved |
-| [Cardlytics, Inc.](facts/0001666071/README.md) | CDLX | available; quality gates apply | unresolved |
-| [CareTrust REIT, Inc.](facts/0001590717/README.md) | CTRE | available; quality gates apply | unresolved |
-| [Carlyle Credit Income Fund](facts/0001517767/README.md) | CCIF | missing | unresolved |
-| [Cartesian Growth Corp IV](facts/0002126043/README.md) | CGCF | available; quality gates apply | unresolved |
-| [Catalyst Acquisition Corp.](facts/0002104391/README.md) | CATL | available; quality gates apply | unresolved |
-| [Cayson Acquisition Corp](facts/0002024203/README.md) | CAPN | available; quality gates apply | unresolved |
-| [CBAK Energy Technology Ltd](facts/0002086841/README.md) | CBAT | missing | unresolved |
-| [CBL & ASSOCIATES PROPERTIES INC](facts/0000910612/README.md) | CBL | available; quality gates apply | unresolved |
-| [CBRE GLOBAL REAL ESTATE INCOME FUND](facts/0001268884/README.md) | IGR | missing | unresolved |
-| [CENTRAL & EASTERN EUROPE FUND, INC.](facts/0000860489/README.md) | CEE | missing | unresolved |
-| [Central Bancompany, Inc.](facts/0002065601/README.md) | CBC | available; quality gates apply | unresolved |
-| [CENTRAL GARDEN & PET CO](facts/0000887733/README.md) | CENT, CENTA | available; quality gates apply | unresolved |
-| [CENTRAL SECURITIES CORP](facts/0000018748/README.md) | CET | missing | unresolved |
-| [Centurion Acquisition Corp.](facts/0002010930/README.md) | ALF | available; quality gates apply | unresolved |
-| [CEVA INC](facts/0001173489/README.md) | CEVA | available; quality gates apply | unresolved |
-| [CH4 Natural Solutions Corp](facts/0002044817/README.md) | MTNE | available; quality gates apply | unresolved |
-| [ChampionsGate Acquisition Corp](facts/0002024460/README.md) | CHPG | available; quality gates apply | unresolved |
-| [ChargePoint Holdings, Inc.](facts/0001777393/README.md) | CHPT | available; quality gates apply | unresolved |
-| [CHARLES RIVER LABORATORIES INTERNATIONAL, INC.](facts/0001100682/README.md) | CRL | available; quality gates apply | unresolved |
-| [Charlton Aria Acquisition Corp](facts/0002024459/README.md) | CHAR | available; quality gates apply | unresolved |
-| [Chatham Lodging Trust](facts/0001476045/README.md) | CLDT | available; quality gates apply | unresolved |
-| [Chenghe Acquisition III Co.](facts/0002047177/README.md) | CHEC | available; quality gates apply | unresolved |
-| [Cherry Hill Mortgage Investment Corp](facts/0001571776/README.md) | CHMI | missing | unresolved |
-| [Chicago Atlantic BDC, Inc.](facts/0001843162/README.md) | LIEN | available; quality gates apply | unresolved |
-| [Chicago Atlantic Real Estate Finance, Inc.](facts/0001867949/README.md) | REFI | available; quality gates apply | unresolved |
-| [CHIMERA INVESTMENT CORP](facts/0001409493/README.md) | CIM | available; quality gates apply | unresolved |
-| [Chiron Real Estate Inc.](facts/0001533615/README.md) | XRN, XRN$A | available; quality gates apply | unresolved |
-| [Churchill Capital Corp XII](facts/0002114227/README.md) | CXII | available; quality gates apply | unresolved |
-| [Churchill Capital Corp XIII](facts/0002114229/README.md) | XIII | missing | unresolved |
-| [CION Investment Corp](facts/0001534254/README.md) | CION | available; quality gates apply | unresolved |
-| [ClearBridge Energy Midstream Opportunity Fund Inc.](facts/0001517518/README.md) | EMO | missing | unresolved |
-| [Clearthink 1 Acquisition Corp.](facts/0002094073/README.md) | CTAA | available; quality gates apply | unresolved |
-| [Clinuvel Pharmaceuticals Ltd](facts/0001290877/README.md) | CUVL | missing | unresolved |
-| [Clipper Realty Inc.](facts/0001649096/README.md) | CLPR | available; quality gates apply | unresolved |
-| [CLOUDASTRUCTURE, INC.](facts/0001709628/README.md) | CSAI | available; quality gates apply | unresolved |
-| [Clough Global Dividend & Income Fund](facts/0001288795/README.md) | GLV | missing | unresolved |
-| [Clough Global Opportunities Fund](facts/0001350869/README.md) | GLO | missing | unresolved |
-| [CO2 Energy Transition Corp.](facts/0001956648/README.md) | NOEM | available; quality gates apply | unresolved |
-| [Cohen & Steers Closed-End Opportunity Fund, Inc.](facts/0001375340/README.md) | FOF | missing | unresolved |
-| [COHEN & STEERS INFRASTRUCTURE FUND INC](facts/0001275617/README.md) | UTF | missing | unresolved |
-| [Cohen & Steers Ltd Duration Preferred & Income Fund, Inc.](facts/0001548717/README.md) | LDP | missing | unresolved |
-| [COHEN & STEERS QUALITY INCOME REALTY FUND INC](facts/0001157842/README.md) | RQI | missing | unresolved |
-| [Cohen & Steers Real Estate Opportunities & Income Fund](facts/0001866874/README.md) | RLTY | missing | unresolved |
-| [COHEN & STEERS REIT & PREFERRED & INCOME FUND INC](facts/0001224450/README.md) | RNP | missing | unresolved |
-| [Cohen & Steers Select Preferred & Income Fund, Inc.](facts/0001498612/README.md) | PSF | missing | unresolved |
-| [Cohen & Steers Tax-Advantaged Preferred Securities & Income Fund](facts/0001793882/README.md) | PTA | missing | unresolved |
-| [COHEN & STEERS TOTAL RETURN REALTY FUND INC](facts/0000891290/README.md) | RFI | missing | unresolved |
-| [Cohen Circle Acquisition Corp. II](facts/0002064683/README.md) | CCII | available; quality gates apply | unresolved |
-| [COHERENT CORP.](facts/0000820318/README.md) | COHR | available; quality gates apply | unresolved |
-| [COLLECTIVE ACQUISITION CORP.](facts/0002041047/README.md) | CCAQ | available; quality gates apply | unresolved |
-| [Collective Acquisition Corp. II](facts/0002115404/README.md) | CAII | available; quality gates apply | unresolved |
-| [Colombier Acquisition Corp. III](facts/0002091024/README.md) | CLBR | available; quality gates apply | unresolved |
-| [Columbia Seligman Premium Technology Growth Fund, Inc.](facts/0001471420/README.md) | STK | missing | unresolved |
-| [Columbus Circle Capital Corp III](facts/0002123471/README.md) | CCCT | available; quality gates apply | unresolved |
-| [Community Healthcare Trust Inc](facts/0001631569/README.md) | CHCT | available; quality gates apply | unresolved |
-| [Copley Acquisition Corp](facts/0002045473/README.md) | COPL | available; quality gates apply | unresolved |
-| [COPT DEFENSE PROPERTIES](facts/0000860546/README.md) | CDP | available; quality gates apply | unresolved |
-| [CoreCivic, Inc.](facts/0001070985/README.md) | CXW | available; quality gates apply | unresolved |
-| [Cornerstone Strategic Investment Fund, Inc.](facts/0000814083/README.md) | CLM | missing | unresolved |
-| [CORNERSTONE TOTAL RETURN FUND INC](facts/0000033934/README.md) | CRF | missing | unresolved |
-| [COUSINS PROPERTIES INC](facts/0000025232/README.md) | CUZ | available; quality gates apply | unresolved |
-| [CRA INTERNATIONAL, INC.](facts/0001053706/README.md) | CRAI | available; quality gates apply | unresolved |
-| [Crane Harbor Acquisition Corp. II](facts/0002081358/README.md) | CRAN | available; quality gates apply | unresolved |
-| [Crescent Capital BDC, Inc.](facts/0001633336/README.md) | CCAP | available; quality gates apply | unresolved |
-| [CROWN CASTLE INC.](facts/0001051470/README.md) | CCI | available; quality gates apply | unresolved |
-| [Crown Reserve Acquisition Corp. I](facts/0002070887/README.md) | CRAC | available; quality gates apply | unresolved |
-| [CSLM Digital Asset Acquisition Corp III, Ltd](facts/0002068454/README.md) | KOYN | available; quality gates apply | unresolved |
-| [Csquare, Inc.](facts/0002105398/README.md) | CSQR | available; quality gates apply | unresolved |
-| [CTO Realty Growth, Inc.](facts/0000023795/README.md) | CTO | missing | unresolved |
-| [CubeSmart](facts/0001298675/README.md) | CUBE | missing | unresolved |
-| [Cytek Biosciences, Inc.](facts/0001831915/README.md) | CTKB | available; quality gates apply | unresolved |
-| [D. Boral Acquisition I Corp.](facts/0002095161/README.md) | DBCA | available; quality gates apply | unresolved |
-| [Daedalus Special Acquisition Corp.](facts/0002082149/README.md) | DSAC | available; quality gates apply | unresolved |
-| [Destiny Tech100 Inc.](facts/0001843974/README.md) | DXYZ | missing | unresolved |
-| [Destra Multi-Alternative Fund](facts/0001523289/README.md) | DMA | missing | unresolved |
-| [DiamondRock Hospitality Co](facts/0001298946/README.md) | DRH | available; quality gates apply | unresolved |
-| [DIEBOLD NIXDORF, Inc](facts/0000028823/README.md) | DBD | available; quality gates apply | unresolved |
-| [DIGITAL REALTY TRUST, INC.](facts/0001297996/README.md) | DLR | missing | unresolved |
-| [Digital Turbine, Inc.](facts/0000317788/README.md) | APPS | available; quality gates apply | unresolved |
-| [DigitalOcean Holdings, Inc.](facts/0001582961/README.md) | DOCN | available; quality gates apply | unresolved |
-| [DISCIPLINED GROWTH ACQUISITION Corp](facts/0002111038/README.md) | DGAC | available; quality gates apply | unresolved |
-| [DIVERSIFIED HEALTHCARE TRUST](facts/0001075415/README.md) | DHC | available; quality gates apply | unresolved |
-| [DNP SELECT INCOME FUND INC](facts/0000806628/README.md) | DNP | missing | unresolved |
-| [Dolby Laboratories, Inc.](facts/0001308547/README.md) | DLB | available; quality gates apply | unresolved |
-| [Donnelley Financial Solutions, Inc.](facts/0001669811/README.md) | DFIN | available; quality gates apply | unresolved |
-| [DoubleLine Income Solutions Fund](facts/0001566388/README.md) | DSL | missing | unresolved |
-| [DoubleLine Opportunistic Credit Fund](facts/0001525201/README.md) | DBL | missing | unresolved |
-| [DoubleLine Yield Opportunities Fund](facts/0001788399/README.md) | DLY | missing | unresolved |
-| [DoubleVerify Holdings, Inc.](facts/0001819928/README.md) | DV | available; quality gates apply | unresolved |
-| [Douglas Emmett Inc](facts/0001364250/README.md) | DEI | available; quality gates apply | unresolved |
-| [DouYu International Holdings Ltd](facts/0001762417/README.md) | DOYU | missing | unresolved |
-| [Dragonfly Energy Holdings Corp.](facts/0001847986/README.md) | DFLI | available; quality gates apply | unresolved |
-| [Drugs Made In America Acquisition Corp.](facts/0002028614/README.md) | DMAA | available; quality gates apply | unresolved |
-| [Drugs Made In America Acquisition II Corp.](facts/0002040475/README.md) | DMII | available; quality gates apply | unresolved |
-| [DSC Holdings Ltd.](facts/0001966041/README.md) | DSC | missing | unresolved |
-| [DT Cloud Star Acquisition Corp](facts/0002017950/README.md) | DTSQ | available; quality gates apply | unresolved |
-| [DTF TAX-FREE INCOME 2028 TERM FUND INC](facts/0000879535/README.md) | DTF | missing | unresolved |
-| [Duff & Phelps Utility & Infrastructure Fund Inc.](facts/0001515671/README.md) | DPG | missing | unresolved |
-| [DWS MUNICIPAL INCOME TRUST](facts/0000839533/README.md) | KTF | missing | unresolved |
-| [Dynamix Corp](facts/0002028699/README.md) | DYNC | available; quality gates apply | unresolved |
-| [Dynamix Corp III](facts/0002081125/README.md) | DNMX | available; quality gates apply | unresolved |
-| [DYNEX CAPITAL INC](facts/0000826675/README.md) | DX | available; quality gates apply | unresolved |
-| [E-Power Inc.](facts/0001780731/README.md) | EPOW | missing | unresolved |
-| [EAGLE CAPITAL GROWTH FUND, INC.](facts/0000850027/README.md) | GRF | missing | unresolved |
-| [Eagle Point Credit Co](facts/0001604174/README.md) | ECC | missing | unresolved |
-| [Eagle Point Income Co](facts/0001754836/README.md) | EIC | missing | unresolved |
-| [East West Ave Acquisition Corp.](facts/0002100704/README.md) | EWAV | available; quality gates apply | unresolved |
-| [Easterly Government Properties, Inc.](facts/0001622194/README.md) | DEA | available; quality gates apply | unresolved |
-| [EASTGROUP PROPERTIES INC](facts/0000049600/README.md) | EGP | available; quality gates apply | unresolved |
-| [EASTMAN KODAK CO](facts/0000031235/README.md) | KODK | available; quality gates apply | unresolved |
-| [Eaton Vance California Municipal Income Trust](facts/0001074692/README.md) | CEV | missing | unresolved |
-| [Eaton Vance Floating-Rate Income Trust](facts/0001288992/README.md) | EFT | missing | unresolved |
-| [Eaton Vance Ltd Duration Income Fund](facts/0001222922/README.md) | EVV | missing | unresolved |
-| [Eaton Vance Municipal Bond Fund](facts/0001176984/README.md) | EIM | missing | unresolved |
-| [Eaton Vance Municipal Income 2028 Term Trust](facts/0001563696/README.md) | ETX | missing | unresolved |
-| [Eaton Vance Municipal Income Trust](facts/0001074540/README.md) | EVN | missing | unresolved |
-| [Eaton Vance Risk-Managed Diversified Equity Income Fund](facts/0001395325/README.md) | ETJ | missing | unresolved |
-| [Eaton Vance Senior Income Trust](facts/0001070732/README.md) | EVF | missing | unresolved |
-| [Eaton Vance Tax-Advantaged Dividend Income Fund](facts/0001253327/README.md) | EVT | missing | unresolved |
-| [Eaton Vance Tax-Advantaged Global Dividend Income Fund](facts/0001270523/README.md) | ETG | missing | unresolved |
-| [Eaton Vance Tax-Managed Diversified Equity Income Fund](facts/0001340736/README.md) | ETY | missing | unresolved |
-| [Eaton Vance Tax-Managed Global Diversified Equity Income Fund](facts/0001379438/README.md) | EXG | missing | unresolved |
-| [EDUCATIONAL DEVELOPMENT CORP](facts/0000031667/README.md) | EDUC | available; quality gates apply | unresolved |
-| [EGH Acquisition Corp.](facts/0002052547/README.md) | EGHA | available; quality gates apply | unresolved |
-| [Electrovaya Inc.](facts/0001844450/README.md) | ELVA | missing | unresolved |
-| [Ellington Credit Co](facts/0001560672/README.md) | EARN | missing | unresolved |
-| [ELLSWORTH GROWTH & INCOME FUND LTD](facts/0000793040/README.md) | ECF | missing | unresolved |
-| [Elme Communities](facts/0000104894/README.md) | ELME | missing | unresolved |
-| [Elong Power Holding Ltd.](facts/0002015691/README.md) | ELPW | missing | unresolved |
-| [EMERSON ELECTRIC CO](facts/0000032604/README.md) | EMR | available; quality gates apply | unresolved |
-| [Emmis Acquisition Corp.](facts/0002075816/README.md) | EMIS | available; quality gates apply | unresolved |
-| [Empire State Realty OP, L.P.](facts/0001553079/README.md) | ESBA, FISK, OGCP | available; quality gates apply | unresolved |
-| [Empire State Realty Trust, Inc.](facts/0001541401/README.md) | ESRT | available; quality gates apply | unresolved |
-| [ENERGIZER HOLDINGS, INC.](facts/0001632790/README.md) | ENR | available; quality gates apply | unresolved |
-| [Energy Transition Special Opportunities](facts/0002085932/README.md) | ETSS | available; quality gates apply | unresolved |
-| [Energy Vault Holdings, Inc.](facts/0001828536/README.md) | NRGV | available; quality gates apply | unresolved |
-| [EnerSys](facts/0001289308/README.md) | ENS | available; quality gates apply | unresolved |
-| [Enovix Corp](facts/0001828318/README.md) | ENVX | available; quality gates apply | unresolved |
-| [Eos Energy Enterprises, Inc.](facts/0001805077/README.md) | EOSE | available; quality gates apply | unresolved |
-| [EPR PROPERTIES](facts/0001045450/README.md) | EPR | available; quality gates apply | unresolved |
-| [EQUIFAX INC](facts/0000033185/README.md) | EFX | available; quality gates apply | unresolved |
-| [EQUINIX INC](facts/0001101239/README.md) | EQIX | available; quality gates apply | unresolved |
-| [EQUITY LIFESTYLE PROPERTIES INC](facts/0000895417/README.md) | ELS | missing | unresolved |
-| [EQUUS TOTAL RETURN, INC.](facts/0000878932/README.md) | EQS | missing | unresolved |
-| [EQV Ventures Acquisition Corp. II](facts/0002042902/README.md) | EVAC | available; quality gates apply | unresolved |
-| [ESSENTIAL PROPERTIES REALTY TRUST, INC.](facts/0001728951/README.md) | EPRT | available; quality gates apply | unresolved |
-| [ESSEX PROPERTY TRUST, INC.](facts/0000920522/README.md) | ESS | available; quality gates apply | unresolved |
-| [Eva Live Inc](facts/0001983736/README.md) | GOAI | available; quality gates apply | unresolved |
-| [Everbright Digital Holding Ltd.](facts/0002024876/README.md) | EDHL | missing | unresolved |
-| [EverQuote, Inc.](facts/0001640428/README.md) | EVER | available; quality gates apply | unresolved |
-| [Evolution Global Acquisition Corp](facts/0002077954/README.md) | EVOX | available; quality gates apply | unresolved |
-| [Evolution Metals & Technologies Corp.](facts/0001866226/README.md) | EMAT | available; quality gates apply | unresolved |
-| [Expion Energy, Inc.](facts/0001894954/README.md) | XPON | available; quality gates apply | unresolved |
-| [Extra Space Storage Inc.](facts/0001289490/README.md) | EXR | available; quality gates apply | unresolved |
-| [EyePoint, Inc.](facts/0001314102/README.md) | EYPT | available; quality gates apply | unresolved |
-| [Factorial Energy Inc.](facts/0002049662/README.md) | FAC | available; quality gates apply | unresolved |
-| [FACTSET RESEARCH SYSTEMS INC](facts/0001013237/README.md) | FDS | available; quality gates apply | unresolved |
-| [Farmland Partners Inc.](facts/0001591670/README.md) | FPI | available; quality gates apply | unresolved |
-| [FEDERAL REALTY INVESTMENT TRUST](facts/0000034903/README.md) | FRT, FRT$C | missing | unresolved |
-| [Federated Hermes Premier Municipal Income Fund](facts/0001199004/README.md) | FMN | missing | unresolved |
-| [Fermi Inc.](facts/0002071778/README.md) | FRMI | available; quality gates apply | unresolved |
-| [FG Imperii Acquisition Corp.](facts/0002090452/README.md) | FGII | available; quality gates apply | unresolved |
-| [Fifth Era Acquisition Corp I](facts/0002025401/README.md) | FERA | available; quality gates apply | unresolved |
-| [FIGX Capital Acquisition Corp.](facts/0002059033/README.md) | FIGX | available; quality gates apply | unresolved |
-| [FIRST INDUSTRIAL REALTY TRUST INC](facts/0000921825/README.md) | FR | available; quality gates apply | unresolved |
-| [FIRST TRUST ENHANCED EQUITY INCOME FUND](facts/0001291334/README.md) | FFA | missing | unresolved |
-| [FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND](facts/0001810523/README.md) | FTHY | missing | unresolved |
-| [First Trust Intermediate Duration Preferred & Income Fund](facts/0001567569/README.md) | FPF | missing | unresolved |
-| [FIRST TRUST MORTGAGE INCOME FUND](facts/0001319183/README.md) | FMY | missing | unresolved |
-| [Flag Ship Acquisition Corp](facts/0001850059/README.md) | FSHP | available; quality gates apply | unresolved |
-| [Flaherty & Crumrine Dynamic Preferred & Income Fund Inc](facts/0001559991/README.md) | DFP | missing | unresolved |
-| [FLAHERTY & CRUMRINE PREFERRED & INCOME FUND INC](facts/0000868578/README.md) | PFD | missing | unresolved |
-| [Flaherty & Crumrine PREFERRED & INCOME OPPORTUNITY FUND INC](facts/0000882071/README.md) | PFO | missing | unresolved |
-| [Flaherty & Crumrine PREFERRED & INCOME SECURITIES FUND INC](facts/0001174164/README.md) | FFC | missing | unresolved |
-| [FLAHERTY & CRUMRINE TOTAL RETURN FUND INC](facts/0001245648/README.md) | FLC | missing | unresolved |
-| [Fluence Energy, Inc.](facts/0001868941/README.md) | FLNC | available; quality gates apply | unresolved |
-| [Fluent, Inc.](facts/0001460329/README.md) | FLNT | available; quality gates apply | unresolved |
-| [Flutter Entertainment plc](facts/0001635327/README.md) | FLUT | available; quality gates apply | unresolved |
-| [Flux Power Holdings, Inc.](facts/0001083743/README.md) | FLUX | available; quality gates apply | unresolved |
-| [Forefront Tech Holdings Acquisition Corp](facts/0002097986/README.md) | FTHA | available; quality gates apply | unresolved |
-| [Fortress Value Acquisition Corp. V](facts/0001850733/README.md) | FVAV | available; quality gates apply | unresolved |
-| [FortuneX Acquisition Corp](facts/0002121703/README.md) | FXAC | available; quality gates apply | unresolved |
-| [Four Corners Property Trust, Inc.](facts/0001650132/README.md) | FCPT | available; quality gates apply | unresolved |
-| [Franklin BSP Realty Trust, Inc.](facts/0001562528/README.md) | FBRT | available; quality gates apply | unresolved |
-| [FRANKLIN LTD DURATION INCOME TRUST](facts/0001233087/README.md) | FTF | missing | unresolved |
-| [FRANKLIN MANAGED MUNICIPAL INCOME TRUST](facts/0000844790/README.md) | PMM | missing | unresolved |
-| [FRANKLIN MASTER INTERMEDIATE INCOME TRUST](facts/0000830622/README.md) | PIM | missing | unresolved |
-| [FRANKLIN MUNICIPAL OPPORTUNITIES TRUST](facts/0000900422/README.md) | PMO | missing | unresolved |
-| [FRANKLIN PREMIER INCOME TRUST](facts/0000827773/README.md) | PPT | missing | unresolved |
-| [FRANKLIN STREET PROPERTIES CORP /MA/](facts/0001031316/README.md) | FSP | missing | unresolved |
-| [FRANKLIN UNIVERSAL TRUST](facts/0000833040/README.md) | FT | missing | unresolved |
-| [Frazier Life Sciences Acquisition Corp. II](facts/0002153598/README.md) | FLSC | missing | unresolved |
-| [Freedom Metals Acquisition Corp.](facts/0002129659/README.md) | FDMM | available; quality gates apply | unresolved |
-| [FrontView REIT, Inc.](facts/0001988494/README.md) | FVR | available; quality gates apply | unresolved |
-| [FS Credit Opportunities Corp.](facts/0001568194/README.md) | FSCO | missing | unresolved |
-| [FS KKR Capital Corp](facts/0001422183/README.md) | FSK | available; quality gates apply | unresolved |
-| [FS Specialty Lending Fund](facts/0002065812/README.md) | FSSL | missing | unresolved |
-| [Fundrise Innovation Fund, LLC](facts/0001867090/README.md) | VCX | missing | unresolved |
-| [Future Money Acquisition Corp](facts/0002099232/README.md) | FMAC | available; quality gates apply | unresolved |
-| [FutureCorp Space Acquisition 1](facts/0002131853/README.md) | FTRA | available; quality gates apply | unresolved |
-| [FutureCrest Acquisition Corp.](facts/0002074697/README.md) | FCRS | available; quality gates apply | unresolved |
-| [Futurewave Acquisition Corp](facts/0002116105/README.md) | FWAC | available; quality gates apply | unresolved |
-| [GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC](facts/0000845611/README.md) | GCV | missing | unresolved |
-| [GABELLI DIVIDEND & INCOME TRUST](facts/0001260729/README.md) | GDV | missing | unresolved |
-| [GABELLI EQUITY TRUST INC](facts/0000794685/README.md) | GAB, GAB$G | missing | unresolved |
-| [Gabelli Global Small & Mid Cap Value Trust](facts/0001585855/README.md) | GGZ | missing | unresolved |
-| [GABELLI GLOBAL UTILITY & INCOME TRUST](facts/0001282957/README.md) | GLU$A, GLU$B | missing | unresolved |
-| [GABELLI MULTIMEDIA TRUST INC.](facts/0000921671/README.md) | GGT | missing | unresolved |
-| [GABELLI UTILITY TRUST](facts/0001080720/README.md) | GUT | missing | unresolved |
-| [Galata Acquisition Corp. II](facts/0002076427/README.md) | LATA | available; quality gates apply | unresolved |
-| [GalaxyEdge Acquisition Corp](facts/0002091484/README.md) | GLED | available; quality gates apply | unresolved |
-| [GAMCO Global Gold, Natural Resources & Income Trust](facts/0001313510/README.md) | GGN | missing | unresolved |
-| [GAMCO Natural Resources, Gold & Income Trust](facts/0001438893/README.md) | GNT | missing | unresolved |
-| [Gaming & Leisure Properties, Inc.](facts/0001575965/README.md) | GLPI | available; quality gates apply | unresolved |
-| [Gauzy Ltd.](facts/0001781446/README.md) | GAUZ | missing | unresolved |
-| [GDL FUND](facts/0001378701/README.md) | GDL | missing | unresolved |
-| [GDS Holdings Ltd](facts/0001526125/README.md) | GDS | missing | unresolved |
-| [GE Vernova Inc.](facts/0001996810/README.md) | GEV | available; quality gates apply | unresolved |
-| [GENERAL AMERICAN INVESTORS CO INC](facts/0000040417/README.md) | GAM | missing | unresolved |
-| [General Catalyst Global Resilience Merger Corp.](facts/0002108962/README.md) | GCGR | available; quality gates apply | unresolved |
-| [General Purpose Acquisition Corp.](facts/0002085408/README.md) | GPAC | available; quality gates apply | unresolved |
-| [GENERATION INCOME PROPERTIES, INC.](facts/0001651721/README.md) | GIPR | available; quality gates apply | unresolved |
-| [GEOSPACE TECHNOLOGIES CORP](facts/0001001115/README.md) | GEOS | available; quality gates apply | unresolved |
-| [Gesher Acquisition Corp. II](facts/0002044635/README.md) | GSHR | available; quality gates apply | unresolved |
-| [GIGAMEDIA Ltd](facts/0001105101/README.md) | GIGM | missing | unresolved |
-| [GigCapital8 Corp.](facts/0002080019/README.md) | GIW | available; quality gates apply | unresolved |
-| [GigCapital9 Corp.](facts/0002098712/README.md) | GIX | available; quality gates apply | unresolved |
-| [GLADSTONE LAND Corp](facts/0001495240/README.md) | LAND | available; quality gates apply | unresolved |
-| [Globa Terra Acquisition Corp](facts/0002043766/README.md) | GTERA | available; quality gates apply | unresolved |
-| [Global Interactive Technologies, Inc.](facts/0001911545/README.md) | GITS | available; quality gates apply | unresolved |
-| [Global Mofy AI Ltd](facts/0001913749/README.md) | GMM | missing | unresolved |
-| [Global Net Lease, Inc.](facts/0001526113/README.md) | GNL | available; quality gates apply | unresolved |
-| [Global Self Storage, Inc.](facts/0001031235/README.md) | SELF | available; quality gates apply | unresolved |
-| [Gold.com, Inc.](facts/0001591588/README.md) | GOLD | available; quality gates apply | unresolved |
-| [Goldman Sachs BDC, Inc.](facts/0001572694/README.md) | GSBD | available; quality gates apply | unresolved |
-| [GoPro, Inc.](facts/0001500435/README.md) | GPRO | available; quality gates apply | unresolved |
-| [Gores Holdings XI, Inc.](facts/0002086438/README.md) | GHXI | available; quality gates apply | unresolved |
-| [GP-Act III Acquisition Corp.](facts/0001834526/README.md) | GPAT | available; quality gates apply | unresolved |
-| [Graf Global Corp.](facts/0001897463/README.md) | TONT | available; quality gates apply | unresolved |
-| [Granite Point Mortgage Trust Inc.](facts/0001703644/README.md) | GPMT | available; quality gates apply | unresolved |
-| [Grindr Inc.](facts/0001820144/README.md) | GRND | available; quality gates apply | unresolved |
-| [GSR IV Acquisition Corp.](facts/0002072404/README.md) | GSRF | available; quality gates apply | unresolved |
-| [GSR V Acquisition Corp.](facts/0002111762/README.md) | GSRV | available; quality gates apply | unresolved |
-| [Guggenheim Active Allocation Fund](facts/0001864208/README.md) | GUG | missing | unresolved |
-| [GUGGENHEIM STRATEGIC OPPORTUNITIES FUND](facts/0001380936/README.md) | GOF | missing | unresolved |
-| [Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust](facts/0001495825/README.md) | GBAB | missing | unresolved |
-| [HA Sustainable Infrastructure Capital, Inc.](facts/0001561894/README.md) | HASI | available; quality gates apply | unresolved |
-| [HARTE HANKS INC](facts/0000045919/README.md) | HHS | available; quality gates apply | unresolved |
-| [Harvard Ave Acquisition Corp](facts/0002042460/README.md) | HAVA | available; quality gates apply | unresolved |
-| [HARVARD BIOSCIENCE INC](facts/0001123494/README.md) | HBIO | available; quality gates apply | unresolved |
-| [HCM III ACQUISITION CORP.](facts/0002069856/README.md) | HCMA | available; quality gates apply | unresolved |
-| [HCM IV Acquisition Corp.](facts/0002089982/README.md) | HACQ | available; quality gates apply | unresolved |
-| [Health Catalyst, Inc.](facts/0001636422/README.md) | HCAT | available; quality gates apply | unresolved |
-| [Healthcare Realty Trust Inc](facts/0001360604/README.md) | HR | available; quality gates apply | unresolved |
-| [HEALTHPEAK PROPERTIES, INC.](facts/0000765880/README.md) | DOC | available; quality gates apply | unresolved |
-| [HEALTHSTREAM INC](facts/0001095565/README.md) | HSTM | available; quality gates apply | unresolved |
-| [Helix Acquisition Corp. III](facts/0002099656/README.md) | HLXC | available; quality gates apply | unresolved |
-| [Hennessy Capital Investment Corp. VIII](facts/0002099093/README.md) | HCIC | available; quality gates apply | unresolved |
-| [Hercules Capital, Inc.](facts/0001280784/README.md) | HTGC | available; quality gates apply | unresolved |
-| [HIGH INCOME SECURITIES FUND](facts/0000810943/README.md) | PCF | missing | unresolved |
-| [HIGHLAND GLOBAL ALLOCATION FUND](facts/0001622148/README.md) | HGLB | missing | unresolved |
-| [HIGHLAND OPPORTUNITIES & INCOME FUND](facts/0001710680/README.md) | HFRO | missing | unresolved |
-| [Highview Merger Corp.](facts/0002070602/README.md) | HVMC | available; quality gates apply | unresolved |
-| [HIGHWOODS PROPERTIES, INC.](facts/0000921082/README.md) | HIW | missing | unresolved |
-| [Hilton Grand Vacations Inc.](facts/0001674168/README.md) | HGV | available; quality gates apply | unresolved |
-| [Horizon Technology Finance Corp](facts/0001487428/README.md) | HRZN | available; quality gates apply | unresolved |
-| [HOST HOTELS & RESORTS, INC.](facts/0001070750/README.md) | HST | available; quality gates apply | unresolved |
-| [Howard Hughes Holdings Inc.](facts/0001981792/README.md) | HHH | available; quality gates apply | unresolved |
-| [HUYA Inc.](facts/0001728190/README.md) | HUYA | missing | unresolved |
-| [HYDROFARM HOLDINGS GROUP, INC.](facts/0001695295/README.md) | HYFM | available; quality gates apply | unresolved |
-| [IB Acquisition Corp.](facts/0001998781/README.md) | IBAC | available; quality gates apply | unresolved |
-| [Ibotta, Inc.](facts/0001538379/README.md) | IBTA | available; quality gates apply | unresolved |
-| [ICON PLC](facts/0001060955/README.md) | ICLR | missing | unresolved |
-| [Idea Acquisition Corp.](facts/0002091176/README.md) | IACO | available; quality gates apply | unresolved |
-| [ILLUMINA, INC.](facts/0001110803/README.md) | ILMN | available; quality gates apply | unresolved |
-| [Illumination Acquisition Corp. I](facts/0002101135/README.md) | ILLU | available; quality gates apply | unresolved |
-| [IMAX CORP](facts/0000921582/README.md) | IMAX | available; quality gates apply | unresolved |
-| [INCOME OPPORTUNITY REALTY INVESTORS INC /TX/](facts/0000949961/README.md) | IOR | available; quality gates apply | unresolved |
-| [INCYTE CORP](facts/0000879169/README.md) | INCY | missing | unresolved |
-| [INDEPENDENCE REALTY TRUST, INC.](facts/0001466085/README.md) | IRT | available; quality gates apply | unresolved |
-| [Indigo Acquisition Corp.](facts/0002063816/README.md) | INAC | available; quality gates apply | unresolved |
-| [Industrial Logistics Properties Trust](facts/0001717307/README.md) | ILPT | available; quality gates apply | unresolved |
-| [Infinite Eagle Acquisition Corp.](facts/0002084396/README.md) | IEAG | available; quality gates apply | unresolved |
-| [Inflection Point Acquisition Corp. VI](facts/0002102041/README.md) | IPFX | available; quality gates apply | unresolved |
-| [Inflection Point Acquisition Corp. VIII](facts/0002146310/README.md) | IPHX | missing | unresolved |
-| [INNSUITES HOSPITALITY TRUST](facts/0000082473/README.md) | IHT | available; quality gates apply | unresolved |
-| [Innventure, Inc.](facts/0002001557/README.md) | INV | available; quality gates apply | unresolved |
-| [Insight Digital Partners II](facts/0002079292/README.md) | DYOR | available; quality gates apply | unresolved |
-| [INTELLIGENT PROTECTION MANAGEMENT CORP.](facts/0001355839/README.md) | IPM | available; quality gates apply | unresolved |
-| [Interactive Strength, Inc.](facts/0001785056/README.md) | TRNR | available; quality gates apply | unresolved |
-| [InterDigital, Inc.](facts/0001405495/README.md) | IDCC | available; quality gates apply | unresolved |
-| [InterPrivate Investment Partners V, Inc.](facts/0002105274/README.md) | IPVV | available; quality gates apply | unresolved |
-| [Inuvo, Inc.](facts/0000829323/README.md) | INUV | available; quality gates apply | unresolved |
-| [InvenTrust Properties Corp.](facts/0001307748/README.md) | IVT | available; quality gates apply | unresolved |
-| [Invesco Advantage Municipal Income Trust II](facts/0000908993/README.md) | VKI | missing | unresolved |
-| [Invesco Bond Fund](facts/0000005094/README.md) | VBF | missing | unresolved |
-| [Invesco California Value Municipal Income Trust](facts/0000895531/README.md) | VCV | missing | unresolved |
-| [Invesco High Income Trust II](facts/0000846671/README.md) | VLT | missing | unresolved |
-| [Invesco Mortgage Capital Inc.](facts/0001437071/README.md) | IVR | available; quality gates apply | unresolved |
-| [Invesco Municipal Income Opportunities Trust](facts/0000835333/README.md) | OIA | missing | unresolved |
-| [Invesco Municipal Opportunity Trust](facts/0000884152/README.md) | VMO | missing | unresolved |
-| [Invesco Municipal Trust](facts/0000877463/README.md) | VKQ | missing | unresolved |
-| [Invesco Pennsylvania Value Municipal Income Trust](facts/0000895528/README.md) | VPV | missing | unresolved |
-| [Invesco Quality Municipal Income Trust](facts/0000885125/README.md) | IQI | missing | unresolved |
-| [Invesco Senior Income Trust](facts/0001059386/README.md) | VVR | missing | unresolved |
-| [Invesco Trust for Investment Grade Municipals](facts/0000880892/README.md) | VGM | missing | unresolved |
-| [Invesco Trust for Investment Grade New York Municipals](facts/0000883265/README.md) | VTN | missing | unresolved |
-| [Invesco Value Municipal Income Trust](facts/0000885601/README.md) | IIM | missing | unresolved |
-| [Invest Green Acquisition Corp](facts/0002075068/README.md) | IGAC | available; quality gates apply | unresolved |
-| [Investcorp Credit Management BDC, Inc.](facts/0001578348/README.md) | ICMB | available; quality gates apply | unresolved |
-| [IQVIA HOLDINGS INC.](facts/0001478242/README.md) | IQV | missing | unresolved |
-| [Irenic Acquisition Corp.](facts/0002122505/README.md) | IACQ | available; quality gates apply | unresolved |
-| [Iris Acquisition Corp II](facts/0002077785/README.md) | IRAB | available; quality gates apply | unresolved |
-| [Iron Dome Acquisition I Corp.](facts/0002090441/README.md) | IDAC | available; quality gates apply | unresolved |
-| [IRON MOUNTAIN INC](facts/0001020569/README.md) | IRM | available; quality gates apply | unresolved |
-| [iSpecimen Inc.](facts/0001558569/README.md) | ISPC | available; quality gates apply | unresolved |
-| [ITHAX Acquisition Corp III](facts/0002080985/README.md) | ITHA | available; quality gates apply | unresolved |
-| [Ives Ultra AI Opportunities Inc.](facts/0002077345/README.md) | IVAI | missing | unresolved |
-| [IZEA Worldwide, Inc.](facts/0001495231/README.md) | IZEA | available; quality gates apply | unresolved |
-| [J & Friends Holdings Ltd](facts/0001716338/README.md) | JF | missing | unresolved |
-| [JAB Acquisition Corp I](facts/0002128739/README.md) | ATLQ | available; quality gates apply | unresolved |
-| [Jackson Acquisition Co II](facts/0002039058/README.md) | JACS | available; quality gates apply | unresolved |
-| [Janus Living, Inc.](facts/0002100805/README.md) | JAN | available; quality gates apply | unresolved |
-| [JAPAN SMALLER CAPITALIZATION FUND INC](facts/0000859796/README.md) | JOF | missing | unresolved |
-| [JATT II Acquisition Corp.](facts/0002112446/README.md) | JATT | available; quality gates apply | unresolved |
-| [JATT III Acquisition Corp](facts/0002145659/README.md) | JTTT | missing | unresolved |
-| [JBG SMITH Properties](facts/0001689796/README.md) | JBGS | available; quality gates apply | unresolved |
-| [JENA ACQUISITION Corp II](facts/0002060337/README.md) | JENA | available; quality gates apply | unresolved |
-| [John Hancock Diversified Income Fund](facts/0001496749/README.md) | HEQ | missing | unresolved |
-| [JOHN HANCOCK FINANCIAL OPPORTUNITIES FUND](facts/0000925683/README.md) | BTO | missing | unresolved |
-| [JOHN HANCOCK INCOME SECURITIES TRUST](facts/0000759866/README.md) | JHS | missing | unresolved |
-| [JOHN HANCOCK INVESTORS TRUST](facts/0000759828/README.md) | JHI | missing | unresolved |
-| [JOHN HANCOCK PREFERRED INCOME FUND](facts/0001176199/README.md) | HPI | missing | unresolved |
-| [JOHN HANCOCK PREFERRED INCOME FUND III](facts/0001215913/README.md) | HPS | missing | unresolved |
-| [JOHN HANCOCK PREMIUM DIVIDEND FUND](facts/0000855886/README.md) | PDT | missing | unresolved |
-| [JOHN HANCOCK TAX-ADVANTAGED DIVIDEND INCOME FUND](facts/0001260041/README.md) | HTD | missing | unresolved |
-| [JOINT Corp](facts/0001612630/README.md) | JYNT | available; quality gates apply | unresolved |
-| [Jones Ventures INTL Acquisition1 Corp](facts/0002129056/README.md) | JONE | available; quality gates apply | unresolved |
-| [K&F GROWTH ACQUISITION CORP. II](facts/0002029976/README.md) | KFII | available; quality gates apply | unresolved |
-| [K2 Capital Acquisition Corp](facts/0002086524/README.md) | KTWO | available; quality gates apply | unresolved |
-| [Kanzhun Ltd](facts/0001842827/README.md) | BZ | missing | unresolved |
-| [Karbon Capital Partners Corp.](facts/0002088749/README.md) | KBON | available; quality gates apply | unresolved |
-| [Kayne Anderson BDC, Inc.](facts/0001747172/README.md) | KBDC | available; quality gates apply | unresolved |
-| [Kayne Anderson Energy Infrastructure Fund, Inc.](facts/0001293613/README.md) | KYN | missing | unresolved |
-| [KEWAUNEE SCIENTIFIC CORP /DE/](facts/0000055529/README.md) | KEQU | available; quality gates apply | unresolved |
-| [Keystone Acquisition Corp.](facts/0002102771/README.md) | KEYY | available; quality gates apply | unresolved |
-| [KILROY REALTY CORP](facts/0001025996/README.md) | KRC | missing | unresolved |
-| [KIMCO REALTY CORP](facts/0000879101/README.md) | KIM$L, KIM$M, KIM$N | available; quality gates apply | unresolved |
-| [KinderCare Learning Companies, Inc.](facts/0001873529/README.md) | KLC | available; quality gates apply | unresolved |
-| [KITE REALTY GROUP TRUST](facts/0001286043/README.md) | KRG | available; quality gates apply | unresolved |
-| [KKR Income Opportunities Fund](facts/0001515940/README.md) | KIO | missing | unresolved |
-| [KKR Real Estate Finance Trust Inc.](facts/0001631596/README.md) | KREF | available; quality gates apply | unresolved |
-| [KLA CORP](facts/0000319201/README.md) | KLAC | available; quality gates apply | unresolved |
-| [KNOREX LTD.](facts/0001982960/README.md) | KNRX | missing | unresolved |
-| [Kochav Defense Acquisition Corp.](facts/0002053799/README.md) | KCHV | available; quality gates apply | unresolved |
-| [KOREA FUND INC](facts/0000748691/README.md) | KF | missing | unresolved |
-| [KPET Ultra Paceline Corp](facts/0002095297/README.md) | KPET | available; quality gates apply | unresolved |
-| [KRAKacquisition Corp](facts/0002082119/README.md) | KRAQ | available; quality gates apply | unresolved |
-| [Ladder Capital Corp](facts/0001577670/README.md) | LADR | missing | unresolved |
-| [LaFayette Acquisition Corp.](facts/0002079106/README.md) | LAFA | available; quality gates apply | unresolved |
-| [Lafayette Digital Acquisition Corp. I](facts/0002087447/README.md) | ZKP | available; quality gates apply | unresolved |
-| [Lake Superior Acquisition Corp](facts/0002043508/README.md) | LKSP | available; quality gates apply | unresolved |
-| [Lakeshore Acquisition III Corp.](facts/0002049248/README.md) | LCCC | available; quality gates apply | unresolved |
-| [Laser Photonics Corp](facts/0001807887/README.md) | LASE | available; quality gates apply | unresolved |
-| [Launch One Acquisition Corp.](facts/0002015502/README.md) | LPAA | available; quality gates apply | unresolved |
-| [Launchpad Cadenza Acquisition Corp I](facts/0002083728/README.md) | LPCV | available; quality gates apply | unresolved |
-| [LAZARD GLOBAL TOTAL RETURN & INCOME FUND INC](facts/0001278211/README.md) | LGI | missing | unresolved |
-| [Leapfrog Acquisition Corp](facts/0002084563/README.md) | LFAC | available; quality gates apply | unresolved |
-| [Legato Merger Corp. IV](facts/0002087450/README.md) | LEGO | available; quality gates apply | unresolved |
-| [LIBERTY ALL STAR EQUITY FUND](facts/0000799195/README.md) | USA | missing | unresolved |
-| [LIBERTY ALL STAR GROWTH FUND INC.](facts/0000786035/README.md) | ASG | missing | unresolved |
-| [LightWave Acquisition Corp.](facts/0002061379/README.md) | LWAC | available; quality gates apply | unresolved |
-| [Lineage, Inc.](facts/0001868159/README.md) | LINE | available; quality gates apply | unresolved |
-| [Lionheart Holdings](facts/0002015955/README.md) | CUB | available; quality gates apply | unresolved |
-| [LMP CAPITAL & INCOME FUND INC.](facts/0001270131/README.md) | SCD | missing | unresolved |
-| [Locafy Ltd](facts/0001875547/README.md) | LCFY | missing | unresolved |
-| [Long Table Growth Corp.](facts/0002104177/README.md) | LTGR | available; quality gates apply | unresolved |
-| [LTC PROPERTIES INC](facts/0000887905/README.md) | LTC | available; quality gates apply | unresolved |
-| [Lucas GC Ltd](facts/0001954694/README.md) | LGCL | missing | unresolved |
-| [Lument Finance Trust, Inc.](facts/0001547546/README.md) | LFT | available; quality gates apply | unresolved |
-| [LXP Industrial Trust](facts/0000910108/README.md) | LXP | available; quality gates apply | unresolved |
-| [M Evo Global Acquisition Corp II](facts/0002087361/README.md) | MEVO | available; quality gates apply | unresolved |
-| [M3-Brigade Acquisition VI Corp.](facts/0002073928/README.md) | MBVI | available; quality gates apply | unresolved |
-| [MACERICH CO](facts/0000912242/README.md) | MAC | available; quality gates apply | unresolved |
-| [MacKenzie Realty Capital, Inc.](facts/0001550913/README.md) | MKZR | available; quality gates apply | unresolved |
-| [MAGNITE, INC.](facts/0001595974/README.md) | MGNI | available; quality gates apply | unresolved |
-| [Main Street Capital CORP](facts/0001396440/README.md) | MAIN | available; quality gates apply | unresolved |
-| [MANHATTAN BRIDGE CAPITAL, INC](facts/0001080340/README.md) | LOAN | available; quality gates apply | unresolved |
-| [Market Technology Acquisition Corp](facts/0002133136/README.md) | MTAK | available; quality gates apply | unresolved |
-| [Match Group, Inc.](facts/0000891103/README.md) | MTCH | available; quality gates apply | unresolved |
-| [MAXCYTE, INC.](facts/0001287098/README.md) | MXCT | available; quality gates apply | unresolved |
-| [Maywood Acquisition Corp. 2](facts/0002080087/README.md) | MYX | available; quality gates apply | unresolved |
-| [Medalist Diversified, Inc.](facts/0001654595/README.md) | MDRR | available; quality gates apply | unresolved |
-| [MEDICAL PROPERTIES TRUST INC](facts/0001287865/README.md) | MPT | missing | unresolved |
-| [Medpace Holdings, Inc.](facts/0001668397/README.md) | MEDP | available; quality gates apply | unresolved |
-| [Mercator Acquisition Corp.](facts/0002106436/README.md) | MRCO | available; quality gates apply | unresolved |
-| [Meridian3 Industrials Acquisition Corp](facts/0002136530/README.md) | MIAC | missing | unresolved |
-| [Meshflow Acquisition Corp](facts/0002081468/README.md) | MESH | available; quality gates apply | unresolved |
-| [Meta Platforms, Inc.](facts/0001326801/README.md) | META | available; quality gates apply | unresolved |
-| [Metals Acquisition Corp. II](facts/0002107724/README.md) | MTAL | available; quality gates apply | unresolved |
-| [METTLER TOLEDO INTERNATIONAL INC/](facts/0001037646/README.md) | MTD | available; quality gates apply | unresolved |
-| [MEXICO EQUITY & INCOME FUND INC](facts/0000863900/README.md) | MXE | missing | unresolved |
-| [MEXICO FUND INC](facts/0000065433/README.md) | MXF | missing | unresolved |
-| [MFA FINANCIAL, INC.](facts/0001055160/README.md) | MFA, MFA$B | available; quality gates apply | unresolved |
-| [MGE ENERGY INC](facts/0001161728/README.md) | MGEE | missing | unresolved |
-| [MicroCloud Hologram Inc.](facts/0001841209/README.md) | HOLO | available; quality gates apply | unresolved |
-| [Microvast Holdings, Inc.](facts/0001760689/README.md) | MVST | available; quality gates apply | unresolved |
-| [MID AMERICA APARTMENT COMMUNITIES INC.](facts/0000912595/README.md) | MAA | missing | unresolved |
-| [MindForge Inc.](facts/0001888525/README.md) | MF | missing | unresolved |
-| [Mirion Technologies, Inc.](facts/0001809987/README.md) | MIR | available; quality gates apply | unresolved |
-| [MIXED MARTIAL ARTS GROUP LTD](facts/0001981519/README.md) | MMA | missing | unresolved |
-| [MKDWELL Tech Inc.](facts/0001991332/README.md) | MKDW | missing | unresolved |
-| [MNTN, Inc.](facts/0001891027/README.md) | MNTN | available; quality gates apply | unresolved |
-| [MOODYS CORP /DE/](facts/0001059556/README.md) | MCO | available; quality gates apply | unresolved |
-| [Morgan Stanley China A Share Fund, Inc.](facts/0001368493/README.md) | CAF | missing | unresolved |
-| [Morgan Stanley Direct Lending Fund](facts/0001782524/README.md) | MSDL | available; quality gates apply | unresolved |
-| [MORGAN STANLEY EMERGING MARKETS DEBT FUND INC](facts/0000904112/README.md) | MSD | missing | unresolved |
-| [Morgan Stanley Emerging Markets Domestic Debt Fund, Inc.](facts/0001388141/README.md) | EDD | missing | unresolved |
-| [MORGAN STANLEY INDIA INVESTMENT FUND, INC.](facts/0000916618/README.md) | IIF | missing | unresolved |
-| [Mountain Crest Acquisition 6 Corp.](facts/0002109876/README.md) | MCAH | available; quality gates apply | unresolved |
-| [Mountain Lake Acquisition Corp. II](facts/0002094265/README.md) | MLAA | available; quality gates apply | unresolved |
-| [MOVING iMAGE TECHNOLOGIES INC.](facts/0001770236/README.md) | MITQ | available; quality gates apply | unresolved |
-| [MOZAYYX Acquisition Corp.](facts/0002097376/README.md) | MZYX | available; quality gates apply | unresolved |
-| [MSC INCOME FUND, INC.](facts/0001535778/README.md) | MSIF | available; quality gates apply | unresolved |
-| [MultiSensor AI Holdings, Inc.](facts/0001863990/README.md) | MSAI | available; quality gates apply | unresolved |
-| [Muzero Acquisition Corp](facts/0002093484/README.md) | MUZE | available; quality gates apply | unresolved |
-| [National CineMedia, Inc.](facts/0001377630/README.md) | NCMI | available; quality gates apply | unresolved |
-| [NATIONAL HEALTH INVESTORS INC](facts/0000877860/README.md) | NHI | available; quality gates apply | unresolved |
-| [National Healthcare Properties, Inc.](facts/0001561032/README.md) | NHP | available; quality gates apply | unresolved |
-| [NATURAL HEALTH TRENDS CORP](facts/0000912061/README.md) | NHTC | missing | unresolved |
-| [Nautilus Biotechnology, Inc.](facts/0001808805/README.md) | NAUT | available; quality gates apply | unresolved |
-| [NCR Atleos Corp](facts/0001974138/README.md) | NATL | available; quality gates apply | unresolved |
-| [NCR Voyix Corp](facts/0000070866/README.md) | VYX | available; quality gates apply | unresolved |
-| [Nebius Group N.V.](facts/0001513845/README.md) | NBIS | missing | unresolved |
-| [NeoVolta Inc.](facts/0001748137/README.md) | NEOV | available; quality gates apply | unresolved |
-| [Net Lease Office Properties](facts/0001952976/README.md) | NLOP | available; quality gates apply | unresolved |
-| [NETSTREIT Corp.](facts/0001798100/README.md) | NTST | available; quality gates apply | unresolved |
-| [NETWORK-1 TECHNOLOGIES, INC.](facts/0001065078/README.md) | NTIP | available; quality gates apply | unresolved |
-| [Neuberger Energy Infrastructure & Income Fund Inc.](facts/0001562051/README.md) | NML | missing | unresolved |
-| [Neuberger High Yield Strategies Fund Inc.](facts/0001487610/README.md) | NHS | missing | unresolved |
-| [NEUBERGER MUNICIPAL FUND INC.](facts/0001178839/README.md) | NBH | missing | unresolved |
-| [Neuberger Next Generation Connectivity Fund Inc.](facts/0001843181/README.md) | NBXG | missing | unresolved |
-| [NEUBERGER REAL ESTATE SECURITIES INCOME FUND INC](facts/0001261166/README.md) | NRO | missing | unresolved |
-| [New America Acquisition I Corp.](facts/0002074878/README.md) | NWAX | available; quality gates apply | unresolved |
-| [NEW GERMANY FUND INC](facts/0000858706/README.md) | GF | missing | unresolved |
-| [New Mountain Finance Corp](facts/0001496099/README.md) | NMFC | available; quality gates apply | unresolved |
-| [New Providence Acquisition Corp. III/Cayman](facts/0002048948/README.md) | NPAC | available; quality gates apply | unresolved |
-| [NewHold Investment Corp IV](facts/0002099767/README.md) | NHIV | available; quality gates apply | unresolved |
-| [NEXPOINT DIVERSIFIED REAL ESTATE TRUST](facts/0001356115/README.md) | NXDT | available; quality gates apply | unresolved |
-| [NexPoint Real Estate Finance, Inc.](facts/0001786248/README.md) | NREF | missing | unresolved |
-| [NexPoint Residential Trust, Inc.](facts/0001620393/README.md) | NXRT | available; quality gates apply | unresolved |
-| [Nextdoor Holdings, Inc.](facts/0001846069/README.md) | NXDR | available; quality gates apply | unresolved |
-| [Nexxen International Ltd.](facts/0001849396/README.md) | NEXN | missing | unresolved |
-| [Niki BioSolutions, Inc.](facts/0001734005/README.md) | NIKI | missing | unresolved |
-| [NIQ Global Intelligence plc](facts/0002054696/README.md) | NIQ | available; quality gates apply | unresolved |
-| [NMP Acquisition Corp.](facts/0002054876/README.md) | NMP | available; quality gates apply | unresolved |
-| [NNN REIT, INC.](facts/0000751364/README.md) | NNN | available; quality gates apply | unresolved |
-| [NorthStrive Acquisition Corp I.](facts/0002133719/README.md) | NSAI | missing | unresolved |
-| [NOVA LTD.](facts/0001109345/README.md) | NVMI | missing | unresolved |
-| [NOVANTA INC](facts/0001076930/README.md) | NOVT | available; quality gates apply | unresolved |
-| [NOVONIX Ltd](facts/0001859795/README.md) | NVX | missing | unresolved |
-| [NRC HEALTH](facts/0000070487/README.md) | NRC | available; quality gates apply | unresolved |
-| [Nuburu, Inc.](facts/0001814215/README.md) | BURU | available; quality gates apply | unresolved |
-| [Nuveen AMT-Free Municipal Credit Income Fund](facts/0001090116/README.md) | NVG | missing | unresolved |
-| [Nuveen AMT-Free Municipal Value Fund](facts/0001450445/README.md) | NUW | missing | unresolved |
-| [Nuveen AMT-Free Quality Municipal Income Fund](facts/0001195737/README.md) | NEA | missing | unresolved |
-| [NUVEEN ARIZONA QUALITY MUNICIPAL INCOME FUND](facts/0000892992/README.md) | NAZ | missing | unresolved |
-| [NUVEEN CALIFORNIA AMT-FREE QUALITY MUNICIPAL INCOME FUND](facts/0001195738/README.md) | NKX | missing | unresolved |
-| [NUVEEN CALIFORNIA MUNICIPAL VALUE FUND](facts/0000818851/README.md) | NCA | missing | unresolved |
-| [Nuveen California Quality Municipal Income Fund](facts/0001074952/README.md) | NAC | missing | unresolved |
-| [Nuveen Churchill Direct Lending Corp.](facts/0001737924/README.md) | NCDL | available; quality gates apply | unresolved |
-| [Nuveen Core Equity Alpha Fund](facts/0001385763/README.md) | JCE | missing | unresolved |
-| [Nuveen Core Plus Impact Fund](facts/0001835068/README.md) | NPCT | missing | unresolved |
-| [Nuveen Credit Strategies Income Fund](facts/0001227476/README.md) | JQC | missing | unresolved |
-| [Nuveen Dynamic Municipal Opportunities Fund](facts/0001793129/README.md) | NDMO | missing | unresolved |
-| [NUVEEN FLOATING RATE INCOME FUND](facts/0001276533/README.md) | JFR | missing | unresolved |
-| [Nuveen Global High Income Fund](facts/0001615905/README.md) | JGH | missing | unresolved |
-| [NUVEEN MASSACHUSETTS QUALITY MUNICIPAL INCOME FUND](facts/0000897419/README.md) | NMT | missing | unresolved |
-| [Nuveen Minnesota Quality Municipal Income Fund](facts/0001607997/README.md) | NMS | missing | unresolved |
-| [Nuveen Mortgage & Income Fund/MA/](facts/0001472215/README.md) | JLS | missing | unresolved |
-| [Nuveen Multi-Asset Income Fund](facts/0001861115/README.md) | NMAI | missing | unresolved |
-| [Nuveen Multi-Market Income Fund](facts/0000838131/README.md) | JMM | missing | unresolved |
-| [Nuveen Municipal Credit Income Fund](facts/0001137887/README.md) | NZF | missing | unresolved |
-| [Nuveen Municipal Credit Opportunities Fund](facts/0001774342/README.md) | NMCO | missing | unresolved |
-| [NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND](facts/0001266585/README.md) | NMZ | missing | unresolved |
-| [NUVEEN MUNICIPAL INCOME FUND INC](facts/0000830271/README.md) | NMI | missing | unresolved |
-| [NUVEEN MUNICIPAL VALUE FUND INC](facts/0000812801/README.md) | NUV | missing | unresolved |
-| [NUVEEN NEW YORK AMT-FREE QUALITY MUNICIPAL INCOME FUND](facts/0001195739/README.md) | NRK | missing | unresolved |
-| [NUVEEN NEW YORK MUNICIPAL VALUE FUND](facts/0000818850/README.md) | NNY | missing | unresolved |
-| [NUVEEN NEW YORK QUALITY MUNICIPAL INCOME FUND](facts/0001074769/README.md) | NAN | missing | unresolved |
-| [Nuveen Preferred & Income Opportunities Fund](facts/0001216583/README.md) | JPC | missing | unresolved |
-| [Nuveen Quality Municipal Income Fund](facts/0001083839/README.md) | NAD | missing | unresolved |
-| [Nuveen Real Asset Income & Growth Fund](facts/0001539337/README.md) | JRI | missing | unresolved |
-| [NUVEEN REAL ESTATE INCOME FUND](facts/0001158289/README.md) | JRS | missing | unresolved |
-| [Nuveen S&P 500 Dynamic Overwrite Fund](facts/0001338561/README.md) | SPXX | missing | unresolved |
-| [NUVEEN SELECT MATURITIES MUNICIPAL FUND](facts/0000890119/README.md) | NIM | missing | unresolved |
-| [NUVEEN SELECT TAX FREE INCOME PORTFOLIO](facts/0000883618/README.md) | NXP | missing | unresolved |
-| [Nuveen Taxable Municipal Income Fund](facts/0001478888/README.md) | NBB | missing | unresolved |
-| [Nuveen Variable Rate Preferred & Income Fund](facts/0001865389/README.md) | NPFD | missing | unresolved |
-| [NUVEEN VIRGINIA QUALITY MUNICIPAL INCOME FUND](facts/0000897421/README.md) | NPV | missing | unresolved |
-| [NXG Cushing Midstream Energy Fund](facts/0001400897/README.md) | SRV | missing | unresolved |
-| [NXG NextGen Infrastructure Income Fund](facts/0001506488/README.md) | NXG | missing | unresolved |
-| [NYLIM CBRE Global Infrastructure Megatrends Term Fund](facts/0001855066/README.md) | MEGI | missing | unresolved |
-| [NYLIM MacKay DefinedTerm Muni Opportunities Fund](facts/0001518557/README.md) | MMD | missing | unresolved |
-| [Oaktree Acquisition Corp. III Life Sciences](facts/0002029769/README.md) | OACC | available; quality gates apply | unresolved |
-| [Ocean Capital Acquisition Corp](facts/0001926314/README.md) | OCAC | available; quality gates apply | unresolved |
-| [Oceanhawk Acquisition Corp.](facts/0002090787/README.md) | OHAC | available; quality gates apply | unresolved |
-| [OceanLight Acquisition Corp](facts/0002137679/README.md) | OCLT | available; quality gates apply | unresolved |
-| [OMEGA HEALTHCARE INVESTORS INC](facts/0000888491/README.md) | OHI | available; quality gates apply | unresolved |
-| [OmniAb, Inc.](facts/0001846253/README.md) | OABI | available; quality gates apply | unresolved |
-| [ONE LIBERTY PROPERTIES INC](facts/0000712770/README.md) | OLP | available; quality gates apply | unresolved |
-| [OneIM Acquisition Corp.](facts/0002088325/README.md) | OIM | available; quality gates apply | unresolved |
-| [OneMedNet Corp](facts/0001849380/README.md) | ONMD | available; quality gates apply | unresolved |
-| [ONTO INNOVATION INC.](facts/0000704532/README.md) | ONTO | available; quality gates apply | unresolved |
-| [Optex Systems Holdings Inc](facts/0001397016/README.md) | OPXS | available; quality gates apply | unresolved |
-| [Orchid Island Capital, Inc.](facts/0001518621/README.md) | ORC | available; quality gates apply | unresolved |
-| [Oriental Culture Holding LTD](facts/0001776067/README.md) | OCG | missing | unresolved |
-| [Origin Investment Corp I](facts/0002044523/README.md) | ORIQ | available; quality gates apply | unresolved |
-| [Orion Properties Inc.](facts/0001873923/README.md) | ONL | available; quality gates apply | unresolved |
-| [Osprey Acquisition Corp. III](facts/0002113481/README.md) | OSPR | available; quality gates apply | unresolved |
-| [OTG Acquisition Corp. I](facts/0002077010/README.md) | OTGA | available; quality gates apply | unresolved |
-| [Otis Worldwide Corp](facts/0001781335/README.md) | OTIS | available; quality gates apply | unresolved |
-| [OUTFRONT Media Inc.](facts/0001579877/README.md) | OUT | available; quality gates apply | unresolved |
-| [Owlet, Inc.](facts/0001816708/README.md) | OWLT | available; quality gates apply | unresolved |
-| [Oxford Lane Capital Corp.](facts/0001495222/README.md) | OXLCM, OXLCO | missing | unresolved |
-| [Oxley Bridge Acquisition Ltd](facts/0002034313/README.md) | OBA | available; quality gates apply | unresolved |
-| [Oyster Enterprises II Acquisition Corp](facts/0002042182/README.md) | OYSE | available; quality gates apply | unresolved |
-| [PACIFIC BIOSCIENCES OF CALIFORNIA, INC.](facts/0001299130/README.md) | PACB | available; quality gates apply | unresolved |
-| [Palmer Square Capital BDC Inc.](facts/0001794776/README.md) | PSBD | available; quality gates apply | unresolved |
-| [PALOMA ACQUISITION CORP I](facts/0002101562/README.md) | PALO | available; quality gates apply | unresolved |
-| [PANTAGES CAPITAL ACQUISITION Corp](facts/0002030829/README.md) | PGAC | available; quality gates apply | unresolved |
-| [PAR TECHNOLOGY CORP](facts/0000708821/README.md) | PAR | available; quality gates apply | unresolved |
-| [Patriot Acquisition Corp./CI](facts/0002099095/README.md) | PTAC | available; quality gates apply | unresolved |
-| [PCM FUND, INC.](facts/0000908187/README.md) | PCM | missing | unresolved |
-| [Peace Acquisition Corp.](facts/0002088626/README.md) | PECE | available; quality gates apply | unresolved |
-| [Pearl Diver Credit Co Inc.](facts/0001998043/README.md) | PDCC | missing | unresolved |
-| [Pebblebrook Hotel Trust](facts/0001474098/README.md) | PEB | available; quality gates apply | unresolved |
-| [Pelican Acquisition II Corp](facts/0002122392/README.md) | PLCI | missing | unresolved |
-| [PennantPark Floating Rate Capital Ltd.](facts/0001504619/README.md) | PFLT | available; quality gates apply | unresolved |
-| [PENNANTPARK INVESTMENT CORP](facts/0001383414/README.md) | PNNT | available; quality gates apply | unresolved |
-| [PennyMac Mortgage Investment Trust](facts/0001464423/README.md) | PMT | available; quality gates apply | unresolved |
-| [People Inc](facts/0001800227/README.md) | PPLI | available; quality gates apply | unresolved |
-| [Perimeter Acquisition Corp. I](facts/0002061473/README.md) | PMTR | available; quality gates apply | unresolved |
-| [Pershing Square USA, Ltd.](facts/0002002660/README.md) | PSUS | missing | unresolved |
-| [PGIM Global High Yield Fund, Inc.](facts/0001554697/README.md) | GHY | missing | unresolved |
-| [PGIM High Yield Bond Fund, Inc.](facts/0001534880/README.md) | ISD | missing | unresolved |
-| [PGIM Short Duration High Yield Opportunities Fund](facts/0001812923/README.md) | SDHY | missing | unresolved |
-| [PhenixFIN Corp](facts/0001490349/README.md) | PFX | available; quality gates apply | unresolved |
-| [Phillips Edison & Company, Inc.](facts/0001476204/README.md) | PECO | available; quality gates apply | unresolved |
-| [PIMCO Access Income Fund](facts/0001886878/README.md) | PAXS | missing | unresolved |
-| [PIMCO CALIFORNIA MUNICIPAL INCOME FUND](facts/0001140411/README.md) | PCQ | missing | unresolved |
-| [PIMCO CORPORATE & INCOME OPPORTUNITY FUND](facts/0001190935/README.md) | PTY | missing | unresolved |
-| [PIMCO CORPORATE & INCOME STRATEGY FUND](facts/0001160990/README.md) | PCN | missing | unresolved |
-| [PIMCO Dynamic Income Fund](facts/0001510599/README.md) | PDI | missing | unresolved |
-| [PIMCO Dynamic Income Opportunities Fund](facts/0001798618/README.md) | PDO | missing | unresolved |
-| [PIMCO Dynamic Income Strategy Fund](facts/0001756908/README.md) | PDX | missing | unresolved |
-| [PIMCO Global StocksPLUS & Income Fund](facts/0001318025/README.md) | PGP | missing | unresolved |
-| [PIMCO HIGH INCOME FUND](facts/0001219360/README.md) | PHK | missing | unresolved |
-| [PIMCO INCOME STRATEGY FUND](facts/0001244183/README.md) | PFL | missing | unresolved |
-| [PIMCO Income Strategy Fund II](facts/0001296250/README.md) | PFN | missing | unresolved |
-| [PIMCO MUNICIPAL INCOME FUND II](facts/0001170299/README.md) | PML | missing | unresolved |
-| [PIMCO NEW YORK MUNICIPAL INCOME FUND II](facts/0001170311/README.md) | PNI | missing | unresolved |
-| [PIMCO STRATEGIC INCOME FUND, INC.](facts/0000916183/README.md) | RCS | missing | unresolved |
-| [Pinnacle Acquisition Corp](facts/0002123955/README.md) | PNAQ | missing | unresolved |
-| [PINTEREST, INC.](facts/0001506293/README.md) | PINS | available; quality gates apply | unresolved |
-| [Pioneer Acquisition I Corp](facts/0002040381/README.md) | PACH | available; quality gates apply | unresolved |
-| [PIONEER POWER SOLUTIONS, INC.](facts/0001449792/README.md) | PPSI | available; quality gates apply | unresolved |
-| [PITNEY BOWES INC /DE/](facts/0000078814/README.md) | PBI | available; quality gates apply | unresolved |
-| [Plutonian Acquisition Corp. II](facts/0002065661/README.md) | PLUN | available; quality gates apply | unresolved |
-| [PodcastOne, Inc.](facts/0001940177/README.md) | PODC | available; quality gates apply | unresolved |
-| [Polar Power, Inc.](facts/0001622345/README.md) | POLA | available; quality gates apply | unresolved |
-| [Polibeli Group Ltd](facts/0002035697/README.md) | PLBL | missing | unresolved |
-| [Pono Capital Four, Inc.](facts/0002108164/README.md) | PONO | available; quality gates apply | unresolved |
-| [Postal Realty Trust, Inc.](facts/0001759774/README.md) | PSTL | available; quality gates apply | unresolved |
-| [Powell Max Ltd](facts/0002012096/README.md) | PMAX | missing | unresolved |
-| [Powerlaw Corp.](facts/0002052053/README.md) | PWRL | missing | unresolved |
-| [Praetorian Acquisition Corp.](facts/0002093912/README.md) | PTOR | available; quality gates apply | unresolved |
-| [Precipio, Inc.](facts/0001043961/README.md) | PRPO | available; quality gates apply | unresolved |
-| [Preferred Bank](facts/0001492165/README.md) | PFBC | missing | unresolved |
-| [Presidio Property Trust, Inc.](facts/0001080657/README.md) | SQFT | available; quality gates apply | unresolved |
-| [Principal Real Estate Income Fund](facts/0001557523/README.md) | PGZ | missing | unresolved |
-| [ProCap Acquisition Corp](facts/0002056634/README.md) | PCAP | available; quality gates apply | unresolved |
-| [Proem Acquisition Corp. I](facts/0002087446/README.md) | PAAC | available; quality gates apply | unresolved |
-| [Professional Diversity Network, Inc.](facts/0001546296/README.md) | IPDN | available; quality gates apply | unresolved |
-| [Prologis, Inc.](facts/0001045609/README.md) | PLD | missing | unresolved |
-| [PSQ Holdings, Inc.](facts/0001847064/README.md) | PSQH | available; quality gates apply | unresolved |
-| [Public Storage](facts/0001393311/README.md) | PSA, PSA$F, PSA$G, PSA$H, PSA$I, PSA$J, PSA$K, PSA$L, PSA$M, PSA$N, PSA$O, PSA$P, PSA$Q, PSA$R, PSA$S | available; quality gates apply | unresolved |
-| [PubMatic, Inc.](facts/0001422930/README.md) | PUBM | available; quality gates apply | unresolved |
-| [Pyrophyte Acquisition Corp. II](facts/0002069238/README.md) | PAII | available; quality gates apply | unresolved |
-| [QDRO Acquisition Corp.](facts/0002083217/README.md) | QADR | available; quality gates apply | unresolved |
-| [Quanterix Corp](facts/0001503274/README.md) | QTRX | available; quality gates apply | unresolved |
-| [Quantum Leap Acquisition Corp](facts/0002102155/README.md) | QLEP | available; quality gates apply | unresolved |
-| [Quantum-Si Inc](facts/0001816431/README.md) | QSI | available; quality gates apply | unresolved |
-| [QuantumScape Corp](facts/0001811414/README.md) | QS | available; quality gates apply | unresolved |
-| [Quantumsphere Acquisition Corp](facts/0002070900/README.md) | QUMS | available; quality gates apply | unresolved |
-| [Quartzsea Acquisition Corp](facts/0002047455/README.md) | QSEA | available; quality gates apply | unresolved |
-| [QuasarEdge Acquisition Corp](facts/0002085177/README.md) | QRED | available; quality gates apply | unresolved |
-| [Rackspace Technology, Inc.](facts/0001810019/README.md) | RXT | available; quality gates apply | unresolved |
-| [Rainier Acquisition Corp](facts/0002147219/README.md) | RNAQ | missing | unresolved |
-| [Range Capital Acquisition Corp II](facts/0002078653/README.md) | RNGT | available; quality gates apply | unresolved |
-| [Range Capital Acquisition Corp.](facts/0002035644/README.md) | RANG | available; quality gates apply | unresolved |
-| [RAPID MICRO BIOSYSTEMS, INC.](facts/0001380106/README.md) | RPID | available; quality gates apply | unresolved |
-| [Ready Capital Corp](facts/0001527590/README.md) | RC | missing | unresolved |
-| [Real Messenger Corp](facts/0001983324/README.md) | RMSG | missing | unresolved |
-| [REALTY INCOME CORP](facts/0000726728/README.md) | O | available; quality gates apply | unresolved |
-| [REAVES UTILITY INCOME FUND](facts/0001263994/README.md) | UTG | missing | unresolved |
-| [REDWOOD TRUST INC](facts/0000930236/README.md) | RWT | available; quality gates apply | unresolved |
-| [REGENCY CENTERS CORP](facts/0000910606/README.md) | REG | missing | unresolved |
-| [Renatus Tactical Acquisition Corp I](facts/0002035173/README.md) | RTAC | available; quality gates apply | unresolved |
-| [RENN Fund, Inc.](facts/0000919567/README.md) | RCG | missing | unresolved |
-| [Republic Digital Acquisition Co](facts/0002055459/README.md) | RDAG | available; quality gates apply | unresolved |
-| [Research Alliance Corp IV](facts/0002137777/README.md) | RACD | available; quality gates apply | unresolved |
-| [RESEARCH FRONTIERS INC](facts/0000793524/README.md) | REFR | available; quality gates apply | unresolved |
-| [REVVITY, INC.](facts/0000031791/README.md) | RVTY | available; quality gates apply | unresolved |
-| [Rexford Industrial Realty, Inc.](facts/0001571283/README.md) | REXR | available; quality gates apply | unresolved |
-| [REZOLVE AI PLC](facts/0001920294/README.md) | RZLV | missing | unresolved |
-| [RF Acquisition Corp II](facts/0002012807/README.md) | RFAI | available; quality gates apply | unresolved |
-| [RF Acquisition Corp III](facts/0002091712/README.md) | RFAM | available; quality gates apply | unresolved |
-| [Ribbon Acquisition Corp.](facts/0002035016/README.md) | RIBB | available; quality gates apply | unresolved |
-| [Rice Acquisition Corp 3](facts/0002074872/README.md) | KRSP | available; quality gates apply | unresolved |
-| [Rich Sparkle Holdings Ltd](facts/0002031688/README.md) | ANPA | missing | unresolved |
-| [Rising Dragon Acquisition Corp.](facts/0002018145/README.md) | RDAC | available; quality gates apply | unresolved |
-| [Rithm Acquisition Corp.](facts/0002047497/README.md) | RAC | available; quality gates apply | unresolved |
-| [Rithm Capital Corp.](facts/0001556593/README.md) | RITM | available; quality gates apply | unresolved |
-| [Rithm Property Trust Inc.](facts/0001614806/README.md) | RPT | available; quality gates apply | unresolved |
-| [RiverNorth Capital & Income Fund, Inc.](facts/0001644771/README.md) | RSF | missing | unresolved |
-| [RiverNorth Flexible Municipal Income Fund II, Inc.](facts/0001817159/README.md) | RFMZ | missing | unresolved |
-| [RiverNorth Flexible Municipal Income Fund, Inc.](facts/0001790177/README.md) | RFM | missing | unresolved |
-| [RiverNorth Managed Duration Municipal Income Fund II, Inc.](facts/0001870833/README.md) | RMMZ | missing | unresolved |
-| [RiverNorth Managed Duration Municipal Income Fund, Inc.](facts/0001771226/README.md) | RMM | missing | unresolved |
-| [RiverNorth Opportunistic Municipal Income Fund, Inc.](facts/0001746967/README.md) | RMI | missing | unresolved |
-| [RIVERNORTH OPPORTUNITIES FUND, INC.](facts/0001501072/README.md) | RIV | missing | unresolved |
-| [RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.](facts/0001678130/README.md) | OPP | missing | unresolved |
-| [RLJ Lodging Trust](facts/0001511337/README.md) | RLJ | available; quality gates apply | unresolved |
-| [RMG ML Sports Holdings](facts/0002104879/README.md) | SHOT | available; quality gates apply | unresolved |
-| [Robinhood Ventures Fund I](facts/0002085091/README.md) | RVI | missing | unresolved |
-| [Robinhood Ventures Fund II](facts/0002131040/README.md) | RVII | available; quality gates apply | unresolved |
-| [RoboStrategy, Inc.](facts/0002081119/README.md) | BOT | missing | unresolved |
-| [ROCKWELL AUTOMATION, INC](facts/0001024478/README.md) | ROK | available; quality gates apply | unresolved |
-| [Roman DBDR Acquisition Corp. II](facts/0002032528/README.md) | DRDB | available; quality gates apply | unresolved |
-| [Royalty Management Holding Corp](facts/0001843656/README.md) | RMCO | available; quality gates apply | unresolved |
-| [ROYCE GLOBAL TRUST, INC.](facts/0001514490/README.md) | RGT | missing | unresolved |
-| [ROYCE MICRO-CAP TRUST, INC.](facts/0000912147/README.md) | RMT | missing | unresolved |
-| [ROYCE SMALL-CAP TRUST, INC.](facts/0000804116/README.md) | RVT | missing | unresolved |
-| [RRE Ventures Acquisition Corp.](facts/0002123969/README.md) | RREV | available; quality gates apply | unresolved |
-| [RUM Group Inc.](facts/0001830081/README.md) | RUM | available; quality gates apply | unresolved |
-| [Runway Growth Finance Corp.](facts/0001653384/README.md) | RWAY | available; quality gates apply | unresolved |
-| [Ryman Hospitality Properties, Inc.](facts/0001040829/README.md) | RHP | available; quality gates apply | unresolved |
-| [S&P Global Inc.](facts/0000064040/README.md) | SPGI | missing | unresolved |
-| [Saba Capital Income & Opportunities Fund II](facts/0000828803/README.md) | SABA | missing | unresolved |
-| [Sabra Health Care REIT, Inc.](facts/0001492298/README.md) | SBRA | available; quality gates apply | unresolved |
-| [Sabre Corp](facts/0001597033/README.md) | SABR | available; quality gates apply | unresolved |
-| [Sachem Capital Corp.](facts/0001682220/README.md) | SACH | available; quality gates apply | unresolved |
-| [Safeguard Acquisition Corp.](facts/0002082844/README.md) | SAC | available; quality gates apply | unresolved |
-| [Safehold Inc.](facts/0001095651/README.md) | SAFE | available; quality gates apply | unresolved |
-| [Samos Energy Acquisition Corp](facts/0002125567/README.md) | SAMO | available; quality gates apply | unresolved |
-| [Sangoma Technologies Corp](facts/0001753368/README.md) | SANG | missing | unresolved |
-| [SAUL CENTERS, INC.](facts/0000907254/README.md) | BFS, BFS$D, BFS$E | available; quality gates apply | unresolved |
-| [SBA COMMUNICATIONS CORP](facts/0001034054/README.md) | SBAC | available; quality gates apply | unresolved |
-| [SC II Acquisition Corp.](facts/0002076739/README.md) | SCII | available; quality gates apply | unresolved |
-| [Sea Ltd](facts/0001703399/README.md) | SE | missing | unresolved |
-| [Seer, Inc.](facts/0001726445/README.md) | SEER | available; quality gates apply | unresolved |
-| [Service Properties Trust](facts/0000945394/README.md) | SVC | available; quality gates apply | unresolved |
-| [SES AI Corp](facts/0001819142/README.md) | SES | available; quality gates apply | unresolved |
-| [Seven Hills Realty Trust](facts/0001452477/README.md) | SEVN | missing | unresolved |
-| [Shreya Acquisition Group](facts/0002083452/README.md) | SAGU | available; quality gates apply | unresolved |
-| [SIFY TECHNOLOGIES LTD](facts/0001094324/README.md) | SIFY | missing | unresolved |
-| [Silver Pegasus Acquisition Corp.](facts/0002028735/README.md) | SPEG | available; quality gates apply | unresolved |
-| [SilverBox Corp V](facts/0002081909/README.md) | SBXE | available; quality gates apply | unresolved |
-| [SIM Acquisition Corp. I](facts/0002014982/README.md) | SIMA | available; quality gates apply | unresolved |
-| [SIMILARWEB LTD.](facts/0001842731/README.md) | SMWB | missing | unresolved |
-| [SIMON PROPERTY GROUP INC.](facts/0001063761/README.md) | SPG | available; quality gates apply | unresolved |
-| [SITE Centers Corp.](facts/0000894315/README.md) | SITC | available; quality gates apply | unresolved |
-| [Sixth Street Specialty Lending, Inc.](facts/0001508655/README.md) | TSLX | available; quality gates apply | unresolved |
-| [Sizzle Acquisition Corp. II](facts/0002030663/README.md) | SZZL | available; quality gates apply | unresolved |
-| [SL GREEN REALTY CORP](facts/0001040971/README.md) | SLG, SLG$I | missing | unresolved |
-| [SmartStop Self Storage REIT, Inc.](facts/0001585389/README.md) | SMA | available; quality gates apply | unresolved |
-| [Snap Inc](facts/0001564408/README.md) | SNAP | available; quality gates apply | unresolved |
-| [Snow Rothschild Acquisition Corp.](facts/0002123475/README.md) | ISNR | available; quality gates apply | unresolved |
-| [Social Commerce Partners Corp](facts/0002083143/README.md) | SCPQ | available; quality gates apply | unresolved |
-| [Solarius Capital Acquisition Corp.](facts/0002065948/README.md) | SOCA | available; quality gates apply | unresolved |
-| [Solid Power, Inc.](facts/0001844862/README.md) | SLDP | available; quality gates apply | unresolved |
-| [Solidion Technology Inc.](facts/0001881551/README.md) | STI | available; quality gates apply | unresolved |
-| [Soren Acquisition Corp.](facts/0002086263/README.md) | SORN | available; quality gates apply | unresolved |
-| [Soulpower Acquisition Corp.](facts/0002025608/README.md) | SOUL | available; quality gates apply | unresolved |
-| [Sound Group Inc.](facts/0001783407/README.md) | SOGP | missing | unresolved |
-| [Sound Point Meridian Capital, Inc.](facts/0001930147/README.md) | SPMC | missing | unresolved |
-| [Southern Cross Acquisition I Corp.](facts/0002116230/README.md) | NCO | available; quality gates apply | unresolved |
-| [Space Asset Acquisition Corp.](facts/0002091222/README.md) | SAAQ | available; quality gates apply | unresolved |
-| [SPACE EXPLORATION TECHNOLOGIES CORP](facts/0001181412/README.md) | SPCX | available; quality gates apply | unresolved |
-| [Spartacus Acquisition Corp. II](facts/0002097364/README.md) | TMTS | available; quality gates apply | unresolved |
-| [SPECIAL OPPORTUNITIES FUND, INC.](facts/0000897802/README.md) | SPE | missing | unresolved |
-| [Spectrum Brands Holdings, Inc.](facts/0000109177/README.md) | SPB | available; quality gates apply | unresolved |
-| [Sportradar Group AG](facts/0001836470/README.md) | SRAD | missing | unresolved |
-| [Spring Valley Acquisition Corp. IV](facts/0002098242/README.md) | SVIV | available; quality gates apply | unresolved |
-| [SRH Total Return Fund, Inc.](facts/0000102426/README.md) | STEW | missing | unresolved |
-| [STAG Industrial, Inc.](facts/0001479094/README.md) | STAG | missing | unresolved |
-| [Star Fashion Culture Holdings Ltd](facts/0002003061/README.md) | STFS | missing | unresolved |
-| [Starlink AI Acquisition Corp](facts/0002094076/README.md) | OTAI | available; quality gates apply | unresolved |
-| [STARRY SEA ACQUISITION CORP](facts/0002059165/README.md) | SSEA | available; quality gates apply | unresolved |
-| [Stellus Capital Investment Corp](facts/0001551901/README.md) | SCM | available; quality gates apply | unresolved |
-| [StoneBridge Acquisition II Corp](facts/0002043630/README.md) | APAC | available; quality gates apply | unresolved |
-| [Strawberry Fields REIT, Inc.](facts/0001782430/README.md) | STRW | available; quality gates apply | unresolved |
-| [SUMA Acquisition Corp](facts/0002105838/README.md) | SUMA | available; quality gates apply | unresolved |
-| [Summit Hotel Properties, Inc.](facts/0001497645/README.md) | INN | available; quality gates apply | unresolved |
-| [SUN COMMUNITIES INC](facts/0000912593/README.md) | SUI | missing | unresolved |
-| [Sunrise Realty Trust, Inc.](facts/0002012706/README.md) | SUNS | available; quality gates apply | unresolved |
-| [SYNTEC OPTICS HOLDINGS, INC.](facts/0001866816/README.md) | OPTX | available; quality gates apply | unresolved |
-| [System1, Inc.](facts/0001805833/README.md) | SST | available; quality gates apply | unresolved |
-| [Taboola.com Ltd.](facts/0001840502/README.md) | TBLA | available; quality gates apply | unresolved |
-| [Tailwind 2.0 Acquisition Corp.](facts/0002076616/README.md) | TDWD | available; quality gates apply | unresolved |
-| [TAIWAN FUND INC](facts/0000804123/README.md) | TWN | missing | unresolved |
-| [Talon Capital Corp.](facts/0002073340/README.md) | TLNC | available; quality gates apply | unresolved |
-| [TANGER INC.](facts/0000899715/README.md) | SKT | available; quality gates apply | unresolved |
-| [TaoWeave, Inc.](facts/0000746210/README.md) | TWAV | available; quality gates apply | unresolved |
-| [Target Hospitality Corp.](facts/0001712189/README.md) | TH | available; quality gates apply | unresolved |
-| [Tavia Acquisition Corp.](facts/0002020385/README.md) | TAVI | available; quality gates apply | unresolved |
-| [TCGX Acquisition Corp.](facts/0002137965/README.md) | TCGX | missing | unresolved |
-| [TCW STRATEGIC INCOME FUND INC](facts/0000809559/README.md) | TSI | missing | unresolved |
-| [Teads Holding Co.](facts/0001454938/README.md) | TEAD | available; quality gates apply | unresolved |
-| [TEMPLETON DRAGON FUND INC](facts/0000919893/README.md) | TDF | missing | unresolved |
-| [TEMPLETON EMERGING MARKETS FUND](facts/0000809708/README.md) | EMF | missing | unresolved |
-| [TEMPLETON EMERGING MARKETS INCOME FUND](facts/0000909112/README.md) | TEI | missing | unresolved |
-| [Tempus AI, Inc.](facts/0001717115/README.md) | TEM | available; quality gates apply | unresolved |
-| [Texas Ventures Acquisition III Corp](facts/0002033991/README.md) | TVA | available; quality gates apply | unresolved |
-| [Texas Ventures Acquisition IV Corp](facts/0002096755/README.md) | TVIV | available; quality gates apply | unresolved |
-| [TGE Value Creative Solutions Corp](facts/0002079933/README.md) | BEBE | available; quality gates apply | unresolved |
-| [Thayer Ventures Acquisition Corp II](facts/0001872228/README.md) | TVAI | available; quality gates apply | unresolved |
-| [THERMO FISHER SCIENTIFIC INC.](facts/0000097745/README.md) | TMO | available; quality gates apply | unresolved |
-| [Three Lions Acquisition Corp.](facts/0002128462/README.md) | TLAC | missing | unresolved |
-| [Thryv Holdings, Inc.](facts/0001556739/README.md) | THRY | available; quality gates apply | unresolved |
-| [Titan Acquisition Corp.](facts/0002009183/README.md) | TACH | available; quality gates apply | unresolved |
-| [TNL Mediagene](facts/0002013186/README.md) | TNMG | missing | unresolved |
-| [TORTOISE ENERGY INFRASTRUCTURE CORP](facts/0001268533/README.md) | TYG | missing | unresolved |
-| [Total Return Securities Fund](facts/0000813623/README.md) | SWZ | missing | unresolved |
-| [TPG Mortgage Investment Trust, Inc.](facts/0001514281/README.md) | MITT | available; quality gates apply | unresolved |
-| [TPG RE Finance Trust, Inc.](facts/0001630472/README.md) | TRTX | missing | unresolved |
-| [Trade Desk, Inc.](facts/0001671933/README.md) | TTD | available; quality gates apply | unresolved |
-| [Trailblazer Acquisition Corp.](facts/0002075310/README.md) | BLZR | available; quality gates apply | unresolved |
-| [TRANSCONTINENTAL REALTY INVESTORS INC](facts/0000733590/README.md) | TCI | available; quality gates apply | unresolved |
-| [Translational Development Acquisition Corp.](facts/0001926599/README.md) | TDAC | available; quality gates apply | unresolved |
-| [TransUnion](facts/0001552033/README.md) | TRU | missing | unresolved |
-| [TRAVELZOO](facts/0001133311/README.md) | TZOO | available; quality gates apply | unresolved |
-| [TRG Latin America Acquisitions Corp.](facts/0002098780/README.md) | TRGS | available; quality gates apply | unresolved |
-| [TRI-CONTINENTAL Corp](facts/0000099614/README.md) | TY | missing | unresolved |
-| [Tribeca Strategic Acquisition Corp.](facts/0002094919/README.md) | BID | available; quality gates apply | unresolved |
-| [TRIMBLE INC.](facts/0000864749/README.md) | TRMB | available; quality gates apply | unresolved |
-| [Trinity Capital Inc.](facts/0001786108/README.md) | TRIN | missing | unresolved |
-| [TripAdvisor, Inc.](facts/0001526520/README.md) | TRIP | available; quality gates apply | unresolved |
-| [TriplePoint Venture Growth BDC Corp.](facts/0001580345/README.md) | TPVG | available; quality gates apply | unresolved |
-| [Trump Media & Technology Group Corp.](facts/0001849635/README.md) | DJT | available; quality gates apply | unresolved |
-| [Turbo Energy, S.A.](facts/0001963439/README.md) | TURB | missing | unresolved |
-| [Twelve Seas Investment Co III/Cayman](facts/0002052243/README.md) | TWLV | available; quality gates apply | unresolved |
-| [U Power Ltd](facts/0001939780/README.md) | UCAR | missing | unresolved |
-| [UBS ASSET MANAGEMENT HIGH YIELD CREDIT FUND](facts/0001061353/README.md) | DHY | missing | unresolved |
-| [UBS ASSET MANAGEMENT INCOME FUND, INC.](facts/0000810766/README.md) | CIK | missing | unresolved |
-| [UDR, Inc.](facts/0000074208/README.md) | UDR | missing | unresolved |
-| [ULTRALIFE CORP](facts/0000875657/README.md) | ULBI | available; quality gates apply | unresolved |
-| [UMH PROPERTIES, INC.](facts/0000752642/README.md) | UMH | available; quality gates apply | unresolved |
-| [United Acquisition Corp. I](facts/0002098669/README.md) | UAC | available; quality gates apply | unresolved |
-| [UNIVERSAL HEALTH REALTY INCOME TRUST](facts/0000798783/README.md) | UHT | available; quality gates apply | unresolved |
-| [UTime Ltd](facts/0001789299/README.md) | FXHO | missing | unresolved |
-| [UY Scuti Acquisition Corp.](facts/0002036973/README.md) | UYSC | available; quality gates apply | unresolved |
-| [Velos Acquisition I Corp.](facts/0002016072/README.md) | VLOS | available; quality gates apply | unresolved |
-| [Vendome Acquisition Corp I](facts/0002055879/README.md) | VNME | available; quality gates apply | unresolved |
-| [Ventas, Inc.](facts/0000740260/README.md) | VTR | available; quality gates apply | unresolved |
-| [Vernal Capital Acquisition Corp.](facts/0002081690/README.md) | VECA | available; quality gates apply | unresolved |
-| [Vestis Corp](facts/0001967649/README.md) | VSTS | available; quality gates apply | unresolved |
-| [Viant Technology Inc.](facts/0001828791/README.md) | DSP | available; quality gates apply | unresolved |
-| [VICI PROPERTIES INC.](facts/0001705696/README.md) | VICI | available; quality gates apply | unresolved |
-| [Viking Acquisition Corp. II](facts/0002139246/README.md) | VII | available; quality gates apply | unresolved |
-| [Vine Hill Capital Investment Corp. II](facts/0002086264/README.md) | VHCP | available; quality gates apply | unresolved |
-| [VirnetX Holding Corp](facts/0001082324/README.md) | VHC | available; quality gates apply | unresolved |
-| [Virtus Artificial Intelligence & Technology Opportunities Fund](facts/0001778114/README.md) | AIO | missing | unresolved |
-| [Virtus Convertible & Income Fund](facts/0001214935/README.md) | NCV | missing | unresolved |
-| [Virtus Convertible & Income Fund II](facts/0001227857/README.md) | NCZ | missing | unresolved |
-| [Virtus Diversified Income & Convertible Fund](facts/0001636289/README.md) | ACV | missing | unresolved |
-| [Virtus Dividend, Interest & Premium Strategy Fund](facts/0001260563/README.md) | NFJ | missing | unresolved |
-| [Virtus Equity & Convertible Income Fund](facts/0001383441/README.md) | NIE | missing | unresolved |
-| [Virtus Global Multi-Sector Income Fund](facts/0001528811/README.md) | VGI | missing | unresolved |
-| [Virtus Stone Harbor Emerging Markets Income Fund](facts/0001501103/README.md) | EDF | missing | unresolved |
-| [Virtus Total Return Fund Inc.](facts/0000836412/README.md) | ZTR | missing | unresolved |
-| [VIVMARK RESIDENTIAL](facts/0000906107/README.md) | VMRK | available; quality gates apply | unresolved |
-| [VNET Group, Inc.](facts/0001508475/README.md) | VNET | missing | unresolved |
-| [VORNADO REALTY TRUST](facts/0000899689/README.md) | VNO | available; quality gates apply | unresolved |
-| [Voya Global Advantage & Premium Opportunity Fund](facts/0001332943/README.md) | IGA | missing | unresolved |
-| [Voya GLOBAL EQUITY DIVIDEND & PREMIUM OPPORTUNITY FUND](facts/0001285890/README.md) | IGD | missing | unresolved |
-| [Voya Infrastructure, Industrials & Materials Fund](facts/0001417802/README.md) | IDE | missing | unresolved |
-| [Wallbox N.V.](facts/0001866501/README.md) | WBX | missing | unresolved |
-| [WATERS CORP /DE/](facts/0001000697/README.md) | WAT | available; quality gates apply | unresolved |
-| [WEIBO Corp](facts/0001595761/README.md) | WB | missing | unresolved |
-| [WELLTOWER INC.](facts/0000766704/README.md) | WELL | missing | unresolved |
-| [WEN Acquisition Corp](facts/0002057043/README.md) | WENN | available; quality gates apply | unresolved |
-| [West Enclave Merger Corp.](facts/0002104260/README.md) | WENC | available; quality gates apply | unresolved |
-| [WESTERN ASSET EMERGING MARKETS DEBT FUND INC.](facts/0001227862/README.md) | EMD | missing | unresolved |
-| [WESTERN ASSET GLOBAL CORPORATE OPPORTUNITY FUND INC.](facts/0001472341/README.md) | GDO | missing | unresolved |
-| [WESTERN ASSET GLOBAL HIGH INCOME FUND INC.](facts/0001228509/README.md) | EHI | missing | unresolved |
-| [WESTERN ASSET HIGH INCOME FUND II INC.](facts/0001058239/README.md) | HIX | missing | unresolved |
-| [WESTERN ASSET HIGH INCOME OPPORTUNITY FUND INC.](facts/0000910068/README.md) | HIO | missing | unresolved |
-| [Western Asset High Yield Opportunity Fund Inc.](facts/0001497186/README.md) | HYI | missing | unresolved |
-| [WESTERN ASSET INFLATION-LINKED INCOME FUND](facts/0001254370/README.md) | WIA | missing | unresolved |
-| [WESTERN ASSET INFLATION-LINKED OPPORTUNITIES & INCOME FUND](facts/0001267902/README.md) | WIW | missing | unresolved |
-| [WESTERN ASSET INTERMEDIATE MUNI FUND INC.](facts/0000882300/README.md) | SBI | missing | unresolved |
-| [Western Asset Investment Grade Income Fund Inc.](facts/0000075398/README.md) | PAI | missing | unresolved |
-| [Western Asset Investment Grade Opportunity Trust Inc.](facts/0001462586/README.md) | IGI | missing | unresolved |
-| [WESTERN ASSET MANAGED MUNICIPALS FUND INC.](facts/0000886043/README.md) | MMU | missing | unresolved |
-| [Western Asset Mortgage Opportunity Fund Inc.](facts/0001478102/README.md) | DMO | missing | unresolved |
-| [WESTERN ASSET MUNICIPAL HIGH INCOME FUND INC.](facts/0000830487/README.md) | MHF | missing | unresolved |
-| [WEYCO GROUP INC](facts/0000106532/README.md) | WEYS | available; quality gates apply | unresolved |
-| [WEYERHAEUSER CO](facts/0000106535/README.md) | WY | available; quality gates apply | unresolved |
-| [Wheeler Real Estate Investment Trust, Inc.](facts/0001527541/README.md) | WHLR, WHLRD, WHLRP | available; quality gates apply | unresolved |
-| [White Pearl Acquisition Corp.](facts/0002081536/README.md) | WPAC | available; quality gates apply | unresolved |
-| [Wilco 63 Corp](facts/0002101470/README.md) | WLCO | available; quality gates apply | unresolved |
-| [Willow Lane Acquisition Corp. II](facts/0002083946/README.md) | WLII | available; quality gates apply | unresolved |
-| [Wintergreen Acquisition Corp.](facts/0002053927/README.md) | WTG | available; quality gates apply | unresolved |
-| [Wix.com Ltd.](facts/0001576789/README.md) | WIX | missing | unresolved |
-| [X3 Acquisition Corp. Ltd.](facts/0002083493/README.md) | XCBE | available; quality gates apply | unresolved |
-| [XAI Floating Rate & Alternative Income Trust](facts/0001703079/README.md) | XFLT | missing | unresolved |
-| [XAI Madison Equity Premium Income Fund](facts/0001289868/README.md) | MCN | missing | unresolved |
-| [XCel Brands, Inc.](facts/0001083220/README.md) | XELB | available; quality gates apply | unresolved |
-| [XFLH Capital Corp](facts/0002088103/README.md) | XFLH | available; quality gates apply | unresolved |
-| [Xsolla SPAC 1](facts/0002088807/README.md) | XSLL | available; quality gates apply | unresolved |
-| [Yalla Group Ltd](facts/0001794350/README.md) | YALA | missing | unresolved |
-| [YHN Acquisition I Ltd](facts/0002020987/README.md) | YHNA | available; quality gates apply | unresolved |
-| [Yorkville International Capital Corp.](facts/0002130386/README.md) | YICC | missing | unresolved |
-| [ZIPRECRUITER, INC.](facts/0001617553/README.md) | ZIP | available; quality gates apply | unresolved |
-| [Zoom Communications, Inc.](facts/0001585521/README.md) | ZM | available; quality gates apply | unresolved |
-| [ZW Data Action Technologies Inc.](facts/0001376321/README.md) | CNET | available; quality gates apply | unresolved |
+| [A](facts/A/README.md) | AGILENT TECHNOLOGIES, INC. | available; quality gates apply | unresolved |
+| [AAC](facts/AAC/README.md) | Ares Acquisition Corp III | missing | unresolved |
+| [AACI](facts/AACI/README.md) | Armada Acquisition Corp. III | available; quality gates apply | unresolved |
+| [AACO](facts/AACO/README.md) | Abony Acquisition Corp. I | available; quality gates apply | unresolved |
+| [AACP](facts/AACP/README.md) | Apogee Acquisition Corp | available; quality gates apply | unresolved |
+| [AAT](facts/AAT/README.md) | American Assets Trust, Inc. | missing | unresolved |
+| [ABR](facts/ABR/README.md) | ARBOR REALTY TRUST INC | missing | unresolved |
+| [ABSI](facts/ABSI/README.md) | Absci Corp | available; quality gates apply | unresolved |
+| [ACAA](facts/ACAA/README.md) | Averin Capital Acquisition Corp. | available; quality gates apply | unresolved |
+| [ACGC](facts/ACGC/README.md) | ACP Holdings Acquisition Corp. | available; quality gates apply | unresolved |
+| [ACP](facts/ACP/README.md) | abrdn Income Credit Strategies Fund | missing | unresolved |
+| [ACR](facts/ACR/README.md) | ACRES Commercial Realty Corp. | available; quality gates apply | unresolved |
+| [ACRE](facts/ACRE/README.md) | Ares Commercial Real Estate Corp | available; quality gates apply | unresolved |
+| [ACTG](facts/ACTG/README.md) | ACACIA RESEARCH CORP | available; quality gates apply | unresolved |
+| [ACV](facts/ACV/README.md) | Virtus Diversified Income & Convertible Fund | missing | unresolved |
+| [ADAC](facts/ADAC/README.md) | American Drive Acquisition Co | available; quality gates apply | unresolved |
+| [ADAM](facts/ADAM/README.md) | ADAMAS TRUST, INC. | available; quality gates apply | unresolved |
+| [ADC, ADC$A](facts/ADC/README.md) | AGREE REALTY CORP | available; quality gates apply | unresolved |
+| [ADX](facts/ADX/README.md) | ADAMS DIVERSIFIED EQUITY FUND, INC. | missing | unresolved |
+| [AEAQ](facts/AEAQ/README.md) | Activate Energy Acquisition Corp. | available; quality gates apply | unresolved |
+| [AEF](facts/AEF/README.md) | abrdn Emerging Markets ex-China Fund, Inc. | missing | unresolved |
+| [AESP](facts/AESP/README.md) | Aeon Acquisition I Corp. | available; quality gates apply | unresolved |
+| [AEXA](facts/AEXA/README.md) | American Exceptionalism Acquisition Corp. A | available; quality gates apply | unresolved |
+| [AFB](facts/AFB/README.md) | ALLIANCEBERNSTEIN NATIONAL MUNICIPAL INCOME FUND | missing | unresolved |
+| [AFCG](facts/AFCG/README.md) | Advanced Flower Capital Inc. | available; quality gates apply | unresolved |
+| [AFJK](facts/AFJK/README.md) | Aimei Health Technology Co., Ltd. | available; quality gates apply | unresolved |
+| [AGD](facts/AGD/README.md) | abrdn Global Dynamic Dividend Fund | missing | unresolved |
+| [AGNC, AGNCL, AGNCM, AGNCN, AGNCO, AGNCP, AGNCZ](facts/AGNC/README.md) | AGNC Investment Corp. | available; quality gates apply | unresolved |
+| [AHR](facts/AHR/README.md) | American Healthcare REIT, Inc. | available; quality gates apply | unresolved |
+| [AHT](facts/AHT/README.md) | ASHFORD HOSPITALITY TRUST INC | available; quality gates apply | unresolved |
+| [AIIA](facts/AIIA/README.md) | AI Infrastructure Acquisition Corp. | available; quality gates apply | unresolved |
+| [AIO](facts/AIO/README.md) | Virtus Artificial Intelligence & Technology Opportunities Fund | missing | unresolved |
+| [AIV](facts/AIV/README.md) | APARTMENT INVESTMENT & MANAGEMENT CO | missing | unresolved |
+| [AKR](facts/AKR/README.md) | ACADIA REALTY TRUST | available; quality gates apply | unresolved |
+| [ALDF](facts/ALDF/README.md) | Aldel Financial II Inc. | available; quality gates apply | unresolved |
+| [ALF](facts/ALF/README.md) | Centurion Acquisition Corp. | available; quality gates apply | unresolved |
+| [ALMR](facts/ALMR/README.md) | Alamar Biosciences, Inc. | available; quality gates apply | unresolved |
+| [ALOV](facts/ALOV/README.md) | Aldabra 4 Liquidity Opportunity Vehicle, Inc. | available; quality gates apply | unresolved |
+| [ALPX](facts/ALPX/README.md) | Alpex Acquisition Corp | available; quality gates apply | unresolved |
+| [ALUB](facts/ALUB/README.md) | Alussa Energy Acquisition Corp. II | available; quality gates apply | unresolved |
+| [ALX](facts/ALX/README.md) | ALEXANDERS INC | available; quality gates apply | unresolved |
+| [AMAC](facts/AMAC/README.md) | AMR Resources Acquisition Corp. | available; quality gates apply | unresolved |
+| [AMAN](facts/AMAN/README.md) | Amanat Acquisition Corp. | available; quality gates apply | unresolved |
+| [AMH, AMH$G, AMH$H](facts/AMH/README.md) | American Homes 4 Rent | missing | unresolved |
+| [AMOD](facts/AMOD/README.md) | ALPHA MODUS HOLDINGS, INC. | available; quality gates apply | unresolved |
+| [AMPX](facts/AMPX/README.md) | Amprius Technologies, Inc. | available; quality gates apply | unresolved |
+| [AMT](facts/AMT/README.md) | AMERICAN TOWER CORP /MA/ | available; quality gates apply | unresolved |
+| [ANGI](facts/ANGI/README.md) | Angi Inc. | available; quality gates apply | unresolved |
+| [ANPA](facts/ANPA/README.md) | Rich Sparkle Holdings Ltd | missing | unresolved |
+| [AOD](facts/AOD/README.md) | abrdn Total Dynamic Dividend Fund | missing | unresolved |
+| [APAC](facts/APAC/README.md) | StoneBridge Acquisition II Corp | available; quality gates apply | unresolved |
+| [APLE](facts/APLE/README.md) | Apple Hospitality REIT, Inc. | available; quality gates apply | unresolved |
+| [APMC](facts/APMC/README.md) | AmperCap Acquisition Co | available; quality gates apply | unresolved |
+| [APP](facts/APP/README.md) | AppLovin Corp | available; quality gates apply | unresolved |
+| [APPS](facts/APPS/README.md) | Digital Turbine, Inc. | available; quality gates apply | unresolved |
+| [APUR](facts/APUR/README.md) | Aperture AC | available; quality gates apply | unresolved |
+| [APXT](facts/APXT/README.md) | Apex Treasury Corp | available; quality gates apply | unresolved |
+| [ARCI](facts/ARCI/README.md) | Archimedes Tech SPAC Partners III Co. | available; quality gates apply | unresolved |
+| [ARDC](facts/ARDC/README.md) | Ares Dynamic Credit Allocation Fund, Inc. | missing | unresolved |
+| [ARE](facts/ARE/README.md) | ALEXANDRIA REAL ESTATE EQUITIES, INC. | available; quality gates apply | unresolved |
+| [ARI](facts/ARI/README.md) | Apollo Commercial Real Estate Finance, Inc. | available; quality gates apply | unresolved |
+| [ARR](facts/ARR/README.md) | Armour Residential REIT, Inc. | available; quality gates apply | unresolved |
+| [ARTC](facts/ARTC/README.md) | Art Technology Acquisition Corp. | available; quality gates apply | unresolved |
+| [ASA](facts/ASA/README.md) | ASA Gold & Precious Metals Ltd | missing | unresolved |
+| [ASG](facts/ASG/README.md) | LIBERTY ALL STAR GROWTH FUND INC. | missing | unresolved |
+| [ASGI](facts/ASGI/README.md) | abrdn Global Infrastructure Income Fund | missing | unresolved |
+| [ASPC](facts/ASPC/README.md) | ASPAC III Acquisition Corp. | available; quality gates apply | unresolved |
+| [ASPS](facts/ASPS/README.md) | ALTISOURCE PORTFOLIO SOLUTIONS S.A. | available; quality gates apply | unresolved |
+| [ASTC](facts/ASTC/README.md) | ASTROTECH Corp | available; quality gates apply | unresolved |
+| [ATLQ](facts/ATLQ/README.md) | JAB Acquisition Corp I | available; quality gates apply | unresolved |
+| [ATXG](facts/ATXG/README.md) | ADDENTAX GROUP CORP. | available; quality gates apply | unresolved |
+| [AVK](facts/AVK/README.md) | ADVENT CONVERTIBLE & INCOME FUND | missing | unresolved |
+| [AVTR](facts/AVTR/README.md) | Avantor, Inc. | missing | unresolved |
+| [AWF](facts/AWF/README.md) | ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND INC | missing | unresolved |
+| [AWP](facts/AWP/README.md) | abrdn Global Premier Properties Fund | missing | unresolved |
+| [AXIN](facts/AXIN/README.md) | Axiom Intelligence Acquisition Corp 1 | available; quality gates apply | unresolved |
+| [BACC](facts/BACC/README.md) | Blue Acquisition Corp/Cayman | available; quality gates apply | unresolved |
+| [BBDC](facts/BBDC/README.md) | Barings BDC, Inc. | missing | unresolved |
+| [BBN](facts/BBN/README.md) | BlackRock Taxable Municipal Bond Trust | missing | unresolved |
+| [BCAT](facts/BCAT/README.md) | BlackRock Capital Allocation Term Trust | missing | unresolved |
+| [BCCQ](facts/BCCQ/README.md) | Bleichroeder Acquisition Corp. III | available; quality gates apply | unresolved |
+| [BCHT](facts/BCHT/README.md) | Birchtech Corp. | available; quality gates apply | unresolved |
+| [BCSF](facts/BCSF/README.md) | Bain Capital Specialty Finance, Inc. | available; quality gates apply | unresolved |
+| [BCSS](facts/BCSS/README.md) | Bain Capital GSS Investment Corp. | available; quality gates apply | unresolved |
+| [BCV](facts/BCV/README.md) | BANCROFT FUND LTD | missing | unresolved |
+| [BDCI](facts/BDCI/README.md) | BTC Development Corp. | available; quality gates apply | unresolved |
+| [BDJ](facts/BDJ/README.md) | BlackRock Enhanced Equity Dividend Trust | missing | unresolved |
+| [BDN](facts/BDN/README.md) | BRANDYWINE REALTY TRUST | missing | unresolved |
+| [BEAG](facts/BEAG/README.md) | Bold Eagle Acquisition Corp. | available; quality gates apply | unresolved |
+| [BEBE](facts/BEBE/README.md) | TGE Value Creative Solutions Corp | available; quality gates apply | unresolved |
+| [BEEM](facts/BEEM/README.md) | Beam Global | available; quality gates apply | unresolved |
+| [BFAM](facts/BFAM/README.md) | BRIGHT HORIZONS FAMILY SOLUTIONS INC. | available; quality gates apply | unresolved |
+| [BFS, BFS$D, BFS$E](facts/BFS/README.md) | SAUL CENTERS, INC. | available; quality gates apply | unresolved |
+| [BGB](facts/BGB/README.md) | Blackstone Strategic Credit 2027 Term Fund | missing | unresolved |
+| [BGH](facts/BGH/README.md) | BARINGS GLOBAL SHORT DURATION HIGH YIELD FUND | missing | unresolved |
+| [BGR](facts/BGR/README.md) | BlackRock Energy & Resources Trust | missing | unresolved |
+| [BGT](facts/BGT/README.md) | BLACKROCK FLOATING RATE INCOME TRUST | missing | unresolved |
+| [BGX](facts/BGX/README.md) | Blackstone Long-Short Credit Income Fund | missing | unresolved |
+| [BGY](facts/BGY/README.md) | BlackRock Enhanced International Dividend Trust | missing | unresolved |
+| [BHAV](facts/BHAV/README.md) | BHAV Acquisition Corp | available; quality gates apply | unresolved |
+| [BHK](facts/BHK/README.md) | BLACKROCK CORE BOND TRUST | missing | unresolved |
+| [BHM](facts/BHM/README.md) | Bluerock Homes Trust, Inc. | available; quality gates apply | unresolved |
+| [BHR](facts/BHR/README.md) | Braemar Hotels & Resorts Inc. | available; quality gates apply | unresolved |
+| [BHV](facts/BHV/README.md) | BLACKROCK VIRGINIA MUNICIPAL BOND TRUST | missing | unresolved |
+| [BIAF](facts/BIAF/README.md) | bioAffinity Technologies, Inc. | available; quality gates apply | unresolved |
+| [BID](facts/BID/README.md) | Tribeca Strategic Acquisition Corp. | available; quality gates apply | unresolved |
+| [BIDU](facts/BIDU/README.md) | Baidu, Inc. | missing | unresolved |
+| [BIO, BIO.B](facts/BIO/README.md) | BIO-RAD LABORATORIES, INC. | available; quality gates apply | unresolved |
+| [BIT](facts/BIT/README.md) | BlackRock Multi-Sector Income Trust | missing | unresolved |
+| [BIXI](facts/BIXI/README.md) | Bitcoin Infrastructure Acquisition Corp Ltd | available; quality gates apply | unresolved |
+| [BKT](facts/BKT/README.md) | BLACKROCK INCOME TRUST, INC. | missing | unresolved |
+| [BLND](facts/BLND/README.md) | Blend Labs, Inc. | available; quality gates apply | unresolved |
+| [BLNK](facts/BLNK/README.md) | Blink Charging Co. | available; quality gates apply | unresolved |
+| [BLRK](facts/BLRK/README.md) | Bluerock Acquisition Corp. | available; quality gates apply | unresolved |
+| [BLUW](facts/BLUW/README.md) | Blue Water Acquisition Corp. III | available; quality gates apply | unresolved |
+| [BLW](facts/BLW/README.md) | BLACKROCK Ltd DURATION INCOME TRUST | missing | unresolved |
+| [BLZR](facts/BLZR/README.md) | Trailblazer Acquisition Corp. | available; quality gates apply | unresolved |
+| [BMBL](facts/BMBL/README.md) | Bumble Inc. | available; quality gates apply | unresolved |
+| [BME](facts/BME/README.md) | BlackRock Health Sciences Trust | missing | unresolved |
+| [BMEZ](facts/BMEZ/README.md) | BlackRock Health Sciences Term Trust | missing | unresolved |
+| [BMN](facts/BMN/README.md) | BlackRock 2037 Municipal Target Term Trust | missing | unresolved |
+| [BNGO](facts/BNGO/README.md) | Bionano Genomics, Inc. | available; quality gates apply | unresolved |
+| [BNL](facts/BNL/README.md) | Broadstone Net Lease, Inc. | available; quality gates apply | unresolved |
+| [BOE](facts/BOE/README.md) | BlackRock Enhanced Global Dividend Trust | missing | unresolved |
+| [BOT](facts/BOT/README.md) | RoboStrategy, Inc. | missing | unresolved |
+| [BPAC](facts/BPAC/README.md) | Blueport Acquisition Ltd | available; quality gates apply | unresolved |
+| [BPRE](facts/BPRE/README.md) | Bluerock Private Real Estate Fund | missing | unresolved |
+| [BRAG](facts/BRAG/README.md) | Bragg Gaming Group Inc. | missing | unresolved |
+| [BREZ](facts/BREZ/README.md) | Breeze Acquisition Corp. II | available; quality gates apply | unresolved |
+| [BRKH](facts/BRKH/README.md) | Burtech Acquisition Corp II | available; quality gates apply | unresolved |
+| [BRKR](facts/BRKR/README.md) | BRUKER CORP | available; quality gates apply | unresolved |
+| [BRSP](facts/BRSP/README.md) | BrightSpire Capital, Inc. | available; quality gates apply | unresolved |
+| [BRTM](facts/BRTM/README.md) | B&R Technology Merger Corp. | available; quality gates apply | unresolved |
+| [BRX](facts/BRX/README.md) | Brixmor Property Group Inc. | available; quality gates apply | unresolved |
+| [BSL](facts/BSL/README.md) | Blackstone Senior Floating Rate 2027 Term Fund | missing | unresolved |
+| [BSP](facts/BSP/README.md) | Bending Spoons S.p.A. | missing | unresolved |
+| [BST](facts/BST/README.md) | BlackRock Science & Technology Trust | missing | unresolved |
+| [BSTZ](facts/BSTZ/README.md) | BlackRock Science & Technology Term Trust | missing | unresolved |
+| [BTO](facts/BTO/README.md) | JOHN HANCOCK FINANCIAL OPPORTUNITIES FUND | missing | unresolved |
+| [BTQ](facts/BTQ/README.md) | BTQ Technologies Corp. | missing | unresolved |
+| [BTT](facts/BTT/README.md) | BlackRock Municipal 2030 Target Term Trust | missing | unresolved |
+| [BTX](facts/BTX/README.md) | BlackRock Technology & Private Equity Term Trust | missing | unresolved |
+| [BTZ](facts/BTZ/README.md) | BLACKROCK CREDIT ALLOCATION INCOME TRUST | missing | unresolved |
+| [BURU](facts/BURU/README.md) | Nuburu, Inc. | available; quality gates apply | unresolved |
+| [BWG](facts/BWG/README.md) | BrandywineGLOBAL-Global Income Opportunities Fund Inc | missing | unresolved |
+| [BWIV](facts/BWIV/README.md) | Blue Water Acquisition Corp. IV | available; quality gates apply | unresolved |
+| [BXMT](facts/BXMT/README.md) | BLACKSTONE MORTGAGE TRUST, INC. | available; quality gates apply | unresolved |
+| [BXP](facts/BXP/README.md) | BXP, Inc. | missing | unresolved |
+| [BXSL](facts/BXSL/README.md) | Blackstone Secured Lending Fund | available; quality gates apply | unresolved |
+| [BYRN](facts/BYRN/README.md) | Byrna Technologies Inc. | available; quality gates apply | unresolved |
+| [BZ](facts/BZ/README.md) | Kanzhun Ltd | missing | unresolved |
+| [CAE](facts/CAE/README.md) | CAE INC | missing | unresolved |
+| [CAES](facts/CAES/README.md) | Cantor Equity Partners VII, Inc. | available; quality gates apply | unresolved |
+| [CAF](facts/CAF/README.md) | Morgan Stanley China A Share Fund, Inc. | missing | unresolved |
+| [CAII](facts/CAII/README.md) | Collective Acquisition Corp. II | available; quality gates apply | unresolved |
+| [CAMT](facts/CAMT/README.md) | CAMTEK LTD | missing | unresolved |
+| [CAPN](facts/CAPN/README.md) | Cayson Acquisition Corp | available; quality gates apply | unresolved |
+| [CAQ](facts/CAQ/README.md) | Cambridge Acquisition Corp. | available; quality gates apply | unresolved |
+| [CATL](facts/CATL/README.md) | Catalyst Acquisition Corp. | available; quality gates apply | unresolved |
+| [CBAT](facts/CBAT/README.md) | CBAK Energy Technology Ltd | missing | unresolved |
+| [CBC](facts/CBC/README.md) | Central Bancompany, Inc. | available; quality gates apply | unresolved |
+| [CBL](facts/CBL/README.md) | CBL & ASSOCIATES PROPERTIES INC | available; quality gates apply | unresolved |
+| [CCAP](facts/CCAP/README.md) | Crescent Capital BDC, Inc. | available; quality gates apply | unresolved |
+| [CCAQ](facts/CCAQ/README.md) | COLLECTIVE ACQUISITION CORP. | available; quality gates apply | unresolved |
+| [CCCT](facts/CCCT/README.md) | Columbus Circle Capital Corp III | available; quality gates apply | unresolved |
+| [CCI](facts/CCI/README.md) | CROWN CASTLE INC. | available; quality gates apply | unresolved |
+| [CCIF](facts/CCIF/README.md) | Carlyle Credit Income Fund | missing | unresolved |
+| [CCII](facts/CCII/README.md) | Cohen Circle Acquisition Corp. II | available; quality gates apply | unresolved |
+| [CDLX](facts/CDLX/README.md) | Cardlytics, Inc. | available; quality gates apply | unresolved |
+| [CDP](facts/CDP/README.md) | COPT DEFENSE PROPERTIES | available; quality gates apply | unresolved |
+| [CEE](facts/CEE/README.md) | CENTRAL & EASTERN EUROPE FUND, INC. | missing | unresolved |
+| [CENT, CENTA](facts/CENT/README.md) | CENTRAL GARDEN & PET CO | available; quality gates apply | unresolved |
+| [CEPF](facts/CEPF/README.md) | Cantor Equity Partners IV, Inc. | available; quality gates apply | unresolved |
+| [CEPO](facts/CEPO/README.md) | Cantor Equity Partners I, Inc. | available; quality gates apply | unresolved |
+| [CEPS](facts/CEPS/README.md) | Cantor Equity Partners VI, Inc. | available; quality gates apply | unresolved |
+| [CEPV](facts/CEPV/README.md) | Cantor Equity Partners V, Inc. | available; quality gates apply | unresolved |
+| [CET](facts/CET/README.md) | CENTRAL SECURITIES CORP | missing | unresolved |
+| [CEV](facts/CEV/README.md) | Eaton Vance California Municipal Income Trust | missing | unresolved |
+| [CEVA](facts/CEVA/README.md) | CEVA INC | available; quality gates apply | unresolved |
+| [CFND](facts/CFND/README.md) | C1 Fund Inc. | missing | unresolved |
+| [CGCF](facts/CGCF/README.md) | Cartesian Growth Corp IV | available; quality gates apply | unresolved |
+| [CHAR](facts/CHAR/README.md) | Charlton Aria Acquisition Corp | available; quality gates apply | unresolved |
+| [CHCT](facts/CHCT/README.md) | Community Healthcare Trust Inc | available; quality gates apply | unresolved |
+| [CHEC](facts/CHEC/README.md) | Chenghe Acquisition III Co. | available; quality gates apply | unresolved |
+| [CHMI](facts/CHMI/README.md) | Cherry Hill Mortgage Investment Corp | missing | unresolved |
+| [CHPG](facts/CHPG/README.md) | ChampionsGate Acquisition Corp | available; quality gates apply | unresolved |
+| [CHPT](facts/CHPT/README.md) | ChargePoint Holdings, Inc. | available; quality gates apply | unresolved |
+| [CII](facts/CII/README.md) | BlackRock Enhanced Large Cap Core Fund, Inc. | missing | unresolved |
+| [CIK](facts/CIK/README.md) | UBS ASSET MANAGEMENT INCOME FUND, INC. | missing | unresolved |
+| [CIM](facts/CIM/README.md) | CHIMERA INVESTMENT CORP | available; quality gates apply | unresolved |
+| [CION](facts/CION/README.md) | CION Investment Corp | available; quality gates apply | unresolved |
+| [CLBR](facts/CLBR/README.md) | Colombier Acquisition Corp. III | available; quality gates apply | unresolved |
+| [CLDT](facts/CLDT/README.md) | Chatham Lodging Trust | available; quality gates apply | unresolved |
+| [CLM](facts/CLM/README.md) | Cornerstone Strategic Investment Fund, Inc. | missing | unresolved |
+| [CLPR](facts/CLPR/README.md) | Clipper Realty Inc. | available; quality gates apply | unresolved |
+| [CNET](facts/CNET/README.md) | ZW Data Action Technologies Inc. | available; quality gates apply | unresolved |
+| [COHR](facts/COHR/README.md) | COHERENT CORP. | available; quality gates apply | unresolved |
+| [COLD](facts/COLD/README.md) | AMERICOLD REALTY TRUST | available; quality gates apply | unresolved |
+| [COPL](facts/COPL/README.md) | Copley Acquisition Corp | available; quality gates apply | unresolved |
+| [CPT](facts/CPT/README.md) | CAMDEN PROPERTY TRUST | available; quality gates apply | unresolved |
+| [CRAC](facts/CRAC/README.md) | Crown Reserve Acquisition Corp. I | available; quality gates apply | unresolved |
+| [CRAI](facts/CRAI/README.md) | CRA INTERNATIONAL, INC. | available; quality gates apply | unresolved |
+| [CRAN](facts/CRAN/README.md) | Crane Harbor Acquisition Corp. II | available; quality gates apply | unresolved |
+| [CRAQ](facts/CRAQ/README.md) | Cal Redwood Acquisition Corp. | available; quality gates apply | unresolved |
+| [CRF](facts/CRF/README.md) | CORNERSTONE TOTAL RETURN FUND INC | missing | unresolved |
+| [CRL](facts/CRL/README.md) | CHARLES RIVER LABORATORIES INTERNATIONAL, INC. | available; quality gates apply | unresolved |
+| [CSAI](facts/CSAI/README.md) | CLOUDASTRUCTURE, INC. | available; quality gates apply | unresolved |
+| [CSQR](facts/CSQR/README.md) | Csquare, Inc. | available; quality gates apply | unresolved |
+| [CSWC](facts/CSWC/README.md) | CAPITAL SOUTHWEST CORP | available; quality gates apply | unresolved |
+| [CTAA](facts/CTAA/README.md) | Clearthink 1 Acquisition Corp. | available; quality gates apply | unresolved |
+| [CTKB](facts/CTKB/README.md) | Cytek Biosciences, Inc. | available; quality gates apply | unresolved |
+| [CTO](facts/CTO/README.md) | CTO Realty Growth, Inc. | missing | unresolved |
+| [CTRE](facts/CTRE/README.md) | CareTrust REIT, Inc. | available; quality gates apply | unresolved |
+| [CUB](facts/CUB/README.md) | Lionheart Holdings | available; quality gates apply | unresolved |
+| [CUBE](facts/CUBE/README.md) | CubeSmart | missing | unresolved |
+| [CUVL](facts/CUVL/README.md) | Clinuvel Pharmaceuticals Ltd | missing | unresolved |
+| [CUZ](facts/CUZ/README.md) | COUSINS PROPERTIES INC | available; quality gates apply | unresolved |
+| [CXII](facts/CXII/README.md) | Churchill Capital Corp XII | available; quality gates apply | unresolved |
+| [CXW](facts/CXW/README.md) | CoreCivic, Inc. | available; quality gates apply | unresolved |
+| [DBCA](facts/DBCA/README.md) | D. Boral Acquisition I Corp. | available; quality gates apply | unresolved |
+| [DBD](facts/DBD/README.md) | DIEBOLD NIXDORF, Inc | available; quality gates apply | unresolved |
+| [DBL](facts/DBL/README.md) | DoubleLine Opportunistic Credit Fund | missing | unresolved |
+| [DEA](facts/DEA/README.md) | Easterly Government Properties, Inc. | available; quality gates apply | unresolved |
+| [DEI](facts/DEI/README.md) | Douglas Emmett Inc | available; quality gates apply | unresolved |
+| [DFIN](facts/DFIN/README.md) | Donnelley Financial Solutions, Inc. | available; quality gates apply | unresolved |
+| [DFLI](facts/DFLI/README.md) | Dragonfly Energy Holdings Corp. | available; quality gates apply | unresolved |
+| [DFP](facts/DFP/README.md) | Flaherty & Crumrine Dynamic Preferred & Income Fund Inc | missing | unresolved |
+| [DGAC](facts/DGAC/README.md) | DISCIPLINED GROWTH ACQUISITION Corp | available; quality gates apply | unresolved |
+| [DHC](facts/DHC/README.md) | DIVERSIFIED HEALTHCARE TRUST | available; quality gates apply | unresolved |
+| [DHF](facts/DHF/README.md) | BNY MELLON HIGH YIELD STRATEGIES FUND | missing | unresolved |
+| [DHY](facts/DHY/README.md) | UBS ASSET MANAGEMENT HIGH YIELD CREDIT FUND | missing | unresolved |
+| [DJT](facts/DJT/README.md) | Trump Media & Technology Group Corp. | available; quality gates apply | unresolved |
+| [DLB](facts/DLB/README.md) | Dolby Laboratories, Inc. | available; quality gates apply | unresolved |
+| [DLR](facts/DLR/README.md) | DIGITAL REALTY TRUST, INC. | missing | unresolved |
+| [DLY](facts/DLY/README.md) | DoubleLine Yield Opportunities Fund | missing | unresolved |
+| [DMA](facts/DMA/README.md) | Destra Multi-Alternative Fund | missing | unresolved |
+| [DMAA](facts/DMAA/README.md) | Drugs Made In America Acquisition Corp. | available; quality gates apply | unresolved |
+| [DMB](facts/DMB/README.md) | BNY Mellon Municipal Bond Infrastructure Fund, Inc. | missing | unresolved |
+| [DMII](facts/DMII/README.md) | Drugs Made In America Acquisition II Corp. | available; quality gates apply | unresolved |
+| [DMO](facts/DMO/README.md) | Western Asset Mortgage Opportunity Fund Inc. | missing | unresolved |
+| [DNMX](facts/DNMX/README.md) | Dynamix Corp III | available; quality gates apply | unresolved |
+| [DNP](facts/DNP/README.md) | DNP SELECT INCOME FUND INC | missing | unresolved |
+| [DOC](facts/DOC/README.md) | HEALTHPEAK PROPERTIES, INC. | available; quality gates apply | unresolved |
+| [DOCN](facts/DOCN/README.md) | DigitalOcean Holdings, Inc. | available; quality gates apply | unresolved |
+| [DOYU](facts/DOYU/README.md) | DouYu International Holdings Ltd | missing | unresolved |
+| [DPG](facts/DPG/README.md) | Duff & Phelps Utility & Infrastructure Fund Inc. | missing | unresolved |
+| [DRDB](facts/DRDB/README.md) | Roman DBDR Acquisition Corp. II | available; quality gates apply | unresolved |
+| [DRH](facts/DRH/README.md) | DiamondRock Hospitality Co | available; quality gates apply | unresolved |
+| [DSAC](facts/DSAC/README.md) | Daedalus Special Acquisition Corp. | available; quality gates apply | unresolved |
+| [DSC](facts/DSC/README.md) | DSC Holdings Ltd. | missing | unresolved |
+| [DSL](facts/DSL/README.md) | DoubleLine Income Solutions Fund | missing | unresolved |
+| [DSM](facts/DSM/README.md) | BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC. | missing | unresolved |
+| [DSP](facts/DSP/README.md) | Viant Technology Inc. | available; quality gates apply | unresolved |
+| [DSU](facts/DSU/README.md) | BLACKROCK DEBT STRATEGIES FUND, INC. | missing | unresolved |
+| [DTF](facts/DTF/README.md) | DTF TAX-FREE INCOME 2028 TERM FUND INC | missing | unresolved |
+| [DTSQ](facts/DTSQ/README.md) | DT Cloud Star Acquisition Corp | available; quality gates apply | unresolved |
+| [DV](facts/DV/README.md) | DoubleVerify Holdings, Inc. | available; quality gates apply | unresolved |
+| [DX](facts/DX/README.md) | DYNEX CAPITAL INC | available; quality gates apply | unresolved |
+| [DXYZ](facts/DXYZ/README.md) | Destiny Tech100 Inc. | missing | unresolved |
+| [DYNC](facts/DYNC/README.md) | Dynamix Corp | available; quality gates apply | unresolved |
+| [DYOR](facts/DYOR/README.md) | Insight Digital Partners II | available; quality gates apply | unresolved |
+| [EAD](facts/EAD/README.md) | ALLSPRING INCOME OPPORTUNITIES FUND | missing | unresolved |
+| [EARN](facts/EARN/README.md) | Ellington Credit Co | missing | unresolved |
+| [ECAT](facts/ECAT/README.md) | BlackRock ESG Capital Allocation Term Trust | missing | unresolved |
+| [ECC](facts/ECC/README.md) | Eagle Point Credit Co | missing | unresolved |
+| [ECF](facts/ECF/README.md) | ELLSWORTH GROWTH & INCOME FUND LTD | missing | unresolved |
+| [EDD](facts/EDD/README.md) | Morgan Stanley Emerging Markets Domestic Debt Fund, Inc. | missing | unresolved |
+| [EDF](facts/EDF/README.md) | Virtus Stone Harbor Emerging Markets Income Fund | missing | unresolved |
+| [EDHL](facts/EDHL/README.md) | Everbright Digital Holding Ltd. | missing | unresolved |
+| [EDUC](facts/EDUC/README.md) | EDUCATIONAL DEVELOPMENT CORP | available; quality gates apply | unresolved |
+| [EFT](facts/EFT/README.md) | Eaton Vance Floating-Rate Income Trust | missing | unresolved |
+| [EFX](facts/EFX/README.md) | EQUIFAX INC | available; quality gates apply | unresolved |
+| [EGHA](facts/EGHA/README.md) | EGH Acquisition Corp. | available; quality gates apply | unresolved |
+| [EGP](facts/EGP/README.md) | EASTGROUP PROPERTIES INC | available; quality gates apply | unresolved |
+| [EHI](facts/EHI/README.md) | WESTERN ASSET GLOBAL HIGH INCOME FUND INC. | missing | unresolved |
+| [EIC](facts/EIC/README.md) | Eagle Point Income Co | missing | unresolved |
+| [EIM](facts/EIM/README.md) | Eaton Vance Municipal Bond Fund | missing | unresolved |
+| [ELME](facts/ELME/README.md) | Elme Communities | missing | unresolved |
+| [ELPW](facts/ELPW/README.md) | Elong Power Holding Ltd. | missing | unresolved |
+| [ELS](facts/ELS/README.md) | EQUITY LIFESTYLE PROPERTIES INC | missing | unresolved |
+| [ELVA](facts/ELVA/README.md) | Electrovaya Inc. | missing | unresolved |
+| [EMAT](facts/EMAT/README.md) | Evolution Metals & Technologies Corp. | available; quality gates apply | unresolved |
+| [EMD](facts/EMD/README.md) | WESTERN ASSET EMERGING MARKETS DEBT FUND INC. | missing | unresolved |
+| [EMF](facts/EMF/README.md) | TEMPLETON EMERGING MARKETS FUND | missing | unresolved |
+| [EMIS](facts/EMIS/README.md) | Emmis Acquisition Corp. | available; quality gates apply | unresolved |
+| [EMO](facts/EMO/README.md) | ClearBridge Energy Midstream Opportunity Fund Inc. | missing | unresolved |
+| [EMR](facts/EMR/README.md) | EMERSON ELECTRIC CO | available; quality gates apply | unresolved |
+| [ENR](facts/ENR/README.md) | ENERGIZER HOLDINGS, INC. | available; quality gates apply | unresolved |
+| [ENS](facts/ENS/README.md) | EnerSys | available; quality gates apply | unresolved |
+| [ENVX](facts/ENVX/README.md) | Enovix Corp | available; quality gates apply | unresolved |
+| [EOD](facts/EOD/README.md) | ALLSPRING GLOBAL DIVIDEND OPPORTUNITY FUND | missing | unresolved |
+| [EOSE](facts/EOSE/README.md) | Eos Energy Enterprises, Inc. | available; quality gates apply | unresolved |
+| [EPOW](facts/EPOW/README.md) | E-Power Inc. | missing | unresolved |
+| [EPR](facts/EPR/README.md) | EPR PROPERTIES | available; quality gates apply | unresolved |
+| [EPRT](facts/EPRT/README.md) | ESSENTIAL PROPERTIES REALTY TRUST, INC. | available; quality gates apply | unresolved |
+| [EQIX](facts/EQIX/README.md) | EQUINIX INC | available; quality gates apply | unresolved |
+| [EQS](facts/EQS/README.md) | EQUUS TOTAL RETURN, INC. | missing | unresolved |
+| [ERC](facts/ERC/README.md) | ALLSPRING MULTI-SECTOR INCOME FUND | missing | unresolved |
+| [ERH](facts/ERH/README.md) | ALLSPRING UTILITIES & HIGH INCOME FUND | missing | unresolved |
+| [ESBA, FISK, OGCP](facts/ESBA/README.md) | Empire State Realty OP, L.P. | available; quality gates apply | unresolved |
+| [ESRT](facts/ESRT/README.md) | Empire State Realty Trust, Inc. | available; quality gates apply | unresolved |
+| [ESS](facts/ESS/README.md) | ESSEX PROPERTY TRUST, INC. | available; quality gates apply | unresolved |
+| [ETG](facts/ETG/README.md) | Eaton Vance Tax-Advantaged Global Dividend Income Fund | missing | unresolved |
+| [ETJ](facts/ETJ/README.md) | Eaton Vance Risk-Managed Diversified Equity Income Fund | missing | unresolved |
+| [ETSS](facts/ETSS/README.md) | Energy Transition Special Opportunities | available; quality gates apply | unresolved |
+| [ETX](facts/ETX/README.md) | Eaton Vance Municipal Income 2028 Term Trust | missing | unresolved |
+| [ETY](facts/ETY/README.md) | Eaton Vance Tax-Managed Diversified Equity Income Fund | missing | unresolved |
+| [EVAC](facts/EVAC/README.md) | EQV Ventures Acquisition Corp. II | available; quality gates apply | unresolved |
+| [EVER](facts/EVER/README.md) | EverQuote, Inc. | available; quality gates apply | unresolved |
+| [EVF](facts/EVF/README.md) | Eaton Vance Senior Income Trust | missing | unresolved |
+| [EVN](facts/EVN/README.md) | Eaton Vance Municipal Income Trust | missing | unresolved |
+| [EVOX](facts/EVOX/README.md) | Evolution Global Acquisition Corp | available; quality gates apply | unresolved |
+| [EVT](facts/EVT/README.md) | Eaton Vance Tax-Advantaged Dividend Income Fund | missing | unresolved |
+| [EVV](facts/EVV/README.md) | Eaton Vance Ltd Duration Income Fund | missing | unresolved |
+| [EWAV](facts/EWAV/README.md) | East West Ave Acquisition Corp. | available; quality gates apply | unresolved |
+| [EXG](facts/EXG/README.md) | Eaton Vance Tax-Managed Global Diversified Equity Income Fund | missing | unresolved |
+| [EXR](facts/EXR/README.md) | Extra Space Storage Inc. | available; quality gates apply | unresolved |
+| [EYPT](facts/EYPT/README.md) | EyePoint, Inc. | available; quality gates apply | unresolved |
+| [FAC](facts/FAC/README.md) | Factorial Energy Inc. | available; quality gates apply | unresolved |
+| [FAX](facts/FAX/README.md) | ABRDN ASIA-PACIFIC INCOME FUND, INC. | missing | unresolved |
+| [FBRT](facts/FBRT/README.md) | Franklin BSP Realty Trust, Inc. | available; quality gates apply | unresolved |
+| [FCPT](facts/FCPT/README.md) | Four Corners Property Trust, Inc. | available; quality gates apply | unresolved |
+| [FCRS](facts/FCRS/README.md) | FutureCrest Acquisition Corp. | available; quality gates apply | unresolved |
+| [FDMM](facts/FDMM/README.md) | Freedom Metals Acquisition Corp. | available; quality gates apply | unresolved |
+| [FDS](facts/FDS/README.md) | FACTSET RESEARCH SYSTEMS INC | available; quality gates apply | unresolved |
+| [FERA](facts/FERA/README.md) | Fifth Era Acquisition Corp I | available; quality gates apply | unresolved |
+| [FFA](facts/FFA/README.md) | FIRST TRUST ENHANCED EQUITY INCOME FUND | missing | unresolved |
+| [FFC](facts/FFC/README.md) | Flaherty & Crumrine PREFERRED & INCOME SECURITIES FUND INC | missing | unresolved |
+| [FGII](facts/FGII/README.md) | FG Imperii Acquisition Corp. | available; quality gates apply | unresolved |
+| [FIGX](facts/FIGX/README.md) | FIGX Capital Acquisition Corp. | available; quality gates apply | unresolved |
+| [FINS](facts/FINS/README.md) | Angel Oak Financial Strategies Income Term Trust | missing | unresolved |
+| [FJDI](facts/FJDI/README.md) | ARC Group Securities Acquisition I | available; quality gates apply | unresolved |
+| [FLC](facts/FLC/README.md) | FLAHERTY & CRUMRINE TOTAL RETURN FUND INC | missing | unresolved |
+| [FLNC](facts/FLNC/README.md) | Fluence Energy, Inc. | available; quality gates apply | unresolved |
+| [FLNT](facts/FLNT/README.md) | Fluent, Inc. | available; quality gates apply | unresolved |
+| [FLSC](facts/FLSC/README.md) | Frazier Life Sciences Acquisition Corp. II | missing | unresolved |
+| [FLUT](facts/FLUT/README.md) | Flutter Entertainment plc | available; quality gates apply | unresolved |
+| [FLUX](facts/FLUX/README.md) | Flux Power Holdings, Inc. | available; quality gates apply | unresolved |
+| [FMAC](facts/FMAC/README.md) | Future Money Acquisition Corp | available; quality gates apply | unresolved |
+| [FMN](facts/FMN/README.md) | Federated Hermes Premier Municipal Income Fund | missing | unresolved |
+| [FMY](facts/FMY/README.md) | FIRST TRUST MORTGAGE INCOME FUND | missing | unresolved |
+| [FOF](facts/FOF/README.md) | Cohen & Steers Closed-End Opportunity Fund, Inc. | missing | unresolved |
+| [FPF](facts/FPF/README.md) | First Trust Intermediate Duration Preferred & Income Fund | missing | unresolved |
+| [FPI](facts/FPI/README.md) | Farmland Partners Inc. | available; quality gates apply | unresolved |
+| [FR](facts/FR/README.md) | FIRST INDUSTRIAL REALTY TRUST INC | available; quality gates apply | unresolved |
+| [FRA](facts/FRA/README.md) | BLACKROCK FLOATING RATE INCOME STRATEGIES FUND, INC. | missing | unresolved |
+| [FRMI](facts/FRMI/README.md) | Fermi Inc. | available; quality gates apply | unresolved |
+| [FRT, FRT$C](facts/FRT/README.md) | FEDERAL REALTY INVESTMENT TRUST | missing | unresolved |
+| [FSCO](facts/FSCO/README.md) | FS Credit Opportunities Corp. | missing | unresolved |
+| [FSHP](facts/FSHP/README.md) | Flag Ship Acquisition Corp | available; quality gates apply | unresolved |
+| [FSK](facts/FSK/README.md) | FS KKR Capital Corp | available; quality gates apply | unresolved |
+| [FSP](facts/FSP/README.md) | FRANKLIN STREET PROPERTIES CORP /MA/ | missing | unresolved |
+| [FSSL](facts/FSSL/README.md) | FS Specialty Lending Fund | missing | unresolved |
+| [FT](facts/FT/README.md) | FRANKLIN UNIVERSAL TRUST | missing | unresolved |
+| [FTF](facts/FTF/README.md) | FRANKLIN LTD DURATION INCOME TRUST | missing | unresolved |
+| [FTHA](facts/FTHA/README.md) | Forefront Tech Holdings Acquisition Corp | available; quality gates apply | unresolved |
+| [FTHY](facts/FTHY/README.md) | FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND | missing | unresolved |
+| [FTRA](facts/FTRA/README.md) | FutureCorp Space Acquisition 1 | available; quality gates apply | unresolved |
+| [FVAV](facts/FVAV/README.md) | Fortress Value Acquisition Corp. V | available; quality gates apply | unresolved |
+| [FVR](facts/FVR/README.md) | FrontView REIT, Inc. | available; quality gates apply | unresolved |
+| [FWAC](facts/FWAC/README.md) | Futurewave Acquisition Corp | available; quality gates apply | unresolved |
+| [FXAC](facts/FXAC/README.md) | FortuneX Acquisition Corp | available; quality gates apply | unresolved |
+| [FXHO](facts/FXHO/README.md) | UTime Ltd | missing | unresolved |
+| [GAB, GAB$G](facts/GAB/README.md) | GABELLI EQUITY TRUST INC | missing | unresolved |
+| [GAM](facts/GAM/README.md) | GENERAL AMERICAN INVESTORS CO INC | missing | unresolved |
+| [GAUZ](facts/GAUZ/README.md) | Gauzy Ltd. | missing | unresolved |
+| [GBAB](facts/GBAB/README.md) | Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust | missing | unresolved |
+| [GCGR](facts/GCGR/README.md) | General Catalyst Global Resilience Merger Corp. | available; quality gates apply | unresolved |
+| [GCV](facts/GCV/README.md) | GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC | missing | unresolved |
+| [GDL](facts/GDL/README.md) | GDL FUND | missing | unresolved |
+| [GDO](facts/GDO/README.md) | WESTERN ASSET GLOBAL CORPORATE OPPORTUNITY FUND INC. | missing | unresolved |
+| [GDS](facts/GDS/README.md) | GDS Holdings Ltd | missing | unresolved |
+| [GDV](facts/GDV/README.md) | GABELLI DIVIDEND & INCOME TRUST | missing | unresolved |
+| [GEOS](facts/GEOS/README.md) | GEOSPACE TECHNOLOGIES CORP | available; quality gates apply | unresolved |
+| [GEV](facts/GEV/README.md) | GE Vernova Inc. | available; quality gates apply | unresolved |
+| [GF](facts/GF/README.md) | NEW GERMANY FUND INC | missing | unresolved |
+| [GGN](facts/GGN/README.md) | GAMCO Global Gold, Natural Resources & Income Trust | missing | unresolved |
+| [GGT](facts/GGT/README.md) | GABELLI MULTIMEDIA TRUST INC. | missing | unresolved |
+| [GGZ](facts/GGZ/README.md) | Gabelli Global Small & Mid Cap Value Trust | missing | unresolved |
+| [GHXI](facts/GHXI/README.md) | Gores Holdings XI, Inc. | available; quality gates apply | unresolved |
+| [GHY](facts/GHY/README.md) | PGIM Global High Yield Fund, Inc. | missing | unresolved |
+| [GIGM](facts/GIGM/README.md) | GIGAMEDIA Ltd | missing | unresolved |
+| [GIPR](facts/GIPR/README.md) | GENERATION INCOME PROPERTIES, INC. | available; quality gates apply | unresolved |
+| [GITS](facts/GITS/README.md) | Global Interactive Technologies, Inc. | available; quality gates apply | unresolved |
+| [GIW](facts/GIW/README.md) | GigCapital8 Corp. | available; quality gates apply | unresolved |
+| [GIX](facts/GIX/README.md) | GigCapital9 Corp. | available; quality gates apply | unresolved |
+| [GLED](facts/GLED/README.md) | GalaxyEdge Acquisition Corp | available; quality gates apply | unresolved |
+| [GLO](facts/GLO/README.md) | Clough Global Opportunities Fund | missing | unresolved |
+| [GLPI](facts/GLPI/README.md) | Gaming & Leisure Properties, Inc. | available; quality gates apply | unresolved |
+| [GLU$A, GLU$B](facts/GLU_24A/README.md) | GABELLI GLOBAL UTILITY & INCOME TRUST | missing | unresolved |
+| [GLV](facts/GLV/README.md) | Clough Global Dividend & Income Fund | missing | unresolved |
+| [GMM](facts/GMM/README.md) | Global Mofy AI Ltd | missing | unresolved |
+| [GNL](facts/GNL/README.md) | Global Net Lease, Inc. | available; quality gates apply | unresolved |
+| [GNT](facts/GNT/README.md) | GAMCO Natural Resources, Gold & Income Trust | missing | unresolved |
+| [GOAI](facts/GOAI/README.md) | Eva Live Inc | available; quality gates apply | unresolved |
+| [GOF](facts/GOF/README.md) | GUGGENHEIM STRATEGIC OPPORTUNITIES FUND | missing | unresolved |
+| [GOLD](facts/GOLD/README.md) | Gold.com, Inc. | available; quality gates apply | unresolved |
+| [GOOG, GOOGL, GOOGM, GOOGN](facts/GOOG/README.md) | Alphabet Inc. | available; quality gates apply | unresolved |
+| [GPAC](facts/GPAC/README.md) | General Purpose Acquisition Corp. | available; quality gates apply | unresolved |
+| [GPAT](facts/GPAT/README.md) | GP-Act III Acquisition Corp. | available; quality gates apply | unresolved |
+| [GPMT](facts/GPMT/README.md) | Granite Point Mortgage Trust Inc. | available; quality gates apply | unresolved |
+| [GPRO](facts/GPRO/README.md) | GoPro, Inc. | available; quality gates apply | unresolved |
+| [GRF](facts/GRF/README.md) | EAGLE CAPITAL GROWTH FUND, INC. | missing | unresolved |
+| [GRND](facts/GRND/README.md) | Grindr Inc. | available; quality gates apply | unresolved |
+| [GSBD](facts/GSBD/README.md) | Goldman Sachs BDC, Inc. | available; quality gates apply | unresolved |
+| [GSHR](facts/GSHR/README.md) | Gesher Acquisition Corp. II | available; quality gates apply | unresolved |
+| [GSRF](facts/GSRF/README.md) | GSR IV Acquisition Corp. | available; quality gates apply | unresolved |
+| [GSRV](facts/GSRV/README.md) | GSR V Acquisition Corp. | available; quality gates apply | unresolved |
+| [GTERA](facts/GTERA/README.md) | Globa Terra Acquisition Corp | available; quality gates apply | unresolved |
+| [GUAC](facts/GUAC/README.md) | Berto Acquisition Corp. II | available; quality gates apply | unresolved |
+| [GUG](facts/GUG/README.md) | Guggenheim Active Allocation Fund | missing | unresolved |
+| [GUT](facts/GUT/README.md) | GABELLI UTILITY TRUST | missing | unresolved |
+| [HACQ](facts/HACQ/README.md) | HCM IV Acquisition Corp. | available; quality gates apply | unresolved |
+| [HASI](facts/HASI/README.md) | HA Sustainable Infrastructure Capital, Inc. | available; quality gates apply | unresolved |
+| [HAVA](facts/HAVA/README.md) | Harvard Ave Acquisition Corp | available; quality gates apply | unresolved |
+| [HBIO](facts/HBIO/README.md) | HARVARD BIOSCIENCE INC | available; quality gates apply | unresolved |
+| [HCAT](facts/HCAT/README.md) | Health Catalyst, Inc. | available; quality gates apply | unresolved |
+| [HCIC](facts/HCIC/README.md) | Hennessy Capital Investment Corp. VIII | available; quality gates apply | unresolved |
+| [HCMA](facts/HCMA/README.md) | HCM III ACQUISITION CORP. | available; quality gates apply | unresolved |
+| [HEQ](facts/HEQ/README.md) | John Hancock Diversified Income Fund | missing | unresolved |
+| [HFRO](facts/HFRO/README.md) | HIGHLAND OPPORTUNITIES & INCOME FUND | missing | unresolved |
+| [HGLB](facts/HGLB/README.md) | HIGHLAND GLOBAL ALLOCATION FUND | missing | unresolved |
+| [HGV](facts/HGV/README.md) | Hilton Grand Vacations Inc. | available; quality gates apply | unresolved |
+| [HHH](facts/HHH/README.md) | Howard Hughes Holdings Inc. | available; quality gates apply | unresolved |
+| [HHS](facts/HHS/README.md) | HARTE HANKS INC | available; quality gates apply | unresolved |
+| [HIO](facts/HIO/README.md) | WESTERN ASSET HIGH INCOME OPPORTUNITY FUND INC. | missing | unresolved |
+| [HIW](facts/HIW/README.md) | HIGHWOODS PROPERTIES, INC. | missing | unresolved |
+| [HIX](facts/HIX/README.md) | WESTERN ASSET HIGH INCOME FUND II INC. | missing | unresolved |
+| [HLXC](facts/HLXC/README.md) | Helix Acquisition Corp. III | available; quality gates apply | unresolved |
+| [HOLO](facts/HOLO/README.md) | MicroCloud Hologram Inc. | available; quality gates apply | unresolved |
+| [HPI](facts/HPI/README.md) | JOHN HANCOCK PREFERRED INCOME FUND | missing | unresolved |
+| [HPS](facts/HPS/README.md) | JOHN HANCOCK PREFERRED INCOME FUND III | missing | unresolved |
+| [HQH](facts/HQH/README.md) | abrdn Healthcare Investors | missing | unresolved |
+| [HQL](facts/HQL/README.md) | abrdn Life Sciences Investors | missing | unresolved |
+| [HR](facts/HR/README.md) | Healthcare Realty Trust Inc | available; quality gates apply | unresolved |
+| [HRZN](facts/HRZN/README.md) | Horizon Technology Finance Corp | available; quality gates apply | unresolved |
+| [HST](facts/HST/README.md) | HOST HOTELS & RESORTS, INC. | available; quality gates apply | unresolved |
+| [HSTM](facts/HSTM/README.md) | HEALTHSTREAM INC | available; quality gates apply | unresolved |
+| [HTD](facts/HTD/README.md) | JOHN HANCOCK TAX-ADVANTAGED DIVIDEND INCOME FUND | missing | unresolved |
+| [HTGC](facts/HTGC/README.md) | Hercules Capital, Inc. | available; quality gates apply | unresolved |
+| [HUYA](facts/HUYA/README.md) | HUYA Inc. | missing | unresolved |
+| [HVMC](facts/HVMC/README.md) | Highview Merger Corp. | available; quality gates apply | unresolved |
+| [HYFM](facts/HYFM/README.md) | HYDROFARM HOLDINGS GROUP, INC. | available; quality gates apply | unresolved |
+| [HYI](facts/HYI/README.md) | Western Asset High Yield Opportunity Fund Inc. | missing | unresolved |
+| [HYT](facts/HYT/README.md) | BLACKROCK CORPORATE HIGH YIELD FUND, INC. | missing | unresolved |
+| [IACO](facts/IACO/README.md) | Idea Acquisition Corp. | available; quality gates apply | unresolved |
+| [IACQ](facts/IACQ/README.md) | Irenic Acquisition Corp. | available; quality gates apply | unresolved |
+| [IAF](facts/IAF/README.md) | ABRDN AUSTRALIA EQUITY FUND, INC. | missing | unresolved |
+| [IBAC](facts/IBAC/README.md) | IB Acquisition Corp. | available; quality gates apply | unresolved |
+| [IBTA](facts/IBTA/README.md) | Ibotta, Inc. | available; quality gates apply | unresolved |
+| [ICLR](facts/ICLR/README.md) | ICON PLC | missing | unresolved |
+| [ICMB](facts/ICMB/README.md) | Investcorp Credit Management BDC, Inc. | available; quality gates apply | unresolved |
+| [IDAC](facts/IDAC/README.md) | Iron Dome Acquisition I Corp. | available; quality gates apply | unresolved |
+| [IDCC](facts/IDCC/README.md) | InterDigital, Inc. | available; quality gates apply | unresolved |
+| [IDE](facts/IDE/README.md) | Voya Infrastructure, Industrials & Materials Fund | missing | unresolved |
+| [IEAG](facts/IEAG/README.md) | Infinite Eagle Acquisition Corp. | available; quality gates apply | unresolved |
+| [IFN](facts/IFN/README.md) | ABERDEEN INDIA FUND, INC. | missing | unresolved |
+| [IGA](facts/IGA/README.md) | Voya Global Advantage & Premium Opportunity Fund | missing | unresolved |
+| [IGAC](facts/IGAC/README.md) | Invest Green Acquisition Corp | available; quality gates apply | unresolved |
+| [IGD](facts/IGD/README.md) | Voya GLOBAL EQUITY DIVIDEND & PREMIUM OPPORTUNITY FUND | missing | unresolved |
+| [IGI](facts/IGI/README.md) | Western Asset Investment Grade Opportunity Trust Inc. | missing | unresolved |
+| [IGR](facts/IGR/README.md) | CBRE GLOBAL REAL ESTATE INCOME FUND | missing | unresolved |
+| [IHT](facts/IHT/README.md) | INNSUITES HOSPITALITY TRUST | available; quality gates apply | unresolved |
+| [IIF](facts/IIF/README.md) | MORGAN STANLEY INDIA INVESTMENT FUND, INC. | missing | unresolved |
+| [IIM](facts/IIM/README.md) | Invesco Value Municipal Income Trust | missing | unresolved |
+| [ILLU](facts/ILLU/README.md) | Illumination Acquisition Corp. I | available; quality gates apply | unresolved |
+| [ILMN](facts/ILMN/README.md) | ILLUMINA, INC. | available; quality gates apply | unresolved |
+| [ILPT](facts/ILPT/README.md) | Industrial Logistics Properties Trust | available; quality gates apply | unresolved |
+| [IMAX](facts/IMAX/README.md) | IMAX CORP | available; quality gates apply | unresolved |
+| [INAC](facts/INAC/README.md) | Indigo Acquisition Corp. | available; quality gates apply | unresolved |
+| [INCY](facts/INCY/README.md) | INCYTE CORP | missing | unresolved |
+| [INN](facts/INN/README.md) | Summit Hotel Properties, Inc. | available; quality gates apply | unresolved |
+| [INUV](facts/INUV/README.md) | Inuvo, Inc. | available; quality gates apply | unresolved |
+| [INV](facts/INV/README.md) | Innventure, Inc. | available; quality gates apply | unresolved |
+| [IOR](facts/IOR/README.md) | INCOME OPPORTUNITY REALTY INVESTORS INC /TX/ | available; quality gates apply | unresolved |
+| [IPDN](facts/IPDN/README.md) | Professional Diversity Network, Inc. | available; quality gates apply | unresolved |
+| [IPFX](facts/IPFX/README.md) | Inflection Point Acquisition Corp. VI | available; quality gates apply | unresolved |
+| [IPHX](facts/IPHX/README.md) | Inflection Point Acquisition Corp. VIII | missing | unresolved |
+| [IPM](facts/IPM/README.md) | INTELLIGENT PROTECTION MANAGEMENT CORP. | available; quality gates apply | unresolved |
+| [IPVV](facts/IPVV/README.md) | InterPrivate Investment Partners V, Inc. | available; quality gates apply | unresolved |
+| [IQI](facts/IQI/README.md) | Invesco Quality Municipal Income Trust | missing | unresolved |
+| [IQV](facts/IQV/README.md) | IQVIA HOLDINGS INC. | missing | unresolved |
+| [IRAB](facts/IRAB/README.md) | Iris Acquisition Corp II | available; quality gates apply | unresolved |
+| [IRM](facts/IRM/README.md) | IRON MOUNTAIN INC | available; quality gates apply | unresolved |
+| [IRT](facts/IRT/README.md) | INDEPENDENCE REALTY TRUST, INC. | available; quality gates apply | unresolved |
+| [ISD](facts/ISD/README.md) | PGIM High Yield Bond Fund, Inc. | missing | unresolved |
+| [ISNR](facts/ISNR/README.md) | Snow Rothschild Acquisition Corp. | available; quality gates apply | unresolved |
+| [ISPC](facts/ISPC/README.md) | iSpecimen Inc. | available; quality gates apply | unresolved |
+| [ITHA](facts/ITHA/README.md) | ITHAX Acquisition Corp III | available; quality gates apply | unresolved |
+| [IVAI](facts/IVAI/README.md) | Ives Ultra AI Opportunities Inc. | missing | unresolved |
+| [IVR](facts/IVR/README.md) | Invesco Mortgage Capital Inc. | available; quality gates apply | unresolved |
+| [IVT](facts/IVT/README.md) | InvenTrust Properties Corp. | available; quality gates apply | unresolved |
+| [IZEA](facts/IZEA/README.md) | IZEA Worldwide, Inc. | available; quality gates apply | unresolved |
+| [JACS](facts/JACS/README.md) | Jackson Acquisition Co II | available; quality gates apply | unresolved |
+| [JAN](facts/JAN/README.md) | Janus Living, Inc. | available; quality gates apply | unresolved |
+| [JATT](facts/JATT/README.md) | JATT II Acquisition Corp. | available; quality gates apply | unresolved |
+| [JBGS](facts/JBGS/README.md) | JBG SMITH Properties | available; quality gates apply | unresolved |
+| [JCE](facts/JCE/README.md) | Nuveen Core Equity Alpha Fund | missing | unresolved |
+| [JENA](facts/JENA/README.md) | JENA ACQUISITION Corp II | available; quality gates apply | unresolved |
+| [JF](facts/JF/README.md) | J & Friends Holdings Ltd | missing | unresolved |
+| [JFR](facts/JFR/README.md) | NUVEEN FLOATING RATE INCOME FUND | missing | unresolved |
+| [JG](facts/JG/README.md) | Aurora Mobile Ltd | missing | unresolved |
+| [JGH](facts/JGH/README.md) | Nuveen Global High Income Fund | missing | unresolved |
+| [JHI](facts/JHI/README.md) | JOHN HANCOCK INVESTORS TRUST | missing | unresolved |
+| [JHS](facts/JHS/README.md) | JOHN HANCOCK INCOME SECURITIES TRUST | missing | unresolved |
+| [JLS](facts/JLS/README.md) | Nuveen Mortgage & Income Fund/MA/ | missing | unresolved |
+| [JMM](facts/JMM/README.md) | Nuveen Multi-Market Income Fund | missing | unresolved |
+| [JOF](facts/JOF/README.md) | JAPAN SMALLER CAPITALIZATION FUND INC | missing | unresolved |
+| [JONE](facts/JONE/README.md) | Jones Ventures INTL Acquisition1 Corp | available; quality gates apply | unresolved |
+| [JPC](facts/JPC/README.md) | Nuveen Preferred & Income Opportunities Fund | missing | unresolved |
+| [JQC](facts/JQC/README.md) | Nuveen Credit Strategies Income Fund | missing | unresolved |
+| [JRI](facts/JRI/README.md) | Nuveen Real Asset Income & Growth Fund | missing | unresolved |
+| [JRS](facts/JRS/README.md) | NUVEEN REAL ESTATE INCOME FUND | missing | unresolved |
+| [JTTT](facts/JTTT/README.md) | JATT III Acquisition Corp | missing | unresolved |
+| [JYNT](facts/JYNT/README.md) | JOINT Corp | available; quality gates apply | unresolved |
+| [KBDC](facts/KBDC/README.md) | Kayne Anderson BDC, Inc. | available; quality gates apply | unresolved |
+| [KBON](facts/KBON/README.md) | Karbon Capital Partners Corp. | available; quality gates apply | unresolved |
+| [KCHV](facts/KCHV/README.md) | Kochav Defense Acquisition Corp. | available; quality gates apply | unresolved |
+| [KEQU](facts/KEQU/README.md) | KEWAUNEE SCIENTIFIC CORP /DE/ | available; quality gates apply | unresolved |
+| [KEYY](facts/KEYY/README.md) | Keystone Acquisition Corp. | available; quality gates apply | unresolved |
+| [KF](facts/KF/README.md) | KOREA FUND INC | missing | unresolved |
+| [KFII](facts/KFII/README.md) | K&F GROWTH ACQUISITION CORP. II | available; quality gates apply | unresolved |
+| [KIM$L, KIM$M, KIM$N](facts/KIM_24L/README.md) | KIMCO REALTY CORP | available; quality gates apply | unresolved |
+| [KIO](facts/KIO/README.md) | KKR Income Opportunities Fund | missing | unresolved |
+| [KLAC](facts/KLAC/README.md) | KLA CORP | available; quality gates apply | unresolved |
+| [KLC](facts/KLC/README.md) | KinderCare Learning Companies, Inc. | available; quality gates apply | unresolved |
+| [KNRX](facts/KNRX/README.md) | KNOREX LTD. | missing | unresolved |
+| [KODK](facts/KODK/README.md) | EASTMAN KODAK CO | available; quality gates apply | unresolved |
+| [KOYN](facts/KOYN/README.md) | CSLM Digital Asset Acquisition Corp III, Ltd | available; quality gates apply | unresolved |
+| [KPET](facts/KPET/README.md) | KPET Ultra Paceline Corp | available; quality gates apply | unresolved |
+| [KRAQ](facts/KRAQ/README.md) | KRAKacquisition Corp | available; quality gates apply | unresolved |
+| [KRC](facts/KRC/README.md) | KILROY REALTY CORP | missing | unresolved |
+| [KREF](facts/KREF/README.md) | KKR Real Estate Finance Trust Inc. | available; quality gates apply | unresolved |
+| [KRG](facts/KRG/README.md) | KITE REALTY GROUP TRUST | available; quality gates apply | unresolved |
+| [KRSP](facts/KRSP/README.md) | Rice Acquisition Corp 3 | available; quality gates apply | unresolved |
+| [KTF](facts/KTF/README.md) | DWS MUNICIPAL INCOME TRUST | missing | unresolved |
+| [KTWO](facts/KTWO/README.md) | K2 Capital Acquisition Corp | available; quality gates apply | unresolved |
+| [KYN](facts/KYN/README.md) | Kayne Anderson Energy Infrastructure Fund, Inc. | missing | unresolved |
+| [LADR](facts/LADR/README.md) | Ladder Capital Corp | missing | unresolved |
+| [LAFA](facts/LAFA/README.md) | LaFayette Acquisition Corp. | available; quality gates apply | unresolved |
+| [LAND](facts/LAND/README.md) | GLADSTONE LAND Corp | available; quality gates apply | unresolved |
+| [LASE](facts/LASE/README.md) | Laser Photonics Corp | available; quality gates apply | unresolved |
+| [LATA](facts/LATA/README.md) | Galata Acquisition Corp. II | available; quality gates apply | unresolved |
+| [LCCC](facts/LCCC/README.md) | Lakeshore Acquisition III Corp. | available; quality gates apply | unresolved |
+| [LCFY](facts/LCFY/README.md) | Locafy Ltd | missing | unresolved |
+| [LDP](facts/LDP/README.md) | Cohen & Steers Ltd Duration Preferred & Income Fund, Inc. | missing | unresolved |
+| [LEGO](facts/LEGO/README.md) | Legato Merger Corp. IV | available; quality gates apply | unresolved |
+| [LEO](facts/LEO/README.md) | BNY MELLON STRATEGIC MUNICIPALS, INC. | missing | unresolved |
+| [LFAC](facts/LFAC/README.md) | Leapfrog Acquisition Corp | available; quality gates apply | unresolved |
+| [LFT](facts/LFT/README.md) | Lument Finance Trust, Inc. | available; quality gates apply | unresolved |
+| [LGCL](facts/LGCL/README.md) | Lucas GC Ltd | missing | unresolved |
+| [LGI](facts/LGI/README.md) | LAZARD GLOBAL TOTAL RETURN & INCOME FUND INC | missing | unresolved |
+| [LIEN](facts/LIEN/README.md) | Chicago Atlantic BDC, Inc. | available; quality gates apply | unresolved |
+| [LINE](facts/LINE/README.md) | Lineage, Inc. | available; quality gates apply | unresolved |
+| [LKSP](facts/LKSP/README.md) | Lake Superior Acquisition Corp | available; quality gates apply | unresolved |
+| [LOAN](facts/LOAN/README.md) | MANHATTAN BRIDGE CAPITAL, INC | available; quality gates apply | unresolved |
+| [LPAA](facts/LPAA/README.md) | Launch One Acquisition Corp. | available; quality gates apply | unresolved |
+| [LPCV](facts/LPCV/README.md) | Launchpad Cadenza Acquisition Corp I | available; quality gates apply | unresolved |
+| [LTC](facts/LTC/README.md) | LTC PROPERTIES INC | available; quality gates apply | unresolved |
+| [LTGR](facts/LTGR/README.md) | Long Table Growth Corp. | available; quality gates apply | unresolved |
+| [LWAC](facts/LWAC/README.md) | LightWave Acquisition Corp. | available; quality gates apply | unresolved |
+| [LXP](facts/LXP/README.md) | LXP Industrial Trust | available; quality gates apply | unresolved |
+| [MAA](facts/MAA/README.md) | MID AMERICA APARTMENT COMMUNITIES INC. | missing | unresolved |
+| [MAC](facts/MAC/README.md) | MACERICH CO | available; quality gates apply | unresolved |
+| [MAIN](facts/MAIN/README.md) | Main Street Capital CORP | available; quality gates apply | unresolved |
+| [MASS](facts/MASS/README.md) | 908 Devices Inc. | available; quality gates apply | unresolved |
+| [MBVI](facts/MBVI/README.md) | M3-Brigade Acquisition VI Corp. | available; quality gates apply | unresolved |
+| [MCAH](facts/MCAH/README.md) | Mountain Crest Acquisition 6 Corp. | available; quality gates apply | unresolved |
+| [MCI](facts/MCI/README.md) | BARINGS CORPORATE INVESTORS | missing | unresolved |
+| [MCN](facts/MCN/README.md) | XAI Madison Equity Premium Income Fund | missing | unresolved |
+| [MCO](facts/MCO/README.md) | MOODYS CORP /DE/ | available; quality gates apply | unresolved |
+| [MDRR](facts/MDRR/README.md) | Medalist Diversified, Inc. | available; quality gates apply | unresolved |
+| [MEDP](facts/MEDP/README.md) | Medpace Holdings, Inc. | available; quality gates apply | unresolved |
+| [MEGI](facts/MEGI/README.md) | NYLIM CBRE Global Infrastructure Megatrends Term Fund | missing | unresolved |
+| [MESH](facts/MESH/README.md) | Meshflow Acquisition Corp | available; quality gates apply | unresolved |
+| [META](facts/META/README.md) | Meta Platforms, Inc. | available; quality gates apply | unresolved |
+| [MEVO](facts/MEVO/README.md) | M Evo Global Acquisition Corp II | available; quality gates apply | unresolved |
+| [MF](facts/MF/README.md) | MindForge Inc. | missing | unresolved |
+| [MFA, MFA$B](facts/MFA/README.md) | MFA FINANCIAL, INC. | available; quality gates apply | unresolved |
+| [MFM](facts/MFM/README.md) | ABERDEEN MUNICIPAL INCOME FUND | missing | unresolved |
+| [MGEE](facts/MGEE/README.md) | MGE ENERGY INC | missing | unresolved |
+| [MGF](facts/MGF/README.md) | ABERDEEN GOVERNMENT MARKETS INCOME FUND | missing | unresolved |
+| [MGNI](facts/MGNI/README.md) | MAGNITE, INC. | available; quality gates apply | unresolved |
+| [MHD](facts/MHD/README.md) | BLACKROCK MUNIHOLDINGS FUND, INC. | missing | unresolved |
+| [MHF](facts/MHF/README.md) | WESTERN ASSET MUNICIPAL HIGH INCOME FUND INC. | missing | unresolved |
+| [MIAC](facts/MIAC/README.md) | Meridian3 Industrials Acquisition Corp | missing | unresolved |
+| [MIN](facts/MIN/README.md) | ABERDEEN INTERMEDIATE INCOME FUND | missing | unresolved |
+| [MIR](facts/MIR/README.md) | Mirion Technologies, Inc. | available; quality gates apply | unresolved |
+| [MITQ](facts/MITQ/README.md) | MOVING iMAGE TECHNOLOGIES INC. | available; quality gates apply | unresolved |
+| [MITT](facts/MITT/README.md) | TPG Mortgage Investment Trust, Inc. | available; quality gates apply | unresolved |
+| [MIY](facts/MIY/README.md) | BLACKROCK MUNIYIELD MICHIGAN QUALITY FUND, INC. | missing | unresolved |
+| [MKDW](facts/MKDW/README.md) | MKDWELL Tech Inc. | missing | unresolved |
+| [MKZR](facts/MKZR/README.md) | MacKenzie Realty Capital, Inc. | available; quality gates apply | unresolved |
+| [MLAA](facts/MLAA/README.md) | Mountain Lake Acquisition Corp. II | available; quality gates apply | unresolved |
+| [MMA](facts/MMA/README.md) | MIXED MARTIAL ARTS GROUP LTD | missing | unresolved |
+| [MMD](facts/MMD/README.md) | NYLIM MacKay DefinedTerm Muni Opportunities Fund | missing | unresolved |
+| [MMT](facts/MMT/README.md) | ABERDEEN MULTI-MARKET INCOME FUND | missing | unresolved |
+| [MMU](facts/MMU/README.md) | WESTERN ASSET MANAGED MUNICIPALS FUND INC. | missing | unresolved |
+| [MNTN](facts/MNTN/README.md) | MNTN, Inc. | available; quality gates apply | unresolved |
+| [MPA](facts/MPA/README.md) | BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND | missing | unresolved |
+| [MPT](facts/MPT/README.md) | MEDICAL PROPERTIES TRUST INC | missing | unresolved |
+| [MPV](facts/MPV/README.md) | BARINGS PARTICIPATION INVESTORS | missing | unresolved |
+| [MQY](facts/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | missing | unresolved |
+| [MRCO](facts/MRCO/README.md) | Mercator Acquisition Corp. | available; quality gates apply | unresolved |
+| [MSAI](facts/MSAI/README.md) | MultiSensor AI Holdings, Inc. | available; quality gates apply | unresolved |
+| [MSD](facts/MSD/README.md) | MORGAN STANLEY EMERGING MARKETS DEBT FUND INC | missing | unresolved |
+| [MSDL](facts/MSDL/README.md) | Morgan Stanley Direct Lending Fund | available; quality gates apply | unresolved |
+| [MSIF](facts/MSIF/README.md) | MSC INCOME FUND, INC. | available; quality gates apply | unresolved |
+| [MTAK](facts/MTAK/README.md) | Market Technology Acquisition Corp | available; quality gates apply | unresolved |
+| [MTAL](facts/MTAL/README.md) | Metals Acquisition Corp. II | available; quality gates apply | unresolved |
+| [MTCH](facts/MTCH/README.md) | Match Group, Inc. | available; quality gates apply | unresolved |
+| [MTD](facts/MTD/README.md) | METTLER TOLEDO INTERNATIONAL INC/ | available; quality gates apply | unresolved |
+| [MTNE](facts/MTNE/README.md) | CH4 Natural Solutions Corp | available; quality gates apply | unresolved |
+| [MUA](facts/MUA/README.md) | BLACKROCK MUNIASSETS FUND, INC. | missing | unresolved |
+| [MUC](facts/MUC/README.md) | BLACKROCK MUNIHOLDINGS CALIFORNIA QUALITY FUND, INC. | missing | unresolved |
+| [MUJ](facts/MUJ/README.md) | BLACKROCK MUNIHOLDINGS NEW JERSEY QUALITY FUND, INC. | missing | unresolved |
+| [MUZE](facts/MUZE/README.md) | Muzero Acquisition Corp | available; quality gates apply | unresolved |
+| [MVST](facts/MVST/README.md) | Microvast Holdings, Inc. | available; quality gates apply | unresolved |
+| [MXCT](facts/MXCT/README.md) | MAXCYTE, INC. | available; quality gates apply | unresolved |
+| [MXE](facts/MXE/README.md) | MEXICO EQUITY & INCOME FUND INC | missing | unresolved |
+| [MXF](facts/MXF/README.md) | MEXICO FUND INC | missing | unresolved |
+| [MYI](facts/MYI/README.md) | BLACKROCK MUNIYIELD QUALITY FUND III, INC. | missing | unresolved |
+| [MYN](facts/MYN/README.md) | BLACKROCK MUNIYIELD NEW YORK QUALITY FUND, INC. | missing | unresolved |
+| [MYX](facts/MYX/README.md) | Maywood Acquisition Corp. 2 | available; quality gates apply | unresolved |
+| [MZYX](facts/MZYX/README.md) | MOZAYYX Acquisition Corp. | available; quality gates apply | unresolved |
+| [NAC](facts/NAC/README.md) | Nuveen California Quality Municipal Income Fund | missing | unresolved |
+| [NAD](facts/NAD/README.md) | Nuveen Quality Municipal Income Fund | missing | unresolved |
+| [NAN](facts/NAN/README.md) | NUVEEN NEW YORK QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NATL](facts/NATL/README.md) | NCR Atleos Corp | available; quality gates apply | unresolved |
+| [NAUT](facts/NAUT/README.md) | Nautilus Biotechnology, Inc. | available; quality gates apply | unresolved |
+| [NAZ](facts/NAZ/README.md) | NUVEEN ARIZONA QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NBB](facts/NBB/README.md) | Nuveen Taxable Municipal Income Fund | missing | unresolved |
+| [NBH](facts/NBH/README.md) | NEUBERGER MUNICIPAL FUND INC. | missing | unresolved |
+| [NBIS](facts/NBIS/README.md) | Nebius Group N.V. | missing | unresolved |
+| [NBXG](facts/NBXG/README.md) | Neuberger Next Generation Connectivity Fund Inc. | missing | unresolved |
+| [NCA](facts/NCA/README.md) | NUVEEN CALIFORNIA MUNICIPAL VALUE FUND | missing | unresolved |
+| [NCDL](facts/NCDL/README.md) | Nuveen Churchill Direct Lending Corp. | available; quality gates apply | unresolved |
+| [NCMI](facts/NCMI/README.md) | National CineMedia, Inc. | available; quality gates apply | unresolved |
+| [NCO](facts/NCO/README.md) | Southern Cross Acquisition I Corp. | available; quality gates apply | unresolved |
+| [NCV](facts/NCV/README.md) | Virtus Convertible & Income Fund | missing | unresolved |
+| [NCZ](facts/NCZ/README.md) | Virtus Convertible & Income Fund II | missing | unresolved |
+| [NDMO](facts/NDMO/README.md) | Nuveen Dynamic Municipal Opportunities Fund | missing | unresolved |
+| [NEA](facts/NEA/README.md) | Nuveen AMT-Free Quality Municipal Income Fund | missing | unresolved |
+| [NEOV](facts/NEOV/README.md) | NeoVolta Inc. | available; quality gates apply | unresolved |
+| [NEXN](facts/NEXN/README.md) | Nexxen International Ltd. | missing | unresolved |
+| [NFJ](facts/NFJ/README.md) | Virtus Dividend, Interest & Premium Strategy Fund | missing | unresolved |
+| [NHI](facts/NHI/README.md) | NATIONAL HEALTH INVESTORS INC | available; quality gates apply | unresolved |
+| [NHIV](facts/NHIV/README.md) | NewHold Investment Corp IV | available; quality gates apply | unresolved |
+| [NHP](facts/NHP/README.md) | National Healthcare Properties, Inc. | available; quality gates apply | unresolved |
+| [NHS](facts/NHS/README.md) | Neuberger High Yield Strategies Fund Inc. | missing | unresolved |
+| [NHTC](facts/NHTC/README.md) | NATURAL HEALTH TRENDS CORP | missing | unresolved |
+| [NIE](facts/NIE/README.md) | Virtus Equity & Convertible Income Fund | missing | unresolved |
+| [NIKI](facts/NIKI/README.md) | Niki BioSolutions, Inc. | missing | unresolved |
+| [NIM](facts/NIM/README.md) | NUVEEN SELECT MATURITIES MUNICIPAL FUND | missing | unresolved |
+| [NIQ](facts/NIQ/README.md) | NIQ Global Intelligence plc | available; quality gates apply | unresolved |
+| [NKX](facts/NKX/README.md) | NUVEEN CALIFORNIA AMT-FREE QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NLOP](facts/NLOP/README.md) | Net Lease Office Properties | available; quality gates apply | unresolved |
+| [NLY](facts/NLY/README.md) | ANNALY CAPITAL MANAGEMENT INC | available; quality gates apply | unresolved |
+| [NMAI](facts/NMAI/README.md) | Nuveen Multi-Asset Income Fund | missing | unresolved |
+| [NMCO](facts/NMCO/README.md) | Nuveen Municipal Credit Opportunities Fund | missing | unresolved |
+| [NMFC](facts/NMFC/README.md) | New Mountain Finance Corp | available; quality gates apply | unresolved |
+| [NMI](facts/NMI/README.md) | NUVEEN MUNICIPAL INCOME FUND INC | missing | unresolved |
+| [NML](facts/NML/README.md) | Neuberger Energy Infrastructure & Income Fund Inc. | missing | unresolved |
+| [NMP](facts/NMP/README.md) | NMP Acquisition Corp. | available; quality gates apply | unresolved |
+| [NMS](facts/NMS/README.md) | Nuveen Minnesota Quality Municipal Income Fund | missing | unresolved |
+| [NMT](facts/NMT/README.md) | NUVEEN MASSACHUSETTS QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NMZ](facts/NMZ/README.md) | NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND | missing | unresolved |
+| [NNN](facts/NNN/README.md) | NNN REIT, INC. | available; quality gates apply | unresolved |
+| [NNY](facts/NNY/README.md) | NUVEEN NEW YORK MUNICIPAL VALUE FUND | missing | unresolved |
+| [NOEM](facts/NOEM/README.md) | CO2 Energy Transition Corp. | available; quality gates apply | unresolved |
+| [NOVT](facts/NOVT/README.md) | NOVANTA INC | available; quality gates apply | unresolved |
+| [NPAC](facts/NPAC/README.md) | New Providence Acquisition Corp. III/Cayman | available; quality gates apply | unresolved |
+| [NPCT](facts/NPCT/README.md) | Nuveen Core Plus Impact Fund | missing | unresolved |
+| [NPFD](facts/NPFD/README.md) | Nuveen Variable Rate Preferred & Income Fund | missing | unresolved |
+| [NPV](facts/NPV/README.md) | NUVEEN VIRGINIA QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NRC](facts/NRC/README.md) | NRC HEALTH | available; quality gates apply | unresolved |
+| [NREF](facts/NREF/README.md) | NexPoint Real Estate Finance, Inc. | missing | unresolved |
+| [NRGV](facts/NRGV/README.md) | Energy Vault Holdings, Inc. | available; quality gates apply | unresolved |
+| [NRK](facts/NRK/README.md) | NUVEEN NEW YORK AMT-FREE QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NRO](facts/NRO/README.md) | NEUBERGER REAL ESTATE SECURITIES INCOME FUND INC | missing | unresolved |
+| [NSAI](facts/NSAI/README.md) | NorthStrive Acquisition Corp I. | missing | unresolved |
+| [NTIP](facts/NTIP/README.md) | NETWORK-1 TECHNOLOGIES, INC. | available; quality gates apply | unresolved |
+| [NTST](facts/NTST/README.md) | NETSTREIT Corp. | available; quality gates apply | unresolved |
+| [NUV](facts/NUV/README.md) | NUVEEN MUNICIPAL VALUE FUND INC | missing | unresolved |
+| [NUW](facts/NUW/README.md) | Nuveen AMT-Free Municipal Value Fund | missing | unresolved |
+| [NVG](facts/NVG/README.md) | Nuveen AMT-Free Municipal Credit Income Fund | missing | unresolved |
+| [NVMI](facts/NVMI/README.md) | NOVA LTD. | missing | unresolved |
+| [NVX](facts/NVX/README.md) | NOVONIX Ltd | missing | unresolved |
+| [NWAX](facts/NWAX/README.md) | New America Acquisition I Corp. | available; quality gates apply | unresolved |
+| [NXDR](facts/NXDR/README.md) | Nextdoor Holdings, Inc. | available; quality gates apply | unresolved |
+| [NXDT](facts/NXDT/README.md) | NEXPOINT DIVERSIFIED REAL ESTATE TRUST | available; quality gates apply | unresolved |
+| [NXG](facts/NXG/README.md) | NXG NextGen Infrastructure Income Fund | missing | unresolved |
+| [NXP](facts/NXP/README.md) | NUVEEN SELECT TAX FREE INCOME PORTFOLIO | missing | unresolved |
+| [NXRT](facts/NXRT/README.md) | NexPoint Residential Trust, Inc. | available; quality gates apply | unresolved |
+| [NYC](facts/NYC/README.md) | American Strategic Investment Co. | available; quality gates apply | unresolved |
+| [NZF](facts/NZF/README.md) | Nuveen Municipal Credit Income Fund | missing | unresolved |
+| [O](facts/O/README.md) | REALTY INCOME CORP | available; quality gates apply | unresolved |
+| [OABI](facts/OABI/README.md) | OmniAb, Inc. | available; quality gates apply | unresolved |
+| [OACC](facts/OACC/README.md) | Oaktree Acquisition Corp. III Life Sciences | available; quality gates apply | unresolved |
+| [OBA](facts/OBA/README.md) | Oxley Bridge Acquisition Ltd | available; quality gates apply | unresolved |
+| [OBDC](facts/OBDC/README.md) | Blue Owl Capital Corp | available; quality gates apply | unresolved |
+| [OCAC](facts/OCAC/README.md) | Ocean Capital Acquisition Corp | available; quality gates apply | unresolved |
+| [OCG](facts/OCG/README.md) | Oriental Culture Holding LTD | missing | unresolved |
+| [OCLT](facts/OCLT/README.md) | OceanLight Acquisition Corp | available; quality gates apply | unresolved |
+| [OHAC](facts/OHAC/README.md) | Oceanhawk Acquisition Corp. | available; quality gates apply | unresolved |
+| [OHI](facts/OHI/README.md) | OMEGA HEALTHCARE INVESTORS INC | available; quality gates apply | unresolved |
+| [OIA](facts/OIA/README.md) | Invesco Municipal Income Opportunities Trust | missing | unresolved |
+| [OIM](facts/OIM/README.md) | OneIM Acquisition Corp. | available; quality gates apply | unresolved |
+| [OLP](facts/OLP/README.md) | ONE LIBERTY PROPERTIES INC | available; quality gates apply | unresolved |
+| [ONCH](facts/ONCH/README.md) | 1RT Acquisition Corp. | available; quality gates apply | unresolved |
+| [ONL](facts/ONL/README.md) | Orion Properties Inc. | available; quality gates apply | unresolved |
+| [ONMD](facts/ONMD/README.md) | OneMedNet Corp | available; quality gates apply | unresolved |
+| [ONTO](facts/ONTO/README.md) | ONTO INNOVATION INC. | available; quality gates apply | unresolved |
+| [OPP](facts/OPP/README.md) | RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. | missing | unresolved |
+| [OPTX](facts/OPTX/README.md) | SYNTEC OPTICS HOLDINGS, INC. | available; quality gates apply | unresolved |
+| [OPXS](facts/OPXS/README.md) | Optex Systems Holdings Inc | available; quality gates apply | unresolved |
+| [ORC](facts/ORC/README.md) | Orchid Island Capital, Inc. | available; quality gates apply | unresolved |
+| [ORIQ](facts/ORIQ/README.md) | Origin Investment Corp I | available; quality gates apply | unresolved |
+| [OSPR](facts/OSPR/README.md) | Osprey Acquisition Corp. III | available; quality gates apply | unresolved |
+| [OTAI](facts/OTAI/README.md) | Starlink AI Acquisition Corp | available; quality gates apply | unresolved |
+| [OTF](facts/OTF/README.md) | Blue Owl Technology Finance Corp. | available; quality gates apply | unresolved |
+| [OTGA](facts/OTGA/README.md) | OTG Acquisition Corp. I | available; quality gates apply | unresolved |
+| [OTIS](facts/OTIS/README.md) | Otis Worldwide Corp | available; quality gates apply | unresolved |
+| [OUT](facts/OUT/README.md) | OUTFRONT Media Inc. | available; quality gates apply | unresolved |
+| [OWLT](facts/OWLT/README.md) | Owlet, Inc. | available; quality gates apply | unresolved |
+| [OXLCM, OXLCO](facts/OXLCM/README.md) | Oxford Lane Capital Corp. | missing | unresolved |
+| [OYSE](facts/OYSE/README.md) | Oyster Enterprises II Acquisition Corp | available; quality gates apply | unresolved |
+| [OZK](facts/OZK/README.md) | Bank OZK | missing | unresolved |
+| [PAAC](facts/PAAC/README.md) | Proem Acquisition Corp. I | available; quality gates apply | unresolved |
+| [PACB](facts/PACB/README.md) | PACIFIC BIOSCIENCES OF CALIFORNIA, INC. | available; quality gates apply | unresolved |
+| [PACH](facts/PACH/README.md) | Pioneer Acquisition I Corp | available; quality gates apply | unresolved |
+| [PAI](facts/PAI/README.md) | Western Asset Investment Grade Income Fund Inc. | missing | unresolved |
+| [PAII](facts/PAII/README.md) | Pyrophyte Acquisition Corp. II | available; quality gates apply | unresolved |
+| [PALO](facts/PALO/README.md) | PALOMA ACQUISITION CORP I | available; quality gates apply | unresolved |
+| [PAR](facts/PAR/README.md) | PAR TECHNOLOGY CORP | available; quality gates apply | unresolved |
+| [PAXS](facts/PAXS/README.md) | PIMCO Access Income Fund | missing | unresolved |
+| [PBI](facts/PBI/README.md) | PITNEY BOWES INC /DE/ | available; quality gates apply | unresolved |
+| [PCAP](facts/PCAP/README.md) | ProCap Acquisition Corp | available; quality gates apply | unresolved |
+| [PCF](facts/PCF/README.md) | HIGH INCOME SECURITIES FUND | missing | unresolved |
+| [PCM](facts/PCM/README.md) | PCM FUND, INC. | missing | unresolved |
+| [PCN](facts/PCN/README.md) | PIMCO CORPORATE & INCOME STRATEGY FUND | missing | unresolved |
+| [PCQ](facts/PCQ/README.md) | PIMCO CALIFORNIA MUNICIPAL INCOME FUND | missing | unresolved |
+| [PDCC](facts/PDCC/README.md) | Pearl Diver Credit Co Inc. | missing | unresolved |
+| [PDI](facts/PDI/README.md) | PIMCO Dynamic Income Fund | missing | unresolved |
+| [PDO](facts/PDO/README.md) | PIMCO Dynamic Income Opportunities Fund | missing | unresolved |
+| [PDT](facts/PDT/README.md) | JOHN HANCOCK PREMIUM DIVIDEND FUND | missing | unresolved |
+| [PDX](facts/PDX/README.md) | PIMCO Dynamic Income Strategy Fund | missing | unresolved |
+| [PEB](facts/PEB/README.md) | Pebblebrook Hotel Trust | available; quality gates apply | unresolved |
+| [PECE](facts/PECE/README.md) | Peace Acquisition Corp. | available; quality gates apply | unresolved |
+| [PECO](facts/PECO/README.md) | Phillips Edison & Company, Inc. | available; quality gates apply | unresolved |
+| [PEO](facts/PEO/README.md) | ADAMS NATURAL RESOURCES FUND, INC. | missing | unresolved |
+| [PFBC](facts/PFBC/README.md) | Preferred Bank | missing | unresolved |
+| [PFD](facts/PFD/README.md) | FLAHERTY & CRUMRINE PREFERRED & INCOME FUND INC | missing | unresolved |
+| [PFL](facts/PFL/README.md) | PIMCO INCOME STRATEGY FUND | missing | unresolved |
+| [PFLT](facts/PFLT/README.md) | PennantPark Floating Rate Capital Ltd. | available; quality gates apply | unresolved |
+| [PFN](facts/PFN/README.md) | PIMCO Income Strategy Fund II | missing | unresolved |
+| [PFO](facts/PFO/README.md) | Flaherty & Crumrine PREFERRED & INCOME OPPORTUNITY FUND INC | missing | unresolved |
+| [PFX](facts/PFX/README.md) | PhenixFIN Corp | available; quality gates apply | unresolved |
+| [PGAC](facts/PGAC/README.md) | PANTAGES CAPITAL ACQUISITION Corp | available; quality gates apply | unresolved |
+| [PGP](facts/PGP/README.md) | PIMCO Global StocksPLUS & Income Fund | missing | unresolved |
+| [PGZ](facts/PGZ/README.md) | Principal Real Estate Income Fund | missing | unresolved |
+| [PHK](facts/PHK/README.md) | PIMCO HIGH INCOME FUND | missing | unresolved |
+| [PIM](facts/PIM/README.md) | FRANKLIN MASTER INTERMEDIATE INCOME TRUST | missing | unresolved |
+| [PINE](facts/PINE/README.md) | Alpine Income Property Trust, Inc. | available; quality gates apply | unresolved |
+| [PINS](facts/PINS/README.md) | PINTEREST, INC. | available; quality gates apply | unresolved |
+| [PLBL](facts/PLBL/README.md) | Polibeli Group Ltd | missing | unresolved |
+| [PLCI](facts/PLCI/README.md) | Pelican Acquisition II Corp | missing | unresolved |
+| [PLD](facts/PLD/README.md) | Prologis, Inc. | missing | unresolved |
+| [PLUN](facts/PLUN/README.md) | Plutonian Acquisition Corp. II | available; quality gates apply | unresolved |
+| [PMAX](facts/PMAX/README.md) | Powell Max Ltd | missing | unresolved |
+| [PML](facts/PML/README.md) | PIMCO MUNICIPAL INCOME FUND II | missing | unresolved |
+| [PMM](facts/PMM/README.md) | FRANKLIN MANAGED MUNICIPAL INCOME TRUST | missing | unresolved |
+| [PMO](facts/PMO/README.md) | FRANKLIN MUNICIPAL OPPORTUNITIES TRUST | missing | unresolved |
+| [PMT](facts/PMT/README.md) | PennyMac Mortgage Investment Trust | available; quality gates apply | unresolved |
+| [PMTR](facts/PMTR/README.md) | Perimeter Acquisition Corp. I | available; quality gates apply | unresolved |
+| [PNAQ](facts/PNAQ/README.md) | Pinnacle Acquisition Corp | missing | unresolved |
+| [PNI](facts/PNI/README.md) | PIMCO NEW YORK MUNICIPAL INCOME FUND II | missing | unresolved |
+| [PNNT](facts/PNNT/README.md) | PENNANTPARK INVESTMENT CORP | available; quality gates apply | unresolved |
+| [PODC](facts/PODC/README.md) | PodcastOne, Inc. | available; quality gates apply | unresolved |
+| [POLA](facts/POLA/README.md) | Polar Power, Inc. | available; quality gates apply | unresolved |
+| [POLE](facts/POLE/README.md) | Andretti Acquisition Corp. II | available; quality gates apply | unresolved |
+| [PONO](facts/PONO/README.md) | Pono Capital Four, Inc. | available; quality gates apply | unresolved |
+| [PPLI](facts/PPLI/README.md) | People Inc | available; quality gates apply | unresolved |
+| [PPSI](facts/PPSI/README.md) | PIONEER POWER SOLUTIONS, INC. | available; quality gates apply | unresolved |
+| [PPT](facts/PPT/README.md) | FRANKLIN PREMIER INCOME TRUST | missing | unresolved |
+| [PRPO](facts/PRPO/README.md) | Precipio, Inc. | available; quality gates apply | unresolved |
+| [PSA, PSA$F, PSA$G, PSA$H, PSA$I, PSA$J, PSA$K, PSA$L, PSA$M, PSA$N, PSA$O, PSA$P, PSA$Q, PSA$R, PSA$S](facts/PSA/README.md) | Public Storage | available; quality gates apply | unresolved |
+| [PSBD](facts/PSBD/README.md) | Palmer Square Capital BDC Inc. | available; quality gates apply | unresolved |
+| [PSF](facts/PSF/README.md) | Cohen & Steers Select Preferred & Income Fund, Inc. | missing | unresolved |
+| [PSQH](facts/PSQH/README.md) | PSQ Holdings, Inc. | available; quality gates apply | unresolved |
+| [PSTL](facts/PSTL/README.md) | Postal Realty Trust, Inc. | available; quality gates apply | unresolved |
+| [PSUS](facts/PSUS/README.md) | Pershing Square USA, Ltd. | missing | unresolved |
+| [PTA](facts/PTA/README.md) | Cohen & Steers Tax-Advantaged Preferred Securities & Income Fund | missing | unresolved |
+| [PTAC](facts/PTAC/README.md) | Patriot Acquisition Corp./CI | available; quality gates apply | unresolved |
+| [PTOR](facts/PTOR/README.md) | Praetorian Acquisition Corp. | available; quality gates apply | unresolved |
+| [PTY](facts/PTY/README.md) | PIMCO CORPORATE & INCOME OPPORTUNITY FUND | missing | unresolved |
+| [PUBM](facts/PUBM/README.md) | PubMatic, Inc. | available; quality gates apply | unresolved |
+| [PWRL](facts/PWRL/README.md) | Powerlaw Corp. | missing | unresolved |
+| [QADR](facts/QADR/README.md) | QDRO Acquisition Corp. | available; quality gates apply | unresolved |
+| [QLEP](facts/QLEP/README.md) | Quantum Leap Acquisition Corp | available; quality gates apply | unresolved |
+| [QRED](facts/QRED/README.md) | QuasarEdge Acquisition Corp | available; quality gates apply | unresolved |
+| [QS](facts/QS/README.md) | QuantumScape Corp | available; quality gates apply | unresolved |
+| [QSEA](facts/QSEA/README.md) | Quartzsea Acquisition Corp | available; quality gates apply | unresolved |
+| [QSI](facts/QSI/README.md) | Quantum-Si Inc | available; quality gates apply | unresolved |
+| [QTRX](facts/QTRX/README.md) | Quanterix Corp | available; quality gates apply | unresolved |
+| [QUMS](facts/QUMS/README.md) | Quantumsphere Acquisition Corp | available; quality gates apply | unresolved |
+| [RA](facts/RA/README.md) | Brookfield Real Assets Income Fund Inc. | missing | unresolved |
+| [RAC](facts/RAC/README.md) | Rithm Acquisition Corp. | available; quality gates apply | unresolved |
+| [RACD](facts/RACD/README.md) | Research Alliance Corp IV | available; quality gates apply | unresolved |
+| [RANG](facts/RANG/README.md) | Range Capital Acquisition Corp. | available; quality gates apply | unresolved |
+| [RC](facts/RC/README.md) | Ready Capital Corp | missing | unresolved |
+| [RCG](facts/RCG/README.md) | RENN Fund, Inc. | missing | unresolved |
+| [RCS](facts/RCS/README.md) | PIMCO STRATEGIC INCOME FUND, INC. | missing | unresolved |
+| [RDAC](facts/RDAC/README.md) | Rising Dragon Acquisition Corp. | available; quality gates apply | unresolved |
+| [RDAG](facts/RDAG/README.md) | Republic Digital Acquisition Co | available; quality gates apply | unresolved |
+| [REFI](facts/REFI/README.md) | Chicago Atlantic Real Estate Finance, Inc. | available; quality gates apply | unresolved |
+| [REFR](facts/REFR/README.md) | RESEARCH FRONTIERS INC | available; quality gates apply | unresolved |
+| [REG](facts/REG/README.md) | REGENCY CENTERS CORP | missing | unresolved |
+| [REXR](facts/REXR/README.md) | Rexford Industrial Realty, Inc. | available; quality gates apply | unresolved |
+| [RFAI](facts/RFAI/README.md) | RF Acquisition Corp II | available; quality gates apply | unresolved |
+| [RFAM](facts/RFAM/README.md) | RF Acquisition Corp III | available; quality gates apply | unresolved |
+| [RFI](facts/RFI/README.md) | COHEN & STEERS TOTAL RETURN REALTY FUND INC | missing | unresolved |
+| [RFM](facts/RFM/README.md) | RiverNorth Flexible Municipal Income Fund, Inc. | missing | unresolved |
+| [RFMZ](facts/RFMZ/README.md) | RiverNorth Flexible Municipal Income Fund II, Inc. | missing | unresolved |
+| [RGT](facts/RGT/README.md) | ROYCE GLOBAL TRUST, INC. | missing | unresolved |
+| [RHP](facts/RHP/README.md) | Ryman Hospitality Properties, Inc. | available; quality gates apply | unresolved |
+| [RIBB](facts/RIBB/README.md) | Ribbon Acquisition Corp. | available; quality gates apply | unresolved |
+| [RITM](facts/RITM/README.md) | Rithm Capital Corp. | available; quality gates apply | unresolved |
+| [RIV](facts/RIV/README.md) | RIVERNORTH OPPORTUNITIES FUND, INC. | missing | unresolved |
+| [RLJ](facts/RLJ/README.md) | RLJ Lodging Trust | available; quality gates apply | unresolved |
+| [RLTY](facts/RLTY/README.md) | Cohen & Steers Real Estate Opportunities & Income Fund | missing | unresolved |
+| [RMCO](facts/RMCO/README.md) | Royalty Management Holding Corp | available; quality gates apply | unresolved |
+| [RMI](facts/RMI/README.md) | RiverNorth Opportunistic Municipal Income Fund, Inc. | missing | unresolved |
+| [RMM](facts/RMM/README.md) | RiverNorth Managed Duration Municipal Income Fund, Inc. | missing | unresolved |
+| [RMMZ](facts/RMMZ/README.md) | RiverNorth Managed Duration Municipal Income Fund II, Inc. | missing | unresolved |
+| [RMSG](facts/RMSG/README.md) | Real Messenger Corp | missing | unresolved |
+| [RMT](facts/RMT/README.md) | ROYCE MICRO-CAP TRUST, INC. | missing | unresolved |
+| [RNAQ](facts/RNAQ/README.md) | Rainier Acquisition Corp | missing | unresolved |
+| [RNGT](facts/RNGT/README.md) | Range Capital Acquisition Corp II | available; quality gates apply | unresolved |
+| [RNP](facts/RNP/README.md) | COHEN & STEERS REIT & PREFERRED & INCOME FUND INC | missing | unresolved |
+| [ROK](facts/ROK/README.md) | ROCKWELL AUTOMATION, INC | available; quality gates apply | unresolved |
+| [RPID](facts/RPID/README.md) | RAPID MICRO BIOSYSTEMS, INC. | available; quality gates apply | unresolved |
+| [RPT](facts/RPT/README.md) | Rithm Property Trust Inc. | available; quality gates apply | unresolved |
+| [RQI](facts/RQI/README.md) | COHEN & STEERS QUALITY INCOME REALTY FUND INC | missing | unresolved |
+| [RREV](facts/RREV/README.md) | RRE Ventures Acquisition Corp. | available; quality gates apply | unresolved |
+| [RSF](facts/RSF/README.md) | RiverNorth Capital & Income Fund, Inc. | missing | unresolved |
+| [RTAC](facts/RTAC/README.md) | Renatus Tactical Acquisition Corp I | available; quality gates apply | unresolved |
+| [RUM](facts/RUM/README.md) | RUM Group Inc. | available; quality gates apply | unresolved |
+| [RVI](facts/RVI/README.md) | Robinhood Ventures Fund I | missing | unresolved |
+| [RVII](facts/RVII/README.md) | Robinhood Ventures Fund II | available; quality gates apply | unresolved |
+| [RVT](facts/RVT/README.md) | ROYCE SMALL-CAP TRUST, INC. | missing | unresolved |
+| [RVTY](facts/RVTY/README.md) | REVVITY, INC. | available; quality gates apply | unresolved |
+| [RWAY](facts/RWAY/README.md) | Runway Growth Finance Corp. | available; quality gates apply | unresolved |
+| [RWT](facts/RWT/README.md) | REDWOOD TRUST INC | available; quality gates apply | unresolved |
+| [RXT](facts/RXT/README.md) | Rackspace Technology, Inc. | available; quality gates apply | unresolved |
+| [RZLV](facts/RZLV/README.md) | REZOLVE AI PLC | missing | unresolved |
+| [SAAQ](facts/SAAQ/README.md) | Space Asset Acquisition Corp. | available; quality gates apply | unresolved |
+| [SABA](facts/SABA/README.md) | Saba Capital Income & Opportunities Fund II | missing | unresolved |
+| [SABR](facts/SABR/README.md) | Sabre Corp | available; quality gates apply | unresolved |
+| [SAC](facts/SAC/README.md) | Safeguard Acquisition Corp. | available; quality gates apply | unresolved |
+| [SACH](facts/SACH/README.md) | Sachem Capital Corp. | available; quality gates apply | unresolved |
+| [SAFE](facts/SAFE/README.md) | Safehold Inc. | available; quality gates apply | unresolved |
+| [SAGU](facts/SAGU/README.md) | Shreya Acquisition Group | available; quality gates apply | unresolved |
+| [SAMO](facts/SAMO/README.md) | Samos Energy Acquisition Corp | available; quality gates apply | unresolved |
+| [SANG](facts/SANG/README.md) | Sangoma Technologies Corp | missing | unresolved |
+| [SBAC](facts/SBAC/README.md) | SBA COMMUNICATIONS CORP | available; quality gates apply | unresolved |
+| [SBI](facts/SBI/README.md) | WESTERN ASSET INTERMEDIATE MUNI FUND INC. | missing | unresolved |
+| [SBRA](facts/SBRA/README.md) | Sabra Health Care REIT, Inc. | available; quality gates apply | unresolved |
+| [SBXE](facts/SBXE/README.md) | SilverBox Corp V | available; quality gates apply | unresolved |
+| [SCD](facts/SCD/README.md) | LMP CAPITAL & INCOME FUND INC. | missing | unresolved |
+| [SCII](facts/SCII/README.md) | SC II Acquisition Corp. | available; quality gates apply | unresolved |
+| [SCM](facts/SCM/README.md) | Stellus Capital Investment Corp | available; quality gates apply | unresolved |
+| [SCPQ](facts/SCPQ/README.md) | Social Commerce Partners Corp | available; quality gates apply | unresolved |
+| [SDHY](facts/SDHY/README.md) | PGIM Short Duration High Yield Opportunities Fund | missing | unresolved |
+| [SE](facts/SE/README.md) | Sea Ltd | missing | unresolved |
+| [SEER](facts/SEER/README.md) | Seer, Inc. | available; quality gates apply | unresolved |
+| [SELF](facts/SELF/README.md) | Global Self Storage, Inc. | available; quality gates apply | unresolved |
+| [SES](facts/SES/README.md) | SES AI Corp | available; quality gates apply | unresolved |
+| [SEVN](facts/SEVN/README.md) | Seven Hills Realty Trust | missing | unresolved |
+| [SHOT](facts/SHOT/README.md) | RMG ML Sports Holdings | available; quality gates apply | unresolved |
+| [SIFY](facts/SIFY/README.md) | SIFY TECHNOLOGIES LTD | missing | unresolved |
+| [SIMA](facts/SIMA/README.md) | SIM Acquisition Corp. I | available; quality gates apply | unresolved |
+| [SITC](facts/SITC/README.md) | SITE Centers Corp. | available; quality gates apply | unresolved |
+| [SKT](facts/SKT/README.md) | TANGER INC. | available; quality gates apply | unresolved |
+| [SLDP](facts/SLDP/README.md) | Solid Power, Inc. | available; quality gates apply | unresolved |
+| [SLG, SLG$I](facts/SLG/README.md) | SL GREEN REALTY CORP | missing | unresolved |
+| [SMA](facts/SMA/README.md) | SmartStop Self Storage REIT, Inc. | available; quality gates apply | unresolved |
+| [SMWB](facts/SMWB/README.md) | SIMILARWEB LTD. | missing | unresolved |
+| [SNAP](facts/SNAP/README.md) | Snap Inc | available; quality gates apply | unresolved |
+| [SOCA](facts/SOCA/README.md) | Solarius Capital Acquisition Corp. | available; quality gates apply | unresolved |
+| [SOGP](facts/SOGP/README.md) | Sound Group Inc. | missing | unresolved |
+| [SORA](facts/SORA/README.md) | AsiaStrategy | missing | unresolved |
+| [SORN](facts/SORN/README.md) | Soren Acquisition Corp. | available; quality gates apply | unresolved |
+| [SOUL](facts/SOUL/README.md) | Soulpower Acquisition Corp. | available; quality gates apply | unresolved |
+| [SPB](facts/SPB/README.md) | Spectrum Brands Holdings, Inc. | available; quality gates apply | unresolved |
+| [SPCX](facts/SPCX/README.md) | SPACE EXPLORATION TECHNOLOGIES CORP | available; quality gates apply | unresolved |
+| [SPE](facts/SPE/README.md) | SPECIAL OPPORTUNITIES FUND, INC. | missing | unresolved |
+| [SPEG](facts/SPEG/README.md) | Silver Pegasus Acquisition Corp. | available; quality gates apply | unresolved |
+| [SPG](facts/SPG/README.md) | SIMON PROPERTY GROUP INC. | available; quality gates apply | unresolved |
+| [SPGI](facts/SPGI/README.md) | S&P Global Inc. | missing | unresolved |
+| [SPMC](facts/SPMC/README.md) | Sound Point Meridian Capital, Inc. | missing | unresolved |
+| [SPXX](facts/SPXX/README.md) | Nuveen S&P 500 Dynamic Overwrite Fund | missing | unresolved |
+| [SQFT](facts/SQFT/README.md) | Presidio Property Trust, Inc. | available; quality gates apply | unresolved |
+| [SRAD](facts/SRAD/README.md) | Sportradar Group AG | missing | unresolved |
+| [SRV](facts/SRV/README.md) | NXG Cushing Midstream Energy Fund | missing | unresolved |
+| [SSEA](facts/SSEA/README.md) | STARRY SEA ACQUISITION CORP | available; quality gates apply | unresolved |
+| [SST](facts/SST/README.md) | System1, Inc. | available; quality gates apply | unresolved |
+| [STAG](facts/STAG/README.md) | STAG Industrial, Inc. | missing | unresolved |
+| [STEW](facts/STEW/README.md) | SRH Total Return Fund, Inc. | missing | unresolved |
+| [STFS](facts/STFS/README.md) | Star Fashion Culture Holdings Ltd | missing | unresolved |
+| [STI](facts/STI/README.md) | Solidion Technology Inc. | available; quality gates apply | unresolved |
+| [STK](facts/STK/README.md) | Columbia Seligman Premium Technology Growth Fund, Inc. | missing | unresolved |
+| [STRW](facts/STRW/README.md) | Strawberry Fields REIT, Inc. | available; quality gates apply | unresolved |
+| [SUI](facts/SUI/README.md) | SUN COMMUNITIES INC | missing | unresolved |
+| [SUMA](facts/SUMA/README.md) | SUMA Acquisition Corp | available; quality gates apply | unresolved |
+| [SUNS](facts/SUNS/README.md) | Sunrise Realty Trust, Inc. | available; quality gates apply | unresolved |
+| [SVC](facts/SVC/README.md) | Service Properties Trust | available; quality gates apply | unresolved |
+| [SVIV](facts/SVIV/README.md) | Spring Valley Acquisition Corp. IV | available; quality gates apply | unresolved |
+| [SWZ](facts/SWZ/README.md) | Total Return Securities Fund | missing | unresolved |
+| [SZZL](facts/SZZL/README.md) | Sizzle Acquisition Corp. II | available; quality gates apply | unresolved |
+| [TACH](facts/TACH/README.md) | Titan Acquisition Corp. | available; quality gates apply | unresolved |
+| [TACO](facts/TACO/README.md) | Berto Acquisition Corp. | available; quality gates apply | unresolved |
+| [TAVI](facts/TAVI/README.md) | Tavia Acquisition Corp. | available; quality gates apply | unresolved |
+| [TBLA](facts/TBLA/README.md) | Taboola.com Ltd. | available; quality gates apply | unresolved |
+| [TCGX](facts/TCGX/README.md) | TCGX Acquisition Corp. | missing | unresolved |
+| [TCI](facts/TCI/README.md) | TRANSCONTINENTAL REALTY INVESTORS INC | available; quality gates apply | unresolved |
+| [TDAC](facts/TDAC/README.md) | Translational Development Acquisition Corp. | available; quality gates apply | unresolved |
+| [TDF](facts/TDF/README.md) | TEMPLETON DRAGON FUND INC | missing | unresolved |
+| [TDWD](facts/TDWD/README.md) | Tailwind 2.0 Acquisition Corp. | available; quality gates apply | unresolved |
+| [TEAD](facts/TEAD/README.md) | Teads Holding Co. | available; quality gates apply | unresolved |
+| [TEI](facts/TEI/README.md) | TEMPLETON EMERGING MARKETS INCOME FUND | missing | unresolved |
+| [TEM](facts/TEM/README.md) | Tempus AI, Inc. | available; quality gates apply | unresolved |
+| [TH](facts/TH/README.md) | Target Hospitality Corp. | available; quality gates apply | unresolved |
+| [THEO](facts/THEO/README.md) | BOA Acquisition Corp. II | available; quality gates apply | unresolved |
+| [THQ](facts/THQ/README.md) | abrdn Healthcare Opportunities Fund | missing | unresolved |
+| [THRY](facts/THRY/README.md) | Thryv Holdings, Inc. | available; quality gates apply | unresolved |
+| [THW](facts/THW/README.md) | abrdn World Healthcare Fund | missing | unresolved |
+| [TLAC](facts/TLAC/README.md) | Three Lions Acquisition Corp. | missing | unresolved |
+| [TLNC](facts/TLNC/README.md) | Talon Capital Corp. | available; quality gates apply | unresolved |
+| [TMO](facts/TMO/README.md) | THERMO FISHER SCIENTIFIC INC. | available; quality gates apply | unresolved |
+| [TMTS](facts/TMTS/README.md) | Spartacus Acquisition Corp. II | available; quality gates apply | unresolved |
+| [TNMG](facts/TNMG/README.md) | TNL Mediagene | missing | unresolved |
+| [TONT](facts/TONT/README.md) | Graf Global Corp. | available; quality gates apply | unresolved |
+| [TPVG](facts/TPVG/README.md) | TriplePoint Venture Growth BDC Corp. | available; quality gates apply | unresolved |
+| [TRAD](facts/TRAD/README.md) | APEX Tech Acquisition Inc. | available; quality gates apply | unresolved |
+| [TRGS](facts/TRGS/README.md) | TRG Latin America Acquisitions Corp. | available; quality gates apply | unresolved |
+| [TRIN](facts/TRIN/README.md) | Trinity Capital Inc. | missing | unresolved |
+| [TRIP](facts/TRIP/README.md) | TripAdvisor, Inc. | available; quality gates apply | unresolved |
+| [TRMB](facts/TRMB/README.md) | TRIMBLE INC. | available; quality gates apply | unresolved |
+| [TRNR](facts/TRNR/README.md) | Interactive Strength, Inc. | available; quality gates apply | unresolved |
+| [TRTX](facts/TRTX/README.md) | TPG RE Finance Trust, Inc. | missing | unresolved |
+| [TRU](facts/TRU/README.md) | TransUnion | missing | unresolved |
+| [TSI](facts/TSI/README.md) | TCW STRATEGIC INCOME FUND INC | missing | unresolved |
+| [TSLX](facts/TSLX/README.md) | Sixth Street Specialty Lending, Inc. | available; quality gates apply | unresolved |
+| [TTD](facts/TTD/README.md) | Trade Desk, Inc. | available; quality gates apply | unresolved |
+| [TURB](facts/TURB/README.md) | Turbo Energy, S.A. | missing | unresolved |
+| [TVA](facts/TVA/README.md) | Texas Ventures Acquisition III Corp | available; quality gates apply | unresolved |
+| [TVAI](facts/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available; quality gates apply | unresolved |
+| [TVIV](facts/TVIV/README.md) | Texas Ventures Acquisition IV Corp | available; quality gates apply | unresolved |
+| [TWAV](facts/TWAV/README.md) | TaoWeave, Inc. | available; quality gates apply | unresolved |
+| [TWLV](facts/TWLV/README.md) | Twelve Seas Investment Co III/Cayman | available; quality gates apply | unresolved |
+| [TWN](facts/TWN/README.md) | TAIWAN FUND INC | missing | unresolved |
+| [TXG](facts/TXG/README.md) | 10x Genomics, Inc. | available; quality gates apply | unresolved |
+| [TY](facts/TY/README.md) | TRI-CONTINENTAL Corp | missing | unresolved |
+| [TYG](facts/TYG/README.md) | TORTOISE ENERGY INFRASTRUCTURE CORP | missing | unresolved |
+| [TZOO](facts/TZOO/README.md) | TRAVELZOO | available; quality gates apply | unresolved |
+| [UAC](facts/UAC/README.md) | United Acquisition Corp. I | available; quality gates apply | unresolved |
+| [UCAR](facts/UCAR/README.md) | U Power Ltd | missing | unresolved |
+| [UDR](facts/UDR/README.md) | UDR, Inc. | missing | unresolved |
+| [UHT](facts/UHT/README.md) | UNIVERSAL HEALTH REALTY INCOME TRUST | available; quality gates apply | unresolved |
+| [ULBI](facts/ULBI/README.md) | ULTRALIFE CORP | available; quality gates apply | unresolved |
+| [UMH](facts/UMH/README.md) | UMH PROPERTIES, INC. | available; quality gates apply | unresolved |
+| [USA](facts/USA/README.md) | LIBERTY ALL STAR EQUITY FUND | missing | unresolved |
+| [UTF](facts/UTF/README.md) | COHEN & STEERS INFRASTRUCTURE FUND INC | missing | unresolved |
+| [UTG](facts/UTG/README.md) | REAVES UTILITY INCOME FUND | missing | unresolved |
+| [UYSC](facts/UYSC/README.md) | UY Scuti Acquisition Corp. | available; quality gates apply | unresolved |
+| [VBF](facts/VBF/README.md) | Invesco Bond Fund | missing | unresolved |
+| [VCV](facts/VCV/README.md) | Invesco California Value Municipal Income Trust | missing | unresolved |
+| [VCX](facts/VCX/README.md) | Fundrise Innovation Fund, LLC | missing | unresolved |
+| [VECA](facts/VECA/README.md) | Vernal Capital Acquisition Corp. | available; quality gates apply | unresolved |
+| [VGI](facts/VGI/README.md) | Virtus Global Multi-Sector Income Fund | missing | unresolved |
+| [VGM](facts/VGM/README.md) | Invesco Trust for Investment Grade Municipals | missing | unresolved |
+| [VHC](facts/VHC/README.md) | VirnetX Holding Corp | available; quality gates apply | unresolved |
+| [VHCP](facts/VHCP/README.md) | Vine Hill Capital Investment Corp. II | available; quality gates apply | unresolved |
+| [VICI](facts/VICI/README.md) | VICI PROPERTIES INC. | available; quality gates apply | unresolved |
+| [VII](facts/VII/README.md) | Viking Acquisition Corp. II | available; quality gates apply | unresolved |
+| [VKI](facts/VKI/README.md) | Invesco Advantage Municipal Income Trust II | missing | unresolved |
+| [VKQ](facts/VKQ/README.md) | Invesco Municipal Trust | missing | unresolved |
+| [VLOS](facts/VLOS/README.md) | Velos Acquisition I Corp. | available; quality gates apply | unresolved |
+| [VLT](facts/VLT/README.md) | Invesco High Income Trust II | missing | unresolved |
+| [VMO](facts/VMO/README.md) | Invesco Municipal Opportunity Trust | missing | unresolved |
+| [VMRK](facts/VMRK/README.md) | VIVMARK RESIDENTIAL | available; quality gates apply | unresolved |
+| [VNET](facts/VNET/README.md) | VNET Group, Inc. | missing | unresolved |
+| [VNME](facts/VNME/README.md) | Vendome Acquisition Corp I | available; quality gates apply | unresolved |
+| [VNO](facts/VNO/README.md) | VORNADO REALTY TRUST | available; quality gates apply | unresolved |
+| [VPV](facts/VPV/README.md) | Invesco Pennsylvania Value Municipal Income Trust | missing | unresolved |
+| [VSTS](facts/VSTS/README.md) | Vestis Corp | available; quality gates apply | unresolved |
+| [VTN](facts/VTN/README.md) | Invesco Trust for Investment Grade New York Municipals | missing | unresolved |
+| [VTR](facts/VTR/README.md) | Ventas, Inc. | available; quality gates apply | unresolved |
+| [VVR](facts/VVR/README.md) | Invesco Senior Income Trust | missing | unresolved |
+| [VYX](facts/VYX/README.md) | NCR Voyix Corp | available; quality gates apply | unresolved |
+| [WAT](facts/WAT/README.md) | WATERS CORP /DE/ | available; quality gates apply | unresolved |
+| [WB](facts/WB/README.md) | WEIBO Corp | missing | unresolved |
+| [WBX](facts/WBX/README.md) | Wallbox N.V. | missing | unresolved |
+| [WELL](facts/WELL/README.md) | WELLTOWER INC. | missing | unresolved |
+| [WENC](facts/WENC/README.md) | West Enclave Merger Corp. | available; quality gates apply | unresolved |
+| [WENN](facts/WENN/README.md) | WEN Acquisition Corp | available; quality gates apply | unresolved |
+| [WEYS](facts/WEYS/README.md) | WEYCO GROUP INC | available; quality gates apply | unresolved |
+| [WHLR, WHLRD, WHLRP](facts/WHLR/README.md) | Wheeler Real Estate Investment Trust, Inc. | available; quality gates apply | unresolved |
+| [WIA](facts/WIA/README.md) | WESTERN ASSET INFLATION-LINKED INCOME FUND | missing | unresolved |
+| [WIW](facts/WIW/README.md) | WESTERN ASSET INFLATION-LINKED OPPORTUNITIES & INCOME FUND | missing | unresolved |
+| [WIX](facts/WIX/README.md) | Wix.com Ltd. | missing | unresolved |
+| [WLCO](facts/WLCO/README.md) | Wilco 63 Corp | available; quality gates apply | unresolved |
+| [WLII](facts/WLII/README.md) | Willow Lane Acquisition Corp. II | available; quality gates apply | unresolved |
+| [WPAC](facts/WPAC/README.md) | White Pearl Acquisition Corp. | available; quality gates apply | unresolved |
+| [WTG](facts/WTG/README.md) | Wintergreen Acquisition Corp. | available; quality gates apply | unresolved |
+| [WY](facts/WY/README.md) | WEYERHAEUSER CO | available; quality gates apply | unresolved |
+| [XCBE](facts/XCBE/README.md) | X3 Acquisition Corp. Ltd. | available; quality gates apply | unresolved |
+| [XELB](facts/XELB/README.md) | XCel Brands, Inc. | available; quality gates apply | unresolved |
+| [XFLH](facts/XFLH/README.md) | XFLH Capital Corp | available; quality gates apply | unresolved |
+| [XFLT](facts/XFLT/README.md) | XAI Floating Rate & Alternative Income Trust | missing | unresolved |
+| [XIII](facts/XIII/README.md) | Churchill Capital Corp XIII | missing | unresolved |
+| [XPON](facts/XPON/README.md) | Expion Energy, Inc. | available; quality gates apply | unresolved |
+| [XRN, XRN$A](facts/XRN/README.md) | Chiron Real Estate Inc. | available; quality gates apply | unresolved |
+| [XSLL](facts/XSLL/README.md) | Xsolla SPAC 1 | available; quality gates apply | unresolved |
+| [YALA](facts/YALA/README.md) | Yalla Group Ltd | missing | unresolved |
+| [YCY](facts/YCY/README.md) | AA Mission Acquisition Corp. II | available; quality gates apply | unresolved |
+| [YHNA](facts/YHNA/README.md) | YHN Acquisition I Ltd | available; quality gates apply | unresolved |
+| [YICC](facts/YICC/README.md) | Yorkville International Capital Corp. | missing | unresolved |
+| [YYAI](facts/YYAI/README.md) | AIRWA INC. | available; quality gates apply | unresolved |
+| [ZIP](facts/ZIP/README.md) | ZIPRECRUITER, INC. | available; quality gates apply | unresolved |
+| [ZKP](facts/ZKP/README.md) | Lafayette Digital Acquisition Corp. I | available; quality gates apply | unresolved |
+| [ZM](facts/ZM/README.md) | Zoom Communications, Inc. | available; quality gates apply | unresolved |
+| [ZTR](facts/ZTR/README.md) | Virtus Total Return Fund Inc. | missing | unresolved |
 
 ## Curated research
 

@@ -10,972 +10,972 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 
 ## Factual company files
 
-| Company | Current symbols | Financial history | Classification basis |
+| Current symbols | Company | Financial history | Classification basis |
 | --- | --- | --- | --- |
-| [3M CO](facts/0000066740/README.md) | MMM | available; quality gates apply | project_sic_rule |
-| [4D Molecular Therapeutics, Inc.](facts/0001650648/README.md) | FDMT | available; quality gates apply | project_sic_rule |
-| [60 DEGREES PHARMACEUTICALS, INC.](facts/0001946563/README.md) | SXTP | available; quality gates apply | project_sic_rule |
-| [Aardvark Therapeutics, Inc.](facts/0001774857/README.md) | AARD | available; quality gates apply | project_sic_rule |
-| [ABBOTT LABORATORIES](facts/0000001800/README.md) | ABT | missing | project_sic_rule |
-| [AbbVie Inc.](facts/0001551152/README.md) | ABBV | available; quality gates apply | project_sic_rule |
-| [AbCellera Biologics Inc.](facts/0001703057/README.md) | ABCL | available; quality gates apply | project_sic_rule |
-| [ABEONA THERAPEUTICS INC.](facts/0000318306/README.md) | ABEO | available; quality gates apply | project_sic_rule |
-| [Abivax S.A.](facts/0001956827/README.md) | ABVX | missing | project_sic_rule |
-| [ABVC BIOPHARMA, INC.](facts/0001173313/README.md) | ABVC | available; quality gates apply | project_sic_rule |
-| [AC Immune SA](facts/0001651625/README.md) | ACIU | missing | project_sic_rule |
-| [Acadia Healthcare Company, Inc.](facts/0001520697/README.md) | ACHC | missing | project_sic_rule |
-| [ACADIA PHARMACEUTICALS INC](facts/0001070494/README.md) | ACAD | available; quality gates apply | project_sic_rule |
-| [ACCENDRA HEALTH INC/VA/](facts/0000075252/README.md) | ACH | available; quality gates apply | project_sic_rule |
-| [ACCURAY INC](facts/0001138723/README.md) | ARAY | available; quality gates apply | project_sic_rule |
-| [ACHIEVE LIFE SCIENCES, INC.](facts/0000949858/README.md) | ACHV | available; quality gates apply | project_sic_rule |
-| [Aclarion, Inc.](facts/0001635077/README.md) | ACON | available; quality gates apply | project_sic_rule |
-| [Aclaris Therapeutics, Inc.](facts/0001557746/README.md) | ACRS | available; quality gates apply | project_sic_rule |
-| [Acrivon Therapeutics, Inc.](facts/0001781174/README.md) | ACRV | available; quality gates apply | project_sic_rule |
-| [Actinium Pharmaceuticals, Inc.](facts/0001388320/README.md) | ATNM | available; quality gates apply | project_sic_rule |
-| [ACTUATE THERAPEUTICS, INC.](facts/0001652935/README.md) | ACTU | available; quality gates apply | project_sic_rule |
-| [Acumen Pharmaceuticals, Inc.](facts/0001576885/README.md) | ABOS | available; quality gates apply | project_sic_rule |
-| [Acurx Pharmaceuticals, Inc.](facts/0001736243/README.md) | ACXP | available; quality gates apply | project_sic_rule |
-| [Adagio Medical Holdings, Inc.](facts/0002006986/README.md) | ADGM | available; quality gates apply | project_sic_rule |
-| [AdaptHealth Corp.](facts/0001725255/README.md) | AHCO | available; quality gates apply | project_sic_rule |
-| [Adaptive Biotechnologies Corp](facts/0001478320/README.md) | ADPT | available; quality gates apply | project_sic_rule |
-| [ADARx Pharmaceuticals, Inc.](facts/0001802369/README.md) | ADRX | missing | project_sic_rule |
-| [ADC Therapeutics SA](facts/0001771910/README.md) | ADCT | available; quality gates apply | project_sic_rule |
-| [Addex Therapeutics Ltd.](facts/0001574232/README.md) | ADXN | missing | project_sic_rule |
-| [Addus HomeCare Corp](facts/0001468328/README.md) | ADUS | available; quality gates apply | project_sic_rule |
-| [ADIAL PHARMACEUTICALS, INC.](facts/0001513525/README.md) | ADIL | available; quality gates apply | project_sic_rule |
-| [Adicet Bio, Inc.](facts/0001720580/README.md) | ACET | available; quality gates apply | project_sic_rule |
-| [Adlai Nortye Group Ltd.](facts/0001944552/README.md) | ANL | missing | project_sic_rule |
-| [ADMA BIOLOGICS, INC.](facts/0001368514/README.md) | ADMA | available; quality gates apply | project_sic_rule |
-| [Advanced Biomed Inc.](facts/0001941029/README.md) | ADVB | available; quality gates apply | project_sic_rule |
-| [AEON Biopharma, Inc.](facts/0001837607/README.md) | AEON | available; quality gates apply | project_sic_rule |
-| [AETHLON MEDICAL INC](facts/0000882291/README.md) | AEMD | available; quality gates apply | project_sic_rule |
-| [Agape ATP Corp](facts/0001713210/README.md) | ATPC | available; quality gates apply | project_sic_rule |
-| [AGENUS INC](facts/0001098972/README.md) | AGEN | available; quality gates apply | project_sic_rule |
-| [agilon health, inc.](facts/0001831097/README.md) | AGL | available; quality gates apply | project_sic_rule |
-| [AGIOS PHARMACEUTICALS, INC.](facts/0001439222/README.md) | AGIO | available; quality gates apply | project_sic_rule |
-| [AIM ImmunoTech Inc.](facts/0000946644/README.md) | AIM | available; quality gates apply | project_sic_rule |
-| [Airsculpt Technologies, Inc.](facts/0001870940/README.md) | AIRS | available; quality gates apply | project_sic_rule |
-| [Akari Therapeutics Plc](facts/0001541157/README.md) | AKTX | available; quality gates apply | project_sic_rule |
-| [Akebia Therapeutics, Inc.](facts/0001517022/README.md) | AKBA | available; quality gates apply | project_sic_rule |
-| [Aktis Oncology, Inc.](facts/0002035832/README.md) | AKTS | available; quality gates apply | project_sic_rule |
-| [Alaunos Therapeutics, Inc.](facts/0001107421/README.md) | TCRT | available; quality gates apply | project_sic_rule |
-| [ALCON INC](facts/0001167379/README.md) | ALC | missing | project_sic_rule |
-| [Aldeyra Therapeutics, Inc.](facts/0001341235/README.md) | ALDX | available; quality gates apply | project_sic_rule |
-| [Alector, Inc.](facts/0001653087/README.md) | ALEC | available; quality gates apply | project_sic_rule |
-| [ALIGN TECHNOLOGY INC](facts/0001097149/README.md) | ALGN | available; quality gates apply | project_sic_rule |
-| [Aligos Therapeutics, Inc.](facts/0001799448/README.md) | ALGS | available; quality gates apply | project_sic_rule |
-| [Alkermes plc.](facts/0001520262/README.md) | ALKS | available; quality gates apply | project_sic_rule |
-| [Allarity Therapeutics, Inc.](facts/0001860657/README.md) | ALLR | available; quality gates apply | project_sic_rule |
-| [Allogene Therapeutics, Inc.](facts/0001737287/README.md) | ALLO | available; quality gates apply | project_sic_rule |
-| [ALNYLAM PHARMACEUTICALS, INC.](facts/0001178670/README.md) | ALNY | available; quality gates apply | project_sic_rule |
-| [Alpha Cognition Inc.](facts/0001655923/README.md) | ACOG | available; quality gates apply | project_sic_rule |
-| [ALPHA PRO TECH LTD](facts/0000884269/README.md) | APT | available; quality gates apply | project_sic_rule |
-| [Alpha Tau Medical Ltd.](facts/0001871321/README.md) | DRTS | missing | project_sic_rule |
-| [Alpha Teknova, Inc.](facts/0001850902/README.md) | TKNO | available; quality gates apply | project_sic_rule |
-| [Alphatec Holdings, Inc.](facts/0001350653/README.md) | ATEC | available; quality gates apply | project_sic_rule |
-| [Alps Group Inc](facts/0002025774/README.md) | ALPS | missing | project_sic_rule |
-| [ALTERITY THERAPEUTICS LTD](facts/0001131343/README.md) | ATHE | missing | project_sic_rule |
-| [Altimmune, Inc.](facts/0001326190/README.md) | ALT | available; quality gates apply | project_sic_rule |
-| [Alto Neuroscience, Inc.](facts/0001999480/README.md) | ANRO | available; quality gates apply | project_sic_rule |
-| [ALUMIS INC.](facts/0001847367/README.md) | ALMS | available; quality gates apply | project_sic_rule |
-| [Alvotech](facts/0001898416/README.md) | ALVO | missing | project_sic_rule |
-| [ALX ONCOLOGY HOLDINGS INC](facts/0001810182/README.md) | ALXO | available; quality gates apply | project_sic_rule |
-| [Alzamend Neuro, Inc.](facts/0001677077/README.md) | ALZN | available; quality gates apply | project_sic_rule |
-| [AMERICAN SHARED HOSPITAL SERVICES](facts/0000744825/README.md) | AMS | available; quality gates apply | project_sic_rule |
-| [AMGEN INC](facts/0000318154/README.md) | AMGN | available; quality gates apply | project_sic_rule |
-| [Amneal Pharmaceuticals, Inc.](facts/0001723128/README.md) | AMRX | available; quality gates apply | project_sic_rule |
-| [Amphastar Pharmaceuticals, Inc.](facts/0001297184/README.md) | AMPH | available; quality gates apply | project_sic_rule |
-| [Amylyx Pharmaceuticals, Inc.](facts/0001658551/README.md) | AMLX | available; quality gates apply | project_sic_rule |
-| [AN2 Therapeutics, Inc.](facts/0001880438/README.md) | ANTX | available; quality gates apply | project_sic_rule |
-| [ANAPTYSBIO, INC](facts/0001370053/README.md) | ANAB | available; quality gates apply | project_sic_rule |
-| [ANAVEX LIFE SCIENCES CORP.](facts/0001314052/README.md) | AVXL | available; quality gates apply | project_sic_rule |
-| [Anbio Biotechnology](facts/0001982708/README.md) | NNNN | missing | project_sic_rule |
-| [ANGIODYNAMICS INC](facts/0001275187/README.md) | ANGO | available; quality gates apply | project_sic_rule |
-| [ANI PHARMACEUTICALS INC](facts/0001023024/README.md) | ANIP | available; quality gates apply | project_sic_rule |
-| [Anika Therapeutics, Inc.](facts/0000898437/README.md) | ANIK | available; quality gates apply | project_sic_rule |
-| [Anixa Biosciences Inc](facts/0000715446/README.md) | ANIX | available; quality gates apply | project_sic_rule |
-| [Annexon, Inc.](facts/0001528115/README.md) | ANNX | available; quality gates apply | project_sic_rule |
-| [Annovis Bio, Inc.](facts/0001477845/README.md) | ANVS | available; quality gates apply | project_sic_rule |
-| [Anteris Technologies Global Corp.](facts/0002011514/README.md) | AVR | available; quality gates apply | project_sic_rule |
-| [Apimeds Pharmaceuticals US, Inc.](facts/0001894525/README.md) | APUS | available; quality gates apply | project_sic_rule |
-| [Apnimed, Inc.](facts/0001745648/README.md) | APMD | available; quality gates apply | project_sic_rule |
-| [Apollomics Inc.](facts/0001944885/README.md) | APLM | missing | project_sic_rule |
-| [Aprea Therapeutics, Inc.](facts/0001781983/README.md) | APRE | available; quality gates apply | project_sic_rule |
-| [Aptevo Therapeutics Inc.](facts/0001671584/README.md) | APVO | available; quality gates apply | project_sic_rule |
-| [Apyx Medical Corp](facts/0000719135/README.md) | APYX | available; quality gates apply | project_sic_rule |
-| [Aquestive Therapeutics, Inc.](facts/0001398733/README.md) | AQST | available; quality gates apply | project_sic_rule |
-| [Arbutus Biopharma Corp](facts/0001447028/README.md) | ABUS | available; quality gates apply | project_sic_rule |
-| [Arcturus Therapeutics Holdings Inc.](facts/0001768224/README.md) | ARCT | available; quality gates apply | project_sic_rule |
-| [Arcus Biosciences, Inc.](facts/0001724521/README.md) | RCUS | available; quality gates apply | project_sic_rule |
-| [Arcutis Biotherapeutics, Inc.](facts/0001787306/README.md) | ARQT | available; quality gates apply | project_sic_rule |
-| [ARDELYX, INC.](facts/0001437402/README.md) | ARDX | available; quality gates apply | project_sic_rule |
-| [Ardent Health, Inc.](facts/0001756655/README.md) | ARDT | available; quality gates apply | project_sic_rule |
-| [ARGENX SE](facts/0001697862/README.md) | ARGX | missing | project_sic_rule |
-| [Armata Pharmaceuticals, Inc.](facts/0000921114/README.md) | ARMP | available; quality gates apply | project_sic_rule |
-| [ArriVent BioPharma, Inc.](facts/0001868279/README.md) | AVBP | available; quality gates apply | project_sic_rule |
-| [ARROWHEAD PHARMACEUTICALS, INC.](facts/0000879407/README.md) | ARWR | available; quality gates apply | project_sic_rule |
-| [ARS Pharmaceuticals, Inc.](facts/0001671858/README.md) | SPRY | available; quality gates apply | project_sic_rule |
-| [ARTELO BIOSCIENCES, INC.](facts/0001621221/README.md) | ARTL | missing | project_sic_rule |
-| [Artiva Biotherapeutics, Inc.](facts/0001817241/README.md) | ARTV | available; quality gates apply | project_sic_rule |
-| [ARTIVION, INC.](facts/0000784199/README.md) | AORT | available; quality gates apply | project_sic_rule |
-| [ARVINAS, INC.](facts/0001655759/README.md) | ARVN | available; quality gates apply | project_sic_rule |
-| [Ascendis Pharma A/S](facts/0001612042/README.md) | ASND | missing | project_sic_rule |
-| [ASCENTAGE PHARMA GROUP INTERNATIONAL](facts/0002023311/README.md) | AAPG | missing | project_sic_rule |
-| [Aspire-Lakewood Holdings, Inc.](facts/0001847345/README.md) | ASBP | available; quality gates apply | project_sic_rule |
-| [ASSEMBLY BIOSCIENCES, INC.](facts/0001426800/README.md) | ASMB | available; quality gates apply | project_sic_rule |
-| [ASTRAZENECA PLC](facts/0000901832/README.md) | AZN | missing | project_sic_rule |
-| [Atara Biotherapeutics, Inc.](facts/0001604464/README.md) | ATRA | available; quality gates apply | project_sic_rule |
-| [Atea Pharmaceuticals, Inc.](facts/0001593899/README.md) | AVIR | available; quality gates apply | project_sic_rule |
-| [ATOSSA THERAPEUTICS, INC.](facts/0001488039/README.md) | ATOS | available; quality gates apply | project_sic_rule |
-| [AtriCure, Inc.](facts/0001323885/README.md) | ATRC | available; quality gates apply | project_sic_rule |
-| [Atrium Therapeutics, Inc.](facts/0002093101/README.md) | RNA | available; quality gates apply | project_sic_rule |
-| [Attovia Therapeutics, Inc.](facts/0002058707/README.md) | ATTO | available; quality gates apply | project_sic_rule |
-| [aTYR PHARMA INC](facts/0001339970/README.md) | ATYR | available; quality gates apply | project_sic_rule |
-| [AUNA S.A.](facts/0001799207/README.md) | AUNA | missing | project_sic_rule |
-| [Aura Biosciences, Inc.](facts/0001501796/README.md) | AURA | available; quality gates apply | project_sic_rule |
-| [Aurinia Pharmaceuticals Inc.](facts/0001600620/README.md) | AUPH | available; quality gates apply | project_sic_rule |
-| [AURORA CANNABIS INC](facts/0001683541/README.md) | ACB | missing | project_sic_rule |
-| [Autolus Therapeutics plc](facts/0001730463/README.md) | AUTL | available; quality gates apply | project_sic_rule |
-| [Autonomix Medical, Inc.](facts/0001617867/README.md) | AMIX | available; quality gates apply | project_sic_rule |
-| [Avalo Therapeutics, Inc.](facts/0001534120/README.md) | AVTX | available; quality gates apply | project_sic_rule |
-| [Avalyn Pharma Inc.](facts/0001540171/README.md) | AVLN | available; quality gates apply | project_sic_rule |
-| [Aveanna Healthcare Holdings, Inc.](facts/0001832332/README.md) | AVAH | available; quality gates apply | project_sic_rule |
-| [AVITA Medical, Inc.](facts/0001762303/README.md) | RCEL | available; quality gates apply | project_sic_rule |
-| [Axogen, Inc.](facts/0000805928/README.md) | AXGN | available; quality gates apply | project_sic_rule |
-| [Axsome Therapeutics, Inc.](facts/0001579428/README.md) | AXSM | available; quality gates apply | project_sic_rule |
-| [AYTU BIOPHARMA, INC](facts/0001385818/README.md) | AYTU | available; quality gates apply | project_sic_rule |
-| [Azitra, Inc.](facts/0001701478/README.md) | AZTR | available; quality gates apply | project_sic_rule |
-| [Baird Medical Investment Holdings Ltd](facts/0001982444/README.md) | BDMD | missing | project_sic_rule |
-| [Basel Medical Group Ltd](facts/0002004489/README.md) | BMGL | missing | project_sic_rule |
-| [Bausch & Lomb Corp](facts/0001860742/README.md) | BLCO | available; quality gates apply | project_sic_rule |
-| [Bausch Health Companies Inc.](facts/0000885590/README.md) | BHC | available; quality gates apply | project_sic_rule |
-| [BAXTER INTERNATIONAL INC](facts/0000010456/README.md) | BAX | available; quality gates apply | project_sic_rule |
-| [Beam Therapeutics Inc.](facts/0001745999/README.md) | BEAM | available; quality gates apply | project_sic_rule |
-| [BECTON DICKINSON & CO](facts/0000010795/README.md) | BDX | available; quality gates apply | project_sic_rule |
-| [BELITE BIO, INC](facts/0001889109/README.md) | BLTE | missing | project_sic_rule |
-| [Benitec Biopharma Inc.](facts/0001808898/README.md) | BNTC | available; quality gates apply | project_sic_rule |
-| [BeOne Medicines Ltd.](facts/0001651308/README.md) | ONC | available; quality gates apply | project_sic_rule |
-| [Beta Bionics, Inc.](facts/0001674632/README.md) | BBNX | available; quality gates apply | project_sic_rule |
-| [Beyond Air, Inc.](facts/0001641631/README.md) | XAIR | available; quality gates apply | project_sic_rule |
-| [BeyondSpring Inc.](facts/0001677940/README.md) | BYSI | available; quality gates apply | project_sic_rule |
-| [BGM Group Ltd.](facts/0001779578/README.md) | BGM | missing | project_sic_rule |
-| [Bicara Therapeutics Inc.](facts/0002023658/README.md) | BCAX | available; quality gates apply | project_sic_rule |
-| [BICYCLE THERAPEUTICS PLC](facts/0001761612/README.md) | BCYC | available; quality gates apply | project_sic_rule |
-| [BillionToOne, Inc.](facts/0002070849/README.md) | BLLN | available; quality gates apply | project_sic_rule |
-| [BIO-TECHNE Corp](facts/0000842023/README.md) | TECH | available; quality gates apply | project_sic_rule |
-| [BioAge Labs, Inc.](facts/0001709941/README.md) | BIOA | available; quality gates apply | project_sic_rule |
-| [BioCardia, Inc.](facts/0000925741/README.md) | BCDA | available; quality gates apply | project_sic_rule |
-| [BIOCRYST PHARMACEUTICALS INC](facts/0000882796/README.md) | BCRX | available; quality gates apply | project_sic_rule |
-| [BIODESIX INC](facts/0001439725/README.md) | BDSX | available; quality gates apply | project_sic_rule |
-| [Biodexa Pharmaceuticals Plc](facts/0001643918/README.md) | BDRX | missing | project_sic_rule |
-| [Biofrontera Inc.](facts/0001858685/README.md) | BFRI | available; quality gates apply | project_sic_rule |
-| [BIOGEN INC.](facts/0000875045/README.md) | BIIB | missing | project_sic_rule |
-| [BIOHARVEST SCIENCES INC.](facts/0001723464/README.md) | BHST | missing | project_sic_rule |
-| [Biohaven Ltd.](facts/0001935979/README.md) | BHVN | available; quality gates apply | project_sic_rule |
-| [BioLineRx Ltd.](facts/0001498403/README.md) | BLRX | missing | project_sic_rule |
-| [BIOMARIN PHARMACEUTICAL INC](facts/0001048477/README.md) | BMRN | available; quality gates apply | project_sic_rule |
-| [Biomea Fusion, Inc.](facts/0001840439/README.md) | BMEA | available; quality gates apply | project_sic_rule |
-| [BIOMERICA INC](facts/0000073290/README.md) | BMRA | available; quality gates apply | project_sic_rule |
-| [BioNexus Gene Lab Corp](facts/0001737523/README.md) | BGLC | available; quality gates apply | project_sic_rule |
-| [BioNTech SE](facts/0001776985/README.md) | BNTX | missing | project_sic_rule |
-| [BioRestorative Therapies, Inc.](facts/0001505497/README.md) | BRTX | available; quality gates apply | project_sic_rule |
-| [BioStem Technologies, Inc.](facts/0001658678/README.md) | BSEM | available; quality gates apply | project_sic_rule |
-| [biote Corp.](facts/0001819253/README.md) | BTMD | available; quality gates apply | project_sic_rule |
-| [Bioventus Inc.](facts/0001665988/README.md) | BVS | available; quality gates apply | project_sic_rule |
-| [BIOVIE INC.](facts/0001580149/README.md) | BIVI | available; quality gates apply | project_sic_rule |
-| [Black Diamond Therapeutics, Inc.](facts/0001701541/README.md) | BDTX | available; quality gates apply | project_sic_rule |
-| [Black Hawk Acquisition Corp](facts/0002000775/README.md) | BKHA | available; quality gates apply | project_sic_rule |
-| [BlossomHill Therapeutics, Inc.](facts/0001839970/README.md) | BLSM | available; quality gates apply | project_sic_rule |
-| [Bluejay Diagnostics, Inc.](facts/0001704287/README.md) | BJDX | available; quality gates apply | project_sic_rule |
-| [Bolt Biotherapeutics, Inc.](facts/0001641281/README.md) | BOLT | available; quality gates apply | project_sic_rule |
-| [Bon Natural Life Ltd](facts/0001816815/README.md) | BON | missing | project_sic_rule |
-| [Bone Biologics Corp](facts/0001419554/README.md) | BBLG | available; quality gates apply | project_sic_rule |
-| [BOSTON SCIENTIFIC CORP](facts/0000885725/README.md) | BSX | available; quality gates apply | project_sic_rule |
-| [Boundless Bio, Inc.](facts/0001782303/README.md) | BOLD | available; quality gates apply | project_sic_rule |
-| [Brainsway Ltd.](facts/0001505065/README.md) | BWAY | missing | project_sic_rule |
-| [Braveheart Bio, Inc.](facts/0002131524/README.md) | BRVE | available; quality gates apply | project_sic_rule |
-| [BriaCell Therapeutics Corp.](facts/0001610820/README.md) | BCTX | available; quality gates apply | project_sic_rule |
-| [BridgeBio Oncology Therapeutics, Inc.](facts/0001869105/README.md) | BBOT | available; quality gates apply | project_sic_rule |
-| [BridgeBio Pharma, Inc.](facts/0001743881/README.md) | BBIO | available; quality gates apply | project_sic_rule |
-| [BRIGHT MINDS BIOSCIENCES INC.](facts/0001827401/README.md) | DRUG | missing | project_sic_rule |
-| [BrightSpring Health Services, Inc.](facts/0001865782/README.md) | BTSG | available; quality gates apply | project_sic_rule |
-| [BRISTOL MYERS SQUIBB CO](facts/0000014272/README.md) | BMY | available; quality gates apply | project_sic_rule |
-| [Brookdale Senior Living Inc.](facts/0001332349/README.md) | BKD | available; quality gates apply | project_sic_rule |
-| [BullFrog AI Holdings, Inc.](facts/0001829247/README.md) | BFRG | available; quality gates apply | project_sic_rule |
-| [Burning Rock Biotech Ltd](facts/0001792267/README.md) | BNR | missing | project_sic_rule |
-| [Butterfly Network, Inc.](facts/0001804176/README.md) | BFLY | available; quality gates apply | project_sic_rule |
-| [C4 Therapeutics, Inc.](facts/0001662579/README.md) | CCCC | available; quality gates apply | project_sic_rule |
-| [Cabaletta Bio, Inc.](facts/0001759138/README.md) | CABA | available; quality gates apply | project_sic_rule |
-| [Cadre Holdings, Inc.](facts/0001860543/README.md) | CDRE | available; quality gates apply | project_sic_rule |
-| [Cadrenal Therapeutics, Inc.](facts/0001937993/README.md) | CVKD | available; quality gates apply | project_sic_rule |
-| [CalciMedica, Inc.](facts/0001534133/README.md) | CALC | available; quality gates apply | project_sic_rule |
-| [Calidi Biotherapeutics, Inc.](facts/0001855485/README.md) | CLDI | available; quality gates apply | project_sic_rule |
-| [Camp4 Therapeutics Corp](facts/0001736730/README.md) | CAMP | available; quality gates apply | project_sic_rule |
-| [Can-Fite BioPharma Ltd.](facts/0001536196/README.md) | CANF | missing | project_sic_rule |
-| [Candel Therapeutics, Inc.](facts/0001841387/README.md) | CADL | available; quality gates apply | project_sic_rule |
-| [Canopy Growth Corp](facts/0001737927/README.md) | CGC | missing | project_sic_rule |
-| [CAPRICOR THERAPEUTICS, INC.](facts/0001133869/README.md) | CAPR | available; quality gates apply | project_sic_rule |
-| [CapsoVision, Inc](facts/0001378325/README.md) | CV | available; quality gates apply | project_sic_rule |
-| [Cardiff Oncology, Inc.](facts/0001213037/README.md) | CRDF | available; quality gates apply | project_sic_rule |
-| [CARDINAL HEALTH INC](facts/0000721371/README.md) | CAH | available; quality gates apply | project_sic_rule |
-| [Cardio Diagnostics Holdings, Inc.](facts/0001870144/README.md) | CDIO | available; quality gates apply | project_sic_rule |
-| [Cardiol Therapeutics Inc.](facts/0001702123/README.md) | CRDL | missing | project_sic_rule |
-| [CareDx, Inc.](facts/0001217234/README.md) | CDNA | available; quality gates apply | project_sic_rule |
-| [Caribou Biosciences, Inc.](facts/0001619856/README.md) | CRBU | available; quality gates apply | project_sic_rule |
-| [Caris Life Sciences, Inc.](facts/0002019410/README.md) | CAI | available; quality gates apply | project_sic_rule |
-| [CARLSMED, INC.](facts/0001794546/README.md) | CARL | available; quality gates apply | project_sic_rule |
-| [Cartesian Therapeutics, Inc.](facts/0001453687/README.md) | RNAC | available; quality gates apply | project_sic_rule |
-| [CASTLE BIOSCIENCES INC](facts/0001447362/README.md) | CSTL | available; quality gates apply | project_sic_rule |
-| [CDT Equity Inc.](facts/0001896212/README.md) | CDT | available; quality gates apply | project_sic_rule |
-| [CEL SCI CORP](facts/0000725363/README.md) | CVM | available; quality gates apply | project_sic_rule |
-| [Celcuity Inc.](facts/0001603454/README.md) | CELC | available; quality gates apply | project_sic_rule |
-| [Celldex Therapeutics, Inc.](facts/0000744218/README.md) | CLDX | available; quality gates apply | project_sic_rule |
-| [Cellectar Biosciences, Inc.](facts/0001279704/README.md) | CLRB | available; quality gates apply | project_sic_rule |
-| [Cellectis S.A.](facts/0001627281/README.md) | CLLS | missing | project_sic_rule |
-| [Cellyan Biotechnology Co., Ltd](facts/0002007702/README.md) | HKPD | missing | project_sic_rule |
-| [Celularity Inc](facts/0001752828/README.md) | CELU | available; quality gates apply | project_sic_rule |
-| [Cencora, Inc.](facts/0001140859/README.md) | COR | available; quality gates apply | project_sic_rule |
-| [Century Therapeutics, Inc.](facts/0001850119/README.md) | IPSC | available; quality gates apply | project_sic_rule |
-| [CERENOME, INC.](facts/0001095981/README.md) | CNSY | available; quality gates apply | project_sic_rule |
-| [Ceribell, Inc.](facts/0001861107/README.md) | CBLL | available; quality gates apply | project_sic_rule |
-| [CERUS CORP](facts/0001020214/README.md) | CERS | available; quality gates apply | project_sic_rule |
-| [CervoMed Inc.](facts/0001053691/README.md) | CRVO | available; quality gates apply | project_sic_rule |
-| [CG Oncology, Inc.](facts/0001991792/README.md) | CGON | available; quality gates apply | project_sic_rule |
-| [CHAMPIONS ONCOLOGY, INC.](facts/0000771856/README.md) | CSBR | available; quality gates apply | project_sic_rule |
-| [Charming Medical Ltd](facts/0002035992/README.md) | MCTA | missing | project_sic_rule |
-| [CHEMED CORP](facts/0000019584/README.md) | CHE | available; quality gates apply | project_sic_rule |
-| [Chemomab Therapeutics Ltd.](facts/0001534248/README.md) | CMMB | available; quality gates apply | project_sic_rule |
-| [CHINA PHARMA HOLDINGS, INC.](facts/0001106644/README.md) | CPHI | available; quality gates apply | project_sic_rule |
-| [China SXT Pharmaceuticals, Inc.](facts/0001723980/README.md) | SXTC | missing | project_sic_rule |
-| [Cingulate Inc.](facts/0001862150/README.md) | CING | available; quality gates apply | project_sic_rule |
-| [CITIUS ONCOLOGY, INC.](facts/0001851484/README.md) | CTOR | available; quality gates apply | project_sic_rule |
-| [Citius Pharmaceuticals, Inc.](facts/0001506251/README.md) | CTXR | available; quality gates apply | project_sic_rule |
-| [CITY THERAPEUTICS, INC.](facts/0002143850/README.md) | CTY | missing | project_sic_rule |
-| [Clearmind Medicine Inc.](facts/0001892500/README.md) | CMND | missing | project_sic_rule |
-| [ClearPoint Neuro, Inc.](facts/0001285550/README.md) | CLPT | available; quality gates apply | project_sic_rule |
-| [Clene Inc.](facts/0001822791/README.md) | CLNN | available; quality gates apply | project_sic_rule |
-| [Climb Bio, Inc.](facts/0001768446/README.md) | CLYM | available; quality gates apply | project_sic_rule |
-| [CNS Pharmaceuticals, Inc.](facts/0001729427/README.md) | CNSP | available; quality gates apply | project_sic_rule |
-| [Co-Diagnostics, Inc.](facts/0001692415/README.md) | CODX | available; quality gates apply | project_sic_rule |
-| [Cocrystal Pharma, Inc.](facts/0001412486/README.md) | COCP | available; quality gates apply | project_sic_rule |
-| [Cogent Biosciences, Inc.](facts/0001622229/README.md) | COGT | available; quality gates apply | project_sic_rule |
-| [COGNITION THERAPEUTICS INC](facts/0001455365/README.md) | CGTX | available; quality gates apply | project_sic_rule |
-| [Coherus Oncology, Inc.](facts/0001512762/README.md) | CHRS | available; quality gates apply | project_sic_rule |
-| [COLLEGIUM PHARMACEUTICAL, INC](facts/0001267565/README.md) | COLL | available; quality gates apply | project_sic_rule |
-| [CollPlant Biotechnologies Ltd](facts/0001631487/README.md) | CLGN | missing | project_sic_rule |
-| [COMMUNITY HEALTH SYSTEMS INC](facts/0001108109/README.md) | CYH | available; quality gates apply | project_sic_rule |
-| [COMPASS Pathways plc](facts/0001816590/README.md) | CMPS | available; quality gates apply | project_sic_rule |
-| [Compass Therapeutics, Inc.](facts/0001738021/README.md) | CMPX | available; quality gates apply | project_sic_rule |
-| [COMPUGEN LTD](facts/0001119774/README.md) | CGEN | missing | project_sic_rule |
-| [Concentra Group Holdings Parent, Inc.](facts/0002014596/README.md) | CON | available; quality gates apply | project_sic_rule |
-| [Concord Medical Services Holdings Ltd](facts/0001472072/README.md) | CCM | missing | project_sic_rule |
-| [Conexeu Sciences Inc.](facts/0002066836/README.md) | CNXU | available; quality gates apply | project_sic_rule |
-| [CONMED Corp](facts/0000816956/README.md) | CNMD | available; quality gates apply | project_sic_rule |
-| [Connect Biopharma Holdings Ltd](facts/0001835268/README.md) | CNTB | available; quality gates apply | project_sic_rule |
-| [Context Therapeutics Inc.](facts/0001842952/README.md) | CNTX | available; quality gates apply | project_sic_rule |
-| [Contineum Therapeutics, Inc.](facts/0001855175/README.md) | CTNM | available; quality gates apply | project_sic_rule |
-| [COOPER COMPANIES, INC.](facts/0000711404/README.md) | COO | available; quality gates apply | project_sic_rule |
-| [Corbus Pharmaceuticals Holdings, Inc.](facts/0001595097/README.md) | CRBP | available; quality gates apply | project_sic_rule |
-| [CORCEPT THERAPEUTICS INC](facts/0001088856/README.md) | CORT | available; quality gates apply | project_sic_rule |
-| [CorMedix Inc.](facts/0001410098/README.md) | CRMD | available; quality gates apply | project_sic_rule |
-| [Corvus Pharmaceuticals, Inc.](facts/0001626971/README.md) | CRVS | available; quality gates apply | project_sic_rule |
-| [Cosmos Health Inc.](facts/0001474167/README.md) | COSM | available; quality gates apply | project_sic_rule |
-| [Coya Therapeutics, Inc.](facts/0001835022/README.md) | COYA | available; quality gates apply | project_sic_rule |
-| [CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.](facts/0001187953/README.md) | CELZ | available; quality gates apply | project_sic_rule |
-| [CRESCENT BIOPHARMA, INC.](facts/0001253689/README.md) | CBIO | available; quality gates apply | project_sic_rule |
-| [CRISPR Therapeutics AG](facts/0001674416/README.md) | CRSP | available; quality gates apply | project_sic_rule |
-| [Cronos Group Inc.](facts/0001656472/README.md) | CRON | available; quality gates apply | project_sic_rule |
-| [CRYO CELL INTERNATIONAL INC](facts/0000862692/README.md) | CCEL | available; quality gates apply | project_sic_rule |
-| [Cryoport, Inc.](facts/0001124524/README.md) | CYRX | available; quality gates apply | project_sic_rule |
-| [Cue Biopharma, Inc.](facts/0001645460/README.md) | CUE | available; quality gates apply | project_sic_rule |
-| [Cullinan Therapeutics, Inc.](facts/0001789972/README.md) | CGEM | available; quality gates apply | project_sic_rule |
-| [CUMBERLAND PHARMACEUTICALS INC](facts/0001087294/README.md) | CPIX | available; quality gates apply | project_sic_rule |
-| [Cuprina Holdings (Cayman) LTD](facts/0001995704/README.md) | CUPR | missing | project_sic_rule |
-| [Curanex Pharmaceuticals Inc](facts/0002025942/README.md) | CURX | available; quality gates apply | project_sic_rule |
-| [CURIS INC](facts/0001108205/README.md) | CRIS | available; quality gates apply | project_sic_rule |
-| [CVRx, Inc.](facts/0001235912/README.md) | CVRX | available; quality gates apply | project_sic_rule |
-| [CYPHERPUNK TECHNOLOGIES INC.](facts/0001509745/README.md) | CYPH | available; quality gates apply | project_sic_rule |
-| [CYTOKINETICS INC](facts/0001061983/README.md) | CYTK | available; quality gates apply | project_sic_rule |
-| [CytoMed Therapeutics Ltd](facts/0001873093/README.md) | GDTC | missing | project_sic_rule |
-| [CytomX Therapeutics, Inc.](facts/0001501989/README.md) | CTMX | available; quality gates apply | project_sic_rule |
-| [Cytosorbents Corp](facts/0001175151/README.md) | CTSO | available; quality gates apply | project_sic_rule |
-| [Damora Therapeutics, Inc.](facts/0001800315/README.md) | DMRA | available; quality gates apply | project_sic_rule |
-| [Dare Bioscience, Inc.](facts/0001401914/README.md) | DARE | available; quality gates apply | project_sic_rule |
-| [DarioHealth Corp.](facts/0001533998/README.md) | DRIO | available; quality gates apply | project_sic_rule |
-| [DataMeds AI, Inc.](facts/0002030763/README.md) | MEDS | available; quality gates apply | project_sic_rule |
-| [DAVITA INC.](facts/0000927066/README.md) | DVA | available; quality gates apply | project_sic_rule |
-| [DBV Technologies S.A.](facts/0001613780/README.md) | DBVT | available; quality gates apply | project_sic_rule |
-| [Decoy Therapeutics Inc.](facts/0001615219/README.md) | DCOY | available; quality gates apply | project_sic_rule |
-| [Definium Therapeutics, Inc.](facts/0001813814/README.md) | DFTX | available; quality gates apply | project_sic_rule |
-| [DELCATH SYSTEMS, INC.](facts/0000872912/README.md) | DCTH | available; quality gates apply | project_sic_rule |
-| [Denali Therapeutics Inc.](facts/0001714899/README.md) | DNLI | available; quality gates apply | project_sic_rule |
-| [DENTSPLY SIRONA Inc.](facts/0000818479/README.md) | XRAY | available; quality gates apply | project_sic_rule |
-| [Dermata Therapeutics, Inc.](facts/0001853816/README.md) | DRMA | available; quality gates apply | project_sic_rule |
-| [Design Therapeutics, Inc.](facts/0001807120/README.md) | DSGN | available; quality gates apply | project_sic_rule |
-| [DEXCOM INC](facts/0001093557/README.md) | DXCM | available; quality gates apply | project_sic_rule |
-| [DiaMedica Therapeutics Inc.](facts/0001401040/README.md) | DMAC | available; quality gates apply | project_sic_rule |
-| [Dianthus Therapeutics, Inc. /DE/](facts/0001690585/README.md) | DNTH | available; quality gates apply | project_sic_rule |
-| [Disc Medicine, Inc.](facts/0001816736/README.md) | IRON | available; quality gates apply | project_sic_rule |
-| [DocGo Inc.](facts/0001822359/README.md) | DCGO | available; quality gates apply | project_sic_rule |
-| [Dogwood Therapeutics, Inc.](facts/0001818844/README.md) | DWTX | available; quality gates apply | project_sic_rule |
-| [DR REDDYS LABORATORIES LTD](facts/0001135951/README.md) | RDY | missing | project_sic_rule |
-| [DYADIC INTERNATIONAL INC](facts/0001213809/README.md) | DYAI | available; quality gates apply | project_sic_rule |
-| [Dyne Therapeutics, Inc.](facts/0001818794/README.md) | DYN | available; quality gates apply | project_sic_rule |
-| [EDAP TMS SA](facts/0001041934/README.md) | FOCL | available; quality gates apply | project_sic_rule |
-| [Edesa Biotech, Inc.](facts/0001540159/README.md) | EDSA | available; quality gates apply | project_sic_rule |
-| [Edgewise Therapeutics, Inc.](facts/0001710072/README.md) | EWTX | available; quality gates apply | project_sic_rule |
-| [Editas Medicine, Inc.](facts/0001650664/README.md) | EDIT | available; quality gates apply | project_sic_rule |
-| [Edwards Lifesciences Corp](facts/0001099800/README.md) | EW | available; quality gates apply | project_sic_rule |
-| [Eikon Therapeutics, Inc.](facts/0001861123/README.md) | EIKN | available; quality gates apply | project_sic_rule |
-| [Elanco Animal Health Inc](facts/0001739104/README.md) | ELAN | available; quality gates apply | project_sic_rule |
-| [Electra Therapeutics, Inc.](facts/0002088082/README.md) | ETRA | missing | project_sic_rule |
-| [electroCore, Inc.](facts/0001560258/README.md) | ECOR | available; quality gates apply | project_sic_rule |
-| [Electromed, Inc.](facts/0001488917/README.md) | ELMD | available; quality gates apply | project_sic_rule |
-| [Eledon Pharmaceuticals, Inc.](facts/0001404281/README.md) | ELDN | available; quality gates apply | project_sic_rule |
-| [ELI LILLY & Co](facts/0000059478/README.md) | LLY | available; quality gates apply | project_sic_rule |
-| [Elicio Therapeutics, Inc.](facts/0001601485/README.md) | ELTX | available; quality gates apply | project_sic_rule |
-| [Eloxx Pharmaceuticals, Inc.](facts/0001035354/README.md) | ELOX | available; quality gates apply | project_sic_rule |
-| [ELUTIA INC.](facts/0001708527/README.md) | ELUT | available; quality gates apply | project_sic_rule |
-| [Embecta Corp.](facts/0001872789/README.md) | EMBC | available; quality gates apply | project_sic_rule |
-| [Emergent BioSolutions Inc.](facts/0001367644/README.md) | EBS | available; quality gates apply | project_sic_rule |
-| [ENANTA PHARMACEUTICALS INC](facts/0001177648/README.md) | ENTA | available; quality gates apply | project_sic_rule |
-| [Encompass Health Corp](facts/0000785161/README.md) | EHC | available; quality gates apply | project_sic_rule |
-| [ENDRA Life Sciences Inc.](facts/0001681682/README.md) | NDRA | available; quality gates apply | project_sic_rule |
-| [enGene Therapeutics Inc.](facts/0001980845/README.md) | ENGN | available; quality gates apply | project_sic_rule |
-| [Enliven Therapeutics, Inc.](facts/0001672619/README.md) | ELVN | available; quality gates apply | project_sic_rule |
-| [Enovis CORP](facts/0001420800/README.md) | ENOV | available; quality gates apply | project_sic_rule |
-| [ENSIGN GROUP, INC](facts/0001125376/README.md) | ENSG | available; quality gates apply | project_sic_rule |
-| [Ensysce Biosciences, Inc.](facts/0001716947/README.md) | ENSC | available; quality gates apply | project_sic_rule |
-| [Entera Bio Ltd.](facts/0001638097/README.md) | ENTX | available; quality gates apply | project_sic_rule |
-| [Entrada Therapeutics, Inc.](facts/0001689375/README.md) | TRDA | available; quality gates apply | project_sic_rule |
-| [Enveric Biosciences, Inc.](facts/0000890821/README.md) | ENVB | available; quality gates apply | project_sic_rule |
-| [Envista Holdings Corp](facts/0001757073/README.md) | NVST | available; quality gates apply | project_sic_rule |
-| [Envoy Medical, Inc.](facts/0001840877/README.md) | COCH | available; quality gates apply | project_sic_rule |
-| [enVVeno Medical Corp](facts/0001661053/README.md) | NVNO | available; quality gates apply | project_sic_rule |
-| [Equillium, Inc.](facts/0001746466/README.md) | EQ | available; quality gates apply | project_sic_rule |
-| [Erasca, Inc.](facts/0001761918/README.md) | ERAS | available; quality gates apply | project_sic_rule |
-| [Ernexa Therapeutics Inc.](facts/0000748592/README.md) | ERNA | available; quality gates apply | project_sic_rule |
-| [ESTABLISHMENT LABS HOLDINGS INC.](facts/0001688757/README.md) | ESTA | available; quality gates apply | project_sic_rule |
-| [Estrella Immunopharma, Inc.](facts/0001844417/README.md) | ESLA | available; quality gates apply | project_sic_rule |
-| [Eton Pharmaceuticals, Inc.](facts/0001710340/README.md) | ETON | available; quality gates apply | project_sic_rule |
-| [EUDA Health Holdings Ltd](facts/0001847846/README.md) | EUDA | available; quality gates apply | project_sic_rule |
-| [EUPRAXIA PHARMACEUTICALS INC.](facts/0001581178/README.md) | EPRX | missing | project_sic_rule |
-| [Evaxion A/S](facts/0001828253/README.md) | EVAX | missing | project_sic_rule |
-| [Evolus, Inc.](facts/0001570562/README.md) | EOLS | available; quality gates apply | project_sic_rule |
-| [Evommune, Inc.](facts/0002044725/README.md) | EVMN | available; quality gates apply | project_sic_rule |
-| [Evotec SE](facts/0001412558/README.md) | EVO | missing | project_sic_rule |
-| [EXAGEN INC.](facts/0001274737/README.md) | XGN | available; quality gates apply | project_sic_rule |
-| [EXELIXIS, INC.](facts/0000939767/README.md) | EXEL | available; quality gates apply | project_sic_rule |
-| [EXICURE, INC.](facts/0001698530/README.md) | XCUR | available; quality gates apply | project_sic_rule |
-| [EXOZYMES INC.](facts/0002010788/README.md) | EXOZ | available; quality gates apply | project_sic_rule |
-| [Faeth Therapeutics, Inc.](facts/0001829802/README.md) | FTH | available; quality gates apply | project_sic_rule |
-| [FATE THERAPEUTICS INC](facts/0001434316/README.md) | FATE | available; quality gates apply | project_sic_rule |
-| [FEMASYS INC](facts/0001339005/README.md) | FEMY | available; quality gates apply | project_sic_rule |
-| [FENNEC PHARMACEUTICALS INC.](facts/0001211583/README.md) | FENC | available; quality gates apply | project_sic_rule |
-| [FibroBiologics, Inc.](facts/0001958777/README.md) | FBLG | available; quality gates apply | project_sic_rule |
-| [FILANA THERAPEUTICS, INC.](facts/0001069530/README.md) | FLNA | missing | project_sic_rule |
-| [First Tracks Biotherapeutics, Inc.](facts/0002091349/README.md) | TRAX | available; quality gates apply | project_sic_rule |
-| [FITLIFE BRANDS, INC.](facts/0001374328/README.md) | FTLF | available; quality gates apply | project_sic_rule |
-| [Flyte Aviation, Inc.](facts/0001716621/README.md) | VJET | available; quality gates apply | project_sic_rule |
-| [Foghorn Therapeutics Inc.](facts/0001822462/README.md) | FHTX | available; quality gates apply | project_sic_rule |
-| [Fortrea Holdings Inc.](facts/0001965040/README.md) | FTRE | available; quality gates apply | project_sic_rule |
-| [Fortress Biotech, Inc.](facts/0001429260/README.md) | FBIO | available; quality gates apply | project_sic_rule |
-| [FRACTYL HEALTH, INC.](facts/0001572616/README.md) | GUTS | available; quality gates apply | project_sic_rule |
-| [Freenome, Inc.](facts/0002017526/README.md) | FRNM | available; quality gates apply | project_sic_rule |
-| [Fresenius Medical Care AG](facts/0001333141/README.md) | FMS | missing | project_sic_rule |
-| [Fulcrum Therapeutics, Inc.](facts/0001680581/README.md) | FULC | available; quality gates apply | project_sic_rule |
-| [Fulgent Genetics, Inc.](facts/0001674930/README.md) | FLGT | available; quality gates apply | project_sic_rule |
-| [Gain Therapeutics, Inc.](facts/0001819411/README.md) | GANX | available; quality gates apply | project_sic_rule |
-| [GALECTIN THERAPEUTICS INC](facts/0001133416/README.md) | GALT | available; quality gates apply | project_sic_rule |
-| [GE HealthCare Technologies Inc.](facts/0001932393/README.md) | GEHC | missing | project_sic_rule |
-| [Gelteq Ltd](facts/0001920092/README.md) | GELS | missing | project_sic_rule |
-| [GeneDx Holdings Corp.](facts/0001818331/README.md) | WGS | available; quality gates apply | project_sic_rule |
-| [GENELUX Corp](facts/0001231457/README.md) | GNLX | available; quality gates apply | project_sic_rule |
-| [Genenta Science S.p.A.](facts/0001838716/README.md) | GNTA | missing | project_sic_rule |
-| [Generate Biomedicines, Inc.](facts/0002100782/README.md) | GENB | available; quality gates apply | project_sic_rule |
-| [GENMAB A/S](facts/0001434265/README.md) | GMAB | missing | project_sic_rule |
-| [Genprex, Inc.](facts/0001595248/README.md) | GNPX | available; quality gates apply | project_sic_rule |
-| [GeoVax Labs, Inc.](facts/0000832489/README.md) | GOVX | available; quality gates apply | project_sic_rule |
-| [GERON CORP](facts/0000886744/README.md) | GERN | available; quality gates apply | project_sic_rule |
-| [GH Research PLC](facts/0001855129/README.md) | GHRS | missing | project_sic_rule |
-| [GILEAD SCIENCES, INC.](facts/0000882095/README.md) | GILD | available; quality gates apply | project_sic_rule |
-| [Ginkgo Bioworks Holdings, Inc.](facts/0001830214/README.md) | DNA | available; quality gates apply | project_sic_rule |
-| [GLAUKOS Corp](facts/0001192448/README.md) | GKOS | available; quality gates apply | project_sic_rule |
-| [GLOBUS MEDICAL INC](facts/0001237831/README.md) | GMED | available; quality gates apply | project_sic_rule |
-| [Glucotrack, Inc.](facts/0001506983/README.md) | GCTK | available; quality gates apply | project_sic_rule |
-| [Gossamer Bio, Inc.](facts/0001728117/README.md) | GOSS | available; quality gates apply | project_sic_rule |
-| [Grace Therapeutics, Inc.](facts/0001444192/README.md) | GRCE | available; quality gates apply | project_sic_rule |
-| [GRAIL, Inc.](facts/0001699031/README.md) | GRAL | available; quality gates apply | project_sic_rule |
-| [Greenland Mines Ltd](facts/0001907223/README.md) | GRML | available; quality gates apply | project_sic_rule |
-| [Greenwich LifeSciences, Inc.](facts/0001799788/README.md) | GLSI | available; quality gates apply | project_sic_rule |
-| [GRI Bio, Inc.](facts/0001824293/README.md) | GRI | available; quality gates apply | project_sic_rule |
-| [Grifols SA](facts/0001438569/README.md) | GRFS | missing | project_sic_rule |
-| [GSK plc](facts/0001131399/README.md) | GSK | missing | project_sic_rule |
-| [GT Biopharma, Inc.](facts/0000109657/README.md) | GTBP | available; quality gates apply | project_sic_rule |
-| [Guardant Health, Inc.](facts/0001576280/README.md) | GH | available; quality gates apply | project_sic_rule |
-| [GYRE THERAPEUTICS, INC.](facts/0001124105/README.md) | GYRE | available; quality gates apply | project_sic_rule |
-| [HAEMONETICS CORP](facts/0000313143/README.md) | HAE | available; quality gates apply | project_sic_rule |
-| [HALOZYME THERAPEUTICS, INC.](facts/0001159036/README.md) | HALO | available; quality gates apply | project_sic_rule |
-| [Harmony Biosciences Holdings, Inc.](facts/0001802665/README.md) | HRMY | available; quality gates apply | project_sic_rule |
-| [HARROW, INC.](facts/0001360214/README.md) | HROW | available; quality gates apply | project_sic_rule |
-| [HCA Healthcare, Inc.](facts/0000860730/README.md) | HCA | missing | project_sic_rule |
-| [HCW Biologics Inc.](facts/0001828673/README.md) | HCWB | available; quality gates apply | project_sic_rule |
-| [HEALTHCARE SERVICES GROUP INC](facts/0000731012/README.md) | HCSG | available; quality gates apply | project_sic_rule |
-| [HeartBeam, Inc.](facts/0001779372/README.md) | BEAT | available; quality gates apply | project_sic_rule |
-| [Heartflow, Inc.](facts/0001464521/README.md) | HTFL | available; quality gates apply | project_sic_rule |
-| [Helus Pharma Inc.](facts/0001833141/README.md) | HELP | missing | project_sic_rule |
-| [Hemab Therapeutics Holdings, Inc.](facts/0002114044/README.md) | COAG | available; quality gates apply | project_sic_rule |
-| [HENRY SCHEIN INC](facts/0001000228/README.md) | HSIC | available; quality gates apply | project_sic_rule |
-| [HERBALIFE LTD.](facts/0001180262/README.md) | HLF | available; quality gates apply | project_sic_rule |
-| [HERON THERAPEUTICS, INC. /DE/](facts/0000818033/README.md) | HRTX | available; quality gates apply | project_sic_rule |
-| [Hims & Hers Health, Inc.](facts/0001773751/README.md) | HIMS | available; quality gates apply | project_sic_rule |
-| [Humacyte, Inc.](facts/0001818382/README.md) | HUMA | available; quality gates apply | project_sic_rule |
-| [HUTCHMED (China) Ltd](facts/0001648257/README.md) | HCM | missing | project_sic_rule |
-| [Hyperfine, Inc.](facts/0001833769/README.md) | HYPR | available; quality gates apply | project_sic_rule |
-| [Iambic Therapeutics, Inc.](facts/0001997038/README.md) | IAM | missing | project_sic_rule |
-| [iBio, Inc.](facts/0001420720/README.md) | IBIO | available; quality gates apply | project_sic_rule |
-| [IceCure Medical Ltd.](facts/0001584371/README.md) | ICCM | missing | project_sic_rule |
-| [ICU MEDICAL INC/DE](facts/0000883984/README.md) | ICUI | available; quality gates apply | project_sic_rule |
-| [IDEAYA Biosciences, Inc.](facts/0001676725/README.md) | IDYA | available; quality gates apply | project_sic_rule |
-| [IDEXX LABORATORIES INC /DE](facts/0000874716/README.md) | IDXX | available; quality gates apply | project_sic_rule |
-| [IGC Pharma, Inc.](facts/0001326205/README.md) | IGC | available; quality gates apply | project_sic_rule |
-| [IM Cannabis Corp.](facts/0001792030/README.md) | IMCC | missing | project_sic_rule |
-| [ImageneBio, Inc.](facts/0001835579/README.md) | IMA | available; quality gates apply | project_sic_rule |
-| [Immatics N.V.](facts/0001809196/README.md) | IMTX | missing | project_sic_rule |
-| [Immix Biopharma, Inc.](facts/0001873835/README.md) | IMMX | available; quality gates apply | project_sic_rule |
-| [IMMUCELL CORP /DE/](facts/0000811641/README.md) | ICCC | available; quality gates apply | project_sic_rule |
-| [Immuneering Corp](facts/0001790340/README.md) | IMRX | available; quality gates apply | project_sic_rule |
-| [IMMUNIC, INC.](facts/0001280776/README.md) | IMUX | available; quality gates apply | project_sic_rule |
-| [ImmunityBio, Inc.](facts/0001326110/README.md) | IBRX | available; quality gates apply | project_sic_rule |
-| [Immunocore Holdings plc](facts/0001671927/README.md) | IMCR | available; quality gates apply | project_sic_rule |
-| [Immunome Inc.](facts/0001472012/README.md) | IMNM | available; quality gates apply | project_sic_rule |
-| [Immunovant, Inc.](facts/0001764013/README.md) | IMVT | available; quality gates apply | project_sic_rule |
-| [Immuron Ltd](facts/0001660046/README.md) | IMRN | missing | project_sic_rule |
-| [IMMUTEP Ltd](facts/0001506184/README.md) | IMMP | missing | project_sic_rule |
-| [IMPACT BIOMEDICAL INC.](facts/0001834105/README.md) | IBO | available; quality gates apply | project_sic_rule |
-| [Imunon, Inc.](facts/0000749647/README.md) | IMNN | available; quality gates apply | project_sic_rule |
-| [IN8BIO, INC.](facts/0001740279/README.md) | INAB | available; quality gates apply | project_sic_rule |
-| [Incannex Healthcare Inc.](facts/0001873875/README.md) | IXHL | available; quality gates apply | project_sic_rule |
-| [Indaptus Therapeutics, Inc.](facts/0001857044/README.md) | INDP | available; quality gates apply | project_sic_rule |
-| [Indivior Pharmaceuticals, Inc.](facts/0001625297/README.md) | INDV | available; quality gates apply | project_sic_rule |
-| [InflaRx N.V.](facts/0001708688/README.md) | IFRX | missing | project_sic_rule |
-| [Inhibikase Therapeutics, Inc.](facts/0001750149/README.md) | IKT | available; quality gates apply | project_sic_rule |
-| [Inhibrx Biosciences, Inc.](facts/0002007919/README.md) | INBX | available; quality gates apply | project_sic_rule |
-| [InMed Pharmaceuticals Inc.](facts/0001728328/README.md) | INM | available; quality gates apply | project_sic_rule |
-| [InMode Ltd.](facts/0001742692/README.md) | INMD | missing | project_sic_rule |
-| [Inmune Bio, Inc.](facts/0001711754/README.md) | INMB | available; quality gates apply | project_sic_rule |
-| [Innate Pharma SA](facts/0001598599/README.md) | IPHA | missing | project_sic_rule |
-| [InnovAge Holding Corp.](facts/0001834376/README.md) | INNV | available; quality gates apply | project_sic_rule |
-| [Innovative Eyewear Inc](facts/0001808377/README.md) | LUCY | available; quality gates apply | project_sic_rule |
-| [Innoviva, Inc.](facts/0001080014/README.md) | INVA | available; quality gates apply | project_sic_rule |
-| [Inogen Inc](facts/0001294133/README.md) | INGN | available; quality gates apply | project_sic_rule |
-| [INOVIO PHARMACEUTICALS, INC.](facts/0001055726/README.md) | INO | available; quality gates apply | project_sic_rule |
-| [Insight Molecular Diagnostics Inc.](facts/0001642380/README.md) | IMDX | available; quality gates apply | project_sic_rule |
-| [INSMED Inc](facts/0001104506/README.md) | INSM | available; quality gates apply | project_sic_rule |
-| [Inspire Medical Systems, Inc.](facts/0001609550/README.md) | INSP | available; quality gates apply | project_sic_rule |
-| [InspireMD, Inc.](facts/0001433607/README.md) | NSPR | available; quality gates apply | project_sic_rule |
-| [Instil Bio, Inc.](facts/0001789769/README.md) | TIL | available; quality gates apply | project_sic_rule |
-| [INSULET CORP](facts/0001145197/README.md) | PODD | available; quality gates apply | project_sic_rule |
-| [Integer Holdings Corp](facts/0001114483/README.md) | ITGR | available; quality gates apply | project_sic_rule |
-| [INTEGRA LIFESCIENCES HOLDINGS CORP](facts/0000917520/README.md) | IART | available; quality gates apply | project_sic_rule |
-| [Intellia Therapeutics, Inc.](facts/0001652130/README.md) | NTLA | available; quality gates apply | project_sic_rule |
-| [INTELLIGENT BIO SOLUTIONS INC.](facts/0001725430/README.md) | INBS | missing | project_sic_rule |
-| [INTENSITY THERAPEUTICS, INC.](facts/0001567264/README.md) | INTS | available; quality gates apply | project_sic_rule |
-| [Intercure Ltd.](facts/0001857030/README.md) | INCR | missing | project_sic_rule |
-| [INTUITIVE SURGICAL INC](facts/0001035267/README.md) | ISRG | available; quality gates apply | project_sic_rule |
-| [Inventiva S.A.](facts/0001756594/README.md) | IVA | missing | project_sic_rule |
-| [Invivyd, Inc.](facts/0001832038/README.md) | IVVD | available; quality gates apply | project_sic_rule |
-| [INVO Fertility, Inc.](facts/0001417926/README.md) | IVF | available; quality gates apply | project_sic_rule |
-| [IONIS PHARMACEUTICALS INC](facts/0000874015/README.md) | IONS | available; quality gates apply | project_sic_rule |
-| [IOVANCE BIOTHERAPEUTICS, INC.](facts/0001425205/README.md) | IOVA | available; quality gates apply | project_sic_rule |
-| [IRADIMED CORP](facts/0001325618/README.md) | IRMD | available; quality gates apply | project_sic_rule |
-| [iRhythm Holdings, Inc.](facts/0001388658/README.md) | IRTC | available; quality gates apply | project_sic_rule |
-| [IRIDEX CORP](facts/0001006045/README.md) | IRIX | available; quality gates apply | project_sic_rule |
-| [IRONWOOD PHARMACEUTICALS INC](facts/0001446847/README.md) | IRWD | available; quality gates apply | project_sic_rule |
-| [IRulya Therapeutics Inc.](facts/0001662774/README.md) | IRLA | available; quality gates apply | project_sic_rule |
-| [iTonic Holdings Ltd](facts/0001970544/README.md) | ITOC | missing | project_sic_rule |
-| [Jade Biosciences, Inc.](facts/0001798749/README.md) | JBIO | available; quality gates apply | project_sic_rule |
-| [Jaguar Health, Inc.](facts/0001585608/README.md) | JAGX | available; quality gates apply | project_sic_rule |
-| [Janux Therapeutics, Inc.](facts/0001817713/README.md) | JANX | available; quality gates apply | project_sic_rule |
-| [Jasper Therapeutics, Inc.](facts/0001788028/README.md) | JSPR | available; quality gates apply | project_sic_rule |
-| [Jazz Pharmaceuticals plc](facts/0001232524/README.md) | JAZZ | available; quality gates apply | project_sic_rule |
-| [Jin Medical International Ltd.](facts/0001837821/README.md) | ZJYL | missing | project_sic_rule |
-| [JOHNSON & JOHNSON](facts/0000200406/README.md) | JNJ | available; quality gates apply | project_sic_rule |
-| [Journey Medical Corp](facts/0001867066/README.md) | DERM | available; quality gates apply | project_sic_rule |
-| [JUPITER NEUROSCIENCES, INC.](facts/0001679628/README.md) | JUNS | available; quality gates apply | project_sic_rule |
-| [Jyong Biotech Ltd.](facts/0001954488/README.md) | MENS | missing | project_sic_rule |
-| [Kailera Therapeutics, Inc.](facts/0002096997/README.md) | KLRA | available; quality gates apply | project_sic_rule |
-| [Kairos Pharma, LTD.](facts/0001962011/README.md) | KAPA | available; quality gates apply | project_sic_rule |
-| [KALA BIO, Inc.](facts/0001479419/README.md) | KALA | available; quality gates apply | project_sic_rule |
-| [Kalaris Therapeutics, Inc.](facts/0001754068/README.md) | KLRS | available; quality gates apply | project_sic_rule |
-| [KAMADA LTD](facts/0001567529/README.md) | KMDA | missing | project_sic_rule |
-| [Kardigan, Inc.](facts/0002123613/README.md) | KARD | available; quality gates apply | project_sic_rule |
-| [Karyopharm Therapeutics Inc.](facts/0001503802/README.md) | KPTI | available; quality gates apply | project_sic_rule |
-| [KAZIA THERAPEUTICS LTD](facts/0001075880/README.md) | KZIA | missing | project_sic_rule |
-| [Keros Therapeutics, Inc.](facts/0001664710/README.md) | KROS | available; quality gates apply | project_sic_rule |
-| [KESTRA MEDICAL TECHNOLOGIES, LTD.](facts/0001877184/README.md) | KMTS | available; quality gates apply | project_sic_rule |
-| [Kiniksa Pharmaceuticals International, plc](facts/0001730430/README.md) | KNSA | missing | project_sic_rule |
-| [KIORA PHARMACEUTICALS INC](facts/0001372514/README.md) | KPRX | available; quality gates apply | project_sic_rule |
-| [Kodiak Sciences Inc.](facts/0001468748/README.md) | KOD | available; quality gates apply | project_sic_rule |
-| [Korro Bio, Inc.](facts/0001703647/README.md) | KRRO | available; quality gates apply | project_sic_rule |
-| [Korsana Biosciences, Inc.](facts/0001755237/README.md) | KRSA | available; quality gates apply | project_sic_rule |
-| [KORU Medical Systems, Inc.](facts/0000704440/README.md) | KRMD | available; quality gates apply | project_sic_rule |
-| [Krystal Biotech, Inc.](facts/0001711279/README.md) | KRYS | available; quality gates apply | project_sic_rule |
-| [Kura Oncology, Inc.](facts/0001422143/README.md) | KURA | available; quality gates apply | project_sic_rule |
-| [Kymera Therapeutics, Inc.](facts/0001815442/README.md) | KYMR | available; quality gates apply | project_sic_rule |
-| [KYNTRA BIO, INC.](facts/0000921299/README.md) | KYNB | available; quality gates apply | project_sic_rule |
-| [Kyverna Therapeutics, Inc.](facts/0001994702/README.md) | KYTX | available; quality gates apply | project_sic_rule |
-| [LABCORP HOLDINGS INC.](facts/0000920148/README.md) | LH | available; quality gates apply | project_sic_rule |
-| [Lakefront Biotherapeutics NV](facts/0001421876/README.md) | LKFT | missing | project_sic_rule |
-| [LAKELAND INDUSTRIES INC](facts/0000798081/README.md) | LAKE | available; quality gates apply | project_sic_rule |
-| [Lakewood-Amedex Biotherapeutics Inc.](facts/0002079272/README.md) | LABT | available; quality gates apply | project_sic_rule |
-| [Lantern Pharma Inc.](facts/0001763950/README.md) | LTRN | available; quality gates apply | project_sic_rule |
-| [Lantheus Holdings, Inc.](facts/0001521036/README.md) | LNTH | available; quality gates apply | project_sic_rule |
-| [Larimar Therapeutics, Inc.](facts/0001374690/README.md) | LRMR | available; quality gates apply | project_sic_rule |
-| [Latigo Biotherapeutics, Inc.](facts/0002056611/README.md) | LTGO | available; quality gates apply | project_sic_rule |
-| [LB PHARMACEUTICALS INC](facts/0001691082/README.md) | LBRX | available; quality gates apply | project_sic_rule |
-| [Legend Biotech Corp](facts/0001801198/README.md) | LEGN | missing | project_sic_rule |
-| [LEMAITRE VASCULAR INC](facts/0001158895/README.md) | LMAT | available; quality gates apply | project_sic_rule |
-| [LENSAR, Inc.](facts/0001320350/README.md) | LNSR | available; quality gates apply | project_sic_rule |
-| [LENZ Therapeutics, Inc.](facts/0001815776/README.md) | LENZ | available; quality gates apply | project_sic_rule |
-| [LeonaBio, Inc.](facts/0001620463/README.md) | LONA | available; quality gates apply | project_sic_rule |
-| [Lexaria Bioscience Corp.](facts/0001348362/README.md) | LEXX | available; quality gates apply | project_sic_rule |
-| [Lexeo Therapeutics, Inc.](facts/0001907108/README.md) | LXEO | available; quality gates apply | project_sic_rule |
-| [LEXICON PHARMACEUTICALS, INC.](facts/0001062822/README.md) | LXRX | available; quality gates apply | project_sic_rule |
-| [LifeMD, Inc.](facts/0000948320/README.md) | LFMD | available; quality gates apply | project_sic_rule |
-| [LifeStance Health Group, Inc.](facts/0001845257/README.md) | LFST | available; quality gates apply | project_sic_rule |
-| [Lifevantage Corp](facts/0000849146/README.md) | LFVN | available; quality gates apply | project_sic_rule |
-| [Lifeward Ltd.](facts/0001607962/README.md) | LFWD | available; quality gates apply | project_sic_rule |
-| [LIGAND PHARMACEUTICALS INC](facts/0000886163/README.md) | LGND | available; quality gates apply | project_sic_rule |
-| [Liminatus Pharma, Inc.](facts/0001971387/README.md) | LIMN | available; quality gates apply | project_sic_rule |
-| [Lineage Cell Therapeutics, Inc.](facts/0000876343/README.md) | LCTX | available; quality gates apply | project_sic_rule |
-| [Lipocine Inc.](facts/0001535955/README.md) | LPCN | available; quality gates apply | project_sic_rule |
-| [Liquidia Corp](facts/0001819576/README.md) | LQDA | available; quality gates apply | project_sic_rule |
-| [LISATA THERAPEUTICS, INC.](facts/0000320017/README.md) | LSTA | available; quality gates apply | project_sic_rule |
-| [Lite Strategy, Inc.](facts/0001262104/README.md) | LITS | available; quality gates apply | project_sic_rule |
-| [LivaNova PLC](facts/0001639691/README.md) | LIVN | available; quality gates apply | project_sic_rule |
-| [Longeveron Inc.](facts/0001721484/README.md) | LGVN | available; quality gates apply | project_sic_rule |
-| [Lucid Diagnostics Inc.](facts/0001799011/README.md) | LUCD | available; quality gates apply | project_sic_rule |
-| [Lumexa Imaging Holdings, Inc.](facts/0002071288/README.md) | LMRI | available; quality gates apply | project_sic_rule |
-| [Lunai Bioworks Inc.](facts/0001527728/README.md) | LNAI | available; quality gates apply | project_sic_rule |
-| [Lyell Immunopharma, Inc.](facts/0001806952/README.md) | LYEL | available; quality gates apply | project_sic_rule |
-| [MACROGENICS INC](facts/0001125345/README.md) | MGNX | available; quality gates apply | project_sic_rule |
-| [MADRIGAL PHARMACEUTICALS, INC.](facts/0001157601/README.md) | MDGL | available; quality gates apply | project_sic_rule |
-| [MAIA Biotechnology, Inc.](facts/0001878313/README.md) | MAIA | available; quality gates apply | project_sic_rule |
-| [MANGOCEUTICALS, INC.](facts/0001938046/README.md) | MGRX | available; quality gates apply | project_sic_rule |
-| [MANNATECH INC](facts/0001056358/README.md) | MTEX | available; quality gates apply | project_sic_rule |
-| [MANNKIND CORP](facts/0000899460/README.md) | MNKD | available; quality gates apply | project_sic_rule |
-| [MapLight Therapeutics, Inc.](facts/0001770069/README.md) | MPLT | available; quality gates apply | project_sic_rule |
-| [MARAVAI LIFESCIENCES HOLDINGS, INC.](facts/0001823239/README.md) | MRVI | available; quality gates apply | project_sic_rule |
-| [Marker Therapeutics, Inc.](facts/0001094038/README.md) | MRKR | available; quality gates apply | project_sic_rule |
-| [Matinas BioPharma Holdings, Inc.](facts/0001582554/README.md) | MTNB | available; quality gates apply | project_sic_rule |
-| [Maze Therapeutics, Inc.](facts/0001842295/README.md) | MAZE | available; quality gates apply | project_sic_rule |
-| [MBX Biosciences, Inc.](facts/0001776111/README.md) | MBX | available; quality gates apply | project_sic_rule |
-| [MCKESSON CORP](facts/0000927653/README.md) | MCK | available; quality gates apply | project_sic_rule |
-| [MDxHealth SA](facts/0001872529/README.md) | MDXH | missing | project_sic_rule |
-| [MEDICINOVA INC](facts/0001226616/README.md) | MNOV | available; quality gates apply | project_sic_rule |
-| [Medicus Pharma Ltd.](facts/0001997296/README.md) | MDCX | available; quality gates apply | project_sic_rule |
-| [MediWound Ltd.](facts/0001593984/README.md) | MDWD | missing | project_sic_rule |
-| [Medline Inc.](facts/0002046386/README.md) | MDLN | available; quality gates apply | project_sic_rule |
-| [Medtronic plc](facts/0001613103/README.md) | MDT | available; quality gates apply | project_sic_rule |
-| [MeiraGTx Holdings plc](facts/0001735438/README.md) | MGTX | available; quality gates apply | project_sic_rule |
-| [Merck & Co., Inc.](facts/0000310158/README.md) | MRK | available; quality gates apply | project_sic_rule |
-| [Mereo BioPharma Group plc](facts/0001719714/README.md) | MREO | available; quality gates apply | project_sic_rule |
-| [MERIT MEDICAL SYSTEMS INC](facts/0000856982/README.md) | MMSI | available; quality gates apply | project_sic_rule |
-| [MESOBLAST LTD](facts/0001345099/README.md) | MESO | missing | project_sic_rule |
-| [Metagenomi Therapeutics, Inc.](facts/0001785279/README.md) | MGX | available; quality gates apply | project_sic_rule |
-| [MetaVia Inc.](facts/0001638287/README.md) | MTVA | available; quality gates apply | project_sic_rule |
-| [Microbot Medical Inc.](facts/0000883975/README.md) | MBOT | available; quality gates apply | project_sic_rule |
-| [Milestone Pharmaceuticals Inc.](facts/0001408443/README.md) | MIST | available; quality gates apply | project_sic_rule |
-| [MILESTONE SCIENTIFIC INC.](facts/0000855683/README.md) | MLSS | available; quality gates apply | project_sic_rule |
-| [MIMEDX GROUP, INC.](facts/0001376339/README.md) | MDXG | available; quality gates apply | project_sic_rule |
-| [MindWalk Holdings Corp.](facts/0001715925/README.md) | HYFT | missing | project_sic_rule |
-| [Mineralys Therapeutics, Inc.](facts/0001933414/README.md) | MLYS | available; quality gates apply | project_sic_rule |
-| [Minerva Neurosciences, Inc.](facts/0001598646/README.md) | NERV | available; quality gates apply | project_sic_rule |
-| [MiniMed Group, Inc.](facts/0002062583/README.md) | MMED | available; quality gates apply | project_sic_rule |
-| [MiNK Therapeutics, Inc.](facts/0001840229/README.md) | INKT | available; quality gates apply | project_sic_rule |
-| [MIRA PHARMACEUTICALS, INC.](facts/0001904286/README.md) | MIRA | available; quality gates apply | project_sic_rule |
-| [Mirum Pharmaceuticals, Inc.](facts/0001759425/README.md) | MIRM | available; quality gates apply | project_sic_rule |
-| [Mobia Medical, Inc.](facts/0001489993/README.md) | MOBI | available; quality gates apply | project_sic_rule |
-| [Moderna, Inc.](facts/0001682852/README.md) | MRNA | available; quality gates apply | project_sic_rule |
-| [Modular Medical, Inc.](facts/0001074871/README.md) | MODD | available; quality gates apply | project_sic_rule |
-| [MOLECULAR PARTNERS AG](facts/0001745114/README.md) | MOLN | missing | project_sic_rule |
-| [Moleculin Biotech, Inc.](facts/0001659617/README.md) | MBRX | available; quality gates apply | project_sic_rule |
-| [Monopar Therapeutics](facts/0001645469/README.md) | MNPR | available; quality gates apply | project_sic_rule |
-| [Monte Rosa Therapeutics, Inc.](facts/0001826457/README.md) | GLUE | available; quality gates apply | project_sic_rule |
-| [MoonLake Immunotherapeutics](facts/0001821586/README.md) | MLTX | available; quality gates apply | project_sic_rule |
-| [MSA Safety Inc](facts/0000066570/README.md) | MSA | available; quality gates apply | project_sic_rule |
-| [MUSTANG BIO, INC.](facts/0001680048/README.md) | MBIO | available; quality gates apply | project_sic_rule |
-| [MYOMO, INC.](facts/0001369290/README.md) | MYO | available; quality gates apply | project_sic_rule |
-| [MYRIAD GENETICS INC](facts/0000899923/README.md) | MYGN | available; quality gates apply | project_sic_rule |
-| [Nano-X Imaging Ltd.](facts/0001795251/README.md) | NNOX | missing | project_sic_rule |
-| [NANOVIRICIDES, INC.](facts/0001379006/README.md) | NNVC | available; quality gates apply | project_sic_rule |
-| [Nasus Pharma Ltd](facts/0002029039/README.md) | NSRX | missing | project_sic_rule |
-| [Natera, Inc.](facts/0001604821/README.md) | NTRA | available; quality gates apply | project_sic_rule |
-| [NATIONAL HEALTHCARE CORP](facts/0001047335/README.md) | NHC | available; quality gates apply | project_sic_rule |
-| [National Vision Holdings, Inc.](facts/0001710155/README.md) | EYE | available; quality gates apply | project_sic_rule |
-| [NATURAL ALTERNATIVES INTERNATIONAL INC](facts/0000787253/README.md) | NAII | available; quality gates apply | project_sic_rule |
-| [NATURES SUNSHINE PRODUCTS INC](facts/0000275053/README.md) | NATR | available; quality gates apply | project_sic_rule |
-| [NEKTAR THERAPEUTICS](facts/0000906709/README.md) | NKTR | available; quality gates apply | project_sic_rule |
-| [NEOGEN CORP](facts/0000711377/README.md) | NEOG | available; quality gates apply | project_sic_rule |
-| [NEONC TECHNOLOGIES HOLDINGS, INC.](facts/0001979414/README.md) | NTHI | available; quality gates apply | project_sic_rule |
-| [NEPHROS INC](facts/0001196298/README.md) | NEPH | available; quality gates apply | project_sic_rule |
-| [NERVGEN PHARMA CORP.](facts/0001751912/README.md) | NGEN | missing | project_sic_rule |
-| [Neumora Therapeutics, Inc.](facts/0001885522/README.md) | NMRA | available; quality gates apply | project_sic_rule |
-| [Neuphoria Therapeutics Inc.](facts/0001191070/README.md) | NEUP | available; quality gates apply | project_sic_rule |
-| [Neuraxis, INC](facts/0001933567/README.md) | NRXS | available; quality gates apply | project_sic_rule |
-| [NEUROCRINE BIOSCIENCES INC](facts/0000914475/README.md) | NBIX | available; quality gates apply | project_sic_rule |
-| [Neurogene Inc.](facts/0001404644/README.md) | NGNE | available; quality gates apply | project_sic_rule |
-| [Neuronetics, Inc.](facts/0001227636/README.md) | STIM | available; quality gates apply | project_sic_rule |
-| [NEUROONE MEDICAL TECHNOLOGIES Corp](facts/0001500198/README.md) | NMTC | available; quality gates apply | project_sic_rule |
-| [NeuroPace Inc](facts/0001528287/README.md) | NPCE | available; quality gates apply | project_sic_rule |
-| [NeuroSense Therapeutics Ltd.](facts/0001875091/README.md) | NRSN | missing | project_sic_rule |
-| [NewAmsterdam Pharma Co N.V.](facts/0001936258/README.md) | NAMS | available; quality gates apply | project_sic_rule |
-| [NewcelX Ltd.](facts/0001783036/README.md) | NCEL | missing | project_sic_rule |
-| [NewGenIvf Group Ltd](facts/0001981662/README.md) | NIVF | missing | project_sic_rule |
-| [Nexalin Technology, Inc.](facts/0001527352/README.md) | NXL | available; quality gates apply | project_sic_rule |
-| [Nexentis Technologies Inc.](facts/0001789192/README.md) | NXTS | available; quality gates apply | project_sic_rule |
-| [NEXGEL, INC.](facts/0001468929/README.md) | NXGL | available; quality gates apply | project_sic_rule |
-| [NextCure, Inc.](facts/0001661059/README.md) | NXTC | available; quality gates apply | project_sic_rule |
-| [Niagen Bioscience, Inc.](facts/0001386570/README.md) | NAGE | available; quality gates apply | project_sic_rule |
-| [Nkarta, Inc.](facts/0001787400/README.md) | NKTX | available; quality gates apply | project_sic_rule |
-| [NOMAD POWER SOLUTIONS, INC.](facts/0001335105/README.md) | NMAD | available; quality gates apply | project_sic_rule |
-| [NovaBridge Biosciences](facts/0001778016/README.md) | NBP | missing | project_sic_rule |
-| [NOVARTIS AG](facts/0001114448/README.md) | NVS | missing | project_sic_rule |
-| [NOVAVAX INC](facts/0001000694/README.md) | NVAX | available; quality gates apply | project_sic_rule |
-| [NOVO NORDISK A S](facts/0000353278/README.md) | NVO | missing | project_sic_rule |
-| [NovoCure Ltd](facts/0001645113/README.md) | NVCR | available; quality gates apply | project_sic_rule |
-| [NRX Pharmaceuticals, Inc.](facts/0001719406/README.md) | NRXP | available; quality gates apply | project_sic_rule |
-| [NU SKIN ENTERPRISES, INC.](facts/0001021561/README.md) | NUS | available; quality gates apply | project_sic_rule |
-| [NuCana plc](facts/0001709626/README.md) | NCNA | missing | project_sic_rule |
-| [Nurix Therapeutics, Inc.](facts/0001549595/README.md) | NRIX | available; quality gates apply | project_sic_rule |
-| [NutriBand Inc.](facts/0001676047/README.md) | NTRB | available; quality gates apply | project_sic_rule |
-| [Nuvation Bio Inc.](facts/0001811063/README.md) | NUVB | available; quality gates apply | project_sic_rule |
-| [Nuvectis Pharma, Inc.](facts/0001875558/README.md) | NVCT | available; quality gates apply | project_sic_rule |
-| [Nuwellis, Inc.](facts/0001506492/README.md) | NUWE | available; quality gates apply | project_sic_rule |
-| [Nyxoah SA](facts/0001857190/README.md) | NYXH | missing | project_sic_rule |
-| [Obsidian Therapeutics, Inc.](facts/0002130606/README.md) | OBX | available; quality gates apply | project_sic_rule |
-| [Ocugen, Inc.](facts/0001372299/README.md) | OCGN | available; quality gates apply | project_sic_rule |
-| [OCULAR THERAPEUTIX, INC](facts/0001393434/README.md) | OCUL | available; quality gates apply | project_sic_rule |
-| [Oculis Holding AG](facts/0001953530/README.md) | OCS | missing | project_sic_rule |
-| [Odyssey Therapeutics, Inc.](facts/0001882782/README.md) | ODTX | available; quality gates apply | project_sic_rule |
-| [OKYO Pharma Ltd](facts/0001849296/README.md) | OKYO | missing | project_sic_rule |
-| [Olema Pharmaceuticals, Inc.](facts/0001750284/README.md) | OLMA | available; quality gates apply | project_sic_rule |
-| [Omada Health, Inc.](facts/0001611115/README.md) | OMDA | available; quality gates apply | project_sic_rule |
-| [OMEROS CORP](facts/0001285819/README.md) | OMER | available; quality gates apply | project_sic_rule |
-| [ONCOLYTICS BIOTECH INC](facts/0001129928/README.md) | ONCY | available; quality gates apply | project_sic_rule |
-| [Onconetix, Inc.](facts/0001782107/README.md) | ONCO | available; quality gates apply | project_sic_rule |
-| [OnKure Therapeutics, Inc.](facts/0001637715/README.md) | OKUR | available; quality gates apply | project_sic_rule |
-| [OPKO HEALTH, INC.](facts/0000944809/README.md) | OPK | available; quality gates apply | project_sic_rule |
-| [Optimi Health Corp.](facts/0002027329/README.md) | OPTH | missing | project_sic_rule |
-| [Option Care Health, Inc.](facts/0001014739/README.md) | OPCH | missing | project_sic_rule |
-| [Opus Genetics, Inc.](facts/0001228627/README.md) | IRD | available; quality gates apply | project_sic_rule |
-| [ORAGENICS INC](facts/0001174940/README.md) | OGEN | available; quality gates apply | project_sic_rule |
-| [ORAMED PHARMACEUTICALS INC.](facts/0001176309/README.md) | ORMP | available; quality gates apply | project_sic_rule |
-| [ORASURE TECHNOLOGIES INC](facts/0001116463/README.md) | OSUR | available; quality gates apply | project_sic_rule |
-| [Orchestra BioMed Holdings, Inc.](facts/0001814114/README.md) | OBIO | available; quality gates apply | project_sic_rule |
-| [ORGANIGRAM GLOBAL INC.](facts/0001620737/README.md) | OGI | missing | project_sic_rule |
-| [Organogenesis Holdings Inc.](facts/0001661181/README.md) | ORGO | available; quality gates apply | project_sic_rule |
-| [Organon & Co.](facts/0001821825/README.md) | OGN | available; quality gates apply | project_sic_rule |
-| [Oric Pharmaceuticals, Inc.](facts/0001796280/README.md) | ORIC | available; quality gates apply | project_sic_rule |
-| [Orthofix Medical Inc.](facts/0000884624/README.md) | OFIX | available; quality gates apply | project_sic_rule |
-| [ORTHOPEDIATRICS CORP](facts/0001425450/README.md) | KIDS | available; quality gates apply | project_sic_rule |
-| [Oruka Therapeutics, Inc.](facts/0000907654/README.md) | ORKA | available; quality gates apply | project_sic_rule |
-| [OS Therapies Inc](facts/0001795091/README.md) | OSTX | available; quality gates apply | project_sic_rule |
-| [Outlook Therapeutics, Inc.](facts/0001649989/README.md) | OTLK | available; quality gates apply | project_sic_rule |
-| [Outset Medical, Inc.](facts/0001484612/README.md) | OM | available; quality gates apply | project_sic_rule |
-| [Ovid Therapeutics Inc.](facts/0001636651/README.md) | OVID | available; quality gates apply | project_sic_rule |
-| [P3 Health Partners Inc.](facts/0001832511/README.md) | PIII | available; quality gates apply | project_sic_rule |
-| [Pacira BioSciences, Inc.](facts/0001396814/README.md) | PCRX | available; quality gates apply | project_sic_rule |
-| [PACS Group, Inc.](facts/0002001184/README.md) | PACS | available; quality gates apply | project_sic_rule |
-| [PALATIN TECHNOLOGIES INC](facts/0000911216/README.md) | PTN | available; quality gates apply | project_sic_rule |
-| [PALISADE BIO, INC.](facts/0001357459/README.md) | PALI | available; quality gates apply | project_sic_rule |
-| [PALVELLA THERAPEUTICS, INC.](facts/0001583648/README.md) | PVLA | available; quality gates apply | project_sic_rule |
-| [Parabilis Medicines, Inc.](facts/0001657677/README.md) | PBLS | available; quality gates apply | project_sic_rule |
-| [Park Dental Partners, Inc.](facts/0002069604/README.md) | PARK | available; quality gates apply | project_sic_rule |
-| [Pasithea Therapeutics Corp.](facts/0001841330/README.md) | KTTA | available; quality gates apply | project_sic_rule |
-| [Passage BIO, Inc.](facts/0001787297/README.md) | PASG | available; quality gates apply | project_sic_rule |
-| [PAVmed Inc.](facts/0001624326/README.md) | PAVM | available; quality gates apply | project_sic_rule |
-| [PDS Biotechnology Corp](facts/0001472091/README.md) | PDSB | available; quality gates apply | project_sic_rule |
-| [Pediatrix Medical Group, Inc.](facts/0000893949/README.md) | MD | available; quality gates apply | project_sic_rule |
-| [Pelthos Therapeutics Inc.](facts/0001919246/README.md) | PTHS | available; quality gates apply | project_sic_rule |
-| [Pennant Group, Inc.](facts/0001766400/README.md) | PNTG | available; quality gates apply | project_sic_rule |
-| [Penumbra Inc](facts/0001321732/README.md) | PEN | available; quality gates apply | project_sic_rule |
-| [PepGen Inc.](facts/0001835597/README.md) | PEPG | available; quality gates apply | project_sic_rule |
-| [PERRIGO Co plc](facts/0001585364/README.md) | PRGO | available; quality gates apply | project_sic_rule |
-| [Personalis, Inc.](facts/0001527753/README.md) | PSNL | available; quality gates apply | project_sic_rule |
-| [Perspective Therapeutics, Inc.](facts/0000728387/README.md) | CATX | available; quality gates apply | project_sic_rule |
-| [PFIZER INC](facts/0000078003/README.md) | PFE | available; quality gates apply | project_sic_rule |
-| [PharmaCyte Biotech, Inc.](facts/0001157075/README.md) | PMCB | available; quality gates apply | project_sic_rule |
-| [Pharvaris N.V.](facts/0001830487/README.md) | PHVS | missing | project_sic_rule |
-| [Phathom Pharmaceuticals, Inc.](facts/0001783183/README.md) | PHAT | available; quality gates apply | project_sic_rule |
-| [PHIBRO ANIMAL HEALTH CORP](facts/0001069899/README.md) | PAHC | available; quality gates apply | project_sic_rule |
-| [Phio Pharmaceuticals Corp.](facts/0001533040/README.md) | PHIO | available; quality gates apply | project_sic_rule |
-| [Picard Medical, Inc.](facts/0002030617/README.md) | PMI | available; quality gates apply | project_sic_rule |
-| [PLIANT THERAPEUTICS, INC.](facts/0001746473/README.md) | PLRX | available; quality gates apply | project_sic_rule |
-| [Pluri Inc.](facts/0001158780/README.md) | PLUR | available; quality gates apply | project_sic_rule |
-| [PMGC Holdings Inc.](facts/0001840563/README.md) | ELAB | available; quality gates apply | project_sic_rule |
-| [PMV Pharmaceuticals, Inc.](facts/0001699382/README.md) | PMVP | available; quality gates apply | project_sic_rule |
-| [Polaryx Therapeutics, Inc.](facts/0002075320/README.md) | PLYX | available; quality gates apply | project_sic_rule |
-| [PolyPid Ltd.](facts/0001611842/README.md) | PYPD | missing | project_sic_rule |
-| [Polyrizon Ltd.](facts/0001893645/README.md) | PLRZ | missing | project_sic_rule |
-| [Praxis Precision Medicines, Inc.](facts/0001689548/README.md) | PRAX | available; quality gates apply | project_sic_rule |
-| [PRECIGEN, INC.](facts/0001356090/README.md) | PGEN | available; quality gates apply | project_sic_rule |
-| [PRECISION BIOSCIENCES INC](facts/0001357874/README.md) | DTIL | available; quality gates apply | project_sic_rule |
-| [PRECISION OPTICS CORPORATION, INC.](facts/0000867840/README.md) | POCI | available; quality gates apply | project_sic_rule |
-| [Prelude Therapeutics Inc](facts/0001678660/README.md) | PRLD | available; quality gates apply | project_sic_rule |
-| [Prenetics Global Ltd](facts/0001876431/README.md) | PRE | missing | project_sic_rule |
-| [Prestige Consumer Healthcare Inc.](facts/0001295947/README.md) | PBH | available; quality gates apply | project_sic_rule |
-| [PRF Technologies Ltd.](facts/0001801834/README.md) | PRFX | missing | project_sic_rule |
-| [Prime Medicine, Inc.](facts/0001894562/README.md) | PRME | available; quality gates apply | project_sic_rule |
-| [Privia Health Group, Inc.](facts/0001759655/README.md) | PRVA | available; quality gates apply | project_sic_rule |
-| [PRO DEX INC](facts/0000788920/README.md) | PDEX | available; quality gates apply | project_sic_rule |
-| [PROCEPT BioRobotics Corp](facts/0001588978/README.md) | PRCT | available; quality gates apply | project_sic_rule |
-| [Processa Pharmaceuticals, Inc.](facts/0001533743/README.md) | PCSA | available; quality gates apply | project_sic_rule |
-| [Profound Medical Corp.](facts/0001628808/README.md) | PROF | available; quality gates apply | project_sic_rule |
-| [Profusa, Inc.](facts/0001859807/README.md) | PFSA | available; quality gates apply | project_sic_rule |
-| [Progyny, Inc.](facts/0001551306/README.md) | PGNY | available; quality gates apply | project_sic_rule |
-| [PROKIDNEY CORP.](facts/0001850270/README.md) | PROK | available; quality gates apply | project_sic_rule |
-| [ProMIS Neurosciences Inc.](facts/0001374339/README.md) | PMN | available; quality gates apply | project_sic_rule |
-| [Propanc Biopharma, Inc.](facts/0001517681/README.md) | PPCB | available; quality gates apply | project_sic_rule |
-| [ProQR Therapeutics N.V.](facts/0001612940/README.md) | PRQR | missing | project_sic_rule |
-| [Protagonist Therapeutics, Inc](facts/0001377121/README.md) | PTGX | available; quality gates apply | project_sic_rule |
-| [Protalix BioTherapeutics, Inc.](facts/0001006281/README.md) | PLX | available; quality gates apply | project_sic_rule |
-| [Protara Therapeutics, Inc.](facts/0001359931/README.md) | TARA | available; quality gates apply | project_sic_rule |
-| [PSYENCE BIOMEDICAL LTD.](facts/0001985062/README.md) | PBM | missing | project_sic_rule |
-| [PTC THERAPEUTICS, INC.](facts/0001070081/README.md) | PTCT | available; quality gates apply | project_sic_rule |
-| [Pulmatrix, Inc.](facts/0001574235/README.md) | PULM | available; quality gates apply | project_sic_rule |
-| [Pulmonx Corp](facts/0001127537/README.md) | LUNG | available; quality gates apply | project_sic_rule |
-| [PULSE BIOSCIENCES, INC.](facts/0001625101/README.md) | PLSE | available; quality gates apply | project_sic_rule |
-| [Pulsenmore Ltd.](facts/0002064764/README.md) | PLSM | missing | project_sic_rule |
-| [PUMA BIOTECHNOLOGY, INC.](facts/0001401667/README.md) | PBYI | available; quality gates apply | project_sic_rule |
-| [PURPLE BIOTECH LTD.](facts/0001614744/README.md) | PPBT | missing | project_sic_rule |
-| [Pyxis Oncology, Inc.](facts/0001782223/README.md) | PYXS | available; quality gates apply | project_sic_rule |
-| [Q/C TECHNOLOGIES, INC.](facts/0001321834/README.md) | QCLS | available; quality gates apply | project_sic_rule |
-| [Q32 Bio Inc.](facts/0001661998/README.md) | QTTB | available; quality gates apply | project_sic_rule |
-| [QIAGEN N.V.](facts/0001015820/README.md) | QGEN | missing | project_sic_rule |
-| [QT IMAGING HOLDINGS, INC.](facts/0001844505/README.md) | QTI | available; quality gates apply | project_sic_rule |
-| [QTREX Quantum Ltd.](facts/0001837493/README.md) | QTEX | missing | project_sic_rule |
-| [Quantum Biopharma Ltd.](facts/0001771885/README.md) | QNTM | missing | project_sic_rule |
-| [Quantum Cyber N.V.](facts/0001874252/README.md) | QUCY | available; quality gates apply | project_sic_rule |
-| [QUEST DIAGNOSTICS INC](facts/0001022079/README.md) | DGX | available; quality gates apply | project_sic_rule |
-| [QuidelOrtho Corp](facts/0001906324/README.md) | QDEL | available; quality gates apply | project_sic_rule |
-| [Quoin Pharmaceuticals Ltd.](facts/0001671502/README.md) | QNRX | available; quality gates apply | project_sic_rule |
-| [Radiopharm Theranostics Ltd](facts/0001949257/README.md) | RADX | missing | project_sic_rule |
-| [RadNet, Inc.](facts/0000790526/README.md) | RDNT | available; quality gates apply | project_sic_rule |
-| [Rafael Holdings, Inc.](facts/0001713863/README.md) | RFL | available; quality gates apply | project_sic_rule |
-| [Rallybio Corp](facts/0001739410/README.md) | RLYB | available; quality gates apply | project_sic_rule |
-| [Rani Therapeutics Holdings, Inc.](facts/0001856725/README.md) | RANI | available; quality gates apply | project_sic_rule |
-| [Rapport Therapeutics, Inc.](facts/0002012593/README.md) | RAPP | available; quality gates apply | project_sic_rule |
-| [RECURSION PHARMACEUTICALS, INC.](facts/0001601830/README.md) | RXRX | available; quality gates apply | project_sic_rule |
-| [RedHill Biopharma Ltd.](facts/0001553846/README.md) | RDHL | missing | project_sic_rule |
-| [Regencell Bioscience Holdings Ltd](facts/0001829667/README.md) | RGC | missing | project_sic_rule |
-| [REGENERON PHARMACEUTICALS, INC.](facts/0000872589/README.md) | REGN | available; quality gates apply | project_sic_rule |
-| [REGENTIS BIOMATERIALS LTD.](facts/0001912966/README.md) | RGNT | missing | project_sic_rule |
-| [REGENXBIO Inc.](facts/0001590877/README.md) | RGNX | available; quality gates apply | project_sic_rule |
-| [Rein Therapeutics, Inc.](facts/0001420565/README.md) | RNTX | available; quality gates apply | project_sic_rule |
-| [Relay Therapeutics, Inc.](facts/0001812364/README.md) | RLAY | available; quality gates apply | project_sic_rule |
-| [RELMADA THERAPEUTICS, INC.](facts/0001553643/README.md) | RLMD | available; quality gates apply | project_sic_rule |
-| [RenovoRx, Inc.](facts/0001574094/README.md) | RNXT | available; quality gates apply | project_sic_rule |
-| [REPLIGEN CORP](facts/0000730272/README.md) | RGEN | available; quality gates apply | project_sic_rule |
-| [Replimune Group, Inc.](facts/0001737953/README.md) | REPL | available; quality gates apply | project_sic_rule |
-| [Research Alliance Corp III](facts/0002118032/README.md) | RACC | available; quality gates apply | project_sic_rule |
-| [RESMED INC](facts/0000943819/README.md) | RMD | available; quality gates apply | project_sic_rule |
-| [Retension Pharmaceuticals, Inc.](facts/0002002988/README.md) | RTSN | missing | project_sic_rule |
-| [RETRACTABLE TECHNOLOGIES INC](facts/0000946563/README.md) | RVP | available; quality gates apply | project_sic_rule |
-| [REVELATION BIOSCIENCES, INC.](facts/0001810560/README.md) | REVB | available; quality gates apply | project_sic_rule |
-| [Revolution Medicines, Inc.](facts/0001628171/README.md) | RVMD | available; quality gates apply | project_sic_rule |
-| [Rezolute, Inc.](facts/0001509261/README.md) | RZLT | available; quality gates apply | project_sic_rule |
-| [RHYTHM PHARMACEUTICALS, INC.](facts/0001649904/README.md) | RYTM | available; quality gates apply | project_sic_rule |
-| [RIGEL PHARMACEUTICALS INC](facts/0001034842/README.md) | RIGL | available; quality gates apply | project_sic_rule |
-| [Rocket One Inc.](facts/0001711786/README.md) | RKTO | available; quality gates apply | project_sic_rule |
-| [ROCKET PHARMACEUTICALS, INC.](facts/0001281895/README.md) | RCKT | available; quality gates apply | project_sic_rule |
-| [ROCKWELL MEDICAL, INC.](facts/0001041024/README.md) | RMTI | available; quality gates apply | project_sic_rule |
-| [Roivant Sciences Ltd.](facts/0001635088/README.md) | ROIV | available; quality gates apply | project_sic_rule |
-| [Royalty Pharma plc](facts/0001802768/README.md) | RPRX | available; quality gates apply | project_sic_rule |
-| [RxSight, Inc.](facts/0001111485/README.md) | RXST | available; quality gates apply | project_sic_rule |
-| [SAB Biotherapeutics, Inc.](facts/0001833214/README.md) | SABS | available; quality gates apply | project_sic_rule |
-| [Sagimet Biosciences Inc.](facts/0001400118/README.md) | SGMT | available; quality gates apply | project_sic_rule |
-| [Sana Biotechnology, Inc.](facts/0001770121/README.md) | SANA | available; quality gates apply | project_sic_rule |
-| [Sanara MedTech Inc.](facts/0000714256/README.md) | SMTI | available; quality gates apply | project_sic_rule |
-| [Sanofi](facts/0001121404/README.md) | SNY | missing | project_sic_rule |
-| [SANUWAVE Health, Inc.](facts/0001417663/README.md) | SNWV | available; quality gates apply | project_sic_rule |
-| [Sarepta Therapeutics, Inc.](facts/0000873303/README.md) | SRPT | available; quality gates apply | project_sic_rule |
-| [Satellos Bioscience Inc.](facts/0001421642/README.md) | MSLE | missing | project_sic_rule |
-| [Savara Inc](facts/0001160308/README.md) | SVRA | available; quality gates apply | project_sic_rule |
-| [SBC Medical Group Holdings Inc](facts/0001930313/README.md) | SBC | available; quality gates apply | project_sic_rule |
-| [Scholar Rock Holding Corp](facts/0001727196/README.md) | SRRK | available; quality gates apply | project_sic_rule |
-| [Schrodinger, Inc.](facts/0001490978/README.md) | SDGR | available; quality gates apply | project_sic_rule |
-| [Scienture Holdings, Inc.](facts/0001382574/README.md) | SCNX | available; quality gates apply | project_sic_rule |
-| [Scilex Holding Co](facts/0001820190/README.md) | SCLX | available; quality gates apply | project_sic_rule |
-| [Scinai Immunotherapeutics Ltd.](facts/0001611747/README.md) | SCNI | available; quality gates apply | project_sic_rule |
-| [SciSparc Ltd.](facts/0001611746/README.md) | SPRC | missing | project_sic_rule |
-| [Scribe Therapeutics, Inc.](facts/0001853921/README.md) | SCTX | available; quality gates apply | project_sic_rule |
-| [SCYNEXIS INC](facts/0001178253/README.md) | SCYX | available; quality gates apply | project_sic_rule |
-| [Seaport Therapeutics, Inc.](facts/0002042347/README.md) | SPTX | available; quality gates apply | project_sic_rule |
-| [SeaStar Medical Holding Corp](facts/0001831868/README.md) | ICU | available; quality gates apply | project_sic_rule |
-| [SELLAS Life Sciences Group, Inc.](facts/0001390478/README.md) | SLS | available; quality gates apply | project_sic_rule |
-| [Sensus Healthcare, Inc.](facts/0001494891/README.md) | SRTS | available; quality gates apply | project_sic_rule |
-| [Senti Biosciences Holdings, Inc.](facts/0001854270/README.md) | SNTI | available; quality gates apply | project_sic_rule |
-| [Septerna, Inc.](facts/0001984086/README.md) | SEPN | available; quality gates apply | project_sic_rule |
-| [SERA PROGNOSTICS, INC.](facts/0001534969/README.md) | SERA | available; quality gates apply | project_sic_rule |
-| [Seres Therapeutics, Inc.](facts/0001609809/README.md) | MCRB | available; quality gates apply | project_sic_rule |
-| [Serina Therapeutics, Inc.](facts/0001708599/README.md) | SER | available; quality gates apply | project_sic_rule |
-| [Shattuck Labs, Inc.](facts/0001680367/README.md) | STTK | available; quality gates apply | project_sic_rule |
-| [SHOULDER INNOVATIONS, INC.](facts/0001699350/README.md) | SI | available; quality gates apply | project_sic_rule |
-| [Shuttle Pharmaceuticals Holdings, Inc.](facts/0001757499/README.md) | SHPH | available; quality gates apply | project_sic_rule |
-| [SI-BONE, Inc.](facts/0001459839/README.md) | SIBN | available; quality gates apply | project_sic_rule |
-| [SIGA TECHNOLOGIES INC](facts/0001010086/README.md) | SIGA | available; quality gates apply | project_sic_rule |
-| [Sight Sciences, Inc.](facts/0001531177/README.md) | SGHT | available; quality gates apply | project_sic_rule |
-| [Silence Therapeutics plc](facts/0001479615/README.md) | SLN | available; quality gates apply | project_sic_rule |
-| [Silexion Therapeutics Corp](facts/0002022416/README.md) | SLXN | available; quality gates apply | project_sic_rule |
-| [Silo Pharma, Inc.](facts/0001514183/README.md) | SILO | available; quality gates apply | project_sic_rule |
-| [SINOVAC BIOTECH LTD](facts/0001084201/README.md) | SVA | missing | project_sic_rule |
-| [Sintx Technologies, Inc.](facts/0001269026/README.md) | SINT | available; quality gates apply | project_sic_rule |
-| [Sionna Therapeutics, Inc.](facts/0002036042/README.md) | SION | available; quality gates apply | project_sic_rule |
-| [SkinHealth Systems Inc.](facts/0001818093/README.md) | SKIN | available; quality gates apply | project_sic_rule |
-| [Skye Bioscience, Inc.](facts/0001516551/README.md) | SKYE | available; quality gates apply | project_sic_rule |
-| [SL Science Holding Ltd](facts/0002070534/README.md) | SLBT | missing | project_sic_rule |
-| [SNDL Inc.](facts/0001766600/README.md) | SNDL | missing | project_sic_rule |
-| [Sol-Gel Technologies Ltd.](facts/0001684693/README.md) | SLGL | missing | project_sic_rule |
-| [Solid Biosciences Inc.](facts/0001707502/README.md) | SLDB | available; quality gates apply | project_sic_rule |
-| [SOLIGENIX, INC.](facts/0000812796/README.md) | SNGX | available; quality gates apply | project_sic_rule |
-| [Solventum Corp](facts/0001964738/README.md) | SOLV | available; quality gates apply | project_sic_rule |
-| [SONIDA SENIOR LIVING, INC.](facts/0001043000/README.md) | SNDA | available; quality gates apply | project_sic_rule |
-| [Sonoma Pharmaceuticals, Inc.](facts/0001367083/README.md) | SNOA | available; quality gates apply | project_sic_rule |
-| [Sotera Health Co](facts/0001822479/README.md) | SHC | available; quality gates apply | project_sic_rule |
-| [Spectral AI, Inc.](facts/0001833498/README.md) | MDAI | available; quality gates apply | project_sic_rule |
-| [Spero Therapeutics, Inc.](facts/0001701108/README.md) | SPRO | available; quality gates apply | project_sic_rule |
-| [SPRUCE BIOSCIENCES, INC.](facts/0001683553/README.md) | SPRB | available; quality gates apply | project_sic_rule |
-| [SpyGlass Pharma, Inc.](facts/0001778922/README.md) | SGP | available; quality gates apply | project_sic_rule |
-| [Spyre Therapeutics, Inc.](facts/0001636282/README.md) | SYRE | available; quality gates apply | project_sic_rule |
-| [SS Innovations International, Inc.](facts/0001676163/README.md) | SSII | available; quality gates apply | project_sic_rule |
-| [STAAR SURGICAL CO](facts/0000718937/README.md) | STAA | available; quality gates apply | project_sic_rule |
-| [STANDARD BIOTOOLS INC.](facts/0001162194/README.md) | LAB | available; quality gates apply | project_sic_rule |
-| [Starling Oncology, Inc.](facts/0001799191/README.md) | STLN | available; quality gates apply | project_sic_rule |
-| [Stereotaxis, Inc.](facts/0001289340/README.md) | STXS | available; quality gates apply | project_sic_rule |
-| [Stevanato Group S.p.A.](facts/0001849853/README.md) | STVN | missing | project_sic_rule |
-| [Stoke Therapeutics, Inc.](facts/0001623526/README.md) | STOK | available; quality gates apply | project_sic_rule |
-| [Strata Critical Medical, Inc.](facts/0001779128/README.md) | SRTA | available; quality gates apply | project_sic_rule |
-| [Structure Therapeutics Inc.](facts/0001888886/README.md) | GPCR | available; quality gates apply | project_sic_rule |
-| [STRYKER CORP](facts/0000310764/README.md) | SYK | available; quality gates apply | project_sic_rule |
-| [Summit Therapeutics Inc.](facts/0001599298/README.md) | SMMT | available; quality gates apply | project_sic_rule |
-| [Sunshine Biopharma Inc.](facts/0001402328/README.md) | SBFM | available; quality gates apply | project_sic_rule |
-| [SUPERNUS PHARMACEUTICALS, INC.](facts/0001356576/README.md) | SUPN | available; quality gates apply | project_sic_rule |
-| [Surgery Partners, Inc.](facts/0001638833/README.md) | SGRY | available; quality gates apply | project_sic_rule |
-| [Surrozen, Inc./DE](facts/0001824893/README.md) | SRZN | available; quality gates apply | project_sic_rule |
-| [SUTRO BIOPHARMA, INC.](facts/0001382101/README.md) | STRO | available; quality gates apply | project_sic_rule |
-| [Syndax Pharmaceuticals Inc](facts/0001395937/README.md) | SNDX | available; quality gates apply | project_sic_rule |
-| [TACTILE SYSTEMS TECHNOLOGY INC](facts/0001027838/README.md) | TCMD | available; quality gates apply | project_sic_rule |
-| [TAKEDA PHARMACEUTICAL CO LTD](facts/0001395064/README.md) | TAK | missing | project_sic_rule |
-| [TALPHERA, INC.](facts/0001427925/README.md) | TLPH | available; quality gates apply | project_sic_rule |
-| [TANDEM DIABETES CARE INC](facts/0001438133/README.md) | TNDM | available; quality gates apply | project_sic_rule |
-| [Tango Therapeutics, Inc.](facts/0001819133/README.md) | TNGX | available; quality gates apply | project_sic_rule |
-| [Tarsus Pharmaceuticals, Inc.](facts/0001819790/README.md) | TARS | available; quality gates apply | project_sic_rule |
-| [Taysha Gene Therapies, Inc.](facts/0001806310/README.md) | TSHA | available; quality gates apply | project_sic_rule |
-| [Tectonic Therapeutic, Inc.](facts/0001681087/README.md) | TECX | available; quality gates apply | project_sic_rule |
-| [TELA Bio, Inc.](facts/0001561921/README.md) | TELA | available; quality gates apply | project_sic_rule |
-| [Teladoc Health, Inc.](facts/0001477449/README.md) | TDOC | available; quality gates apply | project_sic_rule |
-| [TELEFLEX INC](facts/0000096943/README.md) | TFX | available; quality gates apply | project_sic_rule |
-| [Telix Pharmaceuticals Ltd](facts/0002007191/README.md) | TLX | missing | project_sic_rule |
-| [Telomir Pharmaceuticals, Inc.](facts/0001971532/README.md) | TELO | available; quality gates apply | project_sic_rule |
-| [Tempest Therapeutics, Inc.](facts/0001544227/README.md) | TPST | available; quality gates apply | project_sic_rule |
-| [TENAX THERAPEUTICS, INC.](facts/0000034956/README.md) | TENX | available; quality gates apply | project_sic_rule |
-| [Tenaya Therapeutics, Inc.](facts/0001858848/README.md) | TNYA | available; quality gates apply | project_sic_rule |
-| [TENET HEALTHCARE CORP](facts/0000070318/README.md) | THC | available; quality gates apply | project_sic_rule |
-| [Tenon Medical, Inc.](facts/0001560293/README.md) | TNON | available; quality gates apply | project_sic_rule |
-| [TEVA PHARMACEUTICAL INDUSTRIES LTD](facts/0000818686/README.md) | TEVA | available; quality gates apply | project_sic_rule |
-| [Tevogen Inc.](facts/0001860871/README.md) | TVGN | available; quality gates apply | project_sic_rule |
-| [TG THERAPEUTICS, INC.](facts/0001001316/README.md) | TGTX | available; quality gates apply | project_sic_rule |
-| [TherapeuticsMD, Inc.](facts/0000025743/README.md) | TXMD | available; quality gates apply | project_sic_rule |
-| [Theriva Biologics, Inc.](facts/0000894158/README.md) | TOVX | available; quality gates apply | project_sic_rule |
-| [Tilray Brands, Inc.](facts/0001731348/README.md) | TLRY | available; quality gates apply | project_sic_rule |
-| [Tiziana Life Sciences Ltd](facts/0001723069/README.md) | TLSA | missing | project_sic_rule |
-| [Tonix Pharmaceuticals Holding Corp.](facts/0001430306/README.md) | TNXP | available; quality gates apply | project_sic_rule |
-| [Transcode Therapeutics, Inc.](facts/0001829635/README.md) | RNAZ | available; quality gates apply | project_sic_rule |
-| [TransMedics Group, Inc.](facts/0001756262/README.md) | TMDX | available; quality gates apply | project_sic_rule |
-| [Travere Therapeutics, Inc.](facts/0001438533/README.md) | TVTX | available; quality gates apply | project_sic_rule |
-| [Traws Pharma, Inc.](facts/0001130598/README.md) | TRAW | available; quality gates apply | project_sic_rule |
-| [TREACE MEDICAL CONCEPTS, INC.](facts/0001630627/README.md) | TMCI | available; quality gates apply | project_sic_rule |
-| [Trevi Therapeutics, Inc.](facts/0001563880/README.md) | TRVI | available; quality gates apply | project_sic_rule |
-| [TRex Bio, Inc.](facts/0002139097/README.md) | TRXB | missing | project_sic_rule |
-| [TRINITY BIOTECH PLC](facts/0000888721/README.md) | TRIB | missing | project_sic_rule |
-| [TriSalus Life Sciences, Inc.](facts/0001826667/README.md) | TLSI | available; quality gates apply | project_sic_rule |
-| [TScan Therapeutics, Inc.](facts/0001783328/README.md) | TCRX | available; quality gates apply | project_sic_rule |
-| [TuHURA Biosciences, Inc./NV](facts/0001498382/README.md) | HURA | available; quality gates apply | project_sic_rule |
-| [Turn Therapeutics Inc.](facts/0002023016/README.md) | TTRX | available; quality gates apply | project_sic_rule |
-| [Tvardi Therapeutics, Inc.](facts/0001346830/README.md) | TVRD | available; quality gates apply | project_sic_rule |
-| [Twist Bioscience Corp](facts/0001581280/README.md) | TWST | available; quality gates apply | project_sic_rule |
-| [Tyra Biosciences, Inc.](facts/0001863127/README.md) | TYRA | available; quality gates apply | project_sic_rule |
-| [U S PHYSICAL THERAPY INC /NV](facts/0000885978/README.md) | USPH | available; quality gates apply | project_sic_rule |
-| [UFP TECHNOLOGIES INC](facts/0000914156/README.md) | UFPT | available; quality gates apply | project_sic_rule |
-| [Ultragenyx Pharmaceutical Inc.](facts/0001515673/README.md) | RARE | available; quality gates apply | project_sic_rule |
-| [Unicycive Therapeutics, Inc.](facts/0001766140/README.md) | UNCY | available; quality gates apply | project_sic_rule |
-| [uniQure N.V.](facts/0001590560/README.md) | QURE | missing | project_sic_rule |
-| [UNITED THERAPEUTICS Corp](facts/0001082554/README.md) | UTHR | available; quality gates apply | project_sic_rule |
-| [UNIVERSAL HEALTH SERVICES INC](facts/0000352915/README.md) | UHS | available; quality gates apply | project_sic_rule |
-| [Universe Pharmaceuticals INC](facts/0001809616/README.md) | UPC | missing | project_sic_rule |
-| [Upstream Bio, Inc.](facts/0002022626/README.md) | UPB | available; quality gates apply | project_sic_rule |
-| [UroGen Pharma Ltd.](facts/0001668243/README.md) | URGN | available; quality gates apply | project_sic_rule |
-| [USANA HEALTH SCIENCES INC](facts/0000896264/README.md) | USNA | available; quality gates apply | project_sic_rule |
-| [UTAH MEDICAL PRODUCTS INC](facts/0000706698/README.md) | UTMD | available; quality gates apply | project_sic_rule |
-| [Valion Bio, Inc.](facts/0001787740/README.md) | VBIO | available; quality gates apply | project_sic_rule |
-| [Valneva SE](facts/0001836564/README.md) | VALN | missing | project_sic_rule |
-| [Vanda Pharmaceuticals Inc.](facts/0001347178/README.md) | VNDA | available; quality gates apply | project_sic_rule |
-| [Vaxcyte, Inc.](facts/0001649094/README.md) | PCVX | available; quality gates apply | project_sic_rule |
-| [Vera Therapeutics, Inc.](facts/0001831828/README.md) | VERA | available; quality gates apply | project_sic_rule |
-| [VERACYTE, INC.](facts/0001384101/README.md) | VCYT | available; quality gates apply | project_sic_rule |
-| [Veradermics, Inc](facts/0001827635/README.md) | MANE | available; quality gates apply | project_sic_rule |
-| [Verastem, Inc.](facts/0001526119/README.md) | VSTM | available; quality gates apply | project_sic_rule |
-| [Vericel Corp](facts/0000887359/README.md) | VCEL | available; quality gates apply | project_sic_rule |
-| [Verrica Pharmaceuticals Inc.](facts/0001660334/README.md) | VRCA | available; quality gates apply | project_sic_rule |
-| [VERTEX PHARMACEUTICALS INC / MA](facts/0000875320/README.md) | VRTX | available; quality gates apply | project_sic_rule |
-| [VERU INC.](facts/0000863894/README.md) | VERU | available; quality gates apply | project_sic_rule |
-| [Viatris Inc](facts/0001792044/README.md) | VTRS | available; quality gates apply | project_sic_rule |
-| [Vicore Pharma Holding AB](facts/0002124403/README.md) | VCRE | missing | project_sic_rule |
-| [VIEMED HEALTHCARE, INC.](facts/0001729149/README.md) | VMD | available; quality gates apply | project_sic_rule |
-| [Viking Therapeutics, Inc.](facts/0001607678/README.md) | VKTX | available; quality gates apply | project_sic_rule |
-| [Vir Biotechnology, Inc.](facts/0001706431/README.md) | VIR | available; quality gates apply | project_sic_rule |
-| [Virax Biolabs Group Ltd](facts/0001885827/README.md) | VRAX | missing | project_sic_rule |
-| [Viridian Therapeutics, Inc.\\DE](facts/0001590750/README.md) | VRDN | available; quality gates apply | project_sic_rule |
-| [Vistagen Therapeutics, Inc.](facts/0001411685/README.md) | VTGN | available; quality gates apply | project_sic_rule |
-| [Vivani Medical, Inc.](facts/0001266806/README.md) | VANI | available; quality gates apply | project_sic_rule |
-| [Vivos Therapeutics, Inc.](facts/0001716166/README.md) | VVOS | available; quality gates apply | project_sic_rule |
-| [VivoSim Labs, INC.](facts/0001497253/README.md) | VIVS | available; quality gates apply | project_sic_rule |
-| [Vogenx, Inc.](facts/0001903784/README.md) | VOGX | available; quality gates apply | project_sic_rule |
-| [VOLITIONRX LTD](facts/0000093314/README.md) | VNRX | available; quality gates apply | project_sic_rule |
-| [Vor Biopharma Inc.](facts/0001817229/README.md) | VOR | available; quality gates apply | project_sic_rule |
-| [Voyager Therapeutics, Inc.](facts/0001640266/README.md) | VYGR | available; quality gates apply | project_sic_rule |
-| [vTv Therapeutics Inc.](facts/0001641489/README.md) | VTVT | available; quality gates apply | project_sic_rule |
-| [Vyome Holdings, Inc](facts/0001427570/README.md) | HIND | available; quality gates apply | project_sic_rule |
-| [Warby Parker Inc.](facts/0001504776/README.md) | WRBY | available; quality gates apply | project_sic_rule |
-| [Wave Life Sciences, Inc.](facts/0001631574/README.md) | WVE | available; quality gates apply | project_sic_rule |
-| [Werewolf Therapeutics, Inc.](facts/0001785530/README.md) | HOWL | available; quality gates apply | project_sic_rule |
-| [WEST PHARMACEUTICAL SERVICES INC](facts/0000105770/README.md) | WST | available; quality gates apply | project_sic_rule |
-| [Westin Acquisition Corp](facts/0002076192/README.md) | WSTN | available; quality gates apply | project_sic_rule |
-| [Whitehawk Therapeutics, Inc.](facts/0001422142/README.md) | WHWK | available; quality gates apply | project_sic_rule |
-| [WORK Medical Technology Group LTD](facts/0001929783/README.md) | WOK | missing | project_sic_rule |
-| [X4 Pharmaceuticals, Inc](facts/0001501697/README.md) | XFOR | available; quality gates apply | project_sic_rule |
-| [XBiotech Inc.](facts/0001626878/README.md) | XBIT | available; quality gates apply | project_sic_rule |
-| [Xencor Inc](facts/0001326732/README.md) | XNCR | available; quality gates apply | project_sic_rule |
-| [Xenetic Biosciences, Inc.](facts/0001534525/README.md) | XBIO | available; quality gates apply | project_sic_rule |
-| [Xenon Pharmaceuticals Inc.](facts/0001582313/README.md) | XENE | available; quality gates apply | project_sic_rule |
-| [Xeris Biopharma Holdings, Inc.](facts/0001867096/README.md) | XERS | available; quality gates apply | project_sic_rule |
-| [Xilio Therapeutics, Inc.](facts/0001840233/README.md) | XLO | available; quality gates apply | project_sic_rule |
-| [XORTX Therapeutics Inc.](facts/0001729214/README.md) | XRTX | missing | project_sic_rule |
-| [Xtant Medical Holdings, Inc.](facts/0001453593/README.md) | XTNT | available; quality gates apply | project_sic_rule |
-| [XTL BIOPHARMACEUTICALS LTD](facts/0001023549/README.md) | XTLB | missing | project_sic_rule |
-| [Yarrow Bioscience, Inc.](facts/0001566044/README.md) | YARW | available; quality gates apply | project_sic_rule |
-| [YD Bio Ltd](facts/0002011674/README.md) | YDES | missing | project_sic_rule |
-| [Zai Lab Ltd](facts/0001704292/README.md) | ZLAB | available; quality gates apply | project_sic_rule |
-| [Zenas BioPharma, Inc.](facts/0001953926/README.md) | ZBIO | available; quality gates apply | project_sic_rule |
-| [Zentalis Pharmaceuticals, Inc.](facts/0001725160/README.md) | ZNTL | available; quality gates apply | project_sic_rule |
-| [ZEVRA THERAPEUTICS, INC.](facts/0001434647/README.md) | ZVRA | available; quality gates apply | project_sic_rule |
-| [Zhengye Biotechnology Holding Ltd](facts/0001975641/README.md) | ZYBT | missing | project_sic_rule |
-| [ZIMMER BIOMET HOLDINGS, INC.](facts/0001136869/README.md) | ZBH | available; quality gates apply | project_sic_rule |
-| [Zoetis Inc.](facts/0001555280/README.md) | ZTS | available; quality gates apply | project_sic_rule |
-| [Zura Bio Ltd](facts/0001855644/README.md) | ZURA | available; quality gates apply | project_sic_rule |
-| [Zymeworks Inc.](facts/0001937653/README.md) | ZYME | available; quality gates apply | project_sic_rule |
+| [AAPG](facts/AAPG/README.md) | ASCENTAGE PHARMA GROUP INTERNATIONAL | missing | project_sic_rule |
+| [AARD](facts/AARD/README.md) | Aardvark Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ABBV](facts/ABBV/README.md) | AbbVie Inc. | available; quality gates apply | project_sic_rule |
+| [ABCL](facts/ABCL/README.md) | AbCellera Biologics Inc. | available; quality gates apply | project_sic_rule |
+| [ABEO](facts/ABEO/README.md) | ABEONA THERAPEUTICS INC. | available; quality gates apply | project_sic_rule |
+| [ABOS](facts/ABOS/README.md) | Acumen Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ABT](facts/ABT/README.md) | ABBOTT LABORATORIES | missing | project_sic_rule |
+| [ABUS](facts/ABUS/README.md) | Arbutus Biopharma Corp | available; quality gates apply | project_sic_rule |
+| [ABVC](facts/ABVC/README.md) | ABVC BIOPHARMA, INC. | available; quality gates apply | project_sic_rule |
+| [ABVX](facts/ABVX/README.md) | Abivax S.A. | missing | project_sic_rule |
+| [ACAD](facts/ACAD/README.md) | ACADIA PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [ACB](facts/ACB/README.md) | AURORA CANNABIS INC | missing | project_sic_rule |
+| [ACET](facts/ACET/README.md) | Adicet Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [ACH](facts/ACH/README.md) | ACCENDRA HEALTH INC/VA/ | available; quality gates apply | project_sic_rule |
+| [ACHC](facts/ACHC/README.md) | Acadia Healthcare Company, Inc. | missing | project_sic_rule |
+| [ACHV](facts/ACHV/README.md) | ACHIEVE LIFE SCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [ACIU](facts/ACIU/README.md) | AC Immune SA | missing | project_sic_rule |
+| [ACOG](facts/ACOG/README.md) | Alpha Cognition Inc. | available; quality gates apply | project_sic_rule |
+| [ACON](facts/ACON/README.md) | Aclarion, Inc. | available; quality gates apply | project_sic_rule |
+| [ACRS](facts/ACRS/README.md) | Aclaris Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ACRV](facts/ACRV/README.md) | Acrivon Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ACTU](facts/ACTU/README.md) | ACTUATE THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [ACXP](facts/ACXP/README.md) | Acurx Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ADCT](facts/ADCT/README.md) | ADC Therapeutics SA | available; quality gates apply | project_sic_rule |
+| [ADGM](facts/ADGM/README.md) | Adagio Medical Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [ADIL](facts/ADIL/README.md) | ADIAL PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [ADMA](facts/ADMA/README.md) | ADMA BIOLOGICS, INC. | available; quality gates apply | project_sic_rule |
+| [ADPT](facts/ADPT/README.md) | Adaptive Biotechnologies Corp | available; quality gates apply | project_sic_rule |
+| [ADRX](facts/ADRX/README.md) | ADARx Pharmaceuticals, Inc. | missing | project_sic_rule |
+| [ADUS](facts/ADUS/README.md) | Addus HomeCare Corp | available; quality gates apply | project_sic_rule |
+| [ADVB](facts/ADVB/README.md) | Advanced Biomed Inc. | available; quality gates apply | project_sic_rule |
+| [ADXN](facts/ADXN/README.md) | Addex Therapeutics Ltd. | missing | project_sic_rule |
+| [AEMD](facts/AEMD/README.md) | AETHLON MEDICAL INC | available; quality gates apply | project_sic_rule |
+| [AEON](facts/AEON/README.md) | AEON Biopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [AGEN](facts/AGEN/README.md) | AGENUS INC | available; quality gates apply | project_sic_rule |
+| [AGIO](facts/AGIO/README.md) | AGIOS PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [AGL](facts/AGL/README.md) | agilon health, inc. | available; quality gates apply | project_sic_rule |
+| [AHCO](facts/AHCO/README.md) | AdaptHealth Corp. | available; quality gates apply | project_sic_rule |
+| [AIM](facts/AIM/README.md) | AIM ImmunoTech Inc. | available; quality gates apply | project_sic_rule |
+| [AIRS](facts/AIRS/README.md) | Airsculpt Technologies, Inc. | available; quality gates apply | project_sic_rule |
+| [AKBA](facts/AKBA/README.md) | Akebia Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [AKTS](facts/AKTS/README.md) | Aktis Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [AKTX](facts/AKTX/README.md) | Akari Therapeutics Plc | available; quality gates apply | project_sic_rule |
+| [ALC](facts/ALC/README.md) | ALCON INC | missing | project_sic_rule |
+| [ALDX](facts/ALDX/README.md) | Aldeyra Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ALEC](facts/ALEC/README.md) | Alector, Inc. | available; quality gates apply | project_sic_rule |
+| [ALGN](facts/ALGN/README.md) | ALIGN TECHNOLOGY INC | available; quality gates apply | project_sic_rule |
+| [ALGS](facts/ALGS/README.md) | Aligos Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ALKS](facts/ALKS/README.md) | Alkermes plc. | available; quality gates apply | project_sic_rule |
+| [ALLO](facts/ALLO/README.md) | Allogene Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ALLR](facts/ALLR/README.md) | Allarity Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ALMS](facts/ALMS/README.md) | ALUMIS INC. | available; quality gates apply | project_sic_rule |
+| [ALNY](facts/ALNY/README.md) | ALNYLAM PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [ALPS](facts/ALPS/README.md) | Alps Group Inc | missing | project_sic_rule |
+| [ALT](facts/ALT/README.md) | Altimmune, Inc. | available; quality gates apply | project_sic_rule |
+| [ALVO](facts/ALVO/README.md) | Alvotech | missing | project_sic_rule |
+| [ALXO](facts/ALXO/README.md) | ALX ONCOLOGY HOLDINGS INC | available; quality gates apply | project_sic_rule |
+| [ALZN](facts/ALZN/README.md) | Alzamend Neuro, Inc. | available; quality gates apply | project_sic_rule |
+| [AMGN](facts/AMGN/README.md) | AMGEN INC | available; quality gates apply | project_sic_rule |
+| [AMIX](facts/AMIX/README.md) | Autonomix Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [AMLX](facts/AMLX/README.md) | Amylyx Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [AMPH](facts/AMPH/README.md) | Amphastar Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [AMRX](facts/AMRX/README.md) | Amneal Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [AMS](facts/AMS/README.md) | AMERICAN SHARED HOSPITAL SERVICES | available; quality gates apply | project_sic_rule |
+| [ANAB](facts/ANAB/README.md) | ANAPTYSBIO, INC | available; quality gates apply | project_sic_rule |
+| [ANGO](facts/ANGO/README.md) | ANGIODYNAMICS INC | available; quality gates apply | project_sic_rule |
+| [ANIK](facts/ANIK/README.md) | Anika Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ANIP](facts/ANIP/README.md) | ANI PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [ANIX](facts/ANIX/README.md) | Anixa Biosciences Inc | available; quality gates apply | project_sic_rule |
+| [ANL](facts/ANL/README.md) | Adlai Nortye Group Ltd. | missing | project_sic_rule |
+| [ANNX](facts/ANNX/README.md) | Annexon, Inc. | available; quality gates apply | project_sic_rule |
+| [ANRO](facts/ANRO/README.md) | Alto Neuroscience, Inc. | available; quality gates apply | project_sic_rule |
+| [ANTX](facts/ANTX/README.md) | AN2 Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ANVS](facts/ANVS/README.md) | Annovis Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [AORT](facts/AORT/README.md) | ARTIVION, INC. | available; quality gates apply | project_sic_rule |
+| [APLM](facts/APLM/README.md) | Apollomics Inc. | missing | project_sic_rule |
+| [APMD](facts/APMD/README.md) | Apnimed, Inc. | available; quality gates apply | project_sic_rule |
+| [APRE](facts/APRE/README.md) | Aprea Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [APT](facts/APT/README.md) | ALPHA PRO TECH LTD | available; quality gates apply | project_sic_rule |
+| [APUS](facts/APUS/README.md) | Apimeds Pharmaceuticals US, Inc. | available; quality gates apply | project_sic_rule |
+| [APVO](facts/APVO/README.md) | Aptevo Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [APYX](facts/APYX/README.md) | Apyx Medical Corp | available; quality gates apply | project_sic_rule |
+| [AQST](facts/AQST/README.md) | Aquestive Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ARAY](facts/ARAY/README.md) | ACCURAY INC | available; quality gates apply | project_sic_rule |
+| [ARCT](facts/ARCT/README.md) | Arcturus Therapeutics Holdings Inc. | available; quality gates apply | project_sic_rule |
+| [ARDT](facts/ARDT/README.md) | Ardent Health, Inc. | available; quality gates apply | project_sic_rule |
+| [ARDX](facts/ARDX/README.md) | ARDELYX, INC. | available; quality gates apply | project_sic_rule |
+| [ARGX](facts/ARGX/README.md) | ARGENX SE | missing | project_sic_rule |
+| [ARMP](facts/ARMP/README.md) | Armata Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ARQT](facts/ARQT/README.md) | Arcutis Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ARTL](facts/ARTL/README.md) | ARTELO BIOSCIENCES, INC. | missing | project_sic_rule |
+| [ARTV](facts/ARTV/README.md) | Artiva Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ARVN](facts/ARVN/README.md) | ARVINAS, INC. | available; quality gates apply | project_sic_rule |
+| [ARWR](facts/ARWR/README.md) | ARROWHEAD PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [ASBP](facts/ASBP/README.md) | Aspire-Lakewood Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [ASMB](facts/ASMB/README.md) | ASSEMBLY BIOSCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [ASND](facts/ASND/README.md) | Ascendis Pharma A/S | missing | project_sic_rule |
+| [ATEC](facts/ATEC/README.md) | Alphatec Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [ATHE](facts/ATHE/README.md) | ALTERITY THERAPEUTICS LTD | missing | project_sic_rule |
+| [ATNM](facts/ATNM/README.md) | Actinium Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ATOS](facts/ATOS/README.md) | ATOSSA THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [ATPC](facts/ATPC/README.md) | Agape ATP Corp | available; quality gates apply | project_sic_rule |
+| [ATRA](facts/ATRA/README.md) | Atara Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ATRC](facts/ATRC/README.md) | AtriCure, Inc. | available; quality gates apply | project_sic_rule |
+| [ATTO](facts/ATTO/README.md) | Attovia Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ATYR](facts/ATYR/README.md) | aTYR PHARMA INC | available; quality gates apply | project_sic_rule |
+| [AUNA](facts/AUNA/README.md) | AUNA S.A. | missing | project_sic_rule |
+| [AUPH](facts/AUPH/README.md) | Aurinia Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [AURA](facts/AURA/README.md) | Aura Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [AUTL](facts/AUTL/README.md) | Autolus Therapeutics plc | available; quality gates apply | project_sic_rule |
+| [AVAH](facts/AVAH/README.md) | Aveanna Healthcare Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [AVBP](facts/AVBP/README.md) | ArriVent BioPharma, Inc. | available; quality gates apply | project_sic_rule |
+| [AVIR](facts/AVIR/README.md) | Atea Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [AVLN](facts/AVLN/README.md) | Avalyn Pharma Inc. | available; quality gates apply | project_sic_rule |
+| [AVR](facts/AVR/README.md) | Anteris Technologies Global Corp. | available; quality gates apply | project_sic_rule |
+| [AVTX](facts/AVTX/README.md) | Avalo Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [AVXL](facts/AVXL/README.md) | ANAVEX LIFE SCIENCES CORP. | available; quality gates apply | project_sic_rule |
+| [AXGN](facts/AXGN/README.md) | Axogen, Inc. | available; quality gates apply | project_sic_rule |
+| [AXSM](facts/AXSM/README.md) | Axsome Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [AYTU](facts/AYTU/README.md) | AYTU BIOPHARMA, INC | available; quality gates apply | project_sic_rule |
+| [AZN](facts/AZN/README.md) | ASTRAZENECA PLC | missing | project_sic_rule |
+| [AZTR](facts/AZTR/README.md) | Azitra, Inc. | available; quality gates apply | project_sic_rule |
+| [BAX](facts/BAX/README.md) | BAXTER INTERNATIONAL INC | available; quality gates apply | project_sic_rule |
+| [BBIO](facts/BBIO/README.md) | BridgeBio Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [BBLG](facts/BBLG/README.md) | Bone Biologics Corp | available; quality gates apply | project_sic_rule |
+| [BBNX](facts/BBNX/README.md) | Beta Bionics, Inc. | available; quality gates apply | project_sic_rule |
+| [BBOT](facts/BBOT/README.md) | BridgeBio Oncology Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [BCAX](facts/BCAX/README.md) | Bicara Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [BCDA](facts/BCDA/README.md) | BioCardia, Inc. | available; quality gates apply | project_sic_rule |
+| [BCRX](facts/BCRX/README.md) | BIOCRYST PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [BCTX](facts/BCTX/README.md) | BriaCell Therapeutics Corp. | available; quality gates apply | project_sic_rule |
+| [BCYC](facts/BCYC/README.md) | BICYCLE THERAPEUTICS PLC | available; quality gates apply | project_sic_rule |
+| [BDMD](facts/BDMD/README.md) | Baird Medical Investment Holdings Ltd | missing | project_sic_rule |
+| [BDRX](facts/BDRX/README.md) | Biodexa Pharmaceuticals Plc | missing | project_sic_rule |
+| [BDSX](facts/BDSX/README.md) | BIODESIX INC | available; quality gates apply | project_sic_rule |
+| [BDTX](facts/BDTX/README.md) | Black Diamond Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [BDX](facts/BDX/README.md) | BECTON DICKINSON & CO | available; quality gates apply | project_sic_rule |
+| [BEAM](facts/BEAM/README.md) | Beam Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [BEAT](facts/BEAT/README.md) | HeartBeam, Inc. | available; quality gates apply | project_sic_rule |
+| [BFLY](facts/BFLY/README.md) | Butterfly Network, Inc. | available; quality gates apply | project_sic_rule |
+| [BFRG](facts/BFRG/README.md) | BullFrog AI Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [BFRI](facts/BFRI/README.md) | Biofrontera Inc. | available; quality gates apply | project_sic_rule |
+| [BGLC](facts/BGLC/README.md) | BioNexus Gene Lab Corp | available; quality gates apply | project_sic_rule |
+| [BGM](facts/BGM/README.md) | BGM Group Ltd. | missing | project_sic_rule |
+| [BHC](facts/BHC/README.md) | Bausch Health Companies Inc. | available; quality gates apply | project_sic_rule |
+| [BHST](facts/BHST/README.md) | BIOHARVEST SCIENCES INC. | missing | project_sic_rule |
+| [BHVN](facts/BHVN/README.md) | Biohaven Ltd. | available; quality gates apply | project_sic_rule |
+| [BIIB](facts/BIIB/README.md) | BIOGEN INC. | missing | project_sic_rule |
+| [BIOA](facts/BIOA/README.md) | BioAge Labs, Inc. | available; quality gates apply | project_sic_rule |
+| [BIVI](facts/BIVI/README.md) | BIOVIE INC. | available; quality gates apply | project_sic_rule |
+| [BJDX](facts/BJDX/README.md) | Bluejay Diagnostics, Inc. | available; quality gates apply | project_sic_rule |
+| [BKD](facts/BKD/README.md) | Brookdale Senior Living Inc. | available; quality gates apply | project_sic_rule |
+| [BKHA](facts/BKHA/README.md) | Black Hawk Acquisition Corp | available; quality gates apply | project_sic_rule |
+| [BLCO](facts/BLCO/README.md) | Bausch & Lomb Corp | available; quality gates apply | project_sic_rule |
+| [BLLN](facts/BLLN/README.md) | BillionToOne, Inc. | available; quality gates apply | project_sic_rule |
+| [BLRX](facts/BLRX/README.md) | BioLineRx Ltd. | missing | project_sic_rule |
+| [BLSM](facts/BLSM/README.md) | BlossomHill Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [BLTE](facts/BLTE/README.md) | BELITE BIO, INC | missing | project_sic_rule |
+| [BMEA](facts/BMEA/README.md) | Biomea Fusion, Inc. | available; quality gates apply | project_sic_rule |
+| [BMGL](facts/BMGL/README.md) | Basel Medical Group Ltd | missing | project_sic_rule |
+| [BMRA](facts/BMRA/README.md) | BIOMERICA INC | available; quality gates apply | project_sic_rule |
+| [BMRN](facts/BMRN/README.md) | BIOMARIN PHARMACEUTICAL INC | available; quality gates apply | project_sic_rule |
+| [BMY](facts/BMY/README.md) | BRISTOL MYERS SQUIBB CO | available; quality gates apply | project_sic_rule |
+| [BNR](facts/BNR/README.md) | Burning Rock Biotech Ltd | missing | project_sic_rule |
+| [BNTC](facts/BNTC/README.md) | Benitec Biopharma Inc. | available; quality gates apply | project_sic_rule |
+| [BNTX](facts/BNTX/README.md) | BioNTech SE | missing | project_sic_rule |
+| [BOLD](facts/BOLD/README.md) | Boundless Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [BOLT](facts/BOLT/README.md) | Bolt Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [BON](facts/BON/README.md) | Bon Natural Life Ltd | missing | project_sic_rule |
+| [BRTX](facts/BRTX/README.md) | BioRestorative Therapies, Inc. | available; quality gates apply | project_sic_rule |
+| [BRVE](facts/BRVE/README.md) | Braveheart Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [BSEM](facts/BSEM/README.md) | BioStem Technologies, Inc. | available; quality gates apply | project_sic_rule |
+| [BSX](facts/BSX/README.md) | BOSTON SCIENTIFIC CORP | available; quality gates apply | project_sic_rule |
+| [BTMD](facts/BTMD/README.md) | biote Corp. | available; quality gates apply | project_sic_rule |
+| [BTSG](facts/BTSG/README.md) | BrightSpring Health Services, Inc. | available; quality gates apply | project_sic_rule |
+| [BVS](facts/BVS/README.md) | Bioventus Inc. | available; quality gates apply | project_sic_rule |
+| [BWAY](facts/BWAY/README.md) | Brainsway Ltd. | missing | project_sic_rule |
+| [BYSI](facts/BYSI/README.md) | BeyondSpring Inc. | available; quality gates apply | project_sic_rule |
+| [CABA](facts/CABA/README.md) | Cabaletta Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [CADL](facts/CADL/README.md) | Candel Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CAH](facts/CAH/README.md) | CARDINAL HEALTH INC | available; quality gates apply | project_sic_rule |
+| [CAI](facts/CAI/README.md) | Caris Life Sciences, Inc. | available; quality gates apply | project_sic_rule |
+| [CALC](facts/CALC/README.md) | CalciMedica, Inc. | available; quality gates apply | project_sic_rule |
+| [CAMP](facts/CAMP/README.md) | Camp4 Therapeutics Corp | available; quality gates apply | project_sic_rule |
+| [CANF](facts/CANF/README.md) | Can-Fite BioPharma Ltd. | missing | project_sic_rule |
+| [CAPR](facts/CAPR/README.md) | CAPRICOR THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [CARL](facts/CARL/README.md) | CARLSMED, INC. | available; quality gates apply | project_sic_rule |
+| [CATX](facts/CATX/README.md) | Perspective Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CBIO](facts/CBIO/README.md) | CRESCENT BIOPHARMA, INC. | available; quality gates apply | project_sic_rule |
+| [CBLL](facts/CBLL/README.md) | Ceribell, Inc. | available; quality gates apply | project_sic_rule |
+| [CCCC](facts/CCCC/README.md) | C4 Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CCEL](facts/CCEL/README.md) | CRYO CELL INTERNATIONAL INC | available; quality gates apply | project_sic_rule |
+| [CCM](facts/CCM/README.md) | Concord Medical Services Holdings Ltd | missing | project_sic_rule |
+| [CDIO](facts/CDIO/README.md) | Cardio Diagnostics Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [CDNA](facts/CDNA/README.md) | CareDx, Inc. | available; quality gates apply | project_sic_rule |
+| [CDRE](facts/CDRE/README.md) | Cadre Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [CDT](facts/CDT/README.md) | CDT Equity Inc. | available; quality gates apply | project_sic_rule |
+| [CELC](facts/CELC/README.md) | Celcuity Inc. | available; quality gates apply | project_sic_rule |
+| [CELU](facts/CELU/README.md) | Celularity Inc | available; quality gates apply | project_sic_rule |
+| [CELZ](facts/CELZ/README.md) | CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [CERS](facts/CERS/README.md) | CERUS CORP | available; quality gates apply | project_sic_rule |
+| [CGC](facts/CGC/README.md) | Canopy Growth Corp | missing | project_sic_rule |
+| [CGEM](facts/CGEM/README.md) | Cullinan Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CGEN](facts/CGEN/README.md) | COMPUGEN LTD | missing | project_sic_rule |
+| [CGON](facts/CGON/README.md) | CG Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [CGTX](facts/CGTX/README.md) | COGNITION THERAPEUTICS INC | available; quality gates apply | project_sic_rule |
+| [CHE](facts/CHE/README.md) | CHEMED CORP | available; quality gates apply | project_sic_rule |
+| [CHRS](facts/CHRS/README.md) | Coherus Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [CING](facts/CING/README.md) | Cingulate Inc. | available; quality gates apply | project_sic_rule |
+| [CLDI](facts/CLDI/README.md) | Calidi Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CLDX](facts/CLDX/README.md) | Celldex Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CLGN](facts/CLGN/README.md) | CollPlant Biotechnologies Ltd | missing | project_sic_rule |
+| [CLLS](facts/CLLS/README.md) | Cellectis S.A. | missing | project_sic_rule |
+| [CLNN](facts/CLNN/README.md) | Clene Inc. | available; quality gates apply | project_sic_rule |
+| [CLPT](facts/CLPT/README.md) | ClearPoint Neuro, Inc. | available; quality gates apply | project_sic_rule |
+| [CLRB](facts/CLRB/README.md) | Cellectar Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [CLYM](facts/CLYM/README.md) | Climb Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [CMMB](facts/CMMB/README.md) | Chemomab Therapeutics Ltd. | available; quality gates apply | project_sic_rule |
+| [CMND](facts/CMND/README.md) | Clearmind Medicine Inc. | missing | project_sic_rule |
+| [CMPS](facts/CMPS/README.md) | COMPASS Pathways plc | available; quality gates apply | project_sic_rule |
+| [CMPX](facts/CMPX/README.md) | Compass Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CNMD](facts/CNMD/README.md) | CONMED Corp | available; quality gates apply | project_sic_rule |
+| [CNSP](facts/CNSP/README.md) | CNS Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [CNSY](facts/CNSY/README.md) | CERENOME, INC. | available; quality gates apply | project_sic_rule |
+| [CNTB](facts/CNTB/README.md) | Connect Biopharma Holdings Ltd | available; quality gates apply | project_sic_rule |
+| [CNTX](facts/CNTX/README.md) | Context Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [CNXU](facts/CNXU/README.md) | Conexeu Sciences Inc. | available; quality gates apply | project_sic_rule |
+| [COAG](facts/COAG/README.md) | Hemab Therapeutics Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [COCH](facts/COCH/README.md) | Envoy Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [COCP](facts/COCP/README.md) | Cocrystal Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [CODX](facts/CODX/README.md) | Co-Diagnostics, Inc. | available; quality gates apply | project_sic_rule |
+| [COGT](facts/COGT/README.md) | Cogent Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [COLL](facts/COLL/README.md) | COLLEGIUM PHARMACEUTICAL, INC | available; quality gates apply | project_sic_rule |
+| [CON](facts/CON/README.md) | Concentra Group Holdings Parent, Inc. | available; quality gates apply | project_sic_rule |
+| [COO](facts/COO/README.md) | COOPER COMPANIES, INC. | available; quality gates apply | project_sic_rule |
+| [COR](facts/COR/README.md) | Cencora, Inc. | available; quality gates apply | project_sic_rule |
+| [CORT](facts/CORT/README.md) | CORCEPT THERAPEUTICS INC | available; quality gates apply | project_sic_rule |
+| [COSM](facts/COSM/README.md) | Cosmos Health Inc. | available; quality gates apply | project_sic_rule |
+| [COYA](facts/COYA/README.md) | Coya Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CPHI](facts/CPHI/README.md) | CHINA PHARMA HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [CPIX](facts/CPIX/README.md) | CUMBERLAND PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [CRBP](facts/CRBP/README.md) | Corbus Pharmaceuticals Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [CRBU](facts/CRBU/README.md) | Caribou Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [CRDF](facts/CRDF/README.md) | Cardiff Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [CRDL](facts/CRDL/README.md) | Cardiol Therapeutics Inc. | missing | project_sic_rule |
+| [CRIS](facts/CRIS/README.md) | CURIS INC | available; quality gates apply | project_sic_rule |
+| [CRMD](facts/CRMD/README.md) | CorMedix Inc. | available; quality gates apply | project_sic_rule |
+| [CRON](facts/CRON/README.md) | Cronos Group Inc. | available; quality gates apply | project_sic_rule |
+| [CRSP](facts/CRSP/README.md) | CRISPR Therapeutics AG | available; quality gates apply | project_sic_rule |
+| [CRVO](facts/CRVO/README.md) | CervoMed Inc. | available; quality gates apply | project_sic_rule |
+| [CRVS](facts/CRVS/README.md) | Corvus Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [CSBR](facts/CSBR/README.md) | CHAMPIONS ONCOLOGY, INC. | available; quality gates apply | project_sic_rule |
+| [CSTL](facts/CSTL/README.md) | CASTLE BIOSCIENCES INC | available; quality gates apply | project_sic_rule |
+| [CTMX](facts/CTMX/README.md) | CytomX Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CTNM](facts/CTNM/README.md) | Contineum Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CTOR](facts/CTOR/README.md) | CITIUS ONCOLOGY, INC. | available; quality gates apply | project_sic_rule |
+| [CTSO](facts/CTSO/README.md) | Cytosorbents Corp | available; quality gates apply | project_sic_rule |
+| [CTXR](facts/CTXR/README.md) | Citius Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [CTY](facts/CTY/README.md) | CITY THERAPEUTICS, INC. | missing | project_sic_rule |
+| [CUE](facts/CUE/README.md) | Cue Biopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [CUPR](facts/CUPR/README.md) | Cuprina Holdings (Cayman) LTD | missing | project_sic_rule |
+| [CURX](facts/CURX/README.md) | Curanex Pharmaceuticals Inc | available; quality gates apply | project_sic_rule |
+| [CV](facts/CV/README.md) | CapsoVision, Inc | available; quality gates apply | project_sic_rule |
+| [CVKD](facts/CVKD/README.md) | Cadrenal Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [CVM](facts/CVM/README.md) | CEL SCI CORP | available; quality gates apply | project_sic_rule |
+| [CVRX](facts/CVRX/README.md) | CVRx, Inc. | available; quality gates apply | project_sic_rule |
+| [CYH](facts/CYH/README.md) | COMMUNITY HEALTH SYSTEMS INC | available; quality gates apply | project_sic_rule |
+| [CYPH](facts/CYPH/README.md) | CYPHERPUNK TECHNOLOGIES INC. | available; quality gates apply | project_sic_rule |
+| [CYRX](facts/CYRX/README.md) | Cryoport, Inc. | available; quality gates apply | project_sic_rule |
+| [CYTK](facts/CYTK/README.md) | CYTOKINETICS INC | available; quality gates apply | project_sic_rule |
+| [DARE](facts/DARE/README.md) | Dare Bioscience, Inc. | available; quality gates apply | project_sic_rule |
+| [DBVT](facts/DBVT/README.md) | DBV Technologies S.A. | available; quality gates apply | project_sic_rule |
+| [DCGO](facts/DCGO/README.md) | DocGo Inc. | available; quality gates apply | project_sic_rule |
+| [DCOY](facts/DCOY/README.md) | Decoy Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [DCTH](facts/DCTH/README.md) | DELCATH SYSTEMS, INC. | available; quality gates apply | project_sic_rule |
+| [DERM](facts/DERM/README.md) | Journey Medical Corp | available; quality gates apply | project_sic_rule |
+| [DFTX](facts/DFTX/README.md) | Definium Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [DGX](facts/DGX/README.md) | QUEST DIAGNOSTICS INC | available; quality gates apply | project_sic_rule |
+| [DMAC](facts/DMAC/README.md) | DiaMedica Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [DMRA](facts/DMRA/README.md) | Damora Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [DNA](facts/DNA/README.md) | Ginkgo Bioworks Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [DNLI](facts/DNLI/README.md) | Denali Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [DNTH](facts/DNTH/README.md) | Dianthus Therapeutics, Inc. /DE/ | available; quality gates apply | project_sic_rule |
+| [DRIO](facts/DRIO/README.md) | DarioHealth Corp. | available; quality gates apply | project_sic_rule |
+| [DRMA](facts/DRMA/README.md) | Dermata Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [DRTS](facts/DRTS/README.md) | Alpha Tau Medical Ltd. | missing | project_sic_rule |
+| [DRUG](facts/DRUG/README.md) | BRIGHT MINDS BIOSCIENCES INC. | missing | project_sic_rule |
+| [DSGN](facts/DSGN/README.md) | Design Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [DTIL](facts/DTIL/README.md) | PRECISION BIOSCIENCES INC | available; quality gates apply | project_sic_rule |
+| [DVA](facts/DVA/README.md) | DAVITA INC. | available; quality gates apply | project_sic_rule |
+| [DWTX](facts/DWTX/README.md) | Dogwood Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [DXCM](facts/DXCM/README.md) | DEXCOM INC | available; quality gates apply | project_sic_rule |
+| [DYAI](facts/DYAI/README.md) | DYADIC INTERNATIONAL INC | available; quality gates apply | project_sic_rule |
+| [DYN](facts/DYN/README.md) | Dyne Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [EBS](facts/EBS/README.md) | Emergent BioSolutions Inc. | available; quality gates apply | project_sic_rule |
+| [ECOR](facts/ECOR/README.md) | electroCore, Inc. | available; quality gates apply | project_sic_rule |
+| [EDIT](facts/EDIT/README.md) | Editas Medicine, Inc. | available; quality gates apply | project_sic_rule |
+| [EDSA](facts/EDSA/README.md) | Edesa Biotech, Inc. | available; quality gates apply | project_sic_rule |
+| [EHC](facts/EHC/README.md) | Encompass Health Corp | available; quality gates apply | project_sic_rule |
+| [EIKN](facts/EIKN/README.md) | Eikon Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ELAB](facts/ELAB/README.md) | PMGC Holdings Inc. | available; quality gates apply | project_sic_rule |
+| [ELAN](facts/ELAN/README.md) | Elanco Animal Health Inc | available; quality gates apply | project_sic_rule |
+| [ELDN](facts/ELDN/README.md) | Eledon Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ELMD](facts/ELMD/README.md) | Electromed, Inc. | available; quality gates apply | project_sic_rule |
+| [ELOX](facts/ELOX/README.md) | Eloxx Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ELTX](facts/ELTX/README.md) | Elicio Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ELUT](facts/ELUT/README.md) | ELUTIA INC. | available; quality gates apply | project_sic_rule |
+| [ELVN](facts/ELVN/README.md) | Enliven Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [EMBC](facts/EMBC/README.md) | Embecta Corp. | available; quality gates apply | project_sic_rule |
+| [ENGN](facts/ENGN/README.md) | enGene Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [ENOV](facts/ENOV/README.md) | Enovis CORP | available; quality gates apply | project_sic_rule |
+| [ENSC](facts/ENSC/README.md) | Ensysce Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [ENSG](facts/ENSG/README.md) | ENSIGN GROUP, INC | available; quality gates apply | project_sic_rule |
+| [ENTA](facts/ENTA/README.md) | ENANTA PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [ENTX](facts/ENTX/README.md) | Entera Bio Ltd. | available; quality gates apply | project_sic_rule |
+| [ENVB](facts/ENVB/README.md) | Enveric Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [EOLS](facts/EOLS/README.md) | Evolus, Inc. | available; quality gates apply | project_sic_rule |
+| [EPRX](facts/EPRX/README.md) | EUPRAXIA PHARMACEUTICALS INC. | missing | project_sic_rule |
+| [EQ](facts/EQ/README.md) | Equillium, Inc. | available; quality gates apply | project_sic_rule |
+| [ERAS](facts/ERAS/README.md) | Erasca, Inc. | available; quality gates apply | project_sic_rule |
+| [ERNA](facts/ERNA/README.md) | Ernexa Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [ESLA](facts/ESLA/README.md) | Estrella Immunopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [ESTA](facts/ESTA/README.md) | ESTABLISHMENT LABS HOLDINGS INC. | available; quality gates apply | project_sic_rule |
+| [ETON](facts/ETON/README.md) | Eton Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ETRA](facts/ETRA/README.md) | Electra Therapeutics, Inc. | missing | project_sic_rule |
+| [EUDA](facts/EUDA/README.md) | EUDA Health Holdings Ltd | available; quality gates apply | project_sic_rule |
+| [EVAX](facts/EVAX/README.md) | Evaxion A/S | missing | project_sic_rule |
+| [EVMN](facts/EVMN/README.md) | Evommune, Inc. | available; quality gates apply | project_sic_rule |
+| [EVO](facts/EVO/README.md) | Evotec SE | missing | project_sic_rule |
+| [EW](facts/EW/README.md) | Edwards Lifesciences Corp | available; quality gates apply | project_sic_rule |
+| [EWTX](facts/EWTX/README.md) | Edgewise Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [EXEL](facts/EXEL/README.md) | EXELIXIS, INC. | available; quality gates apply | project_sic_rule |
+| [EXOZ](facts/EXOZ/README.md) | EXOZYMES INC. | available; quality gates apply | project_sic_rule |
+| [EYE](facts/EYE/README.md) | National Vision Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [FATE](facts/FATE/README.md) | FATE THERAPEUTICS INC | available; quality gates apply | project_sic_rule |
+| [FBIO](facts/FBIO/README.md) | Fortress Biotech, Inc. | available; quality gates apply | project_sic_rule |
+| [FBLG](facts/FBLG/README.md) | FibroBiologics, Inc. | available; quality gates apply | project_sic_rule |
+| [FDMT](facts/FDMT/README.md) | 4D Molecular Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [FEMY](facts/FEMY/README.md) | FEMASYS INC | available; quality gates apply | project_sic_rule |
+| [FENC](facts/FENC/README.md) | FENNEC PHARMACEUTICALS INC. | available; quality gates apply | project_sic_rule |
+| [FHTX](facts/FHTX/README.md) | Foghorn Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [FLGT](facts/FLGT/README.md) | Fulgent Genetics, Inc. | available; quality gates apply | project_sic_rule |
+| [FLNA](facts/FLNA/README.md) | FILANA THERAPEUTICS, INC. | missing | project_sic_rule |
+| [FMS](facts/FMS/README.md) | Fresenius Medical Care AG | missing | project_sic_rule |
+| [FOCL](facts/FOCL/README.md) | EDAP TMS SA | available; quality gates apply | project_sic_rule |
+| [FRNM](facts/FRNM/README.md) | Freenome, Inc. | available; quality gates apply | project_sic_rule |
+| [FTH](facts/FTH/README.md) | Faeth Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [FTLF](facts/FTLF/README.md) | FITLIFE BRANDS, INC. | available; quality gates apply | project_sic_rule |
+| [FTRE](facts/FTRE/README.md) | Fortrea Holdings Inc. | available; quality gates apply | project_sic_rule |
+| [FULC](facts/FULC/README.md) | Fulcrum Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [GALT](facts/GALT/README.md) | GALECTIN THERAPEUTICS INC | available; quality gates apply | project_sic_rule |
+| [GANX](facts/GANX/README.md) | Gain Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [GCTK](facts/GCTK/README.md) | Glucotrack, Inc. | available; quality gates apply | project_sic_rule |
+| [GDTC](facts/GDTC/README.md) | CytoMed Therapeutics Ltd | missing | project_sic_rule |
+| [GEHC](facts/GEHC/README.md) | GE HealthCare Technologies Inc. | missing | project_sic_rule |
+| [GELS](facts/GELS/README.md) | Gelteq Ltd | missing | project_sic_rule |
+| [GENB](facts/GENB/README.md) | Generate Biomedicines, Inc. | available; quality gates apply | project_sic_rule |
+| [GERN](facts/GERN/README.md) | GERON CORP | available; quality gates apply | project_sic_rule |
+| [GH](facts/GH/README.md) | Guardant Health, Inc. | available; quality gates apply | project_sic_rule |
+| [GHRS](facts/GHRS/README.md) | GH Research PLC | missing | project_sic_rule |
+| [GILD](facts/GILD/README.md) | GILEAD SCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [GKOS](facts/GKOS/README.md) | GLAUKOS Corp | available; quality gates apply | project_sic_rule |
+| [GLSI](facts/GLSI/README.md) | Greenwich LifeSciences, Inc. | available; quality gates apply | project_sic_rule |
+| [GLUE](facts/GLUE/README.md) | Monte Rosa Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [GMAB](facts/GMAB/README.md) | GENMAB A/S | missing | project_sic_rule |
+| [GMED](facts/GMED/README.md) | GLOBUS MEDICAL INC | available; quality gates apply | project_sic_rule |
+| [GNLX](facts/GNLX/README.md) | GENELUX Corp | available; quality gates apply | project_sic_rule |
+| [GNPX](facts/GNPX/README.md) | Genprex, Inc. | available; quality gates apply | project_sic_rule |
+| [GNTA](facts/GNTA/README.md) | Genenta Science S.p.A. | missing | project_sic_rule |
+| [GOSS](facts/GOSS/README.md) | Gossamer Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [GOVX](facts/GOVX/README.md) | GeoVax Labs, Inc. | available; quality gates apply | project_sic_rule |
+| [GPCR](facts/GPCR/README.md) | Structure Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [GRAL](facts/GRAL/README.md) | GRAIL, Inc. | available; quality gates apply | project_sic_rule |
+| [GRCE](facts/GRCE/README.md) | Grace Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [GRFS](facts/GRFS/README.md) | Grifols SA | missing | project_sic_rule |
+| [GRI](facts/GRI/README.md) | GRI Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [GRML](facts/GRML/README.md) | Greenland Mines Ltd | available; quality gates apply | project_sic_rule |
+| [GSK](facts/GSK/README.md) | GSK plc | missing | project_sic_rule |
+| [GTBP](facts/GTBP/README.md) | GT Biopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [GUTS](facts/GUTS/README.md) | FRACTYL HEALTH, INC. | available; quality gates apply | project_sic_rule |
+| [GYRE](facts/GYRE/README.md) | GYRE THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [HAE](facts/HAE/README.md) | HAEMONETICS CORP | available; quality gates apply | project_sic_rule |
+| [HALO](facts/HALO/README.md) | HALOZYME THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [HCA](facts/HCA/README.md) | HCA Healthcare, Inc. | missing | project_sic_rule |
+| [HCM](facts/HCM/README.md) | HUTCHMED (China) Ltd | missing | project_sic_rule |
+| [HCSG](facts/HCSG/README.md) | HEALTHCARE SERVICES GROUP INC | available; quality gates apply | project_sic_rule |
+| [HCWB](facts/HCWB/README.md) | HCW Biologics Inc. | available; quality gates apply | project_sic_rule |
+| [HELP](facts/HELP/README.md) | Helus Pharma Inc. | missing | project_sic_rule |
+| [HIMS](facts/HIMS/README.md) | Hims & Hers Health, Inc. | available; quality gates apply | project_sic_rule |
+| [HIND](facts/HIND/README.md) | Vyome Holdings, Inc | available; quality gates apply | project_sic_rule |
+| [HKPD](facts/HKPD/README.md) | Cellyan Biotechnology Co., Ltd | missing | project_sic_rule |
+| [HLF](facts/HLF/README.md) | HERBALIFE LTD. | available; quality gates apply | project_sic_rule |
+| [HOWL](facts/HOWL/README.md) | Werewolf Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [HRMY](facts/HRMY/README.md) | Harmony Biosciences Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [HROW](facts/HROW/README.md) | HARROW, INC. | available; quality gates apply | project_sic_rule |
+| [HRTX](facts/HRTX/README.md) | HERON THERAPEUTICS, INC. /DE/ | available; quality gates apply | project_sic_rule |
+| [HSIC](facts/HSIC/README.md) | HENRY SCHEIN INC | available; quality gates apply | project_sic_rule |
+| [HTFL](facts/HTFL/README.md) | Heartflow, Inc. | available; quality gates apply | project_sic_rule |
+| [HUMA](facts/HUMA/README.md) | Humacyte, Inc. | available; quality gates apply | project_sic_rule |
+| [HURA](facts/HURA/README.md) | TuHURA Biosciences, Inc./NV | available; quality gates apply | project_sic_rule |
+| [HYFT](facts/HYFT/README.md) | MindWalk Holdings Corp. | missing | project_sic_rule |
+| [HYPR](facts/HYPR/README.md) | Hyperfine, Inc. | available; quality gates apply | project_sic_rule |
+| [IAM](facts/IAM/README.md) | Iambic Therapeutics, Inc. | missing | project_sic_rule |
+| [IART](facts/IART/README.md) | INTEGRA LIFESCIENCES HOLDINGS CORP | available; quality gates apply | project_sic_rule |
+| [IBIO](facts/IBIO/README.md) | iBio, Inc. | available; quality gates apply | project_sic_rule |
+| [IBO](facts/IBO/README.md) | IMPACT BIOMEDICAL INC. | available; quality gates apply | project_sic_rule |
+| [IBRX](facts/IBRX/README.md) | ImmunityBio, Inc. | available; quality gates apply | project_sic_rule |
+| [ICCC](facts/ICCC/README.md) | IMMUCELL CORP /DE/ | available; quality gates apply | project_sic_rule |
+| [ICCM](facts/ICCM/README.md) | IceCure Medical Ltd. | missing | project_sic_rule |
+| [ICU](facts/ICU/README.md) | SeaStar Medical Holding Corp | available; quality gates apply | project_sic_rule |
+| [ICUI](facts/ICUI/README.md) | ICU MEDICAL INC/DE | available; quality gates apply | project_sic_rule |
+| [IDXX](facts/IDXX/README.md) | IDEXX LABORATORIES INC /DE | available; quality gates apply | project_sic_rule |
+| [IDYA](facts/IDYA/README.md) | IDEAYA Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [IFRX](facts/IFRX/README.md) | InflaRx N.V. | missing | project_sic_rule |
+| [IGC](facts/IGC/README.md) | IGC Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [IKT](facts/IKT/README.md) | Inhibikase Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [IMA](facts/IMA/README.md) | ImageneBio, Inc. | available; quality gates apply | project_sic_rule |
+| [IMCC](facts/IMCC/README.md) | IM Cannabis Corp. | missing | project_sic_rule |
+| [IMCR](facts/IMCR/README.md) | Immunocore Holdings plc | available; quality gates apply | project_sic_rule |
+| [IMDX](facts/IMDX/README.md) | Insight Molecular Diagnostics Inc. | available; quality gates apply | project_sic_rule |
+| [IMMP](facts/IMMP/README.md) | IMMUTEP Ltd | missing | project_sic_rule |
+| [IMMX](facts/IMMX/README.md) | Immix Biopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [IMNM](facts/IMNM/README.md) | Immunome Inc. | available; quality gates apply | project_sic_rule |
+| [IMNN](facts/IMNN/README.md) | Imunon, Inc. | available; quality gates apply | project_sic_rule |
+| [IMRN](facts/IMRN/README.md) | Immuron Ltd | missing | project_sic_rule |
+| [IMRX](facts/IMRX/README.md) | Immuneering Corp | available; quality gates apply | project_sic_rule |
+| [IMTX](facts/IMTX/README.md) | Immatics N.V. | missing | project_sic_rule |
+| [IMUX](facts/IMUX/README.md) | IMMUNIC, INC. | available; quality gates apply | project_sic_rule |
+| [IMVT](facts/IMVT/README.md) | Immunovant, Inc. | available; quality gates apply | project_sic_rule |
+| [INAB](facts/INAB/README.md) | IN8BIO, INC. | available; quality gates apply | project_sic_rule |
+| [INBS](facts/INBS/README.md) | INTELLIGENT BIO SOLUTIONS INC. | missing | project_sic_rule |
+| [INBX](facts/INBX/README.md) | Inhibrx Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [INCR](facts/INCR/README.md) | Intercure Ltd. | missing | project_sic_rule |
+| [INDP](facts/INDP/README.md) | Indaptus Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [INDV](facts/INDV/README.md) | Indivior Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [INGN](facts/INGN/README.md) | Inogen Inc | available; quality gates apply | project_sic_rule |
+| [INKT](facts/INKT/README.md) | MiNK Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [INM](facts/INM/README.md) | InMed Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [INMB](facts/INMB/README.md) | Inmune Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [INMD](facts/INMD/README.md) | InMode Ltd. | missing | project_sic_rule |
+| [INNV](facts/INNV/README.md) | InnovAge Holding Corp. | available; quality gates apply | project_sic_rule |
+| [INO](facts/INO/README.md) | INOVIO PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [INSM](facts/INSM/README.md) | INSMED Inc | available; quality gates apply | project_sic_rule |
+| [INSP](facts/INSP/README.md) | Inspire Medical Systems, Inc. | available; quality gates apply | project_sic_rule |
+| [INTS](facts/INTS/README.md) | INTENSITY THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [INVA](facts/INVA/README.md) | Innoviva, Inc. | available; quality gates apply | project_sic_rule |
+| [IONS](facts/IONS/README.md) | IONIS PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [IOVA](facts/IOVA/README.md) | IOVANCE BIOTHERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [IPHA](facts/IPHA/README.md) | Innate Pharma SA | missing | project_sic_rule |
+| [IPSC](facts/IPSC/README.md) | Century Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [IRD](facts/IRD/README.md) | Opus Genetics, Inc. | available; quality gates apply | project_sic_rule |
+| [IRIX](facts/IRIX/README.md) | IRIDEX CORP | available; quality gates apply | project_sic_rule |
+| [IRLA](facts/IRLA/README.md) | IRulya Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [IRMD](facts/IRMD/README.md) | IRADIMED CORP | available; quality gates apply | project_sic_rule |
+| [IRON](facts/IRON/README.md) | Disc Medicine, Inc. | available; quality gates apply | project_sic_rule |
+| [IRTC](facts/IRTC/README.md) | iRhythm Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [IRWD](facts/IRWD/README.md) | IRONWOOD PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [ISRG](facts/ISRG/README.md) | INTUITIVE SURGICAL INC | available; quality gates apply | project_sic_rule |
+| [ITGR](facts/ITGR/README.md) | Integer Holdings Corp | available; quality gates apply | project_sic_rule |
+| [ITOC](facts/ITOC/README.md) | iTonic Holdings Ltd | missing | project_sic_rule |
+| [IVA](facts/IVA/README.md) | Inventiva S.A. | missing | project_sic_rule |
+| [IVF](facts/IVF/README.md) | INVO Fertility, Inc. | available; quality gates apply | project_sic_rule |
+| [IVVD](facts/IVVD/README.md) | Invivyd, Inc. | available; quality gates apply | project_sic_rule |
+| [IXHL](facts/IXHL/README.md) | Incannex Healthcare Inc. | available; quality gates apply | project_sic_rule |
+| [JAGX](facts/JAGX/README.md) | Jaguar Health, Inc. | available; quality gates apply | project_sic_rule |
+| [JANX](facts/JANX/README.md) | Janux Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [JAZZ](facts/JAZZ/README.md) | Jazz Pharmaceuticals plc | available; quality gates apply | project_sic_rule |
+| [JBIO](facts/JBIO/README.md) | Jade Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [JNJ](facts/JNJ/README.md) | JOHNSON & JOHNSON | available; quality gates apply | project_sic_rule |
+| [JSPR](facts/JSPR/README.md) | Jasper Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [JUNS](facts/JUNS/README.md) | JUPITER NEUROSCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [KALA](facts/KALA/README.md) | KALA BIO, Inc. | available; quality gates apply | project_sic_rule |
+| [KAPA](facts/KAPA/README.md) | Kairos Pharma, LTD. | available; quality gates apply | project_sic_rule |
+| [KARD](facts/KARD/README.md) | Kardigan, Inc. | available; quality gates apply | project_sic_rule |
+| [KIDS](facts/KIDS/README.md) | ORTHOPEDIATRICS CORP | available; quality gates apply | project_sic_rule |
+| [KLRA](facts/KLRA/README.md) | Kailera Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [KLRS](facts/KLRS/README.md) | Kalaris Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [KMDA](facts/KMDA/README.md) | KAMADA LTD | missing | project_sic_rule |
+| [KMTS](facts/KMTS/README.md) | KESTRA MEDICAL TECHNOLOGIES, LTD. | available; quality gates apply | project_sic_rule |
+| [KNSA](facts/KNSA/README.md) | Kiniksa Pharmaceuticals International, plc | missing | project_sic_rule |
+| [KOD](facts/KOD/README.md) | Kodiak Sciences Inc. | available; quality gates apply | project_sic_rule |
+| [KPRX](facts/KPRX/README.md) | KIORA PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [KPTI](facts/KPTI/README.md) | Karyopharm Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [KRMD](facts/KRMD/README.md) | KORU Medical Systems, Inc. | available; quality gates apply | project_sic_rule |
+| [KROS](facts/KROS/README.md) | Keros Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [KRRO](facts/KRRO/README.md) | Korro Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [KRSA](facts/KRSA/README.md) | Korsana Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [KRYS](facts/KRYS/README.md) | Krystal Biotech, Inc. | available; quality gates apply | project_sic_rule |
+| [KTTA](facts/KTTA/README.md) | Pasithea Therapeutics Corp. | available; quality gates apply | project_sic_rule |
+| [KURA](facts/KURA/README.md) | Kura Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [KYMR](facts/KYMR/README.md) | Kymera Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [KYNB](facts/KYNB/README.md) | KYNTRA BIO, INC. | available; quality gates apply | project_sic_rule |
+| [KYTX](facts/KYTX/README.md) | Kyverna Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [KZIA](facts/KZIA/README.md) | KAZIA THERAPEUTICS LTD | missing | project_sic_rule |
+| [LAB](facts/LAB/README.md) | STANDARD BIOTOOLS INC. | available; quality gates apply | project_sic_rule |
+| [LABT](facts/LABT/README.md) | Lakewood-Amedex Biotherapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [LAKE](facts/LAKE/README.md) | LAKELAND INDUSTRIES INC | available; quality gates apply | project_sic_rule |
+| [LBRX](facts/LBRX/README.md) | LB PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [LCTX](facts/LCTX/README.md) | Lineage Cell Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [LEGN](facts/LEGN/README.md) | Legend Biotech Corp | missing | project_sic_rule |
+| [LENZ](facts/LENZ/README.md) | LENZ Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [LEXX](facts/LEXX/README.md) | Lexaria Bioscience Corp. | available; quality gates apply | project_sic_rule |
+| [LFMD](facts/LFMD/README.md) | LifeMD, Inc. | available; quality gates apply | project_sic_rule |
+| [LFST](facts/LFST/README.md) | LifeStance Health Group, Inc. | available; quality gates apply | project_sic_rule |
+| [LFVN](facts/LFVN/README.md) | Lifevantage Corp | available; quality gates apply | project_sic_rule |
+| [LFWD](facts/LFWD/README.md) | Lifeward Ltd. | available; quality gates apply | project_sic_rule |
+| [LGND](facts/LGND/README.md) | LIGAND PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [LGVN](facts/LGVN/README.md) | Longeveron Inc. | available; quality gates apply | project_sic_rule |
+| [LH](facts/LH/README.md) | LABCORP HOLDINGS INC. | available; quality gates apply | project_sic_rule |
+| [LIMN](facts/LIMN/README.md) | Liminatus Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [LITS](facts/LITS/README.md) | Lite Strategy, Inc. | available; quality gates apply | project_sic_rule |
+| [LIVN](facts/LIVN/README.md) | LivaNova PLC | available; quality gates apply | project_sic_rule |
+| [LKFT](facts/LKFT/README.md) | Lakefront Biotherapeutics NV | missing | project_sic_rule |
+| [LLY](facts/LLY/README.md) | ELI LILLY & Co | available; quality gates apply | project_sic_rule |
+| [LMAT](facts/LMAT/README.md) | LEMAITRE VASCULAR INC | available; quality gates apply | project_sic_rule |
+| [LMRI](facts/LMRI/README.md) | Lumexa Imaging Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [LNAI](facts/LNAI/README.md) | Lunai Bioworks Inc. | available; quality gates apply | project_sic_rule |
+| [LNSR](facts/LNSR/README.md) | LENSAR, Inc. | available; quality gates apply | project_sic_rule |
+| [LNTH](facts/LNTH/README.md) | Lantheus Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [LONA](facts/LONA/README.md) | LeonaBio, Inc. | available; quality gates apply | project_sic_rule |
+| [LPCN](facts/LPCN/README.md) | Lipocine Inc. | available; quality gates apply | project_sic_rule |
+| [LQDA](facts/LQDA/README.md) | Liquidia Corp | available; quality gates apply | project_sic_rule |
+| [LRMR](facts/LRMR/README.md) | Larimar Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [LSTA](facts/LSTA/README.md) | LISATA THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [LTGO](facts/LTGO/README.md) | Latigo Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [LTRN](facts/LTRN/README.md) | Lantern Pharma Inc. | available; quality gates apply | project_sic_rule |
+| [LUCD](facts/LUCD/README.md) | Lucid Diagnostics Inc. | available; quality gates apply | project_sic_rule |
+| [LUCY](facts/LUCY/README.md) | Innovative Eyewear Inc | available; quality gates apply | project_sic_rule |
+| [LUNG](facts/LUNG/README.md) | Pulmonx Corp | available; quality gates apply | project_sic_rule |
+| [LXEO](facts/LXEO/README.md) | Lexeo Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [LXRX](facts/LXRX/README.md) | LEXICON PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [LYEL](facts/LYEL/README.md) | Lyell Immunopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [MAIA](facts/MAIA/README.md) | MAIA Biotechnology, Inc. | available; quality gates apply | project_sic_rule |
+| [MANE](facts/MANE/README.md) | Veradermics, Inc | available; quality gates apply | project_sic_rule |
+| [MAZE](facts/MAZE/README.md) | Maze Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MBIO](facts/MBIO/README.md) | MUSTANG BIO, INC. | available; quality gates apply | project_sic_rule |
+| [MBOT](facts/MBOT/README.md) | Microbot Medical Inc. | available; quality gates apply | project_sic_rule |
+| [MBRX](facts/MBRX/README.md) | Moleculin Biotech, Inc. | available; quality gates apply | project_sic_rule |
+| [MBX](facts/MBX/README.md) | MBX Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [MCK](facts/MCK/README.md) | MCKESSON CORP | available; quality gates apply | project_sic_rule |
+| [MCRB](facts/MCRB/README.md) | Seres Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MCTA](facts/MCTA/README.md) | Charming Medical Ltd | missing | project_sic_rule |
+| [MD](facts/MD/README.md) | Pediatrix Medical Group, Inc. | available; quality gates apply | project_sic_rule |
+| [MDAI](facts/MDAI/README.md) | Spectral AI, Inc. | available; quality gates apply | project_sic_rule |
+| [MDCX](facts/MDCX/README.md) | Medicus Pharma Ltd. | available; quality gates apply | project_sic_rule |
+| [MDGL](facts/MDGL/README.md) | MADRIGAL PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [MDLN](facts/MDLN/README.md) | Medline Inc. | available; quality gates apply | project_sic_rule |
+| [MDT](facts/MDT/README.md) | Medtronic plc | available; quality gates apply | project_sic_rule |
+| [MDWD](facts/MDWD/README.md) | MediWound Ltd. | missing | project_sic_rule |
+| [MDXG](facts/MDXG/README.md) | MIMEDX GROUP, INC. | available; quality gates apply | project_sic_rule |
+| [MDXH](facts/MDXH/README.md) | MDxHealth SA | missing | project_sic_rule |
+| [MEDS](facts/MEDS/README.md) | DataMeds AI, Inc. | available; quality gates apply | project_sic_rule |
+| [MENS](facts/MENS/README.md) | Jyong Biotech Ltd. | missing | project_sic_rule |
+| [MESO](facts/MESO/README.md) | MESOBLAST LTD | missing | project_sic_rule |
+| [MGNX](facts/MGNX/README.md) | MACROGENICS INC | available; quality gates apply | project_sic_rule |
+| [MGRX](facts/MGRX/README.md) | MANGOCEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [MGTX](facts/MGTX/README.md) | MeiraGTx Holdings plc | available; quality gates apply | project_sic_rule |
+| [MGX](facts/MGX/README.md) | Metagenomi Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MIRA](facts/MIRA/README.md) | MIRA PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [MIRM](facts/MIRM/README.md) | Mirum Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [MIST](facts/MIST/README.md) | Milestone Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [MLSS](facts/MLSS/README.md) | MILESTONE SCIENTIFIC INC. | available; quality gates apply | project_sic_rule |
+| [MLTX](facts/MLTX/README.md) | MoonLake Immunotherapeutics | available; quality gates apply | project_sic_rule |
+| [MLYS](facts/MLYS/README.md) | Mineralys Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MMED](facts/MMED/README.md) | MiniMed Group, Inc. | available; quality gates apply | project_sic_rule |
+| [MMM](facts/MMM/README.md) | 3M CO | available; quality gates apply | project_sic_rule |
+| [MMSI](facts/MMSI/README.md) | MERIT MEDICAL SYSTEMS INC | available; quality gates apply | project_sic_rule |
+| [MNKD](facts/MNKD/README.md) | MANNKIND CORP | available; quality gates apply | project_sic_rule |
+| [MNOV](facts/MNOV/README.md) | MEDICINOVA INC | available; quality gates apply | project_sic_rule |
+| [MNPR](facts/MNPR/README.md) | Monopar Therapeutics | available; quality gates apply | project_sic_rule |
+| [MOBI](facts/MOBI/README.md) | Mobia Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [MODD](facts/MODD/README.md) | Modular Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [MOLN](facts/MOLN/README.md) | MOLECULAR PARTNERS AG | missing | project_sic_rule |
+| [MPLT](facts/MPLT/README.md) | MapLight Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MREO](facts/MREO/README.md) | Mereo BioPharma Group plc | available; quality gates apply | project_sic_rule |
+| [MRK](facts/MRK/README.md) | Merck & Co., Inc. | available; quality gates apply | project_sic_rule |
+| [MRKR](facts/MRKR/README.md) | Marker Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [MRNA](facts/MRNA/README.md) | Moderna, Inc. | available; quality gates apply | project_sic_rule |
+| [MRVI](facts/MRVI/README.md) | MARAVAI LIFESCIENCES HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [MSA](facts/MSA/README.md) | MSA Safety Inc | available; quality gates apply | project_sic_rule |
+| [MSLE](facts/MSLE/README.md) | Satellos Bioscience Inc. | missing | project_sic_rule |
+| [MTEX](facts/MTEX/README.md) | MANNATECH INC | available; quality gates apply | project_sic_rule |
+| [MTNB](facts/MTNB/README.md) | Matinas BioPharma Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [MTVA](facts/MTVA/README.md) | MetaVia Inc. | available; quality gates apply | project_sic_rule |
+| [MYGN](facts/MYGN/README.md) | MYRIAD GENETICS INC | available; quality gates apply | project_sic_rule |
+| [MYO](facts/MYO/README.md) | MYOMO, INC. | available; quality gates apply | project_sic_rule |
+| [NAGE](facts/NAGE/README.md) | Niagen Bioscience, Inc. | available; quality gates apply | project_sic_rule |
+| [NAII](facts/NAII/README.md) | NATURAL ALTERNATIVES INTERNATIONAL INC | available; quality gates apply | project_sic_rule |
+| [NAMS](facts/NAMS/README.md) | NewAmsterdam Pharma Co N.V. | available; quality gates apply | project_sic_rule |
+| [NATR](facts/NATR/README.md) | NATURES SUNSHINE PRODUCTS INC | available; quality gates apply | project_sic_rule |
+| [NBIX](facts/NBIX/README.md) | NEUROCRINE BIOSCIENCES INC | available; quality gates apply | project_sic_rule |
+| [NBP](facts/NBP/README.md) | NovaBridge Biosciences | missing | project_sic_rule |
+| [NCEL](facts/NCEL/README.md) | NewcelX Ltd. | missing | project_sic_rule |
+| [NCNA](facts/NCNA/README.md) | NuCana plc | missing | project_sic_rule |
+| [NDRA](facts/NDRA/README.md) | ENDRA Life Sciences Inc. | available; quality gates apply | project_sic_rule |
+| [NEOG](facts/NEOG/README.md) | NEOGEN CORP | available; quality gates apply | project_sic_rule |
+| [NEPH](facts/NEPH/README.md) | NEPHROS INC | available; quality gates apply | project_sic_rule |
+| [NERV](facts/NERV/README.md) | Minerva Neurosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [NEUP](facts/NEUP/README.md) | Neuphoria Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [NGEN](facts/NGEN/README.md) | NERVGEN PHARMA CORP. | missing | project_sic_rule |
+| [NGNE](facts/NGNE/README.md) | Neurogene Inc. | available; quality gates apply | project_sic_rule |
+| [NHC](facts/NHC/README.md) | NATIONAL HEALTHCARE CORP | available; quality gates apply | project_sic_rule |
+| [NIVF](facts/NIVF/README.md) | NewGenIvf Group Ltd | missing | project_sic_rule |
+| [NKTR](facts/NKTR/README.md) | NEKTAR THERAPEUTICS | available; quality gates apply | project_sic_rule |
+| [NKTX](facts/NKTX/README.md) | Nkarta, Inc. | available; quality gates apply | project_sic_rule |
+| [NMAD](facts/NMAD/README.md) | NOMAD POWER SOLUTIONS, INC. | available; quality gates apply | project_sic_rule |
+| [NMRA](facts/NMRA/README.md) | Neumora Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [NMTC](facts/NMTC/README.md) | NEUROONE MEDICAL TECHNOLOGIES Corp | available; quality gates apply | project_sic_rule |
+| [NNNN](facts/NNNN/README.md) | Anbio Biotechnology | missing | project_sic_rule |
+| [NNOX](facts/NNOX/README.md) | Nano-X Imaging Ltd. | missing | project_sic_rule |
+| [NNVC](facts/NNVC/README.md) | NANOVIRICIDES, INC. | available; quality gates apply | project_sic_rule |
+| [NPCE](facts/NPCE/README.md) | NeuroPace Inc | available; quality gates apply | project_sic_rule |
+| [NRIX](facts/NRIX/README.md) | Nurix Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [NRSN](facts/NRSN/README.md) | NeuroSense Therapeutics Ltd. | missing | project_sic_rule |
+| [NRXP](facts/NRXP/README.md) | NRX Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [NRXS](facts/NRXS/README.md) | Neuraxis, INC | available; quality gates apply | project_sic_rule |
+| [NSPR](facts/NSPR/README.md) | InspireMD, Inc. | available; quality gates apply | project_sic_rule |
+| [NSRX](facts/NSRX/README.md) | Nasus Pharma Ltd | missing | project_sic_rule |
+| [NTHI](facts/NTHI/README.md) | NEONC TECHNOLOGIES HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [NTLA](facts/NTLA/README.md) | Intellia Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [NTRA](facts/NTRA/README.md) | Natera, Inc. | available; quality gates apply | project_sic_rule |
+| [NTRB](facts/NTRB/README.md) | NutriBand Inc. | available; quality gates apply | project_sic_rule |
+| [NUS](facts/NUS/README.md) | NU SKIN ENTERPRISES, INC. | available; quality gates apply | project_sic_rule |
+| [NUVB](facts/NUVB/README.md) | Nuvation Bio Inc. | available; quality gates apply | project_sic_rule |
+| [NUWE](facts/NUWE/README.md) | Nuwellis, Inc. | available; quality gates apply | project_sic_rule |
+| [NVAX](facts/NVAX/README.md) | NOVAVAX INC | available; quality gates apply | project_sic_rule |
+| [NVCR](facts/NVCR/README.md) | NovoCure Ltd | available; quality gates apply | project_sic_rule |
+| [NVCT](facts/NVCT/README.md) | Nuvectis Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [NVNO](facts/NVNO/README.md) | enVVeno Medical Corp | available; quality gates apply | project_sic_rule |
+| [NVO](facts/NVO/README.md) | NOVO NORDISK A S | missing | project_sic_rule |
+| [NVS](facts/NVS/README.md) | NOVARTIS AG | missing | project_sic_rule |
+| [NVST](facts/NVST/README.md) | Envista Holdings Corp | available; quality gates apply | project_sic_rule |
+| [NXGL](facts/NXGL/README.md) | NEXGEL, INC. | available; quality gates apply | project_sic_rule |
+| [NXL](facts/NXL/README.md) | Nexalin Technology, Inc. | available; quality gates apply | project_sic_rule |
+| [NXTC](facts/NXTC/README.md) | NextCure, Inc. | available; quality gates apply | project_sic_rule |
+| [NXTS](facts/NXTS/README.md) | Nexentis Technologies Inc. | available; quality gates apply | project_sic_rule |
+| [NYXH](facts/NYXH/README.md) | Nyxoah SA | missing | project_sic_rule |
+| [OBIO](facts/OBIO/README.md) | Orchestra BioMed Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [OBX](facts/OBX/README.md) | Obsidian Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [OCGN](facts/OCGN/README.md) | Ocugen, Inc. | available; quality gates apply | project_sic_rule |
+| [OCS](facts/OCS/README.md) | Oculis Holding AG | missing | project_sic_rule |
+| [OCUL](facts/OCUL/README.md) | OCULAR THERAPEUTIX, INC | available; quality gates apply | project_sic_rule |
+| [ODTX](facts/ODTX/README.md) | Odyssey Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [OFIX](facts/OFIX/README.md) | Orthofix Medical Inc. | available; quality gates apply | project_sic_rule |
+| [OGEN](facts/OGEN/README.md) | ORAGENICS INC | available; quality gates apply | project_sic_rule |
+| [OGI](facts/OGI/README.md) | ORGANIGRAM GLOBAL INC. | missing | project_sic_rule |
+| [OGN](facts/OGN/README.md) | Organon & Co. | available; quality gates apply | project_sic_rule |
+| [OKUR](facts/OKUR/README.md) | OnKure Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [OKYO](facts/OKYO/README.md) | OKYO Pharma Ltd | missing | project_sic_rule |
+| [OLMA](facts/OLMA/README.md) | Olema Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [OM](facts/OM/README.md) | Outset Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [OMDA](facts/OMDA/README.md) | Omada Health, Inc. | available; quality gates apply | project_sic_rule |
+| [OMER](facts/OMER/README.md) | OMEROS CORP | available; quality gates apply | project_sic_rule |
+| [ONC](facts/ONC/README.md) | BeOne Medicines Ltd. | available; quality gates apply | project_sic_rule |
+| [ONCO](facts/ONCO/README.md) | Onconetix, Inc. | available; quality gates apply | project_sic_rule |
+| [ONCY](facts/ONCY/README.md) | ONCOLYTICS BIOTECH INC | available; quality gates apply | project_sic_rule |
+| [OPCH](facts/OPCH/README.md) | Option Care Health, Inc. | missing | project_sic_rule |
+| [OPK](facts/OPK/README.md) | OPKO HEALTH, INC. | available; quality gates apply | project_sic_rule |
+| [OPTH](facts/OPTH/README.md) | Optimi Health Corp. | missing | project_sic_rule |
+| [ORGO](facts/ORGO/README.md) | Organogenesis Holdings Inc. | available; quality gates apply | project_sic_rule |
+| [ORIC](facts/ORIC/README.md) | Oric Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ORKA](facts/ORKA/README.md) | Oruka Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [ORMP](facts/ORMP/README.md) | ORAMED PHARMACEUTICALS INC. | available; quality gates apply | project_sic_rule |
+| [OSTX](facts/OSTX/README.md) | OS Therapies Inc | available; quality gates apply | project_sic_rule |
+| [OSUR](facts/OSUR/README.md) | ORASURE TECHNOLOGIES INC | available; quality gates apply | project_sic_rule |
+| [OTLK](facts/OTLK/README.md) | Outlook Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [OVID](facts/OVID/README.md) | Ovid Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [PACS](facts/PACS/README.md) | PACS Group, Inc. | available; quality gates apply | project_sic_rule |
+| [PAHC](facts/PAHC/README.md) | PHIBRO ANIMAL HEALTH CORP | available; quality gates apply | project_sic_rule |
+| [PALI](facts/PALI/README.md) | PALISADE BIO, INC. | available; quality gates apply | project_sic_rule |
+| [PARK](facts/PARK/README.md) | Park Dental Partners, Inc. | available; quality gates apply | project_sic_rule |
+| [PASG](facts/PASG/README.md) | Passage BIO, Inc. | available; quality gates apply | project_sic_rule |
+| [PAVM](facts/PAVM/README.md) | PAVmed Inc. | available; quality gates apply | project_sic_rule |
+| [PBH](facts/PBH/README.md) | Prestige Consumer Healthcare Inc. | available; quality gates apply | project_sic_rule |
+| [PBLS](facts/PBLS/README.md) | Parabilis Medicines, Inc. | available; quality gates apply | project_sic_rule |
+| [PBM](facts/PBM/README.md) | PSYENCE BIOMEDICAL LTD. | missing | project_sic_rule |
+| [PBYI](facts/PBYI/README.md) | PUMA BIOTECHNOLOGY, INC. | available; quality gates apply | project_sic_rule |
+| [PCRX](facts/PCRX/README.md) | Pacira BioSciences, Inc. | available; quality gates apply | project_sic_rule |
+| [PCSA](facts/PCSA/README.md) | Processa Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [PCVX](facts/PCVX/README.md) | Vaxcyte, Inc. | available; quality gates apply | project_sic_rule |
+| [PDEX](facts/PDEX/README.md) | PRO DEX INC | available; quality gates apply | project_sic_rule |
+| [PDSB](facts/PDSB/README.md) | PDS Biotechnology Corp | available; quality gates apply | project_sic_rule |
+| [PEN](facts/PEN/README.md) | Penumbra Inc | available; quality gates apply | project_sic_rule |
+| [PEPG](facts/PEPG/README.md) | PepGen Inc. | available; quality gates apply | project_sic_rule |
+| [PFE](facts/PFE/README.md) | PFIZER INC | available; quality gates apply | project_sic_rule |
+| [PFSA](facts/PFSA/README.md) | Profusa, Inc. | available; quality gates apply | project_sic_rule |
+| [PGEN](facts/PGEN/README.md) | PRECIGEN, INC. | available; quality gates apply | project_sic_rule |
+| [PGNY](facts/PGNY/README.md) | Progyny, Inc. | available; quality gates apply | project_sic_rule |
+| [PHAT](facts/PHAT/README.md) | Phathom Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [PHIO](facts/PHIO/README.md) | Phio Pharmaceuticals Corp. | available; quality gates apply | project_sic_rule |
+| [PHVS](facts/PHVS/README.md) | Pharvaris N.V. | missing | project_sic_rule |
+| [PIII](facts/PIII/README.md) | P3 Health Partners Inc. | available; quality gates apply | project_sic_rule |
+| [PLRX](facts/PLRX/README.md) | PLIANT THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [PLRZ](facts/PLRZ/README.md) | Polyrizon Ltd. | missing | project_sic_rule |
+| [PLSE](facts/PLSE/README.md) | PULSE BIOSCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [PLSM](facts/PLSM/README.md) | Pulsenmore Ltd. | missing | project_sic_rule |
+| [PLUR](facts/PLUR/README.md) | Pluri Inc. | available; quality gates apply | project_sic_rule |
+| [PLX](facts/PLX/README.md) | Protalix BioTherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [PLYX](facts/PLYX/README.md) | Polaryx Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [PMCB](facts/PMCB/README.md) | PharmaCyte Biotech, Inc. | available; quality gates apply | project_sic_rule |
+| [PMI](facts/PMI/README.md) | Picard Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [PMN](facts/PMN/README.md) | ProMIS Neurosciences Inc. | available; quality gates apply | project_sic_rule |
+| [PMVP](facts/PMVP/README.md) | PMV Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [PNTG](facts/PNTG/README.md) | Pennant Group, Inc. | available; quality gates apply | project_sic_rule |
+| [POCI](facts/POCI/README.md) | PRECISION OPTICS CORPORATION, INC. | available; quality gates apply | project_sic_rule |
+| [PODD](facts/PODD/README.md) | INSULET CORP | available; quality gates apply | project_sic_rule |
+| [PPBT](facts/PPBT/README.md) | PURPLE BIOTECH LTD. | missing | project_sic_rule |
+| [PPCB](facts/PPCB/README.md) | Propanc Biopharma, Inc. | available; quality gates apply | project_sic_rule |
+| [PRAX](facts/PRAX/README.md) | Praxis Precision Medicines, Inc. | available; quality gates apply | project_sic_rule |
+| [PRCT](facts/PRCT/README.md) | PROCEPT BioRobotics Corp | available; quality gates apply | project_sic_rule |
+| [PRE](facts/PRE/README.md) | Prenetics Global Ltd | missing | project_sic_rule |
+| [PRFX](facts/PRFX/README.md) | PRF Technologies Ltd. | missing | project_sic_rule |
+| [PRGO](facts/PRGO/README.md) | PERRIGO Co plc | available; quality gates apply | project_sic_rule |
+| [PRLD](facts/PRLD/README.md) | Prelude Therapeutics Inc | available; quality gates apply | project_sic_rule |
+| [PRME](facts/PRME/README.md) | Prime Medicine, Inc. | available; quality gates apply | project_sic_rule |
+| [PROF](facts/PROF/README.md) | Profound Medical Corp. | available; quality gates apply | project_sic_rule |
+| [PROK](facts/PROK/README.md) | PROKIDNEY CORP. | available; quality gates apply | project_sic_rule |
+| [PRQR](facts/PRQR/README.md) | ProQR Therapeutics N.V. | missing | project_sic_rule |
+| [PRVA](facts/PRVA/README.md) | Privia Health Group, Inc. | available; quality gates apply | project_sic_rule |
+| [PSNL](facts/PSNL/README.md) | Personalis, Inc. | available; quality gates apply | project_sic_rule |
+| [PTCT](facts/PTCT/README.md) | PTC THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [PTGX](facts/PTGX/README.md) | Protagonist Therapeutics, Inc | available; quality gates apply | project_sic_rule |
+| [PTHS](facts/PTHS/README.md) | Pelthos Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [PTN](facts/PTN/README.md) | PALATIN TECHNOLOGIES INC | available; quality gates apply | project_sic_rule |
+| [PULM](facts/PULM/README.md) | Pulmatrix, Inc. | available; quality gates apply | project_sic_rule |
+| [PVLA](facts/PVLA/README.md) | PALVELLA THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [PYPD](facts/PYPD/README.md) | PolyPid Ltd. | missing | project_sic_rule |
+| [PYXS](facts/PYXS/README.md) | Pyxis Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [QCLS](facts/QCLS/README.md) | Q/C TECHNOLOGIES, INC. | available; quality gates apply | project_sic_rule |
+| [QDEL](facts/QDEL/README.md) | QuidelOrtho Corp | available; quality gates apply | project_sic_rule |
+| [QGEN](facts/QGEN/README.md) | QIAGEN N.V. | missing | project_sic_rule |
+| [QNRX](facts/QNRX/README.md) | Quoin Pharmaceuticals Ltd. | available; quality gates apply | project_sic_rule |
+| [QNTM](facts/QNTM/README.md) | Quantum Biopharma Ltd. | missing | project_sic_rule |
+| [QTEX](facts/QTEX/README.md) | QTREX Quantum Ltd. | missing | project_sic_rule |
+| [QTI](facts/QTI/README.md) | QT IMAGING HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [QTTB](facts/QTTB/README.md) | Q32 Bio Inc. | available; quality gates apply | project_sic_rule |
+| [QUCY](facts/QUCY/README.md) | Quantum Cyber N.V. | available; quality gates apply | project_sic_rule |
+| [QURE](facts/QURE/README.md) | uniQure N.V. | missing | project_sic_rule |
+| [RACC](facts/RACC/README.md) | Research Alliance Corp III | available; quality gates apply | project_sic_rule |
+| [RADX](facts/RADX/README.md) | Radiopharm Theranostics Ltd | missing | project_sic_rule |
+| [RANI](facts/RANI/README.md) | Rani Therapeutics Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [RAPP](facts/RAPP/README.md) | Rapport Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RARE](facts/RARE/README.md) | Ultragenyx Pharmaceutical Inc. | available; quality gates apply | project_sic_rule |
+| [RCEL](facts/RCEL/README.md) | AVITA Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [RCKT](facts/RCKT/README.md) | ROCKET PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [RCUS](facts/RCUS/README.md) | Arcus Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [RDHL](facts/RDHL/README.md) | RedHill Biopharma Ltd. | missing | project_sic_rule |
+| [RDNT](facts/RDNT/README.md) | RadNet, Inc. | available; quality gates apply | project_sic_rule |
+| [RDY](facts/RDY/README.md) | DR REDDYS LABORATORIES LTD | missing | project_sic_rule |
+| [REGN](facts/REGN/README.md) | REGENERON PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [REPL](facts/REPL/README.md) | Replimune Group, Inc. | available; quality gates apply | project_sic_rule |
+| [REVB](facts/REVB/README.md) | REVELATION BIOSCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [RFL](facts/RFL/README.md) | Rafael Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [RGC](facts/RGC/README.md) | Regencell Bioscience Holdings Ltd | missing | project_sic_rule |
+| [RGEN](facts/RGEN/README.md) | REPLIGEN CORP | available; quality gates apply | project_sic_rule |
+| [RGNT](facts/RGNT/README.md) | REGENTIS BIOMATERIALS LTD. | missing | project_sic_rule |
+| [RGNX](facts/RGNX/README.md) | REGENXBIO Inc. | available; quality gates apply | project_sic_rule |
+| [RIGL](facts/RIGL/README.md) | RIGEL PHARMACEUTICALS INC | available; quality gates apply | project_sic_rule |
+| [RKTO](facts/RKTO/README.md) | Rocket One Inc. | available; quality gates apply | project_sic_rule |
+| [RLAY](facts/RLAY/README.md) | Relay Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RLMD](facts/RLMD/README.md) | RELMADA THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [RLYB](facts/RLYB/README.md) | Rallybio Corp | available; quality gates apply | project_sic_rule |
+| [RMD](facts/RMD/README.md) | RESMED INC | available; quality gates apply | project_sic_rule |
+| [RMTI](facts/RMTI/README.md) | ROCKWELL MEDICAL, INC. | available; quality gates apply | project_sic_rule |
+| [RNA](facts/RNA/README.md) | Atrium Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RNAC](facts/RNAC/README.md) | Cartesian Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RNAZ](facts/RNAZ/README.md) | Transcode Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RNTX](facts/RNTX/README.md) | Rein Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [RNXT](facts/RNXT/README.md) | RenovoRx, Inc. | available; quality gates apply | project_sic_rule |
+| [ROIV](facts/ROIV/README.md) | Roivant Sciences Ltd. | available; quality gates apply | project_sic_rule |
+| [RPRX](facts/RPRX/README.md) | Royalty Pharma plc | available; quality gates apply | project_sic_rule |
+| [RTSN](facts/RTSN/README.md) | Retension Pharmaceuticals, Inc. | missing | project_sic_rule |
+| [RVMD](facts/RVMD/README.md) | Revolution Medicines, Inc. | available; quality gates apply | project_sic_rule |
+| [RVP](facts/RVP/README.md) | RETRACTABLE TECHNOLOGIES INC | available; quality gates apply | project_sic_rule |
+| [RXRX](facts/RXRX/README.md) | RECURSION PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [RXST](facts/RXST/README.md) | RxSight, Inc. | available; quality gates apply | project_sic_rule |
+| [RYTM](facts/RYTM/README.md) | RHYTHM PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [RZLT](facts/RZLT/README.md) | Rezolute, Inc. | available; quality gates apply | project_sic_rule |
+| [SABS](facts/SABS/README.md) | SAB Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SANA](facts/SANA/README.md) | Sana Biotechnology, Inc. | available; quality gates apply | project_sic_rule |
+| [SBC](facts/SBC/README.md) | SBC Medical Group Holdings Inc | available; quality gates apply | project_sic_rule |
+| [SBFM](facts/SBFM/README.md) | Sunshine Biopharma Inc. | available; quality gates apply | project_sic_rule |
+| [SCLX](facts/SCLX/README.md) | Scilex Holding Co | available; quality gates apply | project_sic_rule |
+| [SCNI](facts/SCNI/README.md) | Scinai Immunotherapeutics Ltd. | available; quality gates apply | project_sic_rule |
+| [SCNX](facts/SCNX/README.md) | Scienture Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [SCTX](facts/SCTX/README.md) | Scribe Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SCYX](facts/SCYX/README.md) | SCYNEXIS INC | available; quality gates apply | project_sic_rule |
+| [SDGR](facts/SDGR/README.md) | Schrodinger, Inc. | available; quality gates apply | project_sic_rule |
+| [SEPN](facts/SEPN/README.md) | Septerna, Inc. | available; quality gates apply | project_sic_rule |
+| [SER](facts/SER/README.md) | Serina Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SERA](facts/SERA/README.md) | SERA PROGNOSTICS, INC. | available; quality gates apply | project_sic_rule |
+| [SGHT](facts/SGHT/README.md) | Sight Sciences, Inc. | available; quality gates apply | project_sic_rule |
+| [SGMT](facts/SGMT/README.md) | Sagimet Biosciences Inc. | available; quality gates apply | project_sic_rule |
+| [SGP](facts/SGP/README.md) | SpyGlass Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [SGRY](facts/SGRY/README.md) | Surgery Partners, Inc. | available; quality gates apply | project_sic_rule |
+| [SHC](facts/SHC/README.md) | Sotera Health Co | available; quality gates apply | project_sic_rule |
+| [SHPH](facts/SHPH/README.md) | Shuttle Pharmaceuticals Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [SI](facts/SI/README.md) | SHOULDER INNOVATIONS, INC. | available; quality gates apply | project_sic_rule |
+| [SIBN](facts/SIBN/README.md) | SI-BONE, Inc. | available; quality gates apply | project_sic_rule |
+| [SIGA](facts/SIGA/README.md) | SIGA TECHNOLOGIES INC | available; quality gates apply | project_sic_rule |
+| [SILO](facts/SILO/README.md) | Silo Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [SINT](facts/SINT/README.md) | Sintx Technologies, Inc. | available; quality gates apply | project_sic_rule |
+| [SION](facts/SION/README.md) | Sionna Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SKIN](facts/SKIN/README.md) | SkinHealth Systems Inc. | available; quality gates apply | project_sic_rule |
+| [SKYE](facts/SKYE/README.md) | Skye Bioscience, Inc. | available; quality gates apply | project_sic_rule |
+| [SLBT](facts/SLBT/README.md) | SL Science Holding Ltd | missing | project_sic_rule |
+| [SLDB](facts/SLDB/README.md) | Solid Biosciences Inc. | available; quality gates apply | project_sic_rule |
+| [SLGL](facts/SLGL/README.md) | Sol-Gel Technologies Ltd. | missing | project_sic_rule |
+| [SLN](facts/SLN/README.md) | Silence Therapeutics plc | available; quality gates apply | project_sic_rule |
+| [SLS](facts/SLS/README.md) | SELLAS Life Sciences Group, Inc. | available; quality gates apply | project_sic_rule |
+| [SLXN](facts/SLXN/README.md) | Silexion Therapeutics Corp | available; quality gates apply | project_sic_rule |
+| [SMMT](facts/SMMT/README.md) | Summit Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [SMTI](facts/SMTI/README.md) | Sanara MedTech Inc. | available; quality gates apply | project_sic_rule |
+| [SNDA](facts/SNDA/README.md) | SONIDA SENIOR LIVING, INC. | available; quality gates apply | project_sic_rule |
+| [SNDL](facts/SNDL/README.md) | SNDL Inc. | missing | project_sic_rule |
+| [SNDX](facts/SNDX/README.md) | Syndax Pharmaceuticals Inc | available; quality gates apply | project_sic_rule |
+| [SNGX](facts/SNGX/README.md) | SOLIGENIX, INC. | available; quality gates apply | project_sic_rule |
+| [SNOA](facts/SNOA/README.md) | Sonoma Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [SNTI](facts/SNTI/README.md) | Senti Biosciences Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [SNWV](facts/SNWV/README.md) | SANUWAVE Health, Inc. | available; quality gates apply | project_sic_rule |
+| [SNY](facts/SNY/README.md) | Sanofi | missing | project_sic_rule |
+| [SOLV](facts/SOLV/README.md) | Solventum Corp | available; quality gates apply | project_sic_rule |
+| [SPRB](facts/SPRB/README.md) | SPRUCE BIOSCIENCES, INC. | available; quality gates apply | project_sic_rule |
+| [SPRC](facts/SPRC/README.md) | SciSparc Ltd. | missing | project_sic_rule |
+| [SPRO](facts/SPRO/README.md) | Spero Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SPRY](facts/SPRY/README.md) | ARS Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [SPTX](facts/SPTX/README.md) | Seaport Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SRPT](facts/SRPT/README.md) | Sarepta Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [SRRK](facts/SRRK/README.md) | Scholar Rock Holding Corp | available; quality gates apply | project_sic_rule |
+| [SRTA](facts/SRTA/README.md) | Strata Critical Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [SRTS](facts/SRTS/README.md) | Sensus Healthcare, Inc. | available; quality gates apply | project_sic_rule |
+| [SRZN](facts/SRZN/README.md) | Surrozen, Inc./DE | available; quality gates apply | project_sic_rule |
+| [SSII](facts/SSII/README.md) | SS Innovations International, Inc. | available; quality gates apply | project_sic_rule |
+| [STAA](facts/STAA/README.md) | STAAR SURGICAL CO | available; quality gates apply | project_sic_rule |
+| [STIM](facts/STIM/README.md) | Neuronetics, Inc. | available; quality gates apply | project_sic_rule |
+| [STLN](facts/STLN/README.md) | Starling Oncology, Inc. | available; quality gates apply | project_sic_rule |
+| [STOK](facts/STOK/README.md) | Stoke Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [STRO](facts/STRO/README.md) | SUTRO BIOPHARMA, INC. | available; quality gates apply | project_sic_rule |
+| [STTK](facts/STTK/README.md) | Shattuck Labs, Inc. | available; quality gates apply | project_sic_rule |
+| [STVN](facts/STVN/README.md) | Stevanato Group S.p.A. | missing | project_sic_rule |
+| [STXS](facts/STXS/README.md) | Stereotaxis, Inc. | available; quality gates apply | project_sic_rule |
+| [SUPN](facts/SUPN/README.md) | SUPERNUS PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [SVA](facts/SVA/README.md) | SINOVAC BIOTECH LTD | missing | project_sic_rule |
+| [SVRA](facts/SVRA/README.md) | Savara Inc | available; quality gates apply | project_sic_rule |
+| [SXTC](facts/SXTC/README.md) | China SXT Pharmaceuticals, Inc. | missing | project_sic_rule |
+| [SXTP](facts/SXTP/README.md) | 60 DEGREES PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
+| [SYK](facts/SYK/README.md) | STRYKER CORP | available; quality gates apply | project_sic_rule |
+| [SYRE](facts/SYRE/README.md) | Spyre Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TAK](facts/TAK/README.md) | TAKEDA PHARMACEUTICAL CO LTD | missing | project_sic_rule |
+| [TARA](facts/TARA/README.md) | Protara Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TARS](facts/TARS/README.md) | Tarsus Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [TCMD](facts/TCMD/README.md) | TACTILE SYSTEMS TECHNOLOGY INC | available; quality gates apply | project_sic_rule |
+| [TCRT](facts/TCRT/README.md) | Alaunos Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TCRX](facts/TCRX/README.md) | TScan Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TDOC](facts/TDOC/README.md) | Teladoc Health, Inc. | available; quality gates apply | project_sic_rule |
+| [TECH](facts/TECH/README.md) | BIO-TECHNE Corp | available; quality gates apply | project_sic_rule |
+| [TECX](facts/TECX/README.md) | Tectonic Therapeutic, Inc. | available; quality gates apply | project_sic_rule |
+| [TELA](facts/TELA/README.md) | TELA Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [TELO](facts/TELO/README.md) | Telomir Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [TENX](facts/TENX/README.md) | TENAX THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [TEVA](facts/TEVA/README.md) | TEVA PHARMACEUTICAL INDUSTRIES LTD | available; quality gates apply | project_sic_rule |
+| [TFX](facts/TFX/README.md) | TELEFLEX INC | available; quality gates apply | project_sic_rule |
+| [TGTX](facts/TGTX/README.md) | TG THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [THC](facts/THC/README.md) | TENET HEALTHCARE CORP | available; quality gates apply | project_sic_rule |
+| [TIL](facts/TIL/README.md) | Instil Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [TKNO](facts/TKNO/README.md) | Alpha Teknova, Inc. | available; quality gates apply | project_sic_rule |
+| [TLPH](facts/TLPH/README.md) | TALPHERA, INC. | available; quality gates apply | project_sic_rule |
+| [TLRY](facts/TLRY/README.md) | Tilray Brands, Inc. | available; quality gates apply | project_sic_rule |
+| [TLSA](facts/TLSA/README.md) | Tiziana Life Sciences Ltd | missing | project_sic_rule |
+| [TLSI](facts/TLSI/README.md) | TriSalus Life Sciences, Inc. | available; quality gates apply | project_sic_rule |
+| [TLX](facts/TLX/README.md) | Telix Pharmaceuticals Ltd | missing | project_sic_rule |
+| [TMCI](facts/TMCI/README.md) | TREACE MEDICAL CONCEPTS, INC. | available; quality gates apply | project_sic_rule |
+| [TMDX](facts/TMDX/README.md) | TransMedics Group, Inc. | available; quality gates apply | project_sic_rule |
+| [TNDM](facts/TNDM/README.md) | TANDEM DIABETES CARE INC | available; quality gates apply | project_sic_rule |
+| [TNGX](facts/TNGX/README.md) | Tango Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TNON](facts/TNON/README.md) | Tenon Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [TNXP](facts/TNXP/README.md) | Tonix Pharmaceuticals Holding Corp. | available; quality gates apply | project_sic_rule |
+| [TNYA](facts/TNYA/README.md) | Tenaya Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TOVX](facts/TOVX/README.md) | Theriva Biologics, Inc. | available; quality gates apply | project_sic_rule |
+| [TPST](facts/TPST/README.md) | Tempest Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TRAW](facts/TRAW/README.md) | Traws Pharma, Inc. | available; quality gates apply | project_sic_rule |
+| [TRAX](facts/TRAX/README.md) | First Tracks Biotherapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TRDA](facts/TRDA/README.md) | Entrada Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TRIB](facts/TRIB/README.md) | TRINITY BIOTECH PLC | missing | project_sic_rule |
+| [TRVI](facts/TRVI/README.md) | Trevi Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TRXB](facts/TRXB/README.md) | TRex Bio, Inc. | missing | project_sic_rule |
+| [TSHA](facts/TSHA/README.md) | Taysha Gene Therapies, Inc. | available; quality gates apply | project_sic_rule |
+| [TTRX](facts/TTRX/README.md) | Turn Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [TVGN](facts/TVGN/README.md) | Tevogen Inc. | available; quality gates apply | project_sic_rule |
+| [TVRD](facts/TVRD/README.md) | Tvardi Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TVTX](facts/TVTX/README.md) | Travere Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [TWST](facts/TWST/README.md) | Twist Bioscience Corp | available; quality gates apply | project_sic_rule |
+| [TXMD](facts/TXMD/README.md) | TherapeuticsMD, Inc. | available; quality gates apply | project_sic_rule |
+| [TYRA](facts/TYRA/README.md) | Tyra Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [UFPT](facts/UFPT/README.md) | UFP TECHNOLOGIES INC | available; quality gates apply | project_sic_rule |
+| [UHS](facts/UHS/README.md) | UNIVERSAL HEALTH SERVICES INC | available; quality gates apply | project_sic_rule |
+| [UNCY](facts/UNCY/README.md) | Unicycive Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [UPB](facts/UPB/README.md) | Upstream Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [UPC](facts/UPC/README.md) | Universe Pharmaceuticals INC | missing | project_sic_rule |
+| [URGN](facts/URGN/README.md) | UroGen Pharma Ltd. | available; quality gates apply | project_sic_rule |
+| [USNA](facts/USNA/README.md) | USANA HEALTH SCIENCES INC | available; quality gates apply | project_sic_rule |
+| [USPH](facts/USPH/README.md) | U S PHYSICAL THERAPY INC /NV | available; quality gates apply | project_sic_rule |
+| [UTHR](facts/UTHR/README.md) | UNITED THERAPEUTICS Corp | available; quality gates apply | project_sic_rule |
+| [UTMD](facts/UTMD/README.md) | UTAH MEDICAL PRODUCTS INC | available; quality gates apply | project_sic_rule |
+| [VALN](facts/VALN/README.md) | Valneva SE | missing | project_sic_rule |
+| [VANI](facts/VANI/README.md) | Vivani Medical, Inc. | available; quality gates apply | project_sic_rule |
+| [VBIO](facts/VBIO/README.md) | Valion Bio, Inc. | available; quality gates apply | project_sic_rule |
+| [VCEL](facts/VCEL/README.md) | Vericel Corp | available; quality gates apply | project_sic_rule |
+| [VCRE](facts/VCRE/README.md) | Vicore Pharma Holding AB | missing | project_sic_rule |
+| [VCYT](facts/VCYT/README.md) | VERACYTE, INC. | available; quality gates apply | project_sic_rule |
+| [VERA](facts/VERA/README.md) | Vera Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [VERU](facts/VERU/README.md) | VERU INC. | available; quality gates apply | project_sic_rule |
+| [VIR](facts/VIR/README.md) | Vir Biotechnology, Inc. | available; quality gates apply | project_sic_rule |
+| [VIVS](facts/VIVS/README.md) | VivoSim Labs, INC. | available; quality gates apply | project_sic_rule |
+| [VJET](facts/VJET/README.md) | Flyte Aviation, Inc. | available; quality gates apply | project_sic_rule |
+| [VKTX](facts/VKTX/README.md) | Viking Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [VMD](facts/VMD/README.md) | VIEMED HEALTHCARE, INC. | available; quality gates apply | project_sic_rule |
+| [VNDA](facts/VNDA/README.md) | Vanda Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [VNRX](facts/VNRX/README.md) | VOLITIONRX LTD | available; quality gates apply | project_sic_rule |
+| [VOGX](facts/VOGX/README.md) | Vogenx, Inc. | available; quality gates apply | project_sic_rule |
+| [VOR](facts/VOR/README.md) | Vor Biopharma Inc. | available; quality gates apply | project_sic_rule |
+| [VRAX](facts/VRAX/README.md) | Virax Biolabs Group Ltd | missing | project_sic_rule |
+| [VRCA](facts/VRCA/README.md) | Verrica Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [VRDN](facts/VRDN/README.md) | Viridian Therapeutics, Inc.\\DE | available; quality gates apply | project_sic_rule |
+| [VRTX](facts/VRTX/README.md) | VERTEX PHARMACEUTICALS INC / MA | available; quality gates apply | project_sic_rule |
+| [VSTM](facts/VSTM/README.md) | Verastem, Inc. | available; quality gates apply | project_sic_rule |
+| [VTGN](facts/VTGN/README.md) | Vistagen Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [VTRS](facts/VTRS/README.md) | Viatris Inc | available; quality gates apply | project_sic_rule |
+| [VTVT](facts/VTVT/README.md) | vTv Therapeutics Inc. | available; quality gates apply | project_sic_rule |
+| [VVOS](facts/VVOS/README.md) | Vivos Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [VYGR](facts/VYGR/README.md) | Voyager Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [WGS](facts/WGS/README.md) | GeneDx Holdings Corp. | available; quality gates apply | project_sic_rule |
+| [WHWK](facts/WHWK/README.md) | Whitehawk Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [WOK](facts/WOK/README.md) | WORK Medical Technology Group LTD | missing | project_sic_rule |
+| [WRBY](facts/WRBY/README.md) | Warby Parker Inc. | available; quality gates apply | project_sic_rule |
+| [WST](facts/WST/README.md) | WEST PHARMACEUTICAL SERVICES INC | available; quality gates apply | project_sic_rule |
+| [WSTN](facts/WSTN/README.md) | Westin Acquisition Corp | available; quality gates apply | project_sic_rule |
+| [WVE](facts/WVE/README.md) | Wave Life Sciences, Inc. | available; quality gates apply | project_sic_rule |
+| [XAIR](facts/XAIR/README.md) | Beyond Air, Inc. | available; quality gates apply | project_sic_rule |
+| [XBIO](facts/XBIO/README.md) | Xenetic Biosciences, Inc. | available; quality gates apply | project_sic_rule |
+| [XBIT](facts/XBIT/README.md) | XBiotech Inc. | available; quality gates apply | project_sic_rule |
+| [XCUR](facts/XCUR/README.md) | EXICURE, INC. | available; quality gates apply | project_sic_rule |
+| [XENE](facts/XENE/README.md) | Xenon Pharmaceuticals Inc. | available; quality gates apply | project_sic_rule |
+| [XERS](facts/XERS/README.md) | Xeris Biopharma Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [XFOR](facts/XFOR/README.md) | X4 Pharmaceuticals, Inc | available; quality gates apply | project_sic_rule |
+| [XGN](facts/XGN/README.md) | EXAGEN INC. | available; quality gates apply | project_sic_rule |
+| [XLO](facts/XLO/README.md) | Xilio Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
+| [XNCR](facts/XNCR/README.md) | Xencor Inc | available; quality gates apply | project_sic_rule |
+| [XRAY](facts/XRAY/README.md) | DENTSPLY SIRONA Inc. | available; quality gates apply | project_sic_rule |
+| [XRTX](facts/XRTX/README.md) | XORTX Therapeutics Inc. | missing | project_sic_rule |
+| [XTLB](facts/XTLB/README.md) | XTL BIOPHARMACEUTICALS LTD | missing | project_sic_rule |
+| [XTNT](facts/XTNT/README.md) | Xtant Medical Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [YARW](facts/YARW/README.md) | Yarrow Bioscience, Inc. | available; quality gates apply | project_sic_rule |
+| [YDES](facts/YDES/README.md) | YD Bio Ltd | missing | project_sic_rule |
+| [ZBH](facts/ZBH/README.md) | ZIMMER BIOMET HOLDINGS, INC. | available; quality gates apply | project_sic_rule |
+| [ZBIO](facts/ZBIO/README.md) | Zenas BioPharma, Inc. | available; quality gates apply | project_sic_rule |
+| [ZJYL](facts/ZJYL/README.md) | Jin Medical International Ltd. | missing | project_sic_rule |
+| [ZLAB](facts/ZLAB/README.md) | Zai Lab Ltd | available; quality gates apply | project_sic_rule |
+| [ZNTL](facts/ZNTL/README.md) | Zentalis Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
+| [ZTS](facts/ZTS/README.md) | Zoetis Inc. | available; quality gates apply | project_sic_rule |
+| [ZURA](facts/ZURA/README.md) | Zura Bio Ltd | available; quality gates apply | project_sic_rule |
+| [ZVRA](facts/ZVRA/README.md) | ZEVRA THERAPEUTICS, INC. | available; quality gates apply | project_sic_rule |
+| [ZYBT](facts/ZYBT/README.md) | Zhengye Biotechnology Holding Ltd | missing | project_sic_rule |
+| [ZYME](facts/ZYME/README.md) | Zymeworks Inc. | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

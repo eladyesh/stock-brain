@@ -10,112 +10,112 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 
 ## Factual company files
 
-| Company | Current symbols | Financial history | Classification basis |
+| Current symbols | Company | Financial history | Classification basis |
 | --- | --- | --- | --- |
-| [AES CORP](facts/0000874761/README.md) | AES | available; quality gates apply | project_sic_rule |
-| [ALGONQUIN POWER & UTILITIES CORP.](facts/0001174169/README.md) | AQN | missing | project_sic_rule |
-| [ALLIANT ENERGY CORP](facts/0000352541/README.md) | LNT | missing | project_sic_rule |
-| [AMEREN CORP](facts/0001002910/README.md) | AEE | available; quality gates apply | project_sic_rule |
-| [AMERICAN ELECTRIC POWER CO INC](facts/0000004904/README.md) | AEP | missing | project_sic_rule |
-| [AMERICAN STATES WATER CO](facts/0001056903/README.md) | AWR | available; quality gates apply | project_sic_rule |
-| [American Water Works Company, Inc.](facts/0001410636/README.md) | AWK | available; quality gates apply | project_sic_rule |
-| [ARTESIAN RESOURCES CORP](facts/0000863110/README.md) | ARTNA | available; quality gates apply | project_sic_rule |
-| [ATMOS ENERGY CORP](facts/0000731802/README.md) | ATO | available; quality gates apply | project_sic_rule |
-| [AVISTA CORP](facts/0000104918/README.md) | AVA | available; quality gates apply | project_sic_rule |
-| [Bimergen Energy Corp](facts/0001066764/README.md) | BESS | available; quality gates apply | project_sic_rule |
-| [BLACK HILLS CORP /SD/](facts/0001130464/README.md) | BKH | available; quality gates apply | project_sic_rule |
-| [CADIZ INC](facts/0000727273/README.md) | CDZI, CDZIP | available; quality gates apply | project_sic_rule |
-| [CALIFORNIA WATER SERVICE GROUP](facts/0001035201/README.md) | CWT | available; quality gates apply | project_sic_rule |
-| [CENTRAL PUERTO S.A.](facts/0001717161/README.md) | CEPU | missing | project_sic_rule |
-| [Centuri Holdings, Inc.](facts/0001981599/README.md) | CTRI | available; quality gates apply | project_sic_rule |
-| [Cheniere Energy Partners, L.P.](facts/0001383650/README.md) | CQP | available; quality gates apply | project_sic_rule |
-| [Cheniere Energy, Inc.](facts/0000003570/README.md) | LNG | available; quality gates apply | project_sic_rule |
-| [CHESAPEAKE UTILITIES CORP](facts/0000019745/README.md) | CPK | available; quality gates apply | project_sic_rule |
-| [Clean Energy Fuels Corp.](facts/0001368265/README.md) | CLNE | available; quality gates apply | project_sic_rule |
-| [Clean Energy Technologies, Inc.](facts/0001329606/README.md) | CETY | available; quality gates apply | project_sic_rule |
-| [Clearway Energy, Inc.](facts/0001567683/README.md) | CWEN | available; quality gates apply | project_sic_rule |
-| [CMS ENERGY CORP](facts/0000811156/README.md) | CMS, CMS$C | available; quality gates apply | project_sic_rule |
-| [COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO-SABESP](facts/0001170858/README.md) | SBS | missing | project_sic_rule |
-| [CONSOLIDATED EDISON INC](facts/0001047862/README.md) | ED | missing | project_sic_rule |
-| [Consolidated Water Co. Ltd.](facts/0000928340/README.md) | CWCO | available; quality gates apply | project_sic_rule |
-| [Constellation Energy Corp](facts/0001868275/README.md) | CEG | available; quality gates apply | project_sic_rule |
-| [DEEP FISSION, INC.](facts/0001918102/README.md) | FISN | available; quality gates apply | project_sic_rule |
-| [DOMINION ENERGY, INC](facts/0000715957/README.md) | D | missing | project_sic_rule |
-| [DTE ENERGY CO](facts/0000936340/README.md) | DTE | missing | project_sic_rule |
-| [Duke Energy CORP](facts/0001326160/README.md) | DUK$A | missing | project_sic_rule |
-| [Eco Wave Power Global AB (publ)](facts/0001846715/README.md) | WAVE | missing | project_sic_rule |
-| [EDISON INTERNATIONAL](facts/0000827052/README.md) | EIX | missing | project_sic_rule |
-| [Ellomay Capital Ltd.](facts/0000946394/README.md) | ELLO | missing | project_sic_rule |
-| [EMERA INC](facts/0001127248/README.md) | EMA | missing | project_sic_rule |
-| [Enel Chile S.A.](facts/0001659939/README.md) | ENIC | missing | project_sic_rule |
-| [Enlight Renewable Energy Ltd.](facts/0001922641/README.md) | ENLT | missing | project_sic_rule |
-| [ENTERGY CORP /DE/](facts/0000065984/README.md) | ETR | missing | project_sic_rule |
-| [Essential Utilities, Inc.](facts/0000078128/README.md) | WTRG | available; quality gates apply | project_sic_rule |
-| [Evergy, Inc.](facts/0001711269/README.md) | EVRG | missing | project_sic_rule |
-| [Excelerate Energy, Inc.](facts/0001888447/README.md) | EE | available; quality gates apply | project_sic_rule |
-| [EXELON CORP](facts/0001109357/README.md) | EXC | missing | project_sic_rule |
-| [Fervo Energy Co](facts/0001853868/README.md) | FRVO | available; quality gates apply | project_sic_rule |
-| [FIRSTENERGY CORP](facts/0001031296/README.md) | FE | missing | project_sic_rule |
-| [Fortis Inc.](facts/0001666175/README.md) | FTS | missing | project_sic_rule |
-| [General Fusion Group Ltd.](facts/0002074850/README.md) | GFUZ | available; quality gates apply | project_sic_rule |
-| [Genie Energy Ltd.](facts/0001528356/README.md) | GNE | available; quality gates apply | project_sic_rule |
-| [Global Water Resources, Inc.](facts/0001434728/README.md) | GWRS | available; quality gates apply | project_sic_rule |
-| [GridAI Technologies Corp.](facts/0001604191/README.md) | GRDX | available; quality gates apply | project_sic_rule |
-| [H2O AMERICA](facts/0000766829/README.md) | HTO | missing | project_sic_rule |
-| [Hadron Energy, Inc.](facts/0002023730/README.md) | HDRN | available; quality gates apply | project_sic_rule |
-| [HALLADOR ENERGY CO](facts/0000788965/README.md) | HNRG | available; quality gates apply | project_sic_rule |
-| [HAWAIIAN ELECTRIC INDUSTRIES INC](facts/0000354707/README.md) | HE | available; quality gates apply | project_sic_rule |
-| [IDACORP INC](facts/0001057877/README.md) | IDA | missing | project_sic_rule |
-| [Kenon Holdings Ltd.](facts/0001611005/README.md) | KEN | missing | project_sic_rule |
-| [KOREA ELECTRIC POWER CORP](facts/0000887225/README.md) | KEP | missing | project_sic_rule |
-| [MDU RESOURCES GROUP INC](facts/0000067716/README.md) | MDU | available; quality gates apply | project_sic_rule |
-| [MIDDLESEX WATER CO](facts/0000066004/README.md) | MSEX | available; quality gates apply | project_sic_rule |
-| [Montauk Renewables, Inc.](facts/0001826600/README.md) | MNTK | available; quality gates apply | project_sic_rule |
-| [Nano Nuclear Energy Inc.](facts/0001923891/README.md) | NNE | available; quality gates apply | project_sic_rule |
-| [NATIONAL FUEL GAS CO](facts/0000070145/README.md) | NFG | available; quality gates apply | project_sic_rule |
-| [New Fortress Energy Inc.](facts/0001749723/README.md) | NFE, NFEGP | available; quality gates apply | project_sic_rule |
-| [NEW JERSEY RESOURCES CORP](facts/0000356309/README.md) | NJR | available; quality gates apply | project_sic_rule |
-| [NextDecade Corp](facts/0001612720/README.md) | NEXT | available; quality gates apply | project_sic_rule |
-| [NEXTERA ENERGY INC](facts/0000753308/README.md) | NEE | missing | project_sic_rule |
-| [NISOURCE INC.](facts/0001111711/README.md) | NI | available; quality gates apply | project_sic_rule |
-| [Northwest Natural Holding Co](facts/0001733998/README.md) | NWN | available; quality gates apply | project_sic_rule |
-| [NorthWestern Energy Group, Inc.](facts/0001993004/README.md) | NWE | available; quality gates apply | project_sic_rule |
-| [NRG ENERGY, INC.](facts/0001013871/README.md) | NRG | available; quality gates apply | project_sic_rule |
-| [Ocean Power Technologies, Inc.](facts/0001378140/README.md) | OPTT | available; quality gates apply | project_sic_rule |
-| [OGE ENERGY CORP.](facts/0001021635/README.md) | OGE | missing | project_sic_rule |
-| [Oklo Inc.](facts/0001849056/README.md) | OKLO | available; quality gates apply | project_sic_rule |
-| [ONE Gas, Inc.](facts/0001587732/README.md) | OGS | available; quality gates apply | project_sic_rule |
-| [ONE Nuclear Energy Inc.](facts/0001846416/README.md) | ONEN | available; quality gates apply | project_sic_rule |
-| [OPAL Fuels Inc.](facts/0001842279/README.md) | OPAL | available; quality gates apply | project_sic_rule |
-| [ORMAT TECHNOLOGIES, INC.](facts/0001296445/README.md) | ORA | available; quality gates apply | project_sic_rule |
-| [Otter Tail Corp](facts/0001466593/README.md) | OTTR | available; quality gates apply | project_sic_rule |
-| [PINNACLE WEST CAPITAL CORP](facts/0000764622/README.md) | PNW | available; quality gates apply | project_sic_rule |
-| [Plum Acquisition Corp. IV](facts/0002030482/README.md) | PLMK | available; quality gates apply | project_sic_rule |
-| [PORTLAND GENERAL ELECTRIC CO /OR/](facts/0000784977/README.md) | POR | available; quality gates apply | project_sic_rule |
-| [PPL Corp](facts/0000922224/README.md) | PPL | missing | project_sic_rule |
-| [PUBLIC SERVICE ENTERPRISE GROUP INC](facts/0000788784/README.md) | PEG | available; quality gates apply | project_sic_rule |
-| [PURE CYCLE CORP](facts/0000276720/README.md) | PCYO | available; quality gates apply | project_sic_rule |
-| [ReNew Energy Global plc](facts/0001848763/README.md) | RNW | missing | project_sic_rule |
-| [RGC RESOURCES INC](facts/0001069533/README.md) | RGCO | available; quality gates apply | project_sic_rule |
-| [SOUTHERN CO](facts/0000092122/README.md) | SO | missing | project_sic_rule |
-| [Southwest Gas Holdings, Inc.](facts/0001692115/README.md) | SWX | available; quality gates apply | project_sic_rule |
-| [SPIRE INC](facts/0001126956/README.md) | SR | missing | project_sic_rule |
-| [SPRUCE POWER HOLDING CORP](facts/0001772720/README.md) | SPRU | available; quality gates apply | project_sic_rule |
-| [Stabilis Solutions, Inc.](facts/0001043186/README.md) | SLNG | available; quality gates apply | project_sic_rule |
-| [Talen Energy Corp](facts/0001622536/README.md) | TLN | available; quality gates apply | project_sic_rule |
-| [Tennessee Valley Authority](facts/0001376986/README.md) | TVC, TVE | available; quality gates apply | project_sic_rule |
-| [TRANSALTA CORP](facts/0001144800/README.md) | TAC | missing | project_sic_rule |
-| [Turbogen Ltd.](facts/0002088375/README.md) | TRBG | missing | project_sic_rule |
-| [TXNM ENERGY INC](facts/0001108426/README.md) | TXNM | missing | project_sic_rule |
-| [UGI CORP /PA/](facts/0000884614/README.md) | UGI | available; quality gates apply | project_sic_rule |
-| [UNITIL CORP](facts/0000755001/README.md) | UTL | available; quality gates apply | project_sic_rule |
-| [Venture Global, Inc.](facts/0002007855/README.md) | VG | available; quality gates apply | project_sic_rule |
-| [Vistra Corp.](facts/0001692819/README.md) | VST | available; quality gates apply | project_sic_rule |
-| [VivoPower PLC](facts/0001681348/README.md) | VIVO | missing | project_sic_rule |
-| [WEC ENERGY GROUP, INC.](facts/0000783325/README.md) | WEC | available; quality gates apply | project_sic_rule |
-| [XCEL ENERGY INC](facts/0000072903/README.md) | XEL | available; quality gates apply | project_sic_rule |
-| [XPLR Infrastructure, LP](facts/0001603145/README.md) | XIFR | missing | project_sic_rule |
-| [YORK WATER CO](facts/0000108985/README.md) | YORW | available; quality gates apply | project_sic_rule |
+| [AEE](facts/AEE/README.md) | AMEREN CORP | available; quality gates apply | project_sic_rule |
+| [AEP](facts/AEP/README.md) | AMERICAN ELECTRIC POWER CO INC | missing | project_sic_rule |
+| [AES](facts/AES/README.md) | AES CORP | available; quality gates apply | project_sic_rule |
+| [AQN](facts/AQN/README.md) | ALGONQUIN POWER & UTILITIES CORP. | missing | project_sic_rule |
+| [ARTNA](facts/ARTNA/README.md) | ARTESIAN RESOURCES CORP | available; quality gates apply | project_sic_rule |
+| [ATO](facts/ATO/README.md) | ATMOS ENERGY CORP | available; quality gates apply | project_sic_rule |
+| [AVA](facts/AVA/README.md) | AVISTA CORP | available; quality gates apply | project_sic_rule |
+| [AWK](facts/AWK/README.md) | American Water Works Company, Inc. | available; quality gates apply | project_sic_rule |
+| [AWR](facts/AWR/README.md) | AMERICAN STATES WATER CO | available; quality gates apply | project_sic_rule |
+| [BESS](facts/BESS/README.md) | Bimergen Energy Corp | available; quality gates apply | project_sic_rule |
+| [BKH](facts/BKH/README.md) | BLACK HILLS CORP /SD/ | available; quality gates apply | project_sic_rule |
+| [CDZI, CDZIP](facts/CDZI/README.md) | CADIZ INC | available; quality gates apply | project_sic_rule |
+| [CEG](facts/CEG/README.md) | Constellation Energy Corp | available; quality gates apply | project_sic_rule |
+| [CEPU](facts/CEPU/README.md) | CENTRAL PUERTO S.A. | missing | project_sic_rule |
+| [CETY](facts/CETY/README.md) | Clean Energy Technologies, Inc. | available; quality gates apply | project_sic_rule |
+| [CLNE](facts/CLNE/README.md) | Clean Energy Fuels Corp. | available; quality gates apply | project_sic_rule |
+| [CMS, CMS$C](facts/CMS/README.md) | CMS ENERGY CORP | available; quality gates apply | project_sic_rule |
+| [CPK](facts/CPK/README.md) | CHESAPEAKE UTILITIES CORP | available; quality gates apply | project_sic_rule |
+| [CQP](facts/CQP/README.md) | Cheniere Energy Partners, L.P. | available; quality gates apply | project_sic_rule |
+| [CTRI](facts/CTRI/README.md) | Centuri Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [CWCO](facts/CWCO/README.md) | Consolidated Water Co. Ltd. | available; quality gates apply | project_sic_rule |
+| [CWEN](facts/CWEN/README.md) | Clearway Energy, Inc. | available; quality gates apply | project_sic_rule |
+| [CWT](facts/CWT/README.md) | CALIFORNIA WATER SERVICE GROUP | available; quality gates apply | project_sic_rule |
+| [D](facts/D/README.md) | DOMINION ENERGY, INC | missing | project_sic_rule |
+| [DTE](facts/DTE/README.md) | DTE ENERGY CO | missing | project_sic_rule |
+| [DUK$A](facts/DUK_24A/README.md) | Duke Energy CORP | missing | project_sic_rule |
+| [ED](facts/ED/README.md) | CONSOLIDATED EDISON INC | missing | project_sic_rule |
+| [EE](facts/EE/README.md) | Excelerate Energy, Inc. | available; quality gates apply | project_sic_rule |
+| [EIX](facts/EIX/README.md) | EDISON INTERNATIONAL | missing | project_sic_rule |
+| [ELLO](facts/ELLO/README.md) | Ellomay Capital Ltd. | missing | project_sic_rule |
+| [EMA](facts/EMA/README.md) | EMERA INC | missing | project_sic_rule |
+| [ENIC](facts/ENIC/README.md) | Enel Chile S.A. | missing | project_sic_rule |
+| [ENLT](facts/ENLT/README.md) | Enlight Renewable Energy Ltd. | missing | project_sic_rule |
+| [ETR](facts/ETR/README.md) | ENTERGY CORP /DE/ | missing | project_sic_rule |
+| [EVRG](facts/EVRG/README.md) | Evergy, Inc. | missing | project_sic_rule |
+| [EXC](facts/EXC/README.md) | EXELON CORP | missing | project_sic_rule |
+| [FE](facts/FE/README.md) | FIRSTENERGY CORP | missing | project_sic_rule |
+| [FISN](facts/FISN/README.md) | DEEP FISSION, INC. | available; quality gates apply | project_sic_rule |
+| [FRVO](facts/FRVO/README.md) | Fervo Energy Co | available; quality gates apply | project_sic_rule |
+| [FTS](facts/FTS/README.md) | Fortis Inc. | missing | project_sic_rule |
+| [GFUZ](facts/GFUZ/README.md) | General Fusion Group Ltd. | available; quality gates apply | project_sic_rule |
+| [GNE](facts/GNE/README.md) | Genie Energy Ltd. | available; quality gates apply | project_sic_rule |
+| [GRDX](facts/GRDX/README.md) | GridAI Technologies Corp. | available; quality gates apply | project_sic_rule |
+| [GWRS](facts/GWRS/README.md) | Global Water Resources, Inc. | available; quality gates apply | project_sic_rule |
+| [HDRN](facts/HDRN/README.md) | Hadron Energy, Inc. | available; quality gates apply | project_sic_rule |
+| [HE](facts/HE/README.md) | HAWAIIAN ELECTRIC INDUSTRIES INC | available; quality gates apply | project_sic_rule |
+| [HNRG](facts/HNRG/README.md) | HALLADOR ENERGY CO | available; quality gates apply | project_sic_rule |
+| [HTO](facts/HTO/README.md) | H2O AMERICA | missing | project_sic_rule |
+| [IDA](facts/IDA/README.md) | IDACORP INC | missing | project_sic_rule |
+| [KEN](facts/KEN/README.md) | Kenon Holdings Ltd. | missing | project_sic_rule |
+| [KEP](facts/KEP/README.md) | KOREA ELECTRIC POWER CORP | missing | project_sic_rule |
+| [LNG](facts/LNG/README.md) | Cheniere Energy, Inc. | available; quality gates apply | project_sic_rule |
+| [LNT](facts/LNT/README.md) | ALLIANT ENERGY CORP | missing | project_sic_rule |
+| [MDU](facts/MDU/README.md) | MDU RESOURCES GROUP INC | available; quality gates apply | project_sic_rule |
+| [MNTK](facts/MNTK/README.md) | Montauk Renewables, Inc. | available; quality gates apply | project_sic_rule |
+| [MSEX](facts/MSEX/README.md) | MIDDLESEX WATER CO | available; quality gates apply | project_sic_rule |
+| [NEE](facts/NEE/README.md) | NEXTERA ENERGY INC | missing | project_sic_rule |
+| [NEXT](facts/NEXT/README.md) | NextDecade Corp | available; quality gates apply | project_sic_rule |
+| [NFE, NFEGP](facts/NFE/README.md) | New Fortress Energy Inc. | available; quality gates apply | project_sic_rule |
+| [NFG](facts/NFG/README.md) | NATIONAL FUEL GAS CO | available; quality gates apply | project_sic_rule |
+| [NI](facts/NI/README.md) | NISOURCE INC. | available; quality gates apply | project_sic_rule |
+| [NJR](facts/NJR/README.md) | NEW JERSEY RESOURCES CORP | available; quality gates apply | project_sic_rule |
+| [NNE](facts/NNE/README.md) | Nano Nuclear Energy Inc. | available; quality gates apply | project_sic_rule |
+| [NRG](facts/NRG/README.md) | NRG ENERGY, INC. | available; quality gates apply | project_sic_rule |
+| [NWE](facts/NWE/README.md) | NorthWestern Energy Group, Inc. | available; quality gates apply | project_sic_rule |
+| [NWN](facts/NWN/README.md) | Northwest Natural Holding Co | available; quality gates apply | project_sic_rule |
+| [OGE](facts/OGE/README.md) | OGE ENERGY CORP. | missing | project_sic_rule |
+| [OGS](facts/OGS/README.md) | ONE Gas, Inc. | available; quality gates apply | project_sic_rule |
+| [OKLO](facts/OKLO/README.md) | Oklo Inc. | available; quality gates apply | project_sic_rule |
+| [ONEN](facts/ONEN/README.md) | ONE Nuclear Energy Inc. | available; quality gates apply | project_sic_rule |
+| [OPAL](facts/OPAL/README.md) | OPAL Fuels Inc. | available; quality gates apply | project_sic_rule |
+| [OPTT](facts/OPTT/README.md) | Ocean Power Technologies, Inc. | available; quality gates apply | project_sic_rule |
+| [ORA](facts/ORA/README.md) | ORMAT TECHNOLOGIES, INC. | available; quality gates apply | project_sic_rule |
+| [OTTR](facts/OTTR/README.md) | Otter Tail Corp | available; quality gates apply | project_sic_rule |
+| [PCYO](facts/PCYO/README.md) | PURE CYCLE CORP | available; quality gates apply | project_sic_rule |
+| [PEG](facts/PEG/README.md) | PUBLIC SERVICE ENTERPRISE GROUP INC | available; quality gates apply | project_sic_rule |
+| [PLMK](facts/PLMK/README.md) | Plum Acquisition Corp. IV | available; quality gates apply | project_sic_rule |
+| [PNW](facts/PNW/README.md) | PINNACLE WEST CAPITAL CORP | available; quality gates apply | project_sic_rule |
+| [POR](facts/POR/README.md) | PORTLAND GENERAL ELECTRIC CO /OR/ | available; quality gates apply | project_sic_rule |
+| [PPL](facts/PPL/README.md) | PPL Corp | missing | project_sic_rule |
+| [RGCO](facts/RGCO/README.md) | RGC RESOURCES INC | available; quality gates apply | project_sic_rule |
+| [RNW](facts/RNW/README.md) | ReNew Energy Global plc | missing | project_sic_rule |
+| [SBS](facts/SBS/README.md) | COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO-SABESP | missing | project_sic_rule |
+| [SLNG](facts/SLNG/README.md) | Stabilis Solutions, Inc. | available; quality gates apply | project_sic_rule |
+| [SO](facts/SO/README.md) | SOUTHERN CO | missing | project_sic_rule |
+| [SPRU](facts/SPRU/README.md) | SPRUCE POWER HOLDING CORP | available; quality gates apply | project_sic_rule |
+| [SR](facts/SR/README.md) | SPIRE INC | missing | project_sic_rule |
+| [SWX](facts/SWX/README.md) | Southwest Gas Holdings, Inc. | available; quality gates apply | project_sic_rule |
+| [TAC](facts/TAC/README.md) | TRANSALTA CORP | missing | project_sic_rule |
+| [TLN](facts/TLN/README.md) | Talen Energy Corp | available; quality gates apply | project_sic_rule |
+| [TRBG](facts/TRBG/README.md) | Turbogen Ltd. | missing | project_sic_rule |
+| [TVC, TVE](facts/TVC/README.md) | Tennessee Valley Authority | available; quality gates apply | project_sic_rule |
+| [TXNM](facts/TXNM/README.md) | TXNM ENERGY INC | missing | project_sic_rule |
+| [UGI](facts/UGI/README.md) | UGI CORP /PA/ | available; quality gates apply | project_sic_rule |
+| [UTL](facts/UTL/README.md) | UNITIL CORP | available; quality gates apply | project_sic_rule |
+| [VG](facts/VG/README.md) | Venture Global, Inc. | available; quality gates apply | project_sic_rule |
+| [VIVO](facts/VIVO/README.md) | VivoPower PLC | missing | project_sic_rule |
+| [VST](facts/VST/README.md) | Vistra Corp. | available; quality gates apply | project_sic_rule |
+| [WAVE](facts/WAVE/README.md) | Eco Wave Power Global AB (publ) | missing | project_sic_rule |
+| [WEC](facts/WEC/README.md) | WEC ENERGY GROUP, INC. | available; quality gates apply | project_sic_rule |
+| [WTRG](facts/WTRG/README.md) | Essential Utilities, Inc. | available; quality gates apply | project_sic_rule |
+| [XEL](facts/XEL/README.md) | XCEL ENERGY INC | available; quality gates apply | project_sic_rule |
+| [XIFR](facts/XIFR/README.md) | XPLR Infrastructure, LP | missing | project_sic_rule |
+| [YORW](facts/YORW/README.md) | YORK WATER CO | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

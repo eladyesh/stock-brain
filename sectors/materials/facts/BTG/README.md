@@ -1,0 +1,319 @@
+---
+schema_version: 1
+document_type: company_facts
+company_id: company-cik-0001429937
+cik: 0001429937
+company_name: B2GOLD CORP
+tickers:
+- BTG
+status: stub
+canonical_reviewed: false
+as_of: '2026-10-23'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
+reviewed_at: null
+coverage_release: coverage-20261023-39968262770-1
+source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+financial_history_available: false
+curated_research: null
+financial_gap:
+  reason: foreign_reporting_adapter
+  next_action: Add support for the observed 20-F, 40-F or 6-K reporting forms and
+    verify the actual accounting taxonomy before normalization.
+  observed_forms:
+  - 12G3-2B
+  - 15F-12G
+  - 40-F
+  - 40-F/A
+  - 40FR12B
+  - 6-K
+  - 6-K/A
+  - 8-K12G3
+  - ARS
+  - CERTNYS
+  - CORRESP
+  - D
+  - EFFECT
+  - F-10
+  - F-10/A
+  - F-3
+  - F-3D
+  - F-X
+  - FWP
+  - REGDEX
+  - RW
+  - S-8
+  - SC 13G
+  - SC 13G/A
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
+  - SD
+  - SUPPL
+  - UPLOAD
+input_sources:
+  submissions:
+    url: https://data.sec.gov/submissions/CIK0001429937.json
+    sha256: 35763d81eda9b3808e2b1055b5191f2a635f42cc7ee00e4176f3c5f65af9b69e
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    archive: &id001
+      member: CIK0001429937.json
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
+    acquisition: operator_supplied_sec_bulk_archive
+sources:
+- id: S01
+  title: otherlisted.txt
+  url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
+  published_at: null
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+- id: S02
+  title: SEC issuer submissions
+  url: https://data.sec.gov/submissions/CIK0001429937.json
+  published_at: null
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 35763d81eda9b3808e2b1055b5191f2a635f42cc7ee00e4176f3c5f65af9b69e
+- id: S03
+  title: 6-K 0001171843-26-006629
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000117184326006629/0001171843-26-006629-index.html
+  published_at: '2026-10-15'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S04
+  title: 6-K 0001171843-26-006244
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000117184326006244/0001171843-26-006244-index.html
+  published_at: '2026-09-28'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S05
+  title: 6-K 0001171843-26-005797
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000117184326005797/0001171843-26-005797-index.html
+  published_at: '2026-08-31'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S06
+  title: 6-K 0001429937-26-000010
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000142993726000010/0001429937-26-000010-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S07
+  title: 6-K 0001171843-26-005353
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000117184326005353/0001171843-26-005353-index.html
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+issuer_classification:
+  cik: 0001429937
+  classification_status: reported_sic
+  entity_type: other
+  name: B2GOLD CORP
+  sic: '1040'
+  sic_description: Gold and Silver Ores
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 35763d81eda9b3808e2b1055b5191f2a635f42cc7ee00e4176f3c5f65af9b69e
+  url: https://data.sec.gov/submissions/CIK0001429937.json
+listings:
+- ticker: BTG
+  exchange: NYSE_AMERICAN
+  instrument_type: common_stock
+research_filings:
+- accession: 0001104659-26-026310
+  filed: '2026-03-11'
+  form: 40-F
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000110465926026310/0001104659-26-026310-index.html
+- accession: 0001062993-14-004374
+  filed: '2014-07-28'
+  form: 40-F/A
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000106299314004374/0001062993-14-004374-index.html
+- accession: 0001171843-26-006629
+  filed: '2026-10-15'
+  form: 6-K
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000117184326006629/0001171843-26-006629-index.html
+- accession: 0001062993-16-011062
+  filed: '2016-08-12'
+  form: 6-K/A
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000106299316011062/0001062993-16-011062-index.html
+- accession: 0001062993-16-010991
+  filed: '2016-08-11'
+  form: 6-K/A
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000106299316010991/0001062993-16-010991-index.html
+- accession: 0001062993-16-008672
+  filed: '2016-03-31'
+  form: 6-K/A
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000106299316008672/0001062993-16-008672-index.html
+- accession: 0001062993-15-001352
+  filed: '2015-03-16'
+  form: 6-K/A
+  url: https://www.sec.gov/Archives/edgar/data/1429937/000106299315001352/0001062993-15-001352-index.html
+research_progress:
+  stage: pending
+  input_sha256: a5abbe03e4d893c812bd304295a21c03d3f4cde244f3bb6a29466a0f934bf0af
+  last_attempt_at: null
+  last_success_at: null
+  next_retry_at: null
+  source_set_current: false
+  evidence_topics: []
+  derived_observations: 0
+  model_draft: false
+  reviewed: false
+sector_assignment:
+  sector: materials
+  method: project_sic_rule
+  sic: '1040'
+  sic_description: Gold and Silver Ores
+  rule_version: 1
+  reason: Project navigation rules based on reported SEC SIC. These are provisional
+    broad sector groupings, not licensed or official GICS classifications. Unlisted,
+    mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
+    company-specific review.
+  source_url: https://data.sec.gov/submissions/CIK0001429937.json
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BTG/README.md
+full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+view: latest_available_annual_quarterly_ttm_and_five_filings
+---
+# BTG — B2GOLD CORP
+
+> Automatically maintained factual profile. Research status: stub. Missing research is explicit.
+
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BTG/README.md)
+
+## Business overview
+
+Reported issuer name: **B2GOLD CORP**. Stable SEC CIK: **0001429937**. [S02]
+
+The directory links the following current stock listings to this issuer. Classification is provisional where indicated.
+
+| Symbol | Exchange | Instrument | Identity revision | Evidence |
+| --- | --- | --- | ---: | --- |
+| BTG | NYSE_AMERICAN | common_stock | 1 | [S01] |
+
+Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+## Revenue model and segments
+
+Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+## Products and services
+
+Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+## Customers and end markets
+
+Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+## Industry and value chain
+
+SEC-reported SIC **1040**: Gold and Silver Ores. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Navigation sector: **materials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
+
+## Competitive landscape
+
+Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+## Moat and differentiation
+
+Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+## Growth drivers
+
+Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+## Financial performance
+
+Not available: substantive research has not been completed. Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
+
+## Balance sheet and capital allocation
+
+Not available: substantive research has not been completed. Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
+
+## Management and governance
+
+Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+
+## Valuation context
+
+Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
+
+## Catalysts
+
+Not available: substantive research has not been completed. List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
+
+## Risks and thesis breakers
+
+Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+## Scenarios and open questions
+
+- Research remains a stub; automation does not approve an investment thesis.
+- The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
+- Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
+- No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
+- Forms observed in the retained filing inventory: 12G3-2B, 15F-12G, 40-F, 40-F/A, 40FR12B, 6-K, 6-K/A, 8-K12G3, ARS, CERTNYS, CORRESP, D, EFFECT, F-10, F-10/A, F-3, F-3D, F-X, FWP, REGDEX, RW, S-8, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, SD, SUPPL, UPLOAD
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:29:57.830849+00:00.
+
+### Research work queue
+
+Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+
+- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
+- **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
+- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
+- **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
+- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
+- **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
+- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+
+Calculation gaps: Validated financial history is missing.
+
+## Relationships and themes
+
+Not available: substantive research has not been completed. Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
+
+## Recent developments
+
+Latest five available filing metadata records; document bodies have not been analyzed here.
+
+| Filed | Form | Accession | Period end | Filing |
+| --- | --- | --- | --- | --- |
+| 2026-10-15 | 6-K | 0001171843-26-006629 | — | [S03] |
+| 2026-09-28 | 6-K | 0001171843-26-006244 | — | [S04] |
+| 2026-08-31 | 6-K | 0001171843-26-005797 | — | [S05] |
+| 2026-08-07 | 6-K | 0001429937-26-000010 | — | [S06] |
+| 2026-08-07 | 6-K | 0001171843-26-005353 | — | [S07] |
+
+## Sources and change log
+
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001429937.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S03] [6-K 0001171843-26-006629](https://www.sec.gov/Archives/edgar/data/1429937/000117184326006629/0001171843-26-006629-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S04] [6-K 0001171843-26-006244](https://www.sec.gov/Archives/edgar/data/1429937/000117184326006244/0001171843-26-006244-index.html) — published 2026-09-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S05] [6-K 0001171843-26-005797](https://www.sec.gov/Archives/edgar/data/1429937/000117184326005797/0001171843-26-005797-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S06] [6-K 0001429937-26-000010](https://www.sec.gov/Archives/edgar/data/1429937/000142993726000010/0001429937-26-000010-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S07] [6-K 0001171843-26-005353](https://www.sec.gov/Archives/edgar/data/1429937/000117184326005353/0001171843-26-005353-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BTG/README.md).
+
+Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
