@@ -25,7 +25,8 @@ class PipelineTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name) / "repo"
-        shutil.copytree(REPO, self.root, ignore=shutil.ignore_patterns(".git", "build", "__pycache__", ".venv", "research"))
+        shutil.copytree(REPO, self.root, ignore=shutil.ignore_patterns(".git", "build", "__pycache__", ".venv", "research",
+            "node_modules", "dist", "facts", "sector-facts.json", "unclassified"))
         for folder in (self.root / "sectors").glob("*/companies"):
             shutil.rmtree(folder)
         (self.root / "config/sector_research.json").unlink(missing_ok=True)
