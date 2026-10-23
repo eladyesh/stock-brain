@@ -9,13 +9,13 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/RTX/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/RTX/README.md
   status: reviewed
   as_of: '2026-10-20'
   sector: industrials
@@ -68,7 +68,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json
     sha256: 24494083f9c3c39826a9fe6ce29da4dcd4777701e72c59b507e8e2dd15d15ed5
-    retrieved_at: '2026-10-22T18:50:15.183598+00:00'
+    retrieved_at: '2026-10-23T08:48:05.962545+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0000101829.json
     sha256: 537f3ea8ccf7b51da5c42cbbc399859f3fa2740e5185735d0415160e2c6e581a
@@ -83,8 +83,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
-  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000101829.json
@@ -95,25 +95,25 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json
   published_at: null
-  retrieved_at: '2026-10-22T18:50:15.183598+00:00'
+  retrieved_at: '2026-10-23T08:48:05.962545+00:00'
   sha256: 24494083f9c3c39826a9fe6ce29da4dcd4777701e72c59b507e8e2dd15d15ed5
 - id: S04
   title: 10-K 0000101829-26-000006
   url: https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html
   published_at: '2026-02-06'
-  retrieved_at: '2026-10-22T18:50:15.183598+00:00'
+  retrieved_at: '2026-10-23T08:48:05.962545+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0000101829-26-000031
   url: https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-22T18:50:15.183598+00:00'
+  retrieved_at: '2026-10-23T08:48:05.962545+00:00'
   sha256: null
 - id: S09
   title: 10-Q 0000101829-26-000027
   url: https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/0000101829-26-000027-index.html
   published_at: '2026-07-23'
-  retrieved_at: '2026-10-22T18:50:15.183598+00:00'
+  retrieved_at: '2026-10-23T08:48:05.962545+00:00'
   sha256: null
 - id: S17
   title: 10-Q 0000101829-26-000031
@@ -166,16 +166,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/RTX/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000101829/README.md
-full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
+  source_url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/RTX/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000101829/README.md
+full_history_commit: 8929b40d1af134561afb621de3adca71dd9577ba
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RTX Corp — RTX
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000101829/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000101829/README.md)
 
 ## Business overview
 
@@ -223,7 +223,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:50:15.183598+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:05.962545+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -277,7 +277,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:50:15.183598+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:05.962545+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -334,9 +334,9 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:38:36.518218+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:23:58.314164+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/RTX/README.md) (status reviewed, as of 2026-10-20). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/RTX/README.md) (status reviewed, as of 2026-10-20). Automatic facts never change its review date.
 
 ## Relationships and themes
 
@@ -356,17 +356,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000101829.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json) — published not supplied; retrieved 2026-10-22T18:50:15.183598+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json) — published not supplied; retrieved 2026-10-23T08:48:05.962545+00:00.
 
-[S04] [10-K 0000101829-26-000006](https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html) — published 2026-02-06; retrieved 2026-10-22T18:50:15.183598+00:00.
+[S04] [10-K 0000101829-26-000006](https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/0000101829-26-000006-index.html) — published 2026-02-06; retrieved 2026-10-23T08:48:05.962545+00:00.
 
-[S05] [10-Q 0000101829-26-000031](https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html) — published 2026-10-20; retrieved 2026-10-22T18:50:15.183598+00:00.
+[S05] [10-Q 0000101829-26-000031](https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html) — published 2026-10-20; retrieved 2026-10-23T08:48:05.962545+00:00.
 
-[S09] [10-Q 0000101829-26-000027](https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/0000101829-26-000027-index.html) — published 2026-07-23; retrieved 2026-10-22T18:50:15.183598+00:00.
+[S09] [10-Q 0000101829-26-000027](https://www.sec.gov/Archives/edgar/data/101829/000010182926000027/0000101829-26-000027-index.html) — published 2026-07-23; retrieved 2026-10-23T08:48:05.962545+00:00.
 
 [S17] [10-Q 0000101829-26-000031](https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/0000101829-26-000031-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -378,6 +378,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001140361-26-036662](https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/0001140361-26-036662-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000101829/README.md).
+Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000101829/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

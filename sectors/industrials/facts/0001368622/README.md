@@ -9,13 +9,13 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/AVAV/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/AVAV/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: industrials
@@ -66,7 +66,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001368622.json
     sha256: 3ff238648c1bcee594f3c8afba8f078dfa20e0ff851a6f3734c9e8f37d40b00b
-    retrieved_at: '2026-10-22T18:50:13.586160+00:00'
+    retrieved_at: '2026-10-23T08:48:04.574371+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0001368622.json
     sha256: 386602910eae5b48f070ddb29346378ffd94aa267b6cdeb0500fa3f05e168d0f
@@ -81,8 +81,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
-  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
+  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
+  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001368622.json
@@ -93,19 +93,19 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001368622.json
   published_at: null
-  retrieved_at: '2026-10-22T18:50:13.586160+00:00'
+  retrieved_at: '2026-10-23T08:48:04.574371+00:00'
   sha256: 3ff238648c1bcee594f3c8afba8f078dfa20e0ff851a6f3734c9e8f37d40b00b
 - id: S04
   title: 10-K 0001104659-26-078906
   url: https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/0001104659-26-078906-index.html
   published_at: '2026-06-29'
-  retrieved_at: '2026-10-22T18:50:13.586160+00:00'
+  retrieved_at: '2026-10-23T08:48:04.574371+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001104659-26-106423
   url: https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-22T18:50:13.586160+00:00'
+  retrieved_at: '2026-10-23T08:48:04.574371+00:00'
   sha256: null
 - id: S18
   title: 144 0001950047-26-010272
@@ -158,16 +158,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/AVAV/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001368622/README.md
-full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
+  source_url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/AVAV/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001368622/README.md
+full_history_commit: 8929b40d1af134561afb621de3adca71dd9577ba
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AeroVironment Inc — AVAV
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001368622/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001368622/README.md)
 
 ## Business overview
 
@@ -215,7 +215,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:50:13.586160+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:04.574371+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -269,7 +269,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:50:13.586160+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:04.574371+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -326,9 +326,9 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:43:10.968851+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:29:26.075506+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/AVAV/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/AVAV/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 
@@ -348,15 +348,15 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001368622.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001368622.json) — published not supplied; retrieved 2026-10-22T18:50:13.586160+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001368622.json) — published not supplied; retrieved 2026-10-23T08:48:04.574371+00:00.
 
-[S04] [10-K 0001104659-26-078906](https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/0001104659-26-078906-index.html) — published 2026-06-29; retrieved 2026-10-22T18:50:13.586160+00:00.
+[S04] [10-K 0001104659-26-078906](https://www.sec.gov/Archives/edgar/data/1368622/000110465926078906/0001104659-26-078906-index.html) — published 2026-06-29; retrieved 2026-10-23T08:48:04.574371+00:00.
 
-[S05] [10-Q 0001104659-26-106423](https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.html) — published 2026-09-10; retrieved 2026-10-22T18:50:13.586160+00:00.
+[S05] [10-Q 0001104659-26-106423](https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/0001104659-26-106423-index.html) — published 2026-09-10; retrieved 2026-10-23T08:48:04.574371+00:00.
 
 [S18] [144 0001950047-26-010272](https://www.sec.gov/Archives/edgar/data/1368622/000195004726010272/0001950047-26-010272-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -368,6 +368,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001730997-26-000006](https://www.sec.gov/Archives/edgar/data/1368622/000173099726000006/0001730997-26-000006-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001368622/README.md).
+Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001368622/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

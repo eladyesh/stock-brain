@@ -9,13 +9,13 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/LMT/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: industrials
@@ -69,12 +69,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json
     sha256: 4cb5d1418e5c1b20be5d26085998d96bf1eef45015395fa49df6bac2ac0ffad5
-    retrieved_at: '2026-10-23T08:33:18.308731+00:00'
-    archive:
-      member: CIK0000936468.json
-      sha256: 75d1cc8bca6d990b787653521a352ab25164869485705a9fb49551e8e65a9650
-      url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
-    acquisition: operator_supplied_sec_bulk_archive
+    retrieved_at: '2026-10-23T08:48:05.194840+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0000936468.json
     sha256: 138b124208ea5f307fc9a2b51f64bb2ebe6c49ca0d3659f1ec95e671c73a82cc
@@ -89,8 +84,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
-  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000936468.json
@@ -101,25 +96,25 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  retrieved_at: '2026-10-23T08:48:05.194840+00:00'
   sha256: 4cb5d1418e5c1b20be5d26085998d96bf1eef45015395fa49df6bac2ac0ffad5
 - id: S04
   title: 10-K 0001628280-26-004195
   url: https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html
   published_at: '2026-01-29'
-  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  retrieved_at: '2026-10-23T08:48:05.194840+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001628280-26-066928
   url: https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  retrieved_at: '2026-10-23T08:48:05.194840+00:00'
   sha256: null
 - id: S10
   title: 10-Q 0001628280-26-049411
   url: https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html
   published_at: '2026-07-23'
-  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  retrieved_at: '2026-10-23T08:48:05.194840+00:00'
   sha256: null
 - id: S18
   title: 10-Q 0001628280-26-066928
@@ -172,16 +167,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md
-full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
+  source_url: https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/LMT/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000936468/README.md
+full_history_commit: 8929b40d1af134561afb621de3adca71dd9577ba
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # LOCKHEED MARTIN CORP — LMT
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000936468/README.md)
 
 ## Business overview
 
@@ -229,7 +224,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:05.194840+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -283,7 +278,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:05.194840+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -340,9 +335,9 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:40:52.466524+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:26:39.479262+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/c5f247f1f77b31a20ec1a66533503255600926f7/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 
@@ -362,17 +357,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000936468.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json) — published not supplied; retrieved 2026-10-23T08:48:05.194840+00:00.
 
-[S04] [10-K 0001628280-26-004195](https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html) — published 2026-01-29; retrieved 2026-10-23T08:33:18.308731+00:00.
+[S04] [10-K 0001628280-26-004195](https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html) — published 2026-01-29; retrieved 2026-10-23T08:48:05.194840+00:00.
 
-[S05] [10-Q 0001628280-26-066928](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:18.308731+00:00.
+[S05] [10-Q 0001628280-26-066928](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html) — published 2026-10-22; retrieved 2026-10-23T08:48:05.194840+00:00.
 
-[S10] [10-Q 0001628280-26-049411](https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:18.308731+00:00.
+[S10] [10-Q 0001628280-26-049411](https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html) — published 2026-07-23; retrieved 2026-10-23T08:48:05.194840+00:00.
 
 [S18] [10-Q 0001628280-26-066928](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -384,6 +379,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K 0001193125-26-371750](https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.html) — published 2026-08-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md).
+Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0000936468/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

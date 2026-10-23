@@ -9,10 +9,10 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -104,8 +104,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
-  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001268533.json
@@ -163,15 +163,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001268533/README.md
-full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001268533/README.md
+full_history_commit: 8929b40d1af134561afb621de3adca71dd9577ba
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # TORTOISE ENERGY INFRASTRUCTURE CORP — TYG
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001268533/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001268533/README.md)
 
 ## Business overview
 
@@ -247,7 +247,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 25-NSE, 3, 3/A, 4, 4/A, 40-17G, 40-17G/A, 40-33, 40-6C, 40-APP, 40-APP/A, 424B2, 424B3, 425, 486BPOS, 497, 497AD, 5, 5/A, 8-A12B, 8-K, APP WD, CERTNYS, CORRESP, DEF 14A, DEFA14A, DEL AM, EFFECT, N-14, N-14 8C, N-14 8C/A, N-2, N-2/A, N-23C-2, N-2ASR, N-2MEF, N-30B-2, N-8A, N-CEN, N-CEN/A, N-CSR, N-CSR/A, N-CSRS, N-CSRS/A, N-PX, N-Q, NO ACT, NPORT-EX, NPORT-P, NSAR-A, NSAR-B, NSAR-B/A, NT N-CEN, NT-NCEN, NT-NCSR, POS 8C, POS EX, PRE 14A, PRER14A, SC 13G, SC 13G/A, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:42:35.309653+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:28:43.847496+00:00.
 
 ## Relationships and themes
 
@@ -267,7 +267,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001268533.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -281,6 +281,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [N-CSRS 0001213900-26-086526](https://www.sec.gov/Archives/edgar/data/1268533/000121390026086526/0001213900-26-086526-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001268533/README.md).
+Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8929b40d1af134561afb621de3adca71dd9577ba/brain/companies/0001268533/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
