@@ -209,7 +209,8 @@ function coverageCatalog(){
   const instrument=h('select',{'aria-label':'סוג נייר'},option('equities','מניות ומועמדות',true),option('stocks','מניות שסווגו לפי הרשימה'),option('preferred','מניות בכורה'),option('partnership_unit','יחידות שותפות'),option('all','כל סוגי הניירות'),option('etf','קרנות ETF'),option('unknown','סיווג טעון בדיקה'));
   const types={common_stock:'מניה רגילה',depositary_receipt:'תעודת פיקדון',partnership_unit:'יחידת שותפות',equity_candidate:'מועמדת · סוג הנייר טרם אומת',etf:'ETF',preferred:'מניית בכורה',warrant:'כתב אופציה',unit:'יחידה',right:'זכות',debt:'חוב',managed_fund:'קרן מנוהלת'};
   const datasets={profile:'פרופיל חברה',financials:'דוחות כספיים',prices:'מחירי מסחר',filings:'דיווחים',news:'חדשות',estimates:'תחזיות אנליסטים',ownership:'בעלי מניות'};
-  const results=h('div',{'aria-live':'polite'}),detail=h('div',{}),summary=h('p',{class:'caption'}),coverageInfo=h('p',{class:'caption'}),progressInfo=h('p',{class:'caption','aria-label':'התקדמות כיסוי המידע'});
+  const results=h('div',{'aria-live':'polite'}),detail=h('div',{}),summary=h('p',{class:'caption'}),coverageInfo=h('p',{class:'caption'}),progressInfo=h('p',{class:'caption','aria-label':'התקדמות כיסוי המידע'}),brainInfo=h('p',{class:'caption','aria-label':'כיסוי קובצי Brain'});
+  const brainLinks=brain=>brain?.available?h('p',{},link('קובץ החברה ב־Brain ↗',brain.url),' · ',link('Markdown המקור ↗',brain.raw_url),h('span',{class:'caption'},' · נתוני '+date(brain.created_at)+' · פרופיל אוטומטי שטרם נבדק'+(brain.matches_current_data?'':' · הקובץ מבוסס על עדכון נתונים קודם'))):null;
   let offset=0,total=0;
   const load=async()=>{
     const token=++catalogToken;results.replaceChildren(note('טוען חברות…'));detail.replaceChildren();
@@ -219,12 +220,13 @@ function coverageCatalog(){
       const page=await response.json();if(!Array.isArray(page.items)||!Number.isInteger(page.total))throw Error('invalid registry');
       if(token!==catalogToken)return;
       if(page.directory?.status==='unavailable'){
-        summary.textContent='';coverageInfo.textContent='';progressInfo.textContent='';
+        summary.textContent='';coverageInfo.textContent='';progressInfo.textContent='';brainInfo.replaceChildren();
         results.replaceChildren(note('מאגר המניות נטען כעת. אפשר לחפש שוב בעוד רגע.'));
         previous.disabled=true;next.disabled=true;return;
       }
       total=page.total;summary.textContent=total+' ניירות תואמים · '+(total?offset+1:0)+'–'+Math.min(offset+25,total)+' מוצגים · רשימה נבדקה: '+date(page.directory?.imported_at)+(page.directory?.status==='stale'?' · העדכון היומי מתעכב':'');
       const counts=page.directory?.data_coverage||{};
+      brainInfo.replaceChildren(...(page.brain?.available?['Brain: '+page.brain.company_profiles+' קובצי חברות · '+page.brain.unresolved_listings+' רשומות שממתינות לזיהוי · נתוני '+date(page.brain.created_at)+'. ',link('פתח את כל קובצי ה־Markdown ↗',page.brain.index_url),' · ',link('הורד את ה־Brain ↗',page.brain.download_url)]:['קובצי ה־Brain ממתינים לאימות פרסום.']));
       coverageInfo.textContent='כיסוי מידע בכל המרשם: דוחות כספיים '+(counts.financials||0)+' · מחירים '+(counts.prices||0)+' · מחקר שנבדק '+(counts.reviewed_research||0)+'. כל נתון נשמר עם תאריך המקור שלו.';
       const progress=page.directory?.coverage_progress,checks=progress?.filing_checks;
       if(state.tab==='coverage'&&progress)$('coverage-count').textContent=progress.total_listings+' מניות ומועמדות בחיפוש';
@@ -245,6 +247,7 @@ function coverageCatalog(){
       detail.replaceChildren(card(security.security_name,h('div',{},h('p',{dir:'auto'},security.ticker+' · '+security.exchange+' · '+(types[security.instrument_type]||'סוג אחר')),
         note(security.cik?'זהות המנפיק מקושרת. כל תחום מידע מוצג לפי מועד האיסוף שלו.':'זהות המנפיק עדיין דורשת קישור מאומת. רישום נייר למסחר אינו מחקר על החברה.'),
         h('p',{class:'caption'},'בדיקת דיווחים אחרונה: '+date(security.filing_check?.last_checked_at)+(security.filing_check?.status==='overdue'?' · נדרשת בדיקה חדשה':security.filing_check?.status==='recent'?' · נבדק ב־48 השעות האחרונות':' · בדיקה עדכנית טרם הושלמה')),
+        brainLinks(item.brain),
         h('div',{class:'table-wrap'},h('table',{},h('tbody',{},...rows))),
         h('p',{class:'caption'},'רשימת המסחר נשלפה: '+date(security.source?.retrieved_at)+' · תאריך קובץ המקור: '+date(security.source?.file_created_at_local)),
         link('רשימת המסחר המקורית ↗',security.source?.url),
@@ -284,6 +287,7 @@ function coverageCatalog(){
         h('td',{},...(change.source_urls||[]).map((url,i)=>link('מקור '+(i+1)+' ↗',url)))));
       detail.replaceChildren(card(title,h('div',{},note(item.collection_status==='registry-only'?'החברה נוספה למרשם; הנתונים הפיננסיים טרם נאספו.':'נתונים שנאספו אוטומטית. מדדים שאינם עומדים בבדיקות ההתאמה נשארים חסומים.'),
         h('p',{class:'caption'},'מקור פיננסי נשלף ב־'+date(history?.source?.retrieved_at)+' · מחקר שנבדק: '+(item.research?.as_of?date(item.research.as_of):'טרם הושלם')),
+        brainLinks(item.brain),
         ...reported,
         history?.source?.url?h('p',{},link('נתוני המקור הפיננסיים ב־SEC ↗',history.source.url)):null,
         filingRows.length?h('details',{},h('summary',{},'דיווחים אחרונים ל־SEC'),h('p',{class:'caption'},'20 ההגשות האחרונות שנאספו. קישור לדיווח אינו אישור שהמסמך נותח או שהמחקר עודכן.'),
@@ -296,7 +300,7 @@ function coverageCatalog(){
   };
   const previous=button('הקודם',()=>{offset=Math.max(0,offset-25);load();}),next=button('הבא',()=>{offset+=25;load();});
   const form=h('form',{class:'section-tools',onSubmit:e=>{e.preventDefault();offset=0;load();}},query,instrument,h('button',{type:'submit',class:'primary'},'חפש'));
-  const body=card('חיפוש מניות בארה״ב',h('div',{},scope,form,summary,coverageInfo,progressInfo,results,h('div',{class:'section-tools'},previous,next)));
+  const body=card('חיפוש מניות בארה״ב',h('div',{},scope,form,summary,coverageInfo,progressInfo,brainInfo,results,h('div',{class:'section-tools'},previous,next)));
   load();
   return [body,detail];
 }

@@ -119,6 +119,16 @@ class RuntimeTests(unittest.TestCase):
             registered = json.loads(request('/api/companies/0000000123')[1])
             self.assertEqual(registered['collection_status'], 'registry-only')
             self.assertFalse(registered['research']['canonical_reviewed'])
+            self.assertFalse(registered['brain']['available'])
+            app.brain.publication = {'commit': 'a' * 40, 'release_tag': 'coverage-20261022-123-1',
+                'created_at': '2026-10-22T00:00:00+00:00', 'company_ciks': frozenset({'0000000123'}),
+                'unresolved_listing_keys': frozenset()}
+            # An HTTP read only uses the already verified publication inventory.
+            with patch('brain_publication.read_json', side_effect=AssertionError('network in request')):
+                published = json.loads(request('/api/companies/0000000123')[1])
+            self.assertTrue(published['brain']['available'])
+            self.assertIn('/' + 'a' * 40 + '/', published['brain']['url'])
+            self.assertFalse(published['research']['canonical_reviewed'])
             pilot = json.loads(request('/api/companies/MSFT')[1])
             self.assertTrue(pilot['financials_validated'])
             self.assertTrue(pilot['research']['canonical_reviewed'])
