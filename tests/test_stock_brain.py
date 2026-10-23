@@ -27,7 +27,8 @@ class KnowledgeBaseTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / "brain"
         shutil.copytree(REPO, self.root, ignore=shutil.ignore_patterns(
-            ".git", "build", "__pycache__", ".venv"))
+            ".git", "build", "__pycache__", ".venv", "node_modules", "dist",
+            "facts", "sector-facts.json", "unclassified"))
         # Tests remain isolated if real profiles are added to the repository later.
         for folder in (self.root / "sectors").glob("*/companies"):
             shutil.rmtree(folder)
