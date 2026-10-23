@@ -12,9 +12,59 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: foreign_reporting_adapter
+  next_action: Add support for the observed 20-F, 40-F or 6-K reporting forms and
+    verify the actual accounting taxonomy before normalization.
+  observed_forms:
+  - 12G3-2B
+  - 13F-HR
+  - '144'
+  - 20-F
+  - 20FR12B
+  - 20FR12B/A
+  - '3'
+  - 3/A
+  - '4'
+  - 424B2
+  - 424B3
+  - 424B5
+  - 6-K
+  - 8-A12B
+  - ARS
+  - CERT
+  - CORRESP
+  - CT ORDER
+  - DRS
+  - DRS/A
+  - DRSLTR
+  - EFFECT
+  - F-3ASR
+  - F-4
+  - F-4/A
+  - F-6
+  - F-6EF
+  - FWP
+  - IRANNOTICE
+  - N-PX
+  - POS AM
+  - S-8
+  - SC 13D
+  - SC 13D/A
+  - SC 13G
+  - SC 13G/A
+  - SC TO-C
+  - SC TO-T
+  - SC TO-T/A
+  - SCHEDULE 13D/A
+  - SCHEDULE 13G/A
+  - SD
+  - SEC STAFF ACTION
+  - SUPPL
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001395064.json
@@ -415,6 +465,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
+- Forms observed in the retained filing inventory: 12G3-2B, 13F-HR, 144, 20-F, 20FR12B, 20FR12B/A, 3, 3/A, 4, 424B2, 424B3, 424B5, 6-K, 8-A12B, ARS, CERT, CORRESP, CT ORDER, DRS, DRS/A, DRSLTR, EFFECT, F-3ASR, F-4, F-4/A, F-6, F-6EF, FWP, IRANNOTICE, N-PX, POS AM, S-8, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-C, SC TO-T, SC TO-T/A, SCHEDULE 13D/A, SCHEDULE 13G/A, SD, SEC STAFF ACTION, SUPPL, UPLOAD
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:41:04.343965+00:00.
 
 ## Relationships and themes

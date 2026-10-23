@@ -12,9 +12,62 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: true
 curated_research: null
+financial_gap:
+  reason: available
+  next_action: Retain dated financial evidence and review blocked metrics before analytical
+    use.
+  observed_forms:
+  - 10-K
+  - 10-K/A
+  - 10-Q
+  - 10-Q/A
+  - '144'
+  - 15-12B
+  - '25'
+  - 25-NSE
+  - '3'
+  - 3/A
+  - '4'
+  - 4/A
+  - 424B3
+  - 424B5
+  - 424B7
+  - 8-A12B
+  - 8-A12B/A
+  - 8-K
+  - 8-K/A
+  - ABS-15G
+  - ARS
+  - CERTNAS
+  - CERTNYS
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - DEFC14A
+  - DFAN14A
+  - FWP
+  - NO ACT
+  - POSASR
+  - PRE 14A
+  - PREC14A
+  - PRER14A
+  - PRRN14A
+  - PX14A6G
+  - S-3ASR
+  - S-8
+  - SC 13D
+  - SC 13D/A
+  - SC 13G
+  - SC 13G/A
+  - SC TO-I
+  - SC TO-I/A
+  - SCHEDULE 13D
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
+  - UPLOAD
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000945394.json

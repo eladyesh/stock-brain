@@ -12,12 +12,47 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/81fc4a451d6fb6d7cf886de9e4418a7f390934d5/sectors/information-technology/companies/MU/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/7216db1d897c951b2e7ebf381f2b5df2ff0bc913/sectors/information-technology/companies/MU/README.md
   status: reviewed
   as_of: '2026-10-18'
+financial_gap:
+  reason: available
+  next_action: Retain dated financial evidence and review blocked metrics before analytical
+    use.
+  observed_forms:
+  - 10-K
+  - 10-Q
+  - '144'
+  - 144/A
+  - 15-12G
+  - '25'
+  - '3'
+  - 305B2
+  - '4'
+  - 4/A
+  - 424B2
+  - 424B5
+  - '5'
+  - 8-A12B/A
+  - 8-K
+  - 8-K/A
+  - ARS
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - FWP
+  - PRE 14A
+  - S-3ASR
+  - S-8
+  - SC 13G
+  - SC 13G/A
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
+  - SD
+  - UPLOAD
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json
@@ -1101,7 +1136,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:36:01.290506+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/81fc4a451d6fb6d7cf886de9e4418a7f390934d5/sectors/information-technology/companies/MU/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/7216db1d897c951b2e7ebf381f2b5df2ff0bc913/sectors/information-technology/companies/MU/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 

@@ -12,9 +12,53 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: fund_reporting_review
+  next_action: Review the instrument against its N-CSR/N-CSRS reporting evidence before
+    applying an operating-company model. This signal alone is not a final fund classification.
+  observed_forms:
+  - '3'
+  - '4'
+  - 40-17G
+  - 40-17G/A
+  - 40-APP
+  - 40-APP/A
+  - 424B2
+  - 424B3
+  - '425'
+  - '497'
+  - 8-K
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - DEL AM
+  - EFFECT
+  - N-14 8C
+  - N-14 8C/A
+  - N-2
+  - N-2/A
+  - N-2ASR
+  - N-30D
+  - N-CEN
+  - N-CSR
+  - N-CSR/A
+  - N-CSRS
+  - N-CSRS/A
+  - N-PX
+  - N-Q
+  - NPORT-EX
+  - NPORT-P
+  - NSAR-A
+  - NSAR-B
+  - NT N-CEN
+  - POS EX
+  - PRE 14A
+  - SC 13G
+  - SC 13G/A
+  - SCHEDULE 13G
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000883618.json
@@ -415,6 +459,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
+- Forms observed in the retained filing inventory: 3, 4, 40-17G, 40-17G/A, 40-APP, 40-APP/A, 424B2, 424B3, 425, 497, 8-K, CORRESP, DEF 14A, DEFA14A, DEL AM, EFFECT, N-14 8C, N-14 8C/A, N-2, N-2/A, N-2ASR, N-30D, N-CEN, N-CSR, N-CSR/A, N-CSRS, N-CSRS/A, N-PX, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-B, NT N-CEN, POS EX, PRE 14A, SC 13G, SC 13G/A, SCHEDULE 13G
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:37:20.553082+00:00.
 
 ## Relationships and themes

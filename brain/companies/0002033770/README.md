@@ -12,9 +12,45 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: latest_filing_incomplete
+  next_action: Resolve the latest financial filing/CompanyFacts mismatch; any historical
+    bootstrap must keep the latest-period gap explicit.
+  observed_forms:
+  - 10-K
+  - 10-Q
+  - 10-Q/A
+  - '144'
+  - '3'
+  - '4'
+  - 424B3
+  - 424B7
+  - '425'
+  - 8-A12B
+  - 8-K
+  - 8-K/A
+  - ARS
+  - CERT
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - EFFECT
+  - NT 10-Q
+  - POS AM
+  - PRE 14A
+  - S-1
+  - S-1/A
+  - S-4
+  - S-4/A
+  - S-4MEF
+  - S-8
+  - SCHEDULE 13D
+  - SCHEDULE 13D/A
+  - SCHEDULE 13G
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002033770.json
@@ -415,6 +451,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
+- Forms observed in the retained filing inventory: 10-K, 10-Q, 10-Q/A, 144, 3, 4, 424B3, 424B7, 425, 8-A12B, 8-K, 8-K/A, ARS, CERT, CORRESP, DEF 14A, DEFA14A, EFFECT, NT 10-Q, POS AM, PRE 14A, S-1, S-1/A, S-4, S-4/A, S-4MEF, S-8, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, UPLOAD
 - Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-22T18:45:16.679023+00:00.
 
 ## Relationships and themes

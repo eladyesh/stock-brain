@@ -12,9 +12,26 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: true
 curated_research: null
+financial_gap:
+  reason: available
+  next_action: Retain dated financial evidence and review blocked metrics before analytical
+    use.
+  observed_forms:
+  - 10-K
+  - 10-Q
+  - '3'
+  - '4'
+  - 424B4
+  - 8-A12B
+  - 8-K
+  - CERT
+  - EFFECT
+  - S-1
+  - S-1/A
+  - SCHEDULE 13G
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0002092897.json

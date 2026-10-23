@@ -12,9 +12,61 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: fund_reporting_review
+  next_action: Review the instrument against its N-CSR/N-CSRS reporting evidence before
+    applying an operating-company model. This signal alone is not a final fund classification.
+  observed_forms:
+  - '3'
+  - '4'
+  - 4/A
+  - 40-17G
+  - 40-17G/A
+  - 424B3
+  - '497'
+  - 497J
+  - 8-K
+  - 8-K/A
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - EFFECT
+  - N-14
+  - N-14 8C
+  - N-14 8C/A
+  - N-14/A
+  - N-2
+  - N-2/A
+  - N-23C-2
+  - N-30B-2
+  - N-30D
+  - N-CEN
+  - N-CSR
+  - N-CSRS
+  - N-PX
+  - N-Q
+  - NPORT-EX
+  - NPORT-P
+  - NSAR-A
+  - NSAR-A/A
+  - NSAR-B
+  - NSAR-B/A
+  - NT-NSAR
+  - POS 8C
+  - POS AMI
+  - POS EX
+  - PRE 14A
+  - PRER14A
+  - SC 13D
+  - SC 13G
+  - SC 13G/A
+  - SC TO-I
+  - SC TO-I/A
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000886043.json
@@ -415,6 +467,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
+- Forms observed in the retained filing inventory: 3, 4, 4/A, 40-17G, 40-17G/A, 424B3, 497, 497J, 8-K, 8-K/A, CORRESP, DEF 14A, DEFA14A, EFFECT, N-14, N-14 8C, N-14 8C/A, N-14/A, N-2, N-2/A, N-23C-2, N-30B-2, N-30D, N-CEN, N-CSR, N-CSRS, N-PX, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-A/A, NSAR-B, NSAR-B/A, NT-NSAR, POS 8C, POS AMI, POS EX, PRE 14A, PRER14A, SC 13D, SC 13G, SC 13G/A, SC TO-I, SC TO-I/A, SCHEDULE 13G, SCHEDULE 13G/A
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:37:24.533506+00:00.
 
 ## Relationships and themes

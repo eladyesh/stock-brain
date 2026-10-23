@@ -77,3 +77,6 @@ Verified data release: `coverage-20261022-39831584719-1`. Source created: 2026-1
 | [5](index/unresolved-0005.md) | 100 |
 | [6](index/unresolved-0006.md) | 100 |
 | [7](index/unresolved-0007.md) | 6 |
+
+[Coverage gaps and next research tasks](GAPS.md)
+

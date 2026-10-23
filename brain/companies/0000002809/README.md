@@ -12,9 +12,57 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: foreign_reporting_adapter
+  next_action: Add support for the observed 20-F, 40-F or 6-K reporting forms and
+    verify the actual accounting taxonomy before normalization.
+  observed_forms:
+  - 20-F
+  - 20-F/A
+  - 25-NSE
+  - 40-F
+  - 40-F/A
+  - 424B3
+  - '425'
+  - 6-K
+  - 6-K/A
+  - 8-A12G
+  - AW
+  - CORRESP
+  - D/A
+  - EFFECT
+  - F-10
+  - F-10/A
+  - F-10EF
+  - F-10POS
+  - F-3
+  - F-3D
+  - F-3DPOS
+  - F-4
+  - F-4/A
+  - F-80
+  - F-80POS
+  - F-X
+  - F-X/A
+  - FWP
+  - REGDEX
+  - RW
+  - S-8
+  - S-8 POS
+  - SC 13D
+  - SC 13D/A
+  - SC 13G
+  - SC 13G/A
+  - SC TO-T
+  - SC TO-T/A
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
+  - SD
+  - SUPPL
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000002809.json
@@ -415,6 +463,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
+- Forms observed in the retained filing inventory: 20-F, 20-F/A, 25-NSE, 40-F, 40-F/A, 424B3, 425, 6-K, 6-K/A, 8-A12G, AW, CORRESP, D/A, EFFECT, F-10, F-10/A, F-10EF, F-10POS, F-3, F-3D, F-3DPOS, F-4, F-4/A, F-80, F-80POS, F-X, F-X/A, FWP, REGDEX, RW, S-8, S-8 POS, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-T, SC TO-T/A, SCHEDULE 13G, SCHEDULE 13G/A, SD, SUPPL, UPLOAD
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:34:00.313715+00:00.
 
 ## Relationships and themes

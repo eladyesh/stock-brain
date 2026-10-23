@@ -12,9 +12,44 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: foreign_reporting_adapter
+  next_action: Add support for the observed 20-F, 40-F or 6-K reporting forms and
+    verify the actual accounting taxonomy before normalization.
+  observed_forms:
+  - 13F-HR
+  - 13F-HR/A
+  - 13F-NT
+  - '144'
+  - 20-F
+  - 20-F/A
+  - 25-NSE
+  - '3'
+  - 3/A
+  - '4'
+  - 424B2
+  - 6-K
+  - 8-A12B
+  - CERT
+  - CORRESP
+  - EFFECT
+  - F-3ASR
+  - F-6
+  - F-6EF
+  - F-N
+  - FWP
+  - IRANNOTICE
+  - N-PX
+  - S-8
+  - SC 13D/A
+  - SC 13G
+  - SC 13G/A
+  - SCHEDULE 13G
+  - SCHEDULE 13G/A
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000312069.json
@@ -415,6 +450,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
+- Forms observed in the retained filing inventory: 13F-HR, 13F-HR/A, 13F-NT, 144, 20-F, 20-F/A, 25-NSE, 3, 3/A, 4, 424B2, 6-K, 8-A12B, CERT, CORRESP, EFFECT, F-3ASR, F-6, F-6EF, F-N, FWP, IRANNOTICE, N-PX, S-8, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:35:35.260454+00:00.
 
 ## Relationships and themes

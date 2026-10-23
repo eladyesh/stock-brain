@@ -12,9 +12,50 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: latest_filing_incomplete
+  next_action: Resolve the latest financial filing/CompanyFacts mismatch; any historical
+    bootstrap must keep the latest-period gap explicit.
+  observed_forms:
+  - 10-K
+  - '3'
+  - 3/A
+  - '4'
+  - 40-17G
+  - 40-17G/A
+  - 40-APP
+  - 40-APP/A
+  - 424B2
+  - 424B3
+  - 486BPOS
+  - '497'
+  - 497J
+  - 8-K
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - EFFECT
+  - N-2
+  - N-2/A
+  - N-2ASR
+  - N-30D
+  - N-CEN
+  - N-CEN/A
+  - N-CSR
+  - N-CSR/A
+  - N-CSRS
+  - N-PX
+  - N-Q
+  - NPORT-EX
+  - NPORT-P
+  - NSAR-A
+  - NSAR-B
+  - POS EX
+  - PRE 14A
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000812801.json
@@ -415,6 +456,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
+- Forms observed in the retained filing inventory: 10-K, 3, 3/A, 4, 40-17G, 40-17G/A, 40-APP, 40-APP/A, 424B2, 424B3, 486BPOS, 497, 497J, 8-K, CORRESP, DEF 14A, DEFA14A, EFFECT, N-2, N-2/A, N-2ASR, N-30D, N-CEN, N-CEN/A, N-CSR, N-CSR/A, N-CSRS, N-PX, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-B, POS EX, PRE 14A, UPLOAD
 - Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-22T18:36:40.844706+00:00.
 
 ## Relationships and themes

@@ -12,9 +12,68 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: latest_filing_incomplete
+  next_action: Resolve the latest financial filing/CompanyFacts mismatch; any historical
+    bootstrap must keep the latest-period gap explicit.
+  observed_forms:
+  - 10-K
+  - 10-K/A
+  - 10-Q
+  - '144'
+  - 15-12G
+  - 25-NSE
+  - '3'
+  - '4'
+  - 4/A
+  - 424B1
+  - 424B3
+  - 424B5
+  - 424B7
+  - '425'
+  - '5'
+  - 8-A12B
+  - 8-K
+  - 8-K/A
+  - ABS-15G
+  - ARS
+  - AW
+  - CERT
+  - CERTNYS
+  - CORRESP
+  - D
+  - DEF 14A
+  - DEFA14A
+  - DRS
+  - DRS/A
+  - DRSLTR
+  - EFFECT
+  - FWP
+  - NT 10-K/A
+  - POS AM
+  - POSASR
+  - S-11
+  - S-11/A
+  - S-3
+  - S-3/A
+  - S-3ASR
+  - S-3D
+  - S-4
+  - S-4/A
+  - S-8
+  - SC 13D
+  - SC 13D/A
+  - SC 13G
+  - SC 13G/A
+  - SC TO-I
+  - SC TO-I/A
+  - SCHEDULE 13D
+  - SCHEDULE 13D/A
+  - SCHEDULE 13G/A
+  - UPLOAD
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001527590.json
@@ -415,6 +474,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
+- Forms observed in the retained filing inventory: 10-K, 10-K/A, 10-Q, 144, 15-12G, 25-NSE, 3, 4, 4/A, 424B1, 424B3, 424B5, 424B7, 425, 5, 8-A12B, 8-K, 8-K/A, ABS-15G, ARS, AW, CERT, CERTNYS, CORRESP, D, DEF 14A, DEFA14A, DRS, DRS/A, DRSLTR, EFFECT, FWP, NT 10-K/A, POS AM, POSASR, S-11, S-11/A, S-3, S-3/A, S-3ASR, S-3D, S-4, S-4/A, S-8, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-I, SC TO-I/A, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G/A, UPLOAD
 - Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-22T18:42:08.428773+00:00.
 
 ## Relationships and themes

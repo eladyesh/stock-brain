@@ -12,9 +12,70 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 81fc4a451d6fb6d7cf886de9e4418a7f390934d5
+source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
 financial_history_available: false
 curated_research: null
+financial_gap:
+  reason: fund_reporting_review
+  next_action: Review the instrument against its N-CSR/N-CSRS reporting evidence before
+    applying an operating-company model. This signal alone is not a final fund classification.
+  observed_forms:
+  - '3'
+  - '4'
+  - 4/A
+  - 40-17G
+  - 40-17G/A
+  - 40-6C
+  - 40-APP
+  - 40-APP/A
+  - 424B3
+  - 486BPOS
+  - '497'
+  - 497J
+  - '5'
+  - 8-K
+  - 8-K/A
+  - APP NTC
+  - APP ORDR
+  - CORRESP
+  - DEF 14A
+  - DEFA14A
+  - DEFC14A
+  - DEFR14A
+  - DEL AM
+  - DFAN14A
+  - DFRN14A
+  - EFFECT
+  - N-2
+  - N-2/A
+  - N-23C-1
+  - N-2ASR
+  - N-30B-2
+  - N-30D
+  - N-CEN
+  - N-CEN/A
+  - N-CSR
+  - N-CSRS
+  - N-PX
+  - N-Q
+  - NO ACT
+  - NPORT-EX
+  - NPORT-P
+  - NPORT-P/A
+  - NSAR-A
+  - NSAR-AT
+  - NSAR-B
+  - NSAR-B/A
+  - NSAR-BT
+  - POS 8C
+  - POS AMI
+  - POS EX
+  - PRE 14A
+  - PREC14A
+  - SC 13D
+  - SC 13D/A
+  - SC TO-I
+  - SC TO-I/A
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000099614.json
@@ -415,6 +476,8 @@ Not available: substantive research has not been completed. Describe operational
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
+- Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
+- Forms observed in the retained filing inventory: 3, 4, 4/A, 40-17G, 40-17G/A, 40-6C, 40-APP, 40-APP/A, 424B3, 486BPOS, 497, 497J, 5, 8-K, 8-K/A, APP NTC, APP ORDR, CORRESP, DEF 14A, DEFA14A, DEFC14A, DEFR14A, DEL AM, DFAN14A, DFRN14A, EFFECT, N-2, N-2/A, N-23C-1, N-2ASR, N-30B-2, N-30D, N-CEN, N-CEN/A, N-CSR, N-CSRS, N-PX, N-Q, NO ACT, NPORT-EX, NPORT-P, NPORT-P/A, NSAR-A, NSAR-AT, NSAR-B, NSAR-B/A, NSAR-BT, POS 8C, POS AMI, POS EX, PRE 14A, PREC14A, SC 13D, SC 13D/A, SC TO-I, SC TO-I/A
 - Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:35:18.121488+00:00.
 
 ## Relationships and themes
