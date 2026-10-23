@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
+source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -552,7 +552,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | -590,200,000 | USD | US GAAP / reported | ProfitLoss | [S04] |
 | operating_cash_flow | 537,800,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S04] |
 | operating_income | -81,500,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S04] |
-| purchases_of_productive_assets | -189,600,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S04] |
+| purchases_of_productive_assets | -189,600,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S04] |
 | revenue | 5,806,600,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S04] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S04] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S04] |
@@ -573,7 +573,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | -350,200,000 | USD | US GAAP / reported | ProfitLoss | [S04] |
 | operating_cash_flow | 492,600,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S04] |
 | operating_income | 241,100,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S04] |
-| purchases_of_productive_assets | -215,000,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S04] |
+| purchases_of_productive_assets | -215,000,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S04] |
 | revenue | 5,892,900,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S04] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S04] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S04] |
@@ -594,7 +594,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 109,400,000 | USD | US GAAP / reported | ProfitLoss | [S04] |
 | operating_cash_flow | 614,600,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S04] |
 | operating_income | 546,700,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S04] |
-| purchases_of_productive_assets | -245,200,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S04] |
+| purchases_of_productive_assets | -245,200,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S04] |
 | revenue | 6,118,000,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S04] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S04] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S04] |
@@ -615,7 +615,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 523,200,000 | USD | US GAAP / reported | ProfitLoss | [S05] |
 | operating_cash_flow | 625,700,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S05] |
 | operating_income | 543,700,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
-| purchases_of_productive_assets | -222,800,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S05] |
+| purchases_of_productive_assets | -222,800,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S05] |
 | revenue | 5,554,100,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S05] |
@@ -636,7 +636,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 267,700,000 | USD | US GAAP / reported | ProfitLoss | [S06] |
 | operating_cash_flow | 726,600,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S06] |
 | operating_income | 240,900,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S06] |
-| purchases_of_productive_assets | -174,100,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S06] |
+| purchases_of_productive_assets | -174,100,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S06] |
 | revenue | 5,304,400,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S06] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S06] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S06] |
@@ -720,7 +720,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 74,000,000 | USD | US GAAP / reported | ProfitLoss | [S10] |
 | operating_cash_flow | 65,200,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S10] |
 | operating_income | 185,000,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
-| purchases_of_productive_assets | -54,000,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S10] |
+| purchases_of_productive_assets | -54,000,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S10] |
 | revenue | 1,577,200,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S10] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
@@ -804,7 +804,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 90,700,000 | USD | US GAAP / reported | ProfitLoss | [S10] |
 | operating_cash_flow | 67,400,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S10] |
 | operating_income | 237,800,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S10] |
-| purchases_of_productive_assets | -75,300,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S10] |
+| purchases_of_productive_assets | -75,300,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S10] |
 | revenue | 1,671,500,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S10] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S10] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S10] |
@@ -888,7 +888,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 | net_income_including_noncontrolling_interests | 10,200,000 | USD | US GAAP / reported | ProfitLoss | [S13] |
 | operating_cash_flow | 186,200,000 | USD | US GAAP / reported | NetCashProvidedByUsedInOperatingActivities | [S13] |
 | operating_income | 197,500,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S13] |
-| purchases_of_productive_assets | -62,200,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only | [S13] |
+| purchases_of_productive_assets | -62,200,000 | USD | US GAAP / reported | PaymentsToAcquireProductiveAssets; Cash outflow = negative of reported PaymentsToAcquireProductiveAssets; source value retained.; broader_than_property_plant_equipment_only | [S13] |
 | revenue | 1,641,400,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S13] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S13] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S13] |

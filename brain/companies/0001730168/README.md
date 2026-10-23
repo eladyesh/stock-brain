@@ -12,10 +12,10 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 7216db1d897c951b2e7ebf381f2b5df2ff0bc913
+source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/7216db1d897c951b2e7ebf381f2b5df2ff0bc913/sectors/information-technology/companies/AVGO/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/82640201fff7998cb5c6c4b8310ed2d7700da77d/sectors/information-technology/companies/AVGO/README.md
   status: reviewed
   as_of: '2026-10-18'
 financial_gap:
@@ -548,7 +548,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -623,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S04] |
+| capex | -623,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S04] |
 | cost_of_revenue | 20,593,000,000 | USD | US GAAP / reported | CostOfRevenue | [S04] |
 | eps_basic | 4.91 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S04] |
 | eps_diluted | 4.77 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S04] |
@@ -569,7 +569,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -548,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S04] |
+| capex | -548,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S04] |
 | cost_of_revenue | 19,065,000,000 | USD | US GAAP / reported | CostOfRevenue | [S04] |
 | eps_basic | 1.27 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S04] |
 | eps_diluted | 1.23 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S04] |
@@ -590,7 +590,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -452,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S04] |
+| capex | -452,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S04] |
 | cost_of_revenue | 11,129,000,000 | USD | US GAAP / reported | CostOfRevenue | [S04] |
 | eps_basic | 3.39 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S04] |
 | eps_diluted | 3.3 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S04] |
@@ -611,7 +611,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -424,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S06] |
+| capex | -424,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S06] |
 | cost_of_revenue | 11,108,000,000 | USD | US GAAP / reported | CostOfRevenue | [S06] |
 | eps_basic | 2.74 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S06] |
 | eps_diluted | 2.65 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S06] |
@@ -632,7 +632,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -443,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S07] |
+| capex | -443,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S07] |
 | cost_of_revenue | 10,606,000,000 | USD | US GAAP / reported | CostOfRevenue | [S07] |
 | eps_basic | 1.57 | USD/shares | US GAAP / derived | EarningsPerShareBasic; historical_fact_split_normalized, share_split_basis_verified | [S07] |
 | eps_diluted | 1.5 | USD/shares | US GAAP / derived | EarningsPerShareDiluted; historical_fact_split_normalized, share_split_basis_verified | [S07] |
@@ -695,7 +695,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -250,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S11] |
+| capex | -250,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S11] |
 | cost_of_revenue | 6,154,000,000 | USD | US GAAP / reported | CostOfRevenue | [S11] |
 | eps_basic | 1.55 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S11] |
 | eps_diluted | 1.5 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S11] |
@@ -779,7 +779,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -100,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S11] |
+| capex | -100,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S11] |
 | cost_of_revenue | 4,771,000,000 | USD | US GAAP / reported | CostOfRevenue | [S11] |
 | eps_basic | 1.17 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S11] |
 | eps_diluted | 1.14 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S11] |
@@ -863,7 +863,7 @@ US GAAP facts and explicitly identified derivations. Values use the units shown,
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -122,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment | [S14] |
+| capex | -122,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S14] |
 | cost_of_revenue | 4,586,000,000 | USD | US GAAP / reported | CostOfRevenue | [S14] |
 | eps_basic | 0.29 | USD/shares | US GAAP / reported | EarningsPerShareBasic; share_split_basis_verified | [S14] |
 | eps_diluted | 0.28 | USD/shares | US GAAP / reported | EarningsPerShareDiluted; share_split_basis_verified | [S14] |
@@ -1156,7 +1156,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:43:48.793527+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/7216db1d897c951b2e7ebf381f2b5df2ff0bc913/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/82640201fff7998cb5c6c4b8310ed2d7700da77d/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 
