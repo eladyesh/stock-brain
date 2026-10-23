@@ -112,6 +112,20 @@ class CoverageWorkerTests(unittest.TestCase):
         self.assertEqual(previous, self.store.get_payload(CIK, 'history'))
         self.assertEqual(draft, self.store.get_payload(CIK, 'automatic_changes'))
 
+    def test_reported_industry_is_retained_with_submission_source_not_inferred_sector(self):
+        self.fetcher.responses[self.sub_url].update(sic='2834', sicDescription='Pharmaceutical preparations', entityType='operating')
+        self.assertEqual(self.run_job()['succeeded'], 1)
+        record = self.store.get_payload(CIK, 'submissions')
+        self.assertEqual(record['issuer']['sic'], '2834')
+        self.assertEqual(record['issuer']['sic_description'], 'Pharmaceutical preparations')
+        self.assertEqual(record['source']['url'], self.sub_url)
+        self.assertNotIn('sector', record['issuer'])
+        for invalid in ('unknown', True, -1, 12345, None):
+            result = worker.issuer_metadata({'cik': CIK, 'sic': invalid}, CIK)
+            self.assertIsNone(result['sic'])
+            self.assertEqual(result['classification_status'], 'missing_or_invalid_sic')
+        self.assertEqual(worker.issuer_metadata({'cik': CIK, 'sic': 100}, CIK)['sic'], '0100')
+
     def test_changed_filing_produces_source_linked_unreviewed_neutral_draft(self):
         self.run_job()
         self.clock.value = datetime(2026, 9, 1, tzinfo=timezone.utc)

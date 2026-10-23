@@ -29,6 +29,22 @@ def encoded_digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False, allow_nan=False).encode()).hexdigest()
 
 
+def issuer_metadata(submissions, cik):
+    """Retain reported business classification; SIC is not a GICS assignment."""
+    kb.need(str(submissions.get('cik', '')).zfill(10) == cik, 'submissions issuer mismatch')
+    sic = submissions.get('sic')
+    if type(sic) is int:
+        sic = str(sic)
+    valid = isinstance(sic, str) and re.fullmatch(r'[0-9]{1,4}', sic) and int(sic) > 0
+    description = submissions.get('sicDescription')
+    entity = submissions.get('entityType')
+    return {'name': submissions.get('name'), 'cik': cik,
+            'sic': sic.zfill(4) if valid else None,
+            'sic_description': description if isinstance(description, str) and len(description) <= 500 else None,
+            'entity_type': entity if isinstance(entity, str) and len(entity) <= 100 else None,
+            'classification_status': 'reported_sic' if valid else 'missing_or_invalid_sic'}
+
+
 def source_metadata(url, raw, meta):
     digest = p.digest(raw)
     kb.need(not meta.get('sha256') or meta['sha256'] == digest, 'provider response hash mismatch')
@@ -309,7 +325,7 @@ class CoverageWorker:
         latest = filings[0] if filings else None
         submission_payload = {'schema_version': 1, 'cik': cik, 'ticker': company['ticker'],
                               'checked_at': checked_at, 'source': sub_source,
-                              'issuer': {'name': submissions.get('name'), 'cik': cik},
+                              'issuer': issuer_metadata(submissions, cik),
                               'latest_financial_filing': latest, 'filings': filings[:100],
                               'recent_filing_inventory': recent_filing_inventory(submissions, cik, cutoff),
                               'scope': 'Recent filing metadata only; older submission shards and document bodies are not collected here'}
