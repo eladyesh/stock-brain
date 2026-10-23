@@ -44,7 +44,7 @@ The Markdown files are the source of truth. Every company uses the same sections
 | `sectors/<sector>/README.md` | Uniform sector research guide |
 | `sectors/<sector>/INDEX.md` | Generated company index for that sector |
 | `sectors/<sector>/companies/<TICKER>/README.md` | Curated company research |
-| `sectors/<sector>/facts/<CIK>/README.md` | Automatically maintained source-backed factual profile |
+| `sectors/<sector>/facts/<SYMBOL>/README.md` | Symbol-named factual profile, research evidence and daily work plan; stable CIK in metadata |
 | `data/sector-facts.json` | Exact inventory, hashes and separate factual coverage totals |
 | `config/` | Sector taxonomy and ordered company sections |
 | `templates/` | Canonical starting templates |

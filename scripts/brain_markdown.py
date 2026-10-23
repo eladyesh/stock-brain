@@ -29,13 +29,14 @@ import market_directory
 import stock_brain as kb
 import ttm
 from coverage_store import CoverageStore, SCHEMA_VERSION, require
+from company_identity import primary_symbol, symbol_paths
 
 
 REPO = 'eladyesh/stock-brain'
 BRANCH = 'brain-data'
 ROOT = Path(__file__).resolve().parents[1]
 MAX_FILE = 512 * 1024
-MAX_TOTAL = 512 * 1024 * 1024
+MAX_TOTAL = 768 * 1024 * 1024
 MAX_PROFILES = 50_000
 FORMAT = 'stock-brain-markdown'
 GAP_ACTIONS = {
@@ -49,6 +50,13 @@ GAP_ACTIONS = {
 CIK = re.compile(r'[0-9]{10}\Z')
 SHA = re.compile(r'[0-9a-f]{40}\Z')
 SHA256 = re.compile(r'[0-9a-f]{64}\Z')
+
+
+def company_path(manifest, cik):
+    """Read legacy generations; new user-facing folders use current symbols."""
+    path = (manifest.get('company_paths') or {}).get(cik, f'brain/companies/{cik}/README.md')
+    require(re.fullmatch(r'brain/companies/[A-Z0-9][A-Z0-9._-]*/README\.md', path), 'invalid company path')
+    return path
 
 
 class ProfileLoader(getattr(yaml, 'CSafeLoader', yaml.SafeLoader)):
@@ -248,6 +256,17 @@ def profile(store, cik, rows, definitions, release, curated=None):
     input_sources = {kind: {key: value['source'][key] for key in ('url', 'sha256', 'retrieved_at', 'archive', 'acquisition')
                             if key in value['source']}
                      for kind, value in (('history', history), ('submissions', submissions)) if value}
+    import research_financials
+    research_filings = []
+    # Keep annual, interim, governance and material-event sources even when the
+    # fifty newest submissions are mostly ownership filings.
+    all_filings = {f['accession']: f for f in filing_list + (submissions or {}).get('filings', [])}
+    for forms in ({'10-K', '20-F', '40-F'}, {'10-Q', '6-K'}, {'DEF 14A'}, {'8-K'}):
+        candidates = sorted((f for f in all_filings.values() if f['form'] in forms), key=lambda f: (f['filed'], f['accession']), reverse=True)
+        if candidates:
+            base = candidates[0]
+            research_filings.append(base)
+            research_filings.extend(f for f in all_filings.values() if f['form'] == base['form'] + '/A' and f.get('period_end') == base.get('period_end'))
     metadata = {'schema_version': 1, 'document_type': 'company_facts', 'company_id': 'company-cik-' + cik,
                 'cik': cik, 'company_name': name, 'tickers': aliases, 'status': 'stub', 'canonical_reviewed': False,
                 'as_of': release['created_at'][:10], 'updated_at': release['created_at'], 'reviewed_at': None,
@@ -255,8 +274,10 @@ def profile(store, cik, rows, definitions, release, curated=None):
                 'financial_history_available': bool(history), 'curated_research': curated,
                 'financial_gap': gap, 'input_sources': input_sources, 'sources': sources,
                 'issuer_classification': (submissions or {}).get('issuer'),
-                'classification_source': (submissions or {}).get('source')}
-    body = f"# {text(name)} — CIK {cik}\n\n> Automatically maintained factual stub. Substantive company research is incomplete.\n\n[All companies](../../INDEX.md)\n\n"
+                'classification_source': (submissions or {}).get('source'),
+                'listings': [{k: r[k] for k in ('ticker', 'exchange', 'instrument_type')} for r in rows],
+                'research_filings': research_filings[:12], 'financial_analysis': research_financials.analyze(history)}
+    body = f"# {text(', '.join(aliases))} — {text(name)}\n\n> Automatically maintained factual stub. Substantive company research is incomplete.\n\n[All companies](../../INDEX.md)\n\n"
     body += '\n\n'.join(f"## {d['title']}\n\n{sections[d['id']]}" for d in definitions) + '\n'
     return '---\n' + yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True) + '---\n' + body
 
@@ -293,6 +314,8 @@ def export(store, output, release, *, root=ROOT):
         else:
             missing.append(row)
     require(0 < len(grouped) <= MAX_PROFILES and len(missing) <= MAX_PROFILES, 'unexpected profile count')
+    slugs = symbol_paths([{'cik': cik, 'tickers': [r['ticker'] for r in rows]} for cik, rows in grouped.items()])
+    paths = {cik: f'brain/companies/{slug}/README.md' for cik, slug in slugs.items()}
     files, total, financials = {}, 0, 0
     gap_groups = defaultdict(list)
 
@@ -311,7 +334,7 @@ def export(store, output, release, *, root=ROOT):
              f"Verified data release: `{release['release_tag']}`. Source created: {release['created_at']}.", '',
              f"**{len(grouped)} distinct mapped issuers**, **{sum(map(len, grouped.values()))} mapped stock listings**, "
              f"**{len(missing)} unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.", '',
-             '## Company pages', '', '| Page | First CIK | Last CIK |', '| --- | --- | --- |']
+             '## Company pages — sorted by symbol', '', '| Page | First symbol | Last symbol |', '| --- | --- | --- |']
     company_index, missing_index = [], []
     for cik, rows in sorted(grouped.items()):
         content = profile(store, cik, rows, definitions, release, curated.get(cik))
@@ -319,16 +342,17 @@ def export(store, output, release, *, root=ROOT):
         kb.sections_from(body, definitions)
         financials += int(meta['financial_history_available'])
         gap_groups[meta['financial_gap']['reason']].append((cik, meta['company_name']))
-        write(f'brain/companies/{cik}/README.md', content)
-        company_index.append((cik, f"| {cik} | [{text(meta['company_name'])}](../companies/{cik}/README.md) | {text(', '.join(meta['tickers']))} | {'available, quality gates apply' if meta['financial_history_available'] else 'not available'} |"))
+        write(paths[cik], content)
+        company_index.append((primary_symbol(meta['tickers']), f"| [{text(', '.join(meta['tickers']))}](../companies/{slugs[cik]}/README.md) | {text(meta['company_name'])} | {'available, quality gates apply' if meta['financial_history_available'] else 'not available'} |"))
         if len(files) % 500 == 0:
             print(json.dumps({'markdown_profiles_written': len(files), 'bytes': total}), flush=True)
+    company_index.sort()
     for offset in range(0, len(company_index), 100):
         page = company_index[offset:offset + 100]
         number = offset // 100 + 1
         filename = f'index/companies-{number:04d}.md'
         write('brain/' + filename, f'# Company page {number}\n\n[All pages](../INDEX.md)\n\n'
-              + '| CIK | Company | Current symbols | Financial history |\n| --- | --- | --- | --- |\n'
+              + '| Symbols | Company | Financial history |\n| --- | --- | --- |\n'
               + '\n'.join(row for _, row in page) + '\n')
         index.append(f'| [{number}]({filename}) | {page[0][0]} | {page[-1][0]} |')
     index += ['', '## Unresolved listing pages', '', '| Page | Listings |', '| --- | ---: |']
@@ -357,7 +381,7 @@ def export(store, output, release, *, root=ROOT):
         if reason == 'available' or not issuers:
             continue
         gap_lines += ['## ' + reason, '', GAP_ACTIONS[reason], '', 'Examples (up to 20; each company file contains its source evidence and task):', '']
-        gap_lines += [f'- [{text(name)} — {cik}](companies/{cik}/README.md)' for cik, name in issuers[:20]]
+        gap_lines += [f'- [{text(slugs[cik])} — {text(name)}](companies/{slugs[cik]}/README.md)' for cik, name in issuers[:20]]
         gap_lines.append('')
     write('brain/GAPS.md', '\n'.join(gap_lines))
     write('README.md', '# Stock Brain — Daily Markdown\n\n[Browse every company and unresolved listing](brain/INDEX.md).\n\n'
@@ -365,9 +389,9 @@ def export(store, output, release, *, root=ROOT):
           'Financial source dates and quality gates are retained. Stubs are excluded from reviewed retrieval exports.\n\n'
           '[Curated research and generator source](https://github.com/' + REPO + '/tree/main) remain on main. '
           'Edit research there. The publisher refuses to overwrite manually modified files in this generated branch. '
-          'Company paths use stable CIKs. Unresolved listing paths identify exchange/symbol slots, not issuers. '
+          'Company paths use current symbols; CIKs remain immutable metadata keys. Unresolved listing paths identify exchange/symbol slots, not issuers. '
           'Previous snapshots remain in Git history; disappearance is not proof of delisting.\n')
-    manifest = {'format': FORMAT, 'version': 1, **release, 'company_profiles': len(grouped),
+    manifest = {'format': FORMAT, 'version': 2, **release, 'company_profiles': len(grouped), 'company_paths': paths,
                 'mapped_stock_listings': sum(map(len, grouped.values())), 'unresolved_listings': len(missing),
                 'financial_profiles': financials, 'reviewed_generated_profiles': 0, 'bytes': total,
                 'financial_gap_counts': {reason: len(gap_groups[reason]) for reason in GAP_ACTIONS},
@@ -385,8 +409,12 @@ def verify(output, definitions=None):
     actual = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file() and '.git' not in p.relative_to(output).parts}
     require(actual == set(files) | {'brain/files.json'}, 'unexpected or missing files; preserve manual changes')
     manifest = json.loads((output / 'brain/publication.json').read_text())
-    require(manifest.get('format') == FORMAT and manifest.get('version') == 1, 'invalid publication format')
+    require(manifest.get('format') == FORMAT and manifest.get('version') in (1, 2), 'invalid publication format')
+    if manifest['version'] == 2:
+        require(set(manifest['company_paths']) == set(manifest['company_ciks'])
+                and len(set(manifest['company_paths'].values())) == manifest['company_profiles'], 'ambiguous company paths')
     company_ciks, unresolved_keys, financials = [], [], 0
+    identities = []
     gap_counts = {reason: 0 for reason in GAP_ACTIONS}
     total = 0
     definitions = definitions or kb.config(ROOT)[1]
@@ -400,13 +428,14 @@ def verify(output, definitions=None):
         if name.startswith('brain/companies/'):
             meta, body = split_profile(raw.decode())
             cik = meta['cik']
-            require(CIK.fullmatch(cik) is not None and int(cik) > 0 and name == f'brain/companies/{cik}/README.md', 'invalid profile path')
+            require(CIK.fullmatch(cik) is not None and int(cik) > 0 and name == company_path(manifest, cik), 'invalid profile path')
             require(meta['document_type'] == 'company_facts' and meta['company_id'] == 'company-cik-' + cik, 'invalid profile identity')
             require(meta['status'] == 'stub' and meta['canonical_reviewed'] is False and meta['reviewed_at'] is None, 'automatic research promotion')
             require(meta['coverage_release'] == manifest['release_tag'] and meta['source_commit'] == manifest['source_commit'], 'profile publication mismatch')
             kb.sections_from(body, definitions)
             require(set(kb.CITATION.findall(body)) <= {s['id'] for s in meta['sources']}, 'unregistered citation')
             company_ciks.append(cik)
+            identities.append({'cik': cik, 'tickers': meta['tickers']})
             financials += int(meta['financial_history_available'])
             if 'financial_gap_counts' in manifest:
                 reason = meta['financial_gap']['reason']
@@ -418,6 +447,8 @@ def verify(output, definitions=None):
             require(name == f"brain/unmapped/{meta['listing_key']}.md", 'unresolved path mismatch')
             unresolved_keys.append(meta['listing_key'])
     require(sorted(company_ciks) == manifest['company_ciks'] and len(company_ciks) == manifest['company_profiles'], 'profile inventory mismatch')
+    if manifest['version'] == 2:
+        require(manifest['company_paths'] == {cik: f'brain/companies/{slug}/README.md' for cik, slug in symbol_paths(identities).items()}, 'symbol folders differ from issuer inventory')
     require(sorted(unresolved_keys) == manifest['unresolved_listing_keys'] and len(unresolved_keys) == manifest['unresolved_listings'], 'unresolved inventory mismatch')
     require(financials == manifest['financial_profiles'] and manifest['reviewed_generated_profiles'] == 0, 'coverage counts differ')
     if 'financial_gap_counts' in manifest:
@@ -502,7 +533,7 @@ def main():
         result = publish(args.output)
     if args.result_file:
         args.result_file.write_text(json.dumps(result) + '\n')
-    print(json.dumps({k: v for k, v in result.items() if k not in {'company_ciks', 'unresolved_listing_keys'}}, indent=2))
+    print(json.dumps({k: v for k, v in result.items() if k not in {'company_ciks', 'unresolved_listing_keys', 'company_paths'}}, indent=2))
 
 
 if __name__ == '__main__':

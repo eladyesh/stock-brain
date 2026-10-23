@@ -34,7 +34,7 @@ class BrainPublication:
                 self.last_success_at = datetime.now(timezone.utc).isoformat()
                 return
             m = read_json(f'https://raw.githubusercontent.com/{REPO}/{commit}/brain/publication.json', 2_000_000)
-            require(m.get('format') == 'stock-brain-markdown' and m.get('version') == 1, 'invalid Markdown index')
+            require(m.get('format') == 'stock-brain-markdown' and m.get('version') in (1, 2), 'invalid Markdown index')
             require(TAG.fullmatch(m.get('release_tag', '')) and SHA.fullmatch(m.get('source_commit', '')), 'invalid source generation')
             created = datetime.fromisoformat(m['created_at'].replace('Z', '+00:00'))
             require(created.tzinfo is not None and created <= datetime.now(timezone.utc), 'invalid publication date')
@@ -45,6 +45,11 @@ class BrainPublication:
                 require(all(isinstance(x, str) and re.fullmatch(pattern, x) for x in values), 'invalid inventory identity')
                 require(values == sorted(set(values)), 'ambiguous inventory')
             require(0 <= m['financial_profiles'] <= m['company_profiles'] and m['reviewed_generated_profiles'] == 0, 'invalid review boundary')
+            if m['version'] == 2:
+                require(set(m['company_paths']) == set(m['company_ciks'])
+                        and len(set(m['company_paths'].values())) == m['company_profiles']
+                        and all(re.fullmatch(r'brain/companies/[A-Z0-9][A-Z0-9._-]*/README\.md', p) for p in m['company_paths'].values()),
+                        'invalid symbol path inventory')
             self.publication = {**m, 'commit': commit, 'company_ciks': frozenset(m['company_ciks']),
                                 'unresolved_listing_keys': frozenset(m['unresolved_listing_keys'])}
             self.status = 'ready'
@@ -68,7 +73,7 @@ class BrainPublication:
         if not m:
             return {'available': False}
         if cik in m['company_ciks']:
-            path = f'brain/companies/{cik}/README.md'
+            path = m.get('company_paths', {}).get(cik, f'brain/companies/{cik}/README.md')
         elif listing_key in m['unresolved_listing_keys']:
             path = f'brain/unmapped/{listing_key}.md'
         else:

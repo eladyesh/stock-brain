@@ -31,7 +31,7 @@ class SectorFactsTests(unittest.TestCase):
     def test_actual_markdown_contains_financial_cells_in_main_sector_tree(self):
         manifest = self.export()
         row = manifest['companies'][0]
-        self.assertEqual(row['path'], 'sectors/information-technology/facts/0000789019/README.md')
+        self.assertEqual(row['path'], 'sectors/information-technology/facts/MSFT/README.md')
         self.assertEqual(row['classification_method'], 'curated_profile')
         raw = (self.compact / row['path']).read_text()
         meta, body = brain.split_profile(raw)
@@ -71,7 +71,7 @@ class SectorFactsTests(unittest.TestCase):
         facts.install(self.compact, self.target)
         facts.install(self.compact, self.target)
         self.assertEqual(curated.read_text(), 'User-owned research stays intact.')
-        path = self.target / 'sectors/information-technology/facts/0000789019/README.md'
+        path = self.target / 'sectors/information-technology/facts/MSFT/README.md'
         path.write_text(path.read_text() + '\nManual note\n')
         with self.assertRaisesRegex(ValueError, 'preserve manual changes'):
             facts.install(self.compact, self.target)
@@ -88,6 +88,26 @@ class SectorFactsTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'research promotion'):
             facts.verify(self.compact)
 
+    def test_legacy_cik_folders_migrate_by_manifest_without_changing_issuer_identity(self):
+        incoming = self.export()
+        facts.install(self.compact, self.target)
+        legacy = deepcopy(incoming)
+        legacy['version'] = 1
+        for row in legacy['companies']:
+            old = self.target / row['path']
+            row['path'] = f"sectors/{row['sector']}/facts/{row['cik']}/README.md"
+            row.pop('symbol')
+            new = self.target / row['path']
+            new.parent.mkdir(parents=True)
+            old.rename(new)
+        (self.target / facts.MANIFEST).write_text(json.dumps(legacy))
+        self.assertEqual(facts.verify(self.target), legacy)
+        facts.install(self.compact, self.target)
+        self.assertFalse((self.target / legacy['companies'][0]['path']).exists())
+        path = self.target / incoming['companies'][0]['path']
+        self.assertEqual(brain.split_profile(path.read_text())[0]['company_id'], 'company-cik-0000789019')
+        self.assertEqual(facts.verify(self.target), incoming)
+
     def test_indexes_show_actual_facts_separately_from_curated_counts(self):
         self.export()
         for name in ('config', 'templates'):
@@ -97,7 +117,7 @@ class SectorFactsTests(unittest.TestCase):
         index = generated[Path('sectors/information-technology/INDEX.md')]
         self.assertIn('Factual files: **1**', index)
         self.assertIn('Reviewed research: **0**', index)
-        self.assertIn('facts/0000789019/README.md', index)
+        self.assertIn('facts/MSFT/README.md', index)
         self.assertIn('actual company Markdown files', generated[Path('INDEX.md')])
         self.assertIn('Unclassified', generated[Path('sectors/README.md')])
         self.assertEqual(json.loads(generated[Path('data/catalog.json')])['companies'], [])
@@ -132,7 +152,7 @@ class SectorFactsTests(unittest.TestCase):
             self.assertEqual(before, {p: (clone / p).read_bytes() for p in before})
             self.assertEqual(len(kb.documents(clone)), 10)
             self.assertEqual(len(kb.export_records(clone)), len(kb.export_records(ROOT)))
-            path = clone / 'sectors/information-technology/facts/0000789019/README.md'
+            path = clone / 'sectors/information-technology/facts/MSFT/README.md'
             path.write_text(path.read_text() + '\nUser note\n')
             real_run(['git', 'add', '.'], cwd=clone, check=True)
             real_run(['git', '-c', 'user.name=Test', '-c', 'user.email=test@example.test', 'commit', '-qm', 'Manual edit'], cwd=clone, check=True)

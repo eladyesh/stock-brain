@@ -1,11 +1,16 @@
 # Company Markdown at market scale
 
 The main branch contains actual factual Markdown at
-`sectors/{project-sector}/facts/{ten-digit-cik}/README.md`. Start at
+`sectors/{project-sector}/facts/{SYMBOL}/README.md`. Start at
 [`sectors/README.md`](../sectors/README.md). These source-backed files contain the
 latest available annual, quarterly and TTM financial tables, five recent filing
 records, source evidence and explicit research gaps, with all ordered company
 sections. They are not link-only records and are not completed investment research.
+
+The [daily research pipeline](DAILY_RESEARCH.md) extends every company with a
+durable source-collection queue, exact filing excerpts, eligible financial
+calculations and explicit next research questions. Symbols lead folder names,
+titles and indexes; stable CIKs remain in metadata and full-history storage.
 
 The `brain-data` branch holds full-history Markdown files for each distinct
 CIK linked to a current stock candidate in the verified coverage database.
@@ -15,7 +20,7 @@ The generated factual profiles complement the curated company research on
 
 ## Content and identity
 
-- `brain/companies/{ten-digit-cik}/README.md`: stable company ID, current mapped
+- `brain/companies/{SYMBOL}/README.md`: stable company ID, current mapped
   listings, all headings from `config/sections.json`, every retained normalized
   financial period and metric, recent filing metadata, source URLs, original
   acquisition dates, hashes and SEC bulk archive provenance.
@@ -71,7 +76,9 @@ catalog are unchanged by factual synchronization.
 and supports manual dispatch. A separate concurrency group serializes publication.
 
 1. Restore the latest complete coverage release, checking its bounded chunks,
-   hashes and cold-restore contract. Never acquire SEC data again for Markdown.
+   hashes and cold-restore contract. Bulk financial data is reused. A separate
+   bounded research step collects selected primary filing text and checkpoints
+   its queue before publication; unchanged accessions are reused.
 2. Render one issuer at a time into a fresh output directory. Fail if a financial
    history is invalid or identities, source citations, section order or counts
    disagree. Files and the complete export have explicit capacity bounds.

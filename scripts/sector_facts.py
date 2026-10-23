@@ -17,13 +17,14 @@ import tempfile
 import yaml
 import brain_markdown as brain
 import stock_brain as kb
+from company_identity import primary_symbol, symbol_paths
 from coverage_store import require
 
 MANIFEST = 'data/sector-facts.json'
 FORMAT = 'stock-brain-sector-facts'
-MAX_TOTAL = 128 * 1024 * 1024
+MAX_TOTAL = 256 * 1024 * 1024
 MAX_FILE = 96 * 1024
-PATH = re.compile(r'sectors/([a-z-]+)/facts/([0-9]{10})/README\.md\Z')
+PATH = re.compile(r'sectors/([a-z-]+)/facts/([A-Z0-9][A-Z0-9._-]*)/README\.md\Z')
 
 
 def rules(root):
@@ -72,7 +73,7 @@ def recent_periods(content):
     return parts[0] + 'This view retains the latest available annual, quarterly and TTM periods. Full retained history is linked above.\n\n' + '\n'.join(selected[k][1] for k in ('annual', 'quarterly', 'ttm') if k in selected)
 
 
-def render(meta, body, definitions, assignment, publication_commit):
+def render(meta, body, definitions, assignment, publication_commit, full_path):
     sections = kb.sections_from(body, definitions)
     for key in ('financial-performance', 'balance-sheet-and-capital-allocation'):
         sections[key] = recent_periods(sections[key])
@@ -92,14 +93,14 @@ def render(meta, body, definitions, assignment, publication_commit):
     used = set(kb.CITATION.findall('\n'.join(sections.values())))
     sources = [s for s in meta['sources'] if s['id'] in used]
     require(used == {s['id'] for s in sources}, 'compact profile lost source evidence')
-    full_url = f"https://github.com/{brain.REPO}/blob/{publication_commit}/brain/companies/{meta['cik']}/README.md"
+    full_url = f"https://github.com/{brain.REPO}/blob/{publication_commit}/{full_path}"
     sections['sources-and-change-log'] = '\n\n'.join(
         f"[{s['id']}] [{brain.text(s['title'])}]({brain.url(s['url'])}) — published {s['published_at'] or 'not supplied'}; retrieved {s['retrieved_at']}."
         for s in sources) + f"\n\nSource release: `{meta['coverage_release']}`. [Complete financial history and original evidence hashes]({full_url}).\n\nChanges remain in main Git history. This generated factual profile does not promote or replace curated research."
     metadata = {**meta, 'sources': sources, 'sector_assignment': assignment,
                 'full_history_url': full_url, 'full_history_commit': publication_commit,
                 'view': 'latest_available_annual_quarterly_ttm_and_five_filings'}
-    title = f"# {brain.text(meta['company_name'])} — {brain.text(', '.join(meta['tickers']))}\n\n"
+    title = f"# {brain.text(', '.join(meta['tickers']))} — {brain.text(meta['company_name'])}\n\n"
     title += ('> Automatically maintained factual profile. Research status: stub. Missing research is explicit.\n\n'
               '[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · '
               f'[Full financial history]({full_url})\n\n')
@@ -114,25 +115,33 @@ def export(publication, output, commit, *, root=brain.ROOT):
     require(not output.exists(), 'output must be a new directory')
     definitions = kb.config(root)[1]
     records, total = [], 0
+    identities = []
     for cik in source['company_ciks']:
-        meta, body = brain.split_profile((Path(publication) / f'brain/companies/{cik}/README.md').read_text())
+        m, _ = brain.split_profile((Path(publication) / brain.company_path(source, cik)).read_text())
+        identities.append({'cik': cik, 'tickers': m['tickers']})
+    slugs = symbol_paths(identities)
+    for cik in source['company_ciks']:
+        full_path = brain.company_path(source, cik)
+        meta, body = brain.split_profile((Path(publication) / full_path).read_text())
         assignment = classify(meta, root)
-        name = f"sectors/{assignment['sector']}/facts/{cik}/README.md"
-        raw = render(meta, body, definitions, assignment, commit).encode()
+        name = f"sectors/{assignment['sector']}/facts/{slugs[cik]}/README.md"
+        raw = render(meta, body, definitions, assignment, commit, full_path).encode()
         total += len(raw)
         require(0 < len(raw) <= MAX_FILE and total <= MAX_TOTAL, 'sector facts exceed capacity')
         target = output / name
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(raw)
         records.append({'cik': cik, 'company_name': meta['company_name'], 'tickers': meta['tickers'],
-                        'sector': assignment['sector'], 'classification_method': assignment['method'],
+                        'symbol': primary_symbol(meta['tickers']), 'sector': assignment['sector'], 'classification_method': assignment['method'],
+                        'research': meta.get('research_progress', {}),
                         'financial_history_available': meta['financial_history_available'], 'path': name,
                         'sha256': brain.digest(raw), 'size_bytes': len(raw)})
-    manifest = {'format': FORMAT, 'version': 1, 'release_tag': source['release_tag'], 'created_at': source['created_at'],
+    manifest = {'format': FORMAT, 'version': 2, 'release_tag': source['release_tag'], 'created_at': source['created_at'],
                 'brain_commit': commit, 'source_commit': source['source_commit'], 'database_sha256': source['database_sha256'],
                 'company_profiles': len(records), 'financial_profiles': source['financial_profiles'],
                 'unresolved_listings': source['unresolved_listings'], 'bytes': total,
-                'sector_counts': dict(sorted(Counter(r['sector'] for r in records).items())), 'companies': records}
+                'sector_counts': dict(sorted(Counter(r['sector'] for r in records).items())),
+                'research_queue': source.get('research_queue'), 'companies': records}
     (output / 'data').mkdir()
     (output / MANIFEST).write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + '\n')
     verify(output, root=root, current_rules=True)
@@ -148,13 +157,16 @@ def verify(target, *, root=brain.ROOT, allow_absent=False, current_rules=False):
         return None
     require(path.stat().st_size <= 32 * 1024 * 1024, 'sector manifest exceeds bound')
     m = json.loads(path.read_text())
-    require(m['format'] == FORMAT and m['version'] == 1, 'unsupported sector facts')
+    require(m['format'] == FORMAT and m['version'] in (1, 2), 'unsupported sector facts')
     require(brain.SHA.fullmatch(m['brain_commit']) and brain.SHA.fullmatch(m['source_commit']), 'invalid source commits')
     definitions = kb.config(root)[1]
     seen, total, financials = set(), 0, 0
+    slugs = symbol_paths(m['companies']) if m['version'] == 2 else {r['cik']: r['cik'] for r in m['companies']}
     for row in m['companies']:
         match = PATH.fullmatch(row['path'])
-        require(match and match[1] == row['sector'] and match[2] == row['cik'] and row['cik'] not in seen, 'ambiguous sector identity')
+        require(match and match[1] == row['sector'] and match[2] == slugs[row['cik']] and row['cik'] not in seen, 'ambiguous sector identity')
+        if m['version'] == 2:
+            require(row['symbol'] == primary_symbol(row['tickers']), 'symbol differs from issuer aliases')
         seen.add(row['cik'])
         p = target / row['path']
         require(not any(parent.is_symlink() for parent in [p, *p.parents]) and p.is_file(), 'missing or linked sector file')

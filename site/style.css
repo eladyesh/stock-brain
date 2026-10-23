@@ -20,3 +20,12 @@ textarea{font:inherit;display:block;width:100%;resize:vertical;min-height:120px;
 
 
 [hidden]{display:none!important}
+.research-progress{display:flex;flex-wrap:wrap;gap:8px 22px;margin:14px 0;color:var(--muted)}
+.research-topics{display:flex;flex-wrap:wrap;gap:6px;padding:14px 0;margin:12px 0 22px;border-block:1px solid var(--line)}
+.research-topic{border-radius:20px;padding:7px 13px;background:#eef2e9;color:var(--green);font-size:12px}
+.research-topic.active{background:var(--green);color:white}.research-document{overflow-wrap:anywhere;text-align:left;max-width:100%;line-height:1.8}
+.research-document blockquote{margin:14px 0;padding:12px 18px;border-left:3px solid var(--green);background:#f5f8f0}
+.research-document code{font-size:12px;background:#f1f3ed;padding:2px 5px}.research-document h3{margin-top:24px}
+.research-document p{white-space:pre-line}.research-document table{font-size:12px}.research-document td{white-space:normal;min-width:90px}
+.research-results .registry-row h3{font-size:19px;letter-spacing:.4px}.research-detail:empty{display:none}
+@media(max-width:650px){.research-results .registry-row{gap:10px}.research-results .registry-row .primary{font-size:12px}.research-progress{display:block}.research-progress span{display:block;margin-bottom:5px}.research-topic{font-size:11px;padding:6px 10px}}

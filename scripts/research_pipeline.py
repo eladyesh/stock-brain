@@ -70,6 +70,39 @@ def issuer(root: Path, ticker: str) -> dict:
     for company in universe(root):
         if company["ticker"] == ticker.upper():
             return company
+    # The hand-maintained cohort supplies enrichment overrides, not the limit
+    # of the research universe. Broad profiles are resolved by verified issuer.
+    manifest_path = root / 'data/sector-facts.json'
+    if manifest_path.exists():
+        import brain_markdown as brain
+        import sector_facts
+        manifest = read_json(manifest_path)
+        found = [r for r in manifest['companies'] if ticker.upper() in r['tickers']]
+        kb.need(len(found) <= 1, 'Ambiguous ticker; resolve issuer identity before research')
+        if found:
+            row = found[0]
+            match = sector_facts.PATH.fullmatch(row['path'])
+            kb.need(match is not None, 'invalid research profile path')
+            path = root / row['path']
+            raw = path.read_bytes()
+            kb.need(digest(raw) == row['sha256'], 'factual profile changed; verify before research')
+            meta, _ = brain.split_profile(raw.decode())
+            kb.need(meta['cik'] == row['cik'] and meta['tickers'] == row['tickers'], 'research issuer differs')
+            listings = [r for r in meta.get('listings', []) if r['ticker'] == ticker.upper()]
+            kb.need(len(listings) == 1 and listings[0]['exchange'] in kb.EXCHANGES,
+                    'A unique supported listing is required before curated research')
+            kb.need(listings[0]['instrument_type'] in {'common_stock', 'depositary_receipt'}
+                    and meta.get('financial_gap', {}).get('reason') != 'fund_reporting_review',
+                    'Resolve instrument classification before using the curated operating-company schema')
+            kb.need(row['sector'] in {s['id'] for s in kb.config(root)[0]},
+                    'Resolve the provisional sector before creating a curated profile; daily evidence collection remains available')
+            kb.need(bool(kb.TICKER.fullmatch(ticker.upper())), 'Security suffix requires a canonical ticker review')
+            return {'ticker': ticker.upper(), 'cik': row['cik'], 'company_name': row['company_name'],
+                    'sector': row['sector'], 'exchange': listings[0]['exchange'],
+                    'security_type': 'adr' if listings[0]['instrument_type'] == 'depositary_receipt' else 'common_stock',
+                    'industry': (meta.get('issuer_classification') or {}).get('sic_description'),
+                    'domicile_country': None, 'tags': [], 'group': 'broad-market',
+                    'classification_method': row['classification_method']}
     raise kb.Invalid(f"{ticker}: not in config/universe.json")
 
 

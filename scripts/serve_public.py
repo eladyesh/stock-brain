@@ -15,6 +15,7 @@ import runtime_data as data
 from coverage_api import serve_coverage
 from coverage_runtime import initialize_coverage
 from brain_publication import BrainPublication
+from research_api import ResearchLibrary
 from market_api import serve_market
 from market_directory import directory_status
 
@@ -22,6 +23,7 @@ LOG = logging.getLogger('stock-brain')
 ASSETS = {'/': ('index.html', 'text/html'), '/app.mjs': ('app.mjs', 'text/javascript'),
           '/models.mjs': ('models.mjs', 'text/javascript'), '/workbench.mjs': ('workbench.mjs', 'text/javascript'),
           '/engine.mjs': ('engine.mjs', 'text/javascript'), '/style.css': ('style.css', 'text/css'),
+          '/research.mjs': ('research.mjs', 'text/javascript'),
           '/favicon.svg': ('favicon.svg', 'image/svg+xml')}
 
 
@@ -37,6 +39,7 @@ class Application:
         self.coverage_lock = threading.RLock()
         self.coverage_mirror = None
         self.brain = BrainPublication()
+        self.research = ResearchLibrary(self.root)
         self._load()
 
     def answer(self, environ):
@@ -126,6 +129,9 @@ class Application:
             elif path in ASSETS:
                 filename, mime = ASSETS[path]
                 raw = (self.root / 'site' / filename).read_bytes()
+            elif path == '/api/research' or path.startswith('/api/research/'):
+                status, payload = self.research.serve(path, environ.get('QUERY_STRING', ''))
+                raw = data.encode(payload)
             elif path in {'/api/coverage', '/api/companies'} or path.startswith('/api/companies/'):
                 with self.coverage_lock:
                     status, payload = serve_coverage(self.coverage, path, environ.get('QUERY_STRING', ''))

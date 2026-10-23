@@ -1,13 +1,16 @@
 import {ask,scenario} from './engine.mjs';
 import {projectCompanyModel,requiredRevenueCagr} from './models.mjs';
 import {personalStore,changesSinceVisit,groupQueue} from './workbench.mjs';
+import {researchView} from './research.mjs';
 
 const $=id=>document.getElementById(id);
-const NAV=[['overview','◫','תמונת המחקר'],['financials','▥','היסטוריה פיננסית'],['compare','⇄','השוואת חברות'],['scenarios','↗','תרחישי שווי'],['updates','◷','דיווחים ומעקב'],['coverage','⌕','מרשם החברות']];
+const NAV=[['research','⌕','מחקר לכל החברות'],['overview','◫','תמונת המחקר'],['financials','▥','היסטוריה פיננסית'],['compare','⇄','השוואת חברות'],['scenarios','↗','תרחישי שווי'],['updates','◷','דיווחים ומעקב'],['coverage','⌕','מרשם החברות']];
 const SECTIONS={'business-overview':'איך העסק עובד','revenue-model-and-segments':'מגזרים ומקורות הכנסה','products-and-services':'מוצרים ושירותים','customers-and-end-markets':'לקוחות ושווקים','industry-and-value-chain':'הענף ושרשרת הערך','competitive-landscape':'התחרות','moat-and-differentiation':'חפיר ובידול','growth-drivers':'מנועי צמיחה','financial-performance':'ביצועים פיננסיים','balance-sheet-and-capital-allocation':'מאזן והקצאת הון','management-and-governance':'הנהלה וממשל תאגידי','valuation-context':'הערכת שווי','catalysts':'זרזים ואבני דרך','risks-and-thesis-breakers':'סיכונים ושבירת התזה','scenarios-and-open-questions':'תרחישים ושאלות פתוחות','relationships-and-themes':'קשרים בין חברות','recent-developments':'התפתחויות אחרונות','sources-and-change-log':'מקורות והיסטוריית שינוי'};
 const METRICS={revenue:'הכנסות',gross_profit:'רווח גולמי',cost_of_revenue:'עלות הכנסות',operating_income:'רווח תפעולי',net_income:'רווח נקי מיוחס לחברה אם',net_income_common:'רווח מיוחס למניות רגילות',net_income_including_noncontrolling_interests:'רווח כולל זכויות שאינן מקנות שליטה',eps_diluted:'רווח מדולל למניה',eps_basic:'רווח בסיסי למניה',operating_cash_flow:'תזרים מפעילות שוטפת',capex:'רכישת רכוש קבוע',free_cash_flow:'תזרים חופשי מחושב',purchases_of_productive_assets:'רכישת נכסים יצרניים, הגדרה רחבה',stock_based_compensation:'תגמול מבוסס מניות',cash_and_equivalents:'מזומנים ושווי מזומנים',short_term_investments:'השקעות קצרות טווח',debt_current:'חוב שוטף',debt_noncurrent:'חוב שאינו שוטף',long_term_debt_total:'סך חוב ארוך טווח',short_term_borrowings:'הלוואות קצרות טווח',debt_total:'חוב כולל מחושב',shares_basic:'ממוצע מניות, בסיסי',shares_diluted:'ממוצע מניות, מדולל',shares_outstanding:'מניות קיימות למועד המאזן'};
 const KIND={reported:'נתון מדווח',derived:'חישוב',reported_fact:'נתון מדווח',management_guidance:'תחזית הנהלה',interpretation:'פרשנות',research_question:'שאלה למחקר'};
-const state={tab:'overview',ticker:'MSFT',period:'annual',metric:'revenue',section:'business-overview',compare:new Set(['MSFT','NVDA']),comparePeriod:'ttm',queueTicker:'all',priority:'all',queueStatus:'pending'};
+const state={tab:'research',ticker:'MSFT',period:'annual',metric:'revenue',section:'business-overview',compare:new Set(['MSFT','NVDA']),comparePeriod:'ttm',queueTicker:'all',priority:'all',queueStatus:'pending'};
+const initialTab=globalThis.location?.hash.slice(1).split('/')[0];
+if(NAV.some(([id])=>id===initialTab))state.tab=initialTab;
 const personal=personalStore();
 let visitRecorded=false;
 let data=null,loadToken=0,answerToken=0,catalogToken=0;
@@ -318,10 +321,10 @@ function updates(){
       h('p',{class:'caption'},filtered.length+' אירועים במסנן. דיווחים קשורים מקובצים לתצוגה לפי מטא־נתונים; כל מסמך שומר על מצב הסקירה שלו.'),
       filtered.length?h('div',{},...filtered.map(g=>h('article',{class:'queue-item'},h('span',{class:'priority '+g.priority},g.priority),h('div',{},h('h3',{},g.title),h('div',{class:'caption'},g.ticker+' · '+date(g.published_at)+' · '+g.entries.length+' מסמכים · '+g.pending+' ממתינים לסקירה'),...g.entries.map(e=>h('p',{class:'queue-document'},link(e.title||'מקור',e.url),' · ',e.queue_status==='pending_review'?'ממתין לסקירה':e.classification==='already_in_reviewed_evidence'?'מקושר למחקר שנבדק':'החלטת סקירה מתועדת')))))):note('אין דיווחים במסנן הנוכחי.')))];
 }
-function navigate(tab){state.tab=tab;renderNavigation();renderContent();}
+function navigate(tab){state.tab=tab;if(globalThis.history?.replaceState)history.replaceState(null,'',tab==='research'?'#research':'#'+tab);renderNavigation();renderContent();}
 function renderNavigation(){
   $('page-title').textContent=NAV.find(n=>n[0]===state.tab)[2];
-  const broad=state.tab==='coverage';
+  const broad=state.tab==='coverage'||state.tab==='research';
   for(const id of ['reviewed-search','reviewed-companies-heading','companies'])$(id).hidden=broad;
   $('coverage-count').textContent=broad?'חיפוש במרשם המניות':data.companies.length+' חברות במחקר המעמיק';
   $('navigation').replaceChildren(...NAV.map(([id,icon,label])=>h('button',{type:'button',class:'nav-button '+(state.tab===id?'active':''),'aria-current':state.tab===id?'page':null,onClick:()=>navigate(id)},h('span',{class:'nav-icon','aria-hidden':'true'},icon),label)));
@@ -332,8 +335,11 @@ function renderCompanies(){
 }
 function renderContent(){
   const c=company();
-  const pages={overview:()=>overview(c),financials:()=>financials(c),compare,scenarios:()=>scenarios(c),updates,coverage:coverageCatalog};
-  const warning=state.tab!=='coverage'&&data.refresh_status?.status==='partial'?note('עדכון הנתונים האחרון היה חלקי. שגיאות המקור מוצגות במעקב; נתונים קודמים נשמרו עם תאריכיהם.','amber'):null;
+  const pages={overview:()=>overview(c),financials:()=>financials(c),compare,scenarios:()=>scenarios(c),updates,coverage:coverageCatalog,
+    research:()=>researchView({h,card,button,note,link,date,option,sections:SECTIONS,
+      onCount:text=>{if(state.tab==='research')$('coverage-count').textContent=text;},
+      onSelect:id=>{if(globalThis.history?.replaceState)history.replaceState(null,'','#research/'+encodeURIComponent(id));}},decodeURIComponent(globalThis.location?.hash.split('/')[1]||''))};
+  const warning=!['coverage','research'].includes(state.tab)&&data.refresh_status?.status==='partial'?note('עדכון הנתונים האחרון היה חלקי. שגיאות המקור מוצגות במעקב; נתונים קודמים נשמרו עם תאריכיהם.','amber'):null;
   $('content').replaceChildren(...(warning?[warning]:[]),...pages[state.tab]());
 }
 async function runQuestion(question){

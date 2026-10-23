@@ -92,12 +92,12 @@ test('All UI views, question submission and scenario calculation render with rea
       assert(document.getElementById('content').textContent.trim().length>100);
       assert.equal(document.querySelectorAll('.nav-button[aria-current="page"]').length,1);
     }
-    nav[1].click();
+    nav.find(button=>button.textContent.includes('היסטוריה פיננסית')).click();
     assert(document.querySelectorAll('table tbody tr').length>=20);
     assert.equal(document.querySelectorAll('thead th').length,6);
     const quarter=Array.from(document.querySelectorAll('.segmented button')).find(b=>b.textContent==='רבעוני');
     quarter.click();assert.equal(document.querySelectorAll('thead th').length,13);
-    nav[3].click();
+    nav.find(button=>button.textContent.includes('תרחישי שווי')).click();
     document.getElementById('scenario-eps').value='10';
     document.getElementById('scenario-price').value='200';
     document.getElementById('scenario-form').dispatchEvent(new window.Event('submit',{cancelable:true}));
