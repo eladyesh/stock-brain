@@ -205,7 +205,9 @@ def profile(store, cik, rows, definitions, release, curated=None):
                     usable = (cell.get('model_usable') is True and not cell.get('conflicts')
                               and not ttm.BLOCKING_FLAGS.intersection(flags) and not period.get('flags'))
                     value = format(cell['value'], ',.12g') if usable and cell.get('value') is not None else 'Unavailable / blocked'
-                    definition = cell.get('definition_tag') or cell.get('normalization') or ''
+                    definition = cell.get('definition_tag') or ''
+                    if cell.get('normalization'):
+                        definition += ('; ' if definition else '') + cell['normalization']
                     if flags:
                         definition += '; ' + ', '.join(flags)
                     status = f"{cell.get('basis', 'US GAAP')} / {cell['status']}" + ('' if usable else ' / not model usable')
