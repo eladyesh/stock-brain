@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -54,7 +54,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0002048948.json
     sha256: a3ba35bfe65effe0f440e0c36e764f8b11aee49f046fc0bc66e979489bca9f08
     retrieved_at: '2026-10-22T18:29:38.676432+00:00'
-    archive:
+    archive: &id001
       member: CIK0002048948.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -408,6 +408,15 @@ sources:
   published_at: '2025-11-12'
   retrieved_at: '2026-10-22T18:29:38.676432+00:00'
   sha256: null
+issuer_classification:
+  cik: 0002048948
+  name: New Providence Acquisition Corp. III/Cayman
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T18:29:38.676432+00:00'
+  sha256: a3ba35bfe65effe0f440e0c36e764f8b11aee49f046fc0bc66e979489bca9f08
+  url: https://data.sec.gov/submissions/CIK0002048948.json
 ---
 # New Providence Acquisition Corp. III/Cayman — CIK 0002048948
 

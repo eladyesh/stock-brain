@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -48,7 +48,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001846715.json
     sha256: 07e8cd6f4d0d359356cd1b11a3ea7537111db5fe0878f412a50fc7208b226459
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0001846715.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -366,6 +366,15 @@ sources:
   published_at: '2025-07-24'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001846715
+  name: Eco Wave Power Global AB (publ)
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: 07e8cd6f4d0d359356cd1b11a3ea7537111db5fe0878f412a50fc7208b226459
+  url: https://data.sec.gov/submissions/CIK0001846715.json
 ---
 # Eco Wave Power Global AB (publ) — CIK 0001846715
 

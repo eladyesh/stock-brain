@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -57,7 +57,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0002067627.json
     sha256: b875149a7095fd1d4ebc37c113fa2be73482bfbff41d82c07d68b042b2c14f47
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0002067627.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -405,6 +405,15 @@ sources:
   published_at: '2025-10-14'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: '0002067627'
+  name: Terra Innovatum Global N.V.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: b875149a7095fd1d4ebc37c113fa2be73482bfbff41d82c07d68b042b2c14f47
+  url: https://data.sec.gov/submissions/CIK0002067627.json
 ---
 # Terra Innovatum Global N.V. — CIK 0002067627
 

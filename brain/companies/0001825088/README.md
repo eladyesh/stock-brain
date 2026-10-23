@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -61,7 +61,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001825088.json
     sha256: 1a1d45ce866bc4e5ba6eee85909e1e1997d6902a9243800542d44e78e4b5e7a8
     retrieved_at: '2026-10-22T18:09:58.292551+00:00'
-    archive:
+    archive: &id001
       member: CIK0001825088.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -379,6 +379,15 @@ sources:
   published_at: '2026-04-02'
   retrieved_at: '2026-10-22T18:09:58.292551+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001825088
+  name: Dream Finders Homes, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  sha256: 1a1d45ce866bc4e5ba6eee85909e1e1997d6902a9243800542d44e78e4b5e7a8
+  url: https://data.sec.gov/submissions/CIK0001825088.json
 ---
 # Dream Finders Homes, Inc. — CIK 0001825088
 

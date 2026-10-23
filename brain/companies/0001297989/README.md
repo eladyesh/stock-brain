@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -45,7 +45,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001297989.json
     sha256: c21cafc846256dd44a60d66e02b75ccfb43e62587568e1dc3b1ff0ca65b51a1d
     retrieved_at: '2026-10-22T18:09:58.292551+00:00'
-    archive:
+    archive: &id001
       member: CIK0001297989.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -363,6 +363,15 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-22T18:09:58.292551+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001297989
+  name: ExlService Holdings, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  sha256: c21cafc846256dd44a60d66e02b75ccfb43e62587568e1dc3b1ff0ca65b51a1d
+  url: https://data.sec.gov/submissions/CIK0001297989.json
 ---
 # ExlService Holdings, Inc. — CIK 0001297989
 

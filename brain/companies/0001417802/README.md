@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -64,7 +64,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001417802.json
     sha256: acac916e4a236d2a6be5681115ce97f56d1cf43ab5359c92d20bbe392b49e198
     retrieved_at: '2026-10-22T17:52:50.185860+00:00'
-    archive:
+    archive: &id001
       member: CIK0001417802.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -382,6 +382,15 @@ sources:
   published_at: '2023-05-12'
   retrieved_at: '2026-10-22T17:52:50.185860+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001417802
+  name: Voya Infrastructure, Industrials & Materials Fund
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  sha256: acac916e4a236d2a6be5681115ce97f56d1cf43ab5359c92d20bbe392b49e198
+  url: https://data.sec.gov/submissions/CIK0001417802.json
 ---
 # Voya Infrastructure, Industrials & Materials Fund — CIK 0001417802
 

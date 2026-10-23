@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -57,7 +57,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0000074208.json
     sha256: c37e9875f3bb59712a1bbdce7e2c40b990352dcbb72e73ce889f1dec65a05558
     retrieved_at: '2026-10-22T18:09:58.292551+00:00'
-    archive:
+    archive: &id001
       member: CIK0000074208.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -375,6 +375,15 @@ sources:
   published_at: '2026-01-06'
   retrieved_at: '2026-10-22T18:09:58.292551+00:00'
   sha256: null
+issuer_classification:
+  cik: 0000074208
+  name: UDR, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  sha256: c37e9875f3bb59712a1bbdce7e2c40b990352dcbb72e73ce889f1dec65a05558
+  url: https://data.sec.gov/submissions/CIK0000074208.json
 ---
 # UDR, Inc. — CIK 0000074208
 

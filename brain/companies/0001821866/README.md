@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -39,7 +39,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001821866.json
     sha256: cb42ef34e64f1f2a4ded7a2f271bd5b8ed4b58d12b7c7d2b79597e5f981c2303
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0001821866.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -357,6 +357,15 @@ sources:
   published_at: '2025-12-02'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001821866
+  name: BTQ Technologies Corp.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: cb42ef34e64f1f2a4ded7a2f271bd5b8ed4b58d12b7c7d2b79597e5f981c2303
+  url: https://data.sec.gov/submissions/CIK0001821866.json
 ---
 # BTQ Technologies Corp. — CIK 0001821866
 

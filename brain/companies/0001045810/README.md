@@ -12,12 +12,13 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/82640201fff7998cb5c6c4b8310ed2d7700da77d/sectors/information-technology/companies/NVDA/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae/sectors/information-technology/companies/NVDA/README.md
   status: reviewed
   as_of: '2026-10-18'
+  sector: information-technology
 financial_gap:
   reason: available
   next_action: Retain dated financial evidence and review blocked metrics before analytical
@@ -68,7 +69,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001045810.json
     sha256: 682c49d59116ae49b317eb4adddf3ef9142dfd97f59c5d8e5a5acad7f9058ab4
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0001045810.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -470,6 +471,15 @@ sources:
   published_at: '2026-06-18'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001045810
+  name: NVIDIA CORP
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: 682c49d59116ae49b317eb4adddf3ef9142dfd97f59c5d8e5a5acad7f9058ab4
+  url: https://data.sec.gov/submissions/CIK0001045810.json
 ---
 # NVIDIA CORP — CIK 0001045810
 
@@ -1136,7 +1146,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:38:47.851880+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/82640201fff7998cb5c6c4b8310ed2d7700da77d/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 

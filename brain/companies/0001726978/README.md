@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -58,7 +58,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001726978.json
     sha256: 49f37038f2fdcdf8437092eb3cc8006c9cc73a5e30637010ed4e19c7fbee9032
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0001726978.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -460,6 +460,15 @@ sources:
   published_at: '2026-05-07'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001726978
+  name: Goosehead Insurance, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: 49f37038f2fdcdf8437092eb3cc8006c9cc73a5e30637010ed4e19c7fbee9032
+  url: https://data.sec.gov/submissions/CIK0001726978.json
 ---
 # Goosehead Insurance, Inc. — CIK 0001726978
 

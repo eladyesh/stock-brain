@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -57,7 +57,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0000105132.json
     sha256: 1c1242234b06d5d39e08106c398e32732dd97d5025a2d0d2ad6080a04351da6b
     retrieved_at: '2026-10-22T17:52:50.185860+00:00'
-    archive:
+    archive: &id001
       member: CIK0000105132.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -459,6 +459,15 @@ sources:
   published_at: '2025-10-28'
   retrieved_at: '2026-10-22T17:52:50.185860+00:00'
   sha256: null
+issuer_classification:
+  cik: '0000105132'
+  name: WD 40 CO
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  sha256: 1c1242234b06d5d39e08106c398e32732dd97d5025a2d0d2ad6080a04351da6b
+  url: https://data.sec.gov/submissions/CIK0000105132.json
 ---
 # WD 40 CO — CIK 0000105132
 

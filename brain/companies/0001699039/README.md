@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -66,7 +66,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001699039.json
     sha256: b454765bc55dfb475c6efebd97a87794c9ffb3c171a53e49ca0798b0b6f2a1ad
     retrieved_at: '2026-10-22T18:09:58.292551+00:00'
-    archive:
+    archive: &id001
       member: CIK0001699039.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -384,6 +384,15 @@ sources:
   published_at: '2026-01-20'
   retrieved_at: '2026-10-22T18:09:58.292551+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001699039
+  name: Ranger Energy Services, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  sha256: b454765bc55dfb475c6efebd97a87794c9ffb3c171a53e49ca0798b0b6f2a1ad
+  url: https://data.sec.gov/submissions/CIK0001699039.json
 ---
 # Ranger Energy Services, Inc. — CIK 0001699039
 

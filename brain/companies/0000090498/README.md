@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -63,7 +63,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0000090498.json
     sha256: 2fa8533da2d4c791297d08784c1f5ddc74221fe15cd375e1acb624ef8f35529a
     retrieved_at: '2026-10-22T17:52:50.185860+00:00'
-    archive:
+    archive: &id001
       member: CIK0000090498.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -471,6 +471,15 @@ sources:
   published_at: '2026-05-06'
   retrieved_at: '2026-10-22T17:52:50.185860+00:00'
   sha256: null
+issuer_classification:
+  cik: 0000090498
+  name: SIMMONS FIRST NATIONAL CORP
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  sha256: 2fa8533da2d4c791297d08784c1f5ddc74221fe15cd375e1acb624ef8f35529a
+  url: https://data.sec.gov/submissions/CIK0000090498.json
 ---
 # SIMMONS FIRST NATIONAL CORP — CIK 0000090498
 

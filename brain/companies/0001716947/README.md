@@ -12,7 +12,7 @@ as_of: '2026-10-22'
 updated_at: '2026-10-22T18:45:53.881812+00:00'
 reviewed_at: null
 coverage_release: coverage-20261022-39831584719-1
-source_commit: 82640201fff7998cb5c6c4b8310ed2d7700da77d
+source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -82,7 +82,7 @@ input_sources:
     url: https://data.sec.gov/submissions/CIK0001716947.json
     sha256: fdd918d21426d7cb4d422d16846d039f7b5f95ebb4fa6cee0aeb774a05e86188
     retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-    archive:
+    archive: &id001
       member: CIK0001716947.json
       sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
@@ -490,6 +490,15 @@ sources:
   published_at: '2025-05-12'
   retrieved_at: '2026-10-22T17:39:35.977490+00:00'
   sha256: null
+issuer_classification:
+  cik: 0001716947
+  name: Ensysce Biosciences, Inc.
+classification_source:
+  acquisition: operator_supplied_sec_bulk_archive
+  archive: *id001
+  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  sha256: fdd918d21426d7cb4d422d16846d039f7b5f95ebb4fa6cee0aeb774a05e86188
+  url: https://data.sec.gov/submissions/CIK0001716947.json
 ---
 # Ensysce Biosciences, Inc. — CIK 0001716947
 
