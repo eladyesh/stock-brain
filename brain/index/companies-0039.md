@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001769484 | [Bioceres Crop Solutions Corp.](../companies/0001769484/README.md) | BIOX | not available |
-| 0001769628 | [CoreWeave, Inc.](../companies/0001769628/README.md) | CRWV | available, quality gates apply |
-| 0001769663 | [Pioneer Bancorp, Inc./MD](../companies/0001769663/README.md) | PBFS | available, quality gates apply |
-| 0001769697 | [Frontier Nuclear & Minerals Inc.](../companies/0001769697/README.md) | FNUC | not available |
-| 0001769731 | [AMTD IDEA GROUP](../companies/0001769731/README.md) | AMTD | not available |
-| 0001769768 | [E-Home Household Service Holdings Ltd](../companies/0001769768/README.md) | EJH | not available |
-| 0001770069 | [MapLight Therapeutics, Inc.](../companies/0001770069/README.md) | MPLT | available, quality gates apply |
-| 0001770088 | [WiMi Hologram Cloud Inc.](../companies/0001770088/README.md) | WIMI | not available |
-| 0001770121 | [Sana Biotechnology, Inc.](../companies/0001770121/README.md) | SANA | available, quality gates apply |
-| 0001770236 | [MOVING iMAGE TECHNOLOGIES INC.](../companies/0001770236/README.md) | MITQ | available, quality gates apply |
-| 0001770450 | [Xerox Holdings Corp](../companies/0001770450/README.md) | XRX | available, quality gates apply |
-| 0001770501 | [Venu Holding Corp](../companies/0001770501/README.md) | VENU | available, quality gates apply |
-| 0001770787 | [10x Genomics, Inc.](../companies/0001770787/README.md) | TXG | available, quality gates apply |
-| 0001771007 | [Afya Ltd](../companies/0001771007/README.md) | AFYA | not available |
-| 0001771226 | [RiverNorth Managed Duration Municipal Income Fund, Inc.](../companies/0001771226/README.md) | RMM | not available |
-| 0001771515 | [Grocery Outlet Holding Corp.](../companies/0001771515/README.md) | GO | available, quality gates apply |
-| 0001771885 | [Quantum Biopharma Ltd.](../companies/0001771885/README.md) | QNTM | not available |
-| 0001771910 | [ADC Therapeutics SA](../companies/0001771910/README.md) | ADCT | available, quality gates apply |
-| 0001772016 | [BELLRING BRANDS, INC.](../companies/0001772016/README.md) | BRBR | available, quality gates apply |
-| 0001772177 | [KURA SUSHI USA, INC.](../companies/0001772177/README.md) | KRUS | available, quality gates apply |
-| 0001772253 | [Flex LNG Ltd.](../companies/0001772253/README.md) | FLNG | not available |
-| 0001772720 | [SPRUCE POWER HOLDING CORP](../companies/0001772720/README.md) | SPRU | available, quality gates apply |
-| 0001772921 | [OneWater Marine Inc.](../companies/0001772921/README.md) | ONEW | available, quality gates apply |
-| 0001773383 | [Dynatrace, Inc.](../companies/0001773383/README.md) | DT | available, quality gates apply |
-| 0001773751 | [Hims & Hers Health, Inc.](../companies/0001773751/README.md) | HIMS | available, quality gates apply |
-| 0001774170 | [Powerfleet, Inc.](../companies/0001774170/README.md) | AIOT | available, quality gates apply |
-| 0001774342 | [Nuveen Municipal Credit Opportunities Fund](../companies/0001774342/README.md) | NMCO | not available |
-| 0001774675 | [Skillsoft Corp.](../companies/0001774675/README.md) | SKIL | available, quality gates apply |
-| 0001774857 | [Aardvark Therapeutics, Inc.](../companies/0001774857/README.md) | AARD | available, quality gates apply |
-| 0001775194 | [UPEXI, INC.](../companies/0001775194/README.md) | UPXI | available, quality gates apply |
-| 0001775734 | [Beneficient](../companies/0001775734/README.md) | BENF | available, quality gates apply |
-| 0001775898 | [uCloudlink Group Inc.](../companies/0001775898/README.md) | UCL | not available |
-| 0001776067 | [Oriental Culture Holding LTD](../companies/0001776067/README.md) | OCG | not available |
-| 0001776111 | [MBX Biosciences, Inc.](../companies/0001776111/README.md) | MBX | available, quality gates apply |
-| 0001776661 | [Advantage Solutions Inc.](../companies/0001776661/README.md) | ADV | available, quality gates apply |
-| 0001776909 | [CuriosityStream Inc.](../companies/0001776909/README.md) | CURI | available, quality gates apply |
-| 0001776985 | [BioNTech SE](../companies/0001776985/README.md) | BNTX | not available |
-| 0001777319 | [CISO Global, Inc.](../companies/0001777319/README.md) | CISO | available, quality gates apply |
-| 0001777393 | [ChargePoint Holdings, Inc.](../companies/0001777393/README.md) | CHPT | available, quality gates apply |
-| 0001777835 | [Perella Weinberg Partners](../companies/0001777835/README.md) | PWP | available, quality gates apply |
-| 0001777921 | [AvePoint, Inc.](../companies/0001777921/README.md) | AVPT | available, quality gates apply |
-| 0001778016 | [NovaBridge Biosciences](../companies/0001778016/README.md) | NBP | not available |
-| 0001778114 | [Virtus Artificial Intelligence & Technology Opportunities Fund](../companies/0001778114/README.md) | AIO | not available |
-| 0001778922 | [SpyGlass Pharma, Inc.](../companies/0001778922/README.md) | SGP | available, quality gates apply |
-| 0001778982 | [Huize Holding Ltd](../companies/0001778982/README.md) | HUIZ | not available |
-| 0001779128 | [Strata Critical Medical, Inc.](../companies/0001779128/README.md) | SRTA | available, quality gates apply |
-| 0001779372 | [HeartBeam, Inc.](../companies/0001779372/README.md) | BEAT | available, quality gates apply |
-| 0001779476 | [36Kr Holdings Inc.](../companies/0001779476/README.md) | KRKR | not available |
-| 0001779578 | [BGM Group Ltd.](../companies/0001779578/README.md) | BGM | not available |
-| 0001780201 | [Lulu's Fashion Lounge Holdings, Inc.](../companies/0001780201/README.md) | LVLU | available, quality gates apply |
-| 0001780312 | [AST SpaceMobile, Inc.](../companies/0001780312/README.md) | ASTS | available, quality gates apply |
-| 0001780652 | [Canaan Inc.](../companies/0001780652/README.md) | CAN | not available |
-| 0001780731 | [E-Power Inc.](../companies/0001780731/README.md) | EPOW | not available |
-| 0001780785 | [CN ENERGY GROUP. INC.](../companies/0001780785/README.md) | CNEY | not available |
-| 0001781162 | [Momentus Inc.](../companies/0001781162/README.md) | MNTS | available, quality gates apply |
-| 0001781174 | [Acrivon Therapeutics, Inc.](../companies/0001781174/README.md) | ACRV | available, quality gates apply |
-| 0001781193 | [QUHUO Ltd](../companies/0001781193/README.md) | QH | not available |
-| 0001781335 | [Otis Worldwide Corp](../companies/0001781335/README.md) | OTIS | available, quality gates apply |
-| 0001781397 | [EpicQuest Education Group International Ltd](../companies/0001781397/README.md) | EEIQ | not available |
-| 0001781446 | [Gauzy Ltd.](../companies/0001781446/README.md) | GAUZ | not available |
-| 0001781730 | [Third Coast Bancshares, Inc.](../companies/0001781730/README.md) | TCBX | available, quality gates apply |
-| 0001781753 | [Youdao, Inc.](../companies/0001781753/README.md) | DAO | not available |
-| 0001781755 | [Baldwin Insurance Group, Inc.](../companies/0001781755/README.md) | BWIN | available, quality gates apply |
-| 0001781983 | [Aprea Therapeutics, Inc.](../companies/0001781983/README.md) | APRE | available, quality gates apply |
-| 0001782107 | [Onconetix, Inc.](../companies/0001782107/README.md) | ONCO | available, quality gates apply |
-| 0001782170 | [Remitly Global, Inc.](../companies/0001782170/README.md) | RELY | available, quality gates apply |
-| 0001782223 | [Pyxis Oncology, Inc.](../companies/0001782223/README.md) | PYXS | available, quality gates apply |
-| 0001782265 | [Gix Internet Ltd.](../companies/0001782265/README.md) | GIXI | not available |
-| 0001782303 | [Boundless Bio, Inc.](../companies/0001782303/README.md) | BOLD | available, quality gates apply |
-| 0001782309 | [Skillful Craftsman Education Technology Ltd](../companies/0001782309/README.md) | EDTK | not available |
-| 0001782430 | [Strawberry Fields REIT, Inc.](../companies/0001782430/README.md) | STRW | available, quality gates apply |
-| 0001782524 | [Morgan Stanley Direct Lending Fund](../companies/0001782524/README.md) | MSDL | available, quality gates apply |
-| 0001783036 | [NewcelX Ltd.](../companies/0001783036/README.md) | NCEL | not available |
-| 0001783180 | [CARRIER GLOBAL Corp](../companies/0001783180/README.md) | CARR | not available |
-| 0001783183 | [Phathom Pharmaceuticals, Inc.](../companies/0001783183/README.md) | PHAT | available, quality gates apply |
-| 0001783328 | [TScan Therapeutics, Inc.](../companies/0001783328/README.md) | TCRX | available, quality gates apply |
-| 0001783398 | [UWM Holdings Corp](../companies/0001783398/README.md) | UWMC | available, quality gates apply |
-| 0001783407 | [Sound Group Inc.](../companies/0001783407/README.md) | SOGP | not available |
-| 0001783879 | [Robinhood Markets, Inc.](../companies/0001783879/README.md) | HOOD | available, quality gates apply |
-| 0001784254 | [Mediaco Holding Inc.](../companies/0001784254/README.md) | MDIA | available, quality gates apply |
-| 0001784535 | [Porch Group, Inc.](../companies/0001784535/README.md) | PRCH | available, quality gates apply |
-| 0001784570 | [BETA Technologies, Inc.](../companies/0001784570/README.md) | BETA | available, quality gates apply |
-| 0001784930 | [Mako Mining Corp.](../companies/0001784930/README.md) | MAKO | not available |
-| 0001784970 | [Next Technology Holding Inc.](../companies/0001784970/README.md) | NXTT | available, quality gates apply |
-| 0001785056 | [Interactive Strength, Inc.](../companies/0001785056/README.md) | TRNR | available, quality gates apply |
-| 0001785279 | [Metagenomi Therapeutics, Inc.](../companies/0001785279/README.md) | MGX | available, quality gates apply |
-| 0001785424 | [Katapult Holdings, Inc.](../companies/0001785424/README.md) | KPLT | available, quality gates apply |
-| 0001785530 | [Werewolf Therapeutics, Inc.](../companies/0001785530/README.md) | HOWL | available, quality gates apply |
-| 0001785566 | [Zhongchao Inc.](../companies/0001785566/README.md) | ZCMD | not available |
-| 0001785680 | [BitVentures Ltd](../companies/0001785680/README.md) | BVC | not available |
-| 0001785971 | [BlackRock Health Sciences Term Trust](../companies/0001785971/README.md) | BMEZ | not available |
-| 0001786108 | [Trinity Capital Inc.](../companies/0001786108/README.md) | TRIN | not available |
-| 0001786117 | [Alpine Income Property Trust, Inc.](../companies/0001786117/README.md) | PINE | available, quality gates apply |
-| 0001786248 | [NexPoint Real Estate Finance, Inc.](../companies/0001786248/README.md) | NREF | not available |
-| 0001786286 | [Draganfly Inc.](../companies/0001786286/README.md) | DPRO | not available |
-| 0001786352 | [BILL Holdings, Inc.](../companies/0001786352/README.md) | BILL | available, quality gates apply |
-| 0001786431 | [Reynolds Consumer Products Inc.](../companies/0001786431/README.md) | REYN | not available |
-| 0001786471 | [Aptera Motors Corp](../companies/0001786471/README.md) | SEV | available, quality gates apply |
-| 0001786842 | [Vontier Corp](../companies/0001786842/README.md) | VNT | available, quality gates apply |
-| 0001787117 | [Reformation Inc.](../companies/0001787117/README.md) | REF | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [OSG](../companies/OSG/README.md) | OCTAVE SPECIALTY GROUP INC | available, quality gates apply |
+| [OSIS](../companies/OSIS/README.md) | OSI SYSTEMS INC | available, quality gates apply |
+| [OSPN](../companies/OSPN/README.md) | OneSpan Inc. | available, quality gates apply |
+| [OSPR](../companies/OSPR/README.md) | Osprey Acquisition Corp. III | available, quality gates apply |
+| [OSS](../companies/OSS/README.md) | ONE STOP SYSTEMS, INC. | available, quality gates apply |
+| [OST](../companies/OST/README.md) | Ostin Technology Group Co., Ltd. | not available |
+| [OSTX](../companies/OSTX/README.md) | OS Therapies Inc | available, quality gates apply |
+| [OSUR](../companies/OSUR/README.md) | ORASURE TECHNOLOGIES INC | available, quality gates apply |
+| [OSW](../companies/OSW/README.md) | ONESPAWORLD HOLDINGS Ltd | available, quality gates apply |
+| [OTAI](../companies/OTAI/README.md) | Starlink AI Acquisition Corp | available, quality gates apply |
+| [OTEX](../companies/OTEX/README.md) | OPEN TEXT CORP | available, quality gates apply |
+| [OTF](../companies/OTF/README.md) | Blue Owl Technology Finance Corp. | available, quality gates apply |
+| [OTGA](../companies/OTGA/README.md) | OTG Acquisition Corp. I | available, quality gates apply |
+| [OTIS](../companies/OTIS/README.md) | Otis Worldwide Corp | available, quality gates apply |
+| [OTLK](../companies/OTLK/README.md) | Outlook Therapeutics, Inc. | available, quality gates apply |
+| [OTLY](../companies/OTLY/README.md) | Oatly Group AB | not available |
+| [OTTR](../companies/OTTR/README.md) | Otter Tail Corp | available, quality gates apply |
+| [OUST](../companies/OUST/README.md) | Ouster, Inc. | available, quality gates apply |
+| [OUT](../companies/OUT/README.md) | OUTFRONT Media Inc. | available, quality gates apply |
+| [OVBC](../companies/OVBC/README.md) | OHIO VALLEY BANC CORP | available, quality gates apply |
+| [OVID](../companies/OVID/README.md) | Ovid Therapeutics Inc. | available, quality gates apply |
+| [OVLY](../companies/OVLY/README.md) | Oak Valley Bancorp | available, quality gates apply |
+| [OVV](../companies/OVV/README.md) | Ovintiv Inc. | available, quality gates apply |
+| [OWL](../companies/OWL/README.md) | BLUE OWL CAPITAL INC. | available, quality gates apply |
+| [OWLS](../companies/OWLS/README.md) | OBOOK HOLDINGS INC. | not available |
+| [OWLT](../companies/OWLT/README.md) | Owlet, Inc. | available, quality gates apply |
+| [OXBR](../companies/OXBR/README.md) | OXBRIDGE RE HOLDINGS Ltd | available, quality gates apply |
+| [OXLCM, OXLCO](../companies/OXLCM/README.md) | Oxford Lane Capital Corp. | not available |
+| [OXM](../companies/OXM/README.md) | OXFORD INDUSTRIES INC | available, quality gates apply |
+| [OXY](../companies/OXY/README.md) | OCCIDENTAL PETROLEUM CORP /DE/ | available, quality gates apply |
+| [OYSE](../companies/OYSE/README.md) | Oyster Enterprises II Acquisition Corp | available, quality gates apply |
+| [OZK](../companies/OZK/README.md) | Bank OZK | not available |
+| [P](../companies/P/README.md) | Everpure, Inc. | available, quality gates apply |
+| [PAA](../companies/PAA/README.md) | PLAINS ALL AMERICAN PIPELINE LP | available, quality gates apply |
+| [PAAC](../companies/PAAC/README.md) | Proem Acquisition Corp. I | available, quality gates apply |
+| [PAAI](../companies/PAAI/README.md) | Paradium.AI, Inc. | available, quality gates apply |
+| [PAAS](../companies/PAAS/README.md) | PAN AMERICAN SILVER CORP | not available |
+| [PACB](../companies/PACB/README.md) | PACIFIC BIOSCIENCES OF CALIFORNIA, INC. | available, quality gates apply |
+| [PACH](../companies/PACH/README.md) | Pioneer Acquisition I Corp | available, quality gates apply |
+| [PACK](../companies/PACK/README.md) | Ranpak Holdings Corp. | available, quality gates apply |
+| [PACS](../companies/PACS/README.md) | PACS Group, Inc. | available, quality gates apply |
+| [PAG](../companies/PAG/README.md) | PENSKE AUTOMOTIVE GROUP, INC. | available, quality gates apply |
+| [PAGP](../companies/PAGP/README.md) | PLAINS GP HOLDINGS LP | available, quality gates apply |
+| [PAGS](../companies/PAGS/README.md) | PagSeguro Digital Ltd. | not available |
+| [PAHC](../companies/PAHC/README.md) | PHIBRO ANIMAL HEALTH CORP | available, quality gates apply |
+| [PAI](../companies/PAI/README.md) | Western Asset Investment Grade Income Fund Inc. | not available |
+| [PAII](../companies/PAII/README.md) | Pyrophyte Acquisition Corp. II | available, quality gates apply |
+| [PAL](../companies/PAL/README.md) | Proficient Auto Logistics, Inc | available, quality gates apply |
+| [PALI](../companies/PALI/README.md) | PALISADE BIO, INC. | available, quality gates apply |
+| [PALO](../companies/PALO/README.md) | PALOMA ACQUISITION CORP I | available, quality gates apply |
+| [PAMT](../companies/PAMT/README.md) | PAMT CORP | available, quality gates apply |
+| [PANL](../companies/PANL/README.md) | Pangaea Logistics Solutions Ltd. | available, quality gates apply |
+| [PANW](../companies/PANW/README.md) | Palo Alto Networks Inc | available, quality gates apply |
+| [PAPL](../companies/PAPL/README.md) | Pineapple Financial Inc. | available, quality gates apply |
+| [PAR](../companies/PAR/README.md) | PAR TECHNOLOGY CORP | available, quality gates apply |
+| [PARA](../companies/PARA/README.md) | Banzai International, Inc. | available, quality gates apply |
+| [PARK](../companies/PARK/README.md) | Park Dental Partners, Inc. | available, quality gates apply |
+| [PARR](../companies/PARR/README.md) | PAR PACIFIC HOLDINGS, INC. | available, quality gates apply |
+| [PASG](../companies/PASG/README.md) | Passage BIO, Inc. | available, quality gates apply |
+| [PASW](../companies/PASW/README.md) | Ping An Biomedical Co., Ltd. | not available |
+| [PATH](../companies/PATH/README.md) | UiPath, Inc. | available, quality gates apply |
+| [PATK](../companies/PATK/README.md) | PATRICK INDUSTRIES INC | available, quality gates apply |
+| [PAVM](../companies/PAVM/README.md) | PAVmed Inc. | available, quality gates apply |
+| [PAVS](../companies/PAVS/README.md) | Paranovus Entertainment Technology Ltd. | not available |
+| [PAX](../companies/PAX/README.md) | Patria Investments Ltd | not available |
+| [PAXS](../companies/PAXS/README.md) | PIMCO Access Income Fund | not available |
+| [PAY](../companies/PAY/README.md) | Paymentus Holdings, Inc. | available, quality gates apply |
+| [PAYC](../companies/PAYC/README.md) | Paycom Software, Inc. | available, quality gates apply |
+| [PAYO](../companies/PAYO/README.md) | Payoneer Global Inc. | available, quality gates apply |
+| [PAYP](../companies/PAYP/README.md) | PayPay Corp | not available |
+| [PAYS](../companies/PAYS/README.md) | Paysign, Inc. | available, quality gates apply |
+| [PAYX](../companies/PAYX/README.md) | PAYCHEX INC | available, quality gates apply |
+| [PB](../companies/PB/README.md) | PROSPERITY BANCSHARES INC | available, quality gates apply |
+| [PBA](../companies/PBA/README.md) | PEMBINA PIPELINE CORP | not available |
+| [PBAM](../companies/PBAM/README.md) | Private Bancorp of America, Inc. | available, quality gates apply |
+| [PBF](../companies/PBF/README.md) | PBF Energy Inc. | available, quality gates apply |
+| [PBFS](../companies/PBFS/README.md) | Pioneer Bancorp, Inc./MD | available, quality gates apply |
+| [PBH](../companies/PBH/README.md) | Prestige Consumer Healthcare Inc. | available, quality gates apply |
+| [PBHC](../companies/PBHC/README.md) | Pathfinder Bancorp, Inc. | available, quality gates apply |
+| [PBI](../companies/PBI/README.md) | PITNEY BOWES INC /DE/ | available, quality gates apply |
+| [PBK](../companies/PBK/README.md) | POWERBANK Corp | not available |
+| [PBLS](../companies/PBLS/README.md) | Parabilis Medicines, Inc. | available, quality gates apply |
+| [PBM](../companies/PBM/README.md) | PSYENCE BIOMEDICAL LTD. | not available |
+| [PBT](../companies/PBT/README.md) | PERMIAN BASIN ROYALTY TRUST | not available |
+| [PBYI](../companies/PBYI/README.md) | PUMA BIOTECHNOLOGY, INC. | available, quality gates apply |
+| [PC](../companies/PC/README.md) | Premium Catering (Holdings) Ltd | not available |
+| [PCAP](../companies/PCAP/README.md) | ProCap Acquisition Corp | available, quality gates apply |
+| [PCAR](../companies/PCAR/README.md) | PACCAR INC | available, quality gates apply |
+| [PCB](../companies/PCB/README.md) | PCB BANCORP | available, quality gates apply |
+| [PCF](../companies/PCF/README.md) | HIGH INCOME SECURITIES FUND | not available |
+| [PCLA](../companies/PCLA/README.md) | PicoCELA Inc. | not available |
+| [PCM](../companies/PCM/README.md) | PCM FUND, INC. | not available |
+| [PCN](../companies/PCN/README.md) | PIMCO CORPORATE & INCOME STRATEGY FUND | not available |
+| [PCOR](../companies/PCOR/README.md) | PROCORE TECHNOLOGIES, INC. | available, quality gates apply |
+| [PCQ](../companies/PCQ/README.md) | PIMCO CALIFORNIA MUNICIPAL INCOME FUND | not available |
+| [PCRX](../companies/PCRX/README.md) | Pacira BioSciences, Inc. | available, quality gates apply |
+| [PCSA](../companies/PCSA/README.md) | Processa Pharmaceuticals, Inc. | available, quality gates apply |
+| [PCT](../companies/PCT/README.md) | PureCycle Technologies, Inc. | available, quality gates apply |
+| [PCTY](../companies/PCTY/README.md) | Paylocity Holding Corp | available, quality gates apply |
+| [PCVX](../companies/PCVX/README.md) | Vaxcyte, Inc. | available, quality gates apply |

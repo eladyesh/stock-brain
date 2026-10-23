@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001829667 | [Regencell Bioscience Holdings Ltd](../companies/0001829667/README.md) | RGC | not available |
-| 0001829726 | [Triple Flag Precious Metals Corp.](../companies/0001829726/README.md) | TFPM | not available |
-| 0001829794 | [Empery Digital Inc.](../companies/0001829794/README.md) | EMPD | available, quality gates apply |
-| 0001829802 | [Faeth Therapeutics, Inc.](../companies/0001829802/README.md) | FTH | available, quality gates apply |
-| 0001829864 | [TaskUs, Inc.](../companies/0001829864/README.md) | TASK | available, quality gates apply |
-| 0001829959 | [Docebo Inc.](../companies/0001829959/README.md) | DCBO | not available |
-| 0001830033 | [PureCycle Technologies, Inc.](../companies/0001830033/README.md) | PCT | available, quality gates apply |
-| 0001830043 | [Bumble Inc.](../companies/0001830043/README.md) | BMBL | available, quality gates apply |
-| 0001830072 | [iPower Inc.](../companies/0001830072/README.md) | IPW | available, quality gates apply |
-| 0001830081 | [RUM Group Inc.](../companies/0001830081/README.md) | RUM | available, quality gates apply |
-| 0001830214 | [Ginkgo Bioworks Holdings, Inc.](../companies/0001830214/README.md) | DNA | available, quality gates apply |
-| 0001830487 | [Pharvaris N.V.](../companies/0001830487/README.md) | PHVS | not available |
-| 0001831096 | [Great Elm Group, Inc.](../companies/0001831096/README.md) | GEG | available, quality gates apply |
-| 0001831097 | [agilon health, inc.](../companies/0001831097/README.md) | AGL | available, quality gates apply |
-| 0001831481 | [Sable Offshore Corp.](../companies/0001831481/README.md) | SOC | available, quality gates apply |
-| 0001831631 | [loanDepot, Inc.](../companies/0001831631/README.md) | LDI | available, quality gates apply |
-| 0001831651 | [Shoals Technologies Group, Inc.](../companies/0001831651/README.md) | SHLS | available, quality gates apply |
-| 0001831828 | [Vera Therapeutics, Inc.](../companies/0001831828/README.md) | VERA | available, quality gates apply |
-| 0001831868 | [SeaStar Medical Holding Corp](../companies/0001831868/README.md) | ICU | available, quality gates apply |
-| 0001831907 | [LuxExperience B.V.](../companies/0001831907/README.md) | LUXE | not available |
-| 0001831915 | [Cytek Biosciences, Inc.](../companies/0001831915/README.md) | CTKB | available, quality gates apply |
-| 0001832038 | [Invivyd, Inc.](../companies/0001832038/README.md) | IVVD | available, quality gates apply |
-| 0001832332 | [Aveanna Healthcare Holdings, Inc.](../companies/0001832332/README.md) | AVAH | available, quality gates apply |
-| 0001832466 | [Alignment Healthcare, Inc.](../companies/0001832466/README.md) | ALHC | available, quality gates apply |
-| 0001832483 | [Serve Robotics Inc. /DE/](../companies/0001832483/README.md) | SERV | available, quality gates apply |
-| 0001832511 | [P3 Health Partners Inc.](../companies/0001832511/README.md) | PIII | available, quality gates apply |
-| 0001832871 | [BlackRock 2037 Municipal Target Term Trust](../companies/0001832871/README.md) | BMN | not available |
-| 0001833141 | [Helus Pharma Inc.](../companies/0001833141/README.md) | HELP | not available |
-| 0001833197 | [Latham Group, Inc.](../companies/0001833197/README.md) | SWIM | available, quality gates apply |
-| 0001833214 | [SAB Biotherapeutics, Inc.](../companies/0001833214/README.md) | SABS | available, quality gates apply |
-| 0001833498 | [Spectral AI, Inc.](../companies/0001833498/README.md) | MDAI | available, quality gates apply |
-| 0001833756 | [Leonardo DRS, Inc.](../companies/0001833756/README.md) | DRS | available, quality gates apply |
-| 0001833769 | [Hyperfine, Inc.](../companies/0001833769/README.md) | HYPR | available, quality gates apply |
-| 0001833835 | [Paysafe Ltd](../companies/0001833835/README.md) | PSFE | not available |
-| 0001834026 | [Gold Royalty Corp.](../companies/0001834026/README.md) | GROY | not available |
-| 0001834105 | [IMPACT BIOMEDICAL INC.](../companies/0001834105/README.md) | IBO | available, quality gates apply |
-| 0001834376 | [InnovAge Holding Corp.](../companies/0001834376/README.md) | INNV | available, quality gates apply |
-| 0001834488 | [N-able, Inc.](../companies/0001834488/README.md) | NABL | available, quality gates apply |
-| 0001834489 | [Genius Sports Ltd](../companies/0001834489/README.md) | GENI | not available |
-| 0001834526 | [GP-Act III Acquisition Corp.](../companies/0001834526/README.md) | GPAT | available, quality gates apply |
-| 0001834584 | [Coupang, Inc.](../companies/0001834584/README.md) | CPNG | available, quality gates apply |
-| 0001834622 | [Hayward Holdings, Inc.](../companies/0001834622/README.md) | HAYW | not available |
-| 0001835022 | [Coya Therapeutics, Inc.](../companies/0001835022/README.md) | COYA | available, quality gates apply |
-| 0001835068 | [Nuveen Core Plus Impact Fund](../companies/0001835068/README.md) | NPCT | not available |
-| 0001835268 | [Connect Biopharma Holdings Ltd](../companies/0001835268/README.md) | CNTB | available, quality gates apply |
-| 0001835385 | [Marathon Bancorp, Inc. /MD/](../companies/0001835385/README.md) | MBBC | available, quality gates apply |
-| 0001835579 | [ImageneBio, Inc.](../companies/0001835579/README.md) | IMA | available, quality gates apply |
-| 0001835597 | [PepGen Inc.](../companies/0001835597/README.md) | PEPG | available, quality gates apply |
-| 0001835632 | [Marvell Technology, Inc.](../companies/0001835632/README.md) | MRVL | available, quality gates apply |
-| 0001835654 | [Innoviz Technologies Ltd.](../companies/0001835654/README.md) | INVZ | not available |
-| 0001835724 | [Zhihu Inc.](../companies/0001835724/README.md) | ZH | not available |
-| 0001835830 | [Klaviyo, Inc.](../companies/0001835830/README.md) | KVYO | available, quality gates apply |
-| 0001835856 | [Better Home & Finance Holding Co](../companies/0001835856/README.md) | BETR | available, quality gates apply |
-| 0001835963 | [Global-E Online Ltd.](../companies/0001835963/README.md) | GLBE | not available |
-| 0001836057 | [BlackRock Technology & Private Equity Term Trust](../companies/0001836057/README.md) | BTX | not available |
-| 0001836242 | [Tokyo Lifestyle Co., Ltd.](../companies/0001836242/README.md) | TKLF | not available |
-| 0001836470 | [Sportradar Group AG](../companies/0001836470/README.md) | SRAD | not available |
-| 0001836564 | [Valneva SE](../companies/0001836564/README.md) | VALN | not available |
-| 0001836754 | [Legacy Education Inc.](../companies/0001836754/README.md) | LGCY | available, quality gates apply |
-| 0001836833 | [Planet Labs PBC](../companies/0001836833/README.md) | PL | available, quality gates apply |
-| 0001837014 | [SmartRent, Inc.](../companies/0001837014/README.md) | SMRT | available, quality gates apply |
-| 0001837240 | [Symbotic Inc.](../companies/0001837240/README.md) | SYM | available, quality gates apply |
-| 0001837429 | [Brookfield Wealth Solutions Ltd.](../companies/0001837429/README.md) | BNT | not available |
-| 0001837493 | [QTREX Quantum Ltd.](../companies/0001837493/README.md) | QTEX | not available |
-| 0001837607 | [AEON Biopharma, Inc.](../companies/0001837607/README.md) | AEON | available, quality gates apply |
-| 0001837821 | [Jin Medical International Ltd.](../companies/0001837821/README.md) | ZJYL | not available |
-| 0001838163 | [Brand Engagement Network Inc.](../companies/0001838163/README.md) | BNAI | available, quality gates apply |
-| 0001838359 | [Rigetti Computing, Inc.](../companies/0001838359/README.md) | RGTI | available, quality gates apply |
-| 0001838406 | [BKV Corp](../companies/0001838406/README.md) | BKV | available, quality gates apply |
-| 0001838413 | [Full Truck Alliance Co. Ltd.](../companies/0001838413/README.md) | YMM | not available |
-| 0001838615 | [AlTi Global, Inc.](../companies/0001838615/README.md) | ALTI | available, quality gates apply |
-| 0001838716 | [Genenta Science S.p.A.](../companies/0001838716/README.md) | GNTA | not available |
-| 0001838957 | [ATRenew Inc.](../companies/0001838957/README.md) | RERE | not available |
-| 0001838987 | [SunPower Inc.](../companies/0001838987/README.md) | SPWR | available, quality gates apply |
-| 0001839285 | [Healthcare Triangle, Inc.](../companies/0001839285/README.md) | HCTI | available, quality gates apply |
-| 0001839341 | [Core Scientific, Inc./tx](../companies/0001839341/README.md) | CORZ | available, quality gates apply |
-| 0001839530 | [XBP Global Holdings, Inc.](../companies/0001839530/README.md) | XBP | available, quality gates apply |
-| 0001839799 | [GRANDSTAND Ltd](../companies/0001839799/README.md) | GRSD | not available |
-| 0001839839 | [Janus International Group, Inc.](../companies/0001839839/README.md) | JBI | available, quality gates apply |
-| 0001839970 | [BlossomHill Therapeutics, Inc.](../companies/0001839970/README.md) | BLSM | available, quality gates apply |
-| 0001840229 | [MiNK Therapeutics, Inc.](../companies/0001840229/README.md) | INKT | available, quality gates apply |
-| 0001840233 | [Xilio Therapeutics, Inc.](../companies/0001840233/README.md) | XLO | available, quality gates apply |
-| 0001840317 | [VEEA INC.](../companies/0001840317/README.md) | VEEA | available, quality gates apply |
-| 0001840416 | [Sono Group N.V.](../companies/0001840416/README.md) | SSM | available, quality gates apply |
-| 0001840439 | [Biomea Fusion, Inc.](../companies/0001840439/README.md) | BMEA | available, quality gates apply |
-| 0001840502 | [Taboola.com Ltd.](../companies/0001840502/README.md) | TBLA | available, quality gates apply |
-| 0001840563 | [PMGC Holdings Inc.](../companies/0001840563/README.md) | ELAB | available, quality gates apply |
-| 0001840572 | [Lucky Strike Entertainment Corp](../companies/0001840572/README.md) | LUCK | available, quality gates apply |
-| 0001840616 | [New Found Gold Corp.](../companies/0001840616/README.md) | NFGC | not available |
-| 0001840706 | [SOPHiA GENETICS SA](../companies/0001840706/README.md) | SOPH | not available |
-| 0001840776 | [Hagerty, Inc.](../companies/0001840776/README.md) | HGTY | available, quality gates apply |
-| 0001840780 | [Local Bounti Corporation/DE](../companies/0001840780/README.md) | LOCL | available, quality gates apply |
-| 0001840856 | [SOUNDHOUND AI, INC.](../companies/0001840856/README.md) | SOUN | available, quality gates apply |
-| 0001840877 | [Envoy Medical, Inc.](../companies/0001840877/README.md) | COCH | available, quality gates apply |
-| 0001841156 | [Paymentus Holdings, Inc.](../companies/0001841156/README.md) | PAY | available, quality gates apply |
-| 0001841209 | [MicroCloud Hologram Inc.](../companies/0001841209/README.md) | HOLO | available, quality gates apply |
-| 0001841330 | [Pasithea Therapeutics Corp.](../companies/0001841330/README.md) | KTTA | available, quality gates apply |
-| 0001841387 | [Candel Therapeutics, Inc.](../companies/0001841387/README.md) | CADL | available, quality gates apply |
-| 0001841408 | [Dave Inc./DE](../companies/0001841408/README.md) | DAVE | available, quality gates apply |
-| 0001841425 | [Verde Clean Fuels, Inc.](../companies/0001841425/README.md) | VGAS | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [RACE](../companies/RACE/README.md) | Ferrari N.V. | not available |
+| [RADX](../companies/RADX/README.md) | Radiopharm Theranostics Ltd | not available |
+| [RAIL](../companies/RAIL/README.md) | FreightCar America, Inc. | available, quality gates apply |
+| [RAIN](../companies/RAIN/README.md) | Rain Enhancement Technologies Holdco, Inc. | available, quality gates apply |
+| [RAL](../companies/RAL/README.md) | Ralliant Corp | available, quality gates apply |
+| [RAMP](../companies/RAMP/README.md) | LiveRamp Holdings, Inc. | available, quality gates apply |
+| [RANG](../companies/RANG/README.md) | Range Capital Acquisition Corp. | available, quality gates apply |
+| [RANI](../companies/RANI/README.md) | Rani Therapeutics Holdings, Inc. | available, quality gates apply |
+| [RAPP](../companies/RAPP/README.md) | Rapport Therapeutics, Inc. | available, quality gates apply |
+| [RARE](../companies/RARE/README.md) | Ultragenyx Pharmaceutical Inc. | available, quality gates apply |
+| [RAVE](../companies/RAVE/README.md) | RAVE RESTAURANT GROUP, INC. | available, quality gates apply |
+| [RAYA](../companies/RAYA/README.md) | Erayak Power Solution Group Inc. | not available |
+| [RBA](../companies/RBA/README.md) | RB GLOBAL INC. | available, quality gates apply |
+| [RBB](../companies/RBB/README.md) | RBB Bancorp | available, quality gates apply |
+| [RBBN](../companies/RBBN/README.md) | Ribbon Communications Inc. | available, quality gates apply |
+| [RBC](../companies/RBC/README.md) | RBC Bearings INC | available, quality gates apply |
+| [RBCAA](../companies/RBCAA/README.md) | REPUBLIC BANCORP INC /KY/ | available, quality gates apply |
+| [RBKB](../companies/RBKB/README.md) | Rhinebeck Bancorp, Inc. | available, quality gates apply |
+| [RBLX](../companies/RBLX/README.md) | Roblox Corp | available, quality gates apply |
+| [RBNE](../companies/RBNE/README.md) | Robin Energy Ltd. | not available |
+| [RBRK](../companies/RBRK/README.md) | Rubrik, Inc. | available, quality gates apply |
+| [RC](../companies/RC/README.md) | Ready Capital Corp | not available |
+| [RCAT](../companies/RCAT/README.md) | Red Cat Holdings, Inc. | available, quality gates apply |
+| [RCEL](../companies/RCEL/README.md) | AVITA Medical, Inc. | available, quality gates apply |
+| [RCG](../companies/RCG/README.md) | RENN Fund, Inc. | not available |
+| [RCKT](../companies/RCKT/README.md) | ROCKET PHARMACEUTICALS, INC. | available, quality gates apply |
+| [RCKY](../companies/RCKY/README.md) | ROCKY BRANDS, INC. | available, quality gates apply |
+| [RCL](../companies/RCL/README.md) | ROYAL CARIBBEAN CRUISES LTD | available, quality gates apply |
+| [RCMT](../companies/RCMT/README.md) | RCM TECHNOLOGIES, INC. | available, quality gates apply |
+| [RCON](../companies/RCON/README.md) | Recon Technology, Ltd | available, quality gates apply |
+| [RCS](../companies/RCS/README.md) | PIMCO STRATEGIC INCOME FUND, INC. | not available |
+| [RCT](../companies/RCT/README.md) | RedCloud Holdings plc | not available |
+| [RCUS](../companies/RCUS/README.md) | Arcus Biosciences, Inc. | available, quality gates apply |
+| [RDAC](../companies/RDAC/README.md) | Rising Dragon Acquisition Corp. | available, quality gates apply |
+| [RDAG](../companies/RDAG/README.md) | Republic Digital Acquisition Co | available, quality gates apply |
+| [RDCM](../companies/RDCM/README.md) | RADCOM LTD | not available |
+| [RDDT](../companies/RDDT/README.md) | Reddit, Inc. | available, quality gates apply |
+| [RDGT](../companies/RDGT/README.md) | Ridgetech Inc. | not available |
+| [RDHL](../companies/RDHL/README.md) | RedHill Biopharma Ltd. | not available |
+| [RDI, RDIB](../companies/RDI/README.md) | READING INTERNATIONAL INC | available, quality gates apply |
+| [RDN](../companies/RDN/README.md) | RADIAN GROUP INC | available, quality gates apply |
+| [RDNT](../companies/RDNT/README.md) | RadNet, Inc. | available, quality gates apply |
+| [RDNW](../companies/RDNW/README.md) | RideNow Group, Inc. | available, quality gates apply |
+| [RDVT](../companies/RDVT/README.md) | Red Violet, Inc. | available, quality gates apply |
+| [RDW](../companies/RDW/README.md) | Redwire Corp | available, quality gates apply |
+| [RDWR](../companies/RDWR/README.md) | RADWARE LTD | not available |
+| [RDY](../companies/RDY/README.md) | DR REDDYS LABORATORIES LTD | not available |
+| [RDZN](../companies/RDZN/README.md) | Roadzen Inc. | available, quality gates apply |
+| [REA](../companies/REA/README.md) | Rare Earths Americas, Inc. | available, quality gates apply |
+| [REAX](../companies/REAX/README.md) | Real REMAX Group Inc. | not available |
+| [REBN](../companies/REBN/README.md) | Reborn Coffee, Inc. | available, quality gates apply |
+| [RECT](../companies/RECT/README.md) | Rectitude Holdings Ltd. | not available |
+| [REED](../companies/REED/README.md) | REED'S, INC. | available, quality gates apply |
+| [REF](../companies/REF/README.md) | Reformation Inc. | available, quality gates apply |
+| [REFI](../companies/REFI/README.md) | Chicago Atlantic Real Estate Finance, Inc. | available, quality gates apply |
+| [REFR](../companies/REFR/README.md) | RESEARCH FRONTIERS INC | available, quality gates apply |
+| [REG](../companies/REG/README.md) | REGENCY CENTERS CORP | not available |
+| [REGN](../companies/REGN/README.md) | REGENERON PHARMACEUTICALS, INC. | available, quality gates apply |
+| [REI](../companies/REI/README.md) | RING ENERGY, INC. | available, quality gates apply |
+| [REKR](../companies/REKR/README.md) | Rekor Systems, Inc. | available, quality gates apply |
+| [RELL](../companies/RELL/README.md) | RICHARDSON ELECTRONICS, LTD. | available, quality gates apply |
+| [RELX](../companies/RELX/README.md) | RELX PLC | not available |
+| [RELY](../companies/RELY/README.md) | Remitly Global, Inc. | available, quality gates apply |
+| [RENT](../companies/RENT/README.md) | Rent the Runway, Inc. | available, quality gates apply |
+| [RENX](../companies/RENX/README.md) | RenX Enterprises Corp. | available, quality gates apply |
+| [REPL](../companies/REPL/README.md) | Replimune Group, Inc. | available, quality gates apply |
+| [REPX](../companies/REPX/README.md) | Riley Exploration Permian, Inc. | available, quality gates apply |
+| [RERE](../companies/RERE/README.md) | ATRenew Inc. | not available |
+| [RES](../companies/RES/README.md) | RPC INC | available, quality gates apply |
+| [RETO](../companies/RETO/README.md) | ReTo Eco-Solutions, Inc. | not available |
+| [REVB](../companies/REVB/README.md) | REVELATION BIOSCIENCES, INC. | available, quality gates apply |
+| [REX](../companies/REX/README.md) | REX AMERICAN RESOURCES Corp | available, quality gates apply |
+| [REXR](../companies/REXR/README.md) | Rexford Industrial Realty, Inc. | available, quality gates apply |
+| [REYN](../companies/REYN/README.md) | Reynolds Consumer Products Inc. | not available |
+| [REZI](../companies/REZI/README.md) | RESIDEO TECHNOLOGIES, INC. | available, quality gates apply |
+| [RF, RF$C, RF$E, RF$F](../companies/RF/README.md) | REGIONS FINANCIAL CORP | available, quality gates apply |
+| [RFAI](../companies/RFAI/README.md) | RF Acquisition Corp II | available, quality gates apply |
+| [RFAM](../companies/RFAM/README.md) | RF Acquisition Corp III | available, quality gates apply |
+| [RFI](../companies/RFI/README.md) | COHEN & STEERS TOTAL RETURN REALTY FUND INC | not available |
+| [RFIL](../companies/RFIL/README.md) | R F INDUSTRIES LTD | available, quality gates apply |
+| [RFL](../companies/RFL/README.md) | Rafael Holdings, Inc. | available, quality gates apply |
+| [RFM](../companies/RFM/README.md) | RiverNorth Flexible Municipal Income Fund, Inc. | not available |
+| [RFMZ](../companies/RFMZ/README.md) | RiverNorth Flexible Municipal Income Fund II, Inc. | not available |
+| [RGA](../companies/RGA/README.md) | REINSURANCE GROUP OF AMERICA INC | available, quality gates apply |
+| [RGC](../companies/RGC/README.md) | Regencell Bioscience Holdings Ltd | not available |
+| [RGCO](../companies/RGCO/README.md) | RGC RESOURCES INC | available, quality gates apply |
+| [RGEN](../companies/RGEN/README.md) | REPLIGEN CORP | available, quality gates apply |
+| [RGLD](../companies/RGLD/README.md) | ROYAL GOLD INC | available, quality gates apply |
+| [RGNT](../companies/RGNT/README.md) | REGENTIS BIOMATERIALS LTD. | not available |
+| [RGNX](../companies/RGNX/README.md) | REGENXBIO Inc. | available, quality gates apply |
+| [RGP](../companies/RGP/README.md) | RESOURCES CONNECTION, INC. | available, quality gates apply |
+| [RGR](../companies/RGR/README.md) | STURM RUGER & CO INC | available, quality gates apply |
+| [RGS](../companies/RGS/README.md) | REGIS CORP | available, quality gates apply |
+| [RGT](../companies/RGT/README.md) | ROYCE GLOBAL TRUST, INC. | not available |
+| [RGTI](../companies/RGTI/README.md) | Rigetti Computing, Inc. | available, quality gates apply |
+| [RH](../companies/RH/README.md) | RH | available, quality gates apply |
+| [RHI](../companies/RHI/README.md) | ROBERT HALF INC. | available, quality gates apply |
+| [RHLD](../companies/RHLD/README.md) | Resolute Holdings Management, Inc. | available, quality gates apply |
+| [RHP](../companies/RHP/README.md) | Ryman Hospitality Properties, Inc. | available, quality gates apply |
+| [RIBB](../companies/RIBB/README.md) | Ribbon Acquisition Corp. | available, quality gates apply |

@@ -2,39 +2,39 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0002126198 | [Expro Ltd](../companies/0002126198/README.md) | XPRO | not available |
-| 0002127043 | [Jersey Mike's Subs Inc.](../companies/0002127043/README.md) | JMKE | not available |
-| 0002128045 | [Bleichroeder Acquisition Corp. III](../companies/0002128045/README.md) | BCCQ | available, quality gates apply |
-| 0002128115 | [Ares Acquisition Corp III](../companies/0002128115/README.md) | AAC | not available |
-| 0002128462 | [Three Lions Acquisition Corp.](../companies/0002128462/README.md) | TLAC | not available |
-| 0002128626 | [Vylor Inc.](../companies/0002128626/README.md) | VYLR | not available |
-| 0002128739 | [JAB Acquisition Corp I](../companies/0002128739/README.md) | ATLQ | available, quality gates apply |
-| 0002129056 | [Jones Ventures INTL Acquisition1 Corp](../companies/0002129056/README.md) | JONE | available, quality gates apply |
-| 0002129659 | [Freedom Metals Acquisition Corp.](../companies/0002129659/README.md) | FDMM | available, quality gates apply |
-| 0002130386 | [Yorkville International Capital Corp.](../companies/0002130386/README.md) | YICC | not available |
-| 0002130606 | [Obsidian Therapeutics, Inc.](../companies/0002130606/README.md) | OBX | available, quality gates apply |
-| 0002131040 | [Robinhood Ventures Fund II](../companies/0002131040/README.md) | RVII | available, quality gates apply |
-| 0002131350 | [B&R Technology Merger Corp.](../companies/0002131350/README.md) | BRTM | available, quality gates apply |
-| 0002131524 | [Braveheart Bio, Inc.](../companies/0002131524/README.md) | BRVE | available, quality gates apply |
-| 0002131813 | [newcleo plc](../companies/0002131813/README.md) | NWCL | not available |
-| 0002131853 | [FutureCorp Space Acquisition 1](../companies/0002131853/README.md) | FTRA | available, quality gates apply |
-| 0002132582 | [Lyntris Inc.](../companies/0002132582/README.md) | LYNX | not available |
-| 0002133136 | [Market Technology Acquisition Corp](../companies/0002133136/README.md) | MTAK | available, quality gates apply |
-| 0002133719 | [NorthStrive Acquisition Corp I.](../companies/0002133719/README.md) | NSAI | not available |
-| 0002136387 | [Real REMAX Group Inc.](../companies/0002136387/README.md) | REAX | not available |
-| 0002136530 | [Meridian3 Industrials Acquisition Corp](../companies/0002136530/README.md) | MIAC | not available |
-| 0002137679 | [OceanLight Acquisition Corp](../companies/0002137679/README.md) | OCLT | available, quality gates apply |
-| 0002137777 | [Research Alliance Corp IV](../companies/0002137777/README.md) | RACD | available, quality gates apply |
-| 0002137965 | [TCGX Acquisition Corp.](../companies/0002137965/README.md) | TCGX | not available |
-| 0002139097 | [TRex Bio, Inc.](../companies/0002139097/README.md) | TRXB | not available |
-| 0002139246 | [Viking Acquisition Corp. II](../companies/0002139246/README.md) | VII | available, quality gates apply |
-| 0002141406 | [Accelevation Holdings Corp.](../companies/0002141406/README.md) | ACCV | not available |
-| 0002141616 | [Amaero Inc.](../companies/0002141616/README.md) | AMRO | not available |
-| 0002143673 | [Uranium Royalty Corp.](../companies/0002143673/README.md) | UROY | available, quality gates apply |
-| 0002143850 | [CITY THERAPEUTICS, INC.](../companies/0002143850/README.md) | CTY | not available |
-| 0002145659 | [JATT III Acquisition Corp](../companies/0002145659/README.md) | JTTT | not available |
-| 0002146310 | [Inflection Point Acquisition Corp. VIII](../companies/0002146310/README.md) | IPHX | not available |
-| 0002147219 | [Rainier Acquisition Corp](../companies/0002147219/README.md) | RNAQ | not available |
-| 0002153598 | [Frazier Life Sciences Acquisition Corp. II](../companies/0002153598/README.md) | FLSC | not available |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [ZDGE](../companies/ZDGE/README.md) | Zedge, Inc. | available, quality gates apply |
+| [ZENA](../companies/ZENA/README.md) | ZenaTech, Inc. | not available |
+| [ZEO](../companies/ZEO/README.md) | Zeo Energy Corp. | available, quality gates apply |
+| [ZEPP](../companies/ZEPP/README.md) | Zepp Health Corp | not available |
+| [ZETA](../companies/ZETA/README.md) | Zeta Global Holdings Corp. | available, quality gates apply |
+| [ZGN](../companies/ZGN/README.md) | Ermenegildo Zegna N.V. | not available |
+| [ZH](../companies/ZH/README.md) | Zhihu Inc. | not available |
+| [ZIM](../companies/ZIM/README.md) | ZIM Integrated Shipping Services Ltd. | not available |
+| [ZIP](../companies/ZIP/README.md) | ZIPRECRUITER, INC. | available, quality gates apply |
+| [ZJK](../companies/ZJK/README.md) | ZJK Industrial Co., Ltd. | not available |
+| [ZJYL](../companies/ZJYL/README.md) | Jin Medical International Ltd. | not available |
+| [ZKH](../companies/ZKH/README.md) | ZKH Group Ltd | not available |
+| [ZKIN](../companies/ZKIN/README.md) | ZK International Group Co., Ltd. | not available |
+| [ZKP](../companies/ZKP/README.md) | Lafayette Digital Acquisition Corp. I | available, quality gates apply |
+| [ZLAB](../companies/ZLAB/README.md) | Zai Lab Ltd | available, quality gates apply |
+| [ZM](../companies/ZM/README.md) | Zoom Communications, Inc. | available, quality gates apply |
+| [ZNB](../companies/ZNB/README.md) | Zeta Network Group | not available |
+| [ZNTL](../companies/ZNTL/README.md) | Zentalis Pharmaceuticals, Inc. | available, quality gates apply |
+| [ZONE](../companies/ZONE/README.md) | Zone Frontier Inc. | available, quality gates apply |
+| [ZOOZ](../companies/ZOOZ/README.md) | ZOOZ Strategy Ltd. | not available |
+| [ZS](../companies/ZS/README.md) | Zscaler, Inc. | available, quality gates apply |
+| [ZSQR](../companies/ZSQR/README.md) | Z Squared Inc. | available, quality gates apply |
+| [ZSTK](../companies/ZSTK/README.md) | ZeroStack Corp. | not available |
+| [ZTG](../companies/ZTG/README.md) | Zenta Group Co Ltd | not available |
+| [ZTO](../companies/ZTO/README.md) | ZTO Express (Cayman) Inc. | not available |
+| [ZTR](../companies/ZTR/README.md) | Virtus Total Return Fund Inc. | not available |
+| [ZTS](../companies/ZTS/README.md) | Zoetis Inc. | available, quality gates apply |
+| [ZUMZ](../companies/ZUMZ/README.md) | Zumiez Inc | available, quality gates apply |
+| [ZURA](../companies/ZURA/README.md) | Zura Bio Ltd | available, quality gates apply |
+| [ZVIA](../companies/ZVIA/README.md) | Zevia PBC | available, quality gates apply |
+| [ZVRA](../companies/ZVRA/README.md) | ZEVRA THERAPEUTICS, INC. | available, quality gates apply |
+| [ZWS](../companies/ZWS/README.md) | Zurn Elkay Water Solutions Corp | not available |
+| [ZYBT](../companies/ZYBT/README.md) | Zhengye Biotechnology Holding Ltd | not available |
+| [ZYME](../companies/ZYME/README.md) | Zymeworks Inc. | available, quality gates apply |

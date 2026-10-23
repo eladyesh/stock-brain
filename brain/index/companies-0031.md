@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001587987 | [NewtekOne, Inc.](../companies/0001587987/README.md) | NEWT, NEWTP | available, quality gates apply |
-| 0001588084 | [TANTECH HOLDINGS LTD](../companies/0001588084/README.md) | TANH | not available |
-| 0001588823 | [TFI International Inc.](../companies/0001588823/README.md) | TFII | not available |
-| 0001588978 | [PROCEPT BioRobotics Corp](../companies/0001588978/README.md) | PRCT | available, quality gates apply |
-| 0001589061 | [Gyrodyne, LLC](../companies/0001589061/README.md) | GYRO | not available |
-| 0001589149 | [Greenwave Technology Solutions, Inc.](../companies/0001589149/README.md) | GWAV | available, quality gates apply |
-| 0001589526 | [Blue Bird Corp](../companies/0001589526/README.md) | BLBD | available, quality gates apply |
-| 0001590364 | [FTAI Aviation Ltd.](../companies/0001590364/README.md) | FTAI | available, quality gates apply |
-| 0001590418 | [FOCUS UNIVERSAL INC.](../companies/0001590418/README.md) | FCUV | available, quality gates apply |
-| 0001590560 | [uniQure N.V.](../companies/0001590560/README.md) | QURE | not available |
-| 0001590714 | [Element Solutions Inc](../companies/0001590714/README.md) | ESI | available, quality gates apply |
-| 0001590715 | [American Resources Corp](../companies/0001590715/README.md) | AREC | available, quality gates apply |
-| 0001590717 | [CareTrust REIT, Inc.](../companies/0001590717/README.md) | CTRE | available, quality gates apply |
-| 0001590750 | [Viridian Therapeutics, Inc.\\DE](../companies/0001590750/README.md) | VRDN | available, quality gates apply |
-| 0001590877 | [REGENXBIO Inc.](../companies/0001590877/README.md) | RGNX | available, quality gates apply |
-| 0001590895 | [Caesars Entertainment, Inc.](../companies/0001590895/README.md) | CZR | available, quality gates apply |
-| 0001590955 | [Paycom Software, Inc.](../companies/0001590955/README.md) | PAYC | available, quality gates apply |
-| 0001590976 | [MALIBU BOATS, INC.](../companies/0001590976/README.md) | MBUU | available, quality gates apply |
-| 0001591588 | [Gold.com, Inc.](../companies/0001591588/README.md) | GOLD | available, quality gates apply |
-| 0001591670 | [Farmland Partners Inc.](../companies/0001591670/README.md) | FPI | available, quality gates apply |
-| 0001591698 | [Paylocity Holding Corp](../companies/0001591698/README.md) | PCTY | available, quality gates apply |
-| 0001591890 | [FG Communities Holdings Inc.](../companies/0001591890/README.md) | FGC | available, quality gates apply |
-| 0001591956 | [DarkHorse Technologies Inc.](../companies/0001591956/README.md) | DRK | available, quality gates apply |
-| 0001592386 | [Virtu Financial, Inc.](../companies/0001592386/README.md) | VIRT | available, quality gates apply |
-| 0001592560 | [VisionSys AI Inc](../companies/0001592560/README.md) | VSA | not available |
-| 0001593275 | [Hamilton Insurance Group, Ltd.](../companies/0001593275/README.md) | HG | available, quality gates apply |
-| 0001593538 | [NAVIENT CORP](../companies/0001593538/README.md) | NAVI | available, quality gates apply |
-| 0001593899 | [Atea Pharmaceuticals, Inc.](../companies/0001593899/README.md) | AVIR | available, quality gates apply |
-| 0001593984 | [MediWound Ltd.](../companies/0001593984/README.md) | MDWD | not available |
-| 0001594805 | [SHOPIFY INC.](../companies/0001594805/README.md) | SHOP | available, quality gates apply |
-| 0001595097 | [Corbus Pharmaceuticals Holdings, Inc.](../companies/0001595097/README.md) | CRBP | available, quality gates apply |
-| 0001595248 | [Genprex, Inc.](../companies/0001595248/README.md) | GNPX | available, quality gates apply |
-| 0001595527 | [American Strategic Investment Co.](../companies/0001595527/README.md) | NYC | available, quality gates apply |
-| 0001595761 | [WEIBO Corp](../companies/0001595761/README.md) | WB | not available |
-| 0001595974 | [MAGNITE, INC.](../companies/0001595974/README.md) | MGNI | available, quality gates apply |
-| 0001596532 | [Arista Networks, Inc.](../companies/0001596532/README.md) | ANET | available, quality gates apply |
-| 0001596812 | [Enlivex Ltd.](../companies/0001596812/README.md) | ENLV | not available |
-| 0001596961 | [RideNow Group, Inc.](../companies/0001596961/README.md) | RDNW | available, quality gates apply |
-| 0001596967 | [Moelis & Co](../companies/0001596967/README.md) | MC | available, quality gates apply |
-| 0001596993 | [DORIAN LPG LTD.](../companies/0001596993/README.md) | LPG | available, quality gates apply |
-| 0001597033 | [Sabre Corp](../companies/0001597033/README.md) | SABR | available, quality gates apply |
-| 0001597095 | [Tuniu Corp](../companies/0001597095/README.md) | TOUR | not available |
-| 0001597672 | [RAYONIER ADVANCED MATERIALS INC.](../companies/0001597672/README.md) | RYAM | available, quality gates apply |
-| 0001597835 | [Cheetah Mobile Inc.](../companies/0001597835/README.md) | CMCM | not available |
-| 0001597846 | [Greenpro Capital Corp.](../companies/0001597846/README.md) | GRNQ | available, quality gates apply |
-| 0001598428 | [Metallus Inc.](../companies/0001598428/README.md) | MTUS | available, quality gates apply |
-| 0001598599 | [Innate Pharma SA](../companies/0001598599/README.md) | IPHA | not available |
-| 0001598646 | [Minerva Neurosciences, Inc.](../companies/0001598646/README.md) | NERV | available, quality gates apply |
-| 0001598665 | [Heritage Insurance Holdings, Inc.](../companies/0001598665/README.md) | HRTG | available, quality gates apply |
-| 0001598981 | [SKYX Platforms Corp.](../companies/0001598981/README.md) | SKYX | available, quality gates apply |
-| 0001599298 | [Summit Therapeutics Inc.](../companies/0001599298/README.md) | SMMT | available, quality gates apply |
-| 0001599617 | [DNOW Inc.](../companies/0001599617/README.md) | DNOW | available, quality gates apply |
-| 0001600033 | [e.l.f. Beauty, Inc.](../companies/0001600033/README.md) | ELF | available, quality gates apply |
-| 0001600222 | [Phoenix Education Partners, Inc.](../companies/0001600222/README.md) | PXED | available, quality gates apply |
-| 0001600620 | [Aurinia Pharmaceuticals Inc.](../companies/0001600620/README.md) | AUPH | available, quality gates apply |
-| 0001600641 | [1stdibs.com, Inc.](../companies/0001600641/README.md) | DIBS | available, quality gates apply |
-| 0001600983 | [Knightscope, Inc.](../companies/0001600983/README.md) | KSCP | available, quality gates apply |
-| 0001601046 | [Keysight Technologies, Inc.](../companies/0001601046/README.md) | KEYS | available, quality gates apply |
-| 0001601485 | [Elicio Therapeutics, Inc.](../companies/0001601485/README.md) | ELTX | available, quality gates apply |
-| 0001601548 | [V2X, Inc.](../companies/0001601548/README.md) | VVX | available, quality gates apply |
-| 0001601712 | [Synchrony Financial](../companies/0001601712/README.md) | SYF, SYF$A, SYF$B | available, quality gates apply |
-| 0001601830 | [RECURSION PHARMACEUTICALS, INC.](../companies/0001601830/README.md) | RXRX | available, quality gates apply |
-| 0001602409 | [FingerMotion, Inc.](../companies/0001602409/README.md) | FNGR | available, quality gates apply |
-| 0001602658 | [Investar Holding Corp](../companies/0001602658/README.md) | ISTR | available, quality gates apply |
-| 0001602842 | [Orion Digital Corp.](../companies/0001602842/README.md) | ORIO | not available |
-| 0001603015 | [Via Transportation, Inc.](../companies/0001603015/README.md) | VIA | available, quality gates apply |
-| 0001603145 | [XPLR Infrastructure, LP](../companies/0001603145/README.md) | XIFR | not available |
-| 0001603454 | [Celcuity Inc.](../companies/0001603454/README.md) | CELC | available, quality gates apply |
-| 0001603923 | [Weatherford International plc](../companies/0001603923/README.md) | WFRD | available, quality gates apply |
-| 0001603978 | [AQUABOUNTY TECHNOLOGIES INC](../companies/0001603978/README.md) | AQB | available, quality gates apply |
-| 0001603993 | [AIOS Tech Inc.](../companies/0001603993/README.md) | AIOS | not available |
-| 0001604028 | [ADVANCED DRAINAGE SYSTEMS, INC.](../companies/0001604028/README.md) | WMS | available, quality gates apply |
-| 0001604174 | [Eagle Point Credit Co](../companies/0001604174/README.md) | ECC | not available |
-| 0001604191 | [GridAI Technologies Corp.](../companies/0001604191/README.md) | GRDX | available, quality gates apply |
-| 0001604464 | [Atara Biotherapeutics, Inc.](../companies/0001604464/README.md) | ATRA | available, quality gates apply |
-| 0001604481 | [CMB.TECH NV](../companies/0001604481/README.md) | CMBT | not available |
-| 0001604522 | [abrdn Healthcare Opportunities Fund](../companies/0001604522/README.md) | THQ | not available |
-| 0001604665 | [Westlake Chemical Partners LP](../companies/0001604665/README.md) | WLKP | available, quality gates apply |
-| 0001604821 | [Natera, Inc.](../companies/0001604821/README.md) | NTRA | available, quality gates apply |
-| 0001604868 | [GrowGeneration Corp.](../companies/0001604868/README.md) | GRWG | available, quality gates apply |
-| 0001605301 | [CB Financial Services, Inc.](../companies/0001605301/README.md) | CBFV | available, quality gates apply |
-| 0001605484 | [Stellantis N.V.](../companies/0001605484/README.md) | STLA | not available |
-| 0001605888 | [CIRCLE8 GROUP INC](../companies/0001605888/README.md) | CIRC | available, quality gates apply |
-| 0001606163 | [Limbach Holdings, Inc.](../companies/0001606163/README.md) | LMB | available, quality gates apply |
-| 0001606242 | [Virtuix Holdings Inc.](../companies/0001606242/README.md) | VTIX | available, quality gates apply |
-| 0001606366 | [El Pollo Loco Holdings, Inc.](../companies/0001606366/README.md) | LOCO | available, quality gates apply |
-| 0001606757 | [Kimball Electronics, Inc.](../companies/0001606757/README.md) | KE | available, quality gates apply |
-| 0001606909 | [Pangaea Logistics Solutions Ltd.](../companies/0001606909/README.md) | PANL | available, quality gates apply |
-| 0001607678 | [Viking Therapeutics, Inc.](../companies/0001607678/README.md) | VKTX | available, quality gates apply |
-| 0001607962 | [Lifeward Ltd.](../companies/0001607962/README.md) | LFWD | available, quality gates apply |
-| 0001607997 | [Nuveen Minnesota Quality Municipal Income Fund](../companies/0001607997/README.md) | NMS | not available |
-| 0001609065 | [Pathfinder Bancorp, Inc.](../companies/0001609065/README.md) | PBHC | available, quality gates apply |
-| 0001609151 | [Weave Communications, Inc.](../companies/0001609151/README.md) | WEAV | available, quality gates apply |
-| 0001609253 | [California Resources Corp](../companies/0001609253/README.md) | CRC | available, quality gates apply |
-| 0001609550 | [Inspire Medical Systems, Inc.](../companies/0001609550/README.md) | INSP | available, quality gates apply |
-| 0001609711 | [GoDaddy Inc.](../companies/0001609711/README.md) | GDDY | available, quality gates apply |
-| 0001609804 | [Orion S.A.](../companies/0001609804/README.md) | OEC | available, quality gates apply |
-| 0001609809 | [Seres Therapeutics, Inc.](../companies/0001609809/README.md) | MCRB | available, quality gates apply |
-| 0001610250 | [Boot Barn Holdings, Inc.](../companies/0001610250/README.md) | BOOT | available, quality gates apply |
-| 0001610590 | [MBody AI Ltd.](../companies/0001610590/README.md) | MBAI | not available |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [LOCO](../companies/LOCO/README.md) | El Pollo Loco Holdings, Inc. | available, quality gates apply |
+| [LODE](../companies/LODE/README.md) | Comstock Inc. | available, quality gates apply |
+| [LONA](../companies/LONA/README.md) | LeonaBio, Inc. | available, quality gates apply |
+| [LOOP](../companies/LOOP/README.md) | Loop Industries, Inc. | available, quality gates apply |
+| [LOPE](../companies/LOPE/README.md) | Grand Canyon Education, Inc. | available, quality gates apply |
+| [LOT](../companies/LOT/README.md) | Lotus Technology Inc. | not available |
+| [LOVE](../companies/LOVE/README.md) | Lovesac Co | available, quality gates apply |
+| [LOW](../companies/LOW/README.md) | LOWES COMPANIES INC | available, quality gates apply |
+| [LPA](../companies/LPA/README.md) | Logistic Properties of the Americas | not available |
+| [LPAA](../companies/LPAA/README.md) | Launch One Acquisition Corp. | available, quality gates apply |
+| [LPBB](../companies/LPBB/README.md) | Launch Two Acquisition Corp. | available, quality gates apply |
+| [LPCN](../companies/LPCN/README.md) | Lipocine Inc. | available, quality gates apply |
+| [LPCV](../companies/LPCV/README.md) | Launchpad Cadenza Acquisition Corp I | available, quality gates apply |
+| [LPG](../companies/LPG/README.md) | DORIAN LPG LTD. | available, quality gates apply |
+| [LPL](../companies/LPL/README.md) | LG Display Co., Ltd. | not available |
+| [LPLA](../companies/LPLA/README.md) | LPL Financial Holdings Inc. | available, quality gates apply |
+| [LPTH](../companies/LPTH/README.md) | LIGHTPATH TECHNOLOGIES INC | available, quality gates apply |
+| [LPX](../companies/LPX/README.md) | LOUISIANA-PACIFIC CORP | available, quality gates apply |
+| [LQDA](../companies/LQDA/README.md) | Liquidia Corp | available, quality gates apply |
+| [LQDT](../companies/LQDT/README.md) | LIQUIDITY SERVICES INC | available, quality gates apply |
+| [LRCX](../companies/LRCX/README.md) | LAM RESEARCH CORP | available, quality gates apply |
+| [LRE](../companies/LRE/README.md) | LEAD REAL ESTATE CO., LTD | not available |
+| [LRMR](../companies/LRMR/README.md) | Larimar Therapeutics, Inc. | available, quality gates apply |
+| [LRN](../companies/LRN/README.md) | Stride, Inc. | available, quality gates apply |
+| [LSAK](../companies/LSAK/README.md) | LESAKA TECHNOLOGIES INC | available, quality gates apply |
+| [LSBK](../companies/LSBK/README.md) | Lake Shore Bancorp, Inc. /MD/ | available, quality gates apply |
+| [LSCC](../companies/LSCC/README.md) | LATTICE SEMICONDUCTOR CORP | available, quality gates apply |
+| [LSE](../companies/LSE/README.md) | Leishen Energy Holding Co., Ltd. | not available |
+| [LSF](../companies/LSF/README.md) | Laird Superfood, Inc. | available, quality gates apply |
+| [LSTA](../companies/LSTA/README.md) | LISATA THERAPEUTICS, INC. | available, quality gates apply |
+| [LSTR](../companies/LSTR/README.md) | LANDSTAR SYSTEM INC | not available |
+| [LTBR](../companies/LTBR/README.md) | LIGHTBRIDGE Corp | available, quality gates apply |
+| [LTC](../companies/LTC/README.md) | LTC PROPERTIES INC | available, quality gates apply |
+| [LTGO](../companies/LTGO/README.md) | Latigo Biotherapeutics, Inc. | available, quality gates apply |
+| [LTGR](../companies/LTGR/README.md) | Long Table Growth Corp. | available, quality gates apply |
+| [LTH](../companies/LTH/README.md) | Life Time Group Holdings, Inc. | available, quality gates apply |
+| [LTM](../companies/LTM/README.md) | LATAM AIRLINES GROUP S.A. | not available |
+| [LTRN](../companies/LTRN/README.md) | Lantern Pharma Inc. | available, quality gates apply |
+| [LTRX](../companies/LTRX/README.md) | LANTRONIX INC | available, quality gates apply |
+| [LU](../companies/LU/README.md) | Lufax Holding Ltd | not available |
+| [LUCD](../companies/LUCD/README.md) | Lucid Diagnostics Inc. | available, quality gates apply |
+| [LUCK](../companies/LUCK/README.md) | Lucky Strike Entertainment Corp | available, quality gates apply |
+| [LUCY](../companies/LUCY/README.md) | Innovative Eyewear Inc | available, quality gates apply |
+| [LUD](../companies/LUD/README.md) | Luda Technology Group Ltd | not available |
+| [LULU](../companies/LULU/README.md) | lululemon athletica inc. | available, quality gates apply |
+| [LUNG](../companies/LUNG/README.md) | Pulmonx Corp | available, quality gates apply |
+| [LUNR](../companies/LUNR/README.md) | Intuitive Machines, Inc. | available, quality gates apply |
+| [LUV](../companies/LUV/README.md) | SOUTHWEST AIRLINES CO | available, quality gates apply |
+| [LUXE](../companies/LUXE/README.md) | LuxExperience B.V. | not available |
+| [LVLU](../companies/LVLU/README.md) | Lulu's Fashion Lounge Holdings, Inc. | available, quality gates apply |
+| [LVO](../companies/LVO/README.md) | LiveOne, Inc. | available, quality gates apply |
+| [LVS](../companies/LVS/README.md) | LAS VEGAS SANDS CORP | available, quality gates apply |
+| [LVWR](../companies/LVWR/README.md) | LiveWire Group, Inc. | available, quality gates apply |
+| [LW](../companies/LW/README.md) | Lamb Weston Holdings, Inc. | available, quality gates apply |
+| [LWAC](../companies/LWAC/README.md) | LightWave Acquisition Corp. | available, quality gates apply |
+| [LWAY](../companies/LWAY/README.md) | Lifeway Foods, Inc. | available, quality gates apply |
+| [LWLG](../companies/LWLG/README.md) | Lightwave Logic, Inc. | available, quality gates apply |
+| [LX](../companies/LX/README.md) | LexinFintech Holdings Ltd. | not available |
+| [LXEH](../companies/LXEH/README.md) | Lixiang Education Holding Co. Ltd. | not available |
+| [LXEO](../companies/LXEO/README.md) | Lexeo Therapeutics, Inc. | available, quality gates apply |
+| [LXFR](../companies/LXFR/README.md) | LUXFER HOLDINGS PLC | available, quality gates apply |
+| [LXP](../companies/LXP/README.md) | LXP Industrial Trust | available, quality gates apply |
+| [LXRX](../companies/LXRX/README.md) | LEXICON PHARMACEUTICALS, INC. | available, quality gates apply |
+| [LXU](../companies/LXU/README.md) | LSB INDUSTRIES, INC. | available, quality gates apply |
+| [LYB](../companies/LYB/README.md) | LyondellBasell Industries N.V. | available, quality gates apply |
+| [LYEL](../companies/LYEL/README.md) | Lyell Immunopharma, Inc. | available, quality gates apply |
+| [LYFT](../companies/LYFT/README.md) | Lyft, Inc. | available, quality gates apply |
+| [LYG](../companies/LYG/README.md) | Lloyds Banking Group plc | not available |
+| [LYNX](../companies/LYNX/README.md) | Lyntris Inc. | not available |
+| [LYTS](../companies/LYTS/README.md) | LSI INDUSTRIES INC | available, quality gates apply |
+| [LYV](../companies/LYV/README.md) | Live Nation Entertainment, Inc. | available, quality gates apply |
+| [LZ](../companies/LZ/README.md) | LEGALZOOM.COM, INC. | available, quality gates apply |
+| [LZB](../companies/LZB/README.md) | LA-Z-BOY INC | available, quality gates apply |
+| [LZM](../companies/LZM/README.md) | Lifezone Metals Ltd | not available |
+| [LZMH](../companies/LZMH/README.md) | LZ Technology Holdings Ltd | not available |
+| [M](../companies/M/README.md) | Macy's, Inc. | available, quality gates apply |
+| [MA](../companies/MA/README.md) | Mastercard Inc | available, quality gates apply |
+| [MAA](../companies/MAA/README.md) | MID AMERICA APARTMENT COMMUNITIES INC. | not available |
+| [MAAS](../companies/MAAS/README.md) | Maase Inc. | not available |
+| [MAC](../companies/MAC/README.md) | MACERICH CO | available, quality gates apply |
+| [MACI](../companies/MACI/README.md) | Melar Acquisition Corp. I/Cayman | available, quality gates apply |
+| [MAGH](../companies/MAGH/README.md) | Magnitude International Ltd | not available |
+| [MAGN](../companies/MAGN/README.md) | Magnera Corp | available, quality gates apply |
+| [MAIA](../companies/MAIA/README.md) | MAIA Biotechnology, Inc. | available, quality gates apply |
+| [MAIN](../companies/MAIN/README.md) | Main Street Capital CORP | available, quality gates apply |
+| [MAIR](../companies/MAIR/README.md) | Madison Air Solutions Corp | available, quality gates apply |
+| [MAKO](../companies/MAKO/README.md) | Mako Mining Corp. | not available |
+| [MAMA](../companies/MAMA/README.md) | Mama's Creations, Inc. | available, quality gates apply |
+| [MAMO](../companies/MAMO/README.md) | Massimo Group | available, quality gates apply |
+| [MAN](../companies/MAN/README.md) | ManpowerGroup Inc. | available, quality gates apply |
+| [MANE](../companies/MANE/README.md) | Veradermics, Inc | available, quality gates apply |
+| [MANH](../companies/MANH/README.md) | MANHATTAN ASSOCIATES INC | available, quality gates apply |
+| [MANU](../companies/MANU/README.md) | Manchester United plc | not available |
+| [MAR](../companies/MAR/README.md) | MARRIOTT INTERNATIONAL INC /MD/ | available, quality gates apply |
+| [MARA](../companies/MARA/README.md) | MARA Holdings, Inc. | available, quality gates apply |
+| [MAS](../companies/MAS/README.md) | MASCO CORP /DE/ | not available |
+| [MASK](../companies/MASK/README.md) | 3 E Network Technology Group Ltd | not available |
+| [MASS](../companies/MASS/README.md) | 908 Devices Inc. | available, quality gates apply |
+| [MAT](../companies/MAT/README.md) | MATTEL INC /DE/ | available, quality gates apply |
+| [MATH](../companies/MATH/README.md) | Metalpha Technology Holding Ltd | not available |

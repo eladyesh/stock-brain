@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0000886986 | [TECK RESOURCES LTD](../companies/0000886986/README.md) | TECK | not available |
-| 0000887151 | [Capstone Holding Corp.](../companies/0000887151/README.md) | CAPS | available, quality gates apply |
-| 0000887153 | [GRUPO SIMEC, S.A.B. de C.V.](../companies/0000887153/README.md) | SIM | not available |
-| 0000887225 | [KOREA ELECTRIC POWER CORP](../companies/0000887225/README.md) | KEP | not available |
-| 0000887343 | [COLUMBIA BANKING SYSTEM, INC.](../companies/0000887343/README.md) | COLB | available, quality gates apply |
-| 0000887359 | [Vericel Corp](../companies/0000887359/README.md) | VCEL | available, quality gates apply |
-| 0000887396 | [EMPIRE PETROLEUM CORP](../companies/0000887396/README.md) | EP | available, quality gates apply |
-| 0000887596 | [CHEESECAKE FACTORY INC](../companies/0000887596/README.md) | CAKE | available, quality gates apply |
-| 0000887733 | [CENTRAL GARDEN & PET CO](../companies/0000887733/README.md) | CENT, CENTA | available, quality gates apply |
-| 0000887905 | [LTC PROPERTIES INC](../companies/0000887905/README.md) | LTC | available, quality gates apply |
-| 0000887936 | [FTI CONSULTING, INC](../companies/0000887936/README.md) | FCN | available, quality gates apply |
-| 0000888491 | [OMEGA HEALTHCARE INVESTORS INC](../companies/0000888491/README.md) | OHI | available, quality gates apply |
-| 0000888721 | [TRINITY BIOTECH PLC](../companies/0000888721/README.md) | TRIB | not available |
-| 0000889132 | [POSCO HOLDINGS INC.](../companies/0000889132/README.md) | PKX | not available |
-| 0000889331 | [LITTELFUSE INC /DE](../companies/0000889331/README.md) | LFUS | not available |
-| 0000889348 | [CPI AEROSTRUCTURES INC](../companies/0000889348/README.md) | CVU | available, quality gates apply |
-| 0000889609 | [CONSUMER PORTFOLIO SERVICES, INC.](../companies/0000889609/README.md) | CPSS | available, quality gates apply |
-| 0000889900 | [PATTERSON UTI ENERGY INC](../companies/0000889900/README.md) | PTEN | available, quality gates apply |
-| 0000889971 | [LIGHTPATH TECHNOLOGIES INC](../companies/0000889971/README.md) | LPTH | available, quality gates apply |
-| 0000890119 | [NUVEEN SELECT MATURITIES MUNICIPAL FUND](../companies/0000890119/README.md) | NIM | not available |
-| 0000890196 | [BLACKROCK MUNIYIELD QUALITY FUND, INC.](../companies/0000890196/README.md) | MQY | not available |
-| 0000890393 | [BLACKROCK MUNIYIELD MICHIGAN QUALITY FUND, INC.](../companies/0000890393/README.md) | MIY | not available |
-| 0000890394 | [Peraso Inc.](../companies/0000890394/README.md) | PRSO | available, quality gates apply |
-| 0000890541 | [BLADEX, INC.](../companies/0000890541/README.md) | BLX | not available |
-| 0000890564 | [Everforth Inc](../companies/0000890564/README.md) | EFOR | available, quality gates apply |
-| 0000890821 | [Enveric Biosciences, Inc.](../companies/0000890821/README.md) | ENVB | available, quality gates apply |
-| 0000890926 | [RADIAN GROUP INC](../companies/0000890926/README.md) | RDN | available, quality gates apply |
-| 0000891014 | [MINERALS TECHNOLOGIES INC](../companies/0000891014/README.md) | MTX | available, quality gates apply |
-| 0000891038 | [BLACKROCK MUNIYIELD PENNSYLVANIA QUALITY FUND](../companies/0000891038/README.md) | MPA | not available |
-| 0000891103 | [Match Group, Inc.](../companies/0000891103/README.md) | MTCH | available, quality gates apply |
-| 0000891166 | [UNIVERSAL INSURANCE HOLDINGS, INC.](../companies/0000891166/README.md) | UVE | available, quality gates apply |
-| 0000891290 | [COHEN & STEERS TOTAL RETURN REALTY FUND INC](../companies/0000891290/README.md) | RFI | not available |
-| 0000891482 | [FULL HOUSE RESORTS INC](../companies/0000891482/README.md) | FLL | available, quality gates apply |
-| 0000891532 | [PERMA FIX ENVIRONMENTAL SERVICES INC](../companies/0000891532/README.md) | PESI | available, quality gates apply |
-| 0000892450 | [KT CORP](../companies/0000892450/README.md) | KT | not available |
-| 0000892992 | [NUVEEN ARIZONA QUALITY MUNICIPAL INCOME FUND](../companies/0000892992/README.md) | NAZ | not available |
-| 0000893538 | [SM Energy Co](../companies/0000893538/README.md) | SM | available, quality gates apply |
-| 0000893847 | [HAWTHORN BANCSHARES, INC.](../companies/0000893847/README.md) | HWBK | available, quality gates apply |
-| 0000893949 | [Pediatrix Medical Group, Inc.](../companies/0000893949/README.md) | MD | available, quality gates apply |
-| 0000894158 | [Theriva Biologics, Inc.](../companies/0000894158/README.md) | TOVX | available, quality gates apply |
-| 0000894315 | [SITE Centers Corp.](../companies/0000894315/README.md) | SITC | available, quality gates apply |
-| 0000894405 | [ARCBEST CORP /TX/](../companies/0000894405/README.md) | ARCB | available, quality gates apply |
-| 0000894556 | [CitroTech Inc.](../companies/0000894556/README.md) | CITR | available, quality gates apply |
-| 0000894627 | [VAALCO ENERGY INC /DE/](../companies/0000894627/README.md) | EGY | available, quality gates apply |
-| 0000894671 | [OHIO VALLEY BANC CORP](../companies/0000894671/README.md) | OVBC | available, quality gates apply |
-| 0000894871 | [Paradium.AI, Inc.](../companies/0000894871/README.md) | PAAI | available, quality gates apply |
-| 0000895126 | [EXPAND ENERGY Corp](../companies/0000895126/README.md) | EXE | available, quality gates apply |
-| 0000895417 | [EQUITY LIFESTYLE PROPERTIES INC](../companies/0000895417/README.md) | ELS | not available |
-| 0000895419 | [WOLFSPEED, INC.](../companies/0000895419/README.md) | WOLF | not available |
-| 0000895421 | [MORGAN STANLEY](../companies/0000895421/README.md) | MS, MS$E, MS$I, MS$K, MS$L, MS$O, MS$P, MS$Q | available, quality gates apply |
-| 0000895447 | [SHOE STATION GROUP INC](../companies/0000895447/README.md) | SHOE | available, quality gates apply |
-| 0000895456 | [ROCKY BRANDS, INC.](../companies/0000895456/README.md) | RCKY | available, quality gates apply |
-| 0000895528 | [Invesco Pennsylvania Value Municipal Income Trust](../companies/0000895528/README.md) | VPV | not available |
-| 0000895531 | [Invesco California Value Municipal Income Trust](../companies/0000895531/README.md) | VCV | not available |
-| 0000895728 | [ENBRIDGE INC](../companies/0000895728/README.md) | ENB | not available |
-| 0000896156 | [ETHAN ALLEN INTERIORS INC](../companies/0000896156/README.md) | ETD | available, quality gates apply |
-| 0000896159 | [Chubb Ltd](../companies/0000896159/README.md) | CB | not available |
-| 0000896264 | [USANA HEALTH SCIENCES INC](../companies/0000896264/README.md) | USNA | available, quality gates apply |
-| 0000896493 | [Hyperscale Data, Inc.](../companies/0000896493/README.md) | GPUS | available, quality gates apply |
-| 0000896622 | [APTARGROUP, INC.](../companies/0000896622/README.md) | ATR | available, quality gates apply |
-| 0000896878 | [INTUIT INC.](../companies/0000896878/README.md) | INTU | available, quality gates apply |
-| 0000897077 | [ALAMO GROUP INC](../companies/0000897077/README.md) | ALG | available, quality gates apply |
-| 0000897322 | [GILAT SATELLITE NETWORKS LTD](../companies/0000897322/README.md) | GILT | not available |
-| 0000897419 | [NUVEEN MASSACHUSETTS QUALITY MUNICIPAL INCOME FUND](../companies/0000897419/README.md) | NMT | not available |
-| 0000897421 | [NUVEEN VIRGINIA QUALITY MUNICIPAL INCOME FUND](../companies/0000897421/README.md) | NPV | not available |
-| 0000897723 | [SANMINA CORP](../companies/0000897723/README.md) | SANM | available, quality gates apply |
-| 0000897802 | [SPECIAL OPPORTUNITIES FUND, INC.](../companies/0000897802/README.md) | SPE | not available |
-| 0000898173 | [O REILLY AUTOMOTIVE INC](../companies/0000898173/README.md) | ORLY | available, quality gates apply |
-| 0000898174 | [REINSURANCE GROUP OF AMERICA INC](../companies/0000898174/README.md) | RGA | available, quality gates apply |
-| 0000898293 | [JABIL INC](../companies/0000898293/README.md) | JBL | available, quality gates apply |
-| 0000898437 | [Anika Therapeutics, Inc.](../companies/0000898437/README.md) | ANIK | available, quality gates apply |
-| 0000899051 | [ALLSTATE CORP](../companies/0000899051/README.md) | ALL, ALL$H, ALL$I, ALL$J | available, quality gates apply |
-| 0000899460 | [MANNKIND CORP](../companies/0000899460/README.md) | MNKD | available, quality gates apply |
-| 0000899629 | [ACADIA REALTY TRUST](../companies/0000899629/README.md) | AKR | available, quality gates apply |
-| 0000899689 | [VORNADO REALTY TRUST](../companies/0000899689/README.md) | VNO | available, quality gates apply |
-| 0000899715 | [TANGER INC.](../companies/0000899715/README.md) | SKT | available, quality gates apply |
-| 0000899751 | [TITAN INTERNATIONAL INC](../companies/0000899751/README.md) | TWI | available, quality gates apply |
-| 0000899923 | [MYRIAD GENETICS INC](../companies/0000899923/README.md) | MYGN | available, quality gates apply |
-| 0000900075 | [COPART INC](../companies/0000900075/README.md) | CPRT | available, quality gates apply |
-| 0000900422 | [FRANKLIN MUNICIPAL OPPORTUNITIES TRUST](../companies/0000900422/README.md) | PMO | not available |
-| 0000901243 | [BLACKROCK MUNIASSETS FUND, INC.](../companies/0000901243/README.md) | MUA | not available |
-| 0000901491 | [PAPA JOHNS INTERNATIONAL INC](../companies/0000901491/README.md) | PZZA | available, quality gates apply |
-| 0000901832 | [ASTRAZENECA PLC](../companies/0000901832/README.md) | AZN | not available |
-| 0000902791 | [BARRETT BUSINESS SERVICES INC](../companies/0000902791/README.md) | BBSI | available, quality gates apply |
-| 0000903129 | [Gentherm Inc](../companies/0000903129/README.md) | THRM | available, quality gates apply |
-| 0000903419 | [ALERUS FINANCIAL CORP](../companies/0000903419/README.md) | ALRS | available, quality gates apply |
-| 0000903651 | [INNODATA INC](../companies/0000903651/README.md) | INOD | available, quality gates apply |
-| 0000904112 | [MORGAN STANLEY EMERGING MARKETS DEBT FUND INC](../companies/0000904112/README.md) | MSD | not available |
-| 0000904851 | [YPF SOCIEDAD ANONIMA](../companies/0000904851/README.md) | YPF | not available |
-| 0000906013 | [ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND INC](../companies/0000906013/README.md) | AWF | not available |
-| 0000906107 | [VIVMARK RESIDENTIAL](../companies/0000906107/README.md) | VMRK | available, quality gates apply |
-| 0000906163 | [NVR INC](../companies/0000906163/README.md) | NVR | available, quality gates apply |
-| 0000906345 | [CAMDEN PROPERTY TRUST](../companies/0000906345/README.md) | CPT | available, quality gates apply |
-| 0000906465 | [QCR HOLDINGS INC](../companies/0000906465/README.md) | QCRH | available, quality gates apply |
-| 0000906553 | [BOYD GAMING CORP](../companies/0000906553/README.md) | BYD | available, quality gates apply |
-| 0000906709 | [NEKTAR THERAPEUTICS](../companies/0000906709/README.md) | NKTR | available, quality gates apply |
-| 0000907242 | [MONARCH CASINO & RESORT INC](../companies/0000907242/README.md) | MCRI | not available |
-| 0000907254 | [SAUL CENTERS, INC.](../companies/0000907254/README.md) | BFS, BFS$D, BFS$E | available, quality gates apply |
-| 0000907471 | [PATHWARD FINANCIAL, INC.](../companies/0000907471/README.md) | CASH | available, quality gates apply |
-| 0000907654 | [Oruka Therapeutics, Inc.](../companies/0000907654/README.md) | ORKA | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [CELC](../companies/CELC/README.md) | Celcuity Inc. | available, quality gates apply |
+| [CELH](../companies/CELH/README.md) | Celsius Holdings, Inc. | available, quality gates apply |
+| [CELU](../companies/CELU/README.md) | Celularity Inc | available, quality gates apply |
+| [CELZ](../companies/CELZ/README.md) | CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC. | available, quality gates apply |
+| [CENN](../companies/CENN/README.md) | Cenntro Inc. | available, quality gates apply |
+| [CENT, CENTA](../companies/CENT/README.md) | CENTRAL GARDEN & PET CO | available, quality gates apply |
+| [CENX](../companies/CENX/README.md) | CENTURY ALUMINUM CO | available, quality gates apply |
+| [CEPF](../companies/CEPF/README.md) | Cantor Equity Partners IV, Inc. | available, quality gates apply |
+| [CEPL](../companies/CEPL/README.md) | Capstone Energy Plus, Inc. | available, quality gates apply |
+| [CEPO](../companies/CEPO/README.md) | Cantor Equity Partners I, Inc. | available, quality gates apply |
+| [CEPS](../companies/CEPS/README.md) | Cantor Equity Partners VI, Inc. | available, quality gates apply |
+| [CEPU](../companies/CEPU/README.md) | CENTRAL PUERTO S.A. | not available |
+| [CEPV](../companies/CEPV/README.md) | Cantor Equity Partners V, Inc. | available, quality gates apply |
+| [CERS](../companies/CERS/README.md) | CERUS CORP | available, quality gates apply |
+| [CERT](../companies/CERT/README.md) | Certara, Inc. | available, quality gates apply |
+| [CET](../companies/CET/README.md) | CENTRAL SECURITIES CORP | not available |
+| [CETX](../companies/CETX/README.md) | CEMTREX INC | available, quality gates apply |
+| [CETY](../companies/CETY/README.md) | Clean Energy Technologies, Inc. | available, quality gates apply |
+| [CEV](../companies/CEV/README.md) | Eaton Vance California Municipal Income Trust | not available |
+| [CEVA](../companies/CEVA/README.md) | CEVA INC | available, quality gates apply |
+| [CF](../companies/CF/README.md) | CF Industries Holdings, Inc. | available, quality gates apply |
+| [CFBK](../companies/CFBK/README.md) | CF BANKSHARES INC. | available, quality gates apply |
+| [CFFI](../companies/CFFI/README.md) | C & F FINANCIAL CORP | available, quality gates apply |
+| [CFFN](../companies/CFFN/README.md) | Capitol Federal Financial, Inc. | available, quality gates apply |
+| [CFG, CFG$E, CFG$H, CFG$I](../companies/CFG/README.md) | CITIZENS FINANCIAL GROUP INC/RI | available, quality gates apply |
+| [CFND](../companies/CFND/README.md) | C1 Fund Inc. | not available |
+| [CFR, CFR$B](../companies/CFR/README.md) | CULLEN/FROST BANKERS, INC. | available, quality gates apply |
+| [CG](../companies/CG/README.md) | Carlyle Group Inc. | available, quality gates apply |
+| [CGAU](../companies/CGAU/README.md) | Centerra Gold Inc. | not available |
+| [CGC](../companies/CGC/README.md) | Canopy Growth Corp | not available |
+| [CGCF](../companies/CGCF/README.md) | Cartesian Growth Corp IV | available, quality gates apply |
+| [CGEM](../companies/CGEM/README.md) | Cullinan Therapeutics, Inc. | available, quality gates apply |
+| [CGEN](../companies/CGEN/README.md) | COMPUGEN LTD | not available |
+| [CGNT](../companies/CGNT/README.md) | Cognyte Software Ltd. | not available |
+| [CGNX](../companies/CGNX/README.md) | COGNEX CORP | available, quality gates apply |
+| [CGON](../companies/CGON/README.md) | CG Oncology, Inc. | available, quality gates apply |
+| [CGTL](../companies/CGTL/README.md) | Creative Global Technology Holdings Ltd | not available |
+| [CGTX](../companies/CGTX/README.md) | COGNITION THERAPEUTICS INC | available, quality gates apply |
+| [CHA](../companies/CHA/README.md) | Chagee Holdings Ltd. | not available |
+| [CHAI](../companies/CHAI/README.md) | Core AI Holdings, Inc. | not available |
+| [CHAR](../companies/CHAR/README.md) | Charlton Aria Acquisition Corp | available, quality gates apply |
+| [CHCI](../companies/CHCI/README.md) | Comstock Holding Companies, Inc. | available, quality gates apply |
+| [CHCO](../companies/CHCO/README.md) | CITY HOLDING CO | available, quality gates apply |
+| [CHCT](../companies/CHCT/README.md) | Community Healthcare Trust Inc | available, quality gates apply |
+| [CHD](../companies/CHD/README.md) | CHURCH & DWIGHT CO INC /DE/ | available, quality gates apply |
+| [CHDN](../companies/CHDN/README.md) | Churchill Downs Inc | available, quality gates apply |
+| [CHE](../companies/CHE/README.md) | CHEMED CORP | available, quality gates apply |
+| [CHEC](../companies/CHEC/README.md) | Chenghe Acquisition III Co. | available, quality gates apply |
+| [CHEF](../companies/CHEF/README.md) | Chefs' Warehouse, Inc. | not available |
+| [CHGA](../companies/CHGA/README.md) | Change Agents Corporation. | available, quality gates apply |
+| [CHGG](../companies/CHGG/README.md) | CHEGG, INC | available, quality gates apply |
+| [CHH](../companies/CHH/README.md) | CHOICE HOTELS INTERNATIONAL INC /DE | available, quality gates apply |
+| [CHKP](../companies/CHKP/README.md) | CHECK POINT SOFTWARE TECHNOLOGIES LTD | not available |
+| [CHMG](../companies/CHMG/README.md) | CHEMUNG FINANCIAL CORP | available, quality gates apply |
+| [CHMI](../companies/CHMI/README.md) | Cherry Hill Mortgage Investment Corp | not available |
+| [CHNR](../companies/CHNR/README.md) | CHINA NATURAL RESOURCES INC | not available |
+| [CHOW](../companies/CHOW/README.md) | ChowChow Cloud International Holdings Ltd | not available |
+| [CHPG](../companies/CHPG/README.md) | ChampionsGate Acquisition Corp | available, quality gates apply |
+| [CHPT](../companies/CHPT/README.md) | ChargePoint Holdings, Inc. | available, quality gates apply |
+| [CHR](../companies/CHR/README.md) | Cheer Holding, Inc. | not available |
+| [CHRD](../companies/CHRD/README.md) | Chord Energy Corp | available, quality gates apply |
+| [CHRN](../companies/CHRN/README.md) | ChronoScale Holdings Corp | available, quality gates apply |
+| [CHRS](../companies/CHRS/README.md) | Coherus Oncology, Inc. | available, quality gates apply |
+| [CHRW](../companies/CHRW/README.md) | C. H. ROBINSON WORLDWIDE, INC. | available, quality gates apply |
+| [CHSCL, CHSCM, CHSCN, CHSCO](../companies/CHSCL/README.md) | CHS INC | available, quality gates apply |
+| [CHSN](../companies/CHSN/README.md) | Chanson International Holding | not available |
+| [CHT](../companies/CHT/README.md) | CHUNGHWA TELECOM CO LTD | not available |
+| [CHTR, CHTRP](../companies/CHTR/README.md) | CHARTER COMMUNICATIONS, INC. /MO/ | available, quality gates apply |
+| [CHWM](../companies/CHWM/README.md) | Chilwa Minerals Ltd | not available |
+| [CHWY](../companies/CHWY/README.md) | Chewy, Inc. | available, quality gates apply |
+| [CHYM](../companies/CHYM/README.md) | Chime Financial, Inc. | available, quality gates apply |
+| [CI](../companies/CI/README.md) | Cigna Group | available, quality gates apply |
+| [CIA](../companies/CIA/README.md) | CITIZENS, INC. | available, quality gates apply |
+| [CIB](../companies/CIB/README.md) | Grupo Cibest S.A. | not available |
+| [CIEN](../companies/CIEN/README.md) | CIENA CORP | available, quality gates apply |
+| [CIFR](../companies/CIFR/README.md) | Cipher Digital Inc. | available, quality gates apply |
+| [CIGL](../companies/CIGL/README.md) | Concorde International Group Ltd. | not available |
+| [CII](../companies/CII/README.md) | BlackRock Enhanced Large Cap Core Fund, Inc. | not available |
+| [CIIT](../companies/CIIT/README.md) | Tianci International, Inc. | available, quality gates apply |
+| [CIK](../companies/CIK/README.md) | UBS ASSET MANAGEMENT INCOME FUND, INC. | not available |
+| [CIM](../companies/CIM/README.md) | CHIMERA INVESTMENT CORP | available, quality gates apply |
+| [CINF](../companies/CINF/README.md) | CINCINNATI FINANCIAL CORP | available, quality gates apply |
+| [CING](../companies/CING/README.md) | Cingulate Inc. | available, quality gates apply |
+| [CINT](../companies/CINT/README.md) | CI&T Inc | not available |
+| [CION](../companies/CION/README.md) | CION Investment Corp | available, quality gates apply |
+| [CIRC](../companies/CIRC/README.md) | CIRCLE8 GROUP INC | available, quality gates apply |
+| [CISO](../companies/CISO/README.md) | CISO Global, Inc. | available, quality gates apply |
+| [CISS](../companies/CISS/README.md) | C3is Inc. | not available |
+| [CITR](../companies/CITR/README.md) | CitroTech Inc. | available, quality gates apply |
+| [CIVB](../companies/CIVB/README.md) | CIVISTA BANCSHARES, INC. | available, quality gates apply |
+| [CIX](../companies/CIX/README.md) | COMPX INTERNATIONAL INC | available, quality gates apply |
+| [CJMB](../companies/CJMB/README.md) | CALLAN JMB INC. | available, quality gates apply |
+| [CKX](../companies/CKX/README.md) | CKX LANDS, INC. | available, quality gates apply |
+| [CL](../companies/CL/README.md) | COLGATE PALMOLIVE CO | available, quality gates apply |
+| [CLAR](../companies/CLAR/README.md) | Clarus Corp | available, quality gates apply |
+| [CLB](../companies/CLB/README.md) | Core Laboratories Inc. /DE/ | available, quality gates apply |
+| [CLBK](../companies/CLBK/README.md) | Columbia Financial, Inc./MD/ | available, quality gates apply |
+| [CLBR](../companies/CLBR/README.md) | Colombier Acquisition Corp. III | available, quality gates apply |
+| [CLBT](../companies/CLBT/README.md) | Cellebrite DI Ltd. | not available |
+| [CLDI](../companies/CLDI/README.md) | Calidi Biotherapeutics, Inc. | available, quality gates apply |

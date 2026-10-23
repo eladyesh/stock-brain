@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001396536 | [DUOS TECHNOLOGIES GROUP, INC.](../companies/0001396536/README.md) | DUOT | available, quality gates apply |
-| 0001396814 | [Pacira BioSciences, Inc.](../companies/0001396814/README.md) | PCRX | available, quality gates apply |
-| 0001397016 | [Optex Systems Holdings Inc](../companies/0001397016/README.md) | OPXS | available, quality gates apply |
-| 0001397183 | [Iveda Solutions, Inc.](../companies/0001397183/README.md) | IVDA | available, quality gates apply |
-| 0001397187 | [lululemon athletica inc.](../companies/0001397187/README.md) | LULU | available, quality gates apply |
-| 0001397911 | [LPL Financial Holdings Inc.](../companies/0001397911/README.md) | LPLA | available, quality gates apply |
-| 0001398659 | [Genpact LTD](../companies/0001398659/README.md) | G | available, quality gates apply |
-| 0001398733 | [Aquestive Therapeutics, Inc.](../companies/0001398733/README.md) | AQST | available, quality gates apply |
-| 0001398805 | [Beam Global](../companies/0001398805/README.md) | BEEM | available, quality gates apply |
-| 0001399520 | [ONE Group Hospitality, Inc.](../companies/0001399520/README.md) | STKS | available, quality gates apply |
-| 0001400118 | [Sagimet Biosciences Inc.](../companies/0001400118/README.md) | SGMT | available, quality gates apply |
-| 0001400438 | [Largo Inc.](../companies/0001400438/README.md) | LGO | not available |
-| 0001400810 | [HCI Group, Inc.](../companies/0001400810/README.md) | HCI | available, quality gates apply |
-| 0001400891 | [iHeartMedia, Inc.](../companies/0001400891/README.md) | IHRT | available, quality gates apply |
-| 0001400897 | [NXG Cushing Midstream Energy Fund](../companies/0001400897/README.md) | SRV | not available |
-| 0001401040 | [DiaMedica Therapeutics Inc.](../companies/0001401040/README.md) | DMAC | available, quality gates apply |
-| 0001401257 | [FORUM ENERGY TECHNOLOGIES, INC.](../companies/0001401257/README.md) | FET | not available |
-| 0001401521 | [AMERICAN COASTAL INSURANCE Corp](../companies/0001401521/README.md) | ACIC | available, quality gates apply |
-| 0001401667 | [PUMA BIOTECHNOLOGY, INC.](../companies/0001401667/README.md) | PBYI | available, quality gates apply |
-| 0001401914 | [Dare Bioscience, Inc.](../companies/0001401914/README.md) | DARE | available, quality gates apply |
-| 0001402057 | [CDW Corp](../companies/0001402057/README.md) | CDW | available, quality gates apply |
-| 0001402328 | [Sunshine Biopharma Inc.](../companies/0001402328/README.md) | SBFM | available, quality gates apply |
-| 0001402388 | [WEST FRASER TIMBER CO., LTD](../companies/0001402388/README.md) | WFG | not available |
-| 0001402436 | [SS&C Technologies Holdings Inc](../companies/0001402436/README.md) | SSNC | available, quality gates apply |
-| 0001402829 | [Orion Group Holdings Inc](../companies/0001402829/README.md) | ORN | not available |
-| 0001403161 | [VISA INC.](../companies/0001403161/README.md) | V | not available |
-| 0001403475 | [Bank of Marin Bancorp](../companies/0001403475/README.md) | BMRC | available, quality gates apply |
-| 0001403568 | [Ulta Beauty, Inc.](../companies/0001403568/README.md) | ULTA | available, quality gates apply |
-| 0001404281 | [Eledon Pharmaceuticals, Inc.](../companies/0001404281/README.md) | ELDN | available, quality gates apply |
-| 0001404644 | [Neurogene Inc.](../companies/0001404644/README.md) | NGNE | available, quality gates apply |
-| 0001404655 | [HUBSPOT INC](../companies/0001404655/README.md) | HUBS | available, quality gates apply |
-| 0001404912 | [KKR & Co. Inc.](../companies/0001404912/README.md) | KKR | available, quality gates apply |
-| 0001405495 | [InterDigital, Inc.](../companies/0001405495/README.md) | IDCC | available, quality gates apply |
-| 0001406587 | [Forestar Group Inc.](../companies/0001406587/README.md) | FOR | available, quality gates apply |
-| 0001406666 | [CALIX, INC](../companies/0001406666/README.md) | CALX | available, quality gates apply |
-| 0001408075 | [GRAPHIC PACKAGING HOLDING CO](../companies/0001408075/README.md) | GPK | available, quality gates apply |
-| 0001408198 | [MSCI Inc.](../companies/0001408198/README.md) | MSCI | available, quality gates apply |
-| 0001408443 | [Milestone Pharmaceuticals Inc.](../companies/0001408443/README.md) | MIST | available, quality gates apply |
-| 0001408534 | [First Guaranty Bancshares, Inc.](../companies/0001408534/README.md) | FGBI | available, quality gates apply |
-| 0001408710 | [Fabrinet](../companies/0001408710/README.md) | FN | available, quality gates apply |
-| 0001409171 | [Titan Machinery Inc.](../companies/0001409171/README.md) | TITN | available, quality gates apply |
-| 0001409375 | [ORION ENERGY SYSTEMS, INC.](../companies/0001409375/README.md) | OESX | available, quality gates apply |
-| 0001409493 | [CHIMERA INVESTMENT CORP](../companies/0001409493/README.md) | CIM | available, quality gates apply |
-| 0001409970 | [Happen, Inc.](../companies/0001409970/README.md) | HAPN | available, quality gates apply |
-| 0001410098 | [CorMedix Inc.](../companies/0001410098/README.md) | CRMD | available, quality gates apply |
-| 0001410384 | [Q2 Holdings, Inc.](../companies/0001410384/README.md) | QTWO | available, quality gates apply |
-| 0001410428 | [XWELL, Inc.](../companies/0001410428/README.md) | XWEL | available, quality gates apply |
-| 0001410636 | [American Water Works Company, Inc.](../companies/0001410636/README.md) | AWK | available, quality gates apply |
-| 0001411207 | [Allison Transmission Holdings Inc](../companies/0001411207/README.md) | ALSN | available, quality gates apply |
-| 0001411342 | [Ellington Financial Inc.](../companies/0001411342/README.md) | EFC | available, quality gates apply |
-| 0001411579 | [AMC ENTERTAINMENT HOLDINGS, INC.](../companies/0001411579/README.md) | AMC | available, quality gates apply |
-| 0001411685 | [Vistagen Therapeutics, Inc.](../companies/0001411685/README.md) | VTGN | available, quality gates apply |
-| 0001411690 | [Bionano Genomics, Inc.](../companies/0001411690/README.md) | BNGO | available, quality gates apply |
-| 0001412408 | [Phreesia, Inc.](../companies/0001412408/README.md) | PHR | available, quality gates apply |
-| 0001412486 | [Cocrystal Pharma, Inc.](../companies/0001412486/README.md) | COCP | available, quality gates apply |
-| 0001412558 | [Evotec SE](../companies/0001412558/README.md) | EVO | not available |
-| 0001413329 | [Philip Morris International Inc.](../companies/0001413329/README.md) | PM | available, quality gates apply |
-| 0001413447 | [NXP Semiconductors N.V.](../companies/0001413447/README.md) | NXPI | not available |
-| 0001413745 | [Yueda Digital Holding](../companies/0001413745/README.md) | YDKG | not available |
-| 0001413855 | [AIFU Inc.](../companies/0001413855/README.md) | AIFU | not available |
-| 0001414767 | [Netcapital Inc.](../companies/0001414767/README.md) | NCPL | available, quality gates apply |
-| 0001415404 | [EchoStar CORP](../companies/0001415404/README.md) | ECHO | available, quality gates apply |
-| 0001415921 | [Navios Maritime Partners L.P.](../companies/0001415921/README.md) | NMM | not available |
-| 0001417663 | [SANUWAVE Health, Inc.](../companies/0001417663/README.md) | SNWV | available, quality gates apply |
-| 0001417802 | [Voya Infrastructure, Industrials & Materials Fund](../companies/0001417802/README.md) | IDE | not available |
-| 0001417926 | [INVO Fertility, Inc.](../companies/0001417926/README.md) | IVF | available, quality gates apply |
-| 0001418121 | [Apple Hospitality REIT, Inc.](../companies/0001418121/README.md) | APLE | available, quality gates apply |
-| 0001418135 | [Keurig Dr Pepper Inc.](../companies/0001418135/README.md) | KDP | available, quality gates apply |
-| 0001418819 | [Iridium Communications Inc.](../companies/0001418819/README.md) | IRDM | available, quality gates apply |
-| 0001419275 | [RTB Digital, Inc.](../companies/0001419275/README.md) | RTB | available, quality gates apply |
-| 0001419536 | [Capital Bancorp Inc](../companies/0001419536/README.md) | CBNK | available, quality gates apply |
-| 0001419554 | [Bone Biologics Corp](../companies/0001419554/README.md) | BBLG | available, quality gates apply |
-| 0001419612 | [SOLAREDGE TECHNOLOGIES, INC.](../companies/0001419612/README.md) | SEDG | available, quality gates apply |
-| 0001419945 | [TEEKAY TANKERS LTD.](../companies/0001419945/README.md) | TNK | not available |
-| 0001419951 | [Data Storage Corp](../companies/0001419951/README.md) | DTST | available, quality gates apply |
-| 0001420520 | [Atomera Inc](../companies/0001420520/README.md) | ATOM | available, quality gates apply |
-| 0001420529 | [ATA Creativity Global](../companies/0001420529/README.md) | AACG | not available |
-| 0001420565 | [Rein Therapeutics, Inc.](../companies/0001420565/README.md) | RNTX | available, quality gates apply |
-| 0001420720 | [iBio, Inc.](../companies/0001420720/README.md) | IBIO | available, quality gates apply |
-| 0001420800 | [Enovis CORP](../companies/0001420800/README.md) | ENOV | available, quality gates apply |
-| 0001421461 | [Intrepid Potash, Inc.](../companies/0001421461/README.md) | IPI | available, quality gates apply |
-| 0001421517 | [Energy Recovery, Inc.](../companies/0001421517/README.md) | ERII | available, quality gates apply |
-| 0001421642 | [Satellos Bioscience Inc.](../companies/0001421642/README.md) | MSLE | not available |
-| 0001421876 | [Lakefront Biotherapeutics NV](../companies/0001421876/README.md) | LKFT | not available |
-| 0001422142 | [Whitehawk Therapeutics, Inc.](../companies/0001422142/README.md) | WHWK | available, quality gates apply |
-| 0001422143 | [Kura Oncology, Inc.](../companies/0001422143/README.md) | KURA | available, quality gates apply |
-| 0001422183 | [FS KKR Capital Corp](../companies/0001422183/README.md) | FSK | available, quality gates apply |
-| 0001422892 | [Singularity Future Technology Ltd.](../companies/0001422892/README.md) | SGLY | available, quality gates apply |
-| 0001422930 | [PubMatic, Inc.](../companies/0001422930/README.md) | PUBM | available, quality gates apply |
-| 0001423221 | [Quanex Building Products CORP](../companies/0001423221/README.md) | NX | available, quality gates apply |
-| 0001423689 | [AGNC Investment Corp.](../companies/0001423689/README.md) | AGNC, AGNCL, AGNCM, AGNCN, AGNCO, AGNCP, AGNCZ | available, quality gates apply |
-| 0001423869 | [PCB BANCORP](../companies/0001423869/README.md) | PCB | available, quality gates apply |
-| 0001423902 | [Western Midstream Partners, LP](../companies/0001423902/README.md) | WES | not available |
-| 0001424182 | [Broadstone Net Lease, Inc.](../companies/0001424182/README.md) | BNL | available, quality gates apply |
-| 0001424929 | [FOX FACTORY HOLDING CORP](../companies/0001424929/README.md) | FOXF | available, quality gates apply |
-| 0001425205 | [IOVANCE BIOTHERAPEUTICS, INC.](../companies/0001425205/README.md) | IOVA | available, quality gates apply |
-| 0001425287 | [Workhorse Group Inc.](../companies/0001425287/README.md) | WKHS | available, quality gates apply |
-| 0001425292 | [CVR PARTNERS, LP](../companies/0001425292/README.md) | UAN | available, quality gates apply |
-| 0001425355 | [SUI Group Holdings Ltd.](../companies/0001425355/README.md) | SUIG | available, quality gates apply |
-| 0001425450 | [ORTHOPEDIATRICS CORP](../companies/0001425450/README.md) | KIDS | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [HCSG](../companies/HCSG/README.md) | HEALTHCARE SERVICES GROUP INC | available, quality gates apply |
+| [HCTI](../companies/HCTI/README.md) | Healthcare Triangle, Inc. | available, quality gates apply |
+| [HCWB](../companies/HCWB/README.md) | HCW Biologics Inc. | available, quality gates apply |
+| [HD](../companies/HD/README.md) | HOME DEPOT, INC. | available, quality gates apply |
+| [HDB](../companies/HDB/README.md) | HDFC BANK LTD | not available |
+| [HDL](../companies/HDL/README.md) | SUPER HI INTERNATIONAL HOLDING LTD. | not available |
+| [HDRN](../companies/HDRN/README.md) | Hadron Energy, Inc. | available, quality gates apply |
+| [HDSN](../companies/HDSN/README.md) | HUDSON TECHNOLOGIES INC /NY | available, quality gates apply |
+| [HE](../companies/HE/README.md) | HAWAIIAN ELECTRIC INDUSTRIES INC | available, quality gates apply |
+| [HEI, HEI.A](../companies/HEI/README.md) | HEICO CORP | available, quality gates apply |
+| [HELE](../companies/HELE/README.md) | HELEN OF TROY LTD | available, quality gates apply |
+| [HELP](../companies/HELP/README.md) | Helus Pharma Inc. | not available |
+| [HEPS](../companies/HEPS/README.md) | D-MARKET Electronic Services & Trading | not available |
+| [HEQ](../companies/HEQ/README.md) | John Hancock Diversified Income Fund | not available |
+| [HERE](../companies/HERE/README.md) | Here Group Ltd | not available |
+| [HESM](../companies/HESM/README.md) | Hess Midstream LP | available, quality gates apply |
+| [HFBL](../companies/HFBL/README.md) | Home Federal Bancorp, Inc. of Louisiana | available, quality gates apply |
+| [HFFG](../companies/HFFG/README.md) | HF Foods Group Inc. | available, quality gates apply |
+| [HFRO](../companies/HFRO/README.md) | HIGHLAND OPPORTUNITIES & INCOME FUND | not available |
+| [HFWA](../companies/HFWA/README.md) | HERITAGE FINANCIAL CORP /WA/ | available, quality gates apply |
+| [HG](../companies/HG/README.md) | Hamilton Insurance Group, Ltd. | available, quality gates apply |
+| [HGBL](../companies/HGBL/README.md) | Heritage Global Inc. | available, quality gates apply |
+| [HGLB](../companies/HGLB/README.md) | HIGHLAND GLOBAL ALLOCATION FUND | not available |
+| [HGTY](../companies/HGTY/README.md) | Hagerty, Inc. | available, quality gates apply |
+| [HGV](../companies/HGV/README.md) | Hilton Grand Vacations Inc. | available, quality gates apply |
+| [HHH](../companies/HHH/README.md) | Howard Hughes Holdings Inc. | available, quality gates apply |
+| [HHS](../companies/HHS/README.md) | HARTE HANKS INC | available, quality gates apply |
+| [HIG, HIG$G](../companies/HIG/README.md) | HARTFORD INSURANCE GROUP, INC. | available, quality gates apply |
+| [HIHO](../companies/HIHO/README.md) | HIGHWAY HOLDINGS LTD | not available |
+| [HII](../companies/HII/README.md) | HUNTINGTON INGALLS INDUSTRIES, INC. | available, quality gates apply |
+| [HIMS](../companies/HIMS/README.md) | Hims & Hers Health, Inc. | available, quality gates apply |
+| [HIMX](../companies/HIMX/README.md) | Himax Technologies, Inc. | not available |
+| [HIND](../companies/HIND/README.md) | Vyome Holdings, Inc | available, quality gates apply |
+| [HIO](../companies/HIO/README.md) | WESTERN ASSET HIGH INCOME OPPORTUNITY FUND INC. | not available |
+| [HIPO](../companies/HIPO/README.md) | Hippo Holdings Inc. | available, quality gates apply |
+| [HIT](../companies/HIT/README.md) | Health In Tech, Inc. | available, quality gates apply |
+| [HITI](../companies/HITI/README.md) | High Tide Inc. | not available |
+| [HIVE](../companies/HIVE/README.md) | HIVE Digital Technologies Ltd. | available, quality gates apply |
+| [HIW](../companies/HIW/README.md) | HIGHWOODS PROPERTIES, INC. | not available |
+| [HIX](../companies/HIX/README.md) | WESTERN ASSET HIGH INCOME FUND II INC. | not available |
+| [HKD](../companies/HKD/README.md) | AMTD Digital Inc. | not available |
+| [HKPD](../companies/HKPD/README.md) | Cellyan Biotechnology Co., Ltd | not available |
+| [HL, HL$B](../companies/HL/README.md) | HECLA MINING CO/DE/ | available, quality gates apply |
+| [HLF](../companies/HLF/README.md) | HERBALIFE LTD. | available, quality gates apply |
+| [HLI](../companies/HLI/README.md) | HOULIHAN LOKEY, INC. | available, quality gates apply |
+| [HLIO](../companies/HLIO/README.md) | HELIOS TECHNOLOGIES, INC. | available, quality gates apply |
+| [HLIT](../companies/HLIT/README.md) | HARMONIC INC. | available, quality gates apply |
+| [HLLY](../companies/HLLY/README.md) | Holley Inc. | available, quality gates apply |
+| [HLMN](../companies/HLMN/README.md) | Hillman Solutions Corp. | available, quality gates apply |
+| [HLN](../companies/HLN/README.md) | Haleon plc | not available |
+| [HLNE](../companies/HLNE/README.md) | Hamilton Lane INC | available, quality gates apply |
+| [HLP](../companies/HLP/README.md) | Hongli Group Inc. | not available |
+| [HLSQ](../companies/HLSQ/README.md) | Tessera Defense & Homeland Security Inc. | available, quality gates apply |
+| [HLT](../companies/HLT/README.md) | Hilton Worldwide Holdings Inc. | available, quality gates apply |
+| [HLXC](../companies/HLXC/README.md) | Helix Acquisition Corp. III | available, quality gates apply |
+| [HMC](../companies/HMC/README.md) | HONDA MOTOR CO LTD | not available |
+| [HMH](../companies/HMH/README.md) | HMH Holding Inc | available, quality gates apply |
+| [HMN](../companies/HMN/README.md) | HORACE MANN EDUCATORS CORP /DE/ | available, quality gates apply |
+| [HMR](../companies/HMR/README.md) | Heidmar Maritime Holdings Corp. | not available |
+| [HMY](../companies/HMY/README.md) | HARMONY GOLD MINING CO LTD | not available |
+| [HNGE](../companies/HNGE/README.md) | Hinge Health, Inc. | available, quality gates apply |
+| [HNI](../companies/HNI/README.md) | HNI CORP | available, quality gates apply |
+| [HNNA](../companies/HNNA/README.md) | HENNESSY ADVISORS INC | available, quality gates apply |
+| [HNRG](../companies/HNRG/README.md) | HALLADOR ENERGY CO | available, quality gates apply |
+| [HNST](../companies/HNST/README.md) | Honest Company, Inc. | available, quality gates apply |
+| [HNVR](../companies/HNVR/README.md) | Hanover Bancorp, Inc. /MD | available, quality gates apply |
+| [HODO](../companies/HODO/README.md) | House of Doge Inc. | available, quality gates apply |
+| [HOFT](../companies/HOFT/README.md) | HOOKER FURNISHINGS Corp | available, quality gates apply |
+| [HOG](../companies/HOG/README.md) | HARLEY-DAVIDSON, INC. | available, quality gates apply |
+| [HOLO](../companies/HOLO/README.md) | MicroCloud Hologram Inc. | available, quality gates apply |
+| [HOMB](../companies/HOMB/README.md) | HOME BANCSHARES INC | available, quality gates apply |
+| [HON](../companies/HON/README.md) | HONEYWELL INTERNATIONAL INC | available, quality gates apply |
+| [HONA](../companies/HONA/README.md) | Honeywell Aerospace Inc. | available, quality gates apply |
+| [HOOD](../companies/HOOD/README.md) | Robinhood Markets, Inc. | available, quality gates apply |
+| [HOPE](../companies/HOPE/README.md) | HOPE BANCORP INC | available, quality gates apply |
+| [HOS](../companies/HOS/README.md) | HORNBECK OFFSHORE SERVICES, INC. | available, quality gates apply |
+| [HOST](../companies/HOST/README.md) | Host Digital Inc. | available, quality gates apply |
+| [HOUR](../companies/HOUR/README.md) | Hour Loop, Inc | available, quality gates apply |
+| [HOV, HOVNP](../companies/HOV/README.md) | HOVNANIAN ENTERPRISES INC | available, quality gates apply |
+| [HOVR](../companies/HOVR/README.md) | New Horizon Aircraft Ltd. | not available |
+| [HOWL](../companies/HOWL/README.md) | Werewolf Therapeutics, Inc. | available, quality gates apply |
+| [HP](../companies/HP/README.md) | Helmerich & Payne, Inc. | available, quality gates apply |
+| [HPAI](../companies/HPAI/README.md) | Helport AI Ltd | not available |
+| [HPE](../companies/HPE/README.md) | Hewlett Packard Enterprise Co | available, quality gates apply |
+| [HPI](../companies/HPI/README.md) | JOHN HANCOCK PREFERRED INCOME FUND | not available |
+| [HPK](../companies/HPK/README.md) | HighPeak Energy, Inc. | available, quality gates apply |
+| [HPP](../companies/HPP/README.md) | Hudson Pacific Properties, Inc. | not available |
+| [HPQ](../companies/HPQ/README.md) | HP INC | available, quality gates apply |
+| [HPS](../companies/HPS/README.md) | JOHN HANCOCK PREFERRED INCOME FUND III | not available |
+| [HQ](../companies/HQ/README.md) | Horizon Quantum Holdings Ltd. | not available |
+| [HQH](../companies/HQH/README.md) | abrdn Healthcare Investors | not available |
+| [HQI](../companies/HQI/README.md) | HireQuest, Inc. | available, quality gates apply |
+| [HQL](../companies/HQL/README.md) | abrdn Life Sciences Investors | not available |
+| [HQY](../companies/HQY/README.md) | HEALTHEQUITY, INC. | available, quality gates apply |
+| [HR](../companies/HR/README.md) | Healthcare Realty Trust Inc | available, quality gates apply |
+| [HRB](../companies/HRB/README.md) | H&R BLOCK INC | available, quality gates apply |
+| [HRI](../companies/HRI/README.md) | HERC HOLDINGS INC | available, quality gates apply |
+| [HRL](../companies/HRL/README.md) | HORMEL FOODS CORP /DE/ | available, quality gates apply |
+| [HRMY](../companies/HRMY/README.md) | Harmony Biosciences Holdings, Inc. | available, quality gates apply |
+| [HROW](../companies/HROW/README.md) | HARROW, INC. | available, quality gates apply |

@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001288855 | [OptimumBank Holdings, Inc.](../companies/0001288855/README.md) | OPHC | available, quality gates apply |
-| 0001288992 | [Eaton Vance Floating-Rate Income Trust](../companies/0001288992/README.md) | EFT | not available |
-| 0001289308 | [EnerSys](../companies/0001289308/README.md) | ENS | available, quality gates apply |
-| 0001289340 | [Stereotaxis, Inc.](../companies/0001289340/README.md) | STXS | available, quality gates apply |
-| 0001289419 | [Morningstar, Inc.](../companies/0001289419/README.md) | MORN | available, quality gates apply |
-| 0001289460 | [Texas Roadhouse, Inc.](../companies/0001289460/README.md) | TXRH | available, quality gates apply |
-| 0001289490 | [Extra Space Storage Inc.](../companies/0001289490/README.md) | EXR | available, quality gates apply |
-| 0001289848 | [Huron Consulting Group Inc.](../companies/0001289848/README.md) | HURN | not available |
-| 0001289868 | [XAI Madison Equity Premium Income Fund](../companies/0001289868/README.md) | MCN | not available |
-| 0001289877 | [SFL Corp Ltd.](../companies/0001289877/README.md) | SFL | not available |
-| 0001289945 | [Spok Holdings, Inc](../companies/0001289945/README.md) | SPOK | available, quality gates apply |
-| 0001290109 | [LG Display Co., Ltd.](../companies/0001290109/README.md) | LPL | not available |
-| 0001290677 | [Turning Point Brands, Inc.](../companies/0001290677/README.md) | TPB | available, quality gates apply |
-| 0001290877 | [Clinuvel Pharmaceuticals Ltd](../companies/0001290877/README.md) | CUVL | not available |
-| 0001290900 | [Commercial Vehicle Group, Inc.](../companies/0001290900/README.md) | CVGI | available, quality gates apply |
-| 0001291334 | [FIRST TRUST ENHANCED EQUITY INCOME FUND](../companies/0001291334/README.md) | FFA | not available |
-| 0001291855 | [SuperCom Ltd](../companies/0001291855/README.md) | SPCB | not available |
-| 0001293135 | [VERMILION ENERGY INC.](../companies/0001293135/README.md) | VET | not available |
-| 0001293613 | [Kayne Anderson Energy Infrastructure Fund, Inc.](../companies/0001293613/README.md) | KYN | not available |
-| 0001294133 | [Inogen Inc](../companies/0001294133/README.md) | INGN | available, quality gates apply |
-| 0001295401 | [Bancorp, Inc.](../companies/0001295401/README.md) | TBBK | available, quality gates apply |
-| 0001295947 | [Prestige Consumer Healthcare Inc.](../companies/0001295947/README.md) | PBH | available, quality gates apply |
-| 0001296250 | [PIMCO Income Strategy Fund II](../companies/0001296250/README.md) | PFN | not available |
-| 0001296445 | [ORMAT TECHNOLOGIES, INC.](../companies/0001296445/README.md) | ORA | available, quality gates apply |
-| 0001296484 | [TOP SHIPS INC.](../companies/0001296484/README.md) | TOPS | not available |
-| 0001296774 | [The9 LTD](../companies/0001296774/README.md) | NCTY | not available |
-| 0001297107 | [CoastalSouth Bancshares, Inc.](../companies/0001297107/README.md) | COSO | available, quality gates apply |
-| 0001297184 | [Amphastar Pharmaceuticals, Inc.](../companies/0001297184/README.md) | AMPH | available, quality gates apply |
-| 0001297341 | [Kentucky First Federal Bancorp](../companies/0001297341/README.md) | KFFB | not available |
-| 0001297989 | [ExlService Holdings, Inc.](../companies/0001297989/README.md) | EXLS | not available |
-| 0001297996 | [DIGITAL REALTY TRUST, INC.](../companies/0001297996/README.md) | DLR | not available |
-| 0001298675 | [CubeSmart](../companies/0001298675/README.md) | CUBE | not available |
-| 0001298946 | [DiamondRock Hospitality Co](../companies/0001298946/README.md) | DRH | available, quality gates apply |
-| 0001299130 | [PACIFIC BIOSCIENCES OF CALIFORNIA, INC.](../companies/0001299130/README.md) | PACB | available, quality gates apply |
-| 0001299709 | [Axos Financial, Inc.](../companies/0001299709/README.md) | AX | available, quality gates apply |
-| 0001299969 | [Comstock Holding Companies, Inc.](../companies/0001299969/README.md) | CHCI | available, quality gates apply |
-| 0001300514 | [LAS VEGAS SANDS CORP](../companies/0001300514/README.md) | LVS | available, quality gates apply |
-| 0001301787 | [BlueLinx Holdings Inc.](../companies/0001301787/README.md) | BXC | available, quality gates apply |
-| 0001302215 | [HOULIHAN LOKEY, INC.](../companies/0001302215/README.md) | HLI | available, quality gates apply |
-| 0001302387 | [BV Financial, Inc.](../companies/0001302387/README.md) | BVFL | available, quality gates apply |
-| 0001304492 | [Anterix Inc.](../companies/0001304492/README.md) | ATEX | available, quality gates apply |
-| 0001306550 | [BlackRock Energy & Resources Trust](../companies/0001306550/README.md) | BGR | not available |
-| 0001306830 | [Celanese Corp](../companies/0001306830/README.md) | CE | available, quality gates apply |
-| 0001306965 | [Shell plc](../companies/0001306965/README.md) | SHEL | not available |
-| 0001307579 | [LIQTECH INTERNATIONAL INC](../companies/0001307579/README.md) | LIQT | available, quality gates apply |
-| 0001307748 | [InvenTrust Properties Corp.](../companies/0001307748/README.md) | IVT | available, quality gates apply |
-| 0001307954 | [Huntsman CORP](../companies/0001307954/README.md) | HUN | not available |
-| 0001308208 | [UNIVERSAL LOGISTICS HOLDINGS, INC.](../companies/0001308208/README.md) | ULH | available, quality gates apply |
-| 0001308547 | [Dolby Laboratories, Inc.](../companies/0001308547/README.md) | DLB | available, quality gates apply |
-| 0001308648 | [FIRST MAJESTIC SILVER CORP](../companies/0001308648/README.md) | AG | not available |
-| 0001309108 | [WEX Inc.](../companies/0001309108/README.md) | WEX | available, quality gates apply |
-| 0001309402 | [Green Plains Inc.](../companies/0001309402/README.md) | GPRE | available, quality gates apply |
-| 0001311370 | [Lazard, Inc.](../companies/0001311370/README.md) | LAZ | not available |
-| 0001313310 | [GRAVITY Co., Ltd.](../companies/0001313310/README.md) | GRVY | not available |
-| 0001313510 | [GAMCO Global Gold, Natural Resources & Income Trust](../companies/0001313510/README.md) | GGN | not available |
-| 0001314052 | [ANAVEX LIFE SCIENCES CORP.](../companies/0001314052/README.md) | AVXL | available, quality gates apply |
-| 0001314102 | [EyePoint, Inc.](../companies/0001314102/README.md) | EYPT | available, quality gates apply |
-| 0001314196 | [OLB GROUP, INC.](../companies/0001314196/README.md) | OLB | available, quality gates apply |
-| 0001314727 | [Sonos Inc](../companies/0001314727/README.md) | SONO | available, quality gates apply |
-| 0001314966 | [BlackRock Health Sciences Trust](../companies/0001314966/README.md) | BME | not available |
-| 0001315098 | [Roblox Corp](../companies/0001315098/README.md) | RBLX | available, quality gates apply |
-| 0001315257 | [Koppers Holdings Inc.](../companies/0001315257/README.md) | KOP | available, quality gates apply |
-| 0001315399 | [PARKE BANCORP, INC.](../companies/0001315399/README.md) | PKBK | available, quality gates apply |
-| 0001316835 | [Builders FirstSource, Inc.](../companies/0001316835/README.md) | BLDR | available, quality gates apply |
-| 0001317685 | [Alliance Laundry Holdings Inc.](../companies/0001317685/README.md) | ALH | available, quality gates apply |
-| 0001317945 | [Omega Flex, Inc.](../companies/0001317945/README.md) | OFLX | available, quality gates apply |
-| 0001318008 | [Zumiez Inc](../companies/0001318008/README.md) | ZUMZ | available, quality gates apply |
-| 0001318025 | [PIMCO Global StocksPLUS & Income Fund](../companies/0001318025/README.md) | PGP | not available |
-| 0001318220 | [Waste Connections, Inc.](../companies/0001318220/README.md) | WCN | available, quality gates apply |
-| 0001318484 | [Citi Trends Inc](../companies/0001318484/README.md) | CTRN | available, quality gates apply |
-| 0001318605 | [Tesla, Inc.](../companies/0001318605/README.md) | TSLA | available, quality gates apply |
-| 0001318885 | [DIANA SHIPPING INC.](../companies/0001318885/README.md) | DSX | not available |
-| 0001319161 | [Warner Music Group Corp.](../companies/0001319161/README.md) | WMG | available, quality gates apply |
-| 0001319183 | [FIRST TRUST MORTGAGE INCOME FUND](../companies/0001319183/README.md) | FMY | not available |
-| 0001319947 | [Designer Brands Inc.](../companies/0001319947/README.md) | DBI | available, quality gates apply |
-| 0001320350 | [LENSAR, Inc.](../companies/0001320350/README.md) | LNSR | available, quality gates apply |
-| 0001320375 | [BlackRock Enhanced Global Dividend Trust](../companies/0001320375/README.md) | BOE | not available |
-| 0001320461 | [Cooper-Standard Holdings Inc.](../companies/0001320461/README.md) | CPS | available, quality gates apply |
-| 0001320760 | [TSS, Inc.](../companies/0001320760/README.md) | TSSI | available, quality gates apply |
-| 0001320854 | [FreightCar America, Inc.](../companies/0001320854/README.md) | RAIL | available, quality gates apply |
-| 0001321655 | [Palantir Technologies Inc.](../companies/0001321655/README.md) | PLTR | available, quality gates apply |
-| 0001321732 | [Penumbra Inc](../companies/0001321732/README.md) | PEN | available, quality gates apply |
-| 0001321834 | [Q/C TECHNOLOGIES, INC.](../companies/0001321834/README.md) | QCLS | available, quality gates apply |
-| 0001321851 | [Origin Agritech LTD](../companies/0001321851/README.md) | SEED | not available |
-| 0001322422 | [Hudbay Minerals Inc.](../companies/0001322422/README.md) | HBM | not available |
-| 0001323404 | [Wheaton Precious Metals Corp.](../companies/0001323404/README.md) | WPM | not available |
-| 0001323468 | [GLOBAL PARTNERS LP](../companies/0001323468/README.md) | GLP | available, quality gates apply |
-| 0001323885 | [AtriCure, Inc.](../companies/0001323885/README.md) | ATRC | available, quality gates apply |
-| 0001324404 | [CF Industries Holdings, Inc.](../companies/0001324404/README.md) | CF | available, quality gates apply |
-| 0001324424 | [Expedia Group, Inc.](../companies/0001324424/README.md) | EXPE | available, quality gates apply |
-| 0001324948 | [RBC Bearings INC](../companies/0001324948/README.md) | RBC | available, quality gates apply |
-| 0001325618 | [IRADIMED CORP](../companies/0001325618/README.md) | IRMD | available, quality gates apply |
-| 0001325670 | [Primis Financial Corp.](../companies/0001325670/README.md) | FRST | available, quality gates apply |
-| 0001325702 | [MAGNACHIP SEMICONDUCTOR Corp](../companies/0001325702/README.md) | MX | available, quality gates apply |
-| 0001325964 | [Lightwave Logic, Inc.](../companies/0001325964/README.md) | LWLG | available, quality gates apply |
-| 0001326110 | [ImmunityBio, Inc.](../companies/0001326110/README.md) | IBRX | available, quality gates apply |
-| 0001326160 | [Duke Energy CORP](../companies/0001326160/README.md) | DUK$A | not available |
-| 0001326190 | [Altimmune, Inc.](../companies/0001326190/README.md) | ALT | available, quality gates apply |
-| 0001326200 | [GENCO SHIPPING & TRADING LTD](../companies/0001326200/README.md) | GNK | available, quality gates apply |
-| 0001326205 | [IGC Pharma, Inc.](../companies/0001326205/README.md) | IGC | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [FTEK](../companies/FTEK/README.md) | FUEL TECH, INC. | available, quality gates apply |
+| [FTF](../companies/FTF/README.md) | FRANKLIN LTD DURATION INCOME TRUST | not available |
+| [FTFT](../companies/FTFT/README.md) | Future FinTech Group Inc. | available, quality gates apply |
+| [FTH](../companies/FTH/README.md) | Faeth Therapeutics, Inc. | available, quality gates apply |
+| [FTHA](../companies/FTHA/README.md) | Forefront Tech Holdings Acquisition Corp | available, quality gates apply |
+| [FTHM](../companies/FTHM/README.md) | Fathom Holdings Inc. | available, quality gates apply |
+| [FTHY](../companies/FTHY/README.md) | FIRST TRUST HIGH YIELD OPPORTUNITIES 2027 TERM FUND | not available |
+| [FTI](../companies/FTI/README.md) | TechnipFMC plc | available, quality gates apply |
+| [FTK](../companies/FTK/README.md) | FLOTEK INDUSTRIES INC/CN/ | available, quality gates apply |
+| [FTLF](../companies/FTLF/README.md) | FITLIFE BRANDS, INC. | available, quality gates apply |
+| [FTNT](../companies/FTNT/README.md) | Fortinet, Inc. | available, quality gates apply |
+| [FTRA](../companies/FTRA/README.md) | FutureCorp Space Acquisition 1 | available, quality gates apply |
+| [FTRE](../companies/FTRE/README.md) | Fortrea Holdings Inc. | available, quality gates apply |
+| [FTS](../companies/FTS/README.md) | Fortis Inc. | not available |
+| [FTV](../companies/FTV/README.md) | Fortive Corp | not available |
+| [FTW](../companies/FTW/README.md) | PRESIDIO PRODUCTION Co | not available |
+| [FUBO](../companies/FUBO/README.md) | FuboTV Inc. | available, quality gates apply |
+| [FUFU](../companies/FUFU/README.md) | Bitfufu Inc. | not available |
+| [FULC](../companies/FULC/README.md) | Fulcrum Therapeutics, Inc. | available, quality gates apply |
+| [FULT, FULTP](../companies/FULT/README.md) | FULTON FINANCIAL CORP | available, quality gates apply |
+| [FUNC](../companies/FUNC/README.md) | FIRST UNITED CORP/MD/ | available, quality gates apply |
+| [FURY](../companies/FURY/README.md) | FURY GOLD MINES LTD | not available |
+| [FUSB](../companies/FUSB/README.md) | FIRST US BANCSHARES, INC. | available, quality gates apply |
+| [FUSE](../companies/FUSE/README.md) | Fusemachines Inc. | available, quality gates apply |
+| [FUTU](../companies/FUTU/README.md) | Futu Holdings Ltd | not available |
+| [FVAV](../companies/FVAV/README.md) | Fortress Value Acquisition Corp. V | available, quality gates apply |
+| [FVCB](../companies/FVCB/README.md) | FVCBankcorp, Inc. | available, quality gates apply |
+| [FVN](../companies/FVN/README.md) | Future Vision II Acquisition Corp. | available, quality gates apply |
+| [FVR](../companies/FVR/README.md) | FrontView REIT, Inc. | available, quality gates apply |
+| [FVRR](../companies/FVRR/README.md) | Fiverr International Ltd. | not available |
+| [FWAC](../companies/FWAC/README.md) | Futurewave Acquisition Corp | available, quality gates apply |
+| [FWDI](../companies/FWDI/README.md) | Forward Industries, Inc. | available, quality gates apply |
+| [FWONA, FWONK](../companies/FWONA/README.md) | Liberty Media Corp | available, quality gates apply |
+| [FWRD](../companies/FWRD/README.md) | FORWARD AIR CORP | available, quality gates apply |
+| [FWRG](../companies/FWRG/README.md) | First Watch Restaurant Group, Inc. | available, quality gates apply |
+| [FXAC](../companies/FXAC/README.md) | FortuneX Acquisition Corp | available, quality gates apply |
+| [FXHO](../companies/FXHO/README.md) | UTime Ltd | not available |
+| [FXNC](../companies/FXNC/README.md) | FIRST NATIONAL CORP /VA/ | available, quality gates apply |
+| [G](../companies/G/README.md) | Genpact LTD | available, quality gates apply |
+| [GAB, GAB$G](../companies/GAB/README.md) | GABELLI EQUITY TRUST INC | not available |
+| [GABC](../companies/GABC/README.md) | GERMAN AMERICAN BANCORP, INC. | available, quality gates apply |
+| [GAIA](../companies/GAIA/README.md) | GAIA, INC | available, quality gates apply |
+| [GALT](../companies/GALT/README.md) | GALECTIN THERAPEUTICS INC | available, quality gates apply |
+| [GAM](../companies/GAM/README.md) | GENERAL AMERICAN INVESTORS CO INC | not available |
+| [GAME](../companies/GAME/README.md) | GameSquare Holdings, Inc. | available, quality gates apply |
+| [GANX](../companies/GANX/README.md) | Gain Therapeutics, Inc. | available, quality gates apply |
+| [GAP](../companies/GAP/README.md) | GAP INC | available, quality gates apply |
+| [GASS](../companies/GASS/README.md) | StealthGas Inc. | not available |
+| [GATX](../companies/GATX/README.md) | GATX CORP | available, quality gates apply |
+| [GAU](../companies/GAU/README.md) | Galiano Gold Inc. | not available |
+| [GAUZ](../companies/GAUZ/README.md) | Gauzy Ltd. | not available |
+| [GBAB](../companies/GBAB/README.md) | Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust | not available |
+| [GBCI](../companies/GBCI/README.md) | GLACIER BANCORP, INC. | available, quality gates apply |
+| [GBFH](../companies/GBFH/README.md) | GBank Financial Holdings Inc. | available, quality gates apply |
+| [GBLI](../companies/GBLI/README.md) | Global Indemnity Group, LLC | available, quality gates apply |
+| [GBR](../companies/GBR/README.md) | New Concept Energy, Inc. | available, quality gates apply |
+| [GBX](../companies/GBX/README.md) | GREENBRIER COMPANIES INC | available, quality gates apply |
+| [GCBC](../companies/GCBC/README.md) | GREENE COUNTY BANCORP INC | available, quality gates apply |
+| [GCDT](../companies/GCDT/README.md) | Green Circle Decarbonize Technology Ltd | not available |
+| [GCGR](../companies/GCGR/README.md) | General Catalyst Global Resilience Merger Corp. | available, quality gates apply |
+| [GCL](../companies/GCL/README.md) | GCL Global Holdings Ltd | not available |
+| [GCMG](../companies/GCMG/README.md) | GCM Grosvenor Inc. | available, quality gates apply |
+| [GCO](../companies/GCO/README.md) | GENESCO INC | available, quality gates apply |
+| [GCT](../companies/GCT/README.md) | GigaCloud Technology Inc | available, quality gates apply |
+| [GCTK](../companies/GCTK/README.md) | Glucotrack, Inc. | available, quality gates apply |
+| [GCTS](../companies/GCTS/README.md) | GCT Semiconductor Holding, Inc. | available, quality gates apply |
+| [GCV](../companies/GCV/README.md) | GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC | not available |
+| [GD](../companies/GD/README.md) | GENERAL DYNAMICS CORP | not available |
+| [GDC](../companies/GDC/README.md) | GD Culture Group Ltd | available, quality gates apply |
+| [GDDY](../companies/GDDY/README.md) | GoDaddy Inc. | available, quality gates apply |
+| [GDEV](../companies/GDEV/README.md) | GDEV Inc. | not available |
+| [GDHG](../companies/GDHG/README.md) | GOLDEN HEAVEN GROUP HOLDINGS LTD. | not available |
+| [GDL](../companies/GDL/README.md) | GDL FUND | not available |
+| [GDO](../companies/GDO/README.md) | WESTERN ASSET GLOBAL CORPORATE OPPORTUNITY FUND INC. | not available |
+| [GDOT](../companies/GDOT/README.md) | GREEN DOT CORP | available, quality gates apply |
+| [GDRX](../companies/GDRX/README.md) | GoodRx Holdings, Inc. | available, quality gates apply |
+| [GDS](../companies/GDS/README.md) | GDS Holdings Ltd | not available |
+| [GDTC](../companies/GDTC/README.md) | CytoMed Therapeutics Ltd | not available |
+| [GDV](../companies/GDV/README.md) | GABELLI DIVIDEND & INCOME TRUST | not available |
+| [GDYN](../companies/GDYN/README.md) | GRID DYNAMICS HOLDINGS, INC. | available, quality gates apply |
+| [GEF, GEF.B](../companies/GEF/README.md) | GREIF, INC | not available |
+| [GEG](../companies/GEG/README.md) | Great Elm Group, Inc. | available, quality gates apply |
+| [GEHC](../companies/GEHC/README.md) | GE HealthCare Technologies Inc. | not available |
+| [GEL](../companies/GEL/README.md) | GENESIS ENERGY LP | available, quality gates apply |
+| [GELS](../companies/GELS/README.md) | Gelteq Ltd | not available |
+| [GEMI](../companies/GEMI/README.md) | Gemini Space Station, Inc. | available, quality gates apply |
+| [GEN](../companies/GEN/README.md) | Gen Digital Inc. | available, quality gates apply |
+| [GENB](../companies/GENB/README.md) | Generate Biomedicines, Inc. | available, quality gates apply |
+| [GENC](../companies/GENC/README.md) | GENCOR INDUSTRIES INC | available, quality gates apply |
+| [GENI](../companies/GENI/README.md) | Genius Sports Ltd | not available |
+| [GENK](../companies/GENK/README.md) | GEN Restaurant Group, Inc. | available, quality gates apply |
+| [GEOS](../companies/GEOS/README.md) | GEOSPACE TECHNOLOGIES CORP | available, quality gates apply |
+| [GERN](../companies/GERN/README.md) | GERON CORP | available, quality gates apply |
+| [GEV](../companies/GEV/README.md) | GE Vernova Inc. | available, quality gates apply |
+| [GEVO](../companies/GEVO/README.md) | Gevo, Inc. | available, quality gates apply |
+| [GF](../companies/GF/README.md) | NEW GERMANY FUND INC | not available |
+| [GFAI](../companies/GFAI/README.md) | Guardforce AI Co., Ltd. | not available |
+| [GFF](../companies/GFF/README.md) | GRIFFON CORP | available, quality gates apply |
+| [GFI](../companies/GFI/README.md) | GOLD FIELDS LTD | not available |
+| [GFR](../companies/GFR/README.md) | Greenfire Resources Ltd. | not available |

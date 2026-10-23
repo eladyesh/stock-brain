@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0000001750 | [AAR CORP](../companies/0000001750/README.md) | AIR | available, quality gates apply |
-| 0000001800 | [ABBOTT LABORATORIES](../companies/0000001800/README.md) | ABT | not available |
-| 0000002098 | [ACME UNITED CORP](../companies/0000002098/README.md) | ACU | available, quality gates apply |
-| 0000002186 | [BK Technologies Corp](../companies/0000002186/README.md) | BKTI | available, quality gates apply |
-| 0000002230 | [ADAMS DIVERSIFIED EQUITY FUND, INC.](../companies/0000002230/README.md) | ADX | not available |
-| 0000002488 | [ADVANCED MICRO DEVICES INC](../companies/0000002488/README.md) | AMD | available, quality gates apply |
-| 0000002809 | [AGNICO EAGLE MINES LTD](../companies/0000002809/README.md) | AEM | not available |
-| 0000002969 | [Air Products & Chemicals, Inc.](../companies/0000002969/README.md) | APD | available, quality gates apply |
-| 0000003453 | [Matson, Inc.](../companies/0000003453/README.md) | MATX | available, quality gates apply |
-| 0000003499 | [ALEXANDERS INC](../companies/0000003499/README.md) | ALX | available, quality gates apply |
-| 0000003545 | [ALICO, INC.](../companies/0000003545/README.md) | ALCO | available, quality gates apply |
-| 0000003570 | [Cheniere Energy, Inc.](../companies/0000003570/README.md) | LNG | available, quality gates apply |
-| 0000004127 | [SKYWORKS SOLUTIONS, INC.](../companies/0000004127/README.md) | SWKS | available, quality gates apply |
-| 0000004281 | [Howmet Aerospace Inc.](../companies/0000004281/README.md) | HWM | available, quality gates apply |
-| 0000004457 | [U-Haul Holding Co /NV/](../companies/0000004457/README.md) | UHAL, UHAL.B | available, quality gates apply |
-| 0000004904 | [AMERICAN ELECTRIC POWER CO INC](../companies/0000004904/README.md) | AEP | not available |
-| 0000004962 | [AMERICAN EXPRESS CO](../companies/0000004962/README.md) | AXP | available, quality gates apply |
-| 0000004977 | [AFLAC INC](../companies/0000004977/README.md) | AFL | available, quality gates apply |
-| 0000005094 | [Invesco Bond Fund](../companies/0000005094/README.md) | VBF | not available |
-| 0000005272 | [AMERICAN INTERNATIONAL GROUP, INC.](../companies/0000005272/README.md) | AIG | available, quality gates apply |
-| 0000005513 | [Unum Group](../companies/0000005513/README.md) | UNM | available, quality gates apply |
-| 0000005981 | [AMERICAN VANGUARD CORP](../companies/0000005981/README.md) | AVD | available, quality gates apply |
-| 0000006176 | [AMPCO PITTSBURGH CORP](../companies/0000006176/README.md) | AP | available, quality gates apply |
-| 0000006201 | [American Airlines Group Inc.](../companies/0000006201/README.md) | AAL | available, quality gates apply |
-| 0000006207 | [AMREP CORP.](../companies/0000006207/README.md) | AXR | available, quality gates apply |
-| 0000006281 | [ANALOG DEVICES INC](../companies/0000006281/README.md) | ADI | available, quality gates apply |
-| 0000006845 | [APOGEE ENTERPRISES, INC.](../companies/0000006845/README.md) | APOG | available, quality gates apply |
-| 0000006951 | [APPLIED MATERIALS INC /DE](../companies/0000006951/README.md) | AMAT | available, quality gates apply |
-| 0000006955 | [ENERPAC TOOL GROUP CORP](../companies/0000006955/README.md) | EPAC | available, quality gates apply |
-| 0000007084 | [Archer-Daniels-Midland Co](../companies/0000007084/README.md) | ADM | available, quality gates apply |
-| 0000007431 | [ARMSTRONG WORLD INDUSTRIES INC](../companies/0000007431/README.md) | AWI | available, quality gates apply |
-| 0000007536 | [ARROW ELECTRONICS, INC.](../companies/0000007536/README.md) | ARW | available, quality gates apply |
-| 0000007623 | [ARTS WAY MANUFACTURING CO INC](../companies/0000007623/README.md) | ARTW | available, quality gates apply |
-| 0000007789 | [ASSOCIATED BANC-CORP](../companies/0000007789/README.md) | ASB, ASB$E, ASB$F | available, quality gates apply |
-| 0000008063 | [ASTRONICS CORP](../companies/0000008063/README.md) | ATRO | available, quality gates apply |
-| 0000008177 | [ATLANTIC AMERICAN CORP](../companies/0000008177/README.md) | AAME | available, quality gates apply |
-| 0000008504 | [AgEagle Aerial Systems Inc.](../companies/0000008504/README.md) | UAVS | available, quality gates apply |
-| 0000008670 | [AUTOMATIC DATA PROCESSING INC](../companies/0000008670/README.md) | ADP | available, quality gates apply |
-| 0000008818 | [Avery Dennison Corp](../companies/0000008818/README.md) | AVY | available, quality gates apply |
-| 0000008858 | [AVNET INC](../companies/0000008858/README.md) | AVT | available, quality gates apply |
-| 0000008947 | [AZZ INC](../companies/0000008947/README.md) | AZZ | not available |
-| 0000009092 | [BADGER METER INC](../companies/0000009092/README.md) | BMI | available, quality gates apply |
-| 0000009326 | [BALCHEM CORP](../companies/0000009326/README.md) | BCPC | available, quality gates apply |
-| 0000009389 | [BALL Corp](../companies/0000009389/README.md) | BALL | available, quality gates apply |
-| 0000009521 | [BANCROFT FUND LTD](../companies/0000009521/README.md) | BCV | not available |
-| 0000010048 | [BARNWELL INDUSTRIES INC](../companies/0000010048/README.md) | BRN | available, quality gates apply |
-| 0000010329 | [BASSETT FURNITURE INDUSTRIES INC](../companies/0000010329/README.md) | BSET | available, quality gates apply |
-| 0000010456 | [BAXTER INTERNATIONAL INC](../companies/0000010456/README.md) | BAX | available, quality gates apply |
-| 0000010795 | [BECTON DICKINSON & CO](../companies/0000010795/README.md) | BDX | available, quality gates apply |
-| 0000012040 | [FLANIGANS ENTERPRISES INC](../companies/0000012040/README.md) | BDL | available, quality gates apply |
-| 0000012208 | [BIO-RAD LABORATORIES, INC.](../companies/0000012208/README.md) | BIO, BIO.B | available, quality gates apply |
-| 0000012239 | [Dominari Holdings Inc.](../companies/0000012239/README.md) | DOMH | available, quality gates apply |
-| 0000012659 | [H&R BLOCK INC](../companies/0000012659/README.md) | HRB | available, quality gates apply |
-| 0000012927 | [BOEING CO](../companies/0000012927/README.md) | BA, BA$A | available, quality gates apply |
-| 0000014177 | [BRIDGFORD FOODS CORP](../companies/0000014177/README.md) | BRID | available, quality gates apply |
-| 0000014272 | [BRISTOL MYERS SQUIBB CO](../companies/0000014272/README.md) | BMY | available, quality gates apply |
-| 0000014693 | [BROWN FORMAN CORP](../companies/0000014693/README.md) | BF.A, BF.B | available, quality gates apply |
-| 0000014707 | [CALERES INC](../companies/0000014707/README.md) | CAL | available, quality gates apply |
-| 0000014930 | [BRUNSWICK CORP](../companies/0000014930/README.md) | BC | available, quality gates apply |
-| 0000015615 | [MASTEC INC](../companies/0000015615/README.md) | MTZ | available, quality gates apply |
-| 0000016040 | [CABOT CORP](../companies/0000016040/README.md) | CBT | available, quality gates apply |
-| 0000016058 | [CACI INTERNATIONAL INC /DE/](../companies/0000016058/README.md) | CACI | available, quality gates apply |
-| 0000016160 | [CAL-MAINE FOODS INC](../companies/0000016160/README.md) | CALM | available, quality gates apply |
-| 0000016732 | [CAMPBELL'S Co](../companies/0000016732/README.md) | CPB | available, quality gates apply |
-| 0000016859 | [Scully Royalty Ltd.](../companies/0000016859/README.md) | SRL | not available |
-| 0000016868 | [CANADIAN NATIONAL RAILWAY CO](../companies/0000016868/README.md) | CNI | not available |
-| 0000016875 | [CANADIAN PACIFIC KANSAS CITY LTD/CN](../companies/0000016875/README.md) | CP | not available |
-| 0000016918 | [CONSTELLATION BRANDS, INC.](../companies/0000016918/README.md) | STZ | available, quality gates apply |
-| 0000017313 | [CAPITAL SOUTHWEST CORP](../companies/0000017313/README.md) | CSWC | available, quality gates apply |
-| 0000017843 | [CARPENTER TECHNOLOGY CORP](../companies/0000017843/README.md) | CRS | available, quality gates apply |
-| 0000018230 | [CATERPILLAR INC](../companies/0000018230/README.md) | CAT | available, quality gates apply |
-| 0000018255 | [CATO CORP](../companies/0000018255/README.md) | CATO | available, quality gates apply |
-| 0000018498 | [GENESCO INC](../companies/0000018498/README.md) | GCO | available, quality gates apply |
-| 0000018748 | [CENTRAL SECURITIES CORP](../companies/0000018748/README.md) | CET | not available |
-| 0000019584 | [CHEMED CORP](../companies/0000019584/README.md) | CHE | available, quality gates apply |
-| 0000019617 | [JPMORGAN CHASE & CO](../companies/0000019617/README.md) | JPM, JPM$C, JPM$D, JPM$J, JPM$K, JPM$L, JPM$M | available, quality gates apply |
-| 0000019745 | [CHESAPEAKE UTILITIES CORP](../companies/0000019745/README.md) | CPK | available, quality gates apply |
-| 0000019871 | [CHICAGO RIVET & MACHINE CO](../companies/0000019871/README.md) | CVR | available, quality gates apply |
-| 0000020212 | [Churchill Downs Inc](../companies/0000020212/README.md) | CHDN | available, quality gates apply |
-| 0000020286 | [CINCINNATI FINANCIAL CORP](../companies/0000020286/README.md) | CINF | available, quality gates apply |
-| 0000021076 | [CLOROX CO /DE/](../companies/0000021076/README.md) | CLX | not available |
-| 0000021175 | [CNA FINANCIAL CORP](../companies/0000021175/README.md) | CNA | available, quality gates apply |
-| 0000021344 | [COCA COLA CO](../companies/0000021344/README.md) | KO | not available |
-| 0000021535 | [COHU INC](../companies/0000021535/README.md) | COHU | available, quality gates apply |
-| 0000021665 | [COLGATE PALMOLIVE CO](../companies/0000021665/README.md) | CL | available, quality gates apply |
-| 0000022356 | [COMMERCE BANCSHARES INC /MO/](../companies/0000022356/README.md) | CBSH | available, quality gates apply |
-| 0000022444 | [COMMERCIAL METALS Co](../companies/0000022444/README.md) | CMC | available, quality gates apply |
-| 0000022701 | [SUNation Energy, Inc.](../companies/0000022701/README.md) | SUNE | available, quality gates apply |
-| 0000023194 | [COMSTOCK RESOURCES INC](../companies/0000023194/README.md) | CRK | available, quality gates apply |
-| 0000023197 | [COMTECH TELECOMMUNICATIONS CORP /DE/](../companies/0000023197/README.md) | CMTL | available, quality gates apply |
-| 0000023217 | [CONAGRA BRANDS INC.](../companies/0000023217/README.md) | CAG | available, quality gates apply |
-| 0000023795 | [CTO Realty Growth, Inc.](../companies/0000023795/README.md) | CTO | not available |
-| 0000024090 | [CITIZENS, INC.](../companies/0000024090/README.md) | CIA | available, quality gates apply |
-| 0000024545 | [MOLSON COORS BEVERAGE CO](../companies/0000024545/README.md) | TAP, TAP.A | available, quality gates apply |
-| 0000024741 | [CORNING INC /NY](../companies/0000024741/README.md) | GLW | available, quality gates apply |
-| 0000025232 | [COUSINS PROPERTIES INC](../companies/0000025232/README.md) | CUZ | available, quality gates apply |
-| 0000025445 | [Crane NXT, Co.](../companies/0000025445/README.md) | CXT | available, quality gates apply |
-| 0000025475 | [CRAWFORD & CO](../companies/0000025475/README.md) | CRD.A, CRD.B | available, quality gates apply |
-| 0000025743 | [TherapeuticsMD, Inc.](../companies/0000025743/README.md) | TXMD | available, quality gates apply |
-| 0000025895 | [CROWN CRAFTS INC](../companies/0000025895/README.md) | CRWS | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [A](../companies/A/README.md) | AGILENT TECHNOLOGIES, INC. | available, quality gates apply |
+| [AA](../companies/AA/README.md) | Alcoa Corp | available, quality gates apply |
+| [AAC](../companies/AAC/README.md) | Ares Acquisition Corp III | not available |
+| [AACG](../companies/AACG/README.md) | ATA Creativity Global | not available |
+| [AACI](../companies/AACI/README.md) | Armada Acquisition Corp. III | available, quality gates apply |
+| [AACO](../companies/AACO/README.md) | Abony Acquisition Corp. I | available, quality gates apply |
+| [AACP](../companies/AACP/README.md) | Apogee Acquisition Corp | available, quality gates apply |
+| [AADX](../companies/AADX/README.md) | Applied Aerospace & Defense, Inc. | available, quality gates apply |
+| [AAL](../companies/AAL/README.md) | American Airlines Group Inc. | available, quality gates apply |
+| [AAME](../companies/AAME/README.md) | ATLANTIC AMERICAN CORP | available, quality gates apply |
+| [AAMI](../companies/AAMI/README.md) | Acadian Asset Management Inc. | available, quality gates apply |
+| [AAOI](../companies/AAOI/README.md) | APPLIED OPTOELECTRONICS, INC. | available, quality gates apply |
+| [AAON](../companies/AAON/README.md) | AAON, INC. | available, quality gates apply |
+| [AAP](../companies/AAP/README.md) | ADVANCE AUTO PARTS INC | available, quality gates apply |
+| [AAPG](../companies/AAPG/README.md) | ASCENTAGE PHARMA GROUP INTERNATIONAL | not available |
+| [AAPL](../companies/AAPL/README.md) | Apple Inc. | available, quality gates apply |
+| [AARD](../companies/AARD/README.md) | Aardvark Therapeutics, Inc. | available, quality gates apply |
+| [AAT](../companies/AAT/README.md) | American Assets Trust, Inc. | not available |
+| [AAUC](../companies/AAUC/README.md) | Allied Gold Corp | not available |
+| [ABAT](../companies/ABAT/README.md) | AMERICAN BATTERY TECHNOLOGY Co | available, quality gates apply |
+| [ABBV](../companies/ABBV/README.md) | AbbVie Inc. | available, quality gates apply |
+| [ABCB](../companies/ABCB/README.md) | Ameris Bancorp | available, quality gates apply |
+| [ABCL](../companies/ABCL/README.md) | AbCellera Biologics Inc. | available, quality gates apply |
+| [ABEO](../companies/ABEO/README.md) | ABEONA THERAPEUTICS INC. | available, quality gates apply |
+| [ABEV](../companies/ABEV/README.md) | AMBEV S.A. | not available |
+| [ABG](../companies/ABG/README.md) | ASBURY AUTOMOTIVE GROUP INC | available, quality gates apply |
+| [ABLV](../companies/ABLV/README.md) | Able View Global Inc. | not available |
+| [ABM](../companies/ABM/README.md) | ABM INDUSTRIES INC /DE/ | available, quality gates apply |
+| [ABNB](../companies/ABNB/README.md) | Airbnb, Inc. | available, quality gates apply |
+| [ABOS](../companies/ABOS/README.md) | Acumen Pharmaceuticals, Inc. | available, quality gates apply |
+| [ABR](../companies/ABR/README.md) | ARBOR REALTY TRUST INC | not available |
+| [ABSI](../companies/ABSI/README.md) | Absci Corp | available, quality gates apply |
+| [ABT](../companies/ABT/README.md) | ABBOTT LABORATORIES | not available |
+| [ABTC](../companies/ABTC/README.md) | American Bitcoin Corp. | available, quality gates apply |
+| [ABTS](../companies/ABTS/README.md) | Abits Group Inc | not available |
+| [ABUS](../companies/ABUS/README.md) | Arbutus Biopharma Corp | available, quality gates apply |
+| [ABVC](../companies/ABVC/README.md) | ABVC BIOPHARMA, INC. | available, quality gates apply |
+| [ABVX](../companies/ABVX/README.md) | Abivax S.A. | not available |
+| [ABX](../companies/ABX/README.md) | Abacus Global Management, Inc. | available, quality gates apply |
+| [ACA](../companies/ACA/README.md) | Arcosa, Inc. | available, quality gates apply |
+| [ACAA](../companies/ACAA/README.md) | Averin Capital Acquisition Corp. | available, quality gates apply |
+| [ACAD](../companies/ACAD/README.md) | ACADIA PHARMACEUTICALS INC | available, quality gates apply |
+| [ACB](../companies/ACB/README.md) | AURORA CANNABIS INC | not available |
+| [ACCL](../companies/ACCL/README.md) | Acco Group Holdings Ltd | not available |
+| [ACCO](../companies/ACCO/README.md) | ACCO BRANDS Corp | available, quality gates apply |
+| [ACCS](../companies/ACCS/README.md) | ACCESS Newswire Inc. | available, quality gates apply |
+| [ACCV](../companies/ACCV/README.md) | Accelevation Holdings Corp. | not available |
+| [ACDC](../companies/ACDC/README.md) | ProFrac Holding Corp. | available, quality gates apply |
+| [ACEL](../companies/ACEL/README.md) | Accel Entertainment, Inc. | available, quality gates apply |
+| [ACET](../companies/ACET/README.md) | Adicet Bio, Inc. | available, quality gates apply |
+| [ACFN](../companies/ACFN/README.md) | ACORN ENERGY, INC. | available, quality gates apply |
+| [ACGC](../companies/ACGC/README.md) | ACP Holdings Acquisition Corp. | available, quality gates apply |
+| [ACGL, ACGLN, ACGLO](../companies/ACGL/README.md) | ARCH CAPITAL GROUP LTD. | available, quality gates apply |
+| [ACH](../companies/ACH/README.md) | ACCENDRA HEALTH INC/VA/ | available, quality gates apply |
+| [ACHC](../companies/ACHC/README.md) | Acadia Healthcare Company, Inc. | not available |
+| [ACHR](../companies/ACHR/README.md) | Archer Aviation Inc. | available, quality gates apply |
+| [ACHV](../companies/ACHV/README.md) | ACHIEVE LIFE SCIENCES, INC. | available, quality gates apply |
+| [ACI](../companies/ACI/README.md) | Albertsons Companies, Inc. | available, quality gates apply |
+| [ACIC](../companies/ACIC/README.md) | AMERICAN COASTAL INSURANCE Corp | available, quality gates apply |
+| [ACIU](../companies/ACIU/README.md) | AC Immune SA | not available |
+| [ACIW](../companies/ACIW/README.md) | ACI WORLDWIDE, INC. | available, quality gates apply |
+| [ACLS](../companies/ACLS/README.md) | AXCELIS TECHNOLOGIES INC | available, quality gates apply |
+| [ACM](../companies/ACM/README.md) | AECOM | not available |
+| [ACMR](../companies/ACMR/README.md) | ACM Research, Inc. | available, quality gates apply |
+| [ACN](../companies/ACN/README.md) | Accenture plc | available, quality gates apply |
+| [ACNB](../companies/ACNB/README.md) | ACNB CORP | available, quality gates apply |
+| [ACNT](../companies/ACNT/README.md) | ASCENT INDUSTRIES CO. | available, quality gates apply |
+| [ACOG](../companies/ACOG/README.md) | Alpha Cognition Inc. | available, quality gates apply |
+| [ACON](../companies/ACON/README.md) | Aclarion, Inc. | available, quality gates apply |
+| [ACP](../companies/ACP/README.md) | abrdn Income Credit Strategies Fund | not available |
+| [ACR](../companies/ACR/README.md) | ACRES Commercial Realty Corp. | available, quality gates apply |
+| [ACRE](../companies/ACRE/README.md) | Ares Commercial Real Estate Corp | available, quality gates apply |
+| [ACRS](../companies/ACRS/README.md) | Aclaris Therapeutics, Inc. | available, quality gates apply |
+| [ACRV](../companies/ACRV/README.md) | Acrivon Therapeutics, Inc. | available, quality gates apply |
+| [ACT](../companies/ACT/README.md) | Enact Holdings, Inc. | available, quality gates apply |
+| [ACTG](../companies/ACTG/README.md) | ACACIA RESEARCH CORP | available, quality gates apply |
+| [ACTU](../companies/ACTU/README.md) | ACTUATE THERAPEUTICS, INC. | available, quality gates apply |
+| [ACU](../companies/ACU/README.md) | ACME UNITED CORP | available, quality gates apply |
+| [ACV](../companies/ACV/README.md) | Virtus Diversified Income & Convertible Fund | not available |
+| [ACXP](../companies/ACXP/README.md) | Acurx Pharmaceuticals, Inc. | available, quality gates apply |
+| [AD](../companies/AD/README.md) | ARRAY DIGITAL INFRASTRUCTURE, INC. | available, quality gates apply |
+| [ADAC](../companies/ADAC/README.md) | American Drive Acquisition Co | available, quality gates apply |
+| [ADAM](../companies/ADAM/README.md) | ADAMAS TRUST, INC. | available, quality gates apply |
+| [ADBE](../companies/ADBE/README.md) | ADOBE INC. | available, quality gates apply |
+| [ADBT](../companies/ADBT/README.md) | Advasa Holdings, Inc. | available, quality gates apply |
+| [ADC, ADC$A](../companies/ADC/README.md) | AGREE REALTY CORP | available, quality gates apply |
+| [ADCT](../companies/ADCT/README.md) | ADC Therapeutics SA | available, quality gates apply |
+| [ADEA](../companies/ADEA/README.md) | Adeia Inc. | available, quality gates apply |
+| [ADGM](../companies/ADGM/README.md) | Adagio Medical Holdings, Inc. | available, quality gates apply |
+| [ADI](../companies/ADI/README.md) | ANALOG DEVICES INC | available, quality gates apply |
+| [ADIG](../companies/ADIG/README.md) | ADI GLOBAL DISTRIBUTION INC. | available, quality gates apply |
+| [ADIL](../companies/ADIL/README.md) | ADIAL PHARMACEUTICALS, INC. | available, quality gates apply |
+| [ADM](../companies/ADM/README.md) | Archer-Daniels-Midland Co | available, quality gates apply |
+| [ADMA](../companies/ADMA/README.md) | ADMA BIOLOGICS, INC. | available, quality gates apply |
+| [ADNT](../companies/ADNT/README.md) | Adient plc | available, quality gates apply |
+| [ADP](../companies/ADP/README.md) | AUTOMATIC DATA PROCESSING INC | available, quality gates apply |
+| [ADPT](../companies/ADPT/README.md) | Adaptive Biotechnologies Corp | available, quality gates apply |
+| [ADRX](../companies/ADRX/README.md) | ADARx Pharmaceuticals, Inc. | not available |
+| [ADSK](../companies/ADSK/README.md) | Autodesk, Inc. | available, quality gates apply |
+| [ADT](../companies/ADT/README.md) | ADT Inc. | available, quality gates apply |

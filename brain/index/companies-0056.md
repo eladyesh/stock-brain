@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0002097364 | [Spartacus Acquisition Corp. II](../companies/0002097364/README.md) | TMTS | available, quality gates apply |
-| 0002097376 | [MOZAYYX Acquisition Corp.](../companies/0002097376/README.md) | MZYX | available, quality gates apply |
-| 0002097702 | [GOWell Energy Technology](../companies/0002097702/README.md) | GOW | not available |
-| 0002097725 | [AIR Global PLC](../companies/0002097725/README.md) | AIIR | not available |
-| 0002097986 | [Forefront Tech Holdings Acquisition Corp](../companies/0002097986/README.md) | FTHA | available, quality gates apply |
-| 0002098242 | [Spring Valley Acquisition Corp. IV](../companies/0002098242/README.md) | SVIV | available, quality gates apply |
-| 0002098395 | [IMC Rare Earths Ltd](../companies/0002098395/README.md) | IMC | not available |
-| 0002098430 | [Madison Air Solutions Corp](../companies/0002098430/README.md) | MAIR | available, quality gates apply |
-| 0002098669 | [United Acquisition Corp. I](../companies/0002098669/README.md) | UAC | available, quality gates apply |
-| 0002098707 | [Burtech Acquisition Corp II](../companies/0002098707/README.md) | BRKH | available, quality gates apply |
-| 0002098712 | [GigCapital9 Corp.](../companies/0002098712/README.md) | GIX | available, quality gates apply |
-| 0002098780 | [TRG Latin America Acquisitions Corp.](../companies/0002098780/README.md) | TRGS | available, quality gates apply |
-| 0002099039 | [Wise Group plc](../companies/0002099039/README.md) | WSE | not available |
-| 0002099093 | [Hennessy Capital Investment Corp. VIII](../companies/0002099093/README.md) | HCIC | available, quality gates apply |
-| 0002099095 | [Patriot Acquisition Corp./CI](../companies/0002099095/README.md) | PTAC | available, quality gates apply |
-| 0002099232 | [Future Money Acquisition Corp](../companies/0002099232/README.md) | FMAC | available, quality gates apply |
-| 0002099656 | [Helix Acquisition Corp. III](../companies/0002099656/README.md) | HLXC | available, quality gates apply |
-| 0002099767 | [NewHold Investment Corp IV](../companies/0002099767/README.md) | NHIV | available, quality gates apply |
-| 0002099906 | [Abony Acquisition Corp. I](../companies/0002099906/README.md) | AACO | available, quality gates apply |
-| 0002100125 | [Cambridge Acquisition Corp.](../companies/0002100125/README.md) | CAQ | available, quality gates apply |
-| 0002100161 | [Blackstone Digital Infrastructure Trust Inc.](../companies/0002100161/README.md) | BXDC | available, quality gates apply |
-| 0002100457 | [Bitzero Holdings Inc.](../companies/0002100457/README.md) | AIBZ | not available |
-| 0002100704 | [East West Ave Acquisition Corp.](../companies/0002100704/README.md) | EWAV | available, quality gates apply |
-| 0002100782 | [Generate Biomedicines, Inc.](../companies/0002100782/README.md) | GENB | available, quality gates apply |
-| 0002100805 | [Janus Living, Inc.](../companies/0002100805/README.md) | JAN | available, quality gates apply |
-| 0002101135 | [Illumination Acquisition Corp. I](../companies/0002101135/README.md) | ILLU | available, quality gates apply |
-| 0002101240 | [SunScout Holding Ltd](../companies/0002101240/README.md) | SNSC | not available |
-| 0002101393 | [AmperCap Acquisition Co](../companies/0002101393/README.md) | APMC | available, quality gates apply |
-| 0002101411 | [WISeSat.Space Holdings Corp.](../companies/0002101411/README.md) | SAIQ | not available |
-| 0002101470 | [Wilco 63 Corp](../companies/0002101470/README.md) | WLCO | available, quality gates apply |
-| 0002101562 | [PALOMA ACQUISITION CORP I](../companies/0002101562/README.md) | PALO | available, quality gates apply |
-| 0002101698 | [Elmet Group Co.](../companies/0002101698/README.md) | ELMT | available, quality gates apply |
-| 0002102041 | [Inflection Point Acquisition Corp. VI](../companies/0002102041/README.md) | IPFX | available, quality gates apply |
-| 0002102123 | [Apogee Acquisition Corp](../companies/0002102123/README.md) | AACP | available, quality gates apply |
-| 0002102155 | [Quantum Leap Acquisition Corp](../companies/0002102155/README.md) | QLEP | available, quality gates apply |
-| 0002102771 | [Keystone Acquisition Corp.](../companies/0002102771/README.md) | KEYY | available, quality gates apply |
-| 0002102907 | [Resolution Minerals Ltd](../companies/0002102907/README.md) | RML | not available |
-| 0002104052 | [Enviri Corp](../companies/0002104052/README.md) | NVRI | available, quality gates apply |
-| 0002104177 | [Long Table Growth Corp.](../companies/0002104177/README.md) | LTGR | available, quality gates apply |
-| 0002104204 | [Alamar Biosciences, Inc.](../companies/0002104204/README.md) | ALMR | available, quality gates apply |
-| 0002104260 | [West Enclave Merger Corp.](../companies/0002104260/README.md) | WENC | available, quality gates apply |
-| 0002104296 | [Ticketplus Ltd.](../companies/0002104296/README.md) | TP | not available |
-| 0002104391 | [Catalyst Acquisition Corp.](../companies/0002104391/README.md) | CATL | available, quality gates apply |
-| 0002104879 | [RMG ML Sports Holdings](../companies/0002104879/README.md) | SHOT | available, quality gates apply |
-| 0002104882 | [EagleRock Land, LLC](../companies/0002104882/README.md) | EROK | available, quality gates apply |
-| 0002105139 | [ADI GLOBAL DISTRIBUTION INC.](../companies/0002105139/README.md) | ADIG | available, quality gates apply |
-| 0002105274 | [InterPrivate Investment Partners V, Inc.](../companies/0002105274/README.md) | IPVV | available, quality gates apply |
-| 0002105398 | [Csquare, Inc.](../companies/0002105398/README.md) | CSQR | available, quality gates apply |
-| 0002105838 | [SUMA Acquisition Corp](../companies/0002105838/README.md) | SUMA | available, quality gates apply |
-| 0002105965 | [West Coast Community Bancorp](../companies/0002105965/README.md) | WCCB | not available |
-| 0002106436 | [Mercator Acquisition Corp.](../companies/0002106436/README.md) | MRCO | available, quality gates apply |
-| 0002106613 | [Quantum eMotion Corp](../companies/0002106613/README.md) | QNC | not available |
-| 0002107018 | [DPC Holdings PLC](../companies/0002107018/README.md) | DPC | available, quality gates apply |
-| 0002107724 | [Metals Acquisition Corp. II](../companies/0002107724/README.md) | MTAL | available, quality gates apply |
-| 0002108164 | [Pono Capital Four, Inc.](../companies/0002108164/README.md) | PONO | available, quality gates apply |
-| 0002108962 | [General Catalyst Global Resilience Merger Corp.](../companies/0002108962/README.md) | GCGR | available, quality gates apply |
-| 0002109150 | [INNIO N.V.](../companies/0002109150/README.md) | INIO | available, quality gates apply |
-| 0002109869 | [Exascale Labs Holdings Inc.](../companies/0002109869/README.md) | XLAB | available, quality gates apply |
-| 0002109876 | [Mountain Crest Acquisition 6 Corp.](../companies/0002109876/README.md) | MCAH | available, quality gates apply |
-| 0002110029 | [ERock, Inc.](../companies/0002110029/README.md) | EROC | available, quality gates apply |
-| 0002110105 | [Quantinuum Inc.](../companies/0002110105/README.md) | QNT | available, quality gates apply |
-| 0002110117 | [ITG, Inc./DE/](../companies/0002110117/README.md) | ITG | available, quality gates apply |
-| 0002110119 | [AMR Resources Acquisition Corp.](../companies/0002110119/README.md) | AMAC | available, quality gates apply |
-| 0002110423 | [Datasea Intelligent Technology Ltd.](../companies/0002110423/README.md) | DTSS | not available |
-| 0002111038 | [DISCIPLINED GROWTH ACQUISITION Corp](../companies/0002111038/README.md) | DGAC | available, quality gates apply |
-| 0002111542 | [ACP Holdings Acquisition Corp.](../companies/0002111542/README.md) | ACGC | available, quality gates apply |
-| 0002111762 | [GSR V Acquisition Corp.](../companies/0002111762/README.md) | GSRV | available, quality gates apply |
-| 0002111846 | [Game Your Game Inc.](../companies/0002111846/README.md) | GYGY | available, quality gates apply |
-| 0002111860 | [Xtend AI Robotics, Inc.](../companies/0002111860/README.md) | XTND | not available |
-| 0002112446 | [JATT II Acquisition Corp.](../companies/0002112446/README.md) | JATT | available, quality gates apply |
-| 0002112457 | [Amanat Acquisition Corp.](../companies/0002112457/README.md) | AMAN | available, quality gates apply |
-| 0002113060 | [IQM Quantum Computers Oyj](../companies/0002113060/README.md) | IQMX | not available |
-| 0002113481 | [Osprey Acquisition Corp. III](../companies/0002113481/README.md) | OSPR | available, quality gates apply |
-| 0002113605 | [Chilwa Minerals Ltd](../companies/0002113605/README.md) | CHWM | not available |
-| 0002114044 | [Hemab Therapeutics Holdings, Inc.](../companies/0002114044/README.md) | COAG | available, quality gates apply |
-| 0002114227 | [Churchill Capital Corp XII](../companies/0002114227/README.md) | CXII | available, quality gates apply |
-| 0002114229 | [Churchill Capital Corp XIII](../companies/0002114229/README.md) | XIII | not available |
-| 0002115119 | [Columbia Financial, Inc./MD/](../companies/0002115119/README.md) | CLBK | available, quality gates apply |
-| 0002115404 | [Collective Acquisition Corp. II](../companies/0002115404/README.md) | CAII | available, quality gates apply |
-| 0002115436 | [ExxonMobil Holdings Corp](../companies/0002115436/README.md) | XOM | available, quality gates apply |
-| 0002116105 | [Futurewave Acquisition Corp](../companies/0002116105/README.md) | FWAC | available, quality gates apply |
-| 0002116230 | [Southern Cross Acquisition I Corp.](../companies/0002116230/README.md) | NCO | available, quality gates apply |
-| 0002118032 | [Research Alliance Corp III](../companies/0002118032/README.md) | RACC | available, quality gates apply |
-| 0002118195 | [Applied Aerospace & Defense, Inc.](../companies/0002118195/README.md) | AADX | available, quality gates apply |
-| 0002119292 | [Pasqal Holding SA](../companies/0002119292/README.md) | PSQL | not available |
-| 0002119322 | [Digimarc Corp](../companies/0002119322/README.md) | DMRC | available, quality gates apply |
-| 0002120882 | [SK hynix Inc.](../companies/0002120882/README.md) | SKHY | not available |
-| 0002121703 | [FortuneX Acquisition Corp](../companies/0002121703/README.md) | FXAC | available, quality gates apply |
-| 0002122392 | [Pelican Acquisition II Corp](../companies/0002122392/README.md) | PLCI | not available |
-| 0002122505 | [Irenic Acquisition Corp.](../companies/0002122505/README.md) | IACQ | available, quality gates apply |
-| 0002123471 | [Columbus Circle Capital Corp III](../companies/0002123471/README.md) | CCCT | available, quality gates apply |
-| 0002123475 | [Snow Rothschild Acquisition Corp.](../companies/0002123475/README.md) | ISNR | available, quality gates apply |
-| 0002123613 | [Kardigan, Inc.](../companies/0002123613/README.md) | KARD | available, quality gates apply |
-| 0002123955 | [Pinnacle Acquisition Corp](../companies/0002123955/README.md) | PNAQ | not available |
-| 0002123969 | [RRE Ventures Acquisition Corp.](../companies/0002123969/README.md) | RREV | available, quality gates apply |
-| 0002124403 | [Vicore Pharma Holding AB](../companies/0002124403/README.md) | VCRE | not available |
-| 0002124472 | [Orion180 Insurance Group Inc.](../companies/0002124472/README.md) | OIG | not available |
-| 0002125551 | [Alpex Acquisition Corp](../companies/0002125551/README.md) | ALPX | available, quality gates apply |
-| 0002125567 | [Samos Energy Acquisition Corp](../companies/0002125567/README.md) | SAMO | available, quality gates apply |
-| 0002126043 | [Cartesian Growth Corp IV](../companies/0002126043/README.md) | CGCF | available, quality gates apply |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [XBIO](../companies/XBIO/README.md) | Xenetic Biosciences, Inc. | available, quality gates apply |
+| [XBIT](../companies/XBIT/README.md) | XBiotech Inc. | available, quality gates apply |
+| [XBP](../companies/XBP/README.md) | XBP Global Holdings, Inc. | available, quality gates apply |
+| [XCBE](../companies/XCBE/README.md) | X3 Acquisition Corp. Ltd. | available, quality gates apply |
+| [XCUR](../companies/XCUR/README.md) | EXICURE, INC. | available, quality gates apply |
+| [XE](../companies/XE/README.md) | X-Energy, Inc. | available, quality gates apply |
+| [XEL](../companies/XEL/README.md) | XCEL ENERGY INC | available, quality gates apply |
+| [XELB](../companies/XELB/README.md) | XCel Brands, Inc. | available, quality gates apply |
+| [XENE](../companies/XENE/README.md) | Xenon Pharmaceuticals Inc. | available, quality gates apply |
+| [XERS](../companies/XERS/README.md) | Xeris Biopharma Holdings, Inc. | available, quality gates apply |
+| [XFLH](../companies/XFLH/README.md) | XFLH Capital Corp | available, quality gates apply |
+| [XFLT](../companies/XFLT/README.md) | XAI Floating Rate & Alternative Income Trust | not available |
+| [XFOR](../companies/XFOR/README.md) | X4 Pharmaceuticals, Inc | available, quality gates apply |
+| [XGN](../companies/XGN/README.md) | EXAGEN INC. | available, quality gates apply |
+| [XHG](../companies/XHG/README.md) | XChange TEC.INC | not available |
+| [XHLD](../companies/XHLD/README.md) | TEN Holdings, Inc. | not available |
+| [XHR](../companies/XHR/README.md) | Xenia Hotels & Resorts, Inc. | available, quality gates apply |
+| [XIFR](../companies/XIFR/README.md) | XPLR Infrastructure, LP | not available |
+| [XIII](../companies/XIII/README.md) | Churchill Capital Corp XIII | not available |
+| [XLAB](../companies/XLAB/README.md) | Exascale Labs Holdings Inc. | available, quality gates apply |
+| [XLO](../companies/XLO/README.md) | Xilio Therapeutics, Inc. | available, quality gates apply |
+| [XMAX](../companies/XMAX/README.md) | XMax Inc. | available, quality gates apply |
+| [XMTR](../companies/XMTR/README.md) | Xometry, Inc. | available, quality gates apply |
+| [XNCR](../companies/XNCR/README.md) | Xencor Inc | available, quality gates apply |
+| [XNDU](../companies/XNDU/README.md) | Xanadu Quantum Technologies Ltd | not available |
+| [XNET](../companies/XNET/README.md) | Xunlei Ltd | not available |
+| [XOM](../companies/XOM/README.md) | ExxonMobil Holdings Corp | available, quality gates apply |
+| [XOS](../companies/XOS/README.md) | Xos, Inc. | available, quality gates apply |
+| [XP](../companies/XP/README.md) | XP Inc. | not available |
+| [XPEL](../companies/XPEL/README.md) | XPEL, Inc. | available, quality gates apply |
+| [XPER](../companies/XPER/README.md) | Xperi Inc. | available, quality gates apply |
+| [XPEV](../companies/XPEV/README.md) | XPENG INC. | not available |
+| [XPL](../companies/XPL/README.md) | SOLITARIO RESOURCES CORP. | available, quality gates apply |
+| [XPO](../companies/XPO/README.md) | XPO, Inc. | available, quality gates apply |
+| [XPOF](../companies/XPOF/README.md) | Xponential Fitness, Inc. | available, quality gates apply |
+| [XPON](../companies/XPON/README.md) | Expion Energy, Inc. | available, quality gates apply |
+| [XPRO](../companies/XPRO/README.md) | Expro Ltd | not available |
+| [XRAY](../companies/XRAY/README.md) | DENTSPLY SIRONA Inc. | available, quality gates apply |
+| [XRN, XRN$A](../companies/XRN/README.md) | Chiron Real Estate Inc. | available, quality gates apply |
+| [XRPN](../companies/XRPN/README.md) | Evernorth Holdings Inc. | not available |
+| [XRTX](../companies/XRTX/README.md) | XORTX Therapeutics Inc. | not available |
+| [XRX](../companies/XRX/README.md) | Xerox Holdings Corp | available, quality gates apply |
+| [XSLL](../companies/XSLL/README.md) | Xsolla SPAC 1 | available, quality gates apply |
+| [XTIA](../companies/XTIA/README.md) | XTI Aerospace, Inc. | available, quality gates apply |
+| [XTLB](../companies/XTLB/README.md) | XTL BIOPHARMACEUTICALS LTD | not available |
+| [XTND](../companies/XTND/README.md) | Xtend AI Robotics, Inc. | not available |
+| [XTNT](../companies/XTNT/README.md) | Xtant Medical Holdings, Inc. | available, quality gates apply |
+| [XWEL](../companies/XWEL/README.md) | XWELL, Inc. | available, quality gates apply |
+| [XXI](../companies/XXI/README.md) | Twenty One Capital, Inc. | available, quality gates apply |
+| [XXII](../companies/XXII/README.md) | 22nd Century Group, Inc. | available, quality gates apply |
+| [XYF](../companies/XYF/README.md) | X Financial | not available |
+| [XYL](../companies/XYL/README.md) | Xylem Inc. | available, quality gates apply |
+| [XYZ](../companies/XYZ/README.md) | Block, Inc. | available, quality gates apply |
+| [XZO](../companies/XZO/README.md) | Exzeo Group, Inc. | available, quality gates apply |
+| [YAAS](../companies/YAAS/README.md) | Youxin Technology Ltd | not available |
+| [YALA](../companies/YALA/README.md) | Yalla Group Ltd | not available |
+| [YARW](../companies/YARW/README.md) | Yarrow Bioscience, Inc. | available, quality gates apply |
+| [YB](../companies/YB/README.md) | Yuanbao Inc. | not available |
+| [YCBD](../companies/YCBD/README.md) | cbdMD, Inc. | available, quality gates apply |
+| [YCY](../companies/YCY/README.md) | AA Mission Acquisition Corp. II | available, quality gates apply |
+| [YDDL](../companies/YDDL/README.md) | One & one Green Technologies. INC | not available |
+| [YDES](../companies/YDES/README.md) | YD Bio Ltd | not available |
+| [YDKG](../companies/YDKG/README.md) | Yueda Digital Holding | not available |
+| [YELP](../companies/YELP/README.md) | YELP INC | available, quality gates apply |
+| [YETI](../companies/YETI/README.md) | YETI Holdings, Inc. | available, quality gates apply |
+| [YEXT](../companies/YEXT/README.md) | Yext, Inc. | available, quality gates apply |
+| [YFOR](../companies/YFOR/README.md) | YYForce Inc. | not available |
+| [YHC](../companies/YHC/README.md) | LQR House Inc. | available, quality gates apply |
+| [YHGJ](../companies/YHGJ/README.md) | YUNHONG GREEN CTI LTD. | available, quality gates apply |
+| [YHNA](../companies/YHNA/README.md) | YHN Acquisition I Ltd | available, quality gates apply |
+| [YI](../companies/YI/README.md) | 111, Inc. | not available |
+| [YIBO](../companies/YIBO/README.md) | Planet Image International Ltd | not available |
+| [YICC](../companies/YICC/README.md) | Yorkville International Capital Corp. | not available |
+| [YJ](../companies/YJ/README.md) | Yunji Inc. | not available |
+| [YMAT](../companies/YMAT/README.md) | J-Star Holding Co., Ltd. | not available |
+| [YMM](../companies/YMM/README.md) | Full Truck Alliance Co. Ltd. | not available |
+| [YMT](../companies/YMT/README.md) | Yimutian Inc. | not available |
+| [YORW](../companies/YORW/README.md) | YORK WATER CO | available, quality gates apply |
+| [YOU](../companies/YOU/README.md) | Clear Secure, Inc. | available, quality gates apply |
+| [YOUL](../companies/YOUL/README.md) | Youlife Group Inc. | not available |
+| [YPF](../companies/YPF/README.md) | YPF SOCIEDAD ANONIMA | not available |
+| [YQ](../companies/YQ/README.md) | 17 Education & Technology Group Inc. | not available |
+| [YRD](../companies/YRD/README.md) | Yiren Digital Ltd. | not available |
+| [YSG](../companies/YSG/README.md) | Yatsen Holding Ltd | not available |
+| [YSS](../companies/YSS/README.md) | York Space Systems Inc. | available, quality gates apply |
+| [YSWY](../companies/YSWY/README.md) | Yesway, Inc. | available, quality gates apply |
+| [YSXT](../companies/YSXT/README.md) | YSX Tech Co., Ltd | not available |
+| [YTRA](../companies/YTRA/README.md) | Yatra Online, Inc. | not available |
+| [YUM](../companies/YUM/README.md) | YUM BRANDS INC | available, quality gates apply |
+| [YUMC](../companies/YUMC/README.md) | Yum China Holdings, Inc. | available, quality gates apply |
+| [YXT](../companies/YXT/README.md) | YXT.COM GROUP HOLDING Ltd | not available |
+| [YYAI](../companies/YYAI/README.md) | AIRWA INC. | available, quality gates apply |
+| [Z, ZG](../companies/Z/README.md) | ZILLOW GROUP, INC. | available, quality gates apply |
+| [ZBAO](../companies/ZBAO/README.md) | Zhibao Technology Inc. | not available |
+| [ZBH](../companies/ZBH/README.md) | ZIMMER BIOMET HOLDINGS, INC. | available, quality gates apply |
+| [ZBIO](../companies/ZBIO/README.md) | Zenas BioPharma, Inc. | available, quality gates apply |
+| [ZBRA](../companies/ZBRA/README.md) | ZEBRA TECHNOLOGIES CORP | available, quality gates apply |
+| [ZCMD](../companies/ZCMD/README.md) | Zhongchao Inc. | not available |
+| [ZD](../companies/ZD/README.md) | ZIFF DAVIS, INC. | available, quality gates apply |
+| [ZDAI](../companies/ZDAI/README.md) | DirectBooking Technology Co., Ltd. | not available |

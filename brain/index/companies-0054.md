@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0002067129 | [Neptune Insurance Holdings Inc.](../companies/0002067129/README.md) | NP | available, quality gates apply |
-| 0002067592 | [McKinley Acquisition Corp](../companies/0002067592/README.md) | MKLY | available, quality gates apply |
-| 0002067627 | [Terra Innovatum Global N.V.](../companies/0002067627/README.md) | NKLR | available, quality gates apply |
-| 0002067674 | [SILVER BOW MINING CORP.](../companies/0002067674/README.md) | SBMT | available, quality gates apply |
-| 0002067767 | [NextBoat Inc.](../companies/0002067767/README.md) | NXB | available, quality gates apply |
-| 0002067876 | [Versant Media Group, Inc.](../companies/0002067876/README.md) | VSNT | available, quality gates apply |
-| 0002068385 | [SharonAI Holdings Inc.](../companies/0002068385/README.md) | SHAZ | available, quality gates apply |
-| 0002068454 | [CSLM Digital Asset Acquisition Corp III, Ltd](../companies/0002068454/README.md) | KOYN | available, quality gates apply |
-| 0002068577 | [Black Rock Coffee Bar, Inc.](../companies/0002068577/README.md) | BRCB | available, quality gates apply |
-| 0002069238 | [Pyrophyte Acquisition Corp. II](../companies/0002069238/README.md) | PAII | available, quality gates apply |
-| 0002069604 | [Park Dental Partners, Inc.](../companies/0002069604/README.md) | PARK | available, quality gates apply |
-| 0002069785 | [Gloo Holdings, Inc.](../companies/0002069785/README.md) | GLOO | available, quality gates apply |
-| 0002069856 | [HCM III ACQUISITION CORP.](../companies/0002069856/README.md) | HCMA | available, quality gates apply |
-| 0002070457 | [Twenty One Capital, Inc.](../companies/0002070457/README.md) | XXI | available, quality gates apply |
-| 0002070534 | [SL Science Holding Ltd](../companies/0002070534/README.md) | SLBT | not available |
-| 0002070542 | [AIB Data Centers Inc.](../companies/0002070542/README.md) | AIB | available, quality gates apply |
-| 0002070602 | [Highview Merger Corp.](../companies/0002070602/README.md) | HVMC | available, quality gates apply |
-| 0002070849 | [BillionToOne, Inc.](../companies/0002070849/README.md) | BLLN | available, quality gates apply |
-| 0002070887 | [Crown Reserve Acquisition Corp. I](../companies/0002070887/README.md) | CRAC | available, quality gates apply |
-| 0002070900 | [Quantumsphere Acquisition Corp](../companies/0002070900/README.md) | QUMS | available, quality gates apply |
-| 0002070954 | [SMJ International Holdings Inc.](../companies/0002070954/README.md) | SMJF | not available |
-| 0002071288 | [Lumexa Imaging Holdings, Inc.](../companies/0002071288/README.md) | LMRI | available, quality gates apply |
-| 0002071668 | [Magnum Ice Cream Co N.V.](../companies/0002071668/README.md) | MICC | not available |
-| 0002071778 | [Fermi Inc.](../companies/0002071778/README.md) | FRMI | available, quality gates apply |
-| 0002072188 | [INSTINCT BIO TECHNICAL CO HOLDINGS INC.](../companies/0002072188/README.md) | BIOT | not available |
-| 0002072404 | [GSR IV Acquisition Corp.](../companies/0002072404/README.md) | GSRF | available, quality gates apply |
-| 0002073153 | [Hoyne Bancorp, Inc.](../companies/0002073153/README.md) | HYNE | available, quality gates apply |
-| 0002073340 | [Talon Capital Corp.](../companies/0002073340/README.md) | TLNC | available, quality gates apply |
-| 0002073515 | [ARC Group Acquisition I Corp.](../companies/0002073515/README.md) | ARCL | available, quality gates apply |
-| 0002073553 | [AI Infrastructure Acquisition Corp.](../companies/0002073553/README.md) | AIIA | available, quality gates apply |
-| 0002073928 | [M3-Brigade Acquisition VI Corp.](../companies/0002073928/README.md) | MBVI | available, quality gates apply |
-| 0002074123 | [CCH Holdings Ltd](../companies/0002074123/README.md) | CCHH | not available |
-| 0002074176 | [Viper Energy, Inc.](../companies/0002074176/README.md) | VNOM | available, quality gates apply |
-| 0002074697 | [FutureCrest Acquisition Corp.](../companies/0002074697/README.md) | FCRS | available, quality gates apply |
-| 0002074850 | [General Fusion Group Ltd.](../companies/0002074850/README.md) | GFUZ | available, quality gates apply |
-| 0002074872 | [Rice Acquisition Corp 3](../companies/0002074872/README.md) | KRSP | available, quality gates apply |
-| 0002074878 | [New America Acquisition I Corp.](../companies/0002074878/README.md) | NWAX | available, quality gates apply |
-| 0002074973 | [Churchill Capital Corp XI](../companies/0002074973/README.md) | CCXI | available, quality gates apply |
-| 0002075068 | [Invest Green Acquisition Corp](../companies/0002075068/README.md) | IGAC | available, quality gates apply |
-| 0002075310 | [Trailblazer Acquisition Corp.](../companies/0002075310/README.md) | BLZR | available, quality gates apply |
-| 0002075320 | [Polaryx Therapeutics, Inc.](../companies/0002075320/README.md) | PLYX | available, quality gates apply |
-| 0002075335 | [ROZE AI INC.](../companies/0002075335/README.md) | RZAI | not available |
-| 0002075336 | [AA Mission Acquisition Corp. II](../companies/0002075336/README.md) | YCY | available, quality gates apply |
-| 0002075816 | [Emmis Acquisition Corp.](../companies/0002075816/README.md) | EMIS | available, quality gates apply |
-| 0002076163 | [Silvia, Inc.](../companies/0002076163/README.md) | SVIA | available, quality gates apply |
-| 0002076192 | [Westin Acquisition Corp](../companies/0002076192/README.md) | WSTN | available, quality gates apply |
-| 0002076427 | [Galata Acquisition Corp. II](../companies/0002076427/README.md) | LATA | available, quality gates apply |
-| 0002076616 | [Tailwind 2.0 Acquisition Corp.](../companies/0002076616/README.md) | TDWD | available, quality gates apply |
-| 0002076739 | [SC II Acquisition Corp.](../companies/0002076739/README.md) | SCII | available, quality gates apply |
-| 0002076975 | [Braiin Ltd](../companies/0002076975/README.md) | BRAI | not available |
-| 0002077010 | [OTG Acquisition Corp. I](../companies/0002077010/README.md) | OTGA | available, quality gates apply |
-| 0002077033 | [Miluna Acquisition Corp](../companies/0002077033/README.md) | MMTX | available, quality gates apply |
-| 0002077345 | [Ives Ultra AI Opportunities Inc.](../companies/0002077345/README.md) | IVAI | not available |
-| 0002077709 | [Rank One Computing Corp](../companies/0002077709/README.md) | ROC | available, quality gates apply |
-| 0002077785 | [Iris Acquisition Corp II](../companies/0002077785/README.md) | IRAB | available, quality gates apply |
-| 0002077954 | [Evolution Global Acquisition Corp](../companies/0002077954/README.md) | EVOX | available, quality gates apply |
-| 0002078008 | [Versigent PLC](../companies/0002078008/README.md) | VGNT | available, quality gates apply |
-| 0002078416 | [Liberty Live Holdings, Inc.](../companies/0002078416/README.md) | LLYVA, LLYVK | available, quality gates apply |
-| 0002078653 | [Range Capital Acquisition Corp II](../companies/0002078653/README.md) | RNGT | available, quality gates apply |
-| 0002078856 | [Hyperliquid Strategies Inc](../companies/0002078856/README.md) | PURR | available, quality gates apply |
-| 0002079013 | [Hall Chadwick Acquisition Corp](../companies/0002079013/README.md) | HCAC | not available |
-| 0002079106 | [LaFayette Acquisition Corp.](../companies/0002079106/README.md) | LAFA | available, quality gates apply |
-| 0002079173 | [American Exceptionalism Acquisition Corp. A](../companies/0002079173/README.md) | AEXA | available, quality gates apply |
-| 0002079253 | [Apex Treasury Corp](../companies/0002079253/README.md) | APXT | available, quality gates apply |
-| 0002079272 | [Lakewood-Amedex Biotherapeutics Inc.](../companies/0002079272/README.md) | LABT | available, quality gates apply |
-| 0002079292 | [Insight Digital Partners II](../companies/0002079292/README.md) | DYOR | available, quality gates apply |
-| 0002079720 | [BUDA JUICE, INC.](../companies/0002079720/README.md) | BUDA | available, quality gates apply |
-| 0002079933 | [TGE Value Creative Solutions Corp](../companies/0002079933/README.md) | BEBE | available, quality gates apply |
-| 0002079999 | [Cardinal Infrastructure Group Inc.](../companies/0002079999/README.md) | CDNL | available, quality gates apply |
-| 0002080019 | [GigCapital8 Corp.](../companies/0002080019/README.md) | GIW | available, quality gates apply |
-| 0002080023 | [NorthStar Earth & Space Enterprises, Inc.](../companies/0002080023/README.md) | NSTR | available, quality gates apply |
-| 0002080073 | [Versamet Royalties Corp](../companies/0002080073/README.md) | VMET | not available |
-| 0002080087 | [Maywood Acquisition Corp. 2](../companies/0002080087/README.md) | MYX | available, quality gates apply |
-| 0002080126 | [Forgent Power Solutions, Inc.](../companies/0002080126/README.md) | FPS | available, quality gates apply |
-| 0002080215 | [StableCoinX Inc.](../companies/0002080215/README.md) | USDE | available, quality gates apply |
-| 0002080216 | [BOA Acquisition Corp. II](../companies/0002080216/README.md) | THEO | available, quality gates apply |
-| 0002080845 | [PayPay Corp](../companies/0002080845/README.md) | PAYP | not available |
-| 0002080921 | [ARKO Petroleum Corp.](../companies/0002080921/README.md) | APC | available, quality gates apply |
-| 0002080985 | [ITHAX Acquisition Corp III](../companies/0002080985/README.md) | ITHA | available, quality gates apply |
-| 0002081119 | [RoboStrategy, Inc.](../companies/0002081119/README.md) | BOT | not available |
-| 0002081125 | [Dynamix Corp III](../companies/0002081125/README.md) | DNMX | available, quality gates apply |
-| 0002081206 | [AGI Inc](../companies/0002081206/README.md) | AGBK | not available |
-| 0002081300 | [SPACSphere Acquisition Corp.](../companies/0002081300/README.md) | SSAC | available, quality gates apply |
-| 0002081358 | [Crane Harbor Acquisition Corp. II](../companies/0002081358/README.md) | CRAN | available, quality gates apply |
-| 0002081468 | [Meshflow Acquisition Corp](../companies/0002081468/README.md) | MESH | available, quality gates apply |
-| 0002081515 | [Berto Acquisition Corp. II](../companies/0002081515/README.md) | GUAC | available, quality gates apply |
-| 0002081532 | [Bluerock Acquisition Corp.](../companies/0002081532/README.md) | BLRK | available, quality gates apply |
-| 0002081536 | [White Pearl Acquisition Corp.](../companies/0002081536/README.md) | WPAC | available, quality gates apply |
-| 0002081690 | [Vernal Capital Acquisition Corp.](../companies/0002081690/README.md) | VECA | available, quality gates apply |
-| 0002081909 | [SilverBox Corp V](../companies/0002081909/README.md) | SBXE | available, quality gates apply |
-| 0002082119 | [KRAKacquisition Corp](../companies/0002082119/README.md) | KRAQ | available, quality gates apply |
-| 0002082149 | [Daedalus Special Acquisition Corp.](../companies/0002082149/README.md) | DSAC | available, quality gates apply |
-| 0002082247 | [FedEx Freight Holding Company, Inc.](../companies/0002082247/README.md) | FDXF | available, quality gates apply |
-| 0002082526 | [Aeon Acquisition I Corp.](../companies/0002082526/README.md) | AESP | available, quality gates apply |
-| 0002082542 | [Bitcoin Infrastructure Acquisition Corp Ltd](../companies/0002082542/README.md) | BIXI | available, quality gates apply |
-| 0002082844 | [Safeguard Acquisition Corp.](../companies/0002082844/README.md) | SAC | available, quality gates apply |
-| 0002082847 | [Blue Water Acquisition Corp. IV](../companies/0002082847/README.md) | BWIV | available, quality gates apply |
-| 0002082866 | [Pinnacle Financial Partners, Inc.](../companies/0002082866/README.md) | PNFP | available, quality gates apply |
-| 0002083002 | [American Drive Acquisition Co](../companies/0002083002/README.md) | ADAC | available, quality gates apply |
-| 0002083125 | [PRESIDIO PRODUCTION Co](../companies/0002083125/README.md) | FTW | not available |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [VLY](../companies/VLY/README.md) | VALLEY NATIONAL BANCORP | available, quality gates apply |
+| [VMAR](../companies/VMAR/README.md) | Vision Marine Technologies Inc. | not available |
+| [VMD](../companies/VMD/README.md) | VIEMED HEALTHCARE, INC. | available, quality gates apply |
+| [VMET](../companies/VMET/README.md) | Versamet Royalties Corp | not available |
+| [VMI](../companies/VMI/README.md) | VALMONT INDUSTRIES INC | available, quality gates apply |
+| [VMO](../companies/VMO/README.md) | Invesco Municipal Opportunity Trust | not available |
+| [VMRK](../companies/VMRK/README.md) | VIVMARK RESIDENTIAL | available, quality gates apply |
+| [VNCE](../companies/VNCE/README.md) | VINCE HOLDING CORP. | available, quality gates apply |
+| [VNDA](../companies/VNDA/README.md) | Vanda Pharmaceuticals Inc. | available, quality gates apply |
+| [VNET](../companies/VNET/README.md) | VNET Group, Inc. | not available |
+| [VNME](../companies/VNME/README.md) | Vendome Acquisition Corp I | available, quality gates apply |
+| [VNO](../companies/VNO/README.md) | VORNADO REALTY TRUST | available, quality gates apply |
+| [VNOM](../companies/VNOM/README.md) | Viper Energy, Inc. | available, quality gates apply |
+| [VNRX](../companies/VNRX/README.md) | VOLITIONRX LTD | available, quality gates apply |
+| [VNT](../companies/VNT/README.md) | Vontier Corp | available, quality gates apply |
+| [VOGX](../companies/VOGX/README.md) | Vogenx, Inc. | available, quality gates apply |
+| [VOR](../companies/VOR/README.md) | Vor Biopharma Inc. | available, quality gates apply |
+| [VOXR](../companies/VOXR/README.md) | VOX ROYALTY CORP. | not available |
+| [VOYA, VOYA$B](../companies/VOYA/README.md) | Voya Financial, Inc. | available, quality gates apply |
+| [VOYG](../companies/VOYG/README.md) | Voyager Technologies, Inc./TX | available, quality gates apply |
+| [VPG](../companies/VPG/README.md) | Vishay Precision Group, Inc. | available, quality gates apply |
+| [VPV](../companies/VPV/README.md) | Invesco Pennsylvania Value Municipal Income Trust | not available |
+| [VRA](../companies/VRA/README.md) | Vera Bradley, Inc. | available, quality gates apply |
+| [VRAX](../companies/VRAX/README.md) | Virax Biolabs Group Ltd | not available |
+| [VRCA](../companies/VRCA/README.md) | Verrica Pharmaceuticals Inc. | available, quality gates apply |
+| [VRDN](../companies/VRDN/README.md) | Viridian Therapeutics, Inc.\\DE | available, quality gates apply |
+| [VREX](../companies/VREX/README.md) | Varex Imaging Corp | available, quality gates apply |
+| [VRM](../companies/VRM/README.md) | Vroom, Inc. | available, quality gates apply |
+| [VRNS](../companies/VRNS/README.md) | VARONIS SYSTEMS INC | available, quality gates apply |
+| [VRRM](../companies/VRRM/README.md) | VERRA MOBILITY Corp | available, quality gates apply |
+| [VRSK](../companies/VRSK/README.md) | Verisk Analytics, Inc. | not available |
+| [VRSN](../companies/VRSN/README.md) | VERISIGN INC/CA | available, quality gates apply |
+| [VRT](../companies/VRT/README.md) | Vertiv Holdings Co | available, quality gates apply |
+| [VRTS](../companies/VRTS/README.md) | VIRTUS INVESTMENT PARTNERS, INC. | available, quality gates apply |
+| [VRTX](../companies/VRTX/README.md) | VERTEX PHARMACEUTICALS INC / MA | available, quality gates apply |
+| [VS](../companies/VS/README.md) | Versus Systems Inc. | available, quality gates apply |
+| [VSA](../companies/VSA/README.md) | VisionSys AI Inc | not available |
+| [VSAT](../companies/VSAT/README.md) | VIASAT INC | available, quality gates apply |
+| [VSEC](../companies/VSEC/README.md) | VSE CORP | available, quality gates apply |
+| [VSH](../companies/VSH/README.md) | VISHAY INTERTECHNOLOGY INC | available, quality gates apply |
+| [VSNT](../companies/VSNT/README.md) | Versant Media Group, Inc. | available, quality gates apply |
+| [VST](../companies/VST/README.md) | Vistra Corp. | available, quality gates apply |
+| [VSTM](../companies/VSTM/README.md) | Verastem, Inc. | available, quality gates apply |
+| [VSTS](../companies/VSTS/README.md) | Vestis Corp | available, quality gates apply |
+| [VSXY](../companies/VSXY/README.md) | Victoria's Secret & Co. | available, quality gates apply |
+| [VTEX](../companies/VTEX/README.md) | VTEX | not available |
+| [VTGN](../companies/VTGN/README.md) | Vistagen Therapeutics, Inc. | available, quality gates apply |
+| [VTIX](../companies/VTIX/README.md) | Virtuix Holdings Inc. | available, quality gates apply |
+| [VTN](../companies/VTN/README.md) | Invesco Trust for Investment Grade New York Municipals | not available |
+| [VTOL](../companies/VTOL/README.md) | Bristow Group Inc. | available, quality gates apply |
+| [VTR](../companies/VTR/README.md) | Ventas, Inc. | available, quality gates apply |
+| [VTRS](../companies/VTRS/README.md) | Viatris Inc | available, quality gates apply |
+| [VTS](../companies/VTS/README.md) | Vitesse Energy, Inc. | available, quality gates apply |
+| [VTSI](../companies/VTSI/README.md) | VirTra, Inc | available, quality gates apply |
+| [VTVT](../companies/VTVT/README.md) | vTv Therapeutics Inc. | available, quality gates apply |
+| [VUZI](../companies/VUZI/README.md) | Vuzix Corp | available, quality gates apply |
+| [VVOS](../companies/VVOS/README.md) | Vivos Therapeutics, Inc. | available, quality gates apply |
+| [VVR](../companies/VVR/README.md) | Invesco Senior Income Trust | not available |
+| [VVV](../companies/VVV/README.md) | VALVOLINE INC | available, quality gates apply |
+| [VVX](../companies/VVX/README.md) | V2X, Inc. | available, quality gates apply |
+| [VWAV](../companies/VWAV/README.md) | VisionWave Holdings, Inc. | available, quality gates apply |
+| [VYGR](../companies/VYGR/README.md) | Voyager Therapeutics, Inc. | available, quality gates apply |
+| [VYLR](../companies/VYLR/README.md) | Vylor Inc. | not available |
+| [VYX](../companies/VYX/README.md) | NCR Voyix Corp | available, quality gates apply |
+| [VZ](../companies/VZ/README.md) | VERIZON COMMUNICATIONS INC | available, quality gates apply |
+| [VZLA](../companies/VZLA/README.md) | Vizsla Silver Corp. | not available |
+| [W](../companies/W/README.md) | Wayfair Inc. | available, quality gates apply |
+| [WAB](../companies/WAB/README.md) | WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP | available, quality gates apply |
+| [WABC](../companies/WABC/README.md) | WESTAMERICA BANCORPORATION | available, quality gates apply |
+| [WAFD, WAFDP](../companies/WAFD/README.md) | WAFD INC | available, quality gates apply |
+| [WAFU](../companies/WAFU/README.md) | Wah Fu Education & Technology Group Ltd. | not available |
+| [WAL, WAL$A](../companies/WAL/README.md) | WESTERN ALLIANCE BANCORPORATION | available, quality gates apply |
+| [WASH](../companies/WASH/README.md) | WASHINGTON TRUST BANCORP INC | available, quality gates apply |
+| [WAT](../companies/WAT/README.md) | WATERS CORP /DE/ | available, quality gates apply |
+| [WATR](../companies/WATR/README.md) | Air Water Ventures Ltd | not available |
+| [WATT](../companies/WATT/README.md) | Energous Corp | available, quality gates apply |
+| [WAVE](../companies/WAVE/README.md) | Eco Wave Power Global AB (publ) | not available |
+| [WAY](../companies/WAY/README.md) | Waystar Holding Corp. | available, quality gates apply |
+| [WB](../companies/WB/README.md) | WEIBO Corp | not available |
+| [WBI](../companies/WBI/README.md) | WaterBridge Infrastructure LLC | available, quality gates apply |
+| [WBTN](../companies/WBTN/README.md) | WEBTOON Entertainment Inc. | available, quality gates apply |
+| [WBUY](../companies/WBUY/README.md) | WEBUY GLOBAL LTD | not available |
+| [WBX](../companies/WBX/README.md) | Wallbox N.V. | not available |
+| [WCC](../companies/WCC/README.md) | WESCO INTERNATIONAL INC | available, quality gates apply |
+| [WCCB](../companies/WCCB/README.md) | West Coast Community Bancorp | not available |
+| [WCN](../companies/WCN/README.md) | Waste Connections, Inc. | available, quality gates apply |
+| [WCT](../companies/WCT/README.md) | Wellchange Holdings Co Ltd | not available |
+| [WD](../companies/WD/README.md) | Walker & Dunlop, Inc. | available, quality gates apply |
+| [WDAY](../companies/WDAY/README.md) | Workday, Inc. | available, quality gates apply |
+| [WDC](../companies/WDC/README.md) | WESTERN DIGITAL CORP | available, quality gates apply |
+| [WDFC](../companies/WDFC/README.md) | WD 40 CO | available, quality gates apply |
+| [WDH](../companies/WDH/README.md) | Waterdrop Inc. | not available |
+| [WDS](../companies/WDS/README.md) | WOODSIDE ENERGY GROUP LTD | not available |
+| [WEAV](../companies/WEAV/README.md) | Weave Communications, Inc. | available, quality gates apply |
+| [WEC](../companies/WEC/README.md) | WEC ENERGY GROUP, INC. | available, quality gates apply |
+| [WELL](../companies/WELL/README.md) | WELLTOWER INC. | not available |
+| [WEN](../companies/WEN/README.md) | Wendy's Co | available, quality gates apply |
+| [WENC](../companies/WENC/README.md) | West Enclave Merger Corp. | available, quality gates apply |
+| [WENN](../companies/WENN/README.md) | WEN Acquisition Corp | available, quality gates apply |
+| [WERN](../companies/WERN/README.md) | WERNER ENTERPRISES INC | available, quality gates apply |

@@ -2,105 +2,105 @@
 
 [All pages](../INDEX.md)
 
-| CIK | Company | Current symbols | Financial history |
-| --- | --- | --- | --- |
-| 0001746129 | [Bank7 Corp.](../companies/0001746129/README.md) | BSVN | available, quality gates apply |
-| 0001746466 | [Equillium, Inc.](../companies/0001746466/README.md) | EQ | available, quality gates apply |
-| 0001746473 | [PLIANT THERAPEUTICS, INC.](../companies/0001746473/README.md) | PLRX | available, quality gates apply |
-| 0001746618 | [Revolve Group, Inc.](../companies/0001746618/README.md) | RVLV | available, quality gates apply |
-| 0001746967 | [RiverNorth Opportunistic Municipal Income Fund, Inc.](../companies/0001746967/README.md) | RMI | not available |
-| 0001747068 | [MetroCity Bankshares, Inc.](../companies/0001747068/README.md) | MCBS | available, quality gates apply |
-| 0001747079 | [Bally's Corp](../companies/0001747079/README.md) | BALY | available, quality gates apply |
-| 0001747172 | [Kayne Anderson BDC, Inc.](../companies/0001747172/README.md) | KBDC | available, quality gates apply |
-| 0001747661 | [Zeta Network Group](../companies/0001747661/README.md) | ZNB | not available |
-| 0001747777 | [Blue Owl Technology Finance Corp.](../companies/0001747777/README.md) | OTF | available, quality gates apply |
-| 0001748137 | [NeoVolta Inc.](../companies/0001748137/README.md) | NEOV | available, quality gates apply |
-| 0001748790 | [Amcor plc](../companies/0001748790/README.md) | AMCR | available, quality gates apply |
-| 0001748797 | [BRP Inc.](../companies/0001748797/README.md) | DOO | not available |
-| 0001748824 | [Acadian Asset Management Inc.](../companies/0001748824/README.md) | AAMI | available, quality gates apply |
-| 0001749723 | [New Fortress Energy Inc.](../companies/0001749723/README.md) | NFE, NFEGP | available, quality gates apply |
-| 0001750106 | [Alset Inc.](../companies/0001750106/README.md) | AEI | available, quality gates apply |
-| 0001750149 | [Inhibikase Therapeutics, Inc.](../companies/0001750149/README.md) | IKT | available, quality gates apply |
-| 0001750264 | [Maase Inc.](../companies/0001750264/README.md) | MAAS | not available |
-| 0001750284 | [Olema Pharmaceuticals, Inc.](../companies/0001750284/README.md) | OLMA | available, quality gates apply |
-| 0001750593 | [Fangdd Network Group Ltd.](../companies/0001750593/README.md) | DUO | not available |
-| 0001750704 | [HawkEye 360, Inc.](../companies/0001750704/README.md) | HAWK | available, quality gates apply |
-| 0001750735 | [Meridian Corp](../companies/0001750735/README.md) | MRBK | available, quality gates apply |
-| 0001751008 | [AppLovin Corp](../companies/0001751008/README.md) | APP | available, quality gates apply |
-| 0001751783 | [Rhinebeck Bancorp, Inc.](../companies/0001751783/README.md) | RBKB | available, quality gates apply |
-| 0001751788 | [DOW INC.](../companies/0001751788/README.md) | DOW | not available |
-| 0001751876 | [Paranovus Entertainment Technology Ltd.](../companies/0001751876/README.md) | PAVS | not available |
-| 0001751912 | [NERVGEN PHARMA CORP.](../companies/0001751912/README.md) | NGEN | not available |
-| 0001752828 | [Celularity Inc](../companies/0001752828/README.md) | CELU | available, quality gates apply |
-| 0001753162 | [Fathom Holdings Inc.](../companies/0001753162/README.md) | FTHM | available, quality gates apply |
-| 0001753368 | [Sangoma Technologies Corp](../companies/0001753368/README.md) | SANG | not available |
-| 0001753539 | [BlackSky Technology Inc.](../companies/0001753539/README.md) | BKSY | available, quality gates apply |
-| 0001753673 | [Scienjoy Holding Corp](../companies/0001753673/README.md) | SJ | available, quality gates apply |
-| 0001754068 | [Kalaris Therapeutics, Inc.](../companies/0001754068/README.md) | KLRS | available, quality gates apply |
-| 0001754170 | [AerSale Corp](../companies/0001754170/README.md) | ASLE | available, quality gates apply |
-| 0001754226 | [Orange County Bancorp, Inc. /DE/](../companies/0001754226/README.md) | OBT | available, quality gates apply |
-| 0001754301 | [Fox Corp](../companies/0001754301/README.md) | FOX, FOXA | available, quality gates apply |
-| 0001754581 | [Futu Holdings Ltd](../companies/0001754581/README.md) | FUTU | not available |
-| 0001754836 | [Eagle Point Income Co](../companies/0001754836/README.md) | EIC | not available |
-| 0001755058 | [ATIF Holdings Ltd](../companies/0001755058/README.md) | AUC | available, quality gates apply |
-| 0001755237 | [Korsana Biosciences, Inc.](../companies/0001755237/README.md) | KRSA | available, quality gates apply |
-| 0001755672 | [Corteva, Inc.](../companies/0001755672/README.md) | CTVA | available, quality gates apply |
-| 0001755953 | [American Bitcoin Corp.](../companies/0001755953/README.md) | ABTC | available, quality gates apply |
-| 0001756064 | [Our Bond, Inc.](../companies/0001756064/README.md) | OBAI | available, quality gates apply |
-| 0001756180 | [NOCERA, INC.](../companies/0001756180/README.md) | NCRA | available, quality gates apply |
-| 0001756262 | [TransMedics Group, Inc.](../companies/0001756262/README.md) | TMDX | available, quality gates apply |
-| 0001756594 | [Inventiva S.A.](../companies/0001756594/README.md) | IVA | not available |
-| 0001756607 | [Equinox Gold Corp.](../companies/0001756607/README.md) | EQX | not available |
-| 0001756655 | [Ardent Health, Inc.](../companies/0001756655/README.md) | ARDT | available, quality gates apply |
-| 0001756699 | [UP Fintech Holding Ltd](../companies/0001756699/README.md) | TIGR | not available |
-| 0001756708 | [Jumia Technologies AG](../companies/0001756708/README.md) | JMIA | not available |
-| 0001756908 | [PIMCO Dynamic Income Strategy Fund](../companies/0001756908/README.md) | PDX | not available |
-| 0001757073 | [Envista Holdings Corp](../companies/0001757073/README.md) | NVST | available, quality gates apply |
-| 0001757499 | [Shuttle Pharmaceuticals Holdings, Inc.](../companies/0001757499/README.md) | SHPH | available, quality gates apply |
-| 0001757715 | [Aterian, Inc.](../companies/0001757715/README.md) | ATER | available, quality gates apply |
-| 0001757840 | [Indonesia Energy Corp Ltd](../companies/0001757840/README.md) | INDO | not available |
-| 0001758009 | [Quantum Computing Inc.](../companies/0001758009/README.md) | QUBT | available, quality gates apply |
-| 0001758021 | [Karat Packaging Inc.](../companies/0001758021/README.md) | KRT | available, quality gates apply |
-| 0001758488 | [ONESPAWORLD HOLDINGS Ltd](../companies/0001758488/README.md) | OSW | available, quality gates apply |
-| 0001758530 | [So-Young International Inc.](../companies/0001758530/README.md) | SY | not available |
-| 0001758730 | [Tradeweb Markets Inc.](../companies/0001758730/README.md) | TW | available, quality gates apply |
-| 0001758766 | [STEM, INC.](../companies/0001758766/README.md) | STEM | available, quality gates apply |
-| 0001759138 | [Cabaletta Bio, Inc.](../companies/0001759138/README.md) | CABA | available, quality gates apply |
-| 0001759186 | [Z Squared Inc.](../companies/0001759186/README.md) | ZSQR | available, quality gates apply |
-| 0001759425 | [Mirum Pharmaceuticals, Inc.](../companies/0001759425/README.md) | MIRM | available, quality gates apply |
-| 0001759509 | [Lyft, Inc.](../companies/0001759509/README.md) | LYFT | available, quality gates apply |
-| 0001759614 | [Yunji Inc.](../companies/0001759614/README.md) | YJ | not available |
-| 0001759631 | [Hyliion Holdings Corp.](../companies/0001759631/README.md) | HYLN | available, quality gates apply |
-| 0001759655 | [Privia Health Group, Inc.](../companies/0001759655/README.md) | PRVA | available, quality gates apply |
-| 0001759774 | [Postal Realty Trust, Inc.](../companies/0001759774/README.md) | PSTL | available, quality gates apply |
-| 0001759824 | [ALTA EQUIPMENT GROUP INC.](../companies/0001759824/README.md) | ALTG, ALTG$A | available, quality gates apply |
-| 0001760233 | [GIFTIFY, INC.](../companies/0001760233/README.md) | GIFT | available, quality gates apply |
-| 0001760689 | [Microvast Holdings, Inc.](../companies/0001760689/README.md) | MVST | available, quality gates apply |
-| 0001760903 | [BONK, INC.](../companies/0001760903/README.md) | BNKK | available, quality gates apply |
-| 0001760965 | [Kontoor Brands, Inc.](../companies/0001760965/README.md) | KTB | available, quality gates apply |
-| 0001761312 | [Palomar Holdings, Inc.](../companies/0001761312/README.md) | PLMR | available, quality gates apply |
-| 0001761612 | [BICYCLE THERAPEUTICS PLC](../companies/0001761612/README.md) | BCYC | available, quality gates apply |
-| 0001761918 | [Erasca, Inc.](../companies/0001761918/README.md) | ERAS | available, quality gates apply |
-| 0001762301 | [Fiverr International Ltd.](../companies/0001762301/README.md) | FVRR | not available |
-| 0001762303 | [AVITA Medical, Inc.](../companies/0001762303/README.md) | RCEL | available, quality gates apply |
-| 0001762417 | [DouYu International Holdings Ltd](../companies/0001762417/README.md) | DOYU | not available |
-| 0001762506 | [Vista Energy, S.A.B. de C.V.](../companies/0001762506/README.md) | VIST | not available |
-| 0001763950 | [Lantern Pharma Inc.](../companies/0001763950/README.md) | LTRN | available, quality gates apply |
-| 0001764013 | [Immunovant, Inc.](../companies/0001764013/README.md) | IMVT | available, quality gates apply |
-| 0001764046 | [CLARIVATE PLC](../companies/0001764046/README.md) | CLVT | not available |
-| 0001765850 | [Aurelion Inc.](../companies/0001765850/README.md) | AURE | not available |
-| 0001766140 | [Unicycive Therapeutics, Inc.](../companies/0001766140/README.md) | UNCY | available, quality gates apply |
-| 0001766368 | [Mayville Engineering Company, Inc.](../companies/0001766368/README.md) | MEC | available, quality gates apply |
-| 0001766400 | [Pennant Group, Inc.](../companies/0001766400/README.md) | PNTG | available, quality gates apply |
-| 0001766478 | [Angel Oak Mortgage REIT, Inc.](../companies/0001766478/README.md) | AOMR | available, quality gates apply |
-| 0001766502 | [Chewy, Inc.](../companies/0001766502/README.md) | CHWY | available, quality gates apply |
-| 0001766600 | [SNDL Inc.](../companies/0001766600/README.md) | SNDL | not available |
-| 0001767042 | [Kodiak Gas Services, Inc.](../companies/0001767042/README.md) | KGS | available, quality gates apply |
-| 0001767258 | [XPEL, Inc.](../companies/0001767258/README.md) | XPEL | available, quality gates apply |
-| 0001767837 | [Richmond Mutual Bancorporation, Inc.](../companies/0001767837/README.md) | RMBI | available, quality gates apply |
-| 0001768224 | [Arcturus Therapeutics Holdings Inc.](../companies/0001768224/README.md) | ARCT | available, quality gates apply |
-| 0001768259 | [Gaotu Techedu Inc.](../companies/0001768259/README.md) | GOTU | not available |
-| 0001768267 | [Cerence Inc.](../companies/0001768267/README.md) | CRNC | available, quality gates apply |
-| 0001768446 | [Climb Bio, Inc.](../companies/0001768446/README.md) | CLYM | available, quality gates apply |
-| 0001768666 | [BlackRock Science & Technology Term Trust](../companies/0001768666/README.md) | BSTZ | not available |
-| 0001769256 | [XChange TEC.INC](../companies/0001769256/README.md) | XHG | not available |
+| Symbols | Company | Financial history |
+| --- | --- | --- |
+| [ODYS](../companies/ODYS/README.md) | Odysight.ai Inc. | available, quality gates apply |
+| [OEC](../companies/OEC/README.md) | Orion S.A. | available, quality gates apply |
+| [OESX](../companies/OESX/README.md) | ORION ENERGY SYSTEMS, INC. | available, quality gates apply |
+| [OFAL](../companies/OFAL/README.md) | OFA Group | available, quality gates apply |
+| [OFG](../companies/OFG/README.md) | OFG BANCORP | available, quality gates apply |
+| [OFIX](../companies/OFIX/README.md) | Orthofix Medical Inc. | available, quality gates apply |
+| [OFLX](../companies/OFLX/README.md) | Omega Flex, Inc. | available, quality gates apply |
+| [OFRM](../companies/OFRM/README.md) | Once Upon a Farm, PBC | available, quality gates apply |
+| [OGC](../companies/OGC/README.md) | OceanaGold Corp | not available |
+| [OGE](../companies/OGE/README.md) | OGE ENERGY CORP. | not available |
+| [OGEN](../companies/OGEN/README.md) | ORAGENICS INC | available, quality gates apply |
+| [OGG](../companies/OGG/README.md) | Osisko Gold Group Inc. | not available |
+| [OGI](../companies/OGI/README.md) | ORGANIGRAM GLOBAL INC. | not available |
+| [OGN](../companies/OGN/README.md) | Organon & Co. | available, quality gates apply |
+| [OGS](../companies/OGS/README.md) | ONE Gas, Inc. | available, quality gates apply |
+| [OHAC](../companies/OHAC/README.md) | Oceanhawk Acquisition Corp. | available, quality gates apply |
+| [OHI](../companies/OHI/README.md) | OMEGA HEALTHCARE INVESTORS INC | available, quality gates apply |
+| [OI](../companies/OI/README.md) | O-I Glass, Inc. /DE/ | available, quality gates apply |
+| [OIA](../companies/OIA/README.md) | Invesco Municipal Income Opportunities Trust | not available |
+| [OIG](../companies/OIG/README.md) | Orion180 Insurance Group Inc. | not available |
+| [OII](../companies/OII/README.md) | OCEANEERING INTERNATIONAL INC | available, quality gates apply |
+| [OIM](../companies/OIM/README.md) | OneIM Acquisition Corp. | available, quality gates apply |
+| [OIO](../companies/OIO/README.md) | OIO Group | not available |
+| [OIS](../companies/OIS/README.md) | OIL STATES INTERNATIONAL, INC | available, quality gates apply |
+| [OKLO](../companies/OKLO/README.md) | Oklo Inc. | available, quality gates apply |
+| [OKTA](../companies/OKTA/README.md) | Okta, Inc. | available, quality gates apply |
+| [OKUR](../companies/OKUR/README.md) | OnKure Therapeutics, Inc. | available, quality gates apply |
+| [OKYO](../companies/OKYO/README.md) | OKYO Pharma Ltd | not available |
+| [OLB](../companies/OLB/README.md) | OLB GROUP, INC. | available, quality gates apply |
+| [OLLI](../companies/OLLI/README.md) | Ollie's Bargain Outlet Holdings, Inc. | available, quality gates apply |
+| [OLMA](../companies/OLMA/README.md) | Olema Pharmaceuticals, Inc. | available, quality gates apply |
+| [OLN](../companies/OLN/README.md) | OLIN Corp | available, quality gates apply |
+| [OLOX](../companies/OLOX/README.md) | OLENOX INDUSTRIES INC. | available, quality gates apply |
+| [OLP](../companies/OLP/README.md) | ONE LIBERTY PROPERTIES INC | available, quality gates apply |
+| [OM](../companies/OM/README.md) | Outset Medical, Inc. | available, quality gates apply |
+| [OMC](../companies/OMC/README.md) | OMNICOM GROUP INC. | not available |
+| [OMCL](../companies/OMCL/README.md) | OMNICELL, INC. | available, quality gates apply |
+| [OMDA](../companies/OMDA/README.md) | Omada Health, Inc. | available, quality gates apply |
+| [OMER](../companies/OMER/README.md) | OMEROS CORP | available, quality gates apply |
+| [OMEX](../companies/OMEX/README.md) | ODYSSEY MARINE EXPLORATION INC | available, quality gates apply |
+| [OMF](../companies/OMF/README.md) | OneMain Holdings, Inc. | not available |
+| [OMH](../companies/OMH/README.md) | Ohmyhome Ltd | not available |
+| [OMSE](../companies/OMSE/README.md) | OMS Energy Technologies Inc. | not available |
+| [ON](../companies/ON/README.md) | ON SEMICONDUCTOR CORP | available, quality gates apply |
+| [ONB, ONBPO, ONBPP](../companies/ONB/README.md) | OLD NATIONAL BANCORP /IN/ | not available |
+| [ONC](../companies/ONC/README.md) | BeOne Medicines Ltd. | available, quality gates apply |
+| [ONCH](../companies/ONCH/README.md) | 1RT Acquisition Corp. | available, quality gates apply |
+| [ONCO](../companies/ONCO/README.md) | Onconetix, Inc. | available, quality gates apply |
+| [ONCY](../companies/ONCY/README.md) | ONCOLYTICS BIOTECH INC | available, quality gates apply |
+| [ONDS](../companies/ONDS/README.md) | Ondas Inc. | available, quality gates apply |
+| [ONEG](../companies/ONEG/README.md) | OneConstruction Group Ltd | not available |
+| [ONEN](../companies/ONEN/README.md) | ONE Nuclear Energy Inc. | available, quality gates apply |
+| [ONEW](../companies/ONEW/README.md) | OneWater Marine Inc. | available, quality gates apply |
+| [ONFO](../companies/ONFO/README.md) | Onfolio Holdings, Inc | available, quality gates apply |
+| [ONIT](../companies/ONIT/README.md) | ONITY GROUP INC. | available, quality gates apply |
+| [ONL](../companies/ONL/README.md) | Orion Properties Inc. | available, quality gates apply |
+| [ONMD](../companies/ONMD/README.md) | OneMedNet Corp | available, quality gates apply |
+| [ONON](../companies/ONON/README.md) | On Holding AG | not available |
+| [ONT](../companies/ONT/README.md) | Onterris, Inc. | available, quality gates apply |
+| [ONTO](../companies/ONTO/README.md) | ONTO INNOVATION INC. | available, quality gates apply |
+| [OOMA](../companies/OOMA/README.md) | OOMA INC | available, quality gates apply |
+| [OPAD](../companies/OPAD/README.md) | Offerpad Solutions Inc. | available, quality gates apply |
+| [OPAL](../companies/OPAL/README.md) | OPAL Fuels Inc. | available, quality gates apply |
+| [OPBK](../companies/OPBK/README.md) | OP Bancorp | available, quality gates apply |
+| [OPCH](../companies/OPCH/README.md) | Option Care Health, Inc. | not available |
+| [OPEN](../companies/OPEN/README.md) | Opendoor Technologies Inc. | available, quality gates apply |
+| [OPFI](../companies/OPFI/README.md) | OppFi Inc. | available, quality gates apply |
+| [OPHC](../companies/OPHC/README.md) | OptimumBank Holdings, Inc. | available, quality gates apply |
+| [OPI](../companies/OPI/README.md) | OFFICE PROPERTIES INCOME TRUST | not available |
+| [OPK](../companies/OPK/README.md) | OPKO HEALTH, INC. | available, quality gates apply |
+| [OPLN](../companies/OPLN/README.md) | OPENLANE, Inc. | available, quality gates apply |
+| [OPNW](../companies/OPNW/README.md) | OpenWorld, Inc. | available, quality gates apply |
+| [OPP](../companies/OPP/README.md) | RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. | not available |
+| [OPRA](../companies/OPRA/README.md) | Opera Ltd | not available |
+| [OPRT](../companies/OPRT/README.md) | Oportun Financial Corp | available, quality gates apply |
+| [OPRX](../companies/OPRX/README.md) | OptimizeRx Corp | available, quality gates apply |
+| [OPTH](../companies/OPTH/README.md) | Optimi Health Corp. | not available |
+| [OPTT](../companies/OPTT/README.md) | Ocean Power Technologies, Inc. | available, quality gates apply |
+| [OPTU](../companies/OPTU/README.md) | Optimum Communications, Inc. | available, quality gates apply |
+| [OPTX](../companies/OPTX/README.md) | SYNTEC OPTICS HOLDINGS, INC. | available, quality gates apply |
+| [OPXS](../companies/OPXS/README.md) | Optex Systems Holdings Inc | available, quality gates apply |
+| [OPY](../companies/OPY/README.md) | OPPENHEIMER HOLDINGS INC | available, quality gates apply |
+| [OR](../companies/OR/README.md) | OR Royalties Inc. | not available |
+| [ORA](../companies/ORA/README.md) | ORMAT TECHNOLOGIES, INC. | available, quality gates apply |
+| [ORBS](../companies/ORBS/README.md) | Eightco Holdings Inc. | available, quality gates apply |
+| [ORC](../companies/ORC/README.md) | Orchid Island Capital, Inc. | available, quality gates apply |
+| [ORCL, ORCL$D](../companies/ORCL/README.md) | ORACLE CORP | available, quality gates apply |
+| [ORGO](../companies/ORGO/README.md) | Organogenesis Holdings Inc. | available, quality gates apply |
+| [ORI](../companies/ORI/README.md) | OLD REPUBLIC INTERNATIONAL CORP | available, quality gates apply |
+| [ORIC](../companies/ORIC/README.md) | Oric Pharmaceuticals, Inc. | available, quality gates apply |
+| [ORIO](../companies/ORIO/README.md) | Orion Digital Corp. | not available |
+| [ORIQ](../companies/ORIQ/README.md) | Origin Investment Corp I | available, quality gates apply |
+| [ORKA](../companies/ORKA/README.md) | Oruka Therapeutics, Inc. | available, quality gates apply |
+| [ORKT](../companies/ORKT/README.md) | ORANGEKLOUD TECHNOLOGY INC. | not available |
+| [ORLY](../companies/ORLY/README.md) | O REILLY AUTOMOTIVE INC | available, quality gates apply |
+| [ORMP](../companies/ORMP/README.md) | ORAMED PHARMACEUTICALS INC. | available, quality gates apply |
+| [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
+| [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
+| [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
+| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |
