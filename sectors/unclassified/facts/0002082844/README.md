@@ -8,11 +8,11 @@ tickers:
 - SAC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -48,10 +48,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002082844.json
     sha256: a76511d65a4b0bf9e357ceba9062edf005f93f47c6637ce572773a787da90d94
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0002082844.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,13 +59,13 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002082844.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: a76511d65a4b0bf9e357ceba9062edf005f93f47c6637ce572773a787da90d94
 - id: S03
   title: SEC CompanyFacts source
@@ -83,58 +83,62 @@ sources:
   title: SCHEDULE 13G/A 0001193125-26-351240
   url: https://www.sec.gov/Archives/edgar/data/2082844/000119312526351240/0001193125-26-351240-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: SCHEDULE 13G/A 0001193125-26-351091
   url: https://www.sec.gov/Archives/edgar/data/2082844/000119312526351091/0001193125-26-351091-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S08
   title: 10-Q 0001213900-26-086215
   url: https://www.sec.gov/Archives/edgar/data/2082844/000121390026086215/0001213900-26-086215-index.html
   published_at: '2026-08-06'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S09
   title: 10-Q 0001213900-26-054493
   url: https://www.sec.gov/Archives/edgar/data/2082844/000121390026054493/0001213900-26-054493-index.html
   published_at: '2026-05-11'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S10
   title: SCHEDULE 13G 0001193125-26-192710
   url: https://www.sec.gov/Archives/edgar/data/2082844/000119312526192710/0001193125-26-192710-index.html
   published_at: '2026-04-29'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0002082844
+  classification_status: reported_sic
+  entity_type: operating
   name: Safeguard Acquisition Corp.
+  sic: '6770'
+  sic_description: Blank Checks
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: a76511d65a4b0bf9e357ceba9062edf005f93f47c6637ce572773a787da90d94
   url: https://data.sec.gov/submissions/CIK0002082844.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '6770'
+  sic_description: Blank Checks
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002082844/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002082844/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # Safeguard Acquisition Corp. — SAC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002082844/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002082844/README.md)
 
 ## Business overview
 
@@ -162,7 +166,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **6770**: Blank Checks. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -255,7 +261,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:45:21.828156+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:47:21.997767+00:00.
 
 ## Relationships and themes
 
@@ -275,24 +281,24 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002082844.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002082844.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0002082844.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
 [S04] [10-Q 0001213900-26-086215](https://www.sec.gov/Archives/edgar/data/2082844/000121390026086215/0001213900-26-086215-index.html) — published 2026-08-06; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S06] [SCHEDULE 13G/A 0001193125-26-351240](https://www.sec.gov/Archives/edgar/data/2082844/000119312526351240/0001193125-26-351240-index.html) — published 2026-08-14; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [SCHEDULE 13G/A 0001193125-26-351240](https://www.sec.gov/Archives/edgar/data/2082844/000119312526351240/0001193125-26-351240-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [SCHEDULE 13G/A 0001193125-26-351091](https://www.sec.gov/Archives/edgar/data/2082844/000119312526351091/0001193125-26-351091-index.html) — published 2026-08-14; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [SCHEDULE 13G/A 0001193125-26-351091](https://www.sec.gov/Archives/edgar/data/2082844/000119312526351091/0001193125-26-351091-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S08] [10-Q 0001213900-26-086215](https://www.sec.gov/Archives/edgar/data/2082844/000121390026086215/0001213900-26-086215-index.html) — published 2026-08-06; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S08] [10-Q 0001213900-26-086215](https://www.sec.gov/Archives/edgar/data/2082844/000121390026086215/0001213900-26-086215-index.html) — published 2026-08-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S09] [10-Q 0001213900-26-054493](https://www.sec.gov/Archives/edgar/data/2082844/000121390026054493/0001213900-26-054493-index.html) — published 2026-05-11; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S09] [10-Q 0001213900-26-054493](https://www.sec.gov/Archives/edgar/data/2082844/000121390026054493/0001213900-26-054493-index.html) — published 2026-05-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S10] [SCHEDULE 13G 0001193125-26-192710](https://www.sec.gov/Archives/edgar/data/2082844/000119312526192710/0001193125-26-192710-index.html) — published 2026-04-29; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S10] [SCHEDULE 13G 0001193125-26-192710](https://www.sec.gov/Archives/edgar/data/2082844/000119312526192710/0001193125-26-192710-index.html) — published 2026-04-29; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002082844/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002082844/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -4,21 +4,651 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **7**. Curated profiles: **7**. Reviewed research: **7**.
+Factual files: **637**. Curated profiles: **7**. Reviewed research: **7**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
+| [3 E Network Technology Group Ltd](facts/0001993097/README.md) | MASK | missing | project_sic_rule |
+| [3D SYSTEMS CORP](facts/0000910638/README.md) | DDD | available; quality gates apply | project_sic_rule |
+| [8X8 INC /DE/](facts/0001023731/README.md) | EGHT | available; quality gates apply | project_sic_rule |
+| [A10 Networks, Inc.](facts/0001580808/README.md) | ATEN | available; quality gates apply | project_sic_rule |
+| [ACI WORLDWIDE, INC.](facts/0000935036/README.md) | ACIW | available; quality gates apply | project_sic_rule |
+| [ADOBE INC.](facts/0000796343/README.md) | ADBE | available; quality gates apply | project_sic_rule |
+| [ADTRAN Holdings, Inc.](facts/0000926282/README.md) | ADTN | available; quality gates apply | project_sic_rule |
+| [ADVANCED ENERGY INDUSTRIES INC](facts/0000927003/README.md) | AEIS | available; quality gates apply | project_sic_rule |
 | [ADVANCED MICRO DEVICES INC](facts/0000002488/README.md) | AMD | available; quality gates apply | curated_profile |
+| [Advasa Holdings, Inc.](facts/0002084227/README.md) | ADBT | available; quality gates apply | project_sic_rule |
+| [AEHR TEST SYSTEMS](facts/0001040470/README.md) | AEHR | available; quality gates apply | project_sic_rule |
+| [Aeluma, Inc.](facts/0001828805/README.md) | ALMU | available; quality gates apply | project_sic_rule |
+| [Aether Holdings, Inc.](facts/0002026353/README.md) | ATHR | available; quality gates apply | project_sic_rule |
+| [AGILYSYS INC](facts/0000078749/README.md) | AGYS | available; quality gates apply | project_sic_rule |
+| [AGM GROUP HOLDINGS, INC.](facts/0001705402/README.md) | AGMH | missing | project_sic_rule |
+| [AIAI Holdings Corp](facts/0002096362/README.md) | AIAI | missing | project_sic_rule |
+| [Ainos, Inc.](facts/0001014763/README.md) | AIMD | available; quality gates apply | project_sic_rule |
+| [AIOS Tech Inc.](facts/0001603993/README.md) | AIOS | missing | project_sic_rule |
+| [AIRGAIN INC](facts/0001272842/README.md) | AIRG | available; quality gates apply | project_sic_rule |
+| [Airship AI Holdings, Inc.](facts/0001842566/README.md) | AISP | available; quality gates apply | project_sic_rule |
+| [Alarm.com Holdings, Inc.](facts/0001459200/README.md) | ALRM | available; quality gates apply | project_sic_rule |
+| [Alarum Technologies Ltd.](facts/0001725332/README.md) | ALAR | missing | project_sic_rule |
+| [Algorhythm Holdings, Inc.](facts/0000923601/README.md) | RIME | available; quality gates apply | project_sic_rule |
+| [ALKAMI TECHNOLOGY, INC.](facts/0001529274/README.md) | ALKT | available; quality gates apply | project_sic_rule |
+| [ALLEGRO MICROSYSTEMS, INC.](facts/0000866291/README.md) | ALGM | available; quality gates apply | project_sic_rule |
+| [ALLIENT INC](facts/0000046129/README.md) | ALNT | available; quality gates apply | project_sic_rule |
+| [Allot Ltd.](facts/0001365767/README.md) | ALLT | missing | project_sic_rule |
+| [ALPHA & OMEGA SEMICONDUCTOR Ltd](facts/0001387467/README.md) | AOSL | available; quality gates apply | project_sic_rule |
+| [Alpha Technology Group Ltd](facts/0001967621/README.md) | ATGL | missing | project_sic_rule |
+| [AMBARELLA INC](facts/0001280263/README.md) | AMBA | available; quality gates apply | project_sic_rule |
+| [Ambiq Micro, Inc.](facts/0001500412/README.md) | AMBQ | available; quality gates apply | project_sic_rule |
+| [AMDOCS LTD](facts/0001062579/README.md) | DOX | missing | project_sic_rule |
+| [Amesite Inc.](facts/0001807166/README.md) | AMST | available; quality gates apply | project_sic_rule |
+| [AMKOR TECHNOLOGY, INC.](facts/0001047127/README.md) | AMKR | missing | project_sic_rule |
+| [AMPHENOL CORP /DE/](facts/0000820313/README.md) | APH | available; quality gates apply | project_sic_rule |
+| [AmpliTech Group, Inc.](facts/0001518461/README.md) | AMPG, AMPGZ | available; quality gates apply | project_sic_rule |
+| [Amplitude, Inc.](facts/0001866692/README.md) | AMPL | available; quality gates apply | project_sic_rule |
+| [ANALOG DEVICES INC](facts/0000006281/README.md) | ADI | available; quality gates apply | project_sic_rule |
+| [APPFOLIO INC](facts/0001433195/README.md) | APPF | available; quality gates apply | project_sic_rule |
+| [APPIAN CORP](facts/0001441683/README.md) | APPN | available; quality gates apply | project_sic_rule |
+| [Apple Inc.](facts/0000320193/README.md) | AAPL | available; quality gates apply | project_sic_rule |
+| [Applied Digital Corp.](facts/0001144879/README.md) | APLD | available; quality gates apply | project_sic_rule |
+| [APPLIED MATERIALS INC /DE](facts/0000006951/README.md) | AMAT | available; quality gates apply | project_sic_rule |
+| [APPLIED OPTOELECTRONICS, INC.](facts/0001158114/README.md) | AAOI | available; quality gates apply | project_sic_rule |
+| [ARB IOT Group Ltd](facts/0001930179/README.md) | ARBB | missing | project_sic_rule |
+| [Arbe Robotics Ltd.](facts/0001861841/README.md) | ARBE | missing | project_sic_rule |
+| [Arista Networks, Inc.](facts/0001596532/README.md) | ANET | available; quality gates apply | project_sic_rule |
+| [ARM HOLDINGS PLC /UK](facts/0001973239/README.md) | ARM | missing | project_sic_rule |
+| [Arqit Quantum Inc.](facts/0001859690/README.md) | ARQQ | missing | project_sic_rule |
+| [Array Technologies, Inc.](facts/0001820721/README.md) | ARRY | available; quality gates apply | project_sic_rule |
+| [ARROW ELECTRONICS, INC.](facts/0000007536/README.md) | ARW | available; quality gates apply | project_sic_rule |
+| [Arteris, Inc.](facts/0001667011/README.md) | AIP | available; quality gates apply | project_sic_rule |
+| [Asana, Inc.](facts/0001477720/README.md) | ASAN | available; quality gates apply | project_sic_rule |
+| [Ascent Solar Technologies, Inc.](facts/0001350102/README.md) | ASTI | available; quality gates apply | project_sic_rule |
+| [ASE Technology Holding Co., Ltd.](facts/0001122411/README.md) | ASX | missing | project_sic_rule |
+| [Astera Labs, Inc.](facts/0001736297/README.md) | ALAB | available; quality gates apply | project_sic_rule |
+| [ASURE SOFTWARE INC](facts/0000884144/README.md) | ASUR | available; quality gates apply | project_sic_rule |
+| [Atlassian Corp](facts/0001650372/README.md) | TEAM | available; quality gates apply | project_sic_rule |
+| [Atomera Inc](facts/0001420520/README.md) | ATOM | available; quality gates apply | project_sic_rule |
+| [AUDDIA INC.](facts/0001554818/README.md) | AUUD | available; quality gates apply | project_sic_rule |
+| [AUDIOCODES LTD](facts/0001086434/README.md) | AUDC | missing | project_sic_rule |
+| [AUDIOEYE INC](facts/0001362190/README.md) | AEYE | available; quality gates apply | project_sic_rule |
+| [Aurora Innovation, Inc.](facts/0001828108/README.md) | AUR | available; quality gates apply | project_sic_rule |
+| [authID Inc.](facts/0001534154/README.md) | AUID | available; quality gates apply | project_sic_rule |
+| [Autodesk, Inc.](facts/0000769397/README.md) | ADSK | available; quality gates apply | project_sic_rule |
+| [Autohome Inc.](facts/0001527636/README.md) | ATHM | missing | project_sic_rule |
+| [AUTOMATIC DATA PROCESSING INC](facts/0000008670/README.md) | ADP | available; quality gates apply | project_sic_rule |
+| [AvePoint, Inc.](facts/0001777921/README.md) | AVPT | available; quality gates apply | project_sic_rule |
+| [AVIAT NETWORKS, INC.](facts/0001377789/README.md) | AVNW | available; quality gates apply | project_sic_rule |
+| [AVNET INC](facts/0000008858/README.md) | AVT | available; quality gates apply | project_sic_rule |
+| [AWARE INC /MA/](facts/0001015739/README.md) | AWRE | available; quality gates apply | project_sic_rule |
+| [AXT INC](facts/0001051627/README.md) | AXTI | available; quality gates apply | project_sic_rule |
+| [Backblaze, Inc.](facts/0001462056/README.md) | BLZE | available; quality gates apply | project_sic_rule |
+| [Bandwidth Inc.](facts/0001514416/README.md) | BAND | missing | project_sic_rule |
+| [Banzai International, Inc.](facts/0001826011/README.md) | PARA | available; quality gates apply | project_sic_rule |
+| [Beamr Imaging Ltd.](facts/0001899005/README.md) | BMR | missing | project_sic_rule |
+| [BEL FUSE INC /NJ](facts/0000729580/README.md) | BELFA, BELFB | available; quality gates apply | project_sic_rule |
+| [BeLive Holdings](facts/0001982448/README.md) | BLIV | missing | project_sic_rule |
+| [BENCHMARK ELECTRONICS INC](facts/0000863436/README.md) | BHE | available; quality gates apply | project_sic_rule |
+| [BENTLEY SYSTEMS INC](facts/0001031308/README.md) | BSY | available; quality gates apply | project_sic_rule |
+| [Bilibili Inc.](facts/0001723690/README.md) | BILI | missing | project_sic_rule |
+| [BILL Holdings, Inc.](facts/0001786352/README.md) | BILL | available; quality gates apply | project_sic_rule |
+| [BIO KEY INTERNATIONAL INC](facts/0001019034/README.md) | BKYI | available; quality gates apply | project_sic_rule |
+| [BK Technologies Corp](facts/0000002186/README.md) | BKTI | available; quality gates apply | project_sic_rule |
+| [Black Titan Corp](facts/0002034400/README.md) | BTTC | missing | project_sic_rule |
+| [BLACKBAUD INC](facts/0001280058/README.md) | BLKB | available; quality gates apply | project_sic_rule |
+| [BLACKBERRY Ltd](facts/0001070235/README.md) | BB | available; quality gates apply | project_sic_rule |
+| [BLACKLINE, INC.](facts/0001666134/README.md) | BL | available; quality gates apply | project_sic_rule |
+| [BlackSky Technology Inc.](facts/0001753539/README.md) | BKSY | available; quality gates apply | project_sic_rule |
+| [Blaize Holdings, Inc.](facts/0001871638/README.md) | BZAI | available; quality gates apply | project_sic_rule |
+| [Block, Inc.](facts/0001512673/README.md) | XYZ | available; quality gates apply | project_sic_rule |
+| [Boost Run Inc.](facts/0002090646/README.md) | BRUN | available; quality gates apply | project_sic_rule |
+| [BOS BETTER ONLINE SOLUTIONS LTD](facts/0001005516/README.md) | BOSC | missing | project_sic_rule |
+| [BOX INC](facts/0001372612/README.md) | BOX | available; quality gates apply | project_sic_rule |
+| [Braiin Ltd](facts/0002076975/README.md) | BRAI | missing | project_sic_rule |
+| [Brand Engagement Network Inc.](facts/0001838163/README.md) | BNAI | available; quality gates apply | project_sic_rule |
+| [Braze, Inc.](facts/0001676238/README.md) | BRZE | available; quality gates apply | project_sic_rule |
+| [Bridgeline Digital, Inc.](facts/0001378590/README.md) | BLIN | available; quality gates apply | project_sic_rule |
+| [Brightline Interactive, Inc./NV](facts/0001854445/README.md) | BTLN | available; quality gates apply | project_sic_rule |
 | [Broadcom Inc.](facts/0001730168/README.md) | AVGO | available; quality gates apply | curated_profile |
+| [C3.ai, Inc.](facts/0001577526/README.md) | AI | available; quality gates apply | project_sic_rule |
+| [CACI INTERNATIONAL INC /DE/](facts/0000016058/README.md) | CACI | available; quality gates apply | project_sic_rule |
+| [CADENCE DESIGN SYSTEMS INC](facts/0000813672/README.md) | CDNS | missing | project_sic_rule |
+| [Calisa Acquisition Corp](facts/0002026767/README.md) | ALIS | available; quality gates apply | project_sic_rule |
+| [Canadian Solar Inc.](facts/0001375877/README.md) | CSIQ | missing | project_sic_rule |
+| [CareCloud, Inc.](facts/0001582982/README.md) | CCLD | available; quality gates apply | project_sic_rule |
+| [CarGurus, Inc.](facts/0001494259/README.md) | CARG | available; quality gates apply | project_sic_rule |
+| [Cars.com Inc.](facts/0001683606/README.md) | CARS | available; quality gates apply | project_sic_rule |
+| [CCC Intelligent Solutions Holdings Inc.](facts/0001818201/README.md) | CCC | available; quality gates apply | project_sic_rule |
+| [CELESTICA INC](facts/0001030894/README.md) | CLS | available; quality gates apply | project_sic_rule |
+| [Cellebrite DI Ltd.](facts/0001854587/README.md) | CLBT | missing | project_sic_rule |
+| [CERAGON NETWORKS LTD](facts/0001119769/README.md) | CRNT | missing | project_sic_rule |
+| [Cerebras Systems Inc.](facts/0002021728/README.md) | CBRS | available; quality gates apply | project_sic_rule |
+| [Cerence Inc.](facts/0001768267/README.md) | CRNC | available; quality gates apply | project_sic_rule |
+| [Certara, Inc.](facts/0001827090/README.md) | CERT | available; quality gates apply | project_sic_rule |
+| [Change Agents Corporation.](facts/0001630212/README.md) | CHGA | available; quality gates apply | project_sic_rule |
+| [CHECK POINT SOFTWARE TECHNOLOGIES LTD](facts/0001015922/README.md) | CHKP | missing | project_sic_rule |
+| [Cheer Holding, Inc.](facts/0001738758/README.md) | CHR | missing | project_sic_rule |
+| [Cheetah Mobile Inc.](facts/0001597835/README.md) | CMCM | missing | project_sic_rule |
+| [CHIPMOS TECHNOLOGIES INC](facts/0001123134/README.md) | IMOS | missing | project_sic_rule |
+| [ChowChow Cloud International Holdings Ltd](facts/0002041829/README.md) | CHOW | missing | project_sic_rule |
+| [CI&T Inc](facts/0001868995/README.md) | CINT | missing | project_sic_rule |
+| [CID Holdco, Inc.](facts/0002033770/README.md) | DAIC | missing | project_sic_rule |
+| [CIENA CORP](facts/0000936395/README.md) | CIEN | available; quality gates apply | project_sic_rule |
+| [CIRRUS LOGIC, INC.](facts/0000772406/README.md) | CRUS | available; quality gates apply | project_sic_rule |
+| [CISCO SYSTEMS, INC.](facts/0000858877/README.md) | CSCO | available; quality gates apply | project_sic_rule |
+| [CLARIVATE PLC](facts/0001764046/README.md) | CLVT | missing | project_sic_rule |
+| [Clear Secure, Inc.](facts/0001856314/README.md) | YOU | available; quality gates apply | project_sic_rule |
+| [Clearfield, Inc.](facts/0000796505/README.md) | CLFD | available; quality gates apply | project_sic_rule |
+| [CLEARONE INC](facts/0000840715/README.md) | CLRO | available; quality gates apply | project_sic_rule |
+| [Climb Global Solutions, Inc.](facts/0000945983/README.md) | CLMB | available; quality gates apply | project_sic_rule |
+| [Cloudflare, Inc.](facts/0001477333/README.md) | NET | available; quality gates apply | project_sic_rule |
+| [COGNIZANT TECHNOLOGY SOLUTIONS CORP](facts/0001058290/README.md) | CTSH | missing | project_sic_rule |
+| [Cognyte Software Ltd.](facts/0001824814/README.md) | CGNT | missing | project_sic_rule |
+| [COHU INC](facts/0000021535/README.md) | COHU | available; quality gates apply | project_sic_rule |
+| [Commerce.com, Inc.](facts/0001626450/README.md) | CMRC | available; quality gates apply | project_sic_rule |
+| [COMMVAULT SYSTEMS INC](facts/0001169561/README.md) | CVLT | available; quality gates apply | project_sic_rule |
+| [COMTECH TELECOMMUNICATIONS CORP /DE/](facts/0000023197/README.md) | CMTL | available; quality gates apply | project_sic_rule |
+| [Consensus Cloud Solutions, Inc.](facts/0001866633/README.md) | CCSI | available; quality gates apply | project_sic_rule |
+| [CoreWeave, Inc.](facts/0001769628/README.md) | CRWV | available; quality gates apply | project_sic_rule |
+| [Corsair Gaming, Inc.](facts/0001743759/README.md) | CRSR | available; quality gates apply | project_sic_rule |
+| [Corvex, Inc.](facts/0001734750/README.md) | MOVE | available; quality gates apply | project_sic_rule |
+| [Coursera, Inc.](facts/0001651562/README.md) | COUR | available; quality gates apply | project_sic_rule |
+| [Creative Global Technology Holdings Ltd](facts/0001967822/README.md) | CGTL | missing | project_sic_rule |
+| [CREATIVE REALITIES, INC.](facts/0001356093/README.md) | CREX | available; quality gates apply | project_sic_rule |
+| [Credo Technology Group Holding Ltd](facts/0001807794/README.md) | CRDO | available; quality gates apply | project_sic_rule |
+| [CrowdStrike Holdings, Inc.](facts/0001535527/README.md) | CRWD | available; quality gates apply | project_sic_rule |
+| [CS Disco, Inc.](facts/0001625641/README.md) | LAW | available; quality gates apply | project_sic_rule |
+| [CSP INC /MA/](facts/0000356037/README.md) | CSPI | available; quality gates apply | project_sic_rule |
+| [CTS CORP](facts/0000026058/README.md) | CTS | missing | project_sic_rule |
+| [CTW](facts/0002047148/README.md) | CTW | missing | project_sic_rule |
+| [CXApp Inc.](facts/0001820875/README.md) | CXAI | available; quality gates apply | project_sic_rule |
+| [CYABRA, INC.](facts/0002032341/README.md) | CYAB | available; quality gates apply | project_sic_rule |
+| [Cycurion, Inc.](facts/0001868419/README.md) | CYCU | available; quality gates apply | project_sic_rule |
+| [Cyngn Inc.](facts/0001874097/README.md) | CYN | missing | project_sic_rule |
+| [D-Wave Quantum Inc.](facts/0001907982/README.md) | QBTS | available; quality gates apply | project_sic_rule |
+| [DAQO NEW ENERGY CORP.](facts/0001477641/README.md) | DQ | missing | project_sic_rule |
+| [DarkIris Inc.](facts/0002058584/README.md) | DKI | missing | project_sic_rule |
+| [DATA I/O CORP](facts/0000351998/README.md) | DAIO | available; quality gates apply | project_sic_rule |
+| [Data Storage Corp](facts/0001419951/README.md) | DTST | available; quality gates apply | project_sic_rule |
+| [Datacentrex, Inc.](facts/0001853825/README.md) | DTCX | available; quality gates apply | project_sic_rule |
+| [Datadog, Inc.](facts/0001561550/README.md) | DDOG | available; quality gates apply | project_sic_rule |
+| [Datasea Intelligent Technology Ltd.](facts/0002110423/README.md) | DTSS | missing | project_sic_rule |
+| [Definitive Healthcare Corp.](facts/0001861795/README.md) | DH | available; quality gates apply | project_sic_rule |
+| [DEFSEC Technologies Inc.](facts/0001889823/README.md) | DFSC | missing | project_sic_rule |
+| [Dell Technologies Inc.](facts/0001571996/README.md) | DELL | available; quality gates apply | project_sic_rule |
+| [DESCARTES SYSTEMS GROUP INC](facts/0001050140/README.md) | DSGX | missing | project_sic_rule |
+| [DIGI INTERNATIONAL INC](facts/0000854775/README.md) | DGII | available; quality gates apply | project_sic_rule |
+| [Digimarc Corp](facts/0002119322/README.md) | DMRC | available; quality gates apply | project_sic_rule |
+| [Diginex Ltd](facts/0002010499/README.md) | DGNX | missing | project_sic_rule |
+| [DNA X, Inc.](facts/0001178697/README.md) | SONM | available; quality gates apply | project_sic_rule |
+| [Docebo Inc.](facts/0001829959/README.md) | DCBO | missing | project_sic_rule |
+| [DOCUSIGN, INC.](facts/0001261333/README.md) | DOCU | available; quality gates apply | project_sic_rule |
+| [DoubleDown Interactive Co., Ltd.](facts/0001799567/README.md) | DDI | missing | project_sic_rule |
+| [Doximity, Inc.](facts/0001516513/README.md) | DOCS | available; quality gates apply | project_sic_rule |
+| [DROPBOX, INC.](facts/0001467623/README.md) | DBX | available; quality gates apply | project_sic_rule |
+| [Duolingo, Inc.](facts/0001562088/README.md) | DUOL | available; quality gates apply | project_sic_rule |
+| [DUOS TECHNOLOGIES GROUP, INC.](facts/0001396536/README.md) | DUOT | available; quality gates apply | project_sic_rule |
+| [DXC Technology Co](facts/0001688568/README.md) | DXC | available; quality gates apply | project_sic_rule |
+| [Dynatrace, Inc.](facts/0001773383/README.md) | DT | available; quality gates apply | project_sic_rule |
+| [ECARX Holdings Inc.](facts/0001861974/README.md) | ECX | missing | project_sic_rule |
+| [EGAIN Corp](facts/0001066194/README.md) | EGAN | available; quality gates apply | project_sic_rule |
+| [Einride AB](facts/0002095096/README.md) | ENRD | missing | project_sic_rule |
+| [Elastic N.V.](facts/0001707753/README.md) | ESTC | available; quality gates apply | project_sic_rule |
+| [ELTEK LTD](facts/0001024672/README.md) | ELTK | missing | project_sic_rule |
+| [Endava plc](facts/0001656081/README.md) | DAVA | missing | project_sic_rule |
+| [Energous Corp](facts/0001575793/README.md) | WATT | available; quality gates apply | project_sic_rule |
+| [Enphase Energy, Inc.](facts/0001463101/README.md) | ENPH | missing | project_sic_rule |
+| [EPAM Systems, Inc.](facts/0001352010/README.md) | EPAM | available; quality gates apply | project_sic_rule |
+| [EPLUS INC](facts/0001022408/README.md) | PLUS | available; quality gates apply | project_sic_rule |
+| [ESCO TECHNOLOGIES INC](facts/0000866706/README.md) | ESE | available; quality gates apply | project_sic_rule |
+| [ESPEY MFG & ELECTRONICS CORP](facts/0000033533/README.md) | ESP | available; quality gates apply | project_sic_rule |
+| [EverCommerce Inc.](facts/0001853145/README.md) | EVCM | available; quality gates apply | project_sic_rule |
+| [Everpure, Inc.](facts/0001474432/README.md) | P | available; quality gates apply | project_sic_rule |
+| [EVERSPIN TECHNOLOGIES INC.](facts/0001438423/README.md) | MRAM | available; quality gates apply | project_sic_rule |
+| [EVERTEC, Inc.](facts/0001559865/README.md) | EVTC | available; quality gates apply | project_sic_rule |
+| [Evolv Technologies Holdings, Inc.](facts/0001805385/README.md) | EVLV | available; quality gates apply | project_sic_rule |
+| [Exascale Labs Holdings Inc.](facts/0002109869/README.md) | XLAB | available; quality gates apply | project_sic_rule |
+| [Expensify, Inc.](facts/0001476840/README.md) | EXFY | available; quality gates apply | project_sic_rule |
+| [EXTREME NETWORKS INC](facts/0001078271/README.md) | EXTR | available; quality gates apply | project_sic_rule |
+| [Exyn Technologies, Inc.](facts/0001960355/README.md) | EXYN | available; quality gates apply | project_sic_rule |
+| [Exzeo Group, Inc.](facts/0001873951/README.md) | XZO | available; quality gates apply | project_sic_rule |
+| [F5, INC.](facts/0001048695/README.md) | FFIV | available; quality gates apply | project_sic_rule |
+| [Fabrinet](facts/0001408710/README.md) | FN | available; quality gates apply | project_sic_rule |
+| [Fastly, Inc.](facts/0001517413/README.md) | FSLY | available; quality gates apply | project_sic_rule |
+| [Fatpipe Inc/UT](facts/0001993400/README.md) | FATN | available; quality gates apply | project_sic_rule |
+| [FiEE, Inc.](facts/0001467761/README.md) | FIEE | available; quality gates apply | project_sic_rule |
+| [Figma, Inc.](facts/0001579878/README.md) | FIG | available; quality gates apply | project_sic_rule |
+| [FingerMotion, Inc.](facts/0001602409/README.md) | FNGR | available; quality gates apply | project_sic_rule |
+| [FIREFLY NEUROSCIENCE, INC.](facts/0000803578/README.md) | AIFF | available; quality gates apply | project_sic_rule |
+| [FIRST ADVANTAGE CORP](facts/0001210677/README.md) | FA | available; quality gates apply | project_sic_rule |
+| [FIRST SOLAR, INC.](facts/0001274494/README.md) | FSLR | available; quality gates apply | project_sic_rule |
+| [Firy Inc.](facts/0001801661/README.md) | FIRY | available; quality gates apply | project_sic_rule |
+| [Five9, Inc.](facts/0001288847/README.md) | FIVN | available; quality gates apply | project_sic_rule |
+| [FLEX LTD.](facts/0000866374/README.md) | FLEX | available; quality gates apply | project_sic_rule |
+| [Foresight Autonomous Holdings Ltd.](facts/0001691221/README.md) | FRSX | missing | project_sic_rule |
+| [FORMFACTOR INC](facts/0001039399/README.md) | FORM | available; quality gates apply | project_sic_rule |
+| [FORMULA SYSTEMS (1985) LTD](facts/0001045986/README.md) | FORTY | missing | project_sic_rule |
+| [Fortinet, Inc.](facts/0001262039/README.md) | FTNT | available; quality gates apply | project_sic_rule |
+| [Foxx Development Holdings Inc.](facts/0002013807/README.md) | FOXX | available; quality gates apply | project_sic_rule |
+| [FRANKLIN WIRELESS CORP](facts/0000722572/README.md) | FKWL | available; quality gates apply | project_sic_rule |
+| [FreeCast, Inc.](facts/0001633369/README.md) | CAST | available; quality gates apply | project_sic_rule |
+| [FREQUENCY ELECTRONICS INC](facts/0000039020/README.md) | FEIM | available; quality gates apply | project_sic_rule |
+| [Freshworks Inc.](facts/0001544522/README.md) | FRSH | available; quality gates apply | project_sic_rule |
+| [FTC Solar, Inc.](facts/0001828161/README.md) | FTCI | available; quality gates apply | project_sic_rule |
+| [Full Truck Alliance Co. Ltd.](facts/0001838413/README.md) | YMM | missing | project_sic_rule |
+| [Fusemachines Inc.](facts/0002033383/README.md) | FUSE | available; quality gates apply | project_sic_rule |
+| [Future Vision II Acquisition Corp.](facts/0002010653/README.md) | FVN | available; quality gates apply | project_sic_rule |
+| [Game Your Game Inc.](facts/0002111846/README.md) | GYGY | available; quality gates apply | project_sic_rule |
+| [Gamehaus Holdings Inc.](facts/0002000530/README.md) | GMHS | missing | project_sic_rule |
+| [GAXOS.AI INC.](facts/0001895618/README.md) | GXAI | available; quality gates apply | project_sic_rule |
+| [GCL Global Holdings Ltd](facts/0002002045/README.md) | GCL | missing | project_sic_rule |
+| [GCT Semiconductor Holding, Inc.](facts/0001851961/README.md) | GCTS | available; quality gates apply | project_sic_rule |
+| [GDEV Inc.](facts/0001848739/README.md) | GDEV | missing | project_sic_rule |
+| [Gen Digital Inc.](facts/0000849399/README.md) | GEN | available; quality gates apply | project_sic_rule |
+| [Genius Group Ltd](facts/0001847806/README.md) | GNS | missing | project_sic_rule |
+| [GIBO HOLDINGS Ltd](facts/0002034520/README.md) | GIBO | missing | project_sic_rule |
+| [GILAT SATELLITE NETWORKS LTD](facts/0000897322/README.md) | GILT | missing | project_sic_rule |
+| [Gitlab Inc.](facts/0001653482/README.md) | GTLB | available; quality gates apply | project_sic_rule |
+| [Gix Internet Ltd.](facts/0001782265/README.md) | GIXI | missing | project_sic_rule |
+| [Global Engine Group Holding Ltd](facts/0001908705/README.md) | GLE | missing | project_sic_rule |
+| [Global-E Online Ltd.](facts/0001835963/README.md) | GLBE | missing | project_sic_rule |
+| [GLOBALFOUNDRIES Inc.](facts/0001709048/README.md) | GFS | missing | project_sic_rule |
+| [Globant S.A.](facts/0001557860/README.md) | GLOB | missing | project_sic_rule |
+| [Gloo Holdings, Inc.](facts/0002069785/README.md) | GLOO | available; quality gates apply | project_sic_rule |
+| [GoDaddy Inc.](facts/0001609711/README.md) | GDDY | available; quality gates apply | project_sic_rule |
+| [GoodRx Holdings, Inc.](facts/0001809519/README.md) | GDRX | available; quality gates apply | project_sic_rule |
+| [Gorilla Technology Group Inc.](facts/0001903145/README.md) | GRRR | missing | project_sic_rule |
+| [GRAVITY Co., Ltd.](facts/0001313310/README.md) | GRVY | missing | project_sic_rule |
+| [Great Elm Group, Inc.](facts/0001831096/README.md) | GEG | available; quality gates apply | project_sic_rule |
+| [GRID DYNAMICS HOLDINGS, INC.](facts/0001743725/README.md) | GDYN | available; quality gates apply | project_sic_rule |
+| [GrowHub Ltd](facts/0002024114/README.md) | TGHL | missing | project_sic_rule |
+| [GSI TECHNOLOGY INC](facts/0001126741/README.md) | GSIT | available; quality gates apply | project_sic_rule |
+| [Guidewire Software, Inc.](facts/0001528396/README.md) | GWRE | available; quality gates apply | project_sic_rule |
+| [HARMONIC INC.](facts/0000851310/README.md) | HLIT | available; quality gates apply | project_sic_rule |
+| [HawkEye 360, Inc.](facts/0001750704/README.md) | HAWK | available; quality gates apply | project_sic_rule |
+| [Healthcare Triangle, Inc.](facts/0001839285/README.md) | HCTI | available; quality gates apply | project_sic_rule |
+| [HeartCore Enterprises, Inc.](facts/0001892322/README.md) | HTCR | available; quality gates apply | project_sic_rule |
+| [Hello Group Inc.](facts/0001610601/README.md) | MOMO | missing | project_sic_rule |
+| [Helport AI Ltd](facts/0002001699/README.md) | HPAI | missing | project_sic_rule |
+| [Hewlett Packard Enterprise Co](facts/0001645590/README.md) | HPE | available; quality gates apply | project_sic_rule |
+| [Himax Technologies, Inc.](facts/0001342338/README.md) | HIMX | missing | project_sic_rule |
+| [Hinge Health, Inc.](facts/0001673743/README.md) | HNGE | available; quality gates apply | project_sic_rule |
+| [Horizon Quantum Holdings Ltd.](facts/0002088256/README.md) | HQ | missing | project_sic_rule |
+| [HP INC](facts/0000047217/README.md) | HPQ | available; quality gates apply | project_sic_rule |
+| [Hub Cyber Security Ltd.](facts/0001905660/README.md) | HUBC | missing | project_sic_rule |
+| [HUBBELL INC](facts/0000048898/README.md) | HUBB | missing | project_sic_rule |
+| [HUBSPOT INC](facts/0001404655/README.md) | HUBS | available; quality gates apply | project_sic_rule |
+| [Huckleberry.ai, Inc.](facts/0001505952/README.md) | HUCK | available; quality gates apply | project_sic_rule |
+| [i3 Verticals, Inc.](facts/0001728688/README.md) | IIIV | available; quality gates apply | project_sic_rule |
+| [IBEX Ltd](facts/0001720420/README.md) | IBEX | available; quality gates apply | project_sic_rule |
+| [ICHOR HOLDINGS, LTD.](facts/0001652535/README.md) | ICHR | available; quality gates apply | project_sic_rule |
+| [Ideal Power Inc.](facts/0001507957/README.md) | IPWR | available; quality gates apply | project_sic_rule |
+| [IMMERSION CORP](facts/0001058811/README.md) | IMMR | available; quality gates apply | project_sic_rule |
+| [IMPINJ INC](facts/0001114995/README.md) | PI | available; quality gates apply | project_sic_rule |
+| [indie Semiconductor, Inc.](facts/0001841925/README.md) | INDI | available; quality gates apply | project_sic_rule |
+| [Infleqtion, Inc.](facts/0002007825/README.md) | INFQ | available; quality gates apply | project_sic_rule |
+| [Infobird Co., Ltd](facts/0001815566/README.md) | IFBD | missing | project_sic_rule |
+| [Infosys Ltd](facts/0001067491/README.md) | INFY | missing | project_sic_rule |
+| [Ingram Micro Holding Corp](facts/0001897762/README.md) | INGM | available; quality gates apply | project_sic_rule |
+| [INNODATA INC](facts/0000903651/README.md) | INOD | available; quality gates apply | project_sic_rule |
+| [INNOVATIVE SOLUTIONS & SUPPORT INC](facts/0000836690/README.md) | IA | available; quality gates apply | project_sic_rule |
+| [INSEEGO CORP.](facts/0001022652/README.md) | INSG | available; quality gates apply | project_sic_rule |
+| [Inspired Entertainment, Inc.](facts/0001615063/README.md) | INSE | available; quality gates apply | project_sic_rule |
+| [Intapp, Inc.](facts/0001565687/README.md) | INTA | available; quality gates apply | project_sic_rule |
+| [Intchains Group Ltd](facts/0001895597/README.md) | ICG | missing | project_sic_rule |
+| [INTEL CORP](facts/0000050863/README.md) | INTC | available; quality gates apply | project_sic_rule |
+| [Intellicheck, Inc.](facts/0001040896/README.md) | IDN | available; quality gates apply | project_sic_rule |
+| [INTELLINETICS, INC.](facts/0001081745/README.md) | INLX | available; quality gates apply | project_sic_rule |
+| [INTERLINK ELECTRONICS INC](facts/0000828146/README.md) | LINK | available; quality gates apply | project_sic_rule |
+| [INTERNATIONAL BUSINESS MACHINES CORP](facts/0000051143/README.md) | IBM | available; quality gates apply | project_sic_rule |
+| [INTEST CORP](facts/0001036262/README.md) | INTT | missing | project_sic_rule |
+| [INTRUSION INC](facts/0000736012/README.md) | INTZ | available; quality gates apply | project_sic_rule |
+| [INTUIT INC.](facts/0000896878/README.md) | INTU | available; quality gates apply | project_sic_rule |
+| [INVE Technologies, Inc.](facts/0001036044/README.md) | INVE | available; quality gates apply | project_sic_rule |
+| [IonQ, Inc.](facts/0001824920/README.md) | IONQ | available; quality gates apply | project_sic_rule |
+| [IPG PHOTONICS CORP](facts/0001111928/README.md) | IPGP | available; quality gates apply | project_sic_rule |
+| [IQM Quantum Computers Oyj](facts/0002113060/README.md) | IQMX | missing | project_sic_rule |
+| [ITRON, INC.](facts/0000780571/README.md) | ITRI | available; quality gates apply | project_sic_rule |
+| [Ituran Location & Control Ltd.](facts/0001337117/README.md) | ITRN | missing | project_sic_rule |
+| [Iveda Solutions, Inc.](facts/0001397183/README.md) | IVDA | available; quality gates apply | project_sic_rule |
+| [JABIL INC](facts/0000898293/README.md) | JBL | available; quality gates apply | project_sic_rule |
+| [JACK HENRY & ASSOCIATES INC](facts/0000779152/README.md) | JKHY | available; quality gates apply | project_sic_rule |
+| [JFrog Ltd](facts/0001800667/README.md) | FROG | available; quality gates apply | project_sic_rule |
+| [JOYY Inc.](facts/0001530238/README.md) | JOYY | missing | project_sic_rule |
+| [KALTURA INC](facts/0001432133/README.md) | KLTR | available; quality gates apply | project_sic_rule |
+| [Karooooo Ltd.](facts/0001828102/README.md) | KARO | missing | project_sic_rule |
+| [KEY TRONIC CORP](facts/0000719733/README.md) | KTCC | available; quality gates apply | project_sic_rule |
+| [Kimball Electronics, Inc.](facts/0001606757/README.md) | KE | available; quality gates apply | project_sic_rule |
+| [Kingsoft Cloud Holdings Ltd](facts/0001795589/README.md) | KC | missing | project_sic_rule |
+| [Klaviyo, Inc.](facts/0001835830/README.md) | KVYO | available; quality gates apply | project_sic_rule |
+| [Knightscope, Inc.](facts/0001600983/README.md) | KSCP | available; quality gates apply | project_sic_rule |
+| [Kodiak AI, Inc.](facts/0001853138/README.md) | KDK | available; quality gates apply | project_sic_rule |
+| [KOPIN CORP](facts/0000771266/README.md) | KOPN | available; quality gates apply | project_sic_rule |
+| [KULICKE & SOFFA INDUSTRIES INC](facts/0000056978/README.md) | KLIC | available; quality gates apply | project_sic_rule |
+| [KULR Technology Group, Inc.](facts/0001662684/README.md) | KULR | available; quality gates apply | project_sic_rule |
+| [KUSTOM ENTERTAINMENT, INC.](facts/0001342958/README.md) | KUST | available; quality gates apply | project_sic_rule |
+| [Kyndryl Holdings, Inc.](facts/0001867072/README.md) | KD | available; quality gates apply | project_sic_rule |
+| [LANTRONIX INC](facts/0001114925/README.md) | LTRX | available; quality gates apply | project_sic_rule |
+| [LATTICE SEMICONDUCTOR CORP](facts/0000855658/README.md) | LSCC | available; quality gates apply | project_sic_rule |
+| [LEGALZOOM.COM, INC.](facts/0001286139/README.md) | LZ | available; quality gates apply | project_sic_rule |
+| [Leidos Holdings, Inc.](facts/0001336920/README.md) | LDOS | available; quality gates apply | project_sic_rule |
+| [LG Display Co., Ltd.](facts/0001290109/README.md) | LPL | missing | project_sic_rule |
+| [LGL GROUP INC](facts/0000061004/README.md) | LGL | available; quality gates apply | project_sic_rule |
+| [Lianhe Sowell International Group Ltd](facts/0002004024/README.md) | LHSW | missing | project_sic_rule |
+| [Life360, Inc.](facts/0001581760/README.md) | LIF | available; quality gates apply | project_sic_rule |
+| [Liftoff Mobile, Inc.](facts/0001850351/README.md) | LFTO | available; quality gates apply | project_sic_rule |
+| [LIGHTPATH TECHNOLOGIES INC](facts/0000889971/README.md) | LPTH | available; quality gates apply | project_sic_rule |
+| [Linkers Industries Ltd](facts/0001972074/README.md) | LNKS | missing | project_sic_rule |
+| [LiveRamp Holdings, Inc.](facts/0000733269/README.md) | RAMP | available; quality gates apply | project_sic_rule |
+| [Lumentum Holdings Inc.](facts/0001633978/README.md) | LITE | available; quality gates apply | project_sic_rule |
+| [LZ Technology Holdings Ltd](facts/0001967397/README.md) | LZMH | missing | project_sic_rule |
+| [M-tron Industries, Inc.](facts/0001902314/README.md) | MPTI | available; quality gates apply | project_sic_rule |
+| [MACOM Technology Solutions Holdings, Inc.](facts/0001493594/README.md) | MTSI | available; quality gates apply | project_sic_rule |
+| [MAGNACHIP SEMICONDUCTOR Corp](facts/0001325702/README.md) | MX | available; quality gates apply | project_sic_rule |
+| [MANHATTAN ASSOCIATES INC](facts/0001056696/README.md) | MANH | available; quality gates apply | project_sic_rule |
+| [MARCHEX INC](facts/0001224133/README.md) | MCHX | available; quality gates apply | project_sic_rule |
+| [Maris Tech Ltd.](facts/0001872964/README.md) | MTEK | missing | project_sic_rule |
+| [MARKETWISE, INC.](facts/0001805651/README.md) | MKTW | available; quality gates apply | project_sic_rule |
+| [Marqeta, Inc.](facts/0001522540/README.md) | MQ | available; quality gates apply | project_sic_rule |
+| [Marvell Technology, Inc.](facts/0001835632/README.md) | MRVL | available; quality gates apply | project_sic_rule |
+| [MATERIALISE NV](facts/0001091223/README.md) | MTLS | missing | project_sic_rule |
+| [MAXLINEAR, INC](facts/0001288469/README.md) | MXL | available; quality gates apply | project_sic_rule |
+| [MBody AI Ltd.](facts/0001610590/README.md) | MBAI | missing | project_sic_rule |
+| [McKinley Acquisition Corp](facts/0002067592/README.md) | MKLY | available; quality gates apply | project_sic_rule |
+| [Mega Fortune Co Ltd](facts/0002033377/README.md) | MGRT | missing | project_sic_rule |
+| [MERCURY SYSTEMS INC](facts/0001049521/README.md) | MRCY | available; quality gates apply | project_sic_rule |
+| [Meridian Holdings Inc./NV](facts/0001437925/README.md) | MRDN | available; quality gates apply | project_sic_rule |
+| [Merlin, Inc.](facts/0002028707/README.md) | MRLN | available; quality gates apply | project_sic_rule |
+| [METHODE ELECTRONICS INC](facts/0000065270/README.md) | MEI | available; quality gates apply | project_sic_rule |
+| [mF International Ltd](facts/0001940941/README.md) | MFI | missing | project_sic_rule |
+| [MicroAlgo Inc.](facts/0001800392/README.md) | MLGO | available; quality gates apply | project_sic_rule |
+| [MICROCHIP TECHNOLOGY INC](facts/0000827054/README.md) | MCHP, MCHPP | available; quality gates apply | project_sic_rule |
 | [MICRON TECHNOLOGY INC](facts/0000723125/README.md) | MU | available; quality gates apply | curated_profile |
 | [MICROSOFT CORP](facts/0000789019/README.md) | MSFT | available; quality gates apply | curated_profile |
+| [MICROVISION, INC.](facts/0000065770/README.md) | MVIS | available; quality gates apply | project_sic_rule |
+| [Micware Co., Ltd.](facts/0002083526/README.md) | MWC | missing | project_sic_rule |
+| [Miluna Acquisition Corp](facts/0002077033/README.md) | MMTX | available; quality gates apply | project_sic_rule |
+| [MIND CTI LTD](facts/0001119083/README.md) | MNDO | missing | project_sic_rule |
+| [MITEK SYSTEMS INC](facts/0000807863/README.md) | MITK | available; quality gates apply | project_sic_rule |
+| [Mobile-health Network Solutions](facts/0001976695/README.md) | MNDR | missing | project_sic_rule |
+| [Mobileye Global Inc.](facts/0001910139/README.md) | MBLY | available; quality gates apply | project_sic_rule |
+| [MOBIX LABS, INC](facts/0001855467/README.md) | MOBX | available; quality gates apply | project_sic_rule |
+| [monday.com Ltd.](facts/0001845338/README.md) | MNDY | missing | project_sic_rule |
+| [MongoDB, Inc.](facts/0001441816/README.md) | MDB | available; quality gates apply | project_sic_rule |
+| [MONOLITHIC POWER SYSTEMS, INC.](facts/0001280452/README.md) | MPWR | available; quality gates apply | project_sic_rule |
+| [Motorola Solutions, Inc.](facts/0000068505/README.md) | MSI | available; quality gates apply | project_sic_rule |
+| [Motorsport Games Inc.](facts/0001821175/README.md) | MSGM | available; quality gates apply | project_sic_rule |
+| [My Size, Inc.](facts/0001211805/README.md) | MYSZ | available; quality gates apply | project_sic_rule |
+| [Mynd.ai, Inc.](facts/0001708441/README.md) | MYND | missing | project_sic_rule |
+| [N-able, Inc.](facts/0001834488/README.md) | NABL | available; quality gates apply | project_sic_rule |
+| [Nano Dimension Ltd.](facts/0001643303/README.md) | NNDM | available; quality gates apply | project_sic_rule |
+| [Nano Labs Ltd](facts/0001872302/README.md) | NA | missing | project_sic_rule |
+| [NAPCO SECURITY TECHNOLOGIES, INC](facts/0000069633/README.md) | NSSC | available; quality gates apply | project_sic_rule |
+| [Navan, Inc.](facts/0001639723/README.md) | NAVN | available; quality gates apply | project_sic_rule |
+| [Navitas Semiconductor Corp](facts/0001821769/README.md) | NVTS | available; quality gates apply | project_sic_rule |
+| [Nayax Ltd.](facts/0001901279/README.md) | NYAX | missing | project_sic_rule |
+| [nCino, Inc.](facts/0001902733/README.md) | NCNO | available; quality gates apply | project_sic_rule |
+| [Neonode Inc.](facts/0000087050/README.md) | NEON | available; quality gates apply | project_sic_rule |
+| [NERDWALLET, INC.](facts/0001625278/README.md) | NRDS | available; quality gates apply | project_sic_rule |
+| [NetApp, Inc.](facts/0001002047/README.md) | NTAP | available; quality gates apply | project_sic_rule |
+| [NetClass Technology Inc](facts/0001927578/README.md) | NTCL | missing | project_sic_rule |
+| [NetEase, Inc.](facts/0001110646/README.md) | NTES | missing | project_sic_rule |
+| [NETGEAR, INC.](facts/0001122904/README.md) | NTGR | available; quality gates apply | project_sic_rule |
+| [NETSCOUT SYSTEMS INC](facts/0001078075/README.md) | NTCT | available; quality gates apply | project_sic_rule |
+| [Netskope Inc](facts/0002063196/README.md) | NTSK | available; quality gates apply | project_sic_rule |
+| [NETSOL TECHNOLOGIES INC](facts/0001039280/README.md) | NTWK | available; quality gates apply | project_sic_rule |
+| [Neutron Holdings, Inc.](facts/0001699963/README.md) | LIME | available; quality gates apply | project_sic_rule |
+| [Newbridge Acquisition Ltd](facts/0001918414/README.md) | NBRG | available; quality gates apply | project_sic_rule |
+| [Next Technology Holding Inc.](facts/0001784970/README.md) | NXTT | available; quality gates apply | project_sic_rule |
+| [Nextpower Inc.](facts/0001852131/README.md) | NXT | available; quality gates apply | project_sic_rule |
+| [NICE Ltd.](facts/0001003935/README.md) | NICE | missing | project_sic_rule |
+| [Nixxy, Inc.](facts/0001462223/README.md) | NIXX | available; quality gates apply | project_sic_rule |
+| [NLIGHT, INC.](facts/0001124796/README.md) | LASR | available; quality gates apply | project_sic_rule |
+| [NORTECH SYSTEMS INC](facts/0000722313/README.md) | NSYS | available; quality gates apply | project_sic_rule |
+| [Nuran Wireless Inc.](facts/0001680637/README.md) | NUR | missing | project_sic_rule |
+| [Nutanix, Inc.](facts/0001618732/README.md) | NTNX | available; quality gates apply | project_sic_rule |
 | [NVIDIA CORP](facts/0001045810/README.md) | NVDA | available; quality gates apply | curated_profile |
+| [NXP Semiconductors N.V.](facts/0001413447/README.md) | NXPI | missing | project_sic_rule |
+| [OBOOK HOLDINGS INC.](facts/0002025416/README.md) | OWLS | missing | project_sic_rule |
+| [Octave Intelligence plc](facts/0002083632/README.md) | OCTV | available; quality gates apply | project_sic_rule |
+| [Odysight.ai Inc.](facts/0001577445/README.md) | ODYS | available; quality gates apply | project_sic_rule |
+| [Okta, Inc.](facts/0001660134/README.md) | OKTA | available; quality gates apply | project_sic_rule |
+| [OMNICELL, INC.](facts/0000926326/README.md) | OMCL | available; quality gates apply | project_sic_rule |
+| [ON SEMICONDUCTOR CORP](facts/0001097864/README.md) | ON | available; quality gates apply | project_sic_rule |
+| [Ondas Inc.](facts/0001646188/README.md) | ONDS | available; quality gates apply | project_sic_rule |
+| [ONE STOP SYSTEMS, INC.](facts/0001394056/README.md) | OSS | available; quality gates apply | project_sic_rule |
+| [OneSpan Inc.](facts/0001044777/README.md) | OSPN | available; quality gates apply | project_sic_rule |
+| [Onfolio Holdings, Inc](facts/0001825452/README.md) | ONFO | available; quality gates apply | project_sic_rule |
+| [OOMA INC](facts/0001327688/README.md) | OOMA | available; quality gates apply | project_sic_rule |
+| [OPEN TEXT CORP](facts/0001002638/README.md) | OTEX | available; quality gates apply | project_sic_rule |
+| [Opera Ltd](facts/0001737450/README.md) | OPRA | missing | project_sic_rule |
 | [ORACLE CORP](facts/0001341439/README.md) | ORCL, ORCL$D | available; quality gates apply | curated_profile |
+| [ORANGEKLOUD TECHNOLOGY INC.](facts/0001979407/README.md) | ORKT | missing | project_sic_rule |
+| [OSI SYSTEMS INC](facts/0001039065/README.md) | OSIS | available; quality gates apply | project_sic_rule |
+| [Ostin Technology Group Co., Ltd.](facts/0001803407/README.md) | OST | missing | project_sic_rule |
+| [PagerDuty, Inc.](facts/0001568100/README.md) | PD | available; quality gates apply | project_sic_rule |
+| [PagSeguro Digital Ltd.](facts/0001712807/README.md) | PAGS | missing | project_sic_rule |
 | [Palantir Technologies Inc.](facts/0001321655/README.md) | PLTR | available; quality gates apply | curated_profile |
+| [Palladyne AI Corp.](facts/0001826681/README.md) | PDYN | available; quality gates apply | project_sic_rule |
+| [Palo Alto Networks Inc](facts/0001327567/README.md) | PANW | available; quality gates apply | project_sic_rule |
+| [Paranovus Entertainment Technology Ltd.](facts/0001751876/README.md) | PAVS | missing | project_sic_rule |
+| [PARSONS CORP](facts/0000275880/README.md) | PSN | missing | project_sic_rule |
+| [Pasqal Holding SA](facts/0002119292/README.md) | PSQL | missing | project_sic_rule |
+| [Paycom Software, Inc.](facts/0001590955/README.md) | PAYC | available; quality gates apply | project_sic_rule |
+| [Paylocity Holding Corp](facts/0001591698/README.md) | PCTY | available; quality gates apply | project_sic_rule |
+| [PC CONNECTION INC](facts/0001050377/README.md) | CNXN | available; quality gates apply | project_sic_rule |
+| [PDF SOLUTIONS INC](facts/0001120914/README.md) | PDFS | available; quality gates apply | project_sic_rule |
+| [PEGASYSTEMS INC](facts/0001013857/README.md) | PEGA | available; quality gates apply | project_sic_rule |
+| [Penguin Solutions, Inc.](facts/0001616533/README.md) | PENG | available; quality gates apply | project_sic_rule |
+| [Peraso Inc.](facts/0000890394/README.md) | PRSO | available; quality gates apply | project_sic_rule |
+| [Perion Network Ltd.](facts/0001338940/README.md) | PERI | missing | project_sic_rule |
+| [Perpetuals.com Ltd](facts/0001944399/README.md) | PDC | missing | project_sic_rule |
+| [PHOTRONICS INC](facts/0000810136/README.md) | PLAB | available; quality gates apply | project_sic_rule |
+| [Phunware, Inc.](facts/0001665300/README.md) | PHUN | available; quality gates apply | project_sic_rule |
+| [PIXELWORKS, INC](facts/0001040161/README.md) | PXLW | available; quality gates apply | project_sic_rule |
+| [Planet Image International Ltd](facts/0001868395/README.md) | YIBO | missing | project_sic_rule |
+| [Planet Labs PBC](facts/0001836833/README.md) | PL | available; quality gates apply | project_sic_rule |
+| [PLAYSTUDIOS, Inc.](facts/0001823878/README.md) | MYPS | available; quality gates apply | project_sic_rule |
+| [Playtika Holding Corp.](facts/0001828016/README.md) | PLTK | available; quality gates apply | project_sic_rule |
+| [PLEXUS CORP](facts/0000785786/README.md) | PLXS | available; quality gates apply | project_sic_rule |
+| [PN Smart Energy Ltd](facts/0002001288/README.md) | PN | missing | project_sic_rule |
+| [POET TECHNOLOGIES INC.](facts/0001437424/README.md) | POET | missing | project_sic_rule |
+| [Pony AI Inc.](facts/0001969302/README.md) | PONY | missing | project_sic_rule |
+| [POWER INTEGRATIONS INC](facts/0000833640/README.md) | POWI | available; quality gates apply | project_sic_rule |
+| [Powerfleet, Inc.](facts/0001774170/README.md) | AIOT | available; quality gates apply | project_sic_rule |
+| [PROCORE TECHNOLOGIES, INC.](facts/0001611052/README.md) | PCOR | available; quality gates apply | project_sic_rule |
+| [PROGRESS SOFTWARE CORP /MA](facts/0000876167/README.md) | PRGS | available; quality gates apply | project_sic_rule |
+| [PTC INC.](facts/0000857005/README.md) | PTC | available; quality gates apply | project_sic_rule |
+| [Q2 Holdings, Inc.](facts/0001410384/README.md) | QTWO | available; quality gates apply | project_sic_rule |
+| [Qnity Electronics, Inc.](facts/0002058873/README.md) | Q | available; quality gates apply | project_sic_rule |
+| [QUALCOMM INC/DE](facts/0000804328/README.md) | QCOM | available; quality gates apply | project_sic_rule |
+| [QUALYS, INC.](facts/0001107843/README.md) | QLYS | available; quality gates apply | project_sic_rule |
+| [Quantinuum Inc.](facts/0002110105/README.md) | QNT | available; quality gates apply | project_sic_rule |
+| [Quantum Computing Inc.](facts/0001758009/README.md) | QUBT | available; quality gates apply | project_sic_rule |
+| [QUANTUM CORP /DE/](facts/0000709283/README.md) | QMCO | available; quality gates apply | project_sic_rule |
+| [Quantum eMotion Corp](facts/0002106613/README.md) | QNC | missing | project_sic_rule |
+| [QUANTUM X LABS INC.](facts/0000797542/README.md) | QXL | available; quality gates apply | project_sic_rule |
+| [QUICKLOGIC Corp](facts/0000882508/README.md) | QUIK | available; quality gates apply | project_sic_rule |
+| [QumulusAI, Inc.](facts/0002084026/README.md) | QMLS | available; quality gates apply | project_sic_rule |
+| [R F INDUSTRIES LTD](facts/0000740664/README.md) | RFIL | available; quality gates apply | project_sic_rule |
+| [RADCOM LTD](facts/0001016838/README.md) | RDCM | missing | project_sic_rule |
+| [RAMBUS INC](facts/0000917273/README.md) | RMBS | missing | project_sic_rule |
+| [Rank One Computing Corp](facts/0002077709/README.md) | ROC | available; quality gates apply | project_sic_rule |
+| [Rapid7, Inc.](facts/0001560327/README.md) | RPD | available; quality gates apply | project_sic_rule |
+| [Red Cat Holdings, Inc.](facts/0000748268/README.md) | RCAT | available; quality gates apply | project_sic_rule |
+| [Red Violet, Inc.](facts/0001720116/README.md) | RDVT | available; quality gates apply | project_sic_rule |
+| [Reddit, Inc.](facts/0001713445/README.md) | RDDT | available; quality gates apply | project_sic_rule |
+| [Rekor Systems, Inc.](facts/0001697851/README.md) | REKR | available; quality gates apply | project_sic_rule |
+| [ReposiTrak, Inc.](facts/0000050471/README.md) | TRAK | available; quality gates apply | project_sic_rule |
+| [Republic Power Group Ltd](facts/0001912884/README.md) | RPGL | missing | project_sic_rule |
+| [Ribbon Communications Inc.](facts/0001708055/README.md) | RBBN | available; quality gates apply | project_sic_rule |
+| [RICHARDSON ELECTRONICS, LTD.](facts/0000355948/README.md) | RELL | available; quality gates apply | project_sic_rule |
+| [RideNow Group, Inc.](facts/0001596961/README.md) | RDNW | available; quality gates apply | project_sic_rule |
+| [Rigetti Computing, Inc.](facts/0001838359/README.md) | RGTI | available; quality gates apply | project_sic_rule |
+| [RingCentral, Inc.](facts/0001384905/README.md) | RNG | available; quality gates apply | project_sic_rule |
+| [Roblox Corp](facts/0001315098/README.md) | RBLX | available; quality gates apply | project_sic_rule |
+| [ROZE AI INC.](facts/0002075335/README.md) | RZAI | missing | project_sic_rule |
+| [Ruanyun Edai Technology Inc.](facts/0001873454/README.md) | RYET | missing | project_sic_rule |
+| [Rubrik, Inc.](facts/0001943896/README.md) | RBRK | available; quality gates apply | project_sic_rule |
+| [Safe Pro Group Inc.](facts/0002011208/README.md) | SPAI | available; quality gates apply | project_sic_rule |
+| [SAGTEC GLOBAL Ltd](facts/0002029138/README.md) | SAGT | missing | project_sic_rule |
+| [SailPoint, Inc.](facts/0002030781/README.md) | SAIL | available; quality gates apply | project_sic_rule |
+| [Salesforce, Inc.](facts/0001108524/README.md) | CRM | available; quality gates apply | project_sic_rule |
+| [Samsara Inc.](facts/0001642896/README.md) | IOT | available; quality gates apply | project_sic_rule |
+| [Sandisk Corp](facts/0002023554/README.md) | SNDK | available; quality gates apply | project_sic_rule |
+| [SANMINA CORP](facts/0000897723/README.md) | SANM | available; quality gates apply | project_sic_rule |
+| [Satellogic Inc.](facts/0001874315/README.md) | SATL | available; quality gates apply | project_sic_rule |
+| [SaverOne 2014 Ltd.](facts/0001894693/README.md) | SVRE | missing | project_sic_rule |
+| [SCANSOURCE, INC.](facts/0000918965/README.md) | SCSC | available; quality gates apply | project_sic_rule |
+| [Science Applications International Corp](facts/0001571123/README.md) | SAIC | available; quality gates apply | project_sic_rule |
+| [Scienjoy Holding Corp](facts/0001753673/README.md) | SJ | available; quality gates apply | project_sic_rule |
+| [SCWorx Corp.](facts/0001674227/README.md) | WORX | available; quality gates apply | project_sic_rule |
+| [Seagate Technology Holdings plc](facts/0001137789/README.md) | STX | available; quality gates apply | project_sic_rule |
+| [SEALSQ Corp](facts/0001951222/README.md) | LAES | missing | project_sic_rule |
+| [SemiLEDs Corp](facts/0001333822/README.md) | LEDS | available; quality gates apply | project_sic_rule |
+| [SEMTECH CORP](facts/0000088941/README.md) | SMTC | missing | project_sic_rule |
+| [Senstar Technologies Corp](facts/0001993727/README.md) | SNT | missing | project_sic_rule |
+| [SentinelOne, Inc.](facts/0001583708/README.md) | S | available; quality gates apply | project_sic_rule |
+| [SEQUANS COMMUNICATIONS](facts/0001383395/README.md) | SQNS | missing | project_sic_rule |
+| [ServiceNow, Inc.](facts/0001373715/README.md) | NOW | available; quality gates apply | project_sic_rule |
+| [ServiceTitan, Inc.](facts/0001638826/README.md) | TTAN | missing | project_sic_rule |
+| [SharonAI Holdings Inc.](facts/0002068385/README.md) | SHAZ | available; quality gates apply | project_sic_rule |
+| [Shoals Technologies Group, Inc.](facts/0001831651/README.md) | SHLS | available; quality gates apply | project_sic_rule |
+| [SHOPIFY INC.](facts/0001594805/README.md) | SHOP | available; quality gates apply | project_sic_rule |
+| [Shutterstock, Inc.](facts/0001549346/README.md) | SSTK | available; quality gates apply | project_sic_rule |
+| [SILICOM LTD.](facts/0000916793/README.md) | SILC | missing | project_sic_rule |
+| [SILICON LABORATORIES INC.](facts/0001038074/README.md) | SLAB | available; quality gates apply | project_sic_rule |
+| [Silicon Motion Technology CORP](facts/0001329394/README.md) | SIMO | missing | project_sic_rule |
+| [Silicon Valley Acquisition Corp.](facts/0002085659/README.md) | SVAQ | available; quality gates apply | project_sic_rule |
+| [Silvaco Group, Inc.](facts/0001943289/README.md) | SVCO | available; quality gates apply | project_sic_rule |
+| [SITIME Corp](facts/0001451809/README.md) | SITM | available; quality gates apply | project_sic_rule |
+| [SK hynix Inc.](facts/0002120882/README.md) | SKHY | missing | project_sic_rule |
+| [Skillsoft Corp.](facts/0001774675/README.md) | SKIL | available; quality gates apply | project_sic_rule |
+| [SKYWORKS SOLUTIONS, INC.](facts/0000004127/README.md) | SWKS | available; quality gates apply | project_sic_rule |
+| [Smartbird, Inc.](facts/0001653909/README.md) | BIRD | available; quality gates apply | project_sic_rule |
+| [SmartKem, Inc.](facts/0001817760/README.md) | SMTK | available; quality gates apply | project_sic_rule |
+| [SmartRent, Inc.](facts/0001837014/README.md) | SMRT | available; quality gates apply | project_sic_rule |
+| [SMITH MICRO SOFTWARE, INC.](facts/0000948708/README.md) | SMSI | available; quality gates apply | project_sic_rule |
+| [Snail, Inc.](facts/0001886894/README.md) | SNAL | available; quality gates apply | project_sic_rule |
+| [Snowflake Inc.](facts/0001640147/README.md) | SNOW | available; quality gates apply | project_sic_rule |
+| [So-Young International Inc.](facts/0001758530/README.md) | SY | missing | project_sic_rule |
+| [SOCKET MOBILE, INC.](facts/0000944075/README.md) | SCKT | available; quality gates apply | project_sic_rule |
+| [Sohu.com Ltd](facts/0001734107/README.md) | SOHU | missing | project_sic_rule |
+| [SOLAREDGE TECHNOLOGIES, INC.](facts/0001419612/README.md) | SEDG | available; quality gates apply | project_sic_rule |
+| [SOPHiA GENETICS SA](facts/0001840706/README.md) | SOPH | missing | project_sic_rule |
+| [SOUNDHOUND AI, INC.](facts/0001840856/README.md) | SOUN | available; quality gates apply | project_sic_rule |
+| [SOUNDTHINKING, INC.](facts/0001351636/README.md) | SSTI | available; quality gates apply | project_sic_rule |
+| [SPACSphere Acquisition Corp.](facts/0002081300/README.md) | SSAC | available; quality gates apply | project_sic_rule |
+| [Sports Entertainment Gaming Global Corp](facts/0001673481/README.md) | SEGG | available; quality gates apply | project_sic_rule |
+| [Sprinklr, Inc.](facts/0001569345/README.md) | CXM | available; quality gates apply | project_sic_rule |
+| [Sprout Social, Inc.](facts/0001517375/README.md) | SPT | available; quality gates apply | project_sic_rule |
+| [SPS COMMERCE INC](facts/0001092699/README.md) | SPSC | available; quality gates apply | project_sic_rule |
+| [SS&C Technologies Holdings Inc](facts/0001402436/README.md) | SSNC | available; quality gates apply | project_sic_rule |
+| [STEM, INC.](facts/0001758766/README.md) | STEM | available; quality gates apply | project_sic_rule |
+| [STMicroelectronics N.V.](facts/0000932787/README.md) | STM | missing | project_sic_rule |
+| [StoneCo Ltd.](facts/0001745431/README.md) | STNE | missing | project_sic_rule |
+| [STRATASYS LTD.](facts/0001517396/README.md) | SSYS | missing | project_sic_rule |
+| [SUNation Energy, Inc.](facts/0000022701/README.md) | SUNE | available; quality gates apply | project_sic_rule |
+| [SunScout Holding Ltd](facts/0002101240/README.md) | SNSC | missing | project_sic_rule |
+| [Super League Enterprise, Inc.](facts/0001621672/README.md) | SLE | available; quality gates apply | project_sic_rule |
+| [Super Micro Computer, Inc.](facts/0001375365/README.md) | SMCI, SMCIP | available; quality gates apply | project_sic_rule |
+| [SuperCom Ltd](facts/0001291855/README.md) | SPCB | missing | project_sic_rule |
+| [Swarmer, Inc](facts/0002092574/README.md) | SWMR | available; quality gates apply | project_sic_rule |
+| [SYNAPTICS Inc](facts/0000817720/README.md) | SYNA | available; quality gates apply | project_sic_rule |
+| [SYNOPSYS INC](facts/0000883241/README.md) | SNPS | available; quality gates apply | project_sic_rule |
+| [T Stamp Inc](facts/0001718939/README.md) | IDAI | available; quality gates apply | project_sic_rule |
+| [T1 Energy Inc.](facts/0001992243/README.md) | TE | available; quality gates apply | project_sic_rule |
+| [TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD](facts/0001046179/README.md) | TSM | missing | project_sic_rule |
+| [TAKE TWO INTERACTIVE SOFTWARE INC](facts/0000946581/README.md) | TTWO | available; quality gates apply | project_sic_rule |
+| [Taoping Inc.](facts/0001552670/README.md) | TAOP | missing | project_sic_rule |
+| [TaskUs, Inc.](facts/0001829864/README.md) | TASK | available; quality gates apply | project_sic_rule |
+| [TD SYNNEX CORP](facts/0001177394/README.md) | SNX | available; quality gates apply | project_sic_rule |
+| [TE Connectivity plc](facts/0001385157/README.md) | TEL | available; quality gates apply | project_sic_rule |
+| [TELOS CORP](facts/0000320121/README.md) | TLS | available; quality gates apply | project_sic_rule |
+| [Tenable Holdings, Inc.](facts/0001660280/README.md) | TENB | available; quality gates apply | project_sic_rule |
+| [TERADATA CORP /DE/](facts/0000816761/README.md) | TDC | available; quality gates apply | project_sic_rule |
+| [TERADYNE, INC](facts/0000097210/README.md) | TER | available; quality gates apply | project_sic_rule |
+| [Tessera Defense & Homeland Security Inc.](facts/0001739174/README.md) | HLSQ | available; quality gates apply | project_sic_rule |
+| [TEXAS INSTRUMENTS INC](facts/0000097476/README.md) | TXN | available; quality gates apply | project_sic_rule |
+| [Tianci International, Inc.](facts/0001557798/README.md) | CIIT | available; quality gates apply | project_sic_rule |
+| [TIGO ENERGY, INC.](facts/0001855447/README.md) | TYGO | available; quality gates apply | project_sic_rule |
+| [Toast, Inc.](facts/0001650164/README.md) | TOST | available; quality gates apply | project_sic_rule |
+| [TOWER SEMICONDUCTOR LTD](facts/0000928876/README.md) | TSEM | missing | project_sic_rule |
+| [TOYO Co., Ltd](facts/0001985273/README.md) | TOYO | missing | project_sic_rule |
+| [TRANSACT TECHNOLOGIES INC](facts/0001017303/README.md) | TACT | available; quality gates apply | project_sic_rule |
+| [TRANSCAT INC](facts/0000099302/README.md) | TRNS | available; quality gates apply | project_sic_rule |
+| [trivago N.V.](facts/0001683825/README.md) | TRVG | missing | project_sic_rule |
+| [TTM TECHNOLOGIES INC](facts/0001116942/README.md) | TTMI | available; quality gates apply | project_sic_rule |
+| [TUCOWS INC /PA/](facts/0000909494/README.md) | TCX | available; quality gates apply | project_sic_rule |
+| [Turtle Beach Corp](facts/0001493761/README.md) | TBCH | available; quality gates apply | project_sic_rule |
+| [Tuya Inc.](facts/0001829118/README.md) | TUYA | missing | project_sic_rule |
+| [TWILIO INC](facts/0001447669/README.md) | TWLO | available; quality gates apply | project_sic_rule |
+| [TYLER TECHNOLOGIES INC](facts/0000860731/README.md) | TYL | available; quality gates apply | project_sic_rule |
+| [Ubiquiti Inc.](facts/0001511737/README.md) | UI | available; quality gates apply | project_sic_rule |
+| [UiPath, Inc.](facts/0001734722/README.md) | PATH | available; quality gates apply | project_sic_rule |
+| [Ultra Clean Holdings, Inc.](facts/0001275014/README.md) | UCTT | available; quality gates apply | project_sic_rule |
+| [UNISYS CORP](facts/0000746838/README.md) | UIS | available; quality gates apply | project_sic_rule |
+| [UNITED MICROELECTRONICS CORP](facts/0001033767/README.md) | UMC | missing | project_sic_rule |
+| [Unity Software Inc.](facts/0001810806/README.md) | U | available; quality gates apply | project_sic_rule |
+| [Unusual Machines, Inc.](facts/0001956955/README.md) | UMAC | available; quality gates apply | project_sic_rule |
+| [Upland Software, Inc.](facts/0001505155/README.md) | UPLD | available; quality gates apply | project_sic_rule |
+| [UPWORK, INC](facts/0001627475/README.md) | UPWK | available; quality gates apply | project_sic_rule |
+| [UTSTARCOM HOLDINGS CORP.](facts/0001030471/README.md) | UTSI | missing | project_sic_rule |
+| [Valens Semiconductor Ltd.](facts/0001863006/README.md) | VLN | missing | project_sic_rule |
+| [Varex Imaging Corp](facts/0001681622/README.md) | VREX | available; quality gates apply | project_sic_rule |
+| [VARONIS SYSTEMS INC](facts/0001361113/README.md) | VRNS | available; quality gates apply | project_sic_rule |
+| [VEEA INC.](facts/0001840317/README.md) | VEEA | available; quality gates apply | project_sic_rule |
+| [VEEVA SYSTEMS INC](facts/0001393052/README.md) | VEEV | available; quality gates apply | project_sic_rule |
+| [Veralto Corp](facts/0001967680/README.md) | VLTO | missing | project_sic_rule |
+| [VERISIGN INC/CA](facts/0001014473/README.md) | VRSN | available; quality gates apply | project_sic_rule |
+| [Verisk Analytics, Inc.](facts/0001442145/README.md) | VRSK | missing | project_sic_rule |
+| [Veritone, Inc.](facts/0001615165/README.md) | VERI | available; quality gates apply | project_sic_rule |
+| [Versus Systems Inc.](facts/0001701963/README.md) | VS | available; quality gates apply | project_sic_rule |
+| [Vertex, Inc.](facts/0001806837/README.md) | VERX | available; quality gates apply | project_sic_rule |
+| [Vertiv Holdings Co](facts/0001674101/README.md) | VRT | available; quality gates apply | project_sic_rule |
+| [Via Transportation, Inc.](facts/0001603015/README.md) | VIA | available; quality gates apply | project_sic_rule |
+| [VIAVI SOLUTIONS INC.](facts/0000912093/README.md) | VIAV | available; quality gates apply | project_sic_rule |
+| [VICOR CORP](facts/0000751978/README.md) | VICR | missing | project_sic_rule |
+| [VIDA Global Inc.](facts/0001973062/README.md) | VIDA | available; quality gates apply | project_sic_rule |
+| [Virtuix Holdings Inc.](facts/0001606242/README.md) | VTIX | available; quality gates apply | project_sic_rule |
+| [VISHAY INTERTECHNOLOGY INC](facts/0000103730/README.md) | VSH | available; quality gates apply | project_sic_rule |
+| [Vishay Precision Group, Inc.](facts/0001487952/README.md) | VPG | available; quality gates apply | project_sic_rule |
+| [VisionWave Holdings, Inc.](facts/0002038439/README.md) | VWAV | available; quality gates apply | project_sic_rule |
+| [Vistance Networks, Inc.](facts/0001517228/README.md) | VISN | available; quality gates apply | project_sic_rule |
+| [VTEX](facts/0001793663/README.md) | VTEX | missing | project_sic_rule |
+| [Vuzix Corp](facts/0001463972/README.md) | VUZI | available; quality gates apply | project_sic_rule |
+| [Waystar Holding Corp.](facts/0001990354/README.md) | WAY | available; quality gates apply | project_sic_rule |
+| [Wearable Devices Ltd.](facts/0001887673/README.md) | WLDS | missing | project_sic_rule |
+| [Weave Communications, Inc.](facts/0001609151/README.md) | WEAV | available; quality gates apply | project_sic_rule |
+| [Wellchange Holdings Co Ltd](facts/0001990251/README.md) | WCT | missing | project_sic_rule |
+| [WeRide Inc.](facts/0001867729/README.md) | WRD | missing | project_sic_rule |
+| [WESTERN DIGITAL CORP](facts/0000106040/README.md) | WDC | available; quality gates apply | project_sic_rule |
+| [Wetouch Technology Inc.](facts/0001826660/README.md) | WETH | available; quality gates apply | project_sic_rule |
+| [Where Food Comes From, Inc.](facts/0001360565/README.md) | WFCF | missing | project_sic_rule |
+| [WIDEPOINT CORP](facts/0001034760/README.md) | WYY | available; quality gates apply | project_sic_rule |
+| [WiMi Hologram Cloud Inc.](facts/0001770088/README.md) | WIMI | missing | project_sic_rule |
+| [WIPRO LTD](facts/0001123799/README.md) | WIT | missing | project_sic_rule |
+| [WOLFSPEED, INC.](facts/0000895419/README.md) | WOLF | missing | project_sic_rule |
+| [Workday, Inc.](facts/0001327811/README.md) | WDAY | available; quality gates apply | project_sic_rule |
+| [WORKIVA INC](facts/0001445305/README.md) | WK | available; quality gates apply | project_sic_rule |
+| [Xanadu Quantum Technologies Ltd](facts/0002097163/README.md) | XNDU | missing | project_sic_rule |
+| [Xerox Holdings Corp](facts/0001770450/README.md) | XRX | available; quality gates apply | project_sic_rule |
+| [Xiao-I Corp](facts/0001935172/README.md) | AIXI | missing | project_sic_rule |
+| [Xperi Inc.](facts/0001788999/README.md) | XPER | available; quality gates apply | project_sic_rule |
+| [XTI Aerospace, Inc.](facts/0001529113/README.md) | XTIA | available; quality gates apply | project_sic_rule |
+| [Xunlei Ltd](facts/0001510593/README.md) | XNET | missing | project_sic_rule |
+| [Yext, Inc.](facts/0001614178/README.md) | YEXT | available; quality gates apply | project_sic_rule |
+| [Yimutian Inc.](facts/0001991605/README.md) | YMT | missing | project_sic_rule |
+| [Youxin Technology Ltd](facts/0001964946/README.md) | YAAS | missing | project_sic_rule |
+| [YXT.COM GROUP HOLDING Ltd](facts/0001872090/README.md) | YXT | missing | project_sic_rule |
+| [Zedge, Inc.](facts/0001667313/README.md) | ZDGE | available; quality gates apply | project_sic_rule |
+| [ZenaTech, Inc.](facts/0001997403/README.md) | ZENA | missing | project_sic_rule |
+| [Zepp Health Corp](facts/0001720446/README.md) | ZEPP | missing | project_sic_rule |
+| [Zeta Global Holdings Corp.](facts/0001851003/README.md) | ZETA | available; quality gates apply | project_sic_rule |
+| [ZoomInfo Technologies Inc.](facts/0001794515/README.md) | GTM | available; quality gates apply | project_sic_rule |
+| [Zscaler, Inc.](facts/0001713683/README.md) | ZS | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

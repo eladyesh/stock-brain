@@ -8,11 +8,11 @@ tickers:
 - IZEA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,10 +76,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001495231.json
     sha256: b74a8afc2e40fc40807df1f06a20bacf6f42a7e86993fd0f97021c8945a6ec97
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001495231.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -87,13 +87,13 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001495231.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: b74a8afc2e40fc40807df1f06a20bacf6f42a7e86993fd0f97021c8945a6ec97
 - id: S03
   title: SEC CompanyFacts source
@@ -123,58 +123,62 @@ sources:
   title: 4 0001628280-26-064231
   url: https://www.sec.gov/Archives/edgar/data/1495231/000162828026064231/0001628280-26-064231-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S21
   title: 4 0001628280-26-064230
   url: https://www.sec.gov/Archives/edgar/data/1495231/000162828026064230/0001628280-26-064230-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S22
   title: 4 0001628280-26-064229
   url: https://www.sec.gov/Archives/edgar/data/1495231/000162828026064229/0001628280-26-064229-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S23
   title: 4 0001628280-26-064228
   url: https://www.sec.gov/Archives/edgar/data/1495231/000162828026064228/0001628280-26-064228-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S24
   title: 4 0001628280-26-064227
   url: https://www.sec.gov/Archives/edgar/data/1495231/000162828026064227/0001628280-26-064227-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001495231
+  classification_status: reported_sic
+  entity_type: operating
   name: IZEA Worldwide, Inc.
+  sic: '7310'
+  sic_description: Services-Advertising
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: b74a8afc2e40fc40807df1f06a20bacf6f42a7e86993fd0f97021c8945a6ec97
   url: https://data.sec.gov/submissions/CIK0001495231.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '7310'
+  sic_description: Services-Advertising
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001495231/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001495231/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IZEA Worldwide, Inc. — IZEA
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001495231/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001495231/README.md)
 
 ## Business overview
 
@@ -202,7 +206,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **7310**: Services-Advertising. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -331,7 +337,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:41:50.560757+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:44:04.862126+00:00.
 
 ## Relationships and themes
 
@@ -351,9 +357,9 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001495231.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001495231.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001495231.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -363,16 +369,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S11] [10-Q 0001495231-26-000017](https://www.sec.gov/Archives/edgar/data/1495231/000149523126000017/0001495231-26-000017-index.html) — published 2026-05-12; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S20] [4 0001628280-26-064231](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064231/0001628280-26-064231-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S20] [4 0001628280-26-064231](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064231/0001628280-26-064231-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S21] [4 0001628280-26-064230](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064230/0001628280-26-064230-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S21] [4 0001628280-26-064230](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064230/0001628280-26-064230-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S22] [4 0001628280-26-064229](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064229/0001628280-26-064229-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S22] [4 0001628280-26-064229](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064229/0001628280-26-064229-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S23] [4 0001628280-26-064228](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064228/0001628280-26-064228-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S23] [4 0001628280-26-064228](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064228/0001628280-26-064228-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S24] [4 0001628280-26-064227](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064227/0001628280-26-064227-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S24] [4 0001628280-26-064227](https://www.sec.gov/Archives/edgar/data/1495231/000162828026064227/0001628280-26-064227-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001495231/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001495231/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

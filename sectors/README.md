@@ -4,21 +4,21 @@
 
 [Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)
 
-Factual Markdown files in this branch: **5634**; financial history available: **4049**. Source release: `coverage-20261022-39831584719-1`, created 2026-10-22T18:45:53.881812+00:00.
+Factual Markdown files in this branch: **5634**; financial history available: **4052**. Source release: `coverage-20261023-39925380279-1`, created 2026-10-23T08:47:59.341415+00:00.
 
 Factual files are not completed research. Sector assignments from SIC are provisional project navigation rules; ambiguous industries and fund signals stay unclassified.
 
 | Sector | Factual files | Curated profiles | Reviewed research |
 | --- | ---: | ---: | ---: |
-| [Communication Services](communication-services/INDEX.md) | 0 | 0 | 0 |
-| [Consumer Discretionary](consumer-discretionary/INDEX.md) | 0 | 0 | 0 |
-| [Consumer Staples](consumer-staples/INDEX.md) | 0 | 0 | 0 |
-| [Energy](energy/INDEX.md) | 0 | 0 | 0 |
-| [Financials](financials/INDEX.md) | 0 | 0 | 0 |
-| [Health Care](health-care/INDEX.md) | 0 | 0 | 0 |
-| [Industrials](industrials/INDEX.md) | 3 | 3 | 3 |
-| [Information Technology](information-technology/INDEX.md) | 7 | 7 | 7 |
-| [Materials](materials/INDEX.md) | 0 | 0 | 0 |
-| [Real Estate](real-estate/INDEX.md) | 0 | 0 | 0 |
-| [Utilities](utilities/INDEX.md) | 0 | 0 | 0 |
-| [Unclassified — needs evidence review](unclassified/INDEX.md) | 5624 | 0 | 0 |
+| [Communication Services](communication-services/INDEX.md) | 121 | 0 | 0 |
+| [Consumer Discretionary](consumer-discretionary/INDEX.md) | 531 | 0 | 0 |
+| [Consumer Staples](consumer-staples/INDEX.md) | 176 | 0 | 0 |
+| [Energy](energy/INDEX.md) | 196 | 0 | 0 |
+| [Financials](financials/INDEX.md) | 709 | 0 | 0 |
+| [Health Care](health-care/INDEX.md) | 964 | 0 | 0 |
+| [Industrials](industrials/INDEX.md) | 764 | 3 | 3 |
+| [Information Technology](information-technology/INDEX.md) | 637 | 7 | 7 |
+| [Materials](materials/INDEX.md) | 342 | 0 | 0 |
+| [Real Estate](real-estate/INDEX.md) | 56 | 0 | 0 |
+| [Utilities](utilities/INDEX.md) | 104 | 0 | 0 |
+| [Unclassified — needs evidence review](unclassified/INDEX.md) | 1034 | 0 | 0 |

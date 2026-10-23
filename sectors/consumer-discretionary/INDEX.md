@@ -4,15 +4,545 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **531**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [1 800 FLOWERS COM INC](facts/0001084869/README.md) | FLWS | available; quality gates apply | project_sic_rule |
+| [17 Education & Technology Group Inc.](facts/0001821468/README.md) | YQ | missing | project_sic_rule |
+| [1stdibs.com, Inc.](facts/0001600641/README.md) | DIBS | available; quality gates apply | project_sic_rule |
+| [51Talk Online Education Group](facts/0001659494/README.md) | COE | missing | project_sic_rule |
+| [707 Cayman Holdings Ltd.](facts/0002018222/README.md) | JEM | missing | project_sic_rule |
+| [A.K.A. BRANDS HOLDING CORP.](facts/0001865107/README.md) | AKA | available; quality gates apply | project_sic_rule |
+| [ABERCROMBIE & FITCH CO /DE/](facts/0001018840/README.md) | ANF | available; quality gates apply | project_sic_rule |
+| [Able View Global Inc.](facts/0001957489/README.md) | ABLV | missing | project_sic_rule |
+| [Academy Sports & Outdoors, Inc.](facts/0001817358/README.md) | ASO | available; quality gates apply | project_sic_rule |
+| [Accel Entertainment, Inc.](facts/0001698991/README.md) | ACEL | available; quality gates apply | project_sic_rule |
+| [Acushnet Holdings Corp.](facts/0001672013/README.md) | GOLF | available; quality gates apply | project_sic_rule |
+| [Adient plc](facts/0001670541/README.md) | ADNT | available; quality gates apply | project_sic_rule |
+| [ADVANCE AUTO PARTS INC](facts/0001158449/README.md) | AAP | available; quality gates apply | project_sic_rule |
+| [Aeva Technologies, Inc.](facts/0001789029/README.md) | AEVA | available; quality gates apply | project_sic_rule |
+| [AEye, Inc.](facts/0001818644/README.md) | LIDR | available; quality gates apply | project_sic_rule |
+| [Afya Ltd](facts/0001771007/README.md) | AFYA | missing | project_sic_rule |
+| [ALBANY INTERNATIONAL CORP /DE/](facts/0000819793/README.md) | AIN | available; quality gates apply | project_sic_rule |
+| [All In FutureTech Alliance, Inc.](facts/0001708341/README.md) | AIFA | available; quality gates apply | project_sic_rule |
+| [Allison Transmission Holdings Inc](facts/0001411207/README.md) | ALSN | available; quality gates apply | project_sic_rule |
+| [AMAZON COM INC](facts/0001018724/README.md) | AMZN | available; quality gates apply | project_sic_rule |
+| [AMBITIONS ENTERPRISE MANAGEMENT CO. L.L.C](facts/0002010959/README.md) | AHMA | missing | project_sic_rule |
+| [Ambow Education Holding Ltd.](facts/0001494558/README.md) | AMBO | available; quality gates apply | project_sic_rule |
+| [AMC Robotics Corp](facts/0001937891/README.md) | AMCI | available; quality gates apply | project_sic_rule |
+| [Amer Sports, Inc.](facts/0001988894/README.md) | AS | missing | project_sic_rule |
+| [AMERICAN EAGLE OUTFITTERS INC](facts/0000919012/README.md) | AEO | available; quality gates apply | project_sic_rule |
+| [American Outdoor Brands, Inc.](facts/0001808997/README.md) | AOUT | available; quality gates apply | project_sic_rule |
+| [AMERICAN PUBLIC EDUCATION INC](facts/0001201792/README.md) | APEI | available; quality gates apply | project_sic_rule |
+| [AMERICAS CARMART INC](facts/0000799850/README.md) | CRMT | available; quality gates apply | project_sic_rule |
+| [Aptera Motors Corp](facts/0001786471/README.md) | SEV | available; quality gates apply | project_sic_rule |
+| [Aptiv PLC](facts/0001521332/README.md) | APTV | available; quality gates apply | project_sic_rule |
+| [Aramark](facts/0001584509/README.md) | ARMK | available; quality gates apply | project_sic_rule |
+| [Arcos Dorados Holdings Inc.](facts/0001508478/README.md) | ARCO | missing | project_sic_rule |
+| [Arhaus, Inc.](facts/0001875444/README.md) | ARHS | available; quality gates apply | project_sic_rule |
+| [ARK RESTAURANTS CORP](facts/0000779544/README.md) | ARKR | available; quality gates apply | project_sic_rule |
+| [ASBURY AUTOMOTIVE GROUP INC](facts/0001144980/README.md) | ABG | available; quality gates apply | project_sic_rule |
+| [ATA Creativity Global](facts/0001420529/README.md) | AACG | missing | project_sic_rule |
+| [Aterian, Inc.](facts/0001757715/README.md) | ATER | available; quality gates apply | project_sic_rule |
+| [Atlanta Braves Holdings, Inc.](facts/0001958140/README.md) | BATRA, BATRK | available; quality gates apply | project_sic_rule |
+| [Atlas Trinity Tech Co., Ltd.](facts/0001948443/README.md) | ATTT | missing | project_sic_rule |
+| [Atmus Filtration Technologies Inc.](facts/0001921963/README.md) | ATMU | available; quality gates apply | project_sic_rule |
+| [Atour Lifestyle Holdings Ltd](facts/0001853717/README.md) | ATAT | missing | project_sic_rule |
+| [ATRenew Inc.](facts/0001838957/README.md) | RERE | missing | project_sic_rule |
+| [AUTOLIV INC](facts/0001034670/README.md) | ALV | available; quality gates apply | project_sic_rule |
+| [AUTONATION, INC.](facts/0000350698/README.md) | AN | available; quality gates apply | project_sic_rule |
+| [Autozi Internet Technology (Global) Ltd.](facts/0001959726/README.md) | AZI | missing | project_sic_rule |
+| [AUTOZONE INC](facts/0000866787/README.md) | AZO | available; quality gates apply | project_sic_rule |
+| [AVIS BUDGET GROUP, INC.](facts/0000723612/README.md) | CAR | missing | project_sic_rule |
+| [AZIO AI HOLDINGS, INC.](facts/0001563568/README.md) | AZIO | available; quality gates apply | project_sic_rule |
+| [Bally's Corp](facts/0001747079/README.md) | BALY | available; quality gates apply | project_sic_rule |
+| [Baozun Inc.](facts/0001625414/README.md) | BZUN | missing | project_sic_rule |
+| [Bark, Inc.](facts/0001819574/README.md) | BARK | available; quality gates apply | project_sic_rule |
+| [Barnes & Noble Education, Inc.](facts/0001634117/README.md) | BNED | available; quality gates apply | project_sic_rule |
+| [BASSETT FURNITURE INDUSTRIES INC](facts/0000010329/README.md) | BSET | available; quality gates apply | project_sic_rule |
+| [Bath & Body Works, Inc.](facts/0000701985/README.md) | BBWI | available; quality gates apply | project_sic_rule |
+| [Beachbody Company, Inc.](facts/0001826889/README.md) | BODI | available; quality gates apply | project_sic_rule |
+| [BEST BUY CO INC](facts/0000764478/README.md) | BBY | available; quality gates apply | project_sic_rule |
+| [BEST SPAC I Acquisition Corp.](facts/0002051587/README.md) | BSAA | available; quality gates apply | project_sic_rule |
+| [BETTERWARE DE MEXICO, S.A.P.I. DE C.V](facts/0001788257/README.md) | BWMX | missing | project_sic_rule |
+| [Biglari Holdings Inc.](facts/0001726173/README.md) | BH, BH.A | available; quality gates apply | project_sic_rule |
+| [Birkenstock Holding plc](facts/0001977102/README.md) | BIRK | missing | project_sic_rule |
+| [BJ's Wholesale Club Holdings, Inc.](facts/0001531152/README.md) | BJ | available; quality gates apply | project_sic_rule |
+| [BJs RESTAURANTS INC](facts/0001013488/README.md) | BJRI | available; quality gates apply | project_sic_rule |
+| [Black Rock Coffee Bar, Inc.](facts/0002068577/README.md) | BRCB | available; quality gates apply | project_sic_rule |
+| [Bloomin' Brands, Inc.](facts/0001546417/README.md) | BLMN | available; quality gates apply | project_sic_rule |
+| [Bob's Discount Furniture, Inc.](facts/0002085187/README.md) | BOBS | available; quality gates apply | project_sic_rule |
+| [Boot Barn Holdings, Inc.](facts/0001610250/README.md) | BOOT | available; quality gates apply | project_sic_rule |
+| [Boqii Holding Ltd](facts/0001815021/README.md) | BQ | missing | project_sic_rule |
+| [BORGWARNER INC](facts/0000908255/README.md) | BWA | available; quality gates apply | project_sic_rule |
+| [BOXABL Inc.](facts/0001906364/README.md) | BXBL | available; quality gates apply | project_sic_rule |
+| [Boxlight Corp](facts/0001624512/README.md) | BOXL | available; quality gates apply | project_sic_rule |
+| [BOYD GAMING CORP](facts/0000906553/README.md) | BYD | available; quality gates apply | project_sic_rule |
+| [Boyd Group Services Inc.](facts/0002091467/README.md) | BGSI | missing | project_sic_rule |
+| [BrilliA Inc](facts/0002000230/README.md) | BRIA | missing | project_sic_rule |
+| [Brilliant Earth Group, Inc.](facts/0001866757/README.md) | BRLT | available; quality gates apply | project_sic_rule |
+| [BRINKER INTERNATIONAL, INC](facts/0000703351/README.md) | EAT | available; quality gates apply | project_sic_rule |
+| [BT Brands, Inc.](facts/0001718224/README.md) | BTBD | available; quality gates apply | project_sic_rule |
+| [BUCKLE INC](facts/0000885245/README.md) | BKE | available; quality gates apply | project_sic_rule |
+| [BUILD-A-BEAR WORKSHOP INC](facts/0001113809/README.md) | BBW | available; quality gates apply | project_sic_rule |
+| [Builders FirstSource, Inc.](facts/0001316835/README.md) | BLDR | available; quality gates apply | project_sic_rule |
+| [Burlington Stores, Inc.](facts/0001579298/README.md) | BURL | available; quality gates apply | project_sic_rule |
+| [BUUU Group Ltd](facts/0002047273/README.md) | BUUU | missing | project_sic_rule |
+| [Caesars Entertainment, Inc.](facts/0001590895/README.md) | CZR | available; quality gates apply | project_sic_rule |
+| [CALERES INC](facts/0000014707/README.md) | CAL | available; quality gates apply | project_sic_rule |
+| [Callaway Golf Co](facts/0000837465/README.md) | CALY | available; quality gates apply | project_sic_rule |
+| [Camping World Holdings, Inc.](facts/0001669779/README.md) | CWH | available; quality gates apply | project_sic_rule |
+| [Cannae Holdings, Inc.](facts/0001704720/README.md) | CNNE | available; quality gates apply | project_sic_rule |
+| [Canterbury Park Holding Corp](facts/0001672909/README.md) | CPHC | available; quality gates apply | project_sic_rule |
+| [Capri Holdings Ltd](facts/0001530721/README.md) | CPRI | available; quality gates apply | project_sic_rule |
+| [CARMAX INC](facts/0001170010/README.md) | KMX | available; quality gates apply | project_sic_rule |
+| [CarParts.com, Inc.](facts/0001378950/README.md) | PRTS | available; quality gates apply | project_sic_rule |
+| [CARRIAGE SERVICES INC](facts/0001016281/README.md) | CSV | available; quality gates apply | project_sic_rule |
+| [CARTERS INC](facts/0001060822/README.md) | CRI | available; quality gates apply | project_sic_rule |
+| [CARVANA CO.](facts/0001690820/README.md) | CVNA | available; quality gates apply | project_sic_rule |
+| [CASEYS GENERAL STORES INC](facts/0000726958/README.md) | CASY | available; quality gates apply | project_sic_rule |
+| [CATO CORP](facts/0000018255/README.md) | CATO | available; quality gates apply | project_sic_rule |
+| [CAVA GROUP, INC.](facts/0001639438/README.md) | CAVA | available; quality gates apply | project_sic_rule |
+| [CAVCO INDUSTRIES, INC.](facts/0000278166/README.md) | CVCO | available; quality gates apply | project_sic_rule |
+| [CCH Holdings Ltd](facts/0002074123/README.md) | CCHH | missing | project_sic_rule |
+| [CDW Corp](facts/0001402057/README.md) | CDW | available; quality gates apply | project_sic_rule |
+| [Cenntro Inc.](facts/0001707919/README.md) | CENN | available; quality gates apply | project_sic_rule |
+| [CENTURY CASINOS INC /CO/](facts/0000911147/README.md) | CNTY | available; quality gates apply | project_sic_rule |
+| [Century Communities, Inc.](facts/0001576940/README.md) | CCS | available; quality gates apply | project_sic_rule |
+| [Chagee Holdings Ltd.](facts/0002013649/README.md) | CHA | missing | project_sic_rule |
+| [Champion Homes, Inc.](facts/0000090896/README.md) | SKY | available; quality gates apply | project_sic_rule |
+| [CHEESECAKE FACTORY INC](facts/0000887596/README.md) | CAKE | available; quality gates apply | project_sic_rule |
+| [CHEETAH NET SUPPLY CHAIN SERVICE INC.](facts/0001951667/README.md) | CTNT | available; quality gates apply | project_sic_rule |
+| [CHEGG, INC](facts/0001364954/README.md) | CHGG | available; quality gates apply | project_sic_rule |
+| [Chewy, Inc.](facts/0001766502/README.md) | CHWY | available; quality gates apply | project_sic_rule |
+| [Childrens Place, Inc.](facts/0001041859/README.md) | PLCE | available; quality gates apply | project_sic_rule |
+| [China Automotive Systems, Inc.](facts/0002037400/README.md) | CAAS | missing | project_sic_rule |
+| [CHIPOTLE MEXICAN GRILL INC](facts/0001058090/README.md) | CMG | available; quality gates apply | project_sic_rule |
+| [CHOICE HOTELS INTERNATIONAL INC /DE](facts/0001046311/README.md) | CHH | available; quality gates apply | project_sic_rule |
+| [Churchill Downs Inc](facts/0000020212/README.md) | CHDN | available; quality gates apply | project_sic_rule |
+| [CINTAS CORP](facts/0000723254/README.md) | CTAS | available; quality gates apply | project_sic_rule |
+| [Citi Trends Inc](facts/0001318484/README.md) | CTRN | available; quality gates apply | project_sic_rule |
+| [Clarus Corp](facts/0000913277/README.md) | CLAR | available; quality gates apply | project_sic_rule |
+| [Codere Online Luxembourg, S.A.](facts/0001866782/README.md) | CDRO | missing | project_sic_rule |
+| [COLUMBIA SPORTSWEAR CO](facts/0001050797/README.md) | COLM | available; quality gates apply | project_sic_rule |
+| [Commercial Vehicle Group, Inc.](facts/0001290900/README.md) | CVGI | available; quality gates apply | project_sic_rule |
+| [Cooper-Standard Holdings Inc.](facts/0001320461/README.md) | CPS | available; quality gates apply | project_sic_rule |
+| [COPART INC](facts/0000900075/README.md) | CPRT | available; quality gates apply | project_sic_rule |
+| [Coupang, Inc.](facts/0001834584/README.md) | CPNG | available; quality gates apply | project_sic_rule |
+| [Covista Inc.](facts/0000730464/README.md) | CVSA | available; quality gates apply | project_sic_rule |
+| [CRACKER BARREL OLD COUNTRY STORE, INC](facts/0001067294/README.md) | CBRL | available; quality gates apply | project_sic_rule |
+| [Crocs, Inc.](facts/0001334036/README.md) | CROX | available; quality gates apply | project_sic_rule |
+| [CROWN CRAFTS INC](facts/0000025895/README.md) | CRWS | available; quality gates apply | project_sic_rule |
+| [CULP INC](facts/0000723603/README.md) | CULP | available; quality gates apply | project_sic_rule |
+| [D-MARKET Electronic Services & Trading](facts/0001850235/README.md) | HEPS | missing | project_sic_rule |
+| [DANA Inc](facts/0000026780/README.md) | DAN | available; quality gates apply | project_sic_rule |
+| [DARDEN RESTAURANTS INC](facts/0000940944/README.md) | DRI | available; quality gates apply | project_sic_rule |
+| [Dauch Corp](facts/0001062231/README.md) | DCH | available; quality gates apply | project_sic_rule |
+| [Dave & Buster's Entertainment, Inc.](facts/0001525769/README.md) | PLAY | available; quality gates apply | project_sic_rule |
+| [DECKERS OUTDOOR CORP](facts/0000910521/README.md) | DECK | available; quality gates apply | project_sic_rule |
+| [Designer Brands Inc.](facts/0001319947/README.md) | DBI | available; quality gates apply | project_sic_rule |
+| [DESTINATION XL GROUP, INC.](facts/0000813298/README.md) | DXLG | available; quality gates apply | project_sic_rule |
+| [DICK'S SPORTING GOODS, INC.](facts/0001089063/README.md) | DKS | available; quality gates apply | project_sic_rule |
+| [Digital Brands Group, Inc.](facts/0001668010/README.md) | DBGI | available; quality gates apply | project_sic_rule |
+| [Digital Currency X Technology Inc.](facts/0001957413/README.md) | DCX | missing | project_sic_rule |
+| [Dine Brands Global, Inc.](facts/0000049754/README.md) | DIN | available; quality gates apply | project_sic_rule |
+| [Dingdong (Cayman) Ltd](facts/0001854545/README.md) | DDL | missing | project_sic_rule |
+| [DOLLAR GENERAL CORP](facts/0000029534/README.md) | DG | available; quality gates apply | project_sic_rule |
+| [DOLLAR TREE, INC.](facts/0000935703/README.md) | DLTR | available; quality gates apply | project_sic_rule |
+| [Dolphin Entertainment, Inc.](facts/0001282224/README.md) | DLPN | available; quality gates apply | project_sic_rule |
+| [Dorman Products, Inc.](facts/0000868780/README.md) | DORM | available; quality gates apply | project_sic_rule |
+| [DraftKings Inc.](facts/0001883685/README.md) | DKNG | available; quality gates apply | project_sic_rule |
+| [Dream Finders Homes, Inc.](facts/0001825088/README.md) | DFH | missing | project_sic_rule |
+| [Driven Brands Holdings Inc.](facts/0001804745/README.md) | DRVN | available; quality gates apply | project_sic_rule |
+| [DULUTH HOLDINGS INC.](facts/0001649744/README.md) | DLTH | available; quality gates apply | project_sic_rule |
+| [Dutch Bros Inc.](facts/0001866581/README.md) | BROS | available; quality gates apply | project_sic_rule |
+| [El Pollo Loco Holdings, Inc.](facts/0001606366/README.md) | LOCO | available; quality gates apply | project_sic_rule |
+| [EMERSON RADIO CORP](facts/0000032621/README.md) | MSN | available; quality gates apply | project_sic_rule |
+| [Enhanced Group Inc.](facts/0001956439/README.md) | ENHA | available; quality gates apply | project_sic_rule |
+| [Envela Corp](facts/0000701719/README.md) | ELA | available; quality gates apply | project_sic_rule |
+| [EpicQuest Education Group International Ltd](facts/0001781397/README.md) | EEIQ | missing | project_sic_rule |
+| [Ermenegildo Zegna N.V.](facts/0001877787/README.md) | ZGN | missing | project_sic_rule |
+| [ESCALADE INC](facts/0000033488/README.md) | ESCA | available; quality gates apply | project_sic_rule |
+| [ETHAN ALLEN INTERIORS INC](facts/0000896156/README.md) | ETD | available; quality gates apply | project_sic_rule |
+| [Everus Construction Group, Inc.](facts/0002015845/README.md) | ECG | available; quality gates apply | project_sic_rule |
+| [EVgo Inc.](facts/0001821159/README.md) | EVGO | available; quality gates apply | project_sic_rule |
+| [EVI INDUSTRIES, INC.](facts/0000065312/README.md) | EVI | available; quality gates apply | project_sic_rule |
+| [EZCORP INC](facts/0000876523/README.md) | EZPW | available; quality gates apply | project_sic_rule |
+| [EZGO Technologies Ltd.](facts/0001806904/README.md) | EZGO | missing | project_sic_rule |
+| [Falcon's Beyond Global, Inc.](facts/0001937987/README.md) | FBYD | available; quality gates apply | project_sic_rule |
+| [FARADAY FUTURE INTELLIGENT ELECTRIC INC.](facts/0001805521/README.md) | FFAI | available; quality gates apply | project_sic_rule |
+| [FASTENAL CO](facts/0000815556/README.md) | FAST | available; quality gates apply | project_sic_rule |
+| [FBS Global Ltd](facts/0001938534/README.md) | FBGL | missing | project_sic_rule |
+| [FEDERAL SIGNAL CORP /DE/](facts/0000277509/README.md) | FSS | available; quality gates apply | project_sic_rule |
+| [Fenbo Holdings Ltd](facts/0001957001/README.md) | FEBO | missing | project_sic_rule |
+| [Ferrari N.V.](facts/0001648416/README.md) | RACE | missing | project_sic_rule |
+| [FIGS, Inc.](facts/0001846576/README.md) | FIGS | available; quality gates apply | project_sic_rule |
+| [First Watch Restaurant Group, Inc.](facts/0001789940/README.md) | FWRG | available; quality gates apply | project_sic_rule |
+| [FirstCash Holdings, Inc.](facts/0000840489/README.md) | FCFS | available; quality gates apply | project_sic_rule |
+| [Fitness Champs Holdings Ltd](facts/0002023796/README.md) | FCHL | missing | project_sic_rule |
+| [FIVE BELOW, INC](facts/0001177609/README.md) | FIVE | available; quality gates apply | project_sic_rule |
+| [FLANIGANS ENTERPRISES INC](facts/0000012040/README.md) | BDL | available; quality gates apply | project_sic_rule |
+| [FLEXSTEEL INDUSTRIES INC](facts/0000037472/README.md) | FLXS | available; quality gates apply | project_sic_rule |
+| [Floor & Decor Holdings, Inc.](facts/0001507079/README.md) | FND | available; quality gates apply | project_sic_rule |
+| [Fly-E Group, Inc.](facts/0001975940/README.md) | FLYE | available; quality gates apply | project_sic_rule |
+| [FORD MOTOR CO](facts/0000037996/README.md) | F | missing | project_sic_rule |
+| [Fossil Group, Inc.](facts/0000883569/README.md) | FOSL | available; quality gates apply | project_sic_rule |
+| [Four Seasons Education (Cayman) Inc.](facts/0001709819/README.md) | FEDU | missing | project_sic_rule |
+| [FOX FACTORY HOLDING CORP](facts/0001424929/README.md) | FOXF | available; quality gates apply | project_sic_rule |
+| [FST Corp.](facts/0002014254/README.md) | KBSX | missing | project_sic_rule |
+| [FULL HOUSE RESORTS INC](facts/0000891482/README.md) | FLL | available; quality gates apply | project_sic_rule |
+| [Funko, Inc.](facts/0001704711/README.md) | FNKO | available; quality gates apply | project_sic_rule |
+| [G III APPAREL GROUP LTD /DE/](facts/0000821002/README.md) | GIII | available; quality gates apply | project_sic_rule |
+| [GameSquare Holdings, Inc.](facts/0001714562/README.md) | GAME | available; quality gates apply | project_sic_rule |
+| [GameStop Corp.](facts/0001326380/README.md) | GME | available; quality gates apply | project_sic_rule |
+| [Gaotu Techedu Inc.](facts/0001768259/README.md) | GOTU | missing | project_sic_rule |
+| [GAP INC](facts/0000039911/README.md) | GAP | available; quality gates apply | project_sic_rule |
+| [Garrett Motion Inc.](facts/0001735707/README.md) | GTX | missing | project_sic_rule |
+| [GEN Restaurant Group, Inc.](facts/0001891856/README.md) | GENK | available; quality gates apply | project_sic_rule |
+| [Genasys Inc.](facts/0000924383/README.md) | GNSS | available; quality gates apply | project_sic_rule |
+| [General Motors Co](facts/0001467858/README.md) | GM | available; quality gates apply | project_sic_rule |
+| [GENESCO INC](facts/0000018498/README.md) | GCO | available; quality gates apply | project_sic_rule |
+| [Genius Sports Ltd](facts/0001834489/README.md) | GENI | missing | project_sic_rule |
+| [GENTEX CORP](facts/0000355811/README.md) | GNTX | available; quality gates apply | project_sic_rule |
+| [Gentherm Inc](facts/0000903129/README.md) | THRM | available; quality gates apply | project_sic_rule |
+| [GENUINE PARTS CO](facts/0000040987/README.md) | GPC | available; quality gates apply | project_sic_rule |
+| [GIFTIFY, INC.](facts/0001760233/README.md) | GIFT | available; quality gates apply | project_sic_rule |
+| [GigaCloud Technology Inc](facts/0001857816/README.md) | GCT | available; quality gates apply | project_sic_rule |
+| [Gildan Activewear Inc.](facts/0001061894/README.md) | GIL | missing | project_sic_rule |
+| [GMEX Robotics Corp](facts/0001928581/README.md) | GMEX | missing | project_sic_rule |
+| [Gogoro Inc.](facts/0001886190/README.md) | GGR | missing | project_sic_rule |
+| [GOLDEN HEAVEN GROUP HOLDINGS LTD.](facts/0001928340/README.md) | GDHG | missing | project_sic_rule |
+| [Golden Sun Technology Group Ltd.](facts/0001826376/README.md) | GSUN | missing | project_sic_rule |
+| [Good Times Restaurants Inc.](facts/0000825324/README.md) | GTIM | available; quality gates apply | project_sic_rule |
+| [GOODYEAR TIRE & RUBBER CO /OH/](facts/0000042582/README.md) | GT | available; quality gates apply | project_sic_rule |
+| [GrabAGun Digital Holdings Inc.](facts/0002051380/README.md) | PEW | available; quality gates apply | project_sic_rule |
+| [Graham Holdings Co](facts/0000104889/README.md) | GHC | available; quality gates apply | project_sic_rule |
+| [Grand Canyon Education, Inc.](facts/0001434588/README.md) | LOPE | available; quality gates apply | project_sic_rule |
+| [GRANDSTAND Ltd](facts/0001839799/README.md) | GRSD | missing | project_sic_rule |
+| [Green Brick Partners, Inc.](facts/0001373670/README.md) | GRBK, GRBK$A | available; quality gates apply | project_sic_rule |
+| [GreenTree Hospitality Group Ltd.](facts/0001724755/README.md) | GHG | missing | project_sic_rule |
+| [GROUP 1 AUTOMOTIVE INC](facts/0001031203/README.md) | GPI | available; quality gates apply | project_sic_rule |
+| [Grove Collaborative Holdings, Inc.](facts/0001841761/README.md) | GROV | available; quality gates apply | project_sic_rule |
+| [GrowGeneration Corp.](facts/0001604868/README.md) | GRWG | available; quality gates apply | project_sic_rule |
+| [H World Group Ltd](facts/0001483994/README.md) | HTHT | missing | project_sic_rule |
+| [H&R BLOCK INC](facts/0000012659/README.md) | HRB | available; quality gates apply | project_sic_rule |
+| [Hamilton Beach Brands Holding Co](facts/0001709164/README.md) | HBB | available; quality gates apply | project_sic_rule |
+| [Happy City Holdings Ltd](facts/0002046656/README.md) | HCHL | missing | project_sic_rule |
+| [HARLEY-DAVIDSON, INC.](facts/0000793952/README.md) | HOG | available; quality gates apply | project_sic_rule |
+| [HASBRO, INC.](facts/0000046080/README.md) | HAS | available; quality gates apply | project_sic_rule |
+| [HAVERTY FURNITURE COMPANIES INC](facts/0000216085/README.md) | HVT, HVT.A | available; quality gates apply | project_sic_rule |
+| [HELEN OF TROY LTD](facts/0000916789/README.md) | HELE | available; quality gates apply | project_sic_rule |
+| [Here Group Ltd](facts/0001932770/README.md) | HERE | missing | project_sic_rule |
+| [HERTZ GLOBAL HOLDINGS, INC](facts/0001657853/README.md) | HTZ | missing | project_sic_rule |
+| [High Roller Technologies, Inc.](facts/0001947210/README.md) | ROLR | available; quality gates apply | project_sic_rule |
+| [High Tide Inc.](facts/0001847409/README.md) | HITI | missing | project_sic_rule |
+| [Hilton Worldwide Holdings Inc.](facts/0001585689/README.md) | HLT | available; quality gates apply | project_sic_rule |
+| [Holley Inc.](facts/0001822928/README.md) | HLLY | available; quality gates apply | project_sic_rule |
+| [HOME DEPOT, INC.](facts/0000354950/README.md) | HD | available; quality gates apply | project_sic_rule |
+| [HomesToLife Ltd](facts/0002023153/README.md) | HTLM | missing | project_sic_rule |
+| [HONDA MOTOR CO LTD](facts/0000715153/README.md) | HMC | missing | project_sic_rule |
+| [Honest Company, Inc.](facts/0001530979/README.md) | HNST | available; quality gates apply | project_sic_rule |
+| [HOOKER FURNISHINGS Corp](facts/0001077688/README.md) | HOFT | available; quality gates apply | project_sic_rule |
+| [Hotel101 Global Holdings Corp.](facts/0002054507/README.md) | HBNB | missing | project_sic_rule |
+| [Hour Loop, Inc](facts/0001874875/README.md) | HOUR | available; quality gates apply | project_sic_rule |
+| [HOVNANIAN ENTERPRISES INC](facts/0000357294/README.md) | HOV, HOVNP | available; quality gates apply | project_sic_rule |
+| [Hyatt Hotels Corp](facts/0001468174/README.md) | H | available; quality gates apply | project_sic_rule |
+| [ICZOOM Group Inc.](facts/0001854572/README.md) | IZM | missing | project_sic_rule |
+| [iHuman Inc.](facts/0001814423/README.md) | IH | missing | project_sic_rule |
+| [INNEOVA Holdings Ltd](facts/0001933951/README.md) | INEO | missing | project_sic_rule |
+| [INNO HOLDINGS INC.](facts/0001961847/README.md) | INHD | available; quality gates apply | project_sic_rule |
+| [Innoviz Technologies Ltd.](facts/0001835654/README.md) | INVZ | missing | project_sic_rule |
+| [INSIGHT ENTERPRISES INC](facts/0000932696/README.md) | NSIT | available; quality gates apply | project_sic_rule |
+| [Installed Building Products, Inc.](facts/0001580905/README.md) | IBP | available; quality gates apply | project_sic_rule |
+| [Integrated Media Technology Ltd](facts/0001668438/README.md) | IMTE | missing | project_sic_rule |
+| [INTERFACE INC](facts/0000715787/README.md) | TILE | available; quality gates apply | project_sic_rule |
+| [iPower Inc.](facts/0001830072/README.md) | IPW | available; quality gates apply | project_sic_rule |
+| [J-Long Group Ltd](facts/0001948436/README.md) | JL | missing | project_sic_rule |
+| [J-Star Holding Co., Ltd.](facts/0001875016/README.md) | YMAT | missing | project_sic_rule |
+| [J.Jill, Inc.](facts/0001687932/README.md) | JILL | available; quality gates apply | project_sic_rule |
+| [JACK IN THE BOX INC](facts/0000807882/README.md) | JACK | available; quality gates apply | project_sic_rule |
+| [JAKKS PACIFIC INC](facts/0001009829/README.md) | JAKK | available; quality gates apply | project_sic_rule |
+| [JD.com, Inc.](facts/0001549802/README.md) | JD | missing | project_sic_rule |
+| [Jerash Holdings (US), Inc.](facts/0001696558/README.md) | JRSH | available; quality gates apply | project_sic_rule |
+| [Jersey Mike's Subs Inc.](facts/0002127043/README.md) | JMKE | missing | project_sic_rule |
+| [JEWETT CAMERON TRADING CO LTD](facts/0000885307/README.md) | JCTC | available; quality gates apply | project_sic_rule |
+| [JIADE Ltd](facts/0001976908/README.md) | JDZG | missing | project_sic_rule |
+| [Jianzhi Education Technology Group Co Ltd](facts/0001852440/README.md) | JZ | missing | project_sic_rule |
+| [Jinxin Technology Holding Co](facts/0001967631/README.md) | NAMI | missing | project_sic_rule |
+| [Jiuzi Holdings, Inc.](facts/0001816172/README.md) | JZXN | missing | project_sic_rule |
+| [JOHNSON OUTDOORS INC](facts/0000788329/README.md) | JOUT | available; quality gates apply | project_sic_rule |
+| [Jowell Global Ltd.](facts/0001805594/README.md) | JWEL | missing | project_sic_rule |
+| [Jumia Technologies AG](facts/0001756708/README.md) | JMIA | missing | project_sic_rule |
+| [K-TECH SOLUTIONS CO LTD](facts/0002049187/README.md) | KMRK | missing | project_sic_rule |
+| [Kaixin Holdings](facts/0001713539/README.md) | KXIN | available; quality gates apply | project_sic_rule |
+| [Kandal M Venture Ltd](facts/0002024656/README.md) | FMFC | missing | project_sic_rule |
+| [Kandi Technologies Group, Inc.](facts/0001720250/README.md) | KNDI | missing | project_sic_rule |
+| [KB HOME](facts/0000795266/README.md) | KBH | available; quality gates apply | project_sic_rule |
+| [KIDZ AI Inc.](facts/0002022308/README.md) | KIDZ | available; quality gates apply | project_sic_rule |
+| [Knowles Corp](facts/0001587523/README.md) | KN | missing | project_sic_rule |
+| [KOHLS Corp](facts/0000885639/README.md) | KSS | available; quality gates apply | project_sic_rule |
+| [Kontoor Brands, Inc.](facts/0001760965/README.md) | KTB | available; quality gates apply | project_sic_rule |
+| [KOSS CORP](facts/0000056701/README.md) | KOSS | available; quality gates apply | project_sic_rule |
+| [KURA SUSHI USA, INC.](facts/0001772177/README.md) | KRUS | available; quality gates apply | project_sic_rule |
+| [LA-Z-BOY INC](facts/0000057131/README.md) | LZB | available; quality gates apply | project_sic_rule |
+| [LANDS' END, INC.](facts/0000799288/README.md) | LE | available; quality gates apply | project_sic_rule |
+| [Lanvin Group Holdings Ltd](facts/0001922097/README.md) | LANV | missing | project_sic_rule |
+| [LAS VEGAS SANDS CORP](facts/0001300514/README.md) | LVS | available; quality gates apply | project_sic_rule |
+| [LAUREATE EDUCATION, INC.](facts/0000912766/README.md) | LAUR | available; quality gates apply | project_sic_rule |
+| [LCI INDUSTRIES](facts/0000763744/README.md) | LCII | available; quality gates apply | project_sic_rule |
+| [LEAD REAL ESTATE CO., LTD](facts/0001888980/README.md) | LRE | missing | project_sic_rule |
+| [LEAR CORP](facts/0000842162/README.md) | LEA | available; quality gates apply | project_sic_rule |
+| [Legacy Education Inc.](facts/0001836754/README.md) | LGCY | available; quality gates apply | project_sic_rule |
+| [Legacy Housing Corp](facts/0001436208/README.md) | LEGH | available; quality gates apply | project_sic_rule |
+| [LEIFRAS Co., Ltd.](facts/0002030277/README.md) | LFS | missing | project_sic_rule |
+| [LEVI STRAUSS & CO](facts/0000094845/README.md) | LEVI | available; quality gates apply | project_sic_rule |
+| [LGI Homes, Inc.](facts/0001580670/README.md) | LGIH | available; quality gates apply | project_sic_rule |
+| [Li Auto Inc.](facts/0001791706/README.md) | LI | missing | project_sic_rule |
+| [Liberty Live Holdings, Inc.](facts/0002078416/README.md) | LLYVA, LLYVK | available; quality gates apply | project_sic_rule |
+| [Life Time Group Holdings, Inc.](facts/0001869198/README.md) | LTH | available; quality gates apply | project_sic_rule |
+| [LightInTheBox Holding Co., Ltd.](facts/0001523836/README.md) | LITB | missing | project_sic_rule |
+| [LINCOLN EDUCATIONAL SERVICES CORP](facts/0001286613/README.md) | LINC | available; quality gates apply | project_sic_rule |
+| [Linkage Global Inc](facts/0001969401/README.md) | UZX | missing | project_sic_rule |
+| [LITHIA MOTORS INC](facts/0001023128/README.md) | LAD | available; quality gates apply | project_sic_rule |
+| [Live Nation Entertainment, Inc.](facts/0001335258/README.md) | LYV | available; quality gates apply | project_sic_rule |
+| [LIVE VENTURES Inc](facts/0001045742/README.md) | LIVE | available; quality gates apply | project_sic_rule |
+| [LiveOne, Inc.](facts/0001491419/README.md) | LVO | available; quality gates apply | project_sic_rule |
+| [LiveWire Group, Inc.](facts/0001898795/README.md) | LVWR | available; quality gates apply | project_sic_rule |
+| [Lixiang Education Holding Co. Ltd.](facts/0001814067/README.md) | LXEH | missing | project_sic_rule |
+| [LKQ CORP](facts/0001065696/README.md) | LKQ | available; quality gates apply | project_sic_rule |
+| [LOBO TECHNOLOGIES LTD.](facts/0001932072/README.md) | LOBO | missing | project_sic_rule |
+| [LOGPROSTYLE INC.](facts/0002040290/README.md) | LGPS | missing | project_sic_rule |
+| [Lotus Technology Inc.](facts/0001962746/README.md) | LOT | missing | project_sic_rule |
+| [Lovesac Co](facts/0001701758/README.md) | LOVE | available; quality gates apply | project_sic_rule |
+| [LOWES COMPANIES INC](facts/0000060667/README.md) | LOW | available; quality gates apply | project_sic_rule |
+| [Lucid Group, Inc.](facts/0001811210/README.md) | LCID | available; quality gates apply | project_sic_rule |
+| [Lucky Strike Entertainment Corp](facts/0001840572/README.md) | LUCK | available; quality gates apply | project_sic_rule |
+| [Lulu's Fashion Lounge Holdings, Inc.](facts/0001780201/README.md) | LVLU | available; quality gates apply | project_sic_rule |
+| [lululemon athletica inc.](facts/0001397187/README.md) | LULU | available; quality gates apply | project_sic_rule |
+| [LuxExperience B.V.](facts/0001831907/README.md) | LUXE | missing | project_sic_rule |
+| [M/I HOMES, INC.](facts/0000799292/README.md) | MHO | available; quality gates apply | project_sic_rule |
+| [Macy's, Inc.](facts/0000794367/README.md) | M | available; quality gates apply | project_sic_rule |
+| [Madison Square Garden Entertainment Corp.](facts/0001952073/README.md) | MSGE | available; quality gates apply | project_sic_rule |
+| [Madison Square Garden Sports Corp.](facts/0001636519/README.md) | MSGS | available; quality gates apply | project_sic_rule |
+| [MAGNA INTERNATIONAL INC](facts/0000749098/README.md) | MGA | missing | project_sic_rule |
+| [Manchester United plc](facts/0001549107/README.md) | MANU | missing | project_sic_rule |
+| [MARRIOTT INTERNATIONAL INC /MD/](facts/0001048286/README.md) | MAR | available; quality gates apply | project_sic_rule |
+| [Marti Technologies, Inc.](facts/0001852767/README.md) | MRT | available; quality gates apply | project_sic_rule |
+| [MASTERBEEF GROUP](facts/0002027265/README.md) | MB | missing | project_sic_rule |
+| [MasterBrand, Inc.](facts/0001941365/README.md) | MBC | available; quality gates apply | project_sic_rule |
+| [MATTEL INC /DE/](facts/0000063276/README.md) | MAT | available; quality gates apply | project_sic_rule |
+| [MCDONALDS CORP](facts/0000063908/README.md) | MCD | available; quality gates apply | project_sic_rule |
+| [Medirom Healthcare Technologies Inc.](facts/0001819704/README.md) | MRM | missing | project_sic_rule |
+| [Melco Resorts & Entertainment LTD](facts/0001381640/README.md) | MLCO | missing | project_sic_rule |
+| [Meritage Homes CORP](facts/0000833079/README.md) | MTH | available; quality gates apply | project_sic_rule |
+| [MGM Resorts International](facts/0000789570/README.md) | MGM | available; quality gates apply | project_sic_rule |
+| [Micropolis AI Robotics](facts/0001993431/README.md) | MCRP | missing | project_sic_rule |
+| [MINISO Group Holding Ltd](facts/0001815846/README.md) | MNSO | missing | project_sic_rule |
+| [MODINE MANUFACTURING CO](facts/0000067347/README.md) | MOD | available; quality gates apply | project_sic_rule |
+| [MOHAWK INDUSTRIES INC](facts/0000851968/README.md) | MHK | available; quality gates apply | project_sic_rule |
+| [MONARCH CASINO & RESORT INC](facts/0000907242/README.md) | MCRI | missing | project_sic_rule |
+| [MONRO, INC.](facts/0000876427/README.md) | MNRO | missing | project_sic_rule |
+| [MOTORCAR PARTS OF AMERICA INC](facts/0000918251/README.md) | MPAA | available; quality gates apply | project_sic_rule |
+| [MOVADO GROUP INC](facts/0000072573/README.md) | MOV | available; quality gates apply | project_sic_rule |
+| [Murano Global Investments Plc](facts/0001988776/README.md) | MRNO | missing | project_sic_rule |
+| [Murphy USA Inc.](facts/0001573516/README.md) | MUSA | available; quality gates apply | project_sic_rule |
+| [NaaS Technology Inc.](facts/0001712178/README.md) | NAAS | missing | project_sic_rule |
+| [NATHANS FAMOUS, INC.](facts/0000069733/README.md) | NATH | available; quality gates apply | project_sic_rule |
+| [NEIGHBORHOOD INTELLIGENCE, INC.](facts/0001130713/README.md) | NXH | available; quality gates apply | project_sic_rule |
+| [Neo-Concept International Group Holdings Ltd](facts/0001916331/README.md) | NCI | missing | project_sic_rule |
+| [Nerdy Inc.](facts/0001819404/README.md) | NRDY | available; quality gates apply | project_sic_rule |
+| [Newegg Commerce, Inc.](facts/0001474627/README.md) | NEGG | available; quality gates apply | project_sic_rule |
+| [Newton Golf Company, Inc.](facts/0001934245/README.md) | NWTG | available; quality gates apply | project_sic_rule |
+| [Nexera Technologies Ltd](facts/0001885408/README.md) | NEXR | missing | project_sic_rule |
+| [NEXTNRG, INC.](facts/0001817004/README.md) | NXXT | available; quality gates apply | project_sic_rule |
+| [NIKE, Inc.](facts/0000320187/README.md) | NKE | available; quality gates apply | project_sic_rule |
+| [NIO Inc.](facts/0001736541/README.md) | NIO | missing | project_sic_rule |
+| [NIP Group Inc.](facts/0001966233/README.md) | NIPG | missing | project_sic_rule |
+| [Niu Technologies](facts/0001744781/README.md) | NIU | missing | project_sic_rule |
+| [Nomadar Corp.](facts/0001994214/README.md) | NOMA | available; quality gates apply | project_sic_rule |
+| [NOODLES & Co](facts/0001275158/README.md) | NDLS | available; quality gates apply | project_sic_rule |
+| [NVR INC](facts/0000906163/README.md) | NVR | available; quality gates apply | project_sic_rule |
+| [O REILLY AUTOMOTIVE INC](facts/0000898173/README.md) | ORLY | available; quality gates apply | project_sic_rule |
+| [Ollie's Bargain Outlet Holdings, Inc.](facts/0001639300/README.md) | OLLI | available; quality gates apply | project_sic_rule |
+| [On Holding AG](facts/0001858985/README.md) | ONON | missing | project_sic_rule |
+| [ONE Group Hospitality, Inc.](facts/0001399520/README.md) | STKS | available; quality gates apply | project_sic_rule |
+| [OneConstruction Group Ltd](facts/0002030834/README.md) | ONEG | missing | project_sic_rule |
+| [ONESPAWORLD HOLDINGS Ltd](facts/0001758488/README.md) | OSW | available; quality gates apply | project_sic_rule |
+| [OneWater Marine Inc.](facts/0001772921/README.md) | ONEW | available; quality gates apply | project_sic_rule |
+| [OPENLANE, Inc.](facts/0001395942/README.md) | OPLN | available; quality gates apply | project_sic_rule |
+| [OXFORD INDUSTRIES INC](facts/0000075288/README.md) | OXM | available; quality gates apply | project_sic_rule |
+| [PACCAR INC](facts/0000075362/README.md) | PCAR | available; quality gates apply | project_sic_rule |
+| [PAPA JOHNS INTERNATIONAL INC](facts/0000901491/README.md) | PZZA | available; quality gates apply | project_sic_rule |
+| [Park Hotels & Resorts Inc.](facts/0001617406/README.md) | PK | available; quality gates apply | project_sic_rule |
+| [PATRICK INDUSTRIES INC](facts/0000076605/README.md) | PATK | available; quality gates apply | project_sic_rule |
+| [Pattern Group Inc.](facts/0001811935/README.md) | PTRN | available; quality gates apply | project_sic_rule |
+| [PELOTON INTERACTIVE, INC.](facts/0001639825/README.md) | PTON | available; quality gates apply | project_sic_rule |
+| [PENN Entertainment, Inc.](facts/0000921738/README.md) | PENN | available; quality gates apply | project_sic_rule |
+| [PENSKE AUTOMOTIVE GROUP, INC.](facts/0001019849/README.md) | PAG | available; quality gates apply | project_sic_rule |
+| [PERDOCEO EDUCATION Corp](facts/0001046568/README.md) | PRDO | available; quality gates apply | project_sic_rule |
+| [Petco Health & Wellness Company, Inc.](facts/0001826470/README.md) | WOOF | available; quality gates apply | project_sic_rule |
+| [PHINIA INC.](facts/0001968915/README.md) | PHIN | available; quality gates apply | project_sic_rule |
+| [Phoenix Education Partners, Inc.](facts/0001600222/README.md) | PXED | available; quality gates apply | project_sic_rule |
+| [Ping An Biomedical Co., Ltd.](facts/0001897532/README.md) | PASW | missing | project_sic_rule |
+| [Planet Fitness, Inc.](facts/0001637207/README.md) | PLNT | available; quality gates apply | project_sic_rule |
+| [Playboy, Inc.](facts/0001803914/README.md) | PLBY | available; quality gates apply | project_sic_rule |
+| [Polestar Automotive Holding UK PLC](facts/0001884082/README.md) | PSNY, PSNYW | missing | project_sic_rule |
+| [POMDOCTOR Ltd](facts/0001877971/README.md) | POM | missing | project_sic_rule |
+| [Pop Culture Group Co., Ltd](facts/0001807389/README.md) | CPOP | missing | project_sic_rule |
+| [Portillo's Inc.](facts/0001871509/README.md) | PTLO | available; quality gates apply | project_sic_rule |
+| [Powerus Corp](facts/0002009312/README.md) | PUSA | available; quality gates apply | project_sic_rule |
+| [Premium Catering (Holdings) Ltd](facts/0001998056/README.md) | PC | missing | project_sic_rule |
+| [PRICESMART INC](facts/0001041803/README.md) | PSMT | available; quality gates apply | project_sic_rule |
+| [PULTEGROUP INC/MI/](facts/0000822416/README.md) | PHM | available; quality gates apply | project_sic_rule |
+| [Purple Innovation, Inc.](facts/0001643953/README.md) | PRPL | available; quality gates apply | project_sic_rule |
+| [Pursuit Attractions & Hospitality, Inc.](facts/0000884219/README.md) | PRSU | available; quality gates apply | project_sic_rule |
+| [PVH CORP. /DE/](facts/0000078239/README.md) | PVH | available; quality gates apply | project_sic_rule |
+| [QVC Group, Inc.](facts/0001254699/README.md) | QVCG | available; quality gates apply | project_sic_rule |
+| [RALPH LAUREN CORP](facts/0001037038/README.md) | RL | available; quality gates apply | project_sic_rule |
+| [RCI HOSPITALITY HOLDINGS, INC.](facts/0000935419/README.md) | RICK | available; quality gates apply | project_sic_rule |
+| [Reborn Coffee, Inc.](facts/0001707910/README.md) | REBN | available; quality gates apply | project_sic_rule |
+| [RED ROBIN GOURMET BURGERS INC](facts/0001171759/README.md) | RRGB | available; quality gates apply | project_sic_rule |
+| [Red Rock Resorts, Inc.](facts/0001653653/README.md) | RRR | available; quality gates apply | project_sic_rule |
+| [RedCloud Holdings plc](facts/0002027360/README.md) | RCT | missing | project_sic_rule |
+| [Reformation Inc.](facts/0001787117/README.md) | REF | available; quality gates apply | project_sic_rule |
+| [REGIS CORP](facts/0000716643/README.md) | RGS | available; quality gates apply | project_sic_rule |
+| [Rent the Runway, Inc.](facts/0001468327/README.md) | RENT | available; quality gates apply | project_sic_rule |
+| [Reservoir Media, Inc.](facts/0001824403/README.md) | RSVR | available; quality gates apply | project_sic_rule |
+| [Restaurant Brands International Inc.](facts/0001618756/README.md) | QSR | available; quality gates apply | project_sic_rule |
+| [Revolve Group, Inc.](facts/0001746618/README.md) | RVLV | available; quality gates apply | project_sic_rule |
+| [RH](facts/0001528849/README.md) | RH | available; quality gates apply | project_sic_rule |
+| [Rivian Automotive, Inc. / DE](facts/0001874178/README.md) | RIVN | available; quality gates apply | project_sic_rule |
+| [ROBO.AI INC.](facts/0001932737/README.md) | AIIO | missing | project_sic_rule |
+| [ROCKY BRANDS, INC.](facts/0000895456/README.md) | RCKY | available; quality gates apply | project_sic_rule |
+| [ROSS STORES, INC.](facts/0000745732/README.md) | ROST | available; quality gates apply | project_sic_rule |
+| [Rush Street Interactive, Inc.](facts/0001793659/README.md) | RSI | available; quality gates apply | project_sic_rule |
+| [RYDER SYSTEM INC](facts/0000085961/README.md) | R | available; quality gates apply | project_sic_rule |
+| [Sadot Group Inc.](facts/0001701756/README.md) | SDOT | available; quality gates apply | project_sic_rule |
+| [Savers Value Village, Inc.](facts/0001883313/README.md) | SVV | available; quality gates apply | project_sic_rule |
+| [Seaport Entertainment Group Inc.](facts/0002009684/README.md) | SEG | available; quality gates apply | project_sic_rule |
+| [SERVICE CORP INTERNATIONAL](facts/0000089089/README.md) | SCI | available; quality gates apply | project_sic_rule |
+| [Shake Shack Inc.](facts/0001620533/README.md) | SHAK | available; quality gates apply | project_sic_rule |
+| [SharkNinja, Inc.](facts/0001957132/README.md) | SN | available; quality gates apply | project_sic_rule |
+| [SHERWIN WILLIAMS CO](facts/0000089800/README.md) | SHW | available; quality gates apply | project_sic_rule |
+| [SHOE STATION GROUP INC](facts/0000895447/README.md) | SHOE | available; quality gates apply | project_sic_rule |
+| [SIGNET JEWELERS LTD](facts/0000832988/README.md) | SIG | available; quality gates apply | project_sic_rule |
+| [Silynxcom Ltd.](facts/0001976443/README.md) | SYNX | missing | project_sic_rule |
+| [Skillful Craftsman Education Technology Ltd](facts/0001782309/README.md) | EDTK | missing | project_sic_rule |
+| [Smith Douglas Homes Corp.](facts/0001982518/README.md) | SDHC | available; quality gates apply | project_sic_rule |
+| [SOMNIGROUP INTERNATIONAL INC.](facts/0001206264/README.md) | SGI | available; quality gates apply | project_sic_rule |
+| [SONIC AUTOMOTIVE INC](facts/0001043509/README.md) | SAH | available; quality gates apply | project_sic_rule |
+| [Sonos Inc](facts/0001314727/README.md) | SONO | available; quality gates apply | project_sic_rule |
+| [Sony Group Corp](facts/0000313838/README.md) | SONY | missing | project_sic_rule |
+| [Sphere Entertainment Co.](facts/0001795250/README.md) | SPHR | available; quality gates apply | project_sic_rule |
+| [SPORTSMAN'S WAREHOUSE HOLDINGS, INC.](facts/0001132105/README.md) | SPWH | available; quality gates apply | project_sic_rule |
+| [SPRINGVIEW HOLDINGS LTD](facts/0002002236/README.md) | SPHL | missing | project_sic_rule |
+| [STANDARD MOTOR PRODUCTS, INC.](facts/0000093389/README.md) | SMP | available; quality gates apply | project_sic_rule |
+| [STAR GROUP, L.P.](facts/0001002590/README.md) | SGU | available; quality gates apply | project_sic_rule |
+| [STARBUCKS CORP](facts/0000829224/README.md) | SBUX | available; quality gates apply | project_sic_rule |
+| [Stellantis N.V.](facts/0001605484/README.md) | STLA | missing | project_sic_rule |
+| [STEVEN MADDEN, LTD.](facts/0000913241/README.md) | SHOO | available; quality gates apply | project_sic_rule |
+| [Stitch Fix, Inc.](facts/0001576942/README.md) | SFIX | available; quality gates apply | project_sic_rule |
+| [STONERIDGE INC](facts/0001043337/README.md) | SRI | available; quality gates apply | project_sic_rule |
+| [Strategic Education, Inc.](facts/0001013934/README.md) | STRA | available; quality gates apply | project_sic_rule |
+| [STRATTEC SECURITY CORP](facts/0000933034/README.md) | STRT | available; quality gates apply | project_sic_rule |
+| [Stride, Inc.](facts/0001157408/README.md) | LRN | available; quality gates apply | project_sic_rule |
+| [StubHub Holdings, Inc.](facts/0001337634/README.md) | STUB | available; quality gates apply | project_sic_rule |
+| [STUDIO CITY INTERNATIONAL HOLDINGS Ltd](facts/0001713334/README.md) | MSC | missing | project_sic_rule |
+| [SUBURBAN PROPANE PARTNERS LP](facts/0001005210/README.md) | SPH | available; quality gates apply | project_sic_rule |
+| [SunCar Technology Group Inc.](facts/0001936804/README.md) | SDA | missing | project_sic_rule |
+| [Sunlands Technology Group](facts/0001723935/README.md) | STG | missing | project_sic_rule |
+| [Super Group (SGHC) Ltd](facts/0001878057/README.md) | SGHC | missing | project_sic_rule |
+| [SUPER HI INTERNATIONAL HOLDING LTD.](facts/0001995306/README.md) | HDL | missing | project_sic_rule |
+| [SUPERIOR GROUP OF COMPANIES, INC.](facts/0000095574/README.md) | SGC | available; quality gates apply | project_sic_rule |
+| [Sweetgreen, Inc.](facts/0001477815/README.md) | SG | available; quality gates apply | project_sic_rule |
+| [TAL Education Group](facts/0001499620/README.md) | TAL | missing | project_sic_rule |
+| [TANDY LEATHER FACTORY INC](facts/0000909724/README.md) | TLF | available; quality gates apply | project_sic_rule |
+| [TAPESTRY, INC.](facts/0001116132/README.md) | TPR | available; quality gates apply | project_sic_rule |
+| [TARGET CORP](facts/0000027419/README.md) | TGT | available; quality gates apply | project_sic_rule |
+| [Teamshares Inc](facts/0002048951/README.md) | TMS | available; quality gates apply | project_sic_rule |
+| [Tesla, Inc.](facts/0001318605/README.md) | TSLA | available; quality gates apply | project_sic_rule |
+| [Texas Roadhouse, Inc.](facts/0001289460/README.md) | TXRH | available; quality gates apply | project_sic_rule |
+| [TH International Ltd](facts/0001877333/README.md) | THCH | missing | project_sic_rule |
+| [THOR INDUSTRIES INC](facts/0000730263/README.md) | THO | available; quality gates apply | project_sic_rule |
+| [ThredUp Inc.](facts/0001484778/README.md) | TDUP | available; quality gates apply | project_sic_rule |
+| [Ticketplus Ltd.](facts/0002104296/README.md) | TP | missing | project_sic_rule |
+| [TILLY'S, INC.](facts/0001524025/README.md) | TLYS | available; quality gates apply | project_sic_rule |
+| [Titan Machinery Inc.](facts/0001409171/README.md) | TITN | available; quality gates apply | project_sic_rule |
+| [TJX COMPANIES INC /DE/](facts/0000109198/README.md) | TJX | available; quality gates apply | project_sic_rule |
+| [TKO Group Holdings, Inc.](facts/0001973266/README.md) | TKO | available; quality gates apply | project_sic_rule |
+| [Tokyo Lifestyle Co., Ltd.](facts/0001836242/README.md) | TKLF | missing | project_sic_rule |
+| [Toll Brothers, Inc.](facts/0000794170/README.md) | TOL | available; quality gates apply | project_sic_rule |
+| [Torrid Holdings Inc.](facts/0001792781/README.md) | CURV | available; quality gates apply | project_sic_rule |
+| [TOYOTA MOTOR CORP/](facts/0001094517/README.md) | TM | missing | project_sic_rule |
+| [TRACTOR SUPPLY CO /DE/](facts/0000916365/README.md) | TSCO | available; quality gates apply | project_sic_rule |
+| [Traeger, Inc.](facts/0001857853/README.md) | COOK | available; quality gates apply | project_sic_rule |
+| [TruGolf Holdings, Inc.](facts/0001857086/README.md) | TRUG | available; quality gates apply | project_sic_rule |
+| [TryHard Holdings Ltd](facts/0002044241/README.md) | THH | missing | project_sic_rule |
+| [U-Haul Holding Co /NV/](facts/0000004457/README.md) | UHAL, UHAL.B | available; quality gates apply | project_sic_rule |
+| [Ulta Beauty, Inc.](facts/0001403568/README.md) | ULTA | available; quality gates apply | project_sic_rule |
+| [Under Armour, Inc.](facts/0001336917/README.md) | UA, UAA | available; quality gates apply | project_sic_rule |
+| [UNIFI INC](facts/0000100726/README.md) | UFI | available; quality gates apply | project_sic_rule |
+| [UNIFIRST CORP](facts/0000717954/README.md) | UNF | available; quality gates apply | project_sic_rule |
+| [United Parks & Resorts Inc.](facts/0001564902/README.md) | PRKS | available; quality gates apply | project_sic_rule |
+| [UNIVERSAL ELECTRONICS INC](facts/0000101984/README.md) | UEIC | available; quality gates apply | project_sic_rule |
+| [UNIVERSAL TECHNICAL INSTITUTE INC](facts/0001261654/README.md) | UTI | available; quality gates apply | project_sic_rule |
+| [URBAN OUTFITTERS INC](facts/0000912615/README.md) | URBN | available; quality gates apply | project_sic_rule |
+| [V F CORP](facts/0000103379/README.md) | VFC | missing | project_sic_rule |
+| [VAIL RESORTS INC](facts/0000812011/README.md) | MTN | available; quality gates apply | project_sic_rule |
+| [Valor Energy Inc](facts/0001711012/README.md) | VAI | available; quality gates apply | project_sic_rule |
+| [Venu Holding Corp](facts/0001770501/README.md) | VENU | available; quality gates apply | project_sic_rule |
+| [Vera Bradley, Inc.](facts/0001495320/README.md) | VRA | available; quality gates apply | project_sic_rule |
+| [Versigent PLC](facts/0002078008/README.md) | VGNT | available; quality gates apply | project_sic_rule |
+| [Victoria's Secret & Co.](facts/0001856437/README.md) | VSXY | available; quality gates apply | project_sic_rule |
+| [VINCE HOLDING CORP.](facts/0001579157/README.md) | VNCE | available; quality gates apply | project_sic_rule |
+| [VinFast Auto Ltd.](facts/0001913510/README.md) | VFS | missing | project_sic_rule |
+| [Viomi Technology Co., Ltd](facts/0001742770/README.md) | VIOT | missing | project_sic_rule |
+| [Vipshop Holdings Ltd](facts/0001529192/README.md) | VIPS | missing | project_sic_rule |
+| [VisionSys AI Inc](facts/0001592560/README.md) | VSA | missing | project_sic_rule |
+| [VISTEON CORP](facts/0001111335/README.md) | VC | available; quality gates apply | project_sic_rule |
+| [Vivid Seats Inc.](facts/0001856031/README.md) | SEAT | available; quality gates apply | project_sic_rule |
+| [Vroom, Inc.](facts/0001580864/README.md) | VRM | available; quality gates apply | project_sic_rule |
+| [Wah Fu Education & Technology Group Ltd.](facts/0001716770/README.md) | WAFU | missing | project_sic_rule |
+| [Walmart Inc.](facts/0000104169/README.md) | WMT | available; quality gates apply | project_sic_rule |
+| [Walt Disney Co](facts/0001744489/README.md) | DIS | available; quality gates apply | project_sic_rule |
+| [Warner Music Group Corp.](facts/0001319161/README.md) | WMG | available; quality gates apply | project_sic_rule |
+| [Wayfair Inc.](facts/0001616707/README.md) | W | available; quality gates apply | project_sic_rule |
+| [WEBUY GLOBAL LTD](facts/0001946703/README.md) | WBUY | missing | project_sic_rule |
+| [Wendy's Co](facts/0000030697/README.md) | WEN | available; quality gates apply | project_sic_rule |
+| [WeShop Holdings Ltd](facts/0002048271/README.md) | WSHP | missing | project_sic_rule |
+| [WHIRLPOOL CORP /DE/](facts/0000106640/README.md) | WHR, WHR$A | available; quality gates apply | project_sic_rule |
+| [WILLIAMS SONOMA INC](facts/0000719955/README.md) | WSM | available; quality gates apply | project_sic_rule |
+| [Wingstop Inc.](facts/0001636222/README.md) | WING | available; quality gates apply | project_sic_rule |
+| [WINMARK CORP](facts/0000908315/README.md) | WINA | available; quality gates apply | project_sic_rule |
+| [WINNEBAGO INDUSTRIES INC](facts/0000107687/README.md) | WGO | available; quality gates apply | project_sic_rule |
+| [WOLVERINE WORLD WIDE INC /DE/](facts/0000110471/README.md) | WWW | available; quality gates apply | project_sic_rule |
+| [Workhorse Group Inc.](facts/0001425287/README.md) | WKHS | available; quality gates apply | project_sic_rule |
+| [Worksport Ltd](facts/0001096275/README.md) | WKSP | available; quality gates apply | project_sic_rule |
+| [WW INTERNATIONAL, INC.](facts/0000105319/README.md) | WW | available; quality gates apply | project_sic_rule |
+| [WYNDHAM HOTELS & RESORTS, INC.](facts/0001722684/README.md) | WH | available; quality gates apply | project_sic_rule |
+| [WYNN RESORTS LTD](facts/0001174922/README.md) | WYNN | available; quality gates apply | project_sic_rule |
+| [Xenia Hotels & Resorts, Inc.](facts/0001616000/README.md) | XHR | available; quality gates apply | project_sic_rule |
+| [XMax Inc.](facts/0001473334/README.md) | XMAX | available; quality gates apply | project_sic_rule |
+| [Xos, Inc.](facts/0001819493/README.md) | XOS | available; quality gates apply | project_sic_rule |
+| [XPENG INC.](facts/0001810997/README.md) | XPEV | missing | project_sic_rule |
+| [Xponential Fitness, Inc.](facts/0001802156/README.md) | XPOF | available; quality gates apply | project_sic_rule |
+| [XWELL, Inc.](facts/0001410428/README.md) | XWEL | available; quality gates apply | project_sic_rule |
+| [YELP INC](facts/0001345016/README.md) | YELP | available; quality gates apply | project_sic_rule |
+| [YETI Holdings, Inc.](facts/0001670592/README.md) | YETI | available; quality gates apply | project_sic_rule |
+| [Youdao, Inc.](facts/0001781753/README.md) | DAO | missing | project_sic_rule |
+| [Youlife Group Inc.](facts/0002028177/README.md) | YOUL | missing | project_sic_rule |
+| [YSX Tech Co., Ltd](facts/0001993463/README.md) | YSXT | missing | project_sic_rule |
+| [YUM BRANDS INC](facts/0001041061/README.md) | YUM | available; quality gates apply | project_sic_rule |
+| [Yum China Holdings, Inc.](facts/0001673358/README.md) | YUMC | available; quality gates apply | project_sic_rule |
+| [Yunji Inc.](facts/0001759614/README.md) | YJ | missing | project_sic_rule |
+| [Zhongchao Inc.](facts/0001785566/README.md) | ZCMD | missing | project_sic_rule |
+| [ZKH Group Ltd](facts/0001862044/README.md) | ZKH | missing | project_sic_rule |
+| [Zumiez Inc](facts/0001318008/README.md) | ZUMZ | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

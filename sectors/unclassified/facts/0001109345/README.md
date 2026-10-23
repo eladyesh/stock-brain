@@ -8,11 +8,11 @@ tickers:
 - NVMI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -48,10 +48,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001109345.json
     sha256: dcf0e956ab68fc7e0487cee5ed95ad42545e682134a662ff462b18ac73e98618
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001109345.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,70 +59,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001109345.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: dcf0e956ab68fc7e0487cee5ed95ad42545e682134a662ff462b18ac73e98618
 - id: S03
   title: 6-K 0001178913-26-004775
   url: https://www.sec.gov/Archives/edgar/data/1109345/000117891326004775/0001178913-26-004775-index.html
   published_at: '2026-10-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 144 0001976408-26-000858
   url: https://www.sec.gov/Archives/edgar/data/1109345/000197640826000858/0001976408-26-000858-index.html
   published_at: '2026-09-22'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 4 0001178913-26-004552
   url: https://www.sec.gov/Archives/edgar/data/1109345/000117891326004552/0001178913-26-004552-index.html
   published_at: '2026-09-22'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: SCHEDULE 13G 0001178913-26-004520
   url: https://www.sec.gov/Archives/edgar/data/1109345/000117891326004520/0001178913-26-004520-index.html
   published_at: '2026-09-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: 4 0001178913-26-004395
   url: https://www.sec.gov/Archives/edgar/data/1109345/000117891326004395/0001178913-26-004395-index.html
   published_at: '2026-09-02'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001109345
+  classification_status: reported_sic
+  entity_type: other
   name: NOVA LTD.
+  sic: '3827'
+  sic_description: Optical Instruments & Lenses
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: dcf0e956ab68fc7e0487cee5ed95ad42545e682134a662ff462b18ac73e98618
   url: https://data.sec.gov/submissions/CIK0001109345.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '3827'
+  sic_description: Optical Instruments & Lenses
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001109345/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001109345/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NOVA LTD. — NVMI
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001109345/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001109345/README.md)
 
 ## Business overview
 
@@ -150,7 +154,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **3827**: Optical Instruments & Lenses. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -198,7 +204,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 20-F/A, 3, 4, 424B2, 424B3, 424B5, 6-K, 6-K/A, CORRESP, EFFECT, F-3, F-3/A, REGDEX, S-8, S-8 POS, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, SD, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:39:28.715570+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:41:59.445197+00:00.
 
 ## Relationships and themes
 
@@ -218,20 +224,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001109345.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001109345.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [6-K 0001178913-26-004775](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004775/0001178913-26-004775-index.html) — published 2026-10-15; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [6-K 0001178913-26-004775](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004775/0001178913-26-004775-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [144 0001976408-26-000858](https://www.sec.gov/Archives/edgar/data/1109345/000197640826000858/0001976408-26-000858-index.html) — published 2026-09-22; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [144 0001976408-26-000858](https://www.sec.gov/Archives/edgar/data/1109345/000197640826000858/0001976408-26-000858-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [4 0001178913-26-004552](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004552/0001178913-26-004552-index.html) — published 2026-09-22; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [4 0001178913-26-004552](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004552/0001178913-26-004552-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [SCHEDULE 13G 0001178913-26-004520](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004520/0001178913-26-004520-index.html) — published 2026-09-16; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [SCHEDULE 13G 0001178913-26-004520](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004520/0001178913-26-004520-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [4 0001178913-26-004395](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004395/0001178913-26-004395-index.html) — published 2026-09-02; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [4 0001178913-26-004395](https://www.sec.gov/Archives/edgar/data/1109345/000117891326004395/0001178913-26-004395-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001109345/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001109345/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

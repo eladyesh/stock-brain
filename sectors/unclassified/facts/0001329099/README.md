@@ -8,11 +8,11 @@ tickers:
 - BIDU
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -52,10 +52,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001329099.json
     sha256: 1ec5e6077f5bfd880cddbe1f7e30c245aa2a1c3ae02c2bfe330a9c834ff56841
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001329099.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -63,70 +63,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001329099.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 1ec5e6077f5bfd880cddbe1f7e30c245aa2a1c3ae02c2bfe330a9c834ff56841
 - id: S03
   title: S-8 0001193125-26-420619
   url: https://www.sec.gov/Archives/edgar/data/1329099/000119312526420619/0001193125-26-420619-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 6-K 0001193125-26-416952
   url: https://www.sec.gov/Archives/edgar/data/1329099/000119312526416952/0001193125-26-416952-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 144 0001958244-26-000646
   url: https://www.sec.gov/Archives/edgar/data/1329099/000195824426000646/0001958244-26-000646-index.html
   published_at: '2026-10-05'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: 6-K 0001193125-26-409756
   url: https://www.sec.gov/Archives/edgar/data/1329099/000119312526409756/0001193125-26-409756-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: 6-K 0001193125-26-408259
   url: https://www.sec.gov/Archives/edgar/data/1329099/000119312526408259/0001193125-26-408259-index.html
   published_at: '2026-09-30'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001329099
+  classification_status: reported_sic
+  entity_type: other
   name: Baidu, Inc.
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 1ec5e6077f5bfd880cddbe1f7e30c245aa2a1c3ae02c2bfe330a9c834ff56841
   url: https://data.sec.gov/submissions/CIK0001329099.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001329099/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001329099/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # Baidu, Inc. — BIDU
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001329099/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001329099/README.md)
 
 ## Business overview
 
@@ -154,7 +158,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **7370**: Services-Computer Programming, Data Processing, Etc.. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -202,7 +208,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 144/A, 20-F, 20-F/A, 3, 4, 424B2, 424B3, 424B4, 424B5, 6-K, 8-A12G, AW, CORRESP, F-1, F-1/A, F-3ASR, F-6, F-8/A, FWP, S-8, S-8 POS, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:40:36.492301+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:42:57.885319+00:00.
 
 ## Relationships and themes
 
@@ -222,20 +228,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001329099.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001329099.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [S-8 0001193125-26-420619](https://www.sec.gov/Archives/edgar/data/1329099/000119312526420619/0001193125-26-420619-index.html) — published 2026-10-13; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [S-8 0001193125-26-420619](https://www.sec.gov/Archives/edgar/data/1329099/000119312526420619/0001193125-26-420619-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [6-K 0001193125-26-416952](https://www.sec.gov/Archives/edgar/data/1329099/000119312526416952/0001193125-26-416952-index.html) — published 2026-10-07; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [6-K 0001193125-26-416952](https://www.sec.gov/Archives/edgar/data/1329099/000119312526416952/0001193125-26-416952-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [144 0001958244-26-000646](https://www.sec.gov/Archives/edgar/data/1329099/000195824426000646/0001958244-26-000646-index.html) — published 2026-10-05; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [144 0001958244-26-000646](https://www.sec.gov/Archives/edgar/data/1329099/000195824426000646/0001958244-26-000646-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [6-K 0001193125-26-409756](https://www.sec.gov/Archives/edgar/data/1329099/000119312526409756/0001193125-26-409756-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [6-K 0001193125-26-409756](https://www.sec.gov/Archives/edgar/data/1329099/000119312526409756/0001193125-26-409756-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [6-K 0001193125-26-408259](https://www.sec.gov/Archives/edgar/data/1329099/000119312526408259/0001193125-26-408259-index.html) — published 2026-09-30; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [6-K 0001193125-26-408259](https://www.sec.gov/Archives/edgar/data/1329099/000119312526408259/0001193125-26-408259-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001329099/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001329099/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -4,15 +4,190 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **176**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [111, Inc.](facts/0001738906/README.md) | YI | missing | project_sic_rule |
+| [22nd Century Group, Inc.](facts/0001347858/README.md) | XXII | available; quality gates apply | project_sic_rule |
+| [Adecoagro S.A.](facts/0001499505/README.md) | AGRO | missing | project_sic_rule |
+| [Agencia Comercial Spirits Ltd.](facts/0002060016/README.md) | AGCC | missing | project_sic_rule |
+| [Agroz Inc.](facts/0002009233/README.md) | AGRZ | missing | project_sic_rule |
+| [AIR Global PLC](facts/0002097725/README.md) | AIIR | missing | project_sic_rule |
+| [Air Water Ventures Ltd](facts/0002092314/README.md) | WATR | missing | project_sic_rule |
+| [Albertsons Companies, Inc.](facts/0001646972/README.md) | ACI | available; quality gates apply | project_sic_rule |
+| [ALTRIA GROUP, INC.](facts/0000764180/README.md) | MO | available; quality gates apply | project_sic_rule |
+| [AMASS BRANDS](facts/0001851491/README.md) | AMSS | available; quality gates apply | project_sic_rule |
+| [AMBEV S.A.](facts/0001565025/README.md) | ABEV | missing | project_sic_rule |
+| [AMCON DISTRIBUTING CO](facts/0000928465/README.md) | DIT | available; quality gates apply | project_sic_rule |
+| [Andersons, Inc.](facts/0000821026/README.md) | ANDE | available; quality gates apply | project_sic_rule |
+| [AQUABOUNTY TECHNOLOGIES INC](facts/0001603978/README.md) | AQB | available; quality gates apply | project_sic_rule |
+| [Archer-Daniels-Midland Co](facts/0000007084/README.md) | ADM | available; quality gates apply | project_sic_rule |
+| [ARKO Corp.](facts/0001823794/README.md) | ARKO | available; quality gates apply | project_sic_rule |
+| [Australian Oilseeds Holdings Ltd](facts/0001959994/README.md) | COOT | missing | project_sic_rule |
+| [Axil Brands, Inc.](facts/0001718500/README.md) | AXIL | available; quality gates apply | project_sic_rule |
+| [B&G Foods, Inc.](facts/0001278027/README.md) | BGS | available; quality gates apply | project_sic_rule |
+| [BARFRESH FOOD GROUP INC.](facts/0001487197/README.md) | BRFH | available; quality gates apply | project_sic_rule |
+| [BBB FOODS INC](facts/0001978954/README.md) | TBBB | missing | project_sic_rule |
+| [BELLRING BRANDS, INC.](facts/0001772016/README.md) | BRBR | available; quality gates apply | project_sic_rule |
+| [BEYOND MEAT, INC.](facts/0001655210/README.md) | BYND | available; quality gates apply | project_sic_rule |
+| [BLOOMIA HOLDINGS, INC.](facts/0000875355/README.md) | TULP | available; quality gates apply | project_sic_rule |
+| [BONK, INC.](facts/0001760903/README.md) | BNKK | available; quality gates apply | project_sic_rule |
+| [Borealis Foods Inc.](facts/0001852973/README.md) | BRLS | available; quality gates apply | project_sic_rule |
+| [BOSTON BEER CO INC](facts/0000949870/README.md) | SAM | available; quality gates apply | project_sic_rule |
+| [BranchOut Food Inc.](facts/0001962481/README.md) | BOF | available; quality gates apply | project_sic_rule |
+| [BRC Inc.](facts/0001891101/README.md) | BRCC | available; quality gates apply | project_sic_rule |
+| [BRIDGFORD FOODS CORP](facts/0000014177/README.md) | BRID | available; quality gates apply | project_sic_rule |
+| [BrightView Holdings, Inc.](facts/0001734713/README.md) | BV | available; quality gates apply | project_sic_rule |
+| [BROWN FORMAN CORP](facts/0000014693/README.md) | BF.A, BF.B | available; quality gates apply | project_sic_rule |
+| [BUDA JUICE, INC.](facts/0002079720/README.md) | BUDA | available; quality gates apply | project_sic_rule |
+| [CAL-MAINE FOODS INC](facts/0000016160/README.md) | CALM | available; quality gates apply | project_sic_rule |
+| [CAMPBELL'S Co](facts/0000016732/README.md) | CPB | available; quality gates apply | project_sic_rule |
+| [Caring Brands, Inc.](facts/0002020737/README.md) | CABR | available; quality gates apply | project_sic_rule |
+| [cbdMD, Inc.](facts/0001644903/README.md) | YCBD | available; quality gates apply | project_sic_rule |
+| [Celsius Holdings, Inc.](facts/0001341766/README.md) | CELH | available; quality gates apply | project_sic_rule |
+| [Chanson International Holding](facts/0001825349/README.md) | CHSN | missing | project_sic_rule |
+| [Chefs' Warehouse, Inc.](facts/0001517175/README.md) | CHEF | missing | project_sic_rule |
+| [CHS INC](facts/0000823277/README.md) | CHSCL, CHSCM, CHSCN, CHSCO | available; quality gates apply | project_sic_rule |
+| [CHURCH & DWIGHT CO INC /DE/](facts/0000313927/README.md) | CHD | available; quality gates apply | project_sic_rule |
+| [CLOROX CO /DE/](facts/0000021076/README.md) | CLX | missing | project_sic_rule |
+| [CN Healthy Food Tech Group Corp.](facts/0001901203/README.md) | UCFI | available; quality gates apply | project_sic_rule |
+| [COCA COLA CO](facts/0000021344/README.md) | KO | missing | project_sic_rule |
+| [Coca-Cola Consolidated, Inc.](facts/0000317540/README.md) | COKE | available; quality gates apply | project_sic_rule |
+| [COCA-COLA EUROPACIFIC PARTNERS plc](facts/0001650107/README.md) | CCEP | missing | project_sic_rule |
+| [COFFEE HOLDING CO INC](facts/0001007019/README.md) | JVA | available; quality gates apply | project_sic_rule |
+| [COLGATE PALMOLIVE CO](facts/0000021665/README.md) | CL | available; quality gates apply | project_sic_rule |
+| [CONAGRA BRANDS INC.](facts/0000023217/README.md) | CAG | available; quality gates apply | project_sic_rule |
+| [CONSTELLATION BRANDS, INC.](facts/0000016918/README.md) | STZ | available; quality gates apply | project_sic_rule |
+| [Corteva, Inc.](facts/0001755672/README.md) | CTVA | available; quality gates apply | project_sic_rule |
+| [COTY INC.](facts/0001024305/README.md) | COTY | available; quality gates apply | project_sic_rule |
+| [CVS HEALTH Corp](facts/0000064803/README.md) | CVS | available; quality gates apply | project_sic_rule |
+| [DARLING INGREDIENTS INC.](facts/0000916540/README.md) | DAR | available; quality gates apply | project_sic_rule |
+| [DDC Enterprise Ltd](facts/0001808110/README.md) | DDC | missing | project_sic_rule |
+| [DEL MONTE CORP](facts/0001047340/README.md) | DMC | available; quality gates apply | project_sic_rule |
+| [DIAGEO PLC](facts/0000835403/README.md) | DEO | missing | project_sic_rule |
+| [Dole plc](facts/0001857475/README.md) | DOLE | available; quality gates apply | project_sic_rule |
+| [DOMINOS PIZZA INC](facts/0001286681/README.md) | DPZ | available; quality gates apply | project_sic_rule |
+| [e.l.f. Beauty, Inc.](facts/0001600033/README.md) | ELF | available; quality gates apply | project_sic_rule |
+| [ECOLAB INC.](facts/0000031462/README.md) | ECL | available; quality gates apply | project_sic_rule |
+| [EDGEWELL PERSONAL CARE Co](facts/0001096752/README.md) | EPC | available; quality gates apply | project_sic_rule |
+| [Edible Garden AG Inc](facts/0001809750/README.md) | EDBL | available; quality gates apply | project_sic_rule |
+| [Endovia Health Sciences, Inc.](facts/0001553788/README.md) | EDVA | available; quality gates apply | project_sic_rule |
+| [Epsium Enterprise Ltd](facts/0001883437/README.md) | EPSM | missing | project_sic_rule |
+| [ESTEE LAUDER COMPANIES INC](facts/0001001250/README.md) | EL | available; quality gates apply | project_sic_rule |
+| [Farmmi, Inc.](facts/0001701261/README.md) | FAMI | missing | project_sic_rule |
+| [FLOWERS FOODS INC](facts/0001128928/README.md) | FLO | available; quality gates apply | project_sic_rule |
+| [Forafric Global PLC](facts/0001903870/README.md) | AFRI | missing | project_sic_rule |
+| [Freshpet, Inc.](facts/0001611647/README.md) | FRPT | available; quality gates apply | project_sic_rule |
+| [GENERAL MILLS INC](facts/0000040704/README.md) | GIS | available; quality gates apply | project_sic_rule |
+| [Grocery Outlet Holding Corp.](facts/0001771515/README.md) | GO | available; quality gates apply | project_sic_rule |
+| [Guardian Pharmacy Services, Inc.](facts/0001802255/README.md) | GRDN | available; quality gates apply | project_sic_rule |
+| [HAIN CELESTIAL GROUP INC](facts/0000910406/README.md) | HAIN | available; quality gates apply | project_sic_rule |
+| [Haleon plc](facts/0001900304/README.md) | HLN | missing | project_sic_rule |
+| [HERSHEY CO](facts/0000047111/README.md) | HSY | available; quality gates apply | project_sic_rule |
+| [HF Foods Group Inc.](facts/0001680873/README.md) | HFFG | available; quality gates apply | project_sic_rule |
+| [HORMEL FOODS CORP /DE/](facts/0000048465/README.md) | HRL | available; quality gates apply | project_sic_rule |
+| [Host Digital Inc.](facts/0001948864/README.md) | HOST | available; quality gates apply | project_sic_rule |
+| [INGLES MARKETS INC](facts/0000050493/README.md) | IMKTA | available; quality gates apply | project_sic_rule |
+| [Ingredion Inc](facts/0001046257/README.md) | INGR | available; quality gates apply | project_sic_rule |
+| [Innovation Beverage Group Ltd](facts/0001924482/README.md) | IBG | missing | project_sic_rule |
+| [INSTINCT BIO TECHNICAL CO HOLDINGS INC.](facts/0002072188/README.md) | BIOT | missing | project_sic_rule |
+| [INTERPARFUMS INC](facts/0000822663/README.md) | IPAR | available; quality gates apply | project_sic_rule |
+| [IP STRATEGY HOLDINGS, INC.](facts/0001788230/README.md) | IPST | available; quality gates apply | project_sic_rule |
+| [Ispire Technology Inc.](facts/0001948455/README.md) | ISPR | available; quality gates apply | project_sic_rule |
+| [J M SMUCKER Co](facts/0000091419/README.md) | SJM | available; quality gates apply | project_sic_rule |
+| [J&J SNACK FOODS CORP](facts/0000785956/README.md) | JJSF | available; quality gates apply | project_sic_rule |
+| [JBS N.V.](facts/0001791942/README.md) | JBS | missing | project_sic_rule |
+| [Kenvue Inc.](facts/0001944048/README.md) | KVUE | available; quality gates apply | project_sic_rule |
+| [Keurig Dr Pepper Inc.](facts/0001418135/README.md) | KDP | available; quality gates apply | project_sic_rule |
+| [Kraft Heinz Co](facts/0001637459/README.md) | KHC | available; quality gates apply | project_sic_rule |
+| [Krispy Kreme, Inc.](facts/0001857154/README.md) | DNUT | available; quality gates apply | project_sic_rule |
+| [KROGER CO](facts/0000056873/README.md) | KR | available; quality gates apply | project_sic_rule |
+| [Laird Superfood, Inc.](facts/0001650696/README.md) | LSF | available; quality gates apply | project_sic_rule |
+| [Lamb Weston Holdings, Inc.](facts/0001679273/README.md) | LW | available; quality gates apply | project_sic_rule |
+| [Lifeway Foods, Inc.](facts/0000814586/README.md) | LWAY | available; quality gates apply | project_sic_rule |
+| [Limoneira CO](facts/0001342423/README.md) | LMNR | available; quality gates apply | project_sic_rule |
+| [Local Bounti Corporation/DE](facts/0001840780/README.md) | LOCL | available; quality gates apply | project_sic_rule |
+| [LQR House Inc.](facts/0001843165/README.md) | YHC | available; quality gates apply | project_sic_rule |
+| [Magnum Ice Cream Co N.V.](facts/0002071668/README.md) | MICC | missing | project_sic_rule |
+| [Maison Solutions Inc.](facts/0001892292/README.md) | MSS | available; quality gates apply | project_sic_rule |
+| [Mama's Creations, Inc.](facts/0001520358/README.md) | MAMA | available; quality gates apply | project_sic_rule |
+| [Marwynn Holdings, Inc.](facts/0002030522/README.md) | MWYN | missing | project_sic_rule |
+| [MARZETTI CO](facts/0000057515/README.md) | MZTI | available; quality gates apply | project_sic_rule |
+| [MCCORMICK & CO INC](facts/0000063754/README.md) | MKC, MKC.V | available; quality gates apply | project_sic_rule |
+| [MEDIFAST INC](facts/0000910329/README.md) | MED | available; quality gates apply | project_sic_rule |
+| [Megan Holdings Ltd.](facts/0001995075/README.md) | MGN | missing | project_sic_rule |
+| [Meiwu Technology Co Ltd](facts/0001787803/README.md) | WNW | missing | project_sic_rule |
+| [MGP INGREDIENTS INC](facts/0000835011/README.md) | MGPI | missing | project_sic_rule |
+| [Mission Produce, Inc.](facts/0001802974/README.md) | AVO | available; quality gates apply | project_sic_rule |
+| [MOLSON COORS BEVERAGE CO](facts/0000024545/README.md) | TAP, TAP.A | available; quality gates apply | project_sic_rule |
+| [Mondelez International, Inc.](facts/0001103982/README.md) | MDLZ | missing | project_sic_rule |
+| [Monster Beverage Corp](facts/0000865752/README.md) | MNST | available; quality gates apply | project_sic_rule |
+| [Moolec Science SA](facts/0001937737/README.md) | MLEC | missing | project_sic_rule |
+| [NATIONAL BEVERAGE CORP](facts/0000069891/README.md) | FIZZ | available; quality gates apply | project_sic_rule |
+| [Natural Grocers by Vitamin Cottage, Inc.](facts/0001547459/README.md) | NGVC | available; quality gates apply | project_sic_rule |
+| [NOCERA, INC.](facts/0001756180/README.md) | NCRA | available; quality gates apply | project_sic_rule |
+| [Nomad Foods Ltd](facts/0001651717/README.md) | NOMD | missing | project_sic_rule |
+| [Oatly Group AB](facts/0001843586/README.md) | OTLY | missing | project_sic_rule |
+| [Oddity Tech Ltd](facts/0001907085/README.md) | ODD | missing | project_sic_rule |
+| [Once Upon a Farm, PBC](facts/0001696556/README.md) | OFRM | available; quality gates apply | project_sic_rule |
+| [Origin Agritech LTD](facts/0001321851/README.md) | SEED | missing | project_sic_rule |
+| [Park Ha Biological Technology Co., Ltd.](facts/0001986247/README.md) | BYAH | missing | project_sic_rule |
+| [PEPSICO INC](facts/0000077476/README.md) | PEP | available; quality gates apply | project_sic_rule |
+| [Performance Food Group Co](facts/0001618673/README.md) | PFGC | available; quality gates apply | project_sic_rule |
+| [PETMED EXPRESS INC](facts/0001040130/README.md) | PETS | available; quality gates apply | project_sic_rule |
+| [Philip Morris International Inc.](facts/0001413329/README.md) | PM | available; quality gates apply | project_sic_rule |
+| [PILGRIMS PRIDE CORP](facts/0000802481/README.md) | PPC | available; quality gates apply | project_sic_rule |
+| [Pinnacle Food Group Ltd](facts/0002032755/README.md) | PFAI | missing | project_sic_rule |
+| [Planet Green Holdings Corp.](facts/0001117057/README.md) | PLAG | available; quality gates apply | project_sic_rule |
+| [Post Holdings, Inc.](facts/0001530950/README.md) | POST | available; quality gates apply | project_sic_rule |
+| [Primo Brands Corp](facts/0002042694/README.md) | PRMB | available; quality gates apply | project_sic_rule |
+| [PROCTER & GAMBLE Co](facts/0000080424/README.md) | PG | available; quality gates apply | project_sic_rule |
+| [RAVE RESTAURANT GROUP, INC.](facts/0000718332/README.md) | RAVE | available; quality gates apply | project_sic_rule |
+| [REED'S, INC.](facts/0001140215/README.md) | REED | available; quality gates apply | project_sic_rule |
+| [Ridgetech Inc.](facts/0001856084/README.md) | RDGT | missing | project_sic_rule |
+| [RLX Technology Inc.](facts/0001828365/README.md) | RLX | missing | project_sic_rule |
+| [Rocky Mountain Chocolate Factory, Inc.](facts/0001616262/README.md) | RMCF | available; quality gates apply | project_sic_rule |
+| [RYTHM, Inc.](facts/0001800637/README.md) | RYM | available; quality gates apply | project_sic_rule |
+| [SEABOARD CORP /DE/](facts/0000088121/README.md) | SEB | available; quality gates apply | project_sic_rule |
+| [Seneca Foods Corp](facts/0000088948/README.md) | SENEA, SENEB | available; quality gates apply | project_sic_rule |
+| [Simply Good Foods Co](facts/0001702744/README.md) | SMPL | available; quality gates apply | project_sic_rule |
+| [SMITHFIELD FOODS INC](facts/0000091388/README.md) | SFD | available; quality gates apply | project_sic_rule |
+| [SOLESENCE, INC.](facts/0000883107/README.md) | SLSN | available; quality gates apply | project_sic_rule |
+| [Sow Good Inc.](facts/0001490161/README.md) | SOWG | available; quality gates apply | project_sic_rule |
+| [Sprouts Farmers Market, Inc.](facts/0001575515/README.md) | SFM | available; quality gates apply | project_sic_rule |
+| [SRX Global Inc.](facts/0001471727/README.md) | SRXH | available; quality gates apply | project_sic_rule |
+| [Steakholder Foods Ltd.](facts/0001828098/README.md) | STKH | missing | project_sic_rule |
+| [STEPAN CO](facts/0000094049/README.md) | SCL | available; quality gates apply | project_sic_rule |
+| [SUJA LIFE, INC.](facts/0001934114/README.md) | SUJA | available; quality gates apply | project_sic_rule |
+| [SYSCO CORP](facts/0000096021/README.md) | SYY | available; quality gates apply | project_sic_rule |
+| [TOOTSIE ROLL INDUSTRIES INC](facts/0000098677/README.md) | TR | available; quality gates apply | project_sic_rule |
+| [Top Wealth Group Holding Ltd](facts/0001978057/README.md) | TWG | missing | project_sic_rule |
+| [Turning Point Brands, Inc.](facts/0001290677/README.md) | TPB | available; quality gates apply | project_sic_rule |
+| [TYSON FOODS, INC.](facts/0000100493/README.md) | TSN | available; quality gates apply | project_sic_rule |
+| [UNILEVER PLC](facts/0000217410/README.md) | UL | missing | project_sic_rule |
+| [UNITED GUARDIAN INC](facts/0000101295/README.md) | UG | available; quality gates apply | project_sic_rule |
+| [UNITED NATURAL FOODS INC](facts/0001020859/README.md) | UNFI | available; quality gates apply | project_sic_rule |
+| [UNIVERSAL CORP /VA/](facts/0000102037/README.md) | UVV | available; quality gates apply | project_sic_rule |
+| [US Foods Holding Corp.](facts/0001665918/README.md) | USFD | available; quality gates apply | project_sic_rule |
+| [Utz Brands, Inc.](facts/0001739566/README.md) | UTZ | available; quality gates apply | project_sic_rule |
+| [Village Farms International, Inc.](facts/0001584549/README.md) | VFF | available; quality gates apply | project_sic_rule |
+| [VILLAGE SUPER MARKET INC](facts/0000103595/README.md) | VLGEA | available; quality gates apply | project_sic_rule |
+| [Vita Coco Company, Inc.](facts/0001482981/README.md) | COCO | available; quality gates apply | project_sic_rule |
+| [Vital Farms, Inc.](facts/0001579733/README.md) | VITL | available; quality gates apply | project_sic_rule |
+| [Vylor Inc.](facts/0002128626/README.md) | VYLR | missing | project_sic_rule |
+| [WEIS MARKETS INC](facts/0000105418/README.md) | WMK | available; quality gates apply | project_sic_rule |
+| [Westrock Coffee Co](facts/0001806347/README.md) | WEST | available; quality gates apply | project_sic_rule |
+| [WILLAMETTE VALLEY VINEYARDS INC](facts/0000838875/README.md) | WVVI, WVVIP | available; quality gates apply | project_sic_rule |
+| [Wing Yip Food Holdings Group Ltd](facts/0001999860/README.md) | WYHG | missing | project_sic_rule |
+| [Yatsen Holding Ltd](facts/0001819580/README.md) | YSG | missing | project_sic_rule |
+| [Yesway, Inc.](facts/0001859836/README.md) | YSWY | available; quality gates apply | project_sic_rule |
+| [Zevia PBC](facts/0001854139/README.md) | ZVIA | available; quality gates apply | project_sic_rule |
+| [Zone Frontier Inc.](facts/0001956741/README.md) | ZONE | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

@@ -4,15 +4,70 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **56**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [AGNT, Inc.](facts/0001495932/README.md) | AGNT | available; quality gates apply | project_sic_rule |
+| [AH Realty Trust, Inc.](facts/0001569187/README.md) | AHRT | available; quality gates apply | project_sic_rule |
+| [ALICO, INC.](facts/0000003545/README.md) | ALCO | available; quality gates apply | project_sic_rule |
+| [Alset Inc.](facts/0001750106/README.md) | AEI | available; quality gates apply | project_sic_rule |
+| [AMERICAN REALTY INVESTORS INC](facts/0001102238/README.md) | ARL | available; quality gates apply | project_sic_rule |
+| [AMREP CORP.](facts/0000006207/README.md) | AXR | available; quality gates apply | project_sic_rule |
+| [Angel Oak Mortgage REIT, Inc.](facts/0001766478/README.md) | AOMR | available; quality gates apply | project_sic_rule |
+| [Blackstone Digital Infrastructure Trust Inc.](facts/0002100161/README.md) | BXDC | available; quality gates apply | project_sic_rule |
+| [BOSTON OMAHA Corp](facts/0001494582/README.md) | BOC | available; quality gates apply | project_sic_rule |
+| [BROOKFIELD Corp /ON/](facts/0001001085/README.md) | BN | missing | project_sic_rule |
+| [CaliberCos Inc.](facts/0001627282/README.md) | CWD | available; quality gates apply | project_sic_rule |
+| [CBRE GROUP, INC.](facts/0001138118/README.md) | CBRE | available; quality gates apply | project_sic_rule |
+| [Claros Mortgage Trust, Inc.](facts/0001666291/README.md) | CMTG | available; quality gates apply | project_sic_rule |
+| [Compass, Inc.](facts/0001563190/README.md) | COMP | available; quality gates apply | project_sic_rule |
+| [Comstock Holding Companies, Inc.](facts/0001299969/README.md) | CHCI | available; quality gates apply | project_sic_rule |
+| [Curbline Properties Corp.](facts/0002027317/README.md) | CURB | available; quality gates apply | project_sic_rule |
+| [Cushman & Wakefield Ltd.](facts/0001628369/README.md) | CWK | available; quality gates apply | project_sic_rule |
+| [Douglas Elliman Inc.](facts/0001878897/README.md) | DOUG | available; quality gates apply | project_sic_rule |
+| [Ellington Financial Inc.](facts/0001411342/README.md) | EFC | available; quality gates apply | project_sic_rule |
+| [Fangdd Network Group Ltd.](facts/0001750593/README.md) | DUO | missing | project_sic_rule |
+| [Fathom Holdings Inc.](facts/0001753162/README.md) | FTHM | available; quality gates apply | project_sic_rule |
+| [FirstService Corp](facts/0001637810/README.md) | FSV | missing | project_sic_rule |
+| [Five Point Holdings, LLC](facts/0001574197/README.md) | FPH | available; quality gates apply | project_sic_rule |
+| [Forestar Group Inc.](facts/0001406587/README.md) | FOR | available; quality gates apply | project_sic_rule |
+| [FRP HOLDINGS, INC.](facts/0000844059/README.md) | FRPH | available; quality gates apply | project_sic_rule |
+| [GETTY REALTY CORP /MD/](facts/0001052752/README.md) | GTY | available; quality gates apply | project_sic_rule |
+| [Gyrodyne, LLC](facts/0001589061/README.md) | GYRO | missing | project_sic_rule |
+| [Hudson Pacific Properties, Inc.](facts/0001482512/README.md) | HPP | missing | project_sic_rule |
+| [INNOVATIVE INDUSTRIAL PROPERTIES INC](facts/0001677576/README.md) | IIPR | available; quality gates apply | project_sic_rule |
+| [INTERGROUP CORP](facts/0000069422/README.md) | INTG | available; quality gates apply | project_sic_rule |
+| [Invitation Homes Inc.](facts/0001687229/README.md) | INVH | available; quality gates apply | project_sic_rule |
+| [JONES LANG LASALLE INC](facts/0001037976/README.md) | JLL | available; quality gates apply | project_sic_rule |
+| [KE Holdings Inc.](facts/0001809587/README.md) | BEKE | missing | project_sic_rule |
+| [Linkhome Holdings Inc.](facts/0002017758/README.md) | LHAI | available; quality gates apply | project_sic_rule |
+| [Logistic Properties of the Americas](facts/0001997711/README.md) | LPA | missing | project_sic_rule |
+| [Marcus & Millichap, Inc.](facts/0001578732/README.md) | MMI | available; quality gates apply | project_sic_rule |
+| [MARRIOTT VACATIONS WORLDWIDE Corp](facts/0001524358/README.md) | VAC | available; quality gates apply | project_sic_rule |
+| [MAUI LAND & PINEAPPLE CO INC](facts/0000063330/README.md) | MLP | available; quality gates apply | project_sic_rule |
+| [Millrose Properties, Inc.](facts/0002017206/README.md) | MRP | available; quality gates apply | project_sic_rule |
+| [Mobile Infrastructure Corp](facts/0001847874/README.md) | BEEP | available; quality gates apply | project_sic_rule |
+| [NEWMARK GROUP, INC.](facts/0001690680/README.md) | NMRK | available; quality gates apply | project_sic_rule |
+| [Offerpad Solutions Inc.](facts/0001825024/README.md) | OPAD | available; quality gates apply | project_sic_rule |
+| [OFFICE PROPERTIES INCOME TRUST](facts/0001456772/README.md) | OPI | missing | project_sic_rule |
+| [Ohmyhome Ltd](facts/0001944902/README.md) | OMH | missing | project_sic_rule |
+| [Opendoor Technologies Inc.](facts/0001801169/README.md) | OPEN | available; quality gates apply | project_sic_rule |
+| [Piedmont Realty Trust, Inc.](facts/0001042776/README.md) | PDM | missing | project_sic_rule |
+| [Real REMAX Group Inc.](facts/0002136387/README.md) | REAX | missing | project_sic_rule |
+| [reAlpha Tech Corp.](facts/0001859199/README.md) | AIRE | available; quality gates apply | project_sic_rule |
+| [Seritage Growth Properties](facts/0001628063/README.md) | SRG | available; quality gates apply | project_sic_rule |
+| [Sky Harbour Group Corp](facts/0001823587/README.md) | SKYH | available; quality gates apply | project_sic_rule |
+| [ST JOE Co](facts/0000745308/README.md) | JOE | available; quality gates apply | project_sic_rule |
+| [Star Holdings](facts/0001953366/README.md) | STHO | available; quality gates apply | project_sic_rule |
+| [TDH Holdings, Inc.](facts/0001684425/README.md) | PETZ | missing | project_sic_rule |
+| [TEJON RANCH CO](facts/0000096869/README.md) | TRC | available; quality gates apply | project_sic_rule |
+| [Terreno Realty Corp](facts/0001476150/README.md) | TRNO | available; quality gates apply | project_sic_rule |
+| [Urban Edge Properties](facts/0001611547/README.md) | UE | missing | project_sic_rule |
 
 ## Curated research
 

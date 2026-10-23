@@ -8,11 +8,11 @@ tickers:
 - GIGM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -42,10 +42,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001105101.json
     sha256: 6eea012b146e0a1535b12521af5620bae4814b01db3bf4e55588df5300cb0639
-    retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001105101.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -53,70 +53,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001105101.json
   published_at: null
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 6eea012b146e0a1535b12521af5620bae4814b01db3bf4e55588df5300cb0639
 - id: S03
   title: 6-K 0001193125-26-326648
   url: https://www.sec.gov/Archives/edgar/data/1105101/000119312526326648/0001193125-26-326648-index.html
   published_at: '2026-07-31'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 6-K 0001193125-26-281736
   url: https://www.sec.gov/Archives/edgar/data/1105101/000119312526281736/0001193125-26-281736-index.html
   published_at: '2026-06-25'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 6-K 0001193125-26-271741
   url: https://www.sec.gov/Archives/edgar/data/1105101/000119312526271741/0001193125-26-271741-index.html
   published_at: '2026-06-16'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: 6-K 0001193125-26-243008
   url: https://www.sec.gov/Archives/edgar/data/1105101/000119312526243008/0001193125-26-243008-index.html
   published_at: '2026-05-28'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: 6-K 0001193125-26-202392
   url: https://www.sec.gov/Archives/edgar/data/1105101/000119312526202392/0001193125-26-202392-index.html
   published_at: '2026-05-04'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: '0001105101'
+  classification_status: reported_sic
+  entity_type: other
   name: GIGAMEDIA Ltd
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 6eea012b146e0a1535b12521af5620bae4814b01db3bf4e55588df5300cb0639
   url: https://data.sec.gov/submissions/CIK0001105101.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001105101/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001105101/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # GIGAMEDIA Ltd — GIGM
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001105101/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001105101/README.md)
 
 ## Business overview
 
@@ -144,7 +148,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **7370**: Services-Computer Programming, Data Processing, Etc.. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -192,7 +198,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 20-F/A, 3, 3/A, 4, 4/A, 6-K, 6-K/A, CORRESP, NT 20-F, S-8, S-8 POS, SC 13D, SC 13D/A, SC 13G, SC 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:39:26.580047+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:41:57.153235+00:00.
 
 ## Relationships and themes
 
@@ -212,20 +218,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001105101.json) — published not supplied; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001105101.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [6-K 0001193125-26-326648](https://www.sec.gov/Archives/edgar/data/1105101/000119312526326648/0001193125-26-326648-index.html) — published 2026-07-31; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S03] [6-K 0001193125-26-326648](https://www.sec.gov/Archives/edgar/data/1105101/000119312526326648/0001193125-26-326648-index.html) — published 2026-07-31; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [6-K 0001193125-26-281736](https://www.sec.gov/Archives/edgar/data/1105101/000119312526281736/0001193125-26-281736-index.html) — published 2026-06-25; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S04] [6-K 0001193125-26-281736](https://www.sec.gov/Archives/edgar/data/1105101/000119312526281736/0001193125-26-281736-index.html) — published 2026-06-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [6-K 0001193125-26-271741](https://www.sec.gov/Archives/edgar/data/1105101/000119312526271741/0001193125-26-271741-index.html) — published 2026-06-16; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S05] [6-K 0001193125-26-271741](https://www.sec.gov/Archives/edgar/data/1105101/000119312526271741/0001193125-26-271741-index.html) — published 2026-06-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [6-K 0001193125-26-243008](https://www.sec.gov/Archives/edgar/data/1105101/000119312526243008/0001193125-26-243008-index.html) — published 2026-05-28; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S06] [6-K 0001193125-26-243008](https://www.sec.gov/Archives/edgar/data/1105101/000119312526243008/0001193125-26-243008-index.html) — published 2026-05-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [6-K 0001193125-26-202392](https://www.sec.gov/Archives/edgar/data/1105101/000119312526202392/0001193125-26-202392-index.html) — published 2026-05-04; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S07] [6-K 0001193125-26-202392](https://www.sec.gov/Archives/edgar/data/1105101/000119312526202392/0001193125-26-202392-index.html) — published 2026-05-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001105101/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001105101/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

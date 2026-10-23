@@ -8,11 +8,11 @@ tickers:
 - SIFY
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,10 +56,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001094324.json
     sha256: 12b70f9bb28e135ac944f5f5c6d77785e3422c8ec57d8c8bd6f6408265512440
-    retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001094324.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -67,70 +67,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001094324.json
   published_at: null
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 12b70f9bb28e135ac944f5f5c6d77785e3422c8ec57d8c8bd6f6408265512440
 - id: S03
   title: 6-K 0001554855-26-001544
   url: https://www.sec.gov/Archives/edgar/data/1094324/000155485526001544/0001554855-26-001544-index.html
   published_at: '2026-07-16'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 6-K 0001554855-26-001473
   url: https://www.sec.gov/Archives/edgar/data/1094324/000155485526001473/0001554855-26-001473-index.html
   published_at: '2026-07-01'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 20-F 0001554855-26-001437
   url: https://www.sec.gov/Archives/edgar/data/1094324/000155485526001437/0001554855-26-001437-index.html
   published_at: '2026-06-26'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: S-8 POS 0001554855-26-000907
   url: https://www.sec.gov/Archives/edgar/data/1094324/000155485526000907/0001554855-26-000907-index.html
   published_at: '2026-05-06'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: S-8 POS 0001554855-26-000905
   url: https://www.sec.gov/Archives/edgar/data/1094324/000155485526000905/0001554855-26-000905-index.html
   published_at: '2026-05-06'
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001094324
+  classification_status: reported_sic
+  entity_type: operating
   name: SIFY TECHNOLOGIES LTD
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:52:50.185860+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 12b70f9bb28e135ac944f5f5c6d77785e3422c8ec57d8c8bd6f6408265512440
   url: https://data.sec.gov/submissions/CIK0001094324.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001094324/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001094324/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # SIFY TECHNOLOGIES LTD — SIFY
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001094324/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001094324/README.md)
 
 ## Business overview
 
@@ -158,7 +162,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **7370**: Services-Computer Programming, Data Processing, Etc.. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -206,7 +212,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 20-F, 20-F/A, 25, 3, 3/A, 424B3, 424B4, 424B5, 6-K, 6-K/A, 8-A12G, CORRESP, EFFECT, F-1, F-1/A, F-2, F-3, F-3/A, F-6, F-6 POS, F-6EF, NT 10-Q, NT 20-F, POS AM, S-8, S-8 POS, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13D/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:39:20.142090+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:41:51.898593+00:00.
 
 ## Relationships and themes
 
@@ -226,20 +232,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001094324.json) — published not supplied; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001094324.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [6-K 0001554855-26-001544](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001544/0001554855-26-001544-index.html) — published 2026-07-16; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S03] [6-K 0001554855-26-001544](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001544/0001554855-26-001544-index.html) — published 2026-07-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [6-K 0001554855-26-001473](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001473/0001554855-26-001473-index.html) — published 2026-07-01; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S04] [6-K 0001554855-26-001473](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001473/0001554855-26-001473-index.html) — published 2026-07-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [20-F 0001554855-26-001437](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001437/0001554855-26-001437-index.html) — published 2026-06-26; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S05] [20-F 0001554855-26-001437](https://www.sec.gov/Archives/edgar/data/1094324/000155485526001437/0001554855-26-001437-index.html) — published 2026-06-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [S-8 POS 0001554855-26-000907](https://www.sec.gov/Archives/edgar/data/1094324/000155485526000907/0001554855-26-000907-index.html) — published 2026-05-06; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S06] [S-8 POS 0001554855-26-000907](https://www.sec.gov/Archives/edgar/data/1094324/000155485526000907/0001554855-26-000907-index.html) — published 2026-05-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [S-8 POS 0001554855-26-000905](https://www.sec.gov/Archives/edgar/data/1094324/000155485526000905/0001554855-26-000905-index.html) — published 2026-05-06; retrieved 2026-10-22T17:52:50.185860+00:00.
+[S07] [S-8 POS 0001554855-26-000905](https://www.sec.gov/Archives/edgar/data/1094324/000155485526000905/0001554855-26-000905-index.html) — published 2026-05-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001094324/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001094324/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

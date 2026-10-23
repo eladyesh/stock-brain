@@ -4,15 +4,135 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **121**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [Adeia Inc.](facts/0001803696/README.md) | ADEA | available; quality gates apply | project_sic_rule |
+| [AKANDA CORP.](facts/0001888014/README.md) | AKAN | missing | project_sic_rule |
+| [AMC ENTERTAINMENT HOLDINGS, INC.](facts/0001411579/README.md) | AMC | available; quality gates apply | project_sic_rule |
+| [AMC Global Media Inc.](facts/0001514991/README.md) | AMCX | available; quality gates apply | project_sic_rule |
+| [AMERICA MOVIL SAB DE CV/](facts/0001129137/README.md) | AMX | missing | project_sic_rule |
+| [Angel Studios, Inc.](facts/0001865200/README.md) | ANGX | available; quality gates apply | project_sic_rule |
+| [Anghami Inc](facts/0001871983/README.md) | ANGH | missing | project_sic_rule |
+| [Antelope Enterprise Holdings Ltd](facts/0001470683/README.md) | AEHL | missing | project_sic_rule |
+| [Anterix Inc.](facts/0001304492/README.md) | ATEX | available; quality gates apply | project_sic_rule |
+| [ARRAY DIGITAL INFRASTRUCTURE, INC.](facts/0000821130/README.md) | AD | available; quality gates apply | project_sic_rule |
+| [AST SpaceMobile, Inc.](facts/0001780312/README.md) | ASTS | available; quality gates apply | project_sic_rule |
+| [AT&T INC.](facts/0000732717/README.md) | T, T$A, T$C | available; quality gates apply | project_sic_rule |
+| [ATN International, Inc.](facts/0000879585/README.md) | ATNI | available; quality gates apply | project_sic_rule |
+| [BCE INC](facts/0000718940/README.md) | BCE | missing | project_sic_rule |
+| [BEASLEY BROADCAST GROUP INC](facts/0001099160/README.md) | BBGI | available; quality gates apply | project_sic_rule |
+| [Black Spade Acquisition III Co](facts/0002087087/README.md) | BIII | available; quality gates apply | project_sic_rule |
+| [BuzzFeed, Inc.](facts/0001828972/README.md) | BZFD | available; quality gates apply | project_sic_rule |
+| [Cable One, Inc.](facts/0001632127/README.md) | CABO | available; quality gates apply | project_sic_rule |
+| [CALIX, INC](facts/0001406666/README.md) | CALX | available; quality gates apply | project_sic_rule |
+| [CHARTER COMMUNICATIONS, INC. /MO/](facts/0001091667/README.md) | CHTR, CHTRP | available; quality gates apply | project_sic_rule |
+| [CHUNGHWA TELECOM CO LTD](facts/0001132924/README.md) | CHT | missing | project_sic_rule |
+| [Cineverse Corp.](facts/0001173204/README.md) | CNVS | available; quality gates apply | project_sic_rule |
+| [COGENT COMMUNICATIONS HOLDINGS, INC.](facts/0001158324/README.md) | CCOI | available; quality gates apply | project_sic_rule |
+| [COMCAST CORP](facts/0001166691/README.md) | CMCSA | available; quality gates apply | project_sic_rule |
+| [Core AI Holdings, Inc.](facts/0001649009/README.md) | CHAI | missing | project_sic_rule |
+| [Crexendo, Inc.](facts/0001075736/README.md) | CXDO | available; quality gates apply | project_sic_rule |
+| [Criteo S.A.](facts/0001576427/README.md) | CRTO | available; quality gates apply | project_sic_rule |
+| [CuriosityStream Inc.](facts/0001776909/README.md) | CURI | available; quality gates apply | project_sic_rule |
+| [E.W. SCRIPPS Co](facts/0000832428/README.md) | SSP | available; quality gates apply | project_sic_rule |
+| [EchoStar CORP](facts/0001415404/README.md) | ECHO | available; quality gates apply | project_sic_rule |
+| [Elauwit Connection, Inc.](facts/0002063863/README.md) | ELWT | available; quality gates apply | project_sic_rule |
+| [ENTRAVISION COMMUNICATIONS CORP](facts/0001109116/README.md) | EVC | available; quality gates apply | project_sic_rule |
+| [Fabric.AI, Inc.](facts/0001086745/README.md) | FABC | available; quality gates apply | project_sic_rule |
+| [Fox Corp](facts/0001754301/README.md) | FOX, FOXA | available; quality gates apply | project_sic_rule |
+| [FuboTV Inc.](facts/0001484769/README.md) | FUBO | available; quality gates apply | project_sic_rule |
+| [GAIA, INC](facts/0001089872/README.md) | GAIA | available; quality gates apply | project_sic_rule |
+| [Generation Essentials Group](facts/0002053456/README.md) | TGE | missing | project_sic_rule |
+| [Globalstar, Inc.](facts/0001366868/README.md) | GSAT | available; quality gates apply | project_sic_rule |
+| [Gogo Inc.](facts/0001537054/README.md) | GOGO | available; quality gates apply | project_sic_rule |
+| [GRAY MEDIA, INC](facts/0000043196/README.md) | GTN, GTN.A | available; quality gates apply | project_sic_rule |
+| [Groupon, Inc.](facts/0001490281/README.md) | GRPN | available; quality gates apply | project_sic_rule |
+| [GRUPO TELEVISA, S.A.B.](facts/0000912892/README.md) | TV | missing | project_sic_rule |
+| [Haoxi Health Technology Ltd](facts/0001954594/README.md) | HAO | missing | project_sic_rule |
+| [IDT CORP](facts/0001005731/README.md) | IDT | available; quality gates apply | project_sic_rule |
+| [iHeartMedia, Inc.](facts/0001400891/README.md) | IHRT | available; quality gates apply | project_sic_rule |
+| [IHS Holding Ltd](facts/0001876183/README.md) | IHS | missing | project_sic_rule |
+| [iOThree Ltd](facts/0001997637/README.md) | IOTR | missing | project_sic_rule |
+| [iQIYI, Inc.](facts/0001722608/README.md) | IQ | missing | project_sic_rule |
+| [iQSTEL Inc](facts/0001527702/README.md) | IQST | available; quality gates apply | project_sic_rule |
+| [Iridium Communications Inc.](facts/0001418819/README.md) | IRDM | available; quality gates apply | project_sic_rule |
+| [JOHN WILEY & SONS, INC.](facts/0000107140/README.md) | WLY, WLYB | available; quality gates apply | project_sic_rule |
+| [Kartoon Studios, Inc.](facts/0001355848/README.md) | TOON | available; quality gates apply | project_sic_rule |
+| [KT CORP](facts/0000892450/README.md) | KT | missing | project_sic_rule |
+| [Kyivstar Group Ltd.](facts/0002062440/README.md) | KYIV | missing | project_sic_rule |
+| [LEE ENTERPRISES, Inc](facts/0000058361/README.md) | LEE | available; quality gates apply | project_sic_rule |
+| [Liberty Capital Corp/NV](facts/0002057463/README.md) | GLIBA, GLIBK | available; quality gates apply | project_sic_rule |
+| [Liberty Global Ltd.](facts/0001570585/README.md) | LBTYA, LBTYB, LBTYK | available; quality gates apply | project_sic_rule |
+| [Liberty Latin America Ltd.](facts/0001712184/README.md) | LILA, LILAK | available; quality gates apply | project_sic_rule |
+| [Liberty Media Corp](facts/0001560385/README.md) | FWONA, FWONK | available; quality gates apply | project_sic_rule |
+| [Lionsgate Studios Corp.](facts/0002052959/README.md) | LION | available; quality gates apply | project_sic_rule |
+| [MARCUS CORP](facts/0000062234/README.md) | MCS | available; quality gates apply | project_sic_rule |
+| [McGraw Hill, Inc.](facts/0001951070/README.md) | MH | available; quality gates apply | project_sic_rule |
+| [Mediaco Holding Inc.](facts/0001784254/README.md) | MDIA | available; quality gates apply | project_sic_rule |
+| [Mega Matrix Inc](facts/0001953021/README.md) | MPU | missing | project_sic_rule |
+| [MILLICOM INTERNATIONAL CELLULAR SA](facts/0000912958/README.md) | TIGO | missing | project_sic_rule |
+| [Myseum.AI, Inc.](facts/0001648960/README.md) | MYSE | available; quality gates apply | project_sic_rule |
+| [NETFLIX INC](facts/0001065280/README.md) | NFLX | available; quality gates apply | project_sic_rule |
+| [NEW YORK TIMES CO](facts/0000071691/README.md) | NYT | available; quality gates apply | project_sic_rule |
+| [NEWS CORP](facts/0001564708/README.md) | NWS, NWSA | available; quality gates apply | project_sic_rule |
+| [Newsmax Inc.](facts/0002026478/README.md) | NMAX | available; quality gates apply | project_sic_rule |
+| [NEXSTAR MEDIA GROUP, INC.](facts/0001142417/README.md) | NXST | available; quality gates apply | project_sic_rule |
+| [NextPlat Corp](facts/0001058307/README.md) | NXPL | available; quality gates apply | project_sic_rule |
+| [Nexus Advanced Technologies Inc.](facts/0002000756/README.md) | NXAT | missing | project_sic_rule |
+| [NorthStar Earth & Space Enterprises, Inc.](facts/0002080023/README.md) | NSTR | available; quality gates apply | project_sic_rule |
+| [OMNICOM GROUP INC.](facts/0000029989/README.md) | OMC | missing | project_sic_rule |
+| [Optimum Communications, Inc.](facts/0001702780/README.md) | OPTU | available; quality gates apply | project_sic_rule |
+| [Our Bond, Inc.](facts/0001756064/README.md) | OBAI | available; quality gates apply | project_sic_rule |
+| [Paradium.AI, Inc.](facts/0000894871/README.md) | PAAI | available; quality gates apply | project_sic_rule |
+| [PEARSON PLC](facts/0000938323/README.md) | PSO | missing | project_sic_rule |
+| [Phoenix New Media Ltd](facts/0001509646/README.md) | FENG | missing | project_sic_rule |
+| [READING INTERNATIONAL INC](facts/0000716634/README.md) | RDI, RDIB | available; quality gates apply | project_sic_rule |
+| [ROKU, INC](facts/0001428439/README.md) | ROKU | available; quality gates apply | project_sic_rule |
+| [SAGA COMMUNICATIONS INC](facts/0000886136/README.md) | SGA | available; quality gates apply | project_sic_rule |
+| [SCHOLASTIC CORP](facts/0000866729/README.md) | SCHL | available; quality gates apply | project_sic_rule |
+| [SHENANDOAH TELECOMMUNICATIONS CO/VA/](facts/0000354963/README.md) | SHEN | missing | project_sic_rule |
+| [Sidus Space Inc.](facts/0001879726/README.md) | SIDU | available; quality gates apply | project_sic_rule |
+| [Sinclair, Inc.](facts/0001971213/README.md) | SBGI | available; quality gates apply | project_sic_rule |
+| [SIRIUS XM HOLDINGS INC.](facts/0000908937/README.md) | SIRI | available; quality gates apply | project_sic_rule |
+| [SK TELECOM CO LTD](facts/0001015650/README.md) | SKM | missing | project_sic_rule |
+| [Skydance Corp](facts/0002041610/README.md) | SKYD | available; quality gates apply | project_sic_rule |
+| [Spire Global, Inc.](facts/0001816017/README.md) | SPIR | available; quality gates apply | project_sic_rule |
+| [Spok Holdings, Inc](facts/0001289945/README.md) | SPOK | available; quality gates apply | project_sic_rule |
+| [Spotify Technology S.A.](facts/0001639920/README.md) | SPOT | missing | project_sic_rule |
+| [Stagwell Inc](facts/0000876883/README.md) | STGW | available; quality gates apply | project_sic_rule |
+| [STARZ ENTERTAINMENT CORP /CN/](facts/0000929351/README.md) | STRZ | available; quality gates apply | project_sic_rule |
+| [Stran & Company, Inc.](facts/0001872525/README.md) | SWAG | available; quality gates apply | project_sic_rule |
+| [SurgePays, Inc.](facts/0001392694/README.md) | SURG | available; quality gates apply | project_sic_rule |
+| [T-Mobile US, Inc.](facts/0001283699/README.md) | TMUS | available; quality gates apply | project_sic_rule |
+| [TechTarget, Inc.](facts/0002018064/README.md) | TTGT | available; quality gates apply | project_sic_rule |
+| [TELECOM ARGENTINA SA](facts/0000932470/README.md) | TEO | missing | project_sic_rule |
+| [TELEFONICA BRASIL S.A.](facts/0001066119/README.md) | VIV | missing | project_sic_rule |
+| [TELEPHONE & DATA SYSTEMS INC /DE/](facts/0001051512/README.md) | TDS, TDS$U, TDS$V | available; quality gates apply | project_sic_rule |
+| [Telesat Corp](facts/0001845840/README.md) | TSAT | missing | project_sic_rule |
+| [TELUS CORP](facts/0000868675/README.md) | TU | missing | project_sic_rule |
+| [Tencent Music Entertainment Group](facts/0001744676/README.md) | TME | missing | project_sic_rule |
+| [TIM S.A.](facts/0001826168/README.md) | TIMB | missing | project_sic_rule |
+| [TJGC GROUP Ltd](facts/0001969928/README.md) | TJGC | missing | project_sic_rule |
+| [Townsquare Media, Inc.](facts/0001499832/README.md) | TSQ | available; quality gates apply | project_sic_rule |
+| [TURKCELL ILETISIM HIZMETLERI A S](facts/0001071321/README.md) | TKC | missing | project_sic_rule |
+| [uCloudlink Group Inc.](facts/0001775898/README.md) | UCL | missing | project_sic_rule |
+| [Uniti Group Inc.](facts/0002020795/README.md) | UNIT | available; quality gates apply | project_sic_rule |
+| [URBAN ONE, INC.](facts/0001041657/README.md) | UONE, UONEK | available; quality gates apply | project_sic_rule |
+| [USA TODAY Co., Inc.](facts/0001579684/README.md) | TDAY | available; quality gates apply | project_sic_rule |
+| [VEON Ltd.](facts/0001468091/README.md) | VEON | missing | project_sic_rule |
+| [VERIZON COMMUNICATIONS INC](facts/0000732712/README.md) | VZ | available; quality gates apply | project_sic_rule |
+| [Versant Media Group, Inc.](facts/0002067876/README.md) | VSNT | available; quality gates apply | project_sic_rule |
+| [VIASAT INC](facts/0000797721/README.md) | VSAT | available; quality gates apply | project_sic_rule |
+| [WEBTOON Entertainment Inc.](facts/0001997859/README.md) | WBTN | available; quality gates apply | project_sic_rule |
+| [WISeSat.Space Holdings Corp.](facts/0002101411/README.md) | SAIQ | missing | project_sic_rule |
+| [WPP plc](facts/0000806968/README.md) | WPP | missing | project_sic_rule |
+| [ZIFF DAVIS, INC.](facts/0001084048/README.md) | ZD | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

@@ -4,15 +4,356 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **342**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [5E Advanced Materials, Inc.](facts/0001888654/README.md) | FEAM | available; quality gates apply | project_sic_rule |
+| [ADURO CLEAN TECHNOLOGIES INC.](facts/0001863934/README.md) | ADUR | missing | project_sic_rule |
+| [ADVANCED DRAINAGE SYSTEMS, INC.](facts/0001604028/README.md) | WMS | available; quality gates apply | project_sic_rule |
+| [AdvanSix Inc.](facts/0001673985/README.md) | ASIX | available; quality gates apply | project_sic_rule |
+| [AEMETIS, INC](facts/0000738214/README.md) | AMTX | available; quality gates apply | project_sic_rule |
+| [AGNICO EAGLE MINES LTD](facts/0000002809/README.md) | AEM | missing | project_sic_rule |
+| [Air Products & Chemicals, Inc.](facts/0000002969/README.md) | APD | available; quality gates apply | project_sic_rule |
+| [ALAMOS GOLD INC](facts/0001178819/README.md) | AGI | missing | project_sic_rule |
+| [ALBEMARLE CORP](facts/0000915913/README.md) | ALB, ALB$A | available; quality gates apply | project_sic_rule |
+| [Alcoa Corp](facts/0001675149/README.md) | AA | available; quality gates apply | project_sic_rule |
+| [Algoma Steel Group Inc.](facts/0001860805/README.md) | ASTL | missing | project_sic_rule |
+| [Allied Gold Corp](facts/0001993344/README.md) | AAUC | missing | project_sic_rule |
+| [Almonty Industries Inc.](facts/0001670061/README.md) | ALM | missing | project_sic_rule |
+| [Alto Ingredients, Inc.](facts/0000778164/README.md) | ALTO | available; quality gates apply | project_sic_rule |
+| [Amaero Inc.](facts/0002141616/README.md) | AMRO | missing | project_sic_rule |
+| [AMERICAN BATTERY TECHNOLOGY Co](facts/0001576873/README.md) | ABAT | available; quality gates apply | project_sic_rule |
+| [AMERICAN VANGUARD CORP](facts/0000005981/README.md) | AVD | available; quality gates apply | project_sic_rule |
+| [Americas Gold & Silver Corp](facts/0001286973/README.md) | USAS | missing | project_sic_rule |
+| [Amrize Ltd](facts/0002035989/README.md) | AMRZ | available; quality gates apply | project_sic_rule |
+| [ANFIELD ENERGY INC.](facts/0001519469/README.md) | AEC | missing | project_sic_rule |
+| [AngloGold Ashanti PLC](facts/0001973832/README.md) | AU | missing | project_sic_rule |
+| [APOGEE ENTERPRISES, INC.](facts/0000006845/README.md) | APOG | available; quality gates apply | project_sic_rule |
+| [APTARGROUP, INC.](facts/0000896622/README.md) | ATR | available; quality gates apply | project_sic_rule |
+| [Aqua Metals, Inc.](facts/0001621832/README.md) | AQMS | available; quality gates apply | project_sic_rule |
+| [Ardagh Metal Packaging S.A.](facts/0001845097/README.md) | AMBP | missing | project_sic_rule |
+| [Aris Mining Corp](facts/0001964504/README.md) | ARIS | missing | project_sic_rule |
+| [ARMSTRONG WORLD INDUSTRIES INC](facts/0000007431/README.md) | AWI | available; quality gates apply | project_sic_rule |
+| [Arq, Inc.](facts/0001515156/README.md) | ARQ | available; quality gates apply | project_sic_rule |
+| [ASCENT INDUSTRIES CO.](facts/0000095953/README.md) | ACNT | available; quality gates apply | project_sic_rule |
+| [ASHLAND INC.](facts/0001674862/README.md) | ASH | available; quality gates apply | project_sic_rule |
+| [ASIA PACIFIC WIRE & CABLE CORP LTD](facts/0001026980/README.md) | APWC | missing | project_sic_rule |
+| [ASP Isotopes Inc.](facts/0001921865/README.md) | ASPI | available; quality gates apply | project_sic_rule |
+| [ATI INC](facts/0001018963/README.md) | ATI | available; quality gates apply | project_sic_rule |
+| [ATLAS CRITICAL MINERALS Corp](facts/0001684688/README.md) | ATCX | missing | project_sic_rule |
+| [Atlas Lithium Corp](facts/0001540684/README.md) | ATLX | available; quality gates apply | project_sic_rule |
+| [Aura Minerals Inc.](facts/0001468642/README.md) | AUGO | missing | project_sic_rule |
+| [Austin Gold Corp.](facts/0001817740/README.md) | AUST | missing | project_sic_rule |
+| [Avery Dennison Corp](facts/0000008818/README.md) | AVY | available; quality gates apply | project_sic_rule |
+| [AVIENT CORP](facts/0001122976/README.md) | AVNT | available; quality gates apply | project_sic_rule |
+| [AVINO SILVER & GOLD MINES LTD](facts/0000316888/README.md) | ASM | missing | project_sic_rule |
+| [Axalta Coating Systems Ltd.](facts/0001616862/README.md) | AXTA | missing | project_sic_rule |
+| [Aya Gold & Silver Inc.](facts/0001826836/README.md) | AYA | missing | project_sic_rule |
+| [B2GOLD CORP](facts/0001429937/README.md) | BTG | missing | project_sic_rule |
+| [BALCHEM CORP](facts/0000009326/README.md) | BCPC | available; quality gates apply | project_sic_rule |
+| [BALL Corp](facts/0000009389/README.md) | BALL | available; quality gates apply | project_sic_rule |
+| [BARRICK MINING CORP](facts/0000756894/README.md) | B | missing | project_sic_rule |
+| [BELDEN INC.](facts/0000913142/README.md) | BDC | available; quality gates apply | project_sic_rule |
+| [BHP Group Ltd](facts/0000811809/README.md) | BHP | missing | project_sic_rule |
+| [Big Tree Cloud Holdings Ltd](facts/0001999297/README.md) | DSY | missing | project_sic_rule |
+| [Bioceres Crop Solutions Corp.](facts/0001769484/README.md) | BIOX | missing | project_sic_rule |
+| [Black Mammoth Metals Corp](facts/0001929908/README.md) | BMMX | missing | project_sic_rule |
+| [Blue Gold Ltd](facts/0002019435/README.md) | BGL | missing | project_sic_rule |
+| [Blue Moon Metals Inc.](facts/0001732379/README.md) | BMM | missing | project_sic_rule |
+| [Brazil Potash Corp.](facts/0001472326/README.md) | GRO | missing | project_sic_rule |
+| [BROADWIND, INC.](facts/0001120370/README.md) | BWEN | available; quality gates apply | project_sic_rule |
+| [BUENAVENTURA MINING CO INC](facts/0001013131/README.md) | BVN | missing | project_sic_rule |
+| [CABOT CORP](facts/0000016040/README.md) | CBT | available; quality gates apply | project_sic_rule |
+| [Caesarstone Ltd.](facts/0001504379/README.md) | CSTE | missing | project_sic_rule |
+| [Caledonia Mining Corp Plc](facts/0000766011/README.md) | CMCL | missing | project_sic_rule |
+| [CAMECO CORP](facts/0001009001/README.md) | CCJ | missing | project_sic_rule |
+| [CARPENTER TECHNOLOGY CORP](facts/0000017843/README.md) | CRS | available; quality gates apply | project_sic_rule |
+| [Celanese Corp](facts/0001306830/README.md) | CE | available; quality gates apply | project_sic_rule |
+| [CEMENTOS PACASMAYO SAA](facts/0001221029/README.md) | CPAC | missing | project_sic_rule |
+| [Centerra Gold Inc.](facts/0001854640/README.md) | CGAU | missing | project_sic_rule |
+| [CENTRUS ENERGY CORP](facts/0001065059/README.md) | LEU | available; quality gates apply | project_sic_rule |
+| [CENTURY ALUMINUM CO](facts/0000949157/README.md) | CENX | available; quality gates apply | project_sic_rule |
+| [CF Industries Holdings, Inc.](facts/0001324404/README.md) | CF | available; quality gates apply | project_sic_rule |
+| [Chemours Co](facts/0001627223/README.md) | CC | available; quality gates apply | project_sic_rule |
+| [Chilwa Minerals Ltd](facts/0002113605/README.md) | CHWM | missing | project_sic_rule |
+| [CHINA NATURAL RESOURCES INC](facts/0000793628/README.md) | CHNR | missing | project_sic_rule |
+| [Cibus, Inc.](facts/0001705843/README.md) | CBUS | available; quality gates apply | project_sic_rule |
+| [CitroTech Inc.](facts/0000894556/README.md) | CITR | available; quality gates apply | project_sic_rule |
+| [CL Workshop Group Ltd](facts/0001948294/README.md) | NWGL | missing | project_sic_rule |
+| [Clearwater Paper Corp](facts/0001441236/README.md) | CLW | missing | project_sic_rule |
+| [CLEVELAND-CLIFFS INC.](facts/0000764065/README.md) | CLF | available; quality gates apply | project_sic_rule |
+| [CN ENERGY GROUP. INC.](facts/0001780785/README.md) | CNEY | missing | project_sic_rule |
+| [CODEXIS, INC.](facts/0001200375/README.md) | CDXS | available; quality gates apply | project_sic_rule |
+| [Coeur Mining, Inc.](facts/0000215466/README.md) | CDE | available; quality gates apply | project_sic_rule |
+| [Collective Mining Ltd.](facts/0001953575/README.md) | CNL | missing | project_sic_rule |
+| [COMMERCIAL METALS Co](facts/0000022444/README.md) | CMC | available; quality gates apply | project_sic_rule |
+| [Comstock Inc.](facts/0001120970/README.md) | LODE | available; quality gates apply | project_sic_rule |
+| [CONSTELLIUM SE](facts/0001563411/README.md) | CSTM | missing | project_sic_rule |
+| [Contango Silver & Gold Inc.](facts/0001502377/README.md) | CTGO | available; quality gates apply | project_sic_rule |
+| [CORE MOLDING TECHNOLOGIES INC](facts/0001026655/README.md) | CMT | available; quality gates apply | project_sic_rule |
+| [CORNING INC /NY](facts/0000024741/README.md) | GLW | available; quality gates apply | project_sic_rule |
+| [CPS TECHNOLOGIES CORP/DE/](facts/0000814676/README.md) | CPSH | available; quality gates apply | project_sic_rule |
+| [Critical Metals Corp.](facts/0001951089/README.md) | CRML | missing | project_sic_rule |
+| [CROWN HOLDINGS, INC.](facts/0001219601/README.md) | CCK | available; quality gates apply | project_sic_rule |
+| [CSW INDUSTRIALS, INC.](facts/0001624794/README.md) | CSW | available; quality gates apply | project_sic_rule |
+| [CVR PARTNERS, LP](facts/0001425292/README.md) | UAN | available; quality gates apply | project_sic_rule |
+| [Dakota Gold Corp.](facts/0001852353/README.md) | DC | available; quality gates apply | project_sic_rule |
+| [DENISON MINES CORP.](facts/0001063259/README.md) | DNN | missing | project_sic_rule |
+| [DESWELL INDUSTRIES INC](facts/0000946936/README.md) | DSWL | missing | project_sic_rule |
+| [DMC Global Inc.](facts/0000034067/README.md) | BOOM | available; quality gates apply | project_sic_rule |
+| [DOW INC.](facts/0001751788/README.md) | DOW | missing | project_sic_rule |
+| [DPC Holdings PLC](facts/0002107018/README.md) | DPC | available; quality gates apply | project_sic_rule |
+| [DRDGOLD LTD](facts/0001023512/README.md) | DRD | missing | project_sic_rule |
+| [DSS, INC.](facts/0000771999/README.md) | DSS | available; quality gates apply | project_sic_rule |
+| [DuPont de Nemours, Inc.](facts/0001666700/README.md) | DD | available; quality gates apply | project_sic_rule |
+| [EAGLE MATERIALS INC](facts/0000918646/README.md) | EXP | available; quality gates apply | project_sic_rule |
+| [Eagle Nuclear Energy Corp.](facts/0002089283/README.md) | NUCL | available; quality gates apply | project_sic_rule |
+| [EASTMAN CHEMICAL CO](facts/0000915389/README.md) | EMN | available; quality gates apply | project_sic_rule |
+| [Ecovyst Inc.](facts/0001708035/README.md) | ECVT | available; quality gates apply | project_sic_rule |
+| [EIDP, Inc.](facts/0000030554/README.md) | CTA$A, CTA$B | missing | project_sic_rule |
+| [ELDORADO GOLD CORP /FI](facts/0000918608/README.md) | EGO | missing | project_sic_rule |
+| [Electra Battery Materials Corp](facts/0001907184/README.md) | ELBM | missing | project_sic_rule |
+| [Element Solutions Inc](facts/0001590714/README.md) | ESI | available; quality gates apply | project_sic_rule |
+| [Elemental Royalty Corp](facts/0002086771/README.md) | ELE | missing | project_sic_rule |
+| [Elevra Lithium Ltd](facts/0001739016/README.md) | ELVR | missing | project_sic_rule |
+| [enCore Energy Corp.](facts/0001500881/README.md) | EU | available; quality gates apply | project_sic_rule |
+| [ENDEAVOUR SILVER CORP](facts/0001277866/README.md) | EXK | missing | project_sic_rule |
+| [ENERGY FUELS INC](facts/0001385849/README.md) | UUUU | available; quality gates apply | project_sic_rule |
+| [ENTEGRIS INC](facts/0001101302/README.md) | ENTG | available; quality gates apply | project_sic_rule |
+| [Equinox Gold Corp.](facts/0001756607/README.md) | EQX | missing | project_sic_rule |
+| [Ero Copper Corp.](facts/0001853860/README.md) | ERO | missing | project_sic_rule |
+| [Evogene Ltd.](facts/0001574565/README.md) | EVGN | missing | project_sic_rule |
+| [Ferroglobe PLC](facts/0001639877/README.md) | GSM | missing | project_sic_rule |
+| [FIRST MAJESTIC SILVER CORP](facts/0001308648/README.md) | AG | missing | project_sic_rule |
+| [First Phosphate Corp.](facts/0001490078/README.md) | PHOS | missing | project_sic_rule |
+| [FLEXIBLE SOLUTIONS INTERNATIONAL INC](facts/0001069394/README.md) | FSI | available; quality gates apply | project_sic_rule |
+| [FLOTEK INDUSTRIES INC/CN/](facts/0000928054/README.md) | FTK | available; quality gates apply | project_sic_rule |
+| [FMC CORP](facts/0000037785/README.md) | FMC | available; quality gates apply | project_sic_rule |
+| [Foremost Clean Energy Ltd.](facts/0001935418/README.md) | FMST | missing | project_sic_rule |
+| [Fort Technology Inc](facts/0002092967/README.md) | FRTT | missing | project_sic_rule |
+| [FORTUNA MINING CORP.](facts/0001341335/README.md) | FSM | missing | project_sic_rule |
+| [Fortune Brands Innovations, Inc.](facts/0001519751/README.md) | FBIN | available; quality gates apply | project_sic_rule |
+| [FRANCO NEVADA Corp](facts/0001456346/README.md) | FNV | missing | project_sic_rule |
+| [FREEPORT-MCMORAN INC](facts/0000831259/README.md) | FCX | available; quality gates apply | project_sic_rule |
+| [FRIEDMAN INDUSTRIES INC](facts/0000039092/README.md) | FRD | available; quality gates apply | project_sic_rule |
+| [Frontier Nuclear & Minerals Inc.](facts/0001769697/README.md) | FNUC | missing | project_sic_rule |
+| [FURY GOLD MINES LTD](facts/0001514597/README.md) | FURY | missing | project_sic_rule |
+| [FutureFuel Corp.](facts/0001337298/README.md) | FF | available; quality gates apply | project_sic_rule |
+| [Galiano Gold Inc.](facts/0001377757/README.md) | GAU | missing | project_sic_rule |
+| [GERDAU S.A.](facts/0001073404/README.md) | GGB | missing | project_sic_rule |
+| [Gevo, Inc.](facts/0001392380/README.md) | GEVO | available; quality gates apply | project_sic_rule |
+| [GIBRALTAR INDUSTRIES, INC.](facts/0000912562/README.md) | ROCK | available; quality gates apply | project_sic_rule |
+| [GOLD FIELDS LTD](facts/0001172724/README.md) | GFI | missing | project_sic_rule |
+| [Gold Royalty Corp.](facts/0001834026/README.md) | GROY | missing | project_sic_rule |
+| [Gold X2 Mining Inc.](facts/0001961592/README.md) | AUXX | missing | project_sic_rule |
+| [Goldgroup Mining Inc.](facts/0001515964/README.md) | GORO | missing | project_sic_rule |
+| [GoldMining Inc.](facts/0001538847/README.md) | GLDG | missing | project_sic_rule |
+| [GRAPHIC PACKAGING HOLDING CO](facts/0001408075/README.md) | GPK | available; quality gates apply | project_sic_rule |
+| [Green Plains Inc.](facts/0001309402/README.md) | GPRE | available; quality gates apply | project_sic_rule |
+| [GREIF, INC](facts/0000043920/README.md) | GEF, GEF.B | missing | project_sic_rule |
+| [GRUPO SIMEC, S.A.B. de C.V.](facts/0000887153/README.md) | SIM | missing | project_sic_rule |
+| [GULF RESOURCES, INC.](facts/0000885462/README.md) | GURE | available; quality gates apply | project_sic_rule |
+| [Hall Chadwick Acquisition Corp](facts/0002079013/README.md) | HCAC | missing | project_sic_rule |
+| [HARMONY GOLD MINING CO LTD](facts/0001023514/README.md) | HMY | missing | project_sic_rule |
+| [HAWKINS INC](facts/0000046250/README.md) | HWKN | available; quality gates apply | project_sic_rule |
+| [HECLA MINING CO/DE/](facts/0000719413/README.md) | HL, HL$B | available; quality gates apply | project_sic_rule |
+| [HEXCEL CORP /DE/](facts/0000717605/README.md) | HXL | available; quality gates apply | project_sic_rule |
+| [Highlander Silver Corp.](facts/0002013223/README.md) | HSLV | missing | project_sic_rule |
+| [Howmet Aerospace Inc.](facts/0000004281/README.md) | HWM | available; quality gates apply | project_sic_rule |
+| [Huadi International Group Co., Ltd.](facts/0001791725/README.md) | HUDI | missing | project_sic_rule |
+| [Hudbay Minerals Inc.](facts/0001322422/README.md) | HBM | missing | project_sic_rule |
+| [HUHUTECH International Group Inc.](facts/0001945415/README.md) | HUHU | missing | project_sic_rule |
+| [Huntsman CORP](facts/0001307954/README.md) | HUN | missing | project_sic_rule |
+| [HYCROFT MINING HOLDING CORP](facts/0001718405/README.md) | HYMC | available; quality gates apply | project_sic_rule |
+| [i-80 Gold Corp.](facts/0001853962/README.md) | IAUX | available; quality gates apply | project_sic_rule |
+| [IAMGOLD CORP](facts/0001203464/README.md) | IAG | missing | project_sic_rule |
+| [ICL Group Ltd.](facts/0000941221/README.md) | ICL | missing | project_sic_rule |
+| [Idaho Copper Corp](facts/0001263364/README.md) | COPR | available; quality gates apply | project_sic_rule |
+| [Idaho Strategic Resources, Inc.](facts/0001030192/README.md) | IDR | available; quality gates apply | project_sic_rule |
+| [IMC Rare Earths Ltd](facts/0002098395/README.md) | IMC | missing | project_sic_rule |
+| [Ingevity Corp](facts/0001653477/README.md) | NGVT | available; quality gates apply | project_sic_rule |
+| [INNOSPEC INC.](facts/0001054905/README.md) | IOSP | available; quality gates apply | project_sic_rule |
+| [INSTEEL INDUSTRIES INC](facts/0000764401/README.md) | IIIN | available; quality gates apply | project_sic_rule |
+| [Integra Resources Corp.](facts/0001722387/README.md) | ITRG | missing | project_sic_rule |
+| [INTERNATIONAL FLAVORS & FRAGRANCES INC](facts/0000051253/README.md) | IFF | available; quality gates apply | project_sic_rule |
+| [INTERNATIONAL TOWER HILL MINES LTD](facts/0001134115/README.md) | THM | available; quality gates apply | project_sic_rule |
+| [Intrepid Potash, Inc.](facts/0001421461/README.md) | IPI | available; quality gates apply | project_sic_rule |
+| [ioneer Ltd](facts/0001896084/README.md) | IONR | missing | project_sic_rule |
+| [IPERIONX Ltd](facts/0001898601/README.md) | IPX | missing | project_sic_rule |
+| [IsoEnergy Ltd.](facts/0001997377/README.md) | ISOU | missing | project_sic_rule |
+| [IT TECH PACKAGING, INC.](facts/0001358190/README.md) | ITP | available; quality gates apply | project_sic_rule |
+| [Ivanhoe Electric Inc.](facts/0001879016/README.md) | IE | available; quality gates apply | project_sic_rule |
+| [Jaguar Uranium Corp.](facts/0002039273/README.md) | JAGU | available; quality gates apply | project_sic_rule |
+| [James Hardie Industries plc](facts/0001159152/README.md) | JHX | available; quality gates apply | project_sic_rule |
+| [JBDI Holdings Ltd](facts/0001964314/README.md) | JBDI | missing | project_sic_rule |
+| [JELD-WEN Holding, Inc.](facts/0001674335/README.md) | JELD | available; quality gates apply | project_sic_rule |
+| [KAISER ALUMINUM CORP](facts/0000811596/README.md) | KALU | available; quality gates apply | project_sic_rule |
+| [Karat Packaging Inc.](facts/0001758021/README.md) | KRT | available; quality gates apply | project_sic_rule |
+| [KIMBERLY CLARK CORP](facts/0000055785/README.md) | KMB | available; quality gates apply | project_sic_rule |
+| [KINROSS GOLD CORP](facts/0000701818/README.md) | KGC | missing | project_sic_rule |
+| [Koppers Holdings Inc.](facts/0001315257/README.md) | KOP | available; quality gates apply | project_sic_rule |
+| [KRONOS WORLDWIDE INC](facts/0001257640/README.md) | KRO | available; quality gates apply | project_sic_rule |
+| [LanzaTech Global, Inc.](facts/0001843724/README.md) | LNZA | available; quality gates apply | project_sic_rule |
+| [Largo Inc.](facts/0001400438/README.md) | LGO | missing | project_sic_rule |
+| [Latham Group, Inc.](facts/0001833197/README.md) | SWIM | available; quality gates apply | project_sic_rule |
+| [Lifezone Metals Ltd](facts/0001958217/README.md) | LZM | missing | project_sic_rule |
+| [LIGHTBRIDGE Corp](facts/0001084554/README.md) | LTBR | available; quality gates apply | project_sic_rule |
+| [Lightwave Logic, Inc.](facts/0001325964/README.md) | LWLG | available; quality gates apply | project_sic_rule |
+| [LINDE PLC](facts/0001707925/README.md) | LIN | available; quality gates apply | project_sic_rule |
+| [LITHIUM AMERICAS CORP.](facts/0001966983/README.md) | LAC | available; quality gates apply | project_sic_rule |
+| [Lithium Argentina AG](facts/0001440972/README.md) | LAR | missing | project_sic_rule |
+| [Londian Wason New Energy Tech Inc.](facts/0002006960/README.md) | FOIL | missing | project_sic_rule |
+| [Loop Industries, Inc.](facts/0001504678/README.md) | LOOP | available; quality gates apply | project_sic_rule |
+| [LOUISIANA-PACIFIC CORP](facts/0000060519/README.md) | LPX | available; quality gates apply | project_sic_rule |
+| [LSB INDUSTRIES, INC.](facts/0000060714/README.md) | LXU | available; quality gates apply | project_sic_rule |
+| [Luda Technology Group Ltd](facts/0001984124/README.md) | LUD | missing | project_sic_rule |
+| [LUXFER HOLDINGS PLC](facts/0001096056/README.md) | LXFR | available; quality gates apply | project_sic_rule |
+| [LyondellBasell Industries N.V.](facts/0001489393/README.md) | LYB | available; quality gates apply | project_sic_rule |
+| [Magnera Corp](facts/0000041719/README.md) | MAGN | available; quality gates apply | project_sic_rule |
+| [Mako Mining Corp.](facts/0001784930/README.md) | MAKO | missing | project_sic_rule |
+| [MARTIN MARIETTA MATERIALS INC](facts/0000916076/README.md) | MLM | available; quality gates apply | project_sic_rule |
+| [Mativ Holdings, Inc.](facts/0001000623/README.md) | MATV | available; quality gates apply | project_sic_rule |
+| [MATTHEWS INTERNATIONAL CORP](facts/0000063296/README.md) | MATW | available; quality gates apply | project_sic_rule |
+| [MAYFAIR GOLD CORP.](facts/0001823255/README.md) | MINE | missing | project_sic_rule |
+| [McEwen Inc.](facts/0000314203/README.md) | MUX | available; quality gates apply | project_sic_rule |
+| [MERCER INTERNATIONAL INC.](facts/0001333274/README.md) | MERC | available; quality gates apply | project_sic_rule |
+| [MESABI TRUST](facts/0000065172/README.md) | MSB | available; quality gates apply | project_sic_rule |
+| [Metalla Royalty & Streaming Ltd.](facts/0001722606/README.md) | MTA | missing | project_sic_rule |
+| [Metallus Inc.](facts/0001598428/README.md) | MTUS | available; quality gates apply | project_sic_rule |
+| [Metals Royalty Co Inc.](facts/0002087398/README.md) | TMCR | missing | project_sic_rule |
+| [METHANEX CORP](facts/0000886977/README.md) | MEOH | missing | project_sic_rule |
+| [MINERALS TECHNOLOGIES INC](facts/0000891014/README.md) | MTX | available; quality gates apply | project_sic_rule |
+| [MOSAIC CO](facts/0001285785/README.md) | MOS | available; quality gates apply | project_sic_rule |
+| [MP Materials Corp. / DE](facts/0001801368/README.md) | MP | available; quality gates apply | project_sic_rule |
+| [MUELLER INDUSTRIES INC](facts/0000089439/README.md) | MLI | available; quality gates apply | project_sic_rule |
+| [MYERS INDUSTRIES INC](facts/0000069488/README.md) | MYE | available; quality gates apply | project_sic_rule |
+| [Namib Minerals](facts/0002026514/README.md) | NAMM | missing | project_sic_rule |
+| [New Found Gold Corp.](facts/0001840616/README.md) | NFGC | missing | project_sic_rule |
+| [NEW PACIFIC METALS CORP](facts/0001369085/README.md) | NEWP | missing | project_sic_rule |
+| [NEWELL BRANDS INC.](facts/0000814453/README.md) | NWL | available; quality gates apply | project_sic_rule |
+| [NEWMARKET CORP](facts/0001282637/README.md) | NEU | available; quality gates apply | project_sic_rule |
+| [NEWMONT Corp /DE/](facts/0001164727/README.md) | NEM | available; quality gates apply | project_sic_rule |
+| [Nexa Resources S.A.](facts/0001713930/README.md) | NEXA | missing | project_sic_rule |
+| [NexGen Energy Ltd.](facts/0001698535/README.md) | NXE | missing | project_sic_rule |
+| [NexMetals Mining Corp.](facts/0000795800/README.md) | NEXM | missing | project_sic_rule |
+| [NICOLA MINING INC.](facts/0001526475/README.md) | NICM | missing | project_sic_rule |
+| [NIOCORP DEVELOPMENTS LTD](facts/0001512228/README.md) | NB | available; quality gates apply | project_sic_rule |
+| [NLI HOLDINGS, INC.](facts/0000072162/README.md) | NL | available; quality gates apply | project_sic_rule |
+| [NORTHERN DYNASTY MINERALS LTD](facts/0001164771/README.md) | NAK | missing | project_sic_rule |
+| [Nouveau Monde Graphite Inc.](facts/0001649752/README.md) | NMG | missing | project_sic_rule |
+| [Nova Minerals Corp](facts/0001852551/README.md) | NVA | available; quality gates apply | project_sic_rule |
+| [NOVAGOLD RESOURCES INC](facts/0001173420/README.md) | NG | available; quality gates apply | project_sic_rule |
+| [NUCOR CORP](facts/0000073309/README.md) | NUE | available; quality gates apply | project_sic_rule |
+| [Nutrien Ltd.](facts/0001725964/README.md) | NTR | missing | project_sic_rule |
+| [NWPX Infrastructure, Inc.](facts/0001001385/README.md) | NWPX | available; quality gates apply | project_sic_rule |
+| [O-I Glass, Inc. /DE/](facts/0000812074/README.md) | OI | available; quality gates apply | project_sic_rule |
+| [OceanaGold Corp](facts/0001487326/README.md) | OGC | missing | project_sic_rule |
+| [OLIN Corp](facts/0000074303/README.md) | OLN | available; quality gates apply | project_sic_rule |
+| [OPTICAL CABLE CORP](facts/0001000230/README.md) | OCC | available; quality gates apply | project_sic_rule |
+| [OR Royalties Inc.](facts/0001627272/README.md) | OR | missing | project_sic_rule |
+| [Orion S.A.](facts/0001609804/README.md) | OEC | available; quality gates apply | project_sic_rule |
+| [Osisko Gold Group Inc.](facts/0001431852/README.md) | OGG | missing | project_sic_rule |
+| [Owens Corning](facts/0001370946/README.md) | OC | available; quality gates apply | project_sic_rule |
+| [PACKAGING CORP OF AMERICA](facts/0000075677/README.md) | PKG | available; quality gates apply | project_sic_rule |
+| [PAN AMERICAN SILVER CORP](facts/0000771992/README.md) | PAAS | missing | project_sic_rule |
+| [Paramount Gold Nevada Corp.](facts/0001629210/README.md) | PZG | available; quality gates apply | project_sic_rule |
+| [Perimeter Solutions, Inc.](facts/0001880319/README.md) | PRM | available; quality gates apply | project_sic_rule |
+| [PERPETUA RESOURCES CORP.](facts/0001526243/README.md) | PPTA | available; quality gates apply | project_sic_rule |
+| [PLATINUM GROUP METALS LTD](facts/0001095052/README.md) | PLG | missing | project_sic_rule |
+| [POSCO HOLDINGS INC.](facts/0000889132/README.md) | PKX | missing | project_sic_rule |
+| [PPG INDUSTRIES INC](facts/0000079879/README.md) | PPG | missing | project_sic_rule |
+| [PureCycle Technologies, Inc.](facts/0001830033/README.md) | PCT | available; quality gates apply | project_sic_rule |
+| [Quanex Building Products CORP](facts/0001423221/README.md) | NX | available; quality gates apply | project_sic_rule |
+| [Ranpak Holdings Corp.](facts/0001712463/README.md) | PACK | available; quality gates apply | project_sic_rule |
+| [Rare Earths Americas, Inc.](facts/0002095743/README.md) | REA | available; quality gates apply | project_sic_rule |
+| [RAYONIER ADVANCED MATERIALS INC.](facts/0001597672/README.md) | RYAM | available; quality gates apply | project_sic_rule |
+| [REALLOYS INC.](facts/0001567900/README.md) | ALOY | available; quality gates apply | project_sic_rule |
+| [Resolution Minerals Ltd](facts/0002102907/README.md) | RML | missing | project_sic_rule |
+| [ReTo Eco-Solutions, Inc.](facts/0001687277/README.md) | RETO | missing | project_sic_rule |
+| [REX AMERICAN RESOURCES Corp](facts/0000744187/README.md) | REX | available; quality gates apply | project_sic_rule |
+| [Reynolds Consumer Products Inc.](facts/0001786431/README.md) | REYN | missing | project_sic_rule |
+| [RIO TINTO PLC](facts/0000863064/README.md) | RIO | missing | project_sic_rule |
+| [ROGERS CORP](facts/0000084748/README.md) | ROG | missing | project_sic_rule |
+| [ROYAL GOLD INC](facts/0000085535/README.md) | RGLD | available; quality gates apply | project_sic_rule |
+| [RPM INTERNATIONAL INC/DE/](facts/0000110621/README.md) | RPM | available; quality gates apply | project_sic_rule |
+| [Santacruz Silver Mining Ltd.](facts/0001548536/README.md) | SCZM | missing | project_sic_rule |
+| [Scorpio Gold Corp](facts/0001467093/README.md) | SGLD | missing | project_sic_rule |
+| [SCOTTS MIRACLE-GRO CO](facts/0000825542/README.md) | SMG | available; quality gates apply | project_sic_rule |
+| [Scully Royalty Ltd.](facts/0000016859/README.md) | SRL | missing | project_sic_rule |
+| [SEABRIDGE GOLD INC](facts/0001231346/README.md) | SA | missing | project_sic_rule |
+| [SenesTech, Inc.](facts/0001680378/README.md) | SNES | available; quality gates apply | project_sic_rule |
+| [SENSIENT TECHNOLOGIES CORP](facts/0000310142/README.md) | SXT | available; quality gates apply | project_sic_rule |
+| [Sigma Lithium Corp](facts/0001848309/README.md) | SGML | missing | project_sic_rule |
+| [SILGAN HOLDINGS INC](facts/0000849869/README.md) | SLGN | available; quality gates apply | project_sic_rule |
+| [SILVER BOW MINING CORP.](facts/0002067674/README.md) | SBMT | available; quality gates apply | project_sic_rule |
+| [SILVERCORP METALS INC](facts/0001340677/README.md) | SVM | missing | project_sic_rule |
+| [Sinda Ltd.](facts/0002096861/README.md) | SIND | available; quality gates apply | project_sic_rule |
+| [Skeena Resources Ltd](facts/0001713748/README.md) | SKE | missing | project_sic_rule |
+| [Smart Sand, Inc.](facts/0001529628/README.md) | SND | available; quality gates apply | project_sic_rule |
+| [SMITH MIDLAND CORP](facts/0000924719/README.md) | SMID | available; quality gates apply | project_sic_rule |
+| [Smurfit Westrock plc](facts/0002005951/README.md) | SW | available; quality gates apply | project_sic_rule |
+| [Solaris Resources Inc.](facts/0002019103/README.md) | SLSR | missing | project_sic_rule |
+| [SOLITARIO RESOURCES CORP.](facts/0000917225/README.md) | XPL | available; quality gates apply | project_sic_rule |
+| [Solstice Advanced Materials Inc.](facts/0002064953/README.md) | SOLS | available; quality gates apply | project_sic_rule |
+| [SONOCO PRODUCTS CO](facts/0000091767/README.md) | SON | missing | project_sic_rule |
+| [SOUTHERN COPPER CORP/](facts/0001001838/README.md) | SCCO | available; quality gates apply | project_sic_rule |
+| [SSR MINING INC.](facts/0000921638/README.md) | SSRM | available; quality gates apply | project_sic_rule |
+| [STANDARD LITHIUM LTD.](facts/0001537137/README.md) | SLI | missing | project_sic_rule |
+| [Standard Nuclear, Inc.](facts/0002086716/README.md) | STDN | available; quality gates apply | project_sic_rule |
+| [STEEL DYNAMICS INC](facts/0001022671/README.md) | STLD | available; quality gates apply | project_sic_rule |
+| [SunCoke Energy, Inc.](facts/0001514705/README.md) | SXC | available; quality gates apply | project_sic_rule |
+| [Suncrete, Inc.](facts/0002094433/README.md) | RMIX | available; quality gates apply | project_sic_rule |
+| [Sunshine Silver Mining & Refining Co](facts/0002091017/README.md) | SSMR | available; quality gates apply | project_sic_rule |
+| [Suzano S.A.](facts/0000909327/README.md) | SUZ | missing | project_sic_rule |
+| [Sylvamo Corp](facts/0001856485/README.md) | SLVM | available; quality gates apply | project_sic_rule |
+| [Tactical Resources Corp.](facts/0002041208/README.md) | TREO | missing | project_sic_rule |
+| [TANTECH HOLDINGS LTD](facts/0001588084/README.md) | TANH | missing | project_sic_rule |
+| [TECK RESOURCES LTD](facts/0000886986/README.md) | TECK | missing | project_sic_rule |
+| [Tecnoglass Holdings Inc.](facts/0001534675/README.md) | TGLS | available; quality gates apply | project_sic_rule |
+| [TENARIS SA](facts/0001190723/README.md) | TS | missing | project_sic_rule |
+| [Texxon Holding Ltd](facts/0002014337/README.md) | NPT | missing | project_sic_rule |
+| [Titan America SA](facts/0002035304/README.md) | TTAM | missing | project_sic_rule |
+| [TITAN INTERNATIONAL INC](facts/0000899751/README.md) | TWI | available; quality gates apply | project_sic_rule |
+| [Titan Mining Corp](facts/0001791703/README.md) | TII | missing | project_sic_rule |
+| [TMC the metals Co Inc.](facts/0001798562/README.md) | TMC | available; quality gates apply | project_sic_rule |
+| [TOMI Environmental Solutions, Inc.](facts/0000314227/README.md) | TOMZ | available; quality gates apply | project_sic_rule |
+| [TREDEGAR CORP](facts/0000850429/README.md) | TG | available; quality gates apply | project_sic_rule |
+| [Trekor Metals Ltd](facts/0000878518/README.md) | TGB | missing | project_sic_rule |
+| [TREX CO INC](facts/0001069878/README.md) | TREX | available; quality gates apply | project_sic_rule |
+| [Trilogy Metals Inc.](facts/0001543418/README.md) | TMQ | available; quality gates apply | project_sic_rule |
+| [Triple Flag Precious Metals Corp.](facts/0001829726/README.md) | TFPM | missing | project_sic_rule |
+| [Tronox Holdings plc](facts/0001530804/README.md) | TROX | available; quality gates apply | project_sic_rule |
+| [TRX GOLD Corp](facts/0001173643/README.md) | TRX | missing | project_sic_rule |
+| [U.S. GOLD CORP.](facts/0000027093/README.md) | USAU | available; quality gates apply | project_sic_rule |
+| [U.S. GoldMining Inc.](facts/0001947244/README.md) | USGO | available; quality gates apply | project_sic_rule |
+| [UFP INDUSTRIES INC](facts/0000912767/README.md) | UFPI | available; quality gates apply | project_sic_rule |
+| [UNITED STATES ANTIMONY CORP](facts/0000101538/README.md) | UAMY | available; quality gates apply | project_sic_rule |
+| [UNITED STATES LIME & MINERALS INC](facts/0000082020/README.md) | USLM | available; quality gates apply | project_sic_rule |
+| [UR-ENERGY INC](facts/0001375205/README.md) | URG | available; quality gates apply | project_sic_rule |
+| [URANIUM ENERGY CORP](facts/0001334933/README.md) | UEC | available; quality gates apply | project_sic_rule |
+| [USA Rare Earth, Inc.](facts/0001970622/README.md) | USAR | available; quality gates apply | project_sic_rule |
+| [Vale S.A.](facts/0000917851/README.md) | VALE | missing | project_sic_rule |
+| [VALHI INC /DE/](facts/0000059255/README.md) | VHI | available; quality gates apply | project_sic_rule |
+| [Verde Clean Fuels, Inc.](facts/0001841425/README.md) | VGAS | available; quality gates apply | project_sic_rule |
+| [Versamet Royalties Corp](facts/0002080073/README.md) | VMET | missing | project_sic_rule |
+| [VISTA GOLD CORP](facts/0000783324/README.md) | VGZ | available; quality gates apply | project_sic_rule |
+| [Vizsla Silver Corp.](facts/0001796073/README.md) | VZLA | missing | project_sic_rule |
+| [VOX ROYALTY CORP.](facts/0001907909/README.md) | VOXR | missing | project_sic_rule |
+| [WD 40 CO](facts/0000105132/README.md) | WDFC | available; quality gates apply | project_sic_rule |
+| [WEST FRASER TIMBER CO., LTD](facts/0001402388/README.md) | WFG | missing | project_sic_rule |
+| [Western Copper & Gold Corp](facts/0001364125/README.md) | WRN | missing | project_sic_rule |
+| [Westlake Chemical Partners LP](facts/0001604665/README.md) | WLKP | available; quality gates apply | project_sic_rule |
+| [WESTLAKE CORP](facts/0001262823/README.md) | WLK | available; quality gates apply | project_sic_rule |
+| [WESTWATER RESOURCES, INC.](facts/0000839470/README.md) | WWR | missing | project_sic_rule |
+| [Wheaton Precious Metals Corp.](facts/0001323404/README.md) | WPM | missing | project_sic_rule |
+| [WORTHINGTON ENTERPRISES, INC.](facts/0000108516/README.md) | WOR | available; quality gates apply | project_sic_rule |
+| [Worthington Steel, Inc.](facts/0001968487/README.md) | WS | available; quality gates apply | project_sic_rule |
+| [XCF Global, Inc.](facts/0002019793/README.md) | SAFX | available; quality gates apply | project_sic_rule |
 
 ## Curated research
 

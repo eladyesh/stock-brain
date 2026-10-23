@@ -4,15 +4,723 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **709**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261023-39925380279-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
 | Company | Current symbols | Financial history | Classification basis |
 | --- | --- | --- | --- |
-
+| [1ST SOURCE CORP](facts/0000034782/README.md) | SRCE | available; quality gates apply | project_sic_rule |
+| [9F Inc.](facts/0001619544/README.md) | JFU | missing | project_sic_rule |
+| [Abacus Global Management, Inc.](facts/0001814287/README.md) | ABX | available; quality gates apply | project_sic_rule |
+| [Abits Group Inc](facts/0001864055/README.md) | ABTS | missing | project_sic_rule |
+| [Acadian Asset Management Inc.](facts/0001748824/README.md) | AAMI | available; quality gates apply | project_sic_rule |
+| [Accelerant Holdings](facts/0001997350/README.md) | ARX | available; quality gates apply | project_sic_rule |
+| [ACNB CORP](facts/0000715579/README.md) | ACNB | available; quality gates apply | project_sic_rule |
+| [AFFILIATED MANAGERS GROUP, INC.](facts/0001004434/README.md) | AMG | available; quality gates apply | project_sic_rule |
+| [Affirm Holdings, Inc.](facts/0001820953/README.md) | AFRM | available; quality gates apply | project_sic_rule |
+| [AFLAC INC](facts/0000004977/README.md) | AFL | available; quality gates apply | project_sic_rule |
+| [AGI Inc](facts/0002081206/README.md) | AGBK | missing | project_sic_rule |
+| [AI Financial Corp](facts/0000862861/README.md) | AIFC | available; quality gates apply | project_sic_rule |
+| [AIB Data Centers Inc.](facts/0002070542/README.md) | AIB | available; quality gates apply | project_sic_rule |
+| [AIFU Inc.](facts/0001413855/README.md) | AIFU | missing | project_sic_rule |
+| [ALERUS FINANCIAL CORP](facts/0000903419/README.md) | ALRS | available; quality gates apply | project_sic_rule |
+| [Alignment Healthcare, Inc.](facts/0001832466/README.md) | ALHC | available; quality gates apply | project_sic_rule |
+| [ALLSTATE CORP](facts/0000899051/README.md) | ALL, ALL$H, ALL$I, ALL$J | available; quality gates apply | project_sic_rule |
+| [Ally Financial Inc.](facts/0000040729/README.md) | ALLY | available; quality gates apply | project_sic_rule |
+| [Alpha Compute Corp](facts/0001095435/README.md) | ALP | missing | project_sic_rule |
+| [AlTi Global, Inc.](facts/0001838615/README.md) | ALTI | available; quality gates apply | project_sic_rule |
+| [Amalgamated Financial Corp.](facts/0001823608/README.md) | AMAL | available; quality gates apply | project_sic_rule |
+| [Amber International Holding Ltd](facts/0001697818/README.md) | AMBR | missing | project_sic_rule |
+| [Amerant Bancorp Inc.](facts/0001734342/README.md) | AMTB | available; quality gates apply | project_sic_rule |
+| [American Bitcoin Corp.](facts/0001755953/README.md) | ABTC | available; quality gates apply | project_sic_rule |
+| [AMERICAN COASTAL INSURANCE Corp](facts/0001401521/README.md) | ACIC | available; quality gates apply | project_sic_rule |
+| [AMERICAN EXPRESS CO](facts/0000004962/README.md) | AXP | available; quality gates apply | project_sic_rule |
+| [AMERICAN FINANCIAL GROUP INC](facts/0001042046/README.md) | AFG | available; quality gates apply | project_sic_rule |
+| [American Integrity Insurance Group, Inc.](facts/0002007587/README.md) | AII | available; quality gates apply | project_sic_rule |
+| [AMERICAN INTERNATIONAL GROUP, INC.](facts/0000005272/README.md) | AIG | available; quality gates apply | project_sic_rule |
+| [American National Group Inc.](facts/0001039828/README.md) | ANG$D | available; quality gates apply | project_sic_rule |
+| [AMERIPRISE FINANCIAL INC](facts/0000820027/README.md) | AMP | available; quality gates apply | project_sic_rule |
+| [Ameris Bancorp](facts/0000351569/README.md) | ABCB | available; quality gates apply | project_sic_rule |
+| [AMERISAFE INC](facts/0001018979/README.md) | AMSF | available; quality gates apply | project_sic_rule |
+| [AMERISERV FINANCIAL INC /PA/](facts/0000707605/README.md) | ASRV | available; quality gates apply | project_sic_rule |
+| [AMES NATIONAL CORP](facts/0001132651/README.md) | ATLO | available; quality gates apply | project_sic_rule |
+| [AMTD Digital Inc.](facts/0001809691/README.md) | HKD | missing | project_sic_rule |
+| [AMTD IDEA GROUP](facts/0001769731/README.md) | AMTD | missing | project_sic_rule |
+| [Antalpha Platform Holding Co](facts/0002044255/README.md) | ANTA | missing | project_sic_rule |
+| [Aon plc](facts/0000315293/README.md) | AON | available; quality gates apply | project_sic_rule |
+| [Apollo Global Management, Inc.](facts/0001858681/README.md) | APO | available; quality gates apply | project_sic_rule |
+| [ARC Group Acquisition I Corp.](facts/0002073515/README.md) | ARCL | available; quality gates apply | project_sic_rule |
+| [ARCH CAPITAL GROUP LTD.](facts/0000947484/README.md) | ACGL, ACGLN, ACGLO | available; quality gates apply | project_sic_rule |
+| [Ares Management Corp](facts/0001176948/README.md) | ARES | available; quality gates apply | project_sic_rule |
+| [Argo Blockchain Plc](facts/0001841675/README.md) | ARBK | missing | project_sic_rule |
+| [ARROW FINANCIAL CORP](facts/0000717538/README.md) | AROW | available; quality gates apply | project_sic_rule |
+| [Arthur J. Gallagher & Co.](facts/0000354190/README.md) | AJG | available; quality gates apply | project_sic_rule |
+| [Artisan Partners Asset Management Inc.](facts/0001517302/README.md) | APAM | available; quality gates apply | project_sic_rule |
+| [ASPEN INSURANCE HOLDINGS LTD](facts/0001267395/README.md) | AHL$E, AHL$F | available; quality gates apply | project_sic_rule |
+| [ASSOCIATED BANC-CORP](facts/0000007789/README.md) | ASB, ASB$E, ASB$F | available; quality gates apply | project_sic_rule |
+| [ASSURANT, INC.](facts/0001267238/README.md) | AIZ | available; quality gates apply | project_sic_rule |
+| [ASSURED GUARANTY LTD](facts/0001273813/README.md) | AGO | available; quality gates apply | project_sic_rule |
+| [Ategrity Specialty Insurance Co Holdings](facts/0002040491/README.md) | ASIC | available; quality gates apply | project_sic_rule |
+| [Athene Holding Ltd.](facts/0001527469/README.md) | ATH$A, ATH$B, ATH$D, ATH$E | available; quality gates apply | project_sic_rule |
+| [ATLANTIC AMERICAN CORP](facts/0000008177/README.md) | AAME | available; quality gates apply | project_sic_rule |
+| [Atlantic Union Bankshares Corp](facts/0000883948/README.md) | AUB, AUB$A | available; quality gates apply | project_sic_rule |
+| [Atlanticus Holdings Corp](facts/0001464343/README.md) | ATLC | available; quality gates apply | project_sic_rule |
+| [AtlasClear Holdings, Inc.](facts/0001963088/README.md) | ATCH | available; quality gates apply | project_sic_rule |
+| [AUBURN NATIONAL BANCORPORATION, INC](facts/0000750574/README.md) | AUBN | available; quality gates apply | project_sic_rule |
+| [Aurelion Inc.](facts/0001765850/README.md) | AURE | missing | project_sic_rule |
+| [Avalanche Treasury Corp](facts/0002092446/README.md) | AVAT | available; quality gates apply | project_sic_rule |
+| [AVAX ONE TECHNOLOGY LTD.](facts/0001826397/README.md) | AVX | available; quality gates apply | project_sic_rule |
+| [Avidbank Holdings, Inc.](facts/0001443575/README.md) | AVBH | available; quality gates apply | project_sic_rule |
+| [Avidia Bancorp, Inc.](facts/0002058758/README.md) | AVBC | available; quality gates apply | project_sic_rule |
+| [Axe Compute Inc.](facts/0001446159/README.md) | AGPU | available; quality gates apply | project_sic_rule |
+| [AXIS CAPITAL HOLDINGS LTD](facts/0001214816/README.md) | AXS, AXS$E | missing | project_sic_rule |
+| [Axos Financial, Inc.](facts/0001299709/README.md) | AX | available; quality gates apply | project_sic_rule |
+| [Bakkt, Inc.](facts/0001820302/README.md) | BKKT | available; quality gates apply | project_sic_rule |
+| [Baldwin Insurance Group, Inc.](facts/0001781755/README.md) | BWIN | available; quality gates apply | project_sic_rule |
+| [BANC OF CALIFORNIA, INC.](facts/0001169770/README.md) | BANC, BANC$F | available; quality gates apply | project_sic_rule |
+| [BANCFIRST CORP /OK/](facts/0000760498/README.md) | BANF | available; quality gates apply | project_sic_rule |
+| [BANCO BILBAO VIZCAYA ARGENTARIA, S.A.](facts/0000842180/README.md) | BBVA | missing | project_sic_rule |
+| [Bancorp, Inc.](facts/0001295401/README.md) | TBBK | available; quality gates apply | project_sic_rule |
+| [Bank First Corp](facts/0001746109/README.md) | BFC | available; quality gates apply | project_sic_rule |
+| [BANK OF AMERICA CORP /DE/](facts/0000070858/README.md) | BAC, BAC$B, BAC$K, BAC$M, BAC$N, BAC$O, BAC$P, BAC$Q, BAC$S, BML$G, BML$H, BML$J, BML$L | available; quality gates apply | project_sic_rule |
+| [BANK OF HAWAII CORP](facts/0000046195/README.md) | BOH, BOH$A, BOH$B | available; quality gates apply | project_sic_rule |
+| [Bank of Marin Bancorp](facts/0001403475/README.md) | BMRC | available; quality gates apply | project_sic_rule |
+| [Bank of New York Mellon Corp](facts/0001390777/README.md) | BNY, BNY$K | available; quality gates apply | project_sic_rule |
+| [BANK OF THE JAMES FINANCIAL GROUP INC](facts/0001275101/README.md) | BOTJ | available; quality gates apply | project_sic_rule |
+| [Bank7 Corp.](facts/0001746129/README.md) | BSVN | available; quality gates apply | project_sic_rule |
+| [BankUnited, Inc.](facts/0001504008/README.md) | BKU | available; quality gates apply | project_sic_rule |
+| [Bankwell Financial Group, Inc.](facts/0001505732/README.md) | BWFG | available; quality gates apply | project_sic_rule |
+| [BANNER CORP](facts/0000946673/README.md) | BANR | available; quality gates apply | project_sic_rule |
+| [BAR HARBOR BANKSHARES](facts/0000743367/README.md) | BHB | available; quality gates apply | project_sic_rule |
+| [BARCLAYS PLC](facts/0000312069/README.md) | BCS | missing | project_sic_rule |
+| [BayCom Corp](facts/0001730984/README.md) | BCML | available; quality gates apply | project_sic_rule |
+| [BayFirst Financial Corp.](facts/0001649739/README.md) | BAFN | available; quality gates apply | project_sic_rule |
+| [BCB BANCORP INC](facts/0001228454/README.md) | BCBP | available; quality gates apply | project_sic_rule |
+| [Beacon Financial Corp](facts/0001108134/README.md) | BBT | available; quality gates apply | project_sic_rule |
+| [Beeline Holdings, Inc.](facts/0001534708/README.md) | BLNE | available; quality gates apply | project_sic_rule |
+| [Beneficient](facts/0001775734/README.md) | BENF | available; quality gates apply | project_sic_rule |
+| [BERKSHIRE HATHAWAY INC](facts/0001067983/README.md) | BRK.A, BRK.B | available; quality gates apply | project_sic_rule |
+| [Better Home & Finance Holding Co](facts/0001835856/README.md) | BETR | available; quality gates apply | project_sic_rule |
+| [BGC Group, Inc.](facts/0001094831/README.md) | BGC | available; quality gates apply | project_sic_rule |
+| [BGIN BLOCKCHAIN Ltd](facts/0001945565/README.md) | BGIN | missing | project_sic_rule |
+| [Big Digital Energy, Inc.](facts/0001218683/README.md) | BGDE | available; quality gates apply | project_sic_rule |
+| [Binah Capital Group, Inc.](facts/0001953984/README.md) | BCG | available; quality gates apply | project_sic_rule |
+| [Bit Digital, Inc](facts/0001710350/README.md) | BTBT | available; quality gates apply | project_sic_rule |
+| [Bitdeer Technologies Group](facts/0001899123/README.md) | BTDR | missing | project_sic_rule |
+| [Bitfufu Inc.](facts/0001921158/README.md) | FUFU | missing | project_sic_rule |
+| [BITGO HOLDINGS, INC.](facts/0001740604/README.md) | BTGO | available; quality gates apply | project_sic_rule |
+| [BITMINE IMMERSION TECHNOLOGIES, INC.](facts/0001829311/README.md) | BMNR | available; quality gates apply | project_sic_rule |
+| [BitVentures Ltd](facts/0001785680/README.md) | BVC | missing | project_sic_rule |
+| [Bitzero Holdings Inc.](facts/0002100457/README.md) | AIBZ | missing | project_sic_rule |
+| [BlackRock, Inc.](facts/0002012383/README.md) | BLK | available; quality gates apply | project_sic_rule |
+| [Blackstone Inc.](facts/0001393818/README.md) | BX | available; quality gates apply | project_sic_rule |
+| [BLADEX, INC.](facts/0000890541/README.md) | BLX | missing | project_sic_rule |
+| [BLUE OWL CAPITAL INC.](facts/0001823945/README.md) | OWL | available; quality gates apply | project_sic_rule |
+| [BLUE RIDGE BANKSHARES, INC.](facts/0000842717/README.md) | BRBS | available; quality gates apply | project_sic_rule |
+| [Bluemount Holdings Ltd](facts/0002027815/README.md) | BMHL | missing | project_sic_rule |
+| [BNB Standard Corp](facts/0001482541/README.md) | BNC | available; quality gates apply | project_sic_rule |
+| [Bogota Financial Corp.](facts/0001787414/README.md) | BSBK | available; quality gates apply | project_sic_rule |
+| [BOK FINANCIAL CORP](facts/0000875357/README.md) | BOKF | available; quality gates apply | project_sic_rule |
+| [Bowhead Specialty Holdings Inc.](facts/0002002473/README.md) | BOW | available; quality gates apply | project_sic_rule |
+| [BRC Group Holdings, Inc.](facts/0001464790/README.md) | RILY, RILYL, RILYP | available; quality gates apply | project_sic_rule |
+| [BREAD FINANCIAL HOLDINGS, INC.](facts/0001101215/README.md) | BFH, BFH$A, BFH$B | available; quality gates apply | project_sic_rule |
+| [Brera Holdings PLC](facts/0001939965/README.md) | SLMT | missing | project_sic_rule |
+| [Bridgewater Bancshares Inc](facts/0001341317/README.md) | BWB, BWBBP | available; quality gates apply | project_sic_rule |
+| [Brighthouse Financial, Inc.](facts/0001685040/README.md) | BHF, BHFAM, BHFAN, BHFAO, BHFAP | available; quality gates apply | project_sic_rule |
+| [Brookfield Asset Management Ltd.](facts/0001937926/README.md) | BAM | available; quality gates apply | project_sic_rule |
+| [Brookfield Wealth Solutions Ltd.](facts/0001837429/README.md) | BNT | missing | project_sic_rule |
+| [BROWN & BROWN, INC.](facts/0000079282/README.md) | BRO | available; quality gates apply | project_sic_rule |
+| [BTC Digital Ltd.](facts/0001796514/README.md) | BTCT | available; quality gates apply | project_sic_rule |
+| [BTCS Inc.](facts/0001436229/README.md) | BTCS | available; quality gates apply | project_sic_rule |
+| [Bullish](facts/0001872195/README.md) | BLSH | missing | project_sic_rule |
+| [Burford Capital Ltd](facts/0001714174/README.md) | BUR | available; quality gates apply | project_sic_rule |
+| [Burke & Herbert Financial Services Corp.](facts/0001964333/README.md) | BHRB | available; quality gates apply | project_sic_rule |
+| [Business First Bancshares, Inc.](facts/0001624322/README.md) | BFST | available; quality gates apply | project_sic_rule |
+| [BV Financial, Inc.](facts/0001302387/README.md) | BVFL | available; quality gates apply | project_sic_rule |
+| [BYLINE BANCORP, INC.](facts/0001702750/README.md) | BY | available; quality gates apply | project_sic_rule |
+| [C & F FINANCIAL CORP](facts/0000913341/README.md) | CFFI | available; quality gates apply | project_sic_rule |
+| [California BanCorp \\ CA](facts/0001795815/README.md) | BCAL | available; quality gates apply | project_sic_rule |
+| [CAMDEN NATIONAL CORP](facts/0000750686/README.md) | CAC | available; quality gates apply | project_sic_rule |
+| [Canaan Inc.](facts/0001780652/README.md) | CAN | missing | project_sic_rule |
+| [Cango Inc.](facts/0001725123/README.md) | CANG | missing | project_sic_rule |
+| [Canton Strategic Holdings, Inc.](facts/0001861657/README.md) | CNTN | available; quality gates apply | project_sic_rule |
+| [Capital Bancorp Inc](facts/0001419536/README.md) | CBNK | available; quality gates apply | project_sic_rule |
+| [CAPITAL CITY BANK GROUP INC](facts/0000726601/README.md) | CCBG | missing | project_sic_rule |
+| [CAPITAL ONE FINANCIAL CORP](facts/0000927628/README.md) | COF, COF$I, COF$J, COF$K, COF$L, COF$N | available; quality gates apply | project_sic_rule |
+| [Capitol Federal Financial, Inc.](facts/0001490906/README.md) | CFFN | available; quality gates apply | project_sic_rule |
+| [Carlyle Group Inc.](facts/0001527166/README.md) | CG | available; quality gates apply | project_sic_rule |
+| [Carter Bankshares, Inc.](facts/0001829576/README.md) | CARE | available; quality gates apply | project_sic_rule |
+| [Catalyst Bancorp, Inc.](facts/0001849867/README.md) | CLST | available; quality gates apply | project_sic_rule |
+| [CATHAY GENERAL BANCORP](facts/0000861842/README.md) | CATY | available; quality gates apply | project_sic_rule |
+| [CB Financial Services, Inc.](facts/0001605301/README.md) | CBFV | available; quality gates apply | project_sic_rule |
+| [CENTENE CORP](facts/0001071739/README.md) | CNC | available; quality gates apply | project_sic_rule |
+| [Central Plains Bancshares, Inc.](facts/0001979332/README.md) | CPBI | available; quality gates apply | project_sic_rule |
+| [CF BANKSHARES INC.](facts/0001070680/README.md) | CFBK | available; quality gates apply | project_sic_rule |
+| [CHAIN BRIDGE BANCORP INC](facts/0001392272/README.md) | CBNA | available; quality gates apply | project_sic_rule |
+| [Chaince Digital Holdings Inc.](facts/0001527762/README.md) | CD | available; quality gates apply | project_sic_rule |
+| [Cheche Group Inc.](facts/0001965473/README.md) | CCG | missing | project_sic_rule |
+| [CHEMUNG FINANCIAL CORP](facts/0000763563/README.md) | CHMG | available; quality gates apply | project_sic_rule |
+| [Chime Financial, Inc.](facts/0001795586/README.md) | CHYM | available; quality gates apply | project_sic_rule |
+| [CHOICEONE FINANCIAL SERVICES INC](facts/0000803164/README.md) | COFS | available; quality gates apply | project_sic_rule |
+| [Chubb Ltd](facts/0000896159/README.md) | CB | missing | project_sic_rule |
+| [Cigna Group](facts/0001739940/README.md) | CI | available; quality gates apply | project_sic_rule |
+| [CINCINNATI FINANCIAL CORP](facts/0000020286/README.md) | CINF | available; quality gates apply | project_sic_rule |
+| [Cipher Digital Inc.](facts/0001819989/README.md) | CIFR | available; quality gates apply | project_sic_rule |
+| [Circle Internet Group, Inc.](facts/0001876042/README.md) | CRCL | available; quality gates apply | project_sic_rule |
+| [CITIGROUP INC](facts/0000831001/README.md) | C, C$R | missing | project_sic_rule |
+| [CITIZENS & NORTHERN CORP](facts/0000810958/README.md) | CZNC | available; quality gates apply | project_sic_rule |
+| [Citizens Community Bancorp Inc.](facts/0001367859/README.md) | CZWI | available; quality gates apply | project_sic_rule |
+| [CITIZENS FINANCIAL GROUP INC/RI](facts/0000759944/README.md) | CFG, CFG$E, CFG$H, CFG$I | available; quality gates apply | project_sic_rule |
+| [CITIZENS FINANCIAL SERVICES INC](facts/0000739421/README.md) | CZFS | available; quality gates apply | project_sic_rule |
+| [CITIZENS, INC.](facts/0000024090/README.md) | CIA | available; quality gates apply | project_sic_rule |
+| [CITY HOLDING CO](facts/0000726854/README.md) | CHCO | available; quality gates apply | project_sic_rule |
+| [CIVISTA BANCSHARES, INC.](facts/0000944745/README.md) | CIVB | available; quality gates apply | project_sic_rule |
+| [CLEANSPARK, INC.](facts/0000827876/README.md) | CLSK | available; quality gates apply | project_sic_rule |
+| [CLOVER HEALTH INVESTMENTS, CORP. /DE](facts/0001801170/README.md) | CLOV | available; quality gates apply | project_sic_rule |
+| [CME GROUP INC.](facts/0001156375/README.md) | CME | available; quality gates apply | project_sic_rule |
+| [CNA FINANCIAL CORP](facts/0000021175/README.md) | CNA | available; quality gates apply | project_sic_rule |
+| [CNB FINANCIAL CORP/PA](facts/0000736772/README.md) | CCNE, CCNEP | available; quality gates apply | project_sic_rule |
+| [CNFinance Holdings Ltd.](facts/0001733868/README.md) | CNF | missing | project_sic_rule |
+| [CNO Financial Group, Inc.](facts/0001224608/README.md) | CNO | available; quality gates apply | project_sic_rule |
+| [COASTAL FINANCIAL CORP](facts/0001437958/README.md) | CCB | available; quality gates apply | project_sic_rule |
+| [CoastalSouth Bancshares, Inc.](facts/0001297107/README.md) | COSO | available; quality gates apply | project_sic_rule |
+| [Cohen & Co Inc.](facts/0001270436/README.md) | COHN | available; quality gates apply | project_sic_rule |
+| [COHEN & STEERS, INC.](facts/0001284812/README.md) | CNS | available; quality gates apply | project_sic_rule |
+| [Coinbase Global, Inc.](facts/0001679788/README.md) | COIN | available; quality gates apply | project_sic_rule |
+| [Coincheck Group N.V.](facts/0001913847/README.md) | CNCK | missing | project_sic_rule |
+| [CoinShares PLC](facts/0002087587/README.md) | CSHR | missing | project_sic_rule |
+| [COLONY BANKCORP INC](facts/0000711669/README.md) | CBAN | available; quality gates apply | project_sic_rule |
+| [COLUMBIA BANKING SYSTEM, INC.](facts/0000887343/README.md) | COLB | available; quality gates apply | project_sic_rule |
+| [Columbia Financial, Inc./MD/](facts/0002115119/README.md) | CLBK | available; quality gates apply | project_sic_rule |
+| [COMMERCE BANCSHARES INC /MO/](facts/0000022356/README.md) | CBSH | available; quality gates apply | project_sic_rule |
+| [Commercial Bancgroup, Inc.](facts/0001981546/README.md) | CBK | available; quality gates apply | project_sic_rule |
+| [COMMUNITY BANCORP /VT](facts/0000718413/README.md) | CMTV | available; quality gates apply | project_sic_rule |
+| [COMMUNITY FINANCIAL SYSTEM, INC.](facts/0000723188/README.md) | CBU | available; quality gates apply | project_sic_rule |
+| [COMMUNITY TRUST BANCORP INC /KY/](facts/0000350852/README.md) | CTBI | available; quality gates apply | project_sic_rule |
+| [Community West Bancshares](facts/0001127371/README.md) | CWBC | available; quality gates apply | project_sic_rule |
+| [ConnectOne Bancorp, Inc.](facts/0000712771/README.md) | CNOB, CNOBP | missing | project_sic_rule |
+| [CONSUMER PORTFOLIO SERVICES, INC.](facts/0000889609/README.md) | CPSS | available; quality gates apply | project_sic_rule |
+| [Core Scientific, Inc./tx](facts/0001839341/README.md) | CORZ | available; quality gates apply | project_sic_rule |
+| [Corebridge Financial, Inc.](facts/0001889539/README.md) | CRBG | available; quality gates apply | project_sic_rule |
+| [CORVEL CORP](facts/0000874866/README.md) | CRVL | available; quality gates apply | project_sic_rule |
+| [CRAWFORD & CO](facts/0000025475/README.md) | CRD.A, CRD.B | available; quality gates apply | project_sic_rule |
+| [CREDICORP LTD](facts/0001001290/README.md) | BAP | missing | project_sic_rule |
+| [CREDIT ACCEPTANCE CORP](facts/0000885550/README.md) | CACC | available; quality gates apply | project_sic_rule |
+| [CULLEN/FROST BANKERS, INC.](facts/0000039263/README.md) | CFR, CFR$B | available; quality gates apply | project_sic_rule |
+| [Customers Bancorp, Inc.](facts/0001488813/README.md) | CUBI | available; quality gates apply | project_sic_rule |
+| [CVB FINANCIAL CORP](facts/0000354647/README.md) | CVBF | available; quality gates apply | project_sic_rule |
+| [DarkHorse Technologies Inc.](facts/0001591956/README.md) | DRK | available; quality gates apply | project_sic_rule |
+| [Dave Inc./DE](facts/0001841408/README.md) | DAVE | available; quality gates apply | project_sic_rule |
+| [DeFi Development Corp.](facts/0001805526/README.md) | DFDV | available; quality gates apply | project_sic_rule |
+| [Defi Technologies, Inc.](facts/0001888274/README.md) | DEFT | missing | project_sic_rule |
+| [Digi Power X Inc.](facts/0001854368/README.md) | DGXX | available; quality gates apply | project_sic_rule |
+| [Digital Asset Acquisition Corp.](facts/0002052162/README.md) | DAAQ | available; quality gates apply | project_sic_rule |
+| [Dime Commercial Bancshares, Inc. /NY/](facts/0000846617/README.md) | DCOM | available; quality gates apply | project_sic_rule |
+| [Dominari Holdings Inc.](facts/0000012239/README.md) | DOMH | available; quality gates apply | project_sic_rule |
+| [DONEGAL GROUP INC](facts/0000800457/README.md) | DGICA, DGICB | available; quality gates apply | project_sic_rule |
+| [EAGLE BANCORP INC](facts/0001050441/README.md) | EGBN | available; quality gates apply | project_sic_rule |
+| [Eagle Bancorp Montana, Inc.](facts/0001478454/README.md) | EBMT | available; quality gates apply | project_sic_rule |
+| [EAGLE FINANCIAL SERVICES INC](facts/0000880641/README.md) | EFSI | available; quality gates apply | project_sic_rule |
+| [Eason Technology Ltd](facts/0001499494/README.md) | DXF | missing | project_sic_rule |
+| [EAST WEST BANCORP INC](facts/0001069157/README.md) | EWBC | available; quality gates apply | project_sic_rule |
+| [Eastern Bankshares, Inc.](facts/0001810546/README.md) | EBC | available; quality gates apply | project_sic_rule |
+| [Ebang International Holdings Inc.](facts/0001799290/README.md) | EBON | missing | project_sic_rule |
+| [ECB Bancorp, Inc. /MD/](facts/0001914605/README.md) | ECBK | available; quality gates apply | project_sic_rule |
+| [eHealth, Inc.](facts/0001333493/README.md) | EHTH | available; quality gates apply | project_sic_rule |
+| [Eightco Holdings Inc.](facts/0001892492/README.md) | ORBS | available; quality gates apply | project_sic_rule |
+| [Elevance Health, Inc.](facts/0001156039/README.md) | ELV | available; quality gates apply | project_sic_rule |
+| [Empery Digital Inc.](facts/0001829794/README.md) | EMPD | available; quality gates apply | project_sic_rule |
+| [Employers Holdings, Inc.](facts/0001379041/README.md) | EIG | available; quality gates apply | project_sic_rule |
+| [Enact Holdings, Inc.](facts/0001823529/README.md) | ACT | available; quality gates apply | project_sic_rule |
+| [ENCORE CAPITAL GROUP INC](facts/0001084961/README.md) | ECPG | available; quality gates apply | project_sic_rule |
+| [Enlivex Ltd.](facts/0001596812/README.md) | ENLV | missing | project_sic_rule |
+| [Enova International, Inc.](facts/0001529864/README.md) | ENVA | available; quality gates apply | project_sic_rule |
+| [ENTERPRISE FINANCIAL SERVICES CORP](facts/0001025835/README.md) | EFSC, EFSCP | available; quality gates apply | project_sic_rule |
+| [Equitable Holdings, Inc.](facts/0001333986/README.md) | EQH, EQH$C | available; quality gates apply | project_sic_rule |
+| [EQUITY BANCSHARES INC](facts/0001227500/README.md) | EQBK | available; quality gates apply | project_sic_rule |
+| [ERIE INDEMNITY CO](facts/0000922621/README.md) | ERIE | available; quality gates apply | project_sic_rule |
+| [Esquire Financial Holdings, Inc.](facts/0001531031/README.md) | ESQ | available; quality gates apply | project_sic_rule |
+| [Essent Group Ltd.](facts/0001448893/README.md) | ESNT | available; quality gates apply | project_sic_rule |
+| [Ethos Technologies Inc.](facts/0001788451/README.md) | LIFE | available; quality gates apply | project_sic_rule |
+| [eToro Group Ltd.](facts/0001493318/README.md) | ETOR | missing | project_sic_rule |
+| [EURONET WORLDWIDE, INC.](facts/0001029199/README.md) | EEFT | available; quality gates apply | project_sic_rule |
+| [Evercore Inc.](facts/0001360901/README.md) | EVR | available; quality gates apply | project_sic_rule |
+| [EVEREST GROUP, LTD.](facts/0001095073/README.md) | EG | available; quality gates apply | project_sic_rule |
+| [Evernorth Holdings Inc.](facts/0002092592/README.md) | XRPN | missing | project_sic_rule |
+| [Exodus Movement, Inc.](facts/0001821534/README.md) | EXOD | available; quality gates apply | project_sic_rule |
+| [F&G Annuities & Life, Inc.](facts/0001934850/README.md) | FG | available; quality gates apply | project_sic_rule |
+| [FARMERS & MERCHANTS BANCORP INC](facts/0000792966/README.md) | FMAO | available; quality gates apply | project_sic_rule |
+| [FARMERS NATIONAL BANC CORP /OH/](facts/0000709337/README.md) | FMNB | available; quality gates apply | project_sic_rule |
+| [FB Bancorp, Inc. /MD/](facts/0002013639/README.md) | FBLA | available; quality gates apply | project_sic_rule |
+| [FB Financial Corp](facts/0001649749/README.md) | FBK | available; quality gates apply | project_sic_rule |
+| [FEDERAL AGRICULTURAL MORTGAGE CORP](facts/0000845877/README.md) | AGM, AGM.A | available; quality gates apply | project_sic_rule |
+| [FEDERATED HERMES, INC.](facts/0001056288/README.md) | FHI | available; quality gates apply | project_sic_rule |
+| [FF EAI Robotics Ecosystem Inc.](facts/0001460702/README.md) | FFR | available; quality gates apply | project_sic_rule |
+| [FG Communities Holdings Inc.](facts/0001591890/README.md) | FGC | available; quality gates apply | project_sic_rule |
+| [FIDELITY D & D BANCORP INC](facts/0001098151/README.md) | FDBC | available; quality gates apply | project_sic_rule |
+| [Fidelity National Financial, Inc.](facts/0001331875/README.md) | FNF | available; quality gates apply | project_sic_rule |
+| [Fifth District Bancorp, Inc.](facts/0002012726/README.md) | FDSB | available; quality gates apply | project_sic_rule |
+| [FIFTH THIRD BANCORP](facts/0000035527/README.md) | FITB, FITB$A, FITB$K, FITB$M | available; quality gates apply | project_sic_rule |
+| [Figure Technology Solutions, Inc.](facts/0002064124/README.md) | FIGR | available; quality gates apply | project_sic_rule |
+| [Finance of America Companies Inc.](facts/0001828937/README.md) | FOA | available; quality gates apply | project_sic_rule |
+| [FINANCIAL INSTITUTIONS INC](facts/0000862831/README.md) | FISI | available; quality gates apply | project_sic_rule |
+| [FinVolution Group](facts/0001691445/README.md) | FINV | missing | project_sic_rule |
+| [Finward Bancorp](facts/0000919864/README.md) | FNWD | available; quality gates apply | project_sic_rule |
+| [Finwise Bancorp](facts/0001856365/README.md) | FINW | available; quality gates apply | project_sic_rule |
+| [FIRST BANCORP /NC/](facts/0000811589/README.md) | FBNC | available; quality gates apply | project_sic_rule |
+| [FIRST BANCORP /PR/](facts/0001057706/README.md) | FBP | available; quality gates apply | project_sic_rule |
+| [FIRST BUSEY CORP /NV/](facts/0000314489/README.md) | BUSE, BUSEP | available; quality gates apply | project_sic_rule |
+| [FIRST BUSINESS FINANCIAL SERVICES, INC.](facts/0001521951/README.md) | FBIZ | available; quality gates apply | project_sic_rule |
+| [FIRST CAPITAL INC](facts/0001070296/README.md) | FCAP | available; quality gates apply | project_sic_rule |
+| [First Carolina Financial Services, Inc.](facts/0001531193/README.md) | FCBM | available; quality gates apply | project_sic_rule |
+| [FIRST CITIZENS BANCSHARES INC /DE/](facts/0000798941/README.md) | FCNCA, FCNCN, FCNCP | available; quality gates apply | project_sic_rule |
+| [FIRST COMMONWEALTH FINANCIAL CORP /PA/](facts/0000712537/README.md) | FCF | available; quality gates apply | project_sic_rule |
+| [FIRST COMMUNITY BANKSHARES INC /VA/](facts/0000859070/README.md) | FCBC | available; quality gates apply | project_sic_rule |
+| [FIRST COMMUNITY CORP /SC/](facts/0000932781/README.md) | FCCO | available; quality gates apply | project_sic_rule |
+| [FIRST FINANCIAL BANCORP /OH/](facts/0000708955/README.md) | FFBC | available; quality gates apply | project_sic_rule |
+| [FIRST FINANCIAL BANKSHARES INC](facts/0000036029/README.md) | FFIN | available; quality gates apply | project_sic_rule |
+| [FIRST FINANCIAL CORP /IN/](facts/0000714562/README.md) | THFF | available; quality gates apply | project_sic_rule |
+| [First Guaranty Bancshares, Inc.](facts/0001408534/README.md) | FGBI | available; quality gates apply | project_sic_rule |
+| [FIRST HAWAIIAN, INC.](facts/0000036377/README.md) | FHB | available; quality gates apply | project_sic_rule |
+| [FIRST HORIZON CORP](facts/0000036966/README.md) | FHN, FHN$E, FHN$F, FHN$H | available; quality gates apply | project_sic_rule |
+| [First Internet Bancorp](facts/0001562463/README.md) | INBK | available; quality gates apply | project_sic_rule |
+| [FIRST INTERSTATE BANCSYSTEM INC](facts/0000860413/README.md) | FIBK | available; quality gates apply | project_sic_rule |
+| [FIRST MERCHANTS CORP](facts/0000712534/README.md) | FRME, FRMEP | missing | project_sic_rule |
+| [FIRST MID BANCSHARES, INC.](facts/0000700565/README.md) | FMBH | available; quality gates apply | project_sic_rule |
+| [FIRST NATIONAL CORP /VA/](facts/0000719402/README.md) | FXNC | available; quality gates apply | project_sic_rule |
+| [FIRST NORTHERN COMMUNITY BANCORP](facts/0001114927/README.md) | FNRN | available; quality gates apply | project_sic_rule |
+| [First Northwest Bancorp](facts/0001556727/README.md) | FNWB | available; quality gates apply | project_sic_rule |
+| [FIRST UNITED CORP/MD/](facts/0000763907/README.md) | FUNC | available; quality gates apply | project_sic_rule |
+| [FIRST US BANCSHARES, INC.](facts/0000717806/README.md) | FUSB | available; quality gates apply | project_sic_rule |
+| [First Western Financial Inc](facts/0001327607/README.md) | MYFW | available; quality gates apply | project_sic_rule |
+| [FIRSTSUN CAPITAL BANCORP](facts/0001709442/README.md) | FSUN | available; quality gates apply | project_sic_rule |
+| [FIVE STAR BANCORP](facts/0001275168/README.md) | FSBC | available; quality gates apply | project_sic_rule |
+| [FNB CORP/PA/](facts/0000037808/README.md) | FNB | available; quality gates apply | project_sic_rule |
+| [Fold Holdings, Inc.](facts/0001889123/README.md) | FLD | available; quality gates apply | project_sic_rule |
+| [Forbright, Inc.](facts/0001925062/README.md) | FRBT | available; quality gates apply | project_sic_rule |
+| [FORUM MARKETS Inc](facts/0001690080/README.md) | FRMM | available; quality gates apply | project_sic_rule |
+| [Forward Industries, Inc.](facts/0000038264/README.md) | FWDI | available; quality gates apply | project_sic_rule |
+| [FRANKLIN FINANCIAL SERVICES CORP /PA/](facts/0000723646/README.md) | FRAF | available; quality gates apply | project_sic_rule |
+| [FRANKLIN TEMPLETON INC](facts/0000038777/README.md) | BEN | available; quality gates apply | project_sic_rule |
+| [Freedom Holding Corp.](facts/0000924805/README.md) | FRHC | available; quality gates apply | project_sic_rule |
+| [FS Bancorp, Inc.](facts/0001530249/README.md) | FSBW | available; quality gates apply | project_sic_rule |
+| [FULTON FINANCIAL CORP](facts/0000700564/README.md) | FULT, FULTP | available; quality gates apply | project_sic_rule |
+| [Futu Holdings Ltd](facts/0001754581/README.md) | FUTU | missing | project_sic_rule |
+| [FVCBankcorp, Inc.](facts/0001675644/README.md) | FVCB | available; quality gates apply | project_sic_rule |
+| [Galaxy Digital Inc.](facts/0001859392/README.md) | GLXY | available; quality gates apply | project_sic_rule |
+| [Garden Stage Ltd](facts/0001954269/README.md) | GSIW | missing | project_sic_rule |
+| [GBank Financial Holdings Inc.](facts/0001791145/README.md) | GBFH | available; quality gates apply | project_sic_rule |
+| [GCM Grosvenor Inc.](facts/0001819796/README.md) | GCMG | available; quality gates apply | project_sic_rule |
+| [Gemini Space Station, Inc.](facts/0002055592/README.md) | GEMI | available; quality gates apply | project_sic_rule |
+| [GENWORTH FINANCIAL INC](facts/0001276520/README.md) | GNW | available; quality gates apply | project_sic_rule |
+| [GERMAN AMERICAN BANCORP, INC.](facts/0000714395/README.md) | GABC | available; quality gates apply | project_sic_rule |
+| [GLACIER BANCORP, INC.](facts/0000868671/README.md) | GBCI | available; quality gates apply | project_sic_rule |
+| [Global Indemnity Group, LLC](facts/0001494904/README.md) | GBLI | available; quality gates apply | project_sic_rule |
+| [GLOBE LIFE INC.](facts/0000320335/README.md) | GL | available; quality gates apply | project_sic_rule |
+| [GOLDMAN SACHS GROUP INC](facts/0000886982/README.md) | GS, GS$A, GS$C | available; quality gates apply | project_sic_rule |
+| [Goosehead Insurance, Inc.](facts/0001726978/README.md) | GSHD | available; quality gates apply | project_sic_rule |
+| [GPGI, Inc.](facts/0001823144/README.md) | GPGI | available; quality gates apply | project_sic_rule |
+| [Grande Group Ltd/HK](facts/0002027722/README.md) | GRAN | missing | project_sic_rule |
+| [GraniteShares Gold Trust](facts/0001690437/README.md) | BAR | available; quality gates apply | project_sic_rule |
+| [GREAT SOUTHERN BANCORP, INC.](facts/0000854560/README.md) | GSBC | available; quality gates apply | project_sic_rule |
+| [GREEN DOT CORP](facts/0001386278/README.md) | GDOT | available; quality gates apply | project_sic_rule |
+| [GREENE COUNTY BANCORP INC](facts/0001070524/README.md) | GCBC | available; quality gates apply | project_sic_rule |
+| [Grupo Cibest S.A.](facts/0002058897/README.md) | CIB | missing | project_sic_rule |
+| [GRUPO FINANCIERO GALICIA SA](facts/0001114700/README.md) | GGAL | missing | project_sic_rule |
+| [Grupo Supervielle S.A.](facts/0001517399/README.md) | SUPV | missing | project_sic_rule |
+| [Hagerty, Inc.](facts/0001840776/README.md) | HGTY | available; quality gates apply | project_sic_rule |
+| [Hamilton Insurance Group, Ltd.](facts/0001593275/README.md) | HG | available; quality gates apply | project_sic_rule |
+| [Hamilton Lane INC](facts/0001433642/README.md) | HLNE | available; quality gates apply | project_sic_rule |
+| [HANCOCK WHITNEY CORP](facts/0000750577/README.md) | HWC | available; quality gates apply | project_sic_rule |
+| [HANMI FINANCIAL CORP](facts/0001109242/README.md) | HAFC | available; quality gates apply | project_sic_rule |
+| [Hanover Bancorp, Inc. /MD](facts/0001828588/README.md) | HNVR | available; quality gates apply | project_sic_rule |
+| [HANOVER INSURANCE GROUP, INC.](facts/0000944695/README.md) | THG | available; quality gates apply | project_sic_rule |
+| [Happen, Inc.](facts/0001409970/README.md) | HAPN | available; quality gates apply | project_sic_rule |
+| [HARTFORD INSURANCE GROUP, INC.](facts/0000874766/README.md) | HIG, HIG$G | available; quality gates apply | project_sic_rule |
+| [HAWTHORN BANCSHARES, INC.](facts/0000893847/README.md) | HWBK | available; quality gates apply | project_sic_rule |
+| [HBT Financial, Inc.](facts/0000775215/README.md) | HBT | available; quality gates apply | project_sic_rule |
+| [HCI Group, Inc.](facts/0001400810/README.md) | HCI | available; quality gates apply | project_sic_rule |
+| [HDFC BANK LTD](facts/0001144967/README.md) | HDB | missing | project_sic_rule |
+| [Health In Tech, Inc.](facts/0002019505/README.md) | HIT | available; quality gates apply | project_sic_rule |
+| [HeartSciences Inc.](facts/0001468492/README.md) | HSCS | available; quality gates apply | project_sic_rule |
+| [HENNESSY ADVISORS INC](facts/0001145255/README.md) | HNNA | available; quality gates apply | project_sic_rule |
+| [HERITAGE FINANCIAL CORP /WA/](facts/0001046025/README.md) | HFWA | available; quality gates apply | project_sic_rule |
+| [Heritage Insurance Holdings, Inc.](facts/0001598665/README.md) | HRTG | available; quality gates apply | project_sic_rule |
+| [High Templar Tech Ltd](facts/0001692705/README.md) | HTT | missing | project_sic_rule |
+| [Hilltop Holdings Inc.](facts/0001265131/README.md) | HTH | available; quality gates apply | project_sic_rule |
+| [Hippo Holdings Inc.](facts/0001828105/README.md) | HIPO | available; quality gates apply | project_sic_rule |
+| [HIVE Digital Technologies Ltd.](facts/0001720424/README.md) | HIVE | available; quality gates apply | project_sic_rule |
+| [HOME BANCORP, INC.](facts/0001436425/README.md) | HBCP | available; quality gates apply | project_sic_rule |
+| [HOME BANCSHARES INC](facts/0001331520/README.md) | HOMB | available; quality gates apply | project_sic_rule |
+| [Home Federal Bancorp, Inc. of Louisiana](facts/0001500375/README.md) | HFBL | available; quality gates apply | project_sic_rule |
+| [HomeTrust Bancshares, Inc.](facts/0001538263/README.md) | HTB | available; quality gates apply | project_sic_rule |
+| [HOPE BANCORP INC](facts/0001128361/README.md) | HOPE | available; quality gates apply | project_sic_rule |
+| [HORACE MANN EDUCATORS CORP /DE/](facts/0000850141/README.md) | HMN | available; quality gates apply | project_sic_rule |
+| [HORIZON BANCORP INC /IN/](facts/0000706129/README.md) | HBNC | available; quality gates apply | project_sic_rule |
+| [HOULIHAN LOKEY, INC.](facts/0001302215/README.md) | HLI | available; quality gates apply | project_sic_rule |
+| [House of Doge Inc.](facts/0001903595/README.md) | HODO | available; quality gates apply | project_sic_rule |
+| [Hoyne Bancorp, Inc.](facts/0002073153/README.md) | HYNE | available; quality gates apply | project_sic_rule |
+| [HSBC HOLDINGS PLC](facts/0001089113/README.md) | HSBC | missing | project_sic_rule |
+| [Huize Holding Ltd](facts/0001778982/README.md) | HUIZ | missing | project_sic_rule |
+| [HUMANA INC](facts/0000049071/README.md) | HUM | missing | project_sic_rule |
+| [HUNTINGTON BANCSHARES INC /MD/](facts/0000049196/README.md) | HBAN, HBANL, HBANM, HBANP, HBANZ | missing | project_sic_rule |
+| [Hut 8 Corp.](facts/0001964789/README.md) | HUT | available; quality gates apply | project_sic_rule |
+| [HYPERION DEFI, INC.](facts/0001682639/README.md) | HYPD | available; quality gates apply | project_sic_rule |
+| [Hyperliquid Strategies Inc](facts/0002078856/README.md) | PURR | available; quality gates apply | project_sic_rule |
+| [ICICI BANK LTD](facts/0001103838/README.md) | IBN | missing | project_sic_rule |
+| [INDEPENDENT BANK CORP](facts/0000776901/README.md) | INDB | available; quality gates apply | project_sic_rule |
+| [INDEPENDENT BANK CORP /MI/](facts/0000039311/README.md) | IBCP | available; quality gates apply | project_sic_rule |
+| [Inter & Co, Inc.](facts/0001864163/README.md) | INTR | missing | project_sic_rule |
+| [Interactive Brokers Group, Inc.](facts/0001381197/README.md) | IBKR | available; quality gates apply | project_sic_rule |
+| [Intercontinental Exchange, Inc.](facts/0001571949/README.md) | ICE | available; quality gates apply | project_sic_rule |
+| [Intercorp Financial Services Inc.](facts/0001615903/README.md) | IFS | missing | project_sic_rule |
+| [International General Insurance Holdings Ltd.](facts/0001794338/README.md) | IGIC | missing | project_sic_rule |
+| [Invesco Ltd.](facts/0000914208/README.md) | IVZ | available; quality gates apply | project_sic_rule |
+| [Investar Holding Corp](facts/0001602658/README.md) | ISTR | available; quality gates apply | project_sic_rule |
+| [INVESTORS TITLE CO](facts/0000720858/README.md) | ITIC | available; quality gates apply | project_sic_rule |
+| [Ionic Digital Inc.](facts/0002007691/README.md) | IOND | available; quality gates apply | project_sic_rule |
+| [IREN Ltd](facts/0001878848/README.md) | IREN | available; quality gates apply | project_sic_rule |
+| [ISABELLA BANK CORP](facts/0000842517/README.md) | ISBA | available; quality gates apply | project_sic_rule |
+| [Jackson Financial Inc.](facts/0001822993/README.md) | JXN, JXN$A | available; quality gates apply | project_sic_rule |
+| [James River Group Holdings, Inc.](facts/0001620459/README.md) | JRVR | available; quality gates apply | project_sic_rule |
+| [Jefferies Financial Group Inc.](facts/0000096223/README.md) | JEF | available; quality gates apply | project_sic_rule |
+| [Jefferson Capital, Inc. / DE](facts/0002046042/README.md) | JCAP | available; quality gates apply | project_sic_rule |
+| [Jiayin Group Inc.](facts/0001743102/README.md) | JFIN | missing | project_sic_rule |
+| [John Marshall Bancorp, Inc.](facts/0001710482/README.md) | JMSB | available; quality gates apply | project_sic_rule |
+| [JPMORGAN CHASE & CO](facts/0000019617/README.md) | JPM, JPM$C, JPM$D, JPM$J, JPM$K, JPM$L, JPM$M | available; quality gates apply | project_sic_rule |
+| [KB Financial Group Inc.](facts/0001445930/README.md) | KB | missing | project_sic_rule |
+| [Kearny Financial Corp.](facts/0001617242/README.md) | KRNY | available; quality gates apply | project_sic_rule |
+| [Keel Infrastructure Corp.](facts/0001812477/README.md) | KEEL | available; quality gates apply | project_sic_rule |
+| [KEMPER Corp](facts/0000860748/README.md) | KMPR | available; quality gates apply | project_sic_rule |
+| [Kentucky First Federal Bancorp](facts/0001297341/README.md) | KFFB | missing | project_sic_rule |
+| [Kestrel Group Ltd](facts/0002055116/README.md) | KG | available; quality gates apply | project_sic_rule |
+| [KINGSTONE COMPANIES, INC.](facts/0000033992/README.md) | KINS | available; quality gates apply | project_sic_rule |
+| [KINGSWAY Corp](facts/0001072627/README.md) | KWY | available; quality gates apply | project_sic_rule |
+| [Kinsale Capital Group, Inc.](facts/0001669162/README.md) | KNSL | available; quality gates apply | project_sic_rule |
+| [KKR & Co. Inc.](facts/0001404912/README.md) | KKR | available; quality gates apply | project_sic_rule |
+| [Klarna Group plc](facts/0002003292/README.md) | KLAR | missing | project_sic_rule |
+| [Lake Shore Bancorp, Inc. /MD/](facts/0002059653/README.md) | LSBK | available; quality gates apply | project_sic_rule |
+| [LAKELAND FINANCIAL CORP](facts/0000721994/README.md) | LKFN | available; quality gates apply | project_sic_rule |
+| [LANDMARK BANCORP INC](facts/0001141688/README.md) | LARK | available; quality gates apply | project_sic_rule |
+| [Lazard, Inc.](facts/0001311370/README.md) | LAZ | missing | project_sic_rule |
+| [LCNB CORP](facts/0001074902/README.md) | LCNB | available; quality gates apply | project_sic_rule |
+| [Lemonade, Inc.](facts/0001691421/README.md) | LMND | available; quality gates apply | project_sic_rule |
+| [LendingTree, Inc.](facts/0001434621/README.md) | TREE | available; quality gates apply | project_sic_rule |
+| [LESAKA TECHNOLOGIES INC](facts/0001041514/README.md) | LSAK | available; quality gates apply | project_sic_rule |
+| [LexinFintech Holdings Ltd.](facts/0001708259/README.md) | LX | missing | project_sic_rule |
+| [Lincoln International, Inc.](facts/0001925283/README.md) | LCLN | available; quality gates apply | project_sic_rule |
+| [LINCOLN NATIONAL CORP](facts/0000059558/README.md) | LNC, LNC$D | available; quality gates apply | project_sic_rule |
+| [Lion Group Holding Ltd](facts/0001806524/README.md) | LGHL | missing | project_sic_rule |
+| [Live Oak Bancshares, Inc.](facts/0001462120/README.md) | LOB, LOB$A | available; quality gates apply | project_sic_rule |
+| [Lloyds Banking Group plc](facts/0001160106/README.md) | LYG | missing | project_sic_rule |
+| [loanDepot, Inc.](facts/0001831631/README.md) | LDI | available; quality gates apply | project_sic_rule |
+| [LOEWS CORP](facts/0000060086/README.md) | L | available; quality gates apply | project_sic_rule |
+| [LPL Financial Holdings Inc.](facts/0001397911/README.md) | LPLA | available; quality gates apply | project_sic_rule |
+| [Lufax Holding Ltd](facts/0001816007/README.md) | LU | missing | project_sic_rule |
+| [M&T BANK CORP](facts/0000036270/README.md) | MTB, MTB$J, MTB$K, MTB$L | available; quality gates apply | project_sic_rule |
+| [Maase Inc.](facts/0001750264/README.md) | MAAS | missing | project_sic_rule |
+| [Magic Empire Global Ltd](facts/0001881472/README.md) | MEGL | missing | project_sic_rule |
+| [Magyar Bancorp, Inc.](facts/0001337068/README.md) | MGYR | available; quality gates apply | project_sic_rule |
+| [MainStreet Bancshares, Inc.](facts/0001693577/README.md) | MNSB, MNSBP | available; quality gates apply | project_sic_rule |
+| [MANULIFE FINANCIAL CORP](facts/0001086888/README.md) | MFC | missing | project_sic_rule |
+| [MARA Holdings, Inc.](facts/0001507605/README.md) | MARA | available; quality gates apply | project_sic_rule |
+| [Marathon Bancorp, Inc. /MD/](facts/0001835385/README.md) | MBBC | available; quality gates apply | project_sic_rule |
+| [Marex Group Ltd](facts/0001997464/README.md) | MRX | missing | project_sic_rule |
+| [MARKEL GROUP INC.](facts/0001096343/README.md) | MKL | available; quality gates apply | project_sic_rule |
+| [MARKETAXESS HOLDINGS INC](facts/0001278021/README.md) | MKTX | available; quality gates apply | project_sic_rule |
+| [Marygold Companies, Inc.](facts/0001005101/README.md) | MGLD | available; quality gates apply | project_sic_rule |
+| [MBIA INC](facts/0000814585/README.md) | MBI | available; quality gates apply | project_sic_rule |
+| [MDB Capital Holdings, LLC](facts/0001934642/README.md) | MDBH | available; quality gates apply | project_sic_rule |
+| [Mechanics Bancorp](facts/0001518715/README.md) | MCHB | available; quality gates apply | project_sic_rule |
+| [MEDALLION FINANCIAL CORP](facts/0001000209/README.md) | MFIN | available; quality gates apply | project_sic_rule |
+| [MERCANTILE BANK CORP](facts/0001042729/README.md) | MBWM | available; quality gates apply | project_sic_rule |
+| [Merchants Bancorp](facts/0001629019/README.md) | MBIN, MBINL, MBINM, MBINN | available; quality gates apply | project_sic_rule |
+| [MERCURY GENERAL CORP](facts/0000064996/README.md) | MCY | available; quality gates apply | project_sic_rule |
+| [Meridian Corp](facts/0001750735/README.md) | MRBK | available; quality gates apply | project_sic_rule |
+| [Metalpha Technology Holding Ltd](facts/0001682241/README.md) | MATH | missing | project_sic_rule |
+| [METLIFE INC](facts/0001099219/README.md) | MET, MET$A, MET$F | available; quality gates apply | project_sic_rule |
+| [MetroCity Bankshares, Inc.](facts/0001747068/README.md) | MCBS | available; quality gates apply | project_sic_rule |
+| [Metropolitan Bank Holding Corp.](facts/0001476034/README.md) | MCB | available; quality gates apply | project_sic_rule |
+| [MGIC INVESTMENT CORP](facts/0000876437/README.md) | MTG | available; quality gates apply | project_sic_rule |
+| [MIAMI INTERNATIONAL HOLDINGS, INC.](facts/0001438472/README.md) | MIAX | available; quality gates apply | project_sic_rule |
+| [MID PENN BANCORP INC](facts/0000879635/README.md) | MPB | available; quality gates apply | project_sic_rule |
+| [Midland States Bancorp, Inc.](facts/0001466026/README.md) | MSBI, MSBIP | available; quality gates apply | project_sic_rule |
+| [MITSUBISHI UFJ FINANCIAL GROUP INC](facts/0000067088/README.md) | MUFG | missing | project_sic_rule |
+| [MMTEC, INC.](facts/0001742518/README.md) | MTC | missing | project_sic_rule |
+| [Moelis & Co](facts/0001596967/README.md) | MC | available; quality gates apply | project_sic_rule |
+| [MOLINA HEALTHCARE, INC.](facts/0001179929/README.md) | MOH | available; quality gates apply | project_sic_rule |
+| [MORGAN STANLEY](facts/0000895421/README.md) | MS, MS$E, MS$I, MS$K, MS$L, MS$O, MS$P, MS$Q | available; quality gates apply | project_sic_rule |
+| [Morningstar, Inc.](facts/0001289419/README.md) | MORN | available; quality gates apply | project_sic_rule |
+| [Mount Logan Capital Inc.](facts/0002051820/README.md) | MLCI | available; quality gates apply | project_sic_rule |
+| [MVB FINANCIAL CORP](facts/0001277902/README.md) | MVBF | missing | project_sic_rule |
+| [Nakamoto Inc.](facts/0001946573/README.md) | NAKA | available; quality gates apply | project_sic_rule |
+| [NASDAQ, INC.](facts/0001120193/README.md) | NDAQ | available; quality gates apply | project_sic_rule |
+| [National Bank Holdings Corp](facts/0001475841/README.md) | NBHC | available; quality gates apply | project_sic_rule |
+| [NATIONAL BANKSHARES INC](facts/0000796534/README.md) | NKSH | available; quality gates apply | project_sic_rule |
+| [NatWest Group plc](facts/0000844150/README.md) | NWG | missing | project_sic_rule |
+| [NAVIENT CORP](facts/0001593538/README.md) | NAVI | available; quality gates apply | project_sic_rule |
+| [NB Bancorp, Inc.](facts/0001979330/README.md) | NBBK | available; quality gates apply | project_sic_rule |
+| [NBT BANCORP INC](facts/0000790359/README.md) | NBTB | available; quality gates apply | project_sic_rule |
+| [NELNET INC](facts/0001258602/README.md) | NNI | available; quality gates apply | project_sic_rule |
+| [Neptune Insurance Holdings Inc.](facts/0002067129/README.md) | NP | available; quality gates apply | project_sic_rule |
+| [Netcapital Inc.](facts/0001414767/README.md) | NCPL | available; quality gates apply | project_sic_rule |
+| [NewtekOne, Inc.](facts/0001587987/README.md) | NEWT, NEWTP | available; quality gates apply | project_sic_rule |
+| [NFT Ltd](facts/0001958713/README.md) | MI | missing | project_sic_rule |
+| [NI Holdings, Inc.](facts/0001681206/README.md) | NODK | available; quality gates apply | project_sic_rule |
+| [NICOLET BANKSHARES INC](facts/0001174850/README.md) | NIC | available; quality gates apply | project_sic_rule |
+| [NMI Holdings, Inc.](facts/0001547903/README.md) | NMIH | available; quality gates apply | project_sic_rule |
+| [NOAH HOLDINGS LTD](facts/0001499543/README.md) | NOAH | missing | project_sic_rule |
+| [NorthEast Community Bancorp, Inc./MD/](facts/0001847398/README.md) | NECB | available; quality gates apply | project_sic_rule |
+| [NORTHERN TRUST CORP](facts/0000073124/README.md) | NTRS, NTRSO | available; quality gates apply | project_sic_rule |
+| [NORTHPOINTE BANCSHARES INC](facts/0001336706/README.md) | NPB | available; quality gates apply | project_sic_rule |
+| [NORTHRIM BANCORP INC](facts/0001163370/README.md) | NRIM | available; quality gates apply | project_sic_rule |
+| [Northwest Bancshares, Inc.](facts/0001471265/README.md) | NWBI | available; quality gates apply | project_sic_rule |
+| [NORWOOD FINANCIAL CORP](facts/0001013272/README.md) | NWFL | available; quality gates apply | project_sic_rule |
+| [Nu Holdings Ltd.](facts/0001691493/README.md) | NU | missing | project_sic_rule |
+| [Oak Valley Bancorp](facts/0001431567/README.md) | OVLY | available; quality gates apply | project_sic_rule |
+| [OCEANFIRST FINANCIAL CORP](facts/0001004702/README.md) | OCFC | available; quality gates apply | project_sic_rule |
+| [OCTAVE SPECIALTY GROUP INC](facts/0000874501/README.md) | OSG | available; quality gates apply | project_sic_rule |
+| [OFG BANCORP](facts/0001030469/README.md) | OFG | available; quality gates apply | project_sic_rule |
+| [OHIO VALLEY BANC CORP](facts/0000894671/README.md) | OVBC | available; quality gates apply | project_sic_rule |
+| [OLD NATIONAL BANCORP /IN/](facts/0000707179/README.md) | ONB, ONBPO, ONBPP | missing | project_sic_rule |
+| [OLD REPUBLIC INTERNATIONAL CORP](facts/0000074260/README.md) | ORI | available; quality gates apply | project_sic_rule |
+| [OLD SECOND BANCORP INC](facts/0000357173/README.md) | OSBC | available; quality gates apply | project_sic_rule |
+| [OneMain Holdings, Inc.](facts/0001584207/README.md) | OMF | missing | project_sic_rule |
+| [ONITY GROUP INC.](facts/0000873860/README.md) | ONIT | available; quality gates apply | project_sic_rule |
+| [OP Bancorp](facts/0001722010/README.md) | OPBK | available; quality gates apply | project_sic_rule |
+| [OpenWorld, Inc.](facts/0001104038/README.md) | OPNW | available; quality gates apply | project_sic_rule |
+| [Oportun Financial Corp](facts/0001538716/README.md) | OPRT | available; quality gates apply | project_sic_rule |
+| [OPPENHEIMER HOLDINGS INC](facts/0000791963/README.md) | OPY | available; quality gates apply | project_sic_rule |
+| [OppFi Inc.](facts/0001818502/README.md) | OPFI | available; quality gates apply | project_sic_rule |
+| [OptimumBank Holdings, Inc.](facts/0001288855/README.md) | OPHC | available; quality gates apply | project_sic_rule |
+| [Orange County Bancorp, Inc. /DE/](facts/0001754226/README.md) | OBT | available; quality gates apply | project_sic_rule |
+| [Orion Digital Corp.](facts/0001602842/README.md) | ORIO | missing | project_sic_rule |
+| [Orion180 Insurance Group Inc.](facts/0002124472/README.md) | OIG | missing | project_sic_rule |
+| [ORIX CORP](facts/0001070304/README.md) | IX | missing | project_sic_rule |
+| [ORRSTOWN FINANCIAL SERVICES INC](facts/0000826154/README.md) | ORRF | available; quality gates apply | project_sic_rule |
+| [Oscar Health, Inc.](facts/0001568651/README.md) | OSCR | available; quality gates apply | project_sic_rule |
+| [OXBRIDGE RE HOLDINGS Ltd](facts/0001584831/README.md) | OXBR | available; quality gates apply | project_sic_rule |
+| [Pagaya Technologies Ltd.](facts/0001883085/README.md) | PGY | available; quality gates apply | project_sic_rule |
+| [Palomar Holdings, Inc.](facts/0001761312/README.md) | PLMR | available; quality gates apply | project_sic_rule |
+| [PARK NATIONAL CORP /OH/](facts/0000805676/README.md) | PRK | available; quality gates apply | project_sic_rule |
+| [PARKE BANCORP, INC.](facts/0001315399/README.md) | PKBK | available; quality gates apply | project_sic_rule |
+| [Pathfinder Bancorp, Inc.](facts/0001609065/README.md) | PBHC | available; quality gates apply | project_sic_rule |
+| [PATHWARD FINANCIAL, INC.](facts/0000907471/README.md) | CASH | available; quality gates apply | project_sic_rule |
+| [Patria Investments Ltd](facts/0001825570/README.md) | PAX | missing | project_sic_rule |
+| [PATRIOT NATIONAL BANCORP INC](facts/0001098146/README.md) | PNBK | available; quality gates apply | project_sic_rule |
+| [PCB BANCORP](facts/0001423869/README.md) | PCB | available; quality gates apply | project_sic_rule |
+| [PEAPACK GLADSTONE FINANCIAL CORP](facts/0001050743/README.md) | PGC | available; quality gates apply | project_sic_rule |
+| [Pelagos Insurance Capital Ltd](facts/0001636639/README.md) | PLGO | missing | project_sic_rule |
+| [PennyMac Financial Services, Inc.](facts/0001745916/README.md) | PFSI | available; quality gates apply | project_sic_rule |
+| [PEOPLES BANCORP INC](facts/0000318300/README.md) | PEBO | available; quality gates apply | project_sic_rule |
+| [PEOPLES BANCORP OF NORTH CAROLINA INC](facts/0001093672/README.md) | PEBK | available; quality gates apply | project_sic_rule |
+| [PEOPLES FINANCIAL SERVICES CORP.](facts/0001056943/README.md) | PFIS | available; quality gates apply | project_sic_rule |
+| [Perella Weinberg Partners](facts/0001777835/README.md) | PWP | available; quality gates apply | project_sic_rule |
+| [PERSHING SQUARE INC.](facts/0002026053/README.md) | PS | available; quality gates apply | project_sic_rule |
+| [PicS N.V.](facts/0001841644/README.md) | PICS | missing | project_sic_rule |
+| [Pineapple Financial Inc.](facts/0001938109/README.md) | PAPL | available; quality gates apply | project_sic_rule |
+| [Pinnacle Financial Partners, Inc.](facts/0002082866/README.md) | PNFP | available; quality gates apply | project_sic_rule |
+| [Pioneer Bancorp, Inc./MD](facts/0001769663/README.md) | PBFS | available; quality gates apply | project_sic_rule |
+| [PIPER SANDLER COMPANIES](facts/0001230245/README.md) | PIPR | available; quality gates apply | project_sic_rule |
+| [PJT Partners Inc.](facts/0001626115/README.md) | PJT | available; quality gates apply | project_sic_rule |
+| [PLUMAS BANCORP](facts/0001168455/README.md) | PLBC | available; quality gates apply | project_sic_rule |
+| [Plutus Financial Group Ltd](facts/0001933021/README.md) | PLUT | missing | project_sic_rule |
+| [PNC FINANCIAL SERVICES GROUP, INC.](facts/0000713676/README.md) | PNC | available; quality gates apply | project_sic_rule |
+| [Ponce Financial Group, Inc.](facts/0001874071/README.md) | PDLB | available; quality gates apply | project_sic_rule |
+| [POPULAR, INC.](facts/0000763901/README.md) | BPOP | available; quality gates apply | project_sic_rule |
+| [Porch Group, Inc.](facts/0001784535/README.md) | PRCH | available; quality gates apply | project_sic_rule |
+| [POWERCOMPUTE, INC.](facts/0001640384/README.md) | PWCM | available; quality gates apply | project_sic_rule |
+| [PRA GROUP INC](facts/0001185348/README.md) | PRAA | available; quality gates apply | project_sic_rule |
+| [Presurance Holdings, Inc.](facts/0001502292/README.md) | PRHI | available; quality gates apply | project_sic_rule |
+| [Primerica, Inc.](facts/0001475922/README.md) | PRI | available; quality gates apply | project_sic_rule |
+| [Primis Financial Corp.](facts/0001325670/README.md) | FRST | available; quality gates apply | project_sic_rule |
+| [Princeton Bancorp, Inc.](facts/0001913971/README.md) | BPRN | available; quality gates apply | project_sic_rule |
+| [PRINCIPAL FINANCIAL GROUP INC](facts/0001126328/README.md) | PFG | missing | project_sic_rule |
+| [Private Bancorp of America, Inc.](facts/0001705284/README.md) | PBAM | available; quality gates apply | project_sic_rule |
+| [PROGRESSIVE CORP/OH/](facts/0000080661/README.md) | PGR | available; quality gates apply | project_sic_rule |
+| [PROSPERITY BANCSHARES INC](facts/0001068851/README.md) | PB | available; quality gates apply | project_sic_rule |
+| [PROVIDENT FINANCIAL HOLDINGS INC](facts/0001010470/README.md) | PROV | available; quality gates apply | project_sic_rule |
+| [PROVIDENT FINANCIAL SERVICES INC](facts/0001178970/README.md) | PFS | available; quality gates apply | project_sic_rule |
+| [PRUDENTIAL FINANCIAL INC](facts/0001137774/README.md) | PRU | available; quality gates apply | project_sic_rule |
+| [QCR HOLDINGS INC](facts/0000906465/README.md) | QCRH | available; quality gates apply | project_sic_rule |
+| [Qfin Holdings, Inc.](facts/0001741530/README.md) | QFIN | missing | project_sic_rule |
+| [QNB CORP.](facts/0000750558/README.md) | QNBC | available; quality gates apply | project_sic_rule |
+| [RADIAN GROUP INC](facts/0000890926/README.md) | RDN | available; quality gates apply | project_sic_rule |
+| [RAYMOND JAMES FINANCIAL INC](facts/0000720005/README.md) | RJF | available; quality gates apply | project_sic_rule |
+| [RBB Bancorp](facts/0001499422/README.md) | RBB | available; quality gates apply | project_sic_rule |
+| [RED RIVER BANCSHARES INC](facts/0001071236/README.md) | RRBI | available; quality gates apply | project_sic_rule |
+| [Regional Management Corp.](facts/0001519401/README.md) | RM | available; quality gates apply | project_sic_rule |
+| [REGIONS FINANCIAL CORP](facts/0001281761/README.md) | RF, RF$C, RF$E, RF$F | available; quality gates apply | project_sic_rule |
+| [REINSURANCE GROUP OF AMERICA INC](facts/0000898174/README.md) | RGA | available; quality gates apply | project_sic_rule |
+| [Reliance Global Group, Inc.](facts/0001812727/README.md) | EZRA | available; quality gates apply | project_sic_rule |
+| [RENAISSANCERE HOLDINGS LTD](facts/0000913144/README.md) | RNR, RNR$F, RNR$G | available; quality gates apply | project_sic_rule |
+| [RENASANT CORP](facts/0000715072/README.md) | RNST | available; quality gates apply | project_sic_rule |
+| [REPUBLIC BANCORP INC /KY/](facts/0000921557/README.md) | RBCAA | available; quality gates apply | project_sic_rule |
+| [Resolute Holdings Management, Inc.](facts/0002039497/README.md) | RHLD | available; quality gates apply | project_sic_rule |
+| [Rhinebeck Bancorp, Inc.](facts/0001751783/README.md) | RBKB | available; quality gates apply | project_sic_rule |
+| [Richmond Mutual Bancorporation, Inc.](facts/0001767837/README.md) | RMBI | available; quality gates apply | project_sic_rule |
+| [Ridgepost Capital, Inc.](facts/0001841968/README.md) | RPC | available; quality gates apply | project_sic_rule |
+| [Riot Platforms, Inc.](facts/0001167419/README.md) | RIOT | available; quality gates apply | project_sic_rule |
+| [RIVERVIEW BANCORP INC](facts/0001041368/README.md) | RVSB | available; quality gates apply | project_sic_rule |
+| [RLI CORP](facts/0000084246/README.md) | RLI | available; quality gates apply | project_sic_rule |
+| [Roadzen Inc.](facts/0001868640/README.md) | RDZN | available; quality gates apply | project_sic_rule |
+| [Robinhood Markets, Inc.](facts/0001783879/README.md) | HOOD | available; quality gates apply | project_sic_rule |
+| [Rocket Companies, Inc.](facts/0001805284/README.md) | RKT | available; quality gates apply | project_sic_rule |
+| [Root, Inc.](facts/0001788882/README.md) | ROOT | available; quality gates apply | project_sic_rule |
+| [ROYAL BANK OF CANADA](facts/0001000275/README.md) | RY | missing | project_sic_rule |
+| [RYAN SPECIALTY HOLDINGS, INC.](facts/0001849253/README.md) | RYAN | available; quality gates apply | project_sic_rule |
+| [S&T BANCORP INC](facts/0000719220/README.md) | STBA | available; quality gates apply | project_sic_rule |
+| [SAFETY INSURANCE GROUP INC](facts/0001172052/README.md) | SAFT | available; quality gates apply | project_sic_rule |
+| [SAIHEAT Ltd](facts/0001847075/README.md) | SAIH | available; quality gates apply | project_sic_rule |
+| [SANGRIX INC.](facts/0001735556/README.md) | SGRX | missing | project_sic_rule |
+| [Santander Holdings USA, Inc.](facts/0000811830/README.md) | SNUS$H | available; quality gates apply | project_sic_rule |
+| [SB FINANCIAL GROUP, INC.](facts/0000767405/README.md) | SBFG | available; quality gates apply | project_sic_rule |
+| [SEACOAST BANKING CORP OF FLORIDA](facts/0000730708/README.md) | SBCF | available; quality gates apply | project_sic_rule |
+| [Securitize Corp.](facts/0002094496/README.md) | SECZ | missing | project_sic_rule |
+| [SECURITY NATIONAL FINANCIAL CORP](facts/0000318673/README.md) | SNFCA | available; quality gates apply | project_sic_rule |
+| [SEI INVESTMENTS CO](facts/0000350894/README.md) | SEIC | available; quality gates apply | project_sic_rule |
+| [SELECTIVE INSURANCE GROUP INC](facts/0000230557/README.md) | SIGI, SIGIP | available; quality gates apply | project_sic_rule |
+| [SelectQuote, Inc.](facts/0001794783/README.md) | SLQT | available; quality gates apply | project_sic_rule |
+| [Sentage Holdings Inc.](facts/0001810467/README.md) | SNTG | missing | project_sic_rule |
+| [ServisFirst Bancshares, Inc.](facts/0001430723/README.md) | SFBS | available; quality gates apply | project_sic_rule |
+| [Sharplink, Inc.](facts/0001981535/README.md) | SBET | available; quality gates apply | project_sic_rule |
+| [SHF Holdings, Inc.](facts/0001854963/README.md) | SHFS | available; quality gates apply | project_sic_rule |
+| [SHINHAN FINANCIAL GROUP CO LTD](facts/0001263043/README.md) | SHG | missing | project_sic_rule |
+| [SHORE BANCSHARES INC](facts/0001035092/README.md) | SHBI | available; quality gates apply | project_sic_rule |
+| [SIEBERT FINANCIAL CORP](facts/0000065596/README.md) | SIEB | available; quality gates apply | project_sic_rule |
+| [SIERRA BANCORP](facts/0001130144/README.md) | BSRR | available; quality gates apply | project_sic_rule |
+| [Silvercrest Asset Management Group Inc.](facts/0001549966/README.md) | SAMG | available; quality gates apply | project_sic_rule |
+| [Silvia, Inc.](facts/0002076163/README.md) | SVIA | available; quality gates apply | project_sic_rule |
+| [SIMMONS FIRST NATIONAL CORP](facts/0000090498/README.md) | SFNC | available; quality gates apply | project_sic_rule |
+| [SiriusPoint Ltd](facts/0001576018/README.md) | SPNT | available; quality gates apply | project_sic_rule |
+| [SkyAI, Inc.](facts/0001737995/README.md) | SKYA | available; quality gates apply | project_sic_rule |
+| [Skyward Specialty Insurance Group, Inc.](facts/0001519449/README.md) | SKWD | available; quality gates apply | project_sic_rule |
+| [Slide Insurance Holdings, Inc.](facts/0001886428/README.md) | SLDE | available; quality gates apply | project_sic_rule |
+| [SLM Corp](facts/0001032033/README.md) | SLM | available; quality gates apply | project_sic_rule |
+| [SMARTFINANCIAL INC.](facts/0001038773/README.md) | SMBK | missing | project_sic_rule |
+| [SoFi Technologies, Inc.](facts/0001818874/README.md) | SOFI | available; quality gates apply | project_sic_rule |
+| [SOL Strategies Inc.](facts/0001846839/README.md) | STKE | missing | project_sic_rule |
+| [Solana Co](facts/0001610853/README.md) | HSDT | available; quality gates apply | project_sic_rule |
+| [Solowin Holdings, Ltd.](facts/0001959224/README.md) | AXG | missing | project_sic_rule |
+| [Soluna Holdings, Inc](facts/0000064463/README.md) | SLNH | available; quality gates apply | project_sic_rule |
+| [Sono Group N.V.](facts/0001840416/README.md) | SSM | available; quality gates apply | project_sic_rule |
+| [SOS Ltd](facts/0001346610/README.md) | SOS | missing | project_sic_rule |
+| [Sound Financial Bancorp, Inc.](facts/0001541119/README.md) | SFBC | available; quality gates apply | project_sic_rule |
+| [SOUTH PLAINS FINANCIAL, INC.](facts/0001163668/README.md) | SPFI | available; quality gates apply | project_sic_rule |
+| [SOUTHERN FIRST BANCSHARES INC](facts/0001090009/README.md) | SFST | available; quality gates apply | project_sic_rule |
+| [SOUTHERN MISSOURI BANCORP, INC.](facts/0000916907/README.md) | SMBC | available; quality gates apply | project_sic_rule |
+| [SOUTHSIDE BANCSHARES INC](facts/0000705432/README.md) | SBSI | available; quality gates apply | project_sic_rule |
+| [SouthState Bank Corp](facts/0000764038/README.md) | SSB | available; quality gates apply | project_sic_rule |
+| [SPROTT INC.](facts/0001512920/README.md) | SII | missing | project_sic_rule |
+| [SR Bancorp, Inc.](facts/0001951276/README.md) | SRBK | available; quality gates apply | project_sic_rule |
+| [Stablecoin Development Corp](facts/0001389545/README.md) | SDEV | available; quality gates apply | project_sic_rule |
+| [StableCoinX Inc.](facts/0002080215/README.md) | USDE | available; quality gates apply | project_sic_rule |
+| [STATE STREET CORP](facts/0000093751/README.md) | STT, STT$G | available; quality gates apply | project_sic_rule |
+| [StepStone Group Inc.](facts/0001796022/README.md) | STEP | available; quality gates apply | project_sic_rule |
+| [Stewards, Inc.](facts/0001795851/README.md) | SWRD | available; quality gates apply | project_sic_rule |
+| [STEWART INFORMATION SERVICES CORP](facts/0000094344/README.md) | STC | available; quality gates apply | project_sic_rule |
+| [STIFEL FINANCIAL CORP](facts/0000720672/README.md) | SF, SF$B, SF$C, SF$D | available; quality gates apply | project_sic_rule |
+| [Stock Yards Bancorp, Inc.](facts/0000835324/README.md) | SYBT | available; quality gates apply | project_sic_rule |
+| [StoneX Group Inc.](facts/0000913760/README.md) | SNEX | available; quality gates apply | project_sic_rule |
+| [Strategy Inc](facts/0001050446/README.md) | MSTR | available; quality gates apply | project_sic_rule |
+| [Streamex Corp.](facts/0001530766/README.md) | STEX | available; quality gates apply | project_sic_rule |
+| [Strive, Inc.](facts/0001920406/README.md) | ASST | available; quality gates apply | project_sic_rule |
+| [SUI Group Holdings Ltd.](facts/0001425355/README.md) | SUIG | available; quality gates apply | project_sic_rule |
+| [SUN LIFE FINANCIAL INC](facts/0001097362/README.md) | SLF | missing | project_sic_rule |
+| [Synchrony Financial](facts/0001601712/README.md) | SYF, SYF$A, SYF$B | available; quality gates apply | project_sic_rule |
+| [TAO Synergies Inc.](facts/0001571934/README.md) | TAOX | available; quality gates apply | project_sic_rule |
+| [TERAWULF INC.](facts/0001083301/README.md) | WULF | available; quality gates apply | project_sic_rule |
+| [Texas Community Bancshares, Inc.](facts/0001849466/README.md) | TCBS | available; quality gates apply | project_sic_rule |
+| [TFS Financial CORP](facts/0001381668/README.md) | TFSL | available; quality gates apply | project_sic_rule |
+| [The9 LTD](facts/0001296774/README.md) | NCTY | missing | project_sic_rule |
+| [Third Coast Bancshares, Inc.](facts/0001781730/README.md) | TCBX | available; quality gates apply | project_sic_rule |
+| [TIMBERLAND BANCORP INC](facts/0001046050/README.md) | TSBK | available; quality gates apply | project_sic_rule |
+| [TIPTREE INC.](facts/0001393726/README.md) | TIPT | missing | project_sic_rule |
+| [TOMPKINS FINANCIAL CORP](facts/0001005817/README.md) | TMP | available; quality gates apply | project_sic_rule |
+| [TON Strategy Co](facts/0001566610/README.md) | TONX | available; quality gates apply | project_sic_rule |
+| [TOP Financial Group Ltd](facts/0001848275/README.md) | TOP | available; quality gates apply | project_sic_rule |
+| [TORONTO DOMINION BANK](facts/0000947263/README.md) | TD | missing | project_sic_rule |
+| [TPG Inc.](facts/0001880661/README.md) | TPG | available; quality gates apply | project_sic_rule |
+| [Tradeweb Markets Inc.](facts/0001758730/README.md) | TW | available; quality gates apply | project_sic_rule |
+| [TRAVELERS COMPANIES, INC.](facts/0000086312/README.md) | TRV | available; quality gates apply | project_sic_rule |
+| [TRICO BANCSHARES /](facts/0000356171/README.md) | TCBK | available; quality gates apply | project_sic_rule |
+| [Triumph Financial, Inc.](facts/0001539638/README.md) | TFIN | available; quality gates apply | project_sic_rule |
+| [Tron Inc.](facts/0001956744/README.md) | TRON | available; quality gates apply | project_sic_rule |
+| [TRUIST FINANCIAL CORP](facts/0000092230/README.md) | TFC, TFC$O, TFC$R | missing | project_sic_rule |
+| [TRUPANION, INC.](facts/0001371285/README.md) | TRUP | available; quality gates apply | project_sic_rule |
+| [TRUSTCO BANK CORP N Y](facts/0000357301/README.md) | TRST | available; quality gates apply | project_sic_rule |
+| [TRUSTMARK CORP](facts/0000036146/README.md) | TRMK | available; quality gates apply | project_sic_rule |
+| [Twenty One Capital, Inc.](facts/0002070457/README.md) | XXI | available; quality gates apply | project_sic_rule |
+| [TWFG, Inc.](facts/0002007596/README.md) | TWFG | available; quality gates apply | project_sic_rule |
+| [U S GLOBAL INVESTORS INC](facts/0000754811/README.md) | GROW | available; quality gates apply | project_sic_rule |
+| [UMB FINANCIAL CORP](facts/0000101382/README.md) | UMBF, UMBFO | available; quality gates apply | project_sic_rule |
+| [UNION BANKSHARES INC](facts/0000706863/README.md) | UNB | available; quality gates apply | project_sic_rule |
+| [UNITED BANCORP INC /OH/](facts/0000731653/README.md) | UBCP | available; quality gates apply | project_sic_rule |
+| [UNITED BANKSHARES INC/WV](facts/0000729986/README.md) | UBSI | available; quality gates apply | project_sic_rule |
+| [UNITED COMMUNITY BANKS INC](facts/0000857855/README.md) | UCB | available; quality gates apply | project_sic_rule |
+| [UNITED FIRE GROUP INC](facts/0000101199/README.md) | UFCS | available; quality gates apply | project_sic_rule |
+| [UNITEDHEALTH GROUP INC](facts/0000731766/README.md) | UNH | available; quality gates apply | project_sic_rule |
+| [UNITY BANCORP INC /NJ/](facts/0000920427/README.md) | UNTY | available; quality gates apply | project_sic_rule |
+| [UNIVERSAL INSURANCE HOLDINGS, INC.](facts/0000891166/README.md) | UVE | available; quality gates apply | project_sic_rule |
+| [UNIVEST FINANCIAL Corp](facts/0000102212/README.md) | UVSP | available; quality gates apply | project_sic_rule |
+| [Unum Group](facts/0000005513/README.md) | UNM | available; quality gates apply | project_sic_rule |
+| [UP Fintech Holding Ltd](facts/0001756699/README.md) | TIGR | missing | project_sic_rule |
+| [UPEXI, INC.](facts/0001775194/README.md) | UPXI | available; quality gates apply | project_sic_rule |
+| [Upstart Holdings, Inc.](facts/0001647639/README.md) | UPST | missing | project_sic_rule |
+| [Uranium Royalty Corp.](facts/0002143673/README.md) | UROY | available; quality gates apply | project_sic_rule |
+| [USBC, Inc.](facts/0001074828/README.md) | USBC | available; quality gates apply | project_sic_rule |
+| [USCB FINANCIAL HOLDINGS, INC.](facts/0001901637/README.md) | USCB | available; quality gates apply | project_sic_rule |
+| [Usio, Inc.](facts/0001088034/README.md) | USIO | available; quality gates apply | project_sic_rule |
+| [UWM Holdings Corp](facts/0001783398/README.md) | UWMC | available; quality gates apply | project_sic_rule |
+| [VALLEY NATIONAL BANCORP](facts/0000714310/README.md) | VLY | available; quality gates apply | project_sic_rule |
+| [VALUE LINE INC](facts/0000717720/README.md) | VALU | available; quality gates apply | project_sic_rule |
+| [Velocity Financial, Inc.](facts/0001692376/README.md) | VEL | available; quality gates apply | project_sic_rule |
+| [VersaBank](facts/0001690639/README.md) | VBNK | missing | project_sic_rule |
+| [Victory Capital Holdings, Inc.](facts/0001570827/README.md) | VCTR | available; quality gates apply | project_sic_rule |
+| [Vinci Compass Investments Ltd.](facts/0001826286/README.md) | VINP | missing | project_sic_rule |
+| [Virginia National Bankshares Corp](facts/0001572334/README.md) | VABK | available; quality gates apply | project_sic_rule |
+| [Virtu Financial, Inc.](facts/0001592386/README.md) | VIRT | available; quality gates apply | project_sic_rule |
+| [VIRTUS INVESTMENT PARTNERS, INC.](facts/0000883237/README.md) | VRTS | available; quality gates apply | project_sic_rule |
+| [Voya Financial, Inc.](facts/0001535929/README.md) | VOYA, VOYA$B | available; quality gates apply | project_sic_rule |
+| [Vulcan Infrastructure & Power Inc.](facts/0001844971/README.md) | VIP | available; quality gates apply | project_sic_rule |
+| [WAFD INC](facts/0000936528/README.md) | WAFD, WAFDP | available; quality gates apply | project_sic_rule |
+| [Walker & Dunlop, Inc.](facts/0001497770/README.md) | WD | available; quality gates apply | project_sic_rule |
+| [WASHINGTON TRUST BANCORP INC](facts/0000737468/README.md) | WASH | available; quality gates apply | project_sic_rule |
+| [Waterdrop Inc.](facts/0001823986/README.md) | WDH | missing | project_sic_rule |
+| [Waterstone Financial, Inc.](facts/0001569994/README.md) | WSBF | available; quality gates apply | project_sic_rule |
+| [Waton Financial Ltd](facts/0001987363/README.md) | WTF | missing | project_sic_rule |
+| [WEALTHFRONT CORP](facts/0001524566/README.md) | WLTH | available; quality gates apply | project_sic_rule |
+| [Webull Corp](facts/0001866364/README.md) | BULL | missing | project_sic_rule |
+| [WELLS FARGO & COMPANY/MN](facts/0000072971/README.md) | WFC, WFC$A, WFC$C, WFC$D, WFC$Y, WFC$Z | available; quality gates apply | project_sic_rule |
+| [WESBANCO INC](facts/0000203596/README.md) | WSBC, WSBCO | available; quality gates apply | project_sic_rule |
+| [WEST BANCORPORATION INC](facts/0001166928/README.md) | WTBA | available; quality gates apply | project_sic_rule |
+| [West Coast Community Bancorp](facts/0002105965/README.md) | WCCB | missing | project_sic_rule |
+| [WESTAMERICA BANCORPORATION](facts/0000311094/README.md) | WABC | available; quality gates apply | project_sic_rule |
+| [WESTERN ALLIANCE BANCORPORATION](facts/0001212545/README.md) | WAL, WAL$A | available; quality gates apply | project_sic_rule |
+| [Western New England Bancorp, Inc.](facts/0001157647/README.md) | WNEB | available; quality gates apply | project_sic_rule |
+| [WESTWOOD HOLDINGS GROUP INC](facts/0001165002/README.md) | WHG | available; quality gates apply | project_sic_rule |
+| [WHITE MOUNTAINS INSURANCE GROUP LTD](facts/0000776867/README.md) | WTM | available; quality gates apply | project_sic_rule |
+| [WhiteFiber, Inc.](facts/0002042022/README.md) | WYFI | available; quality gates apply | project_sic_rule |
+| [Winchester Bancorp, Inc./MD/](facts/0002047235/README.md) | WSBK | available; quality gates apply | project_sic_rule |
+| [WINTRUST FINANCIAL CORP](facts/0001015328/README.md) | WTFC, WTFCN | available; quality gates apply | project_sic_rule |
+| [WisdomTree, Inc.](facts/0000880631/README.md) | WT | available; quality gates apply | project_sic_rule |
+| [WOORI FINANCIAL GROUP INC.](facts/0001264136/README.md) | WF | missing | project_sic_rule |
+| [WORLD ACCEPTANCE CORP](facts/0000108385/README.md) | WRLD | available; quality gates apply | project_sic_rule |
+| [WSFS FINANCIAL CORP](facts/0000828944/README.md) | WSFS | available; quality gates apply | project_sic_rule |
+| [X Financial](facts/0001725033/README.md) | XYF | missing | project_sic_rule |
+| [XChange TEC.INC](facts/0001769256/README.md) | XHG | missing | project_sic_rule |
+| [XP Inc.](facts/0001787425/README.md) | XP | missing | project_sic_rule |
+| [Yiren Digital Ltd.](facts/0001631761/README.md) | YRD | missing | project_sic_rule |
+| [Yorkville Acquisition Corp.](facts/0002064658/README.md) | MCGA | available; quality gates apply | project_sic_rule |
+| [Yuanbao Inc.](facts/0001995520/README.md) | YB | missing | project_sic_rule |
+| [Yueda Digital Holding](facts/0001413745/README.md) | YDKG | missing | project_sic_rule |
+| [Z Squared Inc.](facts/0001759186/README.md) | ZSQR | available; quality gates apply | project_sic_rule |
+| [ZeroStack Corp.](facts/0001790169/README.md) | ZSTK | missing | project_sic_rule |
+| [Zeta Network Group](facts/0001747661/README.md) | ZNB | missing | project_sic_rule |
+| [Zhibao Technology Inc.](facts/0001966750/README.md) | ZBAO | missing | project_sic_rule |
 
 ## Curated research
 

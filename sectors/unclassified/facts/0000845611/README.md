@@ -8,11 +8,11 @@ tickers:
 - GCV
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -77,10 +77,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000845611.json
     sha256: 91fc6dcef8013fe505ac4c7db8403ee068bbf1794eb46bd34739847adfae59d6
-    retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0000845611.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -88,70 +88,74 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000845611.json
   published_at: null
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 91fc6dcef8013fe505ac4c7db8403ee068bbf1794eb46bd34739847adfae59d6
 - id: S03
   title: NPORT-P 0000940400-26-036236
   url: https://www.sec.gov/Archives/edgar/data/845611/000094040026036236/0000940400-26-036236-index.html
   published_at: '2026-08-31'
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: N-PX 0002000324-26-003524
   url: https://www.sec.gov/Archives/edgar/data/845611/000200032426003524/0002000324-26-003524-index.html
   published_at: '2026-08-19'
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 3 0001383046-26-000003
   url: https://www.sec.gov/Archives/edgar/data/845611/000138304626000003/0001383046-26-000003-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: N-CSRS 0001829126-26-006145
   url: https://www.sec.gov/Archives/edgar/data/845611/000182912626006145/0001829126-26-006145-index.html
   published_at: '2026-06-08'
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: NPORT-P 0000940400-26-023182
   url: https://www.sec.gov/Archives/edgar/data/845611/000094040026023182/0000940400-26-023182-index.html
   published_at: '2026-06-01'
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0000845611
+  classification_status: missing_or_invalid_sic
+  entity_type: operating
   name: GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC
+  sic: null
+  sic_description: ''
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T18:09:58.292551+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 91fc6dcef8013fe505ac4c7db8403ee068bbf1794eb46bd34739847adfae59d6
   url: https://data.sec.gov/submissions/CIK0000845611.json
 sector_assignment:
   sector: unclassified
   method: unresolved
   sic: null
-  sic_description: null
+  sic_description: ''
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000845611/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000845611/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC — GCV
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000845611/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000845611/README.md)
 
 ## Business overview
 
@@ -227,7 +231,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
 - Forms observed in the retained filing inventory: 10-Q, 144, 24F-2TM, 25, 25-NSE, 3, 4, 4/A, 40-17G, 40-17G/A, 486BPOS, 497, 497AD, 8-A12B, 8-A12B/A, 8-K, CERTNYS, CORRESP, D, DEF 14A, DEFA14A, DEFR14A, DEL AM, EFFECT, N-2, N-2/A, N-23C-2, N-30B-2, N-30D, N-CEN, N-CSR, N-CSR/A, N-CSRS, N-CSRS/A, N-PX, N-Q, NO ACT, NPORT-EX, NPORT-P, NSAR-A, NSAR-A/A, NSAR-B, NSAR-B/A, NT-NSAR, POS EX, PRE 14A, RW, SC 13D, SC 13D/A, SC 13G, SC 13G/A, UNDER, UPLOAD
-- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-22T18:36:57.418600+00:00.
+- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-23T08:39:56.208924+00:00.
 
 ## Relationships and themes
 
@@ -247,20 +251,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000845611.json) — published not supplied; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000845611.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [NPORT-P 0000940400-26-036236](https://www.sec.gov/Archives/edgar/data/845611/000094040026036236/0000940400-26-036236-index.html) — published 2026-08-31; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S03] [NPORT-P 0000940400-26-036236](https://www.sec.gov/Archives/edgar/data/845611/000094040026036236/0000940400-26-036236-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [N-PX 0002000324-26-003524](https://www.sec.gov/Archives/edgar/data/845611/000200032426003524/0002000324-26-003524-index.html) — published 2026-08-19; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S04] [N-PX 0002000324-26-003524](https://www.sec.gov/Archives/edgar/data/845611/000200032426003524/0002000324-26-003524-index.html) — published 2026-08-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [3 0001383046-26-000003](https://www.sec.gov/Archives/edgar/data/845611/000138304626000003/0001383046-26-000003-index.html) — published 2026-08-14; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S05] [3 0001383046-26-000003](https://www.sec.gov/Archives/edgar/data/845611/000138304626000003/0001383046-26-000003-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [N-CSRS 0001829126-26-006145](https://www.sec.gov/Archives/edgar/data/845611/000182912626006145/0001829126-26-006145-index.html) — published 2026-06-08; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S06] [N-CSRS 0001829126-26-006145](https://www.sec.gov/Archives/edgar/data/845611/000182912626006145/0001829126-26-006145-index.html) — published 2026-06-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [NPORT-P 0000940400-26-023182](https://www.sec.gov/Archives/edgar/data/845611/000094040026023182/0000940400-26-023182-index.html) — published 2026-06-01; retrieved 2026-10-22T18:09:58.292551+00:00.
+[S07] [NPORT-P 0000940400-26-023182](https://www.sec.gov/Archives/edgar/data/845611/000094040026023182/0000940400-26-023182-index.html) — published 2026-06-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000845611/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000845611/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

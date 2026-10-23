@@ -8,11 +8,11 @@ tickers:
 - OZK
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -29,10 +29,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001569650.json
     sha256: 5a989e024cf784f705ceb6dc232cac5e001a2119e79a43fda55b1d76241149f1
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001569650.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -40,70 +40,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001569650.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 5a989e024cf784f705ceb6dc232cac5e001a2119e79a43fda55b1d76241149f1
 - id: S03
   title: N-PX 0001193125-26-376915
   url: https://www.sec.gov/Archives/edgar/data/1569650/000119312526376915/0001193125-26-376915-index.html
   published_at: '2026-08-31'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 13F-HR 0001193125-26-353894
   url: https://www.sec.gov/Archives/edgar/data/1569650/000119312526353894/0001193125-26-353894-index.html
   published_at: '2026-08-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: SCHEDULE 13G/A 0000814133-26-000070
   url: https://www.sec.gov/Archives/edgar/data/1569650/000081413326000070/0000814133-26-000070-index.html
   published_at: '2026-07-08'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: 13F-HR 0001193125-26-220947
   url: https://www.sec.gov/Archives/edgar/data/1569650/000119312526220947/0001193125-26-220947-index.html
   published_at: '2026-05-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: SCHEDULE 13G/A 0000814133-26-000039
   url: https://www.sec.gov/Archives/edgar/data/1569650/000081413326000039/0000814133-26-000039-index.html
   published_at: '2026-04-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001569650
+  classification_status: missing_or_invalid_sic
+  entity_type: other
   name: Bank OZK
+  sic: null
+  sic_description: ''
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 5a989e024cf784f705ceb6dc232cac5e001a2119e79a43fda55b1d76241149f1
   url: https://data.sec.gov/submissions/CIK0001569650.json
 sector_assignment:
   sector: unclassified
   method: unresolved
   sic: null
-  sic_description: null
+  sic_description: ''
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001569650/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001569650/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # Bank OZK — OZK
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001569650/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001569650/README.md)
 
 ## Business overview
 
@@ -179,7 +183,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership.
 - Forms observed in the retained filing inventory: 13F-HR, N-PX, SC 13G, SC 13G/A, SCHEDULE 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:42:28.635951+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:44:40.137856+00:00.
 
 ## Relationships and themes
 
@@ -199,20 +203,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001569650.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001569650.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [N-PX 0001193125-26-376915](https://www.sec.gov/Archives/edgar/data/1569650/000119312526376915/0001193125-26-376915-index.html) — published 2026-08-31; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [N-PX 0001193125-26-376915](https://www.sec.gov/Archives/edgar/data/1569650/000119312526376915/0001193125-26-376915-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [13F-HR 0001193125-26-353894](https://www.sec.gov/Archives/edgar/data/1569650/000119312526353894/0001193125-26-353894-index.html) — published 2026-08-17; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [13F-HR 0001193125-26-353894](https://www.sec.gov/Archives/edgar/data/1569650/000119312526353894/0001193125-26-353894-index.html) — published 2026-08-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [SCHEDULE 13G/A 0000814133-26-000070](https://www.sec.gov/Archives/edgar/data/1569650/000081413326000070/0000814133-26-000070-index.html) — published 2026-07-08; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [SCHEDULE 13G/A 0000814133-26-000070](https://www.sec.gov/Archives/edgar/data/1569650/000081413326000070/0000814133-26-000070-index.html) — published 2026-07-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [13F-HR 0001193125-26-220947](https://www.sec.gov/Archives/edgar/data/1569650/000119312526220947/0001193125-26-220947-index.html) — published 2026-05-13; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [13F-HR 0001193125-26-220947](https://www.sec.gov/Archives/edgar/data/1569650/000119312526220947/0001193125-26-220947-index.html) — published 2026-05-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [SCHEDULE 13G/A 0000814133-26-000039](https://www.sec.gov/Archives/edgar/data/1569650/000081413326000039/0000814133-26-000039-index.html) — published 2026-04-21; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [SCHEDULE 13G/A 0000814133-26-000039](https://www.sec.gov/Archives/edgar/data/1569650/000081413326000039/0000814133-26-000039-index.html) — published 2026-04-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001569650/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001569650/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

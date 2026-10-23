@@ -8,11 +8,11 @@ tickers:
 - ECAT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -60,10 +60,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001864843.json
     sha256: 6fe7e1c45f154206de9b1585a7e5d9001b388382642939e8163b62a1c12552e1
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001864843.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -71,70 +71,74 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001864843.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 6fe7e1c45f154206de9b1585a7e5d9001b388382642939e8163b62a1c12552e1
 - id: S03
   title: 4 0001510281-26-000355
   url: https://www.sec.gov/Archives/edgar/data/1864843/000151028126000355/0001510281-26-000355-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: 4 0001510281-26-000347
   url: https://www.sec.gov/Archives/edgar/data/1864843/000151028126000347/0001510281-26-000347-index.html
   published_at: '2026-10-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: 4 0001510281-26-000342
   url: https://www.sec.gov/Archives/edgar/data/1864843/000151028126000342/0001510281-26-000342-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: 4 0001510281-26-000338
   url: https://www.sec.gov/Archives/edgar/data/1864843/000151028126000338/0001510281-26-000338-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: 4 0001510281-26-000337
   url: https://www.sec.gov/Archives/edgar/data/1864843/000151028126000337/0001510281-26-000337-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001864843
+  classification_status: missing_or_invalid_sic
+  entity_type: other
   name: BlackRock ESG Capital Allocation Term Trust
+  sic: null
+  sic_description: ''
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 6fe7e1c45f154206de9b1585a7e5d9001b388382642939e8163b62a1c12552e1
   url: https://data.sec.gov/submissions/CIK0001864843.json
 sector_assignment:
   sector: unclassified
   method: unresolved
   sic: null
-  sic_description: null
+  sic_description: ''
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001864843/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001864843/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BlackRock ESG Capital Allocation Term Trust — ECAT
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001864843/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001864843/README.md)
 
 ## Business overview
 
@@ -210,7 +214,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 3, 4, 4/A, 40-17G, 40-17G/A, 424B1, 8-A12B, CERT, CORRESP, DEF 14A, DEFA14A, DEFC14A, DEFR14A, DFAN14A, DFRN14A, EFFECT, N-2, N-2/A, N-8A, N-CEN, N-CSR, N-CSRS, N-PX, NPORT-P, NPORT-P/A, PREC14A, PRER14A, PRRN14A, SC 13D, SC 13D/A, SC 13G, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:44:51.449019+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:46:50.901673+00:00.
 
 ## Relationships and themes
 
@@ -230,20 +234,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001864843.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001864843.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [4 0001510281-26-000355](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000355/0001510281-26-000355-index.html) — published 2026-10-19; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [4 0001510281-26-000355](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000355/0001510281-26-000355-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [4 0001510281-26-000347](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000347/0001510281-26-000347-index.html) — published 2026-10-15; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [4 0001510281-26-000347](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000347/0001510281-26-000347-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [4 0001510281-26-000342](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000342/0001510281-26-000342-index.html) — published 2026-10-14; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [4 0001510281-26-000342](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000342/0001510281-26-000342-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [4 0001510281-26-000338](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000338/0001510281-26-000338-index.html) — published 2026-10-13; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [4 0001510281-26-000338](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000338/0001510281-26-000338-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [4 0001510281-26-000337](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000337/0001510281-26-000337-index.html) — published 2026-10-09; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [4 0001510281-26-000337](https://www.sec.gov/Archives/edgar/data/1864843/000151028126000337/0001510281-26-000337-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001864843/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001864843/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

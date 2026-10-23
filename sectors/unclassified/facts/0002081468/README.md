@@ -8,11 +8,11 @@ tickers:
 - MESH
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -48,10 +48,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002081468.json
     sha256: 82af5710be3fb0e4065cdd29db7752ad6b2174e2fb26d528d2e59cc49107ad2b
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0002081468.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,13 +59,13 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002081468.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 82af5710be3fb0e4065cdd29db7752ad6b2174e2fb26d528d2e59cc49107ad2b
 - id: S03
   title: SEC CompanyFacts source
@@ -83,58 +83,62 @@ sources:
   title: 425 0001213900-26-097903
   url: https://www.sec.gov/Archives/edgar/data/2081468/000121390026097903/0001213900-26-097903-index.html
   published_at: '2026-09-08'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S08
   title: 8-K 0001213900-26-097901
   url: https://www.sec.gov/Archives/edgar/data/2081468/000121390026097901/0001213900-26-097901-index.html
   published_at: '2026-09-08'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S09
   title: 10-Q 0001213900-26-086695
   url: https://www.sec.gov/Archives/edgar/data/2081468/000121390026086695/0001213900-26-086695-index.html
   published_at: '2026-08-07'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S10
   title: SCHEDULE 13G 0001393825-26-000038
   url: https://www.sec.gov/Archives/edgar/data/2081468/000139382526000038/0001393825-26-000038-index.html
   published_at: '2026-05-12'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S11
   title: 10-Q 0001213900-26-053890
   url: https://www.sec.gov/Archives/edgar/data/2081468/000121390026053890/0001213900-26-053890-index.html
   published_at: '2026-05-08'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0002081468
+  classification_status: reported_sic
+  entity_type: operating
   name: Meshflow Acquisition Corp
+  sic: '6770'
+  sic_description: Blank Checks
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 82af5710be3fb0e4065cdd29db7752ad6b2174e2fb26d528d2e59cc49107ad2b
   url: https://data.sec.gov/submissions/CIK0002081468.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '6770'
+  sic_description: Blank Checks
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002081468/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002081468/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # Meshflow Acquisition Corp — MESH
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002081468/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002081468/README.md)
 
 ## Business overview
 
@@ -162,7 +166,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **6770**: Blank Checks. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -255,7 +261,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:45:21.342448+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:47:21.851789+00:00.
 
 ## Relationships and themes
 
@@ -275,24 +281,24 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002081468.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002081468.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0002081468.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
 [S04] [10-Q 0001213900-26-086695](https://www.sec.gov/Archives/edgar/data/2081468/000121390026086695/0001213900-26-086695-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S07] [425 0001213900-26-097903](https://www.sec.gov/Archives/edgar/data/2081468/000121390026097903/0001213900-26-097903-index.html) — published 2026-09-08; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [425 0001213900-26-097903](https://www.sec.gov/Archives/edgar/data/2081468/000121390026097903/0001213900-26-097903-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S08] [8-K 0001213900-26-097901](https://www.sec.gov/Archives/edgar/data/2081468/000121390026097901/0001213900-26-097901-index.html) — published 2026-09-08; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S08] [8-K 0001213900-26-097901](https://www.sec.gov/Archives/edgar/data/2081468/000121390026097901/0001213900-26-097901-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S09] [10-Q 0001213900-26-086695](https://www.sec.gov/Archives/edgar/data/2081468/000121390026086695/0001213900-26-086695-index.html) — published 2026-08-07; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S09] [10-Q 0001213900-26-086695](https://www.sec.gov/Archives/edgar/data/2081468/000121390026086695/0001213900-26-086695-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S10] [SCHEDULE 13G 0001393825-26-000038](https://www.sec.gov/Archives/edgar/data/2081468/000139382526000038/0001393825-26-000038-index.html) — published 2026-05-12; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S10] [SCHEDULE 13G 0001393825-26-000038](https://www.sec.gov/Archives/edgar/data/2081468/000139382526000038/0001393825-26-000038-index.html) — published 2026-05-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S11] [10-Q 0001213900-26-053890](https://www.sec.gov/Archives/edgar/data/2081468/000121390026053890/0001213900-26-053890-index.html) — published 2026-05-08; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S11] [10-Q 0001213900-26-053890](https://www.sec.gov/Archives/edgar/data/2081468/000121390026053890/0001213900-26-053890-index.html) — published 2026-05-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0002081468/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0002081468/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

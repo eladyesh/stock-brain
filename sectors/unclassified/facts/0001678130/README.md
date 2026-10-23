@@ -8,11 +8,11 @@ tickers:
 - OPP
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -67,10 +67,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001678130.json
     sha256: 9a6e94c2e04e7cdfe3e0de9ec20dd1a1641a997b64693d752c40ccadfd9ae9bb
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001678130.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -78,70 +78,74 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001678130.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 9a6e94c2e04e7cdfe3e0de9ec20dd1a1641a997b64693d752c40ccadfd9ae9bb
 - id: S03
   title: SCHEDULE 13G/A 0000895421-26-000285
   url: https://www.sec.gov/Archives/edgar/data/1678130/000089542126000285/0000895421-26-000285-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: N-CEN 0001049169-26-002594
   url: https://www.sec.gov/Archives/edgar/data/1678130/000104916926002594/0001049169-26-002594-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: N-CSR 0001398344-26-016693
   url: https://www.sec.gov/Archives/edgar/data/1678130/000139834426016693/0001398344-26-016693-index.html
   published_at: '2026-09-04'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: NPORT-P 0001049169-26-002136
   url: https://www.sec.gov/Archives/edgar/data/1678130/000104916926002136/0001049169-26-002136-index.html
   published_at: '2026-08-27'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: DEF 14A 0001398344-26-015282
   url: https://www.sec.gov/Archives/edgar/data/1678130/000139834426015282/0001398344-26-015282-index.html
   published_at: '2026-08-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001678130
+  classification_status: missing_or_invalid_sic
+  entity_type: other
   name: RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.
+  sic: null
+  sic_description: ''
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 9a6e94c2e04e7cdfe3e0de9ec20dd1a1641a997b64693d752c40ccadfd9ae9bb
   url: https://data.sec.gov/submissions/CIK0001678130.json
 sector_assignment:
   sector: unclassified
   method: unresolved
   sic: null
-  sic_description: null
+  sic_description: ''
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001678130/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001678130/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. — OPP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001678130/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001678130/README.md)
 
 ## Business overview
 
@@ -217,7 +221,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 144, 3, 3/A, 4, 40-17G, 40-APP, 40-APP/A, 424B2, 424B3, 424B5, 497, 497AD, 5, 8-A12B, 8-A12B/A, CERT, CERTNYS, CORRESP, DEF 14A, EFFECT, FWP, N-2, N-2/A, N-8A, N-CEN, N-CSR, N-CSRS, N-PX, N-Q, NPORT-EX, NPORT-P, NPORT-P/A, NSAR-A, NSAR-B, NT NPORT-P, POS 8C, POS EX, PRE 14A, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:43:25.214074+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:45:31.826814+00:00.
 
 ## Relationships and themes
 
@@ -237,20 +241,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001678130.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001678130.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SCHEDULE 13G/A 0000895421-26-000285](https://www.sec.gov/Archives/edgar/data/1678130/000089542126000285/0000895421-26-000285-index.html) — published 2026-10-13; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [SCHEDULE 13G/A 0000895421-26-000285](https://www.sec.gov/Archives/edgar/data/1678130/000089542126000285/0000895421-26-000285-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [N-CEN 0001049169-26-002594](https://www.sec.gov/Archives/edgar/data/1678130/000104916926002594/0001049169-26-002594-index.html) — published 2026-09-10; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [N-CEN 0001049169-26-002594](https://www.sec.gov/Archives/edgar/data/1678130/000104916926002594/0001049169-26-002594-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [N-CSR 0001398344-26-016693](https://www.sec.gov/Archives/edgar/data/1678130/000139834426016693/0001398344-26-016693-index.html) — published 2026-09-04; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [N-CSR 0001398344-26-016693](https://www.sec.gov/Archives/edgar/data/1678130/000139834426016693/0001398344-26-016693-index.html) — published 2026-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [NPORT-P 0001049169-26-002136](https://www.sec.gov/Archives/edgar/data/1678130/000104916926002136/0001049169-26-002136-index.html) — published 2026-08-27; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [NPORT-P 0001049169-26-002136](https://www.sec.gov/Archives/edgar/data/1678130/000104916926002136/0001049169-26-002136-index.html) — published 2026-08-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [DEF 14A 0001398344-26-015282](https://www.sec.gov/Archives/edgar/data/1678130/000139834426015282/0001398344-26-015282-index.html) — published 2026-08-21; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [DEF 14A 0001398344-26-015282](https://www.sec.gov/Archives/edgar/data/1678130/000139834426015282/0001398344-26-015282-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001678130/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001678130/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

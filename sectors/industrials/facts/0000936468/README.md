@@ -8,14 +8,14 @@ tickers:
 - LMT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae/sectors/industrials/companies/LMT/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: industrials
@@ -68,15 +68,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json
-    sha256: aedb683271d2c57451a89db5afa42af45eaaa74c57bc544ddfb427762f785c01
-    retrieved_at: '2026-10-22T17:55:06.972799+00:00'
+    sha256: 4cb5d1418e5c1b20be5d26085998d96bf1eef45015395fa49df6bac2ac0ffad5
+    retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+    archive:
+      member: CIK0000936468.json
+      sha256: 75d1cc8bca6d990b787653521a352ab25164869485705a9fb49551e8e65a9650
+      url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
+    acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0000936468.json
-    sha256: db1dcff05baf798ba47db1b67dc79bded3af92619ef3146e228413334568189c
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    sha256: 138b124208ea5f307fc9a2b51f64bb2ebe6c49ca0d3659f1ec95e671c73a82cc
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0000936468.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -84,95 +89,99 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000936468.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: db1dcff05baf798ba47db1b67dc79bded3af92619ef3146e228413334568189c
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 138b124208ea5f307fc9a2b51f64bb2ebe6c49ca0d3659f1ec95e671c73a82cc
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json
   published_at: null
-  retrieved_at: '2026-10-22T17:55:06.972799+00:00'
-  sha256: aedb683271d2c57451a89db5afa42af45eaaa74c57bc544ddfb427762f785c01
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: 4cb5d1418e5c1b20be5d26085998d96bf1eef45015395fa49df6bac2ac0ffad5
 - id: S04
   title: 10-K 0001628280-26-004195
   url: https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html
   published_at: '2026-01-29'
-  retrieved_at: '2026-10-22T17:55:06.972799+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S05
+  title: 10-Q 0001628280-26-066928
+  url: https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
+  sha256: null
+- id: S10
   title: 10-Q 0001628280-26-049411
   url: https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html
   published_at: '2026-07-23'
-  retrieved_at: '2026-10-22T17:55:06.972799+00:00'
-  sha256: null
-- id: S10
-  title: 10-Q 0001628280-26-026836
-  url: https://www.sec.gov/Archives/edgar/data/936468/000162828026026836/0001628280-26-026836-index.html
-  published_at: '2026-04-23'
-  retrieved_at: '2026-10-22T17:55:06.972799+00:00'
+  retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S18
+  title: 10-Q 0001628280-26-066928
+  url: https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S19
+  title: 8-K 0001628280-26-066780
+  url: https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/0001628280-26-066780-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S20
   title: 4 0001225208-26-008067
   url: https://www.sec.gov/Archives/edgar/data/936468/000122520826008067/0001225208-26-008067-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S19
+- id: S21
   title: 4 0001225208-26-008066
   url: https://www.sec.gov/Archives/edgar/data/936468/000122520826008066/0001225208-26-008066-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S20
+- id: S22
   title: 8-K 0001193125-26-371750
   url: https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.html
   published_at: '2026-08-28'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S21
-  title: 4 0001225208-26-007142
-  url: https://www.sec.gov/Archives/edgar/data/936468/000122520826007142/0001225208-26-007142-index.html
-  published_at: '2026-08-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S22
-  title: 144 0001950047-26-008073
-  url: https://www.sec.gov/Archives/edgar/data/936468/000195004726008073/0001950047-26-008073-index.html
-  published_at: '2026-08-13'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0000936468
+  classification_status: reported_sic
+  entity_type: operating
   name: LOCKHEED MARTIN CORP
+  sic: '3760'
+  sic_description: Guided Missiles & Space Vehicles & Parts
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: db1dcff05baf798ba47db1b67dc79bded3af92619ef3146e228413334568189c
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: 138b124208ea5f307fc9a2b51f64bb2ebe6c49ca0d3659f1ec95e671c73a82cc
   url: https://data.sec.gov/submissions/CIK0000936468.json
 sector_assignment:
   sector: industrials
   method: curated_profile
-  sic: null
-  sic_description: null
+  sic: '3760'
+  sic_description: Guided Missiles & Space Vehicles & Parts
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae/sectors/industrials/companies/LMT/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000936468/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+  source_url: https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # LOCKHEED MARTIN CORP — LMT
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000936468/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md)
 
 ## Business overview
 
@@ -200,7 +209,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **3760**: Guided Missiles & Space Vehicles & Parts. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **industrials**. Method: `curated_profile`. Uses the dated curated profile assignment; automatic data does not renew its review.
 
@@ -218,7 +229,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:55:06.972799+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -247,32 +258,32 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 | stock_based_compensation | 304,000,000 | USD | US GAAP / reported | ShareBasedCompensation | [S04] |
 
 
-### quarterly: 2026-03-30 to 2026-06-28
+### quarterly: 2026-06-29 to 2026-09-27
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
 | capex | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| cost_of_revenue | 17,617,000,000 | USD | US GAAP / reported | CostOfRevenue | [S05] |
+| cost_of_revenue | 18,275,000,000 | USD | US GAAP / reported | CostOfRevenue | [S05] |
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S05] |
 | free_cash_flow | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| gross_profit | 2,446,000,000 | USD | US GAAP / reported | GrossProfit | [S05] |
-| net_income | 1,836,000,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
+| gross_profit | 2,436,000,000 | USD | US GAAP / reported | GrossProfit | [S05] |
+| net_income | 1,845,000,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | net_income_including_noncontrolling_interests | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| operating_cash_flow | 3,235,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| operating_income | 2,479,000,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
-| purchases_of_productive_assets | -318,000,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
-| revenue | 20,063,000,000 | USD | US GAAP / reported | Revenues | [S05] |
+| operating_cash_flow | 3,438,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| operating_income | 2,443,000,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
+| purchases_of_productive_assets | -439,000,000 | USD | US GAAP / derived | PaymentsToAcquireProductiveAssets; broader_than_property_plant_equipment_only, cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| revenue | 20,711,000,000 | USD | US GAAP / reported | Revenues | [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S05] |
-| stock_based_compensation | 97,000,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
+| stock_based_compensation | 89,000,000 | USD | US GAAP / derived | ShareBasedCompensation; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S10] |
 
 
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:55:06.972799+00:00. [S03]
+Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:33:18.308731+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -293,11 +304,11 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
 
-### quarterly: 2026-03-30 to 2026-06-28
+### quarterly: 2026-06-29 to 2026-09-27
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 3,791,000,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
+| cash_and_equivalents | 5,960,000,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
 | debt_current | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebtCurrent; debt_scope_requires_filing_review | [S05] |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebtNoncurrent; debt_scope_requires_filing_review | [S05] |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
@@ -329,9 +340,9 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-22T18:38:08.319833+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:40:52.466524+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/78606fb159189686ce54eb7bc0fa1098e51dc3ab/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ## Relationships and themes
 
@@ -343,36 +354,36 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-01 | 4 | 0001225208-26-008067 | — | [S18] |
-| 2026-10-01 | 4 | 0001225208-26-008066 | — | [S19] |
-| 2026-08-28 | 8-K | 0001193125-26-371750 | — | [S20] |
-| 2026-08-17 | 4 | 0001225208-26-007142 | — | [S21] |
-| 2026-08-13 | 144 | 0001950047-26-008073 | — | [S22] |
+| 2026-10-22 | 10-Q | 0001628280-26-066928 | — | [S18] |
+| 2026-10-22 | 8-K | 0001628280-26-066780 | — | [S19] |
+| 2026-10-01 | 4 | 0001225208-26-008067 | — | [S20] |
+| 2026-10-01 | 4 | 0001225208-26-008066 | — | [S21] |
+| 2026-08-28 | 8-K | 0001193125-26-371750 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000936468.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000936468.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json) — published not supplied; retrieved 2026-10-22T17:55:06.972799+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000936468.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S04] [10-K 0001628280-26-004195](https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html) — published 2026-01-29; retrieved 2026-10-22T17:55:06.972799+00:00.
+[S04] [10-K 0001628280-26-004195](https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/0001628280-26-004195-index.html) — published 2026-01-29; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S05] [10-Q 0001628280-26-049411](https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html) — published 2026-07-23; retrieved 2026-10-22T17:55:06.972799+00:00.
+[S05] [10-Q 0001628280-26-066928](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S10] [10-Q 0001628280-26-026836](https://www.sec.gov/Archives/edgar/data/936468/000162828026026836/0001628280-26-026836-index.html) — published 2026-04-23; retrieved 2026-10-22T17:55:06.972799+00:00.
+[S10] [10-Q 0001628280-26-049411](https://www.sec.gov/Archives/edgar/data/936468/000162828026049411/0001628280-26-049411-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S18] [4 0001225208-26-008067](https://www.sec.gov/Archives/edgar/data/936468/000122520826008067/0001225208-26-008067-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S18] [10-Q 0001628280-26-066928](https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/0001628280-26-066928-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S19] [4 0001225208-26-008066](https://www.sec.gov/Archives/edgar/data/936468/000122520826008066/0001225208-26-008066-index.html) — published 2026-10-01; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S19] [8-K 0001628280-26-066780](https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/0001628280-26-066780-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S20] [8-K 0001193125-26-371750](https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.html) — published 2026-08-28; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S20] [4 0001225208-26-008067](https://www.sec.gov/Archives/edgar/data/936468/000122520826008067/0001225208-26-008067-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S21] [4 0001225208-26-007142](https://www.sec.gov/Archives/edgar/data/936468/000122520826007142/0001225208-26-007142-index.html) — published 2026-08-17; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S21] [4 0001225208-26-008066](https://www.sec.gov/Archives/edgar/data/936468/000122520826008066/0001225208-26-008066-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S22] [144 0001950047-26-008073](https://www.sec.gov/Archives/edgar/data/936468/000195004726008073/0001950047-26-008073-index.html) — published 2026-08-13; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S22] [8-K 0001193125-26-371750](https://www.sec.gov/Archives/edgar/data/936468/000119312526371750/0001193125-26-371750-index.html) — published 2026-08-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0000936468/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0000936468/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

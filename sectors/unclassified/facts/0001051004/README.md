@@ -8,11 +8,11 @@ tickers:
 - MUC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -71,10 +71,10 @@ input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001051004.json
     sha256: 811147004438da4d469ba4664a99ec8798c751f9303a73c84dcde70730ed89fa
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001051004.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -82,70 +82,74 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:08.162126+00:00'
-  sha256: 0be94d79fa8280e4e5fed634f305f620ea01ab67dda25960ecd76d3206dc969d
+  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
+  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001051004.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 811147004438da4d469ba4664a99ec8798c751f9303a73c84dcde70730ed89fa
 - id: S03
   title: N-CEN 0001410368-26-103678
   url: https://www.sec.gov/Archives/edgar/data/1051004/000141036826103678/0001410368-26-103678-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S04
   title: N-CSR 0001193125-26-413748
   url: https://www.sec.gov/Archives/edgar/data/1051004/000119312526413748/0001193125-26-413748-index.html
   published_at: '2026-10-05'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S05
   title: NPORT-P 0001410368-26-099879
   url: https://www.sec.gov/Archives/edgar/data/1051004/000141036826099879/0001410368-26-099879-index.html
   published_at: '2026-09-25'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S06
   title: 3 0001193125-26-394629
   url: https://www.sec.gov/Archives/edgar/data/1051004/000119312526394629/0001193125-26-394629-index.html
   published_at: '2026-09-17'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 - id: S07
   title: N-23C-2 0001193125-26-388090
   url: https://www.sec.gov/Archives/edgar/data/1051004/000119312526388090/0001193125-26-388090-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: '0001051004'
+  classification_status: missing_or_invalid_sic
+  entity_type: other
   name: BLACKROCK MUNIHOLDINGS CALIFORNIA QUALITY FUND, INC.
+  sic: null
+  sic_description: ''
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: 811147004438da4d469ba4664a99ec8798c751f9303a73c84dcde70730ed89fa
   url: https://data.sec.gov/submissions/CIK0001051004.json
 sector_assignment:
   sector: unclassified
   method: unresolved
   sic: null
-  sic_description: null
+  sic_description: ''
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001051004/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001051004/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BLACKROCK MUNIHOLDINGS CALIFORNIA QUALITY FUND, INC. — MUC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001051004/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001051004/README.md)
 
 ## Business overview
 
@@ -221,7 +225,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 3, 3/A, 4, 40-17G, 40-17G/A, 40-6C/A, 424B3, 425, 497H2, 497J, 8-A12B, 8-K, CORRESP, DEF 14A, DEFA14A, DEFR14A, EFFECT, N-14 8C, N-14 8C/A, N-14/A, N-2, N-2/A, N-23C-2, N-30D, N-8A, N-CEN, N-CEN/A, N-CSR, N-CSR/A, N-CSRS, N-PX, N-PX/A, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-B, NSAR-B/A, POS 8C, POS EX, PRE 14A, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:38:53.943913+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:41:30.090871+00:00.
 
 ## Relationships and themes
 
@@ -241,20 +245,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:08.162126+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001051004.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001051004.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [N-CEN 0001410368-26-103678](https://www.sec.gov/Archives/edgar/data/1051004/000141036826103678/0001410368-26-103678-index.html) — published 2026-10-14; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [N-CEN 0001410368-26-103678](https://www.sec.gov/Archives/edgar/data/1051004/000141036826103678/0001410368-26-103678-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [N-CSR 0001193125-26-413748](https://www.sec.gov/Archives/edgar/data/1051004/000119312526413748/0001193125-26-413748-index.html) — published 2026-10-05; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [N-CSR 0001193125-26-413748](https://www.sec.gov/Archives/edgar/data/1051004/000119312526413748/0001193125-26-413748-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [NPORT-P 0001410368-26-099879](https://www.sec.gov/Archives/edgar/data/1051004/000141036826099879/0001410368-26-099879-index.html) — published 2026-09-25; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [NPORT-P 0001410368-26-099879](https://www.sec.gov/Archives/edgar/data/1051004/000141036826099879/0001410368-26-099879-index.html) — published 2026-09-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [3 0001193125-26-394629](https://www.sec.gov/Archives/edgar/data/1051004/000119312526394629/0001193125-26-394629-index.html) — published 2026-09-17; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [3 0001193125-26-394629](https://www.sec.gov/Archives/edgar/data/1051004/000119312526394629/0001193125-26-394629-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [N-23C-2 0001193125-26-388090](https://www.sec.gov/Archives/edgar/data/1051004/000119312526388090/0001193125-26-388090-index.html) — published 2026-09-10; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [N-23C-2 0001193125-26-388090](https://www.sec.gov/Archives/edgar/data/1051004/000119312526388090/0001193125-26-388090-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001051004/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001051004/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

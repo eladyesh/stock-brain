@@ -8,11 +8,11 @@ tickers:
 - NBIS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-22'
-updated_at: '2026-10-22T18:45:53.881812+00:00'
+as_of: '2026-10-23'
+updated_at: '2026-10-23T08:47:59.341415+00:00'
 reviewed_at: null
-coverage_release: coverage-20261022-39831584719-1
-source_commit: c640ba8ecaf78dc0ecb247c1e3ebadf4b6fa77ae
+coverage_release: coverage-20261023-39925380279-1
+source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -52,11 +52,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001513845.json
-    sha256: 073e8ec8b763d4727dd53de3de1114dcb6674c1c5c33346ad1e2bb2d9c8cb24f
-    retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+    sha256: e0306132b9ce7ff813b2d393380f7d118b0ece6572c353d7cc4c56eccf96ab0a
+    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
     archive: &id001
       member: CIK0001513845.json
-      sha256: b6534bf3efaca6ea2a0a9509deb9eb4c612cb9aa12d4913fdb641a526cc4b033
+      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -64,70 +64,74 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-22T18:30:07.617970+00:00'
-  sha256: 484b32c59991d6364287abb8172f2106fc4eea58e5cb0256601a455a37cadda1
+  retrieved_at: '2026-10-23T08:33:47.264469+00:00'
+  sha256: fad79ccb3b53d16a6ace32a9f72f13d4f6009c72a4f1a15821e46e6008e68e75
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001513845.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: 073e8ec8b763d4727dd53de3de1114dcb6674c1c5c33346ad1e2bb2d9c8cb24f
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: e0306132b9ce7ff813b2d393380f7d118b0ece6572c353d7cc4c56eccf96ab0a
 - id: S03
+  title: 6-K 0001104659-26-117978
+  url: https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/0001104659-26-117978-index.html
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: null
+- id: S04
   title: 4 0001513845-26-000136
   url: https://www.sec.gov/Archives/edgar/data/1513845/000151384526000136/0001513845-26-000136-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0001513845-26-000134
   url: https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/0001513845-26-000134-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001513845-26-000132
   url: https://www.sec.gov/Archives/edgar/data/1513845/000151384526000132/0001513845-26-000132-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 4 0001513845-26-000130
   url: https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/0001513845-26-000130-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: null
-- id: S07
-  title: 144 0001950047-26-010270
-  url: https://www.sec.gov/Archives/edgar/data/1513845/000195004726010270/0001950047-26-010270-index.html
-  published_at: '2026-10-15'
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
 issuer_classification:
   cik: 0001513845
+  classification_status: reported_sic
+  entity_type: other
   name: Nebius Group N.V.
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-22T17:39:35.977490+00:00'
-  sha256: 073e8ec8b763d4727dd53de3de1114dcb6674c1c5c33346ad1e2bb2d9c8cb24f
+  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  sha256: e0306132b9ce7ff813b2d393380f7d118b0ece6572c353d7cc4c56eccf96ab0a
   url: https://data.sec.gov/submissions/CIK0001513845.json
 sector_assignment:
   sector: unclassified
   method: unresolved
-  sic: null
-  sic_description: null
+  sic: '7370'
+  sic_description: Services-Computer Programming, Data Processing, Etc.
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001513845/README.md
-full_history_commit: f1dea1c5fdf869d02b10266fe4da900fd3a13544
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001513845/README.md
+full_history_commit: ffcaf17e05894e3d5a5cf6f414562c7c11a15184
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # Nebius Group N.V. — NBIS
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001513845/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001513845/README.md)
 
 ## Business overview
 
@@ -155,7 +159,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+SEC-reported SIC **7370**: Services-Computer Programming, Data Processing, Etc.. [S02]
+
+This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -203,7 +209,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 20-F/A, 3, 4, 4/A, 424B1, 424B5, 424B7, 6-K, 6-K/A, 8-A12B, CB, CERTNAS, CORRESP, CT ORDER, EFFECT, F-1, F-1/A, F-3ASR, FWP, S-8, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-22T18:42:00.072015+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:44:12.950077+00:00.
 
 ## Relationships and themes
 
@@ -215,28 +221,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 4 | 0001513845-26-000136 | — | [S03] |
-| 2026-10-20 | 4 | 0001513845-26-000134 | — | [S04] |
-| 2026-10-19 | 4 | 0001513845-26-000132 | — | [S05] |
-| 2026-10-16 | 4 | 0001513845-26-000130 | — | [S06] |
-| 2026-10-15 | 144 | 0001950047-26-010270 | — | [S07] |
+| 2026-10-22 | 6-K | 0001104659-26-117978 | — | [S03] |
+| 2026-10-21 | 4 | 0001513845-26-000136 | — | [S04] |
+| 2026-10-20 | 4 | 0001513845-26-000134 | — | [S05] |
+| 2026-10-19 | 4 | 0001513845-26-000132 | — | [S06] |
+| 2026-10-16 | 4 | 0001513845-26-000130 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-22T18:30:07.617970+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:47.264469+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001513845.json) — published not supplied; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001513845.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [4 0001513845-26-000136](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000136/0001513845-26-000136-index.html) — published 2026-10-21; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S03] [6-K 0001104659-26-117978](https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/0001104659-26-117978-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S04] [4 0001513845-26-000134](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/0001513845-26-000134-index.html) — published 2026-10-20; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S04] [4 0001513845-26-000136](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000136/0001513845-26-000136-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S05] [4 0001513845-26-000132](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000132/0001513845-26-000132-index.html) — published 2026-10-19; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S05] [4 0001513845-26-000134](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000134/0001513845-26-000134-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S06] [4 0001513845-26-000130](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/0001513845-26-000130-index.html) — published 2026-10-16; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S06] [4 0001513845-26-000132](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000132/0001513845-26-000132-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S07] [144 0001950047-26-010270](https://www.sec.gov/Archives/edgar/data/1513845/000195004726010270/0001950047-26-010270-index.html) — published 2026-10-15; retrieved 2026-10-22T17:39:35.977490+00:00.
+[S07] [4 0001513845-26-000130](https://www.sec.gov/Archives/edgar/data/1513845/000151384526000130/0001513845-26-000130-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261022-39831584719-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f1dea1c5fdf869d02b10266fe4da900fd3a13544/brain/companies/0001513845/README.md).
+Source release: `coverage-20261023-39925380279-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ffcaf17e05894e3d5a5cf6f414562c7c11a15184/brain/companies/0001513845/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
