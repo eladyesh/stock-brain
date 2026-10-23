@@ -90,6 +90,18 @@ class MarkdownTests(unittest.TestCase):
         raw = (self.output / 'brain/companies/0000789019/README.md').read_text()
         self.assertIn('not zero revenue', raw)
         self.assertNotIn('| revenue | 0', raw)
+        self.assertEqual(manifest['financial_gap_counts']['not_collected'], 1)
+        self.assertIn('Coverage gaps and next research tasks', (self.output / 'brain/GAPS.md').read_text())
+
+    def test_gap_tasks_use_observed_forms_and_do_not_assume_all_foreign_forms_are_ifrs(self):
+        def gap(forms, state=None):
+            return brain.financial_gap(None, {'recent_filing_inventory': [{'form': f} for f in forms]}, state)
+        self.assertEqual(gap(['20-F', '6-K'])['reason'], 'foreign_reporting_adapter')
+        self.assertEqual(gap(['N-CSR', 'N-CSRS'])['reason'], 'fund_reporting_review')
+        self.assertEqual(gap(['N-CSR', '10-K'])['reason'], 'unsupported_reporting_inventory')
+        self.assertEqual(gap(['10-Q'], {'last_action': 'filings_only_financials_incomplete'})['reason'], 'latest_filing_incomplete')
+        self.assertEqual(brain.financial_gap({'valid': True}, None, None)['reason'], 'available')
+        self.assertNotIn('IFRS', gap(['20-F'])['next_action'])
 
     def test_frozen_reader_preserves_exact_snapshot_bytes_and_rejects_writes(self):
         import coverage_backup

@@ -38,6 +38,14 @@ MAX_FILE = 512 * 1024
 MAX_TOTAL = 512 * 1024 * 1024
 MAX_PROFILES = 50_000
 FORMAT = 'stock-brain-markdown'
+GAP_ACTIONS = {
+    'available': 'Retain dated financial evidence and review blocked metrics before analytical use.',
+    'latest_filing_incomplete': 'Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.',
+    'foreign_reporting_adapter': 'Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.',
+    'fund_reporting_review': 'Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.',
+    'unsupported_reporting_inventory': 'Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership.',
+    'not_collected': 'Collect verified issuer submissions and source financial data before normalization.',
+}
 CIK = re.compile(r'[0-9]{10}\Z')
 SHA = re.compile(r'[0-9a-f]{40}\Z')
 SHA256 = re.compile(r'[0-9a-f]{64}\Z')
@@ -109,6 +117,28 @@ def stock_rows(store):
             ORDER BY cik,exchange,ticker''', market_directory.EQUITY_TYPES)]
 
 
+def financial_gap(history, submissions, state):
+    inventory = (submissions or {}).get('recent_filing_inventory') or (submissions or {}).get('filings') or []
+    forms = sorted({x['form'] for x in inventory if x.get('form')})
+    if history:
+        reason = 'available'
+    elif (state or {}).get('last_action') == 'filings_only_financials_incomplete':
+        reason = 'latest_filing_incomplete'
+    elif any(x in forms for x in ('10-K', '10-Q', '10-K/A', '10-Q/A')):
+        # A mixed filing history cannot be classified as a fund/foreign issuer
+        # from the presence of one historical form alone.
+        reason = 'unsupported_reporting_inventory'
+    elif any(x in forms for x in ('20-F', '40-F', '6-K', '20-F/A', '40-F/A', '6-K/A')):
+        reason = 'foreign_reporting_adapter'
+    elif any(x in forms for x in ('N-CSR', 'N-CSRS', 'N-CSR/A', 'N-CSRS/A')):
+        reason = 'fund_reporting_review'
+    elif submissions:
+        reason = 'unsupported_reporting_inventory'
+    else:
+        reason = 'not_collected'
+    return {'reason': reason, 'next_action': GAP_ACTIONS[reason], 'observed_forms': forms}
+
+
 def profile(store, cik, rows, definitions, release, curated=None):
     """One issuer in memory, deterministic bytes, explicit missing research sections."""
     require(CIK.fullmatch(cik) is not None and int(cik) > 0, 'invalid issuer identity')
@@ -120,6 +150,7 @@ def profile(store, cik, rows, definitions, release, curated=None):
     history, submissions, state = (payloads[k] for k in ('history', 'submissions', 'collector_state'))
     if history:
         financial_history.validate_history(history)
+    gap = financial_gap(history, submissions, state)
     sources, lookup = [], {}
 
     def source(link, title, accessed, *, published=None, sha256=None):
@@ -197,6 +228,8 @@ def profile(store, cik, rows, definitions, release, curated=None):
             "Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence."]
     if not history:
         gaps.append('No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.')
+        gaps.append('Next collection task: ' + gap['next_action'])
+        gaps.append('Forms observed in the retained filing inventory: ' + ', '.join(gap['observed_forms']))
     if state:
         gaps.append(f"Collector status: {state.get('status')}; last action: {state.get('last_action')}; last checked: {state.get('last_checked_at')}.")
     sections['scenarios-and-open-questions'] = '\n'.join('- ' + text(g) for g in gaps)
@@ -214,7 +247,7 @@ def profile(store, cik, rows, definitions, release, curated=None):
                 'as_of': release['created_at'][:10], 'updated_at': release['created_at'], 'reviewed_at': None,
                 'coverage_release': release['release_tag'], 'source_commit': release['source_commit'],
                 'financial_history_available': bool(history), 'curated_research': curated,
-                'input_sources': input_sources, 'sources': sources}
+                'financial_gap': gap, 'input_sources': input_sources, 'sources': sources}
     body = f"# {text(name)} — CIK {cik}\n\n> Automatically maintained factual stub. Substantive company research is incomplete.\n\n[All companies](../../INDEX.md)\n\n"
     body += '\n\n'.join(f"## {d['title']}\n\n{sections[d['id']]}" for d in definitions) + '\n'
     return '---\n' + yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True) + '---\n' + body
@@ -253,6 +286,7 @@ def export(store, output, release, *, root=ROOT):
             missing.append(row)
     require(0 < len(grouped) <= MAX_PROFILES and len(missing) <= MAX_PROFILES, 'unexpected profile count')
     files, total, financials = {}, 0, 0
+    gap_groups = defaultdict(list)
 
     def write(path, content):
         nonlocal total
@@ -276,6 +310,7 @@ def export(store, output, release, *, root=ROOT):
         meta, body = split_profile(content)
         kb.sections_from(body, definitions)
         financials += int(meta['financial_history_available'])
+        gap_groups[meta['financial_gap']['reason']].append((cik, meta['company_name']))
         write(f'brain/companies/{cik}/README.md', content)
         company_index.append((cik, f"| {cik} | [{text(meta['company_name'])}](../companies/{cik}/README.md) | {text(', '.join(meta['tickers']))} | {'available, quality gates apply' if meta['financial_history_available'] else 'not available'} |"))
         if len(files) % 500 == 0:
@@ -299,7 +334,24 @@ def export(store, output, release, *, root=ROOT):
         write('brain/' + filename, f'# Unresolved listing page {number}\n\n[All pages](../INDEX.md)\n\n'
               + '| Symbol | Exchange | Directory name |\n| --- | --- | --- |\n' + '\n'.join(page) + '\n')
         index.append(f'| [{number}]({filename}) | {len(page)} |')
+    index += ['', '[Coverage gaps and next research tasks](GAPS.md)', '']
     write('brain/INDEX.md', '\n'.join(index) + '\n')
+    gap_lines = ['# Coverage gaps and next research tasks', '', '[Company index](INDEX.md)', '',
+                 f"Data release: `{release['release_tag']}`; source created {release['created_at']}.", '',
+                 'These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. '
+                 'The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.', '',
+                 '| Financial collection state | Issuers | Next action |', '| --- | ---: | --- |']
+    for reason, action in GAP_ACTIONS.items():
+        gap_lines.append(f'| {reason} | {len(gap_groups[reason])} | {action} |')
+    gap_lines += ['', f'Unresolved stock listings: **{len(missing)}**. Verify their issuer identity before attaching any company financial data.', '',
+                  'Generated research profiles remain stubs. Curated research links retain their original review dates; broad market prices, consensus, news and ownership still need separate source coverage.', '']
+    for reason, issuers in gap_groups.items():
+        if reason == 'available' or not issuers:
+            continue
+        gap_lines += ['## ' + reason, '', GAP_ACTIONS[reason], '', 'Examples (up to 20; each company file contains its source evidence and task):', '']
+        gap_lines += [f'- [{text(name)} — {cik}](companies/{cik}/README.md)' for cik, name in issuers[:20]]
+        gap_lines.append('')
+    write('brain/GAPS.md', '\n'.join(gap_lines))
     write('README.md', '# Stock Brain — Daily Markdown\n\n[Browse every company and unresolved listing](brain/INDEX.md).\n\n'
           'This branch contains automatically generated factual stubs from verified public coverage data. '
           'Financial source dates and quality gates are retained. Stubs are excluded from reviewed retrieval exports.\n\n'
@@ -310,6 +362,7 @@ def export(store, output, release, *, root=ROOT):
     manifest = {'format': FORMAT, 'version': 1, **release, 'company_profiles': len(grouped),
                 'mapped_stock_listings': sum(map(len, grouped.values())), 'unresolved_listings': len(missing),
                 'financial_profiles': financials, 'reviewed_generated_profiles': 0, 'bytes': total,
+                'financial_gap_counts': {reason: len(gap_groups[reason]) for reason in GAP_ACTIONS},
                 'company_ciks': sorted(grouped), 'unresolved_listing_keys': sorted(r['listing_key'] for r in missing)}
     write('brain/publication.json', json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     (output / 'brain/files.json').write_text(json.dumps(files, sort_keys=True, indent=2) + '\n')
@@ -326,6 +379,7 @@ def verify(output, definitions=None):
     manifest = json.loads((output / 'brain/publication.json').read_text())
     require(manifest.get('format') == FORMAT and manifest.get('version') == 1, 'invalid publication format')
     company_ciks, unresolved_keys, financials = [], [], 0
+    gap_counts = {reason: 0 for reason in GAP_ACTIONS}
     total = 0
     definitions = definitions or kb.config(ROOT)[1]
     for name, entry in files.items():
@@ -346,6 +400,10 @@ def verify(output, definitions=None):
             require(set(kb.CITATION.findall(body)) <= {s['id'] for s in meta['sources']}, 'unregistered citation')
             company_ciks.append(cik)
             financials += int(meta['financial_history_available'])
+            if 'financial_gap_counts' in manifest:
+                reason = meta['financial_gap']['reason']
+                require(reason in gap_counts and (reason == 'available') == meta['financial_history_available'], 'financial gap differs from coverage')
+                gap_counts[reason] += 1
         elif name.startswith('brain/unmapped/'):
             meta, _ = split_profile(raw.decode())
             require(meta['document_type'] == 'unresolved_listing' and meta['cik'] is None and meta['canonical_reviewed'] is False, 'unresolved issuer promoted')
@@ -354,6 +412,8 @@ def verify(output, definitions=None):
     require(sorted(company_ciks) == manifest['company_ciks'] and len(company_ciks) == manifest['company_profiles'], 'profile inventory mismatch')
     require(sorted(unresolved_keys) == manifest['unresolved_listing_keys'] and len(unresolved_keys) == manifest['unresolved_listings'], 'unresolved inventory mismatch')
     require(financials == manifest['financial_profiles'] and manifest['reviewed_generated_profiles'] == 0, 'coverage counts differ')
+    if 'financial_gap_counts' in manifest:
+        require(gap_counts == manifest['financial_gap_counts'], 'financial gap counts differ')
     return manifest
 
 

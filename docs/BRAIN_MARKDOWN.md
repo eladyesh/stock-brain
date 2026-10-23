@@ -15,6 +15,10 @@ The generated factual profiles complement the curated company research on
 - `brain/unmapped/{listing_key}.md`: directory evidence for a stock candidate
   without a verified CIK. This is a listing slot, not an identified company.
 - `brain/INDEX.md` and `brain/index/*.md`: bounded pages with 100 entries each.
+- `brain/GAPS.md`: actual counts and source-linked next tasks for incomplete
+  latest filings, foreign reporting, fund-reporting review and unknown regimes.
+  Each company file also carries its specific financial collection task. Presence
+  of foreign forms does not imply IFRS; fund forms alone do not prove current type.
 - `brain/publication.json`: source data release, database hash, source code
   commit, exact issuer inventory and separate financial/identity-gap counts.
 - `brain/files.json`: SHA-256 and byte size of every published content file.
