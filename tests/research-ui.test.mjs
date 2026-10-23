@@ -20,6 +20,7 @@ test('whole-market research searches symbols, renders evidence and preserves inc
   try{
     document.querySelector('main').append(...researchView(ui));await settle();
     assert(document.body.textContent.includes('5634'));
+    assert(!document.body.textContent.includes('null'));
     assert(document.querySelector('.registry-row h3').textContent==='SYNTH');
     assert(!document.querySelector('.registry-row').textContent.includes(row.cik));
     document.querySelector('.registry-row button').click();await settle();
