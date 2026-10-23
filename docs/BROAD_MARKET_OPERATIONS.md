@@ -48,6 +48,11 @@ venue, instrument and issuer mappings must not be silently guessed.
 
 ## Daily production path
 
+Company Markdown is now maintained by a separate publication workflow following
+each successful coverage refresh. See [the Markdown contract](BRAIN_MARKDOWN.md)
+for stable CIK paths, real Git files, source hashes, review boundaries and recovery.
+The generated `brain-data` branch is separate from curated research on `main`.
+
 1. `.github/workflows/coverage-daily.yml` runs at **09:23 UTC daily**, or by manual
    dispatch on main. Changing this workflow or directory importer on main also
    runs a bootstrap check.

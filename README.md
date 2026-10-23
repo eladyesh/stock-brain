@@ -4,15 +4,18 @@ A structured, source-backed knowledge base for U.S.-listed stocks, with canonica
 
 The Markdown files are the source of truth. Every company uses the same sections. Sector indexes and the master index are generated from company metadata, so navigation stays consistent as coverage grows.
 
-**Current state (2026-10-22):** ten hash-bound AI-reviewed company profiles with Hebrew translations; exact metric/period/basis gates; 170 source-backed financial periods (five years and twelve quarters per company); dated market snapshots; and a Hebrew research desk with strict TTM comparisons, issuer-specific scenario models, cited thesis changes and disclosure triage. A separate CIK-based registry, leased job queue and restartable collection cycle provide the code foundation for expanding U.S.-listed coverage. This does not mean the market has already been collected or reviewed. Reviews include AI checks, not independent human sign-off. Missing data and normalization conflicts remain explicit.
+**Coverage expansion (2026-10-23):** the latest verified SEC/directory snapshot identifies 5,634 distinct issuers across 5,864 stock listings, with normalized financial history for 4,049 issuers. Another 606 stock candidates still require verified issuer mapping. The daily Markdown publisher creates real CIK-based company files and unresolved-listing records on `brain-data`, with source dates, hashes, financial quality gates and explicit research gaps. See the [Markdown corpus](https://github.com/eladyesh/stock-brain/blob/brain-data/brain/INDEX.md) and [publication contract](docs/BRAIN_MARKDOWN.md). These are factual stubs, not completed company analyses. OTC coverage remains unavailable.
 
-**Standalone research app:** `site/` is served by the public Python application in `scripts/serve_public.py`. Collection runs on the server; GitHub Actions backs up validated checkpoints to `automation/research-data`. No ChatGPT account, Sites deployment, model API key, or paid data subscription is required. See [standalone deployment](docs/STANDALONE.md), [desk behavior](docs/DESK.md), and [financial definitions](docs/FINANCIAL_HISTORY.md). The ChatGPT daily task has been disabled. The legacy GitHub disclosure collector remains paused because of source-access failures.
+**Curated research:** ten hash-bound AI-reviewed company profiles with Hebrew translations, exact metric/period/basis gates, 170 source-backed financial periods, dated market snapshots, TTM comparisons, issuer-specific scenario models and disclosure triage. Reviews include AI checks, not independent human sign-off. Automatic data collection never changes these review dates or promotes stubs into the reviewed retrieval corpus.
+
+**Standalone research app:** `site/` is served by the public Python application in `scripts/serve_public.py`. GitHub Actions collects official nightly SEC archives, publishes verified coverage snapshots and follows each successful refresh with Markdown publication. Render reads the verified data and commit-pinned Markdown index. The pilot checkpoint backup remains separate. No ChatGPT account, Sites deployment, model API key, or paid data subscription is required to use the website. See [standalone deployment](docs/STANDALONE.md), [broad-market operations](docs/BROAD_MARKET_OPERATIONS.md), and [financial definitions](docs/FINANCIAL_HISTORY.md).
 
 ## Start here
 
 | Destination | Purpose |
 | --- | --- |
 | [Master index](INDEX.md) | Browse sectors, companies, and cross-sector themes |
+| [All-company Markdown](https://github.com/eladyesh/stock-brain/blob/brain-data/brain/INDEX.md) | Daily factual files for every mapped stock issuer and unresolved listing |
 | [Company template](templates/company/README.md) | See the shared research structure |
 | [Sector template](templates/sector/README.md) | See the shared sector structure |
 | [Research guide](docs/RESEARCH.md) | Source quality, review, and update rules |

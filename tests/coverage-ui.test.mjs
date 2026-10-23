@@ -11,7 +11,8 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
   let warming=false;
   const issuer={cik:'0000000123',ticker:'SYNTH',company_name:'Synthetic Issuer',listings:[{ticker:'SYNTH'}],collection_status:'registry-only'};
   const security={listing_key:'a'.repeat(32),security_name:'Synthetic Issuer',ticker:'SYNTH',exchange:'NASDAQ',cik:issuer.cik,instrument_type:'common_stock',datasets:{},source:{url:'https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt'}};
-  const detail={company:issuer,collection_status:'review-required',research:{as_of:null,canonical_reviewed:false},
+  const brain={available:true,url:'https://github.com/eladyesh/stock-brain/blob/'+ 'a'.repeat(40)+'/brain/companies/0000000123/README.md',raw_url:'https://raw.githubusercontent.com/eladyesh/stock-brain/'+ 'a'.repeat(40)+'/brain/companies/0000000123/README.md',created_at:'2026-10-22T00:00:00Z',matches_current_data:false};
+  const detail={company:issuer,brain,collection_status:'review-required',research:{as_of:null,canonical_reviewed:false},
     collected:{history:{source:{retrieved_at:'2026-10-22T10:00:00+00:00'},
       periods:[{id:'annual-fixture',type:'annual',start:'2025-01-01',end:'2025-12-31'}],
       financials:{'annual-fixture':{revenue:{value:100e6,unit:'USD',model_usable:false,provenance:[{url:'https://www.sec.gov/Archives/edgar/data/123/annual.htm'}]}}}},
@@ -22,7 +23,7 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     }],limitations:[]}},ttm:null};
   globalThis.fetch=async url=>{
     requests.push(url);
-    const value=url.startsWith('./api/securities?')?(warming?{items:[],total:0,directory:{status:'unavailable'}}:{items:[security],total:50000,limit:25,offset:0,
+    const value=url.startsWith('./api/securities?')?(warming?{items:[],total:0,directory:{status:'unavailable'}}:{items:[security],total:50000,limit:25,offset:0,brain:{available:true,company_profiles:1,unresolved_listings:2,created_at:brain.created_at,index_url:'https://github.com/eladyesh/stock-brain/blob/'+ 'a'.repeat(40)+'/brain/INDEX.md',download_url:'https://github.com/eladyesh/stock-brain/archive/'+ 'a'.repeat(40)+'.zip'},
       directory:{coverage_progress:{total_listings:50000,mapped_listings:2,unmapped_listings:49998,distinct_mapped_issuers:1,
         filing_checks:{recent:0,overdue:2,not_checked:49998}}}}):
       url==='./api/securities/'+security.listing_key?{security}:
@@ -39,6 +40,7 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     assert(document.getElementById('content').textContent.includes('ממתינות לקישור: 49998'));
     assert(document.getElementById('content').textContent.includes('חברות מזוהות שונות: 1'));
     assert(document.getElementById('content').textContent.includes('בדיקה מתעכבת: 2'));
+    assert(document.getElementById('content').textContent.includes('Brain: 1 קובצי חברות'));
     assert(document.getElementById('companies').hidden);
     assert(document.getElementById('reviewed-search').hidden);
     assert(document.getElementById('coverage-count').textContent.includes('50000'));
@@ -48,6 +50,9 @@ test('Registry loads bounded pages and shows dated draft comparisons without res
     [...document.querySelectorAll('button')].find(x=>x.textContent==='הצג נתונים פיננסיים ומחקר ←').click();await settle();
     const text=document.getElementById('content').textContent;
     assert(text.includes('מחקר שנבדק: טרם הושלם'));
+    assert(document.querySelector('a[href="'+brain.url+'"]'));
+    assert(document.querySelector('a[href="'+brain.raw_url+'"]'));
+    assert(text.includes('הקובץ מבוסס על עדכון נתונים קודם'));
     assert(text.includes('הדוח השנתי האחרון במאגר'));
     assert(text.includes('דורש בדיקה לפני השוואה או חישוב'));
     assert(text.includes('דיווחים אחרונים ל־SEC'));

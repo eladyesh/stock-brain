@@ -269,6 +269,11 @@ class CoverageMirror:
             # Do not expose provider bodies or credentials through status endpoints.
             self.state = {**self.state, 'status': 'degraded', 'last_error': type(error).__name__}
             LOG.warning('Coverage mirror unavailable (%s); retaining previous generation', type(error).__name__)
+        finally:
+            # Publication has its own completion state and may finish after the
+            # database release. Recheck even when the database tag is unchanged.
+            if getattr(self.app, 'brain', None) is not None:
+                self.app.brain.refresh()
 
     def run(self):
         while not self.stop_event.is_set():

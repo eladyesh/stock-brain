@@ -14,6 +14,7 @@ import threading
 import runtime_data as data
 from coverage_api import serve_coverage
 from coverage_runtime import initialize_coverage
+from brain_publication import BrainPublication
 from market_api import serve_market
 from market_directory import directory_status
 
@@ -35,6 +36,7 @@ class Application:
         self.coverage = coverage
         self.coverage_lock = threading.RLock()
         self.coverage_mirror = None
+        self.brain = BrainPublication()
         self._load()
 
     def answer(self, environ):
@@ -130,10 +132,21 @@ class Application:
                     if path == '/api/coverage' and status == '200 OK':
                         payload['directory'] = directory_status(self.coverage)
                         payload['replication'] = self.coverage_mirror.state if self.coverage_mirror else {'mode': 'local'}
+                        payload['brain'] = self.brain.summary()
+                    elif status == '200 OK' and payload.get('company'):
+                        payload['brain'] = self.brain.document(cik=payload['company']['cik'],
+                            release_tag=self.coverage_mirror.state.get('release_tag') if self.coverage_mirror else None)
                 raw = data.encode(payload)
             elif path == '/api/securities' or path.startswith('/api/securities/'):
                 with self.coverage_lock:
                     status, payload = serve_market(self.coverage, path, environ.get('QUERY_STRING', ''))
+                    if status == '200 OK':
+                        if payload.get('security'):
+                            security = payload['security']
+                            payload['brain'] = self.brain.document(cik=security.get('cik'), listing_key=security['listing_key'],
+                                release_tag=self.coverage_mirror.state.get('release_tag') if self.coverage_mirror else None)
+                        else:
+                            payload['brain'] = self.brain.summary()
                 raw = data.encode(payload)
             elif path in {'/api/snapshot', '/snapshot.json', '/api/state', '/api/status', '/healthz'}:
                 cached = self._load()
