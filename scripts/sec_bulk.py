@@ -18,7 +18,7 @@ import time
 import zipfile
 
 from coverage_store import CoverageStore, _datetime, _stamp, _json, normalize_cik, require
-from coverage_worker import CoverageWorker
+from coverage_worker import CoverageWorker, issuer_metadata
 import market_directory as directory
 
 URLS = {
@@ -218,7 +218,7 @@ def import_issuers(store, archive, *, limit=1000):
                                 WHERE listing_key=? AND identity_revision=? AND (cik IS NULL OR cik=?)''',
                                 (cik, 'SEC submission: equivalent symbol and legal name; SEC venue family and exact directory venue',
                                  row['listing_key'], row['identity_revision'], cik))
-                    identity = {'cik': cik, 'name': name, 'tickers': tickers,
+                    identity = {**issuer_metadata(value, cik), 'tickers': tickers,
                                 'exchanges': venues, 'review_status': 'unreviewed'}
                     if store.get_payload(cik, 'sec_bulk_identity') != identity:
                         store.put_payload(cik, 'sec_bulk_identity', identity, source)
