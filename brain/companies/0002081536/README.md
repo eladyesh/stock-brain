@@ -9,10 +9,10 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -58,8 +58,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
-  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002081536.json
@@ -439,7 +439,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - Sector, industry and domicile remain unassigned unless a separate reviewed profile supplies them.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T08:47:21.894630+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:41.462741+00:00.
 
 ## Relationships and themes
 
@@ -485,7 +485,7 @@ Latest 31 filing metadata records of 31 retained records. A filing link is evide
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00; source SHA-256 `6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67`.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00; source SHA-256 `be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e`.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002081536.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00; source SHA-256 `341431cd007850486faa26f66feb927e6982cc24ed54547787ab4d01a40e03fe`.
 
@@ -557,4 +557,4 @@ Latest 31 filing metadata records of 31 retained records. A filing link is evide
 
 [S36] [DRS 0001213900-25-076332](https://www.sec.gov/Archives/edgar/data/2081536/000121390025076332/0001213900-25-076332-index.html) — published 2025-08-14; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-Generated from verified data release `coverage-20261023-39925380279-1`. Exact changes are retained in the brain-data Git history.
+Generated from verified data release `coverage-20261023-39968262770-1`. Exact changes are retained in the brain-data Git history.

@@ -4,6 +4,9 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [ACR$C](../unmapped/55e23ed58686440659099c87b8c89a69.md) | NYSE | ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock |
+| [ACR$D](../unmapped/e99a0fda36027ec41d4d0849947edd08.md) | NYSE | ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock |
+| [AEG](../unmapped/e90a06d8f8852583e177f75f61cf410d.md) | NYSE | Aegon Ltd. New York Registry Shares |
 | [AGM$D](../unmapped/590f79bcd29967bfaf88b8de774ff8e7.md) | NYSE | Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D |
 | [AGM$E](../unmapped/2536573c55dab3222322fdc8ee677baa.md) | NYSE | Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E |
 | [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
@@ -101,6 +104,3 @@
 | [DLR$K](../unmapped/cbff2e8747f29ccc9b2360a4acb6b699.md) | NYSE | Digital Realty Trust, Inc. 5.850% Series K Cumulative Redeemable Preferred Stock, par value $0.01 per share |
 | [DLR$L](../unmapped/efa57e7bce4dbcc019f9448328a1becf.md) | NYSE | Digital Realty Trust, Inc. 5.200% Series L Cumulative Redeemable Preferred Stock |
 | [DSX$B](../unmapped/432f497f0cf63772c8d2a435f7b2c8d3.md) | NYSE | Diana Shipping Inc. Perpetual Preferred Shares Series B (Marshall Islands) |
-| [DUK](../unmapped/2972a9eb1b71e6185798238b6ccea59f.md) | NYSE | Duke Energy Corporation (Holding Company) Common Stock |
-| [DX$C](../unmapped/30ab2d3ffb4a9c3dd283a4ed94384d16.md) | NYSE | Dynex Capital, Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock |
-| [DX$D](../unmapped/01183624540c4fc779c5f24dc7711e3e.md) | NYSE | Dynex Capital, Inc. 9.375% Series D Fixed-Rate Cumulative Redeemable Preferred Stock |

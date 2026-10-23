@@ -10,10 +10,10 @@ tickers:
 status: stub
 canonical_reviewed: false
 as_of: '2026-10-23'
-updated_at: '2026-10-23T08:47:59.341415+00:00'
+updated_at: '2026-10-23T14:35:22.252685+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39925380279-1
-source_commit: 78606fb159189686ce54eb7bc0fa1098e51dc3ab
+coverage_release: coverage-20261023-39968262770-1
+source_commit: c5f247f1f77b31a20ec1a66533503255600926f7
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -81,8 +81,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T08:33:49.304929+00:00'
-  sha256: 6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67
+  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
+  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001282957.json
@@ -482,7 +482,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 144, 25-NSE/A, 3, 4, 4/A, 40-17G, 40-17G/A, 424B2, 424B3, 497, 497AD, 8-A12B, 8-K, CERT, CERTAMX, CERTNAS, CORRESP, DEF 14A, DEFA14A, DEFR14A, EFFECT, N-2, N-2/A, N-30B-2, N-8A, N-CEN, N-CSR, N-CSR/A, N-CSRS, N-CSRS/A, N-PX, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-A/A, NSAR-B, NT-NSAR, POS 8C, POS EX, SC 13D, SC 13D/A, SC 13G, SC 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T08:42:40.946115+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:28:48.711827+00:00.
 
 ## Relationships and themes
 
@@ -547,7 +547,7 @@ Latest 50 filing metadata records of 501 retained records. A filing link is evid
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T08:33:49.304929+00:00; source SHA-256 `6b752ea8975cd8cfe39564769459d8cea3289453fb9454cc2eb02663466ddb67`.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00; source SHA-256 `be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e`.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001282957.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00; source SHA-256 `ba6b72f2559e00408ab04a5dc017b06fbbdb00e0b4d7a27f7a8ee9aa64de4485`.
 
@@ -651,4 +651,4 @@ Latest 50 filing metadata records of 501 retained records. A filing link is evid
 
 [S52] [4 0001271163-23-000037](https://www.sec.gov/Archives/edgar/data/1282957/000127116323000037/0001271163-23-000037-index.html) — published 2023-12-27; retrieved 2026-10-23T08:33:02.691743+00:00; filing linked by accession.
 
-Generated from verified data release `coverage-20261023-39925380279-1`. Exact changes are retained in the brain-data Git history.
+Generated from verified data release `coverage-20261023-39968262770-1`. Exact changes are retained in the brain-data Git history.

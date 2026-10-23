@@ -1,8 +1,8 @@
 # Stock Brain — Company Markdown
 
-Verified data release: `coverage-20261023-39925380279-1`. Source created: 2026-10-23T08:47:59.341415+00:00.
+Verified data release: `coverage-20261023-39968262770-1`. Source created: 2026-10-23T14:35:22.252685+00:00.
 
-**5634 distinct mapped issuers**, **5864 mapped stock listings**, **604 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
+**5634 distinct mapped issuers**, **5864 mapped stock listings**, **607 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
 
 ## Company pages
 
@@ -76,7 +76,7 @@ Verified data release: `coverage-20261023-39925380279-1`. Source created: 2026-1
 | [4](index/unresolved-0004.md) | 100 |
 | [5](index/unresolved-0005.md) | 100 |
 | [6](index/unresolved-0006.md) | 100 |
-| [7](index/unresolved-0007.md) | 4 |
+| [7](index/unresolved-0007.md) | 7 |
 
 [Coverage gaps and next research tasks](GAPS.md)
 

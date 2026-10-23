@@ -2,7 +2,7 @@
 
 [Company index](INDEX.md)
 
-Data release: `coverage-20261023-39925380279-1`; source created 2026-10-23T08:47:59.341415+00:00.
+Data release: `coverage-20261023-39968262770-1`; source created 2026-10-23T14:35:22.252685+00:00.
 
 These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.
 
@@ -15,7 +15,7 @@ These counts describe distinct mapped issuers. Foreign-form and fund-reporting s
 | unsupported_reporting_inventory | 26 | Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership. |
 | not_collected | 0 | Collect verified issuer submissions and source financial data before normalization. |
 
-Unresolved stock listings: **604**. Verify their issuer identity before attaching any company financial data.
+Unresolved stock listings: **607**. Verify their issuer identity before attaching any company financial data.
 
 Generated research profiles remain stubs. Curated research links retain their original review dates; broad market prices, consensus, news and ownership still need separate source coverage.
 

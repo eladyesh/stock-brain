@@ -4,6 +4,7 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
@@ -16,6 +17,7 @@
 | [LILAP](../unmapped/c1717440c045ae343677d76a4d44f488.md) | NASDAQ | Liberty Latin America Ltd. - 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares |
 | [LOGI](../unmapped/b6122536d7414995d6e2c73fc91d76d5.md) | NASDAQ | Logitech International S.A. - Registered Shares |
 | [LUMN](../unmapped/6947d8805913c706838bcc4aa9a91d17.md) | NASDAQ | Lumen Technologies, Inc.  - Common Stock |
+| [LYCA](../unmapped/6be1ce94629461c931a88a47599e7c4a.md) | NASDAQ | Lycia Therapeutics, Inc. - Common Stock |
 | [MAYS](../unmapped/cf37ab5a31f55ca535dc45298738bb53.md) | NASDAQ | J. W. Mays, Inc. - Common Stock |
 | [MBNKO](../unmapped/cacdd6d161814fbce9a5a59b78b4a35b.md) | NASDAQ | Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share |
 | [MFIC](../unmapped/4f67c3cef367240ccafba2e8c121a083.md) | NASDAQ | MidCap Financial Investment Corporation - Closed End Fund |
@@ -37,6 +39,7 @@
 | [OXLCN](../unmapped/65c94d71ebc7c90bb8359370177834c1.md) | NASDAQ | Oxford Lane Capital Corp. - 7.125% Series 2029 Term Preferred Stock |
 | [OXSQ](../unmapped/f013595d91464d4ee5b4724dc72e1852.md) | NASDAQ | Oxford Square Capital Corp. - Closed End Fund |
 | [OZKAP](../unmapped/9039f490880f559609757b5c8667e8cc.md) | NASDAQ | Bank OZK - 4.625% Series A Non-Cumulative Perpetual Preferred Stock |
+| [PAXG](../unmapped/c1b6e6d40a8a8b62ed68c574d867df10.md) | NASDAQ | Pine Tree Acquisition Corp. - Class A Ordinary Shares |
 | [PECER](../unmapped/64748fff44764785917948804900000d.md) | NASDAQ | Peace Acquisition Corp - Right |
 | [PGACR](../unmapped/46d68be13b6f49052fda0b8701eab777.md) | NASDAQ | Pantages Capital Acquisition Corporation - Right |
 | [PHAR](../unmapped/4745cb8c47fa154f23a9a149693a7a96.md) | NASDAQ | Pharming Group N.V. - ADS, each representing 10 ordinary shares |
@@ -101,6 +104,3 @@
 | [ABR$E](../unmapped/e076649714873b4c1e0875467be9b6df.md) | NYSE | Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock |
 | [ABR$F](../unmapped/93cb5e8665f99fda3b027454f3d2b43a.md) | NYSE | Arbor Realty Trust 6.25% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per share |
 | [ACP$A](../unmapped/88ead7aa96474957b7e31c1fc2109422.md) | NYSE | abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock |
-| [ACR$C](../unmapped/55e23ed58686440659099c87b8c89a69.md) | NYSE | ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock |
-| [ACR$D](../unmapped/e99a0fda36027ec41d4d0849947edd08.md) | NYSE | ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock |
-| [AEG](../unmapped/e90a06d8f8852583e177f75f61cf410d.md) | NYSE | Aegon Ltd. New York Registry Shares |
