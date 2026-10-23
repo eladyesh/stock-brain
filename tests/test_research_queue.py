@@ -81,12 +81,16 @@ class ResearchQueueTests(unittest.TestCase):
     def test_durable_git_state_restores_reports_and_rejects_a_stale_writer(self):
         remote = self.root / 'state.git'
         subprocess.run(['git', 'init', '--bare', '-q', str(remote)], check=True)
+        tree = subprocess.run(['git', '--git-dir', str(remote), 'mktree'], input='', capture_output=True, text=True, check=True).stdout.strip()
+        legacy = subprocess.run(['git', '-c', 'user.name=Test', '-c', 'user.email=test@example.test', '--git-dir', str(remote), 'commit-tree', tree],
+                                input='Unrelated branch\n', capture_output=True, text=True, check=True).stdout.strip()
+        subprocess.run(['git', '--git-dir', str(remote), 'update-ref', 'refs/heads/automation/research-data', legacy], check=True)
         real_run = subprocess.run
         def local_remote(args, **kwargs):
             args = [str(remote) if a == 'https://github.com/' + brain.REPO + '.git' else a for a in args]
             return real_run(args, **kwargs)
         with patch.dict(os.environ, {'GH_TOKEN': 'synthetic-test-token'}), patch.object(research_state.subprocess, 'run', side_effect=local_remote):
-            research_state.sync(self.state)
+            self.assertEqual(research_state.sync(self.state), '')
             queue.run(self.output, self.state, fetcher=self.fetcher())
             first = research_state.sync(self.state, publish=True)
             replica, stale = self.root / 'replica', self.root / 'stale'
@@ -97,6 +101,9 @@ class ResearchQueueTests(unittest.TestCase):
             research_state.sync(replica, publish=True)
             with self.assertRaisesRegex(ValueError, 'branch changed'):
                 research_state.sync(stale, publish=True)
+        preserved = subprocess.run(['git', '--git-dir', str(remote), 'rev-parse', 'refs/heads/automation/research-data'],
+                                   capture_output=True, text=True, check=True).stdout.strip()
+        self.assertEqual(preserved, legacy)
 
     def test_enriched_markdown_keeps_financial_observations_and_actual_evidence_in_compact_view(self):
         queue.run(self.output, self.state, fetcher=self.fetcher())
