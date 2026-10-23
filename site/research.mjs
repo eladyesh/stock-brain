@@ -64,6 +64,7 @@ export function researchView(ui,initialSymbol=''){
         h('p',{},link('קובץ החברה ב־Brain ↗',item.markdown_url),' · ',link('ההיסטוריה הפיננסית המלאה ↗',item.full_history_url)),
         coverage,content,
         h('details',{},h('summary',{},'מקורות, תאריכים ושיטת הסיווג'),h('p',{class:'caption',dir:'auto'},item.classification?.reason||''),...item.sources.map(s=>h('p',{class:'caption',dir:'auto'},link(s.id+' · '+s.title+' ↗',s.url),' · פורסם: '+date(s.published_at)+' · נאסף: '+date(s.retrieved_at)))))));
+      detail.scrollIntoView?.({behavior:'smooth',block:'start'});
     }catch{if(token===detailToken)detail.replaceChildren(note('תיק המחקר אינו זמין כרגע. אפשר לבחור שוב חברה מהרשימה.','amber'));}
   }
   async function load(){
