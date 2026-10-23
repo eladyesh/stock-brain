@@ -3,8 +3,10 @@ name: Publish company Markdown
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/brain-markdown.yml', 'scripts/brain_markdown.py', 'scripts/sector_facts.py', 'scripts/stock_brain.py', 'config/sector_sic_rules.json', 'config/sections.json', 'sectors/**/companies/**']
+    paths: ['.github/workflows/brain-markdown.yml', 'scripts/brain_markdown.py', 'scripts/sector_facts.py', 'scripts/company_identity.py', 'scripts/research_queue.py', 'scripts/research_state.py', 'scripts/research_financials.py', 'scripts/stock_brain.py', 'config/sector_sic_rules.json', 'config/sections.json', 'sectors/**/companies/**']
   workflow_dispatch:
+  schedule:
+    - cron: '53 12 * * *'
   workflow_run:
     workflows: ['Refresh US stock coverage']
     types: [completed]
@@ -21,7 +23,7 @@ jobs:
   publish:
     if: github.ref == 'refs/heads/main' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
@@ -38,6 +40,33 @@ jobs:
         run: python scripts/stock_brain.py check
       - name: Restore verified coverage and build every Markdown profile
         run: python scripts/brain_markdown.py export --source-commit "$(git rev-parse HEAD)" --output build/brain-data
+      - name: Restore durable whole-market research queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/research_state.py restore
+      - name: Collect new filing evidence within the daily budget
+        id: research
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          STOCK_BRAIN_SEC_ENABLED: '1'
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          MODEL_ENABLED: ${{ vars.STOCK_BRAIN_RESEARCH_MODEL_ENABLED || '0' }}
+        shell: bash
+        run: |
+          args=()
+          if [ "$MODEL_ENABLED" = '1' ] && [ -n "$OPENAI_API_KEY" ] && [ -n "$OPENAI_MODEL" ]; then
+            args+=(--runner config/openai-runner.example.json --model-limit 2)
+          fi
+          python scripts/research_queue.py run --max-companies 120 --max-requests 360 "${args[@]}"
+      - name: Preserve research progress before publishing Markdown
+        if: always() && steps.research.outcome != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s build/research-state/state.json ]; then python scripts/research_state.py publish; fi
+      - name: Enrich every company with dated evidence and research work plan
+        run: python scripts/research_queue.py enrich
       - name: Publish verified files without changing curated research
         env:
           GH_TOKEN: ${{ github.token }}
@@ -50,3 +79,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/sector_facts.py publish --output build/sector-facts
+      - name: Retain research collection status
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: daily-research-status
+          path: build/research-state/state.json
+          retention-days: 30

@@ -41,7 +41,7 @@ class MarkdownTests(unittest.TestCase):
         self.assertEqual(manifest['financial_profiles'], 1)
         self.assertEqual(manifest['unresolved_listings'], 13)
         self.assertEqual(before, {p: p.read_bytes() for p in before})
-        raw = (self.output / 'brain/companies/0000789019/README.md').read_text()
+        raw = (self.output / 'brain/companies/MSFT/README.md').read_text()
         meta, body = kb.split_document(raw)
         self.assertEqual(meta['status'], 'stub')
         self.assertFalse(meta['canonical_reviewed'])
@@ -58,7 +58,7 @@ class MarkdownTests(unittest.TestCase):
 
     def test_changed_and_extra_files_prevent_republication(self):
         brain.export(self.store, self.output, self.release)
-        path = self.output / 'brain/companies/0000789019/README.md'
+        path = self.output / 'brain/companies/MSFT/README.md'
         original = path.read_text()
         path.write_text(original + '\nManual research addition\n')
         with self.assertRaisesRegex(ValueError, 'preserve manual changes'):
@@ -88,7 +88,7 @@ class MarkdownTests(unittest.TestCase):
             db.execute("DELETE FROM company_payloads WHERE kind='history'")
         manifest = brain.export(self.store, self.output, self.release)
         self.assertEqual(manifest['financial_profiles'], 0)
-        raw = (self.output / 'brain/companies/0000789019/README.md').read_text()
+        raw = (self.output / 'brain/companies/MSFT/README.md').read_text()
         self.assertIn('not zero revenue', raw)
         self.assertNotIn('| revenue | 0', raw)
         self.assertEqual(manifest['financial_gap_counts']['not_collected'], 1)
@@ -135,7 +135,7 @@ class MarkdownTests(unittest.TestCase):
             self.assertEqual(first['commit'], second['commit'])
             clone = self.root / 'manual'
             real_run(['git', 'clone', '-q', '--branch', 'brain-data', str(remote), str(clone)], check=True)
-            path = clone / 'brain/companies/0000789019/README.md'
+            path = clone / 'brain/companies/MSFT/README.md'
             path.write_text(path.read_text() + '\nHand-edited research\n')
             real_run(['git', 'add', '.'], cwd=clone, check=True)
             real_run(['git', '-c', 'user.name=Test', '-c', 'user.email=test@example.test', 'commit', '-qm', 'Manual edit'], cwd=clone, check=True)
@@ -169,6 +169,15 @@ class PublicationTests(unittest.TestCase):
         self.assertTrue(self.reader.document(listing_key='c' * 32)['available'])
         self.assertFalse(self.reader.document(cik='0000789019', release_tag='coverage-20261023-999-1')['matches_current_data'])
         self.assertNotIn('company_ciks', self.reader.summary())
+
+    def test_symbol_paths_are_served_from_version_two_and_unsafe_paths_are_rejected(self):
+        self.manifest.update(version=2, company_paths={'0000789019': 'brain/companies/MSFT/README.md'})
+        self.refresh()
+        self.assertIn('/brain/companies/MSFT/README.md', self.reader.document(cik='0000789019')['url'])
+        self.manifest['company_paths']['0000789019'] = '../../private'
+        self.reader = publication.BrainPublication()
+        self.refresh()
+        self.assertFalse(self.reader.summary()['available'])
 
     def test_failure_retains_last_known_published_files_and_no_provider_error(self):
         self.refresh()

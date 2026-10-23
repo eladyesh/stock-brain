@@ -281,6 +281,7 @@ def generated(root: Path, docs: list[Document]) -> dict[Path, str]:
         output[Path(base) / "INDEX.md"] = banner + f"# {sector['name']} — Company index\n\n[Sector overview](README.md) · [Master index](../../INDEX.md)\n\n## Coverage\n\nProfiles: **{len(subset)}**. Reviewed: **{reviewed}**.\n\n## Companies\n\n" + company_table(subset, root, sector=True) + "\n"
     if facts:
         counts = facts['sector_counts']
+        symbol_names = facts.get('version', 1) >= 2
         overview = [banner + '# Stock Brain — Sectors\n', '[Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)\n',
                     f"Factual Markdown files in this branch: **{facts['company_profiles']}**; financial history available: **{facts['financial_profiles']}**. "
                     f"Source release: `{facts['release_tag']}`, created {facts['created_at']}.\n",
@@ -289,15 +290,15 @@ def generated(root: Path, docs: list[Document]) -> dict[Path, str]:
         for sector in [*sectors, {'id': 'unclassified', 'name': 'Unclassified — needs evidence review'}]:
             sid = sector['id']
             subset = [d for d in docs if d.metadata['sector'] == sid]
-            rows = sorted((r for r in fact_rows if r['sector'] == sid), key=lambda r: (r['company_name'].casefold(), r['cik']))
+            rows = sorted((r for r in fact_rows if r['sector'] == sid), key=lambda r: (r.get('symbol') or r['tickers'][0], r['cik']) if symbol_names else (r['company_name'].casefold(), r['cik']))
             reviewed = sum(d.metadata['status'] == 'reviewed' for d in subset)
             overview.append(f"| [{sector['name']}]({sid}/INDEX.md) | {len(rows)} | {len(subset)} | {reviewed} |")
             heading = (banner + f"# {sector['name']} — Company index\n\n[All sectors](../README.md) · [Master index](../../INDEX.md)\n\n"
                        f"Factual files: **{len(rows)}**. Curated profiles: **{len(subset)}**. Reviewed research: **{reviewed}**.\n\n"
                        f"Data release: `{facts['release_tag']}`. Provisional SIC groupings are not official GICS classifications. "
                        'Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.\n\n'
-                       '## Factual company files\n\n| Company | Current symbols | Financial history | Classification basis |\n| --- | --- | --- | --- |\n')
-            heading += '\n'.join(f"| [{cell(r['company_name'])}](facts/{r['cik']}/README.md) | {cell(', '.join(r['tickers']))} | "
+                       '## Factual company files\n\n' + ('| Current symbols | Company |' if symbol_names else '| Company | Current symbols |') + ' Financial history | Classification basis |\n| --- | --- | --- | --- |\n')
+            heading += '\n'.join(f"| [{cell(', '.join(r['tickers'])) if symbol_names else cell(r['company_name'])}]({Path(r['path']).relative_to('sectors/' + sid).as_posix()}) | {cell(r['company_name']) if symbol_names else cell(', '.join(r['tickers']))} | "
                                  f"{'available; quality gates apply' if r['financial_history_available'] else 'missing'} | {r['classification_method']} |" for r in rows)
             heading += '\n\n## Curated research\n\n' + (company_table(subset, root, sector=True) if subset else 'No completed company research in this sector yet.') + '\n'
             output[Path('sectors') / sid / 'INDEX.md'] = heading

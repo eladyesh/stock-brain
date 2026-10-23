@@ -274,6 +274,8 @@ class CoverageMirror:
             # database release. Recheck even when the database tag is unchanged.
             if getattr(self.app, 'brain', None) is not None:
                 self.app.brain.refresh()
+            if getattr(self.app, 'research', None) is not None:
+                self.app.research.refresh()
 
     def run(self):
         while not self.stop_event.is_set():
