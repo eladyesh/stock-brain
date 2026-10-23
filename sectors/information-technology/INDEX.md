@@ -2,13 +2,25 @@
 
 # Information Technology — Company index
 
-[Sector overview](README.md) · [Master index](../../INDEX.md)
+[All sectors](../README.md) · [Master index](../../INDEX.md)
 
-## Coverage
+Factual files: **7**. Curated profiles: **7**. Reviewed research: **7**.
 
-Profiles: **7**. Reviewed: **7**.
+Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
-## Companies
+## Factual company files
+
+| Company | Current symbols | Financial history | Classification basis |
+| --- | --- | --- | --- |
+| [ADVANCED MICRO DEVICES INC](facts/0000002488/README.md) | AMD | available; quality gates apply | curated_profile |
+| [Broadcom Inc.](facts/0001730168/README.md) | AVGO | available; quality gates apply | curated_profile |
+| [MICRON TECHNOLOGY INC](facts/0000723125/README.md) | MU | available; quality gates apply | curated_profile |
+| [MICROSOFT CORP](facts/0000789019/README.md) | MSFT | available; quality gates apply | curated_profile |
+| [NVIDIA CORP](facts/0001045810/README.md) | NVDA | available; quality gates apply | curated_profile |
+| [ORACLE CORP](facts/0001341439/README.md) | ORCL, ORCL$D | available; quality gates apply | curated_profile |
+| [Palantir Technologies Inc.](facts/0001321655/README.md) | PLTR | available; quality gates apply | curated_profile |
+
+## Curated research
 
 | Ticker | Company | Status | Research as of |
 | --- | --- | --- | --- |

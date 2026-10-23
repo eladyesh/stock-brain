@@ -2,13 +2,21 @@
 
 # Industrials — Company index
 
-[Sector overview](README.md) · [Master index](../../INDEX.md)
+[All sectors](../README.md) · [Master index](../../INDEX.md)
 
-## Coverage
+Factual files: **3**. Curated profiles: **3**. Reviewed research: **3**.
 
-Profiles: **3**. Reviewed: **3**.
+Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
-## Companies
+## Factual company files
+
+| Company | Current symbols | Financial history | Classification basis |
+| --- | --- | --- | --- |
+| [AeroVironment Inc](facts/0001368622/README.md) | AVAV | available; quality gates apply | curated_profile |
+| [LOCKHEED MARTIN CORP](facts/0000936468/README.md) | LMT | available; quality gates apply | curated_profile |
+| [RTX Corp](facts/0000101829/README.md) | RTX | available; quality gates apply | curated_profile |
+
+## Curated research
 
 | Ticker | Company | Status | Research as of |
 | --- | --- | --- | --- |

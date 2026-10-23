@@ -2,16 +2,23 @@
 
 # Stock Brain — Sectors
 
-The sector factual-file synchronization has not published a snapshot in this branch yet. The current curated research contains 10 company profiles. A broad data inventory does not mean all sector research is complete.
+[Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)
 
-- [Communication Services](communication-services/INDEX.md)
-- [Consumer Discretionary](consumer-discretionary/INDEX.md)
-- [Consumer Staples](consumer-staples/INDEX.md)
-- [Energy](energy/INDEX.md)
-- [Financials](financials/INDEX.md)
-- [Health Care](health-care/INDEX.md)
-- [Industrials](industrials/INDEX.md)
-- [Information Technology](information-technology/INDEX.md)
-- [Materials](materials/INDEX.md)
-- [Real Estate](real-estate/INDEX.md)
-- [Utilities](utilities/INDEX.md)
+Factual Markdown files in this branch: **5634**; financial history available: **4049**. Source release: `coverage-20261022-39831584719-1`, created 2026-10-22T18:45:53.881812+00:00.
+
+Factual files are not completed research. Sector assignments from SIC are provisional project navigation rules; ambiguous industries and fund signals stay unclassified.
+
+| Sector | Factual files | Curated profiles | Reviewed research |
+| --- | ---: | ---: | ---: |
+| [Communication Services](communication-services/INDEX.md) | 0 | 0 | 0 |
+| [Consumer Discretionary](consumer-discretionary/INDEX.md) | 0 | 0 | 0 |
+| [Consumer Staples](consumer-staples/INDEX.md) | 0 | 0 | 0 |
+| [Energy](energy/INDEX.md) | 0 | 0 | 0 |
+| [Financials](financials/INDEX.md) | 0 | 0 | 0 |
+| [Health Care](health-care/INDEX.md) | 0 | 0 | 0 |
+| [Industrials](industrials/INDEX.md) | 3 | 3 | 3 |
+| [Information Technology](information-technology/INDEX.md) | 7 | 7 | 7 |
+| [Materials](materials/INDEX.md) | 0 | 0 | 0 |
+| [Real Estate](real-estate/INDEX.md) | 0 | 0 | 0 |
+| [Utilities](utilities/INDEX.md) | 0 | 0 | 0 |
+| [Unclassified — needs evidence review](unclassified/INDEX.md) | 5624 | 0 | 0 |

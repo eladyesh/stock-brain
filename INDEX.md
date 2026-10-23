@@ -4,6 +4,10 @@
 
 [Project overview](README.md) · [Company template](templates/company/README.md)
 
+## Broad factual coverage
+
+**5634 actual company Markdown files** are stored inside `sectors/*/facts/`. [Browse all sectors and classification gaps](sectors/README.md). **4049** have financial history. The curated research counts below are separate and must not be presented as broad research completion.
+
 ## Curated research coverage
 
 Curated profiles: **10**. Reviewed: **10**. These counts describe curated research, not automatic factual coverage or the entire U.S. market.

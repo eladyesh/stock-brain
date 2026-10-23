@@ -2,12 +2,18 @@
 
 # Materials — Company index
 
-[Sector overview](README.md) · [Master index](../../INDEX.md)
+[All sectors](../README.md) · [Master index](../../INDEX.md)
 
-## Coverage
+Factual files: **0**. Curated profiles: **0**. Reviewed research: **0**.
 
-Profiles: **0**. Reviewed: **0**.
+Data release: `coverage-20261022-39831584719-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
-## Companies
+## Factual company files
 
-No company profiles yet. Coverage has not started.
+| Company | Current symbols | Financial history | Classification basis |
+| --- | --- | --- | --- |
+
+
+## Curated research
+
+No completed company research in this sector yet.
