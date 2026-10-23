@@ -76,8 +76,8 @@ export function researchView(ui,initialSymbol=''){
       onCount?.(page.company_profiles+' חברות בספרייה');
       const counts=page.research_queue?.counts||{};
       stats.replaceChildren(...[['חברות בספרייה',page.company_profiles],['עם היסטוריה פיננסית',page.financial_profiles],['עם קטעי מקור שנאספו',(counts.evidence_collected||0)+(counts.draft||0)],['טיוטות מחקר',counts.draft||0]].map(([label,value])=>h('div',{class:'stat'},h('div',{class:'stat-label'},label),h('div',{class:'stat-value'},value))));
-      status.replaceChildren(h('p',{class:'caption'},'עדכון הנתונים: '+date(page.source_created_at)+' · המחקר מתעדכן בהדרגה לאחר איסוף ובדיקת מקורות.'),
-        page.research_queue?.stop_reason==='sec_access_blocked'?note('איסוף תוכן הדוחות נעצר בגלל חסימת גישה של SEC. הנתונים והמחקר הקודמים נשמרו; ניסיון נוסף מתוכנן בריצה היומית.','amber'):null);
+      status.replaceChildren(...[h('p',{class:'caption'},'עדכון הנתונים: '+date(page.source_created_at)+' · המחקר מתעדכן בהדרגה לאחר איסוף ובדיקת מקורות.'),
+        page.research_queue?.stop_reason==='sec_access_blocked'?note('איסוף תוכן הדוחות נעצר בגלל חסימת גישה של SEC. הנתונים והמחקר הקודמים נשמרו; ניסיון נוסף מתוכנן בריצה היומית.','amber'):null].filter(Boolean));
       const selected=sector.value;
       sector.replaceChildren(option('','כל הסקטורים',!selected),...Object.entries(page.sector_counts||{}).map(([key,n])=>option(key,(SECTORS[key]||key)+' · '+n,key===selected)));
       summary.textContent=page.total+' חברות תואמות · '+(page.total?offset+1:0)+'–'+Math.min(offset+25,page.total)+' · מיון לפי סימול';

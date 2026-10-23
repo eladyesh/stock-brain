@@ -31,10 +31,13 @@ def sync(directory, publish=False):
             return result
         git('init', '-q')
         git('remote', 'add', 'origin', f'https://github.com/{brain.REPO}.git')
-        found = git('ls-remote', '--exit-code', '--heads', 'origin', queue.BRANCH, allowed=(0, 2))
+        # ls-remote patterns also match trailing path components: a short
+        # research-data pattern would match automation/research-data.
+        branch_ref = 'refs/heads/' + queue.BRANCH
+        found = git('ls-remote', '--exit-code', '--heads', 'origin', branch_ref, allowed=(0, 2))
         parent = found.stdout.split()[0] if found.returncode == 0 else ''
         if parent:
-            git('fetch', '--depth=1', 'origin', queue.BRANCH)
+            git('fetch', '--depth=1', 'origin', branch_ref)
             git('checkout', '-q', '-b', queue.BRANCH, 'FETCH_HEAD')
             require(git('rev-parse', 'HEAD').stdout.strip() == parent, 'research branch moved during restore')
             queue.load_state(target)
@@ -66,7 +69,7 @@ def sync(directory, publish=False):
                 'commit', '-qm', 'Checkpoint daily issuer research queue')
             git('push', 'origin', 'HEAD:refs/heads/' + queue.BRANCH)
         commit = git('rev-parse', 'HEAD').stdout.strip()
-        require(git('ls-remote', '--exit-code', '--heads', 'origin', queue.BRANCH).stdout.split()[0] == commit, 'research state ref differs')
+        require(git('ls-remote', '--exit-code', '--heads', 'origin', branch_ref).stdout.split()[0] == commit, 'research state ref differs')
         return commit
 
 
