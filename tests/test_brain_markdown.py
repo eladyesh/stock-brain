@@ -49,6 +49,7 @@ class MarkdownTests(unittest.TestCase):
         self.assertIn('/blob/' + 'a' * 40 + '/sectors/', meta['curated_research']['url'])
         kb.sections_from(body, kb.config(ROOT)[1])
         self.assertIn('US GAAP', body)
+        self.assertIn('Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained.', body)
         self.assertIn('Unavailable / blocked', body)
         self.assertNotIn('ETF1', (self.output / 'brain/INDEX.md').read_text())
         self.assertEqual(brain.verify(self.output), manifest)
