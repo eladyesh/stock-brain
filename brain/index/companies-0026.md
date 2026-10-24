@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [IDR](../companies/IDR/README.md) | Idaho Strategic Resources, Inc. | available, quality gates apply |
 | [IDT](../companies/IDT/README.md) | IDT CORP | available, quality gates apply |
 | [IDXX](../companies/IDXX/README.md) | IDEXX LABORATORIES INC /DE | available, quality gates apply |
 | [IDYA](../companies/IDYA/README.md) | IDEAYA Biosciences, Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [INTJ](../companies/INTJ/README.md) | Intelligent Group Ltd | not available |
 | [INTR](../companies/INTR/README.md) | Inter & Co, Inc. | not available |
 | [INTS](../companies/INTS/README.md) | INTENSITY THERAPEUTICS, INC. | available, quality gates apply |
-| [INTT](../companies/INTT/README.md) | INTEST CORP | not available |

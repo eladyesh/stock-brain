@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [GPUS](../companies/GPUS/README.md) | Hyperscale Data, Inc. | available, quality gates apply |
 | [GRAB](../companies/GRAB/README.md) | Grab Holdings Ltd | not available |
 | [GRAL](../companies/GRAL/README.md) | GRAIL, Inc. | available, quality gates apply |
 | [GRAN](../companies/GRAN/README.md) | Grande Group Ltd/HK | not available |
@@ -103,4 +104,3 @@
 | [HCIC](../companies/HCIC/README.md) | Hennessy Capital Investment Corp. VIII | available, quality gates apply |
 | [HCKT](../companies/HCKT/README.md) | HACKETT GROUP, INC. | available, quality gates apply |
 | [HCM](../companies/HCM/README.md) | HUTCHMED (China) Ltd | not available |
-| [HCMA](../companies/HCMA/README.md) | HCM III ACQUISITION CORP. | available, quality gates apply |

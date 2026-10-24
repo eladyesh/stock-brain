@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [GFR](../companies/GFR/README.md) | Greenfire Resources Ltd. | not available |
 | [GFS](../companies/GFS/README.md) | GLOBALFOUNDRIES Inc. | not available |
 | [GFUZ](../companies/GFUZ/README.md) | General Fusion Group Ltd. | available, quality gates apply |
 | [GGAL](../companies/GGAL/README.md) | GRUPO FINANCIERO GALICIA SA | not available |
@@ -103,4 +104,3 @@
 | [GPRE](../companies/GPRE/README.md) | Green Plains Inc. | available, quality gates apply |
 | [GPRK](../companies/GPRK/README.md) | GeoPark Ltd | not available |
 | [GPRO](../companies/GPRO/README.md) | GoPro, Inc. | available, quality gates apply |
-| [GPUS](../companies/GPUS/README.md) | Hyperscale Data, Inc. | available, quality gates apply |

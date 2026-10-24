@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [COO](../companies/COO/README.md) | COOPER COMPANIES, INC. | available, quality gates apply |
 | [COOK](../companies/COOK/README.md) | Traeger, Inc. | available, quality gates apply |
 | [COOT](../companies/COOT/README.md) | Australian Oilseeds Holdings Ltd | not available |
 | [COP](../companies/COP/README.md) | CONOCOPHILLIPS | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [CTEV](../companies/CTEV/README.md) | Claritev Corp | available, quality gates apply |
 | [CTGO](../companies/CTGO/README.md) | Contango Silver & Gold Inc. | available, quality gates apply |
 | [CTKB](../companies/CTKB/README.md) | Cytek Biosciences, Inc. | available, quality gates apply |
-| [CTM](../companies/CTM/README.md) | Castellum, Inc. | available, quality gates apply |

@@ -14,6 +14,7 @@
 | [BCTX](../companies/BCTX/README.md) | BriaCell Therapeutics Corp. | available, quality gates apply |
 | [BCV](../companies/BCV/README.md) | BANCROFT FUND LTD | not available |
 | [BCYC](../companies/BCYC/README.md) | BICYCLE THERAPEUTICS PLC | available, quality gates apply |
+| [BDAI](../companies/BDAI/README.md) | Biddance AI Systems, Inc. | not available |
 | [BDC](../companies/BDC/README.md) | BELDEN INC. | available, quality gates apply |
 | [BDCI](../companies/BDCI/README.md) | BTC Development Corp. | available, quality gates apply |
 | [BDJ](../companies/BDJ/README.md) | BlackRock Enhanced Equity Dividend Trust | not available |
@@ -103,4 +104,3 @@
 | [BKHA](../companies/BKHA/README.md) | Black Hawk Acquisition Corp | available, quality gates apply |
 | [BKKT](../companies/BKKT/README.md) | Bakkt, Inc. | available, quality gates apply |
 | [BKNG](../companies/BKNG/README.md) | Booking Holdings Inc. | available, quality gates apply |
-| [BKR](../companies/BKR/README.md) | Baker Hughes Co | available, quality gates apply |

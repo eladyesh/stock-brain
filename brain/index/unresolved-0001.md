@@ -32,7 +32,6 @@
 | [BANFP](../unmapped/9e906af05f2d3b2f096bfea045fad7d1.md) | NASDAQ | BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities |
 | [BANX](../unmapped/dff0b25df71013cbfd3852f73e30fb7f.md) | NASDAQ | ArrowMark Financial Corp. - Closed End Fund |
 | [BCIC](../unmapped/5d880268f9da38c6b0d402ffd6e072b6.md) | NASDAQ | BCP Investment Corporation - Closed End Fund |
-| [BDAI](../unmapped/eef8e2a48cc43eaae1f054c8d796d049.md) | NASDAQ | Biddance AI Systems, Inc. - Class A Ordinary Share |
 | [BEAGR](../unmapped/acc171bdac22ab1f342f5e58a218db79.md) | NASDAQ | Bold Eagle Acquisition Corp. - Right |
 | [BLUWU](../unmapped/fa59384397f825c26b195df58699ac27.md) | NASDAQ | Blue Water Acquisition Corp. III - Unit. |
 | [BPOPM](../unmapped/66b6528a28951cb9a2883ae5a96781e8.md) | NASDAQ | Popular, Inc. - Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities |
@@ -104,3 +103,4 @@
 | [IPXG](../unmapped/2629f2ad138f0a3fa8f8ee0cf4d6dc11.md) | NASDAQ | Inection Point Acquisition Corp. VII  - Class A Ordinary Shares |
 | [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
 | [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |

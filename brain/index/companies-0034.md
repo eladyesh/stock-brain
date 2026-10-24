@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MRAM](../companies/MRAM/README.md) | EVERSPIN TECHNOLOGIES INC. | available, quality gates apply |
+| [MRBK](../companies/MRBK/README.md) | Meridian Corp | available, quality gates apply |
 | [MRCO](../companies/MRCO/README.md) | Mercator Acquisition Corp. | available, quality gates apply |
 | [MRCY](../companies/MRCY/README.md) | MERCURY SYSTEMS INC | available, quality gates apply |
 | [MRDN](../companies/MRDN/README.md) | Meridian Holdings Inc./NV | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [MYRG](../companies/MYRG/README.md) | MYR GROUP INC. | available, quality gates apply |
 | [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |
 | [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
-| [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |
-| [MZTI](../companies/MZTI/README.md) | MARZETTI CO | available, quality gates apply |

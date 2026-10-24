@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
+| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |
 | [OSG](../companies/OSG/README.md) | OCTAVE SPECIALTY GROUP INC | available, quality gates apply |
 | [OSIS](../companies/OSIS/README.md) | OSI SYSTEMS INC | available, quality gates apply |
 | [OSPN](../companies/OSPN/README.md) | OneSpan Inc. | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [PCRX](../companies/PCRX/README.md) | Pacira BioSciences, Inc. | available, quality gates apply |
 | [PCSA](../companies/PCSA/README.md) | Processa Pharmaceuticals, Inc. | available, quality gates apply |
 | [PCT](../companies/PCT/README.md) | PureCycle Technologies, Inc. | available, quality gates apply |
-| [PCTY](../companies/PCTY/README.md) | Paylocity Holding Corp | available, quality gates apply |
-| [PCVX](../companies/PCVX/README.md) | Vaxcyte, Inc. | available, quality gates apply |

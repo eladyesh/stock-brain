@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [TNMG](../companies/TNMG/README.md) | TNL Mediagene | not available |
+| [TNON](../companies/TNON/README.md) | Tenon Medical, Inc. | available, quality gates apply |
+| [TNXP](../companies/TNXP/README.md) | Tonix Pharmaceuticals Holding Corp. | available, quality gates apply |
 | [TNYA](../companies/TNYA/README.md) | Tenaya Therapeutics, Inc. | available, quality gates apply |
 | [TOL](../companies/TOL/README.md) | Toll Brothers, Inc. | available, quality gates apply |
 | [TOMZ](../companies/TOMZ/README.md) | TOMI Environmental Solutions, Inc. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [TV](../companies/TV/README.md) | GRUPO TELEVISA, S.A.B. | not available |
 | [TVA](../companies/TVA/README.md) | Texas Ventures Acquisition III Corp | available, quality gates apply |
 | [TVAI](../companies/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available, quality gates apply |
-| [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |
-| [TVGN](../companies/TVGN/README.md) | Tevogen Inc. | available, quality gates apply |
-| [TVIV](../companies/TVIV/README.md) | Texas Ventures Acquisition IV Corp | available, quality gates apply |

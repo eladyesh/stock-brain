@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |
+| [TVGN](../companies/TVGN/README.md) | Tevogen Inc. | available, quality gates apply |
+| [TVIV](../companies/TVIV/README.md) | Texas Ventures Acquisition IV Corp | available, quality gates apply |
 | [TVRD](../companies/TVRD/README.md) | Tvardi Therapeutics, Inc. | available, quality gates apply |
 | [TVTX](../companies/TVTX/README.md) | Travere Therapeutics, Inc. | available, quality gates apply |
 | [TW](../companies/TW/README.md) | Tradeweb Markets Inc. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
 | [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |
 | [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
-| [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |
-| [USEA](../companies/USEA/README.md) | United Maritime Corp | not available |
-| [USFD](../companies/USFD/README.md) | US Foods Holding Corp. | available, quality gates apply |

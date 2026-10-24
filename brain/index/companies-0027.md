@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [INTT](../companies/INTT/README.md) | INTEST CORP | not available |
 | [INTU](../companies/INTU/README.md) | INTUIT INC. | available, quality gates apply |
 | [INTZ](../companies/INTZ/README.md) | INTRUSION INC | available, quality gates apply |
 | [INUV](../companies/INUV/README.md) | Inuvo, Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [JBL](../companies/JBL/README.md) | JABIL INC | available, quality gates apply |
 | [JBLU](../companies/JBLU/README.md) | JETBLUE AIRWAYS CORP | available, quality gates apply |
 | [JBS](../companies/JBS/README.md) | JBS N.V. | not available |
-| [JBTM](../companies/JBTM/README.md) | JBT MAREL Corp | available, quality gates apply |

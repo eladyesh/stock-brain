@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [CAH](../companies/CAH/README.md) | CARDINAL HEALTH INC | available, quality gates apply |
 | [CAI](../companies/CAI/README.md) | Caris Life Sciences, Inc. | available, quality gates apply |
 | [CAII](../companies/CAII/README.md) | Collective Acquisition Corp. II | available, quality gates apply |
 | [CAKE](../companies/CAKE/README.md) | CHEESECAKE FACTORY INC | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [CDZI, CDZIP](../companies/CDZI/README.md) | CADIZ INC | available, quality gates apply |
 | [CE](../companies/CE/README.md) | Celanese Corp | available, quality gates apply |
 | [CEE](../companies/CEE/README.md) | CENTRAL & EASTERN EUROPE FUND, INC. | not available |
-| [CEG](../companies/CEG/README.md) | Constellation Energy Corp | available, quality gates apply |

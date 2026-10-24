@@ -4,7 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
@@ -16,7 +15,6 @@
 | [LFMDP](../unmapped/d3d7dfe7f80f69798d30ebd6356c6b71.md) | NASDAQ | LifeMD, Inc. - 8.875% Series A Cumulative Perpetual Preferred Stock |
 | [LILAP](../unmapped/c1717440c045ae343677d76a4d44f488.md) | NASDAQ | Liberty Latin America Ltd. - 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares |
 | [LOGI](../unmapped/b6122536d7414995d6e2c73fc91d76d5.md) | NASDAQ | Logitech International S.A. - Registered Shares |
-| [LUMN](../unmapped/6947d8805913c706838bcc4aa9a91d17.md) | NASDAQ | Lumen Technologies, Inc.  - Common Stock |
 | [LYCA](../unmapped/6be1ce94629461c931a88a47599e7c4a.md) | NASDAQ | Lycia Therapeutics, Inc. - Common Stock |
 | [MAYS](../unmapped/cf37ab5a31f55ca535dc45298738bb53.md) | NASDAQ | J. W. Mays, Inc. - Common Stock |
 | [MBNKO](../unmapped/cacdd6d161814fbce9a5a59b78b4a35b.md) | NASDAQ | Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share |
@@ -78,7 +76,6 @@
 | [TBCV](../unmapped/871225be152be9d7e8ca3eaef497a635.md) | NASDAQ | Thunder Bridge Capital Partners V, Ltd. - Class A Ordinary Shares |
 | [TBLD](../unmapped/c68a34a0061b440f84053e65343a129a.md) | NASDAQ | Thornburg Income Builder Opportunities Trust - Closed End Fund |
 | [TCPC](../unmapped/02f98fe359fbfe4942d168110c42decf.md) | NASDAQ | BlackRock TCP Capital Corp. - Closed End Fund |
-| [TCXB](../unmapped/e1b85aef426206e61803c48ee148af0a.md) | NASDAQ | TCGX Acquisition Corp. II - Class A Ordinary Shares |
 | [TOWN](../unmapped/e5d041c0d90ca09ae693187e6e045726.md) | NASDAQ | Towne Bank - Common Stock |
 | [TRI](../unmapped/d55b878583197c49384429682c36d368.md) | NASDAQ | Thomson Reuters Corp - Common Shares |
 | [TROO](../unmapped/03c48fc056366ba9a6d86f0eb4c06418.md) | NASDAQ | TROOPS, Inc.  - Ordinary Shares |
@@ -104,3 +101,6 @@
 | [ABR$E](../unmapped/e076649714873b4c1e0875467be9b6df.md) | NYSE | Arbor Realty Trust 6.25% Series E Cumulative Redeemable Preferred Stock |
 | [ABR$F](../unmapped/93cb5e8665f99fda3b027454f3d2b43a.md) | NYSE | Arbor Realty Trust 6.25% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per share |
 | [ACP$A](../unmapped/88ead7aa96474957b7e31c1fc2109422.md) | NYSE | abrdn Income Credit Strategies Fund 5.250% Series A Perpetual Preferred Stock |
+| [ACR$C](../unmapped/55e23ed58686440659099c87b8c89a69.md) | NYSE | ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock |
+| [ACR$D](../unmapped/e99a0fda36027ec41d4d0849947edd08.md) | NYSE | ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock |
+| [AEG](../unmapped/e90a06d8f8852583e177f75f61cf410d.md) | NYSE | Aegon Ltd. New York Registry Shares |

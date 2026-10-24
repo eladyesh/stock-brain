@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [ODFL](../companies/ODFL/README.md) | OLD DOMINION FREIGHT LINE, INC. | available, quality gates apply |
+| [ODTX](../companies/ODTX/README.md) | Odyssey Therapeutics, Inc. | available, quality gates apply |
 | [ODYS](../companies/ODYS/README.md) | Odysight.ai Inc. | available, quality gates apply |
 | [OEC](../companies/OEC/README.md) | Orion S.A. | available, quality gates apply |
 | [OESX](../companies/OESX/README.md) | ORION ENERGY SYSTEMS, INC. | available, quality gates apply |
@@ -39,7 +41,7 @@
 | [OLOX](../companies/OLOX/README.md) | OLENOX INDUSTRIES INC. | available, quality gates apply |
 | [OLP](../companies/OLP/README.md) | ONE LIBERTY PROPERTIES INC | available, quality gates apply |
 | [OM](../companies/OM/README.md) | Outset Medical, Inc. | available, quality gates apply |
-| [OMC](../companies/OMC/README.md) | OMNICOM GROUP INC. | not available |
+| [OMC](../companies/OMC/README.md) | OMNICOM GROUP INC. | available, quality gates apply |
 | [OMCL](../companies/OMCL/README.md) | OMNICELL, INC. | available, quality gates apply |
 | [OMDA](../companies/OMDA/README.md) | Omada Health, Inc. | available, quality gates apply |
 | [OMER](../companies/OMER/README.md) | OMEROS CORP | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [ORMP](../companies/ORMP/README.md) | ORAMED PHARMACEUTICALS INC. | available, quality gates apply |
 | [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
 | [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
-| [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
-| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |

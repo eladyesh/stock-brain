@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [RACC](../companies/RACC/README.md) | Research Alliance Corp III | available, quality gates apply |
+| [RACD](../companies/RACD/README.md) | Research Alliance Corp IV | available, quality gates apply |
 | [RACE](../companies/RACE/README.md) | Ferrari N.V. | not available |
 | [RADX](../companies/RADX/README.md) | Radiopharm Theranostics Ltd | not available |
 | [RAIL](../companies/RAIL/README.md) | FreightCar America, Inc. | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [RH](../companies/RH/README.md) | RH | available, quality gates apply |
 | [RHI](../companies/RHI/README.md) | ROBERT HALF INC. | available, quality gates apply |
 | [RHLD](../companies/RHLD/README.md) | Resolute Holdings Management, Inc. | available, quality gates apply |
-| [RHP](../companies/RHP/README.md) | Ryman Hospitality Properties, Inc. | available, quality gates apply |
-| [RIBB](../companies/RIBB/README.md) | Ribbon Acquisition Corp. | available, quality gates apply |

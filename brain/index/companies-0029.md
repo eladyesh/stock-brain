@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [KIO](../companies/KIO/README.md) | KKR Income Opportunities Fund | not available |
 | [KITT](../companies/KITT/README.md) | Nauticus Robotics, Inc. | available, quality gates apply |
 | [KKR](../companies/KKR/README.md) | KKR & Co. Inc. | available, quality gates apply |
 | [KLAC](../companies/KLAC/README.md) | KLA CORP | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [LAUR](../companies/LAUR/README.md) | LAUREATE EDUCATION, INC. | available, quality gates apply |
 | [LAW](../companies/LAW/README.md) | CS Disco, Inc. | available, quality gates apply |
 | [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |
-| [LB](../companies/LB/README.md) | LandBridge Corp | available, quality gates apply |

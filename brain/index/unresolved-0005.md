@@ -4,9 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [KREF$A](../unmapped/890ecb89e7dc5bba0b3801281a307143.md) | NYSE | KKR Real Estate Finance Trust Inc. 6.50% Series A Cumulative Redeemable Preferred Stock |
-| [KTH](../unmapped/61190f0b14a895e68ed784b32a7b24f2.md) | NYSE | Structures Products Cp 8% CorTS Issued by Peco Energy Cap Tr II Preferred Stock |
-| [KTN](../unmapped/0282cdd5577bb9c8de1b6809a3960707.md) | NYSE | Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS) |
 | [KWR](../unmapped/b47f6e90da36a5075e393c56b296b12c.md) | NYSE | Quaker Houghton Common Stock |
 | [LEN](../unmapped/29cc1071c6ca55de9b9f1fc035fe3a10.md) | NYSE | Lennar Corporation Class A Common Stock |
 | [LEN.B](../unmapped/915125fc04c0434227b3b3d687167021.md) | NYSE | Lennar Corporation Class B |
@@ -104,3 +101,6 @@
 | [SCE$G](../unmapped/486d4db04bebafd7aff5b29fe3e2b57e.md) | NYSE | SCE Trust II Trust Preferred Securities |
 | [SCE$L](../unmapped/e4d2a3b0eb73bae0fa40d4a558813fcc.md) | NYSE | SCE TRUST VI |
 | [SCE$M](../unmapped/203be356a909a1b84b67d09c50ebd442.md) | NYSE | SCE Trust VII 7.50% Trust Preference Securities |
+| [SCE$N](../unmapped/3d0992bb355a01df5975b9980d7d351d.md) | NYSE | SCE Trust VIII 6.95% Trust Preference Securities |
+| [SCHW](../unmapped/88ca3b3b7de530ad0eef33b0c88cba65.md) | NYSE | Charles Schwab Corporation (The) Common Stock |
+| [SCHW$D](../unmapped/a0840281046ac90e4b77fb20d148785f.md) | NYSE | The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock, Series D |

@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [RHP](../companies/RHP/README.md) | Ryman Hospitality Properties, Inc. | available, quality gates apply |
+| [RIBB](../companies/RIBB/README.md) | Ribbon Acquisition Corp. | available, quality gates apply |
 | [RICK](../companies/RICK/README.md) | RCI HOSPITALITY HOLDINGS, INC. | available, quality gates apply |
 | [RIGL](../companies/RIGL/README.md) | RIGEL PHARMACEUTICALS INC | available, quality gates apply |
 | [RILY, RILYL, RILYP](../companies/RILY/README.md) | BRC Group Holdings, Inc. | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [RUBI](../companies/RUBI/README.md) | Rubico Inc. | not available |
 | [RUM](../companies/RUM/README.md) | RUM Group Inc. | available, quality gates apply |
 | [RUN](../companies/RUN/README.md) | Sunrun Inc. | available, quality gates apply |
-| [RVI](../companies/RVI/README.md) | Robinhood Ventures Fund I | not available |
-| [RVII](../companies/RVII/README.md) | Robinhood Ventures Fund II | available, quality gates apply |

@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [SEAT](../companies/SEAT/README.md) | Vivid Seats Inc. | available, quality gates apply |
+| [SEB](../companies/SEB/README.md) | SEABOARD CORP /DE/ | available, quality gates apply |
 | [SECZ](../companies/SECZ/README.md) | Securitize Corp. | not available |
 | [SEDG](../companies/SEDG/README.md) | SOLAREDGE TECHNOLOGIES, INC. | available, quality gates apply |
 | [SEED](../companies/SEED/README.md) | Origin Agritech LTD | not available |
@@ -102,5 +104,3 @@
 | [SKYA](../companies/SKYA/README.md) | SkyAI, Inc. | available, quality gates apply |
 | [SKYD](../companies/SKYD/README.md) | Skydance Corp | available, quality gates apply |
 | [SKYE](../companies/SKYE/README.md) | Skye Bioscience, Inc. | available, quality gates apply |
-| [SKYH](../companies/SKYH/README.md) | Sky Harbour Group Corp | available, quality gates apply |
-| [SKYQ](../companies/SKYQ/README.md) | Sky Quarry Inc. | available, quality gates apply |

@@ -2,20 +2,20 @@
 
 [Company index](INDEX.md)
 
-Data release: `coverage-20261023-39968262770-1`; source created 2026-10-23T14:35:22.252685+00:00.
+Data release: `coverage-20261024-40097864335-1`; source created 2026-10-24T13:37:20.730682+00:00.
 
 These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.
 
 | Financial collection state | Issuers | Next action |
 | --- | ---: | --- |
-| available | 4052 | Retain dated financial evidence and review blocked metrics before analytical use. |
-| latest_filing_incomplete | 211 | Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit. |
-| foreign_reporting_adapter | 1028 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
+| available | 4055 | Retain dated financial evidence and review blocked metrics before analytical use. |
+| latest_filing_incomplete | 209 | Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit. |
+| foreign_reporting_adapter | 1029 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
 | fund_reporting_review | 317 | Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification. |
-| unsupported_reporting_inventory | 26 | Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership. |
+| unsupported_reporting_inventory | 27 | Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership. |
 | not_collected | 0 | Collect verified issuer submissions and source financial data before normalization. |
 
-Unresolved stock listings: **607**. Verify their issuer identity before attaching any company financial data.
+Unresolved stock listings: **604**. Verify their issuer identity before attaching any company financial data.
 
 Generated research profiles remain stubs. Curated research links retain their original review dates; broad market prices, consensus, news and ownership still need separate source coverage.
 
@@ -33,7 +33,6 @@ Examples (up to 20; each company file contains its source evidence and task):
 - [KO — COCA COLA CO](companies/KO/README.md)
 - [CTO — CTO Realty Growth, Inc.](companies/CTO/README.md)
 - [CTS — CTS CORP](companies/CTS/README.md)
-- [OMC — OMNICOM GROUP INC.](companies/OMC/README.md)
 - [CTA_24A — EIDP, Inc.](companies/CTA_24A/README.md)
 - [FRT — FEDERAL REALTY INVESTMENT TRUST](companies/FRT/README.md)
 - [F — FORD MOTOR CO](companies/F/README.md)
@@ -45,6 +44,7 @@ Examples (up to 20; each company file contains its source evidence and task):
 - [HBAN — HUNTINGTON BANCSHARES INC /MD/](companies/HBAN/README.md)
 - [IMO — IMPERIAL OIL LTD](companies/IMO/README.md)
 - [MAS — MASCO CORP /DE/](companies/MAS/README.md)
+- [SPGI — S&P Global Inc.](companies/SPGI/README.md)
 
 ## fund_reporting_review
 

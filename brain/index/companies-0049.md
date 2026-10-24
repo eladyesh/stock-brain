@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [STVN](../companies/STVN/README.md) | Stevanato Group S.p.A. | not available |
+| [STX](../companies/STX/README.md) | Seagate Technology Holdings plc | available, quality gates apply |
 | [STXS](../companies/STXS/README.md) | Stereotaxis, Inc. | available, quality gates apply |
 | [STZ](../companies/STZ/README.md) | CONSTELLATION BRANDS, INC. | available, quality gates apply |
 | [SU](../companies/SU/README.md) | SUNCOR ENERGY INC | not available |
@@ -93,6 +95,7 @@
 | [TCRT](../companies/TCRT/README.md) | Alaunos Therapeutics, Inc. | available, quality gates apply |
 | [TCRX](../companies/TCRX/README.md) | TScan Therapeutics, Inc. | available, quality gates apply |
 | [TCX](../companies/TCX/README.md) | TUCOWS INC /PA/ | available, quality gates apply |
+| [TCXB](../companies/TCXB/README.md) | TCGX Acquisition Corp. II | not available |
 | [TD](../companies/TD/README.md) | TORONTO DOMINION BANK | not available |
 | [TDAC](../companies/TDAC/README.md) | Translational Development Acquisition Corp. | available, quality gates apply |
 | [TDAY](../companies/TDAY/README.md) | USA TODAY Co., Inc. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [TDG](../companies/TDG/README.md) | TransDigm Group INC | available, quality gates apply |
 | [TDIC](../companies/TDIC/README.md) | Dreamland Ltd | not available |
 | [TDOC](../companies/TDOC/README.md) | Teladoc Health, Inc. | available, quality gates apply |
-| [TDS, TDS$U, TDS$V](../companies/TDS/README.md) | TELEPHONE & DATA SYSTEMS INC /DE/ | available, quality gates apply |
-| [TDTH](../companies/TDTH/README.md) | Trident Digital Tech Holdings Ltd | not available |
-| [TDUP](../companies/TDUP/README.md) | ThredUp Inc. | available, quality gates apply |
