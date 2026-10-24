@@ -12,10 +12,10 @@ as_of: '2026-10-24'
 updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
 coverage_release: coverage-20261024-40097864335-1
-source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
+source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/MSFT/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/3e64e295ca76808fce5a42e3e525d15ea101c1a7/sectors/information-technology/companies/MSFT/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -1212,7 +1212,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:29:09.982870+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/MSFT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/3e64e295ca76808fce5a42e3e525d15ea101c1a7/sectors/information-technology/companies/MSFT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
