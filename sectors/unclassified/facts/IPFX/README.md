@@ -8,11 +8,11 @@ tickers:
 - IPFX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -32,6 +32,7 @@ financial_gap:
   - NT 10-Q
   - S-1
   - S-1/A
+  - S-4/A
   - SCHEDULE 13G
   - SCHEDULE 13G/A
   - UPLOAD
@@ -47,11 +48,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0002102041.json
-    sha256: 828b7fc789b5799126047a50b886e840568200ebd6cd665c7798d79fb16487ff
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 88614444561ec1309272db7a9dd371d2036a997fa4d03d9ee2ec03f1a54c61ef
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002102041.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,14 +60,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002102041.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 828b7fc789b5799126047a50b886e840568200ebd6cd665c7798d79fb16487ff
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 88614444561ec1309272db7a9dd371d2036a997fa4d03d9ee2ec03f1a54c61ef
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0002102041.json
@@ -80,34 +81,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S06
+  title: 425 0001213900-26-111832
+  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026111832/0001213900-26-111832-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S07
+  title: S-4/A 0001213900-26-111830
+  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026111830/0001213900-26-111830-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S08
+  title: 8-K 0001213900-26-111829
+  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026111829/0001213900-26-111829-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S09
   title: 425 0001213900-26-105239
   url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026105239/0001213900-26-105239-index.html
   published_at: '2026-09-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S07
+- id: S10
   title: 425 0001213900-26-098396
   url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026098396/0001213900-26-098396-index.html
   published_at: '2026-09-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S08
-  title: 10-Q 0001213900-26-091724
-  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026091724/0001213900-26-091724-index.html
-  published_at: '2026-08-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S09
-  title: NT 10-Q 0001213900-26-090786
-  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026090786/0001213900-26-090786-index.html
-  published_at: '2026-08-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S10
-  title: SCHEDULE 13G/A 0001578621-26-000137
-  url: https://www.sec.gov/Archives/edgar/data/2102041/000157862126000137/0001578621-26-000137-index.html
-  published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0002102041'
@@ -119,8 +120,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 828b7fc789b5799126047a50b886e840568200ebd6cd665c7798d79fb16487ff
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 88614444561ec1309272db7a9dd371d2036a997fa4d03d9ee2ec03f1a54c61ef
   url: https://data.sec.gov/submissions/CIK0002102041.json
 listings:
 - ticker: IPFX
@@ -132,13 +133,13 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026091724/0001213900-26-091724-index.html
-- accession: 0001213900-26-068265
-  filed: '2026-06-12'
+- accession: 0001213900-26-111829
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026068265/0001213900-26-068265-index.html
+  url: https://www.sec.gov/Archives/edgar/data/2102041/000121390026111829/0001213900-26-111829-index.html
 research_progress:
   stage: pending
-  input_sha256: ead96faa8ca94c2f426bc78bbbeb641a19a9d733613deff263199daf157c6456
+  input_sha256: 694f9c0510a066668ca900f0d78c6a5dfca76a1cca9a67d33d71921cf6e6339c
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -155,15 +156,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IPFX/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IPFX/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IPFX — Inflection Point Acquisition Corp. VI
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IPFX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IPFX/README.md)
 
 ## Business overview
 
@@ -286,7 +287,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:45.384360+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:41.990030+00:00.
 
 ### Research work queue
 
@@ -322,32 +323,32 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-30 | 425 | 0001213900-26-105239 | — | [S06] |
-| 2026-09-09 | 425 | 0001213900-26-098396 | — | [S07] |
-| 2026-08-19 | 10-Q | 0001213900-26-091724 | — | [S08] |
-| 2026-08-17 | NT 10-Q | 0001213900-26-090786 | — | [S09] |
-| 2026-08-14 | SCHEDULE 13G/A | 0001578621-26-000137 | — | [S10] |
+| 2026-10-23 | 425 | 0001213900-26-111832 | — | [S06] |
+| 2026-10-23 | S-4/A | 0001213900-26-111830 | — | [S07] |
+| 2026-10-23 | 8-K | 0001213900-26-111829 | — | [S08] |
+| 2026-09-30 | 425 | 0001213900-26-105239 | — | [S09] |
+| 2026-09-09 | 425 | 0001213900-26-098396 | — | [S10] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002102041.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002102041.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0002102041.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
 [S04] [10-Q 0001213900-26-091724](https://www.sec.gov/Archives/edgar/data/2102041/000121390026091724/0001213900-26-091724-index.html) — published 2026-08-19; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S06] [425 0001213900-26-105239](https://www.sec.gov/Archives/edgar/data/2102041/000121390026105239/0001213900-26-105239-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [425 0001213900-26-111832](https://www.sec.gov/Archives/edgar/data/2102041/000121390026111832/0001213900-26-111832-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [425 0001213900-26-098396](https://www.sec.gov/Archives/edgar/data/2102041/000121390026098396/0001213900-26-098396-index.html) — published 2026-09-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [S-4/A 0001213900-26-111830](https://www.sec.gov/Archives/edgar/data/2102041/000121390026111830/0001213900-26-111830-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S08] [10-Q 0001213900-26-091724](https://www.sec.gov/Archives/edgar/data/2102041/000121390026091724/0001213900-26-091724-index.html) — published 2026-08-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S08] [8-K 0001213900-26-111829](https://www.sec.gov/Archives/edgar/data/2102041/000121390026111829/0001213900-26-111829-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S09] [NT 10-Q 0001213900-26-090786](https://www.sec.gov/Archives/edgar/data/2102041/000121390026090786/0001213900-26-090786-index.html) — published 2026-08-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S09] [425 0001213900-26-105239](https://www.sec.gov/Archives/edgar/data/2102041/000121390026105239/0001213900-26-105239-index.html) — published 2026-09-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S10] [SCHEDULE 13G/A 0001578621-26-000137](https://www.sec.gov/Archives/edgar/data/2102041/000157862126000137/0001578621-26-000137-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [425 0001213900-26-098396](https://www.sec.gov/Archives/edgar/data/2102041/000121390026098396/0001213900-26-098396-index.html) — published 2026-09-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IPFX/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IPFX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

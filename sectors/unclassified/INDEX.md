@@ -6,7 +6,7 @@
 
 Factual files: **1034**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261024-40097864335-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -100,7 +100,6 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [BDCI](facts/BDCI/README.md) | BTC Development Corp. | available; quality gates apply | unresolved |
 | [BDJ](facts/BDJ/README.md) | BlackRock Enhanced Equity Dividend Trust | missing | unresolved |
 | [BDN](facts/BDN/README.md) | BRANDYWINE REALTY TRUST | missing | unresolved |
-| [BEAG](facts/BEAG/README.md) | Bold Eagle Acquisition Corp. | available; quality gates apply | unresolved |
 | [BEBE](facts/BEBE/README.md) | TGE Value Creative Solutions Corp | available; quality gates apply | unresolved |
 | [BEEM](facts/BEEM/README.md) | Beam Global | available; quality gates apply | unresolved |
 | [BFAM](facts/BFAM/README.md) | BRIGHT HORIZONS FAMILY SOLUTIONS INC. | available; quality gates apply | unresolved |
@@ -938,6 +937,7 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [TBLA](facts/TBLA/README.md) | Taboola.com Ltd. | available; quality gates apply | unresolved |
 | [TCGX](facts/TCGX/README.md) | TCGX Acquisition Corp. | missing | unresolved |
 | [TCI](facts/TCI/README.md) | TRANSCONTINENTAL REALTY INVESTORS INC | available; quality gates apply | unresolved |
+| [TCXB](facts/TCXB/README.md) | TCGX Acquisition Corp. II | missing | unresolved |
 | [TDAC](facts/TDAC/README.md) | Translational Development Acquisition Corp. | available; quality gates apply | unresolved |
 | [TDF](facts/TDF/README.md) | TEMPLETON DRAGON FUND INC | missing | unresolved |
 | [TDWD](facts/TDWD/README.md) | Tailwind 2.0 Acquisition Corp. | available; quality gates apply | unresolved |

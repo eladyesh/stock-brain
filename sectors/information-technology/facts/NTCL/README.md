@@ -8,11 +8,11 @@ tickers:
 - NTCL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -50,11 +50,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001927578.json
-    sha256: 6c2c4b349bc82cb5b5c30606064bc8c32f24752b976e90ee4e0c4f91ea8b382a
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: bc65d4c716de2a667404f4bcfd41c93b9102f90589472745f85d21ff1577ee27
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001927578.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -62,43 +62,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001927578.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6c2c4b349bc82cb5b5c30606064bc8c32f24752b976e90ee4e0c4f91ea8b382a
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: bc65d4c716de2a667404f4bcfd41c93b9102f90589472745f85d21ff1577ee27
 - id: S03
+  title: 6-K 0001104659-26-118522
+  url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926118522/0001104659-26-118522-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001104659-26-115060
   url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926115060/0001104659-26-115060-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0001104659-26-105517
   url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926105517/0001104659-26-105517-index.html
   published_at: '2026-09-04'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0001104659-26-097235
   url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926097235/0001104659-26-097235-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 6-K 0001104659-26-091285
   url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926091285/0001104659-26-091285-index.html
   published_at: '2026-08-05'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001104659-26-088798
-  url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926088798/0001104659-26-088798-index.html
-  published_at: '2026-07-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001927578
@@ -110,8 +110,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6c2c4b349bc82cb5b5c30606064bc8c32f24752b976e90ee4e0c4f91ea8b382a
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: bc65d4c716de2a667404f4bcfd41c93b9102f90589472745f85d21ff1577ee27
   url: https://data.sec.gov/submissions/CIK0001927578.json
 listings:
 - ticker: NTCL
@@ -122,13 +122,13 @@ research_filings:
   filed: '2026-02-02'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926008806/0001104659-26-008806-index.html
-- accession: 0001104659-26-115060
-  filed: '2026-10-09'
+- accession: 0001104659-26-118522
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926115060/0001104659-26-115060-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1927578/000110465926118522/0001104659-26-118522-index.html
 research_progress:
   stage: pending
-  input_sha256: 7578dc6db22af8bced01d7f24daab4171ee5516faa97d3557df7f24340ce15c2
+  input_sha256: 8d3f0369096d9802608b536ce6f3ef7ee737ef8fc44d6c88b3c6330d7e14fa75
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -148,15 +148,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001927578.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NTCL/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NTCL/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NTCL — NetClass Technology Inc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NTCL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NTCL/README.md)
 
 ## Business overview
 
@@ -234,7 +234,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 15-15D, 20-F, 424B3, 424B4, 6-K, 8-A12B, CERT, CORRESP, D, DRS, DRS/A, EFFECT, F-1, F-1/A, F-3, F-3/A, FWP, NT 20-F, POS AM, RW, S-8, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:21.457293+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:23.170352+00:00.
 
 ### Research work queue
 
@@ -270,28 +270,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-09 | 6-K | 0001104659-26-115060 | — | [S03] |
-| 2026-09-04 | 6-K | 0001104659-26-105517 | — | [S04] |
-| 2026-08-14 | 6-K | 0001104659-26-097235 | — | [S05] |
-| 2026-08-05 | 6-K | 0001104659-26-091285 | — | [S06] |
-| 2026-07-30 | 6-K | 0001104659-26-088798 | — | [S07] |
+| 2026-10-23 | 6-K | 0001104659-26-118522 | — | [S03] |
+| 2026-10-09 | 6-K | 0001104659-26-115060 | — | [S04] |
+| 2026-09-04 | 6-K | 0001104659-26-105517 | — | [S05] |
+| 2026-08-14 | 6-K | 0001104659-26-097235 | — | [S06] |
+| 2026-08-05 | 6-K | 0001104659-26-091285 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001927578.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001927578.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001104659-26-115060](https://www.sec.gov/Archives/edgar/data/1927578/000110465926115060/0001104659-26-115060-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001104659-26-118522](https://www.sec.gov/Archives/edgar/data/1927578/000110465926118522/0001104659-26-118522-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0001104659-26-105517](https://www.sec.gov/Archives/edgar/data/1927578/000110465926105517/0001104659-26-105517-index.html) — published 2026-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001104659-26-115060](https://www.sec.gov/Archives/edgar/data/1927578/000110465926115060/0001104659-26-115060-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001104659-26-097235](https://www.sec.gov/Archives/edgar/data/1927578/000110465926097235/0001104659-26-097235-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001104659-26-105517](https://www.sec.gov/Archives/edgar/data/1927578/000110465926105517/0001104659-26-105517-index.html) — published 2026-09-04; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [6-K 0001104659-26-091285](https://www.sec.gov/Archives/edgar/data/1927578/000110465926091285/0001104659-26-091285-index.html) — published 2026-08-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0001104659-26-097235](https://www.sec.gov/Archives/edgar/data/1927578/000110465926097235/0001104659-26-097235-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001104659-26-088798](https://www.sec.gov/Archives/edgar/data/1927578/000110465926088798/0001104659-26-088798-index.html) — published 2026-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0001104659-26-091285](https://www.sec.gov/Archives/edgar/data/1927578/000110465926091285/0001104659-26-091285-index.html) — published 2026-08-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NTCL/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NTCL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

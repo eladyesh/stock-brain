@@ -8,11 +8,11 @@ tickers:
 - AARD
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -57,11 +57,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001774857.json
-    sha256: 161de2f3eca6507a36dd2873c635ecabc3a6d9a06dfc6a47cbbde228ccc2e8c2
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: a331e95ab1e0ee8e3dd4737394a1cc12811201d509a99a6f81c9de6deffb1c76
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001774857.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -69,14 +69,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001774857.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 161de2f3eca6507a36dd2873c635ecabc3a6d9a06dfc6a47cbbde228ccc2e8c2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a331e95ab1e0ee8e3dd4737394a1cc12811201d509a99a6f81c9de6deffb1c76
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001774857.json
@@ -102,34 +102,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S10
+  title: 8-K 0001193125-26-429509
+  url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526429509/0001193125-26-429509-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S11
   title: 8-K 0001193125-26-428943
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526428943/0001193125-26-428943-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S11
+- id: S12
   title: 4 0001193125-26-418022
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526418022/0001193125-26-418022-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S13
   title: 3 0001193125-26-418016
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526418016/0001193125-26-418016-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S13
+- id: S14
   title: 8-K 0001193125-26-417935
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526417935/0001193125-26-417935-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S14
-  title: 144 0001950047-26-009373
-  url: https://www.sec.gov/Archives/edgar/data/1774857/000195004726009373/0001950047-26-009373-index.html
-  published_at: '2026-09-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S61
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526344987/ck0001774857-20260630.htm
@@ -147,8 +147,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 161de2f3eca6507a36dd2873c635ecabc3a6d9a06dfc6a47cbbde228ccc2e8c2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a331e95ab1e0ee8e3dd4737394a1cc12811201d509a99a6f81c9de6deffb1c76
   url: https://data.sec.gov/submissions/CIK0001774857.json
 listings:
 - ticker: AARD
@@ -169,17 +169,17 @@ research_filings:
   filed: '2026-07-10'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526300874/0001193125-26-300874-index.html
-- accession: 0001193125-26-428943
-  filed: '2026-10-22'
+- accession: 0001193125-26-429509
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526428943/0001193125-26-428943-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1774857/000119312526429509/0001193125-26-429509-index.html
 research_progress:
-  stage: evidence_collected
-  input_sha256: 7fc01368eeb2e8eed0b1b1e1c76951f962b1b4d35e11d2ca076eb7f0a98c8ce2
+  stage: pending
+  input_sha256: 6b6560d15f3b4c44a43f58a2b155f5fb9a0491ac21b0c47b903cc4e174e75d99
   last_attempt_at: '2026-10-23T18:20:50.371071+00:00'
   last_success_at: '2026-10-23T18:20:50.371071+00:00'
   next_retry_at: null
-  source_set_current: true
+  source_set_current: false
   evidence_topics:
   - business-overview
   - competitive-landscape
@@ -206,15 +206,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001774857.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AARD/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AARD/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AARD — Aardvark Therapeutics, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AARD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AARD/README.md)
 
 ## Business overview
 
@@ -228,7 +228,7 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
-Source excerpt — 10-Q, filed 2026-08-11, L4189:
+Source excerpt — 10-Q, filed 2026-08-11, L4189; prior source set, update pending:
 
 > We have based the forward-looking statements contained in this Quarterly Report primarily on our current expectations and projections about future events and trends that we believe may affect our business, financial condition, results of operations or growth prospects. The outcome of the events described in these forward-looking statements is subject to risks, uncertainties and other factors described in Part II, Item 1A,“Risk Factors”, of this Quarterly Report, this Part I, Item 2, “Management’s Discussion and Analysis of Financial Condition and Results of Operations”, of this Quarterly Report and elsewhere in this Quarterly Report. Moreover, we operate in a very competitive and challenging environment. New risks and uncertainties emerge from time to time, and it is not possible for us to predict all risks and uncertainties that could have an impact on the forward-looking statements contained in this Quarterly Report. In addition, we cannot assess the impact of each factor on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements. We cannot assure you that the results, events and circumstances reflected in the forward-looking statements will be achieved or occur, and actual results, events or circumstances could differ materially from those described in the … [S61]
 
@@ -236,7 +236,7 @@ Source excerpt — 10-Q, filed 2026-08-11, L4189:
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
-Source excerpt — 10-Q, filed 2026-08-11, L4995:
+Source excerpt — 10-Q, filed 2026-08-11, L4995; prior source set, update pending:
 
 > We have no other committed sources of capital. Until we can generate a sufficient amount of product revenue to finance our cash requirements, if ever, we expect to finance our future cash needs primarily through equity offerings, debt financings, or other capital sources, including potential collaborations, licenses, and other similar arrangements. However, we may be unable to raise additional funds or enter into such other arrangements when needed on favorable terms or at all. To the extent that we raise additional capital through the sale of equity or convertible debt securities, the ownership interest of our stockholders will be or could be diluted, and the terms of these securities may include liquidation or other preferences that adversely affect the rights of our common stockholders. Debt financing, if available, may involve agreements that include covenants limiting or restricting our ability to take specific actions, such as incurring additional debt, making capital expenditures, or declaring dividends. If we raise additional funds through other collaborations or licensing arrangements with third parties, we may have to relinquish valuable rights to our future revenue streams, product candidates, research programs, intellectual property or proprietary technology, or grant licenses on terms that may not be favorable to us. If we are unable to raise additional funds … [S61]
 
@@ -244,7 +244,7 @@ Source excerpt — 10-Q, filed 2026-08-11, L4995:
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
-Source excerpt — 10-Q, filed 2026-08-11, L5381:
+Source excerpt — 10-Q, filed 2026-08-11, L5381; prior source set, update pending:
 
 > the product candidate may become less competitive, and our reputation and physician or patient acceptance of our products may suffer. [S61]
 
@@ -252,7 +252,7 @@ Source excerpt — 10-Q, filed 2026-08-11, L5381:
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
-Source excerpt — 10-Q, filed 2026-08-11, L6126:
+Source excerpt — 10-Q, filed 2026-08-11, L6126; prior source set, update pending:
 
 > Our business is susceptible to general conditions in the global economy and in the global financial markets. A global financial crisis or a global or regional political disruption could cause extreme volatility in the capital and credit markets. A severe or prolonged economic downturn, including a recession or depression resulting from the political disruption, could result in a variety of risks to our business, including weakened demand for our current or future product candidates, if approved, and our ability to raise additional capital when needed on acceptable terms, if at all. A weak or declining economy or political disruption could also strain our manufacturers or suppliers, possibly resulting in supply disruption, or cause our customers to delay making payments for our potential drugs, if approved. The ongoing conflict between Russia and Ukraine and sanctions against Russia are causing disruptions to global economic conditions. The ongoing conflicts in the Middle East, including the war in Iran and its surrounding regions, and instability in Venezuela are also causing disruptions to global economic conditions. Further, in recent years the global equity markets in general have experienced extreme price and volume fluctuations, including as a result of economic uncertainty and increased interest rates, inflation, the government closure of Silicon Valley Bank and … [S61]
 
@@ -262,7 +262,7 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
-Source excerpt — 10-Q, filed 2026-08-11, L2901:
+Source excerpt — 10-Q, filed 2026-08-11, L2901; prior source set, update pending:
 
 > As of June 30, 2026, the Company has devoted substantially all of its resources to organizing and staffing the Company, business planning, raising capital, discovering ARD-101, establishing and maintaining its intellectual property portfolio, conducting research, preclinical studies and clinical trials, manufacturing ARD-101 and related raw materials, and providing general and administrative support for these operations. The Company does not have any products approved for sale and has not generated any revenue to date. In addition, the Company has a limited operating history, has incurred significant net losses and negative cash flows from operations since its inception and expects that its operating losses and negative cash flows from operations will continue for the foreseeable future. As of June 30, 2026, the Company had an accumulated deficit of $151.9 million. [S61]
 
@@ -272,7 +272,7 @@ Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigati
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
-Source excerpt — 10-Q, filed 2026-08-11, L5144:
+Source excerpt — 10-Q, filed 2026-08-11, L5144; prior source set, update pending:
 
 > We face substantial competition, which may result in a smaller than expected commercial opportunity and/or others discovering, developing or commercializing products before or more successfully than we do. [S61]
 
@@ -280,7 +280,7 @@ Source excerpt — 10-Q, filed 2026-08-11, L5144:
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
-Source excerpt — 10-Q, filed 2026-08-11, L2901:
+Source excerpt — 10-Q, filed 2026-08-11, L2901; prior source set, update pending:
 
 > As of June 30, 2026, the Company has devoted substantially all of its resources to organizing and staffing the Company, business planning, raising capital, discovering ARD-101, establishing and maintaining its intellectual property portfolio, conducting research, preclinical studies and clinical trials, manufacturing ARD-101 and related raw materials, and providing general and administrative support for these operations. The Company does not have any products approved for sale and has not generated any revenue to date. In addition, the Company has a limited operating history, has incurred significant net losses and negative cash flows from operations since its inception and expects that its operating losses and negative cash flows from operations will continue for the foreseeable future. As of June 30, 2026, the Company had an accumulated deficit of $151.9 million. [S61]
 
@@ -288,7 +288,7 @@ Source excerpt — 10-Q, filed 2026-08-11, L2901:
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 
-Source excerpt — 10-Q, filed 2026-08-11, L5174:
+Source excerpt — 10-Q, filed 2026-08-11, L5174; prior source set, update pending:
 
 > Even if we succeed in developing and obtaining marketing approval for one or more product candidates, we may never generate revenue that is significant enough to achieve profitability. If we do achieve profitability, we may not be able to sustain or increase profitability on a quarterly or annual basis and we will continue to incur substantial research, development and other expenditures to develop and market additional product candidates. If we fail to become and remain profitable, it would depress the value of our company and could impair our ability to raise capital, expand our business, maintain our development efforts, obtain product approvals, diversify our offerings or continue our operations. A decline in the value of our company could also cause you to lose all or part of your investment. [S61]
 
@@ -388,7 +388,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
-Source excerpt — 10-Q, filed 2026-08-11, L3714:
+Source excerpt — 10-Q, filed 2026-08-11, L3714; prior source set, update pending:
 
 > In December 2024, the Company’s board of directors adopted the 2025 Equity Incentive Plan (the “2025 Plan”), and the Company’s stockholders approved the 2025 Plan in February 2025. The 2025 Plan, pursuant to which 2,150,000 shares were initially reserved for issuance, became effective on February 11, 2025. Upon the effectiveness of the 2025 Plan, no further grants will be made under the 2017 Stock Plan (as amended, the “2017 Plan”). In May 2025, the Company adopted the 2025 Inducement Equity Incentive Plan (the "2025 Inducement Plan", and collectively with the 2025 Plan and the 2017 Plan, referred to as the "Plans") pursuant to which an additional 900,000 shares of common stock were reserved to be used exclusively for the grant of equity awards as a material inducement for individuals to commence employment with the Company in compliance with Nasdaq Listing Rule 5635(c)(4). [S61]
 
@@ -404,7 +404,7 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
-Source excerpt — 10-Q, filed 2026-08-11, L3851:
+Source excerpt — 10-Q, filed 2026-08-11, L3851; prior source set, update pending:
 
 > From time to time, the Company may become subject to claims or suits arising in the ordinary course of business. The Company accrues a liability for such matters when it is probable that future expenditures will be made and such expenditures can be reasonably estimated. As of June 30, 2026, the Company’s management is not aware of any legal proceedings or matters that could have a material adverse effect on the Company’s financial position, results of operations or cash flows. [S61]
 
@@ -413,11 +413,11 @@ Source excerpt — 10-Q, filed 2026-08-11, L3851:
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:04.770228+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:33.373398+00:00.
 
 ### Research work queue
 
-Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -449,17 +449,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 8-K | 0001193125-26-428943 | — | [S10] |
-| 2026-10-08 | 4 | 0001193125-26-418022 | — | [S11] |
-| 2026-10-08 | 3 | 0001193125-26-418016 | — | [S12] |
-| 2026-10-08 | 8-K | 0001193125-26-417935 | — | [S13] |
-| 2026-09-11 | 144 | 0001950047-26-009373 | — | [S14] |
+| 2026-10-23 | 8-K | 0001193125-26-429509 | — | [S10] |
+| 2026-10-22 | 8-K | 0001193125-26-428943 | — | [S11] |
+| 2026-10-08 | 4 | 0001193125-26-418022 | — | [S12] |
+| 2026-10-08 | 3 | 0001193125-26-418016 | — | [S13] |
+| 2026-10-08 | 8-K | 0001193125-26-417935 | — | [S14] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001774857.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001774857.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001774857.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -469,18 +469,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001193125-26-210675](https://www.sec.gov/Archives/edgar/data/1774857/000119312526210675/0001193125-26-210675-index.html) — published 2026-05-07; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S10] [8-K 0001193125-26-428943](https://www.sec.gov/Archives/edgar/data/1774857/000119312526428943/0001193125-26-428943-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [8-K 0001193125-26-429509](https://www.sec.gov/Archives/edgar/data/1774857/000119312526429509/0001193125-26-429509-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S11] [4 0001193125-26-418022](https://www.sec.gov/Archives/edgar/data/1774857/000119312526418022/0001193125-26-418022-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [8-K 0001193125-26-428943](https://www.sec.gov/Archives/edgar/data/1774857/000119312526428943/0001193125-26-428943-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [3 0001193125-26-418016](https://www.sec.gov/Archives/edgar/data/1774857/000119312526418016/0001193125-26-418016-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [4 0001193125-26-418022](https://www.sec.gov/Archives/edgar/data/1774857/000119312526418022/0001193125-26-418022-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [8-K 0001193125-26-417935](https://www.sec.gov/Archives/edgar/data/1774857/000119312526417935/0001193125-26-417935-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [3 0001193125-26-418016](https://www.sec.gov/Archives/edgar/data/1774857/000119312526418016/0001193125-26-418016-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S14] [144 0001950047-26-009373](https://www.sec.gov/Archives/edgar/data/1774857/000195004726009373/0001950047-26-009373-index.html) — published 2026-09-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [8-K 0001193125-26-417935](https://www.sec.gov/Archives/edgar/data/1774857/000119312526417935/0001193125-26-417935-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S61] [10-Q 0001193125-26-344987](https://www.sec.gov/Archives/edgar/data/1774857/000119312526344987/ck0001774857-20260630.htm) — published 2026-08-11; retrieved 2026-10-23T18:24:00.974978+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AARD/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AARD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - RCUS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -68,11 +68,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001724521.json
-    sha256: 0c70fb5ec44f56d0267a644bfedab5de9a54f3a551c44a558cd6a29191213386
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 74ca90bd3338dfad55a326a34e5cc05e33e9430173f70ae92f351f78177fde03
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001724521.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -80,14 +80,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001724521.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0c70fb5ec44f56d0267a644bfedab5de9a54f3a551c44a558cd6a29191213386
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 74ca90bd3338dfad55a326a34e5cc05e33e9430173f70ae92f351f78177fde03
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001724521.json
@@ -113,34 +113,34 @@ sources:
   retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001724521-26-000050
+  url: https://www.sec.gov/Archives/edgar/data/1724521/000172452126000050/0001724521-26-000050-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 424B5 0001193125-26-428916
   url: https://www.sec.gov/Archives/edgar/data/1724521/000119312526428916/0001193125-26-428916-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 424B5 0001193125-26-427888
   url: https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/0001193125-26-427888-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 8-K 0001193125-26-427829
   url: https://www.sec.gov/Archives/edgar/data/1724521/000119312526427829/0001193125-26-427829-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 8-K 0001724521-26-000047
   url: https://www.sec.gov/Archives/edgar/data/1724521/000172452126000047/0001724521-26-000047-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: CT ORDER 9999999997-26-001556
-  url: https://www.sec.gov/Archives/edgar/data/1724521/999999999726001556/9999999997-26-001556-index.html
-  published_at: '2026-09-28'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001724521'
@@ -152,8 +152,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0c70fb5ec44f56d0267a644bfedab5de9a54f3a551c44a558cd6a29191213386
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 74ca90bd3338dfad55a326a34e5cc05e33e9430173f70ae92f351f78177fde03
   url: https://data.sec.gov/submissions/CIK0001724521.json
 listings:
 - ticker: RCUS
@@ -174,10 +174,10 @@ research_filings:
   filed: '2026-04-21'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1724521/000172452126000025/0001724521-26-000025-index.html
-- accession: 0001193125-26-427829
-  filed: '2026-10-21'
+- accession: 0001724521-26-000050
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1724521/000119312526427829/0001193125-26-427829-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1724521/000172452126000050/0001724521-26-000050-index.html
 - accession: 0001193125-19-299841
   filed: '2019-11-25'
   form: 8-K/A
@@ -188,7 +188,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1724521/000156459019009885/0001564590-19-009885-index.html
 research_progress:
   stage: pending
-  input_sha256: c6a84ecafe8d8a7680aa89bf401075129df85107e7955ea1e58489cd2e5d596e
+  input_sha256: 5939a731dacb95e91280628e73f47c251cac70b16eb62b9f05d1eb9c5f8400af
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -208,15 +208,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001724521.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RCUS/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RCUS/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RCUS — Arcus Biosciences, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RCUS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RCUS/README.md)
 
 ## Business overview
 
@@ -375,7 +375,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:32:42.932003+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:17.047402+00:00.
 
 ### Research work queue
 
@@ -411,17 +411,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 424B5 | 0001193125-26-428916 | — | [S17] |
-| 2026-10-21 | 424B5 | 0001193125-26-427888 | — | [S18] |
-| 2026-10-21 | 8-K | 0001193125-26-427829 | — | [S19] |
-| 2026-10-20 | 8-K | 0001724521-26-000047 | — | [S20] |
-| 2026-09-28 | CT ORDER | 9999999997-26-001556 | — | [S21] |
+| 2026-10-23 | 8-K | 0001724521-26-000050 | — | [S17] |
+| 2026-10-22 | 424B5 | 0001193125-26-428916 | — | [S18] |
+| 2026-10-21 | 424B5 | 0001193125-26-427888 | — | [S19] |
+| 2026-10-21 | 8-K | 0001193125-26-427829 | — | [S20] |
+| 2026-10-20 | 8-K | 0001724521-26-000047 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001724521.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001724521.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001724521.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00.
 
@@ -431,16 +431,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001724521-26-000034](https://www.sec.gov/Archives/edgar/data/1724521/000172452126000034/0001724521-26-000034-index.html) — published 2026-05-05; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S17] [424B5 0001193125-26-428916](https://www.sec.gov/Archives/edgar/data/1724521/000119312526428916/0001193125-26-428916-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001724521-26-000050](https://www.sec.gov/Archives/edgar/data/1724521/000172452126000050/0001724521-26-000050-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [424B5 0001193125-26-427888](https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/0001193125-26-427888-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [424B5 0001193125-26-428916](https://www.sec.gov/Archives/edgar/data/1724521/000119312526428916/0001193125-26-428916-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [8-K 0001193125-26-427829](https://www.sec.gov/Archives/edgar/data/1724521/000119312526427829/0001193125-26-427829-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [424B5 0001193125-26-427888](https://www.sec.gov/Archives/edgar/data/1724521/000119312526427888/0001193125-26-427888-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001724521-26-000047](https://www.sec.gov/Archives/edgar/data/1724521/000172452126000047/0001724521-26-000047-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [8-K 0001193125-26-427829](https://www.sec.gov/Archives/edgar/data/1724521/000119312526427829/0001193125-26-427829-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [CT ORDER 9999999997-26-001556](https://www.sec.gov/Archives/edgar/data/1724521/999999999726001556/9999999997-26-001556-index.html) — published 2026-09-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [8-K 0001724521-26-000047](https://www.sec.gov/Archives/edgar/data/1724521/000172452126000047/0001724521-26-000047-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RCUS/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RCUS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - LYG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -35,11 +35,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001160106.json
-    sha256: 2d1476434c91b4f4ca7a6d941aa8a50195b08ef047e93bd094dffda78671ee22
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: f4feadc889b1453849e032c09153e9070eb0c71cd6fdc0d2e0741c3dc78fc97e
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001160106.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -47,43 +47,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001160106.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 2d1476434c91b4f4ca7a6d941aa8a50195b08ef047e93bd094dffda78671ee22
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: f4feadc889b1453849e032c09153e9070eb0c71cd6fdc0d2e0741c3dc78fc97e
 - id: S03
+  title: 6-K 0001654954-26-009123
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009123/0001654954-26-009123-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001654954-26-009097
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009097/0001654954-26-009097-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0001654954-26-009095
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009095/0001654954-26-009095-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0001654954-26-008981
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426008981/0001654954-26-008981-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 6-K 0001654954-26-008892
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426008892/0001654954-26-008892-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001654954-26-008875
-  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426008875/0001654954-26-008875-index.html
-  published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001160106'
@@ -95,8 +95,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 2d1476434c91b4f4ca7a6d941aa8a50195b08ef047e93bd094dffda78671ee22
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: f4feadc889b1453849e032c09153e9070eb0c71cd6fdc0d2e0741c3dc78fc97e
   url: https://data.sec.gov/submissions/CIK0001160106.json
 listings:
 - ticker: LYG
@@ -107,10 +107,10 @@ research_filings:
   filed: '2026-02-13'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/1160106/000116010626000010/0001160106-26-000010-index.html
-- accession: 0001654954-26-009097
-  filed: '2026-10-22'
+- accession: 0001654954-26-009123
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009097/0001654954-26-009097-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009123/0001654954-26-009123-index.html
 - accession: 0001654954-26-002285
   filed: '2026-03-16'
   form: 6-K/A
@@ -125,7 +125,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495423008386/0001654954-23-008386-index.html
 research_progress:
   stage: pending
-  input_sha256: 4d46f42a8a3e77f0c240094e3f8ada2d096ff9f92868a52e25897b11c7ba370f
+  input_sha256: a0877fba412cd7829a85d34ca0a5400152b6dc415864bf1ad60038a1016dfa28
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -145,15 +145,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001160106.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/LYG/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/LYG/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # LYG — Lloyds Banking Group plc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/LYG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/LYG/README.md)
 
 ## Business overview
 
@@ -231,7 +231,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 20-F, 25-NSE, 424B2, 6-K, 6-K/A, 8-A12B, CERT, F-3ASR, F-N, FWP, IRANNOTICE, SC 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:28:24.038474+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:32:00.317271+00:00.
 
 ### Research work queue
 
@@ -267,28 +267,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 6-K | 0001654954-26-009097 | — | [S03] |
-| 2026-10-22 | 6-K | 0001654954-26-009095 | — | [S04] |
-| 2026-10-16 | 6-K | 0001654954-26-008981 | — | [S05] |
-| 2026-10-13 | 6-K | 0001654954-26-008892 | — | [S06] |
-| 2026-10-09 | 6-K | 0001654954-26-008875 | — | [S07] |
+| 2026-10-23 | 6-K | 0001654954-26-009123 | — | [S03] |
+| 2026-10-22 | 6-K | 0001654954-26-009097 | — | [S04] |
+| 2026-10-22 | 6-K | 0001654954-26-009095 | — | [S05] |
+| 2026-10-16 | 6-K | 0001654954-26-008981 | — | [S06] |
+| 2026-10-13 | 6-K | 0001654954-26-008892 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001160106.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001160106.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001654954-26-009097](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009097/0001654954-26-009097-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001654954-26-009123](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009123/0001654954-26-009123-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0001654954-26-009095](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009095/0001654954-26-009095-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001654954-26-009097](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009097/0001654954-26-009097-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001654954-26-008981](https://www.sec.gov/Archives/edgar/data/1160106/000165495426008981/0001654954-26-008981-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001654954-26-009095](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009095/0001654954-26-009095-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [6-K 0001654954-26-008892](https://www.sec.gov/Archives/edgar/data/1160106/000165495426008892/0001654954-26-008892-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0001654954-26-008981](https://www.sec.gov/Archives/edgar/data/1160106/000165495426008981/0001654954-26-008981-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001654954-26-008875](https://www.sec.gov/Archives/edgar/data/1160106/000165495426008875/0001654954-26-008875-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0001654954-26-008892](https://www.sec.gov/Archives/edgar/data/1160106/000165495426008892/0001654954-26-008892-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/LYG/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/LYG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

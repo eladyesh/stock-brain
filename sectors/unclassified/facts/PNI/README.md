@@ -8,11 +8,11 @@ tickers:
 - PNI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -82,11 +82,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001170311.json
-    sha256: 1cf53ea6d3d3f7ce10f82ed6adf73dc4c2fd13fc6f546fb3510a5be40541ea7e
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 2b720c1f6042c8f322136015620e565d11930cf645f18e90004132a6686c8d82
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001170311.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -94,43 +94,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001170311.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 1cf53ea6d3d3f7ce10f82ed6adf73dc4c2fd13fc6f546fb3510a5be40541ea7e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2b720c1f6042c8f322136015620e565d11930cf645f18e90004132a6686c8d82
 - id: S03
+  title: 4 0000070858-26-000508
+  url: https://www.sec.gov/Archives/edgar/data/1170311/000007085826000508/0000070858-26-000508-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: N-23C-2 0001193125-26-391878
   url: https://www.sec.gov/Archives/edgar/data/1170311/000119312526391878/0001193125-26-391878-index.html
   published_at: '2026-09-15'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: NPORT-P/A 0001410368-26-091283
   url: https://www.sec.gov/Archives/edgar/data/1170311/000141036826091283/0001410368-26-091283-index.html
   published_at: '2026-09-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: N-CSRS 0001193125-26-382373
   url: https://www.sec.gov/Archives/edgar/data/1170311/000119312526382373/0001193125-26-382373-index.html
   published_at: '2026-09-04'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: NPORT-P 0001410368-26-090100
   url: https://www.sec.gov/Archives/edgar/data/1170311/000141036826090100/0001410368-26-090100-index.html
   published_at: '2026-08-31'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: N-PX 0001050269-26-000079
-  url: https://www.sec.gov/Archives/edgar/data/1170311/000105026926000079/0001050269-26-000079-index.html
-  published_at: '2026-08-27'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001170311'
@@ -142,8 +142,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 1cf53ea6d3d3f7ce10f82ed6adf73dc4c2fd13fc6f546fb3510a5be40541ea7e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2b720c1f6042c8f322136015620e565d11930cf645f18e90004132a6686c8d82
   url: https://data.sec.gov/submissions/CIK0001170311.json
 listings:
 - ticker: PNI
@@ -177,15 +177,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PNI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PNI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PNI — PIMCO NEW YORK MUNICIPAL INCOME FUND II
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PNI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PNI/README.md)
 
 ## Business overview
 
@@ -261,7 +261,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 3, 3/A, 4, 40-17G, 40-17G/A, 40-6C, 40-APP, 40-APP/A, 424B3, 497, 8-A12B, 8-K, CERTNYS, CORRESP, DEF 14A, DEFA14A, DEFC14A, DFAN14A, EFFECT, N-14 8C, N-14 8C/A, N-2, N-2/A, N-23C-2, N-2MEF, N-30D, N-8A, N-CEN, N-CSR, N-CSR/A, N-CSRS, N-CSRS/A, N-PX, N-Q, N-Q/A, NPORT-EX, NPORT-P, NPORT-P/A, NSAR-A, NSAR-B, NSAR-B/A, NSAR-BT, NT-NCSR, NT-NSAR, POS EX, PRE 14A, PREC14A, PRER14A, PRRN14A, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:28:28.004957+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:32:03.842683+00:00.
 
 ### Research work queue
 
@@ -297,28 +297,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-15 | N-23C-2 | 0001193125-26-391878 | — | [S03] |
-| 2026-09-11 | NPORT-P/A | 0001410368-26-091283 | — | [S04] |
-| 2026-09-04 | N-CSRS | 0001193125-26-382373 | — | [S05] |
-| 2026-08-31 | NPORT-P | 0001410368-26-090100 | — | [S06] |
-| 2026-08-27 | N-PX | 0001050269-26-000079 | — | [S07] |
+| 2026-10-23 | 4 | 0000070858-26-000508 | — | [S03] |
+| 2026-09-15 | N-23C-2 | 0001193125-26-391878 | — | [S04] |
+| 2026-09-11 | NPORT-P/A | 0001410368-26-091283 | — | [S05] |
+| 2026-09-04 | N-CSRS | 0001193125-26-382373 | — | [S06] |
+| 2026-08-31 | NPORT-P | 0001410368-26-090100 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001170311.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001170311.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [N-23C-2 0001193125-26-391878](https://www.sec.gov/Archives/edgar/data/1170311/000119312526391878/0001193125-26-391878-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [4 0000070858-26-000508](https://www.sec.gov/Archives/edgar/data/1170311/000007085826000508/0000070858-26-000508-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [NPORT-P/A 0001410368-26-091283](https://www.sec.gov/Archives/edgar/data/1170311/000141036826091283/0001410368-26-091283-index.html) — published 2026-09-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [N-23C-2 0001193125-26-391878](https://www.sec.gov/Archives/edgar/data/1170311/000119312526391878/0001193125-26-391878-index.html) — published 2026-09-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [N-CSRS 0001193125-26-382373](https://www.sec.gov/Archives/edgar/data/1170311/000119312526382373/0001193125-26-382373-index.html) — published 2026-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [NPORT-P/A 0001410368-26-091283](https://www.sec.gov/Archives/edgar/data/1170311/000141036826091283/0001410368-26-091283-index.html) — published 2026-09-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [NPORT-P 0001410368-26-090100](https://www.sec.gov/Archives/edgar/data/1170311/000141036826090100/0001410368-26-090100-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [N-CSRS 0001193125-26-382373](https://www.sec.gov/Archives/edgar/data/1170311/000119312526382373/0001193125-26-382373-index.html) — published 2026-09-04; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [N-PX 0001050269-26-000079](https://www.sec.gov/Archives/edgar/data/1170311/000105026926000079/0001050269-26-000079-index.html) — published 2026-08-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [NPORT-P 0001410368-26-090100](https://www.sec.gov/Archives/edgar/data/1170311/000141036826090100/0001410368-26-090100-index.html) — published 2026-08-31; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PNI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PNI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

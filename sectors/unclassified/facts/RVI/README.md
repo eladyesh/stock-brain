@@ -8,11 +8,11 @@ tickers:
 - RVI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -40,16 +40,17 @@ financial_gap:
   - N-CSR
   - N-PX
   - NPORT-P
+  - RW
   - SCHEDULE 13G
   - SCHEDULE 13G/A
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002085091.json
-    sha256: 77b1981d669dd3bd438abd62486ef4962623647682205fe9108ad0419b350d75
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 141420a43327e9d1dba4f69f3a0ea22e38984420a2f782675efa0fd908dde668
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002085091.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -57,43 +58,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002085091.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 77b1981d669dd3bd438abd62486ef4962623647682205fe9108ad0419b350d75
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 141420a43327e9d1dba4f69f3a0ea22e38984420a2f782675efa0fd908dde668
 - id: S03
+  title: 4 0001783879-26-000157
+  url: https://www.sec.gov/Archives/edgar/data/2085091/000178387926000157/0001783879-26-000157-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
+  title: N-2 0001628280-26-067089
+  url: https://www.sec.gov/Archives/edgar/data/2085091/000162828026067089/0001628280-26-067089-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S05
+  title: RW 0000950103-26-016108
+  url: https://www.sec.gov/Archives/edgar/data/2085091/000095010326016108/0000950103-26-016108-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S06
   title: 4 0001783879-26-000155
   url: https://www.sec.gov/Archives/edgar/data/2085091/000178387926000155/0001783879-26-000155-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S07
   title: 4 0001783879-26-000153
   url: https://www.sec.gov/Archives/edgar/data/2085091/000178387926000153/0001783879-26-000153-index.html
   published_at: '2026-10-15'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S05
-  title: 4 0001783879-26-000151
-  url: https://www.sec.gov/Archives/edgar/data/2085091/000178387926000151/0001783879-26-000151-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S06
-  title: 4 0001783879-26-000149
-  url: https://www.sec.gov/Archives/edgar/data/2085091/000178387926000149/0001783879-26-000149-index.html
-  published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: DEFA14A 0001193125-26-418080
-  url: https://www.sec.gov/Archives/edgar/data/2085091/000119312526418080/0001193125-26-418080-index.html
-  published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0002085091
@@ -105,8 +106,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 77b1981d669dd3bd438abd62486ef4962623647682205fe9108ad0419b350d75
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 141420a43327e9d1dba4f69f3a0ea22e38984420a2f782675efa0fd908dde668
   url: https://data.sec.gov/submissions/CIK0002085091.json
 listings:
 - ticker: RVI
@@ -136,15 +137,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RVI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RVI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RVI — Robinhood Ventures Fund I
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RVI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RVI/README.md)
 
 ## Business overview
 
@@ -219,8 +220,8 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
-- Forms observed in the retained filing inventory: 144, 3, 4, 40-17G, 40-APP, 424B1, 497AD, 8-A12B, CERT, DEF 14A, DEFA14A, EFFECT, FWP, N-2, N-2/A, N-8A, N-CEN, N-CSR, N-PX, NPORT-P, SCHEDULE 13G, SCHEDULE 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:42.644878+00:00.
+- Forms observed in the retained filing inventory: 144, 3, 4, 40-17G, 40-APP, 424B1, 497AD, 8-A12B, CERT, DEF 14A, DEFA14A, EFFECT, FWP, N-2, N-2/A, N-8A, N-CEN, N-CSR, N-PX, NPORT-P, RW, SCHEDULE 13G, SCHEDULE 13G/A
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:40.373603+00:00.
 
 ### Research work queue
 
@@ -256,28 +257,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | 4 | 0001783879-26-000155 | — | [S03] |
-| 2026-10-15 | 4 | 0001783879-26-000153 | — | [S04] |
-| 2026-10-13 | 4 | 0001783879-26-000151 | — | [S05] |
-| 2026-10-09 | 4 | 0001783879-26-000149 | — | [S06] |
-| 2026-10-08 | DEFA14A | 0001193125-26-418080 | — | [S07] |
+| 2026-10-23 | 4 | 0001783879-26-000157 | — | [S03] |
+| 2026-10-23 | N-2 | 0001628280-26-067089 | — | [S04] |
+| 2026-10-23 | RW | 0000950103-26-016108 | — | [S05] |
+| 2026-10-19 | 4 | 0001783879-26-000155 | — | [S06] |
+| 2026-10-15 | 4 | 0001783879-26-000153 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002085091.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002085091.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [4 0001783879-26-000155](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000155/0001783879-26-000155-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [4 0001783879-26-000157](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000157/0001783879-26-000157-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0001783879-26-000153](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000153/0001783879-26-000153-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [N-2 0001628280-26-067089](https://www.sec.gov/Archives/edgar/data/2085091/000162828026067089/0001628280-26-067089-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001783879-26-000151](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000151/0001783879-26-000151-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [RW 0000950103-26-016108](https://www.sec.gov/Archives/edgar/data/2085091/000095010326016108/0000950103-26-016108-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [4 0001783879-26-000149](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000149/0001783879-26-000149-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001783879-26-000155](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000155/0001783879-26-000155-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [DEFA14A 0001193125-26-418080](https://www.sec.gov/Archives/edgar/data/2085091/000119312526418080/0001193125-26-418080-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [4 0001783879-26-000153](https://www.sec.gov/Archives/edgar/data/2085091/000178387926000153/0001783879-26-000153-index.html) — published 2026-10-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RVI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RVI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

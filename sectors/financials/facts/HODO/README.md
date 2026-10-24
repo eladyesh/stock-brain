@@ -8,11 +8,11 @@ tickers:
 - HODO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -66,11 +66,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001903595.json
-    sha256: 6bd63fbf0991c882364db256f8b1420344f4962199a704a25f1ef6c44a4b68fc
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 0d28be4828b4b7371b69608920ccfc3ebf34cbee5062c9b9c3e2d5f92ea62b58
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001903595.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -78,14 +78,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001903595.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6bd63fbf0991c882364db256f8b1420344f4962199a704a25f1ef6c44a4b68fc
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 0d28be4828b4b7371b69608920ccfc3ebf34cbee5062c9b9c3e2d5f92ea62b58
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001903595.json
@@ -111,34 +111,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S11
+  title: 8-K 0001213900-26-112135
+  url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026112135/0001213900-26-112135-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S12
   title: 424B3 0001213900-26-111040
   url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026111040/0001213900-26-111040-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S13
   title: EFFECT 9999999995-26-003225
   url: https://www.sec.gov/Archives/edgar/data/1903595/999999999526003225/9999999995-26-003225-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S13
+- id: S14
   title: S-3 0001213900-26-101089
   url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026101089/0001213900-26-101089-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S14
+- id: S15
   title: 8-K/A 0001213900-26-099794
   url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026099794/0001213900-26-099794-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S15
-  title: SCHEDULE 13D 0002151711-26-000002
-  url: https://www.sec.gov/Archives/edgar/data/1903595/000215171126000002/0002151711-26-000002-index.html
-  published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001903595
@@ -150,8 +150,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6bd63fbf0991c882364db256f8b1420344f4962199a704a25f1ef6c44a4b68fc
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 0d28be4828b4b7371b69608920ccfc3ebf34cbee5062c9b9c3e2d5f92ea62b58
   url: https://data.sec.gov/submissions/CIK0001903595.json
 listings:
 - ticker: HODO
@@ -173,17 +173,17 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026090312/0001213900-26-090312-index.html
-- accession: 0001213900-26-082817
-  filed: '2026-07-29'
+- accession: 0001213900-26-112135
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026082817/0001213900-26-082817-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026112135/0001213900-26-112135-index.html
 - accession: 0001213900-26-099794
   filed: '2026-09-14'
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1903595/000121390026099794/0001213900-26-099794-index.html
 research_progress:
   stage: pending
-  input_sha256: ab4621a3b6718fd4fd262230824f7865346f9f73f60fc9dbdf5498752eb64f6e
+  input_sha256: 16485aabdb39b6c18387f86a1acf2ad944812b93fa5d5f00f8b95ce9b67f4a2d
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -203,15 +203,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001903595.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HODO/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HODO/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # HODO — House of Doge Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HODO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HODO/README.md)
 
 ## Business overview
 
@@ -370,7 +370,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:17.759768+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:21.135215+00:00.
 
 ### Research work queue
 
@@ -406,17 +406,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | 424B3 | 0001213900-26-111040 | — | [S11] |
-| 2026-10-13 | EFFECT | 9999999995-26-003225 | — | [S12] |
-| 2026-09-18 | S-3 | 0001213900-26-101089 | — | [S13] |
-| 2026-09-14 | 8-K/A | 0001213900-26-099794 | — | [S14] |
-| 2026-08-25 | SCHEDULE 13D | 0002151711-26-000002 | — | [S15] |
+| 2026-10-23 | 8-K | 0001213900-26-112135 | — | [S11] |
+| 2026-10-20 | 424B3 | 0001213900-26-111040 | — | [S12] |
+| 2026-10-13 | EFFECT | 9999999995-26-003225 | — | [S13] |
+| 2026-09-18 | S-3 | 0001213900-26-101089 | — | [S14] |
+| 2026-09-14 | 8-K/A | 0001213900-26-099794 | — | [S15] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001903595.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001903595.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001903595.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -426,16 +426,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [10-Q 0001213900-26-090312](https://www.sec.gov/Archives/edgar/data/1903595/000121390026090312/0001213900-26-090312-index.html) — published 2026-08-14; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S11] [424B3 0001213900-26-111040](https://www.sec.gov/Archives/edgar/data/1903595/000121390026111040/0001213900-26-111040-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [8-K 0001213900-26-112135](https://www.sec.gov/Archives/edgar/data/1903595/000121390026112135/0001213900-26-112135-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [EFFECT 9999999995-26-003225](https://www.sec.gov/Archives/edgar/data/1903595/999999999526003225/9999999995-26-003225-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [424B3 0001213900-26-111040](https://www.sec.gov/Archives/edgar/data/1903595/000121390026111040/0001213900-26-111040-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [S-3 0001213900-26-101089](https://www.sec.gov/Archives/edgar/data/1903595/000121390026101089/0001213900-26-101089-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [EFFECT 9999999995-26-003225](https://www.sec.gov/Archives/edgar/data/1903595/999999999526003225/9999999995-26-003225-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S14] [8-K/A 0001213900-26-099794](https://www.sec.gov/Archives/edgar/data/1903595/000121390026099794/0001213900-26-099794-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [S-3 0001213900-26-101089](https://www.sec.gov/Archives/edgar/data/1903595/000121390026101089/0001213900-26-101089-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S15] [SCHEDULE 13D 0002151711-26-000002](https://www.sec.gov/Archives/edgar/data/1903595/000215171126000002/0002151711-26-000002-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S15] [8-K/A 0001213900-26-099794](https://www.sec.gov/Archives/edgar/data/1903595/000121390026099794/0001213900-26-099794-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HODO/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HODO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

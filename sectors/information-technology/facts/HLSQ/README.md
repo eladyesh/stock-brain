@@ -8,11 +8,11 @@ tickers:
 - HLSQ
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -82,11 +82,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001739174.json
-    sha256: 853d6fad387965bc0beea5edd30bdd8494b934b405027a9ac064394fe2fd56c5
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: eeda2e9b759e1d44a98cf079d14a1fbf2191cdd09f1e301c521dc92e9f649558
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001739174.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -94,14 +94,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001739174.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 853d6fad387965bc0beea5edd30bdd8494b934b405027a9ac064394fe2fd56c5
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: eeda2e9b759e1d44a98cf079d14a1fbf2191cdd09f1e301c521dc92e9f649558
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001739174.json
@@ -127,34 +127,34 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S18
+  title: 8-K 0001213900-26-112192
+  url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026112192/0001213900-26-112192-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: 8-K 0001213900-26-110754
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026110754/0001213900-26-110754-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 8-K 0001213900-26-109087
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026109087/0001213900-26-109087-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: DEFA14A 0001213900-26-108045
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026108045/0001213900-26-108045-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: DEFA14A 0001213900-26-108041
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026108041/0001213900-26-108041-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S22
-  title: 8-K 0001213900-26-107541
-  url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026107541/0001213900-26-107541-index.html
-  published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001739174
@@ -166,8 +166,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 853d6fad387965bc0beea5edd30bdd8494b934b405027a9ac064394fe2fd56c5
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: eeda2e9b759e1d44a98cf079d14a1fbf2191cdd09f1e301c521dc92e9f649558
   url: https://data.sec.gov/submissions/CIK0001739174.json
 listings:
 - ticker: HLSQ
@@ -193,10 +193,10 @@ research_filings:
   filed: '2026-10-06'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026107281/0001213900-26-107281-index.html
-- accession: 0001213900-26-110754
-  filed: '2026-10-19'
+- accession: 0001213900-26-112192
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026110754/0001213900-26-110754-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1739174/000121390026112192/0001213900-26-112192-index.html
 - accession: 0001213900-26-096272
   filed: '2026-09-01'
   form: 8-K/A
@@ -223,7 +223,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1739174/000121390019021952/0001213900-19-021952-index.html
 research_progress:
   stage: pending
-  input_sha256: 4bd817117178dc9dd2943ef0a8a55e7f58b60d6f582e7a66e779c9bbf1bc0f07
+  input_sha256: f5efa9083d2006dd1520dcf99919d08671b1cd5ee1342749bf37beac198e2a2f
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -243,15 +243,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001739174.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HLSQ/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HLSQ/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # HLSQ — Tessera Defense & Homeland Security Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HLSQ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HLSQ/README.md)
 
 ## Business overview
 
@@ -410,7 +410,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:32:48.698910+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:21.727751+00:00.
 
 ### Research work queue
 
@@ -446,17 +446,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | 8-K | 0001213900-26-110754 | — | [S18] |
-| 2026-10-13 | 8-K | 0001213900-26-109087 | — | [S19] |
-| 2026-10-08 | DEFA14A | 0001213900-26-108045 | — | [S20] |
-| 2026-10-08 | DEFA14A | 0001213900-26-108041 | — | [S21] |
-| 2026-10-07 | 8-K | 0001213900-26-107541 | — | [S22] |
+| 2026-10-23 | 8-K | 0001213900-26-112192 | — | [S18] |
+| 2026-10-19 | 8-K | 0001213900-26-110754 | — | [S19] |
+| 2026-10-13 | 8-K | 0001213900-26-109087 | — | [S20] |
+| 2026-10-08 | DEFA14A | 0001213900-26-108045 | — | [S21] |
+| 2026-10-08 | DEFA14A | 0001213900-26-108041 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001739174.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001739174.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001739174.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -466,16 +466,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S11] [10-Q 0001213900-26-059587](https://www.sec.gov/Archives/edgar/data/1739174/000121390026059587/0001213900-26-059587-index.html) — published 2026-05-20; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S18] [8-K 0001213900-26-110754](https://www.sec.gov/Archives/edgar/data/1739174/000121390026110754/0001213900-26-110754-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001213900-26-112192](https://www.sec.gov/Archives/edgar/data/1739174/000121390026112192/0001213900-26-112192-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [8-K 0001213900-26-109087](https://www.sec.gov/Archives/edgar/data/1739174/000121390026109087/0001213900-26-109087-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001213900-26-110754](https://www.sec.gov/Archives/edgar/data/1739174/000121390026110754/0001213900-26-110754-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [DEFA14A 0001213900-26-108045](https://www.sec.gov/Archives/edgar/data/1739174/000121390026108045/0001213900-26-108045-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [8-K 0001213900-26-109087](https://www.sec.gov/Archives/edgar/data/1739174/000121390026109087/0001213900-26-109087-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [DEFA14A 0001213900-26-108041](https://www.sec.gov/Archives/edgar/data/1739174/000121390026108041/0001213900-26-108041-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [DEFA14A 0001213900-26-108045](https://www.sec.gov/Archives/edgar/data/1739174/000121390026108045/0001213900-26-108045-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [8-K 0001213900-26-107541](https://www.sec.gov/Archives/edgar/data/1739174/000121390026107541/0001213900-26-107541-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [DEFA14A 0001213900-26-108041](https://www.sec.gov/Archives/edgar/data/1739174/000121390026108041/0001213900-26-108041-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HLSQ/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HLSQ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

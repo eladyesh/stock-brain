@@ -8,11 +8,11 @@ tickers:
 - KRC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -47,11 +47,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001025996.json
-    sha256: c02bb401893f84a84ad451e9dfa917eea063faebb2445d628693bdde00e885d7
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: a437ea0eb6964f4f0733b43a82ccafc7a40f21951b11d9873afdb0d463e39d57
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001025996.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,43 +59,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001025996.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c02bb401893f84a84ad451e9dfa917eea063faebb2445d628693bdde00e885d7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a437ea0eb6964f4f0733b43a82ccafc7a40f21951b11d9873afdb0d463e39d57
 - id: S03
+  title: 10-Q 0001628280-26-067051
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026067051/0001628280-26-067051-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 8-K 0001628280-26-066920
   url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/0001628280-26-066920-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0001628280-26-066185
   url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066185/0001628280-26-066185-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001628280-26-066184
   url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066184/0001628280-26-066184-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 4 0001628280-26-066183
   url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066183/0001628280-26-066183-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 4 0001628280-26-066182
-  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066182/0001628280-26-066182-index.html
-  published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001025996
@@ -107,8 +107,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c02bb401893f84a84ad451e9dfa917eea063faebb2445d628693bdde00e885d7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a437ea0eb6964f4f0733b43a82ccafc7a40f21951b11d9873afdb0d463e39d57
   url: https://data.sec.gov/submissions/CIK0001025996.json
 listings:
 - ticker: KRC
@@ -120,11 +120,11 @@ research_filings:
   form: 10-K
   period_end: '2025-12-31'
   url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026007051/0001628280-26-007051-index.html
-- accession: 0001628280-26-050215
-  filed: '2026-07-28'
+- accession: 0001628280-26-067051
+  filed: '2026-10-23'
   form: 10-Q
-  period_end: '2026-06-30'
-  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026050215/0001628280-26-050215-index.html
+  period_end: '2026-09-30'
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026067051/0001628280-26-067051-index.html
 - accession: 0001193125-26-149727
   filed: '2026-04-09'
   form: DEF 14A
@@ -139,7 +139,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1025996/000102599623000142/0001025996-23-000142-index.html
 research_progress:
   stage: pending
-  input_sha256: 3fba7068cd8a545c24b27e11582d860fe7bae789bf344f1f9d0a2fb550c6f438
+  input_sha256: e92592e83b5c977be5eae4fcfdfbf85b6a8c1642c0225e3745e2081286756830
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -156,15 +156,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KRC/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KRC/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # KRC — KILROY REALTY CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KRC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KRC/README.md)
 
 ## Business overview
 
@@ -242,7 +242,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
 - Forms observed in the retained filing inventory: 10-K, 10-Q, 144, 3, 4, 4/A, 424B2, 424B5, 424B7, 8-K, 8-K/A, ARS, CORRESP, DEF 14A, DEFA14A, FWP, PRE 14A, S-3ASR, S-8, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-23T14:27:04.578779+00:00.
+- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-24T13:30:57.453913+00:00.
 
 ### Research work queue
 
@@ -278,28 +278,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 8-K | 0001628280-26-066920 | — | [S03] |
-| 2026-10-16 | 4 | 0001628280-26-066185 | — | [S04] |
-| 2026-10-16 | 4 | 0001628280-26-066184 | — | [S05] |
-| 2026-10-16 | 4 | 0001628280-26-066183 | — | [S06] |
-| 2026-10-16 | 4 | 0001628280-26-066182 | — | [S07] |
+| 2026-10-23 | 10-Q | 0001628280-26-067051 | — | [S03] |
+| 2026-10-22 | 8-K | 0001628280-26-066920 | — | [S04] |
+| 2026-10-16 | 4 | 0001628280-26-066185 | — | [S05] |
+| 2026-10-16 | 4 | 0001628280-26-066184 | — | [S06] |
+| 2026-10-16 | 4 | 0001628280-26-066183 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001025996.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001025996.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [8-K 0001628280-26-066920](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/0001628280-26-066920-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [10-Q 0001628280-26-067051](https://www.sec.gov/Archives/edgar/data/1025996/000162828026067051/0001628280-26-067051-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0001628280-26-066185](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066185/0001628280-26-066185-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [8-K 0001628280-26-066920](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/0001628280-26-066920-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001628280-26-066184](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066184/0001628280-26-066184-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [4 0001628280-26-066185](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066185/0001628280-26-066185-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [4 0001628280-26-066183](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066183/0001628280-26-066183-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001628280-26-066184](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066184/0001628280-26-066184-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [4 0001628280-26-066182](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066182/0001628280-26-066182-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [4 0001628280-26-066183](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066183/0001628280-26-066183-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KRC/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KRC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

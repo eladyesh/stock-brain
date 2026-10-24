@@ -8,11 +8,11 @@ tickers:
 - JEF
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -45,20 +45,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000096223.json
-    sha256: 9e02e9bf3746b10aac9bd5c81bf68f31e45a4b18ee4925662c0bbb999b2e3a89
-    retrieved_at: '2026-10-22T18:10:35.452616+00:00'
+    sha256: 7e1b41c4929e001b8f64f8635d3802e0029dc3b11a13f41b24e09ef07f651961
+    retrieved_at: '2026-10-24T13:22:57.445127+00:00'
     archive:
       member: CIK0000096223.json
-      sha256: 7457a528288f1e3425cba6ffd7370c6c205845aba12761763aa5ae3683c0fdc2
+      sha256: 6a571557530102bb009e07bf4f2d86d9aa6021247bfde97f696dd22cb1a4a7e7
       url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0000096223.json
-    sha256: a4a1526794e035b68a34a9cda8ffc42e40790d51b713d03bd0e44b760227a4ab
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: d9cd6dd9fde77b1a7d550b811241a40244f9c14c65954360327e34158bc4317c
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0000096223.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -66,73 +66,73 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000096223.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: a4a1526794e035b68a34a9cda8ffc42e40790d51b713d03bd0e44b760227a4ab
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d9cd6dd9fde77b1a7d550b811241a40244f9c14c65954360327e34158bc4317c
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000096223.json
   published_at: null
-  retrieved_at: '2026-10-22T18:10:35.452616+00:00'
-  sha256: 9e02e9bf3746b10aac9bd5c81bf68f31e45a4b18ee4925662c0bbb999b2e3a89
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
+  sha256: 7e1b41c4929e001b8f64f8635d3802e0029dc3b11a13f41b24e09ef07f651961
 - id: S04
   title: 10-K 0000096223-26-000009
   url: https://www.sec.gov/Archives/edgar/data/96223/000009622326000009/0000096223-26-000009-index.html
   published_at: '2026-01-28'
-  retrieved_at: '2026-10-22T18:10:35.452616+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0000096223-26-000033
   url: https://www.sec.gov/Archives/edgar/data/96223/000009622326000033/0000096223-26-000033-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-22T18:10:35.452616+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S06
   title: 10-Q 0000096223-26-000017
   url: https://www.sec.gov/Archives/edgar/data/96223/000009622326000017/0000096223-26-000017-index.html
   published_at: '2026-04-07'
-  retrieved_at: '2026-10-22T18:10:35.452616+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S11
   title: 10-Q 0000096223-26-000025
   url: https://www.sec.gov/Archives/edgar/data/96223/000009622326000025/0000096223-26-000025-index.html
   published_at: '2026-07-09'
-  retrieved_at: '2026-10-22T18:10:35.452616+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S19
-  title: 424B2 0001918704-26-032398
-  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032398/0001918704-26-032398-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B2 0001918704-26-032514
+  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032514/0001918704-26-032514-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S20
-  title: 424B2 0001918704-26-032185
-  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032185/0001918704-26-032185-index.html
-  published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B2 0001918704-26-032509
+  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032509/0001918704-26-032509-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S21
-  title: 424B2 0001918704-26-032184
-  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032184/0001918704-26-032184-index.html
-  published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B2 0001918704-26-032484
+  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032484/0001918704-26-032484-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S22
-  title: 424B2 0001918704-26-032141
-  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032141/0001918704-26-032141-index.html
-  published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B2 0001918704-26-032401
+  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032401/0001918704-26-032401-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S23
-  title: 424B2 0001918704-26-032140
-  url: https://www.sec.gov/Archives/edgar/data/96223/000191870426032140/0001918704-26-032140-index.html
-  published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: FWP 0001140361-26-040612
+  url: https://www.sec.gov/Archives/edgar/data/96223/000114036126040612/0001140361-26-040612-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0000096223
@@ -144,8 +144,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: a4a1526794e035b68a34a9cda8ffc42e40790d51b713d03bd0e44b760227a4ab
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d9cd6dd9fde77b1a7d550b811241a40244f9c14c65954360327e34158bc4317c
   url: https://data.sec.gov/submissions/CIK0000096223.json
 listings:
 - ticker: JEF
@@ -192,15 +192,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000096223.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/JEF/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/JEF/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # JEF — Jefferies Financial Group Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/JEF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/JEF/README.md)
 
 ## Business overview
 
@@ -248,7 +248,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:10:35.452616+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -302,7 +302,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:10:35.452616+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -359,7 +359,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:23:52.693928+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:28:09.486251+00:00.
 
 ### Research work queue
 
@@ -395,38 +395,38 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 424B2 | 0001918704-26-032398 | — | [S19] |
-| 2026-10-20 | 424B2 | 0001918704-26-032185 | — | [S20] |
-| 2026-10-20 | 424B2 | 0001918704-26-032184 | — | [S21] |
-| 2026-10-20 | 424B2 | 0001918704-26-032141 | — | [S22] |
-| 2026-10-20 | 424B2 | 0001918704-26-032140 | — | [S23] |
+| 2026-10-23 | 424B2 | 0001918704-26-032514 | — | [S19] |
+| 2026-10-23 | 424B2 | 0001918704-26-032509 | — | [S20] |
+| 2026-10-23 | 424B2 | 0001918704-26-032484 | — | [S21] |
+| 2026-10-23 | 424B2 | 0001918704-26-032401 | — | [S22] |
+| 2026-10-23 | FWP | 0001140361-26-040612 | — | [S23] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000096223.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000096223.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000096223.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000096223.json) — published not supplied; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S04] [10-K 0000096223-26-000009](https://www.sec.gov/Archives/edgar/data/96223/000009622326000009/0000096223-26-000009-index.html) — published 2026-01-28; retrieved 2026-10-22T18:10:35.452616+00:00.
+[S04] [10-K 0000096223-26-000009](https://www.sec.gov/Archives/edgar/data/96223/000009622326000009/0000096223-26-000009-index.html) — published 2026-01-28; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S05] [10-Q 0000096223-26-000033](https://www.sec.gov/Archives/edgar/data/96223/000009622326000033/0000096223-26-000033-index.html) — published 2026-10-09; retrieved 2026-10-22T18:10:35.452616+00:00.
+[S05] [10-Q 0000096223-26-000033](https://www.sec.gov/Archives/edgar/data/96223/000009622326000033/0000096223-26-000033-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S06] [10-Q 0000096223-26-000017](https://www.sec.gov/Archives/edgar/data/96223/000009622326000017/0000096223-26-000017-index.html) — published 2026-04-07; retrieved 2026-10-22T18:10:35.452616+00:00.
+[S06] [10-Q 0000096223-26-000017](https://www.sec.gov/Archives/edgar/data/96223/000009622326000017/0000096223-26-000017-index.html) — published 2026-04-07; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S11] [10-Q 0000096223-26-000025](https://www.sec.gov/Archives/edgar/data/96223/000009622326000025/0000096223-26-000025-index.html) — published 2026-07-09; retrieved 2026-10-22T18:10:35.452616+00:00.
+[S11] [10-Q 0000096223-26-000025](https://www.sec.gov/Archives/edgar/data/96223/000009622326000025/0000096223-26-000025-index.html) — published 2026-07-09; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S19] [424B2 0001918704-26-032398](https://www.sec.gov/Archives/edgar/data/96223/000191870426032398/0001918704-26-032398-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [424B2 0001918704-26-032514](https://www.sec.gov/Archives/edgar/data/96223/000191870426032514/0001918704-26-032514-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [424B2 0001918704-26-032185](https://www.sec.gov/Archives/edgar/data/96223/000191870426032185/0001918704-26-032185-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [424B2 0001918704-26-032509](https://www.sec.gov/Archives/edgar/data/96223/000191870426032509/0001918704-26-032509-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [424B2 0001918704-26-032184](https://www.sec.gov/Archives/edgar/data/96223/000191870426032184/0001918704-26-032184-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [424B2 0001918704-26-032484](https://www.sec.gov/Archives/edgar/data/96223/000191870426032484/0001918704-26-032484-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [424B2 0001918704-26-032141](https://www.sec.gov/Archives/edgar/data/96223/000191870426032141/0001918704-26-032141-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [424B2 0001918704-26-032401](https://www.sec.gov/Archives/edgar/data/96223/000191870426032401/0001918704-26-032401-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S23] [424B2 0001918704-26-032140](https://www.sec.gov/Archives/edgar/data/96223/000191870426032140/0001918704-26-032140-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S23] [FWP 0001140361-26-040612](https://www.sec.gov/Archives/edgar/data/96223/000114036126040612/0001140361-26-040612-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/JEF/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/JEF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

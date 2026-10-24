@@ -8,11 +8,11 @@ tickers:
 - SKYQ
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -67,11 +67,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001812447.json
-    sha256: fecb0c3b841b47988410d576d86cb9e53b3217975a257faade9b8a31cf4f1a5f
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: c5301e71247f4544816a0296b7e76ac690555b2a5eec0c427f12cced875005a4
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001812447.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -79,14 +79,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001812447.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: fecb0c3b841b47988410d576d86cb9e53b3217975a257faade9b8a31cf4f1a5f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: c5301e71247f4544816a0296b7e76ac690555b2a5eec0c427f12cced875005a4
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001812447.json
@@ -112,34 +112,34 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S11
+  title: DEFA14A 0001096906-26-001624
+  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001624/0001096906-26-001624-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S12
+  title: DEF 14A 0001096906-26-001622
+  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001622/0001096906-26-001622-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S13
   title: 8-K 0001096906-26-001527
   url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001527/0001096906-26-001527-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S14
   title: 8-K 0001096906-26-001430
   url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001430/0001096906-26-001430-index.html
   published_at: '2026-09-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S13
+- id: S15
   title: 8-K 0001096906-26-001404
   url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001404/0001096906-26-001404-index.html
   published_at: '2026-09-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S14
-  title: 424B5 0001096906-26-001387
-  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001387/0001096906-26-001387-index.html
-  published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S15
-  title: DEFA14A 0001096906-26-001338
-  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001338/0001096906-26-001338-index.html
-  published_at: '2026-09-04'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001812447
@@ -151,8 +151,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: fecb0c3b841b47988410d576d86cb9e53b3217975a257faade9b8a31cf4f1a5f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: c5301e71247f4544816a0296b7e76ac690555b2a5eec0c427f12cced875005a4
   url: https://data.sec.gov/submissions/CIK0001812447.json
 listings:
 - ticker: SKYQ
@@ -169,17 +169,17 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001217/0001096906-26-001217-index.html
-- accession: 0001096906-26-001164
-  filed: '2026-08-06'
+- accession: 0001096906-26-001622
+  filed: '2026-10-23'
   form: DEF 14A
-  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001164/0001096906-26-001164-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001622/0001096906-26-001622-index.html
 - accession: 0001096906-26-001527
   filed: '2026-10-09'
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1812447/000109690626001527/0001096906-26-001527-index.html
 research_progress:
   stage: pending
-  input_sha256: 2e5f954f31a7c02cb7619a81eb9ca2c54ec0baf849df4ec2de08a060130934bf
+  input_sha256: 7f889d271803b0050b9b78cc59245514531cd656306aa2bc5d5c3746255d3ee1
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -199,15 +199,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001812447.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/SKYQ/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/SKYQ/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # SKYQ — Sky Quarry Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/SKYQ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/SKYQ/README.md)
 
 ## Business overview
 
@@ -366,7 +366,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:27.100666+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:46.888966+00:00.
 
 ### Research work queue
 
@@ -402,17 +402,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-09 | 8-K | 0001096906-26-001527 | — | [S11] |
-| 2026-09-24 | 8-K | 0001096906-26-001430 | — | [S12] |
-| 2026-09-22 | 8-K | 0001096906-26-001404 | — | [S13] |
-| 2026-09-18 | 424B5 | 0001096906-26-001387 | — | [S14] |
-| 2026-09-04 | DEFA14A | 0001096906-26-001338 | — | [S15] |
+| 2026-10-23 | DEFA14A | 0001096906-26-001624 | — | [S11] |
+| 2026-10-23 | DEF 14A | 0001096906-26-001622 | — | [S12] |
+| 2026-10-09 | 8-K | 0001096906-26-001527 | — | [S13] |
+| 2026-09-24 | 8-K | 0001096906-26-001430 | — | [S14] |
+| 2026-09-22 | 8-K | 0001096906-26-001404 | — | [S15] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001812447.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001812447.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001812447.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -422,16 +422,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001096906-26-000807](https://www.sec.gov/Archives/edgar/data/1812447/000109690626000807/0001096906-26-000807-index.html) — published 2026-05-15; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S11] [8-K 0001096906-26-001527](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001527/0001096906-26-001527-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [DEFA14A 0001096906-26-001624](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001624/0001096906-26-001624-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [8-K 0001096906-26-001430](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001430/0001096906-26-001430-index.html) — published 2026-09-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [DEF 14A 0001096906-26-001622](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001622/0001096906-26-001622-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [8-K 0001096906-26-001404](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001404/0001096906-26-001404-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [8-K 0001096906-26-001527](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001527/0001096906-26-001527-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S14] [424B5 0001096906-26-001387](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001387/0001096906-26-001387-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [8-K 0001096906-26-001430](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001430/0001096906-26-001430-index.html) — published 2026-09-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S15] [DEFA14A 0001096906-26-001338](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001338/0001096906-26-001338-index.html) — published 2026-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S15] [8-K 0001096906-26-001404](https://www.sec.gov/Archives/edgar/data/1812447/000109690626001404/0001096906-26-001404-index.html) — published 2026-09-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/SKYQ/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/SKYQ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

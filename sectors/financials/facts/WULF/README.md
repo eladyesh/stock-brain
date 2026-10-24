@@ -8,11 +8,11 @@ tickers:
 - WULF
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -73,11 +73,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001083301.json
-    sha256: 7b9b049cc82d206d998898e82cacbded7d6b664061577762ff0d2ef21f7c168e
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 03e0e498c596fe5fed6922ed1e8a7c4cde0bd923866eaddeaa42c7e3c80e8da1
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001083301.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -85,14 +85,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001083301.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b9b049cc82d206d998898e82cacbded7d6b664061577762ff0d2ef21f7c168e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 03e0e498c596fe5fed6922ed1e8a7c4cde0bd923866eaddeaa42c7e3c80e8da1
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001083301.json
@@ -118,34 +118,34 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S18
+  title: 8-K 0001628280-26-067100
+  url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026067100/0001628280-26-067100-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: SCHEDULE 13G/A 0000009631-26-000037
   url: https://www.sec.gov/Archives/edgar/data/1083301/000000963126000037/0000009631-26-000037-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 8-K 0001628280-26-064757
   url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/0001628280-26-064757-index.html
   published_at: '2026-10-05'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 4 0001628280-26-064725
   url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026064725/0001628280-26-064725-index.html
   published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: 4 0001628280-26-064724
   url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026064724/0001628280-26-064724-index.html
   published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S22
-  title: 4 0001628280-26-064717
-  url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026064717/0001628280-26-064717-index.html
-  published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001083301
@@ -157,8 +157,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b9b049cc82d206d998898e82cacbded7d6b664061577762ff0d2ef21f7c168e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 03e0e498c596fe5fed6922ed1e8a7c4cde0bd923866eaddeaa42c7e3c80e8da1
   url: https://data.sec.gov/submissions/CIK0001083301.json
 listings:
 - ticker: WULF
@@ -179,10 +179,10 @@ research_filings:
   filed: '2026-04-28'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1083301/000108330126000077/0001083301-26-000077-index.html
-- accession: 0001628280-26-064757
-  filed: '2026-10-05'
+- accession: 0001628280-26-067100
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/0001628280-26-064757-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1083301/000162828026067100/0001628280-26-067100-index.html
 - accession: 0001104659-22-034680
   filed: '2022-03-17'
   form: 8-K/A
@@ -201,7 +201,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1083301/000110465913071625/0001104659-13-071625-index.html
 research_progress:
   stage: pending
-  input_sha256: b3dbd164bcc9d35309c3d32ef982c97f3c241729ade2d81d6d666e05f67b8a8c
+  input_sha256: 250934d08cb23a2ca6caa78f4827555b244814607f5e38f7e85bace14e44da7e
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -221,15 +221,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001083301.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WULF/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WULF/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WULF — TERAWULF INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WULF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WULF/README.md)
 
 ## Business overview
 
@@ -388,7 +388,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:27:44.855104+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:31:30.503530+00:00.
 
 ### Research work queue
 
@@ -424,17 +424,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | SCHEDULE 13G/A | 0000009631-26-000037 | — | [S18] |
-| 2026-10-05 | 8-K | 0001628280-26-064757 | — | [S19] |
-| 2026-10-02 | 4 | 0001628280-26-064725 | — | [S20] |
-| 2026-10-02 | 4 | 0001628280-26-064724 | — | [S21] |
-| 2026-10-02 | 4 | 0001628280-26-064717 | — | [S22] |
+| 2026-10-23 | 8-K | 0001628280-26-067100 | — | [S18] |
+| 2026-10-19 | SCHEDULE 13G/A | 0000009631-26-000037 | — | [S19] |
+| 2026-10-05 | 8-K | 0001628280-26-064757 | — | [S20] |
+| 2026-10-02 | 4 | 0001628280-26-064725 | — | [S21] |
+| 2026-10-02 | 4 | 0001628280-26-064724 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001083301.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001083301.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001083301.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -444,16 +444,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001083301-26-000092](https://www.sec.gov/Archives/edgar/data/1083301/000108330126000092/0001083301-26-000092-index.html) — published 2026-05-08; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S18] [SCHEDULE 13G/A 0000009631-26-000037](https://www.sec.gov/Archives/edgar/data/1083301/000000963126000037/0000009631-26-000037-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001628280-26-067100](https://www.sec.gov/Archives/edgar/data/1083301/000162828026067100/0001628280-26-067100-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [8-K 0001628280-26-064757](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/0001628280-26-064757-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [SCHEDULE 13G/A 0000009631-26-000037](https://www.sec.gov/Archives/edgar/data/1083301/000000963126000037/0000009631-26-000037-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0001628280-26-064725](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064725/0001628280-26-064725-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [8-K 0001628280-26-064757](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/0001628280-26-064757-index.html) — published 2026-10-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001628280-26-064724](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064724/0001628280-26-064724-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0001628280-26-064725](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064725/0001628280-26-064725-index.html) — published 2026-10-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [4 0001628280-26-064717](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064717/0001628280-26-064717-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [4 0001628280-26-064724](https://www.sec.gov/Archives/edgar/data/1083301/000162828026064724/0001628280-26-064724-index.html) — published 2026-10-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WULF/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WULF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

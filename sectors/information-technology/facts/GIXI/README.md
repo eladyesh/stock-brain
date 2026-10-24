@@ -8,11 +8,11 @@ tickers:
 - GIXI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -29,6 +29,7 @@ financial_gap:
   - CERT
   - DRS
   - DRS/A
+  - S-8
   - SC 13D
   - SC 13D/A
   - SC 13G
@@ -36,11 +37,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001782265.json
-    sha256: 134e98bb77f285e9b2b0d91501e664eda16d9c67707701d00783039c0664bf63
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 4178f70fa2944a039caa1a7599752c17a1213dfbfe01d8d1a99087fd5c974f94
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001782265.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -48,43 +49,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001782265.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 134e98bb77f285e9b2b0d91501e664eda16d9c67707701d00783039c0664bf63
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4178f70fa2944a039caa1a7599752c17a1213dfbfe01d8d1a99087fd5c974f94
 - id: S03
+  title: S-8 0001493152-26-048235
+  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048235/0001493152-26-048235-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
+  title: 6-K 0001493152-26-048227
+  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/0001493152-26-048227-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S05
   title: 6-K 0001493152-26-048096
   url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048096/0001493152-26-048096-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S06
   title: 3 0001493152-26-047585
   url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226047585/0001493152-26-047585-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S07
   title: 6-K 0001493152-26-047504
   url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226047504/0001493152-26-047504-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S06
-  title: 3 0001493152-26-046826
-  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226046826/0001493152-26-046826-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 3 0001493152-26-046824
-  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226046824/0001493152-26-046824-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001782265
@@ -96,21 +97,21 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 134e98bb77f285e9b2b0d91501e664eda16d9c67707701d00783039c0664bf63
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4178f70fa2944a039caa1a7599752c17a1213dfbfe01d8d1a99087fd5c974f94
   url: https://data.sec.gov/submissions/CIK0001782265.json
 listings:
 - ticker: GIXI
   exchange: NASDAQ
   instrument_type: common_stock
 research_filings:
-- accession: 0001493152-26-048096
-  filed: '2026-10-22'
+- accession: 0001493152-26-048227
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048096/0001493152-26-048096-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/0001493152-26-048227-index.html
 research_progress:
   stage: pending
-  input_sha256: e91ea0b71d8a89a45ea5cdc97b53f2f5284818e9ff5f4624fd97ce5b243c3d90
+  input_sha256: 8d9ca761cf0618bf8a1f46f82920dbcd36162eda755c012ed368626adf182fe3
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -130,15 +131,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001782265.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GIXI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GIXI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # GIXI — Gix Internet Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GIXI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GIXI/README.md)
 
 ## Business overview
 
@@ -215,8 +216,8 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
-- Forms observed in the retained filing inventory: 144, 20FR12B, 20FR12B/A, 3, 4, 6-K, CERT, DRS, DRS/A, SC 13D, SC 13D/A, SC 13G, SEC STAFF ACTION
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:33:10.111320+00:00.
+- Forms observed in the retained filing inventory: 144, 20FR12B, 20FR12B/A, 3, 4, 6-K, CERT, DRS, DRS/A, S-8, SC 13D, SC 13D/A, SC 13G, SEC STAFF ACTION
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:35:35.687688+00:00.
 
 ### Research work queue
 
@@ -252,28 +253,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 6-K | 0001493152-26-048096 | — | [S03] |
-| 2026-10-19 | 3 | 0001493152-26-047585 | — | [S04] |
-| 2026-10-19 | 6-K | 0001493152-26-047504 | — | [S05] |
-| 2026-10-13 | 3 | 0001493152-26-046826 | — | [S06] |
-| 2026-10-13 | 3 | 0001493152-26-046824 | — | [S07] |
+| 2026-10-23 | S-8 | 0001493152-26-048235 | — | [S03] |
+| 2026-10-23 | 6-K | 0001493152-26-048227 | — | [S04] |
+| 2026-10-22 | 6-K | 0001493152-26-048096 | — | [S05] |
+| 2026-10-19 | 3 | 0001493152-26-047585 | — | [S06] |
+| 2026-10-19 | 6-K | 0001493152-26-047504 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001782265.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001782265.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001493152-26-048096](https://www.sec.gov/Archives/edgar/data/1782265/000149315226048096/0001493152-26-048096-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [S-8 0001493152-26-048235](https://www.sec.gov/Archives/edgar/data/1782265/000149315226048235/0001493152-26-048235-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [3 0001493152-26-047585](https://www.sec.gov/Archives/edgar/data/1782265/000149315226047585/0001493152-26-047585-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001493152-26-048227](https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/0001493152-26-048227-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001493152-26-047504](https://www.sec.gov/Archives/edgar/data/1782265/000149315226047504/0001493152-26-047504-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001493152-26-048096](https://www.sec.gov/Archives/edgar/data/1782265/000149315226048096/0001493152-26-048096-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [3 0001493152-26-046826](https://www.sec.gov/Archives/edgar/data/1782265/000149315226046826/0001493152-26-046826-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [3 0001493152-26-047585](https://www.sec.gov/Archives/edgar/data/1782265/000149315226047585/0001493152-26-047585-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [3 0001493152-26-046824](https://www.sec.gov/Archives/edgar/data/1782265/000149315226046824/0001493152-26-046824-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0001493152-26-047504](https://www.sec.gov/Archives/edgar/data/1782265/000149315226047504/0001493152-26-047504-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GIXI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GIXI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

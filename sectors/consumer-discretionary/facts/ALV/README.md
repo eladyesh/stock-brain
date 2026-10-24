@@ -8,11 +8,11 @@ tickers:
 - ALV
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -44,20 +44,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001034670.json
-    sha256: 43e8f361df3110c2a17585ead4bc9b9557dbe48753f20c57cde10663da4bd0e7
-    retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+    sha256: e6a1c126bd55c6fd6c3f94a9542b0f20db8b73c491560a7b989020d4fbf0575d
+    retrieved_at: '2026-10-24T13:22:57.445127+00:00'
     archive:
       member: CIK0001034670.json
-      sha256: 7457a528288f1e3425cba6ffd7370c6c205845aba12761763aa5ae3683c0fdc2
+      sha256: 6a571557530102bb009e07bf4f2d86d9aa6021247bfde97f696dd22cb1a4a7e7
       url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001034670.json
-    sha256: 9c7399e4c984b717f419205c26de9c41689be16b7d34d7708cff44d2cd1b29c4
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 2eaf34f7dab7d41bc5a2219293cab0b92d26ea35e18461e3e0707b532e012102
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001034670.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -65,68 +65,80 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001034670.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9c7399e4c984b717f419205c26de9c41689be16b7d34d7708cff44d2cd1b29c4
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2eaf34f7dab7d41bc5a2219293cab0b92d26ea35e18461e3e0707b532e012102
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001034670.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: 43e8f361df3110c2a17585ead4bc9b9557dbe48753f20c57cde10663da4bd0e7
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
+  sha256: e6a1c126bd55c6fd6c3f94a9542b0f20db8b73c491560a7b989020d4fbf0575d
 - id: S04
   title: 10-K 0001193125-26-058162
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/0001193125-26-058162-index.html
   published_at: '2026-02-19'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S05
+  title: 10-Q 0001193125-26-429588
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/0001193125-26-429588-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
+  sha256: null
+- id: S09
   title: 10-Q 0001193125-26-306974
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526306974/0001193125-26-306974-index.html
   published_at: '2026-07-17'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: null
-- id: S09
-  title: 10-Q 0001193125-26-160472
-  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526160472/0001193125-26-160472-index.html
-  published_at: '2026-04-17'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S17
+  title: 10-Q 0001193125-26-429588
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/0001193125-26-429588-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
+  title: 8-K 0001193125-26-429404
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429404/0001193125-26-429404-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: 4 0001193125-26-393728
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526393728/0001193125-26-393728-index.html
   published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S20
   title: 4 0001193125-26-393727
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526393727/0001193125-26-393727-index.html
   published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S21
   title: 4 0001193125-26-393726
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526393726/0001193125-26-393726-index.html
   published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
-  title: 4 0001193125-26-393725
-  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526393725/0001193125-26-393725-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 4 0001193125-26-393724
-  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526393724/0001193125-26-393724-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/alv-20260930.htm
+  title: 10-Q 0001193125-26-429588
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:45:54.720791+00:00'
+  sha256: 1ac686cf126ad309f838b671b0e2d0896a611abafead52fe8bcfc1ccf4e3ac8e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/alv-20251231.htm
+  title: 10-K 0001193125-26-058162
+  published_at: '2026-02-19'
+  retrieved_at: '2026-10-24T13:45:49.172189+00:00'
+  sha256: bf7fe3b96df0415fe455492764c6277d4d4940312b30dcfcca9529e93b5e47e5
 issuer_classification:
   cik: '0001034670'
   classification_status: reported_sic
@@ -137,8 +149,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9c7399e4c984b717f419205c26de9c41689be16b7d34d7708cff44d2cd1b29c4
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2eaf34f7dab7d41bc5a2219293cab0b92d26ea35e18461e3e0707b532e012102
   url: https://data.sec.gov/submissions/CIK0001034670.json
 listings:
 - ticker: ALV
@@ -150,19 +162,19 @@ research_filings:
   form: 10-K
   period_end: '2025-12-31'
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/0001193125-26-058162-index.html
-- accession: 0001193125-26-306974
-  filed: '2026-07-17'
+- accession: 0001193125-26-429588
+  filed: '2026-10-23'
   form: 10-Q
-  period_end: '2026-06-30'
-  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526306974/0001193125-26-306974-index.html
+  period_end: '2026-09-30'
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/0001193125-26-429588-index.html
 - accession: 0001552781-26-000154
   filed: '2026-03-25'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1034670/000155278126000154/0001552781-26-000154-index.html
-- accession: 0001193125-26-306698
-  filed: '2026-07-17'
+- accession: 0001193125-26-429404
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526306698/0001193125-26-306698-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1034670/000119312526429404/0001193125-26-429404-index.html
 - accession: 0000950170-23-025891
   filed: '2023-06-02'
   form: 8-K/A
@@ -176,13 +188,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1034670/000119312520078496/0001193125-20-078496-index.html
 research_progress:
-  stage: pending
-  input_sha256: 955a9275558145143262863ee90e3565148f4efad2d188a9672ec58ade858a8c
-  last_attempt_at: null
-  last_success_at: null
+  stage: evidence_collected
+  input_sha256: e81ab65f9459a777f02c9d8d593430b6dda9ab27ee97bc8478a4336fead91c71
+  last_attempt_at: '2026-10-24T13:43:29.782673+00:00'
+  last_success_at: '2026-10-24T13:43:29.782673+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -197,15 +220,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001034670.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ALV/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ALV/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALV — AUTOLIV INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ALV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ALV/README.md)
 
 ## Business overview
 
@@ -219,17 +242,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L123:
+
+> Because these forward-looking statements involve risks and uncertainties, the outcome could differ materially from those set out in the forward-looking statements for a variety of reasons, including without limitation: general global and regional economic conditions, including the impact of inflation; changes in light vehicle production; fluctuation in vehicle production schedules for which the Company is a supplier; global supply chain disruptions, including port, transportation, and distribution delays or interruptions; supply chain disruptions and component shortages specific to the automotive industry or the Company; potential changes to beneficial free trade agreements and regulations, such as the United States-Mexico-Canada Agreement; changes in geopolitical and other economic and political conditions or developments, including inflation, changes in trade policies, tariff regimes, and other developments in and by countries in which we do business that could materially impact supply chains, margins, access to capital, or overall business performance; political instability or geopolitical conflicts; changes in general industry or market conditions, including regional economic growth or decline; changes in and the successful execution of our capacity alignment, restructuring, cost reduction, and efficiency initiatives and the market reaction thereto; loss of business from … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L5136:
+
+> The Company has a single operating and reportable segment which includes Autoliv’s airbag and steering wheels, and seatbelt products and components. The determination of a single operating segment is consistent with the consolidated financial information regularly provided to the Company’s chief operating decision maker (“CODM”). The basis of segmentation and the basis of measurement of segment profit or loss is consistent with our 2025 annual report on the consolidated financial statements. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L5469:
+
+> Through its operating subsidiaries, Autoliv is a supplier of automotive safety systems with a broad range of product offerings, including modules and components for passenger and driver airbags, side airbags, curtain airbags, seatbelts, steering wheels, and pedestrian protection systems. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-23, L4582:
+
+> Autoliv is exposed to various claims for damages and compensation if its products fail to perform as expected. Such claims can be made, and result in costs and other losses to the Company, even where the product is eventually found to have functioned properly. Where a product (actually or allegedly) fails to perform as expected or is defective, the Company may face warranty and recall claims. Where such (actual or alleged) failure or defect results, or is alleged to result, in bodily injury and/or property damage, the Company may also face product liability and other claims. There can be no assurance that the Company will not experience material warranty, recall or product (or other) liability claims or losses in the future, or that the Company will not incur significant costs to defend against such claims. The Company may be required to participate in a recall involving its products. Each vehicle manufacturer has its own practices regarding product recalls and other product liability actions relating to its suppliers. As suppliers become more integrally involved in the vehicle design process and assume more of the vehicle assembly functions, vehicle manufacturers are increasingly looking to their suppliers for contribution when faced with recalls and product liability claims. Government safety regulators may also play a role in warranty and recall practices. Recall decisions … [S68]
 
 ## Industry and value chain
 
@@ -237,19 +276,35 @@ SEC-reported SIC **3714**: Motor Vehicle Parts & Accessories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L123:
+
+> Because these forward-looking statements involve risks and uncertainties, the outcome could differ materially from those set out in the forward-looking statements for a variety of reasons, including without limitation: general global and regional economic conditions, including the impact of inflation; changes in light vehicle production; fluctuation in vehicle production schedules for which the Company is a supplier; global supply chain disruptions, including port, transportation, and distribution delays or interruptions; supply chain disruptions and component shortages specific to the automotive industry or the Company; potential changes to beneficial free trade agreements and regulations, such as the United States-Mexico-Canada Agreement; changes in geopolitical and other economic and political conditions or developments, including inflation, changes in trade policies, tariff regimes, and other developments in and by countries in which we do business that could materially impact supply chains, margins, access to capital, or overall business performance; political instability or geopolitical conflicts; changes in general industry or market conditions, including regional economic growth or decline; changes in and the successful execution of our capacity alignment, restructuring, cost reduction, and efficiency initiatives and the market reaction thereto; loss of business from … [S68]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-10-23, L123:
+
+> Because these forward-looking statements involve risks and uncertainties, the outcome could differ materially from those set out in the forward-looking statements for a variety of reasons, including without limitation: general global and regional economic conditions, including the impact of inflation; changes in light vehicle production; fluctuation in vehicle production schedules for which the Company is a supplier; global supply chain disruptions, including port, transportation, and distribution delays or interruptions; supply chain disruptions and component shortages specific to the automotive industry or the Company; potential changes to beneficial free trade agreements and regulations, such as the United States-Mexico-Canada Agreement; changes in geopolitical and other economic and political conditions or developments, including inflation, changes in trade policies, tariff regimes, and other developments in and by countries in which we do business that could materially impact supply chains, margins, access to capital, or overall business performance; political instability or geopolitical conflicts; changes in general industry or market conditions, including regional economic growth or decline; changes in and the successful execution of our capacity alignment, restructuring, cost reduction, and efficiency initiatives and the market reaction thereto; loss of business from … [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-10-23, L123:
+
+> Because these forward-looking statements involve risks and uncertainties, the outcome could differ materially from those set out in the forward-looking statements for a variety of reasons, including without limitation: general global and regional economic conditions, including the impact of inflation; changes in light vehicle production; fluctuation in vehicle production schedules for which the Company is a supplier; global supply chain disruptions, including port, transportation, and distribution delays or interruptions; supply chain disruptions and component shortages specific to the automotive industry or the Company; potential changes to beneficial free trade agreements and regulations, such as the United States-Mexico-Canada Agreement; changes in geopolitical and other economic and political conditions or developments, including inflation, changes in trade policies, tariff regimes, and other developments in and by countries in which we do business that could materially impact supply chains, margins, access to capital, or overall business performance; political instability or geopolitical conflicts; changes in general industry or market conditions, including regional economic growth or decline; changes in and the successful execution of our capacity alignment, restructuring, cost reduction, and efficiency initiatives and the market reaction thereto; loss of business from … [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-19, L523:
+
+> We continue to expand our product offerings beyond light passenger vehicles to include other mobility safety solutions. If we are not successful in expanding our product offerings, or if it takes longer or costs more than expected, it could harm our business [S70]
 
 ## Financial performance
 
@@ -280,7 +335,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: free_cash_flow=716000000 USD (Ne
 Derived observation: Operating cash flow / net income was 1.57x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S04]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=1157000000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=735000000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -309,23 +364,23 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 | stock_based_compensation | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
 
-### quarterly: 2026-04-01 to 2026-06-30
+### quarterly: 2026-07-01 to 2026-09-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| capex | -95,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S05] |
-| cost_of_revenue | 2,294,000,000 | USD | US GAAP / reported | CostOfGoodsAndServicesSold | [S05] |
+| capex | -115,000,000 | USD | US GAAP / reported | PaymentsToAcquirePropertyPlantAndEquipment; Cash outflow = negative of reported PaymentsToAcquirePropertyPlantAndEquipment; source value retained. | [S05] |
+| cost_of_revenue | 2,197,000,000 | USD | US GAAP / reported | CostOfGoodsAndServicesSold | [S05] |
 | eps_basic | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | eps_diluted | Unavailable / blocked | USD/shares | US GAAP / reported / not model usable | EarningsPerShareDiluted; share_split_and_corporate_action_basis_unverified | [S05] |
-| free_cash_flow | 340,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S09] |
-| gross_profit | 509,000,000 | USD | US GAAP / reported | GrossProfit | [S05] |
-| net_income | 100,000,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
+| free_cash_flow | 124,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S09] |
+| gross_profit | 496,000,000 | USD | US GAAP / reported | GrossProfit | [S05] |
+| net_income | 155,000,000 | USD | US GAAP / reported | NetIncomeLoss | [S05] |
 | net_income_common | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| net_income_including_noncontrolling_interests | 101,000,000 | USD | US GAAP / reported | ProfitLoss | [S05] |
-| operating_cash_flow | 435,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S09] |
-| operating_income | 192,000,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
+| net_income_including_noncontrolling_interests | 155,000,000 | USD | US GAAP / reported | ProfitLoss | [S05] |
+| operating_cash_flow | 239,000,000 | USD | US GAAP / derived | NetCashProvidedByUsedInOperatingActivities; cross_filing_derivation, standalone_quarter_from_cumulative_difference | [S05] [S09] |
+| operating_income | 254,000,000 | USD | US GAAP / reported | OperatingIncomeLoss | [S05] |
 | purchases_of_productive_assets | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| revenue | 2,803,000,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S05] |
+| revenue | 2,693,000,000 | USD | US GAAP / reported | RevenueFromContractWithCustomerExcludingAssessedTax | [S05] |
 | shares_basic | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfSharesOutstandingBasic; share_split_and_corporate_action_basis_unverified | [S05] |
 | shares_diluted | Unavailable / blocked | shares | US GAAP / reported / not model usable | WeightedAverageNumberOfDilutedSharesOutstanding; share_split_and_corporate_action_basis_unverified | [S05] |
 | stock_based_compensation | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
@@ -334,7 +389,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -355,17 +410,17 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
 
-### quarterly: 2026-04-01 to 2026-06-30
+### quarterly: 2026-07-01 to 2026-09-30
 
 | Metric | Value | Unit | Basis / status | Definition / quality | Filing evidence |
 | --- | ---: | --- | --- | --- | --- |
-| cash_and_equivalents | 377,000,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
+| cash_and_equivalents | 197,000,000 | USD | US GAAP / reported | CashAndCashEquivalentsAtCarryingValue | [S05] |
 | debt_current | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | debt_noncurrent | Unavailable / blocked | USD | US GAAP / reported / not model usable | LongTermDebtNoncurrent; debt_scope_requires_filing_review | [S05] |
 | debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | long_term_debt_total | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 | shares_outstanding | Unavailable / blocked | shares | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
-| short_term_borrowings | 350,000,000 | USD | US GAAP / reported | ShortTermBorrowings | [S05] |
+| short_term_borrowings | 251,000,000 | USD | US GAAP / reported | ShortTermBorrowings | [S05] |
 | short_term_investments | Unavailable / blocked | USD | US GAAP / missing_required_source / not model usable |  | No eligible evidence |
 
 
@@ -373,6 +428,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 ## Management and governance
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+
+Source excerpt — 10-Q, filed 2026-10-23, L10418:
+
+> (3) On June 4, 2025, the Company announced that its Board of Directors approved a new stock repurchase program that authorizes the Company to repurchase up to $2.5 billion of common shares and operates from July 1, 2025 through December 31, 2029. [S68]
 
 ## Valuation context
 
@@ -386,34 +445,38 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L123:
+
+> Because these forward-looking statements involve risks and uncertainties, the outcome could differ materially from those set out in the forward-looking statements for a variety of reasons, including without limitation: general global and regional economic conditions, including the impact of inflation; changes in light vehicle production; fluctuation in vehicle production schedules for which the Company is a supplier; global supply chain disruptions, including port, transportation, and distribution delays or interruptions; supply chain disruptions and component shortages specific to the automotive industry or the Company; potential changes to beneficial free trade agreements and regulations, such as the United States-Mexico-Canada Agreement; changes in geopolitical and other economic and political conditions or developments, including inflation, changes in trade policies, tariff regimes, and other developments in and by countries in which we do business that could materially impact supply chains, margins, access to capital, or overall business performance; political instability or geopolitical conflicts; changes in general industry or market conditions, including regional economic growth or decline; changes in and the successful execution of our capacity alignment, restructuring, cost reduction, and efficiency initiatives and the market reaction thereto; loss of business from … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:27:07.667428+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:30:59.894789+00:00.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -427,36 +490,40 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-17 | 4 | 0001193125-26-393728 | — | [S17] |
-| 2026-09-17 | 4 | 0001193125-26-393727 | — | [S18] |
-| 2026-09-17 | 4 | 0001193125-26-393726 | — | [S19] |
-| 2026-09-17 | 4 | 0001193125-26-393725 | — | [S20] |
-| 2026-09-17 | 4 | 0001193125-26-393724 | — | [S21] |
+| 2026-10-23 | 10-Q | 0001193125-26-429588 | — | [S17] |
+| 2026-10-23 | 8-K | 0001193125-26-429404 | — | [S18] |
+| 2026-09-17 | 4 | 0001193125-26-393728 | — | [S19] |
+| 2026-09-17 | 4 | 0001193125-26-393727 | — | [S20] |
+| 2026-09-17 | 4 | 0001193125-26-393726 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001034670.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001034670.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001034670.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001034670.json) — published not supplied; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S04] [10-K 0001193125-26-058162](https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/0001193125-26-058162-index.html) — published 2026-02-19; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S04] [10-K 0001193125-26-058162](https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/0001193125-26-058162-index.html) — published 2026-02-19; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S05] [10-Q 0001193125-26-306974](https://www.sec.gov/Archives/edgar/data/1034670/000119312526306974/0001193125-26-306974-index.html) — published 2026-07-17; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S05] [10-Q 0001193125-26-429588](https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/0001193125-26-429588-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S09] [10-Q 0001193125-26-160472](https://www.sec.gov/Archives/edgar/data/1034670/000119312526160472/0001193125-26-160472-index.html) — published 2026-04-17; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S09] [10-Q 0001193125-26-306974](https://www.sec.gov/Archives/edgar/data/1034670/000119312526306974/0001193125-26-306974-index.html) — published 2026-07-17; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S17] [4 0001193125-26-393728](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393728/0001193125-26-393728-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [10-Q 0001193125-26-429588](https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/0001193125-26-429588-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001193125-26-393727](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393727/0001193125-26-393727-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001193125-26-429404](https://www.sec.gov/Archives/edgar/data/1034670/000119312526429404/0001193125-26-429404-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001193125-26-393726](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393726/0001193125-26-393726-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001193125-26-393728](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393728/0001193125-26-393728-index.html) — published 2026-09-17; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0001193125-26-393725](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393725/0001193125-26-393725-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001193125-26-393727](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393727/0001193125-26-393727-index.html) — published 2026-09-17; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001193125-26-393724](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393724/0001193125-26-393724-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0001193125-26-393726](https://www.sec.gov/Archives/edgar/data/1034670/000119312526393726/0001193125-26-393726-index.html) — published 2026-09-17; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ALV/README.md).
+[S68] [10-Q 0001193125-26-429588](https://www.sec.gov/Archives/edgar/data/1034670/000119312526429588/alv-20260930.htm) — published 2026-10-23; retrieved 2026-10-24T13:45:54.720791+00:00.
+
+[S70] [10-K 0001193125-26-058162](https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/alv-20251231.htm) — published 2026-02-19; retrieved 2026-10-24T13:45:49.172189+00:00.
+
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ALV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

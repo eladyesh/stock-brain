@@ -8,11 +8,11 @@ tickers:
 - ZM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -61,11 +61,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001585521.json
-    sha256: c4404bad83adb0b1b4f689516bbe9e93187cc0b1e6d4d645cafe408ffe6b5729
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 193abf342ad7788c0c51ce07b219ed029eb8366bbe15c5d6d0736428d807bd5a
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001585521.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -73,14 +73,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001585521.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c4404bad83adb0b1b4f689516bbe9e93187cc0b1e6d4d645cafe408ffe6b5729
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 193abf342ad7788c0c51ce07b219ed029eb8366bbe15c5d6d0736428d807bd5a
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001585521.json
@@ -106,34 +106,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S15
+  title: 4 0001585521-26-000155
+  url: https://www.sec.gov/Archives/edgar/data/1585521/000158552126000155/0001585521-26-000155-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S16
+  title: 4 0001585521-26-000154
+  url: https://www.sec.gov/Archives/edgar/data/1585521/000158552126000154/0001585521-26-000154-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S17
+  title: 4 0001585521-26-000153
+  url: https://www.sec.gov/Archives/edgar/data/1585521/000158552126000153/0001585521-26-000153-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 144 0001950047-26-010345
   url: https://www.sec.gov/Archives/edgar/data/1585521/000195004726010345/0001950047-26-010345-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S16
+- id: S19
   title: 144 0001958244-26-000661
   url: https://www.sec.gov/Archives/edgar/data/1585521/000195824426000661/0001958244-26-000661-index.html
   published_at: '2026-10-15'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S17
-  title: 144 0001950047-26-010201
-  url: https://www.sec.gov/Archives/edgar/data/1585521/000195004726010201/0001950047-26-010201-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S18
-  title: 144 0001950047-26-010185
-  url: https://www.sec.gov/Archives/edgar/data/1585521/000195004726010185/0001950047-26-010185-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S19
-  title: 144 0001950047-26-010182
-  url: https://www.sec.gov/Archives/edgar/data/1585521/000195004726010182/0001950047-26-010182-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001585521
@@ -145,8 +145,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c4404bad83adb0b1b4f689516bbe9e93187cc0b1e6d4d645cafe408ffe6b5729
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 193abf342ad7788c0c51ce07b219ed029eb8366bbe15c5d6d0736428d807bd5a
   url: https://data.sec.gov/submissions/CIK0001585521.json
 listings:
 - ticker: ZM
@@ -210,15 +210,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ZM/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ZM/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ZM — Zoom Communications, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ZM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ZM/README.md)
 
 ## Business overview
 
@@ -407,7 +407,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:31:30.354774+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:34:20.492170+00:00.
 
 ### Research work queue
 
@@ -441,17 +441,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 144 | 0001950047-26-010345 | — | [S15] |
-| 2026-10-15 | 144 | 0001958244-26-000661 | — | [S16] |
-| 2026-10-13 | 144 | 0001950047-26-010201 | — | [S17] |
-| 2026-10-13 | 144 | 0001950047-26-010185 | — | [S18] |
-| 2026-10-13 | 144 | 0001950047-26-010182 | — | [S19] |
+| 2026-10-23 | 4 | 0001585521-26-000155 | — | [S15] |
+| 2026-10-23 | 4 | 0001585521-26-000154 | — | [S16] |
+| 2026-10-23 | 4 | 0001585521-26-000153 | — | [S17] |
+| 2026-10-21 | 144 | 0001950047-26-010345 | — | [S18] |
+| 2026-10-15 | 144 | 0001958244-26-000661 | — | [S19] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001585521.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001585521.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001585521.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -461,16 +461,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S08] [10-Q 0001585521-26-000071](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000071/0001585521-26-000071-index.html) — published 2026-05-22; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S15] [144 0001950047-26-010345](https://www.sec.gov/Archives/edgar/data/1585521/000195004726010345/0001950047-26-010345-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S15] [4 0001585521-26-000155](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000155/0001585521-26-000155-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S16] [144 0001958244-26-000661](https://www.sec.gov/Archives/edgar/data/1585521/000195824426000661/0001958244-26-000661-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S16] [4 0001585521-26-000154](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000154/0001585521-26-000154-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S17] [144 0001950047-26-010201](https://www.sec.gov/Archives/edgar/data/1585521/000195004726010201/0001950047-26-010201-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [4 0001585521-26-000153](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000153/0001585521-26-000153-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [144 0001950047-26-010185](https://www.sec.gov/Archives/edgar/data/1585521/000195004726010185/0001950047-26-010185-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [144 0001950047-26-010345](https://www.sec.gov/Archives/edgar/data/1585521/000195004726010345/0001950047-26-010345-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [144 0001950047-26-010182](https://www.sec.gov/Archives/edgar/data/1585521/000195004726010182/0001950047-26-010182-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [144 0001958244-26-000661](https://www.sec.gov/Archives/edgar/data/1585521/000195824426000661/0001958244-26-000661-index.html) — published 2026-10-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ZM/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ZM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

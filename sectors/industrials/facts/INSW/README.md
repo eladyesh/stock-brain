@@ -8,11 +8,11 @@ tickers:
 - INSW
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -70,11 +70,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001679049.json
-    sha256: 0c86b33fd5916c1cb7f3c1ad86e503d549b2ec860fe96a425a65ae864892bab2
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: da0531c6beca092cc6fa6a9aae1490bce0752240ba742329b24a7bdad2075a78
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001679049.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -82,14 +82,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001679049.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0c86b33fd5916c1cb7f3c1ad86e503d549b2ec860fe96a425a65ae864892bab2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: da0531c6beca092cc6fa6a9aae1490bce0752240ba742329b24a7bdad2075a78
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001679049.json
@@ -115,34 +115,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001104659-26-118505
+  url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/0001104659-26-118505-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: CB/A 0001104659-26-118173
   url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926118173/0001104659-26-118173-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 8-K 0001104659-26-117865
   url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001679049-26-000163
   url: https://www.sec.gov/Archives/edgar/data/1679049/000167904926000163/0001679049-26-000163-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: CB 0001104659-26-116954
   url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926116954/0001104659-26-116954-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 8-K 0001104659-26-116371
-  url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926116371/0001104659-26-116371-index.html
-  published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001679049
@@ -154,8 +154,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0c86b33fd5916c1cb7f3c1ad86e503d549b2ec860fe96a425a65ae864892bab2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: da0531c6beca092cc6fa6a9aae1490bce0752240ba742329b24a7bdad2075a78
   url: https://data.sec.gov/submissions/CIK0001679049.json
 listings:
 - ticker: INSW
@@ -176,10 +176,10 @@ research_filings:
   filed: '2026-04-29'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1679049/000114036126017661/0001140361-26-017661-index.html
-- accession: 0001104659-26-117865
-  filed: '2026-10-21'
+- accession: 0001104659-26-118505
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/0001104659-26-118505-index.html
 - accession: 0001104659-24-125573
   filed: '2024-12-04'
   form: 8-K/A
@@ -190,7 +190,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1679049/000110465921047173/0001104659-21-047173-index.html
 research_progress:
   stage: pending
-  input_sha256: 93a9e67495758ac32bea62f445c46a8724a659a4c9792aa1e7c6e6819185d113
+  input_sha256: 963c9882e776963dfb9b864f1a680c5be0695cdc1fbc0ed5df7e6d68b7f34ce3
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -210,15 +210,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001679049.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/INSW/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/INSW/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # INSW — International Seaways, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/INSW/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/INSW/README.md)
 
 ## Business overview
 
@@ -401,7 +401,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:32:21.703196+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:34:59.409000+00:00.
 
 ### Research work queue
 
@@ -437,17 +437,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | CB/A | 0001104659-26-118173 | — | [S17] |
-| 2026-10-21 | 8-K | 0001104659-26-117865 | — | [S18] |
-| 2026-10-19 | 4 | 0001679049-26-000163 | — | [S19] |
-| 2026-10-19 | CB | 0001104659-26-116954 | — | [S20] |
-| 2026-10-16 | 8-K | 0001104659-26-116371 | — | [S21] |
+| 2026-10-23 | 8-K | 0001104659-26-118505 | — | [S17] |
+| 2026-10-22 | CB/A | 0001104659-26-118173 | — | [S18] |
+| 2026-10-21 | 8-K | 0001104659-26-117865 | — | [S19] |
+| 2026-10-19 | 4 | 0001679049-26-000163 | — | [S20] |
+| 2026-10-19 | CB | 0001104659-26-116954 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001679049.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001679049.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001679049.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -457,16 +457,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001104659-26-056721](https://www.sec.gov/Archives/edgar/data/1679049/000110465926056721/0001104659-26-056721-index.html) — published 2026-05-07; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S17] [CB/A 0001104659-26-118173](https://www.sec.gov/Archives/edgar/data/1679049/000110465926118173/0001104659-26-118173-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001104659-26-118505](https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/0001104659-26-118505-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [8-K 0001104659-26-117865](https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [CB/A 0001104659-26-118173](https://www.sec.gov/Archives/edgar/data/1679049/000110465926118173/0001104659-26-118173-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001679049-26-000163](https://www.sec.gov/Archives/edgar/data/1679049/000167904926000163/0001679049-26-000163-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001104659-26-117865](https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [CB 0001104659-26-116954](https://www.sec.gov/Archives/edgar/data/1679049/000110465926116954/0001104659-26-116954-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001679049-26-000163](https://www.sec.gov/Archives/edgar/data/1679049/000167904926000163/0001679049-26-000163-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001104659-26-116371](https://www.sec.gov/Archives/edgar/data/1679049/000110465926116371/0001104659-26-116371-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [CB 0001104659-26-116954](https://www.sec.gov/Archives/edgar/data/1679049/000110465926116954/0001104659-26-116954-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/INSW/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/INSW/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

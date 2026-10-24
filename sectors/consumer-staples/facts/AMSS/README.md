@@ -8,11 +8,11 @@ tickers:
 - AMSS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -52,11 +52,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001851491.json
-    sha256: ab78743d4b4c84370da01ca63e2428edcca73a0a372df625590d61dd084108ae
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 6dba2a15434e7aad45d7a34f0dd48dfd520732f4dea4fbd00af6e7e9373256b4
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001851491.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -64,14 +64,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001851491.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: ab78743d4b4c84370da01ca63e2428edcca73a0a372df625590d61dd084108ae
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 6dba2a15434e7aad45d7a34f0dd48dfd520732f4dea4fbd00af6e7e9373256b4
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001851491.json
@@ -85,35 +85,47 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S06
+  title: 8-K 0001575872-26-000728
+  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000728/0001575872-26-000728-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S07
   title: 8-K 0001575872-26-000701
   url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000701/0001575872-26-000701-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S07
+- id: S08
   title: 8-K 0001575872-26-000675
   url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000675/0001575872-26-000675-index.html
   published_at: '2026-10-06'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S08
+- id: S09
   title: 424B5 0001575872-26-000607
   url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000607/0001575872-26-000607-index.html
   published_at: '2026-08-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S09
+- id: S10
   title: 424B5 0001575872-26-000606
   url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000606/0001575872-26-000606-index.html
   published_at: '2026-08-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S10
-  title: 8-K 0001575872-26-000597
-  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000597/0001575872-26-000597-index.html
-  published_at: '2026-08-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000728/amss047_8k.htm
+  title: 8-K 0001575872-26-000728
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:46:44.972341+00:00'
+  sha256: b488a11d4861245988c95267a6bc7a1bdfe4a50d9b6330dcc5ff65a96e5ac078
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000579/amass039_10q.htm
+  title: 10-Q 0001575872-26-000579
+  published_at: '2026-08-14'
+  retrieved_at: '2026-10-24T13:46:43.055480+00:00'
+  sha256: f50e0a6e0d3ee24fd46b6c580cd36aa1d8a870a4a853aa5576a66625aa42caf9
 issuer_classification:
   cik: 0001851491
   classification_status: reported_sic
@@ -124,8 +136,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: ab78743d4b4c84370da01ca63e2428edcca73a0a372df625590d61dd084108ae
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 6dba2a15434e7aad45d7a34f0dd48dfd520732f4dea4fbd00af6e7e9373256b4
   url: https://data.sec.gov/submissions/CIK0001851491.json
 listings:
 - ticker: AMSS
@@ -137,18 +149,28 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000579/0001575872-26-000579-index.html
-- accession: 0001575872-26-000701
-  filed: '2026-10-14'
+- accession: 0001575872-26-000728
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000701/0001575872-26-000701-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1851491/000157587226000728/0001575872-26-000728-index.html
 research_progress:
-  stage: pending
-  input_sha256: c838222981f3caf2b9c33979faa822d5f07a028c2c23159eaff8687a65f79969
-  last_attempt_at: null
-  last_success_at: null
+  stage: evidence_collected
+  input_sha256: b1df5c34fb845a2b681f51fbc44a9289efe66295f0aa61f2533bf7bb089df6d7
+  last_attempt_at: '2026-10-24T13:43:29.782673+00:00'
+  last_success_at: '2026-10-24T13:43:29.782673+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -163,15 +185,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001851491.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMSS/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMSS/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMSS — AMASS BRANDS
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMSS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMSS/README.md)
 
 ## Business overview
 
@@ -185,23 +207,43 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L227:
+
+> the implementation of our business model and our strategic plans for our business, product, services and technology; [S57]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L5680:
+
+> the Company’s internal management financial reporting. The Company now reports its operating results in two reportable segments: (i) Wine & Spirits and (ii) Non-Alcoholic and Functional. The Wine & Spirits segment comprises the Company’s alcoholic wine portfolio (including Summer Water, Pizzolato MUSE, and the Natural Merchants and AMASS wine brands) and its spirits portfolio (AMASS spirits, GEM&BOLT mezcal, and Calirosa tequila). The Non-Alcoholic and Functional segment comprises the Company’s functional non-alcoholic beverage brands: Good Twin non-alcoholic wine and AMASS Electrolytes. Prior-period segment information has been recast to conform to the new segment presentation. In prior filings, the Company reported two segments [S57]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L243:
+
+> the scope of protection that we are able to establish and maintain for intellectual property rights covering our products, services and technology; [S57]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-14, L11520:
+
+> Inflationary pressures have the potential to adversely affect our business operations, financial condition, and results of operations. Rising costs associated with cost of labor, research and development costs, and raw materials can lead to increased production and operational expenses. If we are unable to pass these increased costs onto our customers through pricing adjustments, our profit margins may be negatively impacted. Furthermore, inflation can influence consumer behavior, particularly in discretionary spending categories such as premium beverages. [S57]
 
 ## Industry and value chain
 
 SEC-reported SIC **2080**: Beverages. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — 10-Q, filed 2026-08-14, L11473:
+
+> (5) Represents payables to various suppliers throughout our supply chain. Management continues to negotiate settlements and extended payment plans with certain vendors, including the conversion of a portion of outstanding payables into term debt. [S57]
 
 Navigation sector: **consumer-staples**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
@@ -213,9 +255,17 @@ Not available: substantive research has not been completed. Identify direct comp
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-14, L243:
+
+> the scope of protection that we are able to establish and maintain for intellectual property rights covering our products, services and technology; [S57]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-14, L7069:
+
+> This MD&A, which should be read in conjunction with our financial statements, is organized as follows: Overview: a general description of our business, which we believe is important in understanding the results of our operations, financial condition, and potential future trends. Strategy: a description of our strategy and a discussion of recent developments, and significant divestitures, acquisitions, and investments. Recent developments: a summary of the material transactions and events that occurred during, or shortly after, the three months ended June 30, 2026. Results of operations: an analysis of our results of operations presented on a business segment basis, including Adjusted EBITDA, a non-GAAP measure. Liquidity and capital resources: an analysis of our cash flows, outstanding debt, liquidity position, and commitments. Critical accounting policies and estimates: accounting policies that are considered important to our results of operations and financial condition, require significant judgment, and involve significant management estimates. Emerging Growth Company and Smaller Reporting Company Status: a discussion of our reporting status [S57]
 
 ## Financial performance
 
@@ -277,6 +327,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L98:
+
+> The board of directors of the Company has commenced a search for a permanent Chief Financial Officer. [S56]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -289,34 +343,38 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L260:
+
+> These forward-looking statements are subject to a number of risks, uncertainties and assumptions, including those described in “Risk Factors” of our Prospectuses dated May 18, 2026 and July 6, 2026, in any subsequent filing we make with the SEC, as well as in any documents incorporated by reference that describe risks and factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. [S57]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:57.434299+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:08.217944+00:00.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -330,32 +388,36 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-14 | 8-K | 0001575872-26-000701 | — | [S06] |
-| 2026-10-06 | 8-K | 0001575872-26-000675 | — | [S07] |
-| 2026-08-24 | 424B5 | 0001575872-26-000607 | — | [S08] |
-| 2026-08-24 | 424B5 | 0001575872-26-000606 | — | [S09] |
-| 2026-08-21 | 8-K | 0001575872-26-000597 | — | [S10] |
+| 2026-10-23 | 8-K | 0001575872-26-000728 | — | [S06] |
+| 2026-10-14 | 8-K | 0001575872-26-000701 | — | [S07] |
+| 2026-10-06 | 8-K | 0001575872-26-000675 | — | [S08] |
+| 2026-08-24 | 424B5 | 0001575872-26-000607 | — | [S09] |
+| 2026-08-24 | 424B5 | 0001575872-26-000606 | — | [S10] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001851491.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001851491.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001851491.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
 [S04] [10-Q 0001575872-26-000579](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000579/0001575872-26-000579-index.html) — published 2026-08-14; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S06] [8-K 0001575872-26-000701](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000701/0001575872-26-000701-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [8-K 0001575872-26-000728](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000728/0001575872-26-000728-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [8-K 0001575872-26-000675](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000675/0001575872-26-000675-index.html) — published 2026-10-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [8-K 0001575872-26-000701](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000701/0001575872-26-000701-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S08] [424B5 0001575872-26-000607](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000607/0001575872-26-000607-index.html) — published 2026-08-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S08] [8-K 0001575872-26-000675](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000675/0001575872-26-000675-index.html) — published 2026-10-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S09] [424B5 0001575872-26-000606](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000606/0001575872-26-000606-index.html) — published 2026-08-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S09] [424B5 0001575872-26-000607](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000607/0001575872-26-000607-index.html) — published 2026-08-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S10] [8-K 0001575872-26-000597](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000597/0001575872-26-000597-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [424B5 0001575872-26-000606](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000606/0001575872-26-000606-index.html) — published 2026-08-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMSS/README.md).
+[S56] [8-K 0001575872-26-000728](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000728/amss047_8k.htm) — published 2026-10-23; retrieved 2026-10-24T13:46:44.972341+00:00.
+
+[S57] [10-Q 0001575872-26-000579](https://www.sec.gov/Archives/edgar/data/1851491/000157587226000579/amass039_10q.htm) — published 2026-08-14; retrieved 2026-10-24T13:46:43.055480+00:00.
+
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMSS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

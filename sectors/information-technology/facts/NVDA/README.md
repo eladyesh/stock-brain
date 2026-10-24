@@ -8,14 +8,14 @@ tickers:
 - NVDA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/3f697433c3580d4ca83edbe44c66580ac926c8d7/sectors/information-technology/companies/NVDA/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/NVDA/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -59,7 +59,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json
     sha256: 19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff
-    retrieved_at: '2026-10-23T08:48:01.877894+00:00'
+    retrieved_at: '2026-10-24T05:30:46.861498+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0001045810.json
     sha256: 682c49d59116ae49b317eb4adddf3ef9142dfd97f59c5d8e5a5acad7f9058ab4
@@ -74,8 +74,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001045810.json
@@ -86,25 +86,25 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json
   published_at: null
-  retrieved_at: '2026-10-23T08:48:01.877894+00:00'
+  retrieved_at: '2026-10-24T05:30:46.861498+00:00'
   sha256: 19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff
 - id: S04
   title: 10-K 0001045810-26-000021
   url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html
   published_at: '2026-02-25'
-  retrieved_at: '2026-10-23T08:48:01.877894+00:00'
+  retrieved_at: '2026-10-24T05:30:46.861498+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001045810-26-000075
   url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html
   published_at: '2026-08-26'
-  retrieved_at: '2026-10-23T08:48:01.877894+00:00'
+  retrieved_at: '2026-10-24T05:30:46.861498+00:00'
   sha256: null
 - id: S09
   title: 10-Q 0001045810-26-000052
   url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html
   published_at: '2026-05-20'
-  retrieved_at: '2026-10-23T08:48:01.877894+00:00'
+  retrieved_at: '2026-10-24T05:30:46.861498+00:00'
   sha256: null
 - id: S17
   title: 4/A 0002152188-26-000007
@@ -191,16 +191,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/3f697433c3580d4ca83edbe44c66580ac926c8d7/sectors/information-technology/companies/NVDA/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NVDA/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+  source_url: https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/NVDA/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NVDA/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NVDA — NVIDIA CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NVDA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NVDA/README.md)
 
 ## Business overview
 
@@ -272,7 +272,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=102718000000
 Derived observation: Operating cash flow / net income was 0.86x for the year ended 2026-01-25. Working capital and non-cash adjustments require separate filing analysis. [S04]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=102718000000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=120067000000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:01.877894+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T05:30:46.861498+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -326,7 +326,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-23. Source retrieved: 2026-10-23T08:48:01.877894+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T05:30:46.861498+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -383,9 +383,9 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:27:18.944366+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:31:09.658399+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/3f697433c3580d4ca83edbe44c66580ac926c8d7/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -429,17 +429,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001045810.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json) — published not supplied; retrieved 2026-10-23T08:48:01.877894+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json) — published not supplied; retrieved 2026-10-24T05:30:46.861498+00:00.
 
-[S04] [10-K 0001045810-26-000021](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html) — published 2026-02-25; retrieved 2026-10-23T08:48:01.877894+00:00.
+[S04] [10-K 0001045810-26-000021](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.html) — published 2026-02-25; retrieved 2026-10-24T05:30:46.861498+00:00.
 
-[S05] [10-Q 0001045810-26-000075](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html) — published 2026-08-26; retrieved 2026-10-23T08:48:01.877894+00:00.
+[S05] [10-Q 0001045810-26-000075](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/0001045810-26-000075-index.html) — published 2026-08-26; retrieved 2026-10-24T05:30:46.861498+00:00.
 
-[S09] [10-Q 0001045810-26-000052](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html) — published 2026-05-20; retrieved 2026-10-23T08:48:01.877894+00:00.
+[S09] [10-Q 0001045810-26-000052](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.html) — published 2026-05-20; retrieved 2026-10-24T05:30:46.861498+00:00.
 
 [S17] [4/A 0002152188-26-000007](https://www.sec.gov/Archives/edgar/data/1045810/000215218826000007/0002152188-26-000007-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -451,6 +451,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001921094-26-001040](https://www.sec.gov/Archives/edgar/data/1045810/000192109426001040/0001921094-26-001040-index.html) — published 2026-09-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NVDA/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NVDA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

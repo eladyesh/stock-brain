@@ -8,11 +8,11 @@ tickers:
 - RELX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -42,11 +42,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000929869.json
-    sha256: 9afb6e39eb4726d01a7e8cf29cb4311324a50539ed507a0656adefc660e99d1f
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: b3d54c47e5908aac810aafe044d92a7aad6decff2436d6c8441d6ae891813e5b
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0000929869.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -54,43 +54,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000929869.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9afb6e39eb4726d01a7e8cf29cb4311324a50539ed507a0656adefc660e99d1f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: b3d54c47e5908aac810aafe044d92a7aad6decff2436d6c8441d6ae891813e5b
 - id: S03
+  title: 6-K 0000929869-26-000077
+  url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000077/0000929869-26-000077-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0000929869-26-000075
   url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000075/0000929869-26-000075-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0000929869-26-000073
   url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000073/0000929869-26-000073-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0000929869-26-000071
   url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000071/0000929869-26-000071-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 6-K 0000929869-26-000068
   url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000068/0000929869-26-000068-index.html
   published_at: '2026-09-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0000929869-26-000066
-  url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000066/0000929869-26-000066-index.html
-  published_at: '2026-09-01'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0000929869
@@ -102,8 +102,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9afb6e39eb4726d01a7e8cf29cb4311324a50539ed507a0656adefc660e99d1f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: b3d54c47e5908aac810aafe044d92a7aad6decff2436d6c8441d6ae891813e5b
   url: https://data.sec.gov/submissions/CIK0000929869.json
 listings:
 - ticker: RELX
@@ -114,13 +114,13 @@ research_filings:
   filed: '2026-02-19'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/929869/000110465926017277/0001104659-26-017277-index.html
-- accession: 0000929869-26-000075
-  filed: '2026-10-22'
+- accession: 0000929869-26-000077
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000075/0000929869-26-000075-index.html
+  url: https://www.sec.gov/Archives/edgar/data/929869/000092986926000077/0000929869-26-000077-index.html
 research_progress:
   stage: pending
-  input_sha256: 47a93093415caa2470572d543541660a5569d55ad93a75b728af6dba841c55f5
+  input_sha256: 9568ddd55a6218370f282593414eb4b0ccff82cfab2041e3a1016d4518cf1405
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -140,15 +140,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000929869.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RELX/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RELX/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RELX — RELX PLC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RELX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RELX/README.md)
 
 ## Business overview
 
@@ -226,7 +226,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 25-NSE, 424B2, 424B3, 424B5, 6-K, 8-A12B, CERT, CORRESP, EFFECT, F-3ASR, F-6, FWP, IRANNOTICE, S-8, SC 13G/A, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:26:36.278849+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:30:34.012101+00:00.
 
 ### Research work queue
 
@@ -262,28 +262,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 6-K | 0000929869-26-000075 | — | [S03] |
-| 2026-10-22 | 6-K | 0000929869-26-000073 | — | [S04] |
-| 2026-10-01 | 6-K | 0000929869-26-000071 | — | [S05] |
-| 2026-09-08 | 6-K | 0000929869-26-000068 | — | [S06] |
-| 2026-09-01 | 6-K | 0000929869-26-000066 | — | [S07] |
+| 2026-10-23 | 6-K | 0000929869-26-000077 | — | [S03] |
+| 2026-10-22 | 6-K | 0000929869-26-000075 | — | [S04] |
+| 2026-10-22 | 6-K | 0000929869-26-000073 | — | [S05] |
+| 2026-10-01 | 6-K | 0000929869-26-000071 | — | [S06] |
+| 2026-09-08 | 6-K | 0000929869-26-000068 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000929869.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000929869.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0000929869-26-000075](https://www.sec.gov/Archives/edgar/data/929869/000092986926000075/0000929869-26-000075-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0000929869-26-000077](https://www.sec.gov/Archives/edgar/data/929869/000092986926000077/0000929869-26-000077-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0000929869-26-000073](https://www.sec.gov/Archives/edgar/data/929869/000092986926000073/0000929869-26-000073-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0000929869-26-000075](https://www.sec.gov/Archives/edgar/data/929869/000092986926000075/0000929869-26-000075-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0000929869-26-000071](https://www.sec.gov/Archives/edgar/data/929869/000092986926000071/0000929869-26-000071-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0000929869-26-000073](https://www.sec.gov/Archives/edgar/data/929869/000092986926000073/0000929869-26-000073-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [6-K 0000929869-26-000068](https://www.sec.gov/Archives/edgar/data/929869/000092986926000068/0000929869-26-000068-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0000929869-26-000071](https://www.sec.gov/Archives/edgar/data/929869/000092986926000071/0000929869-26-000071-index.html) — published 2026-10-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0000929869-26-000066](https://www.sec.gov/Archives/edgar/data/929869/000092986926000066/0000929869-26-000066-index.html) — published 2026-09-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0000929869-26-000068](https://www.sec.gov/Archives/edgar/data/929869/000092986926000068/0000929869-26-000068-index.html) — published 2026-09-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RELX/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RELX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

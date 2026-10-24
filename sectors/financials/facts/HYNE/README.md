@@ -8,11 +8,11 @@ tickers:
 - HYNE
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -31,6 +31,7 @@ financial_gap:
   - CORRESP
   - DEF 14A
   - EFFECT
+  - PRE 14A
   - S-1
   - S-1/A
   - SCHEDULE 13G
@@ -47,11 +48,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0002073153.json
-    sha256: eabdd1bc25deefb03ebdb9279a278c91425b66d3d7e965601da1933bc87c63a7
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 89243458f0fc4367ece0582b2e13a1bdef36e6e894892d7b2fd6f38c54261edb
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002073153.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -59,14 +60,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002073153.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: eabdd1bc25deefb03ebdb9279a278c91425b66d3d7e965601da1933bc87c63a7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 89243458f0fc4367ece0582b2e13a1bdef36e6e894892d7b2fd6f38c54261edb
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0002073153.json
@@ -92,40 +93,40 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S08
+  title: PRE 14A 0001104659-26-118479
+  url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926118479/0001104659-26-118479-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S09
   title: 4 0001104659-26-111728
   url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926111728/0001104659-26-111728-index.html
   published_at: '2026-09-29'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S09
+- id: S10
   title: 4 0001104659-26-104188
   url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926104188/0001104659-26-104188-index.html
   published_at: '2026-09-01'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S10
+- id: S11
   title: 4 0001104659-26-100943
   url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926100943/0001104659-26-100943-index.html
   published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S11
+- id: S12
   title: 10-Q 0001104659-26-094047
   url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926094047/0001104659-26-094047-index.html
   published_at: '2026-08-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
-  title: 8-K 0001104659-26-077320
-  url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926077320/0001104659-26-077320-index.html
-  published_at: '2026-06-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S20
+- id: S21
   title: 10-K 0001104659-26-035156
   url: https://www.sec.gov/Archives/edgar/data/2073153/000110465926035156/0001104659-26-035156-index.html
   published_at: '2026-03-26'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0002073153'
@@ -137,8 +138,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: eabdd1bc25deefb03ebdb9279a278c91425b66d3d7e965601da1933bc87c63a7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 89243458f0fc4367ece0582b2e13a1bdef36e6e894892d7b2fd6f38c54261edb
   url: https://data.sec.gov/submissions/CIK0002073153.json
 listings:
 - ticker: HYNE
@@ -185,15 +186,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002073153.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HYNE/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HYNE/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # HYNE — Hoyne Bancorp, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HYNE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HYNE/README.md)
 
 ## Business overview
 
@@ -241,7 +242,7 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Operating cash flow / net income was 5.35x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S20]
+Derived observation: Operating cash flow / net income was 5.35x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S21]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=1245094 USD (NetCashProvidedByUsedInOperatingActivities), net_income=232690 USD (NetIncomeLoss).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
@@ -355,7 +356,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:39.722762+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:38.922559+00:00.
 
 ### Research work queue
 
@@ -391,17 +392,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-29 | 4 | 0001104659-26-111728 | — | [S08] |
-| 2026-09-01 | 4 | 0001104659-26-104188 | — | [S09] |
-| 2026-08-25 | 4 | 0001104659-26-100943 | — | [S10] |
-| 2026-08-11 | 10-Q | 0001104659-26-094047 | — | [S11] |
-| 2026-06-24 | 8-K | 0001104659-26-077320 | — | [S12] |
+| 2026-10-23 | PRE 14A | 0001104659-26-118479 | — | [S08] |
+| 2026-09-29 | 4 | 0001104659-26-111728 | — | [S09] |
+| 2026-09-01 | 4 | 0001104659-26-104188 | — | [S10] |
+| 2026-08-25 | 4 | 0001104659-26-100943 | — | [S11] |
+| 2026-08-11 | 10-Q | 0001104659-26-094047 | — | [S12] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002073153.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002073153.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0002073153.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -411,18 +412,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001104659-26-059252](https://www.sec.gov/Archives/edgar/data/2073153/000110465926059252/0001104659-26-059252-index.html) — published 2026-05-12; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S08] [4 0001104659-26-111728](https://www.sec.gov/Archives/edgar/data/2073153/000110465926111728/0001104659-26-111728-index.html) — published 2026-09-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S08] [PRE 14A 0001104659-26-118479](https://www.sec.gov/Archives/edgar/data/2073153/000110465926118479/0001104659-26-118479-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S09] [4 0001104659-26-104188](https://www.sec.gov/Archives/edgar/data/2073153/000110465926104188/0001104659-26-104188-index.html) — published 2026-09-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S09] [4 0001104659-26-111728](https://www.sec.gov/Archives/edgar/data/2073153/000110465926111728/0001104659-26-111728-index.html) — published 2026-09-29; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S10] [4 0001104659-26-100943](https://www.sec.gov/Archives/edgar/data/2073153/000110465926100943/0001104659-26-100943-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [4 0001104659-26-104188](https://www.sec.gov/Archives/edgar/data/2073153/000110465926104188/0001104659-26-104188-index.html) — published 2026-09-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S11] [10-Q 0001104659-26-094047](https://www.sec.gov/Archives/edgar/data/2073153/000110465926094047/0001104659-26-094047-index.html) — published 2026-08-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [4 0001104659-26-100943](https://www.sec.gov/Archives/edgar/data/2073153/000110465926100943/0001104659-26-100943-index.html) — published 2026-08-25; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [8-K 0001104659-26-077320](https://www.sec.gov/Archives/edgar/data/2073153/000110465926077320/0001104659-26-077320-index.html) — published 2026-06-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [10-Q 0001104659-26-094047](https://www.sec.gov/Archives/edgar/data/2073153/000110465926094047/0001104659-26-094047-index.html) — published 2026-08-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [10-K 0001104659-26-035156](https://www.sec.gov/Archives/edgar/data/2073153/000110465926035156/0001104659-26-035156-index.html) — published 2026-03-26; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [10-K 0001104659-26-035156](https://www.sec.gov/Archives/edgar/data/2073153/000110465926035156/0001104659-26-035156-index.html) — published 2026-03-26; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/HYNE/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/HYNE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

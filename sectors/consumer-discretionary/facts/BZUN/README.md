@@ -8,11 +8,11 @@ tickers:
 - BZUN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,11 +56,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001625414.json
-    sha256: 7b406876cd6e2bf412ecf01b8547070b2a9e1421d8c780e723bf3a741d2b2b81
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 2d4c27e25f5dc5114251e76944e6ab60a21d4c0bb453ba3942fd7284c6cd249a
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001625414.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -68,43 +68,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001625414.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b406876cd6e2bf412ecf01b8547070b2a9e1421d8c780e723bf3a741d2b2b81
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2d4c27e25f5dc5114251e76944e6ab60a21d4c0bb453ba3942fd7284c6cd249a
 - id: S03
+  title: 4 0001104659-26-118281
+  url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926118281/0001104659-26-118281-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001104659-26-116408
   url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926116408/0001104659-26-116408-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0001104659-26-116383
   url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926116383/0001104659-26-116383-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001104659-26-115702
   url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926115702/0001104659-26-115702-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 6-K 0001104659-26-114862
   url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926114862/0001104659-26-114862-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001104659-26-113052
-  url: https://www.sec.gov/Archives/edgar/data/1625414/000110465926113052/0001104659-26-113052-index.html
-  published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001625414'
@@ -116,8 +116,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b406876cd6e2bf412ecf01b8547070b2a9e1421d8c780e723bf3a741d2b2b81
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 2d4c27e25f5dc5114251e76944e6ab60a21d4c0bb453ba3942fd7284c6cd249a
   url: https://data.sec.gov/submissions/CIK0001625414.json
 listings:
 - ticker: BZUN
@@ -158,15 +158,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001625414.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BZUN/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BZUN/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BZUN — Baozun Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BZUN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BZUN/README.md)
 
 ## Business overview
 
@@ -244,7 +244,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 20-F/A, 3, 3/A, 4, 424B4, 424B5, 6-K, 8-A12B, CERTNAS, CORRESP, DRS, DRS/A, DRSLTR, EFFECT, F-1, F-1/A, F-3, F-3/A, F-3ASR, F-6, F-6 POS, F-6EF, FWP, S-8, SC 13D, SC 13G, SC 13G/A, SC TO-I, SC TO-I/A, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:31:52.783017+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:34:38.181729+00:00.
 
 ### Research work queue
 
@@ -280,28 +280,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-16 | 6-K | 0001104659-26-116408 | — | [S03] |
-| 2026-10-16 | 4 | 0001104659-26-116383 | — | [S04] |
-| 2026-10-14 | 4 | 0001104659-26-115702 | — | [S05] |
-| 2026-10-09 | 6-K | 0001104659-26-114862 | — | [S06] |
-| 2026-10-02 | 6-K | 0001104659-26-113052 | — | [S07] |
+| 2026-10-23 | 4 | 0001104659-26-118281 | — | [S03] |
+| 2026-10-16 | 6-K | 0001104659-26-116408 | — | [S04] |
+| 2026-10-16 | 4 | 0001104659-26-116383 | — | [S05] |
+| 2026-10-14 | 4 | 0001104659-26-115702 | — | [S06] |
+| 2026-10-09 | 6-K | 0001104659-26-114862 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001625414.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001625414.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001104659-26-116408](https://www.sec.gov/Archives/edgar/data/1625414/000110465926116408/0001104659-26-116408-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [4 0001104659-26-118281](https://www.sec.gov/Archives/edgar/data/1625414/000110465926118281/0001104659-26-118281-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0001104659-26-116383](https://www.sec.gov/Archives/edgar/data/1625414/000110465926116383/0001104659-26-116383-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001104659-26-116408](https://www.sec.gov/Archives/edgar/data/1625414/000110465926116408/0001104659-26-116408-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001104659-26-115702](https://www.sec.gov/Archives/edgar/data/1625414/000110465926115702/0001104659-26-115702-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [4 0001104659-26-116383](https://www.sec.gov/Archives/edgar/data/1625414/000110465926116383/0001104659-26-116383-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [6-K 0001104659-26-114862](https://www.sec.gov/Archives/edgar/data/1625414/000110465926114862/0001104659-26-114862-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001104659-26-115702](https://www.sec.gov/Archives/edgar/data/1625414/000110465926115702/0001104659-26-115702-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001104659-26-113052](https://www.sec.gov/Archives/edgar/data/1625414/000110465926113052/0001104659-26-113052-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0001104659-26-114862](https://www.sec.gov/Archives/edgar/data/1625414/000110465926114862/0001104659-26-114862-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BZUN/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BZUN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

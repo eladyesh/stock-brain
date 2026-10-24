@@ -8,11 +8,11 @@ tickers:
 - MCRP
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -42,11 +42,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001993431.json
-    sha256: 2344197e2d0fc354ada6a7dacf74d5f9487618116cf99256c9e71d33b048f6b6
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 8f6b8815936c819e75f4598a241020291f364d6efcc1044c53d203f8e77b0dbb
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001993431.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -54,43 +54,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001993431.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 2344197e2d0fc354ada6a7dacf74d5f9487618116cf99256c9e71d33b048f6b6
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 8f6b8815936c819e75f4598a241020291f364d6efcc1044c53d203f8e77b0dbb
 - id: S03
+  title: 6-K 0001213900-26-112169
+  url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026112169/0001213900-26-112169-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001213900-26-111402
   url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026111402/0001213900-26-111402-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0001213900-26-106870
   url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026106870/0001213900-26-106870-index.html
   published_at: '2026-10-05'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: SCHEDULE 13G 0001213900-26-092658
   url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026092658/0001213900-26-092658-index.html
   published_at: '2026-08-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: SCHEDULE 13G 0001851416-26-000016
   url: https://www.sec.gov/Archives/edgar/data/1993431/000185141626000016/0001851416-26-000016-index.html
   published_at: '2026-05-27'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001213900-26-058751
-  url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026058751/0001213900-26-058751-index.html
-  published_at: '2026-05-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001993431
@@ -102,8 +102,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 2344197e2d0fc354ada6a7dacf74d5f9487618116cf99256c9e71d33b048f6b6
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 8f6b8815936c819e75f4598a241020291f364d6efcc1044c53d203f8e77b0dbb
   url: https://data.sec.gov/submissions/CIK0001993431.json
 listings:
 - ticker: MCRP
@@ -114,13 +114,13 @@ research_filings:
   filed: '2025-05-08'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/1993431/000121390025040772/0001213900-25-040772-index.html
-- accession: 0001213900-26-111402
-  filed: '2026-10-21'
+- accession: 0001213900-26-112169
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026111402/0001213900-26-111402-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1993431/000121390026112169/0001213900-26-112169-index.html
 research_progress:
   stage: pending
-  input_sha256: 809d7ddc3871fc35dba31cc9c7f9b38224c954fbee0e1811a5c6a9b07a0f8d36
+  input_sha256: 2953b732cbdbe05a0730d1760af1956c75ad5de29b3453f5e17407262c8412e9
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -140,15 +140,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001993431.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/MCRP/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MCRP/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MCRP — Micropolis AI Robotics
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/MCRP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MCRP/README.md)
 
 ## Business overview
 
@@ -226,7 +226,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 3, 424B3, 424B4, 6-K, 8-A12B, CERT, CORRESP, DRS, DRSLTR, EFFECT, F-1, F-1/A, FWP, NT 20-F, S-8, SCHEDULE 13G, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:30.571161+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:30.460975+00:00.
 
 ### Research work queue
 
@@ -262,28 +262,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 6-K | 0001213900-26-111402 | — | [S03] |
-| 2026-10-05 | 6-K | 0001213900-26-106870 | — | [S04] |
-| 2026-08-21 | SCHEDULE 13G | 0001213900-26-092658 | — | [S05] |
-| 2026-05-27 | SCHEDULE 13G | 0001851416-26-000016 | — | [S06] |
-| 2026-05-19 | 6-K | 0001213900-26-058751 | — | [S07] |
+| 2026-10-23 | 6-K | 0001213900-26-112169 | — | [S03] |
+| 2026-10-21 | 6-K | 0001213900-26-111402 | — | [S04] |
+| 2026-10-05 | 6-K | 0001213900-26-106870 | — | [S05] |
+| 2026-08-21 | SCHEDULE 13G | 0001213900-26-092658 | — | [S06] |
+| 2026-05-27 | SCHEDULE 13G | 0001851416-26-000016 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001993431.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001993431.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001213900-26-111402](https://www.sec.gov/Archives/edgar/data/1993431/000121390026111402/0001213900-26-111402-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001213900-26-112169](https://www.sec.gov/Archives/edgar/data/1993431/000121390026112169/0001213900-26-112169-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0001213900-26-106870](https://www.sec.gov/Archives/edgar/data/1993431/000121390026106870/0001213900-26-106870-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001213900-26-111402](https://www.sec.gov/Archives/edgar/data/1993431/000121390026111402/0001213900-26-111402-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [SCHEDULE 13G 0001213900-26-092658](https://www.sec.gov/Archives/edgar/data/1993431/000121390026092658/0001213900-26-092658-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001213900-26-106870](https://www.sec.gov/Archives/edgar/data/1993431/000121390026106870/0001213900-26-106870-index.html) — published 2026-10-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [SCHEDULE 13G 0001851416-26-000016](https://www.sec.gov/Archives/edgar/data/1993431/000185141626000016/0001851416-26-000016-index.html) — published 2026-05-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [SCHEDULE 13G 0001213900-26-092658](https://www.sec.gov/Archives/edgar/data/1993431/000121390026092658/0001213900-26-092658-index.html) — published 2026-08-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001213900-26-058751](https://www.sec.gov/Archives/edgar/data/1993431/000121390026058751/0001213900-26-058751-index.html) — published 2026-05-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [SCHEDULE 13G 0001851416-26-000016](https://www.sec.gov/Archives/edgar/data/1993431/000185141626000016/0001851416-26-000016-index.html) — published 2026-05-27; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/MCRP/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MCRP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

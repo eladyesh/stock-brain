@@ -8,11 +8,11 @@ tickers:
 - DKL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -66,11 +66,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001552797.json
-    sha256: c82df5e3a95425aa12c78639f2d26d5daa4c927966c2b8a0e6b2c8dad41dfd53
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: a4455f2c4eee3aa341a6f135a0cf58e440024bd2a5855e25a2a6408512f21496
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001552797.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -78,14 +78,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001552797.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c82df5e3a95425aa12c78639f2d26d5daa4c927966c2b8a0e6b2c8dad41dfd53
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a4455f2c4eee3aa341a6f135a0cf58e440024bd2a5855e25a2a6408512f21496
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001552797.json
@@ -111,34 +111,34 @@ sources:
   retrieved_at: '2026-10-22T18:29:44.172178+00:00'
   sha256: null
 - id: S19
+  title: 8-K 0001628280-26-067064
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026067064/0001628280-26-067064-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S20
   title: SCHEDULE 13G/A 0001398344-26-017981
   url: https://www.sec.gov/Archives/edgar/data/1552797/000139834426017981/0001398344-26-017981-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 4 0002044248-26-000019
   url: https://www.sec.gov/Archives/edgar/data/1552797/000204424826000019/0002044248-26-000019-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: 4 0001908422-26-000021
   url: https://www.sec.gov/Archives/edgar/data/1552797/000190842226000021/0001908422-26-000021-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S22
+- id: S23
   title: 4 0001642080-26-000019
   url: https://www.sec.gov/Archives/edgar/data/1552797/000164208026000019/0001642080-26-000019-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S23
-  title: 4 0001615515-26-000030
-  url: https://www.sec.gov/Archives/edgar/data/1552797/000161551526000030/0001615515-26-000030-index.html
-  published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001552797
@@ -150,8 +150,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: c82df5e3a95425aa12c78639f2d26d5daa4c927966c2b8a0e6b2c8dad41dfd53
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a4455f2c4eee3aa341a6f135a0cf58e440024bd2a5855e25a2a6408512f21496
   url: https://data.sec.gov/submissions/CIK0001552797.json
 listings:
 - ticker: DKL
@@ -168,10 +168,10 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026053097/0001628280-26-053097-index.html
-- accession: 0001193125-26-352363
-  filed: '2026-08-14'
+- accession: 0001628280-26-067064
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1552797/000119312526352363/0001193125-26-352363-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026067064/0001628280-26-067064-index.html
 - accession: 0001552797-22-000081
   filed: '2022-07-13'
   form: 8-K/A
@@ -194,7 +194,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1552797/000155279713000022/0001552797-13-000022-index.html
 research_progress:
   stage: pending
-  input_sha256: a6210170f0cf859ab6fb1eefa7a42c673d68023547fa77bc0b50d75970574ece
+  input_sha256: b78ed93b93484eb3f28024edb0ea1e67d37517077b7fa0cfc43f7a32abe6b807
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -214,15 +214,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001552797.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/DKL/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/DKL/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # DKL — Delek Logistics Partners, LP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/DKL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/DKL/README.md)
 
 ## Business overview
 
@@ -408,7 +408,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:31:09.246008+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:34:06.339478+00:00.
 
 ### Research work queue
 
@@ -444,17 +444,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-07 | SCHEDULE 13G/A | 0001398344-26-017981 | — | [S19] |
-| 2026-09-14 | 4 | 0002044248-26-000019 | — | [S20] |
-| 2026-09-14 | 4 | 0001908422-26-000021 | — | [S21] |
-| 2026-09-14 | 4 | 0001642080-26-000019 | — | [S22] |
-| 2026-09-14 | 4 | 0001615515-26-000030 | — | [S23] |
+| 2026-10-23 | 8-K | 0001628280-26-067064 | — | [S19] |
+| 2026-10-07 | SCHEDULE 13G/A | 0001398344-26-017981 | — | [S20] |
+| 2026-09-14 | 4 | 0002044248-26-000019 | — | [S21] |
+| 2026-09-14 | 4 | 0001908422-26-000021 | — | [S22] |
+| 2026-09-14 | 4 | 0001642080-26-000019 | — | [S23] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001552797.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001552797.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001552797.json) — published not supplied; retrieved 2026-10-22T18:29:44.172178+00:00.
 
@@ -464,16 +464,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001628280-26-028277](https://www.sec.gov/Archives/edgar/data/1552797/000162828026028277/0001628280-26-028277-index.html) — published 2026-04-29; retrieved 2026-10-22T18:29:44.172178+00:00.
 
-[S19] [SCHEDULE 13G/A 0001398344-26-017981](https://www.sec.gov/Archives/edgar/data/1552797/000139834426017981/0001398344-26-017981-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001628280-26-067064](https://www.sec.gov/Archives/edgar/data/1552797/000162828026067064/0001628280-26-067064-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0002044248-26-000019](https://www.sec.gov/Archives/edgar/data/1552797/000204424826000019/0002044248-26-000019-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [SCHEDULE 13G/A 0001398344-26-017981](https://www.sec.gov/Archives/edgar/data/1552797/000139834426017981/0001398344-26-017981-index.html) — published 2026-10-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001908422-26-000021](https://www.sec.gov/Archives/edgar/data/1552797/000190842226000021/0001908422-26-000021-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0002044248-26-000019](https://www.sec.gov/Archives/edgar/data/1552797/000204424826000019/0002044248-26-000019-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [4 0001642080-26-000019](https://www.sec.gov/Archives/edgar/data/1552797/000164208026000019/0001642080-26-000019-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [4 0001908422-26-000021](https://www.sec.gov/Archives/edgar/data/1552797/000190842226000021/0001908422-26-000021-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S23] [4 0001615515-26-000030](https://www.sec.gov/Archives/edgar/data/1552797/000161551526000030/0001615515-26-000030-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S23] [4 0001642080-26-000019](https://www.sec.gov/Archives/edgar/data/1552797/000164208026000019/0001642080-26-000019-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/DKL/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/DKL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

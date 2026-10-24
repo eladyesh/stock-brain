@@ -8,11 +8,11 @@ tickers:
 - AMR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -68,11 +68,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001704715.json
-    sha256: 62a5f57f7eec1db130eb99efacb67f081a396613562b12fce9258d1da1666c30
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: aae22d3287c3c8bdd95cf836605767dfe8e4dcc81bbe0ebf73e4d44fe9bbf735
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001704715.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -80,14 +80,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001704715.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 62a5f57f7eec1db130eb99efacb67f081a396613562b12fce9258d1da1666c30
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: aae22d3287c3c8bdd95cf836605767dfe8e4dcc81bbe0ebf73e4d44fe9bbf735
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001704715.json
@@ -113,41 +113,53 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001704715-26-000038
+  url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000038/0001704715-26-000038-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: SD 0001704715-26-000035
   url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000035/0001704715-26-000035-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0001812746-26-000012
   url: https://www.sec.gov/Archives/edgar/data/1704715/000181274626000012/0001812746-26-000012-index.html
   published_at: '2026-09-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001812746-26-000011
   url: https://www.sec.gov/Archives/edgar/data/1704715/000181274626000011/0001812746-26-000011-index.html
   published_at: '2026-08-31'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 4 0001812746-26-000010
   url: https://www.sec.gov/Archives/edgar/data/1704715/000181274626000010/0001812746-26-000010-index.html
   published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
-  title: 4 0000921895-26-002305
-  url: https://www.sec.gov/Archives/edgar/data/1704715/000092189526002305/0000921895-26-002305-index.html
-  published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S62
+- id: S63
   title: 10-K 0001704715-26-000010
   url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/0001704715-26-000010-index.html
   published_at: '2026-02-27'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000031/amr-20260630.htm
+  title: 10-Q 0001704715-26-000031
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-24T13:46:18.083474+00:00'
+  sha256: 92eec753e02648ca7de3ba77e7996a0262bb2050b432822be8d4d14804c3704e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/amr-20251231.htm
+  title: 10-K 0001704715-26-000010
+  published_at: '2026-02-27'
+  retrieved_at: '2026-10-24T13:46:14.452162+00:00'
+  sha256: 0bc0b036525a0fb730a848a1bd3b6a9020ebbb462428b193dffe8d10c8eea4ff
 issuer_classification:
   cik: '0001704715'
   classification_status: reported_sic
@@ -158,8 +170,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 62a5f57f7eec1db130eb99efacb67f081a396613562b12fce9258d1da1666c30
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: aae22d3287c3c8bdd95cf836605767dfe8e4dcc81bbe0ebf73e4d44fe9bbf735
   url: https://data.sec.gov/submissions/CIK0001704715.json
 listings:
 - ticker: AMR
@@ -180,10 +192,10 @@ research_filings:
   filed: '2026-03-31'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1704715/000114036126012338/0001140361-26-012338-index.html
-- accession: 0001704715-26-000032
-  filed: '2026-08-07'
+- accession: 0001704715-26-000038
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/0001704715-26-000032-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1704715/000170471526000038/0001704715-26-000038-index.html
 - accession: 0001704715-22-000039
   filed: '2022-08-10'
   form: 8-K/A
@@ -209,13 +221,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1704715/000162828019000431/0001628280-19-000431-index.html
 research_progress:
-  stage: pending
-  input_sha256: 4070978dd5b69c06c77fd9e5767fac21ade45e04cd05cb0521a395ea7cd0ec8b
-  last_attempt_at: null
-  last_success_at: null
+  stage: evidence_collected
+  input_sha256: 88240c2c5f2845677a219569af77c243bfc61dd2ccbeb737e11f34598653b9d0
+  last_attempt_at: '2026-10-24T13:43:29.782673+00:00'
+  last_success_at: '2026-10-24T13:43:29.782673+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -230,15 +253,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001704715.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMR/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMR/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMR — Alpha Metallurgical Resources, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMR/README.md)
 
 ## Business overview
 
@@ -252,17 +275,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L865:
+
+> The following discussion includes forward-looking statements about our business, financial condition and results of operations, including discussions about management’s expectations for our business. These statements represent projections, beliefs and expectations based on current circumstances and conditions and in light of recent events and trends, and you should not construe these statements either as assurances of performance or as promises of a given course of action. Instead, various known and unknown factors are likely to cause our actual performance and management’s actions to vary, and the results of these variances may be both material and adverse. See “Cautionary Statement Regarding Forward-Looking Statements” and “Item 1A. Risk Factors.” [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L811:
+
+> Met reportable segment results for the three and six months ended June 30, 2026 and 2025 are as follows: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-27, L754:
+
+> In addition, the steel industry’s demand for met coal is affected by a number of factors, including the variable nature of that industry’s business, technological developments in the steel-making process and the availability of substitutes for steel, such as aluminum, composites and plastics. The North American steel industry increasingly relies on processes to make steel that do not use coke, such as electric arc furnaces or pulverized coal processes. As this trend continues, the amount of met coal that we sell and the prices that we receive for it in North America could decrease, thereby reducing our revenues and adversely impacting our earnings and the value of our coal reserves. Lower demand for met coal in international markets for any reason would reduce the amount of met coal that we sell and the prices that we receive for it, thereby reducing our revenues and adversely impacting our earnings and the value of our coal reserves. Foreign government policies related to coal production and consumption could also negatively impact pricing and demand for our products. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L237:
+
+> •changes in domestic or international environmental laws and regulations, and court decisions, including those directly affecting our coal mining and production and those affecting our customers’ coal usage, including potential climate change initiatives; [S68]
 
 ## Industry and value chain
 
@@ -270,29 +309,45 @@ SEC-reported SIC **1221**: Bituminous Coal & Lignite Surface Mining. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1236:
+
+> We have exposure to commodity price risk for supplies that are used directly or indirectly in the normal course of production such as diesel fuel, steel and other items such as explosives. We manage our risk for these items through strategic sourcing contracts in normal quantities with our suppliers. [S68]
+
 Navigation sector: **energy**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-07, L226:
+
+> •worldwide market demand for coal and steel, including demand for U.S. coal exports, and competition in coal markets; [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1245:
+
+> Our transactions are denominated in U.S. dollars, and, as a result, we do not have material exposure to currency exchange-rate risks. However, our coal is sold internationally in U.S. dollars and, as a result, general economic conditions in foreign markets and changes in foreign currency exchange rates may provide our foreign competitors with a competitive advantage. If our competitors’ currencies decline against the U.S. dollar or against our foreign customers’ local currencies, those competitors may be able to offer lower prices for coal to customers. Furthermore, if the currencies of our overseas customers were to significantly decline in value in comparison to the U.S. dollar, those customers may seek decreased prices for the coal we sell to them. Consequently, currency fluctuations could adversely affect the competitiveness of our coal in international markets, which could have a material adverse effect on our business, financial condition, results of operations, and cash flows. [S68]
 
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1142:
+
+> secure our self-insured federal black lung obligations. Refer to the DCMWC Reauthorization Process section below for more information. Increased scrutiny of ESG matters specific to the coal sector could negatively influence our ability to raise capital in the future and result in a reduced number of surety and insurance providers. We may need to raise additional funds if market conditions deteriorate, if one or more of our assumptions prove to be incorrect or if we choose to expand our acquisition or development efforts or any other activity more rapidly than we presently anticipate and we may not be able to do so in a timely fashion, on terms acceptable to us, or at all. Additionally, we may elect to raise additional funds before we need them if the conditions for raising capital are favorable. We may seek to sell equity or debt securities or obtain additional bank credit facilities. The sale of equity securities could result in dilution to our stockholders. The incurrence of additional indebtedness could result in increased fixed obligations and additional covenants that could restrict our operations. [S68]
+
 ## Financial performance
 
-Derived observation: Annual operating income changed -126.93% from the year ended 2024-12-31 to 2025-12-31. [S62]
+Derived observation: Annual operating income changed -126.93% from the year ended 2024-12-31 to 2025-12-31. [S63]
 Formula: `(current / prior - 1) * 100`. Inputs: operating_income=-61366000 USD (OperatingIncomeLoss), operating_income=227854000 USD (OperatingIncomeLoss).
 
-Derived observation: Annual net income changed -132.89% from the year ended 2024-12-31 to 2025-12-31. [S62]
+Derived observation: Annual net income changed -132.89% from the year ended 2024-12-31 to 2025-12-31. [S63]
 Formula: `(current / prior - 1) * 100`. Inputs: net_income=-61687000 USD (NetIncomeLoss), net_income=187579000 USD (NetIncomeLoss).
 
-Derived observation: Annual operating cash flow changed -75.01% from the year ended 2024-12-31 to 2025-12-31. [S62]
+Derived observation: Annual operating cash flow changed -75.01% from the year ended 2024-12-31 to 2025-12-31. [S63]
 Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=144926000 USD (NetCashProvidedByUsedInOperatingActivities), operating_cash_flow=579919000 USD (NetCashProvidedByUsedInOperatingActivities).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
@@ -389,6 +444,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L616:
+
+> The total authorization to repurchase the Company’s stock under the existing common share repurchase program adopted by the Company’s Board of Directors on March 4, 2022 is $1,500,000. As of June 30, 2026, the Company had repurchased an aggregate of 7,035,097 shares under the plan for an aggregate purchase price of approximately $1,169,915 (comprised of $1,169,704 of share repurchases and $211 of related fees). [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -401,34 +460,38 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L255:
+
+> •other factors, including the other factors discussed in the “Management’s Discussion and Analysis of Financial Condition and Results of Operations” section included elsewhere in this Quarterly Report on Form 10-Q and the “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and “Risk Factors” sections included in our Annual Report on Form 10-K for the year ended December 31, 2025. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:32:32.921712+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:09.498138+00:00.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -442,17 +505,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-14 | SD | 0001704715-26-000035 | — | [S17] |
-| 2026-09-08 | 4 | 0001812746-26-000012 | — | [S18] |
-| 2026-08-31 | 4 | 0001812746-26-000011 | — | [S19] |
-| 2026-08-25 | 4 | 0001812746-26-000010 | — | [S20] |
-| 2026-08-25 | 4 | 0000921895-26-002305 | — | [S21] |
+| 2026-10-23 | 8-K | 0001704715-26-000038 | — | [S17] |
+| 2026-09-14 | SD | 0001704715-26-000035 | — | [S18] |
+| 2026-09-08 | 4 | 0001812746-26-000012 | — | [S19] |
+| 2026-08-31 | 4 | 0001812746-26-000011 | — | [S20] |
+| 2026-08-25 | 4 | 0001812746-26-000010 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001704715.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001704715.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001704715.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -462,18 +525,22 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001704715-26-000018](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000018/0001704715-26-000018-index.html) — published 2026-05-08; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S17] [SD 0001704715-26-000035](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000035/0001704715-26-000035-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001704715-26-000038](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000038/0001704715-26-000038-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001812746-26-000012](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000012/0001812746-26-000012-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [SD 0001704715-26-000035](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000035/0001704715-26-000035-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001812746-26-000011](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000011/0001812746-26-000011-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001812746-26-000012](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000012/0001812746-26-000012-index.html) — published 2026-09-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0001812746-26-000010](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000010/0001812746-26-000010-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001812746-26-000011](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000011/0001812746-26-000011-index.html) — published 2026-08-31; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0000921895-26-002305](https://www.sec.gov/Archives/edgar/data/1704715/000092189526002305/0000921895-26-002305-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0001812746-26-000010](https://www.sec.gov/Archives/edgar/data/1704715/000181274626000010/0001812746-26-000010-index.html) — published 2026-08-25; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S62] [10-K 0001704715-26-000010](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/0001704715-26-000010-index.html) — published 2026-02-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S63] [10-K 0001704715-26-000010](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/0001704715-26-000010-index.html) — published 2026-02-27; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMR/README.md).
+[S68] [10-Q 0001704715-26-000031](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000031/amr-20260630.htm) — published 2026-08-07; retrieved 2026-10-24T13:46:18.083474+00:00.
+
+[S70] [10-K 0001704715-26-000010](https://www.sec.gov/Archives/edgar/data/1704715/000170471526000010/amr-20251231.htm) — published 2026-02-27; retrieved 2026-10-24T13:46:14.452162+00:00.
+
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

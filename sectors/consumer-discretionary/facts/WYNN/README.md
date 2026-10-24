@@ -8,11 +8,11 @@ tickers:
 - WYNN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -63,11 +63,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001174922.json
-    sha256: 338bf23a9a7de6b4290265d123fc73fcb8a15b5a2d7313edd0a3e8d82a823700
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 0fe5c46e87288936a003da1204da25222b7d5b19bf59d15e29c89b19f1bae308
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001174922.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -75,14 +75,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001174922.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 338bf23a9a7de6b4290265d123fc73fcb8a15b5a2d7313edd0a3e8d82a823700
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 0fe5c46e87288936a003da1204da25222b7d5b19bf59d15e29c89b19f1bae308
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001174922.json
@@ -108,34 +108,34 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001174922-26-000072
+  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000072/0001174922-26-000072-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 8-K 0001174922-26-000069
   url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/0001174922-26-000069-index.html
   published_at: '2026-09-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0002126294-26-000010
   url: https://www.sec.gov/Archives/edgar/data/1174922/000212629426000010/0002126294-26-000010-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001699174-26-000014
   url: https://www.sec.gov/Archives/edgar/data/1174922/000169917426000014/0001699174-26-000014-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 4 0002045912-26-000010
   url: https://www.sec.gov/Archives/edgar/data/1174922/000204591226000010/0002045912-26-000010-index.html
   published_at: '2026-09-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 8-K 0001174922-26-000066
-  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000066/0001174922-26-000066-index.html
-  published_at: '2026-09-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001174922
@@ -147,8 +147,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 338bf23a9a7de6b4290265d123fc73fcb8a15b5a2d7313edd0a3e8d82a823700
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 0fe5c46e87288936a003da1204da25222b7d5b19bf59d15e29c89b19f1bae308
   url: https://data.sec.gov/submissions/CIK0001174922.json
 listings:
 - ticker: WYNN
@@ -169,10 +169,10 @@ research_filings:
   filed: '2026-03-25'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1174922/000119312526124077/0001193125-26-124077-index.html
-- accession: 0001174922-26-000069
-  filed: '2026-09-22'
+- accession: 0001174922-26-000072
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/0001174922-26-000069-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000072/0001174922-26-000072-index.html
 - accession: 0001174922-23-000107
   filed: '2023-05-12'
   form: 8-K/A
@@ -203,7 +203,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1174922/000117492215000046/0001174922-15-000046-index.html
 research_progress:
   stage: pending
-  input_sha256: af81aff884874ee7807c71c2d683e7d08c9977a560eaeb78ce6d5b2596212a33
+  input_sha256: d4185c8902613178641944d51f5ac53d4f4e673c7d9548eb145898000e00c86f
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -223,15 +223,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001174922.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WYNN/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WYNN/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WYNN — WYNN RESORTS LTD
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WYNN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WYNN/README.md)
 
 ## Business overview
 
@@ -420,7 +420,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:28:29.677917+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:05.443707+00:00.
 
 ### Research work queue
 
@@ -454,17 +454,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-22 | 8-K | 0001174922-26-000069 | — | [S17] |
-| 2026-09-18 | 4 | 0002126294-26-000010 | — | [S18] |
-| 2026-09-18 | 4 | 0001699174-26-000014 | — | [S19] |
-| 2026-09-16 | 4 | 0002045912-26-000010 | — | [S20] |
-| 2026-09-11 | 8-K | 0001174922-26-000066 | — | [S21] |
+| 2026-10-23 | 8-K | 0001174922-26-000072 | — | [S17] |
+| 2026-09-22 | 8-K | 0001174922-26-000069 | — | [S18] |
+| 2026-09-18 | 4 | 0002126294-26-000010 | — | [S19] |
+| 2026-09-18 | 4 | 0001699174-26-000014 | — | [S20] |
+| 2026-09-16 | 4 | 0002045912-26-000010 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001174922.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001174922.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001174922.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -474,16 +474,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001174922-26-000035](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000035/0001174922-26-000035-index.html) — published 2026-05-07; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S17] [8-K 0001174922-26-000069](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/0001174922-26-000069-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001174922-26-000072](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000072/0001174922-26-000072-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0002126294-26-000010](https://www.sec.gov/Archives/edgar/data/1174922/000212629426000010/0002126294-26-000010-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001174922-26-000069](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000069/0001174922-26-000069-index.html) — published 2026-09-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001699174-26-000014](https://www.sec.gov/Archives/edgar/data/1174922/000169917426000014/0001699174-26-000014-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0002126294-26-000010](https://www.sec.gov/Archives/edgar/data/1174922/000212629426000010/0002126294-26-000010-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0002045912-26-000010](https://www.sec.gov/Archives/edgar/data/1174922/000204591226000010/0002045912-26-000010-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001699174-26-000014](https://www.sec.gov/Archives/edgar/data/1174922/000169917426000014/0001699174-26-000014-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001174922-26-000066](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000066/0001174922-26-000066-index.html) — published 2026-09-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0002045912-26-000010](https://www.sec.gov/Archives/edgar/data/1174922/000204591226000010/0002045912-26-000010-index.html) — published 2026-09-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WYNN/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WYNN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

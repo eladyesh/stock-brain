@@ -8,11 +8,11 @@ tickers:
 - NMCO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -55,11 +55,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001774342.json
-    sha256: 03c93e75e9043b4d6b50cbfe91db026753d3b48f3405f689ea3fdbe532ba0724
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 5bb07a15fb7280707f72c95c5af1f83e2b852b19090794a77bc8219209616606
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001774342.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -67,43 +67,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001774342.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 03c93e75e9043b4d6b50cbfe91db026753d3b48f3405f689ea3fdbe532ba0724
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 5bb07a15fb7280707f72c95c5af1f83e2b852b19090794a77bc8219209616606
 - id: S03
+  title: 4 0001193125-26-429600
+  url: https://www.sec.gov/Archives/edgar/data/1774342/000119312526429600/0001193125-26-429600-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 4 0001225208-26-008483
   url: https://www.sec.gov/Archives/edgar/data/1774342/000122520826008483/0001225208-26-008483-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0000070858-26-000498
   url: https://www.sec.gov/Archives/edgar/data/1774342/000007085826000498/0000070858-26-000498-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001225208-26-008363
   url: https://www.sec.gov/Archives/edgar/data/1774342/000122520826008363/0001225208-26-008363-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 4 0001193125-26-413364
   url: https://www.sec.gov/Archives/edgar/data/1774342/000119312526413364/0001193125-26-413364-index.html
   published_at: '2026-10-05'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 424B3 0001999371-26-021909
-  url: https://www.sec.gov/Archives/edgar/data/1774342/000199937126021909/0001999371-26-021909-index.html
-  published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001774342'
@@ -115,8 +115,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 03c93e75e9043b4d6b50cbfe91db026753d3b48f3405f689ea3fdbe532ba0724
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 5bb07a15fb7280707f72c95c5af1f83e2b852b19090794a77bc8219209616606
   url: https://data.sec.gov/submissions/CIK0001774342.json
 listings:
 - ticker: NMCO
@@ -150,15 +150,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NMCO/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NMCO/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NMCO — Nuveen Municipal Credit Opportunities Fund
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NMCO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NMCO/README.md)
 
 ## Business overview
 
@@ -234,7 +234,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 3, 4, 40-17G, 424B2, 424B3, 424B5, 497, 497AD, 8-A12B, 8-K, CERT, CORRESP, DEF 14A, EFFECT, N-2, N-2/A, N-23C-2, N-2ASR, N-8A, N-CEN, N-CSR, N-CSRS, N-PX, NPORT-P, POS EX, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SCHEDULE 13D/A, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:33:04.614075+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:35:33.254724+00:00.
 
 ### Research work queue
 
@@ -270,28 +270,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 4 | 0001225208-26-008483 | — | [S03] |
-| 2026-10-22 | 4 | 0000070858-26-000498 | — | [S04] |
-| 2026-10-09 | 4 | 0001225208-26-008363 | — | [S05] |
-| 2026-10-05 | 4 | 0001193125-26-413364 | — | [S06] |
-| 2026-10-02 | 424B3 | 0001999371-26-021909 | — | [S07] |
+| 2026-10-23 | 4 | 0001193125-26-429600 | — | [S03] |
+| 2026-10-22 | 4 | 0001225208-26-008483 | — | [S04] |
+| 2026-10-22 | 4 | 0000070858-26-000498 | — | [S05] |
+| 2026-10-09 | 4 | 0001225208-26-008363 | — | [S06] |
+| 2026-10-05 | 4 | 0001193125-26-413364 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001774342.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001774342.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [4 0001225208-26-008483](https://www.sec.gov/Archives/edgar/data/1774342/000122520826008483/0001225208-26-008483-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [4 0001193125-26-429600](https://www.sec.gov/Archives/edgar/data/1774342/000119312526429600/0001193125-26-429600-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0000070858-26-000498](https://www.sec.gov/Archives/edgar/data/1774342/000007085826000498/0000070858-26-000498-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [4 0001225208-26-008483](https://www.sec.gov/Archives/edgar/data/1774342/000122520826008483/0001225208-26-008483-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001225208-26-008363](https://www.sec.gov/Archives/edgar/data/1774342/000122520826008363/0001225208-26-008363-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [4 0000070858-26-000498](https://www.sec.gov/Archives/edgar/data/1774342/000007085826000498/0000070858-26-000498-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [4 0001193125-26-413364](https://www.sec.gov/Archives/edgar/data/1774342/000119312526413364/0001193125-26-413364-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001225208-26-008363](https://www.sec.gov/Archives/edgar/data/1774342/000122520826008363/0001225208-26-008363-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [424B3 0001999371-26-021909](https://www.sec.gov/Archives/edgar/data/1774342/000199937126021909/0001999371-26-021909-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [4 0001193125-26-413364](https://www.sec.gov/Archives/edgar/data/1774342/000119312526413364/0001193125-26-413364-index.html) — published 2026-10-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NMCO/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NMCO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

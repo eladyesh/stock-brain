@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **637**. Curated profiles: **7**. Reviewed research: **7**.
+Factual files: **639**. Curated profiles: **7**. Reviewed research: **7**.
 
-Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261024-40097864335-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -86,6 +86,8 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [AXTI](facts/AXTI/README.md) | AXT INC | available; quality gates apply | project_sic_rule |
 | [BAND](facts/BAND/README.md) | Bandwidth Inc. | missing | project_sic_rule |
 | [BB](facts/BB/README.md) | BLACKBERRY Ltd | available; quality gates apply | project_sic_rule |
+| [BDAI](facts/BDAI/README.md) | Biddance AI Systems, Inc. | missing | project_sic_rule |
+| [BEAG](facts/BEAG/README.md) | Bold Eagle Acquisition Corp. | available; quality gates apply | project_sic_rule |
 | [BELFA, BELFB](facts/BELFA/README.md) | BEL FUSE INC /NJ | available; quality gates apply | project_sic_rule |
 | [BHE](facts/BHE/README.md) | BENCHMARK ELECTRONICS INC | available; quality gates apply | project_sic_rule |
 | [BILI](facts/BILI/README.md) | Bilibili Inc. | missing | project_sic_rule |

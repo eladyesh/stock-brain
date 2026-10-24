@@ -8,11 +8,11 @@ tickers:
 - AZIO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -81,11 +81,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001563568.json
-    sha256: 803176f5c147706ea6baf084b918727a29a0dcc06fe42f4bcc9b454564ecac51
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 754fb5a7b44e1dad407262028abfa83a9e7ec89df04e69beddb9e1b4c8e76d32
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001563568.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -93,14 +93,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001563568.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 803176f5c147706ea6baf084b918727a29a0dcc06fe42f4bcc9b454564ecac51
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 754fb5a7b44e1dad407262028abfa83a9e7ec89df04e69beddb9e1b4c8e76d32
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001563568.json
@@ -126,41 +126,59 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S18
+  title: 8-K 0001437749-26-033434
+  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/0001437749-26-033434-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: DEF 14A 0001437749-26-032450
   url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/0001437749-26-032450-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 8-K 0001437749-26-031349
   url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926031349/0001437749-26-031349-index.html
   published_at: '2026-09-28'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: PRE 14A 0001437749-26-030750
   url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926030750/0001437749-26-030750-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: 3 0000898432-26-000706
   url: https://www.sec.gov/Archives/edgar/data/1563568/000089843226000706/0000898432-26-000706-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S22
-  title: 8-K 0001437749-26-030687
-  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926030687/0001437749-26-030687-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S63
+- id: S64
   title: 10-K 0001437749-26-012170
   url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926012170/0001437749-26-012170-index.html
   published_at: '2026-04-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/adom20261021_8k.htm
+  title: 8-K 0001437749-26-033434
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:49:28.724740+00:00'
+  sha256: 0638a701dfb857c31f372a51c6ada94d346b5865102653b1dcff6dd314b96050
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/adom20261009_def14a.htm
+  title: DEF 14A 0001437749-26-032450
+  published_at: '2026-10-09'
+  retrieved_at: '2026-10-24T13:49:26.696173+00:00'
+  sha256: 7f68a8f11d8517fba5f01677a2d8cdb2336e81bd4993aaa0f9d8719a3697baa5
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926028254/adom20260630_10q.htm
+  title: 10-Q 0001437749-26-028254
+  published_at: '2026-08-18'
+  retrieved_at: '2026-10-24T13:49:23.372098+00:00'
+  sha256: 98793c640311d01775011ef8be079da002f5298eb5d7e168abaf6236461dc17a
 issuer_classification:
   cik: 0001563568
   classification_status: reported_sic
@@ -171,8 +189,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 803176f5c147706ea6baf084b918727a29a0dcc06fe42f4bcc9b454564ecac51
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 754fb5a7b44e1dad407262028abfa83a9e7ec89df04e69beddb9e1b4c8e76d32
   url: https://data.sec.gov/submissions/CIK0001563568.json
 listings:
 - ticker: AZIO
@@ -193,10 +211,10 @@ research_filings:
   filed: '2026-10-09'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/0001437749-26-032450-index.html
-- accession: 0001437749-26-031349
-  filed: '2026-09-28'
+- accession: 0001437749-26-033434
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926031349/0001437749-26-031349-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/0001437749-26-033434-index.html
 - accession: 0001437749-26-030466
   filed: '2026-09-15'
   form: 8-K/A
@@ -206,13 +224,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1563568/000156459021020149/0001564590-21-020149-index.html
 research_progress:
-  stage: pending
-  input_sha256: 025f6e885d16b6898d18801dbc3e1b9a2b0a7f723a4bb5c74e981ede4793e7c3
-  last_attempt_at: null
-  last_success_at: null
+  stage: evidence_collected
+  input_sha256: 4993d5b28f86fcafd6ff7bad030bcb54d9b92e071e4d6ee8f791323b39c158ed
+  last_attempt_at: '2026-10-24T13:43:29.782673+00:00'
+  last_success_at: '2026-10-24T13:43:29.782673+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -227,15 +256,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001563568.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AZIO/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AZIO/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AZIO — AZIO AI HOLDINGS, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AZIO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AZIO/README.md)
 
 ## Business overview
 
@@ -249,17 +278,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-09, L650:
+
+> our ability to manage our expansion, growth and operating expenses and reduce and adequately control the costs and expenses associated with operating our business; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — DEF 14A, filed 2026-10-09, L950:
+
+> We currently operate under four reportable segments: (1) electric vehicles, (2) medical supplies, (3) AI infrastructure, and (4) drones, with our Chief Executive Officer serving as our chief operating decision maker for purposes of allocating resources and assessing segment performance. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-10-09, L660:
+
+> our ability and our manufacturing partners’ ability to navigate disruptions to the global supply chain and procure the raw materials, parts, and components necessary to produce our products on terms acceptable to us and our customers; [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-10-09, L660:
+
+> our ability and our manufacturing partners’ ability to navigate disruptions to the global supply chain and procure the raw materials, parts, and components necessary to produce our products on terms acceptable to us and our customers; [S69]
 
 ## Industry and value chain
 
@@ -267,29 +312,45 @@ SEC-reported SIC **3714**: Motor Vehicle Parts & Accessories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-09, L645:
+
+> our ability and our suppliers’ ability to scale our manufacturing and assembling processes effectively and quickly; [S69]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-18, L1159:
+
+> The Company is named as a defendant in litigation commenced in the Supreme Court of British Columbia, Canada, originally filed on December 17, 2019 by GreenPower Motor Company Inc. (“GreenPower”), along with certain related entities and individuals, including an executive officer of the Company. The claims generally allege, among other things, breach of fiduciary duty, misuse of confidential information, unfair competition, and related matters. The Company and the other named defendants have denied these allegations. In addition, certain of the defendants, including the Company, are named in a related counterclaim proceeding. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — DEF 14A, filed 2026-10-09, L1181:
+
+> Chris Young has served as the Chief Executive Officer and Chairman of the Board since July 2026. Mr. Young most recently served as Chief Executive Officer and Chairman of the Board of Directors of Legacy Azio AI from October 2025 until it was acquired by the Company in July 2026. He has served as an operator in the pre-seed and seed stages of eight startups, four of which achieved profitable exits, and has been involved in raising more than $245 million in pre-seed, seed, and Series A capital for startups and publicly traded companies. From March 2020 to October 2021, he was co-founder and President of Clubhouse Media Group, which reached a peak market capitalization of more than $2 billion and which he helped build into one of the largest publicly traded influencer-marketing agencies through strategic acquisitions and partnerships with leading creators and consumer brands. From January 2018 to January 2019, he served as Chief Strategy Officer of Cannabis Strategic Ventures, which reached a peak market capitalization of more than $1 billion, later serving as its Strategy Consultant from June 2019 to July 2022, and he co-founded one of the first California-based cannabis companies to trade on the U.S. OTC public markets. Since 2012, Mr. Young has been of counsel to Harris Tulchin & Associates Ltd., where his practice focuses on corporate and intellectual property law, and since … [S69]
 
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 
+Source excerpt — DEF 14A, filed 2026-10-09, L875:
+
+> We have a limited operating history in our AI data center, GPU compute, and digital power business, and our strategy in this area is unproven at scale. [S69]
+
 ## Financial performance
 
-Derived observation: Operating margin was -651.31% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S63]
+Derived observation: Operating margin was -651.31% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S64]
 Formula: `operating_income / revenue * 100`. Inputs: operating_income=-38681179 USD (OperatingIncomeLoss), revenue=5939008 USD (RevenueFromContractWithCustomerIncludingAssessedTax).
 
-Derived observation: Stock compensation / revenue was 10.77% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S63]
+Derived observation: Stock compensation / revenue was 10.77% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S64]
 Formula: `stock_based_compensation / revenue * 100`. Inputs: stock_based_compensation=639815 USD (ShareBasedCompensation), revenue=5939008 USD (RevenueFromContractWithCustomerIncludingAssessedTax).
 
-Derived observation: Annual revenue changed +217.58% from the year ended 2024-12-31 to 2025-12-31. [S63]
+Derived observation: Annual revenue changed +217.58% from the year ended 2024-12-31 to 2025-12-31. [S64]
 Formula: `(current / prior - 1) * 100`. Inputs: revenue=5939008 USD (RevenueFromContractWithCustomerIncludingAssessedTax), revenue=1870060 USD (RevenueFromContractWithCustomerIncludingAssessedTax).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:10:35.452616+00:00. [S03]
@@ -386,6 +447,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L75:
+
+> On October 21, 2026 (the “Effective Date”), Azio AI Holdings, Inc., a Delaware corporation (the “Company”), entered into a Revolving Credit Facility Agreement (the “Credit Agreement”) with Azio Corporation, a California corporation (the “Lender”), providing for an unsecured revolving credit facility of up to $2,300,000 (the “Loan Commitment”), inclusive of the Prior Advances (as defined below). Pursuant to the Credit Agreement, the Company may, from time to time, request loans (each, a “Loan” and collectively, “Loans”) from the Lender, up to the Loan Commitment. The Lender may, in its sole discretion, fund any Loan that would cause the aggregate principal balance of the Loans to exceed the Loan Commitment upon its prior written consent. Amounts borrowed under the Credit Agreement shall be evidenced by an unsecured revolving promissory note (the “Promissory Note”) executed by the Company and payable to the order of the Lender. Prior to entering into the Credit Agreement, the Lender provided the Company amounts totaling $2,225,000 (the “Prior Advances”). Pursuant to the Credit Agreement, the Company and the Lender agreed that the Prior Advances shall be deemed Loans and subject to the terms and conditions thereunder as of the Effective Date. Proceeds from the Credit Agreement may be used for working capital for the Company and such other uses as determined by the Board of … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -398,34 +463,38 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-09, L748:
+
+> You should read this Proxy Statement and the documents incorporated by reference herein completely and with the understanding that our actual results may differ materially from what we expect as expressed or implied by our forward-looking statements. Forward-looking statements are subject to a number of known and unknown risks, uncertainties, assumptions and other important factors, including, but not limited to, those described in the “Risk Factors” section contained in this Proxy Statement and under similar headings in the other documents that are incorporated by reference in this Proxy Statement. Moreover, we operate in an evolving environment. New risk factors and uncertainties may emerge from time to time, and it is not possible for management to predict all risk factors and uncertainties. In light of the significant risks and uncertainties to which our forward-looking statements are subject, you should not place undue reliance on such forward-looking statements or regard these statements as a representation or warranty by us or any other person that we will achieve our objectives and plans in any specified timeframe, or at all. These forward-looking statements represent our estimates and assumptions only as of the date made regardless of the time of delivery of this Proxy Statement. Except as required by law, we undertake no obligation to update or revise publicly any … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:31:15.432824+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:34:09.939455+00:00.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -439,17 +508,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-09 | DEF 14A | 0001437749-26-032450 | — | [S18] |
-| 2026-09-28 | 8-K | 0001437749-26-031349 | — | [S19] |
-| 2026-09-18 | PRE 14A | 0001437749-26-030750 | — | [S20] |
-| 2026-09-18 | 3 | 0000898432-26-000706 | — | [S21] |
-| 2026-09-17 | 8-K | 0001437749-26-030687 | — | [S22] |
+| 2026-10-23 | 8-K | 0001437749-26-033434 | — | [S18] |
+| 2026-10-09 | DEF 14A | 0001437749-26-032450 | — | [S19] |
+| 2026-09-28 | 8-K | 0001437749-26-031349 | — | [S20] |
+| 2026-09-18 | PRE 14A | 0001437749-26-030750 | — | [S21] |
+| 2026-09-18 | 3 | 0000898432-26-000706 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001563568.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001563568.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001563568.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -459,18 +528,24 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001437749-26-028254](https://www.sec.gov/Archives/edgar/data/1563568/000143774926028254/0001437749-26-028254-index.html) — published 2026-08-18; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S18] [DEF 14A 0001437749-26-032450](https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/0001437749-26-032450-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001437749-26-033434](https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/0001437749-26-033434-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [8-K 0001437749-26-031349](https://www.sec.gov/Archives/edgar/data/1563568/000143774926031349/0001437749-26-031349-index.html) — published 2026-09-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [DEF 14A 0001437749-26-032450](https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/0001437749-26-032450-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [PRE 14A 0001437749-26-030750](https://www.sec.gov/Archives/edgar/data/1563568/000143774926030750/0001437749-26-030750-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [8-K 0001437749-26-031349](https://www.sec.gov/Archives/edgar/data/1563568/000143774926031349/0001437749-26-031349-index.html) — published 2026-09-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [3 0000898432-26-000706](https://www.sec.gov/Archives/edgar/data/1563568/000089843226000706/0000898432-26-000706-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [PRE 14A 0001437749-26-030750](https://www.sec.gov/Archives/edgar/data/1563568/000143774926030750/0001437749-26-030750-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [8-K 0001437749-26-030687](https://www.sec.gov/Archives/edgar/data/1563568/000143774926030687/0001437749-26-030687-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [3 0000898432-26-000706](https://www.sec.gov/Archives/edgar/data/1563568/000089843226000706/0000898432-26-000706-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S63] [10-K 0001437749-26-012170](https://www.sec.gov/Archives/edgar/data/1563568/000143774926012170/0001437749-26-012170-index.html) — published 2026-04-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S64] [10-K 0001437749-26-012170](https://www.sec.gov/Archives/edgar/data/1563568/000143774926012170/0001437749-26-012170-index.html) — published 2026-04-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AZIO/README.md).
+[S68] [8-K 0001437749-26-033434](https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/adom20261021_8k.htm) — published 2026-10-23; retrieved 2026-10-24T13:49:28.724740+00:00.
+
+[S69] [DEF 14A 0001437749-26-032450](https://www.sec.gov/Archives/edgar/data/1563568/000143774926032450/adom20261009_def14a.htm) — published 2026-10-09; retrieved 2026-10-24T13:49:26.696173+00:00.
+
+[S71] [10-Q 0001437749-26-028254](https://www.sec.gov/Archives/edgar/data/1563568/000143774926028254/adom20260630_10q.htm) — published 2026-08-18; retrieved 2026-10-24T13:49:23.372098+00:00.
+
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AZIO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

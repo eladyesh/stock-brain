@@ -8,11 +8,11 @@ tickers:
 - CB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,11 +56,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000896159.json
-    sha256: 0cb01b691bad03b42afb01f2904dbd60798d6c1bf193b240d06a828026849df7
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 413511e971abe3deb38a1f4f5a5702278756955ba5a76b01541a64de58a3230f
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0000896159.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -68,43 +68,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000896159.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0cb01b691bad03b42afb01f2904dbd60798d6c1bf193b240d06a828026849df7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 413511e971abe3deb38a1f4f5a5702278756955ba5a76b01541a64de58a3230f
 - id: S03
+  title: 144 0001959173-26-007476
+  url: https://www.sec.gov/Archives/edgar/data/896159/000195917326007476/0001959173-26-007476-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 8-K 0001193125-26-426866
   url: https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/0001193125-26-426866-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0001193125-26-381892
   url: https://www.sec.gov/Archives/edgar/data/896159/000119312526381892/0001193125-26-381892-index.html
   published_at: '2026-09-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001193125-26-365134
   url: https://www.sec.gov/Archives/edgar/data/896159/000119312526365134/0001193125-26-365134-index.html
   published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 144 0001959173-26-006304
   url: https://www.sec.gov/Archives/edgar/data/896159/000195917326006304/0001959173-26-006304-index.html
   published_at: '2026-08-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 4 0001193125-26-323728
-  url: https://www.sec.gov/Archives/edgar/data/896159/000119312526323728/0001193125-26-323728-index.html
-  published_at: '2026-07-29'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0000896159
@@ -116,8 +116,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 0cb01b691bad03b42afb01f2904dbd60798d6c1bf193b240d06a828026849df7
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 413511e971abe3deb38a1f4f5a5702278756955ba5a76b01541a64de58a3230f
   url: https://data.sec.gov/submissions/CIK0000896159.json
 listings:
 - ticker: CB
@@ -164,15 +164,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000896159.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CB/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CB/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CB — Chubb Ltd
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CB/README.md)
 
 ## Business overview
 
@@ -250,7 +250,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit.
 - Forms observed in the retained filing inventory: 10-K, 10-Q, 13F-HR, 144, 144/A, 15-15D, 25-NSE, 3, 3/A, 4, 4/A, 424B2, 424B3, 5, 8-A12B, 8-K, ARS, CERT, CORRESP, DEF 14A, DEFA14A, FWP, IRANNOTICE, PRE 14A, PX14A6G, S-3ASR, S-8, S-8 POS, SC 13G, SC 13G/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-23T14:26:05.290923+00:00.
+- Collector status: quality_review_required; last action: filings_only_financials_incomplete; last checked: 2026-10-24T13:30:10.282602+00:00.
 
 ### Research work queue
 
@@ -286,28 +286,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | 8-K | 0001193125-26-426866 | — | [S03] |
-| 2026-09-03 | 4 | 0001193125-26-381892 | — | [S04] |
-| 2026-08-25 | 4 | 0001193125-26-365134 | — | [S05] |
-| 2026-08-21 | 144 | 0001959173-26-006304 | — | [S06] |
-| 2026-07-29 | 4 | 0001193125-26-323728 | — | [S07] |
+| 2026-10-23 | 144 | 0001959173-26-007476 | — | [S03] |
+| 2026-10-20 | 8-K | 0001193125-26-426866 | — | [S04] |
+| 2026-09-03 | 4 | 0001193125-26-381892 | — | [S05] |
+| 2026-08-25 | 4 | 0001193125-26-365134 | — | [S06] |
+| 2026-08-21 | 144 | 0001959173-26-006304 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000896159.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000896159.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [8-K 0001193125-26-426866](https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/0001193125-26-426866-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [144 0001959173-26-007476](https://www.sec.gov/Archives/edgar/data/896159/000195917326007476/0001959173-26-007476-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0001193125-26-381892](https://www.sec.gov/Archives/edgar/data/896159/000119312526381892/0001193125-26-381892-index.html) — published 2026-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [8-K 0001193125-26-426866](https://www.sec.gov/Archives/edgar/data/896159/000119312526426866/0001193125-26-426866-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001193125-26-365134](https://www.sec.gov/Archives/edgar/data/896159/000119312526365134/0001193125-26-365134-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [4 0001193125-26-381892](https://www.sec.gov/Archives/edgar/data/896159/000119312526381892/0001193125-26-381892-index.html) — published 2026-09-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [144 0001959173-26-006304](https://www.sec.gov/Archives/edgar/data/896159/000195917326006304/0001959173-26-006304-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001193125-26-365134](https://www.sec.gov/Archives/edgar/data/896159/000119312526365134/0001193125-26-365134-index.html) — published 2026-08-25; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [4 0001193125-26-323728](https://www.sec.gov/Archives/edgar/data/896159/000119312526323728/0001193125-26-323728-index.html) — published 2026-07-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [144 0001959173-26-006304](https://www.sec.gov/Archives/edgar/data/896159/000195917326006304/0001959173-26-006304-index.html) — published 2026-08-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CB/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

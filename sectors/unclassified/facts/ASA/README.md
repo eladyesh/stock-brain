@@ -8,11 +8,11 @@ tickers:
 - ASA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -45,6 +45,7 @@ financial_gap:
   - DFAN14A
   - DFRN14A
   - N-14 8C
+  - N-14 8C/A
   - N-2
   - N-8A
   - N-CEN
@@ -77,11 +78,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001230869.json
-    sha256: 7bfde7e9e0ccb71bde2bd08aabd31e94b3276ac91563ff4da3213c0842e71026
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 4ec7019f6a751d4b02568ec7f080e3fe0a80ce5854f2a7e2093798b6d621eef6
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001230869.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -89,43 +90,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001230869.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7bfde7e9e0ccb71bde2bd08aabd31e94b3276ac91563ff4da3213c0842e71026
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4ec7019f6a751d4b02568ec7f080e3fe0a80ce5854f2a7e2093798b6d621eef6
 - id: S03
+  title: PREC14A 0002071844-26-001462
+  url: https://www.sec.gov/Archives/edgar/data/1230869/000207184426001462/0002071844-26-001462-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
+  title: N-14 8C/A 0001398344-26-018662
+  url: https://www.sec.gov/Archives/edgar/data/1230869/000139834426018662/0001398344-26-018662-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S05
   title: DFAN14A 0001213900-26-110672
   url: https://www.sec.gov/Archives/edgar/data/1230869/000121390026110672/0001213900-26-110672-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S06
   title: PX14A6G 0001213900-26-099069
   url: https://www.sec.gov/Archives/edgar/data/1230869/000121390026099069/0001213900-26-099069-index.html
   published_at: '2026-09-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S07
   title: N-14 8C 0001398344-26-016877
   url: https://www.sec.gov/Archives/edgar/data/1230869/000139834426016877/0001398344-26-016877-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S06
-  title: PX14A6G 0001213900-26-097937
-  url: https://www.sec.gov/Archives/edgar/data/1230869/000121390026097937/0001213900-26-097937-index.html
-  published_at: '2026-09-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 8-K 0001398344-26-016643
-  url: https://www.sec.gov/Archives/edgar/data/1230869/000139834426016643/0001398344-26-016643-index.html
-  published_at: '2026-09-04'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001230869
@@ -137,8 +138,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7bfde7e9e0ccb71bde2bd08aabd31e94b3276ac91563ff4da3213c0842e71026
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4ec7019f6a751d4b02568ec7f080e3fe0a80ce5854f2a7e2093798b6d621eef6
   url: https://data.sec.gov/submissions/CIK0001230869.json
 listings:
 - ticker: ASA
@@ -172,15 +173,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ASA/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ASA/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASA — ASA Gold & Precious Metals Ltd
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ASA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ASA/README.md)
 
 ## Business overview
 
@@ -255,8 +256,8 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
-- Forms observed in the retained filing inventory: 13F-HR, 13F-HR/A, 144, 3, 4, 4/A, 40-17G, 40-APP, 40-APP/A, 497, 5, 8-A12B, 8-K, ADN-MTL, APP NTC, APP ORDR, CERT, CERTNYS, CORRESP, DEF 14A, DEFA14A, DEFC14A, DFAN14A, DFRN14A, N-14 8C, N-2, N-8A, N-CEN, N-CSR, N-CSRS, N-PX, N-Q, NPORT-P, NSAR-A, NSAR-B, NSAR-B/A, POS AMI, POS462C, PRE 14A, PREC14A, PRER14A, PRRN14A, PX14A6G, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:28:38.221207+00:00.
+- Forms observed in the retained filing inventory: 13F-HR, 13F-HR/A, 144, 3, 4, 4/A, 40-17G, 40-APP, 40-APP/A, 497, 5, 8-A12B, 8-K, ADN-MTL, APP NTC, APP ORDR, CERT, CERTNYS, CORRESP, DEF 14A, DEFA14A, DEFC14A, DFAN14A, DFRN14A, N-14 8C, N-14 8C/A, N-2, N-8A, N-CEN, N-CSR, N-CSRS, N-PX, N-Q, NPORT-P, NSAR-A, NSAR-B, NSAR-B/A, POS AMI, POS462C, PRE 14A, PREC14A, PRER14A, PRRN14A, PX14A6G, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:32:12.633053+00:00.
 
 ### Research work queue
 
@@ -292,28 +293,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | DFAN14A | 0001213900-26-110672 | — | [S03] |
-| 2026-09-11 | PX14A6G | 0001213900-26-099069 | — | [S04] |
-| 2026-09-10 | N-14 8C | 0001398344-26-016877 | — | [S05] |
-| 2026-09-08 | PX14A6G | 0001213900-26-097937 | — | [S06] |
-| 2026-09-04 | 8-K | 0001398344-26-016643 | — | [S07] |
+| 2026-10-23 | PREC14A | 0002071844-26-001462 | — | [S03] |
+| 2026-10-23 | N-14 8C/A | 0001398344-26-018662 | — | [S04] |
+| 2026-10-19 | DFAN14A | 0001213900-26-110672 | — | [S05] |
+| 2026-09-11 | PX14A6G | 0001213900-26-099069 | — | [S06] |
+| 2026-09-10 | N-14 8C | 0001398344-26-016877 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001230869.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001230869.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [DFAN14A 0001213900-26-110672](https://www.sec.gov/Archives/edgar/data/1230869/000121390026110672/0001213900-26-110672-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [PREC14A 0002071844-26-001462](https://www.sec.gov/Archives/edgar/data/1230869/000207184426001462/0002071844-26-001462-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [PX14A6G 0001213900-26-099069](https://www.sec.gov/Archives/edgar/data/1230869/000121390026099069/0001213900-26-099069-index.html) — published 2026-09-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [N-14 8C/A 0001398344-26-018662](https://www.sec.gov/Archives/edgar/data/1230869/000139834426018662/0001398344-26-018662-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [N-14 8C 0001398344-26-016877](https://www.sec.gov/Archives/edgar/data/1230869/000139834426016877/0001398344-26-016877-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [DFAN14A 0001213900-26-110672](https://www.sec.gov/Archives/edgar/data/1230869/000121390026110672/0001213900-26-110672-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [PX14A6G 0001213900-26-097937](https://www.sec.gov/Archives/edgar/data/1230869/000121390026097937/0001213900-26-097937-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [PX14A6G 0001213900-26-099069](https://www.sec.gov/Archives/edgar/data/1230869/000121390026099069/0001213900-26-099069-index.html) — published 2026-09-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [8-K 0001398344-26-016643](https://www.sec.gov/Archives/edgar/data/1230869/000139834426016643/0001398344-26-016643-index.html) — published 2026-09-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [N-14 8C 0001398344-26-016877](https://www.sec.gov/Archives/edgar/data/1230869/000139834426016877/0001398344-26-016877-index.html) — published 2026-09-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ASA/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ASA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

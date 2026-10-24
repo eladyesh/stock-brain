@@ -8,11 +8,11 @@ tickers:
 - UMAC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -70,11 +70,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001956955.json
-    sha256: e0a7483cf5a564b04518829cc5184e517a46fd7a15fc21511b6a35f24a70ea31
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: dfbef27c9479821f391a2e0a3a420bc753d96875320696f231e284db0853eb78
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001956955.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -82,14 +82,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001956955.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: e0a7483cf5a564b04518829cc5184e517a46fd7a15fc21511b6a35f24a70ea31
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: dfbef27c9479821f391a2e0a3a420bc753d96875320696f231e284db0853eb78
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001956955.json
@@ -115,34 +115,34 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S14
+  title: 8-K 0001683168-26-008046
+  url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826008046/0001683168-26-008046-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S15
   title: 8-K 0001683168-26-008013
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826008013/0001683168-26-008013-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S15
+- id: S16
   title: 8-K 0001683168-26-007699
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826007699/0001683168-26-007699-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S16
+- id: S17
   title: 4 0001683168-26-007655
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826007655/0001683168-26-007655-index.html
   published_at: '2026-10-06'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S17
+- id: S18
   title: DEF 14A 0001683168-26-006678
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826006678/0001683168-26-006678-index.html
   published_at: '2026-08-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S18
-  title: 4 0001683168-26-006653
-  url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826006653/0001683168-26-006653-index.html
-  published_at: '2026-08-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001956955
@@ -154,8 +154,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: e0a7483cf5a564b04518829cc5184e517a46fd7a15fc21511b6a35f24a70ea31
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: dfbef27c9479821f391a2e0a3a420bc753d96875320696f231e284db0853eb78
   url: https://data.sec.gov/submissions/CIK0001956955.json
 listings:
 - ticker: UMAC
@@ -176,10 +176,10 @@ research_filings:
   filed: '2026-08-24'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826006678/0001683168-26-006678-index.html
-- accession: 0001683168-26-008013
-  filed: '2026-10-22'
+- accession: 0001683168-26-008046
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826008013/0001683168-26-008013-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1956955/000168316826008046/0001683168-26-008046-index.html
 - accession: 0001683168-25-003348
   filed: '2025-05-09'
   form: 8-K/A
@@ -190,7 +190,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1956955/000168316824005779/0001683168-24-005779-index.html
 research_progress:
   stage: pending
-  input_sha256: 063c3c3d61e81daf78d08523269d2de4dd349ea847782567ebbb8520658d6b03
+  input_sha256: 08ca6652a662cc34e49219e468752005a6863030a6585f8589a2089f6cbc0541
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -210,15 +210,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001956955.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/UMAC/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/UMAC/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # UMAC — Unusual Machines, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/UMAC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/UMAC/README.md)
 
 ## Business overview
 
@@ -392,7 +392,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:26.003800+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:26.753041+00:00.
 
 ### Research work queue
 
@@ -428,17 +428,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 8-K | 0001683168-26-008013 | — | [S14] |
-| 2026-10-07 | 8-K | 0001683168-26-007699 | — | [S15] |
-| 2026-10-06 | 4 | 0001683168-26-007655 | — | [S16] |
-| 2026-08-24 | DEF 14A | 0001683168-26-006678 | — | [S17] |
-| 2026-08-21 | 4 | 0001683168-26-006653 | — | [S18] |
+| 2026-10-23 | 8-K | 0001683168-26-008046 | — | [S14] |
+| 2026-10-22 | 8-K | 0001683168-26-008013 | — | [S15] |
+| 2026-10-07 | 8-K | 0001683168-26-007699 | — | [S16] |
+| 2026-10-06 | 4 | 0001683168-26-007655 | — | [S17] |
+| 2026-08-24 | DEF 14A | 0001683168-26-006678 | — | [S18] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001956955.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001956955.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001956955.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -448,16 +448,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001683168-26-006016](https://www.sec.gov/Archives/edgar/data/1956955/000168316826006016/0001683168-26-006016-index.html) — published 2026-08-06; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S14] [8-K 0001683168-26-008013](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008013/0001683168-26-008013-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [8-K 0001683168-26-008046](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008046/0001683168-26-008046-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S15] [8-K 0001683168-26-007699](https://www.sec.gov/Archives/edgar/data/1956955/000168316826007699/0001683168-26-007699-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S15] [8-K 0001683168-26-008013](https://www.sec.gov/Archives/edgar/data/1956955/000168316826008013/0001683168-26-008013-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S16] [4 0001683168-26-007655](https://www.sec.gov/Archives/edgar/data/1956955/000168316826007655/0001683168-26-007655-index.html) — published 2026-10-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S16] [8-K 0001683168-26-007699](https://www.sec.gov/Archives/edgar/data/1956955/000168316826007699/0001683168-26-007699-index.html) — published 2026-10-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S17] [DEF 14A 0001683168-26-006678](https://www.sec.gov/Archives/edgar/data/1956955/000168316826006678/0001683168-26-006678-index.html) — published 2026-08-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [4 0001683168-26-007655](https://www.sec.gov/Archives/edgar/data/1956955/000168316826007655/0001683168-26-007655-index.html) — published 2026-10-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001683168-26-006653](https://www.sec.gov/Archives/edgar/data/1956955/000168316826006653/0001683168-26-006653-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [DEF 14A 0001683168-26-006678](https://www.sec.gov/Archives/edgar/data/1956955/000168316826006678/0001683168-26-006678-index.html) — published 2026-08-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/UMAC/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/UMAC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

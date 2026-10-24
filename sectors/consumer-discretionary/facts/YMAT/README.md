@@ -8,11 +8,11 @@ tickers:
 - YMAT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -43,11 +43,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001875016.json
-    sha256: d1b62c37282ade5e87b31e22afb70fe2b93aff221fbaf8aa135d67bdee22739b
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 843a392b36f56ce16c4cbbaf5c48f7e1fffb53d7100d2817601dd332bf2c3b4c
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001875016.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -55,43 +55,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001875016.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d1b62c37282ade5e87b31e22afb70fe2b93aff221fbaf8aa135d67bdee22739b
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 843a392b36f56ce16c4cbbaf5c48f7e1fffb53d7100d2817601dd332bf2c3b4c
 - id: S03
+  title: 6-K 0001493152-26-048239
+  url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226048239/0001493152-26-048239-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001493152-26-046580
   url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/0001493152-26-046580-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0001493152-26-044808
   url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226044808/0001493152-26-044808-index.html
   published_at: '2026-09-29'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0001493152-26-044624
   url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226044624/0001493152-26-044624-index.html
   published_at: '2026-09-28'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: EFFECT 9999999995-26-003042
   url: https://www.sec.gov/Archives/edgar/data/1875016/999999999526003042/9999999995-26-003042-index.html
   published_at: '2026-09-23'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: F-3/A 0001493152-26-042496
-  url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226042496/0001493152-26-042496-index.html
-  published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001875016
@@ -103,8 +103,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d1b62c37282ade5e87b31e22afb70fe2b93aff221fbaf8aa135d67bdee22739b
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 843a392b36f56ce16c4cbbaf5c48f7e1fffb53d7100d2817601dd332bf2c3b4c
   url: https://data.sec.gov/submissions/CIK0001875016.json
 listings:
 - ticker: YMAT
@@ -115,13 +115,13 @@ research_filings:
   filed: '2026-04-30'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226019802/0001493152-26-019802-index.html
-- accession: 0001493152-26-046580
-  filed: '2026-10-09'
+- accession: 0001493152-26-048239
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/0001493152-26-046580-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1875016/000149315226048239/0001493152-26-048239-index.html
 research_progress:
   stage: pending
-  input_sha256: 22a28e5df249af2e5a0100b21396da9bcefe96168755c60f4c2d8490c035fcc3
+  input_sha256: 09368203c8353a03f30caa0552bbb963805e28c3e7c2d40f40c864cdb3f9c7f6
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -141,15 +141,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001875016.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/YMAT/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/YMAT/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # YMAT — J-Star Holding Co., Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/YMAT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/YMAT/README.md)
 
 ## Business overview
 
@@ -227,7 +227,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 20-F, 3, 424B4, 6-K, 8-A12B, 8-A12B/A, CERT, CORRESP, DRS, DRS/A, DRSLTR, EFFECT, F-1, F-1/A, F-3, F-3/A, FWP, RW, S-8, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:07.909049+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:16.475118+00:00.
 
 ### Research work queue
 
@@ -263,28 +263,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-09 | 6-K | 0001493152-26-046580 | — | [S03] |
-| 2026-09-29 | 6-K | 0001493152-26-044808 | — | [S04] |
-| 2026-09-28 | 6-K | 0001493152-26-044624 | — | [S05] |
-| 2026-09-23 | EFFECT | 9999999995-26-003042 | — | [S06] |
-| 2026-09-14 | F-3/A | 0001493152-26-042496 | — | [S07] |
+| 2026-10-23 | 6-K | 0001493152-26-048239 | — | [S03] |
+| 2026-10-09 | 6-K | 0001493152-26-046580 | — | [S04] |
+| 2026-09-29 | 6-K | 0001493152-26-044808 | — | [S05] |
+| 2026-09-28 | 6-K | 0001493152-26-044624 | — | [S06] |
+| 2026-09-23 | EFFECT | 9999999995-26-003042 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001875016.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001875016.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001493152-26-046580](https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/0001493152-26-046580-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001493152-26-048239](https://www.sec.gov/Archives/edgar/data/1875016/000149315226048239/0001493152-26-048239-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0001493152-26-044808](https://www.sec.gov/Archives/edgar/data/1875016/000149315226044808/0001493152-26-044808-index.html) — published 2026-09-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001493152-26-046580](https://www.sec.gov/Archives/edgar/data/1875016/000149315226046580/0001493152-26-046580-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001493152-26-044624](https://www.sec.gov/Archives/edgar/data/1875016/000149315226044624/0001493152-26-044624-index.html) — published 2026-09-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001493152-26-044808](https://www.sec.gov/Archives/edgar/data/1875016/000149315226044808/0001493152-26-044808-index.html) — published 2026-09-29; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [EFFECT 9999999995-26-003042](https://www.sec.gov/Archives/edgar/data/1875016/999999999526003042/9999999995-26-003042-index.html) — published 2026-09-23; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0001493152-26-044624](https://www.sec.gov/Archives/edgar/data/1875016/000149315226044624/0001493152-26-044624-index.html) — published 2026-09-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [F-3/A 0001493152-26-042496](https://www.sec.gov/Archives/edgar/data/1875016/000149315226042496/0001493152-26-042496-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [EFFECT 9999999995-26-003042](https://www.sec.gov/Archives/edgar/data/1875016/999999999526003042/9999999995-26-003042-index.html) — published 2026-09-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/YMAT/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/YMAT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

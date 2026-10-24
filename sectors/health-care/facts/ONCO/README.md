@@ -8,11 +8,11 @@ tickers:
 - ONCO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -72,11 +72,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001782107.json
-    sha256: efaa1e14fe56da0b3fd94818264f025e99ec2a7306661292e70c5ddb8168fdf4
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: e307b963efb571adf0f4dee8994e1cb36d8cdfb760480edc829448e03ae1db95
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001782107.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -84,14 +84,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001782107.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: efaa1e14fe56da0b3fd94818264f025e99ec2a7306661292e70c5ddb8168fdf4
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: e307b963efb571adf0f4dee8994e1cb36d8cdfb760480edc829448e03ae1db95
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001782107.json
@@ -117,34 +117,34 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S18
+  title: DEFA14A 0001213900-26-111951
+  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026111951/0001213900-26-111951-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
+  title: 8-K 0001213900-26-111944
+  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026111944/0001213900-26-111944-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S20
+  title: 425 0001213900-26-111883
+  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026111883/0001213900-26-111883-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S21
   title: ARS 0001213900-26-110045
   url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026110045/0001213900-26-110045-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S22
   title: DEF 14A 0001213900-26-107480
   url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026107480/0001213900-26-107480-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S20
-  title: PRE 14A 0001213900-26-100837
-  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026100837/0001213900-26-100837-index.html
-  published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: DEFA14A 0001213900-26-099528
-  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026099528/0001213900-26-099528-index.html
-  published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S22
-  title: 8-K 0001213900-26-099524
-  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026099524/0001213900-26-099524-index.html
-  published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001782107
@@ -156,8 +156,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: efaa1e14fe56da0b3fd94818264f025e99ec2a7306661292e70c5ddb8168fdf4
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: e307b963efb571adf0f4dee8994e1cb36d8cdfb760480edc829448e03ae1db95
   url: https://data.sec.gov/submissions/CIK0001782107.json
 listings:
 - ticker: ONCO
@@ -178,10 +178,10 @@ research_filings:
   filed: '2026-10-07'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026107480/0001213900-26-107480-index.html
-- accession: 0001213900-26-099524
-  filed: '2026-09-14'
+- accession: 0001213900-26-111944
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026099524/0001213900-26-099524-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1782107/000121390026111944/0001213900-26-111944-index.html
 - accession: 0001213900-26-034054
   filed: '2026-03-25'
   form: 8-K/A
@@ -212,7 +212,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1782107/000121390022010779/0001213900-22-010779-index.html
 research_progress:
   stage: pending
-  input_sha256: f4054eee0416b8ab991495cbb320318637288c9dbdf7ce4377671a8eadc03d38
+  input_sha256: 2c62fb1bd08035979e8cd3e469bb25957067485aaa2445739e6b9d892b69e932
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -232,15 +232,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001782107.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ONCO/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ONCO/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ONCO — Onconetix, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ONCO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ONCO/README.md)
 
 ## Business overview
 
@@ -411,7 +411,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:09.632873+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:35.461670+00:00.
 
 ### Research work queue
 
@@ -447,17 +447,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-16 | ARS | 0001213900-26-110045 | — | [S18] |
-| 2026-10-07 | DEF 14A | 0001213900-26-107480 | — | [S19] |
-| 2026-09-17 | PRE 14A | 0001213900-26-100837 | — | [S20] |
-| 2026-09-14 | DEFA14A | 0001213900-26-099528 | — | [S21] |
-| 2026-09-14 | 8-K | 0001213900-26-099524 | — | [S22] |
+| 2026-10-23 | DEFA14A | 0001213900-26-111951 | — | [S18] |
+| 2026-10-23 | 8-K | 0001213900-26-111944 | — | [S19] |
+| 2026-10-23 | 425 | 0001213900-26-111883 | — | [S20] |
+| 2026-10-16 | ARS | 0001213900-26-110045 | — | [S21] |
+| 2026-10-07 | DEF 14A | 0001213900-26-107480 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001782107.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001782107.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001782107.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -467,16 +467,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S11] [10-Q 0001213900-26-055483](https://www.sec.gov/Archives/edgar/data/1782107/000121390026055483/0001213900-26-055483-index.html) — published 2026-05-13; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S18] [ARS 0001213900-26-110045](https://www.sec.gov/Archives/edgar/data/1782107/000121390026110045/0001213900-26-110045-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [DEFA14A 0001213900-26-111951](https://www.sec.gov/Archives/edgar/data/1782107/000121390026111951/0001213900-26-111951-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [DEF 14A 0001213900-26-107480](https://www.sec.gov/Archives/edgar/data/1782107/000121390026107480/0001213900-26-107480-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001213900-26-111944](https://www.sec.gov/Archives/edgar/data/1782107/000121390026111944/0001213900-26-111944-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [PRE 14A 0001213900-26-100837](https://www.sec.gov/Archives/edgar/data/1782107/000121390026100837/0001213900-26-100837-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [425 0001213900-26-111883](https://www.sec.gov/Archives/edgar/data/1782107/000121390026111883/0001213900-26-111883-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [DEFA14A 0001213900-26-099528](https://www.sec.gov/Archives/edgar/data/1782107/000121390026099528/0001213900-26-099528-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [ARS 0001213900-26-110045](https://www.sec.gov/Archives/edgar/data/1782107/000121390026110045/0001213900-26-110045-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [8-K 0001213900-26-099524](https://www.sec.gov/Archives/edgar/data/1782107/000121390026099524/0001213900-26-099524-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [DEF 14A 0001213900-26-107480](https://www.sec.gov/Archives/edgar/data/1782107/000121390026107480/0001213900-26-107480-index.html) — published 2026-10-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ONCO/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ONCO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

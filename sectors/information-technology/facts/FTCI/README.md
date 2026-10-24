@@ -8,11 +8,11 @@ tickers:
 - FTCI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -68,11 +68,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001828161.json
-    sha256: 378e7f2989f992bf92e1e03bccdbdc3ac872c3700a988ea35b4c0596d9ef838f
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 938045bee46754c9d2793d283ee6d1a123ce5201766bc2fca29d9dac1cb22fc2
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001828161.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -80,14 +80,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001828161.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 378e7f2989f992bf92e1e03bccdbdc3ac872c3700a988ea35b4c0596d9ef838f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 938045bee46754c9d2793d283ee6d1a123ce5201766bc2fca29d9dac1cb22fc2
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001828161.json
@@ -113,40 +113,40 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S18
-  title: DEFA14A 0001193125-26-425251
-  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526425251/0001193125-26-425251-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 4 0001193125-26-430732
+  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526430732/0001193125-26-430732-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S19
-  title: DEF 14A 0001193125-26-425240
-  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526425240/0001193125-26-425240-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 4 0001193125-26-430731
+  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526430731/0001193125-26-430731-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S20
-  title: ARS 0001193125-26-425233
-  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526425233/0001193125-26-425233-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 4 0001193125-26-430730
+  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526430730/0001193125-26-430730-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S21
-  title: 8-K 0001193125-26-419110
-  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526419110/0001193125-26-419110-index.html
-  published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 4 0001193125-26-430729
+  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526430729/0001193125-26-430729-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S22
-  title: PRE 14A 0001193125-26-417932
-  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526417932/0001193125-26-417932-index.html
-  published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 4 0001193125-26-430728
+  url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526430728/0001193125-26-430728-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S47
+- id: S53
   title: 10-K 0001193125-26-120372
   url: https://www.sec.gov/Archives/edgar/data/1828161/000119312526120372/0001193125-26-120372-index.html
   published_at: '2026-03-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001828161
@@ -158,8 +158,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 378e7f2989f992bf92e1e03bccdbdc3ac872c3700a988ea35b4c0596d9ef838f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 938045bee46754c9d2793d283ee6d1a123ce5201766bc2fca29d9dac1cb22fc2
   url: https://data.sec.gov/submissions/CIK0001828161.json
 listings:
 - ticker: FTCI
@@ -216,15 +216,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001828161.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FTCI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FTCI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # FTCI — FTC Solar, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FTCI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FTCI/README.md)
 
 ## Business overview
 
@@ -272,19 +272,19 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Operating margin was -35.53% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S47]
+Derived observation: Operating margin was -35.53% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S53]
 Formula: `operating_income / revenue * 100`. Inputs: operating_income=-35423000 USD (OperatingIncomeLoss), revenue=99687000 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Net margin was -79.83% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S47]
+Derived observation: Net margin was -79.83% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S53]
 Formula: `net_income / revenue * 100`. Inputs: net_income=-79577000 USD (NetIncomeLoss), revenue=99687000 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Free cash flow margin was -34.68% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S47]
+Derived observation: Free cash flow margin was -34.68% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S53]
 Formula: `free_cash_flow / revenue * 100`. Inputs: free_cash_flow=-34573000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment), revenue=99687000 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Stock compensation / revenue was 4.98% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S47]
+Derived observation: Stock compensation / revenue was 4.98% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S53]
 Formula: `stock_based_compensation / revenue * 100`. Inputs: stock_based_compensation=4960000 USD (ShareBasedCompensation), revenue=99687000 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Annual revenue changed +110.51% from the year ended 2024-12-31 to 2025-12-31. [S47]
+Derived observation: Annual revenue changed +110.51% from the year ended 2024-12-31 to 2025-12-31. [S53]
 Formula: `(current / prior - 1) * 100`. Inputs: revenue=99687000 USD (RevenueFromContractWithCustomerExcludingAssessedTax), revenue=47355000 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:10:35.452616+00:00. [S03]
@@ -398,7 +398,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:41.492008+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:56.773912+00:00.
 
 ### Research work queue
 
@@ -434,17 +434,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | DEFA14A | 0001193125-26-425251 | — | [S18] |
-| 2026-10-19 | DEF 14A | 0001193125-26-425240 | — | [S19] |
-| 2026-10-19 | ARS | 0001193125-26-425233 | — | [S20] |
-| 2026-10-09 | 8-K | 0001193125-26-419110 | — | [S21] |
-| 2026-10-08 | PRE 14A | 0001193125-26-417932 | — | [S22] |
+| 2026-10-23 | 4 | 0001193125-26-430732 | — | [S18] |
+| 2026-10-23 | 4 | 0001193125-26-430731 | — | [S19] |
+| 2026-10-23 | 4 | 0001193125-26-430730 | — | [S20] |
+| 2026-10-23 | 4 | 0001193125-26-430729 | — | [S21] |
+| 2026-10-23 | 4 | 0001193125-26-430728 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001828161.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001828161.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001828161.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -454,18 +454,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001193125-26-205290](https://www.sec.gov/Archives/edgar/data/1828161/000119312526205290/0001193125-26-205290-index.html) — published 2026-05-05; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S18] [DEFA14A 0001193125-26-425251](https://www.sec.gov/Archives/edgar/data/1828161/000119312526425251/0001193125-26-425251-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0001193125-26-430732](https://www.sec.gov/Archives/edgar/data/1828161/000119312526430732/0001193125-26-430732-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [DEF 14A 0001193125-26-425240](https://www.sec.gov/Archives/edgar/data/1828161/000119312526425240/0001193125-26-425240-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001193125-26-430731](https://www.sec.gov/Archives/edgar/data/1828161/000119312526430731/0001193125-26-430731-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [ARS 0001193125-26-425233](https://www.sec.gov/Archives/edgar/data/1828161/000119312526425233/0001193125-26-425233-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001193125-26-430730](https://www.sec.gov/Archives/edgar/data/1828161/000119312526430730/0001193125-26-430730-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001193125-26-419110](https://www.sec.gov/Archives/edgar/data/1828161/000119312526419110/0001193125-26-419110-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0001193125-26-430729](https://www.sec.gov/Archives/edgar/data/1828161/000119312526430729/0001193125-26-430729-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [PRE 14A 0001193125-26-417932](https://www.sec.gov/Archives/edgar/data/1828161/000119312526417932/0001193125-26-417932-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [4 0001193125-26-430728](https://www.sec.gov/Archives/edgar/data/1828161/000119312526430728/0001193125-26-430728-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S47] [10-K 0001193125-26-120372](https://www.sec.gov/Archives/edgar/data/1828161/000119312526120372/0001193125-26-120372-index.html) — published 2026-03-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S53] [10-K 0001193125-26-120372](https://www.sec.gov/Archives/edgar/data/1828161/000119312526120372/0001193125-26-120372-index.html) — published 2026-03-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FTCI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FTCI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

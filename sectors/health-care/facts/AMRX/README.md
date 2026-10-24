@@ -8,11 +8,11 @@ tickers:
 - AMRX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -77,11 +77,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001723128.json
-    sha256: 67d54db6501e04a1379ce831b6da5f1a1c4d8d9ebbc7291024b8f5d7ff184193
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 259744cdd6072190f412320d58c216773c44a9d25c3c9be303317434f2d24e88
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001723128.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -89,14 +89,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001723128.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 67d54db6501e04a1379ce831b6da5f1a1c4d8d9ebbc7291024b8f5d7ff184193
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 259744cdd6072190f412320d58c216773c44a9d25c3c9be303317434f2d24e88
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001723128.json
@@ -122,35 +122,47 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S17
+  title: 8-K/A 0001140361-26-040656
+  url: https://www.sec.gov/Archives/edgar/data/1723128/000114036126040656/0001140361-26-040656-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 4 0001628280-26-062915
   url: https://www.sec.gov/Archives/edgar/data/1723128/000162828026062915/0001628280-26-062915-index.html
   published_at: '2026-09-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0001628280-26-061836
   url: https://www.sec.gov/Archives/edgar/data/1723128/000162828026061836/0001628280-26-061836-index.html
   published_at: '2026-09-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: S-3ASR 0001140361-26-035617
   url: https://www.sec.gov/Archives/edgar/data/1723128/000114036126035617/0001140361-26-035617-index.html
   published_at: '2026-09-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 4 0001628280-26-060179
   url: https://www.sec.gov/Archives/edgar/data/1723128/000162828026060179/0001628280-26-060179-index.html
   published_at: '2026-09-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
-  title: 4 0001628280-26-058918
-  url: https://www.sec.gov/Archives/edgar/data/1723128/000162828026058918/0001628280-26-058918-index.html
-  published_at: '2026-08-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1723128/000172312826000031/amrx-20260630.htm
+  title: 10-Q 0001723128-26-000031
+  published_at: '2026-08-06'
+  retrieved_at: '2026-10-24T13:46:37.668055+00:00'
+  sha256: 859a8a4ac9b9aacdc7cadc37711e26325e836bfd00b29d4b77f6ebef9d873612
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1723128/000172312826000011/amrx-20251231.htm
+  title: 10-K 0001723128-26-000011
+  published_at: '2026-02-27'
+  retrieved_at: '2026-10-24T13:46:34.121616+00:00'
+  sha256: 494f420ffb758db02286f2d141cb1f61e056ea6bc6c22a812cfc6296c73ba806
 issuer_classification:
   cik: 0001723128
   classification_status: reported_sic
@@ -161,8 +173,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 67d54db6501e04a1379ce831b6da5f1a1c4d8d9ebbc7291024b8f5d7ff184193
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 259744cdd6072190f412320d58c216773c44a9d25c3c9be303317434f2d24e88
   url: https://data.sec.gov/submissions/CIK0001723128.json
 listings:
 - ticker: AMRX
@@ -187,6 +199,10 @@ research_filings:
   filed: '2026-08-10'
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1723128/000114036126032014/0001140361-26-032014-index.html
+- accession: 0001140361-26-040656
+  filed: '2026-10-23'
+  form: 8-K/A
+  url: https://www.sec.gov/Archives/edgar/data/1723128/000114036126040656/0001140361-26-040656-index.html
 - accession: 0001723128-25-000040
   filed: '2025-08-05'
   form: 8-K/A
@@ -215,18 +231,25 @@ research_filings:
   filed: '2019-03-01'
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1723128/000119312519059421/0001193125-19-059421-index.html
-- accession: 0001723128-18-000024
-  filed: '2018-07-12'
-  form: 8-K/A
-  url: https://www.sec.gov/Archives/edgar/data/1723128/000172312818000024/0001723128-18-000024-index.html
 research_progress:
-  stage: pending
-  input_sha256: 7414b2cc04a3984112a87c2adbc4956c2edce7dbf3415145b75fa3044674c576
-  last_attempt_at: null
-  last_success_at: null
+  stage: evidence_collected
+  input_sha256: 93a733f8d135e1456415d9e1b1e359ed283a97ac0bb9d481dfa4c578ccf01418
+  last_attempt_at: '2026-10-24T13:43:29.782673+00:00'
+  last_success_at: '2026-10-24T13:43:29.782673+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -241,15 +264,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001723128.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMRX/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMRX/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMRX — Amneal Pharmaceuticals, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMRX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMRX/README.md)
 
 ## Business overview
 
@@ -263,17 +286,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1246:
+
+> Amneal Pharmaceuticals, Inc. (the “Company”, “we,” “us,” or “our”) is a diversified, global biopharmaceutical company that develops, manufactures, markets, and distributes a diverse portfolio of essential medicines. Our Affordable Medicines segment includes retail generics, injectables, and biosimilars. In our Specialty segment, we offer a portfolio of branded pharmaceuticals focused primarily on central nervous system and endocrine disorders. Through our AvKARE segment, we are a distributor of pharmaceuticals and other products for the U.S. federal government, retail, and institutional markets. We operate principally in the U.S., India, and Ireland. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1250:
+
+> We have three reportable segments: Affordable Medicines, Specialty, and AvKARE. Refer to Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations in our 2025 Annual Report on Form 10-K for a description of our segments. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L169:
+
+> •the impact of illegal distribution and sale by third parties of counterfeit versions of our products or stolen products; [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-27, L330:
+
+> The pharmaceutical industry is highly competitive and influenced by technological innovation, new developments, government regulations, health care legislation, access to capital, and other factors. Many of our competitors have longer operating histories and significantly greater financial, R&D, marketing, and other resources than we do. Competing manufacturers of generic pharmaceutical products create value for our customers by offering substitutes for branded pharmaceutical products at significantly lower prices, and at times we may not be able to differentiate our product offerings from those of our competitors, successfully formulate and bring to market new products that are less expensive than those of our competitors or offer commercial terms as favorable as those of our competitors. We compete with numerous companies that currently operate, or intend to operate, in the pharmaceutical industry, including companies that are engaged in the development of controlled-release drug delivery technologies and products, biosimilars and other complex dosage forms, and other manufacturers that may [S71]
 
 ## Industry and value chain
 
@@ -281,19 +320,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1093:
+
+> On February 24, 2026, the Company entered into a master logistics services agreement with Direct Customer Solutions, LLC (“DCS”), a third-party logistics provider specializing in the life sciences industry. Under the agreement, DCS will provide logistics services on behalf of the Company, including transportation, warehousing, and end-to-end supply chain management for certain products. A member of Company management beneficially owns outstanding equity securities of DCS. [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L167:
+
+> •the competition we face in the pharmaceutical industry from brand and generic drug product companies, and the impact of that competition on our ability to set prices; [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L655:
+
+> On May 13, 2026, the Company entered into a License and Supply Agreement with Adalvo to develop, register and commercialize two generic tirzepatide products in the U.S. Pursuant to the agreement, the Company received exclusive rights to Adalvo’s regulatory dossiers and related intellectual property for use in obtaining U.S. regulatory approvals for the products. The Company is responsible for regulatory filings, commercialization and distribution, while Adalvo is responsible for development, manufacturing and supply of the products. The agreement provides for development, regulatory and commercial milestone payments of up to $21.0 million, including payments upon regulatory submissions and acceptance, regulatory approvals, product launches and achievement of a specified cumulative net sales threshold. The Company will share a portion of net profits from product sales with Adalvo, after deduction of agreed-upon costs, pursuant to the terms of the agreement. Profit share amounts are calculated and settled on a quarterly basis. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L161:
+
+> This Quarterly Report on Form 10-Q and other publicly available documents of Amneal Pharmaceuticals, Inc. contain “forward-looking statements” within the meaning of the safe harbor provisions of the United States (“U.S.”) Private Securities Litigation Reform Act of 1995. Management and representatives of Amneal Pharmaceuticals, Inc. and its subsidiaries (“the Company”, “we”, “us”, or “our”) also may from time to time make forward-looking statements. Forward-looking statements do not relate strictly to historical or current facts and reflect management’s assumptions, views, plans, objectives and projections about the future. Forward-looking statements may be identified by the use of words such as “plans,” “expects,” “will,” “anticipates,” “targets,” “estimates,” and other words of similar meaning in conjunction with, among other things: discussions of future operations; expected operating results and financial performance; impact of planned acquisitions and dispositions; our strategy for growth; product development; regulatory approvals; market position and expenditures. [S69]
 
 ## Financial performance
 
@@ -418,6 +473,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1096:
+
+> PharmaSophia, LLC (“PharmaSophia”) is a joint venture formed by Nava Pharma, LLC (“Nava”) and Oakwood Laboratories, LLC for the purpose of developing certain products. Certain executive officers of the Company beneficially own, directly and through certain revocable or irrevocable trusts for the benefit of their immediate families, outstanding equity securities of Nava. Nava beneficially owns 50% of the outstanding equity securities of PharmaSophia. In addition, these executive officers also serve on the Board of Managers of PharmaSophia. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -430,34 +489,38 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L194:
+
+> •such other factors as may be set forth elsewhere in (a) the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, particularly in the section entitled 1A. Risk Factors, and (b) Item 1A of Part II of this Quarterly Report on Form 10-Q, and our public filings with the SEC. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:32:42.372794+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:16.737669+00:00.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -471,17 +534,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-21 | 4 | 0001628280-26-062915 | — | [S17] |
-| 2026-09-14 | 4 | 0001628280-26-061836 | — | [S18] |
-| 2026-09-03 | S-3ASR | 0001140361-26-035617 | — | [S19] |
-| 2026-09-02 | 4 | 0001628280-26-060179 | — | [S20] |
-| 2026-08-25 | 4 | 0001628280-26-058918 | — | [S21] |
+| 2026-10-23 | 8-K/A | 0001140361-26-040656 | — | [S17] |
+| 2026-09-21 | 4 | 0001628280-26-062915 | — | [S18] |
+| 2026-09-14 | 4 | 0001628280-26-061836 | — | [S19] |
+| 2026-09-03 | S-3ASR | 0001140361-26-035617 | — | [S20] |
+| 2026-09-02 | 4 | 0001628280-26-060179 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001723128.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001723128.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001723128.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -491,16 +554,20 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001723128-26-000020](https://www.sec.gov/Archives/edgar/data/1723128/000172312826000020/0001723128-26-000020-index.html) — published 2026-05-07; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S17] [4 0001628280-26-062915](https://www.sec.gov/Archives/edgar/data/1723128/000162828026062915/0001628280-26-062915-index.html) — published 2026-09-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K/A 0001140361-26-040656](https://www.sec.gov/Archives/edgar/data/1723128/000114036126040656/0001140361-26-040656-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001628280-26-061836](https://www.sec.gov/Archives/edgar/data/1723128/000162828026061836/0001628280-26-061836-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0001628280-26-062915](https://www.sec.gov/Archives/edgar/data/1723128/000162828026062915/0001628280-26-062915-index.html) — published 2026-09-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [S-3ASR 0001140361-26-035617](https://www.sec.gov/Archives/edgar/data/1723128/000114036126035617/0001140361-26-035617-index.html) — published 2026-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001628280-26-061836](https://www.sec.gov/Archives/edgar/data/1723128/000162828026061836/0001628280-26-061836-index.html) — published 2026-09-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0001628280-26-060179](https://www.sec.gov/Archives/edgar/data/1723128/000162828026060179/0001628280-26-060179-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [S-3ASR 0001140361-26-035617](https://www.sec.gov/Archives/edgar/data/1723128/000114036126035617/0001140361-26-035617-index.html) — published 2026-09-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001628280-26-058918](https://www.sec.gov/Archives/edgar/data/1723128/000162828026058918/0001628280-26-058918-index.html) — published 2026-08-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [4 0001628280-26-060179](https://www.sec.gov/Archives/edgar/data/1723128/000162828026060179/0001628280-26-060179-index.html) — published 2026-09-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/AMRX/README.md).
+[S69] [10-Q 0001723128-26-000031](https://www.sec.gov/Archives/edgar/data/1723128/000172312826000031/amrx-20260630.htm) — published 2026-08-06; retrieved 2026-10-24T13:46:37.668055+00:00.
+
+[S71] [10-K 0001723128-26-000011](https://www.sec.gov/Archives/edgar/data/1723128/000172312826000011/amrx-20251231.htm) — published 2026-02-27; retrieved 2026-10-24T13:46:34.121616+00:00.
+
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/AMRX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

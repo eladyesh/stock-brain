@@ -8,11 +8,11 @@ tickers:
 - KSPI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -46,11 +46,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001985487.json
-    sha256: 19039c42c58b97a14629c77be8e4c800405055a706bc59712d2a56c6a1ecabbe
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 9f1ba8683e551887f45f2247d8aa82bc6e1fc89c234a632add0860033d397392
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001985487.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -58,43 +58,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001985487.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 19039c42c58b97a14629c77be8e4c800405055a706bc59712d2a56c6a1ecabbe
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 9f1ba8683e551887f45f2247d8aa82bc6e1fc89c234a632add0860033d397392
 - id: S03
+  title: 144 0001950047-26-010390
+  url: https://www.sec.gov/Archives/edgar/data/1985487/000195004726010390/0001950047-26-010390-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 4 0001193125-26-428104
   url: https://www.sec.gov/Archives/edgar/data/1985487/000119312526428104/0001193125-26-428104-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 4 0001193125-26-424426
   url: https://www.sec.gov/Archives/edgar/data/1985487/000119312526424426/0001193125-26-424426-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 4 0001193125-26-420859
   url: https://www.sec.gov/Archives/edgar/data/1985487/000119312526420859/0001193125-26-420859-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 4 0001193125-26-418184
   url: https://www.sec.gov/Archives/edgar/data/1985487/000119312526418184/0001193125-26-418184-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 4 0001193125-26-414778
-  url: https://www.sec.gov/Archives/edgar/data/1985487/000119312526414778/0001193125-26-414778-index.html
-  published_at: '2026-10-05'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001985487
@@ -106,8 +106,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 19039c42c58b97a14629c77be8e4c800405055a706bc59712d2a56c6a1ecabbe
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 9f1ba8683e551887f45f2247d8aa82bc6e1fc89c234a632add0860033d397392
   url: https://data.sec.gov/submissions/CIK0001985487.json
 listings:
 - ticker: KSPI
@@ -144,15 +144,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001985487.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KSPI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KSPI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # KSPI — Joint Stock Co Kaspi.kz
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KSPI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KSPI/README.md)
 
 ## Business overview
 
@@ -230,7 +230,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 144, 20-F, 3, 4, 424B4, 6-K, 8-A12B, CERT, CORRESP, DRS, DRS/A, DRSLTR, EFFECT, F-1, F-1/A, F-1MEF, S-8, SC 13G, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:30.148001+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:30.023376+00:00.
 
 ### Research work queue
 
@@ -266,28 +266,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 4 | 0001193125-26-428104 | — | [S03] |
-| 2026-10-16 | 4 | 0001193125-26-424426 | — | [S04] |
-| 2026-10-13 | 4 | 0001193125-26-420859 | — | [S05] |
-| 2026-10-08 | 4 | 0001193125-26-418184 | — | [S06] |
-| 2026-10-05 | 4 | 0001193125-26-414778 | — | [S07] |
+| 2026-10-23 | 144 | 0001950047-26-010390 | — | [S03] |
+| 2026-10-21 | 4 | 0001193125-26-428104 | — | [S04] |
+| 2026-10-16 | 4 | 0001193125-26-424426 | — | [S05] |
+| 2026-10-13 | 4 | 0001193125-26-420859 | — | [S06] |
+| 2026-10-08 | 4 | 0001193125-26-418184 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001985487.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001985487.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [4 0001193125-26-428104](https://www.sec.gov/Archives/edgar/data/1985487/000119312526428104/0001193125-26-428104-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [144 0001950047-26-010390](https://www.sec.gov/Archives/edgar/data/1985487/000195004726010390/0001950047-26-010390-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [4 0001193125-26-424426](https://www.sec.gov/Archives/edgar/data/1985487/000119312526424426/0001193125-26-424426-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [4 0001193125-26-428104](https://www.sec.gov/Archives/edgar/data/1985487/000119312526428104/0001193125-26-428104-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [4 0001193125-26-420859](https://www.sec.gov/Archives/edgar/data/1985487/000119312526420859/0001193125-26-420859-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [4 0001193125-26-424426](https://www.sec.gov/Archives/edgar/data/1985487/000119312526424426/0001193125-26-424426-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [4 0001193125-26-418184](https://www.sec.gov/Archives/edgar/data/1985487/000119312526418184/0001193125-26-418184-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [4 0001193125-26-420859](https://www.sec.gov/Archives/edgar/data/1985487/000119312526420859/0001193125-26-420859-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [4 0001193125-26-414778](https://www.sec.gov/Archives/edgar/data/1985487/000119312526414778/0001193125-26-414778-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [4 0001193125-26-418184](https://www.sec.gov/Archives/edgar/data/1985487/000119312526418184/0001193125-26-418184-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/KSPI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/KSPI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

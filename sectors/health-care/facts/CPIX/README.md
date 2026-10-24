@@ -8,11 +8,11 @@ tickers:
 - CPIX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -66,11 +66,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001087294.json
-    sha256: 769008da8449e8813c5f20dd2b1293c56b62378f22ab4d8a37d48f5551d08660
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 78be29dd3217ea089be6678b180efcd026235c767f4e33f79eefdfd274275212
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001087294.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -78,14 +78,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001087294.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 769008da8449e8813c5f20dd2b1293c56b62378f22ab4d8a37d48f5551d08660
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 78be29dd3217ea089be6678b180efcd026235c767f4e33f79eefdfd274275212
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001087294.json
@@ -111,40 +111,40 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001087294-26-000070
+  url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000070/0001087294-26-000070-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 8-K/A 0001087294-26-000068
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000068/0001087294-26-000068-index.html
   published_at: '2026-09-11'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 8-K 0001087294-26-000064
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000064/0001087294-26-000064-index.html
   published_at: '2026-08-28'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 10-Q 0001087294-26-000062
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000062/0001087294-26-000062-index.html
   published_at: '2026-08-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 8-K 0001087294-26-000058
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000058/0001087294-26-000058-index.html
   published_at: '2026-08-04'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
-  title: 8-K 0001087294-26-000055
-  url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000055/0001087294-26-000055-index.html
-  published_at: '2026-07-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S45
+- id: S46
   title: 10-K 0001087294-26-000020
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000020/0001087294-26-000020-index.html
   published_at: '2026-03-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001087294
@@ -156,8 +156,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 769008da8449e8813c5f20dd2b1293c56b62378f22ab4d8a37d48f5551d08660
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 78be29dd3217ea089be6678b180efcd026235c767f4e33f79eefdfd274275212
   url: https://data.sec.gov/submissions/CIK0001087294.json
 listings:
 - ticker: CPIX
@@ -178,10 +178,10 @@ research_filings:
   filed: '2026-03-09'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000025/0001087294-26-000025-index.html
-- accession: 0001087294-26-000064
-  filed: '2026-08-28'
+- accession: 0001087294-26-000070
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000064/0001087294-26-000064-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1087294/000108729426000070/0001087294-26-000070-index.html
 - accession: 0001087294-26-000068
   filed: '2026-09-11'
   form: 8-K/A
@@ -200,7 +200,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1087294/000162828017002800/0001628280-17-002800-index.html
 research_progress:
   stage: pending
-  input_sha256: 1f61857ac9f1bee5eefdce7bc1876fe97500b01af7a885ba53527b1003207de3
+  input_sha256: 2525cd74bf12ac1c41d79f774afa09a739629a1425e2a97220a4532bf08c8488
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -220,15 +220,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001087294.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CPIX/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CPIX/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CPIX — CUMBERLAND PHARMACEUTICALS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CPIX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CPIX/README.md)
 
 ## Business overview
 
@@ -276,19 +276,19 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Operating margin was -6.27% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S45]
+Derived observation: Operating margin was -6.27% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S46]
 Formula: `operating_income / revenue * 100`. Inputs: operating_income=-2791993 USD (OperatingIncomeLoss), revenue=44521431 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Net margin was -6.37% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S45]
+Derived observation: Net margin was -6.37% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S46]
 Formula: `net_income / revenue * 100`. Inputs: net_income=-2836128 USD (NetIncomeLoss), revenue=44521431 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Free cash flow margin was 10.86% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S45]
+Derived observation: Free cash flow margin was 10.86% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S46]
 Formula: `free_cash_flow / revenue * 100`. Inputs: free_cash_flow=4834619 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment), revenue=44521431 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Stock compensation / revenue was 0.92% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S45]
+Derived observation: Stock compensation / revenue was 0.92% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S46]
 Formula: `stock_based_compensation / revenue * 100`. Inputs: stock_based_compensation=408320 USD (ShareBasedCompensation), revenue=44521431 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
-Derived observation: Annual revenue changed +17.57% from the year ended 2024-12-31 to 2025-12-31. [S45]
+Derived observation: Annual revenue changed +17.57% from the year ended 2024-12-31 to 2025-12-31. [S46]
 Formula: `(current / prior - 1) * 100`. Inputs: revenue=44521431 USD (RevenueFromContractWithCustomerExcludingAssessedTax), revenue=37867945 USD (RevenueFromContractWithCustomerExcludingAssessedTax).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T18:10:35.452616+00:00. [S03]
@@ -402,7 +402,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:27:47.358870+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:31:32.806148+00:00.
 
 ### Research work queue
 
@@ -438,17 +438,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-11 | 8-K/A | 0001087294-26-000068 | — | [S17] |
-| 2026-08-28 | 8-K | 0001087294-26-000064 | — | [S18] |
-| 2026-08-07 | 10-Q | 0001087294-26-000062 | — | [S19] |
-| 2026-08-04 | 8-K | 0001087294-26-000058 | — | [S20] |
-| 2026-07-13 | 8-K | 0001087294-26-000055 | — | [S21] |
+| 2026-10-23 | 8-K | 0001087294-26-000070 | — | [S17] |
+| 2026-09-11 | 8-K/A | 0001087294-26-000068 | — | [S18] |
+| 2026-08-28 | 8-K | 0001087294-26-000064 | — | [S19] |
+| 2026-08-07 | 10-Q | 0001087294-26-000062 | — | [S20] |
+| 2026-08-04 | 8-K | 0001087294-26-000058 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001087294.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001087294.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001087294.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -458,18 +458,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001087294-26-000049](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000049/0001087294-26-000049-index.html) — published 2026-05-08; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S17] [8-K/A 0001087294-26-000068](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000068/0001087294-26-000068-index.html) — published 2026-09-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001087294-26-000070](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000070/0001087294-26-000070-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [8-K 0001087294-26-000064](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000064/0001087294-26-000064-index.html) — published 2026-08-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K/A 0001087294-26-000068](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000068/0001087294-26-000068-index.html) — published 2026-09-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [10-Q 0001087294-26-000062](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000062/0001087294-26-000062-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001087294-26-000064](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000064/0001087294-26-000064-index.html) — published 2026-08-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001087294-26-000058](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000058/0001087294-26-000058-index.html) — published 2026-08-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [10-Q 0001087294-26-000062](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000062/0001087294-26-000062-index.html) — published 2026-08-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001087294-26-000055](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000055/0001087294-26-000055-index.html) — published 2026-07-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [8-K 0001087294-26-000058](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000058/0001087294-26-000058-index.html) — published 2026-08-04; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S45] [10-K 0001087294-26-000020](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000020/0001087294-26-000020-index.html) — published 2026-03-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S46] [10-K 0001087294-26-000020](https://www.sec.gov/Archives/edgar/data/1087294/000108729426000020/0001087294-26-000020-index.html) — published 2026-03-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CPIX/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CPIX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

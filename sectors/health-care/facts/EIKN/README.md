@@ -8,11 +8,11 @@ tickers:
 - EIKN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -51,11 +51,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001861123.json
-    sha256: 24e95606a66a2007cf3386b14aa7d4b71d2772f293b937e180ce43d5506c4e7e
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 57d0e97e92c8920fb486f1eef97b1541c7b1c3054c10ff960135e667c9423fb4
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001861123.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -63,14 +63,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001861123.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 24e95606a66a2007cf3386b14aa7d4b71d2772f293b937e180ce43d5506c4e7e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 57d0e97e92c8920fb486f1eef97b1541c7b1c3054c10ff960135e667c9423fb4
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001861123.json
@@ -84,34 +84,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S06
+  title: 8-K 0001193125-26-429549
+  url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526429549/0001193125-26-429549-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S07
   title: SCHEDULE 13G/A 0000315066-26-002331
   url: https://www.sec.gov/Archives/edgar/data/1861123/000031506626002331/0000315066-26-002331-index.html
   published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S07
+- id: S08
   title: SCHEDULE 13G/A 0001104659-26-113112
   url: https://www.sec.gov/Archives/edgar/data/1861123/000110465926113112/0001104659-26-113112-index.html
   published_at: '2026-10-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S08
+- id: S09
   title: 4 0001193125-26-385268
   url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526385268/0001193125-26-385268-index.html
   published_at: '2026-09-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S09
+- id: S10
   title: 8-K 0001193125-26-349936
   url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526349936/0001193125-26-349936-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S10
-  title: 10-Q 0001193125-26-349185
-  url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526349185/0001193125-26-349185-index.html
-  published_at: '2026-08-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001861123
@@ -123,8 +123,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 24e95606a66a2007cf3386b14aa7d4b71d2772f293b937e180ce43d5506c4e7e
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 57d0e97e92c8920fb486f1eef97b1541c7b1c3054c10ff960135e667c9423fb4
   url: https://data.sec.gov/submissions/CIK0001861123.json
 listings:
 - ticker: EIKN
@@ -141,13 +141,13 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526349185/0001193125-26-349185-index.html
-- accession: 0001193125-26-349936
-  filed: '2026-08-14'
+- accession: 0001193125-26-429549
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526349936/0001193125-26-349936-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1861123/000119312526429549/0001193125-26-429549-index.html
 research_progress:
   stage: pending
-  input_sha256: 3126d14cada91ade664c4705384508a8138b1cf4b23df48b661e12e87a433c51
+  input_sha256: 9d866ccc7c9ca113b641f8b87d02c67a73606b50adf380fb3e6c0f49779d6237
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -167,15 +167,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001861123.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/EIKN/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/EIKN/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # EIKN — Eikon Therapeutics, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/EIKN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/EIKN/README.md)
 
 ## Business overview
 
@@ -298,7 +298,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:02.733154+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:12.316314+00:00.
 
 ### Research work queue
 
@@ -334,32 +334,32 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-07 | SCHEDULE 13G/A | 0000315066-26-002331 | — | [S06] |
-| 2026-10-02 | SCHEDULE 13G/A | 0001104659-26-113112 | — | [S07] |
-| 2026-09-08 | 4 | 0001193125-26-385268 | — | [S08] |
-| 2026-08-14 | 8-K | 0001193125-26-349936 | — | [S09] |
-| 2026-08-13 | 10-Q | 0001193125-26-349185 | — | [S10] |
+| 2026-10-23 | 8-K | 0001193125-26-429549 | — | [S06] |
+| 2026-10-07 | SCHEDULE 13G/A | 0000315066-26-002331 | — | [S07] |
+| 2026-10-02 | SCHEDULE 13G/A | 0001104659-26-113112 | — | [S08] |
+| 2026-09-08 | 4 | 0001193125-26-385268 | — | [S09] |
+| 2026-08-14 | 8-K | 0001193125-26-349936 | — | [S10] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001861123.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001861123.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001861123.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
 [S04] [10-Q 0001193125-26-349185](https://www.sec.gov/Archives/edgar/data/1861123/000119312526349185/0001193125-26-349185-index.html) — published 2026-08-13; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S06] [SCHEDULE 13G/A 0000315066-26-002331](https://www.sec.gov/Archives/edgar/data/1861123/000031506626002331/0000315066-26-002331-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [8-K 0001193125-26-429549](https://www.sec.gov/Archives/edgar/data/1861123/000119312526429549/0001193125-26-429549-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [SCHEDULE 13G/A 0001104659-26-113112](https://www.sec.gov/Archives/edgar/data/1861123/000110465926113112/0001104659-26-113112-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [SCHEDULE 13G/A 0000315066-26-002331](https://www.sec.gov/Archives/edgar/data/1861123/000031506626002331/0000315066-26-002331-index.html) — published 2026-10-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S08] [4 0001193125-26-385268](https://www.sec.gov/Archives/edgar/data/1861123/000119312526385268/0001193125-26-385268-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S08] [SCHEDULE 13G/A 0001104659-26-113112](https://www.sec.gov/Archives/edgar/data/1861123/000110465926113112/0001104659-26-113112-index.html) — published 2026-10-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S09] [8-K 0001193125-26-349936](https://www.sec.gov/Archives/edgar/data/1861123/000119312526349936/0001193125-26-349936-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S09] [4 0001193125-26-385268](https://www.sec.gov/Archives/edgar/data/1861123/000119312526385268/0001193125-26-385268-index.html) — published 2026-09-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S10] [10-Q 0001193125-26-349185](https://www.sec.gov/Archives/edgar/data/1861123/000119312526349185/0001193125-26-349185-index.html) — published 2026-08-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [8-K 0001193125-26-349936](https://www.sec.gov/Archives/edgar/data/1861123/000119312526349936/0001193125-26-349936-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/EIKN/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/EIKN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

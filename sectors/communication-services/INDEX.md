@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **121**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **122**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261024-40097864335-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -67,6 +67,7 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [LEE](facts/LEE/README.md) | LEE ENTERPRISES, Inc | available; quality gates apply | project_sic_rule |
 | [LILA, LILAK](facts/LILA/README.md) | Liberty Latin America Ltd. | available; quality gates apply | project_sic_rule |
 | [LION](facts/LION/README.md) | Lionsgate Studios Corp. | available; quality gates apply | project_sic_rule |
+| [LUMN](facts/LUMN/README.md) | Lumen Technologies, Inc. | available; quality gates apply | project_sic_rule |
 | [MCS](facts/MCS/README.md) | MARCUS CORP | available; quality gates apply | project_sic_rule |
 | [MDIA](facts/MDIA/README.md) | Mediaco Holding Inc. | available; quality gates apply | project_sic_rule |
 | [MH](facts/MH/README.md) | McGraw Hill, Inc. | available; quality gates apply | project_sic_rule |
@@ -81,7 +82,7 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [NXST](facts/NXST/README.md) | NEXSTAR MEDIA GROUP, INC. | available; quality gates apply | project_sic_rule |
 | [NYT](facts/NYT/README.md) | NEW YORK TIMES CO | available; quality gates apply | project_sic_rule |
 | [OBAI](facts/OBAI/README.md) | Our Bond, Inc. | available; quality gates apply | project_sic_rule |
-| [OMC](facts/OMC/README.md) | OMNICOM GROUP INC. | missing | project_sic_rule |
+| [OMC](facts/OMC/README.md) | OMNICOM GROUP INC. | available; quality gates apply | project_sic_rule |
 | [OPTU](facts/OPTU/README.md) | Optimum Communications, Inc. | available; quality gates apply | project_sic_rule |
 | [PAAI](facts/PAAI/README.md) | Paradium.AI, Inc. | available; quality gates apply | project_sic_rule |
 | [PSO](facts/PSO/README.md) | PEARSON PLC | missing | project_sic_rule |

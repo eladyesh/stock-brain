@@ -8,11 +8,11 @@ tickers:
 - ROLR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -63,11 +63,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001947210.json
-    sha256: 5ed3e19f19051a7f886f061deef100f8e30d5653de12afbc71685b02f144bef8
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 28464959915779632091ccdf905e37aad6334ccee9f5008b5fda1ffae55da1b0
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001947210.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -75,14 +75,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001947210.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 5ed3e19f19051a7f886f061deef100f8e30d5653de12afbc71685b02f144bef8
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 28464959915779632091ccdf905e37aad6334ccee9f5008b5fda1ffae55da1b0
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001947210.json
@@ -108,40 +108,40 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S11
+  title: 8-K 0001753926-26-001993
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/0001753926-26-001993-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S12
   title: 10-Q/A 0001753926-26-001960
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001960/0001753926-26-001960-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S13
   title: 10-Q/A 0001753926-26-001959
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001959/0001753926-26-001959-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S13
+- id: S14
   title: 8-K 0001753926-26-001958
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001958/0001753926-26-001958-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S14
+- id: S15
   title: 8-K 0001753926-26-001935
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001935/0001753926-26-001935-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S15
-  title: 8-K 0001753926-26-001929
-  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001929/0001753926-26-001929-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S48
+- id: S49
   title: 10-K 0001753926-26-000462
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626000462/0001753926-26-000462-index.html
   published_at: '2026-03-10'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001947210
@@ -153,8 +153,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 5ed3e19f19051a7f886f061deef100f8e30d5653de12afbc71685b02f144bef8
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 28464959915779632091ccdf905e37aad6334ccee9f5008b5fda1ffae55da1b0
   url: https://data.sec.gov/submissions/CIK0001947210.json
 listings:
 - ticker: ROLR
@@ -180,13 +180,13 @@ research_filings:
   filed: '2026-05-14'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626000880/0001753926-26-000880-index.html
-- accession: 0001753926-26-001958
-  filed: '2026-10-16'
+- accession: 0001753926-26-001993
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001958/0001753926-26-001958-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/0001753926-26-001993-index.html
 research_progress:
   stage: pending
-  input_sha256: fa20015b2337eabc26b8324ab295a6df9961b2368af9495117fbf88c094e470b
+  input_sha256: 155a47cf90c6a0e467cddf365cf0d9913c8fc7177819341d73e9cb0c51afb62c
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -206,15 +206,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001947210.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ROLR/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ROLR/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ROLR — High Roller Technologies, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ROLR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ROLR/README.md)
 
 ## Business overview
 
@@ -262,19 +262,19 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Operating margin was -30.20% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S48]
+Derived observation: Operating margin was -30.20% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S49]
 Formula: `operating_income / revenue * 100`. Inputs: operating_income=-6177000 USD (OperatingIncomeLoss), revenue=20453000 USD (Revenues).
 
-Derived observation: Net margin was 15.45% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S48]
+Derived observation: Net margin was 15.45% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S49]
 Formula: `net_income / revenue * 100`. Inputs: net_income=3161000 USD (NetIncomeLoss), revenue=20453000 USD (Revenues).
 
-Derived observation: Free cash flow margin was -16.06% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S48]
+Derived observation: Free cash flow margin was -16.06% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S49]
 Formula: `free_cash_flow / revenue * 100`. Inputs: free_cash_flow=-3284000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment), revenue=20453000 USD (Revenues).
 
-Derived observation: Stock compensation / revenue was 6.72% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S48]
+Derived observation: Stock compensation / revenue was 6.72% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S49]
 Formula: `stock_based_compensation / revenue * 100`. Inputs: stock_based_compensation=1374000 USD (ShareBasedCompensation), revenue=20453000 USD (Revenues).
 
-Derived observation: Operating cash flow / net income was -1.02x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S48]
+Derived observation: Operating cash flow / net income was -1.02x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S49]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=-3233000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=3161000 USD (NetIncomeLoss).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:53:02.398600+00:00. [S03]
@@ -388,7 +388,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:24.396435+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:25.654547+00:00.
 
 ### Research work queue
 
@@ -424,17 +424,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-16 | 10-Q/A | 0001753926-26-001960 | — | [S11] |
-| 2026-10-16 | 10-Q/A | 0001753926-26-001959 | — | [S12] |
-| 2026-10-16 | 8-K | 0001753926-26-001958 | — | [S13] |
-| 2026-10-14 | 8-K | 0001753926-26-001935 | — | [S14] |
-| 2026-10-13 | 8-K | 0001753926-26-001929 | — | [S15] |
+| 2026-10-23 | 8-K | 0001753926-26-001993 | — | [S11] |
+| 2026-10-16 | 10-Q/A | 0001753926-26-001960 | — | [S12] |
+| 2026-10-16 | 10-Q/A | 0001753926-26-001959 | — | [S13] |
+| 2026-10-16 | 8-K | 0001753926-26-001958 | — | [S14] |
+| 2026-10-14 | 8-K | 0001753926-26-001935 | — | [S15] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001947210.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001947210.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001947210.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -444,18 +444,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q/A 0001753926-26-001959](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001959/0001753926-26-001959-index.html) — published 2026-10-16; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S11] [10-Q/A 0001753926-26-001960](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001960/0001753926-26-001960-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [8-K 0001753926-26-001993](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/0001753926-26-001993-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [10-Q/A 0001753926-26-001959](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001959/0001753926-26-001959-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [10-Q/A 0001753926-26-001960](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001960/0001753926-26-001960-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [8-K 0001753926-26-001958](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001958/0001753926-26-001958-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [10-Q/A 0001753926-26-001959](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001959/0001753926-26-001959-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S14] [8-K 0001753926-26-001935](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001935/0001753926-26-001935-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [8-K 0001753926-26-001958](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001958/0001753926-26-001958-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S15] [8-K 0001753926-26-001929](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001929/0001753926-26-001929-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S15] [8-K 0001753926-26-001935](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001935/0001753926-26-001935-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S48] [10-K 0001753926-26-000462](https://www.sec.gov/Archives/edgar/data/1947210/000175392626000462/0001753926-26-000462-index.html) — published 2026-03-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S49] [10-K 0001753926-26-000462](https://www.sec.gov/Archives/edgar/data/1947210/000175392626000462/0001753926-26-000462-index.html) — published 2026-03-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ROLR/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ROLR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

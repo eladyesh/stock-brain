@@ -8,11 +8,11 @@ tickers:
 - FRST
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -73,11 +73,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001325670.json
-    sha256: 7b2537d76d41a97a661836a08025cfacb630cc5b843a98fe19604f4190154492
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 89d9da5a26d42893a91669223f21413a52385bb208c0068b0e69c11235395818
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001325670.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -85,14 +85,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001325670.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b2537d76d41a97a661836a08025cfacb630cc5b843a98fe19604f4190154492
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 89d9da5a26d42893a91669223f21413a52385bb208c0068b0e69c11235395818
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001325670.json
@@ -118,40 +118,40 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001104659-26-118258
+  url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926118258/0001104659-26-118258-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 4 0001193125-26-387586
   url: https://www.sec.gov/Archives/edgar/data/1325670/000119312526387586/0001193125-26-387586-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0001193125-26-381567
   url: https://www.sec.gov/Archives/edgar/data/1325670/000119312526381567/0001193125-26-381567-index.html
   published_at: '2026-09-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001193125-26-381412
   url: https://www.sec.gov/Archives/edgar/data/1325670/000119312526381412/0001193125-26-381412-index.html
   published_at: '2026-09-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 8-K 0001104659-26-103947
   url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926103947/0001104659-26-103947-index.html
   published_at: '2026-08-31'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
-  title: 4 0001193125-26-362351
-  url: https://www.sec.gov/Archives/edgar/data/1325670/000119312526362351/0001193125-26-362351-index.html
-  published_at: '2026-08-24'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S51
+- id: S52
   title: 10-K 0001104659-26-028599
   url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926028599/0001104659-26-028599-index.html
   published_at: '2026-03-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001325670'
@@ -163,8 +163,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 7b2537d76d41a97a661836a08025cfacb630cc5b843a98fe19604f4190154492
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 89d9da5a26d42893a91669223f21413a52385bb208c0068b0e69c11235395818
   url: https://data.sec.gov/submissions/CIK0001325670.json
 listings:
 - ticker: FRST
@@ -185,10 +185,10 @@ research_filings:
   filed: '2026-04-10'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926041860/0001104659-26-041860-index.html
-- accession: 0001104659-26-103947
-  filed: '2026-08-31'
+- accession: 0001104659-26-118258
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926103947/0001104659-26-103947-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1325670/000110465926118258/0001104659-26-118258-index.html
 - accession: 0001104659-25-076231
   filed: '2025-08-11'
   form: 8-K/A
@@ -223,7 +223,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1325670/000118811212002162/0001188112-12-002162-index.html
 research_progress:
   stage: pending
-  input_sha256: 0632fc8addd4f543a3fe6114923fcc70b9d89fa1c54ee29772b25f80025659ec
+  input_sha256: 2f991b791f92457d838a0bbe42f53eea581b54d455c3e71aaa8565aa6afdb596
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -243,15 +243,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001325670.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FRST/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FRST/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # FRST — Primis Financial Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FRST/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FRST/README.md)
 
 ## Business overview
 
@@ -299,13 +299,13 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Annual operating cash flow changed -44.87% from the year ended 2024-12-31 to 2025-12-31. [S51]
+Derived observation: Annual operating cash flow changed -44.87% from the year ended 2024-12-31 to 2025-12-31. [S52]
 Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=10767000 USD (NetCashProvidedByUsedInOperatingActivities), operating_cash_flow=19530000 USD (NetCashProvidedByUsedInOperatingActivities).
 
-Derived observation: Annual free cash flow changed -50.74% from the year ended 2024-12-31 to 2025-12-31. [S51]
+Derived observation: Annual free cash flow changed -50.74% from the year ended 2024-12-31 to 2025-12-31. [S52]
 Formula: `(current / prior - 1) * 100`. Inputs: free_cash_flow=9033000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment), free_cash_flow=18336000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment).
 
-Derived observation: Operating cash flow / net income was 0.18x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S51]
+Derived observation: Operating cash flow / net income was 0.18x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S52]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=10767000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=61443000 USD (NetIncomeLoss).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
@@ -419,7 +419,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:29:05.692673+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:36.303924+00:00.
 
 ### Research work queue
 
@@ -455,17 +455,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-10 | 4 | 0001193125-26-387586 | — | [S17] |
-| 2026-09-03 | 4 | 0001193125-26-381567 | — | [S18] |
-| 2026-09-03 | 4 | 0001193125-26-381412 | — | [S19] |
-| 2026-08-31 | 8-K | 0001104659-26-103947 | — | [S20] |
-| 2026-08-24 | 4 | 0001193125-26-362351 | — | [S21] |
+| 2026-10-23 | 8-K | 0001104659-26-118258 | — | [S17] |
+| 2026-09-10 | 4 | 0001193125-26-387586 | — | [S18] |
+| 2026-09-03 | 4 | 0001193125-26-381567 | — | [S19] |
+| 2026-09-03 | 4 | 0001193125-26-381412 | — | [S20] |
+| 2026-08-31 | 8-K | 0001104659-26-103947 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001325670.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001325670.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001325670.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -475,18 +475,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001104659-26-057998](https://www.sec.gov/Archives/edgar/data/1325670/000110465926057998/0001104659-26-057998-index.html) — published 2026-05-08; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S17] [4 0001193125-26-387586](https://www.sec.gov/Archives/edgar/data/1325670/000119312526387586/0001193125-26-387586-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001104659-26-118258](https://www.sec.gov/Archives/edgar/data/1325670/000110465926118258/0001104659-26-118258-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001193125-26-381567](https://www.sec.gov/Archives/edgar/data/1325670/000119312526381567/0001193125-26-381567-index.html) — published 2026-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0001193125-26-387586](https://www.sec.gov/Archives/edgar/data/1325670/000119312526387586/0001193125-26-387586-index.html) — published 2026-09-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001193125-26-381412](https://www.sec.gov/Archives/edgar/data/1325670/000119312526381412/0001193125-26-381412-index.html) — published 2026-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001193125-26-381567](https://www.sec.gov/Archives/edgar/data/1325670/000119312526381567/0001193125-26-381567-index.html) — published 2026-09-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001104659-26-103947](https://www.sec.gov/Archives/edgar/data/1325670/000110465926103947/0001104659-26-103947-index.html) — published 2026-08-31; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001193125-26-381412](https://www.sec.gov/Archives/edgar/data/1325670/000119312526381412/0001193125-26-381412-index.html) — published 2026-09-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001193125-26-362351](https://www.sec.gov/Archives/edgar/data/1325670/000119312526362351/0001193125-26-362351-index.html) — published 2026-08-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [8-K 0001104659-26-103947](https://www.sec.gov/Archives/edgar/data/1325670/000110465926103947/0001104659-26-103947-index.html) — published 2026-08-31; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S51] [10-K 0001104659-26-028599](https://www.sec.gov/Archives/edgar/data/1325670/000110465926028599/0001104659-26-028599-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S52] [10-K 0001104659-26-028599](https://www.sec.gov/Archives/edgar/data/1325670/000110465926028599/0001104659-26-028599-index.html) — published 2026-03-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/FRST/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/FRST/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

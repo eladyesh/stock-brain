@@ -8,11 +8,11 @@ tickers:
 - NG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -60,11 +60,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001173420.json
-    sha256: 6f72c63d0670ab00b380ba8524b09895590c24085d7b692db84bf07b0b05a282
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: b79e7474b616fe8c810339428a38f09d1ac9289794f2620e5f2e87c46b556cfa
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001173420.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -72,14 +72,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001173420.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6f72c63d0670ab00b380ba8524b09895590c24085d7b692db84bf07b0b05a282
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: b79e7474b616fe8c810339428a38f09d1ac9289794f2620e5f2e87c46b556cfa
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001173420.json
@@ -105,34 +105,34 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S18
+  title: DEFA14A 0001104659-26-118474
+  url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926118474/0001104659-26-118474-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
+  title: 8-K 0001104659-26-118473
+  url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926118473/0001104659-26-118473-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S20
   title: DEFA14A 0001104659-26-117859
   url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926117859/0001104659-26-117859-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S21
   title: DEFA14A 0001104659-26-116265
   url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926116265/0001104659-26-116265-index.html
   published_at: '2026-10-15'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S22
   title: 10-Q 0001171843-26-006530
   url: https://www.sec.gov/Archives/edgar/data/1173420/000117184326006530/0001171843-26-006530-index.html
   published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 8-K 0001171843-26-006528
-  url: https://www.sec.gov/Archives/edgar/data/1173420/000117184326006528/0001171843-26-006528-index.html
-  published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S22
-  title: DEFA14A 0001104659-26-114561
-  url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926114561/0001104659-26-114561-index.html
-  published_at: '2026-10-08'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001173420'
@@ -144,8 +144,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 6f72c63d0670ab00b380ba8524b09895590c24085d7b692db84bf07b0b05a282
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: b79e7474b616fe8c810339428a38f09d1ac9289794f2620e5f2e87c46b556cfa
   url: https://data.sec.gov/submissions/CIK0001173420.json
 listings:
 - ticker: NG
@@ -166,10 +166,10 @@ research_filings:
   filed: '2026-03-25'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1173420/000114036126010977/0001140361-26-010977-index.html
-- accession: 0001171843-26-006528
-  filed: '2026-10-08'
+- accession: 0001104659-26-118473
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1173420/000117184326006528/0001171843-26-006528-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1173420/000110465926118473/0001104659-26-118473-index.html
 - accession: 0001171843-18-006839
   filed: '2018-10-03'
   form: 8-K/A
@@ -180,7 +180,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1173420/000117184318005701/0001171843-18-005701-index.html
 research_progress:
   stage: pending
-  input_sha256: 2f6615d2e3a520d0f157440a39e33f69069ccb9de29838d99234c2e0a4008ba5
+  input_sha256: 11748079126170a9d610ca747a1b1a11c0ccd3ea72f7e96c1bf746235ca42d85
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -200,15 +200,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001173420.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NG/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NG/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NG — NOVAGOLD RESOURCES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NG/README.md)
 
 ## Business overview
 
@@ -367,7 +367,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:28:29.013490+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:04.794465+00:00.
 
 ### Research work queue
 
@@ -403,17 +403,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | DEFA14A | 0001104659-26-117859 | — | [S18] |
-| 2026-10-15 | DEFA14A | 0001104659-26-116265 | — | [S19] |
-| 2026-10-08 | 10-Q | 0001171843-26-006530 | — | [S20] |
-| 2026-10-08 | 8-K | 0001171843-26-006528 | — | [S21] |
-| 2026-10-08 | DEFA14A | 0001104659-26-114561 | — | [S22] |
+| 2026-10-23 | DEFA14A | 0001104659-26-118474 | — | [S18] |
+| 2026-10-23 | 8-K | 0001104659-26-118473 | — | [S19] |
+| 2026-10-21 | DEFA14A | 0001104659-26-117859 | — | [S20] |
+| 2026-10-15 | DEFA14A | 0001104659-26-116265 | — | [S21] |
+| 2026-10-08 | 10-Q | 0001171843-26-006530 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001173420.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001173420.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001173420.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -423,16 +423,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001171843-26-004279](https://www.sec.gov/Archives/edgar/data/1173420/000117184326004279/0001171843-26-004279-index.html) — published 2026-06-24; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S18] [DEFA14A 0001104659-26-117859](https://www.sec.gov/Archives/edgar/data/1173420/000110465926117859/0001104659-26-117859-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [DEFA14A 0001104659-26-118474](https://www.sec.gov/Archives/edgar/data/1173420/000110465926118474/0001104659-26-118474-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [DEFA14A 0001104659-26-116265](https://www.sec.gov/Archives/edgar/data/1173420/000110465926116265/0001104659-26-116265-index.html) — published 2026-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001104659-26-118473](https://www.sec.gov/Archives/edgar/data/1173420/000110465926118473/0001104659-26-118473-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [10-Q 0001171843-26-006530](https://www.sec.gov/Archives/edgar/data/1173420/000117184326006530/0001171843-26-006530-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [DEFA14A 0001104659-26-117859](https://www.sec.gov/Archives/edgar/data/1173420/000110465926117859/0001104659-26-117859-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001171843-26-006528](https://www.sec.gov/Archives/edgar/data/1173420/000117184326006528/0001171843-26-006528-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [DEFA14A 0001104659-26-116265](https://www.sec.gov/Archives/edgar/data/1173420/000110465926116265/0001104659-26-116265-index.html) — published 2026-10-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [DEFA14A 0001104659-26-114561](https://www.sec.gov/Archives/edgar/data/1173420/000110465926114561/0001104659-26-114561-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [10-Q 0001171843-26-006530](https://www.sec.gov/Archives/edgar/data/1173420/000117184326006530/0001171843-26-006530-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/NG/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/NG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

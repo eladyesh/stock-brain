@@ -8,11 +8,11 @@ tickers:
 - TRV
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -58,11 +58,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0000086312.json
-    sha256: db88fc3782de46d31887eae6d6c663aff336093832d59d75c3a4a8b886863027
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: d9d954414f81fbdc03416a52bcc8be7bba07b08365f0e448f4592935cd5df243
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0000086312.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -70,14 +70,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000086312.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: db88fc3782de46d31887eae6d6c663aff336093832d59d75c3a4a8b886863027
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d9d954414f81fbdc03416a52bcc8be7bba07b08365f0e448f4592935cd5df243
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000086312.json
@@ -103,34 +103,34 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S17
+  title: 4 0000086312-26-000190
+  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000190/0000086312-26-000190-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
+  title: 4 0000086312-26-000189
+  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000189/0000086312-26-000189-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
+  title: 4 0000086312-26-000187
+  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000187/0000086312-26-000187-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S20
+  title: 4 0000086312-26-000186
+  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000186/0000086312-26-000186-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S21
   title: 144 0001959173-26-007457
   url: https://www.sec.gov/Archives/edgar/data/86312/000195917326007457/0001959173-26-007457-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S18
-  title: 144 0001959173-26-007453
-  url: https://www.sec.gov/Archives/edgar/data/86312/000195917326007453/0001959173-26-007453-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S19
-  title: 144 0001959173-26-007450
-  url: https://www.sec.gov/Archives/edgar/data/86312/000195917326007450/0001959173-26-007450-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S20
-  title: 4 0000086312-26-000184
-  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000184/0000086312-26-000184-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 4 0000086312-26-000183
-  url: https://www.sec.gov/Archives/edgar/data/86312/000008631226000183/0000086312-26-000183-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0000086312
@@ -142,8 +142,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: db88fc3782de46d31887eae6d6c663aff336093832d59d75c3a4a8b886863027
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d9d954414f81fbdc03416a52bcc8be7bba07b08365f0e448f4592935cd5df243
   url: https://data.sec.gov/submissions/CIK0000086312.json
 listings:
 - ticker: TRV
@@ -190,15 +190,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000086312.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/TRV/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TRV/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # TRV — TRAVELERS COMPANIES, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/TRV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TRV/README.md)
 
 ## Business overview
 
@@ -372,7 +372,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:23:46.342244+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:28:03.587095+00:00.
 
 ### Research work queue
 
@@ -408,17 +408,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 144 | 0001959173-26-007457 | — | [S17] |
-| 2026-10-22 | 144 | 0001959173-26-007453 | — | [S18] |
-| 2026-10-22 | 144 | 0001959173-26-007450 | — | [S19] |
-| 2026-10-22 | 4 | 0000086312-26-000184 | — | [S20] |
-| 2026-10-22 | 4 | 0000086312-26-000183 | — | [S21] |
+| 2026-10-23 | 4 | 0000086312-26-000190 | — | [S17] |
+| 2026-10-23 | 4 | 0000086312-26-000189 | — | [S18] |
+| 2026-10-23 | 4 | 0000086312-26-000187 | — | [S19] |
+| 2026-10-23 | 4 | 0000086312-26-000186 | — | [S20] |
+| 2026-10-22 | 144 | 0001959173-26-007457 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000086312.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000086312.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000086312.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -428,16 +428,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0000086312-26-000145](https://www.sec.gov/Archives/edgar/data/86312/000008631226000145/0000086312-26-000145-index.html) — published 2026-07-17; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S17] [144 0001959173-26-007457](https://www.sec.gov/Archives/edgar/data/86312/000195917326007457/0001959173-26-007457-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [4 0000086312-26-000190](https://www.sec.gov/Archives/edgar/data/86312/000008631226000190/0000086312-26-000190-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [144 0001959173-26-007453](https://www.sec.gov/Archives/edgar/data/86312/000195917326007453/0001959173-26-007453-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0000086312-26-000189](https://www.sec.gov/Archives/edgar/data/86312/000008631226000189/0000086312-26-000189-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [144 0001959173-26-007450](https://www.sec.gov/Archives/edgar/data/86312/000195917326007450/0001959173-26-007450-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0000086312-26-000187](https://www.sec.gov/Archives/edgar/data/86312/000008631226000187/0000086312-26-000187-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0000086312-26-000184](https://www.sec.gov/Archives/edgar/data/86312/000008631226000184/0000086312-26-000184-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0000086312-26-000186](https://www.sec.gov/Archives/edgar/data/86312/000008631226000186/0000086312-26-000186-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0000086312-26-000183](https://www.sec.gov/Archives/edgar/data/86312/000008631226000183/0000086312-26-000183-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [144 0001959173-26-007457](https://www.sec.gov/Archives/edgar/data/86312/000195917326007457/0001959173-26-007457-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/TRV/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TRV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

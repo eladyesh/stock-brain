@@ -8,11 +8,11 @@ tickers:
 - XRPN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -30,17 +30,18 @@ financial_gap:
   - DRS/A
   - EFFECT
   - POS AM
+  - S-1
   - S-4
   - S-4/A
   - SCHEDULE 13G
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002092592.json
-    sha256: d7762e019314719add06c4260e121a1417dc4fe83e4d3bdac7d2154f15281401
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 1046e519f325163bc3a36ba2846bc9fe916f05ea7db01cf32e92faba3acc1d4c
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002092592.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -48,43 +49,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002092592.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d7762e019314719add06c4260e121a1417dc4fe83e4d3bdac7d2154f15281401
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 1046e519f325163bc3a36ba2846bc9fe916f05ea7db01cf32e92faba3acc1d4c
 - id: S03
+  title: S-1 0001628280-26-067081
+  url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067081/0001628280-26-067081-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
+  title: 424B3 0001628280-26-067062
+  url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067062/0001628280-26-067062-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S05
+  title: 8-K 0001628280-26-067061
+  url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/0001628280-26-067061-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S06
   title: 3 0001140361-26-040302
   url: https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/0001140361-26-040302-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S07
   title: EFFECT 9999999995-26-003285
   url: https://www.sec.gov/Archives/edgar/data/2092592/999999999526003285/9999999995-26-003285-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S05
-  title: SCHEDULE 13G 0001193125-26-425558
-  url: https://www.sec.gov/Archives/edgar/data/2092592/000119312526425558/0001193125-26-425558-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S06
-  title: 3 0001193125-26-425555
-  url: https://www.sec.gov/Archives/edgar/data/2092592/000119312526425555/0001193125-26-425555-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 424B3 0001193125-26-425367
-  url: https://www.sec.gov/Archives/edgar/data/2092592/000119312526425367/0001193125-26-425367-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0002092592
@@ -96,21 +97,21 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d7762e019314719add06c4260e121a1417dc4fe83e4d3bdac7d2154f15281401
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 1046e519f325163bc3a36ba2846bc9fe916f05ea7db01cf32e92faba3acc1d4c
   url: https://data.sec.gov/submissions/CIK0002092592.json
 listings:
 - ticker: XRPN
   exchange: NASDAQ
   instrument_type: common_stock
 research_filings:
-- accession: 0001193125-26-419605
-  filed: '2026-10-13'
+- accession: 0001628280-26-067061
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/2092592/000119312526419605/0001193125-26-419605-index.html
+  url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/0001628280-26-067061-index.html
 research_progress:
   stage: pending
-  input_sha256: 1f33c4e64602003996676b0456fee85dba8bf6f16a8b75ce282eefb12aed5772
+  input_sha256: d4d0b63549ab07a532dd9ee2e5f3af7f0c7530a04f12b0d9830f3d915ebb70c6
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -130,15 +131,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002092592.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/XRPN/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/XRPN/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # XRPN — Evernorth Holdings Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/XRPN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/XRPN/README.md)
 
 ## Business overview
 
@@ -215,8 +216,8 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership.
-- Forms observed in the retained filing inventory: 3, 424B3, 425, 8-A12B, 8-K, CERT, DRS, DRS/A, EFFECT, POS AM, S-4, S-4/A, SCHEDULE 13G
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:43.946654+00:00.
+- Forms observed in the retained filing inventory: 3, 424B3, 425, 8-A12B, 8-K, CERT, DRS, DRS/A, EFFECT, POS AM, S-1, S-4, S-4/A, SCHEDULE 13G
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:41.062711+00:00.
 
 ### Research work queue
 
@@ -252,28 +253,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | 3 | 0001140361-26-040302 | — | [S03] |
-| 2026-10-19 | EFFECT | 9999999995-26-003285 | — | [S04] |
-| 2026-10-19 | SCHEDULE 13G | 0001193125-26-425558 | — | [S05] |
-| 2026-10-19 | 3 | 0001193125-26-425555 | — | [S06] |
-| 2026-10-19 | 424B3 | 0001193125-26-425367 | — | [S07] |
+| 2026-10-23 | S-1 | 0001628280-26-067081 | — | [S03] |
+| 2026-10-23 | 424B3 | 0001628280-26-067062 | — | [S04] |
+| 2026-10-23 | 8-K | 0001628280-26-067061 | — | [S05] |
+| 2026-10-20 | 3 | 0001140361-26-040302 | — | [S06] |
+| 2026-10-19 | EFFECT | 9999999995-26-003285 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002092592.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002092592.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [3 0001140361-26-040302](https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/0001140361-26-040302-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [S-1 0001628280-26-067081](https://www.sec.gov/Archives/edgar/data/2092592/000162828026067081/0001628280-26-067081-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [EFFECT 9999999995-26-003285](https://www.sec.gov/Archives/edgar/data/2092592/999999999526003285/9999999995-26-003285-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [424B3 0001628280-26-067062](https://www.sec.gov/Archives/edgar/data/2092592/000162828026067062/0001628280-26-067062-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [SCHEDULE 13G 0001193125-26-425558](https://www.sec.gov/Archives/edgar/data/2092592/000119312526425558/0001193125-26-425558-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [8-K 0001628280-26-067061](https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/0001628280-26-067061-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [3 0001193125-26-425555](https://www.sec.gov/Archives/edgar/data/2092592/000119312526425555/0001193125-26-425555-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [3 0001140361-26-040302](https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/0001140361-26-040302-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [424B3 0001193125-26-425367](https://www.sec.gov/Archives/edgar/data/2092592/000119312526425367/0001193125-26-425367-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [EFFECT 9999999995-26-003285](https://www.sec.gov/Archives/edgar/data/2092592/999999999526003285/9999999995-26-003285-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/XRPN/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/XRPN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

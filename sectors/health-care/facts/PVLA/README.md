@@ -8,11 +8,11 @@ tickers:
 - PVLA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -74,11 +74,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001583648.json
-    sha256: b9dd9faf964485b91df7718dc3197c74a0e701d86d6d1ebc053a038cea45dab0
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 1e23c51f01dfe68d40f8bd890b4c15f2e07fdefd3c92290407775d7df72194d3
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001583648.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -86,14 +86,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001583648.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: b9dd9faf964485b91df7718dc3197c74a0e701d86d6d1ebc053a038cea45dab0
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 1e23c51f01dfe68d40f8bd890b4c15f2e07fdefd3c92290407775d7df72194d3
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001583648.json
@@ -119,34 +119,34 @@ sources:
   retrieved_at: '2026-10-22T18:10:35.452616+00:00'
   sha256: null
 - id: S18
+  title: 4 0001104659-26-118466
+  url: https://www.sec.gov/Archives/edgar/data/1583648/000110465926118466/0001104659-26-118466-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: 144 0001967940-26-000055
   url: https://www.sec.gov/Archives/edgar/data/1583648/000196794026000055/0001967940-26-000055-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001104659-26-115916
   url: https://www.sec.gov/Archives/edgar/data/1583648/000110465926115916/0001104659-26-115916-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 144 0001967940-26-000053
   url: https://www.sec.gov/Archives/edgar/data/1583648/000196794026000053/0001967940-26-000053-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: 4 0001104659-26-108930
   url: https://www.sec.gov/Archives/edgar/data/1583648/000110465926108930/0001104659-26-108930-index.html
   published_at: '2026-09-18'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S22
-  title: 144 0001967940-26-000051
-  url: https://www.sec.gov/Archives/edgar/data/1583648/000196794026000051/0001967940-26-000051-index.html
-  published_at: '2026-09-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001583648
@@ -158,8 +158,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: b9dd9faf964485b91df7718dc3197c74a0e701d86d6d1ebc053a038cea45dab0
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 1e23c51f01dfe68d40f8bd890b4c15f2e07fdefd3c92290407775d7df72194d3
   url: https://data.sec.gov/submissions/CIK0001583648.json
 listings:
 - ticker: PVLA
@@ -218,15 +218,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001583648.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PVLA/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PVLA/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PVLA — PALVELLA THERAPEUTICS, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PVLA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PVLA/README.md)
 
 ## Business overview
 
@@ -385,7 +385,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:31:29.079336+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:34:19.461241+00:00.
 
 ### Research work queue
 
@@ -421,17 +421,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 144 | 0001967940-26-000055 | — | [S18] |
-| 2026-10-14 | 4 | 0001104659-26-115916 | — | [S19] |
-| 2026-10-13 | 144 | 0001967940-26-000053 | — | [S20] |
-| 2026-09-18 | 4 | 0001104659-26-108930 | — | [S21] |
-| 2026-09-16 | 144 | 0001967940-26-000051 | — | [S22] |
+| 2026-10-23 | 4 | 0001104659-26-118466 | — | [S18] |
+| 2026-10-21 | 144 | 0001967940-26-000055 | — | [S19] |
+| 2026-10-14 | 4 | 0001104659-26-115916 | — | [S20] |
+| 2026-10-13 | 144 | 0001967940-26-000053 | — | [S21] |
+| 2026-09-18 | 4 | 0001104659-26-108930 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001583648.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001583648.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001583648.json) — published not supplied; retrieved 2026-10-22T18:10:35.452616+00:00.
 
@@ -441,16 +441,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S11] [10-Q 0001193125-26-210463](https://www.sec.gov/Archives/edgar/data/1583648/000119312526210463/0001193125-26-210463-index.html) — published 2026-05-07; retrieved 2026-10-22T18:10:35.452616+00:00.
 
-[S18] [144 0001967940-26-000055](https://www.sec.gov/Archives/edgar/data/1583648/000196794026000055/0001967940-26-000055-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0001104659-26-118466](https://www.sec.gov/Archives/edgar/data/1583648/000110465926118466/0001104659-26-118466-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001104659-26-115916](https://www.sec.gov/Archives/edgar/data/1583648/000110465926115916/0001104659-26-115916-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [144 0001967940-26-000055](https://www.sec.gov/Archives/edgar/data/1583648/000196794026000055/0001967940-26-000055-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [144 0001967940-26-000053](https://www.sec.gov/Archives/edgar/data/1583648/000196794026000053/0001967940-26-000053-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001104659-26-115916](https://www.sec.gov/Archives/edgar/data/1583648/000110465926115916/0001104659-26-115916-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [4 0001104659-26-108930](https://www.sec.gov/Archives/edgar/data/1583648/000110465926108930/0001104659-26-108930-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [144 0001967940-26-000053](https://www.sec.gov/Archives/edgar/data/1583648/000196794026000053/0001967940-26-000053-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [144 0001967940-26-000051](https://www.sec.gov/Archives/edgar/data/1583648/000196794026000051/0001967940-26-000051-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [4 0001104659-26-108930](https://www.sec.gov/Archives/edgar/data/1583648/000110465926108930/0001104659-26-108930-index.html) — published 2026-09-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PVLA/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PVLA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

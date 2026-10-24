@@ -8,11 +8,11 @@ tickers:
 - IIF
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -66,11 +66,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0000916618.json
-    sha256: 07bbf98e1931d3c83ade97a467cd8d36c07e72b3a257e1f245814a8499874d96
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: a3aa3860f9a00c88bfa0b903023b7a42792ca328adfa78f4785e0f3c7e3db3aa
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0000916618.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -78,43 +78,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000916618.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 07bbf98e1931d3c83ade97a467cd8d36c07e72b3a257e1f245814a8499874d96
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a3aa3860f9a00c88bfa0b903023b7a42792ca328adfa78f4785e0f3c7e3db3aa
 - id: S03
+  title: SCHEDULE 13G/A 0001072613-26-000834
+  url: https://www.sec.gov/Archives/edgar/data/916618/000107261326000834/0001072613-26-000834-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: N-CSRS 0001104659-26-104577
   url: https://www.sec.gov/Archives/edgar/data/916618/000110465926104577/0001104659-26-104577-index.html
   published_at: '2026-09-02'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: NPORT-P 0001410368-26-084057
   url: https://www.sec.gov/Archives/edgar/data/916618/000141036826084057/0001410368-26-084057-index.html
   published_at: '2026-08-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: SCHEDULE 13G 0001072613-26-000671
   url: https://www.sec.gov/Archives/edgar/data/916618/000107261326000671/0001072613-26-000671-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: N-PX 0001140361-26-030823
   url: https://www.sec.gov/Archives/edgar/data/916618/000114036126030823/0001140361-26-030823-index.html
   published_at: '2026-08-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: SCHEDULE 13D/A 0001062993-26-003938
-  url: https://www.sec.gov/Archives/edgar/data/916618/000106299326003938/0001062993-26-003938-index.html
-  published_at: '2026-07-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0000916618
@@ -126,8 +126,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 07bbf98e1931d3c83ade97a467cd8d36c07e72b3a257e1f245814a8499874d96
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: a3aa3860f9a00c88bfa0b903023b7a42792ca328adfa78f4785e0f3c7e3db3aa
   url: https://data.sec.gov/submissions/CIK0000916618.json
 listings:
 - ticker: IIF
@@ -157,15 +157,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IIF/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IIF/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IIF — MORGAN STANLEY INDIA INVESTMENT FUND, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IIF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IIF/README.md)
 
 ## Business overview
 
@@ -241,7 +241,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification.
 - Forms observed in the retained filing inventory: 3, 3/A, 4, 40-17F2, 40-17G, 40-17G/A, 40-APP, 40-APP/A, 497, CORRESP, DEF 14A, DEFA14A, EFFECT, N-2, N-2/A, N-30B-2, N-30D, N-CEN, N-CSR, N-CSR/A, N-CSRS, N-PX, N-Q, NPORT-EX, NPORT-P, NSAR-A, NSAR-A/A, NSAR-B, NSAR-B/A, NT-NSAR, POS AMI, PRE 14A, SC 13D, SC 13D/A, SC 13G, SC 13G/A, SC TO-C, SC TO-I, SC TO-I/A, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:26:25.496345+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:30:24.863354+00:00.
 
 ### Research work queue
 
@@ -277,28 +277,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-02 | N-CSRS | 0001104659-26-104577 | — | [S03] |
-| 2026-08-21 | NPORT-P | 0001410368-26-084057 | — | [S04] |
-| 2026-08-14 | SCHEDULE 13G | 0001072613-26-000671 | — | [S05] |
-| 2026-08-03 | N-PX | 0001140361-26-030823 | — | [S06] |
-| 2026-07-30 | SCHEDULE 13D/A | 0001062993-26-003938 | — | [S07] |
+| 2026-10-23 | SCHEDULE 13G/A | 0001072613-26-000834 | — | [S03] |
+| 2026-09-02 | N-CSRS | 0001104659-26-104577 | — | [S04] |
+| 2026-08-21 | NPORT-P | 0001410368-26-084057 | — | [S05] |
+| 2026-08-14 | SCHEDULE 13G | 0001072613-26-000671 | — | [S06] |
+| 2026-08-03 | N-PX | 0001140361-26-030823 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000916618.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000916618.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [N-CSRS 0001104659-26-104577](https://www.sec.gov/Archives/edgar/data/916618/000110465926104577/0001104659-26-104577-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [SCHEDULE 13G/A 0001072613-26-000834](https://www.sec.gov/Archives/edgar/data/916618/000107261326000834/0001072613-26-000834-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [NPORT-P 0001410368-26-084057](https://www.sec.gov/Archives/edgar/data/916618/000141036826084057/0001410368-26-084057-index.html) — published 2026-08-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [N-CSRS 0001104659-26-104577](https://www.sec.gov/Archives/edgar/data/916618/000110465926104577/0001104659-26-104577-index.html) — published 2026-09-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [SCHEDULE 13G 0001072613-26-000671](https://www.sec.gov/Archives/edgar/data/916618/000107261326000671/0001072613-26-000671-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [NPORT-P 0001410368-26-084057](https://www.sec.gov/Archives/edgar/data/916618/000141036826084057/0001410368-26-084057-index.html) — published 2026-08-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [N-PX 0001140361-26-030823](https://www.sec.gov/Archives/edgar/data/916618/000114036126030823/0001140361-26-030823-index.html) — published 2026-08-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [SCHEDULE 13G 0001072613-26-000671](https://www.sec.gov/Archives/edgar/data/916618/000107261326000671/0001072613-26-000671-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [SCHEDULE 13D/A 0001062993-26-003938](https://www.sec.gov/Archives/edgar/data/916618/000106299326003938/0001062993-26-003938-index.html) — published 2026-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [N-PX 0001140361-26-030823](https://www.sec.gov/Archives/edgar/data/916618/000114036126030823/0001140361-26-030823-index.html) — published 2026-08-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/IIF/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/IIF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

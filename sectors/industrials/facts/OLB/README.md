@@ -8,11 +8,11 @@ tickers:
 - OLB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -70,20 +70,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001314196.json
-    sha256: b43d2d4891408592e9c25186d2e6269fe2ef4c11ec1e51dee04962fa1e4f4372
-    retrieved_at: '2026-10-22T17:53:02.398600+00:00'
+    sha256: 371fa853364b5ed6e72c760f3545b4003935defc23573be903a8e04375cdb827
+    retrieved_at: '2026-10-24T13:22:57.445127+00:00'
     archive:
       member: CIK0001314196.json
-      sha256: 7457a528288f1e3425cba6ffd7370c6c205845aba12761763aa5ae3683c0fdc2
+      sha256: 6a571557530102bb009e07bf4f2d86d9aa6021247bfde97f696dd22cb1a4a7e7
       url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001314196.json
-    sha256: ac5ed2593ffbeb80c0cf48db1e0339802161e9573a40a102868b66ed03eeb89a
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 51532a3063540585cac2b1cc56ab357f0efe8f24d2d615a9b52cf5dbfa9ea8ee
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001314196.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -91,73 +91,73 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001314196.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: ac5ed2593ffbeb80c0cf48db1e0339802161e9573a40a102868b66ed03eeb89a
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 51532a3063540585cac2b1cc56ab357f0efe8f24d2d615a9b52cf5dbfa9ea8ee
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001314196.json
   published_at: null
-  retrieved_at: '2026-10-22T17:53:02.398600+00:00'
-  sha256: b43d2d4891408592e9c25186d2e6269fe2ef4c11ec1e51dee04962fa1e4f4372
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
+  sha256: 371fa853364b5ed6e72c760f3545b4003935defc23573be903a8e04375cdb827
 - id: S04
   title: 10-K 0001213900-26-037906
   url: https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html
   published_at: '2026-04-01'
-  retrieved_at: '2026-10-22T17:53:02.398600+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001185185-26-003553
   url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-22T17:53:02.398600+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S06
   title: 10-Q 0001213900-26-058054
   url: https://www.sec.gov/Archives/edgar/data/1314196/000121390026058054/0001213900-26-058054-index.html
   published_at: '2026-05-18'
-  retrieved_at: '2026-10-22T17:53:02.398600+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S18
+  title: DEF 14A 0001185185-26-004974
+  url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526004974/0001185185-26-004974-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S19
   title: PRE 14A 0001185185-26-004698
   url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526004698/0001185185-26-004698-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: EFFECT 9999999995-26-003034
   url: https://www.sec.gov/Archives/edgar/data/1314196/999999999526003034/9999999995-26-003034-index.html
   published_at: '2026-09-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: S-1 0001185185-26-003902
   url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526003902/0001185185-26-003902-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S21
+- id: S22
   title: 10-Q 0001185185-26-003553
   url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html
   published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S22
-  title: 10-K/A 0001185185-26-003551
-  url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526003551/0001185185-26-003551-index.html
-  published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S34
+- id: S35
   title: 10-K 0001213900-26-037906
   url: https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html
   published_at: '2026-04-01'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001314196
@@ -169,8 +169,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: ac5ed2593ffbeb80c0cf48db1e0339802161e9573a40a102868b66ed03eeb89a
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 51532a3063540585cac2b1cc56ab357f0efe8f24d2d615a9b52cf5dbfa9ea8ee
   url: https://data.sec.gov/submissions/CIK0001314196.json
 listings:
 - ticker: OLB
@@ -192,10 +192,10 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html
-- accession: 0001213900-25-114221
-  filed: '2025-11-24'
+- accession: 0001185185-26-004974
+  filed: '2026-10-23'
   form: DEF 14A
-  url: https://www.sec.gov/Archives/edgar/data/1314196/000121390025114221/0001213900-25-114221-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1314196/000118518526004974/0001185185-26-004974-index.html
 - accession: 0001185185-26-003446
   filed: '2026-08-12'
   form: 8-K
@@ -214,7 +214,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1314196/000121390018013451/0001213900-18-013451-index.html
 research_progress:
   stage: pending
-  input_sha256: 8fc59c4bedd04b7a0b8a67b654f2e6c5cc107b16b74fe6d4f2f1885793179dcf
+  input_sha256: 2a2503199d41b9a7d93d6de46f3491578873d7d4ee13eb2cea1ad28c42dea0a3
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -234,15 +234,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001314196.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/OLB/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/OLB/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # OLB — OLB GROUP, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/OLB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/OLB/README.md)
 
 ## Business overview
 
@@ -290,16 +290,16 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Operating margin was -59.53% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S34]
+Derived observation: Operating margin was -59.53% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S35]
 Formula: `operating_income / revenue * 100`. Inputs: operating_income=-5165362 USD (OperatingIncomeLoss), revenue=8676907 USD (Revenues).
 
-Derived observation: Stock compensation / revenue was 1.56% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S34]
+Derived observation: Stock compensation / revenue was 1.56% for 2025-01-01 to 2025-12-31 (US GAAP inputs). [S35]
 Formula: `stock_based_compensation / revenue * 100`. Inputs: stock_based_compensation=135500 USD (ShareBasedCompensation), revenue=8676907 USD (Revenues).
 
-Derived observation: Annual revenue changed -32.42% from the year ended 2024-12-31 to 2025-12-31. [S34]
+Derived observation: Annual revenue changed -32.42% from the year ended 2024-12-31 to 2025-12-31. [S35]
 Formula: `(current / prior - 1) * 100`. Inputs: revenue=8676907 USD (Revenues), revenue=12838988 USD (Revenues).
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:53:02.398600+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -353,7 +353,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:53:02.398600+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -410,7 +410,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:29:00.260537+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:31.595670+00:00.
 
 ### Research work queue
 
@@ -446,38 +446,38 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-13 | PRE 14A | 0001185185-26-004698 | — | [S18] |
-| 2026-09-22 | EFFECT | 9999999995-26-003034 | — | [S19] |
-| 2026-09-10 | S-1 | 0001185185-26-003902 | — | [S20] |
-| 2026-08-14 | 10-Q | 0001185185-26-003553 | — | [S21] |
-| 2026-08-14 | 10-K/A | 0001185185-26-003551 | — | [S22] |
+| 2026-10-23 | DEF 14A | 0001185185-26-004974 | — | [S18] |
+| 2026-10-13 | PRE 14A | 0001185185-26-004698 | — | [S19] |
+| 2026-09-22 | EFFECT | 9999999995-26-003034 | — | [S20] |
+| 2026-09-10 | S-1 | 0001185185-26-003902 | — | [S21] |
+| 2026-08-14 | 10-Q | 0001185185-26-003553 | — | [S22] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001314196.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001314196.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001314196.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001314196.json) — published not supplied; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S04] [10-K 0001213900-26-037906](https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html) — published 2026-04-01; retrieved 2026-10-22T17:53:02.398600+00:00.
+[S04] [10-K 0001213900-26-037906](https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html) — published 2026-04-01; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S05] [10-Q 0001185185-26-003553](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html) — published 2026-08-14; retrieved 2026-10-22T17:53:02.398600+00:00.
+[S05] [10-Q 0001185185-26-003553](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S06] [10-Q 0001213900-26-058054](https://www.sec.gov/Archives/edgar/data/1314196/000121390026058054/0001213900-26-058054-index.html) — published 2026-05-18; retrieved 2026-10-22T17:53:02.398600+00:00.
+[S06] [10-Q 0001213900-26-058054](https://www.sec.gov/Archives/edgar/data/1314196/000121390026058054/0001213900-26-058054-index.html) — published 2026-05-18; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S18] [PRE 14A 0001185185-26-004698](https://www.sec.gov/Archives/edgar/data/1314196/000118518526004698/0001185185-26-004698-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [DEF 14A 0001185185-26-004974](https://www.sec.gov/Archives/edgar/data/1314196/000118518526004974/0001185185-26-004974-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [EFFECT 9999999995-26-003034](https://www.sec.gov/Archives/edgar/data/1314196/999999999526003034/9999999995-26-003034-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [PRE 14A 0001185185-26-004698](https://www.sec.gov/Archives/edgar/data/1314196/000118518526004698/0001185185-26-004698-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [S-1 0001185185-26-003902](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003902/0001185185-26-003902-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [EFFECT 9999999995-26-003034](https://www.sec.gov/Archives/edgar/data/1314196/999999999526003034/9999999995-26-003034-index.html) — published 2026-09-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [10-Q 0001185185-26-003553](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [S-1 0001185185-26-003902](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003902/0001185185-26-003902-index.html) — published 2026-09-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S22] [10-K/A 0001185185-26-003551](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003551/0001185185-26-003551-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S22] [10-Q 0001185185-26-003553](https://www.sec.gov/Archives/edgar/data/1314196/000118518526003553/0001185185-26-003553-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S34] [10-K 0001213900-26-037906](https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html) — published 2026-04-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S35] [10-K 0001213900-26-037906](https://www.sec.gov/Archives/edgar/data/1314196/000121390026037906/0001213900-26-037906-index.html) — published 2026-04-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/OLB/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/OLB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

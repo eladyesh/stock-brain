@@ -8,11 +8,11 @@ tickers:
 - GLDG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -43,11 +43,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0001538847.json
-    sha256: 9a37ba8a869b9ba677aae490f5d7a548f3f3e7eae43fb7112d703bbd08ea5b68
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: d6e9be656fa34aaae435851b8e2e5f9118e8da61ed164225873898caf5d3bd57
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001538847.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -55,43 +55,43 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001538847.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9a37ba8a869b9ba677aae490f5d7a548f3f3e7eae43fb7112d703bbd08ea5b68
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d6e9be656fa34aaae435851b8e2e5f9118e8da61ed164225873898caf5d3bd57
 - id: S03
+  title: 6-K 0001437749-26-033327
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926033327/0001437749-26-033327-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: 6-K 0001437749-26-032624
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926032624/0001437749-26-032624-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: 6-K 0001437749-26-032599
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926032599/0001437749-26-032599-index.html
   published_at: '2026-10-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0001437749-26-032098
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926032098/0001437749-26-032098-index.html
   published_at: '2026-10-06'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: 6-K 0001437749-26-024036
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926024036/0001437749-26-024036-index.html
   published_at: '2026-07-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001437749-26-023556
-  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926023556/0001437749-26-023556-index.html
-  published_at: '2026-07-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001538847
@@ -103,8 +103,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9a37ba8a869b9ba677aae490f5d7a548f3f3e7eae43fb7112d703bbd08ea5b68
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: d6e9be656fa34aaae435851b8e2e5f9118e8da61ed164225873898caf5d3bd57
   url: https://data.sec.gov/submissions/CIK0001538847.json
 listings:
 - ticker: GLDG
@@ -119,17 +119,17 @@ research_filings:
   filed: '2022-03-01'
   form: 40-F/A
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774922004908/0001437749-22-004908-index.html
-- accession: 0001437749-26-032624
-  filed: '2026-10-14'
+- accession: 0001437749-26-033327
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926032624/0001437749-26-032624-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926033327/0001437749-26-033327-index.html
 - accession: 0001437749-24-014415
   filed: '2024-05-03'
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774924014415/0001437749-24-014415-index.html
 research_progress:
   stage: pending
-  input_sha256: 5cf5a87ef49f5c0c9f31dc03aabe9852b634cf0f1fa895c385b561d91020b90e
+  input_sha256: 69eaa5014e3c65877a83cc15e1daf86b4cfa498d413b351a10cca77134c89bf3
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -149,15 +149,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001538847.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GLDG/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GLDG/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # GLDG — GoldMining Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GLDG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GLDG/README.md)
 
 ## Business overview
 
@@ -235,7 +235,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 3, 4, 4/A, 40-F, 40-F/A, 40FR12B, 6-K, 6-K/A, CERT, D, D/A, EFFECT, F-10, F-10/A, F-X, SC 13D, SC 13G, SC 13G/A, SEC STAFF ACTION, SUPPL
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:31:03.645849+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:34:02.197177+00:00.
 
 ### Research work queue
 
@@ -271,28 +271,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-14 | 6-K | 0001437749-26-032624 | — | [S03] |
-| 2026-10-14 | 6-K | 0001437749-26-032599 | — | [S04] |
-| 2026-10-06 | 6-K | 0001437749-26-032098 | — | [S05] |
-| 2026-07-22 | 6-K | 0001437749-26-024036 | — | [S06] |
-| 2026-07-14 | 6-K | 0001437749-26-023556 | — | [S07] |
+| 2026-10-23 | 6-K | 0001437749-26-033327 | — | [S03] |
+| 2026-10-14 | 6-K | 0001437749-26-032624 | — | [S04] |
+| 2026-10-14 | 6-K | 0001437749-26-032599 | — | [S05] |
+| 2026-10-06 | 6-K | 0001437749-26-032098 | — | [S06] |
+| 2026-07-22 | 6-K | 0001437749-26-024036 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001538847.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001538847.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [6-K 0001437749-26-032624](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032624/0001437749-26-032624-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001437749-26-033327](https://www.sec.gov/Archives/edgar/data/1538847/000143774926033327/0001437749-26-033327-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [6-K 0001437749-26-032599](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032599/0001437749-26-032599-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [6-K 0001437749-26-032624](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032624/0001437749-26-032624-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001437749-26-032098](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032098/0001437749-26-032098-index.html) — published 2026-10-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [6-K 0001437749-26-032599](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032599/0001437749-26-032599-index.html) — published 2026-10-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [6-K 0001437749-26-024036](https://www.sec.gov/Archives/edgar/data/1538847/000143774926024036/0001437749-26-024036-index.html) — published 2026-07-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0001437749-26-032098](https://www.sec.gov/Archives/edgar/data/1538847/000143774926032098/0001437749-26-032098-index.html) — published 2026-10-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001437749-26-023556](https://www.sec.gov/Archives/edgar/data/1538847/000143774926023556/0001437749-26-023556-index.html) — published 2026-07-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [6-K 0001437749-26-024036](https://www.sec.gov/Archives/edgar/data/1538847/000143774926024036/0001437749-26-024036-index.html) — published 2026-07-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/GLDG/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/GLDG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

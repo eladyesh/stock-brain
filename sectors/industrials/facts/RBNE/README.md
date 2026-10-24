@@ -8,11 +8,11 @@ tickers:
 - RBNE
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -46,11 +46,11 @@ financial_gap:
 input_sources:
   submissions:
     url: https://data.sec.gov/submissions/CIK0002039060.json
-    sha256: d0a16723f7dfaf8d2feb868638e344246b12327740e6d93f0d795d3510ba809c
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 62c2bb0b0649cf03e96a48f55aeec101f02e17dd85a5d383a7d17016d02b9400
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002039060.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -58,43 +58,43 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002039060.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d0a16723f7dfaf8d2feb868638e344246b12327740e6d93f0d795d3510ba809c
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 62c2bb0b0649cf03e96a48f55aeec101f02e17dd85a5d383a7d17016d02b9400
 - id: S03
+  title: 6-K 0001140361-26-040600
+  url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126040600/0001140361-26-040600-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S04
   title: RW 0001140361-26-040382
   url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126040382/0001140361-26-040382-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S04
+- id: S05
   title: F-1 0001140361-26-039848
   url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126039848/0001140361-26-039848-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S05
+- id: S06
   title: 6-K 0001140361-26-039199
   url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126039199/0001140361-26-039199-index.html
   published_at: '2026-10-09'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S06
+- id: S07
   title: DRS 0001140361-26-038123
   url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126038123/0001140361-26-038123-index.html
   published_at: '2026-10-01'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S07
-  title: 6-K 0001140361-26-037396
-  url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126037396/0001140361-26-037396-index.html
-  published_at: '2026-09-23'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0002039060
@@ -106,8 +106,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d0a16723f7dfaf8d2feb868638e344246b12327740e6d93f0d795d3510ba809c
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 62c2bb0b0649cf03e96a48f55aeec101f02e17dd85a5d383a7d17016d02b9400
   url: https://data.sec.gov/submissions/CIK0002039060.json
 listings:
 - ticker: RBNE
@@ -118,13 +118,13 @@ research_filings:
   filed: '2026-04-10'
   form: 20-F
   url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126014136/0001140361-26-014136-index.html
-- accession: 0001140361-26-039199
-  filed: '2026-10-09'
+- accession: 0001140361-26-040600
+  filed: '2026-10-23'
   form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126039199/0001140361-26-039199-index.html
+  url: https://www.sec.gov/Archives/edgar/data/2039060/000114036126040600/0001140361-26-040600-index.html
 research_progress:
   stage: pending
-  input_sha256: 21753e742c67d266ee18755d66dc00b2f2ef81eac03b8ab7c70767fb837c631c
+  input_sha256: ca9935e38c9f0df31b7c543b675ecffc1becb79ee05afc900d1ca855100948d4
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -144,15 +144,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002039060.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RBNE/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RBNE/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RBNE — Robin Energy Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RBNE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RBNE/README.md)
 
 ## Business overview
 
@@ -230,7 +230,7 @@ Not available: substantive research has not been completed. Describe operational
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
 - Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
 - Forms observed in the retained filing inventory: 20-F, 20FR12B, 20FR12B/A, 3, 424B5, 6-K, CERT, CORRESP, DRS, DRS/A, DRSLTR, EFFECT, F-1, F-3, RW, SC TO-I, SC TO-I/A, SCHEDULE 13D, SCHEDULE 13D/A, SCHEDULE 13G, SCHEDULE 13G/A, SEC STAFF ACTION, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-23T14:34:36.399910+00:00.
+- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:35.825651+00:00.
 
 ### Research work queue
 
@@ -266,28 +266,28 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | RW | 0001140361-26-040382 | — | [S03] |
-| 2026-10-16 | F-1 | 0001140361-26-039848 | — | [S04] |
-| 2026-10-09 | 6-K | 0001140361-26-039199 | — | [S05] |
-| 2026-10-01 | DRS | 0001140361-26-038123 | — | [S06] |
-| 2026-09-23 | 6-K | 0001140361-26-037396 | — | [S07] |
+| 2026-10-23 | 6-K | 0001140361-26-040600 | — | [S03] |
+| 2026-10-21 | RW | 0001140361-26-040382 | — | [S04] |
+| 2026-10-16 | F-1 | 0001140361-26-039848 | — | [S05] |
+| 2026-10-09 | 6-K | 0001140361-26-039199 | — | [S06] |
+| 2026-10-01 | DRS | 0001140361-26-038123 | — | [S07] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002039060.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002039060.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [RW 0001140361-26-040382](https://www.sec.gov/Archives/edgar/data/2039060/000114036126040382/0001140361-26-040382-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S03] [6-K 0001140361-26-040600](https://www.sec.gov/Archives/edgar/data/2039060/000114036126040600/0001140361-26-040600-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S04] [F-1 0001140361-26-039848](https://www.sec.gov/Archives/edgar/data/2039060/000114036126039848/0001140361-26-039848-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S04] [RW 0001140361-26-040382](https://www.sec.gov/Archives/edgar/data/2039060/000114036126040382/0001140361-26-040382-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S05] [6-K 0001140361-26-039199](https://www.sec.gov/Archives/edgar/data/2039060/000114036126039199/0001140361-26-039199-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S05] [F-1 0001140361-26-039848](https://www.sec.gov/Archives/edgar/data/2039060/000114036126039848/0001140361-26-039848-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S06] [DRS 0001140361-26-038123](https://www.sec.gov/Archives/edgar/data/2039060/000114036126038123/0001140361-26-038123-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S06] [6-K 0001140361-26-039199](https://www.sec.gov/Archives/edgar/data/2039060/000114036126039199/0001140361-26-039199-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S07] [6-K 0001140361-26-037396](https://www.sec.gov/Archives/edgar/data/2039060/000114036126037396/0001140361-26-037396-index.html) — published 2026-09-23; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S07] [DRS 0001140361-26-038123](https://www.sec.gov/Archives/edgar/data/2039060/000114036126038123/0001140361-26-038123-index.html) — published 2026-10-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/RBNE/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/RBNE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

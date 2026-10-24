@@ -9,11 +9,11 @@ tickers:
 - WTFCN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -63,11 +63,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001015328.json
-    sha256: 5491ae96d761b5971ee145112be6c345e8745b6a29fc70c356f1212fe47b29a8
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 9fd5ed5dbb660ec2eb546e2a8a6f7dc1e38dbf439bcffd08e0f68cd6398709a9
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001015328.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -75,14 +75,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001015328.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 5491ae96d761b5971ee145112be6c345e8745b6a29fc70c356f1212fe47b29a8
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 9fd5ed5dbb660ec2eb546e2a8a6f7dc1e38dbf439bcffd08e0f68cd6398709a9
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001015328.json
@@ -108,34 +108,34 @@ sources:
   retrieved_at: '2026-10-22T17:53:02.398600+00:00'
   sha256: null
 - id: S16
+  title: 4 0001267655-26-000019
+  url: https://www.sec.gov/Archives/edgar/data/1015328/000126765526000019/0001267655-26-000019-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S17
   title: 144 0001267655-26-000017
   url: https://www.sec.gov/Archives/edgar/data/1015328/000126765526000017/0001267655-26-000017-index.html
   published_at: '2026-10-21'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S17
+- id: S18
   title: 8-K 0001015328-26-000026
   url: https://www.sec.gov/Archives/edgar/data/1015328/000101532826000026/0001015328-26-000026-index.html
   published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0002090993-26-000008
   url: https://www.sec.gov/Archives/edgar/data/1015328/000209099326000008/0002090993-26-000008-index.html
   published_at: '2026-09-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 4 0001865855-26-000016
   url: https://www.sec.gov/Archives/edgar/data/1015328/000186585526000016/0001865855-26-000016-index.html
   published_at: '2026-09-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S20
-  title: 4 0001814152-26-000008
-  url: https://www.sec.gov/Archives/edgar/data/1015328/000181415226000008/0001814152-26-000008-index.html
-  published_at: '2026-09-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001015328
@@ -147,8 +147,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 5491ae96d761b5971ee145112be6c345e8745b6a29fc70c356f1212fe47b29a8
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 9fd5ed5dbb660ec2eb546e2a8a6f7dc1e38dbf439bcffd08e0f68cd6398709a9
   url: https://data.sec.gov/submissions/CIK0001015328.json
 listings:
 - ticker: WTFC
@@ -202,15 +202,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001015328.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WTFC/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WTFC/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WTFC, WTFCN — WINTRUST FINANCIAL CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WTFC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WTFC/README.md)
 
 ## Business overview
 
@@ -394,7 +394,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:26:57.622517+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:30:50.799326+00:00.
 
 ### Research work queue
 
@@ -430,17 +430,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-21 | 144 | 0001267655-26-000017 | — | [S16] |
-| 2026-10-19 | 8-K | 0001015328-26-000026 | — | [S17] |
-| 2026-09-30 | 4 | 0002090993-26-000008 | — | [S18] |
-| 2026-09-30 | 4 | 0001865855-26-000016 | — | [S19] |
-| 2026-09-30 | 4 | 0001814152-26-000008 | — | [S20] |
+| 2026-10-23 | 4 | 0001267655-26-000019 | — | [S16] |
+| 2026-10-21 | 144 | 0001267655-26-000017 | — | [S17] |
+| 2026-10-19 | 8-K | 0001015328-26-000026 | — | [S18] |
+| 2026-09-30 | 4 | 0002090993-26-000008 | — | [S19] |
+| 2026-09-30 | 4 | 0001865855-26-000016 | — | [S20] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001015328.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001015328.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001015328.json) — published not supplied; retrieved 2026-10-22T17:53:02.398600+00:00.
 
@@ -450,16 +450,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001015328-26-000014](https://www.sec.gov/Archives/edgar/data/1015328/000101532826000014/0001015328-26-000014-index.html) — published 2026-05-06; retrieved 2026-10-22T17:53:02.398600+00:00.
 
-[S16] [144 0001267655-26-000017](https://www.sec.gov/Archives/edgar/data/1015328/000126765526000017/0001267655-26-000017-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S16] [4 0001267655-26-000019](https://www.sec.gov/Archives/edgar/data/1015328/000126765526000019/0001267655-26-000019-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S17] [8-K 0001015328-26-000026](https://www.sec.gov/Archives/edgar/data/1015328/000101532826000026/0001015328-26-000026-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [144 0001267655-26-000017](https://www.sec.gov/Archives/edgar/data/1015328/000126765526000017/0001267655-26-000017-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0002090993-26-000008](https://www.sec.gov/Archives/edgar/data/1015328/000209099326000008/0002090993-26-000008-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [8-K 0001015328-26-000026](https://www.sec.gov/Archives/edgar/data/1015328/000101532826000026/0001015328-26-000026-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [4 0001865855-26-000016](https://www.sec.gov/Archives/edgar/data/1015328/000186585526000016/0001865855-26-000016-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0002090993-26-000008](https://www.sec.gov/Archives/edgar/data/1015328/000209099326000008/0002090993-26-000008-index.html) — published 2026-09-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [4 0001814152-26-000008](https://www.sec.gov/Archives/edgar/data/1015328/000181415226000008/0001814152-26-000008-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [4 0001865855-26-000016](https://www.sec.gov/Archives/edgar/data/1015328/000186585526000016/0001865855-26-000016-index.html) — published 2026-09-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WTFC/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WTFC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

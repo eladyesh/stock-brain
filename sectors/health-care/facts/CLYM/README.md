@@ -8,11 +8,11 @@ tickers:
 - CLYM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -72,11 +72,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001768446.json
-    sha256: 61a808f2774992c852fdc5d92ee13b44fce2e528d233f18ea064fc5f0bbef34f
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: e8a2aad66bf94231f85860d9fa2d624a66109aa69c2efdd546899fa80a209fe3
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001768446.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -84,14 +84,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001768446.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 61a808f2774992c852fdc5d92ee13b44fce2e528d233f18ea064fc5f0bbef34f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: e8a2aad66bf94231f85860d9fa2d624a66109aa69c2efdd546899fa80a209fe3
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001768446.json
@@ -117,34 +117,34 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S17
+  title: 8-K 0001193125-26-430681
+  url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/0001193125-26-430681-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 4 0001231919-26-001416
   url: https://www.sec.gov/Archives/edgar/data/1768446/000123191926001416/0001231919-26-001416-index.html
   published_at: '2026-09-30'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 4 0001193125-26-394357
   url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526394357/0001193125-26-394357-index.html
   published_at: '2026-09-17'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 144 0001950047-26-009491
   url: https://www.sec.gov/Archives/edgar/data/1768446/000195004726009491/0001950047-26-009491-index.html
   published_at: '2026-09-15'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 8-K 0001193125-26-381060
   url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526381060/0001193125-26-381060-index.html
   published_at: '2026-09-03'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: SCHEDULE 13G/A 0001687078-26-000018
-  url: https://www.sec.gov/Archives/edgar/data/1768446/000168707826000018/0001687078-26-000018-index.html
-  published_at: '2026-08-14'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001768446
@@ -156,8 +156,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 61a808f2774992c852fdc5d92ee13b44fce2e528d233f18ea064fc5f0bbef34f
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: e8a2aad66bf94231f85860d9fa2d624a66109aa69c2efdd546899fa80a209fe3
   url: https://data.sec.gov/submissions/CIK0001768446.json
 listings:
 - ticker: CLYM
@@ -178,17 +178,17 @@ research_filings:
   filed: '2026-04-24'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526177271/0001193125-26-177271-index.html
-- accession: 0001193125-26-381060
-  filed: '2026-09-03'
+- accession: 0001193125-26-430681
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526381060/0001193125-26-381060-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/0001193125-26-430681-index.html
 - accession: 0000950170-21-001795
   filed: '2021-09-14'
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1768446/000095017021001795/0000950170-21-001795-index.html
 research_progress:
   stage: pending
-  input_sha256: 7b15981cb850c55d217e21c052f847ef27bb8121e5c81ea1351764ba4a53cb3c
+  input_sha256: df28e4907dcbbdcb1fcbd55e62aa31e6132132456da2ead4cedf5a3e72233b43
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -208,15 +208,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001768446.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CLYM/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CLYM/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CLYM — Climb Bio, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CLYM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CLYM/README.md)
 
 ## Business overview
 
@@ -375,7 +375,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:02.903746+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:31.532255+00:00.
 
 ### Research work queue
 
@@ -411,17 +411,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-09-30 | 4 | 0001231919-26-001416 | — | [S17] |
-| 2026-09-17 | 4 | 0001193125-26-394357 | — | [S18] |
-| 2026-09-15 | 144 | 0001950047-26-009491 | — | [S19] |
-| 2026-09-03 | 8-K | 0001193125-26-381060 | — | [S20] |
-| 2026-08-14 | SCHEDULE 13G/A | 0001687078-26-000018 | — | [S21] |
+| 2026-10-23 | 8-K | 0001193125-26-430681 | — | [S17] |
+| 2026-09-30 | 4 | 0001231919-26-001416 | — | [S18] |
+| 2026-09-17 | 4 | 0001193125-26-394357 | — | [S19] |
+| 2026-09-15 | 144 | 0001950047-26-009491 | — | [S20] |
+| 2026-09-03 | 8-K | 0001193125-26-381060 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001768446.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001768446.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001768446.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -431,16 +431,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [10-Q 0001193125-26-210357](https://www.sec.gov/Archives/edgar/data/1768446/000119312526210357/0001193125-26-210357-index.html) — published 2026-05-07; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S17] [4 0001231919-26-001416](https://www.sec.gov/Archives/edgar/data/1768446/000123191926001416/0001231919-26-001416-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [8-K 0001193125-26-430681](https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/0001193125-26-430681-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [4 0001193125-26-394357](https://www.sec.gov/Archives/edgar/data/1768446/000119312526394357/0001193125-26-394357-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [4 0001231919-26-001416](https://www.sec.gov/Archives/edgar/data/1768446/000123191926001416/0001231919-26-001416-index.html) — published 2026-09-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [144 0001950047-26-009491](https://www.sec.gov/Archives/edgar/data/1768446/000195004726009491/0001950047-26-009491-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [4 0001193125-26-394357](https://www.sec.gov/Archives/edgar/data/1768446/000119312526394357/0001193125-26-394357-index.html) — published 2026-09-17; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001193125-26-381060](https://www.sec.gov/Archives/edgar/data/1768446/000119312526381060/0001193125-26-381060-index.html) — published 2026-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [144 0001950047-26-009491](https://www.sec.gov/Archives/edgar/data/1768446/000195004726009491/0001950047-26-009491-index.html) — published 2026-09-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [SCHEDULE 13G/A 0001687078-26-000018](https://www.sec.gov/Archives/edgar/data/1768446/000168707826000018/0001687078-26-000018-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [8-K 0001193125-26-381060](https://www.sec.gov/Archives/edgar/data/1768446/000119312526381060/0001193125-26-381060-index.html) — published 2026-09-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/CLYM/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/CLYM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

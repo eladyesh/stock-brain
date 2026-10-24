@@ -8,11 +8,11 @@ tickers:
 - ENVA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -40,6 +40,7 @@ financial_gap:
   - DEFA14A
   - DEFR14A
   - EFFECT
+  - POS AM
   - S-4
   - S-4/A
   - S-8
@@ -63,11 +64,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001529864.json
-    sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 7e75b12a7fa3796befddf132dc39e67bcfb2661d9c1acc082c3999a8bc3591a6
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001529864.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -75,14 +76,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001529864.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 7e75b12a7fa3796befddf132dc39e67bcfb2661d9c1acc082c3999a8bc3591a6
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json
@@ -108,34 +109,34 @@ sources:
   retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S17
+  title: POS AM 0001193125-26-430511
+  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526430511/0001193125-26-430511-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S18
   title: 10-Q 0001193125-26-429122
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S18
+- id: S19
   title: 8-K 0001193125-26-428941
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/0001193125-26-428941-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S19
+- id: S20
   title: 8-K 0001193125-26-424282
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S20
+- id: S21
   title: 8-K 0001193125-26-420462
   url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S21
-  title: 8-K 0001193125-26-402851
-  url: https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html
-  published_at: '2026-09-25'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001529864
@@ -147,8 +148,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 9fe1744bffcfc4de60d84d15237f3ce8a144a77b1b63abb4a68c3b23491808c0
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 7e75b12a7fa3796befddf132dc39e67bcfb2661d9c1acc082c3999a8bc3591a6
   url: https://data.sec.gov/submissions/CIK0001529864.json
 listings:
 - ticker: ENVA
@@ -215,15 +216,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001529864.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ENVA/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ENVA/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ENVA — Enova International, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ENVA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ENVA/README.md)
 
 ## Business overview
 
@@ -406,7 +407,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:30:54.925520+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:33:57.153783+00:00.
 
 ### Research work queue
 
@@ -442,17 +443,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | 10-Q | 0001193125-26-429122 | — | [S17] |
-| 2026-10-22 | 8-K | 0001193125-26-428941 | — | [S18] |
-| 2026-10-16 | 8-K | 0001193125-26-424282 | — | [S19] |
-| 2026-10-13 | 8-K | 0001193125-26-420462 | — | [S20] |
-| 2026-09-25 | 8-K | 0001193125-26-402851 | — | [S21] |
+| 2026-10-23 | POS AM | 0001193125-26-430511 | — | [S17] |
+| 2026-10-22 | 10-Q | 0001193125-26-429122 | — | [S18] |
+| 2026-10-22 | 8-K | 0001193125-26-428941 | — | [S19] |
+| 2026-10-16 | 8-K | 0001193125-26-424282 | — | [S20] |
+| 2026-10-13 | 8-K | 0001193125-26-420462 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001529864.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001529864.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001529864.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00.
 
@@ -462,16 +463,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [10-Q 0001193125-26-314590](https://www.sec.gov/Archives/edgar/data/1529864/000119312526314590/0001193125-26-314590-index.html) — published 2026-07-23; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S17] [10-Q 0001193125-26-429122](https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [POS AM 0001193125-26-430511](https://www.sec.gov/Archives/edgar/data/1529864/000119312526430511/0001193125-26-430511-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [8-K 0001193125-26-428941](https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/0001193125-26-428941-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [10-Q 0001193125-26-429122](https://www.sec.gov/Archives/edgar/data/1529864/000119312526429122/0001193125-26-429122-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [8-K 0001193125-26-424282](https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [8-K 0001193125-26-428941](https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/0001193125-26-428941-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001193125-26-420462](https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [8-K 0001193125-26-424282](https://www.sec.gov/Archives/edgar/data/1529864/000119312526424282/0001193125-26-424282-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [8-K 0001193125-26-402851](https://www.sec.gov/Archives/edgar/data/1529864/000119312526402851/0001193125-26-402851-index.html) — published 2026-09-25; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [8-K 0001193125-26-420462](https://www.sec.gov/Archives/edgar/data/1529864/000119312526420462/0001193125-26-420462-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/ENVA/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/ENVA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

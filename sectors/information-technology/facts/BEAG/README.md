@@ -8,11 +8,11 @@ tickers:
 - BEAG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -56,11 +56,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001852207.json
-    sha256: 3e0a619f1f414d956695edf44a019776b361311d0ab55e64d2212ea07b63d134
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 4251abf09bfca9f71a3a47dc5c0bf284cfa9160527602abe121f60d284e56a66
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001852207.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -68,14 +68,14 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001852207.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 3e0a619f1f414d956695edf44a019776b361311d0ab55e64d2212ea07b63d134
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4251abf09bfca9f71a3a47dc5c0bf284cfa9160527602abe121f60d284e56a66
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001852207.json
@@ -101,53 +101,53 @@ sources:
   retrieved_at: '2026-10-22T17:39:41.848518+00:00'
   sha256: null
 - id: S10
+  title: 425 0001213900-26-112171
+  url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026112171/0001213900-26-112171-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S11
   title: DEFA14A 0001213900-26-110845
   url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026110845/0001213900-26-110845-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S11
+- id: S12
   title: 425 0001213900-26-110844
   url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026110844/0001213900-26-110844-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S13
   title: 8-K 0001213900-26-110842
   url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026110842/0001213900-26-110842-index.html
   published_at: '2026-10-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S13
+- id: S14
   title: 425 0001213900-26-109964
   url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026109964/0001213900-26-109964-index.html
   published_at: '2026-10-16'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S14
-  title: 425 0001213900-26-107345
-  url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026107345/0001213900-26-107345-index.html
-  published_at: '2026-10-07'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S26
+- id: S27
   title: 10-K 0001213900-26-032983
   url: https://www.sec.gov/Archives/edgar/data/1852207/000121390026032983/0001213900-26-032983-index.html
   published_at: '2026-03-23'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: 0001852207
   classification_status: reported_sic
   entity_type: operating
   name: Bold Eagle Acquisition Corp.
-  sic: '6770'
-  sic_description: Blank Checks
+  sic: '7372'
+  sic_description: Services-Prepackaged Software
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 3e0a619f1f414d956695edf44a019776b361311d0ab55e64d2212ea07b63d134
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 4251abf09bfca9f71a3a47dc5c0bf284cfa9160527602abe121f60d284e56a66
   url: https://data.sec.gov/submissions/CIK0001852207.json
 listings:
 - ticker: BEAG
@@ -184,22 +184,25 @@ research_progress:
   model_draft: false
   reviewed: false
 sector_assignment:
-  sector: unclassified
-  method: unresolved
-  sic: '6770'
-  sic_description: Blank Checks
+  sector: information-technology
+  method: project_sic_rule
+  sic: '7372'
+  sic_description: Services-Prepackaged Software
   rule_version: 1
-  reason: Missing, ambiguous or unmapped reported industry; company-specific review
-    is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BEAG/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+  reason: Project navigation rules based on reported SEC SIC. These are provisional
+    broad sector groupings, not licensed or official GICS classifications. Unlisted,
+    mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
+    company-specific review.
+  source_url: https://data.sec.gov/submissions/CIK0001852207.json
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BEAG/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BEAG — Bold Eagle Acquisition Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BEAG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BEAG/README.md)
 
 ## Business overview
 
@@ -227,11 +230,11 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-SEC-reported SIC **6770**: Blank Checks. [S02]
+SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
-Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
+Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
@@ -247,10 +250,10 @@ Not available: substantive research has not been completed. Explain the mechanis
 
 ## Financial performance
 
-Derived observation: Annual net income changed +377.74% from the year ended 2024-12-31 to 2025-12-31. [S26]
+Derived observation: Annual net income changed +377.74% from the year ended 2024-12-31 to 2025-12-31. [S27]
 Formula: `(current / prior - 1) * 100`. Inputs: net_income=9764567 USD (NetIncomeLoss), net_income=2043928 USD (NetIncomeLoss).
 
-Derived observation: Operating cash flow / net income was -0.08x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S26]
+Derived observation: Operating cash flow / net income was -0.08x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S27]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=-776908 USD (NetCashProvidedByUsedInOperatingActivities), net_income=9764567 USD (NetIncomeLoss).
 
 Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
@@ -364,7 +367,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:33:57.598472+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:08.367233+00:00.
 
 ### Research work queue
 
@@ -400,17 +403,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | DEFA14A | 0001213900-26-110845 | — | [S10] |
-| 2026-10-20 | 425 | 0001213900-26-110844 | — | [S11] |
-| 2026-10-20 | 8-K | 0001213900-26-110842 | — | [S12] |
-| 2026-10-16 | 425 | 0001213900-26-109964 | — | [S13] |
-| 2026-10-07 | 425 | 0001213900-26-107345 | — | [S14] |
+| 2026-10-23 | 425 | 0001213900-26-112171 | — | [S10] |
+| 2026-10-20 | DEFA14A | 0001213900-26-110845 | — | [S11] |
+| 2026-10-20 | 425 | 0001213900-26-110844 | — | [S12] |
+| 2026-10-20 | 8-K | 0001213900-26-110842 | — | [S13] |
+| 2026-10-16 | 425 | 0001213900-26-109964 | — | [S14] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001852207.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001852207.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001852207.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
 
@@ -420,18 +423,18 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [10-Q 0001213900-26-057822](https://www.sec.gov/Archives/edgar/data/1852207/000121390026057822/0001213900-26-057822-index.html) — published 2026-05-15; retrieved 2026-10-22T17:39:41.848518+00:00.
 
-[S10] [DEFA14A 0001213900-26-110845](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110845/0001213900-26-110845-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [425 0001213900-26-112171](https://www.sec.gov/Archives/edgar/data/1852207/000121390026112171/0001213900-26-112171-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S11] [425 0001213900-26-110844](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110844/0001213900-26-110844-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [DEFA14A 0001213900-26-110845](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110845/0001213900-26-110845-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [8-K 0001213900-26-110842](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110842/0001213900-26-110842-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [425 0001213900-26-110844](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110844/0001213900-26-110844-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [425 0001213900-26-109964](https://www.sec.gov/Archives/edgar/data/1852207/000121390026109964/0001213900-26-109964-index.html) — published 2026-10-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [8-K 0001213900-26-110842](https://www.sec.gov/Archives/edgar/data/1852207/000121390026110842/0001213900-26-110842-index.html) — published 2026-10-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S14] [425 0001213900-26-107345](https://www.sec.gov/Archives/edgar/data/1852207/000121390026107345/0001213900-26-107345-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S14] [425 0001213900-26-109964](https://www.sec.gov/Archives/edgar/data/1852207/000121390026109964/0001213900-26-109964-index.html) — published 2026-10-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S26] [10-K 0001213900-26-032983](https://www.sec.gov/Archives/edgar/data/1852207/000121390026032983/0001213900-26-032983-index.html) — published 2026-03-23; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S27] [10-K 0001213900-26-032983](https://www.sec.gov/Archives/edgar/data/1852207/000121390026032983/0001213900-26-032983-index.html) — published 2026-03-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/BEAG/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/BEAG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

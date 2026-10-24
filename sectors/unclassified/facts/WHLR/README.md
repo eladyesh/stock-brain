@@ -10,11 +10,11 @@ tickers:
 - WHLRP
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -71,20 +71,20 @@ financial_gap:
 input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001527541.json
-    sha256: a384976e1e1c1efd74497125982623bad382b51442c7af801ba89d87ac1cb460
-    retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+    sha256: b6d405081306f98b11e272b9f03bdb61c0f1afe22e05fd77534343e8b7fa550d
+    retrieved_at: '2026-10-24T13:22:57.445127+00:00'
     archive:
       member: CIK0001527541.json
-      sha256: 7457a528288f1e3425cba6ffd7370c6c205845aba12761763aa5ae3683c0fdc2
+      sha256: 6a571557530102bb009e07bf4f2d86d9aa6021247bfde97f696dd22cb1a4a7e7
       url: https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0001527541.json
-    sha256: d2f819ed74127bc76e33b0bba606e5f04071879aabc85c057b8d8238d3935fd2
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: ef77dd027e56b6a1e4c336294035c7677317f2552d1d65805be527975cb8e903
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0001527541.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -92,67 +92,67 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:54.530395+00:00'
-  sha256: a31379ea4791bd232005b22547c9cfa517e0cb9e9f14ff7091be845f143d5c71
+  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001527541.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d2f819ed74127bc76e33b0bba606e5f04071879aabc85c057b8d8238d3935fd2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: ef77dd027e56b6a1e4c336294035c7677317f2552d1d65805be527975cb8e903
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001527541.json
   published_at: null
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
-  sha256: a384976e1e1c1efd74497125982623bad382b51442c7af801ba89d87ac1cb460
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
+  sha256: b6d405081306f98b11e272b9f03bdb61c0f1afe22e05fd77534343e8b7fa550d
 - id: S04
   title: 10-K 0001527541-26-000050
   url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000050/0001527541-26-000050-index.html
   published_at: '2026-03-05'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001527541-26-000251
   url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/0001527541-26-000251-index.html
   published_at: '2026-08-06'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S10
   title: 10-Q 0001527541-26-000128
   url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000128/0001527541-26-000128-index.html
   published_at: '2026-05-08'
-  retrieved_at: '2026-10-22T17:39:41.848518+00:00'
+  retrieved_at: '2026-10-24T13:22:57.445127+00:00'
   sha256: null
 - id: S17
-  title: 424B3 0001527541-26-000405
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000405/0001527541-26-000405-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B3 0001213900-26-112060
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026112060/0001213900-26-112060-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S18
-  title: 424B3 0001527541-26-000403
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000403/0001527541-26-000403-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B3 0001213900-26-112058
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026112058/0001213900-26-112058-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S19
-  title: 424B3 0001527541-26-000401
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000401/0001527541-26-000401-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: 424B3 0001213900-26-112056
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026112056/0001213900-26-112056-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S20
-  title: 8-K 0001527541-26-000399
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000399/0001527541-26-000399-index.html
-  published_at: '2026-10-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: ARS 0001213900-26-111875
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026111875/0001213900-26-111875-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 - id: S21
-  title: 424B3 0001527541-26-000397
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000397/0001527541-26-000397-index.html
-  published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  title: DEFA14A 0001213900-26-111874
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026111874/0001213900-26-111874-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0001527541'
@@ -164,8 +164,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: d2f819ed74127bc76e33b0bba606e5f04071879aabc85c057b8d8238d3935fd2
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: ef77dd027e56b6a1e4c336294035c7677317f2552d1d65805be527975cb8e903
   url: https://data.sec.gov/submissions/CIK0001527541.json
 listings:
 - ticker: WHLR
@@ -188,10 +188,10 @@ research_filings:
   form: 10-Q
   period_end: '2026-06-30'
   url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/0001527541-26-000251-index.html
-- accession: 0001140361-25-025658
-  filed: '2025-07-11'
+- accession: 0001213900-26-111872
+  filed: '2026-10-23'
   form: DEF 14A
-  url: https://www.sec.gov/Archives/edgar/data/1527541/000114036125025658/0001140361-25-025658-index.html
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026111872/0001213900-26-111872-index.html
 - accession: 0001527541-26-000399
   filed: '2026-10-19'
   form: 8-K
@@ -214,7 +214,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/1527541/000121390019026723/0001213900-19-026723-index.html
 research_progress:
   stage: pending
-  input_sha256: 69a0ab466cf07bbdda44e4ca22d3b2dbe827265bef34e471fe08dc408097f4cc
+  input_sha256: b62b9be7ec512bd7e7780e57133fa9bd9d2052fbcf84bfb6776848ffe639db6c
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -231,15 +231,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WHLR/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WHLR/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WHLR, WHLRD, WHLRP — Wheeler Real Estate Investment Trust, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WHLR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WHLR/README.md)
 
 ## Business overview
 
@@ -298,7 +298,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=21132000 USD
 Derived observation: Operating cash flow / net income was 2.41x for the year ended 2025-12-31. Working capital and non-cash adjustments require separate filing analysis. [S04]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=21132000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=8770000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -352,7 +352,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-22. Source retrieved: 2026-10-22T17:39:41.848518+00:00. [S03]
+Evidence cutoff: 2026-10-24. Source retrieved: 2026-10-24T13:22:57.445127+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -409,7 +409,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:30:51.629031+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:33:55.215278+00:00.
 
 ### Research work queue
 
@@ -445,36 +445,36 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-19 | 424B3 | 0001527541-26-000405 | — | [S17] |
-| 2026-10-19 | 424B3 | 0001527541-26-000403 | — | [S18] |
-| 2026-10-19 | 424B3 | 0001527541-26-000401 | — | [S19] |
-| 2026-10-19 | 8-K | 0001527541-26-000399 | — | [S20] |
-| 2026-10-13 | 424B3 | 0001527541-26-000397 | — | [S21] |
+| 2026-10-23 | 424B3 | 0001213900-26-112060 | — | [S17] |
+| 2026-10-23 | 424B3 | 0001213900-26-112058 | — | [S18] |
+| 2026-10-23 | 424B3 | 0001213900-26-112056 | — | [S19] |
+| 2026-10-23 | ARS | 0001213900-26-111875 | — | [S20] |
+| 2026-10-23 | DEFA14A | 0001213900-26-111874 | — | [S21] |
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:54.530395+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001527541.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001527541.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001527541.json) — published not supplied; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001527541.json) — published not supplied; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S04] [10-K 0001527541-26-000050](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000050/0001527541-26-000050-index.html) — published 2026-03-05; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S04] [10-K 0001527541-26-000050](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000050/0001527541-26-000050-index.html) — published 2026-03-05; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S05] [10-Q 0001527541-26-000251](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/0001527541-26-000251-index.html) — published 2026-08-06; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S05] [10-Q 0001527541-26-000251](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/0001527541-26-000251-index.html) — published 2026-08-06; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S10] [10-Q 0001527541-26-000128](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000128/0001527541-26-000128-index.html) — published 2026-05-08; retrieved 2026-10-22T17:39:41.848518+00:00.
+[S10] [10-Q 0001527541-26-000128](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000128/0001527541-26-000128-index.html) — published 2026-05-08; retrieved 2026-10-24T13:22:57.445127+00:00.
 
-[S17] [424B3 0001527541-26-000405](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000405/0001527541-26-000405-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S17] [424B3 0001213900-26-112060](https://www.sec.gov/Archives/edgar/data/1527541/000121390026112060/0001213900-26-112060-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S18] [424B3 0001527541-26-000403](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000403/0001527541-26-000403-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S18] [424B3 0001213900-26-112058](https://www.sec.gov/Archives/edgar/data/1527541/000121390026112058/0001213900-26-112058-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S19] [424B3 0001527541-26-000401](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000401/0001527541-26-000401-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S19] [424B3 0001213900-26-112056](https://www.sec.gov/Archives/edgar/data/1527541/000121390026112056/0001213900-26-112056-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S20] [8-K 0001527541-26-000399](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000399/0001527541-26-000399-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S20] [ARS 0001213900-26-111875](https://www.sec.gov/Archives/edgar/data/1527541/000121390026111875/0001213900-26-111875-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S21] [424B3 0001527541-26-000397](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000397/0001527541-26-000397-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S21] [DEFA14A 0001213900-26-111874](https://www.sec.gov/Archives/edgar/data/1527541/000121390026111874/0001213900-26-111874-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/WHLR/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/WHLR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

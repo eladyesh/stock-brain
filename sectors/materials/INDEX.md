@@ -6,7 +6,7 @@
 
 Factual files: **342**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261024-40097864335-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -101,7 +101,7 @@ Data release: `coverage-20261023-39968262770-1`. Provisional SIC groupings are n
 | [DC](facts/DC/README.md) | Dakota Gold Corp. | available; quality gates apply | project_sic_rule |
 | [DD](facts/DD/README.md) | DuPont de Nemours, Inc. | available; quality gates apply | project_sic_rule |
 | [DNN](facts/DNN/README.md) | DENISON MINES CORP. | missing | project_sic_rule |
-| [DOW](facts/DOW/README.md) | DOW INC. | missing | project_sic_rule |
+| [DOW](facts/DOW/README.md) | DOW INC. | available; quality gates apply | project_sic_rule |
 | [DPC](facts/DPC/README.md) | DPC Holdings PLC | available; quality gates apply | project_sic_rule |
 | [DRD](facts/DRD/README.md) | DRDGOLD LTD | missing | project_sic_rule |
 | [DSS](facts/DSS/README.md) | DSS, INC. | available; quality gates apply | project_sic_rule |

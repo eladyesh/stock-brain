@@ -8,11 +8,11 @@ tickers:
 - PMI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-23'
-updated_at: '2026-10-23T14:35:22.252685+00:00'
+as_of: '2026-10-24'
+updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
-coverage_release: coverage-20261023-39968262770-1
-source_commit: 3f697433c3580d4ca83edbe44c66580ac926c8d7
+coverage_release: coverage-20261024-40097864335-1
+source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -62,11 +62,11 @@ input_sources:
     acquisition: operator_supplied_sec_bulk_archive
   submissions:
     url: https://data.sec.gov/submissions/CIK0002030617.json
-    sha256: 37e3df85d78616bb4b887f0e5ced21a77b75501ca0c4fb55fdcee3862b09a4c3
-    retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+    sha256: 8f375a6374267f7139deeed2229a37c2f8b3af6562ea8dcea014784550ad821d
+    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
     archive: &id001
       member: CIK0002030617.json
-      sha256: 48514c6807353ac62b2eb8274cfd29e968eeec01123651eedda4c9584b680789
+      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
       url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
     acquisition: operator_supplied_sec_bulk_archive
 sources:
@@ -74,14 +74,14 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-23T14:17:55.298415+00:00'
-  sha256: be329650ef672c0314f0e16b2e41951f6af4ae314df9a04a32dc11ddb70b194e
+  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002030617.json
   published_at: null
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 37e3df85d78616bb4b887f0e5ced21a77b75501ca0c4fb55fdcee3862b09a4c3
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 8f375a6374267f7139deeed2229a37c2f8b3af6562ea8dcea014784550ad821d
 - id: S03
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0002030617.json
@@ -107,34 +107,34 @@ sources:
   retrieved_at: '2026-10-23T08:33:18.308731+00:00'
   sha256: null
 - id: S09
+  title: 8-K 0001437749-26-033423
+  url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926033423/0001437749-26-033423-index.html
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: null
+- id: S10
   title: S-3 0001437749-26-033230
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926033230/0001437749-26-033230-index.html
   published_at: '2026-10-22'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S10
+- id: S11
   title: 8-K 0001437749-26-032542
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926032542/0001437749-26-032542-index.html
   published_at: '2026-10-13'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S11
+- id: S12
   title: 8-K 0001437749-26-032125
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926032125/0001437749-26-032125-index.html
   published_at: '2026-10-06'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
-- id: S12
+- id: S13
   title: 8-K 0001437749-26-028585
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926028585/0001437749-26-028585-index.html
   published_at: '2026-08-20'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: null
-- id: S13
-  title: 10-Q 0001437749-26-028565
-  url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926028565/0001437749-26-028565-index.html
-  published_at: '2026-08-19'
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
 issuer_classification:
   cik: '0002030617'
@@ -146,8 +146,8 @@ issuer_classification:
 classification_source:
   acquisition: operator_supplied_sec_bulk_archive
   archive: *id001
-  retrieved_at: '2026-10-23T08:33:02.691743+00:00'
-  sha256: 37e3df85d78616bb4b887f0e5ced21a77b75501ca0c4fb55fdcee3862b09a4c3
+  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
+  sha256: 8f375a6374267f7139deeed2229a37c2f8b3af6562ea8dcea014784550ad821d
   url: https://data.sec.gov/submissions/CIK0002030617.json
 listings:
 - ticker: PMI
@@ -173,10 +173,10 @@ research_filings:
   filed: '2026-06-29'
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926021895/0001437749-26-021895-index.html
-- accession: 0001437749-26-032542
-  filed: '2026-10-13'
+- accession: 0001437749-26-033423
+  filed: '2026-10-23'
   form: 8-K
-  url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926032542/0001437749-26-032542-index.html
+  url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926033423/0001437749-26-033423-index.html
 - accession: 0001437749-26-023381
   filed: '2026-07-13'
   form: 8-K/A
@@ -187,7 +187,7 @@ research_filings:
   url: https://www.sec.gov/Archives/edgar/data/2030617/000143774926022832/0001437749-26-022832-index.html
 research_progress:
   stage: pending
-  input_sha256: 77a5292bf303cb8108390fbdc9b460c526df865044f021d8a263945c4dec9f9b
+  input_sha256: a2c86eb42b7471fc269832ce95497336615063ee67d48805b7e072bcde624777
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -207,15 +207,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002030617.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PMI/README.md
-full_history_commit: d523cff21b18141b9a37cddd98ad6af6e1a30fa5
+full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PMI/README.md
+full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PMI — Picard Medical, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PMI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PMI/README.md)
 
 ## Business overview
 
@@ -383,7 +383,7 @@ Not available: substantive research has not been completed. Describe operational
 - Research remains a stub; automation does not approve an investment thesis.
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
-- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-23T14:34:35.032343+00:00.
+- Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:36:34.892781+00:00.
 
 ### Research work queue
 
@@ -419,17 +419,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 | Filed | Form | Accession | Period end | Filing |
 | --- | --- | --- | --- | --- |
-| 2026-10-22 | S-3 | 0001437749-26-033230 | — | [S09] |
-| 2026-10-13 | 8-K | 0001437749-26-032542 | — | [S10] |
-| 2026-10-06 | 8-K | 0001437749-26-032125 | — | [S11] |
-| 2026-08-20 | 8-K | 0001437749-26-028585 | — | [S12] |
-| 2026-08-19 | 10-Q | 0001437749-26-028565 | — | [S13] |
+| 2026-10-23 | 8-K | 0001437749-26-033423 | — | [S09] |
+| 2026-10-22 | S-3 | 0001437749-26-033230 | — | [S10] |
+| 2026-10-13 | 8-K | 0001437749-26-032542 | — | [S11] |
+| 2026-10-06 | 8-K | 0001437749-26-032125 | — | [S12] |
+| 2026-08-20 | 8-K | 0001437749-26-028585 | — | [S13] |
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-23T14:17:55.298415+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002030617.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002030617.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0002030617.json) — published not supplied; retrieved 2026-10-23T08:33:18.308731+00:00.
 
@@ -439,16 +439,16 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S06] [10-Q 0001437749-26-017342](https://www.sec.gov/Archives/edgar/data/2030617/000143774926017342/0001437749-26-017342-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:18.308731+00:00.
 
-[S09] [S-3 0001437749-26-033230](https://www.sec.gov/Archives/edgar/data/2030617/000143774926033230/0001437749-26-033230-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S09] [8-K 0001437749-26-033423](https://www.sec.gov/Archives/edgar/data/2030617/000143774926033423/0001437749-26-033423-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S10] [8-K 0001437749-26-032542](https://www.sec.gov/Archives/edgar/data/2030617/000143774926032542/0001437749-26-032542-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S10] [S-3 0001437749-26-033230](https://www.sec.gov/Archives/edgar/data/2030617/000143774926033230/0001437749-26-033230-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S11] [8-K 0001437749-26-032125](https://www.sec.gov/Archives/edgar/data/2030617/000143774926032125/0001437749-26-032125-index.html) — published 2026-10-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S11] [8-K 0001437749-26-032542](https://www.sec.gov/Archives/edgar/data/2030617/000143774926032542/0001437749-26-032542-index.html) — published 2026-10-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S12] [8-K 0001437749-26-028585](https://www.sec.gov/Archives/edgar/data/2030617/000143774926028585/0001437749-26-028585-index.html) — published 2026-08-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S12] [8-K 0001437749-26-032125](https://www.sec.gov/Archives/edgar/data/2030617/000143774926032125/0001437749-26-032125-index.html) — published 2026-10-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-[S13] [10-Q 0001437749-26-028565](https://www.sec.gov/Archives/edgar/data/2030617/000143774926028565/0001437749-26-028565-index.html) — published 2026-08-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+[S13] [8-K 0001437749-26-028585](https://www.sec.gov/Archives/edgar/data/2030617/000143774926028585/0001437749-26-028585-index.html) — published 2026-08-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261023-39968262770-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d523cff21b18141b9a37cddd98ad6af6e1a30fa5/brain/companies/PMI/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/PMI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
