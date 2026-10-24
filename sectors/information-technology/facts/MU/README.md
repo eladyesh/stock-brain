@@ -12,10 +12,10 @@ as_of: '2026-10-24'
 updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
 coverage_release: coverage-20261024-40097864335-1
-source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
+source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/MU/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/3e64e295ca76808fce5a42e3e525d15ea101c1a7/sectors/information-technology/companies/MU/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -194,16 +194,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/MU/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MU/README.md
-full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
+  source_url: https://github.com/eladyesh/stock-brain/blob/3e64e295ca76808fce5a42e3e525d15ea101c1a7/sectors/information-technology/companies/MU/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/MU/README.md
+full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MU — MICRON TECHNOLOGY INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/MU/README.md)
 
 ## Business overview
 
@@ -394,7 +394,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:28:48.805782+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/88540b30f4be3c56b6c7fa8ba3dede59893b9834/sectors/information-technology/companies/MU/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/3e64e295ca76808fce5a42e3e525d15ea101c1a7/sectors/information-technology/companies/MU/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -458,6 +458,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0000723125-26-000023](https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.html) — published 2026-10-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/MU/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/MU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

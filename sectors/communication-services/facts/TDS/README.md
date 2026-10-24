@@ -14,7 +14,7 @@ as_of: '2026-10-24'
 updated_at: '2026-10-24T13:37:20.730682+00:00'
 reviewed_at: null
 coverage_release: coverage-20261024-40097864335-1
-source_commit: 88540b30f4be3c56b6c7fa8ba3dede59893b9834
+source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -229,15 +229,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001051512.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TDS/README.md
-full_history_commit: aad7b261e69b9f214b9c5e20228523ca644ed670
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/TDS/README.md
+full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # TDS, TDS$U, TDS$V — TELEPHONE & DATA SYSTEMS INC /DE/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TDS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/TDS/README.md)
 
 ## Business overview
 
@@ -464,6 +464,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0000901731-26-000015](https://www.sec.gov/Archives/edgar/data/1051512/000090173126000015/0000901731-26-000015-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/aad7b261e69b9f214b9c5e20228523ca644ed670/brain/companies/TDS/README.md).
+Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/TDS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
