@@ -8,11 +8,11 @@ tickers:
 - PAVM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -100,7 +100,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -230,15 +230,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001624326.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/PAVM/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/PAVM/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PAVM — PAVmed Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/PAVM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/PAVM/README.md)
 
 ## Business overview
 
@@ -459,7 +459,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001624326.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -483,6 +483,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S63] [10-K 0001437749-26-010115](https://www.sec.gov/Archives/edgar/data/1624326/000143774926010115/0001437749-26-010115-index.html) — published 2026-03-27; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/PAVM/README.md).
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/PAVM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

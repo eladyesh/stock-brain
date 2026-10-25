@@ -8,11 +8,11 @@ tickers:
 - NML
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -67,7 +67,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
   sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
@@ -146,15 +146,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/NML/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/NML/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NML — Neuberger Energy Infrastructure & Income Fund Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/NML/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/NML/README.md)
 
 ## Business overview
 
@@ -274,7 +274,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001562051.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -288,6 +288,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [NPORT-P 0001193125-26-317507](https://www.sec.gov/Archives/edgar/data/1562051/000119312526317507/0001193125-26-317507-index.html) — published 2026-07-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/NML/README.md).
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/NML/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - CNDT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -78,7 +78,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -146,6 +146,24 @@ sources:
   published_at: '2026-02-19'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1677703/000167770326000142/cndt-20261023.htm
+  title: 8-K 0001677703-26-000142
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T14:06:45.861862+00:00'
+  sha256: ac64234f7e684f9057c59754b6bdd2db7cd0a736087423de3416a22c57f2c237
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1677703/000167770326000092/cndt-20260630.htm
+  title: 10-Q 0001677703-26-000092
+  published_at: '2026-08-10'
+  retrieved_at: '2026-10-25T14:06:44.053481+00:00'
+  sha256: 3f869cf2494133c34ce72bce145a8acd84d0a735c2639a3d5fb5eed8fbe80e2f
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1677703/000167770326000024/cndt-20251231.htm
+  title: 10-K 0001677703-26-000024
+  published_at: '2026-02-19'
+  retrieved_at: '2026-10-25T14:06:39.864149+00:00'
+  sha256: b90930296a4799e8f9b7634088a3a768f41df3e8da42454f44c81167e7f85023
 issuer_classification:
   cik: '0001677703'
   classification_status: reported_sic
@@ -195,13 +213,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1677703/000119312517003098/0001193125-17-003098-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4a153222711dfba9c8badad1e748804a38a4a0ce84d45c1d277a5e1ae14970ed
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -216,15 +244,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001677703.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/CNDT/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CNDT/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CNDT — CONDUENT Inc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/CNDT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CNDT/README.md)
 
 ## Business overview
 
@@ -238,17 +266,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L59:
+
+> This Quarterly Report on Form 10-Q ("Form 10-Q") and any exhibits to this Form 10-Q may contain "forward-looking statements" as defined in the Private Securities Litigation Reform Act of 1995 (the "Litigation Reform Act"). These forward-looking statements and other information are based on our beliefs as well as assumptions made by us using information currently available. The words “anticipate,” “believe,” “estimate,” “expect,” "plan," “intend,” “will,” "aim," “should,” "could," "forecast," "target," "may," "continue to," "endeavor," "if," "growing," "projected," "potential," "likely," "see ahead," "further," "going forward," "on the horizon" and similar expressions (including the negative and plural forms of such words and phrases), as they relate to us, are intended to identify forward-looking statements, but the absence of these words does not mean that a statement is not forward-looking. These statements reflect our current views with respect to future events and are subject to certain risks, uncertainties and assumptions, many of which are outside of our control, that could cause actual results to differ materially from those expected or implied by such forward-looking statements and could materially adversely affect our business, financial condition, results of operations, cash flows and liquidity. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L519:
+
+> The following table provides information about disaggregated revenue by major service offering and reportable segment and the timing of revenue recognition. Refer to Note 4 – Segment Reporting for additional information on the Company's reportable segments. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-19, L400:
+
+> Generally, our policy is to seek patent protection for those inventions likely to be incorporated into our products and services or where obtaining such proprietary rights will improve our competitive position. As of December 31, 2025, we own approximately 489 U.S. patents and have 10 pending applications. Our patent portfolio evolves as new applications are filed, patents are awarded to us and as older patents expire. These patents expire on various dates, generally 20 years from their original filing dates. While we believe that our portfolio of patents and applications has value, in general, no single patent is essential to our business or to any individual segment of our business. In addition, any of our proprietary rights could be challenged, invalidated, or circumvented, or may not provide significant competitive advantages. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-19, L327:
+
+> •We deliver a full range of customer contact services, including customer care, technical support, loyalty management, and outbound and inbound sales, handling many complex interactions and representing the brands of our clients. We create better experiences across the customer lifecycle through a variety of channels including chat, email, voice and virtual agents to help customers where and how they want to engage. Through omni-channel communications, automation and analytics, as well as labor efficiencies, we help our clients drive revenue growth, enable scale, and gain cost reductions and other operational efficiencies. We serve marquee clients across multiple sectors, including the financial services, healthcare and life sciences, logistics, technology, telecom, travel and hospitality sectors, helping to resolve complex issues for our customers with empathy and effectiveness. The CXM business generally generates income on a per call, per agent, or per percentage of sales made basis. [S71]
 
 ## Industry and value chain
 
@@ -262,13 +306,25 @@ Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigati
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-19, L364:
+
+> Leadership in attractive growth markets: We are a leader in business process solutions that deliver exceptional outcomes for our clients on a massive scale. Our clients continue to outsource key business processes to improve efficiency and to accelerate performance and digital transformation. Additionally, clients are moving beyond services for back-office functions to drive customer/employee satisfaction and loyalty. Conduent has a diverse portfolio of solutions that enable business processes end-to-end across our clients’ organizations. This enables them to partner with us across more of their business functions to drive efficiency and better outcomes for their enterprises. The increase in globalization and cost competition continues to accelerate, forcing companies to seek ways to stay ahead of the competition. These factors, along with clients and their customers demanding more personalized, seamless and secure solutions, position Conduent well to capture these opportunities. Through our portfolio of digital business solutions and services, we have reached significant scale in our businesses including: [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-10, L935:
+
+> As more fully discussed below, the Company is involved in a variety of claims, lawsuits, investigations and proceedings concerning a variety of matters, including: governmental entity contracting, servicing and procurement law; intellectual property law; employment law; commercial and contracts law; the Employee Retirement Income Security Act ("ERISA"); and other laws and regulations. The Company determines whether an estimated loss from a contingency should be accrued by assessing whether a loss is deemed probable and can be reasonably estimated. The Company assesses its potential liability by analyzing its litigation and regulatory matters using available information. The Company develops its view on estimated losses in consultation with outside counsel handling its defense in these matters, which involves an analysis of potential results, assuming a combination of litigation and settlement strategies. Should developments in any of these matters cause a change in the Company's determination as to an unfavorable outcome and result in the need to recognize a material accrual, or should any of these matters result in a final adverse judgment or be settled for significant amounts in excess of any accrual for such matter or matters, this could have a material adverse effect on the Company's results of operations, cash flows and financial position in the period or periods in which … [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L1097:
+
+> Our transformation at Conduent continued during the second quarter of 2026 as we built upon the strategic priorities established earlier in the year. Throughout the quarter, we remained focused on driving growth in targeted markets, advancing portfolio optimization initiatives, strengthening operational execution, and improving the efficiency of our cost structure. These actions contributed to continued progress in our efforts to position the Company for sustainable long-term growth and profitability. Our priorities remain unchanged: accelerating execution, enforcing financial discipline, reducing costs, optimizing the portfolio, converting pipeline into growth, and simplifying the organization. During the second quarter, we made further progress against these objectives and believe we are building momentum as we move through the remainder of 2026. [S69]
 
 ## Financial performance
 
@@ -375,6 +431,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L969:
+
+> In 2025, for certain senior executives, the Company changed its Annual Performance Incentive Plan (“APIP”) cash incentive by awarding a portion of the incentive in Performance Stock Units (“PSUs”). In March 2026, the Compensation Committee of the Board of Directors used its discretion under the APIP plan documents to reduce the aggregate 2025 APIP pool and cancel the issuance of these PSUs. The impact of this change reduced compensation expense in the first quarter of 2026 by approximately $3 million and reduced PSUs outstanding by approximately 3.3 million. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -387,6 +447,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L91:
+
+> This Report and any exhibits to this Report may contain "forward-looking statements" as defined in the Private Securities Litigation Reform Act of 1995, as amended. The words "anticipate," "believe," "estimate," "expect," "plan," "intend," "will," "aim," "should," "could," "forecast," "target," "may," "continue to," "endeavor," "if," "growing," "projected," "potential," "likely," "see," "ahead," "further," "going forward," "on the horizon," and similar expressions (including the negative and plural forms of such words and phrases), as they relate to us, are intended to identify forward-looking statements, but the absence of these words does not mean that a statement is not forward-looking. These statements include, but may not be limited to, statements, including in the exhibits to this Report, regarding the Company’s Public Transit and Tolling business sales and our ability to meet the requirements and obligations under the New Credit Agreement and the Intercompany Credit Agreement, including the Factoring Condition. These statements reflect our current views with respect to future events and are subject to certain risks, uncertainties and assumptions, many of which are outside of our control, that could cause actual results to differ materially from those expected or implied by such forward-looking statements contained in this Report, any exhibits to this Report and other … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -396,25 +460,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -436,7 +500,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001677703.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -460,6 +524,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S64] [10-K 0001677703-26-000024](https://www.sec.gov/Archives/edgar/data/1677703/000167770326000024/0001677703-26-000024-index.html) — published 2026-02-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/CNDT/README.md).
+[S68] [8-K 0001677703-26-000142](https://www.sec.gov/Archives/edgar/data/1677703/000167770326000142/cndt-20261023.htm) — published 2026-10-23; retrieved 2026-10-25T14:06:45.861862+00:00.
+
+[S69] [10-Q 0001677703-26-000092](https://www.sec.gov/Archives/edgar/data/1677703/000167770326000092/cndt-20260630.htm) — published 2026-08-10; retrieved 2026-10-25T14:06:44.053481+00:00.
+
+[S71] [10-K 0001677703-26-000024](https://www.sec.gov/Archives/edgar/data/1677703/000167770326000024/cndt-20251231.htm) — published 2026-02-19; retrieved 2026-10-25T14:06:39.864149+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CNDT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

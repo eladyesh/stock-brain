@@ -8,11 +8,11 @@ tickers:
 - BVFL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -84,7 +84,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -152,6 +152,12 @@ sources:
   published_at: '2026-03-27'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1302387/000119312526128285/bvfl-20251231.htm
+  title: 10-K 0001193125-26-128285
+  published_at: '2026-03-27'
+  retrieved_at: '2026-10-25T14:01:59.559159+00:00'
+  sha256: 4d4cef03e247074edf685a1b1de110d2980bbc575b689c1cd8be23740a8547f8
 issuer_classification:
   cik: 0001302387
   classification_status: reported_sic
@@ -193,13 +199,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1302387/000095017023038554/0000950170-23-038554-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 2bbcd1c88a262c787efc0d1a886f02bcaa818ce389c8356676b65f86d45957a9
-  last_attempt_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-10-26T13:56:40.792803+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -214,15 +230,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001302387.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BVFL/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BVFL/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BVFL — BV Financial, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BVFL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BVFL/README.md)
 
 ## Business overview
 
@@ -236,17 +252,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-03-27, L312; prior source set, update pending:
+
+> statements regarding our business plans, prospects, growth and operating strategies and financial condition and results of operations; [S65]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-27, L28588; prior source set, update pending:
+
+> The Company operates a single reportable business segment that is comprised of commercial banking . The Company’s CEO is deemed the Chief Operating Decision Maker (“CODM”). The CODM evaluates the financial performance of the Company by evaluating revenue streams, significant expenses, and budget to actual results in assessing the Company’s single reporting segment and in the determination of allocating resources. The CODM uses consolidated net income to benchmark the Company against peers and to evaluate performance and allocate resources. Significant revenue and expense categories evaluated by the CODM are consistent with the presentation of the Consolidated Statement of Income. [S65]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-27, L4712; prior source set, update pending:
+
+> A worsening of economic conditions in our market area could reduce demand for our products and services and/or result in increases in our level of non-performing loans, which could adversely affect our operations, financial condition and earnings. [S65]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-27, L4698; prior source set, update pending:
+
+> While there is not a single employer or industry on which a significant number of our customers are dependent, a substantial portion of our loan portfolio is comprised of loans secured by property located in Baltimore City and Anne Arundel, Baltimore and Harford Counties in the Baltimore metropolitan area and Dorchester and Talbot Counties on the Eastern Shore of Maryland. This makes us vulnerable to a downturn in the local economy and real estate markets. Adverse conditions in the local economy such as unemployment, recession, a catastrophic event or other factors beyond our control could impact the ability of our borrowers to repay their loans, which could impact our net interest income. Decreases in local real estate values caused by economic conditions, recent changes in tax laws or other events could adversely affect the value of the property used as collateral for our loans, which could cause us to realize a loss in the event of a foreclosure. Further, deterioration in local economic conditions could drive the level of loan losses beyond the level we have provided for in our allowance for credit losses, which in turn could necessitate an increase in our provision for credit losses and a resulting reduction to our earnings and capital. [S65]
 
 ## Industry and value chain
 
@@ -254,11 +286,19 @@ SEC-reported SIC **6035**: Savings Institution, Federally Chartered. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-27, L320; prior source set, update pending:
+
+> general economic conditions, either nationally or in our market areas, including potential recessionary conditions or slowed economic growth caused by supply chain disruption or otherwise that are worse than expected; [S65]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-27, L391; prior source set, update pending:
+
+> We face competition within our market area both in making loans and attracting deposits. Our market area has a concentration of financial institutions that include large money center and regional banks, community banks and credit unions. We also face competition from mortgage banking firms, non-banking financial institutions, consumer finance companies, credit unions and financial technology or “fintech” companies, and, with respect to deposits, from money market funds, brokerage firms, mutual funds and insurance companies. [S65]
 
 ## Moat and differentiation
 
@@ -267,6 +307,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-27, L4792; prior source set, update pending:
+
+> We depend on the services of the members of our senior management team who direct our strategy and operations. Our executive officers and lending personnel possess substantial expertise, extensive knowledge of our markets and key business relationships. Any one of them could be difficult to replace. Our loss of these persons, or our inability to hire additional qualified personnel, could impact our ability to implement our business strategy and could have a material adverse effect on our results of operations and our ability to compete in our markets. In addition, loss of key personnel could result in increased recruiting and hiring expenses, which would reduce our net income. [S65]
 
 ## Financial performance
 
@@ -376,6 +420,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-03-27, L127; prior source set, update pending:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +436,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-03-27, L4579; prior source set, update pending:
+
+> Any change in applicable laws or regulations, whether by the OCFR, the FDIC, the Federal Reserve Board, the SEC, the Maryland legislature, or Congress, could have a material adverse impact on the operations and financial performance of BV Financial and BayVanguard Bank. [S65]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +449,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -437,7 +489,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001302387.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -461,6 +513,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S44] [10-K 0001193125-26-128285](https://www.sec.gov/Archives/edgar/data/1302387/000119312526128285/0001193125-26-128285-index.html) — published 2026-03-27; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BVFL/README.md).
+[S65] [10-K 0001193125-26-128285](https://www.sec.gov/Archives/edgar/data/1302387/000119312526128285/bvfl-20251231.htm) — published 2026-03-27; retrieved 2026-10-25T14:01:59.559159+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BVFL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

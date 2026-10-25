@@ -8,11 +8,11 @@ tickers:
 - BTLN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -77,7 +77,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -188,11 +188,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1854445/000149315222009224/0001493152-22-009224-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 7ed427ffb5131250dd518003dcddd9cc8b817672e2ce28eed52d5e2f8075da69
-  last_attempt_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-10-26T13:56:40.792803+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 2
@@ -209,15 +209,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001854445.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BTLN/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BTLN/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BTLN — Brightline Interactive, Inc./NV
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BTLN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BTLN/README.md)
 
 ## Business overview
 
@@ -386,7 +386,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -426,7 +426,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001854445.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -448,6 +448,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S25] [10-K 0001493152-26-044574](https://www.sec.gov/Archives/edgar/data/1854445/000149315226044574/0001493152-26-044574-index.html) — published 2026-09-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BTLN/README.md).
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BTLN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - BMI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -68,7 +68,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
   sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
@@ -130,6 +130,24 @@ sources:
   published_at: '2026-07-31'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/9092/000119312526430469/bmi-20260930.htm
+  title: 10-Q 0001193125-26-430469
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T13:59:19.806131+00:00'
+  sha256: 2b07e63ab5492ca3895fde7a4e74aed334d267c0af60b7e9f93a42d97ff6bff8
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/9092/000119312526106185/bmi-20260311.htm
+  title: DEF 14A 0001193125-26-106185
+  published_at: '2026-03-13'
+  retrieved_at: '2026-10-25T13:59:16.529645+00:00'
+  sha256: 4d3c2237fa257deb5b2dd88aa6410c808146ae50fb1448149935f9e8ece33a82
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/9092/000119312526054739/bmi-20251231.htm
+  title: 10-K 0001193125-26-054739
+  published_at: '2026-02-17'
+  retrieved_at: '2026-10-25T13:59:14.722637+00:00'
+  sha256: 6c20080cfd70cfdefe18233d1c479d1fc4120980f04f1297bae3eb2f59a95515
 issuer_classification:
   cik: 0000009092
   classification_status: reported_sic
@@ -171,13 +189,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/9092/000089706917000436/0000897069-17-000436-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 56321754352f54a2d00b93855034cc2f002049d80faafebfe694628479529abc
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -192,15 +221,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000009092.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BMI/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BMI/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BMI — BADGER METER INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BMI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BMI/README.md)
 
 ## Business overview
 
@@ -214,17 +243,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L4395:
+
+> In 2025, the U.S. government implemented a series of trade tariffs on goods imported into the U.S. from various countries. In many cases, these tariffs resulted in reciprocal tariffs and other actions on goods being exported from the U.S. These associated tariffs are complex and continue to evolve as negotiations occur. We evaluate the impact of global tariffs and trade restrictions on our business and operations and leverage our manufacturing footprint, when possible, through the use of the USMCA trade agreement to minimize impact. Additionally, we have enacted certain price increases to offset tariff costs that we are not able to mitigate. In February 2026, a Supreme Court ruling invalidated certain tariffs previously imposed. The Company has reviewed and applied for tariff refunds, as applicable. As the global economic environment, trade and tariff negotiations continue to evolve, the Company will continue to evaluate the exposure and work to mitigate these costs. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L3871:
+
+> The Company is an innovator, manufacturer, developer, marketer and distributor of water management solutions incorporating hardware and sensors, communication solutions and data analytics, which comprise one reportable segment. The Company concludes on their segments based on the internally reported financial information that is routinely reviewed by the chief operating decision maker (CODM) to assess financial performance, make decisions and allocate resources. The Company manages and evaluates its operations as one segment primarily due to similarities in the nature of the products, production processes, customers and methods of distribution. The Company’s CODM is the Chairman, President and Chief Executive Officer. [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L4396:
+
+> Global investment in artificial intelligence, computing infrastructure and hyperscale data center expansion has increased demand for various electronic components used in our products. As suppliers allocate manufacturing capacity to support AI-related applications and data center deployments, we have experienced and may continue to experience longer lead times, reduced component availability, and increased procurement costs for certain critical electronic components. The Company maintains strong relationships with its vendors and remains in frequent communication to monitor and assess changes in market conditions. In addition, the Company continues to evaluate dual-source opportunities, execute on strategic inventory purchases, and optimize safety stock levels to mitigate potential supply chain disruptions and associated cost pressures. The Company will implement pricing initiatives, where possible, to offset any cost increases. While management believes these actions reduce the Company’s exposure, prolonged supply chain constraints could adversely affect future operating results. [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-23, L4353:
+
+> The Company’s hardware-enabled software solutions provide insights and analytics critical to the holistic management of our customers’ water systems. These digital solutions increase visibility, empowering customers to monitor system performance and make decisions aiding efficiency, resiliency, and sustainability. [S66]
 
 ## Industry and value chain
 
@@ -232,19 +277,35 @@ SEC-reported SIC **3824**: Totalizing Fluid Meters & Counting Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L4396:
+
+> Global investment in artificial intelligence, computing infrastructure and hyperscale data center expansion has increased demand for various electronic components used in our products. As suppliers allocate manufacturing capacity to support AI-related applications and data center deployments, we have experienced and may continue to experience longer lead times, reduced component availability, and increased procurement costs for certain critical electronic components. The Company maintains strong relationships with its vendors and remains in frequent communication to monitor and assess changes in market conditions. In addition, the Company continues to evaluate dual-source opportunities, execute on strategic inventory purchases, and optimize safety stock levels to mitigate potential supply chain disruptions and associated cost pressures. The Company will implement pricing initiatives, where possible, to offset any cost increases. While management believes these actions reduce the Company’s exposure, prolonged supply chain constraints could adversely affect future operating results. [S66]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-17, L365:
+
+> The Company believes that its operations, including its manufacturing locations, are in substantial compliance with all applicable government laws and regulations, including those related to environmental, consumer protection, international trade, labor and employment, human rights, tax, anti-bribery and competition matters. Any additional measures to maintain compliance are not expected to materially affect the Company's capital expenditures, competitive position, financial position or results of operations. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-17, L360:
+
+> The Company owns or controls several trade secrets and many patents, trademarks and trade names in the United States and other countries that relate to its products and technologies. No single patent, trademark, trade name or trade secret is material to the Company's business as a whole. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-13, L1171:
+
+> Achievement/vesting of the PSUs is based upon two equally weighted financial performance metrics – adjusted free cash flow conversion (50% weighting) and adjusted return on invested capital (“ROIC”) (50% weighting) as measured over a three-year performance period. We generally define free cash flow conversion as free cash flow (defined above) divided by net earnings before special items. We believe free cash flow conversion is a valuable metric that captures the efficient generation and use of cash. We generally define ROIC as net operating profit after-tax, utilizing a fixed tax rate, divided by the simple average of beginning and ending net debt plus shareholder’s equity. We believe ROIC is a valuable metric that ensures our executives remain focused on effectively deploying capital, while maximizing shareholder value creation in the execution of our growth strategy. The PSUs are only earned if performance targets are achieved at the end of a three-year measurement period (i.e. no interim vesting). [S68]
 
 ## Financial performance
 
@@ -372,6 +433,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L4697:
+
+> During the third quarter of 2026, none of our directors or executive officers adopted or terminated any "Rule 10b5-1 trading arrangement" or non-Rule 10b5-1 trading arrangement (as each term is defined in Item 408(a) of Regulation S-K). [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -384,6 +449,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L261:
+
+> Certain statements contained in this Quarterly Report on Form 10-Q, as well as other information provided from time to time by Badger Meter, Inc. (the Company or Badger Meter) or its employees, may contain forward-looking statements that involve risks and uncertainties that could cause actual results to differ materially from those statements. The words “anticipate,” “believe,” “estimate,” “expect,” “think,” “should,” “could” and “objective” or similar expressions are intended to identify forward looking statements. All such forward looking statements are based on the Company’s then current views and assumptions and involve risks and uncertainties. See Item 1A "Risk Factors" of the Company's Annual Report on Form 10-K for the year ended December 31, 2025 for further information regarding risks and uncertainties that could cause actual results to differ materially from those expressed or implied in forward looking statements. The Company disclaims any obligation to publicly update or revise any forward-looking statements as a result of new information, future events or any other reason. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -393,25 +462,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -431,7 +500,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000009092.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -453,6 +522,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S20] [4 0001193125-26-328240](https://www.sec.gov/Archives/edgar/data/9092/000119312526328240/0001193125-26-328240-index.html) — published 2026-07-31; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BMI/README.md).
+[S66] [10-Q 0001193125-26-430469](https://www.sec.gov/Archives/edgar/data/9092/000119312526430469/bmi-20260930.htm) — published 2026-10-23; retrieved 2026-10-25T13:59:19.806131+00:00.
+
+[S68] [DEF 14A 0001193125-26-106185](https://www.sec.gov/Archives/edgar/data/9092/000119312526106185/bmi-20260311.htm) — published 2026-03-13; retrieved 2026-10-25T13:59:16.529645+00:00.
+
+[S69] [10-K 0001193125-26-054739](https://www.sec.gov/Archives/edgar/data/9092/000119312526054739/bmi-20251231.htm) — published 2026-02-17; retrieved 2026-10-25T13:59:14.722637+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BMI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

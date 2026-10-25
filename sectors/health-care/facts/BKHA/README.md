@@ -8,11 +8,11 @@ tickers:
 - BKHA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -77,7 +77,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -145,6 +145,18 @@ sources:
   published_at: '2026-03-06'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/2000775/000182912626010813/blackhawk_10q.htm
+  title: 10-Q 0001829126-26-010813
+  published_at: '2026-10-06'
+  retrieved_at: '2026-10-25T13:58:49.030216+00:00'
+  sha256: 267580d3d91e46501b89a14fed997c4ad02a552546491ac327333df2a46e0b67
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/2000775/000182912626002021/blackhawkacq_10k.htm
+  title: 10-K 0001829126-26-002021
+  published_at: '2026-03-06'
+  retrieved_at: '2026-10-25T13:58:45.823424+00:00'
+  sha256: 7262beb7541f8ecdfc25e86a8924e035581db6924792d65081dc3658f6d2b1dc
 issuer_classification:
   cik: '0002000775'
   classification_status: reported_sic
@@ -199,13 +211,19 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2000775/000182912624002200/0001829126-24-002200-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 87e67a45ee505f70483debdcc89ad75e3b860ca272938f03dc11ba8f61d3f47d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -220,15 +238,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002000775.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BKHA/README.md
-full_history_commit: 2290c5ee6e95b7aeba999ae4c943952901c7c78d
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BKHA/README.md
+full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BKHA — Black Hawk Acquisition Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BKHA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BKHA/README.md)
 
 ## Business overview
 
@@ -242,9 +260,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-06, L1290:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the independent registered public accounting firm attestation requirements of Section 404 of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S65]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-06, L331:
+
+> \| Potential for Strong Free Cash Flow Generation. We will seek to acquire one or more businesses that have the potential to generate strong, stable and increasing free cash flow, particularly businesses with predictable revenue streams and definable low working capital and capital expenditure requirements. We may also seek to prudently leverage this cash flow in order to enhance shareholder value. [S67]
 
 ## Products and services
 
@@ -265,6 +291,10 @@ Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigati
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-06, L365:
+
+> In identifying, evaluating and selecting a target business for our initial business combination, we may encounter intense competition from other entities having a business objective similar to ours, including other blank check companies, private equity groups, venture capital, funds leveraged buyout funds, and operating businesses seeking strategic acquisitions. Many of these entities are well established and have significant experience identifying and effecting business combinations directly or through affiliates. Moreover, many of these competitors possess greater financial, technical, human and other resources than us. Our ability to acquire larger target businesses will be limited by our available financial resources. This inherent limitation gives others an advantage in pursuing the acquisition of a target business. Furthermore, the requirement that, so long as our securities are listed on Nasdaq, we acquire a target business or businesses having a fair market value equal to at least 80% of the value of the trust account (less any deferred underwriting commissions and taxes payable on interest earned and less any interest earned thereon that is released to us for taxes) at the time of the agreement to enter into the business combination, our obligation to pay cash in connection with our public shareholders who exercise their redemption rights, and our outstanding rights … [S67]
 
 ## Moat and differentiation
 
@@ -376,6 +406,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-06, L1179:
+
+> If the Company is unable to complete a Business Combination within the Combination Period, the Company will (i) cease all operations except for the purpose of winding up, (ii) as promptly as reasonably possible but not more than ten business days thereafter, redeem the public shares, at a per-share price, payable in cash, equal to the aggregate amount then on deposit in the trust account including interest (which interest shall be net of taxes payable and less up to $100,000 of interest to pay liquidation and dissolution expenses), divided by the number of then outstanding public shares, which redemption will completely extinguish public shareholders’ rights as shareholders (including the right to receive further liquidating distributions, if any), subject to applicable law, and (iii) as promptly as reasonably possible following such redemption, subject to the approval of the Company’s remaining shareholders and the Company’s board of directors, dissolve and liquidate, subject in each case to the Company’s obligations under Cayman Islands law to provide for claims of creditors and the requirements of other applicable law. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +422,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-06, L1559:
+
+> Financial instruments that potentially subject the Company to concentrations of credit risk consist of a cash account in a financial institution, which, at times, may exceed the Federal Depository Insurance Coverage of $250,000. The Company has not experienced losses on this account and management believes the Company is not exposed to significant risks on such account. [S65]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +435,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -437,7 +475,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002000775.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -461,6 +499,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0001829126-26-002021](https://www.sec.gov/Archives/edgar/data/2000775/000182912626002021/0001829126-26-002021-index.html) — published 2026-03-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2290c5ee6e95b7aeba999ae4c943952901c7c78d/brain/companies/BKHA/README.md).
+[S65] [10-Q 0001829126-26-010813](https://www.sec.gov/Archives/edgar/data/2000775/000182912626010813/blackhawk_10q.htm) — published 2026-10-06; retrieved 2026-10-25T13:58:49.030216+00:00.
+
+[S67] [10-K 0001829126-26-002021](https://www.sec.gov/Archives/edgar/data/2000775/000182912626002021/blackhawkacq_10k.htm) — published 2026-03-06; retrieved 2026-10-25T13:58:45.823424+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/BKHA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
