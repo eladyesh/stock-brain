@@ -2726,8 +2726,8 @@
       "active": true
     },
     "0000009092": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0000009092",
@@ -2774,7 +2774,10 @@
         }
       ],
       "input_sha256": "56321754352f54a2d00b93855034cc2f002049d80faafebfe694628479529abc",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0000009326": {
       "status": "retry",
@@ -28030,9 +28033,9 @@
       "active": true
     },
     "0000312069": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0000312069",
       "symbol": "BCS",
@@ -28064,7 +28067,9 @@
         }
       ],
       "input_sha256": "d4f072669e3114c9f52662bd2dc62d74523662dd17c1790effe8e18bbea0a4f3",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "Invalid"
     },
     "0000313143": {
       "status": "pending",
@@ -37833,9 +37838,9 @@
       "active": true
     },
     "0000728387": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0000728387",
       "symbol": "CATX",
@@ -37930,7 +37935,9 @@
         }
       ],
       "input_sha256": "644e0e78212b8cd9d707106dd0f5f29fed3bcfef6ea25f67839cd30f02d20eff",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "HTTPError"
     },
     "0000729580": {
       "status": "pending",
@@ -41820,8 +41827,8 @@
       "active": true
     },
     "0000763901": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0000763901",
@@ -41868,7 +41875,10 @@
         }
       ],
       "input_sha256": "51106529b7db4c8bf7cdc42186ee661d6a169dba6dff5f2945bcc886cf9a13d4",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0000763907": {
       "status": "pending",
@@ -72678,8 +72688,8 @@
       "active": true
     },
     "0000911147": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0000911147",
@@ -72775,7 +72785,10 @@
         }
       ],
       "input_sha256": "6656f93bec93f13b1ab0b3c7e17ee62d47df26cd8e6a199627a9eb627e524089",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0000911177": {
       "status": "pending",
@@ -81295,8 +81308,8 @@
       "active": true
     },
     "0000944745": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0000944745",
@@ -81371,7 +81384,10 @@
         }
       ],
       "input_sha256": "94ba7cdcc48d580847ee927db3a3bd830083d50f3fd5d5eea0ed30c503fdfb5e",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0000944809": {
       "status": "pending",
@@ -105247,9 +105263,9 @@
       "active": true
     },
     "0001087294": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001087294",
       "symbol": "CPIX",
@@ -105316,7 +105332,9 @@
         }
       ],
       "input_sha256": "2525cd74bf12ac1c41d79f774afa09a739629a1425e2a97220a4532bf08c8488",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "RequestBudget"
     },
     "0001088034": {
       "status": "pending",
@@ -113850,9 +113868,9 @@
       "active": true
     },
     "0001130144": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001130144",
       "symbol": "BSRR",
@@ -113905,7 +113923,9 @@
         }
       ],
       "input_sha256": "84d0e26a71b87834e91f953d6709a4dbca6deb96ef6dd0bb6eb777a59de53b78",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "TimeoutError"
     },
     "0001130166": {
       "status": "pending",
@@ -113966,8 +113986,8 @@
       "active": true
     },
     "0001130464": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001130464",
@@ -114021,7 +114041,10 @@
         }
       ],
       "input_sha256": "31b2dfd2b287916dbd14467a652e4b07d50ec8bda407a0b358cd0f26436e055f",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001130598": {
       "status": "pending",
@@ -116793,8 +116816,8 @@
       "active": true
     },
     "0001156375": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001156375",
@@ -116834,7 +116857,10 @@
         }
       ],
       "input_sha256": "4e5dead9c234d42628e4fe091f4782f9b0113d749cdf6a116fd087f5d9eac3fc",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001157075": {
       "status": "pending",
@@ -123769,8 +123795,8 @@
       "active": true
     },
     "0001218683": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001218683",
@@ -123852,7 +123878,10 @@
         }
       ],
       "input_sha256": "ed4194c188c1087900949292183ec94b74aa43fcac9479bf1ba7e024689a06f8",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001219120": {
       "status": "pending",
@@ -123980,8 +124009,8 @@
       "active": true
     },
     "0001221029": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001221029",
@@ -124028,7 +124057,10 @@
         }
       ],
       "input_sha256": "f286f8fd4270652a455be49842c1e21ab7aeac13b6ce1314890d2acfe6364a49",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001222401": {
       "status": "pending",
@@ -133395,9 +133427,9 @@
       "active": true
     },
     "0001302387": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001302387",
       "symbol": "BVFL",
@@ -133443,7 +133475,9 @@
         }
       ],
       "input_sha256": "2bbcd1c88a262c787efc0d1a886f02bcaa818ce389c8356676b65f86d45957a9",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "HTTPError"
     },
     "0001304492": {
       "status": "pending",
@@ -147501,8 +147535,8 @@
       "active": true
     },
     "0001383312": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001383312",
@@ -147563,7 +147597,10 @@
         }
       ],
       "input_sha256": "1ba371abb9864147a8a9cd16e69a7f2a7f5899fe401b83624c2b5531664f3ffe",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001383395": {
       "status": "pending",
@@ -171135,9 +171172,9 @@
       "active": true
     },
     "0001498403": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001498403",
       "symbol": "BLRX",
@@ -171232,7 +171269,9 @@
         }
       ],
       "input_sha256": "c353802d965cb70a340a90e487c61b303014174d9141a3ee096afb945d2ffdad",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "ValueError"
     },
     "0001498612": {
       "status": "pending",
@@ -198738,8 +198777,8 @@
       "active": true
     },
     "0001605888": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001605888",
@@ -198793,7 +198832,10 @@
         }
       ],
       "input_sha256": "3e228e72f9fbdbe77943276ce982c7d663b2430b0b3741a4811da4e2b267313c",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001606163": {
       "status": "pending",
@@ -205887,8 +205929,8 @@
       "active": true
     },
     "0001634117": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001634117",
@@ -205935,7 +205977,10 @@
         }
       ],
       "input_sha256": "e78ed86c8311bc0f679c0e58a0185b2bfdf20893e47638bfd41143c33ab3fdb2",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001635077": {
       "status": "pending",
@@ -207749,8 +207794,8 @@
       "active": true
     },
     "0001641281": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001641281",
@@ -207790,7 +207835,10 @@
         }
       ],
       "input_sha256": "c1a05522b8c912795ffe94f71996bf22c5bc0f2b098ca7c32f0dc2200a019970",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001641398": {
       "status": "pending",
@@ -216521,8 +216569,8 @@
       "active": true
     },
     "0001677703": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001677703",
@@ -216583,7 +216631,10 @@
         }
       ],
       "input_sha256": "4a153222711dfba9c8badad1e748804a38a4a0ce84d45c1d277a5e1ae14970ed",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001677940": {
       "status": "pending",
@@ -225727,8 +225778,8 @@
       "active": true
     },
     "0001712762": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001712762",
@@ -225782,7 +225833,10 @@
         }
       ],
       "input_sha256": "6f6fe5d8913246548128fba09eccc47aa91206d371c8d49b22990d8d2a2cfcf4",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001712807": {
       "status": "pending",
@@ -226987,9 +227041,9 @@
       "active": true
     },
     "0001717161": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001717161",
       "symbol": "CEPU",
@@ -227084,7 +227138,9 @@
         }
       ],
       "input_sha256": "2482370316bd6c4a11e33ae6aab1fd2b72f02d504d0ad7531efe40d3eef76d31",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "HTTPError"
     },
     "0001717307": {
       "status": "pending",
@@ -231842,8 +231898,8 @@
       "active": true
     },
     "0001737927": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001737927",
@@ -231897,7 +231953,10 @@
         }
       ],
       "input_sha256": "06d2eebfb1927d6d18195ddb0f55f5e047fe52e304df3662757734b0d81f898f",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001737953": {
       "status": "pending",
@@ -239019,8 +239078,8 @@
       "active": true
     },
     "0001768446": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001768446",
@@ -239067,7 +239126,10 @@
         }
       ],
       "input_sha256": "df28e4907dcbbdcb1fcbd55e62aa31e6132132456da2ead4cedf5a3e72233b43",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001768666": {
       "status": "pending",
@@ -242000,8 +242062,8 @@
       "active": true
     },
     "0001780785": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001780785",
@@ -242069,7 +242131,10 @@
         }
       ],
       "input_sha256": "d280e9c79704ac9238417035073c47e7ae7009b40bdb69a5ba6e73a64fe8aa3d",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001781162": {
       "status": "pending",
@@ -260375,8 +260440,8 @@
       "active": true
     },
     "0001828972": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001828972",
@@ -260416,7 +260481,10 @@
         }
       ],
       "input_sha256": "db5dde7a60cc3834992906d3dc89493a287c645e6b8d45b786edf9fa24797e12",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001829118": {
       "status": "pending",
@@ -266585,8 +266653,8 @@
       "active": true
     },
     "0001842827": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001842827",
@@ -266619,7 +266687,10 @@
         }
       ],
       "input_sha256": "eed3d2e29507400a34826ff22f808729fbaabb47ff88da1379ad454cc08e6abf",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001842952": {
       "status": "pending",
@@ -271078,9 +271149,9 @@
       "active": true
     },
     "0001854445": {
-      "status": "pending",
-      "attempts": 0,
-      "next_retry_at": null,
+      "status": "retry",
+      "attempts": 1,
+      "next_retry_at": "2026-10-26T13:56:40.792803+00:00",
       "changed_sources": true,
       "cik": "0001854445",
       "symbol": "BTLN",
@@ -271140,7 +271211,9 @@
         }
       ],
       "input_sha256": "7ed427ffb5131250dd518003dcddd9cc8b817672e2ce28eed52d5e2f8075da69",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": "HTTPError"
     },
     "0001854545": {
       "status": "pending",
@@ -285773,8 +285846,8 @@
       "active": true
     },
     "0001929908": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001929908",
@@ -285793,7 +285866,10 @@
         }
       ],
       "input_sha256": "bc1943b14ad558ff4878d370b2d25ed91aa8945593442a2eead74a9858f4a069",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001930021": {
       "status": "pending",
@@ -290990,8 +291066,8 @@
       "active": true
     },
     "0001959994": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001959994",
@@ -291038,7 +291114,10 @@
         }
       ],
       "input_sha256": "d6853bc5ff16c7ed50c1fb47ef67ce9b3cc333fe58a54feb216c1ff49f458e12",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001960355": {
       "status": "pending",
@@ -291497,8 +291576,8 @@
       "active": true
     },
     "0001964333": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0001964333",
@@ -291580,7 +291659,10 @@
         }
       ],
       "input_sha256": "6fb608b479fad7648f093142da2fd3ca454b0054b7d72e3936ce74ec2d1e9c9c",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0001964504": {
       "status": "pending",
@@ -297595,8 +297677,8 @@
       "active": true
     },
     "0002000775": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0002000775",
@@ -297664,7 +297746,10 @@
         }
       ],
       "input_sha256": "87e67a45ee505f70483debdcc89ad75e3b860ca272938f03dc11ba8f61d3f47d",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0002001184": {
       "status": "pending",
@@ -301195,8 +301280,8 @@
       "active": true
     },
     "0002020027": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0002020027",
@@ -301222,7 +301307,10 @@
         }
       ],
       "input_sha256": "ac24ce65c162aa5672e639ad2f38f0bd123ed9d213599f583c367b14e0a41d3c",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0002020228": {
       "status": "pending",
@@ -307343,8 +307431,8 @@
       "active": true
     },
     "0002047273": {
-      "status": "pending",
-      "attempts": 0,
+      "status": "evidence_collected",
+      "attempts": 1,
       "next_retry_at": null,
       "changed_sources": true,
       "cik": "0002047273",
@@ -307370,7 +307458,10 @@
         }
       ],
       "input_sha256": "5cd42f519bfc22b02c49c076e2e127b14bf864b6340f07343b598c0270600421",
-      "active": true
+      "active": true,
+      "last_attempt_at": "2026-10-25T13:56:40.792803+00:00",
+      "last_success_at": "2026-10-25T13:56:40.792803+00:00",
+      "error": null
     },
     "0002047455": {
       "status": "pending",
@@ -321785,21 +321876,141 @@
     "0000009326": {
       "sha256": "89c4e632774bdb7fc373dcd6e8d427a380362238eacac9c0474a87f485d66906",
       "size_bytes": 38093
+    },
+    "0000312069": {
+      "sha256": "0296b455ca7b54100c1020de302b6dd037ac1fdf89bc243dc05d77c1cedee7e1",
+      "size_bytes": 13555
+    },
+    "0001218683": {
+      "sha256": "15fda6027b50970db90afaa11a13eac4154fbe9da8cf0163d52cbcade4ef815c",
+      "size_bytes": 25837
+    },
+    "0001964333": {
+      "sha256": "676778b51e3e7711101e01a3c7df9b61aa0d27b3cc28c1396d1d69e5a1d26e91",
+      "size_bytes": 52247
+    },
+    "0001712762": {
+      "sha256": "ab69904f64aebb02c8a7581e8f3752c1b606ece585618cc5068cf1f93249c6b0",
+      "size_bytes": 14514
+    },
+    "0001130464": {
+      "sha256": "1b38d28164a70cb388706d7c821fd0e02995aa62498a471c8df05acdde5464f8",
+      "size_bytes": 39296
+    },
+    "0002000775": {
+      "sha256": "22e8099103fd39009469008a0dd3c476b9e78c04dc8ed721e49467a7ee8e4fa9",
+      "size_bytes": 22200
+    },
+    "0001498403": {
+      "sha256": "f2c50ea436864327e1fef0fe5abd3c60cd5d05bcb65a5eb8f33b6f024ba3d033",
+      "size_bytes": 36093
+    },
+    "0000009092": {
+      "sha256": "d7182211222742ae3274be920a887bb23bb8240c201f179a5e5ab06736ca8b3d",
+      "size_bytes": 41333
+    },
+    "0001929908": {
+      "sha256": "08751011b8927b393ba18efbe699b5a2383651aa9806f82d4f7f56113afcbbae",
+      "size_bytes": 654
+    },
+    "0001634117": {
+      "sha256": "539ae414fd19a1906d963ae8d6d88fcfcbc0f2d27baf904b477a11a2835f16c3",
+      "size_bytes": 44593
+    },
+    "0001641281": {
+      "sha256": "0e89d19508607eac0ccfe1d39e78d8b3dc41b3a3b73cfc1b61dbe591192f3849",
+      "size_bytes": 41443
+    },
+    "0000763901": {
+      "sha256": "9c9e3a8237040b198f08655f457f45b61db9bf4b06ffcab686eacc7df11b13c4",
+      "size_bytes": 26812
+    },
+    "0001383312": {
+      "sha256": "452df67dc1188b032054d032605f2de5d6ace1d9e4e2af27546cc08cdc83f7b0",
+      "size_bytes": 43689
+    },
+    "0002047273": {
+      "sha256": "dcad42f535c1be6b1f9423417341995b7bab98417d1ea755215dc3be38096472",
+      "size_bytes": 9823
+    },
+    "0001302387": {
+      "sha256": "24a0912426926fc15a9986bf92b94bc6961c46248b814814dc1932300fcc6d8a",
+      "size_bytes": 15997
+    },
+    "0001842827": {
+      "sha256": "b5d90936b6b15d571fbac2e71fc67407a9ebf623c2d41177e031e28ca5edaac6",
+      "size_bytes": 24666
+    },
+    "0001828972": {
+      "sha256": "a9f8f9e3bc760b21515f6707a27bd52b3790a1011c70ad33dea3c412e19fef80",
+      "size_bytes": 39598
+    },
+    "0000728387": {
+      "sha256": "926c08585fe7e8e1825c3e7f954bb52244f759a283a869dd6fee9ad4b3c44402",
+      "size_bytes": 1108
+    },
+    "0001737927": {
+      "sha256": "68c14d838ddc23a28ceabfdaba404c3c5ed760da0edaa1d4ec7db4c3e8e2edee",
+      "size_bytes": 51567
+    },
+    "0001605888": {
+      "sha256": "ab7638f1b59276599dbf7e69eb0ac774035c0e437188dcf2a1c2d38a6455400a",
+      "size_bytes": 38178
+    },
+    "0000944745": {
+      "sha256": "ea6b943066a4d4eacf5b7fd840af7b7d5cc3e22a848c376794a4175f26fe8cde",
+      "size_bytes": 37694
+    },
+    "0002020027": {
+      "sha256": "89e8ab8a7a9a12d3dd615854ea01ad6f542258b9ba836cfae3494010d8ec64a8",
+      "size_bytes": 8178
+    },
+    "0001768446": {
+      "sha256": "9cf13f238e6fb20ce63a955b0d63939e90a9c84263d8b2547fbc3ce317ae1657",
+      "size_bytes": 55281
+    },
+    "0001156375": {
+      "sha256": "4208eac520e7f9779ad114f4183fc979ed8dce7ce080f712f98d5290a2562f73",
+      "size_bytes": 36548
+    },
+    "0001677703": {
+      "sha256": "2df86c35f4a899c4476f80fd3161ac62fea357c95655dcd0e04b5cfc13238e2f",
+      "size_bytes": 50980
+    },
+    "0001780785": {
+      "sha256": "12de8712555c78a65aaccfec7a139891d2d963886954006be2a6ad2d8c841f85",
+      "size_bytes": 53969
+    },
+    "0000911147": {
+      "sha256": "e5577b6913d03b5510dd9de191ff9e03e84bca2260f08d85344884ec3402b897",
+      "size_bytes": 55824
+    },
+    "0001959994": {
+      "sha256": "3884c2005f20ac36c08097b90cce461eddc8923daf1dd19d55e0c03e071e2d1e",
+      "size_bytes": 11697
+    },
+    "0001221029": {
+      "sha256": "758abe6a4f9999ee23e5e6fe6db1aa150c2cb6eaa522ab64f52f4a3688245d74",
+      "size_bytes": 11528
+    },
+    "0001087294": {
+      "sha256": "daf5f20b8f300c593d0bec758cdc85be20a38e394f9e5b52aa14048f68998e10",
+      "size_bytes": 55940
     }
   },
   "last_run": {
-    "at": "2026-10-24T16:23:31.713432+00:00",
-    "release_tag": "coverage-20261024-40097864335-1",
+    "at": "2026-10-25T13:56:40.792803+00:00",
+    "release_tag": "coverage-20261025-40199010718-1",
     "issuers": 5637,
-    "attempted": 0,
-    "completed": 0,
-    "failed": 0,
-    "requests": 0,
+    "attempted": 33,
+    "completed": 25,
+    "failed": 8,
+    "requests": 360,
     "stop_reason": "request_budget",
     "counts": {
-      "pending": 5565,
-      "evidence_collected": 61,
-      "retry": 3,
+      "pending": 5532,
+      "evidence_collected": 86,
+      "retry": 11,
       "source_missing": 8
     },
     "model_attempts": 0,
@@ -321807,9 +322018,9 @@
     "reviewed_generated_profiles": 0
   },
   "daily_usage": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "requests": 360,
-    "companies": 34,
+    "companies": 33,
     "model_attempts": 0
   }
 }
