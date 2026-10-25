@@ -8,11 +8,11 @@ tickers:
 - BHRB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -80,7 +80,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -460,6 +460,66 @@ sources:
   published_at: '2026-06-23'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000104/bhrb-20260618.htm
+  title: 8-K/A 0001964333-26-000104
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T13:58:14.374687+00:00'
+  sha256: a20b096bd23be04c237c41b4beffae3a14bee3700e45d1edb946f3c0d1dd4200
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000102/bhrb-20261022.htm
+  title: 8-K 0001964333-26-000102
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-25T13:58:12.833376+00:00'
+  sha256: 53d133324249d889b5a79f8953e54ef700ce0eb1d89fb9dc4ccdd98c17e14cce
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000095/bhrb-20260630.htm
+  title: 10-Q 0001964333-26-000095
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-25T13:58:10.912726+00:00'
+  sha256: 4c0055bc3ed20b4be1dcc68919da9ce4699bed91750c4de40c7e99388dd280c8
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000084/bhrb-20260501.htm
+  title: 8-K/A 0001964333-26-000084
+  published_at: '2026-07-17'
+  retrieved_at: '2026-10-25T13:58:09.219653+00:00'
+  sha256: 06fa5ff766084c84bfdce416db4bda9d918f26f05373753294fd193309f8af45
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000052/bhrb-20260429.htm
+  title: DEF 14A 0001964333-26-000052
+  published_at: '2026-04-30'
+  retrieved_at: '2026-10-25T13:58:07.619167+00:00'
+  sha256: 032a94a630185dd20008a4698a4076195269d361df1080ab29bbb022ace4b254
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433326000016/bhrb-20251231.htm
+  title: 10-K 0001964333-26-000016
+  published_at: '2026-02-27'
+  retrieved_at: '2026-10-25T13:58:05.601919+00:00'
+  sha256: 72022526a0bf14f695d5b962d0c4576272f88e6845765426ba4d7be3dda23d52
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433325000048/bhrb-20250123.htm
+  title: 8-K/A 0001964333-25-000048
+  published_at: '2025-01-30'
+  retrieved_at: '2026-10-25T13:58:03.663532+00:00'
+  sha256: ff4d5d857d76966a0d9c27aeb65eb694e47fc89de1ecce6c1c1c127576ba74ad
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433324000294/bhrb-20240503.htm
+  title: 8-K/A 0001964333-24-000294
+  published_at: '2024-07-11'
+  retrieved_at: '2026-10-25T13:58:02.244852+00:00'
+  sha256: 9397396117ee7d2505de22b6f09cac5790a2d2e227a4fa73c7805b5dbaf3e003
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433324000292/bhrb-20240503.htm
+  title: 8-K/A 0001964333-24-000292
+  published_at: '2024-07-10'
+  retrieved_at: '2026-10-25T13:58:00.593277+00:00'
+  sha256: 5130d3637687d6c51b135de243bcd42ae62d18896febd4d2003391675cd47773
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1964333/000196433324000216/bhrb-20240503.htm
+  title: 8-K/A 0001964333-24-000216
+  published_at: '2024-05-09'
+  retrieved_at: '2026-10-25T13:57:58.967095+00:00'
+  sha256: 1db8abb02e5c80e723aacf240dbd20af72e4f8db1b3a660bd16c2d03c0684d7c
 issuer_classification:
   cik: 0001964333
   classification_status: reported_sic
@@ -521,13 +581,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1964333/000196433324000216/0001964333-24-000216-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6fb608b479fad7648f093142da2fd3ca454b0054b7d72e3936ce74ec2d1e9c9c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -551,17 +622,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1731:
+
+> competition; changes in consumer confidence and demand for financial services, including changes in consumer borrowing, repayment, investment, and deposit practices; changes in asset quality and credit risk; our ability to control costs and expenses; adverse developments in borrower industries or declines in real estate values; changes in and compliance with federal and state laws and regulations that pertain to our business and capital levels; our ability to raise capital as needed; the impact, extent and timing of technological changes; the effects of any cybersecurity breaches or events; the development and use of artificial intelligence (“AI”) in business processes, services, and products, including emerging external focus among regulators and other officials related to risks in connection with the development and use of AI; the potential adverse effects of unusual and infrequently occurring events, such as weather-related disasters, terrorist acts, geopolitical conflicts and tensions, or public health events (such as pandemics), and of governmental and societal responses thereto; and the other factors discussed in the “Risk Factors” and “Management's Discussion and Analysis of Financial Condition and Results of Operations” section of the Company's Annual Report on Form 10–K for the year ended December 31, 2025 and in Part I, Item 2. Management’s Discussion and Analysis of … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1721:
+
+> The Company operates in one reportable segment, Community Banking. The Company's Chief Executive Officer has been identified as the chief operating decision maker (“CODM”). The CODM uses consolidated net income to evaluate the Company's overall operating performance and to allocate capital and other resources. While the CODM reviews information regarding the Company's products, services, revenue streams, and other operating activities, these activities are managed and evaluated on a consolidated basis. Information regarding individual business activities is reviewed for operational management purposes and not for the purpose of allocating resources among separate operating segments. Accordingly, the Company has concluded that it operates in a single reportable segment. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-27, L249:
+
+> We continually review our product offerings, and based on these reviews, may selectively add additional products to provide further diversification of our revenue sources and to capture our customers’ full banking relationships. We believe that the following business strengths have been instrumental to the success of our core operations and will enable us to continue profitable growth and to maximize value to our shareholders, while remaining fundamentally sound. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1878:
+
+> •The effect of climate change on our business and performance, including indirectly through impacts on our customers; [S67]
 
 ## Industry and value chain
 
@@ -569,17 +656,33 @@ SEC-reported SIC **6021**: National Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1870:
+
+> •Economic conditions, and volatility in markets, including the effects of pandemics, wars, political conflicts, political instability and uncertainty both in the U.S. and abroad, government spending policies, trade policies, including tariffs and tariff counter-measures, and other barriers to trade (including the threat of such actions), the availability of labor, supply chain volatility, and any actions taken to mitigate and manage such impacts; [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1731:
+
+> competition; changes in consumer confidence and demand for financial services, including changes in consumer borrowing, repayment, investment, and deposit practices; changes in asset quality and credit risk; our ability to control costs and expenses; adverse developments in borrower industries or declines in real estate values; changes in and compliance with federal and state laws and regulations that pertain to our business and capital levels; our ability to raise capital as needed; the impact, extent and timing of technological changes; the effects of any cybersecurity breaches or events; the development and use of artificial intelligence (“AI”) in business processes, services, and products, including emerging external focus among regulators and other officials related to risks in connection with the development and use of AI; the potential adverse effects of unusual and infrequently occurring events, such as weather-related disasters, terrorist acts, geopolitical conflicts and tensions, or public health events (such as pandemics), and of governmental and societal responses thereto; and the other factors discussed in the “Risk Factors” and “Management's Discussion and Analysis of Financial Condition and Results of Operations” section of the Company's Annual Report on Form 10–K for the year ended December 31, 2025 and in Part I, Item 2. Management’s Discussion and Analysis of … [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-27, L304:
+
+> We consider our employee base and our culture to be a competitive advantage. The variety in our employees’ backgrounds and experiences provides us the opportunity to serve our customers, communities, and each other in meaningful and impactful ways that result in long lasting relationships. Our overall human capital strategy focuses on attracting, engaging, and retaining qualified and innovative talent at all levels of the Company. We are a committed equal opportunity employer. We are also committed to maintaining a workforce committed to our core values to serve & lead, deliver more, elevate everyone, and always being invested in the long-term success of our customers, colleagues, and communities. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1860:
+
+> •Our ability to manage any material costs related to the execution of our strategic priorities, including increased employees, infrastructure, compliance, and other costs in a profitable manner over the long term, [S67]
 
 ## Financial performance
 
@@ -1123,6 +1226,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-10-23, L76:
+
+> This Current Report on Form 8-K/A (this “Amendment”) amends the Current Report on Form 8-K filed by Burke & Herbert Financial Services Corp. (the “Company”) with the U.S. Securities and Exchange Commission on June 18, 2026 (the “Original Form 8-K”). The Original Form 8-K was filed to report the results of the Company’s 2026 Annual Meeting of Shareholders held on June 18, 2026 (the “Annual Meeting”). The sole purpose of this Amendment is to disclose, in accordance with Item 5.07(d) of Form 8-K, the Company’s decision as to the frequency of future shareholder advisory votes regarding the compensation of the Company’s named executive officers. Except as set forth herein, no other changes have been made to the Original Form 8-K. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1135,6 +1242,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L631:
+
+> •Commercial real estate loans carry risk associated with either the net operating income generated from the lease of the real estate collateral or income generated from the sale of the collateral. Other risk factors include the credit-worthiness of the sponsor and the value of the collateral. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1144,25 +1255,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1227,9 +1338,13 @@ Latest 50 filing metadata records of 511 retained records. A filing link is evid
 | 2026-06-29 | 4 | 0001186827-26-000008 | — | [S63] |
 | 2026-06-23 | 8-K | 0001964333-26-000076 | — | [S64] |
 
+Source excerpt — 10-Q, filed 2026-08-07, L2616:
+
+> (2)The Net charge-offs to average outstanding loans during the period is calculated by dividing total net loan charge-offs (recoveries) during the year by average gross loans outstanding during the year. [S67]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001964333.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1357,4 +1472,24 @@ Latest 50 filing metadata records of 511 retained records. A filing link is evid
 
 [S64] [8-K 0001964333-26-000076](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000076/0001964333-26-000076-index.html) — published 2026-06-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S65] [8-K/A 0001964333-26-000104](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000104/bhrb-20260618.htm) — published 2026-10-23; retrieved 2026-10-25T13:58:14.374687+00:00.
+
+[S66] [8-K 0001964333-26-000102](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000102/bhrb-20261022.htm) — published 2026-10-22; retrieved 2026-10-25T13:58:12.833376+00:00.
+
+[S67] [10-Q 0001964333-26-000095](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000095/bhrb-20260630.htm) — published 2026-08-07; retrieved 2026-10-25T13:58:10.912726+00:00.
+
+[S68] [8-K/A 0001964333-26-000084](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000084/bhrb-20260501.htm) — published 2026-07-17; retrieved 2026-10-25T13:58:09.219653+00:00.
+
+[S69] [DEF 14A 0001964333-26-000052](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000052/bhrb-20260429.htm) — published 2026-04-30; retrieved 2026-10-25T13:58:07.619167+00:00.
+
+[S70] [10-K 0001964333-26-000016](https://www.sec.gov/Archives/edgar/data/1964333/000196433326000016/bhrb-20251231.htm) — published 2026-02-27; retrieved 2026-10-25T13:58:05.601919+00:00.
+
+[S71] [8-K/A 0001964333-25-000048](https://www.sec.gov/Archives/edgar/data/1964333/000196433325000048/bhrb-20250123.htm) — published 2025-01-30; retrieved 2026-10-25T13:58:03.663532+00:00.
+
+[S72] [8-K/A 0001964333-24-000294](https://www.sec.gov/Archives/edgar/data/1964333/000196433324000294/bhrb-20240503.htm) — published 2024-07-11; retrieved 2026-10-25T13:58:02.244852+00:00.
+
+[S73] [8-K/A 0001964333-24-000292](https://www.sec.gov/Archives/edgar/data/1964333/000196433324000292/bhrb-20240503.htm) — published 2024-07-10; retrieved 2026-10-25T13:58:00.593277+00:00.
+
+[S74] [8-K/A 0001964333-24-000216](https://www.sec.gov/Archives/edgar/data/1964333/000196433324000216/bhrb-20240503.htm) — published 2024-05-09; retrieved 2026-10-25T13:57:58.967095+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

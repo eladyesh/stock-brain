@@ -8,11 +8,11 @@ tickers:
 - BZFD
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -85,7 +85,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -477,6 +477,30 @@ sources:
   published_at: '2026-05-28'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1828972/000182897226000158/bzfd-20261019.htm
+  title: 8-K 0001828972-26-000158
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T14:03:00.822283+00:00'
+  sha256: 6e05faa5bfc84cd98d69d1272400d21000387e724e5a05988de712899cb15154
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1828972/000182897226000138/bzfd-20260630.htm
+  title: 10-Q 0001828972-26-000138
+  published_at: '2026-08-06'
+  retrieved_at: '2026-10-25T14:02:59.223952+00:00'
+  sha256: 1dba3d591bf9712f50418c17eb05e83d3eb4743f2181bf98a94b1d773c5ee380
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1828972/000182897226000045/bzfd-20260423.htm
+  title: DEF 14A 0001828972-26-000045
+  published_at: '2026-04-23'
+  retrieved_at: '2026-10-25T14:02:57.595661+00:00'
+  sha256: 4d3efb79f5c929accfb5a2bb95b2e746aa85c77e3ef035686416b0c211224415
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1828972/000182897226000030/bzfd-20251231.htm
+  title: 10-K 0001828972-26-000030
+  published_at: '2026-03-16'
+  retrieved_at: '2026-10-25T14:02:55.755926+00:00'
+  sha256: 056a98fc565055d815636053d93ab016b0d5c79ff510e0384610035ddecfac6c
 issuer_classification:
   cik: 0001828972
   classification_status: reported_sic
@@ -514,13 +538,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1828972/000182897226000158/0001828972-26-000158-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: db5dde7a60cc3834992906d3dc89493a287c645e6b8d45b786edf9fa24797e12
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -544,17 +579,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L168:
+
+> •developments relating to our competitors and the digital media industry, including overall demand of advertising in the markets in which we operate; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L510:
+
+> BuzzFeed, Inc. (referred to herein, collectively with its subsidiaries, as “BuzzFeed,” the “Company,” “our,” “us,” or “we”) is a premier digital media company. Across pop culture, entertainment, shopping, food, and news, our brands drive conversation and inspire what audiences watch, read, and buy now — and into the future. The Company’s iconic, globally-loved brands include BuzzFeed, HuffPost, and Tasty. BuzzFeed derives its revenue primarily from advertising, content, and commerce and other sold to leading brands. The Company has one reportable segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L169:
+
+> •demand for our products and services or changes in traffic or engagement with our brands and content; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-16, L305:
+
+> •Expand strategic partnerships — Our diversified and complementary advertising, content, and commerce offerings enhance our value proposition and strengthen our relationships with our customers. In particular, partners who purchase several of our solutions often increase their average spend with BuzzFeed. [S70]
 
 ## Industry and value chain
 
@@ -562,17 +613,33 @@ SEC-reported SIC **4899**: Communications Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L171:
+
+> •macroeconomic factors including: adverse economic conditions in the United States (“U.S.”) and globally, including the potential onset of recession; current global supply chain disruptions; actual or potential government shutdowns or a failure to raise the U.S. federal debt ceiling or to fund the federal government; the ongoing conflicts in the Middle East and between Russia and Ukraine and any related sanctions and geopolitical tensions, and further escalation of trade tensions between the U.S. and its trading partners; tariffs; the inflationary environment; high unemployment; high interest rates, currency fluctuations; and the competitive labor market; [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L168:
+
+> •developments relating to our competitors and the digital media industry, including overall demand of advertising in the markets in which we operate; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1047:
+
+> On March 28, 2024, BuzzFeed Media Enterprises, Inc., BuzzFeed UK Ltd., and TheHuffingtonPost.com, Inc., all of which are wholly-owned subsidiaries of the Company, entered into a license agreement and an ancillary asset purchase and employee transfer agreement and IT services agreement with Independent Digital News and Media Limited (“IDNM”). Under the license agreement, the above-referenced entities granted IDNM a license to use the intellectual property, websites, social media accounts, and content of the BuzzFeed, Tasty, and HuffPost brands in the U.K. The initial term is five years, unless earlier terminated pursuant to the terms of the license agreement. All employees who supported the BuzzFeed, Tasty, and HuffPost brands were transferred to IDNM as of April 1, 2024. Pursuant to the license agreement, IDNM pays an annual license fee of between £0.3 million and £0.5 million (or approximately between $0.3 million and $0.6 million as of June 30, 2026), plus a net revenue share of 25% if certain criteria are met, as set forth in the license agreement. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-16, L502:
+
+> Further, maintaining and enhancing our brands is an important aspect of our efforts to attract and expand our traffic. Much of our new traffic is referred to us by our existing traffic. Maintaining and enhancing our brands will depend largely on our ability to continue to provide high-quality, entertaining, useful, reliable, relevant, and innovative content, which we may not do successfully. We may introduce new content, products, or terms of service or policies that our traffic, partners, or advertisers do not like, which may negatively affect our brand. We will also continue to experience media, legislative, and regulatory scrutiny of our content, which may adversely affect our reputation and brands. Maintaining and enhancing our brands may require us to make substantial investments and these investments may not be successful. A number of additional factors could potentially negatively affect our traffic growth and engagement, including Time Spent, including if: [S70]
 
 ## Financial performance
 
@@ -1187,6 +1254,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L754:
+
+> In connection with the closing of the Business Combination, the Company authorized the issuance of 50,000,000 shares of preferred stock, par value $0.0001 per share. The Company’s board of directors is authorized, without further stockholder approval, to issue such preferred stock in one or more series, to fix the voting rights, if any, designations, powers, preferences and relative, participating, optional or other special rights, if any, of each such series and any qualifications, limitations and restrictions thereof, applicable to the shares of each series. There were no issued and outstanding shares of preferred stock as of June 30, 2026 or December 31, 2025. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1199,6 +1270,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L187:
+
+> •other factors detailed under the section entitled “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, and this Quarterly Report on Form 10-Q. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1208,25 +1283,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1291,9 +1366,13 @@ Latest 50 filing metadata records of 572 retained records. A filing link is evid
 | 2026-05-28 | 4 | 0001828972-26-000092 | — | [S65] |
 | 2026-05-28 | 4 | 0001828972-26-000091 | — | [S66] |
 
+Source excerpt — 10-Q, filed 2026-08-06, L675:
+
+> During the year ended December 31, 2024, the Company repurchased / redeemed $120.0 million of the Notes in connection with various transactions. The Company repurchased / redeemed the remaining $30.0 million during the year ended December 31, 2025 (approximately $0.3 million during the first quarter of 2025 and the remaining $29.7 million during the second quarter of 2025). A loss on early extinguishment of debt of approximately $5.5 million was recorded in other expense, net, for the three and six months ended June 30, 2025. [S68]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001828972.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1425,4 +1504,12 @@ Latest 50 filing metadata records of 572 retained records. A filing link is evid
 
 [S66] [4 0001828972-26-000091](https://www.sec.gov/Archives/edgar/data/1828972/000182897226000091/0001828972-26-000091-index.html) — published 2026-05-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001828972-26-000158](https://www.sec.gov/Archives/edgar/data/1828972/000182897226000158/bzfd-20261019.htm) — published 2026-10-23; retrieved 2026-10-25T14:03:00.822283+00:00.
+
+[S68] [10-Q 0001828972-26-000138](https://www.sec.gov/Archives/edgar/data/1828972/000182897226000138/bzfd-20260630.htm) — published 2026-08-06; retrieved 2026-10-25T14:02:59.223952+00:00.
+
+[S69] [DEF 14A 0001828972-26-000045](https://www.sec.gov/Archives/edgar/data/1828972/000182897226000045/bzfd-20260423.htm) — published 2026-04-23; retrieved 2026-10-25T14:02:57.595661+00:00.
+
+[S70] [10-K 0001828972-26-000030](https://www.sec.gov/Archives/edgar/data/1828972/000182897226000030/bzfd-20251231.htm) — published 2026-03-16; retrieved 2026-10-25T14:02:55.755926+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

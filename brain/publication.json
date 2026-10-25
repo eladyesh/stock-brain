@@ -1,10 +1,10 @@
 {
   "format": "stock-brain-markdown",
   "version": 2,
-  "release_tag": "coverage-20261024-40097864335-1",
-  "created_at": "2026-10-24T13:37:20.730682+00:00",
-  "database_sha256": "89765eb6d737e4152a3292027e3b4d5f10289999d9f542b3daa88c627f06114e",
-  "source_commit": "3e64e295ca76808fce5a42e3e525d15ea101c1a7",
+  "release_tag": "coverage-20261025-40199010718-1",
+  "created_at": "2026-10-25T13:50:29.910841+00:00",
+  "database_sha256": "9d26ed9adb5f906296b4425105da744dfd2d63d29f6e8ef52a26fac3037236b2",
+  "source_commit": "d4303e1efab53027fe4e6e90633e2c69b11c599c",
   "company_profiles": 5637,
   "company_paths": {
     "0000001750": "brain/companies/AIR/README.md",
@@ -5649,7 +5649,7 @@
   "unresolved_listings": 604,
   "financial_profiles": 4055,
   "reviewed_generated_profiles": 0,
-  "bytes": 480398896,
+  "bytes": 480663170,
   "financial_gap_counts": {
     "available": 4055,
     "latest_filing_incomplete": 209,
@@ -11904,18 +11904,18 @@
     "ff7069bcf6bc5eb3b005896e70529582"
   ],
   "research_queue": {
-    "at": "2026-10-24T16:23:31.713432+00:00",
-    "release_tag": "coverage-20261024-40097864335-1",
+    "at": "2026-10-25T13:56:40.792803+00:00",
+    "release_tag": "coverage-20261025-40199010718-1",
     "issuers": 5637,
-    "attempted": 0,
-    "completed": 0,
-    "failed": 0,
-    "requests": 0,
+    "attempted": 33,
+    "completed": 25,
+    "failed": 8,
+    "requests": 360,
     "stop_reason": "request_budget",
     "counts": {
-      "pending": 5565,
-      "evidence_collected": 61,
-      "retry": 3,
+      "pending": 5532,
+      "evidence_collected": 86,
+      "retry": 11,
       "source_missing": 8
     },
     "model_attempts": 0,

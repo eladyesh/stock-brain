@@ -8,11 +8,11 @@ tickers:
 - BMMX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -41,7 +41,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -103,6 +103,12 @@ sources:
   published_at: '2022-05-20'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S12
+  url: https://www.sec.gov/Archives/edgar/data/1929908/000119312526430427/d92420d6k.htm
+  title: 6-K 0001193125-26-430427
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T13:59:21.985814+00:00'
+  sha256: ec043a5920f0fcfcb7021f08ae0118d60778439efa3211e0411ffaf81091633e
 issuer_classification:
   cik: 0001929908
   classification_status: reported_sic
@@ -126,12 +132,12 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1929908/000119312526430427/0001193125-26-430427-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: bc1943b14ad558ff4878d370b2d25ed91aa8945593442a2eead74a9858f4a069
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
+  source_set_current: true
   evidence_topics: []
   derived_observations: 0
   model_draft: false
@@ -222,7 +228,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -266,7 +272,7 @@ Latest 9 filing metadata records of 9 retained records. A filing link is evidenc
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001929908.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -288,4 +294,6 @@ Latest 9 filing metadata records of 9 retained records. A filing link is evidenc
 
 [S11] [D 0001085037-22-000026](https://www.sec.gov/Archives/edgar/data/1929908/000108503722000026/0001085037-22-000026-index.html) — published 2022-05-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S12] [6-K 0001193125-26-430427](https://www.sec.gov/Archives/edgar/data/1929908/000119312526430427/d92420d6k.htm) — published 2026-10-23; retrieved 2026-10-25T13:59:21.985814+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

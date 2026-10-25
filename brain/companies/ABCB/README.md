@@ -8,11 +8,11 @@ tickers:
 - ABCB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -85,7 +85,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
   sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
@@ -1406,7 +1406,7 @@ Source excerpt — DEF 14A, filed 2026-04-07, L10605:
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000351569.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -1552,4 +1552,4 @@ Source excerpt — DEF 14A, filed 2026-04-07, L10605:
 
 [S73] [8-K/A 0001193125-14-081622](https://www.sec.gov/Archives/edgar/data/351569/000119312514081622/d687985d8ka.htm) — published 2014-03-04; retrieved 2026-10-23T18:25:01.747616+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

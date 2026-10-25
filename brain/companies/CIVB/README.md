@@ -8,11 +8,11 @@ tickers:
 - CIVB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -78,7 +78,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:32.568444+00:00'
+  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
   sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
 - id: S02
   title: SEC issuer submissions
@@ -464,6 +464,60 @@ sources:
   published_at: '2026-03-13'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312526430445/civb-20261023.htm
+  title: 8-K 0001193125-26-430445
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T14:05:47.252187+00:00'
+  sha256: eaa93b6b5333b4e72515a0c422347b1753d55a6401c3e98f7e10557fb916227f
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312526338386/civb-20260630.htm
+  title: 10-Q 0001193125-26-338386
+  published_at: '2026-08-06'
+  retrieved_at: '2026-10-25T14:05:44.963826+00:00'
+  sha256: 2453cd4af19db4884976ae7d5b20b3193645b46fd59ccb270b460035b0aa332b
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312526145510/d41051ddef14a.htm
+  title: DEF 14A 0001193125-26-145510
+  published_at: '2026-04-07'
+  retrieved_at: '2026-10-25T14:05:42.296280+00:00'
+  sha256: aa74f955a48e116892dd156e2fcf2247c64b19ec20931cfc4ad8151c52554cc8
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312526096836/civb-20251231.htm
+  title: 10-K 0001193125-26-096836
+  published_at: '2026-03-06'
+  retrieved_at: '2026-10-25T14:05:25.268477+00:00'
+  sha256: ef3011784fd4eda43dfac1cf7e057f4d81b33e78bad3dd9fb962c01d36d45cb7
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/944745/000095017025095122/civb-20250710.htm
+  title: 8-K/A 0000950170-25-095122
+  published_at: '2025-07-11'
+  retrieved_at: '2026-10-25T14:05:23.205315+00:00'
+  sha256: 4f4dea7537cda0ac761d039fa27e9e1139e78a031bdc82cbaa777197782e0fe9
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312518333103/d659937d8ka.htm
+  title: 8-K/A 0001193125-18-333103
+  published_at: '2018-11-23'
+  retrieved_at: '2026-10-25T14:05:21.672654+00:00'
+  sha256: 58d26b5535e270ce619612c1fdd9683836d279cb7fd45a213be7b93b137c612e
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312518218502/d528163d8ka.htm
+  title: 8-K/A 0001193125-18-218502
+  published_at: '2018-07-16'
+  retrieved_at: '2026-10-25T14:05:20.096067+00:00'
+  sha256: 6ef47b54590f36332d1bd015b554760a4f3b7c4230792dad9db9cf38be09a72f
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312518158508/d568989d8ka.htm
+  title: 8-K/A 0001193125-18-158508
+  published_at: '2018-05-10'
+  retrieved_at: '2026-10-25T14:05:18.094874+00:00'
+  sha256: a3f502c7601fc65bd8a7d4dbb722d966f7f774b02c15befd37383733a45d6947
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/944745/000119312517010577/d317912d8ka.htm
+  title: 8-K/A 0001193125-17-010577
+  published_at: '2017-01-17'
+  retrieved_at: '2026-10-25T14:05:16.321415+00:00'
+  sha256: a61df5cc18cc3eb7038a3efff254c21422ea4249612ce01482883b96de34072f
 issuer_classification:
   cik: 0000944745
   classification_status: reported_sic
@@ -521,13 +575,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/944745/000119312517010577/0001193125-17-010577-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 94ba7cdcc48d580847ee927db3a3bd830083d50f3fd5d5eea0ed30c503fdfb5e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -551,17 +614,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L21521:
+
+> significant changes to the size, structure, powers and operations of the federal government, changes to U.S. economic policies, and uncertainties regarding the potential for these changes may cause economic disruptions that could, in turn, adversely impact our business, results of operations and financial condition; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3777:
+
+> Nature of Operations and Principles of Consolidation: Civista Bancshares, Inc. ("CBI") is an Ohio corporation and a registered financial holding company. The Consolidated Financial Statements include the accounts of CBI and its wholly-owned direct and indirect subsidiaries: Civista Bank ("Civista"), First Citizens Insurance Agency, Inc. ("FCIA"), Water Street Properties, Inc. ("WSP"), CIVB Risk Management, Inc. ("CRMI") and First Citizens Investments, Inc. ("FCI"). The above companies together are sometimes referred to as the "Company". Intercompany balances and transactions are eliminated in consolidation. Management considers the Company to operate primarily in one reportable segment, banking. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-06, L626:
+
+> At December 31, 2025, approximately 28.9% and 50.0%, respectively, of our loan portfolio was comprised of residential and commercial real estate loans. Adverse changes in economic conditions both nationally and in the communities we serve may cause deterioration to the value of real estate Civista uses to secure its loans. Adverse changes in the economy, deterioration of our real estate portfolio, a decrease in real estate values, an increase in unemployment, decreased or nonexistent housing price appreciation or increases in interest rates could reduce our earnings and consequently our financial condition because borrowers may not be able to repay their loans. The value of the collateral securing our loans and the quality of our loan portfolio may decline and customers may not want or need our products and services. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3778:
+
+> Civista provides financial services through its offices in the Ohio counties of Champaign, Crawford, Cuyahoga, Erie, Franklin, Henry, Huron, Logan, Lorain, Madison, Medina, Montgomery, Ottawa, Richland, Summit, and Wood, in the Indiana counties of Dearborn and Ripley, and in the Kentucky county of Kenton. Its primary deposit products are checking, savings, and term certificate accounts, and its primary lending products are residential mortgage, commercial, and installment loans. Substantially all loans are secured by specific items of collateral including business assets, consumer assets and commercial and residential real estate. Commercial loans are expected to be repaid from cash flow from operations of businesses. There are no significant concentrations of loans to any one industry or customer. However, our customers’ ability to repay their loans is dependent on the real estate and general economic conditions in the area. Other financial instruments that potentially represent concentrations of credit risk include deposit accounts in other financial institutions. [S67]
 
 ## Industry and value chain
 
@@ -569,9 +648,17 @@ SEC-reported SIC **6022**: State Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L21519:
+
+> current and future economic and financial market conditions, including the effects of inflation, recession, unemployment, supply chain issues or labor shortages, changes in interest rates, fiscal and monetary policy, government shutdowns, an increasing federal government budget deficit, slowing gross domestic product, potential or imposed tariffs, a U.S. withdrawal from or significant renegotiation of trade agreements, trade wars and other changes in trade regulations, and other factors beyond our control, any of which may result in adverse impacts on our deposit levels and composition, the quality of investment securities available for purchase, demand for loans, the ability of our borrowers to repay their loans, and the value of the collateral securing loans made by Civista; [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-06, L494:
+
+> The banking business is highly competitive. We face substantial competition both in attracting deposits and in originating loans and commercial equipment leasing. We compete with numerous financial institutions, including large regional financial institutions, community banks, thrifts and credit unions operating within our market area. Nontraditional sources of competition for loan and deposit dollars come from captive auto finance companies, mortgage banking companies, internet banks, brokerage companies, insurance companies, business leasing and finance companies and direct mutual funds. As a result of their size, resources and ability to achieve economies of scale, certain of our competitors offer a broader range of products and services than we offer, as well as higher lending limits, which may adversely affect the ability of Civista to compete. [S69]
 
 ## Moat and differentiation
 
@@ -1203,6 +1290,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L18188:
+
+> At the Company’s 2014 annual meeting, the shareholders adopted the Company’s 2014 Incentive Plan (“2014 Incentive Plan”). The 2014 Incentive Plan authorized the Company to grant options, stock awards, stock units and other awards for up to 375,000 common shares of the Company. The 2014 Incentive Plan expired in accordance with its terms on April 16, 2024, and no further awards may be granted under the 2014 Incentive Plan after April 16, 2024. On February 20, 2024, the Company's Board of Directors adopted the Civista Bancshares, Inc. 2024 Incentive Plan (the "2024 Incentive Plan"), which was subsequently approved by the shareholders of the Company at the Annual Meeting of Shareholders held on April 16, 2024. The 2024 Incentive Plan authorizes the Company to grant options, stock awards, stock units and other awards for up to 450,000 common shares of the Company. There were 329,487 shares available for grants under the 2024 Incentive Plan at June 30, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1215,6 +1306,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L21566:
+
+> other risks identified from time-to-time in the Company’s other public documents on file with the SEC, including those risks identified in “Item 1A. Risk Factors” of Part I of the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025, as supplemented by the disclosure under "Item 1A. Risk Factors" of Part II of the Company's Quarterly Report on Form 10-Q for the fiscal quarter ended March 31, 2026. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1224,25 +1319,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1307,9 +1402,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-13 | 4 | 0001917355-26-000002 | — | [S64] |
 | 2026-03-13 | 4 | 0001255208-26-000002 | — | [S65] |
 
+Source excerpt — DEF 14A, filed 2026-04-07, L3191:
+
+> Each NEO is a party to a change in control agreement with the Corporation. Each of the agreements provides for an initial term ending on December 31, 2025, with the term being automatically extended for additional one-year terms unless either party gives written notice of its desire not to renew the agreement not later than the January 1 preceding the expiration of the then-current term. A merger or consolidation of the Corporation into another entity, a disposition of substantially all of the Corporation’s assets, a liquidation of the Corporation, an accumulation by a person (as defined in the agreement) of securities representing more than fifty percent of the voting power of the Corporation (subject to certain exceptions) or the replacement of a majority of the board of directors (subject to certain exceptions) generally triggers the NEO’s rights under the agreement. Each agreement provides that, if a change in control occurs during the term of the agreement and the NEO’s employment is terminated within twenty-four (24) months following the change in control, the Corporation will pay in a lump sum to the NEO a retention bonus equal to one and one-half times the sum of the annual salary of the NEO plus the average of the cash value of cash bonuses paid and the grant date value of equity awards granted to the NEO during the three calendar years immediately preceding the date … [S68]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:32.568444+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000944745.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1439,4 +1538,22 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S65] [4 0001255208-26-000002](https://www.sec.gov/Archives/edgar/data/944745/000125520826000002/0001255208-26-000002-index.html) — published 2026-03-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S66] [8-K 0001193125-26-430445](https://www.sec.gov/Archives/edgar/data/944745/000119312526430445/civb-20261023.htm) — published 2026-10-23; retrieved 2026-10-25T14:05:47.252187+00:00.
+
+[S67] [10-Q 0001193125-26-338386](https://www.sec.gov/Archives/edgar/data/944745/000119312526338386/civb-20260630.htm) — published 2026-08-06; retrieved 2026-10-25T14:05:44.963826+00:00.
+
+[S68] [DEF 14A 0001193125-26-145510](https://www.sec.gov/Archives/edgar/data/944745/000119312526145510/d41051ddef14a.htm) — published 2026-04-07; retrieved 2026-10-25T14:05:42.296280+00:00.
+
+[S69] [10-K 0001193125-26-096836](https://www.sec.gov/Archives/edgar/data/944745/000119312526096836/civb-20251231.htm) — published 2026-03-06; retrieved 2026-10-25T14:05:25.268477+00:00.
+
+[S70] [8-K/A 0000950170-25-095122](https://www.sec.gov/Archives/edgar/data/944745/000095017025095122/civb-20250710.htm) — published 2025-07-11; retrieved 2026-10-25T14:05:23.205315+00:00.
+
+[S71] [8-K/A 0001193125-18-333103](https://www.sec.gov/Archives/edgar/data/944745/000119312518333103/d659937d8ka.htm) — published 2018-11-23; retrieved 2026-10-25T14:05:21.672654+00:00.
+
+[S72] [8-K/A 0001193125-18-218502](https://www.sec.gov/Archives/edgar/data/944745/000119312518218502/d528163d8ka.htm) — published 2018-07-16; retrieved 2026-10-25T14:05:20.096067+00:00.
+
+[S73] [8-K/A 0001193125-18-158508](https://www.sec.gov/Archives/edgar/data/944745/000119312518158508/d568989d8ka.htm) — published 2018-05-10; retrieved 2026-10-25T14:05:18.094874+00:00.
+
+[S74] [8-K/A 0001193125-17-010577](https://www.sec.gov/Archives/edgar/data/944745/000119312517010577/d317912d8ka.htm) — published 2017-01-17; retrieved 2026-10-25T14:05:16.321415+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

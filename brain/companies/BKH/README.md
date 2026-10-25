@@ -8,11 +8,11 @@ tickers:
 - BKH
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,7 +76,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
   sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
@@ -468,6 +468,42 @@ sources:
   published_at: '2026-02-06'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000119312526429192/bkh-20261022.htm
+  title: 8-K 0001193125-26-429192
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-25T13:58:37.412246+00:00'
+  sha256: 3b57abd3aaaf7f6b921db9625585811faac3e21ffd5af64dafeb22ff892be5e3
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000119312526337444/bkh-20260630.htm
+  title: 10-Q 0001193125-26-337444
+  published_at: '2026-08-06'
+  retrieved_at: '2026-10-25T13:58:35.540529+00:00'
+  sha256: 78808cc9209da5e5cb16eb7afee26b62d1c779a1d9b497f87552dfa081028fb5
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000119312526113958/bkh-20260317.htm
+  title: DEF 14A 0001193125-26-113958
+  published_at: '2026-03-18'
+  retrieved_at: '2026-10-25T13:58:33.670570+00:00'
+  sha256: 805133cc53466b031149ade19ae137d494041c25a4635fe26821ea356d112b28
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000119312526046028/bkh-20251231.htm
+  title: 10-K 0001193125-26-046028
+  published_at: '2026-02-11'
+  retrieved_at: '2026-10-25T13:58:31.435209+00:00'
+  sha256: 5d5cbcecc15032eaff0ecae93f3deb4bb77aa7d1fcd1dbe5b6f665972c83c15e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000113046421000016/bkh-20200916.htm
+  title: 8-K/A 0001130464-21-000016
+  published_at: '2021-04-29'
+  retrieved_at: '2026-10-25T13:58:29.200945+00:00'
+  sha256: a410a28cc0a94aac0c7996b7e507aff1da2982d2fd3598d53737dcf525094f13
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1130464/000113046420000018/a8-kaannualmeetingandco.htm
+  title: 8-K/A 0001130464-20-000018
+  published_at: '2020-05-01'
+  retrieved_at: '2026-10-25T13:58:27.279109+00:00'
+  sha256: 65bbfbad90c76f8c01f69f488d1513ad083a63af234ddfff124565cb3d2af755
 issuer_classification:
   cik: '0001130464'
   classification_status: reported_sic
@@ -513,13 +549,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1130464/000113046420000018/0001130464-20-000018-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 31b2dfd2b287916dbd14467a652e4b07d50ec8bda407a0b358cd0f26436e055f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
+  last_success_at: '2026-10-25T13:56:40.792803+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -543,9 +588,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L755:
+
+> This Quarterly Report on Form 10-Q includes “forward-looking statements” as defined by the SEC. Forward-looking statements are all statements other than statements of historical fact, including without limitation those statements that are identified by the words “anticipates,” “estimates,” “expects,” “intends,” “plans,” “predicts” and similar expressions, and include statements concerning plans, objectives, goals, strategies, future events or performance, and underlying assumptions and other statements that are other than statements of historical facts. We make these forward-looking statements in reliance on the safe harbor protections provided under the Private Securities Litigation Reform Act of 1995. These forward-looking statements are based on assumptions which we believe are reasonable based on current expectations and projections about future events and industry conditions and trends affecting our business. However, whether actual results and developments will conform to our expectations and predictions is subject to a number of risks and uncertainties that, among other things, could cause actual results to differ materially from those contained in the forward-looking statements, including without limitation, the risk factors described in Item 1A of Part I of our 2025 Annual Report on Form 10-K, Part II, Item 1A of this Quarterly Report on Form 10-Q, and other reports … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4389:
+
+> The following tables depict the disaggregation of revenue, including intercompany revenue, from contracts with customers by customer type and timing of revenue recognition for each of the reportable segments for the three and six months ended June 30, 2026, and 2025. Sales tax and other similar taxes are excluded from revenues. [S68]
 
 ## Products and services
 
@@ -555,15 +608,27 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6094:
+
+> We perform periodic credit evaluations of our customers and adjust credit limits based upon payment history and the customers’ current creditworthiness, as determined by review of their current credit information. We maintain a provision for estimated credit losses based upon historical experience, changes in current market conditions, expected losses, and any specific customer collection issue that is identified. [S68]
+
 ## Industry and value chain
 
 SEC-reported SIC **4911**: Electric Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-11, L3689:
+
+> In addition, we have significant capital investment programs planned for the next five years that are key to our strategic business plan, such as: our Lange II project; the acquisition of a battery storage facility as part of our Colorado Clean Energy Plan; large-scale investments to upgrade existing utility infrastructure; support of customer and community growth needs; and compliance with safety requirements. The successful execution of our capital investment program depends on, or could be affected by, a variety of factors that include, but are not limited to: access to capital markets on reasonable terms to fund projects, weather conditions, effective management of projects, availability of qualified construction personnel including contractors, changes in commodity prices, impacts of supply chain disruptions on availability and cost of materials, governmental approvals and permitting, regulatory cost recovery, and return on invested capital. Our capacity requirements and applicable reserve margins are a critical component to serving our customers. Delays in construction, increasing reserve margins, and growing demand put additional pressures on meeting resource adequacy requirements. An inability to successfully adapt to changing conditions and execute our strategic plan, including our capital investment program, could materially affect our financial operating results … [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-03-18, L8832:
+
+> Payments Made Upon a Change in Control. Our Named Executive Officers have change in control agreements that terminate November 15, 2028. The renewal of the change in control agreements is at the discretion of the Leadership Development and Compensation Committee and the Board. The change in control agreements provide for certain payments and other benefits to be payable upon a change in control and a subsequent termination of employment, either involuntary or for a good reason. In order to receive any payments under the agreements, the Named Executive Officer must sign a waiver and release of claims that includes a one-year non-competition clause and two-year non-solicitation and non-disparagement clauses. [S69]
 
 ## Moat and differentiation
 
@@ -572,6 +637,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L10319:
+
+> We are a customer-focused energy solutions provider with a mission of Improving Life with Energy for more than 1.37 million customers and 800+ communities we serve. Our aspiration is to be the trusted energy partner across our growing eight-state footprint, including Arkansas, Colorado, Iowa, Kansas, Montana, Nebraska, South Dakota, and Wyoming. Our strategy is centered on four priorities: People & Culture—build a team that wins together, Operational Excellence—relentlessly deliver on our commitment to serve our customers, Transformation—be a simple and connected company and Growth—grow to be a dominant long-term energy provider. [S68]
 
 ## Financial performance
 
@@ -1183,6 +1252,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L10294:
+
+> The Merger Agreement, which was unanimously approved on August 18, 2025, by both the board of directors of Black Hills Corporation and the board of directors of NorthWestern, provides for a tax-free, all-stock business combination of Black Hills Corporation and NorthWestern upon the terms and subject to the conditions set forth therein. Such conditions include, among other things, clearance under the HSR Act, consent of the FCC, approval from each company's shareholders, and regulatory approvals, including approval from the SDPUC, NPSC and MPSC, as well as the FERC. To date, the status of these matters is as follows: [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1195,6 +1268,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L755:
+
+> This Quarterly Report on Form 10-Q includes “forward-looking statements” as defined by the SEC. Forward-looking statements are all statements other than statements of historical fact, including without limitation those statements that are identified by the words “anticipates,” “estimates,” “expects,” “intends,” “plans,” “predicts” and similar expressions, and include statements concerning plans, objectives, goals, strategies, future events or performance, and underlying assumptions and other statements that are other than statements of historical facts. We make these forward-looking statements in reliance on the safe harbor protections provided under the Private Securities Litigation Reform Act of 1995. These forward-looking statements are based on assumptions which we believe are reasonable based on current expectations and projections about future events and industry conditions and trends affecting our business. However, whether actual results and developments will conform to our expectations and predictions is subject to a number of risks and uncertainties that, among other things, could cause actual results to differ materially from those contained in the forward-looking statements, including without limitation, the risk factors described in Item 1A of Part I of our 2025 Annual Report on Form 10-K, Part II, Item 1A of this Quarterly Report on Form 10-Q, and other reports … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1204,25 +1281,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1287,9 +1364,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-06 | 5 | 0001130464-26-000020 | — | [S65] |
 | 2026-02-06 | 5 | 0001130464-26-000019 | — | [S66] |
 
+Source excerpt — 10-Q, filed 2026-08-06, L4382:
+
+> During the year ended December 31, 2025, Colorado Electric settled a legal matter involving an auto accident. As part of the settlement, Colorado Electric recognized a legal liability of $20 million, which was paid in the first quarter of 2026. In connection with this matter, Colorado Electric also recognized a loss recovery receivable of $20 million under its insurance coverage, which was received in the first quarter of 2026. We do not expect additional material losses related to this matter. [S68]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001130464.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1421,4 +1502,16 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [5 0001130464-26-000019](https://www.sec.gov/Archives/edgar/data/1130464/000113046426000019/0001130464-26-000019-index.html) — published 2026-02-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001193125-26-429192](https://www.sec.gov/Archives/edgar/data/1130464/000119312526429192/bkh-20261022.htm) — published 2026-10-23; retrieved 2026-10-25T13:58:37.412246+00:00.
+
+[S68] [10-Q 0001193125-26-337444](https://www.sec.gov/Archives/edgar/data/1130464/000119312526337444/bkh-20260630.htm) — published 2026-08-06; retrieved 2026-10-25T13:58:35.540529+00:00.
+
+[S69] [DEF 14A 0001193125-26-113958](https://www.sec.gov/Archives/edgar/data/1130464/000119312526113958/bkh-20260317.htm) — published 2026-03-18; retrieved 2026-10-25T13:58:33.670570+00:00.
+
+[S70] [10-K 0001193125-26-046028](https://www.sec.gov/Archives/edgar/data/1130464/000119312526046028/bkh-20251231.htm) — published 2026-02-11; retrieved 2026-10-25T13:58:31.435209+00:00.
+
+[S71] [8-K/A 0001130464-21-000016](https://www.sec.gov/Archives/edgar/data/1130464/000113046421000016/bkh-20200916.htm) — published 2021-04-29; retrieved 2026-10-25T13:58:29.200945+00:00.
+
+[S72] [8-K/A 0001130464-20-000018](https://www.sec.gov/Archives/edgar/data/1130464/000113046420000018/a8-kaannualmeetingandco.htm) — published 2020-05-01; retrieved 2026-10-25T13:58:27.279109+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

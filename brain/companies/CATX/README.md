@@ -8,11 +8,11 @@ tickers:
 - CATX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-24'
-updated_at: '2026-10-24T13:37:20.730682+00:00'
+as_of: '2026-10-25'
+updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
-coverage_release: coverage-20261024-40097864335-1
-source_commit: 3e64e295ca76808fce5a42e3e525d15ea101c1a7
+coverage_release: coverage-20261025-40199010718-1
+source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -96,7 +96,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-24T13:23:33.193038+00:00'
+  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
   sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
 - id: S02
   title: SEC issuer submissions
@@ -494,6 +494,18 @@ sources:
   published_at: '2026-02-03'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/728387/000114420413016670/v338844_8ka.htm
+  title: 8-K/A 0001144204-13-016670
+  published_at: '2013-03-21'
+  retrieved_at: '2026-10-25T14:03:04.420208+00:00'
+  sha256: f1c8246b4f0e3bb1f95949477f617d6655a6a89c3e22c952254f59d6a9c2af42
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/728387/000114420412039837/v318715_8ka.htm
+  title: 8-K/A 0001144204-12-039837
+  published_at: '2012-07-17'
+  retrieved_at: '2026-10-25T14:03:02.862151+00:00'
+  sha256: d3abd0fb1e5c237eb4a34540a5c4eca8a902d59477852c227cf71214797303dd
 issuer_classification:
   cik: 0000728387
   classification_status: reported_sic
@@ -563,11 +575,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/728387/000114420412039837/0001144204-12-039837-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 644e0e78212b8cd9d707106dd0f5f29fed3bcfef6ea25f67839cd30f02d20eff
-  last_attempt_at: null
+  last_attempt_at: '2026-10-25T13:56:40.792803+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-10-26T13:56:40.792803+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 0
@@ -1242,7 +1254,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -1327,7 +1339,7 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-24T13:23:33.193038+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000728387.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1461,4 +1473,8 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S67] [424B5 0001193125-26-034003](https://www.sec.gov/Archives/edgar/data/728387/000119312526034003/0001193125-26-034003-index.html) — published 2026-02-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261024-40097864335-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S68] [8-K/A 0001144204-13-016670](https://www.sec.gov/Archives/edgar/data/728387/000114420413016670/v338844_8ka.htm) — published 2013-03-21; retrieved 2026-10-25T14:03:04.420208+00:00.
+
+[S69] [8-K/A 0001144204-12-039837](https://www.sec.gov/Archives/edgar/data/728387/000114420412039837/v318715_8ka.htm) — published 2012-07-17; retrieved 2026-10-25T14:03:02.862151+00:00.
+
+Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.

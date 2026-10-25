@@ -2,7 +2,7 @@
 
 [Company index](INDEX.md)
 
-Data release: `coverage-20261024-40097864335-1`; source created 2026-10-24T13:37:20.730682+00:00.
+Data release: `coverage-20261025-40199010718-1`; source created 2026-10-25T13:50:29.910841+00:00.
 
 These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.
 
