@@ -12,7 +12,7 @@ as_of: '2026-10-25'
 updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
 coverage_release: coverage-20261025-40199010718-1
-source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
+source_commit: f5f88011907841550f3cf7652c3822295b45cb57
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -219,15 +219,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001490906.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CFFN/README.md
-full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
+full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CFFN/README.md
+full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CFFN — Capitol Federal Financial, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CFFN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CFFN/README.md)
 
 ## Business overview
 
@@ -478,6 +478,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S49] [10-K 0001490906-25-000033](https://www.sec.gov/Archives/edgar/data/1490906/000149090625000033/0001490906-25-000033-index.html) — published 2025-11-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/CFFN/README.md).
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CFFN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

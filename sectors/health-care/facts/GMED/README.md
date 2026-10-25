@@ -12,7 +12,7 @@ as_of: '2026-10-25'
 updated_at: '2026-10-25T13:50:29.910841+00:00'
 reviewed_at: null
 coverage_release: coverage-20261025-40199010718-1
-source_commit: d4303e1efab53027fe4e6e90633e2c69b11c599c
+source_commit: f5f88011907841550f3cf7652c3822295b45cb57
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -211,15 +211,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001237831.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/GMED/README.md
-full_history_commit: c6b3af0cefe967faceb0323aa590d422e87cbc29
+full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/GMED/README.md
+full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # GMED — GLOBUS MEDICAL INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/GMED/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/GMED/README.md)
 
 ## Business overview
 
@@ -474,6 +474,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0001628280-26-011209](https://www.sec.gov/Archives/edgar/data/1237831/000162828026011209/0001628280-26-011209-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c6b3af0cefe967faceb0323aa590d422e87cbc29/brain/companies/GMED/README.md).
+Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/GMED/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
