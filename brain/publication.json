@@ -4,7 +4,7 @@
   "release_tag": "coverage-20261025-40199010718-1",
   "created_at": "2026-10-25T13:50:29.910841+00:00",
   "database_sha256": "9d26ed9adb5f906296b4425105da744dfd2d63d29f6e8ef52a26fac3037236b2",
-  "source_commit": "d4303e1efab53027fe4e6e90633e2c69b11c599c",
+  "source_commit": "f5f88011907841550f3cf7652c3822295b45cb57",
   "company_profiles": 5637,
   "company_paths": {
     "0000001750": "brain/companies/AIR/README.md",
@@ -11904,13 +11904,13 @@
     "ff7069bcf6bc5eb3b005896e70529582"
   ],
   "research_queue": {
-    "at": "2026-10-25T13:56:40.792803+00:00",
+    "at": "2026-10-25T16:58:37.810101+00:00",
     "release_tag": "coverage-20261025-40199010718-1",
     "issuers": 5637,
-    "attempted": 33,
-    "completed": 25,
-    "failed": 8,
-    "requests": 360,
+    "attempted": 0,
+    "completed": 0,
+    "failed": 0,
+    "requests": 0,
     "stop_reason": "request_budget",
     "counts": {
       "pending": 5532,
