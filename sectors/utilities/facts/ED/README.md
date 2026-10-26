@@ -12,7 +12,7 @@ as_of: '2026-10-26'
 updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
 coverage_release: coverage-20261026-40356450615-1
-source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
+source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -157,15 +157,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001047862.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/ED/README.md
-full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/ED/README.md
+full_history_commit: 6ec0c5a139b27efe3be9111dc20cf938bd839c1e
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ED — CONSOLIDATED EDISON INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/ED/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/ED/README.md)
 
 ## Business overview
 
@@ -301,6 +301,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [10-Q 0001047862-26-000142](https://www.sec.gov/Archives/edgar/data/1047862/000104786226000142/0001047862-26-000142-index.html) — published 2026-08-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/ED/README.md).
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/ED/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

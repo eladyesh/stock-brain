@@ -14,7 +14,7 @@ as_of: '2026-10-26'
 updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
 coverage_release: coverage-20261026-40356450615-1
-source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
+source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -229,15 +229,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/KIM_24L/README.md
-full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/KIM_24L/README.md
+full_history_commit: 6ec0c5a139b27efe3be9111dc20cf938bd839c1e
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # KIM$L, KIM$M, KIM$N — KIMCO REALTY CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/KIM_24L/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/KIM_24L/README.md)
 
 ## Business overview
 
@@ -493,6 +493,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S45] [10-K 0001193125-26-060760](https://www.sec.gov/Archives/edgar/data/879101/000119312526060760/0001193125-26-060760-index.html) — published 2026-02-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/KIM_24L/README.md).
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/KIM_24L/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

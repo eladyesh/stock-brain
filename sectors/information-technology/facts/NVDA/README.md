@@ -12,10 +12,10 @@ as_of: '2026-10-26'
 updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
 coverage_release: coverage-20261026-40356450615-1
-source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
+source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/NVDA/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/ffd7836f4c177b9a174b16eab4288980decb7e24/sectors/information-technology/companies/NVDA/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -191,16 +191,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/NVDA/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/NVDA/README.md
-full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
+  source_url: https://github.com/eladyesh/stock-brain/blob/ffd7836f4c177b9a174b16eab4288980decb7e24/sectors/information-technology/companies/NVDA/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/NVDA/README.md
+full_history_commit: 6ec0c5a139b27efe3be9111dc20cf938bd839c1e
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NVDA — NVIDIA CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/NVDA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/NVDA/README.md)
 
 ## Business overview
 
@@ -385,7 +385,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:31:09.658399+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/ffd7836f4c177b9a174b16eab4288980decb7e24/sectors/information-technology/companies/NVDA/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -451,6 +451,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001921094-26-001040](https://www.sec.gov/Archives/edgar/data/1045810/000192109426001040/0001921094-26-001040-index.html) — published 2026-09-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/NVDA/README.md).
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/NVDA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
