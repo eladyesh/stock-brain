@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [FKWL](../companies/FKWL/README.md) | FRANKLIN WIRELESS CORP | available, quality gates apply |
-| [FLC](../companies/FLC/README.md) | FLAHERTY & CRUMRINE TOTAL RETURN FUND INC | not available |
 | [FLD](../companies/FLD/README.md) | Fold Holdings, Inc. | available, quality gates apply |
 | [FLEX](../companies/FLEX/README.md) | FLEX LTD. | available, quality gates apply |
 | [FLGT](../companies/FLGT/README.md) | Fulgent Genetics, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [FT](../companies/FT/README.md) | FRANKLIN UNIVERSAL TRUST | not available |
 | [FTAI](../companies/FTAI/README.md) | FTAI Aviation Ltd. | available, quality gates apply |
 | [FTCI](../companies/FTCI/README.md) | FTC Solar, Inc. | available, quality gates apply |
+| [FTDR](../companies/FTDR/README.md) | Frontdoor, Inc. | available, quality gates apply |
+| [FTEK](../companies/FTEK/README.md) | FUEL TECH, INC. | available, quality gates apply |

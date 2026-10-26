@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [SPCB](../companies/SPCB/README.md) | SuperCom Ltd | not available |
-| [SPCE](../companies/SPCE/README.md) | Virgin Galactic Holdings, Inc | available, quality gates apply |
-| [SPCX](../companies/SPCX/README.md) | SPACE EXPLORATION TECHNOLOGIES CORP | available, quality gates apply |
 | [SPE](../companies/SPE/README.md) | SPECIAL OPPORTUNITIES FUND, INC. | not available |
 | [SPEG](../companies/SPEG/README.md) | Silver Pegasus Acquisition Corp. | available, quality gates apply |
 | [SPFI](../companies/SPFI/README.md) | SOUTH PLAINS FINANCIAL, INC. | available, quality gates apply |
@@ -104,3 +101,6 @@
 | [STT, STT$G](../companies/STT/README.md) | STATE STREET CORP | available, quality gates apply |
 | [STTK](../companies/STTK/README.md) | Shattuck Labs, Inc. | available, quality gates apply |
 | [STUB](../companies/STUB/README.md) | StubHub Holdings, Inc. | available, quality gates apply |
+| [STVN](../companies/STVN/README.md) | Stevanato Group S.p.A. | not available |
+| [STX](../companies/STX/README.md) | Seagate Technology Holdings plc | available, quality gates apply |
+| [STXS](../companies/STXS/README.md) | Stereotaxis, Inc. | available, quality gates apply |

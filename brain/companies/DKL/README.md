@@ -8,11 +8,11 @@ tickers:
 - DKL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -78,8 +78,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001552797.json
@@ -482,6 +482,54 @@ sources:
   published_at: '2026-03-12'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026067064/dkl-20261023.htm
+  title: 8-K 0001628280-26-067064
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-26T16:25:11.390844+00:00'
+  sha256: 89dc6614b1f1d5f6497785285bf74a5571d52b5ce7152d1f057074e2ff67405e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026053097/dkl-20260630.htm
+  title: 10-Q 0001628280-26-053097
+  published_at: '2026-08-05'
+  retrieved_at: '2026-10-26T16:25:09.668982+00:00'
+  sha256: 5144c3f0c8628c537f97c182597402d8ee325490e28f625bceaa7f9f59912d8a
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000162828026012666/dkl-20251231.htm
+  title: 10-K 0001628280-26-012666
+  published_at: '2026-02-27'
+  retrieved_at: '2026-10-26T16:25:07.761094+00:00'
+  sha256: 996baea965f7e12fba1c09f08d92c01c1e3fd0733dec34bffedc65ea2a3070bd
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000155279722000081/dkl-20220526.htm
+  title: 8-K/A 0001552797-22-000081
+  published_at: '2022-07-13'
+  retrieved_at: '2026-10-26T16:25:06.059681+00:00'
+  sha256: f6084f746f6d0fd0692445ab883905c101138187970399f850e0a7085774a0d7
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000155279720000042/dklform8-kabigspringga.htm
+  title: 8-K/A 0001552797-20-000042
+  published_at: '2020-06-11'
+  retrieved_at: '2026-10-26T16:25:04.484709+00:00'
+  sha256: ea0a363bb6b36a2341920e30577e3dfd4965a9515e3ff4a1ae3bfccc51571385
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000155279719000043/dklform8-karedriverjointve.htm
+  title: 8-K/A 0001552797-19-000043
+  published_at: '2019-08-05'
+  retrieved_at: '2026-10-26T16:25:02.902937+00:00'
+  sha256: be1b931a3eabe5d722b1058ee70aa0f898e44f6d41ea507aa6f581f5708a456b
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000155279714000029/dkl-8kaxdkldirectorchangeq.htm
+  title: 8-K/A 0001552797-14-000029
+  published_at: '2014-09-09'
+  retrieved_at: '2026-10-26T16:25:01.342717+00:00'
+  sha256: a059e9c5364706af95e6891dceaa3e46b2e2043e14b0aefc398b4e970e132ada
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1552797/000155279713000022/a8k-adklamendedandrestated.htm
+  title: 8-K/A 0001552797-13-000022
+  published_at: '2013-07-31'
+  retrieved_at: '2026-10-26T16:24:59.837775+00:00'
+  sha256: a950c58f5ada50db2f33050ef579ac8fc5ae1b256ff988e2aad8c1b861746c59
 issuer_classification:
   cik: 0001552797
   classification_status: reported_sic
@@ -535,13 +583,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1552797/000155279713000022/0001552797-13-000022-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b78ed93b93484eb3f28024edb0ea1e67d37517077b7fa0cfc43f7a32abe6b807
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -565,17 +624,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L2243:
+
+> The Partnership has long-term, fee-based commercial agreements with Delek Holdings under which we provide various services, including crude oil gathering and crude oil, intermediate and refined products transportation and storage services, and marketing, terminalling and offloading services. Most of these agreements have an initial term ranging from five to ten years, which may be extended for various renewal terms at the option of Delek Holdings. The fees under each agreement are payable to us monthly by Delek Holdings or certain third parties to whom Delek Holdings has assigned certain of its rights and are generally subject to increase or decrease on July 1 of each year, by the amount of any change in various inflation-based indices, however, in no event will the fees be adjusted below the amount initially set forth in the applicable agreement. Under each of these agreements, we are required to maintain the capabilities of our pipelines and terminals, such that Delek Holdings may throughput and/or store, as the case may be, specified volumes of crude oil, intermediate and refined products. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L3408:
+
+> We review operating results in four reportable segments: (i) gathering and processing; (ii) wholesale marketing and terminalling; (iii) storage and transportation; and (iv) investment in pipeline joint ventures. Operations that are not specifically included in the reportable segments are included in corporate and other. The Partnership defines its segments based on how internally reported financial information is regularly reviewed by its chief operating decision maker ("CODM") to analyze financial performance, make decisions and allocate resources. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L7018:
+
+> Inflationary factors, such as increases in the costs of our inputs, operating expenses, and interest rates may adversely affect our operating results. In addition, current or future governmental policies may increase or decrease the risk of inflation, which could further increase costs and may have an adverse effect on our ability to maintain current levels of gross margin and operating expenses as a percentage of sales if the prices at which we are able to sell our products and services do not increase in line with increases in costs. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L4916:
+
+> The Partnership is well positioned to continue to add value through our gathering and processing services. In the Midland Basin, combined crude and water offering is appealing for our customers and brings additional growth opportunities to our system. Additionally, in the Delaware Basin, the Partnership expects continued cash flow growth in 2026 driven by the ramp up at the Libby gas processing plant and the ongoing completion of the sour gas gathering and acid gas injection ("AGI") capabilities. [S70]
 
 ## Industry and value chain
 
@@ -583,17 +658,33 @@ SEC-reported SIC **4610**: Pipe Lines (No Natural Gas). [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L7033:
+
+> The effects of the conflicts between Russia and Ukraine beginning in February 2022, between Israel and Hamas beginning in October 2023, and between the U.S. and Iran, beginning in February 2026, on our business, financial condition, and results of operations are impossible to predict. Any increase in sanctions, escalation of the conflicts, including the regional or global expansion of hostilities, and other future developments could significantly affect the global economy, lead to market volatility and supply chain disruptions, have an adverse impact on energy prices, including prices for crude oil, other feedstocks, and refined petroleum products, have an adverse impact on the margins from our petroleum product marketing operations, and have a material adverse effect on our business, financial condition, and results of operations. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L4862:
+
+> This Quarterly Report on Form 10-Q contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the "Securities Act"), and Section 21E of the Exchange Act. These forward-looking statements reflect our current estimates, expectations and projections about our future results, performance, prospects and opportunities. Forward-looking statements include, among other things, statements regarding the effect, impact, potential duration or other implications of, or expectations expressed with respect to, the actions of members of the Organization of Petroleum Exporting Countries ("OPEC") and other leading oil producing countries (together with OPEC, "OPEC+") with respect to oil production and pricing, and statements regarding our efforts and plans in response to such events, the information concerning our possible future results of operations, business and growth strategies, financing plans, expectations that regulatory developments or other matters will not have a material adverse effect on our business or financial condition, our competitive position and the effects of competition, the projected growth of the industry in which we operate, the benefits and synergies to be obtained from our completed and any future acquisitions, including the acquisition of Gravity Water Intermediate Holdings LLC ("Gravity") (the "Gravity … [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-27, L989:
+
+> Our joint venture entities may compete with other pipeline owners including those affiliated with major integrated petroleum companies, in terms of transportation fees, reliability and quality of customer service. Competition in any geographic area is affected significantly by the volume of crude oil gathered and transported, volume of products produced by refineries and the availability of products and cost of transportation to that area from other locations. Due to the strategic location of these pipelines, Delek Holdings is one of the major shippers and customers on certain of the joint venture pipelines. During the term of these agreements, the joint venture entities do not face any significant competition from third parties. To maintain a competitive advantage during agreement negotiations, the joint venture pipelines have to offer competitive transportation fees to Delek Holdings or other related party shippers. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L4866:
+
+> •Delek Holdings' future growth, strategic priorities, financial performance, share repurchases, crude oil supply pricing and flexibility and product distribution; [S70]
 
 ## Financial performance
 
@@ -1220,6 +1311,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L2451:
+
+> (1) On July 22, 2026, the board of directors of our general partner declared this quarterly cash distribution based on the available cash as of the date of determination. Distributions presented are estimated based on common units held by Delek Holdings as of June 30, 2026, and may differ from amounts actually paid. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1232,6 +1327,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L4729:
+
+> In the ordinary conduct of our business, we are from time to time subject to lawsuits, investigations and claims, including environmental claims and employee-related matters. Although we cannot predict with certainty the ultimate resolution of lawsuits, investigations and claims asserted against us, including civil penalties or other enforcement actions, we do not believe that any currently pending legal proceeding or proceedings to which we are a party will have a material adverse effect on our financial statements. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1241,25 +1340,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -1324,9 +1423,13 @@ Latest 50 filing metadata records of 905 retained records. A filing link is evid
 | 2026-03-12 | 4 | 0002044248-26-000006 | — | [S67] |
 | 2026-03-12 | 4 | 0001908422-26-000004 | — | [S68] |
 
+Source excerpt — 10-K, filed 2026-02-27, L1575:
+
+> Pursuant to the Bipartisan Budget Act of 2015, if the IRS makes audit adjustments to our income tax returns for tax years beginning after 2017, it may collect any resulting taxes (including any applicable penalties and interest) directly from us. We will generally have the ability to shift any such tax liability to our general partner and our unitholders in accordance with their interests in us during the year under audit, but there can be no assurance that we will be able to do so (and will choose to do so) under all circumstances, or that we will be able to (or choose to) effect corresponding shifts in state income or similar tax liability resulting from the IRS adjustment in states in which we do business in the year under audit or in the adjustment year. If we make payments of taxes, penalties and interest resulting from audit adjustments, our cash available for distribution to our unitholders would be reduced, perhaps substantially. [S71]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001552797.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1462,4 +1565,20 @@ Latest 50 filing metadata records of 905 retained records. A filing link is evid
 
 [S68] [4 0001908422-26-000004](https://www.sec.gov/Archives/edgar/data/1552797/000190842226000004/0001908422-26-000004-index.html) — published 2026-03-12; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S69] [8-K 0001628280-26-067064](https://www.sec.gov/Archives/edgar/data/1552797/000162828026067064/dkl-20261023.htm) — published 2026-10-23; retrieved 2026-10-26T16:25:11.390844+00:00.
+
+[S70] [10-Q 0001628280-26-053097](https://www.sec.gov/Archives/edgar/data/1552797/000162828026053097/dkl-20260630.htm) — published 2026-08-05; retrieved 2026-10-26T16:25:09.668982+00:00.
+
+[S71] [10-K 0001628280-26-012666](https://www.sec.gov/Archives/edgar/data/1552797/000162828026012666/dkl-20251231.htm) — published 2026-02-27; retrieved 2026-10-26T16:25:07.761094+00:00.
+
+[S72] [8-K/A 0001552797-22-000081](https://www.sec.gov/Archives/edgar/data/1552797/000155279722000081/dkl-20220526.htm) — published 2022-07-13; retrieved 2026-10-26T16:25:06.059681+00:00.
+
+[S73] [8-K/A 0001552797-20-000042](https://www.sec.gov/Archives/edgar/data/1552797/000155279720000042/dklform8-kabigspringga.htm) — published 2020-06-11; retrieved 2026-10-26T16:25:04.484709+00:00.
+
+[S74] [8-K/A 0001552797-19-000043](https://www.sec.gov/Archives/edgar/data/1552797/000155279719000043/dklform8-karedriverjointve.htm) — published 2019-08-05; retrieved 2026-10-26T16:25:02.902937+00:00.
+
+[S75] [8-K/A 0001552797-14-000029](https://www.sec.gov/Archives/edgar/data/1552797/000155279714000029/dkl-8kaxdkldirectorchangeq.htm) — published 2014-09-09; retrieved 2026-10-26T16:25:01.342717+00:00.
+
+[S76] [8-K/A 0001552797-13-000022](https://www.sec.gov/Archives/edgar/data/1552797/000155279713000022/a8k-adklamendedandrestated.htm) — published 2013-07-31; retrieved 2026-10-26T16:24:59.837775+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

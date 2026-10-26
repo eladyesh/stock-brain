@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [AMT](../companies/AMT/README.md) | AMERICAN TOWER CORP /MA/ | available, quality gates apply |
 | [AMTB](../companies/AMTB/README.md) | Amerant Bancorp Inc. | available, quality gates apply |
 | [AMTD](../companies/AMTD/README.md) | AMTD IDEA GROUP | not available |
 | [AMTM](../companies/AMTM/README.md) | Amentum Holdings, Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [ARMP](../companies/ARMP/README.md) | Armata Pharmaceuticals, Inc. | available, quality gates apply |
 | [AROC](../companies/AROC/README.md) | Archrock, Inc. | available, quality gates apply |
 | [AROW](../companies/AROW/README.md) | ARROW FINANCIAL CORP | available, quality gates apply |
+| [ARQ](../companies/ARQ/README.md) | Arq, Inc. | available, quality gates apply |

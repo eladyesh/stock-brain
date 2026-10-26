@@ -4,6 +4,8 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
@@ -86,9 +88,7 @@
 | [VLYPP](../unmapped/9c19c5667d9b50375b2307840a7b3db2.md) | NASDAQ | Valley National Bancorp - 6.25% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock |
 | [VOD](../unmapped/44d32b546b828ec6dbef058b60709377.md) | NASDAQ | Vodafone Group Plc - American Depositary Shares each representing ten Ordinary Shares |
 | [VRXA](../unmapped/cf216d8887d187ae10fe36841f63486e.md) | NASDAQ | Veraxa Biotech AG - Ordinary Shares |
-| [VSME](../unmapped/fcc9872365654270fd4d03435186aab6.md) | NASDAQ | VS Media Holdings Limited - Class A Ordinary Shares |
 | [WHF](../unmapped/3cec6191e151d2c3d022e49bb4431559.md) | NASDAQ | WhiteHorse Finance, Inc. - Closed End Fund |
-| [WPRT](../unmapped/184a031c13375b0c3a2287b32c4986c9.md) | NASDAQ | Westport Fuel Systems Inc - Common Shares |
 | [WQEY](../unmapped/f993738a4dcb1c826295b8d95f192025.md) | NASDAQ | WISeQey Corp - Ordinary Shares |
 | [WSTNR](../unmapped/381853a6dbad80eb5f007e572d0365e2.md) | NASDAQ | Westin Acquisition Corp - Right |
 | [WTW](../unmapped/10549ff83c9020f9b796ad67f066c5bc.md) | NASDAQ | Willis Towers Watson Public Limited Company - Ordinary Shares |

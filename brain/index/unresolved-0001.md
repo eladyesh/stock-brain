@@ -14,6 +14,7 @@
 | [ADAMN](../unmapped/0ee55da78ffcdfc9f4f409f7d99dece1.md) | NASDAQ | Adamas Trust, Inc. - 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock |
 | [ADAMZ](../unmapped/3b6658d829bc6e7b2593fe41825da61e.md) | NASDAQ | Adamas Trust, Inc. - 7.000% Series G Cumulative Redeemable Preferred Stock, $0.01 par value per share |
 | [ADSE](../unmapped/cee9cd25f9cc6ff253d0bfd0dd78f0f5.md) | NASDAQ | ADS-TEC ENERGY PLC - Ordinary Shares |
+| [AETR](../unmapped/a412da1c495d98de7a389f127ee248b4.md) | NASDAQ | Aetherion Technologies Inc. - Common Shares |
 | [AFJKR](../unmapped/95d46784b961cf516bacedeb92a6ad74.md) | NASDAQ | Aimei Health Technology Co., Ltd - Right |
 | [AGMB](../unmapped/4c1ea91650398f2ebb21c8250000a8f8.md) | NASDAQ | AgomAb Therapeutics NV - ADRs representing one common share. |
 | [AIRTP](../unmapped/bc7844435b451949e559c44e7fdf8311.md) | NASDAQ | Air T, Inc. - Trust Preferred Securities |
@@ -72,6 +73,7 @@
 | [EURKR](../unmapped/1b738c93ceb2762f2033d0cdee576fbf.md) | NASDAQ | Eureka Acquisition Corp - Right |
 | [FBIOP](../unmapped/7fa954442755973d923d665de9331137.md) | NASDAQ | Fortress Biotech, Inc. - 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock |
 | [FBYDP](../unmapped/99cb81e4a801e1fcca5880be6ac8da50.md) | NASDAQ | Falcon's Beyond Global, Inc. - 11% Series B Cumulative Convertible Preferred Stock |
+| [FCDH](../unmapped/68de2ac94a827dc0027e36b843cbe987.md) | NASDAQ | Forcendra Holding Limited - Class A Ordinary Shares |
 | [FCNCO](../unmapped/1a82421f44fe6a01e8a3af81839ac970.md) | NASDAQ | First Citizens BancShares, Inc. - 5.625% Non-Cumulative Perpetual Preferred Stock, Series C |
 | [FDUS](../unmapped/a00392a87fc6f0624723d102faf77799.md) | NASDAQ | Fidus Investment Corporation - Closed End Fund |
 | [FGBIP](../unmapped/7b82b34f20e5af3ba04143c383075687.md) | NASDAQ | First Guaranty Bancshares, Inc. - 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock |
@@ -102,5 +104,3 @@
 | [INACR](../unmapped/1e331951916005edf547f490138cc581.md) | NASDAQ | Indigo Acquisition Corp. - Right |
 | [IPXG](../unmapped/2629f2ad138f0a3fa8f8ee0cf4d6dc11.md) | NASDAQ | Inection Point Acquisition Corp. VII  - Class A Ordinary Shares |
 | [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
-| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
-| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |

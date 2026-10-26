@@ -8,11 +8,11 @@ tickers:
 - DGX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -69,8 +69,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001022079.json
@@ -461,6 +461,60 @@ sources:
   published_at: '2026-04-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207926000108/dgx-20260930.htm
+  title: 10-Q 0001022079-26-000108
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-26T16:24:57.573038+00:00'
+  sha256: 7d6d8f00a4301b20d4189fb0cb664cc2d730a308bd8d4ec1bde2f8cebabe2ebb
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207926000097/dgx-20261022.htm
+  title: 8-K 0001022079-26-000097
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-26T16:24:55.935666+00:00'
+  sha256: eb8765a42fa3582ad314f459b7ad2b165bd082b12b3e39c21161b0cedbce003b
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000114036126013356/ny20064122x1_def14a.htm
+  title: DEF 14A 0001140361-26-013356
+  published_at: '2026-04-06'
+  retrieved_at: '2026-10-26T16:24:54.215552+00:00'
+  sha256: 25a432a543266f6f624d1a86d70c43f847b9565f47fb500836f9be5f7919124b
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207926000015/dgx-20251231.htm
+  title: 10-K 0001022079-26-000015
+  published_at: '2026-02-26'
+  retrieved_at: '2026-10-26T16:24:52.278459+00:00'
+  sha256: bce42154fb06d1b48d2b46f27f219d5d58acc6b59fa5127078e4f65d64eef5c3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000094787122000737/ss1131121_8ka.htm
+  title: 8-K/A 0000947871-22-000737
+  published_at: '2022-07-01'
+  retrieved_at: '2026-10-26T16:24:50.525314+00:00'
+  sha256: 8419646f44ebaf4de7aa2459d2955553ab3683587457cd93499a6a844b43d359
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207922000045/dgx-20220203.htm
+  title: 8-K/A 0001022079-22-000045
+  published_at: '2022-03-01'
+  retrieved_at: '2026-10-26T16:24:48.927270+00:00'
+  sha256: 6819a753f3283bf02d0e5fc6a14ad528a22ab800eb382176fb6869ed5c86369b
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207921000130/dgx-20210816.htm
+  title: 8-K/A 0001022079-21-000130
+  published_at: '2021-08-19'
+  retrieved_at: '2026-10-26T16:24:47.420142+00:00'
+  sha256: cf20c2ea56ee50a9fcbfb738f19c6286285a5db6c42a6604f191300243e14c4e
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207919000145/dgx0401198-ka.htm
+  title: 8-K/A 0001022079-19-000145
+  published_at: '2019-05-17'
+  retrieved_at: '2026-10-26T16:24:45.814994+00:00'
+  sha256: 2c44d98915dc86d133a83c55bad73164d1f3e1e03647a74d6c82e1130da1cc0b
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1022079/000102207917000169/dgx8-ka81817.htm
+  title: 8-K/A 0001022079-17-000169
+  published_at: '2017-08-21'
+  retrieved_at: '2026-10-26T16:24:44.256970+00:00'
+  sha256: c0a669992bf91e8b9f79191db7685151ac57a5c19f5ebc3b9b8c78b0d3cb6dc0
 issuer_classification:
   cik: 0001022079
   classification_status: reported_sic
@@ -518,13 +572,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1022079/000102207917000169/0001022079-17-000169-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 09b8a3d30d049f9afaf4df1e0def07eb92c61e8a3cb74519f76608d3da5a16af
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -548,17 +613,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1138:
+
+> Quest Diagnostics works across the healthcare ecosystem to create a healthier world, one life at a time. Our diagnostic information services ("DIS") business provides diagnostic insights from the results of our laboratory testing to empower people, physicians, and organizations to take action to improve health outcomes. Derived from one of the world's largest databases of de-identifiable clinical lab results, our diagnostic insights reveal new avenues to identify and treat disease, inspire healthy behaviors and improve healthcare management. In the right hands and with the right context, our diagnostic insights can inspire actions that transform lives and create a healthier world. We provide services to a broad range of customers within our primary customer channels - physicians (including those associated with accountable care organizations and Federally Qualified Health Centers), hospitals, and patients and consumers. Our other customers include health plans, employers, emerging retail healthcare providers, government agencies, pharmaceutical companies and other commercial clinical laboratories. We offer broad access to clinical testing through a nationwide network of laboratories, patient service centers, phlebotomists in physician offices, and our connectivity resources, including call centers and mobile phlebotomists, nurses and other health and wellness professionals. … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1021:
+
+> The Company's DIS business is the only reportable segment based on the manner in which the Chief Executive Officer, who is the Company's Chief Operating Decision Maker ("CODM"), assesses performance and allocates resources across the organization. The CODM uses the reported measurement of segment profit (loss) in assessing segment performance versus budget and when deciding how to allocate resources to segments. The DIS business provides diagnostic information services to a broad range of customers within its primary customer channels - physicians, hospitals, and patients and consumers. The DIS business accounted for greater than 95% of net revenues in both 2026 and 2025. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1138:
+
+> Quest Diagnostics works across the healthcare ecosystem to create a healthier world, one life at a time. Our diagnostic information services ("DIS") business provides diagnostic insights from the results of our laboratory testing to empower people, physicians, and organizations to take action to improve health outcomes. Derived from one of the world's largest databases of de-identifiable clinical lab results, our diagnostic insights reveal new avenues to identify and treat disease, inspire healthy behaviors and improve healthcare management. In the right hands and with the right context, our diagnostic insights can inspire actions that transform lives and create a healthier world. We provide services to a broad range of customers within our primary customer channels - physicians (including those associated with accountable care organizations and Federally Qualified Health Centers), hospitals, and patients and consumers. Our other customers include health plans, employers, emerging retail healthcare providers, government agencies, pharmaceutical companies and other commercial clinical laboratories. We offer broad access to clinical testing through a nationwide network of laboratories, patient service centers, phlebotomists in physician offices, and our connectivity resources, including call centers and mobile phlebotomists, nurses and other health and wellness professionals. … [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-23, L467:
+
+> Quest Diagnostics Incorporated and its subsidiaries ("Quest Diagnostics" or the "Company") work across the healthcare ecosystem to create a healthier world, one life at a time. The Company's diagnostic information services ("DIS") business provides diagnostic insights from the results of its laboratory testing to empower people, physicians, and organizations to take action to improve health outcomes. Derived from one of the world's largest databases of de-identifiable clinical lab results, the Company's diagnostic insights reveal new avenues to identify and treat disease, inspire healthy behaviors and improve healthcare management. In the right hands and with the right context, the Company's diagnostic insights can inspire actions that transform lives and create a healthier world. The Company provides services to a broad range of customers within its primary customer channels - physicians (including those associated with accountable care organizations ("ACOs") and Federally Qualified Health Centers ("FQHCs")), hospitals, and patients and consumers. Other customers include health plans, employers, new and emerging retail healthcare providers, government agencies, pharmaceutical companies and other commercial clinical laboratories. The Company offers broad access to clinical testing through a network of laboratories, patient service centers, phlebotomists in physician offices, … [S67]
 
 ## Industry and value chain
 
@@ -566,17 +647,33 @@ SEC-reported SIC **8071**: Services-Medical Laboratories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-06, L874:
+
+> nominees and chose Mr. Wentworth due to, among other things, his significant expertise in healthcare, including with health plans and in the pharmacy space, and with consumers, as well as supply chain, information technology and human resources. Mr. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-06, L4523:
+
+> do not routinely disclose publicly, or disclose only in general terms. If we were to disclose these targets, our competitors would gain an informational advantage that could enable competitors to anticipate our strategies and take [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-26, L303:
+
+> \| Patents \| ● Own or control approximately 1,200 issued and approximately 400 pending patents worldwide in 2025 [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-06, L1037:
+
+> electronic product solutions company providing comprehensive electronics design, manufacturing and management services to global electronics and technology companies. As Chief Executive Officer, Mr. Main led Jabil’s growth strategy, [S69]
 
 ## Financial performance
 
@@ -1206,6 +1303,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L918:
+
+> During each of the first three quarters of 2026, the Company's Board of Directors declared a quarterly cash dividend of $0.86 per common share. During each of the four quarters of 2025, the Company's Board of Directors declared a quarterly cash dividend of $0.80 per common share. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1218,6 +1319,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1006:
+
+> Management cannot predict the outcome of such matters. Although management does not anticipate that the ultimate outcome of such matters will have a material adverse effect on the Company's financial condition, given the high degree of judgment involved in establishing loss estimates related to these types of matters, the outcome of such matters may be material to the Company's consolidated results of operations or cash flows in the period in which the impact of such matters is determined or paid. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1227,25 +1332,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1309,9 +1414,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-01 | 8-K | 0001104659-26-054141 | — | [S65] |
 | 2026-04-30 | SCHEDULE 13G | 0002100119-26-001044 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-04-06, L7595:
+
+> participant to the 401(k) Plan and the SDCP during the year preceding the date of termination. The value was: Mr. Davis, $250,000; Mr. Samad, $130,000; Ms. Doherty, $110,000; Mr. Prevoznik, $120,000; and Mr. Kuppusamy, [S69]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001022079.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1443,4 +1552,22 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [SCHEDULE 13G 0002100119-26-001044](https://www.sec.gov/Archives/edgar/data/1022079/000210011926001044/0002100119-26-001044-index.html) — published 2026-04-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [10-Q 0001022079-26-000108](https://www.sec.gov/Archives/edgar/data/1022079/000102207926000108/dgx-20260930.htm) — published 2026-10-23; retrieved 2026-10-26T16:24:57.573038+00:00.
+
+[S68] [8-K 0001022079-26-000097](https://www.sec.gov/Archives/edgar/data/1022079/000102207926000097/dgx-20261022.htm) — published 2026-10-22; retrieved 2026-10-26T16:24:55.935666+00:00.
+
+[S69] [DEF 14A 0001140361-26-013356](https://www.sec.gov/Archives/edgar/data/1022079/000114036126013356/ny20064122x1_def14a.htm) — published 2026-04-06; retrieved 2026-10-26T16:24:54.215552+00:00.
+
+[S70] [10-K 0001022079-26-000015](https://www.sec.gov/Archives/edgar/data/1022079/000102207926000015/dgx-20251231.htm) — published 2026-02-26; retrieved 2026-10-26T16:24:52.278459+00:00.
+
+[S71] [8-K/A 0000947871-22-000737](https://www.sec.gov/Archives/edgar/data/1022079/000094787122000737/ss1131121_8ka.htm) — published 2022-07-01; retrieved 2026-10-26T16:24:50.525314+00:00.
+
+[S72] [8-K/A 0001022079-22-000045](https://www.sec.gov/Archives/edgar/data/1022079/000102207922000045/dgx-20220203.htm) — published 2022-03-01; retrieved 2026-10-26T16:24:48.927270+00:00.
+
+[S73] [8-K/A 0001022079-21-000130](https://www.sec.gov/Archives/edgar/data/1022079/000102207921000130/dgx-20210816.htm) — published 2021-08-19; retrieved 2026-10-26T16:24:47.420142+00:00.
+
+[S74] [8-K/A 0001022079-19-000145](https://www.sec.gov/Archives/edgar/data/1022079/000102207919000145/dgx0401198-ka.htm) — published 2019-05-17; retrieved 2026-10-26T16:24:45.814994+00:00.
+
+[S75] [8-K/A 0001022079-17-000169](https://www.sec.gov/Archives/edgar/data/1022079/000102207917000169/dgx8-ka81817.htm) — published 2017-08-21; retrieved 2026-10-26T16:24:44.256970+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

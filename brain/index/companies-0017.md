@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [EEIQ](../companies/EEIQ/README.md) | EpicQuest Education Group International Ltd | not available |
 | [EFC](../companies/EFC/README.md) | Ellington Financial Inc. | available, quality gates apply |
 | [EFOI](../companies/EFOI/README.md) | ENERGY FOCUS, INC/DE | available, quality gates apply |
 | [EFOR](../companies/EFOR/README.md) | Everforth Inc | available, quality gates apply |
@@ -44,7 +43,6 @@
 | [ELF](../companies/ELF/README.md) | e.l.f. Beauty, Inc. | available, quality gates apply |
 | [ELLO](../companies/ELLO/README.md) | Ellomay Capital Ltd. | not available |
 | [ELMD](../companies/ELMD/README.md) | Electromed, Inc. | available, quality gates apply |
-| [ELME](../companies/ELME/README.md) | Elme Communities | not available |
 | [ELMT](../companies/ELMT/README.md) | Elmet Group Co. | available, quality gates apply |
 | [ELOG](../companies/ELOG/README.md) | Eastern International Ltd. | not available |
 | [ELOX](../companies/ELOX/README.md) | Eloxx Pharmaceuticals, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [EPM](../companies/EPM/README.md) | EVOLUTION PETROLEUM CORP | available, quality gates apply |
 | [EPOW](../companies/EPOW/README.md) | E-Power Inc. | not available |
 | [EPR](../companies/EPR/README.md) | EPR PROPERTIES | available, quality gates apply |
+| [EPRT](../companies/EPRT/README.md) | ESSENTIAL PROPERTIES REALTY TRUST, INC. | available, quality gates apply |
+| [EPRX](../companies/EPRX/README.md) | EUPRAXIA PHARMACEUTICALS INC. | not available |

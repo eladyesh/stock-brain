@@ -43,7 +43,6 @@
 | [ABVC](../companies/ABVC/README.md) | ABVC BIOPHARMA, INC. | available, quality gates apply |
 | [ABVX](../companies/ABVX/README.md) | Abivax S.A. | not available |
 | [ABX](../companies/ABX/README.md) | Abacus Global Management, Inc. | available, quality gates apply |
-| [ACA](../companies/ACA/README.md) | Arcosa, Inc. | available, quality gates apply |
 | [ACAA](../companies/ACAA/README.md) | Averin Capital Acquisition Corp. | available, quality gates apply |
 | [ACAD](../companies/ACAD/README.md) | ACADIA PHARMACEUTICALS INC | available, quality gates apply |
 | [ACB](../companies/ACB/README.md) | AURORA CANNABIS INC | not available |
@@ -104,3 +103,4 @@
 | [ADRX](../companies/ADRX/README.md) | ADARx Pharmaceuticals, Inc. | not available |
 | [ADSK](../companies/ADSK/README.md) | Autodesk, Inc. | available, quality gates apply |
 | [ADT](../companies/ADT/README.md) | ADT Inc. | available, quality gates apply |
+| [ADTN](../companies/ADTN/README.md) | ADTRAN Holdings, Inc. | available, quality gates apply |

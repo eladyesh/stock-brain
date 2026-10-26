@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [MH](../companies/MH/README.md) | McGraw Hill, Inc. | available, quality gates apply |
-| [MHD](../companies/MHD/README.md) | BLACKROCK MUNIHOLDINGS FUND, INC. | not available |
 | [MHF](../companies/MHF/README.md) | WESTERN ASSET MUNICIPAL HIGH INCOME FUND INC. | not available |
 | [MHH](../companies/MHH/README.md) | Mastech Digital, Inc. | available, quality gates apply |
 | [MHK](../companies/MHK/README.md) | MOHAWK INDUSTRIES INC | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
 | [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
 | [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
+| [MRAM](../companies/MRAM/README.md) | EVERSPIN TECHNOLOGIES INC. | available, quality gates apply |
+| [MRBK](../companies/MRBK/README.md) | Meridian Corp | available, quality gates apply |

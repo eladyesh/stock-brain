@@ -8,11 +8,11 @@ tickers:
 - AACG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -65,8 +65,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001420529.json
@@ -673,7 +673,7 @@ Source excerpt — 20-F, filed 2026-03-31, L704:
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001420529.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -787,4 +787,4 @@ Source excerpt — 20-F, filed 2026-03-31, L704:
 
 [S57] [20-F/A 0001104659-14-088696](https://www.sec.gov/Archives/edgar/data/1420529/000110465914088696/a14-26751_120fa.htm) — published 2014-12-24; retrieved 2026-10-23T18:22:07.490265+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

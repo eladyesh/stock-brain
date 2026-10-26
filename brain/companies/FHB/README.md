@@ -8,11 +8,11 @@ tickers:
 - FHB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -102,8 +102,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000036377.json
@@ -571,11 +571,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/36377/000095015098001940/0000950150-98-001940-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 6f4f6d6c0b34c83ee9762bf60a0864843d7ee404d223cf1a65078ae9de9ce1cc
-  last_attempt_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-10-27T16:22:31.694168+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 6
@@ -1268,7 +1268,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -1353,7 +1353,7 @@ Latest 50 filing metadata records of 861 retained records. A filing link is evid
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000036377.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1489,4 +1489,4 @@ Latest 50 filing metadata records of 861 retained records. A filing link is evid
 
 [S68] [4 0002109481-26-000007](https://www.sec.gov/Archives/edgar/data/36377/000210948126000007/0002109481-26-000007-index.html) — published 2026-02-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [CTM](../companies/CTM/README.md) | Castellum, Inc. | available, quality gates apply |
 | [CTMX](../companies/CTMX/README.md) | CytomX Therapeutics, Inc. | available, quality gates apply |
 | [CTNM](../companies/CTNM/README.md) | Contineum Therapeutics, Inc. | available, quality gates apply |
 | [CTNT](../companies/CTNT/README.md) | CHEETAH NET SUPPLY CHAIN SERVICE INC. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [DC](../companies/DC/README.md) | Dakota Gold Corp. | available, quality gates apply |
 | [DCBO](../companies/DCBO/README.md) | Docebo Inc. | not available |
 | [DCGO](../companies/DCGO/README.md) | DocGo Inc. | available, quality gates apply |
+| [DCH](../companies/DCH/README.md) | Dauch Corp | available, quality gates apply |

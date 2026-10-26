@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [AIZ](../companies/AIZ/README.md) | ASSURANT, INC. | available, quality gates apply |
 | [AJG](../companies/AJG/README.md) | Arthur J. Gallagher & Co. | available, quality gates apply |
 | [AKA](../companies/AKA/README.md) | A.K.A. BRANDS HOLDING CORP. | available, quality gates apply |
 | [AKAM](../companies/AKAM/README.md) | AKAMAI TECHNOLOGIES INC | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [AMSF](../companies/AMSF/README.md) | AMERISAFE INC | available, quality gates apply |
 | [AMSS](../companies/AMSS/README.md) | AMASS BRANDS | available, quality gates apply |
 | [AMST](../companies/AMST/README.md) | Amesite Inc. | available, quality gates apply |
+| [AMT](../companies/AMT/README.md) | AMERICAN TOWER CORP /MA/ | available, quality gates apply |

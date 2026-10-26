@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [EPRT](../companies/EPRT/README.md) | ESSENTIAL PROPERTIES REALTY TRUST, INC. | available, quality gates apply |
-| [EPRX](../companies/EPRX/README.md) | EUPRAXIA PHARMACEUTICALS INC. | not available |
 | [EPSM](../companies/EPSM/README.md) | Epsium Enterprise Ltd | not available |
 | [EPSN](../companies/EPSN/README.md) | Epsilon Energy Ltd. | available, quality gates apply |
 | [EQ](../companies/EQ/README.md) | Equillium, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [EYPT](../companies/EYPT/README.md) | EyePoint, Inc. | available, quality gates apply |
 | [EZGO](../companies/EZGO/README.md) | EZGO Technologies Ltd. | not available |
 | [EZPW](../companies/EZPW/README.md) | EZCORP INC | available, quality gates apply |
+| [EZRA](../companies/EZRA/README.md) | Reliance Global Group, Inc. | available, quality gates apply |
+| [F](../companies/F/README.md) | FORD MOTOR CO | not available |

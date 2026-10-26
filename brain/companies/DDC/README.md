@@ -8,11 +8,11 @@ tickers:
 - DDC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -57,8 +57,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001808110.json
@@ -365,6 +365,18 @@ sources:
   published_at: '2025-07-16'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1808110/000121390026112138/ea0309121-6k_ddc.htm
+  title: 6-K 0001213900-26-112138
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-26T16:24:13.532810+00:00'
+  sha256: 2cbace3ca618997ffc355e072a4e5d121f29dc336f1ac9990d2244d36b16e1e6
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1808110/000121390026045881/ea0285722-20f_ddcenter.htm
+  title: 20-F 0001213900-26-045881
+  published_at: '2026-04-21'
+  retrieved_at: '2026-10-26T16:24:11.469240+00:00'
+  sha256: c7fb2467e19d4967a49ec1067c9118c62eb83c1efee60d75fc5d50960e578a44
 issuer_classification:
   cik: 0001808110
   classification_status: reported_sic
@@ -392,13 +404,24 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1808110/000121390026112138/0001213900-26-112138-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ac2b753a30e9033657c7b445ed087c8710dfc2a55a52c1e1d1b54ac5ecb9450c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -422,17 +445,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 6-K, filed 2026-10-23, L43:
+
+> Competition — The food and e-commerce industries in China are highly competitive. We compete with different competitors in each of our business lines. There are certain barriers to entry that have limited the number and success of foreign entrants, emerging, and traditional-cum-emerging brands, including our (i) brand awareness, (ii) E2E supply-chain visibility, (iii) strategic and preferred service agreements with product and distribution partners, (iv) product R&D and go-to-market capabilities, and (v) board of directors and advisory network. [S53]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-04-21, L5588:
+
+> This acquisition was completed during the nation-wide lock down when the company expedited its strategy to diversify revenue streams and [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 6-K, filed 2026-10-23, L28:
+
+> We have an omni-channel (online and offline) sales, end-to-end (“E2E”) product development and distribution strategy. We have access to a network of direct-to-consumer (“D2C”) retail, wholesale Point-of-Sales (“POS”), and other corporate partnerships for the offline sale and distribution of our products. We continue to engage and grow our customer-base through curated and relevant video-content, product placement, and a customer-feedback informed product development and distribution strategy. [S53]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-21, L751:
+
+> and logistics service expenditures. Benefiting from our deep engagement with our customers, we are in a good position to analyze consumers’ [S54]
 
 ## Industry and value chain
 
@@ -440,17 +479,33 @@ SEC-reported SIC **2000**: Food and Kindred Products. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 6-K, filed 2026-10-23, L71:
+
+> The increase in total revenue was primarily driven by the expansion of our offline distribution channels and broader retail penetration across our culinary brand portfolio. The growth is attributable to our diversified and solid offline sales channels, which have been optimized and expanded continuously during the first half of 2026, including the increased number in regional distributors and strengthened cooperation with them, driving a steady rise in offline sales volume. [S53]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 6-K, filed 2026-10-23, L43:
+
+> Competition — The food and e-commerce industries in China are highly competitive. We compete with different competitors in each of our business lines. There are certain barriers to entry that have limited the number and success of foreign entrants, emerging, and traditional-cum-emerging brands, including our (i) brand awareness, (ii) E2E supply-chain visibility, (iii) strategic and preferred service agreements with product and distribution partners, (iv) product R&D and go-to-market capabilities, and (v) board of directors and advisory network. [S53]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 6-K, filed 2026-10-23, L119:
+
+> We regard our trademarks, copyrights, domain names, know-how, patents, and similar intellectual property as critical to our success, and we rely on a combination of intellectual property laws and contractual arrangements, including confidentiality and non-compete agreements with our employees and others, to protect our proprietary rights As of June 30, 2026, we had registered 279 trademarks, 1 copyright of works and 5 computer software copyrights in China, including three registered trademarks in Hong Kong. [S53]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 6-K, filed 2026-10-23, L27:
+
+> We are a global Asian food platform and digital asset treasury company in China. We have strategically positioned Bitcoin as a core reserve asset while continuing to expand our portfolio of culinary brands. We are at the forefront of public companies integrating bitcoin into our financial architecture. We offer easy, convenient food. They reduce the time and energy needed to prepare a meal at home while never compromising on food safety, variety, and selection. [S53]
 
 ## Financial performance
 
@@ -464,6 +519,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 6-K, filed 2026-10-23, L43:
+
+> Competition — The food and e-commerce industries in China are highly competitive. We compete with different competitors in each of our business lines. There are certain barriers to entry that have limited the number and success of foreign entrants, emerging, and traditional-cum-emerging brands, including our (i) brand awareness, (ii) E2E supply-chain visibility, (iii) strategic and preferred service agreements with product and distribution partners, (iv) product R&D and go-to-market capabilities, and (v) board of directors and advisory network. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -475,6 +534,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-21, L241:
+
+> titled “Risk Factors” for a discussion of important factors that may cause our actual results to differ materially from those [S54]
 
 ## Scenarios and open questions
 
@@ -488,25 +551,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -571,9 +634,13 @@ Latest 50 filing metadata records of 118 retained records. A filing link is evid
 | 2025-07-22 | F-3 | 0001213900-25-066338 | — | [S51] |
 | 2025-07-16 | D | 0001213900-25-064673 | — | [S52] |
 
+Source excerpt — 20-F, filed 2026-04-21, L5053:
+
+> in the fair market value (based on quoted (unadjusted) prices on the OK exchange) of our bitcoin during the year ended December 31, 2025. [S54]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001808110.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -677,4 +744,8 @@ Latest 50 filing metadata records of 118 retained records. A filing link is evid
 
 [S52] [D 0001213900-25-064673](https://www.sec.gov/Archives/edgar/data/1808110/000121390025064673/0001213900-25-064673-index.html) — published 2025-07-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001213900-26-112138](https://www.sec.gov/Archives/edgar/data/1808110/000121390026112138/ea0309121-6k_ddc.htm) — published 2026-10-23; retrieved 2026-10-26T16:24:13.532810+00:00.
+
+[S54] [20-F 0001213900-26-045881](https://www.sec.gov/Archives/edgar/data/1808110/000121390026045881/ea0285722-20f_ddcenter.htm) — published 2026-04-21; retrieved 2026-10-26T16:24:11.469240+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

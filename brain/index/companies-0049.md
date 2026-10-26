@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [STVN](../companies/STVN/README.md) | Stevanato Group S.p.A. | not available |
-| [STX](../companies/STX/README.md) | Seagate Technology Holdings plc | available, quality gates apply |
-| [STXS](../companies/STXS/README.md) | Stereotaxis, Inc. | available, quality gates apply |
 | [STZ](../companies/STZ/README.md) | CONSTELLATION BRANDS, INC. | available, quality gates apply |
 | [SU](../companies/SU/README.md) | SUNCOR ENERGY INC | not available |
 | [SUGP](../companies/SUGP/README.md) | SU Group Holdings Ltd | not available |
@@ -104,3 +101,6 @@
 | [TDG](../companies/TDG/README.md) | TransDigm Group INC | available, quality gates apply |
 | [TDIC](../companies/TDIC/README.md) | Dreamland Ltd | not available |
 | [TDOC](../companies/TDOC/README.md) | Teladoc Health, Inc. | available, quality gates apply |
+| [TDS, TDS$U, TDS$V](../companies/TDS/README.md) | TELEPHONE & DATA SYSTEMS INC /DE/ | available, quality gates apply |
+| [TDTH](../companies/TDTH/README.md) | Trident Digital Tech Holdings Ltd | not available |
+| [TDUP](../companies/TDUP/README.md) | ThredUp Inc. | available, quality gates apply |

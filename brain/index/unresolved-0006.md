@@ -69,6 +69,7 @@
 | [GLU](../unmapped/ae2749a04391efba5b3a4c31c111e29f.md) | NYSE_AMERICAN | Gabelli Global Utility Common Shares of Beneficial Ownership |
 | [GMTL](../unmapped/5fb1559def13c24d7f706ec722c409bd.md) | NYSE_AMERICAN | Guardian Metal Resources PLC ADS |
 | [GPUS$D](../unmapped/75ee8454a0f5c1c194586cf3fd967cd0.md) | NYSE_AMERICAN | Hyperscale Data, Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock |
+| [GUNN](../unmapped/655232d733dc6fa4d4b0d118879f250f.md) | NYSE_AMERICAN | Gunnison Copper Corp. American Depositary Shares (each representing thirty (30) Common Shares) |
 | [INFU](../unmapped/8714872570bf44c40067c0dd447466ae.md) | NYSE_AMERICAN | InfuSystems Holdings, Inc. Common Stock |
 | [OPP$C](../unmapped/61fbd00d157d98dceb1a85a3930fe7e5.md) | NYSE_AMERICAN | RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share) |
 | [PCG$A](../unmapped/94ed2af6481d37010d620d28ba255e4b.md) | NYSE_AMERICAN | Pacific Gas & Electric Co. 6% Preferred Stock |
@@ -80,6 +81,7 @@
 | [PCG$H](../unmapped/590180f7753e2fc188b2a0a8b81f57e8.md) | NYSE_AMERICAN | Pacific Gas & Electric Co. 4.50% 1st Preferred Stock |
 | [PCG$I](../unmapped/110a05576ab16470c47da6c04c66baa2.md) | NYSE_AMERICAN | Pacific Gas & Electric Co. 4.36% 1st Preferred Stock |
 | [PHXE$](../unmapped/74a64a17049f43f37f5b7fa0ab291fb2.md) | NYSE_AMERICAN | Phoenix Energy One, LLC Series A Cumulative Redeemable Preferred Shares |
+| [PTIV](../unmapped/bf1ecbb4ec9f1cf1aefe0ee0b1eb281d.md) | NYSE_AMERICAN | Pineapple Financial Inc. Common Stock |
 | [PW](../unmapped/7994f4d66797bd8c7cabff4412cca034.md) | NYSE_AMERICAN | Power REIT (MD) Common Stock |
 | [PW$A](../unmapped/c3fbff7e09de2cc9c2d66f80568188e3.md) | NYSE_AMERICAN | Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock |
 | [SACH$A](../unmapped/9b79af02a34f7a97f0a8be5ff9bd5fd2.md) | NYSE_AMERICAN | Sachem Capital Corp. 7.75% Series A Cumulative Redeemable Preferred Stock |
@@ -102,5 +104,3 @@
 | [ET](../unmapped/2fdd4ecaeb5aa28cb65e40c102885faa.md) | UNKNOWN_F | Energy Transfer LP Common Units |
 | [ET$I](../unmapped/b5726bce706fc0cf1358cda94294bcc0.md) | UNKNOWN_F | Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units |
 | [IBOC](../unmapped/14e023a09e4e413d29101bb05c8f2f4a.md) | UNKNOWN_F | International Bancshares Corporation Common Stock |
-| [OBK](../unmapped/acd6ed0fe8227df35d7c9cf7f12c7fb4.md) | UNKNOWN_F | Origin Bancorp, Inc. Common Stock |
-| [SUN](../unmapped/625c368f84318f6c4b0c8bdd13ec4e91.md) | UNKNOWN_F | Sunoco LP Common Units representing limited partner interests |

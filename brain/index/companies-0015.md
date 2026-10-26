@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [DCH](../companies/DCH/README.md) | Dauch Corp | available, quality gates apply |
 | [DCI](../companies/DCI/README.md) | DONALDSON Co INC | available, quality gates apply |
 | [DCO](../companies/DCO/README.md) | DUCOMMUN INC /DE/ | available, quality gates apply |
 | [DCOM](../companies/DCOM/README.md) | Dime Commercial Bancshares, Inc. /NY/ | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [DOX](../companies/DOX/README.md) | AMDOCS LTD | not available |
 | [DOYU](../companies/DOYU/README.md) | DouYu International Holdings Ltd | not available |
 | [DPC](../companies/DPC/README.md) | DPC Holdings PLC | available, quality gates apply |
+| [DPG](../companies/DPG/README.md) | Duff & Phelps Utility & Infrastructure Fund Inc. | not available |

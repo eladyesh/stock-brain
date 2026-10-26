@@ -8,11 +8,11 @@ tickers:
 - CPAC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -59,8 +59,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001221029.json
@@ -667,7 +667,7 @@ Source excerpt — 20-F, filed 2026-04-28, L1092:
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001221029.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -781,4 +781,4 @@ Source excerpt — 20-F, filed 2026-04-28, L1092:
 
 [S57] [20-F/A 0001193125-14-012165](https://www.sec.gov/Archives/edgar/data/1221029/000119312514012165/d657847d20fa.htm) — published 2014-01-15; retrieved 2026-10-25T14:08:14.403800+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.

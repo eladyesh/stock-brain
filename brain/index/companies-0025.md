@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [HROW](../companies/HROW/README.md) | HARROW, INC. | available, quality gates apply |
-| [HRTG](../companies/HRTG/README.md) | Heritage Insurance Holdings, Inc. | available, quality gates apply |
 | [HRTX](../companies/HRTX/README.md) | HERON THERAPEUTICS, INC. /DE/ | available, quality gates apply |
 | [HRZN](../companies/HRZN/README.md) | Horizon Technology Finance Corp | available, quality gates apply |
 | [HSAI](../companies/HSAI/README.md) | Hesai Group | not available |
@@ -104,3 +102,5 @@
 | [IDCC](../companies/IDCC/README.md) | InterDigital, Inc. | available, quality gates apply |
 | [IDE](../companies/IDE/README.md) | Voya Infrastructure, Industrials & Materials Fund | not available |
 | [IDN](../companies/IDN/README.md) | Intellicheck, Inc. | available, quality gates apply |
+| [IDR](../companies/IDR/README.md) | Idaho Strategic Resources, Inc. | available, quality gates apply |
+| [IDT](../companies/IDT/README.md) | IDT CORP | available, quality gates apply |

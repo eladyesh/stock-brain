@@ -4,10 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [WENC](../companies/WENC/README.md) | West Enclave Merger Corp. | available, quality gates apply |
-| [WENN](../companies/WENN/README.md) | WEN Acquisition Corp | available, quality gates apply |
-| [WERN](../companies/WERN/README.md) | WERNER ENTERPRISES INC | available, quality gates apply |
-| [WES](../companies/WES/README.md) | Western Midstream Partners, LP | not available |
 | [WEST](../companies/WEST/README.md) | Westrock Coffee Co | available, quality gates apply |
 | [WETH](../companies/WETH/README.md) | Wetouch Technology Inc. | available, quality gates apply |
 | [WETO](../companies/WETO/README.md) | Wetour Robotics Ltd | not available |
@@ -104,3 +100,7 @@
 | [WY](../companies/WY/README.md) | WEYERHAEUSER CO | available, quality gates apply |
 | [WYFI](../companies/WYFI/README.md) | WhiteFiber, Inc. | available, quality gates apply |
 | [WYHG](../companies/WYHG/README.md) | Wing Yip Food Holdings Group Ltd | not available |
+| [WYNN](../companies/WYNN/README.md) | WYNN RESORTS LTD | available, quality gates apply |
+| [WYY](../companies/WYY/README.md) | WIDEPOINT CORP | available, quality gates apply |
+| [XAIR](../companies/XAIR/README.md) | Beyond Air, Inc. | available, quality gates apply |
+| [XBIO](../companies/XBIO/README.md) | Xenetic Biosciences, Inc. | available, quality gates apply |
