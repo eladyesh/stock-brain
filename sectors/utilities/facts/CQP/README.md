@@ -8,11 +8,11 @@ tickers:
 - CQP
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -84,8 +84,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001383650.json
@@ -152,6 +152,18 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1383650/000138365026000028/cqp-20260630.htm
+  title: 10-Q 0001383650-26-000028
+  published_at: '2026-08-06'
+  retrieved_at: '2026-10-26T16:23:44.144853+00:00'
+  sha256: 583df918d3946aaa2e866da70935099bd39a5b795089cfa6d12aa6988412e2e4
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1383650/000138365026000005/cqp-20251231.htm
+  title: 10-K 0001383650-26-000005
+  published_at: '2026-02-26'
+  retrieved_at: '2026-10-26T16:23:41.578683+00:00'
+  sha256: 5905477ac61093dcb2023da7ee4910d8b75957edb7933bcbe916af26320f2615
 issuer_classification:
   cik: 0001383650
   classification_status: reported_sic
@@ -201,13 +213,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1383650/000138365012000065/0001383650-12-000065-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: dcbd421b5b60353a63c0baafa251ce1552ac6f9efd1ff0d85ca9dacfc607e91c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -222,15 +243,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001383650.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CQP/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CQP/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CQP — Cheniere Energy Partners, L.P.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CQP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CQP/README.md)
 
 ## Business overview
 
@@ -244,9 +265,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1184:
+
+> We have determined that we operate as a single operating and reportable segment. The measure of profit and loss regularly provided to the chief operating decision maker (“CODM”) that is most consistent with GAAP is net income, as presented in our Consolidated Statements of Operations. This measure contributes to the CODM’s assessment of performance and resource allocation, which includes monitoring of budget versus actual results, establishing compensation and deciding on capital allocation priorities. Significant expenses regularly provided to the CODM, and included in the measure of profit and loss, are cost of sales, operating and maintenance expense and general and administrative expense, as reported in our Consolidated Statements of Operations. Also provided regularly to the CODM are changes in the fair value of our derivative instruments, which are inclusive of significant noncash items, which were $526 million in gains and $114 million in losses for the three and six months ended June 30, 2026, respectively, and $159 million and $119 million in gains for the same periods of 2025, respectively. Interest income, which is included in interest and dividend income on our Consolidated Statements of Operations, was $6 million and $9 million for the three and six months ended June 30, 2026, respectively, and $2 million and $6 million for the same periods of 2025, respectively. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1184:
+
+> We have determined that we operate as a single operating and reportable segment. The measure of profit and loss regularly provided to the chief operating decision maker (“CODM”) that is most consistent with GAAP is net income, as presented in our Consolidated Statements of Operations. This measure contributes to the CODM’s assessment of performance and resource allocation, which includes monitoring of budget versus actual results, establishing compensation and deciding on capital allocation priorities. Significant expenses regularly provided to the CODM, and included in the measure of profit and loss, are cost of sales, operating and maintenance expense and general and administrative expense, as reported in our Consolidated Statements of Operations. Also provided regularly to the CODM are changes in the fair value of our derivative instruments, which are inclusive of significant noncash items, which were $526 million in gains and $114 million in losses for the three and six months ended June 30, 2026, respectively, and $159 million and $119 million in gains for the same periods of 2025, respectively. Interest income, which is included in interest and dividend income on our Consolidated Statements of Operations, was $6 million and $9 million for the three and six months ended June 30, 2026, respectively, and $2 million and $6 million for the same periods of 2025, respectively. [S70]
 
 ## Products and services
 
@@ -256,17 +285,29 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1253:
+
+> We are a publicly traded Delaware limited partnership formed by Cheniere. We provide clean, secure and affordable LNG to integrated energy companies, utilities and energy trading companies around the world. We aspire to conduct our business in a safe and responsible manner, delivering a reliable, competitive and integrated source of LNG to our customers. [S70]
+
 ## Industry and value chain
 
 SEC-reported SIC **4924**: Natural Gas Distribution. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-26, L448:
+
+> As described in Market Factors and Competition, we expect that global demand for natural gas and LNG will continue to increase as nations seek more abundant, reliable and environmentally cleaner fuel alternatives to oil and coal. Our vision is to provide clean, secure and affordable energy to the world. This vision underpins our focus on responding to the world’s shared energy challenges — expanding the global supply of clean, secure and affordable energy, improving air quality, reducing emissions and supporting the transition to a lower-carbon future. Our approach to corporate responsibility is guided by our Climate and Sustainability Principles: Transparency, Science, Supply Chain and Operational Excellence. In August 2025, Cheniere published Together, We Deliver, its sixth Corporate Responsibility (“CR”) report, which details Cheniere’s approach and progress on environmental, social and governance (“ESG”) matters. Cheniere’s CR report is available at [S71]
+
 Navigation sector: **utilities**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-26, L446:
+
+> Despite the long term nature of our SPAs, when SPL needs to replace or amend any existing SPA or enter into new SPAs, they will compete with other natural gas liquefaction projects throughout the world primarily on the basis of price per contracted volume of LNG at that time, as well as attributes such as commercial innovation, reliable production and customer-focused operations to provide flexible and tailored solutions to LNG buyers. We will compete with other natural gas liquefaction projects throughout the world, including our affiliate, Corpus Christi Liquefaction, LLC (“CCL”), primarily on the basis of price. Revenues associated with any incremental volumes of the Liquefaction Project, including those made available to Cheniere Marketing, will also be subject to market-based price competition. Refer to Item 1A. Risk Factors for further discussion of risks relating to market competition. [S71]
 
 ## Moat and differentiation
 
@@ -275,6 +316,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1261:
+
+> We remain focused on safety, operational excellence and customer satisfaction. Increasing demand for LNG has allowed us to expand our liquefaction infrastructure in a financially disciplined manner. Capital investment parameters are the foundation of our disciplined, accretive growth, and include consideration to: [S70]
 
 ## Financial performance
 
@@ -399,6 +444,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L567:
+
+> We are developing a two-phased expansion project adjacent to the Liquefaction Project to provide additional liquefaction capacity, inclusive of three liquefaction trains and supporting infrastructure, with an expected total peak production capacity of up to approximately 20 mtpa of LNG, inclusive of estimated debottlenecking opportunities (the “SPL Expansion Project”), and we are commercializing to support the additional liquefaction capacity associated with this potential expansion project. In May 2026, SPL Stage V entered into a lump sum, turnkey EPC contract with Bechtel Energy, Inc. for the first phase of the SPL Expansion Project and issued a limited notice to proceed to commence early engineering and procurement. The development of this project or other projects, including infrastructure projects in support of natural gas supply and LNG demand, will require, among other things, acceptable commercial and financing arrangements before the Board of Directors of our general partner makes a positive FID. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -411,6 +460,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1242:
+
+> from those anticipated or implied in forward-looking statements as a result of a variety of factors described in this quarterly report and in the other reports and other information that we file with the SEC, including those discussed under “Risk Factors” in our annual report on Form 10-K for the fiscal year ended December 31, 2025. All forward-looking statements attributable to us or persons acting on our behalf are expressly qualified in their entirety by these risk factors. These forward-looking statements speak only as of the date made, and other than as required by law, we undertake no obligation to update or revise any forward-looking statement or provide reasons why actual results may differ, whether as a result of new information, future events or otherwise. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -420,25 +473,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -460,7 +513,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001383650.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -484,6 +537,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S42] [10-K 0001383650-26-000005](https://www.sec.gov/Archives/edgar/data/1383650/000138365026000005/0001383650-26-000005-index.html) — published 2026-02-26; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CQP/README.md).
+[S70] [10-Q 0001383650-26-000028](https://www.sec.gov/Archives/edgar/data/1383650/000138365026000028/cqp-20260630.htm) — published 2026-08-06; retrieved 2026-10-26T16:23:44.144853+00:00.
+
+[S71] [10-K 0001383650-26-000005](https://www.sec.gov/Archives/edgar/data/1383650/000138365026000005/cqp-20251231.htm) — published 2026-02-26; retrieved 2026-10-26T16:23:41.578683+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CQP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

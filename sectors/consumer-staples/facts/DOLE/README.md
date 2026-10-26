@@ -8,11 +8,11 @@ tickers:
 - DOLE
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -72,8 +72,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:48.334682+00:00'
-  sha256: 94335ed3f4abc4bbd58a4415d105d453184f5484eaf6a2884d1bfb0120d850c9
+  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
+  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001857475.json
@@ -140,6 +140,18 @@ sources:
   published_at: '2026-03-02'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1857475/000185747526000076/dole-20260630.htm
+  title: 10-Q 0001857475-26-000076
+  published_at: '2026-08-10'
+  retrieved_at: '2026-10-26T16:25:21.478606+00:00'
+  sha256: ba725d07ecba020a81069b23605c0203271eca6d6d8dd97f705c5f9dc3d53f1d
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1857475/000185747526000028/dole-20251231.htm
+  title: 10-K 0001857475-26-000028
+  published_at: '2026-03-02'
+  retrieved_at: '2026-10-26T16:25:19.542514+00:00'
+  sha256: 8bcc1810757c9863adffde6aa3c802de519df7d0c33c8a30f32726871b7f040e
 issuer_classification:
   cik: 0001857475
   classification_status: reported_sic
@@ -173,13 +185,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1857475/000185747526000083/0001857475-26-000083-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0a1bea64e8a3c87cbf3f979ceb3626d6ad3bcf8d628b07f6df88f61538c1beb4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -194,15 +217,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001857475.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/DOLE/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/DOLE/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # DOLE — Dole plc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/DOLE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/DOLE/README.md)
 
 ## Business overview
 
@@ -216,17 +239,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1706:
+
+> As 2026 progresses, the economic and market environment continues to be volatile with a number of external factors continuing to pose challenges to the global economy and to our business, including: [S58]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L465:
+
+> On August 5, 2025, the Company completed the sale of its fresh vegetables (“Fresh Vegetables”) division to OG Holdco LLC (the “Vegetables Transaction”). The Vegetables Transaction comprised substantially all of the assets and liabilities of the former Fresh Vegetables reportable segment. As a result of the Company’s exit of the Fresh Vegetables division, its results are reported separately as discontinued operations, net of income taxes, in the condensed consolidated statements of operations for the three and six months ended June 30, 2025. Additionally, its cash flows have been separately stated as discontinued operations in the condensed consolidated statements of cash flows for the six months ended June 30, 2025. [S58]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-10, L510:
+
+> The Company normally engages in acquisitions to grow its business and product offerings and in divestitures to align with Dole’s long-term strategy. Acquisitions and divestitures of subsidiaries in the three and six months ended June 30, 2026 and June 30, 2025 were not material. Changes to goodwill were primarily driven by foreign currency translation in the six months ended June 30, 2026. [S58]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-02, L315:
+
+> For our fiscal year ended December 31, 2025, we operated through three reportable segments, each managed separately due to differences in geography, products, production processes, distribution channels and customer bases. We believe this organizational structure allows us to continue serving our customers with the exceptional quality that they have come to associate with the brands we market and to drive growth and cost efficiencies through the realization of operational synergies across the overall business. [S59]
 
 ## Industry and value chain
 
@@ -234,19 +273,35 @@ SEC-reported SIC **0100**: Agricultural Production-Crops. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L674:
+
+> Dole makes cash advances and materials advances to third-party growers for various production needs, including labor, fertilization, irrigation, pruning and harvesting costs, and additionally incurs other supply chain costs on behalf of third-party growers that are recorded as grower advance receivables. Some of these advances are secured by collateral owned by the growers. [S58]
+
 Navigation sector: **consumer-staples**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-02, L345:
+
+> •In our Fresh Fruit segment, production occurs throughout the year, but peak production occurs in the second half of the year, while peak demand is in the first half due to lower competition from seasonal fruits. [S59]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-02, L350:
+
+> We operate our business under a number of brands, trademarks, patents and licenses. We protect our intellectual property by, among other things, filing patent applications for technology relating to the development of our businesses across the jurisdictions in which we operate. Our trademarks and brand names are registered in jurisdictions throughout the world. Certain unaffiliated parties have the right to use the DOLE® brand on a royalty-free basis for certain products and in certain jurisdictions. [S59]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L154:
+
+> Forward-looking statements are based on management’s beliefs, assumptions and expectations of our future economic performance, considering the information currently available to management. These statements are not statements of historical fact. The words “believe,” “may,” “could,” “will,” “should,” “would,” “anticipate,” “estimate,” “expect,” “intend,” “objective,” “seek,” “strive,” “target” or similar words, or the negative of these words, identify forward-looking statements. The inclusion of this forward-looking information should not be regarded as a representation by us or any other person that the future plans, estimates or expectations contemplated by us will be achieved. Such forward-looking statements are subject to various risks and uncertainties and assumptions relating to our operations, financial results, financial condition, business prospects, growth strategy and liquidity. Accordingly, there are, or will be, important factors that could cause our actual results to differ materially from those indicated in these statements. All such risk factors are difficult to predict, contain uncertainties that may materially affect actual results and may be beyond our control. New risk factors emerge from time to time, and it is not possible for management to predict all such risk factors or to assess the impact of each such risk factor on the Company. Any forward-looking … [S58]
 
 ## Financial performance
 
@@ -353,6 +408,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1522:
+
+> On November 7, 2025, the Board of Directors (the “Board”) authorized a share repurchase program (“Share Repurchase Program”) under which the Company may repurchase up to $100.0 million in the aggregate of its Ordinary shares with no set expiration date. Shares may be repurchased from time to time through open-market transactions or other methods. The timing and volume of repurchases will be at the discretion of the Company’s management and will be based on several factors including market conditions, available capital resources and alternative investment opportunities. The Share Repurchase Program does not obligate the Company to acquire any particular number of shares and may be suspended, modified or discontinued at any time at the Board’s discretion. [S58]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -365,6 +424,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L153:
+
+> This Quarterly Report on Form 10-Q, including “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Item 2 of Part I, contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934 relating to our operations, results of operations and other matters that are based on our current expectations, estimates, assumptions and projections. Our actual results could differ materially from the forward-looking statements included herein. Statements regarding our future and projections relating to products, sales, revenue, expenditures, costs and earnings are typical of such statements. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those discussed in Part I, “Item 1A. Risk Factors” in the Annual Report on Form 10-K. If the risks or uncertainties ever materialize or the assumptions prove incorrect, they could affect the business and results of operations of the Company which may differ materially from those expressed or implied by such forward-looking statements and assumptions. [S58]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -374,25 +437,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -414,7 +477,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:48.334682+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001857475.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -438,6 +501,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0001857475-26-000028](https://www.sec.gov/Archives/edgar/data/1857475/000185747526000028/0001857475-26-000028-index.html) — published 2026-03-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/DOLE/README.md).
+[S58] [10-Q 0001857475-26-000076](https://www.sec.gov/Archives/edgar/data/1857475/000185747526000076/dole-20260630.htm) — published 2026-08-10; retrieved 2026-10-26T16:25:21.478606+00:00.
+
+[S59] [10-K 0001857475-26-000028](https://www.sec.gov/Archives/edgar/data/1857475/000185747526000028/dole-20251231.htm) — published 2026-03-02; retrieved 2026-10-26T16:25:19.542514+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/DOLE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - CPSS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,8 +76,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000889609.json
@@ -138,6 +138,24 @@ sources:
   published_at: '2026-10-01'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/889609/000168316826007507/cps_idef14a.htm
+  title: DEF 14A 0001683168-26-007507
+  published_at: '2026-09-30'
+  retrieved_at: '2026-10-26T16:23:30.532385+00:00'
+  sha256: 8c3f02ec85577a11c7ac5c5409eaa1cc0891900c5c40917ff5eb6d1fee7b27e9
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/889609/000168316826006096/cpss_i10q-063026.htm
+  title: 10-Q 0001683168-26-006096
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-26T16:23:28.665037+00:00'
+  sha256: ea4fe0213974a63f403867b2cd3f4441d887f2c21507578fd2097b8b99932967
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/889609/000168316826001856/cps_i10k-123125.htm
+  title: 10-K 0001683168-26-001856
+  published_at: '2026-03-16'
+  retrieved_at: '2026-10-26T16:23:26.799921+00:00'
+  sha256: 16657b496ddab35da267015301d945c349f44b54c67adb932836c0ddc4e27590
 issuer_classification:
   cik: 0000889609
   classification_status: reported_sic
@@ -183,13 +201,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/889609/000088960914000046/0000889609-14-000046-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1a807005f0cc8234700ecae84a121e8d81811f2720bb156fb8d07ef9d7edbcb1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -204,15 +231,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000889609.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CPSS/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CPSS/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CPSS — CONSUMER PORTFOLIO SERVICES, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CPSS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CPSS/README.md)
 
 ## Business overview
 
@@ -226,17 +253,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L500:
+
+> most effective leadership structure given Mr. Bradley’s in-depth knowledge of our business and industry and his demonstrated ability [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L2160:
+
+> reportable segment, it provides indirect vehicle financing to motor vehicle dealer’s less credit- worthy borrowers. The Company’s [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-16, L1893:
+
+> result in interruptions in our services, litigation, and regulatory exposure, which could harm our reputation and financial condition. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L3773:
+
+> efforts, we regularly work with our customers to resolve delinquencies. Our staff is trained to employ a counseling approach to assist [S70]
 
 ## Industry and value chain
 
@@ -250,6 +293,10 @@ Navigation sector: **financials**. Method: `project_sic_rule`. Project navigatio
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L739:
+
+> \| Target total cash (base salary + target bonus) designed to be superior to compensation offered by our competitors [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -257,6 +304,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-16, L1436:
+
+> regulations are likely to affect our cost of doing business, may limit or expand our permissible activities, may affect the competitive [S71]
 
 ## Financial performance
 
@@ -375,6 +426,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L64:
+
+> \| To elect directors named in the accompanying proxy statement to the Company’s Board of Directors each for a one-year term. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -387,6 +442,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1977:
+
+> we believe that the ultimate resolution of legal proceedings should not have a material adverse effect on our consolidated financial condition. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -396,25 +455,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -436,7 +495,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000889609.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -458,6 +517,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001683168-26-007535](https://www.sec.gov/Archives/edgar/data/889609/000168316826007535/0001683168-26-007535-index.html) — published 2026-10-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CPSS/README.md).
+[S69] [DEF 14A 0001683168-26-007507](https://www.sec.gov/Archives/edgar/data/889609/000168316826007507/cps_idef14a.htm) — published 2026-09-30; retrieved 2026-10-26T16:23:30.532385+00:00.
+
+[S70] [10-Q 0001683168-26-006096](https://www.sec.gov/Archives/edgar/data/889609/000168316826006096/cpss_i10q-063026.htm) — published 2026-08-07; retrieved 2026-10-26T16:23:28.665037+00:00.
+
+[S71] [10-K 0001683168-26-001856](https://www.sec.gov/Archives/edgar/data/889609/000168316826001856/cps_i10k-123125.htm) — published 2026-03-16; retrieved 2026-10-26T16:23:26.799921+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CPSS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

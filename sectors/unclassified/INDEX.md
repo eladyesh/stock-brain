@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **1034**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **1033**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -288,7 +288,6 @@ Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are n
 | [EHI](facts/EHI/README.md) | WESTERN ASSET GLOBAL HIGH INCOME FUND INC. | missing | unresolved |
 | [EIC](facts/EIC/README.md) | Eagle Point Income Co | missing | unresolved |
 | [EIM](facts/EIM/README.md) | Eaton Vance Municipal Bond Fund | missing | unresolved |
-| [ELME](facts/ELME/README.md) | Elme Communities | missing | unresolved |
 | [ELPW](facts/ELPW/README.md) | Elong Power Holding Ltd. | missing | unresolved |
 | [ELS](facts/ELS/README.md) | EQUITY LIFESTYLE PROPERTIES INC | missing | unresolved |
 | [ELVA](facts/ELVA/README.md) | Electrovaya Inc. | missing | unresolved |

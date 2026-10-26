@@ -8,14 +8,14 @@ tickers:
 - AMD
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AMD/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AMD/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -66,7 +66,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json
     sha256: 21a29c75076d90fced568785d855fc427a15c7458bc0bb153a9dedd88ad3349e
-    retrieved_at: '2026-10-25T06:30:40.402281+00:00'
+    retrieved_at: '2026-10-26T06:31:01.175106+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0000002488.json
     sha256: ab1f62c1fc1c04ff4022ac902f0184e2bc8d6f5c23d18f9538ab6cf39bc64420
@@ -81,8 +81,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000002488.json
@@ -93,25 +93,25 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json
   published_at: null
-  retrieved_at: '2026-10-25T06:30:40.402281+00:00'
+  retrieved_at: '2026-10-26T06:31:01.175106+00:00'
   sha256: 21a29c75076d90fced568785d855fc427a15c7458bc0bb153a9dedd88ad3349e
 - id: S04
   title: 10-K 0000002488-26-000018
   url: https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html
   published_at: '2026-02-04'
-  retrieved_at: '2026-10-25T06:30:40.402281+00:00'
+  retrieved_at: '2026-10-26T06:31:01.175106+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0000002488-26-000123
   url: https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/0000002488-26-000123-index.html
   published_at: '2026-08-05'
-  retrieved_at: '2026-10-25T06:30:40.402281+00:00'
+  retrieved_at: '2026-10-26T06:31:01.175106+00:00'
   sha256: null
 - id: S11
   title: 10-Q 0000002488-26-000076
   url: https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/0000002488-26-000076-index.html
   published_at: '2026-05-06'
-  retrieved_at: '2026-10-25T06:30:40.402281+00:00'
+  retrieved_at: '2026-10-26T06:31:01.175106+00:00'
   sha256: null
 - id: S18
   title: 4 0000002488-26-000184
@@ -219,16 +219,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AMD/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AMD/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+  source_url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AMD/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AMD/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMD — ADVANCED MICRO DEVICES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AMD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AMD/README.md)
 
 ## Business overview
 
@@ -306,7 +306,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: free_cash_flow=6735000000 USD (N
 Derived observation: Operating cash flow / net income was 1.78x for the year ended 2025-12-27. Working capital and non-cash adjustments require separate filing analysis. [S04]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=7709000000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=4335000000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-25. Source retrieved: 2026-10-25T06:30:40.402281+00:00. [S03]
+Evidence cutoff: 2026-10-26. Source retrieved: 2026-10-26T06:31:01.175106+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -360,7 +360,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-25. Source retrieved: 2026-10-25T06:30:40.402281+00:00. [S03]
+Evidence cutoff: 2026-10-26. Source retrieved: 2026-10-26T06:31:01.175106+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -419,7 +419,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:27:06.478312+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -461,17 +461,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000002488.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json) — published not supplied; retrieved 2026-10-25T06:30:40.402281+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json) — published not supplied; retrieved 2026-10-26T06:31:01.175106+00:00.
 
-[S04] [10-K 0000002488-26-000018](https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html) — published 2026-02-04; retrieved 2026-10-25T06:30:40.402281+00:00.
+[S04] [10-K 0000002488-26-000018](https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.html) — published 2026-02-04; retrieved 2026-10-26T06:31:01.175106+00:00.
 
-[S05] [10-Q 0000002488-26-000123](https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/0000002488-26-000123-index.html) — published 2026-08-05; retrieved 2026-10-25T06:30:40.402281+00:00.
+[S05] [10-Q 0000002488-26-000123](https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/0000002488-26-000123-index.html) — published 2026-08-05; retrieved 2026-10-26T06:31:01.175106+00:00.
 
-[S11] [10-Q 0000002488-26-000076](https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/0000002488-26-000076-index.html) — published 2026-05-06; retrieved 2026-10-25T06:30:40.402281+00:00.
+[S11] [10-Q 0000002488-26-000076](https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/0000002488-26-000076-index.html) — published 2026-05-06; retrieved 2026-10-26T06:31:01.175106+00:00.
 
 [S18] [4 0000002488-26-000184](https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/0000002488-26-000184-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -483,6 +483,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [144 0001950047-26-009483](https://www.sec.gov/Archives/edgar/data/2488/000195004726009483/0001950047-26-009483-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AMD/README.md).
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AMD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

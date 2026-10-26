@@ -8,11 +8,11 @@ tickers:
 - FLWS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -67,8 +67,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001084869.json
@@ -129,6 +129,18 @@ sources:
   published_at: '2026-09-11'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1084869/000108486926000042/flws-20261022.htm
+  title: DEF 14A 0001084869-26-000042
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-26T16:28:47.820779+00:00'
+  sha256: 56012e3f7e2f4c0b30f9e3c974ac38aa6be37f9f7608eadaedfbdee0df997073
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1084869/000108486926000029/flws-20260628.htm
+  title: 10-K 0001084869-26-000029
+  published_at: '2026-09-11'
+  retrieved_at: '2026-10-26T16:28:44.390947+00:00'
+  sha256: 0025409533170f307160b2cf63f01a8d5fa7966904ed0806d90ece8eb79571d8
 issuer_classification:
   cik: 0001084869
   classification_status: reported_sic
@@ -190,13 +202,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1084869/000095016214000007/0000950162-14-000007-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cdca934d61a94c5556bdf07b6be5b9381d9a7fb5b6bebd92acb9d9fc15f81c37
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -211,15 +234,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001084869.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/FLWS/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/FLWS/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # FLWS — 1 800 FLOWERS COM INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/FLWS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/FLWS/README.md)
 
 ## Business overview
 
@@ -233,17 +256,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L1087:
+
+> We, the members of the Audit Committee, assist the Board of Directors in its oversight of the Company’s financial accounting, reporting and controls. We also evaluate the performance and independence of the Company’s independent registered public accounting firm. We operate under a written charter that both the Board and we have approved. A current copy of the Audit Committee charter can be found on the Company’s website located at www.1800flowers.com under the Investors section of the website. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-09-11, L2080:
+
+> The Company evaluates performance for its reportable segments based on contribution margin, which includes only the direct controllable revenue and operating expenses of the segments. This information is used by the Chief Executive Officer to measure segment profitability, allocate resources, and make budgeting and forecasting decisions about the reportable segments. The Chief Executive Officer also uses this measure to monitor trends in year-over-year performance and to compare actual results to the Company's budget and forecasts. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L104:
+
+> We recognize our role as responsible corporate citizens and are taking steps to help provide a healthy environment for future generations. We are continually exploring methods to promote resilience in our supply chain through the responsible sourcing of our products and materials. For example, we practice responsible floral sourcing by sourcing our direct-ship flowers from farms that generally follow certified socially and environmentally responsible practices. In our [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-10-23, L102:
+
+> Over the past 50 years, we have helped our customers connect and build meaningful relationships with the important people in their lives. As we continue our customer journey, we are committed to operating in a way that is environmentally and socially responsible. We are engaged in a broad range of initiatives to help support environmental resilience and have committed to promoting community, inclusion, and belonging. [S68]
 
 ## Industry and value chain
 
@@ -251,19 +290,35 @@ SEC-reported SIC **5990**: Retail-Retail Stores, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L104:
+
+> We recognize our role as responsible corporate citizens and are taking steps to help provide a healthy environment for future generations. We are continually exploring methods to promote resilience in our supply chain through the responsible sourcing of our products and materials. For example, we practice responsible floral sourcing by sourcing our direct-ship flowers from farms that generally follow certified socially and environmentally responsible practices. In our [S68]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L1299:
+
+> (e) Noncompetition. The Committee may, by way of the Award Agreements or otherwise, establish such other terms, conditions, restrictions and/or limitations, if any, of any Award, provided they are not inconsistent with the Plan, including, without limitation, the requirement that the Participant not engage in competition with the Company. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-09-11, L313:
+
+> The Company’s customers primarily place their orders either online or over the telephone. The Company’s hybrid fulfillment system, which enables the Company to offer same-day, next-day and any-day delivery, combines the use of BloomNet (comprised of independent florists operating retail flower shops and franchise florist shops) with Company distribution centers and vendors who ship directly to the Company’s customers. While providing a significant competitive advantage in terms of delivery options, the Company’s fulfillment system also has the added benefit of reducing the Company’s capital investments in inventory and infrastructure. The Company’s products are backed by a 100% smile guarantee, and the Company’s business is not dependent on any single third-party supplier. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-10-23, L92:
+
+> The Board has no policy that requires the combination or separation of the roles of Chairman or Chief Executive Officer. Mr. J. McCann has served as our Chairman of the Board since inception and also served as our Chief Executive Officer from inception until June 2016, and from July 2023 until May 2025. The Board believes that Mr. J. McCann is the Director best suited to serve as Executive Chairman of the Board. As the founder of the Company, he is most familiar with the Company’s business and industry. He is uniquely situated to identify strategic priorities and to lead the Board in discussions regarding strategy and business planning and operations. In addition, his service on other public and private company boards of directors and their committees provides the Board with valuable board-level experience. The Company does not currently have a lead independent director. [S68]
 
 ## Financial performance
 
@@ -376,6 +431,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L49:
+
+> This Proxy Statement is furnished to stockholders of record of 1-800-FLOWERS.COM, Inc. (the “Company”) as of October 12, 2026 (the “Record Date”) in connection with the solicitation of proxies by the Board of Directors of the Company (the “Board of Directors” or the “Board”) for use at the Annual Meeting of Stockholders (the “Annual Meeting”), which will be held online via live webcast, on Thursday, December 10, 2026 at 9:00 a.m. eastern standard time or any adjournment thereof. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +447,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-09-11, L357:
+
+> Further, the continued evolution of e-commerce technology and practices may prompt more stringent consumer protection laws that may impose additional burdens on those companies conducting business online. This could decrease the demand for the Company’s services and increase its cost of doing business. Moreover, the applicability to evolving e-commerce tools and practices of existing laws regarding issues like property ownership, taxes, libel and personal privacy is uncertain. Any new legislation or regulation that has an adverse impact on e-commerce or the application of existing laws and regulations to e-commerce could have a material adverse effect on the Company’s business, financial condition and results of operations. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +460,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -437,7 +500,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001084869.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -459,6 +522,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S31] [10-K 0001084869-26-000029](https://www.sec.gov/Archives/edgar/data/1084869/000108486926000029/0001084869-26-000029-index.html) — published 2026-09-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/FLWS/README.md).
+[S68] [DEF 14A 0001084869-26-000042](https://www.sec.gov/Archives/edgar/data/1084869/000108486926000042/flws-20261022.htm) — published 2026-10-23; retrieved 2026-10-26T16:28:47.820779+00:00.
+
+[S69] [10-K 0001084869-26-000029](https://www.sec.gov/Archives/edgar/data/1084869/000108486926000029/flws-20260628.htm) — published 2026-09-11; retrieved 2026-10-26T16:28:44.390947+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/FLWS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

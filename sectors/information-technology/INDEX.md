@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **639**. Curated profiles: **7**. Reviewed research: **7**.
+Factual files: **638**. Curated profiles: **7**. Reviewed research: **7**.
 
-Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -620,7 +620,6 @@ Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are n
 | [WCT](facts/WCT/README.md) | Wellchange Holdings Co Ltd | missing | project_sic_rule |
 | [WDAY](facts/WDAY/README.md) | Workday, Inc. | available; quality gates apply | project_sic_rule |
 | [WDC](facts/WDC/README.md) | WESTERN DIGITAL CORP | available; quality gates apply | project_sic_rule |
-| [WEAV](facts/WEAV/README.md) | Weave Communications, Inc. | available; quality gates apply | project_sic_rule |
 | [WETH](facts/WETH/README.md) | Wetouch Technology Inc. | available; quality gates apply | project_sic_rule |
 | [WFCF](facts/WFCF/README.md) | Where Food Comes From, Inc. | missing | project_sic_rule |
 | [WIMI](facts/WIMI/README.md) | WiMi Hologram Cloud Inc. | missing | project_sic_rule |

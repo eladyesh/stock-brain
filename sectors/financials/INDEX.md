@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **709**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **708**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -508,7 +508,6 @@ Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are n
 | [OVLY](facts/OVLY/README.md) | Oak Valley Bancorp | available; quality gates apply | project_sic_rule |
 | [OWL](facts/OWL/README.md) | BLUE OWL CAPITAL INC. | available; quality gates apply | project_sic_rule |
 | [OXBR](facts/OXBR/README.md) | OXBRIDGE RE HOLDINGS Ltd | available; quality gates apply | project_sic_rule |
-| [PAPL](facts/PAPL/README.md) | Pineapple Financial Inc. | available; quality gates apply | project_sic_rule |
 | [PAX](facts/PAX/README.md) | Patria Investments Ltd | missing | project_sic_rule |
 | [PB](facts/PB/README.md) | PROSPERITY BANCSHARES INC | available; quality gates apply | project_sic_rule |
 | [PBAM](facts/PBAM/README.md) | Private Bancorp of America, Inc. | available; quality gates apply | project_sic_rule |

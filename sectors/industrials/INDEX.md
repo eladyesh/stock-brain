@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **764**. Curated profiles: **3**. Reviewed research: **3**.
+Factual files: **763**. Curated profiles: **3**. Reviewed research: **3**.
 
-Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -17,7 +17,6 @@ Data release: `coverage-20261025-40199010718-1`. Provisional SIC groupings are n
 | [AAON](facts/AAON/README.md) | AAON, INC. | available; quality gates apply | project_sic_rule |
 | [ABM](facts/ABM/README.md) | ABM INDUSTRIES INC /DE/ | available; quality gates apply | project_sic_rule |
 | [ABNB](facts/ABNB/README.md) | Airbnb, Inc. | available; quality gates apply | project_sic_rule |
-| [ACA](facts/ACA/README.md) | Arcosa, Inc. | available; quality gates apply | project_sic_rule |
 | [ACCL](facts/ACCL/README.md) | Acco Group Holdings Ltd | missing | project_sic_rule |
 | [ACCO](facts/ACCO/README.md) | ACCO BRANDS Corp | available; quality gates apply | project_sic_rule |
 | [ACCS](facts/ACCS/README.md) | ACCESS Newswire Inc. | available; quality gates apply | project_sic_rule |

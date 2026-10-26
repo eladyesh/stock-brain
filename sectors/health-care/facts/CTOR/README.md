@@ -8,11 +8,11 @@ tickers:
 - CTOR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -87,8 +87,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001851484.json
@@ -155,6 +155,24 @@ sources:
   published_at: '2025-12-23'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1851484/000121390026093757/ea0302414-def14a_citius.htm
+  title: DEF 14A 0001213900-26-093757
+  published_at: '2026-08-26'
+  retrieved_at: '2026-10-26T16:24:07.496406+00:00'
+  sha256: 848cf7effdcaf0cb824e4bd7e144e0b24120c0f1c0198eccd563f24d54b659e9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1851484/000121390026090184/ea0301678-10q_citius.htm
+  title: 10-Q 0001213900-26-090184
+  published_at: '2026-08-14'
+  retrieved_at: '2026-10-26T16:24:05.843796+00:00'
+  sha256: fa9af88de286babfc8bb89f3a670a041735b651cda9b174f5ceed1cffa8a9e06
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1851484/000121390025125331/ea0270097-10k_citius.htm
+  title: 10-K 0001213900-25-125331
+  published_at: '2025-12-23'
+  retrieved_at: '2026-10-26T16:24:04.026096+00:00'
+  sha256: 83ea0fab185a03edfcdfc6eb1b7c9aae831c976c9c1dd43f78924ef59a26fbc1
 issuer_classification:
   cik: 0001851484
   classification_status: reported_sic
@@ -196,13 +214,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1851484/000121390024072598/0001213900-24-072598-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6383dcdbf1625ee6b4d179f200c5c74a2c5ac22195b1445d4a6657a909862f98
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-26T16:22:31.694168+00:00'
+  last_success_at: '2026-10-26T16:22:31.694168+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -217,15 +245,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001851484.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CTOR/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CTOR/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CTOR — CITIUS ONCOLOGY, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CTOR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CTOR/README.md)
 
 ## Business overview
 
@@ -239,17 +267,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-08-26, L317:
+
+> In June 2026, the Compensation Committee formally engaged Fredrick W. Cook & Co. (FW Cook), an independent compensation consultant, to assist both the Board of Directors and the Company in its deliberations regarding both executive and Board compensation in acting as its compensation consultant. FW Cook does not undertake any work for us other than its services for the Compensation Committee. The Compensation Committee has determined that FW Cook is independent and that its services will not raise any conflict of interest with us or any of our executive officers or directors. In carrying out its work for the Compensation Committee, FW Cook will interact from time to time directly with our management as it determines appropriate, with respect to any work product prior to presentation to the Compensation Committee in order to confirm alignment with our business strategy and obtain data or information necessary for its work. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2025-12-23, L1438:
+
+> future revenue streams, research programs or technologies, or grant licenses on terms that may not be favorable to us. If we are unsuccessful [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1221:
+
+> for our products based on expected customer utilization and record estimates as a reduction from gross product revenue. The Company has [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1178:
+
+> to our customers, in an amount that reflects the consideration we expect to be entitled to in exchange for those goods or services. [S69]
 
 ## Industry and value chain
 
@@ -257,15 +301,27 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2025-12-23, L2075:
+
+> If we or our suppliers and/or service providers fail to maintain or protect our information technology systems effectively and in compliance [S70]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1074:
+
+> of any of its products approved for marketing, competition from larger companies, dependence on key personnel, dependence on key suppliers [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1381:
+
+> Citius Pharma acquired method of use patents in which LYMPHIR is administered in combination with the programmed cell death protein 1 [S69]
 
 ## Growth drivers
 
@@ -370,6 +426,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-08-26, L64:
+
+> This proxy statement is furnished to stockholders in connection with the solicitation of proxies by the Board of Directors of Citius Oncology, Inc. (“Citius”, the “Company”, “we”, “our”, or “us”) in connection with the 2026 Annual Meeting of Stockholders of the Company to be held on Tuesday, September 29, 2026, at 8:00 a.m. (Eastern time) at the Company’s headquarters located at 11 Commerce Drive, First Floor, Cranford, New Jersey 07016 (the “Annual Meeting”). [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -382,6 +442,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-08-26, L272:
+
+> While management is responsible for managing the day-to-day issues faced by the Company, our Board of Directors has an active role in the oversight of the Company’s risk management efforts. The Board receives and reviews periodic reports from management, auditors, legal counsel, and others, as considered appropriate regarding the Company’s assessment of risks. The Board focuses on the most significant risks facing the Company and the Company’s general risk management strategy, and also ensures that risks undertaken by the Company are consistent with the Board’s appetite for risk. We believe this division of responsibilities is the most effective approach for addressing the risks facing the Company and that our Board leadership structure supports this approach. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -391,25 +455,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -431,7 +495,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001851484.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -455,6 +519,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S62] [10-K 0001213900-25-125331](https://www.sec.gov/Archives/edgar/data/1851484/000121390025125331/0001213900-25-125331-index.html) — published 2025-12-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/CTOR/README.md).
+[S68] [DEF 14A 0001213900-26-093757](https://www.sec.gov/Archives/edgar/data/1851484/000121390026093757/ea0302414-def14a_citius.htm) — published 2026-08-26; retrieved 2026-10-26T16:24:07.496406+00:00.
+
+[S69] [10-Q 0001213900-26-090184](https://www.sec.gov/Archives/edgar/data/1851484/000121390026090184/ea0301678-10q_citius.htm) — published 2026-08-14; retrieved 2026-10-26T16:24:05.843796+00:00.
+
+[S70] [10-K 0001213900-25-125331](https://www.sec.gov/Archives/edgar/data/1851484/000121390025125331/ea0270097-10k_citius.htm) — published 2025-12-23; retrieved 2026-10-26T16:24:04.026096+00:00.
+
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/CTOR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

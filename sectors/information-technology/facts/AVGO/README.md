@@ -8,14 +8,14 @@ tickers:
 - AVGO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-25'
-updated_at: '2026-10-25T13:50:29.910841+00:00'
+as_of: '2026-10-26'
+updated_at: '2026-10-26T16:16:21.148680+00:00'
 reviewed_at: null
-coverage_release: coverage-20261025-40199010718-1
-source_commit: f5f88011907841550f3cf7652c3822295b45cb57
+coverage_release: coverage-20261026-40356450615-1
+source_commit: 1a2786cc3cffc8c9981965ab9c208315321385f6
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AVGO/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AVGO/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -67,7 +67,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json
     sha256: 3bdb6644c12addf1e63c4dc861008d7804fbf3d3f5aa6eb9b97f72c0e89a7adf
-    retrieved_at: '2026-10-25T06:30:41.045554+00:00'
+    retrieved_at: '2026-10-26T06:31:01.957374+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0001730168.json
     sha256: 57b5829cb3d3156e3d76d75b4810d76ee3a67e162168e9e9750514050617c4e9
@@ -82,8 +82,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-25T13:45:47.626200+00:00'
-  sha256: 59ac9b74ff663c6de40f5c93a54d5e12eb3fbef74f82e8a7cfc1456ad9f969ec
+  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
+  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001730168.json
@@ -94,25 +94,25 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json
   published_at: null
-  retrieved_at: '2026-10-25T06:30:41.045554+00:00'
+  retrieved_at: '2026-10-26T06:31:01.957374+00:00'
   sha256: 3bdb6644c12addf1e63c4dc861008d7804fbf3d3f5aa6eb9b97f72c0e89a7adf
 - id: S04
   title: 10-K 0001730168-25-000121
   url: https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html
   published_at: '2025-12-18'
-  retrieved_at: '2026-10-25T06:30:41.045554+00:00'
+  retrieved_at: '2026-10-26T06:31:01.957374+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001730168-26-000080
   url: https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html
   published_at: '2026-09-10'
-  retrieved_at: '2026-10-25T06:30:41.045554+00:00'
+  retrieved_at: '2026-10-26T06:31:01.957374+00:00'
   sha256: null
 - id: S10
   title: 10-Q 0001730168-26-000054
   url: https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html
   published_at: '2026-06-09'
-  retrieved_at: '2026-10-25T06:30:41.045554+00:00'
+  retrieved_at: '2026-10-26T06:31:01.957374+00:00'
   sha256: null
 - id: S19
   title: 4 0001104659-26-110983
@@ -207,16 +207,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AVGO/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AVGO/README.md
-full_history_commit: 71fcd4775048604503d616351f7f309068b23e1b
+  source_url: https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AVGO/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AVGO/README.md
+full_history_commit: 30a5d1cd40fce8d4a64ca29ee815b726555957d3
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AVGO — Broadcom Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AVGO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AVGO/README.md)
 
 ## Business overview
 
@@ -285,7 +285,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=27537000000 
 Derived observation: Annual free cash flow changed +38.63% from the year ended 2024-11-03 to 2025-11-02. [S04]
 Formula: `(current / prior - 1) * 100`. Inputs: free_cash_flow=26914000000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment), free_cash_flow=19414000000 USD (NetCashProvidedByUsedInOperatingActivities + PaymentsToAcquirePropertyPlantAndEquipment).
 
-Evidence cutoff: 2026-10-25. Source retrieved: 2026-10-25T06:30:41.045554+00:00. [S03]
+Evidence cutoff: 2026-10-26. Source retrieved: 2026-10-26T06:31:01.957374+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -339,7 +339,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-25. Source retrieved: 2026-10-25T06:30:41.045554+00:00. [S03]
+Evidence cutoff: 2026-10-26. Source retrieved: 2026-10-26T06:31:01.957374+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -398,7 +398,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:19.084963+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/f5f88011907841550f3cf7652c3822295b45cb57/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/1a2786cc3cffc8c9981965ab9c208315321385f6/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -442,17 +442,17 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-25T13:45:47.626200+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001730168.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json) — published not supplied; retrieved 2026-10-25T06:30:41.045554+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json) — published not supplied; retrieved 2026-10-26T06:31:01.957374+00:00.
 
-[S04] [10-K 0001730168-25-000121](https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html) — published 2025-12-18; retrieved 2026-10-25T06:30:41.045554+00:00.
+[S04] [10-K 0001730168-25-000121](https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.html) — published 2025-12-18; retrieved 2026-10-26T06:31:01.957374+00:00.
 
-[S05] [10-Q 0001730168-26-000080](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html) — published 2026-09-10; retrieved 2026-10-25T06:30:41.045554+00:00.
+[S05] [10-Q 0001730168-26-000080](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/0001730168-26-000080-index.html) — published 2026-09-10; retrieved 2026-10-26T06:31:01.957374+00:00.
 
-[S10] [10-Q 0001730168-26-000054](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html) — published 2026-06-09; retrieved 2026-10-25T06:30:41.045554+00:00.
+[S10] [10-Q 0001730168-26-000054](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/0001730168-26-000054-index.html) — published 2026-06-09; retrieved 2026-10-26T06:31:01.957374+00:00.
 
 [S19] [4 0001104659-26-110983](https://www.sec.gov/Archives/edgar/data/1730168/000110465926110983/0001104659-26-110983-index.html) — published 2026-09-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -464,6 +464,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S23] [EFFECT 9999999995-26-003011](https://www.sec.gov/Archives/edgar/data/1730168/999999999526003011/9999999995-26-003011-index.html) — published 2026-09-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261025-40199010718-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/71fcd4775048604503d616351f7f309068b23e1b/brain/companies/AVGO/README.md).
+Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/30a5d1cd40fce8d4a64ca29ee815b726555957d3/brain/companies/AVGO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
