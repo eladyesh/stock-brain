@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **1033**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **1044**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -68,6 +68,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [APP](facts/APP/README.md) | AppLovin Corp | available; quality gates apply | unresolved |
 | [APPS](facts/APPS/README.md) | Digital Turbine, Inc. | available; quality gates apply | unresolved |
 | [APUR](facts/APUR/README.md) | Aperture AC | available; quality gates apply | unresolved |
+| [APXC](facts/APXC/README.md) | APEX CRITICAL METALS CORP. | missing | unresolved |
 | [APXT](facts/APXT/README.md) | Apex Treasury Corp | available; quality gates apply | unresolved |
 | [ARCI](facts/ARCI/README.md) | Archimedes Tech SPAC Partners III Co. | available; quality gates apply | unresolved |
 | [ARDC](facts/ARDC/README.md) | Ares Dynamic Credit Allocation Fund, Inc. | missing | unresolved |
@@ -230,9 +231,11 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [CUZ](facts/CUZ/README.md) | COUSINS PROPERTIES INC | available; quality gates apply | unresolved |
 | [CXII](facts/CXII/README.md) | Churchill Capital Corp XII | available; quality gates apply | unresolved |
 | [CXW](facts/CXW/README.md) | CoreCivic, Inc. | available; quality gates apply | unresolved |
+| [DAVI](facts/DAVI/README.md) | DAVION HEALTHCARE PLC | missing | unresolved |
 | [DBCA](facts/DBCA/README.md) | D. Boral Acquisition I Corp. | available; quality gates apply | unresolved |
 | [DBD](facts/DBD/README.md) | DIEBOLD NIXDORF, Inc | available; quality gates apply | unresolved |
 | [DBL](facts/DBL/README.md) | DoubleLine Opportunistic Credit Fund | missing | unresolved |
+| [DCM](facts/DCM/README.md) | DeFi Capital Markets, Inc. | missing | unresolved |
 | [DEA](facts/DEA/README.md) | Easterly Government Properties, Inc. | available; quality gates apply | unresolved |
 | [DEI](facts/DEI/README.md) | Douglas Emmett Inc | available; quality gates apply | unresolved |
 | [DFIN](facts/DFIN/README.md) | Donnelley Financial Solutions, Inc. | available; quality gates apply | unresolved |
@@ -555,6 +558,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [LATA](facts/LATA/README.md) | Galata Acquisition Corp. II | available; quality gates apply | unresolved |
 | [LCCC](facts/LCCC/README.md) | Lakeshore Acquisition III Corp. | available; quality gates apply | unresolved |
 | [LCFY](facts/LCFY/README.md) | Locafy Ltd | missing | unresolved |
+| [LCU](facts/LCU/README.md) | Lion Copper Corp. | missing | unresolved |
 | [LDP](facts/LDP/README.md) | Cohen & Steers Ltd Duration Preferred & Income Fund, Inc. | missing | unresolved |
 | [LEGO](facts/LEGO/README.md) | Legato Merger Corp. IV | available; quality gates apply | unresolved |
 | [LEO](facts/LEO/README.md) | BNY MELLON STRATEGIC MUNICIPALS, INC. | missing | unresolved |
@@ -572,6 +576,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [LTGR](facts/LTGR/README.md) | Long Table Growth Corp. | available; quality gates apply | unresolved |
 | [LWAC](facts/LWAC/README.md) | LightWave Acquisition Corp. | available; quality gates apply | unresolved |
 | [LXP](facts/LXP/README.md) | LXP Industrial Trust | available; quality gates apply | unresolved |
+| [LYCA](facts/LYCA/README.md) | Lycia Therapeutics, Inc. | missing | unresolved |
 | [MAA](facts/MAA/README.md) | MID AMERICA APARTMENT COMMUNITIES INC. | missing | unresolved |
 | [MAC](facts/MAC/README.md) | MACERICH CO | available; quality gates apply | unresolved |
 | [MAIN](facts/MAIN/README.md) | Main Street Capital CORP | available; quality gates apply | unresolved |
@@ -638,6 +643,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [NAC](facts/NAC/README.md) | Nuveen California Quality Municipal Income Fund | missing | unresolved |
 | [NAD](facts/NAD/README.md) | Nuveen Quality Municipal Income Fund | missing | unresolved |
 | [NAN](facts/NAN/README.md) | NUVEEN NEW YORK QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
+| [NANO](facts/NANO/README.md) | Forge Nano Holdings, Inc. | missing | unresolved |
 | [NATL](facts/NATL/README.md) | NCR Atleos Corp | available; quality gates apply | unresolved |
 | [NAUT](facts/NAUT/README.md) | Nautilus Biotechnology, Inc. | available; quality gates apply | unresolved |
 | [NAZ](facts/NAZ/README.md) | NUVEEN ARIZONA QUALITY MUNICIPAL INCOME FUND | missing | unresolved |
@@ -745,6 +751,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [PAII](facts/PAII/README.md) | Pyrophyte Acquisition Corp. II | available; quality gates apply | unresolved |
 | [PALO](facts/PALO/README.md) | PALOMA ACQUISITION CORP I | available; quality gates apply | unresolved |
 | [PAR](facts/PAR/README.md) | PAR TECHNOLOGY CORP | available; quality gates apply | unresolved |
+| [PAXG](facts/PAXG/README.md) | Pine Tree Acquisition Corp. | missing | unresolved |
 | [PAXS](facts/PAXS/README.md) | PIMCO Access Income Fund | missing | unresolved |
 | [PBI](facts/PBI/README.md) | PITNEY BOWES INC /DE/ | available; quality gates apply | unresolved |
 | [PCAP](facts/PCAP/README.md) | ProCap Acquisition Corp | available; quality gates apply | unresolved |
@@ -879,6 +886,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [SBI](facts/SBI/README.md) | WESTERN ASSET INTERMEDIATE MUNI FUND INC. | missing | unresolved |
 | [SBRA](facts/SBRA/README.md) | Sabra Health Care REIT, Inc. | available; quality gates apply | unresolved |
 | [SBXE](facts/SBXE/README.md) | SilverBox Corp V | available; quality gates apply | unresolved |
+| [SCAT](facts/SCAT/README.md) | Southern Cross Acquisition II Corp. | missing | unresolved |
 | [SCD](facts/SCD/README.md) | LMP CAPITAL & INCOME FUND INC. | missing | unresolved |
 | [SCII](facts/SCII/README.md) | SC II Acquisition Corp. | available; quality gates apply | unresolved |
 | [SCM](facts/SCM/README.md) | Stellus Capital Investment Corp | available; quality gates apply | unresolved |
@@ -914,6 +922,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [SPXX](facts/SPXX/README.md) | Nuveen S&P 500 Dynamic Overwrite Fund | missing | unresolved |
 | [SQFT](facts/SQFT/README.md) | Presidio Property Trust, Inc. | available; quality gates apply | unresolved |
 | [SRAD](facts/SRAD/README.md) | Sportradar Group AG | missing | unresolved |
+| [SRTM](facts/SRTM/README.md) | Stratum Holdings Corp. | missing | unresolved |
 | [SRV](facts/SRV/README.md) | NXG Cushing Midstream Energy Fund | missing | unresolved |
 | [SSEA](facts/SSEA/README.md) | STARRY SEA ACQUISITION CORP | available; quality gates apply | unresolved |
 | [SST](facts/SST/README.md) | System1, Inc. | available; quality gates apply | unresolved |
@@ -933,6 +942,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [TACH](facts/TACH/README.md) | Titan Acquisition Corp. | available; quality gates apply | unresolved |
 | [TACO](facts/TACO/README.md) | Berto Acquisition Corp. | available; quality gates apply | unresolved |
 | [TAVI](facts/TAVI/README.md) | Tavia Acquisition Corp. | available; quality gates apply | unresolved |
+| [TBCV](facts/TBCV/README.md) | Thunder Bridge Capital Partners V, Ltd. | missing | unresolved |
 | [TBLA](facts/TBLA/README.md) | Taboola.com Ltd. | available; quality gates apply | unresolved |
 | [TCGX](facts/TCGX/README.md) | TCGX Acquisition Corp. | missing | unresolved |
 | [TCI](facts/TCI/README.md) | TRANSCONTINENTAL REALTY INVESTORS INC | available; quality gates apply | unresolved |
@@ -1026,6 +1036,7 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [WLCO](facts/WLCO/README.md) | Wilco 63 Corp | available; quality gates apply | unresolved |
 | [WLII](facts/WLII/README.md) | Willow Lane Acquisition Corp. II | available; quality gates apply | unresolved |
 | [WPAC](facts/WPAC/README.md) | White Pearl Acquisition Corp. | available; quality gates apply | unresolved |
+| [WQEY](facts/WQEY/README.md) | WISeQey Corp. | missing | unresolved |
 | [WTG](facts/WTG/README.md) | Wintergreen Acquisition Corp. | available; quality gates apply | unresolved |
 | [WY](facts/WY/README.md) | WEYERHAEUSER CO | available; quality gates apply | unresolved |
 | [XCBE](facts/XCBE/README.md) | X3 Acquisition Corp. Ltd. | available; quality gates apply | unresolved |

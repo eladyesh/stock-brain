@@ -4,21 +4,21 @@
 
 [Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)
 
-Factual Markdown files in this branch: **5633**; financial history available: **4052**. Source release: `coverage-20261026-40356450615-1`, created 2026-10-26T16:16:21.148680+00:00.
+Factual Markdown files in this branch: **5641**; financial history available: **4049**. Source release: `coverage-20261027-40530587641-1`, created 2026-10-27T15:30:18.641431+00:00.
 
 Factual files are not completed research. Sector assignments from SIC are provisional project navigation rules; ambiguous industries and fund signals stay unclassified.
 
 | Sector | Factual files | Curated profiles | Reviewed research |
 | --- | ---: | ---: | ---: |
 | [Communication Services](communication-services/INDEX.md) | 122 | 0 | 0 |
-| [Consumer Discretionary](consumer-discretionary/INDEX.md) | 531 | 0 | 0 |
+| [Consumer Discretionary](consumer-discretionary/INDEX.md) | 529 | 0 | 0 |
 | [Consumer Staples](consumer-staples/INDEX.md) | 176 | 0 | 0 |
 | [Energy](energy/INDEX.md) | 196 | 0 | 0 |
 | [Financials](financials/INDEX.md) | 708 | 0 | 0 |
 | [Health Care](health-care/INDEX.md) | 964 | 0 | 0 |
 | [Industrials](industrials/INDEX.md) | 763 | 3 | 3 |
-| [Information Technology](information-technology/INDEX.md) | 638 | 7 | 7 |
+| [Information Technology](information-technology/INDEX.md) | 637 | 7 | 7 |
 | [Materials](materials/INDEX.md) | 342 | 0 | 0 |
 | [Real Estate](real-estate/INDEX.md) | 56 | 0 | 0 |
 | [Utilities](utilities/INDEX.md) | 104 | 0 | 0 |
-| [Unclassified — needs evidence review](unclassified/INDEX.md) | 1033 | 0 | 0 |
+| [Unclassified — needs evidence review](unclassified/INDEX.md) | 1044 | 0 | 0 |

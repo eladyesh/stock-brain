@@ -8,11 +8,11 @@ tickers:
 - FMST
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,8 +56,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
-  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
+  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
+  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001935418.json
@@ -94,6 +94,12 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1935418/000117184326004369/fmst20260331_20f.htm
+  title: 20-F 0001171843-26-004369
+  published_at: '2026-06-30'
+  retrieved_at: '2026-10-27T15:37:48.493106+00:00'
+  sha256: ad8e770210a8a6c7ea2f09e9c54d568e97b2ab47b16f6ed732f692b5c1737f4a
 issuer_classification:
   cik: 0001935418
   classification_status: reported_sic
@@ -125,13 +131,21 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1935418/000117184323005428/0001171843-23-005428-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7b41761f7e8aec624dc3cd0ed623eadbd14f3d07947010687372e68186f7207f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -146,15 +160,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001935418.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/FMST/README.md
-full_history_commit: 6ec0c5a139b27efe3be9111dc20cf938bd839c1e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/FMST/README.md
+full_history_commit: ea9dd09e5d047ff0620d4500849876915bb10e87
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # FMST — Foremost Clean Energy Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/FMST/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/FMST/README.md)
 
 ## Business overview
 
@@ -167,6 +181,10 @@ The directory links the following current stock listings to this issuer. Classif
 | FMST | NASDAQ | common_stock | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+Source excerpt — 20-F, filed 2026-06-30, L480:
+
+> This Annual Report contains many statements that are “forward-looking” and uses forward-looking terminology such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “future,” “intend,” “may,” “ought to,” “plan,” “possible,” “potentially,” “predicts,” “project,” “should,” “will,” “would,” negatives of such terms or other similar statements. You should not place undue reliance on any forward-looking statement due to its inherent risk and uncertainties, both general and specific. Although we believe the assumptions on which the forward-looking statements are based are reasonable and within the bounds of our knowledge of our business and operations as of the date of this Annual Report, any or all of those assumptions could prove to be inaccurate. As a result, the forward-looking statements based on those assumptions could also be incorrect. The forward-looking statements in this Annual Report include, without limitation, statements relating to: [S54]
 
 ## Revenue model and segments
 
@@ -186,19 +204,35 @@ SEC-reported SIC **1090**: Miscellaneous Metal Ores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-06-30, L674:
+
+> Several governments or governmental bodies have introduced or are contemplating legislative and/or regulatory changes in response to concerns about the potential impact of climate change. New legislation and increased regulation regarding climate change could potentially impose significant costs on us, and on our suppliers, including costs related to increased energy requirements, capital equipment, environmental monitoring and reporting, and other costs necessary to comply with such regulations. Any adopted future climate change regulations could also negatively impact our ability to compete with companies situated in areas not subject to such limitations. Given the emotional and political significance and uncertainty surrounding the impact of climate change and how it should be dealt with, we cannot predict how legislation and regulation will ultimately affect our financial condition, operating performance, and ability to compete. Furthermore, even without such regulation, increased awareness, and any adverse publicity in the global marketplace about potential impacts on climate change by us or other companies in our industry could harm our reputation. The potential physical impacts of climate change on our operations are highly uncertain, could be particular to the geographic circumstances in areas in which we operate and may include changes in rainfall and storm patterns … [S54]
+
 Navigation sector: **materials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-06-30, L674:
+
+> Several governments or governmental bodies have introduced or are contemplating legislative and/or regulatory changes in response to concerns about the potential impact of climate change. New legislation and increased regulation regarding climate change could potentially impose significant costs on us, and on our suppliers, including costs related to increased energy requirements, capital equipment, environmental monitoring and reporting, and other costs necessary to comply with such regulations. Any adopted future climate change regulations could also negatively impact our ability to compete with companies situated in areas not subject to such limitations. Given the emotional and political significance and uncertainty surrounding the impact of climate change and how it should be dealt with, we cannot predict how legislation and regulation will ultimately affect our financial condition, operating performance, and ability to compete. Furthermore, even without such regulation, increased awareness, and any adverse publicity in the global marketplace about potential impacts on climate change by us or other companies in our industry could harm our reputation. The potential physical impacts of climate change on our operations are highly uncertain, could be particular to the geographic circumstances in areas in which we operate and may include changes in rainfall and storm patterns … [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-06-30, L12577:
+
+> We have implemented and maintain various information security processes designed to identify, assess and manage material risks from cybersecurity threats to our critical computer networks, third party hosted services, communications systems, hardware and software, and our critical data, including intellectual property, confidential information that is proprietary, strategic or competitive in nature, and other data related to our ongoing research and development initiatives, which we refer to as Information Systems and Data. Our information technology function helps identify, assess and manage our cybersecurity threats and risks. Our information technology function identifies and assesses risks from cybersecurity threats by monitoring and evaluating our threat environment using various methods including, for example, automated vulnerability scanning tools of the network, third-party cybersecurity audits, and use of external intelligence feeds. Depending on the environment, we implement and maintain various technical, physical, and organizational measures, processes, standards and policies designed to manage and mitigate material risks from cybersecurity threats to our Information Systems and Data, including, for example, vulnerability management, disaster recovery and business continuity plan, incident response policy, system monitoring, data encryption and access controls. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-06-30, L729:
+
+> We also expect that being a public company will make it more expensive for us to obtain director and officer liability insurance, and we may be required to accept reduced coverage or incur substantially higher costs to obtain coverage. These increased costs may require us to divert a significant amount of money that we could otherwise use to expand our business and achieve our strategic objectives. [S54]
 
 ## Financial performance
 
@@ -212,6 +246,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-06-30, L91:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to § 240.10D-1(b). ​☐​ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -223,6 +261,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-06-30, L542:
+
+> The forward-looking statements included in this Annual Report are subject to known and unknown risks, uncertainties and assumptions about our business and business environments. These statements reflect our current views with respect to future events and are not a guarantee of future performance. Actual results of our operations may differ materially from information contained in the forward-looking statements as a result of risk factors, some of which are described under the headings “Risk Factors”, “Operating and Financial Review and Prospects,” “Information on our Company” and elsewhere in this Annual Report. Such described risks and uncertainties are not exhaustive. Other sections of this Annual Report include additional factors which could adversely impact our business and financial performance. The forward-looking statements contained in this Annual Report speak only as of the date of this Annual Report or, if obtained from third-party studies or reports, the date of the corresponding study or report, and are expressly qualified in their entirety by the cautionary statements in this Annual Report. Since we operate in an emerging and evolving environment and new risk factors and uncertainties emerge from time to time, you should not rely upon forward-looking statements as predictions of future events. Except as otherwise required by the securities laws of the United … [S54]
 
 ## Scenarios and open questions
 
@@ -236,25 +278,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -276,7 +318,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001935418.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -290,6 +332,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [POS AM 0001171843-26-005552](https://www.sec.gov/Archives/edgar/data/1935418/000117184326005552/0001171843-26-005552-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6ec0c5a139b27efe3be9111dc20cf938bd839c1e/brain/companies/FMST/README.md).
+[S54] [20-F 0001171843-26-004369](https://www.sec.gov/Archives/edgar/data/1935418/000117184326004369/fmst20260331_20f.htm) — published 2026-06-30; retrieved 2026-10-27T15:37:48.493106+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/FMST/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

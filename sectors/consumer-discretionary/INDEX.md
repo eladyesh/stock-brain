@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **531**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **529**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -340,14 +340,12 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [MRT](facts/MRT/README.md) | Marti Technologies, Inc. | available; quality gates apply | project_sic_rule |
 | [MSC](facts/MSC/README.md) | STUDIO CITY INTERNATIONAL HOLDINGS Ltd | missing | project_sic_rule |
 | [MSGE](facts/MSGE/README.md) | Madison Square Garden Entertainment Corp. | available; quality gates apply | project_sic_rule |
-| [MSGS](facts/MSGS/README.md) | Madison Square Garden Sports Corp. | available; quality gates apply | project_sic_rule |
 | [MSN](facts/MSN/README.md) | EMERSON RADIO CORP | available; quality gates apply | project_sic_rule |
 | [MTH](facts/MTH/README.md) | Meritage Homes CORP | available; quality gates apply | project_sic_rule |
 | [MTN](facts/MTN/README.md) | VAIL RESORTS INC | available; quality gates apply | project_sic_rule |
 | [MUSA](facts/MUSA/README.md) | Murphy USA Inc. | available; quality gates apply | project_sic_rule |
 | [NAAS](facts/NAAS/README.md) | NaaS Technology Inc. | missing | project_sic_rule |
 | [NAMI](facts/NAMI/README.md) | Jinxin Technology Holding Co | missing | project_sic_rule |
-| [NATH](facts/NATH/README.md) | NATHANS FAMOUS, INC. | available; quality gates apply | project_sic_rule |
 | [NCI](facts/NCI/README.md) | Neo-Concept International Group Holdings Ltd | missing | project_sic_rule |
 | [NDLS](facts/NDLS/README.md) | NOODLES & Co | available; quality gates apply | project_sic_rule |
 | [NEGG](facts/NEGG/README.md) | Newegg Commerce, Inc. | available; quality gates apply | project_sic_rule |

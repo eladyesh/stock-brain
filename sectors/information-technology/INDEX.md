@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **638**. Curated profiles: **7**. Reviewed research: **7**.
+Factual files: **637**. Curated profiles: **7**. Reviewed research: **7**.
 
-Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -432,7 +432,6 @@ Data release: `coverage-20261026-40356450615-1`. Provisional SIC groupings are n
 | [P](facts/P/README.md) | Everpure, Inc. | available; quality gates apply | project_sic_rule |
 | [PAGS](facts/PAGS/README.md) | PagSeguro Digital Ltd. | missing | project_sic_rule |
 | [PANW](facts/PANW/README.md) | Palo Alto Networks Inc | available; quality gates apply | project_sic_rule |
-| [PARA](facts/PARA/README.md) | Banzai International, Inc. | available; quality gates apply | project_sic_rule |
 | [PATH](facts/PATH/README.md) | UiPath, Inc. | available; quality gates apply | project_sic_rule |
 | [PAVS](facts/PAVS/README.md) | Paranovus Entertainment Technology Ltd. | missing | project_sic_rule |
 | [PAYC](facts/PAYC/README.md) | Paycom Software, Inc. | available; quality gates apply | project_sic_rule |
