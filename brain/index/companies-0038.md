@@ -4,6 +4,10 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [ODC](../companies/ODC/README.md) | Oil-Dri Corp of America | available, quality gates apply |
+| [ODD](../companies/ODD/README.md) | Oddity Tech Ltd | not available |
+| [ODFL](../companies/ODFL/README.md) | OLD DOMINION FREIGHT LINE, INC. | available, quality gates apply |
+| [ODTX](../companies/ODTX/README.md) | Odyssey Therapeutics, Inc. | available, quality gates apply |
 | [ODYS](../companies/ODYS/README.md) | Odysight.ai Inc. | available, quality gates apply |
 | [OEC](../companies/OEC/README.md) | Orion S.A. | available, quality gates apply |
 | [OESX](../companies/OESX/README.md) | ORION ENERGY SYSTEMS, INC. | available, quality gates apply |
@@ -100,7 +104,3 @@
 | [ORKT](../companies/ORKT/README.md) | ORANGEKLOUD TECHNOLOGY INC. | not available |
 | [ORLY](../companies/ORLY/README.md) | O REILLY AUTOMOTIVE INC | available, quality gates apply |
 | [ORMP](../companies/ORMP/README.md) | ORAMED PHARMACEUTICALS INC. | available, quality gates apply |
-| [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
-| [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
-| [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
-| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |

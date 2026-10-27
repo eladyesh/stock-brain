@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |
+| [LB](../companies/LB/README.md) | LandBridge Corp | available, quality gates apply |
+| [LBGJ](../companies/LBGJ/README.md) | Li Bang International Corp Inc. | not available |
 | [LBRT](../companies/LBRT/README.md) | Liberty Energy Inc. | available, quality gates apply |
 | [LBRX](../companies/LBRX/README.md) | LB PHARMACEUTICALS INC | available, quality gates apply |
 | [LBTYA, LBTYB, LBTYK](../companies/LBTYA/README.md) | Liberty Global Ltd. | available, quality gates apply |
@@ -14,6 +17,7 @@
 | [LCLN](../companies/LCLN/README.md) | Lincoln International, Inc. | available, quality gates apply |
 | [LCNB](../companies/LCNB/README.md) | LCNB CORP | available, quality gates apply |
 | [LCTX](../companies/LCTX/README.md) | Lineage Cell Therapeutics, Inc. | available, quality gates apply |
+| [LCU](../companies/LCU/README.md) | Lion Copper Corp. | not available |
 | [LCUT](../companies/LCUT/README.md) | LIFETIME BRANDS, INC | available, quality gates apply |
 | [LDI](../companies/LDI/README.md) | loanDepot, Inc. | available, quality gates apply |
 | [LDOS](../companies/LDOS/README.md) | Leidos Holdings, Inc. | available, quality gates apply |
@@ -100,7 +104,3 @@
 | [LNZA](../companies/LNZA/README.md) | LanzaTech Global, Inc. | available, quality gates apply |
 | [LOAN](../companies/LOAN/README.md) | MANHATTAN BRIDGE CAPITAL, INC | available, quality gates apply |
 | [LOAR](../companies/LOAR/README.md) | Loar Holdings Inc. | available, quality gates apply |
-| [LOB, LOB$A](../companies/LOB/README.md) | Live Oak Bancshares, Inc. | available, quality gates apply |
-| [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |
-| [LOCL](../companies/LOCL/README.md) | Local Bounti Corporation/DE | available, quality gates apply |
-| [LOCO](../companies/LOCO/README.md) | El Pollo Loco Holdings, Inc. | available, quality gates apply |

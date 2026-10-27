@@ -4,6 +4,13 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [TUYA](../companies/TUYA/README.md) | Tuya Inc. | not available |
+| [TV](../companies/TV/README.md) | GRUPO TELEVISA, S.A.B. | not available |
+| [TVA](../companies/TVA/README.md) | Texas Ventures Acquisition III Corp | available, quality gates apply |
+| [TVAI](../companies/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available, quality gates apply |
+| [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |
+| [TVGN](../companies/TVGN/README.md) | Tevogen Inc. | available, quality gates apply |
+| [TVIV](../companies/TVIV/README.md) | Texas Ventures Acquisition IV Corp | available, quality gates apply |
 | [TVRD](../companies/TVRD/README.md) | Tvardi Therapeutics, Inc. | available, quality gates apply |
 | [TVTX](../companies/TVTX/README.md) | Travere Therapeutics, Inc. | available, quality gates apply |
 | [TW](../companies/TW/README.md) | Tradeweb Markets Inc. | available, quality gates apply |
@@ -97,10 +104,3 @@
 | [UROY](../companies/UROY/README.md) | Uranium Royalty Corp. | available, quality gates apply |
 | [USA](../companies/USA/README.md) | LIBERTY ALL STAR EQUITY FUND | not available |
 | [USAR](../companies/USAR/README.md) | USA Rare Earth, Inc. | available, quality gates apply |
-| [USAS](../companies/USAS/README.md) | Americas Gold & Silver Corp | not available |
-| [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
-| [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |
-| [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
-| [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |
-| [USEA](../companies/USEA/README.md) | United Maritime Corp | not available |
-| [USFD](../companies/USFD/README.md) | US Foods Holding Corp. | available, quality gates apply |

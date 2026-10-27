@@ -8,11 +8,11 @@ tickers:
 - GIXI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -49,8 +49,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
-  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
+  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
+  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001782265.json
@@ -225,6 +225,12 @@ sources:
   published_at: '2019-08-13'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S31
+  url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/form6-k.htm
+  title: 6-K 0001493152-26-048227
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:39:38.992097+00:00'
+  sha256: f79eda35fd9cede85c9f1e1a8bc68cc0f007387b8583a10f670e61dd1a74445a
 issuer_classification:
   cik: 0001782265
   classification_status: reported_sic
@@ -248,12 +254,12 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/0001493152-26-048227-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 8d9ca761cf0618bf8a1f46f82920dbcd36162eda755c012ed368626adf182fe3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
+  source_set_current: true
   evidence_topics: []
   derived_observations: 0
   model_draft: false
@@ -344,7 +350,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -407,7 +413,7 @@ Latest 28 filing metadata records of 28 retained records. A filing link is evide
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001782265.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -467,4 +473,6 @@ Latest 28 filing metadata records of 28 retained records. A filing link is evide
 
 [S30] [SC 13D 0001493152-19-012145](https://www.sec.gov/Archives/edgar/data/1782265/000149315219012145/0001493152-19-012145-index.html) — published 2019-08-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S31] [6-K 0001493152-26-048227](https://www.sec.gov/Archives/edgar/data/1782265/000149315226048227/form6-k.htm) — published 2026-10-23; retrieved 2026-10-27T15:39:38.992097+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

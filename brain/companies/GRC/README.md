@@ -8,11 +8,11 @@ tickers:
 - GRC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -74,8 +74,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
-  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
+  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
+  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000042682.json
@@ -466,6 +466,42 @@ sources:
   published_at: '2026-02-11'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/42682/000119312526429546/grc-20261023.htm
+  title: 8-K 0001193125-26-429546
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:41:13.296047+00:00'
+  sha256: 3a653bde8922e685f6a8a1bb00199f999c65f5ffedc614a89cd89efd11c07f55
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/42682/000119312526317911/grc-20260630.htm
+  title: 10-Q 0001193125-26-317911
+  published_at: '2026-07-27'
+  retrieved_at: '2026-10-27T15:41:11.539753+00:00'
+  sha256: 19de364d250491921d5d1e1979df65eb97ba1bf06e66b3c70afa40f55fa2a53f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/42682/000119312526118757/grc-20260323.htm
+  title: DEF 14A 0001193125-26-118757
+  published_at: '2026-03-23'
+  retrieved_at: '2026-10-27T15:41:09.686698+00:00'
+  sha256: 9f54668f39df714f53e705c1dd8fdcaf8ae7b5ad5b459685f8cc0604fbad584d
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/42682/000119312526084820/grc-20251231.htm
+  title: 10-K 0001193125-26-084820
+  published_at: '2026-03-02'
+  retrieved_at: '2026-10-27T15:41:07.759155+00:00'
+  sha256: 9f2538a1fbf3bd2635efa28f3131f2c3c4fd3361f7169e897183d709322a83b1
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/42682/000119312522221380/d355379d8ka.htm
+  title: 8-K/A 0001193125-22-221380
+  published_at: '2022-08-15'
+  retrieved_at: '2026-10-27T15:41:02.321406+00:00'
+  sha256: 5873bf6fa70e99323c9052b588a31cf3d9b4a509fb069369a98ad7c191d2d70e
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/42682/000095012311072816/c20995e8vkza.htm
+  title: 8-K/A 0000950123-11-072816
+  published_at: '2011-08-04'
+  retrieved_at: '2026-10-27T15:41:00.662707+00:00'
+  sha256: f90176b0cbe6d08ac9b9c6ea8e3d8f847a4d16db629a2bcb50b3758e6ef29a33
 issuer_classification:
   cik: 0000042682
   classification_status: reported_sic
@@ -511,13 +547,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/42682/000095012311072816/0000950123-11-072816-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5028a97e3e5d09795ce5df901bc9318016312a054e2b8bb6e047170510e5157f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -541,6 +586,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-27, L7112:
+
+> Such uncertainties include, but are not limited to, our estimates of future earnings and cash flows, general economic conditions and supply chain conditions and any related impact on costs and availability of materials, retention of supplier and customer relationships and key employees, and the ability to service and repay indebtedness. Other factors include, but are not limited to: company specific risk factors including (1) loss of key personnel; (2) intellectual property security; (3) growth through acquisitions; (4) the Company’s indebtedness and how it may impact the Company’s financial condition and the way it operates its business; (5) impairment in the value of intangible assets, including goodwill; (6) defined benefit pension plan settlement expense; (7) LIFO inventory method; and (8) family ownership of common equity; and general risk factors including (9) continuation of the current and projected future business environment; (10) highly competitive markets; (11) availability and costs of raw materials and labor; (12) cybersecurity threats; (13) artificial intelligence risk and challenges that can impact our business; (14) compliance with, and costs related to, a variety of import and export laws and regulations; (15) the impact of U.S. trade policy, including resulting tariffs; (16) environmental compliance costs and liabilities; (17) exposure to fluctuations in … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -549,9 +598,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-02, L545:
+
+> The Company is subject to a variety of laws and regulations regarding international operations, including regulations issued by the U.S. Department of Commerce Bureau of Industry and Security and various other domestic and foreign governmental agencies. Actual or alleged violations of import-export laws could result in enforcement actions and/or financial penalties. The Company cannot predict the nature, scope or effect of future regulatory requirements to which our international operations and trading practices might be subject or the manner in which existing laws or regulations might be administered or interpreted. Future legislation or regulations could limit the countries in which certain of our products may be manufactured or sold or could restrict our access to, and increase the cost of obtaining, products from foreign sources. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-27, L4987:
+
+> We regularly invest in training for our employees, in new product development and in modern manufacturing equipment, technology and facilities all designed to increase production efficiency and capacity and drive growth by delivering innovative solutions to our customers. We believe that the diversity of our markets is a major contributor to the generally stable financial growth we have produced historically. [S68]
 
 ## Industry and value chain
 
@@ -559,13 +616,25 @@ SEC-reported SIC **3561**: Pumps & Pumping Equipment. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-27, L7112:
+
+> Such uncertainties include, but are not limited to, our estimates of future earnings and cash flows, general economic conditions and supply chain conditions and any related impact on costs and availability of materials, retention of supplier and customer relationships and key employees, and the ability to service and repay indebtedness. Other factors include, but are not limited to: company specific risk factors including (1) loss of key personnel; (2) intellectual property security; (3) growth through acquisitions; (4) the Company’s indebtedness and how it may impact the Company’s financial condition and the way it operates its business; (5) impairment in the value of intangible assets, including goodwill; (6) defined benefit pension plan settlement expense; (7) LIFO inventory method; and (8) family ownership of common equity; and general risk factors including (9) continuation of the current and projected future business environment; (10) highly competitive markets; (11) availability and costs of raw materials and labor; (12) cybersecurity threats; (13) artificial intelligence risk and challenges that can impact our business; (14) compliance with, and costs related to, a variety of import and export laws and regulations; (15) the impact of U.S. trade policy, including resulting tariffs; (16) environmental compliance costs and liabilities; (17) exposure to fluctuations in … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-02, L460:
+
+> The pump industry is highly fragmented and therefore Gorman-Rupp competes with a large number of businesses. Numerous pump competitors exist as subsidiaries, divisions or departments within significantly larger corporations. The Company also faces increased competition from foreign-sourced pumps in most of the Company’s domestic markets. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-07-27, L7112:
+
+> Such uncertainties include, but are not limited to, our estimates of future earnings and cash flows, general economic conditions and supply chain conditions and any related impact on costs and availability of materials, retention of supplier and customer relationships and key employees, and the ability to service and repay indebtedness. Other factors include, but are not limited to: company specific risk factors including (1) loss of key personnel; (2) intellectual property security; (3) growth through acquisitions; (4) the Company’s indebtedness and how it may impact the Company’s financial condition and the way it operates its business; (5) impairment in the value of intangible assets, including goodwill; (6) defined benefit pension plan settlement expense; (7) LIFO inventory method; and (8) family ownership of common equity; and general risk factors including (9) continuation of the current and projected future business environment; (10) highly competitive markets; (11) availability and costs of raw materials and labor; (12) cybersecurity threats; (13) artificial intelligence risk and challenges that can impact our business; (14) compliance with, and costs related to, a variety of import and export laws and regulations; (15) the impact of U.S. trade policy, including resulting tariffs; (16) environmental compliance costs and liabilities; (17) exposure to fluctuations in … [S68]
 
 ## Growth drivers
 
@@ -1193,6 +1262,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-27, L4990:
+
+> On July 23, 2026, the Board of Directors authorized the payment of a quarterly dividend of $0.19 per share on the common stock of the Company, payable September 10, 2026, to shareholders of record as of August 14, 2026. This will mark the 306th consecutive quarterly dividend paid by The Gorman-Rupp Company. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1205,6 +1278,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-27, L7112:
+
+> Such uncertainties include, but are not limited to, our estimates of future earnings and cash flows, general economic conditions and supply chain conditions and any related impact on costs and availability of materials, retention of supplier and customer relationships and key employees, and the ability to service and repay indebtedness. Other factors include, but are not limited to: company specific risk factors including (1) loss of key personnel; (2) intellectual property security; (3) growth through acquisitions; (4) the Company’s indebtedness and how it may impact the Company’s financial condition and the way it operates its business; (5) impairment in the value of intangible assets, including goodwill; (6) defined benefit pension plan settlement expense; (7) LIFO inventory method; and (8) family ownership of common equity; and general risk factors including (9) continuation of the current and projected future business environment; (10) highly competitive markets; (11) availability and costs of raw materials and labor; (12) cybersecurity threats; (13) artificial intelligence risk and challenges that can impact our business; (14) compliance with, and costs related to, a variety of import and export laws and regulations; (15) the impact of U.S. trade policy, including resulting tariffs; (16) environmental compliance costs and liabilities; (17) exposure to fluctuations in … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1214,25 +1291,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1297,9 +1374,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-11 | 5 | 0001193125-26-045728 | — | [S65] |
 | 2026-02-11 | 5 | 0001193125-26-045724 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-03-23, L5135:
+
+> This proposal is for a vote to ratify the appointment by the Audit Committee of the Board of Directors of Ernst & Young LLP as the independent registered public accounting firm for the Company during the year ending December 31, 2026. Ernst & Young LLP has served as the Company’s independent external auditor continuously for over fifty years. Representatives of Ernst & Young LLP are expected to be present at the Meeting, will have an opportunity to make a statement if they so desire, and are expected to be available to respond to appropriate questions. [S69]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000042682.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1431,4 +1512,16 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [5 0001193125-26-045724](https://www.sec.gov/Archives/edgar/data/42682/000119312526045724/0001193125-26-045724-index.html) — published 2026-02-11; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001193125-26-429546](https://www.sec.gov/Archives/edgar/data/42682/000119312526429546/grc-20261023.htm) — published 2026-10-23; retrieved 2026-10-27T15:41:13.296047+00:00.
+
+[S68] [10-Q 0001193125-26-317911](https://www.sec.gov/Archives/edgar/data/42682/000119312526317911/grc-20260630.htm) — published 2026-07-27; retrieved 2026-10-27T15:41:11.539753+00:00.
+
+[S69] [DEF 14A 0001193125-26-118757](https://www.sec.gov/Archives/edgar/data/42682/000119312526118757/grc-20260323.htm) — published 2026-03-23; retrieved 2026-10-27T15:41:09.686698+00:00.
+
+[S70] [10-K 0001193125-26-084820](https://www.sec.gov/Archives/edgar/data/42682/000119312526084820/grc-20251231.htm) — published 2026-03-02; retrieved 2026-10-27T15:41:07.759155+00:00.
+
+[S71] [8-K/A 0001193125-22-221380](https://www.sec.gov/Archives/edgar/data/42682/000119312522221380/d355379d8ka.htm) — published 2022-08-15; retrieved 2026-10-27T15:41:02.321406+00:00.
+
+[S72] [8-K/A 0000950123-11-072816](https://www.sec.gov/Archives/edgar/data/42682/000095012311072816/c20995e8vkza.htm) — published 2011-08-04; retrieved 2026-10-27T15:41:00.662707+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -4,6 +4,10 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
+| [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
+| [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
+| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |
 | [OSG](../companies/OSG/README.md) | OCTAVE SPECIALTY GROUP INC | available, quality gates apply |
 | [OSIS](../companies/OSIS/README.md) | OSI SYSTEMS INC | available, quality gates apply |
 | [OSPN](../companies/OSPN/README.md) | OneSpan Inc. | available, quality gates apply |
@@ -58,7 +62,6 @@
 | [PANL](../companies/PANL/README.md) | Pangaea Logistics Solutions Ltd. | available, quality gates apply |
 | [PANW](../companies/PANW/README.md) | Palo Alto Networks Inc | available, quality gates apply |
 | [PAR](../companies/PAR/README.md) | PAR TECHNOLOGY CORP | available, quality gates apply |
-| [PARA](../companies/PARA/README.md) | Banzai International, Inc. | available, quality gates apply |
 | [PARK](../companies/PARK/README.md) | Park Dental Partners, Inc. | available, quality gates apply |
 | [PARR](../companies/PARR/README.md) | PAR PACIFIC HOLDINGS, INC. | available, quality gates apply |
 | [PASG](../companies/PASG/README.md) | Passage BIO, Inc. | available, quality gates apply |
@@ -68,6 +71,7 @@
 | [PAVM](../companies/PAVM/README.md) | PAVmed Inc. | available, quality gates apply |
 | [PAVS](../companies/PAVS/README.md) | Paranovus Entertainment Technology Ltd. | not available |
 | [PAX](../companies/PAX/README.md) | Patria Investments Ltd | not available |
+| [PAXG](../companies/PAXG/README.md) | Pine Tree Acquisition Corp. | not available |
 | [PAXS](../companies/PAXS/README.md) | PIMCO Access Income Fund | not available |
 | [PAY](../companies/PAY/README.md) | Paymentus Holdings, Inc. | available, quality gates apply |
 | [PAYC](../companies/PAYC/README.md) | Paycom Software, Inc. | available, quality gates apply |
@@ -100,7 +104,3 @@
 | [PCQ](../companies/PCQ/README.md) | PIMCO CALIFORNIA MUNICIPAL INCOME FUND | not available |
 | [PCRX](../companies/PCRX/README.md) | Pacira BioSciences, Inc. | available, quality gates apply |
 | [PCSA](../companies/PCSA/README.md) | Processa Pharmaceuticals, Inc. | available, quality gates apply |
-| [PCT](../companies/PCT/README.md) | PureCycle Technologies, Inc. | available, quality gates apply |
-| [PCTY](../companies/PCTY/README.md) | Paylocity Holding Corp | available, quality gates apply |
-| [PCVX](../companies/PCVX/README.md) | Vaxcyte, Inc. | available, quality gates apply |
-| [PCYO](../companies/PCYO/README.md) | PURE CYCLE CORP | available, quality gates apply |

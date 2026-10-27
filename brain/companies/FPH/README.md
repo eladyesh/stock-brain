@@ -8,11 +8,11 @@ tickers:
 - FPH
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,8 +75,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
-  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
+  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
+  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001574197.json
@@ -449,6 +449,42 @@ sources:
   published_at: '2025-08-12'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000157419726000035/fph-20260930.htm
+  title: 10-Q 0001574197-26-000035
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:38:02.093447+00:00'
+  sha256: e6b09db6aedbc2492d817c1028f4deb8e7526849a241512bb56b28a3cc76c757
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000157419726000032/fph-20261022.htm
+  title: 8-K 0001574197-26-000032
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-27T15:38:00.208566+00:00'
+  sha256: 6d84b815141de7b66305851b7546e8d6f92477c75ae1d4da1f1fcbfe8ad03eaf
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000157419726000016/fph-20260424.htm
+  title: DEF 14A 0001574197-26-000016
+  published_at: '2026-04-24'
+  retrieved_at: '2026-10-27T15:37:58.538730+00:00'
+  sha256: aee259bffa2e5d8fc9feeee64f67e180043b12ea3c19505058630cab560d4cb3
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000157419726000005/fph-20251231.htm
+  title: 10-K 0001574197-26-000005
+  published_at: '2026-03-06'
+  retrieved_at: '2026-10-27T15:37:56.538972+00:00'
+  sha256: 8a7f4503d77e0d12d7cdc1b3562c7839b74684157ce77e5a0f6eb44876ab0040
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000119312524245677/d849015d8ka.htm
+  title: 8-K/A 0001193125-24-245677
+  published_at: '2024-10-28'
+  retrieved_at: '2026-10-27T15:37:54.594321+00:00'
+  sha256: 532b1430142f8abbb71ce46da0bd3cb6918e78178371d3d46e7c01084b4fb860
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1574197/000119312517256674/d432957d8ka.htm
+  title: 8-K/A 0001193125-17-256674
+  published_at: '2017-08-14'
+  retrieved_at: '2026-10-27T15:37:52.885184+00:00'
+  sha256: 64755d71579d40482730f2c9f48008448c25484acf6c6c0abd072259a4ebf858
 issuer_classification:
   cik: 0001574197
   classification_status: reported_sic
@@ -494,13 +530,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1574197/000119312517256674/0001193125-17-256674-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: fc331eb99459852d628965ab083e2b096c8453a9915b4f48dbe3670731a267ce
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -524,9 +567,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1274:
+
+> We conduct all of our business in or through our operating company, Five Point Operating Company, LP (the “operating company”). We are, through a wholly owned subsidiary, the sole managing general partner and owned, as of September 30, 2026, approximately 65.3% of the operating company. The operating company directly or indirectly owns equity interests in: [S64]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1378:
+
+> Our reportable operating segments include our three community segments, Valencia, San Francisco and Great Park, and our Hearthstone segment: [S64]
 
 ## Products and services
 
@@ -546,6 +597,10 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-10-23, L195:
+
+> •intense competition in the real estate market and our ability to sell properties at desirable prices; [S64]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -553,6 +608,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-24, L765:
+
+> •Oversaw the execution of the Company’s growth strategy, including the acquisition of Hearthstone Residential Holdings, LLC. [S66]
 
 ## Financial performance
 
@@ -1164,6 +1223,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1130:
+
+> In June 2026, the Company’s Board of Directors approved the amendment and restatement of the Five Point Holdings, LLC 2023 Incentive Award Plan (the “A&R Incentive Award Plan”). The A&R Incentive Award Plan became effective on June 4, 2026, the date on which it was approved by shareholders at the 2026 Annual Meeting of Shareholders, and increased the aggregate number of common shares available for issuance by 7,500,000 Class A common shares of the Holding Company. [S64]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1176,6 +1239,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L204:
+
+> Please see Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, as well as other risks and uncertainties detailed from time to time in our subsequent Quarterly Reports on Form 10-Q and other filings with the Securities and Exchange Commission, for a more detailed discussion of these and other risks. [S64]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1185,25 +1252,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1268,9 +1335,13 @@ Latest 50 filing metadata records of 475 retained records. A filing link is evid
 | 2025-09-05 | 4 | 0001704041-25-000004 | — | [S62] |
 | 2025-08-12 | 8-K | 0001574197-25-000075 | — | [S63] |
 
+Source excerpt — 10-Q, filed 2026-10-23, L769:
+
+> The Five Point Gateway Campus (the “Five Point Gateway Campus”) is a 73-acre office, medical, research and development campus located within the Great Park Neighborhoods consisting of four buildings totaling approximately one million square feet. During the year ended December 31, 2024, the Gateway Commercial Venture sold its remaining interests in the Five Point Gateway Campus, which included an approximately 189,000 square foot commercial office building and approximately 50 acres of commercial land on which up to an additional 189,000 square feet of commercial space can be developed, for a purchase price of $88.5 million. The purchase price consisted of $45.0 million in cash paid at closing and a $43.5 million note that had a maturity date in December 2026. In June 2026 the note was paid in full, and the Gateway Commercial Venture made distributions to its members, of which the Company received $33.1 million. [S64]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001574197.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1396,4 +1467,16 @@ Latest 50 filing metadata records of 475 retained records. A filing link is evid
 
 [S63] [8-K 0001574197-25-000075](https://www.sec.gov/Archives/edgar/data/1574197/000157419725000075/0001574197-25-000075-index.html) — published 2025-08-12; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S64] [10-Q 0001574197-26-000035](https://www.sec.gov/Archives/edgar/data/1574197/000157419726000035/fph-20260930.htm) — published 2026-10-23; retrieved 2026-10-27T15:38:02.093447+00:00.
+
+[S65] [8-K 0001574197-26-000032](https://www.sec.gov/Archives/edgar/data/1574197/000157419726000032/fph-20261022.htm) — published 2026-10-22; retrieved 2026-10-27T15:38:00.208566+00:00.
+
+[S66] [DEF 14A 0001574197-26-000016](https://www.sec.gov/Archives/edgar/data/1574197/000157419726000016/fph-20260424.htm) — published 2026-04-24; retrieved 2026-10-27T15:37:58.538730+00:00.
+
+[S67] [10-K 0001574197-26-000005](https://www.sec.gov/Archives/edgar/data/1574197/000157419726000005/fph-20251231.htm) — published 2026-03-06; retrieved 2026-10-27T15:37:56.538972+00:00.
+
+[S68] [8-K/A 0001193125-24-245677](https://www.sec.gov/Archives/edgar/data/1574197/000119312524245677/d849015d8ka.htm) — published 2024-10-28; retrieved 2026-10-27T15:37:54.594321+00:00.
+
+[S69] [8-K/A 0001193125-17-256674](https://www.sec.gov/Archives/edgar/data/1574197/000119312517256674/d432957d8ka.htm) — published 2017-08-14; retrieved 2026-10-27T15:37:52.885184+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

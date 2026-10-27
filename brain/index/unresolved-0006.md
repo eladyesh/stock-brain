@@ -4,15 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [SCHW$J](../unmapped/0052cecf672bcc4e68ef304e4ec8ae30.md) | NYSE | The Charles Schwab Corporation Depositary Shares, Each Representing a 1/40th Interest in a Share of 4.450% Non-Cumulative Perpetual Preferred Stock, Series J |
-| [SEAL$A](../unmapped/aab2dea557dec69853d76f582404212f.md) | NYSE | Seapeak LLC 9.00% Series A Cumulative Redeemable Perpetual Preferred Units |
-| [SEAL$B](../unmapped/02c13f832a483b784ee49275b2fecb6e.md) | NYSE | Seapeak LLC 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units |
-| [SHO](../unmapped/034a5f2d9067f04f1341446af9945c9c.md) | NYSE | Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares |
-| [SHO$H](../unmapped/4d03b66d97c3072d360dc24dc8e37b6a.md) | NYSE | Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock |
-| [SHO$I](../unmapped/6a4a5638edb998065da97e2040d5b76e.md) | NYSE | Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock |
-| [SID](../unmapped/8259b63ce0cb8f3dd6f5b70e53d700c5.md) | NYSE | Companhia Siderurgica Nacional S.A. Common Stock |
-| [SMFG](../unmapped/d2014fb2ce66140c774ef21f0246b2bd.md) | NYSE | Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan) |
-| [SNN](../unmapped/cc9e2261adf3f4b4838bdba26a256535.md) | NYSE | Smith & Nephew SNATS, Inc. Common Stock |
 | [SOR](../unmapped/231b4f61be34f61cd324e5790f181773.md) | NYSE | Source Capital, Inc. Cmn Shs of BI |
 | [SPE$C](../unmapped/edecfed41d3be8b94d1925aeb22fd335.md) | NYSE | Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C |
 | [SPG$J](../unmapped/40489c82ad0404ffbc4544a84b49dfc9.md) | NYSE | Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock |
@@ -62,7 +53,6 @@
 | [WRB](../unmapped/be791d6aa13aff3d9bceb44308ca78a5.md) | NYSE | W.R. Berkley Corporation Common Stock |
 | [XRN$B](../unmapped/f8b45f30b95ce64749f06535e78d7331.md) | NYSE | Chiron Real Estate Inc. 8.00% Series B Cumulative Redeemable Preferred Stock, $0.001 par value per share |
 | [BCV$A](../unmapped/97565e47fc80f37032b271fc846dc7d9.md) | NYSE_AMERICAN | Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares |
-| [DCM](../unmapped/cd951f2665c4cac27b3e84e13b028e79.md) | NYSE_AMERICAN | DeFi Capital Markets, Inc. Common Stock |
 | [ECF$A](../unmapped/ed16f9025a5b5aaf4fe9ef1afa96778f.md) | NYSE_AMERICAN | Ellsworth Growth and Income Fund Ltd. 5.25% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share) |
 | [GGN$B](../unmapped/2944680e3396a28fd76ec6deea27cb63.md) | NYSE_AMERICAN | GAMCO Global Gold, Natural Reources & Income Trust 5.00% Series B Cumulative 25.00 Liquidation Preference |
 | [GLQ](../unmapped/003b638649deacc8522054f531eb6237.md) | NYSE_AMERICAN | Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest |
@@ -104,3 +94,9 @@
 | [ET](../unmapped/2fdd4ecaeb5aa28cb65e40c102885faa.md) | UNKNOWN_F | Energy Transfer LP Common Units |
 | [ET$I](../unmapped/b5726bce706fc0cf1358cda94294bcc0.md) | UNKNOWN_F | Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units |
 | [IBOC](../unmapped/14e023a09e4e413d29101bb05c8f2f4a.md) | UNKNOWN_F | International Bancshares Corporation Common Stock |
+| [OBK](../unmapped/acd6ed0fe8227df35d7c9cf7f12c7fb4.md) | UNKNOWN_F | Origin Bancorp, Inc. Common Stock |
+| [SUN](../unmapped/625c368f84318f6c4b0c8bdd13ec4e91.md) | UNKNOWN_F | Sunoco LP Common Units representing limited partner interests |
+| [SUNC](../unmapped/747a8accc81970657503c80fefbf9ec8.md) | UNKNOWN_F | SunocoCorp LLC Common Units, representing limited liability company interests |
+| [TCBI](../unmapped/03a1c873b2d24075cd59e15f871c6d83.md) | UNKNOWN_F | Texas Capital Bancshares, Inc. Common Stock |
+| [TCBI$B](../unmapped/a20637396f6e873b2dee3fc115804d1e.md) | UNKNOWN_F | Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B |
+| [USAC](../unmapped/d42b6fb2b09d5c1bb425217af05c0c5e.md) | UNKNOWN_F | USA Compression Partners, LP Common Units Representing Limited Partner Interests |

@@ -4,15 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [AGM$D](../unmapped/590f79bcd29967bfaf88b8de774ff8e7.md) | NYSE | Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D |
-| [AGM$E](../unmapped/2536573c55dab3222322fdc8ee677baa.md) | NYSE | Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E |
-| [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
-| [AGM$G](../unmapped/0c51018b0c91bcec638297d582a585cd.md) | NYSE | Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G |
-| [AGM$H](../unmapped/6959ba4a13c9d80e7ab4f6941d9772bb.md) | NYSE | Federal Agricultural Mortgage Corporation 6.500% Non-Cumulative Preferred Stock, Series H |
-| [AGM$I](../unmapped/9250dbb92c03de5ac939b5330bd62630.md) | NYSE | Federal Agricultural Mortgage Corporation 6.875% Non-Cumulative Preferred Stock, Series I |
-| [AHL$D](../unmapped/2cc1c9ca7856b1e7d2deaa71e5d0d2a1.md) | NYSE | Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares |
-| [AHRT$A](../unmapped/e4c4cdeb1183ff2713423834074c9326.md) | NYSE | AH Realty Trust, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock |
-| [AHT$D](../unmapped/cf11d3472a59967b0007f0c64a3290b2.md) | NYSE | Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock |
 | [AHT$F](../unmapped/cfe495eed494d8502e3cbb937fccfd67.md) | NYSE | Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock |
 | [AHT$G](../unmapped/7e013515a10e839696bda789e0936581.md) | NYSE | Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock |
 | [AHT$H](../unmapped/05d670ed49086e451c7eb8cdd7b997e9.md) | NYSE | Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock |
@@ -104,3 +95,12 @@
 | [DUK](../unmapped/2972a9eb1b71e6185798238b6ccea59f.md) | NYSE | Duke Energy Corporation (Holding Company) Common Stock |
 | [DX$C](../unmapped/30ab2d3ffb4a9c3dd283a4ed94384d16.md) | NYSE | Dynex Capital, Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock |
 | [DX$D](../unmapped/01183624540c4fc779c5f24dc7711e3e.md) | NYSE | Dynex Capital, Inc. 9.375% Series D Fixed-Rate Cumulative Redeemable Preferred Stock |
+| [ECC$D](../unmapped/5e773d91e92bda323f3fe54173ba440a.md) | NYSE | Eagle Point Credit Company 6.75% Series D Preferred Stock |
+| [ECCC](../unmapped/948a22e0f2adc53191c31a8edda44f12.md) | NYSE | Eagle Point Credit Company 6.50% Series C Term Preferred Stock due 2031 |
+| [EDN](../unmapped/667f031b12db14774aa2591ee2954206.md) | NYSE | Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares |
+| [EDU](../unmapped/da9d35fab8b9c3d5e4f61f7052b39e92.md) | NYSE | New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands) |
+| [EEA](../unmapped/9bf56b3f2eca467ee5ffa26b9705425f.md) | NYSE | The European Equity Fund, Inc. Common Stock |
+| [EFC$B](../unmapped/2d9d1a41829c7a92f0bbeff3f0cacc64.md) | NYSE | Ellington Financial Inc. 6.250% Series B Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
+| [EFC$C](../unmapped/1499ce87604125a3dbc221c007fff197.md) | NYSE | Ellington Financial Inc. 8.625% Series C Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
+| [EFC$D](../unmapped/50fe88a326ba9fff29880cd2bd65b2e3.md) | NYSE | Ellington Financial Inc. 7.00% Series D Cumulative Perpetual Redeemable Preferred Stock |
+| [EFR](../unmapped/52c0a2d457f4cc2142952a151c4cdc4d.md) | NYSE | Eaton Vance Senior Floating-Rate Fund Common Shares of Beneficial Interest |

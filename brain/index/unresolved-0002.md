@@ -4,24 +4,19 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
-| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
 | [LANDO](../unmapped/293bba084d8e061c4b6279eba5b7be81.md) | NASDAQ | Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock |
 | [LANDP](../unmapped/7431f62c87a2368097c25fa5ff2a496d.md) | NASDAQ | Gladstone Land Corporation - 6.00% Series C Cumulative Redeemable Preferred Stock |
 | [LAWR](../unmapped/2b3f83f1eadf4d241a46d8f1a2c9426b.md) | NASDAQ | Robot Consulting Co., Ltd. - ADS |
-| [LCU](../unmapped/8a7d21a6b17073acf6578548b53f2ece.md) | NASDAQ | Lion Copper Corp. - Common Shares |
 | [LFCR](../unmapped/f14fc0d99f59e0293bbe290d893ea1ae.md) | NASDAQ | Lifecore Biomedical, Inc. - Common Stock |
 | [LFMDP](../unmapped/d3d7dfe7f80f69798d30ebd6356c6b71.md) | NASDAQ | LifeMD, Inc. - 8.875% Series A Cumulative Perpetual Preferred Stock |
 | [LILAP](../unmapped/c1717440c045ae343677d76a4d44f488.md) | NASDAQ | Liberty Latin America Ltd. - 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares |
 | [LOGI](../unmapped/b6122536d7414995d6e2c73fc91d76d5.md) | NASDAQ | Logitech International S.A. - Registered Shares |
-| [LYCA](../unmapped/6be1ce94629461c931a88a47599e7c4a.md) | NASDAQ | Lycia Therapeutics, Inc. - Common Stock |
 | [MAYS](../unmapped/cf37ab5a31f55ca535dc45298738bb53.md) | NASDAQ | J. W. Mays, Inc. - Common Stock |
 | [MBNKO](../unmapped/cacdd6d161814fbce9a5a59b78b4a35b.md) | NASDAQ | Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share |
 | [MFIC](../unmapped/4f67c3cef367240ccafba2e8c121a083.md) | NASDAQ | MidCap Financial Investment Corporation - Closed End Fund |
-| [NANO](../unmapped/835d50dddbba7f3930e953878e3188b3.md) | NASDAQ | Forge Nano Holdings Inc. - Common stock |
 | [NBN](../unmapped/686c676f6156989116439899f4802d5e.md) | NASDAQ | Northeast Bank - Common Stock |
 | [NBTX](../unmapped/efbd03bb57c4a657ac53a8a5940a5423.md) | NASDAQ | Nanobiotix S.A. - ADSs |
 | [NMPAR](../unmapped/6f8c6c9df5a3d0a85fce247952b287ca.md) | NASDAQ | NMP Acquisition Corp. - Right |
@@ -39,7 +34,7 @@
 | [OXLCN](../unmapped/65c94d71ebc7c90bb8359370177834c1.md) | NASDAQ | Oxford Lane Capital Corp. - 7.125% Series 2029 Term Preferred Stock |
 | [OXSQ](../unmapped/f013595d91464d4ee5b4724dc72e1852.md) | NASDAQ | Oxford Square Capital Corp. - Closed End Fund |
 | [OZKAP](../unmapped/9039f490880f559609757b5c8667e8cc.md) | NASDAQ | Bank OZK - 4.625% Series A Non-Cumulative Perpetual Preferred Stock |
-| [PAXG](../unmapped/c1b6e6d40a8a8b62ed68c574d867df10.md) | NASDAQ | Pine Tree Acquisition Corp. - Class A Ordinary Shares |
+| [PARA](../unmapped/3e33ca102b646219a00302c4137adb88.md) | NASDAQ | Parabolic Technologies, Inc. - Class A Common Stock |
 | [PECER](../unmapped/64748fff44764785917948804900000d.md) | NASDAQ | Peace Acquisition Corp - Right |
 | [PGACR](../unmapped/46d68be13b6f49052fda0b8701eab777.md) | NASDAQ | Pantages Capital Acquisition Corporation - Right |
 | [PHAR](../unmapped/4745cb8c47fa154f23a9a149693a7a96.md) | NASDAQ | Pharming Group N.V. - ADS, each representing 10 ordinary shares |
@@ -58,14 +53,12 @@
 | [RUSHB](../unmapped/0813b8f01d1ea880e118e28468399384.md) | NASDAQ | Rush Enterprises, Inc. - Class B Common Stock |
 | [SATA](../unmapped/5950a3806af37a28d8bc3bc35a6dabcc.md) | NASDAQ | Strive, Inc. - Variable Rate Series A Perpetual Preferred Stock |
 | [SATS](../unmapped/16378ca60a3e14d46e7f79941139666d.md) | NASDAQ | Strive, Inc. - 15.00% Series A Perpetual SATS Preferred Stock |
-| [SCAT](../unmapped/c8df942f1b77e9a8a0395e07d64e12f5.md) | NASDAQ | Southern Cross Acquisition II Corp. - Ordinary Shares |
 | [SDHI](../unmapped/848c4cef171e3f404ff99a577e145361.md) | NASDAQ | Siddhi Acquisition Corp - Class A Common stock |
 | [SDHIR](../unmapped/f8845b7a897269addfb7a5b91272f781.md) | NASDAQ | Siddhi Acquisition Corp - Right |
 | [SLMBP](../unmapped/519e82e5feb1d1fdb1e39d8cbd12812e.md) | NASDAQ | SLM Corporation - Floating Rate Non-Cumulative Preferred Stock, Series B |
 | [SLNHP](../unmapped/f01a38670025ce4e54cacdae6af3a38c.md) | NASDAQ | Soluna Holdings, Inc. - 9.0% Series A Cumulative Perpetual Preferred Stock |
 | [SLRC](../unmapped/b6de53d62eb77946f5acba1ac4d21279.md) | NASDAQ | SLR Investment Corp. - Closed End Fund |
 | [SQFTP](../unmapped/7c194b779408dc78eed13bfdeb6f849f.md) | NASDAQ | Presidio Property Trust, Inc. - 9.375% Series D Cumulative Redeemable Perpetual Preferred Stock, $0.01 par value per share |
-| [SRTM](../unmapped/703659f2dd4eee9b9e61a022551c219d.md) | NASDAQ | Stratum Holdings Corp. - Common Stock |
 | [SSBI](../unmapped/e73e3afb4864ca5b7671321972e937ad.md) | NASDAQ | Summit State Bank - Common Stock |
 | [STRC](../unmapped/e6bbbf1210b0afff8bbd29a26e89316d.md) | NASDAQ | Strategy Inc - Variable Rate Series A Perpetual Stretch Preferred Stock |
 | [STRD](../unmapped/471f0357217c71d0f9b84aecaeeb5ff7.md) | NASDAQ | Strategy Inc - 10.00% Series A Perpetual Stride Preferred Stock |
@@ -75,7 +68,6 @@
 | [SVCC](../unmapped/d2b0e314ce38e226d92bf1a64df28a78.md) | NASDAQ | Stellar V Capital Corp. - Class A Ordinary Shares |
 | [SZZLR](../unmapped/c9dbe2ec7dbea002fdde4b2cc7f9036f.md) | NASDAQ | Sizzle Acquisition Corp. II - Right |
 | [TAVIR](../unmapped/3bc082495f92cc0d5a6b6726e9229e6d.md) | NASDAQ | Tavia Acquisition Corp. - Right |
-| [TBCV](../unmapped/871225be152be9d7e8ca3eaef497a635.md) | NASDAQ | Thunder Bridge Capital Partners V, Ltd. - Class A Ordinary Shares |
 | [TBLD](../unmapped/c68a34a0061b440f84053e65343a129a.md) | NASDAQ | Thornburg Income Builder Opportunities Trust - Closed End Fund |
 | [TCPC](../unmapped/02f98fe359fbfe4942d168110c42decf.md) | NASDAQ | BlackRock TCP Capital Corp. - Closed End Fund |
 | [TOWN](../unmapped/e5d041c0d90ca09ae693187e6e045726.md) | NASDAQ | Towne Bank - Common Stock |
@@ -89,7 +81,6 @@
 | [VOD](../unmapped/44d32b546b828ec6dbef058b60709377.md) | NASDAQ | Vodafone Group Plc - American Depositary Shares each representing ten Ordinary Shares |
 | [VRXA](../unmapped/cf216d8887d187ae10fe36841f63486e.md) | NASDAQ | Veraxa Biotech AG - Ordinary Shares |
 | [WHF](../unmapped/3cec6191e151d2c3d022e49bb4431559.md) | NASDAQ | WhiteHorse Finance, Inc. - Closed End Fund |
-| [WQEY](../unmapped/f993738a4dcb1c826295b8d95f192025.md) | NASDAQ | WISeQey Corp - Ordinary Shares |
 | [WSTNR](../unmapped/381853a6dbad80eb5f007e572d0365e2.md) | NASDAQ | Westin Acquisition Corp - Right |
 | [WTW](../unmapped/10549ff83c9020f9b796ad67f066c5bc.md) | NASDAQ | Willis Towers Watson Public Limited Company - Ordinary Shares |
 | [XCH](../unmapped/0ee1538e2d76d847dcc08eabca7de533.md) | NASDAQ | XCHG Limited - ADS |
@@ -104,3 +95,12 @@
 | [ACR$C](../unmapped/55e23ed58686440659099c87b8c89a69.md) | NYSE | ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock |
 | [ACR$D](../unmapped/e99a0fda36027ec41d4d0849947edd08.md) | NYSE | ACRES Commercial Realty Corp. 7.875% Series D Cumulative Redeemable Preferred Stock |
 | [AEG](../unmapped/e90a06d8f8852583e177f75f61cf410d.md) | NYSE | Aegon Ltd. New York Registry Shares |
+| [AGM$D](../unmapped/590f79bcd29967bfaf88b8de774ff8e7.md) | NYSE | Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D |
+| [AGM$E](../unmapped/2536573c55dab3222322fdc8ee677baa.md) | NYSE | Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E |
+| [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
+| [AGM$G](../unmapped/0c51018b0c91bcec638297d582a585cd.md) | NYSE | Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G |
+| [AGM$H](../unmapped/6959ba4a13c9d80e7ab4f6941d9772bb.md) | NYSE | Federal Agricultural Mortgage Corporation 6.500% Non-Cumulative Preferred Stock, Series H |
+| [AGM$I](../unmapped/9250dbb92c03de5ac939b5330bd62630.md) | NYSE | Federal Agricultural Mortgage Corporation 6.875% Non-Cumulative Preferred Stock, Series I |
+| [AHL$D](../unmapped/2cc1c9ca7856b1e7d2deaa71e5d0d2a1.md) | NYSE | Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares |
+| [AHRT$A](../unmapped/e4c4cdeb1183ff2713423834074c9326.md) | NYSE | AH Realty Trust, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock |
+| [AHT$D](../unmapped/cf11d3472a59967b0007f0c64a3290b2.md) | NYSE | Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock |

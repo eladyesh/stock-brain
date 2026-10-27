@@ -4,6 +4,11 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [SKYD](../companies/SKYD/README.md) | Skydance Corp | available, quality gates apply |
+| [SKYE](../companies/SKYE/README.md) | Skye Bioscience, Inc. | available, quality gates apply |
+| [SKYH](../companies/SKYH/README.md) | Sky Harbour Group Corp | available, quality gates apply |
+| [SKYQ](../companies/SKYQ/README.md) | Sky Quarry Inc. | available, quality gates apply |
+| [SKYW](../companies/SKYW/README.md) | SKYWEST INC | available, quality gates apply |
 | [SKYX](../companies/SKYX/README.md) | SKYX Platforms Corp. | available, quality gates apply |
 | [SLAB](../companies/SLAB/README.md) | SILICON LABORATORIES INC. | available, quality gates apply |
 | [SLB](../companies/SLB/README.md) | SLB LIMITED/NV | available, quality gates apply |
@@ -99,8 +104,3 @@
 | [SOUL](../companies/SOUL/README.md) | Soulpower Acquisition Corp. | available, quality gates apply |
 | [SOUN](../companies/SOUN/README.md) | SOUNDHOUND AI, INC. | available, quality gates apply |
 | [SOWG](../companies/SOWG/README.md) | Sow Good Inc. | available, quality gates apply |
-| [SPAI](../companies/SPAI/README.md) | Safe Pro Group Inc. | available, quality gates apply |
-| [SPB](../companies/SPB/README.md) | Spectrum Brands Holdings, Inc. | available, quality gates apply |
-| [SPCB](../companies/SPCB/README.md) | SuperCom Ltd | not available |
-| [SPCE](../companies/SPCE/README.md) | Virgin Galactic Holdings, Inc | available, quality gates apply |
-| [SPCX](../companies/SPCX/README.md) | SPACE EXPLORATION TECHNOLOGIES CORP | available, quality gates apply |

@@ -4,6 +4,12 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [STT, STT$G](../companies/STT/README.md) | STATE STREET CORP | available, quality gates apply |
+| [STTK](../companies/STTK/README.md) | Shattuck Labs, Inc. | available, quality gates apply |
+| [STUB](../companies/STUB/README.md) | StubHub Holdings, Inc. | available, quality gates apply |
+| [STVN](../companies/STVN/README.md) | Stevanato Group S.p.A. | not available |
+| [STX](../companies/STX/README.md) | Seagate Technology Holdings plc | available, quality gates apply |
+| [STXS](../companies/STXS/README.md) | Stereotaxis, Inc. | available, quality gates apply |
 | [STZ](../companies/STZ/README.md) | CONSTELLATION BRANDS, INC. | available, quality gates apply |
 | [SU](../companies/SU/README.md) | SUNCOR ENERGY INC | not available |
 | [SUGP](../companies/SUGP/README.md) | SU Group Holdings Ltd | not available |
@@ -78,6 +84,7 @@
 | [TBBB](../companies/TBBB/README.md) | BBB FOODS INC | not available |
 | [TBBK](../companies/TBBK/README.md) | Bancorp, Inc. | available, quality gates apply |
 | [TBCH](../companies/TBCH/README.md) | Turtle Beach Corp | available, quality gates apply |
+| [TBCV](../companies/TBCV/README.md) | Thunder Bridge Capital Partners V, Ltd. | not available |
 | [TBI](../companies/TBI/README.md) | TrueBlue, Inc. | available, quality gates apply |
 | [TBLA](../companies/TBLA/README.md) | Taboola.com Ltd. | available, quality gates apply |
 | [TBN](../companies/TBN/README.md) | Tamboran Resources Corp | available, quality gates apply |
@@ -97,10 +104,3 @@
 | [TDAC](../companies/TDAC/README.md) | Translational Development Acquisition Corp. | available, quality gates apply |
 | [TDAY](../companies/TDAY/README.md) | USA TODAY Co., Inc. | available, quality gates apply |
 | [TDC](../companies/TDC/README.md) | TERADATA CORP /DE/ | available, quality gates apply |
-| [TDF](../companies/TDF/README.md) | TEMPLETON DRAGON FUND INC | not available |
-| [TDG](../companies/TDG/README.md) | TransDigm Group INC | available, quality gates apply |
-| [TDIC](../companies/TDIC/README.md) | Dreamland Ltd | not available |
-| [TDOC](../companies/TDOC/README.md) | Teladoc Health, Inc. | available, quality gates apply |
-| [TDS, TDS$U, TDS$V](../companies/TDS/README.md) | TELEPHONE & DATA SYSTEMS INC /DE/ | available, quality gates apply |
-| [TDTH](../companies/TDTH/README.md) | Trident Digital Tech Holdings Ltd | not available |
-| [TDUP](../companies/TDUP/README.md) | ThredUp Inc. | available, quality gates apply |

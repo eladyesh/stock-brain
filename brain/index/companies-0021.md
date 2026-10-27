@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [FTCI](../companies/FTCI/README.md) | FTC Solar, Inc. | available, quality gates apply |
+| [FTDR](../companies/FTDR/README.md) | Frontdoor, Inc. | available, quality gates apply |
+| [FTEK](../companies/FTEK/README.md) | FUEL TECH, INC. | available, quality gates apply |
 | [FTF](../companies/FTF/README.md) | FRANKLIN LTD DURATION INCOME TRUST | not available |
 | [FTFT](../companies/FTFT/README.md) | Future FinTech Group Inc. | available, quality gates apply |
 | [FTH](../companies/FTH/README.md) | Faeth Therapeutics, Inc. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [GF](../companies/GF/README.md) | NEW GERMANY FUND INC | not available |
 | [GFAI](../companies/GFAI/README.md) | Guardforce AI Co., Ltd. | not available |
 | [GFF](../companies/GFF/README.md) | GRIFFON CORP | available, quality gates apply |
-| [GFI](../companies/GFI/README.md) | GOLD FIELDS LTD | not available |
-| [GFR](../companies/GFR/README.md) | Greenfire Resources Ltd. | not available |
-| [GFS](../companies/GFS/README.md) | GLOBALFOUNDRIES Inc. | not available |

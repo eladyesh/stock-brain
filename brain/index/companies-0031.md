@@ -4,6 +4,10 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [LOB, LOB$A](../companies/LOB/README.md) | Live Oak Bancshares, Inc. | available, quality gates apply |
+| [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |
+| [LOCL](../companies/LOCL/README.md) | Local Bounti Corporation/DE | available, quality gates apply |
+| [LOCO](../companies/LOCO/README.md) | El Pollo Loco Holdings, Inc. | available, quality gates apply |
 | [LODE](../companies/LODE/README.md) | Comstock Inc. | available, quality gates apply |
 | [LONA](../companies/LONA/README.md) | LeonaBio, Inc. | available, quality gates apply |
 | [LOOP](../companies/LOOP/README.md) | Loop Industries, Inc. | available, quality gates apply |
@@ -69,6 +73,7 @@
 | [LXRX](../companies/LXRX/README.md) | LEXICON PHARMACEUTICALS, INC. | available, quality gates apply |
 | [LXU](../companies/LXU/README.md) | LSB INDUSTRIES, INC. | available, quality gates apply |
 | [LYB](../companies/LYB/README.md) | LyondellBasell Industries N.V. | available, quality gates apply |
+| [LYCA](../companies/LYCA/README.md) | Lycia Therapeutics, Inc. | not available |
 | [LYEL](../companies/LYEL/README.md) | Lyell Immunopharma, Inc. | available, quality gates apply |
 | [LYFT](../companies/LYFT/README.md) | Lyft, Inc. | available, quality gates apply |
 | [LYG](../companies/LYG/README.md) | Lloyds Banking Group plc | not available |
@@ -99,8 +104,3 @@
 | [MANU](../companies/MANU/README.md) | Manchester United plc | not available |
 | [MAR](../companies/MAR/README.md) | MARRIOTT INTERNATIONAL INC /MD/ | available, quality gates apply |
 | [MARA](../companies/MARA/README.md) | MARA Holdings, Inc. | available, quality gates apply |
-| [MAS](../companies/MAS/README.md) | MASCO CORP /DE/ | not available |
-| [MASK](../companies/MASK/README.md) | 3 E Network Technology Group Ltd | not available |
-| [MASS](../companies/MASS/README.md) | 908 Devices Inc. | available, quality gates apply |
-| [MAT](../companies/MAT/README.md) | MATTEL INC /DE/ | available, quality gates apply |
-| [MATH](../companies/MATH/README.md) | Metalpha Technology Holding Ltd | not available |

@@ -8,11 +8,11 @@ tickers:
 - EURK
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -72,8 +72,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
-  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
+  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
+  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002000410.json
@@ -1035,7 +1035,7 @@ Latest 50 filing metadata records of 129 retained records. A filing link is evid
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002000410.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -1155,4 +1155,4 @@ Latest 50 filing metadata records of 129 retained records. A filing link is evid
 
 [S60] [4 0001279891-25-000043](https://www.sec.gov/Archives/edgar/data/2000410/000127989125000043/0001279891-25-000043-index.html) — published 2025-11-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

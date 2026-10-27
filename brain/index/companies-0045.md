@@ -4,6 +4,10 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [RUN](../companies/RUN/README.md) | Sunrun Inc. | available, quality gates apply |
+| [RVI](../companies/RVI/README.md) | Robinhood Ventures Fund I | not available |
+| [RVII](../companies/RVII/README.md) | Robinhood Ventures Fund II | available, quality gates apply |
+| [RVLV](../companies/RVLV/README.md) | Revolve Group, Inc. | available, quality gates apply |
 | [RVMD](../companies/RVMD/README.md) | Revolution Medicines, Inc. | available, quality gates apply |
 | [RVP](../companies/RVP/README.md) | RETRACTABLE TECHNOLOGIES INC | available, quality gates apply |
 | [RVSB](../companies/RVSB/README.md) | RIVERVIEW BANCORP INC | available, quality gates apply |
@@ -74,6 +78,7 @@
 | [SBUX](../companies/SBUX/README.md) | STARBUCKS CORP | available, quality gates apply |
 | [SBXE](../companies/SBXE/README.md) | SilverBox Corp V | available, quality gates apply |
 | [SCAG](../companies/SCAG/README.md) | Scage Future | not available |
+| [SCAT](../companies/SCAT/README.md) | Southern Cross Acquisition II Corp. | not available |
 | [SCCO](../companies/SCCO/README.md) | SOUTHERN COPPER CORP/ | available, quality gates apply |
 | [SCD](../companies/SCD/README.md) | LMP CAPITAL & INCOME FUND INC. | not available |
 | [SCHL](../companies/SCHL/README.md) | SCHOLASTIC CORP | available, quality gates apply |
@@ -99,8 +104,3 @@
 | [SDHC](../companies/SDHC/README.md) | Smith Douglas Homes Corp. | available, quality gates apply |
 | [SDHY](../companies/SDHY/README.md) | PGIM Short Duration High Yield Opportunities Fund | not available |
 | [SDOT](../companies/SDOT/README.md) | Sadot Group Inc. | available, quality gates apply |
-| [SDRL](../companies/SDRL/README.md) | SEADRILL Ltd | available, quality gates apply |
-| [SE](../companies/SE/README.md) | Sea Ltd | not available |
-| [SEAT](../companies/SEAT/README.md) | Vivid Seats Inc. | available, quality gates apply |
-| [SEB](../companies/SEB/README.md) | SEABOARD CORP /DE/ | available, quality gates apply |
-| [SECZ](../companies/SECZ/README.md) | Securitize Corp. | not available |

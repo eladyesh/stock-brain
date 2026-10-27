@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [EZPW](../companies/EZPW/README.md) | EZCORP INC | available, quality gates apply |
+| [EZRA](../companies/EZRA/README.md) | Reliance Global Group, Inc. | available, quality gates apply |
+| [F](../companies/F/README.md) | FORD MOTOR CO | not available |
 | [FA](../companies/FA/README.md) | FIRST ADVANTAGE CORP | available, quality gates apply |
 | [FABC](../companies/FABC/README.md) | Fabric.AI, Inc. | available, quality gates apply |
 | [FAC](../companies/FAC/README.md) | Factorial Energy Inc. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [FIX](../companies/FIX/README.md) | COMFORT SYSTEMS USA INC | available, quality gates apply |
 | [FIZZ](../companies/FIZZ/README.md) | NATIONAL BEVERAGE CORP | available, quality gates apply |
 | [FJDI](../companies/FJDI/README.md) | ARC Group Securities Acquisition I | available, quality gates apply |
-| [FJET](../companies/FJET/README.md) | Starfighters Space, Inc. | available, quality gates apply |
-| [FKWL](../companies/FKWL/README.md) | FRANKLIN WIRELESS CORP | available, quality gates apply |
-| [FLC](../companies/FLC/README.md) | FLAHERTY & CRUMRINE TOTAL RETURN FUND INC | not available |

@@ -4,6 +4,13 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [USAS](../companies/USAS/README.md) | Americas Gold & Silver Corp | not available |
+| [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
+| [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |
+| [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
+| [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |
+| [USEA](../companies/USEA/README.md) | United Maritime Corp | not available |
+| [USFD](../companies/USFD/README.md) | US Foods Holding Corp. | available, quality gates apply |
 | [USGO](../companies/USGO/README.md) | U.S. GoldMining Inc. | available, quality gates apply |
 | [USIO](../companies/USIO/README.md) | Usio, Inc. | available, quality gates apply |
 | [USLM](../companies/USLM/README.md) | UNITED STATES LIME & MINERALS INC | available, quality gates apply |
@@ -97,10 +104,3 @@
 | [VKI](../companies/VKI/README.md) | Invesco Advantage Municipal Income Trust II | not available |
 | [VKQ](../companies/VKQ/README.md) | Invesco Municipal Trust | not available |
 | [VKTX](../companies/VKTX/README.md) | Viking Therapeutics, Inc. | available, quality gates apply |
-| [VLGEA](../companies/VLGEA/README.md) | VILLAGE SUPER MARKET INC | available, quality gates apply |
-| [VLN](../companies/VLN/README.md) | Valens Semiconductor Ltd. | not available |
-| [VLO](../companies/VLO/README.md) | VALERO ENERGY CORP/TX | available, quality gates apply |
-| [VLOS](../companies/VLOS/README.md) | Velos Acquisition I Corp. | available, quality gates apply |
-| [VLRS](../companies/VLRS/README.md) | Controladora Vuela Compania de Aviacion, S.A.B. de C.V. | not available |
-| [VLT](../companies/VLT/README.md) | Invesco High Income Trust II | not available |
-| [VLTO](../companies/VLTO/README.md) | Veralto Corp | not available |

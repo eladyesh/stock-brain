@@ -8,11 +8,11 @@ tickers:
 - HAIN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -73,8 +73,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
-  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
+  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
+  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000910406.json
@@ -465,6 +465,54 @@ sources:
   published_at: '2025-10-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312526430619/hain-20260630.htm
+  title: 10-K/A 0001193125-26-430619
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:42:12.525026+00:00'
+  sha256: 0f03bff1a8fd7b95b98dbead29f41fc5d1ff324f0b2de484624779bece42f177
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312526422226/hain-20261009.htm
+  title: 8-K 0001193125-26-422226
+  published_at: '2026-10-15'
+  retrieved_at: '2026-10-27T15:42:10.707008+00:00'
+  sha256: 823f1eedec1981fcf082831c77618a6e47115902ef8d5bdebdc9ea92e912d938
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312526390505/hain-20260630.htm
+  title: 10-K 0001193125-26-390505
+  published_at: '2026-09-14'
+  retrieved_at: '2026-10-27T15:42:07.843819+00:00'
+  sha256: 2bbf7e381d0bfe402a4b88ccc8e64fefc77bc26ca12c5b269db7aa4285d77974
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312526216701/hain-20260331.htm
+  title: 10-Q 0001193125-26-216701
+  published_at: '2026-05-11'
+  retrieved_at: '2026-10-27T15:42:05.190227+00:00'
+  sha256: b58a63954ac6dd47b75ed84a448cac2b5138469befd0ee34361937861bb8afd6
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312525207370/hain-20250918.htm
+  title: DEF 14A 0001193125-25-207370
+  published_at: '2025-09-18'
+  retrieved_at: '2026-10-27T15:42:03.141694+00:00'
+  sha256: 2c1194323b0c2df3c5eb1565b785f02b8cfc2d74e5e4ba2558a5821c4fd203f7
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/910406/000091040613000002/hain8ka-11013premieracquis.htm
+  title: 8-K/A 0000910406-13-000002
+  published_at: '2013-01-11'
+  retrieved_at: '2026-10-27T15:42:01.406403+00:00'
+  sha256: 19d04f39d855430e7e7478808c68feb40c85b002beda8e8ccebed6a20702bf09
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/910406/000091040612000015/hain8-kax20121120annualmee.htm
+  title: 8-K/A 0000910406-12-000015
+  published_at: '2012-11-21'
+  retrieved_at: '2026-10-27T15:41:59.665978+00:00'
+  sha256: 436225f1e07b729c9e29b24e97bf7cccf8bc7dffcc86c2b680bfb8383d2d123b
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/910406/000119312512120001/d318007d8ka.htm
+  title: 8-K/A 0001193125-12-120001
+  published_at: '2012-03-16'
+  retrieved_at: '2026-10-27T15:41:58.012641+00:00'
+  sha256: fb7ab6f26ba4680d791e82d62876b66c01031ceb05c82b19340f095f2af6094c
 issuer_classification:
   cik: 0000910406
   classification_status: reported_sic
@@ -519,13 +567,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/910406/000119312512120001/0001193125-12-120001-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4f0de1cc74d17be7f61ed5e9bfa17fe52ca081f9f76af95880b1e71c84e285f1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -549,17 +608,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-09-14, L339:
+
+> Risks and uncertainties that may cause actual results to differ materially from forward-looking statements include: compliance with our credit agreement and our ability to refinance, retire and/or extend the maturity of our existing debt; our ability to execute our business strategy; our ability to complete the pending sale of our International business and manage the challenges and uncertainty facing our remaining business following the sale; challenges and uncertainty resulting from the impact of competition; changes to consumer preferences; our ability to manage our supply chain effectively; input cost inflation, including as a result of tariffs; reliance on independent contract manufacturers; disruption of operations at our manufacturing facilities; customer concentration; reliance on independent distributors; risks associated with operating internationally; risks associated with outsourcing arrangements; risks associated with geopolitical conflicts or events; our reliance on independent certification for a number of our products; our ability to attract and retain highly skilled people; risks related to tax matters; foreign currency exchange risk; general economic conditions; impairments in the carrying value of goodwill or other intangible assets; the reputation of our company and our brands; our ability to use and protect trademarks; cybersecurity incidents; disruptions … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-09-14, L362:
+
+> We continuously evaluate our existing products for quality, taste, nutritional value and cost and make improvements where possible. We discontinue products or stock keeping units when sales of those items do not warrant further production. The following section details the various products that are categorized under distinct brands corresponding to our reportable segments. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-09-14, L339:
+
+> Risks and uncertainties that may cause actual results to differ materially from forward-looking statements include: compliance with our credit agreement and our ability to refinance, retire and/or extend the maturity of our existing debt; our ability to execute our business strategy; our ability to complete the pending sale of our International business and manage the challenges and uncertainty facing our remaining business following the sale; challenges and uncertainty resulting from the impact of competition; changes to consumer preferences; our ability to manage our supply chain effectively; input cost inflation, including as a result of tariffs; reliance on independent contract manufacturers; disruption of operations at our manufacturing facilities; customer concentration; reliance on independent distributors; risks associated with operating internationally; risks associated with outsourcing arrangements; risks associated with geopolitical conflicts or events; our reliance on independent certification for a number of our products; our ability to attract and retain highly skilled people; risks related to tax matters; foreign currency exchange risk; general economic conditions; impairments in the carrying value of goodwill or other intangible assets; the reputation of our company and our brands; our ability to use and protect trademarks; cybersecurity incidents; disruptions … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-09-14, L339:
+
+> Risks and uncertainties that may cause actual results to differ materially from forward-looking statements include: compliance with our credit agreement and our ability to refinance, retire and/or extend the maturity of our existing debt; our ability to execute our business strategy; our ability to complete the pending sale of our International business and manage the challenges and uncertainty facing our remaining business following the sale; challenges and uncertainty resulting from the impact of competition; changes to consumer preferences; our ability to manage our supply chain effectively; input cost inflation, including as a result of tariffs; reliance on independent contract manufacturers; disruption of operations at our manufacturing facilities; customer concentration; reliance on independent distributors; risks associated with operating internationally; risks associated with outsourcing arrangements; risks associated with geopolitical conflicts or events; our reliance on independent certification for a number of our products; our ability to attract and retain highly skilled people; risks related to tax matters; foreign currency exchange risk; general economic conditions; impairments in the carrying value of goodwill or other intangible assets; the reputation of our company and our brands; our ability to use and protect trademarks; cybersecurity incidents; disruptions … [S69]
 
 ## Industry and value chain
 
@@ -567,17 +642,33 @@ SEC-reported SIC **2000**: Food and Kindred Products. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K/A, filed 2026-10-23, L274:
+
+> Lee A. Boyce has served as our Chief Financial Officer since September 2023. Prior to joining the Company, Mr. Boyce served as Chief Financial Officer of Hearthside Food Solutions LLC, an international contract manufacturer and bakery, from September 2021 to September 2023 with responsibility for the company’s finance, global systems, procurement and legal organizations. Prior to Hearthside, Mr. Boyce served as CFO, Executive Vice-President of WernerCo, an international manufacturer and distributor of climbing products and systems, fall protection equipment, jobsite storage and commercial vehicle storage, from January 2019 to August 2021 with responsibility for the company’s financial and IT organizations. Prior to WernerCo, Mr. Boyce served as CFO, Senior Vice-President of American Hotel Register Company, the largest global supplier to the hospitality industry, from 2015 to January 2019, heading its finance, strategy, analytics, sales operations and IT departments. Prior to that, Mr. Boyce served in various finance roles of increasing responsibility in commercial, strategy, supply chain, and transformation at Mondelēz International / Kraft Heinz from 1995 to 2015, most recently as CFO, Vice-President of Finance, Beverages from 2013 to 2015. Mr. Boyce began his career at Ernst & Young as a Senior Auditor and Management Consultant. Mr. Boyce is a Certified Public Accountant, a … [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-09-14, L339:
+
+> Risks and uncertainties that may cause actual results to differ materially from forward-looking statements include: compliance with our credit agreement and our ability to refinance, retire and/or extend the maturity of our existing debt; our ability to execute our business strategy; our ability to complete the pending sale of our International business and manage the challenges and uncertainty facing our remaining business following the sale; challenges and uncertainty resulting from the impact of competition; changes to consumer preferences; our ability to manage our supply chain effectively; input cost inflation, including as a result of tariffs; reliance on independent contract manufacturers; disruption of operations at our manufacturing facilities; customer concentration; reliance on independent distributors; risks associated with operating internationally; risks associated with outsourcing arrangements; risks associated with geopolitical conflicts or events; our reliance on independent certification for a number of our products; our ability to attract and retain highly skilled people; risks related to tax matters; foreign currency exchange risk; general economic conditions; impairments in the carrying value of goodwill or other intangible assets; the reputation of our company and our brands; our ability to use and protect trademarks; cybersecurity incidents; disruptions … [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K/A, filed 2026-10-23, L307:
+
+> Kristy M. Meringolo has served as head of our Legal Department since April 2018 and as Corporate Secretary since May 2019. She has had the title of Chief Legal and Corporate Affairs Officer and Corporate Secretary since February 2023. She previously held the titles of Executive Vice President, General Counsel, Corporate Secretary and Chief Compliance Officer from August 2021 to February 2023; Senior Vice President, General Counsel, Corporate Secretary and Chief Compliance Officer from May 2019 to August 2021; Senior Vice President, General Counsel and Chief Compliance Officer from April 2018 to May 2019; and Senior Vice President, Senior Litigation Counsel and Chief Compliance Officer from April 2017 to April 2018. Ms. Meringolo oversees all legal and corporate affairs of the Company, including corporate compliance initiatives, and she serves as the executive sponsor for the Company’s corporate Impact program. Prior to joining the Company, from 2011 to April 2017, Ms. Meringolo worked at Avon Products, Inc. in a series of roles of increasing responsibility, with her most recent role as Vice President, Associate General Counsel, Litigation, Marketing and Intellectual Property where she oversaw legal responsibilities for a variety of matters including litigation, government investigations and providing counsel to the Ethics and Compliance team. Previously, Ms. Meringolo was an … [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K/A, filed 2026-10-23, L258:
+
+> Alison E. Lewis was appointed President and Chief Executive Officer in December 2025, after serving as Interim President and Chief Executive Officer since May 2025. Ms. Lewis has served as a director since September 2024. Ms. Lewis is a 35-year veteran of the consumer packaged goods industry with extensive leadership experience driving innovation-led growth, brand development, commercial transformation and business performance across global organizations. She served as Chief Growth Officer of Kimberly-Clark Corporation from 2019 to 2024, where she led the company’s growth strategy across its four categories and oversaw marketing, innovation, sales and commercial transformation initiatives. Prior to Kimberly-Clark, Ms. Lewis served as Chief Marketing Officer of Johnson & Johnson Family of Consumer Companies from 2013 to 2019. Before joining Johnson & Johnson, she served as Senior Vice President and Chief Marketing Officer, North America, at The Coca-Cola Company. Ms. Lewis began her career at Kraft General Foods and has held leadership positions in both domestic and international roles at Kraft General Foods, The Coca-Cola Company, Johnson & Johnson and Kimberly-Clark. Her experience spans consumer insight, brand building, innovation, sales, digital commerce, portfolio transformation and large-scale organizational change. Ms. Lewis provides significant expertise in consumer … [S67]
 
 ## Financial performance
 
@@ -1192,6 +1283,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K/A, filed 2026-10-23, L121:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1204,6 +1299,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-09-14, L339:
+
+> Risks and uncertainties that may cause actual results to differ materially from forward-looking statements include: compliance with our credit agreement and our ability to refinance, retire and/or extend the maturity of our existing debt; our ability to execute our business strategy; our ability to complete the pending sale of our International business and manage the challenges and uncertainty facing our remaining business following the sale; challenges and uncertainty resulting from the impact of competition; changes to consumer preferences; our ability to manage our supply chain effectively; input cost inflation, including as a result of tariffs; reliance on independent contract manufacturers; disruption of operations at our manufacturing facilities; customer concentration; reliance on independent distributors; risks associated with operating internationally; risks associated with outsourcing arrangements; risks associated with geopolitical conflicts or events; our reliance on independent certification for a number of our products; our ability to attract and retain highly skilled people; risks related to tax matters; foreign currency exchange risk; general economic conditions; impairments in the carrying value of goodwill or other intangible assets; the reputation of our company and our brands; our ability to use and protect trademarks; cybersecurity incidents; disruptions … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1213,25 +1312,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1296,9 +1395,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-10-30 | 4 | 0001193125-25-258494 | — | [S65] |
 | 2025-10-30 | 4 | 0001193125-25-258489 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2025-09-18, L3318:
+
+> Based on the Company’s budget for fiscal year 2025, the Compensation Committee established a range of goals for adjusted EBITDA and organic net sales and the associated payout percentages with respect to the 2025 AIP. In developing the goals, the Compensation Committee carefully evaluated then-current and expected business conditions, including factors such as (1) increasing market competition for our products, (2) supply chain pressures, and (3) our evolving business strategy. The target goal for adjusted EBITDA was set at $164.6 million, 6.5% above fiscal year 2024 performance. After adjustments for items excluded from organic net sales during the year, the target goal for organic net sales was $1,637.7 million, 6.0% above fiscal year 2024 organic net sales performance. The Compensation Committee determined that the fiscal year 2025 target goals were rigorous and challenging in light of then-current business conditions. [S71]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000910406.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1430,4 +1533,20 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [4 0001193125-25-258489](https://www.sec.gov/Archives/edgar/data/910406/000119312525258489/0001193125-25-258489-index.html) — published 2025-10-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [10-K/A 0001193125-26-430619](https://www.sec.gov/Archives/edgar/data/910406/000119312526430619/hain-20260630.htm) — published 2026-10-23; retrieved 2026-10-27T15:42:12.525026+00:00.
+
+[S68] [8-K 0001193125-26-422226](https://www.sec.gov/Archives/edgar/data/910406/000119312526422226/hain-20261009.htm) — published 2026-10-15; retrieved 2026-10-27T15:42:10.707008+00:00.
+
+[S69] [10-K 0001193125-26-390505](https://www.sec.gov/Archives/edgar/data/910406/000119312526390505/hain-20260630.htm) — published 2026-09-14; retrieved 2026-10-27T15:42:07.843819+00:00.
+
+[S70] [10-Q 0001193125-26-216701](https://www.sec.gov/Archives/edgar/data/910406/000119312526216701/hain-20260331.htm) — published 2026-05-11; retrieved 2026-10-27T15:42:05.190227+00:00.
+
+[S71] [DEF 14A 0001193125-25-207370](https://www.sec.gov/Archives/edgar/data/910406/000119312525207370/hain-20250918.htm) — published 2025-09-18; retrieved 2026-10-27T15:42:03.141694+00:00.
+
+[S72] [8-K/A 0000910406-13-000002](https://www.sec.gov/Archives/edgar/data/910406/000091040613000002/hain8ka-11013premieracquis.htm) — published 2013-01-11; retrieved 2026-10-27T15:42:01.406403+00:00.
+
+[S73] [8-K/A 0000910406-12-000015](https://www.sec.gov/Archives/edgar/data/910406/000091040612000015/hain8-kax20121120annualmee.htm) — published 2012-11-21; retrieved 2026-10-27T15:41:59.665978+00:00.
+
+[S74] [8-K/A 0001193125-12-120001](https://www.sec.gov/Archives/edgar/data/910406/000119312512120001/d318007d8ka.htm) — published 2012-03-16; retrieved 2026-10-27T15:41:58.012641+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

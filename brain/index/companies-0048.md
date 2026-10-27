@@ -4,6 +4,11 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [SPAI](../companies/SPAI/README.md) | Safe Pro Group Inc. | available, quality gates apply |
+| [SPB](../companies/SPB/README.md) | Spectrum Brands Holdings, Inc. | available, quality gates apply |
+| [SPCB](../companies/SPCB/README.md) | SuperCom Ltd | not available |
+| [SPCE](../companies/SPCE/README.md) | Virgin Galactic Holdings, Inc | available, quality gates apply |
+| [SPCX](../companies/SPCX/README.md) | SPACE EXPLORATION TECHNOLOGIES CORP | available, quality gates apply |
 | [SPE](../companies/SPE/README.md) | SPECIAL OPPORTUNITIES FUND, INC. | not available |
 | [SPEG](../companies/SPEG/README.md) | Silver Pegasus Acquisition Corp. | available, quality gates apply |
 | [SPFI](../companies/SPFI/README.md) | SOUTH PLAINS FINANCIAL, INC. | available, quality gates apply |
@@ -43,6 +48,7 @@
 | [SRPT](../companies/SRPT/README.md) | Sarepta Therapeutics, Inc. | available, quality gates apply |
 | [SRRK](../companies/SRRK/README.md) | Scholar Rock Holding Corp | available, quality gates apply |
 | [SRTA](../companies/SRTA/README.md) | Strata Critical Medical, Inc. | available, quality gates apply |
+| [SRTM](../companies/SRTM/README.md) | Stratum Holdings Corp. | not available |
 | [SRTS](../companies/SRTS/README.md) | Sensus Healthcare, Inc. | available, quality gates apply |
 | [SRV](../companies/SRV/README.md) | NXG Cushing Midstream Energy Fund | not available |
 | [SRXH](../companies/SRXH/README.md) | SRX Global Inc. | available, quality gates apply |
@@ -98,9 +104,3 @@
 | [STRT](../companies/STRT/README.md) | STRATTEC SECURITY CORP | available, quality gates apply |
 | [STRW](../companies/STRW/README.md) | Strawberry Fields REIT, Inc. | available, quality gates apply |
 | [STRZ](../companies/STRZ/README.md) | STARZ ENTERTAINMENT CORP /CN/ | available, quality gates apply |
-| [STT, STT$G](../companies/STT/README.md) | STATE STREET CORP | available, quality gates apply |
-| [STTK](../companies/STTK/README.md) | Shattuck Labs, Inc. | available, quality gates apply |
-| [STUB](../companies/STUB/README.md) | StubHub Holdings, Inc. | available, quality gates apply |
-| [STVN](../companies/STVN/README.md) | Stevanato Group S.p.A. | not available |
-| [STX](../companies/STX/README.md) | Seagate Technology Holdings plc | available, quality gates apply |
-| [STXS](../companies/STXS/README.md) | Stereotaxis, Inc. | available, quality gates apply |

@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [ARQ](../companies/ARQ/README.md) | Arq, Inc. | available, quality gates apply |
 | [ARQQ](../companies/ARQQ/README.md) | Arqit Quantum Inc. | not available |
 | [ARQT](../companies/ARQT/README.md) | Arcutis Biotherapeutics, Inc. | available, quality gates apply |
 | [ARR](../companies/ARR/README.md) | Armour Residential REIT, Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [AVAV](../companies/AVAV/README.md) | AeroVironment Inc | available, quality gates apply |
 | [AVBC](../companies/AVBC/README.md) | Avidia Bancorp, Inc. | available, quality gates apply |
 | [AVBH](../companies/AVBH/README.md) | Avidbank Holdings, Inc. | available, quality gates apply |
-| [AVBP](../companies/AVBP/README.md) | ArriVent BioPharma, Inc. | available, quality gates apply |

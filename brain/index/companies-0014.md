@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [CTM](../companies/CTM/README.md) | Castellum, Inc. | available, quality gates apply |
 | [CTMX](../companies/CTMX/README.md) | CytomX Therapeutics, Inc. | available, quality gates apply |
 | [CTNM](../companies/CTNM/README.md) | Contineum Therapeutics, Inc. | available, quality gates apply |
 | [CTNT](../companies/CTNT/README.md) | CHEETAH NET SUPPLY CHAIN SERVICE INC. | available, quality gates apply |
@@ -93,6 +94,7 @@
 | [DASH](../companies/DASH/README.md) | DoorDash, Inc. | available, quality gates apply |
 | [DAVA](../companies/DAVA/README.md) | Endava plc | not available |
 | [DAVE](../companies/DAVE/README.md) | Dave Inc./DE | available, quality gates apply |
+| [DAVI](../companies/DAVI/README.md) | DAVION HEALTHCARE PLC | not available |
 | [DBCA](../companies/DBCA/README.md) | D. Boral Acquisition I Corp. | available, quality gates apply |
 | [DBD](../companies/DBD/README.md) | DIEBOLD NIXDORF, Inc | available, quality gates apply |
 | [DBGI](../companies/DBGI/README.md) | Digital Brands Group, Inc. | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [DBX](../companies/DBX/README.md) | DROPBOX, INC. | available, quality gates apply |
 | [DC](../companies/DC/README.md) | Dakota Gold Corp. | available, quality gates apply |
 | [DCBO](../companies/DCBO/README.md) | Docebo Inc. | not available |
-| [DCGO](../companies/DCGO/README.md) | DocGo Inc. | available, quality gates apply |
-| [DCH](../companies/DCH/README.md) | Dauch Corp | available, quality gates apply |

@@ -66,6 +66,7 @@
 | [APUS](../companies/APUS/README.md) | Apimeds Pharmaceuticals US, Inc. | available, quality gates apply |
 | [APVO](../companies/APVO/README.md) | Aptevo Therapeutics Inc. | available, quality gates apply |
 | [APWC](../companies/APWC/README.md) | ASIA PACIFIC WIRE & CABLE CORP LTD | not available |
+| [APXC](../companies/APXC/README.md) | APEX CRITICAL METALS CORP. | not available |
 | [APXT](../companies/APXT/README.md) | Apex Treasury Corp | available, quality gates apply |
 | [APYX](../companies/APYX/README.md) | Apyx Medical Corp | available, quality gates apply |
 | [AQB](../companies/AQB/README.md) | AQUABOUNTY TECHNOLOGIES INC | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [ARMP](../companies/ARMP/README.md) | Armata Pharmaceuticals, Inc. | available, quality gates apply |
 | [AROC](../companies/AROC/README.md) | Archrock, Inc. | available, quality gates apply |
 | [AROW](../companies/AROW/README.md) | ARROW FINANCIAL CORP | available, quality gates apply |
-| [ARQ](../companies/ARQ/README.md) | Arq, Inc. | available, quality gates apply |

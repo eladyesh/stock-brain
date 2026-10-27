@@ -8,11 +8,11 @@ tickers:
 - GLDG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -55,8 +55,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.806354+00:00'
-  sha256: 13932af456c860d259c16604472ab685dab69d880fb71eb6d5b53159497eb520
+  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
+  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001538847.json
@@ -363,6 +363,30 @@ sources:
   published_at: '2025-05-28'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926033327/gldmn20261022_6k.htm
+  title: 6-K 0001437749-26-033327
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:39:46.313336+00:00'
+  sha256: e250fca09f510b4f026acaa762a16119026b12a3541abada3c3651e22c231ff1
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774926006120/gldmn20251130_40f.htm
+  title: 40-F 0001437749-26-006120
+  published_at: '2026-02-27'
+  retrieved_at: '2026-10-27T15:39:44.710654+00:00'
+  sha256: 16ed07be8eaace8f3b7999f587aaf48e21a1472dec3412c2322b0dbaf5b6c5a1
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774924014415/gldmn20240502_6ka.htm
+  title: 6-K/A 0001437749-24-014415
+  published_at: '2024-05-03'
+  retrieved_at: '2026-10-27T15:39:43.013907+00:00'
+  sha256: d1b442e5bed145440db8dd197a9efdbd86309b2bf0d2fe01d545a3ad1e595edf
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1538847/000143774922004908/gldmn20211130_40fa.htm
+  title: 40-F/A 0001437749-22-004908
+  published_at: '2022-03-01'
+  retrieved_at: '2026-10-27T15:39:41.378603+00:00'
+  sha256: 32add8791e705f0a2f63f4abc6037b5ad0bd750545c486bd45451156ed4d3391
 issuer_classification:
   cik: 0001538847
   classification_status: reported_sic
@@ -398,13 +422,16 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1538847/000143774924014415/0001437749-24-014415-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 69eaa5014e3c65877a83cc15e1daf86b4cfa498d413b351a10cca77134c89bf3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -427,6 +454,10 @@ The directory links the following current stock listings to this issuer. Classif
 | GLDG | NYSE_AMERICAN | common_stock | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+Source excerpt — 40-F, filed 2026-02-27, L131:
+
+> Attestation report of the registered public accounting firm. In accordance with the United States Jumpstart Our Business Startup Act (the “JOBS Act”), the Company qualifies as an “emerging growth company” (an “EGC”), which entitles the Company to take advantage of certain exemptions from various reporting requirements. Specifically, the JOBS Act defers the requirement to have the Company’s independent auditor assess the Company’s internal controls over financial reporting under Section 404(b) of the Sarbanes-Oxley Act for so long as the Company remains an EGC. Accordingly, this Annual Report on Form 40-F does not include an attestation report of the Company’s registered public accounting firm due to the Company’s status as an EGC. [S54]
 
 ## Revenue model and segments
 
@@ -470,6 +501,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-02-27, L79:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -494,9 +529,9 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
@@ -506,13 +541,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -577,9 +612,13 @@ Latest 50 filing metadata records of 212 retained records. A filing link is evid
 | 2025-06-03 | 6-K | 0001437749-25-019216 | — | [S51] |
 | 2025-05-28 | 6-K | 0001437749-25-018579 | — | [S52] |
 
+Source excerpt — 40-F, filed 2026-02-27, L83:
+
+> This Annual Report on Form 40-F and the exhibits attached hereto may contain certain forward-looking information and statements, including statements relating to matters that are not historical facts and statements of our beliefs, intentions and expectations about developments, results and events which will or may occur in the future, including “forward-looking statements,” within the meaning of the “safe harbor” provisions of the United States Private Securities Litigation Reform Act of 1995, as amended, collectively referred to as “forward-looking statements.” The forward-looking statements contained in this Annual Report on Form 40-F are made only as of the date hereof. The forward-looking statements contained in the exhibits incorporated by reference into this Annual Report on Form 40-F are made only as of the respective dates set forth in such exhibits. The Company does not have, or undertake, any obligation to update or revise any forward-looking statements whether as a result of new information, subsequent events or otherwise, unless otherwise required by law. [S54]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.806354+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001538847.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -683,4 +722,12 @@ Latest 50 filing metadata records of 212 retained records. A filing link is evid
 
 [S52] [6-K 0001437749-25-018579](https://www.sec.gov/Archives/edgar/data/1538847/000143774925018579/0001437749-25-018579-index.html) — published 2025-05-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001437749-26-033327](https://www.sec.gov/Archives/edgar/data/1538847/000143774926033327/gldmn20261022_6k.htm) — published 2026-10-23; retrieved 2026-10-27T15:39:46.313336+00:00.
+
+[S54] [40-F 0001437749-26-006120](https://www.sec.gov/Archives/edgar/data/1538847/000143774926006120/gldmn20251130_40f.htm) — published 2026-02-27; retrieved 2026-10-27T15:39:44.710654+00:00.
+
+[S55] [6-K/A 0001437749-24-014415](https://www.sec.gov/Archives/edgar/data/1538847/000143774924014415/gldmn20240502_6ka.htm) — published 2024-05-03; retrieved 2026-10-27T15:39:43.013907+00:00.
+
+[S56] [40-F/A 0001437749-22-004908](https://www.sec.gov/Archives/edgar/data/1538847/000143774922004908/gldmn20211130_40fa.htm) — published 2022-03-01; retrieved 2026-10-27T15:39:41.378603+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

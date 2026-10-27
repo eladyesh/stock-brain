@@ -4,6 +4,11 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MGX](../companies/MGX/README.md) | Metagenomi Therapeutics, Inc. | available, quality gates apply |
+| [MGY](../companies/MGY/README.md) | Magnolia Oil & Gas Corp | available, quality gates apply |
+| [MGYR](../companies/MGYR/README.md) | Magyar Bancorp, Inc. | available, quality gates apply |
+| [MH](../companies/MH/README.md) | McGraw Hill, Inc. | available, quality gates apply |
+| [MHD](../companies/MHD/README.md) | BLACKROCK MUNIHOLDINGS FUND, INC. | not available |
 | [MHF](../companies/MHF/README.md) | WESTERN ASSET MUNICIPAL HIGH INCOME FUND INC. | not available |
 | [MHH](../companies/MHH/README.md) | Mastech Digital, Inc. | available, quality gates apply |
 | [MHK](../companies/MHK/README.md) | MOHAWK INDUSTRIES INC | available, quality gates apply |
@@ -99,8 +104,3 @@
 | [MPTI](../companies/MPTI/README.md) | M-tron Industries, Inc. | available, quality gates apply |
 | [MPU](../companies/MPU/README.md) | Mega Matrix Inc | not available |
 | [MPV](../companies/MPV/README.md) | BARINGS PARTICIPATION INVESTORS | not available |
-| [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
-| [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
-| [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
-| [MRAM](../companies/MRAM/README.md) | EVERSPIN TECHNOLOGIES INC. | available, quality gates apply |
-| [MRBK](../companies/MRBK/README.md) | Meridian Corp | available, quality gates apply |

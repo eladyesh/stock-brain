@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [HCM](../companies/HCM/README.md) | HUTCHMED (China) Ltd | not available |
+| [HCMA](../companies/HCMA/README.md) | HCM III ACQUISITION CORP. | available, quality gates apply |
+| [HCSG](../companies/HCSG/README.md) | HEALTHCARE SERVICES GROUP INC | available, quality gates apply |
 | [HCTI](../companies/HCTI/README.md) | Healthcare Triangle, Inc. | available, quality gates apply |
 | [HCWB](../companies/HCWB/README.md) | HCW Biologics Inc. | available, quality gates apply |
 | [HD](../companies/HD/README.md) | HOME DEPOT, INC. | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [HRB](../companies/HRB/README.md) | H&R BLOCK INC | available, quality gates apply |
 | [HRI](../companies/HRI/README.md) | HERC HOLDINGS INC | available, quality gates apply |
 | [HRL](../companies/HRL/README.md) | HORMEL FOODS CORP /DE/ | available, quality gates apply |
-| [HRMY](../companies/HRMY/README.md) | Harmony Biosciences Holdings, Inc. | available, quality gates apply |
-| [HROW](../companies/HROW/README.md) | HARROW, INC. | available, quality gates apply |
-| [HRTG](../companies/HRTG/README.md) | Heritage Insurance Holdings, Inc. | available, quality gates apply |

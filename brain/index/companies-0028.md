@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [JBS](../companies/JBS/README.md) | JBS N.V. | not available |
+| [JBTM](../companies/JBTM/README.md) | JBT MAREL Corp | available, quality gates apply |
+| [JCAP](../companies/JCAP/README.md) | Jefferson Capital, Inc. / DE | available, quality gates apply |
 | [JCE](../companies/JCE/README.md) | Nuveen Core Equity Alpha Fund | not available |
 | [JCI](../companies/JCI/README.md) | Johnson Controls International plc | not available |
 | [JCSE](../companies/JCSE/README.md) | JE Cleantech Holdings Ltd | not available |
@@ -101,6 +104,3 @@
 | [KIDS](../companies/KIDS/README.md) | ORTHOPEDIATRICS CORP | available, quality gates apply |
 | [KIDZ](../companies/KIDZ/README.md) | KIDZ AI Inc. | available, quality gates apply |
 | [KIM$L, KIM$M, KIM$N](../companies/KIM_24L/README.md) | KIMCO REALTY CORP | available, quality gates apply |
-| [KINS](../companies/KINS/README.md) | KINGSTONE COMPANIES, INC. | available, quality gates apply |
-| [KIO](../companies/KIO/README.md) | KKR Income Opportunities Fund | not available |
-| [KITT](../companies/KITT/README.md) | Nauticus Robotics, Inc. | available, quality gates apply |

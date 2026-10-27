@@ -22,7 +22,6 @@
 | [AMRN](../unmapped/91847ff1db99ade7dbde258d44127730.md) | NASDAQ | Amarin Corporation plc - American Depositary Shares |
 | [API](../unmapped/b50e6e49861f7326cd430ce3a856d3aa.md) | NASDAQ | Agora, Inc. - ADS |
 | [APMCR](../unmapped/9ee5104779294667218652048228bc47.md) | NASDAQ | AmperCap Acquisition Company - Right |
-| [APXC](../unmapped/7aa28397bfff75030ea244b5ab669b3f.md) | NASDAQ | Apex Critical Metals Corp. - American Depositary Shares |
 | [ARCC](../unmapped/625dd2ae0a5e471bc111646c527c4670.md) | NASDAQ | Ares Capital Corporation - Closed End Fund |
 | [ARCLR](../unmapped/52e22d91a45de0b5e988d76ec46449ed.md) | NASDAQ | ARC Group Acquisition I Corp - Right |
 | [ASML](../unmapped/cc66dc698b51dfd0becd6f7663fd7fed.md) | NASDAQ | ASML Holding N.V. - New York Registry Shares |
@@ -60,7 +59,6 @@
 | [CRAQR](../unmapped/09c177ee75d269ee51d3d1a328243dc2.md) | NASDAQ | Cal Redwood Acquisition Corp. - Right |
 | [CRESY](../unmapped/bf4c41b184b443c1b5f2e17630dfae55.md) | NASDAQ | Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common Stock |
 | [CSQ](../unmapped/44e97082cb16293d14e8ee1f9d5e46c4.md) | NASDAQ | Calamos Strategic Total Return Fund - Closed End Fund |
-| [DAVI](../unmapped/f00ba537a51527b843099b9a7d2c61cf.md) | NASDAQ | Davion Healthcare Plc - Ordinary Shares |
 | [DIOD](../unmapped/a59b63aceac7a24e81acdc71182d7d3e.md) | NASDAQ | Diodes Incorporated - Common Stock |
 | [DJCO](../unmapped/18a928d241f59aa2783d8e25bf28d6f9.md) | NASDAQ | Daily Journal Corp. (S.C.) - Common Stock |
 | [DMIIR](../unmapped/69182127765bde2a4da27ae95153d566.md) | NASDAQ | Drugs Made In America Acquisition II Corp. - Right |
@@ -104,3 +102,5 @@
 | [INACR](../unmapped/1e331951916005edf547f490138cc581.md) | NASDAQ | Indigo Acquisition Corp. - Right |
 | [IPXG](../unmapped/2629f2ad138f0a3fa8f8ee0cf4d6dc11.md) | NASDAQ | Inection Point Acquisition Corp. VII  - Class A Ordinary Shares |
 | [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
+| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |

@@ -4,6 +4,11 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
+| [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
+| [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
+| [MRAM](../companies/MRAM/README.md) | EVERSPIN TECHNOLOGIES INC. | available, quality gates apply |
+| [MRBK](../companies/MRBK/README.md) | Meridian Corp | available, quality gates apply |
 | [MRCO](../companies/MRCO/README.md) | Mercator Acquisition Corp. | available, quality gates apply |
 | [MRCY](../companies/MRCY/README.md) | MERCURY SYSTEMS INC | available, quality gates apply |
 | [MRDN](../companies/MRDN/README.md) | Meridian Holdings Inc./NV | available, quality gates apply |
@@ -33,7 +38,6 @@
 | [MSFT](../companies/MSFT/README.md) | MICROSOFT CORP | available, quality gates apply |
 | [MSGE](../companies/MSGE/README.md) | Madison Square Garden Entertainment Corp. | available, quality gates apply |
 | [MSGM](../companies/MSGM/README.md) | Motorsport Games Inc. | available, quality gates apply |
-| [MSGS](../companies/MSGS/README.md) | Madison Square Garden Sports Corp. | available, quality gates apply |
 | [MSGY](../companies/MSGY/README.md) | Masonglory Ltd | not available |
 | [MSI](../companies/MSI/README.md) | Motorola Solutions, Inc. | available, quality gates apply |
 | [MSIF](../companies/MSIF/README.md) | MSC INCOME FUND, INC. | available, quality gates apply |
@@ -100,7 +104,3 @@
 | [MYO](../companies/MYO/README.md) | MYOMO, INC. | available, quality gates apply |
 | [MYPS](../companies/MYPS/README.md) | PLAYSTUDIOS, Inc. | available, quality gates apply |
 | [MYRG](../companies/MYRG/README.md) | MYR GROUP INC. | available, quality gates apply |
-| [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |
-| [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
-| [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |
-| [MZTI](../companies/MZTI/README.md) | MARZETTI CO | available, quality gates apply |

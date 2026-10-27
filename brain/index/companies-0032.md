@@ -4,6 +4,11 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MAS](../companies/MAS/README.md) | MASCO CORP /DE/ | not available |
+| [MASK](../companies/MASK/README.md) | 3 E Network Technology Group Ltd | not available |
+| [MASS](../companies/MASS/README.md) | 908 Devices Inc. | available, quality gates apply |
+| [MAT](../companies/MAT/README.md) | MATTEL INC /DE/ | available, quality gates apply |
+| [MATH](../companies/MATH/README.md) | Metalpha Technology Holding Ltd | not available |
 | [MATV](../companies/MATV/README.md) | Mativ Holdings, Inc. | available, quality gates apply |
 | [MATW](../companies/MATW/README.md) | MATTHEWS INTERNATIONAL CORP | available, quality gates apply |
 | [MATX](../companies/MATX/README.md) | Matson, Inc. | available, quality gates apply |
@@ -99,8 +104,3 @@
 | [MGRT](../companies/MGRT/README.md) | Mega Fortune Co Ltd | not available |
 | [MGRX](../companies/MGRX/README.md) | MANGOCEUTICALS, INC. | available, quality gates apply |
 | [MGTX](../companies/MGTX/README.md) | MeiraGTx Holdings plc | available, quality gates apply |
-| [MGX](../companies/MGX/README.md) | Metagenomi Therapeutics, Inc. | available, quality gates apply |
-| [MGY](../companies/MGY/README.md) | Magnolia Oil & Gas Corp | available, quality gates apply |
-| [MGYR](../companies/MGYR/README.md) | Magyar Bancorp, Inc. | available, quality gates apply |
-| [MH](../companies/MH/README.md) | McGraw Hill, Inc. | available, quality gates apply |
-| [MHD](../companies/MHD/README.md) | BLACKROCK MUNIHOLDINGS FUND, INC. | not available |

@@ -8,11 +8,11 @@ tickers:
 - FLXS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-26'
-updated_at: '2026-10-26T16:16:21.148680+00:00'
+as_of: '2026-10-27'
+updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
-coverage_release: coverage-20261026-40356450615-1
-source_commit: ffd7836f4c177b9a174b16eab4288980decb7e24
+coverage_release: coverage-20261027-40530587641-1
+source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -68,8 +68,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-26T16:11:31.228419+00:00'
-  sha256: 74146fcda2f9b3b43b06280df0ad9584dffa78b2237460917eda3c2892e7a706
+  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
+  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000037472.json
@@ -460,6 +460,48 @@ sources:
   published_at: '2026-06-12'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/37472/000114036126040658/ny20081112x1_def14a.htm
+  title: DEF 14A 0001140361-26-040658
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-27T15:37:44.287018+00:00'
+  sha256: 39d33978759c935e96f4abd6de46cbf2a6e4d325d6c881db0b83a880ed3b2b17
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/37472/000119312526389381/flxs-20260911.htm
+  title: 8-K 0001193125-26-389381
+  published_at: '2026-09-11'
+  retrieved_at: '2026-10-27T15:37:42.673372+00:00'
+  sha256: 5347d8494ddd5c94e75b91b9e92500fd8897591a25460842228fd1ac6da4b9a0
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/37472/000119312526357097/flxs-20260630.htm
+  title: 10-K 0001193125-26-357097
+  published_at: '2026-08-19'
+  retrieved_at: '2026-10-27T15:37:40.840703+00:00'
+  sha256: 71780422e6e9be9a06fb347d23e9d0d5f84d39dcc762f103babce11d13c7eb09
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/37472/000119312526170444/flxs-20260331.htm
+  title: 10-Q 0001193125-26-170444
+  published_at: '2026-04-22'
+  retrieved_at: '2026-10-27T15:37:38.956353+00:00'
+  sha256: a0bd16fabf0f6aa1f69ee7851375b9067f0e5870266291abdf09983d3ec873f9
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/37472/000003747220000034/flxs-20200501x8ka.htm
+  title: 8-K/A 0000037472-20-000034
+  published_at: '2020-06-01'
+  retrieved_at: '2026-10-27T15:37:37.191485+00:00'
+  sha256: b8f10155a090e32e6928e40278824a72a5d9f4b3bd9a34193a3dda2040a7a561
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/37472/000003747219000022/flxs-20191209x8ka.htm
+  title: 8-K/A 0000037472-19-000022
+  published_at: '2019-12-13'
+  retrieved_at: '2026-10-27T15:37:35.284462+00:00'
+  sha256: 0b7a6e15df2cd46905ba364832e7733bc671e0b57784f228150710b607a0693a
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/37472/000115752317001121/a51545223.htm
+  title: 8-K/A 0001157523-17-001121
+  published_at: '2017-04-21'
+  retrieved_at: '2026-10-27T15:37:33.299898+00:00'
+  sha256: 22c6028a27215a415e713f4eea98b59f27f22cf59ffaae1f2f74e02ec6879d3d
 issuer_classification:
   cik: '0000037472'
   classification_status: reported_sic
@@ -509,13 +551,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/37472/000115752317001121/0001157523-17-001121-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 93d7dffd50c201149c88a040eac46fd659b554da118d00a1c8e5b2b249008df9
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-27T15:36:38.956292+00:00'
+  last_success_at: '2026-10-27T15:36:38.956292+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -539,17 +592,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L1530:
+
+> Role of Executives in Establishing Compensation. Our chief executive officer plays an integral role in recommending compensation for named executive officers (including base salary and performance based annual and long-term cash and equity compensation). Our chief executive officer participates in committee meetings to provide background information on our business, financial and operational objectives, and annually reviews the performance of each executive officer based on their contributions to achieving our business, financial and operational objectives and recommends compensation for our executive officers. Compensation Committee members also develop their own opinions on the annual performance of our executive officers based on their interactions with them. As required by the listing standards of the Nasdaq Stock Market LLC, our chief executive officer does not participate in deliberations concerning, or vote on, their compensation arrangements. The Compensation Committee approves the compensation for all executive officers. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-08-19, L304:
+
+> The Company operates in one reportable segment, furniture products. The Company’s furniture products business involves the distribution of manufactured and imported products consisting of a broad line of furniture for the residential market. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L813:
+
+> Dave Crimmins joined the Company in September 2019 as Vice President, Sales. In January 2023, Mr. Crimmins was named Vice President, Sales and Product Management as his role expanded to take on additional responsibilities surrounding the product portfolio, including design, engineering, and development of product; and for the product merchandising and messaging supporting all sales channels. In January 2026, Mr. Crimmins was named Chief Growth Officer as his role expanded to include responsibility for driving sustainable revenue and market expansion by aligning strategy, marketing, sales, product, and customer experience. He has more than 19 years of experience in the furniture industry, including sales and marketing leadership positions across multiple brands and market segments. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-08-19, L422:
+
+> In addition, in response to shifts in employee workplace preferences, we have allowed certain of our employees the option of a hybrid work schedule where they may choose to work partially from home. Although we continue to implement strong physical and cyber security measures to ensure that our business operations remain functional and to ensure uninterrupted service to our customers, our systems and our operations remain vulnerable to cyber attacks and other disruptions because a material portion of our employees work remotely either full or part-time, and we cannot be certain that our mitigation efforts will be effective. [S69]
 
 ## Industry and value chain
 
@@ -557,17 +626,33 @@ SEC-reported SIC **2510**: Household Furniture. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L777:
+
+> Prior to his current position, he was Senior Director of Finance-Supply Chain, and was responsible for overall FP&A, including direct support for manufacturing, SIOP, and procurement. He has worked intimately with manufacturing and has participated at a hands-on level with process development, footprint development and implementation, operational efficiency improvements, labor planning, capital planning, and facility management. He has identified gaps and implemented sustainable processes to increase visibility and reduce risk to the organization. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-10-23, L1379:
+
+> Mr. Schmidt participates in the Company’s Severance Plan for Management Employees which provides for the post-termination benefits described under “Executive Compensation: Termination or Change-In-Control” below. In addition, Mr. Schmidt has entered into a Confidentiality and Non-Competition Agreement whereby he agrees not to compete with the Company during employment and for 12 months after termination. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-08-19, L369:
+
+> The Company relies on patents, trademarks, trade secrets, proprietary know-how and other intellectual property in connection with its products and brands, including improvement patents on its Blue Steel Spring, and registered trademarks. In addition, our furniture products are designed by the Company's own design staff and through the services of third-party designers. New models and designs [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-08-19, L1174:
+
+> Selling, general, and administrative (“SG&A”) expenses increased by $4.2 million in the year ended June 30, 2026, compared to the prior fiscal year. As a percentage of net sales, SG&A expense was 15.4% in fiscal year 2026 compared to 15.1% of net sales in the prior fiscal year. The increase of 30-bps is primarily due to a 70-bps benefit from fixed cost leverage on higher sales volume offset by 70-bps increase in investments in consumer insights, new products and marketing to execute our growth strategy and a 30-bps increase from higher incentive compensation expense. [S69]
 
 ## Financial performance
 
@@ -1197,6 +1282,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L245:
+
+> This proxy statement and the proxy are solicited on behalf of the Board of Directors (the “Board”) of Flexsteel Industries, Inc. to be used at the annual meeting of shareholders to be held virtually on Wednesday, December 9, 2026, and any adjournments or postponements thereof, for the purposes set forth in the notice of meeting accompanying this proxy statement. The Company will pay the cost of the solicitation of proxies. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1209,6 +1298,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-08-19, L299:
+
+> Statements, including those in this Annual Report on Form 10-K, which are not historical or current facts, are “forward-looking statements” made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. There are certain important factors that could cause the Company’s results to differ materially from those anticipated by some of the statements made herein. Investors are cautioned that all forward-looking statements involve risk and uncertainty. Some of the factors that could affect results are the cyclical nature of the furniture industry, supply chain disruptions, litigation, the effectiveness of new product introductions and distribution channels, the product mix of sales, pricing pressures, the cost of raw materials and fuel, changes in foreign currency values, retention and recruitment of key employees, actions by governments including laws, regulations, taxes and tariffs, the amount of sales generated and the profit margins thereon, competition (both U.S. and foreign), credit exposure with customers, participation in multi-employer pension plans, disruptions or security breaches to business information systems, the impact of any future pandemic, and general economic conditions. For further information regarding these risks and uncertainties, see the “Risk Factors” section in Item 1A of this Annual Report on Form 10-K. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1218,25 +1311,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1300,9 +1393,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-06-12 | 4 | 0000037472-26-000040 | — | [S65] |
 | 2026-06-12 | 4 | 0000037472-26-000038 | — | [S66] |
 
+Source excerpt — 10-K, filed 2026-08-19, L1186:
+
+> During the year ended June 30, 2025, the Company completed the sale of its Dublin, Georgia facility which had been previously recorded as held for sale. The Company recorded a pre-tax gain of $5.0 million related to the sale. See Note 6, Assets Held For Sale, of the Notes to Consolidated Financial Statements, included in this Annual Report on Form 10-K for more information. [S69]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-26T16:11:31.228419+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000037472.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1434,4 +1531,18 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [4 0000037472-26-000038](https://www.sec.gov/Archives/edgar/data/37472/000003747226000038/0000037472-26-000038-index.html) — published 2026-06-12; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261026-40356450615-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [DEF 14A 0001140361-26-040658](https://www.sec.gov/Archives/edgar/data/37472/000114036126040658/ny20081112x1_def14a.htm) — published 2026-10-23; retrieved 2026-10-27T15:37:44.287018+00:00.
+
+[S68] [8-K 0001193125-26-389381](https://www.sec.gov/Archives/edgar/data/37472/000119312526389381/flxs-20260911.htm) — published 2026-09-11; retrieved 2026-10-27T15:37:42.673372+00:00.
+
+[S69] [10-K 0001193125-26-357097](https://www.sec.gov/Archives/edgar/data/37472/000119312526357097/flxs-20260630.htm) — published 2026-08-19; retrieved 2026-10-27T15:37:40.840703+00:00.
+
+[S70] [10-Q 0001193125-26-170444](https://www.sec.gov/Archives/edgar/data/37472/000119312526170444/flxs-20260331.htm) — published 2026-04-22; retrieved 2026-10-27T15:37:38.956353+00:00.
+
+[S71] [8-K/A 0000037472-20-000034](https://www.sec.gov/Archives/edgar/data/37472/000003747220000034/flxs-20200501x8ka.htm) — published 2020-06-01; retrieved 2026-10-27T15:37:37.191485+00:00.
+
+[S72] [8-K/A 0000037472-19-000022](https://www.sec.gov/Archives/edgar/data/37472/000003747219000022/flxs-20191209x8ka.htm) — published 2019-12-13; retrieved 2026-10-27T15:37:35.284462+00:00.
+
+[S73] [8-K/A 0001157523-17-001121](https://www.sec.gov/Archives/edgar/data/37472/000115752317001121/a51545223.htm) — published 2017-04-21; retrieved 2026-10-27T15:37:33.299898+00:00.
+
+Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.

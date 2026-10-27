@@ -4,6 +4,10 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |
+| [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
+| [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |
+| [MZTI](../companies/MZTI/README.md) | MARZETTI CO | available, quality gates apply |
 | [MZYX](../companies/MZYX/README.md) | MOZAYYX Acquisition Corp. | available, quality gates apply |
 | [NA](../companies/NA/README.md) | Nano Labs Ltd | not available |
 | [NAAS](../companies/NAAS/README.md) | NaaS Technology Inc. | not available |
@@ -18,8 +22,8 @@
 | [NAMM](../companies/NAMM/README.md) | Namib Minerals | not available |
 | [NAMS](../companies/NAMS/README.md) | NewAmsterdam Pharma Co N.V. | available, quality gates apply |
 | [NAN](../companies/NAN/README.md) | NUVEEN NEW YORK QUALITY MUNICIPAL INCOME FUND | not available |
+| [NANO](../companies/NANO/README.md) | Forge Nano Holdings, Inc. | not available |
 | [NAT](../companies/NAT/README.md) | NORDIC AMERICAN TANKERS Ltd | not available |
-| [NATH](../companies/NATH/README.md) | NATHANS FAMOUS, INC. | available, quality gates apply |
 | [NATL](../companies/NATL/README.md) | NCR Atleos Corp | available, quality gates apply |
 | [NATR](../companies/NATR/README.md) | NATURES SUNSHINE PRODUCTS INC | available, quality gates apply |
 | [NAUT](../companies/NAUT/README.md) | Nautilus Biotechnology, Inc. | available, quality gates apply |
@@ -100,7 +104,3 @@
 | [NHP](../companies/NHP/README.md) | National Healthcare Properties, Inc. | available, quality gates apply |
 | [NHS](../companies/NHS/README.md) | Neuberger High Yield Strategies Fund Inc. | not available |
 | [NHTC](../companies/NHTC/README.md) | NATURAL HEALTH TRENDS CORP | not available |
-| [NI](../companies/NI/README.md) | NISOURCE INC. | available, quality gates apply |
-| [NIC](../companies/NIC/README.md) | NICOLET BANKSHARES INC | available, quality gates apply |
-| [NICE](../companies/NICE/README.md) | NICE Ltd. | not available |
-| [NICM](../companies/NICM/README.md) | NICOLA MINING INC. | not available |

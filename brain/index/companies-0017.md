@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [EE](../companies/EE/README.md) | Excelerate Energy, Inc. | available, quality gates apply |
+| [EEFT](../companies/EEFT/README.md) | EURONET WORLDWIDE, INC. | available, quality gates apply |
+| [EEIQ](../companies/EEIQ/README.md) | EpicQuest Education Group International Ltd | not available |
 | [EFC](../companies/EFC/README.md) | Ellington Financial Inc. | available, quality gates apply |
 | [EFOI](../companies/EFOI/README.md) | ENERGY FOCUS, INC/DE | available, quality gates apply |
 | [EFOR](../companies/EFOR/README.md) | Everforth Inc | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [EPD](../companies/EPD/README.md) | ENTERPRISE PRODUCTS PARTNERS L.P. | available, quality gates apply |
 | [EPM](../companies/EPM/README.md) | EVOLUTION PETROLEUM CORP | available, quality gates apply |
 | [EPOW](../companies/EPOW/README.md) | E-Power Inc. | not available |
-| [EPR](../companies/EPR/README.md) | EPR PROPERTIES | available, quality gates apply |
-| [EPRT](../companies/EPRT/README.md) | ESSENTIAL PROPERTIES REALTY TRUST, INC. | available, quality gates apply |
-| [EPRX](../companies/EPRX/README.md) | EUPRAXIA PHARMACEUTICALS INC. | not available |

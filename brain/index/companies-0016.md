@@ -4,6 +4,9 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [DOYU](../companies/DOYU/README.md) | DouYu International Holdings Ltd | not available |
+| [DPC](../companies/DPC/README.md) | DPC Holdings PLC | available, quality gates apply |
+| [DPG](../companies/DPG/README.md) | Duff & Phelps Utility & Infrastructure Fund Inc. | not available |
 | [DPRO](../companies/DPRO/README.md) | Draganfly Inc. | not available |
 | [DPU](../companies/DPU/README.md) | Nexpu Ltd. | not available |
 | [DPZ](../companies/DPZ/README.md) | DOMINOS PIZZA INC | available, quality gates apply |
@@ -101,6 +104,3 @@
 | [EDTK](../companies/EDTK/README.md) | Skillful Craftsman Education Technology Ltd | not available |
 | [EDUC](../companies/EDUC/README.md) | EDUCATIONAL DEVELOPMENT CORP | available, quality gates apply |
 | [EDVA](../companies/EDVA/README.md) | Endovia Health Sciences, Inc. | available, quality gates apply |
-| [EE](../companies/EE/README.md) | Excelerate Energy, Inc. | available, quality gates apply |
-| [EEFT](../companies/EEFT/README.md) | EURONET WORLDWIDE, INC. | available, quality gates apply |
-| [EEIQ](../companies/EEIQ/README.md) | EpicQuest Education Group International Ltd | not available |
