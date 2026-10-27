@@ -12,10 +12,10 @@ as_of: '2026-10-27'
 updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
 coverage_release: coverage-20261027-40530587641-1
-source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
+source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/79ea404d09f86d838fefd71cf88a566d57bc57a2/sectors/industrials/companies/RTX/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/industrials/companies/RTX/README.md
   status: reviewed
   as_of: '2026-10-20'
   sector: industrials
@@ -200,16 +200,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/79ea404d09f86d838fefd71cf88a566d57bc57a2/sectors/industrials/companies/RTX/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/RTX/README.md
-full_history_commit: ea9dd09e5d047ff0620d4500849876915bb10e87
+  source_url: https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/industrials/companies/RTX/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/RTX/README.md
+full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RTX — RTX Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/RTX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/RTX/README.md)
 
 ## Business overview
 
@@ -400,7 +400,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:28:14.744206+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/79ea404d09f86d838fefd71cf88a566d57bc57a2/sectors/industrials/companies/RTX/README.md) (status reviewed, as of 2026-10-20). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/industrials/companies/RTX/README.md) (status reviewed, as of 2026-10-20). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -464,6 +464,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001140361-26-036662](https://www.sec.gov/Archives/edgar/data/101829/000114036126036662/0001140361-26-036662-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/RTX/README.md).
+Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/RTX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

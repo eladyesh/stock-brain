@@ -12,7 +12,7 @@ as_of: '2026-10-27'
 updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
 coverage_release: coverage-20261027-40530587641-1
-source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
+source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -256,15 +256,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001023994.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/OLOX/README.md
-full_history_commit: ea9dd09e5d047ff0620d4500849876915bb10e87
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/OLOX/README.md
+full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # OLOX — OLENOX INDUSTRIES INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/OLOX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/OLOX/README.md)
 
 ## Business overview
 
@@ -503,6 +503,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S31] [10-K 0001213900-26-073749](https://www.sec.gov/Archives/edgar/data/1023994/000121390026073749/0001213900-26-073749-index.html) — published 2026-06-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ea9dd09e5d047ff0620d4500849876915bb10e87/brain/companies/OLOX/README.md).
+Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/OLOX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
