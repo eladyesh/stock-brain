@@ -322557,13 +322557,13 @@
     }
   },
   "last_run": {
-    "at": "2026-10-27T15:36:38.956292+00:00",
+    "at": "2026-10-27T18:32:48.486530+00:00",
     "release_tag": "coverage-20261027-40530587641-1",
     "issuers": 5641,
-    "attempted": 27,
-    "completed": 27,
+    "attempted": 0,
+    "completed": 0,
     "failed": 0,
-    "requests": 360,
+    "requests": 0,
     "stop_reason": "request_budget",
     "counts": {
       "pending": 5469,
