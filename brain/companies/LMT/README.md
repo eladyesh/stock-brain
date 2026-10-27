@@ -12,10 +12,10 @@ as_of: '2026-10-27'
 updated_at: '2026-10-27T15:30:18.641431+00:00'
 reviewed_at: null
 coverage_release: coverage-20261027-40530587641-1
-source_commit: 79ea404d09f86d838fefd71cf88a566d57bc57a2
+source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/79ea404d09f86d838fefd71cf88a566d57bc57a2/sectors/industrials/companies/LMT/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/industrials/companies/LMT/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: industrials
@@ -1224,7 +1224,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:30:36.934490+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/79ea404d09f86d838fefd71cf88a566d57bc57a2/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/industrials/companies/LMT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
