@@ -12,10 +12,10 @@ as_of: '2026-10-28'
 updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
 coverage_release: coverage-20261028-40722802424-1
-source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
+source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/48056b79cf1dc5f5270bd576defc5c9bc49d62cf/sectors/information-technology/companies/AMD/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180/sectors/information-technology/companies/AMD/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -1244,7 +1244,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:27:06.478312+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/48056b79cf1dc5f5270bd576defc5c9bc49d62cf/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
