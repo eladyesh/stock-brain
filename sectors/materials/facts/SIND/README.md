@@ -12,7 +12,7 @@ as_of: '2026-10-28'
 updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
 coverage_release: coverage-20261028-40722802424-1
-source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
+source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -158,15 +158,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002096861.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/SIND/README.md
-full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
+full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/SIND/README.md
+full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # SIND — Sinda Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/SIND/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/SIND/README.md)
 
 ## Business overview
 
@@ -349,6 +349,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [SCHEDULE 13G 0001213900-26-087779](https://www.sec.gov/Archives/edgar/data/2096861/000121390026087779/0001213900-26-087779-index.html) — published 2026-08-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/SIND/README.md).
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/SIND/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
