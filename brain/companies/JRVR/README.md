@@ -8,11 +8,11 @@ tickers:
 - JRVR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -88,8 +88,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
-  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
+  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
+  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001620459.json
@@ -480,6 +480,42 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000162045926000053/jrvr-20261022.htm
+  title: 8-K 0001620459-26-000053
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-28T16:25:12.519236+00:00'
+  sha256: fd34a8bdab1757b932fa0149a99afb8193e078047bf994beccdcc3b74aa2c9ca
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000110465926108040/tm262445-1_def14a.htm
+  title: DEF 14A 0001104659-26-108040
+  published_at: '2026-09-16'
+  retrieved_at: '2026-10-28T16:25:10.763692+00:00'
+  sha256: ee97f74d41af8a1004185c9796e9f094d16eb378c0f8879c22956569c3b247c5
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000162045926000045/jrvr-20260630.htm
+  title: 10-Q 0001620459-26-000045
+  published_at: '2026-08-10'
+  retrieved_at: '2026-10-28T16:25:09.011967+00:00'
+  sha256: 8cb35973edd52082303746cf1b99c6695dcb7e80bd5bcb45c322081770356483
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000162045926000022/jrvr-20251231.htm
+  title: 10-K/A 0001620459-26-000022
+  published_at: '2026-04-30'
+  retrieved_at: '2026-10-28T16:25:07.252244+00:00'
+  sha256: c4634aae03d01a03d87f401d783ec9080c6d2cb91a4f5cb152538b88cb59f08c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000162045926000009/jrvr-20251231.htm
+  title: 10-K 0001620459-26-000009
+  published_at: '2026-03-03'
+  retrieved_at: '2026-10-28T16:25:05.272434+00:00'
+  sha256: a3f85f6245e091bb595fa51c825969e90a9db9bb292d7a4a7cd913b9af8f6938
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1620459/000162045923000006/jrvr-20220223.htm
+  title: 8-K/A 0001620459-23-000006
+  published_at: '2023-01-10'
+  retrieved_at: '2026-10-28T16:25:03.397913+00:00'
+  sha256: e8554af2bf5d3f18dc342985214e3695eb0df3faf5fe1bb297e261bb64158bfa
 issuer_classification:
   cik: 0001620459
   classification_status: reported_sic
@@ -526,13 +562,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1620459/000162045923000006/0001620459-23-000006-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 2adfbe572ef13183d4655c1751ddb245b4dbc96a40ffb3cd271442f331d8b238
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -556,17 +603,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-16, L48:
+
+> We describe the actions we expect to take at our Annual Meeting in detail in the attached Notice of Annual Meeting of Shareholders and proxy statement. Included with this proxy statement is a copy of our Annual Report for our year ended December 31, 2025. We encourage you to read our Annual Report. It includes information about our business as well as our consolidated audited financial statements. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L892:
+
+> The Company’s continuing operations are comprised of three reportable segments, two of which are separately managed business units and the third (“Corporate and Other”) includes the Company’s remaining operations. The Excess & Surplus Lines segment primarily offers commercial excess and surplus lines liability and excess property insurance products. The Specialty Admitted Insurance segment offers specialty admitted and nonadmitted fronting and program business and, prior to the sale of the Company's renewal rights in 2023, workers’ compensation insurance coverage. The Corporate and Other segment consists of certain management and treasury activities of James River Group and JRG Holdings including public company expenses, expenses for our Board of Directors, long-term incentive compensation for the full Company, interest expense associated with senior debt and Junior Subordinated Debt, and investment income. The accounting policies of the reportable segments are the same as those described in the summary of significant accounting policies. Prior to entering into a definitive agreement to sell JRG Re on November 8, 2023, JRG Re was considered a reportable segment (the “Casualty Reinsurance” segment). After entering into the agreement to sell JRG Re, the Company no longer considers Casualty Reinsurance to be a reportable segment, but instead it is reported as discontinued … [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-03, L302:
+
+> Broad Underwriting Expertise. We strive to be innovative in tailoring our products to provide solutions for our distribution partners and insureds, and we are willing to entertain insuring many types of risk classifications. As a result, we believe we are a “go to” market for a wide variety of risks. We are able to structure solutions for our insureds and the wholesale brokers with whom we work because of our deep technical expertise and experience in the niches and specialties we underwrite. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-03, L812:
+
+> Factors such as business revenue, political and economic conditions, the volatility and strength of the capital markets, inflation and pandemics can all affect the business and economic environment. These same factors affect our ability to generate revenue and profits. In an economic downturn that is characterized by higher unemployment, declining spending and reduced corporate revenues, the demand for insurance products is adversely affected, which directly affects our premium levels and profitability. Negative economic factors may also affect our ability to receive the appropriate rate for the risk we insure with our policyholders and may adversely affect the number of policies we can write, including with respect to our opportunities to underwrite profitable business. In an economic downturn, our customers may have less need for insurance coverage, cancel existing insurance policies, modify their coverage, self-insure their risks, or not renew with us. Existing policyholders may exaggerate or even falsify claims to obtain higher claims payments, or not pay premiums on our policies when due. These outcomes would reduce our underwriting profit to the extent these factors are not reflected in the rates we charge. [S71]
 
 ## Industry and value chain
 
@@ -574,17 +637,33 @@ SEC-reported SIC **6331**: Fire, Marine & Casualty Insurance. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-03, L870:
+
+> losses in our investment portfolio from declines in the equity markets and from interest rate changes in the United States, Europe and elsewhere, and result in loss of life, property damage, disruptions to commerce and reduced economic activity. Additionally, a large-scale pandemic or terrorist act could have a material effect on sales, profitability, competitiveness, marketability of product offerings, liquidity and operating results. For example, the COVID-19 pandemic presented, and other future pandemics could present, inflation, supply chain disruptions, labor shortages, backlogs in the court system, responsive regulatory actions and mandates, financial market disruptions, and economic downturn, among other things. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-09-16, L2422:
+
+> The Committee takes into consideration the structure and components of, and the amounts paid under, the executive compensation programs of other, comparable publicly-traded peer companies, as derived from public filings and other sources, when making decisions about the structure and component mix of our executive compensation program. The Committee also considers the practices of our competitors and the broader industry for recruiting and retaining talent. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-03, L719:
+
+> We hold U.S. federal service mark registration of our corporate logo and several other company trademark registrations with the U.S. Patent and Trademark Office. Such registrations protect our intellectual property from confusingly similar use. We monitor our trademarks and service marks and protect them from unauthorized use. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-09-16, L1427:
+
+> The Compensation and Human Capital Committee assists our Board of Directors with reviewing the performance of our management in achieving corporate goals and objectives, assuring that our executives are compensated effectively in a manner consistent with our strategy, competitive practice and the requirements of the appropriate regulatory bodies, and creating an alignment of interests between our executive officers and shareholders. Toward that end, the Compensation and Human Capital Committee, among other responsibilities, makes recommendations to our Board of Directors regarding director and executive officer compensation, equity-based compensation plans and awards, and executive benefit plans. In determining compensation recommendations to the Board of Directors, with respect to executive officers other than our Chief Executive Officer, the Compensation and Human Capital Committee considers proposals provided by our Chief Executive Officer. Our Chief Executive Officer does not participate in deliberations or voting regarding his own compensation. The Compensation and Human Capital Committee also administers the Company’s incentive compensation plans and equity-based plans. [S68]
 
 ## Financial performance
 
@@ -1199,6 +1278,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L41:
+
+> On October 22, 2026, James River Group Holdings, Inc. (the “Company”) held its annual meeting of shareholders (the “Annual Meeting”). At the Annual Meeting, the Company’s shareholders elected each of Rajiv Basu, Matthew B. Botein, Joel D. Cavaness, Frank N. D’Orazio, Christine LaSala and Peter B. Migliorato for a one-year term to hold office until the 2027 annual meeting of shareholders. The Company’s shareholders also (i) ratified the appointment of Ernst & Young LLP, an independent registered public accounting firm, as our independent auditor to serve until the 2027 annual meeting of shareholders and (ii) approved the 2025 compensation of the Company’s named executive officers on a non-binding, advisory basis. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1211,6 +1294,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-09-16, L4461:
+
+> We do not believe that our compensation policies and practices encourage excessive or unnecessary risk-taking, or are reasonably likely to have a material adverse effect on the Company. We believe that the combination of fixed base salaries, non-equity short-term incentive awards and awards of PRSUs and Service-Based RSUs represent an appropriate balance of fixed and variable compensation opportunities, and that the combination of short-term and long-term incentive awards provides an incentive for executives to maintain a long-term perspective in conducting business, rather than seeking short-term gain. This is particularly the case as the long-term incentive awards, awarded in the form of PRSUs and Service-Based RSUs, vest (i) in the case of PRSUs, based on financial performance metrics measured over a three-year performance period, and (ii) in the case of Service-Based RSUs, in annual installments over a three-year period. The use of a maximum payout for awards under the STI Plan and PRSUs also mitigates the risk employees may take because there are no opportunities for excessive awards. Further, the goals utilized in our STI Plan are primarily based upon companywide measures derived from our annual budget, with the performance metrics reviewed and approved by our Board following prior approval by the Committee. The fact that the performance objectives in the STI Plan and … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1220,25 +1307,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1303,9 +1390,13 @@ Latest 50 filing metadata records of 830 retained records. A filing link is evid
 | 2026-03-03 | 4 | 0002007137-26-000002 | — | [S65] |
 | 2026-03-03 | 4 | 0001895369-26-000002 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-09-16, L1742:
+
+> The following table sets forth information concerning compensation earned by our non-employee directors during the year ended December 31, 2025. [S68]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001620459.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1437,4 +1528,16 @@ Latest 50 filing metadata records of 830 retained records. A filing link is evid
 
 [S66] [4 0001895369-26-000002](https://www.sec.gov/Archives/edgar/data/1620459/000189536926000002/0001895369-26-000002-index.html) — published 2026-03-03; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001620459-26-000053](https://www.sec.gov/Archives/edgar/data/1620459/000162045926000053/jrvr-20261022.htm) — published 2026-10-23; retrieved 2026-10-28T16:25:12.519236+00:00.
+
+[S68] [DEF 14A 0001104659-26-108040](https://www.sec.gov/Archives/edgar/data/1620459/000110465926108040/tm262445-1_def14a.htm) — published 2026-09-16; retrieved 2026-10-28T16:25:10.763692+00:00.
+
+[S69] [10-Q 0001620459-26-000045](https://www.sec.gov/Archives/edgar/data/1620459/000162045926000045/jrvr-20260630.htm) — published 2026-08-10; retrieved 2026-10-28T16:25:09.011967+00:00.
+
+[S70] [10-K/A 0001620459-26-000022](https://www.sec.gov/Archives/edgar/data/1620459/000162045926000022/jrvr-20251231.htm) — published 2026-04-30; retrieved 2026-10-28T16:25:07.252244+00:00.
+
+[S71] [10-K 0001620459-26-000009](https://www.sec.gov/Archives/edgar/data/1620459/000162045926000009/jrvr-20251231.htm) — published 2026-03-03; retrieved 2026-10-28T16:25:05.272434+00:00.
+
+[S72] [8-K/A 0001620459-23-000006](https://www.sec.gov/Archives/edgar/data/1620459/000162045923000006/jrvr-20220223.htm) — published 2023-01-10; retrieved 2026-10-28T16:25:03.397913+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.

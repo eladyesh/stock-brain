@@ -1,6 +1,6 @@
 # Stock Brain — Company Markdown
 
-Verified data release: `coverage-20261027-40530587641-1`. Source created: 2026-10-27T15:30:18.641431+00:00.
+Verified data release: `coverage-20261028-40722802424-1`. Source created: 2026-10-28T16:13:42.115634+00:00.
 
 **5641 distinct mapped issuers**, **5871 mapped stock listings**, **596 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
 
@@ -25,23 +25,23 @@ Verified data release: `coverage-20261027-40530587641-1`. Source created: 2026-1
 | [15](index/companies-0015.md) | DCGO | DOX |
 | [16](index/companies-0016.md) | DOYU | EDVA |
 | [17](index/companies-0017.md) | EE | EPOW |
-| [18](index/companies-0018.md) | EPR | EZGO |
-| [19](index/companies-0019.md) | EZPW | FJDI |
-| [20](index/companies-0020.md) | FJET | FTAI |
-| [21](index/companies-0021.md) | FTCI | GFF |
-| [22](index/companies-0022.md) | GFI | GPRK |
-| [23](index/companies-0023.md) | GPRO | HCKT |
-| [24](index/companies-0024.md) | HCM | HRL |
-| [25](index/companies-0025.md) | HRMY | IDE |
-| [26](index/companies-0026.md) | IDN | INTR |
-| [27](index/companies-0027.md) | INTS | JBLU |
-| [28](index/companies-0028.md) | JBS | KIM$L |
-| [29](index/companies-0029.md) | KINS | LAW |
-| [30](index/companies-0030.md) | LAZ | LOAR |
-| [31](index/companies-0031.md) | LOB | MARA |
-| [32](index/companies-0032.md) | MAS | MGTX |
-| [33](index/companies-0033.md) | MGX | MPV |
-| [34](index/companies-0034.md) | MPWR | MYRG |
+| [18](index/companies-0018.md) | EPR | EYPT |
+| [19](index/companies-0019.md) | EZGO | FIZZ |
+| [20](index/companies-0020.md) | FJDI | FT |
+| [21](index/companies-0021.md) | FTAI | GFAI |
+| [22](index/companies-0022.md) | GFF | GPRE |
+| [23](index/companies-0023.md) | GPRK | HCIC |
+| [24](index/companies-0024.md) | HCKT | HRI |
+| [25](index/companies-0025.md) | HRL | IDCC |
+| [26](index/companies-0026.md) | IDE | INTJ |
+| [27](index/companies-0027.md) | INTR | JBL |
+| [28](index/companies-0028.md) | JBLU | KIDZ |
+| [29](index/companies-0029.md) | KIM$L | LAUR |
+| [30](index/companies-0030.md) | LAW | LOAN |
+| [31](index/companies-0031.md) | LOAR | MAR |
+| [32](index/companies-0032.md) | MARA | MGRX |
+| [33](index/companies-0033.md) | MGTX | MPU |
+| [34](index/companies-0034.md) | MPV | MYRG |
 | [35](index/companies-0035.md) | MYSE | NHTC |
 | [36](index/companies-0036.md) | NI | NTES |
 | [37](index/companies-0037.md) | NTGR | OCUL |

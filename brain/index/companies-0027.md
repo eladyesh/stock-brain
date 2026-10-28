@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [INTR](../companies/INTR/README.md) | Inter & Co, Inc. | not available |
 | [INTS](../companies/INTS/README.md) | INTENSITY THERAPEUTICS, INC. | available, quality gates apply |
 | [INTT](../companies/INTT/README.md) | INTEST CORP | not available |
 | [INTU](../companies/INTU/README.md) | INTUIT INC. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [JBI](../companies/JBI/README.md) | Janus International Group, Inc. | available, quality gates apply |
 | [JBIO](../companies/JBIO/README.md) | Jade Biosciences, Inc. | available, quality gates apply |
 | [JBL](../companies/JBL/README.md) | JABIL INC | available, quality gates apply |
-| [JBLU](../companies/JBLU/README.md) | JETBLUE AIRWAYS CORP | available, quality gates apply |

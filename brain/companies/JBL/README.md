@@ -8,11 +8,11 @@ tickers:
 - JBL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -66,8 +66,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
-  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
+  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
+  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000898293.json
@@ -458,6 +458,42 @@ sources:
   published_at: '2026-04-10'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/898293/000162828026067038/jbl-20260831.htm
+  title: 10-K 0001628280-26-067038
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-28T16:24:43.661602+00:00'
+  sha256: ad3a5114a7f2e0e88608faf4f6183c02afd3d1526c228aaaebfb6cf0e8b968c2
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/898293/000162828026063890/jbl-20260930.htm
+  title: 8-K 0001628280-26-063890
+  published_at: '2026-09-30'
+  retrieved_at: '2026-10-28T16:24:41.840034+00:00'
+  sha256: 764a86c5fa35da6e06304c3af6294dcb75fb0bfe6031f48f24c50bc297ee73db
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/898293/000162828026046138/jbl-20260531.htm
+  title: 10-Q 0001628280-26-046138
+  published_at: '2026-06-30'
+  retrieved_at: '2026-10-28T16:24:40.150142+00:00'
+  sha256: efc358a5405766b2f87c0614b449bdb7e44fd1f412318936c261c35f5cf023cf
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/898293/000119312525316927/d946966ddef14a.htm
+  title: DEF 14A 0001193125-25-316927
+  published_at: '2025-12-12'
+  retrieved_at: '2026-10-28T16:24:38.397242+00:00'
+  sha256: 756e877d706283e4cd58eaceaf55e3c6037d3d34bbbe939b2f43728275ca045e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/898293/000119312525143162/d70947d8ka.htm
+  title: 8-K/A 0001193125-25-143162
+  published_at: '2025-06-20'
+  retrieved_at: '2026-10-28T16:24:36.709175+00:00'
+  sha256: 04150f60882b75ef3769b1f74fa884ce6d4f492085c695d1207f369dcf1639cd
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/898293/000119312524068620/d807145d8ka.htm
+  title: 8-K/A 0001193125-24-068620
+  published_at: '2024-03-15'
+  retrieved_at: '2026-10-28T16:24:35.103615+00:00'
+  sha256: 9f36eba4b4cf352fcbd9213256b7aa9df15d71a50a2829457669e5c460e2a6f0
 issuer_classification:
   cik: 0000898293
   classification_status: reported_sic
@@ -503,13 +539,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/898293/000119312524068620/0001193125-24-068620-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 80b19a6b0cd20b223bdd0fbd514c9db5bbe2baecb8ed157d47e50ae2361c9428
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -533,17 +580,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-10-23, L168:
+
+> We conduct our operations in facilities that are located worldwide, including but not limited to China, Malaysia, Mexico, and the United States. Our global production sites allow customers to manufacture products simultaneously in the optimal locations for their products. Our global presence is key to assessing and executing on our business opportunities. For the fiscal year ended August 31, 2026, we had net revenues of $36.0 billion and net income attributable to Jabil Inc. of $1.0 billion. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-10-23, L169:
+
+> We operate our business in the following three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce, which are also the Company’s reportable segments. Our Regulated Industries segment is focused on regulated markets and includes revenues from customers primarily in the automotive and transportation, healthcare and packaging, and renewable and energy infrastructure industries. Our Intelligent Infrastructure segment is focused on the modern digital ecosystem including artificial intelligence (“AI”) infrastructure and includes revenues from customers primarily in the capital equipment, cloud and data center infrastructure, and networking and communications industries. Our Connected Living and Digital Commerce segment is focused on digitalization and automation, including warehouse automation and robotics, and includes revenues from customers primarily in the connected living and digital commerce industries. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-10-23, L211:
+
+> We offer systems assembly, test, direct-order fulfillment, and configure-to-order services to our customers. Our systems assembly services extend our range of assembly activities to include assembly of higher-level sub-systems and systems incorporating multiple PCBAs. In addition, based on quality assurance programs developed with our customers, we provide testing services for our PCBAs, sub-systems, and systems products. Our quality assurance programs include product testing under various environmental conditions to help ensure that our products meet or exceed required customer specifications. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-10-23, L166:
+
+> Jabil is one of the leading providers of engineering, supply chain, and manufacturing solutions. We deliver comprehensive design, production, and product management services to companies across a diverse range of industries and end markets. Our capabilities span the entire product lifecycle—from innovation, design, and planning to fabrication, assembly, delivery, and post-production—enabling seamless management of resources and materials across global supply chains. Through these integrated services, we help our customers reduce manufacturing costs, enhance supply chain efficiency, minimize inventory risk, lower transportation expenses, and accelerate product fulfillment. [S67]
 
 ## Industry and value chain
 
@@ -551,17 +614,33 @@ SEC-reported SIC **3672**: Printed Circuit Boards. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-10-23, L166:
+
+> Jabil is one of the leading providers of engineering, supply chain, and manufacturing solutions. We deliver comprehensive design, production, and product management services to companies across a diverse range of industries and end markets. Our capabilities span the entire product lifecycle—from innovation, design, and planning to fabrication, assembly, delivery, and post-production—enabling seamless management of resources and materials across global supply chains. Through these integrated services, we help our customers reduce manufacturing costs, enhance supply chain efficiency, minimize inventory risk, lower transportation expenses, and accelerate product fulfillment. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-10-23, L254:
+
+> Our business is highly competitive. We compete against numerous domestic and foreign electronic manufacturing solutions providers, diversified manufacturing service providers, and design providers. We also face competition from the manufacturing operations of our current and potential customers, who are continually evaluating the merits of manufacturing products internally against the advantages of outsourcing. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-10-23, L262:
+
+> We regard certain aspects of our technology, design, production and product management, supply chain, and other services as proprietary intellectual property. We rely upon a combination of intellectual property laws, and confidentiality and non-disclosure agreements with our customers, employees, suppliers and other third parties; and security systems, policies, and procedures to protect our proprietary rights. We own a portfolio of patents and patent applications relating to a variety of inventions, and expect to continue developing and selectively protecting intellectual property as our business evolves. While we believe our intellectual property rights are important to our business in the aggregate, we do not believe that our business is materially dependent on any individual patent or other intellectual property right. Our success also depends on the knowledge and experience of our management and workforce and on our ability to develop, enhance, and market our technologies and services. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-10-23, L184:
+
+> •Establish and Maintain Long-Term Customer Relationships. An important element of our strategy is to develop and bolster long-term relationships with leading companies in expanding industries that benefit from global, highly automated, continuous-flow manufacturing. We grow these partnerships across product lines and services to create deeper, more integrated value. In addition, we pursue relationships with new customers that meet our targeted profile: financially stable, technology-driven, growth-oriented, and committed to long-term collaboration. [S67]
 
 ## Financial performance
 
@@ -1188,6 +1267,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-10-23, L53:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1200,6 +1283,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-10-23, L160:
+
+> This Annual Report on Form 10-K (“Form 10-K”) contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, that involve risks and uncertainties. Many of the forward-looking statements are located in Part II, Item 7 of this Form 10-K under the heading “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. Forward-looking statements can also be identified by words such as “future,” “anticipates,” “believes,” “estimates,” “expects,” “intends,” “plans,” “predicts,” “will,” “would,” “should,” “could,” “can,” “may,” and similar terms. Forward-looking statements are not guarantees of future performance and the Company’s actual results may differ significantly from the results discussed in the forward-looking statements. Achievement of anticipated results is subject to substantial risks, uncertainties and inaccurate assumptions. Should these risks or uncertainties materialize, or should underlying assumptions prove inaccurate, actual results could vary materially from past results and those anticipated, estimated or projected. You should bear this in mind as you consider forward-looking statements, and you are … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1209,25 +1296,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -1292,9 +1379,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-10 | 144 | 0001969223-26-000442 | — | [S65] |
 | 2026-04-10 | 144 | 0001969223-26-000441 | — | [S66] |
 
+Source excerpt — 10-K, filed 2026-10-23, L881:
+
+> We use an annual normalized tax rate (“normalized core tax rate”) for the computation of the non-GAAP (core) income tax provision to provide better consistency across reporting periods. In estimating the normalized core tax rate annually, we utilize a full-year financial projection of core earnings that considers the mix of earnings across tax jurisdictions, existing tax positions, and other significant tax matters. We may adjust the normalized core tax rate during the year for material impacts from new tax legislation or material changes to our operations. [S67]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000898293.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1426,4 +1517,16 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [144 0001969223-26-000441](https://www.sec.gov/Archives/edgar/data/898293/000196922326000441/0001969223-26-000441-index.html) — published 2026-04-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [10-K 0001628280-26-067038](https://www.sec.gov/Archives/edgar/data/898293/000162828026067038/jbl-20260831.htm) — published 2026-10-23; retrieved 2026-10-28T16:24:43.661602+00:00.
+
+[S68] [8-K 0001628280-26-063890](https://www.sec.gov/Archives/edgar/data/898293/000162828026063890/jbl-20260930.htm) — published 2026-09-30; retrieved 2026-10-28T16:24:41.840034+00:00.
+
+[S69] [10-Q 0001628280-26-046138](https://www.sec.gov/Archives/edgar/data/898293/000162828026046138/jbl-20260531.htm) — published 2026-06-30; retrieved 2026-10-28T16:24:40.150142+00:00.
+
+[S70] [DEF 14A 0001193125-25-316927](https://www.sec.gov/Archives/edgar/data/898293/000119312525316927/d946966ddef14a.htm) — published 2025-12-12; retrieved 2026-10-28T16:24:38.397242+00:00.
+
+[S71] [8-K/A 0001193125-25-143162](https://www.sec.gov/Archives/edgar/data/898293/000119312525143162/d70947d8ka.htm) — published 2025-06-20; retrieved 2026-10-28T16:24:36.709175+00:00.
+
+[S72] [8-K/A 0001193125-24-068620](https://www.sec.gov/Archives/edgar/data/898293/000119312524068620/d807145d8ka.htm) — published 2024-03-15; retrieved 2026-10-28T16:24:35.103615+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.

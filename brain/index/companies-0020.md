@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [FJDI](../companies/FJDI/README.md) | ARC Group Securities Acquisition I | available, quality gates apply |
 | [FJET](../companies/FJET/README.md) | Starfighters Space, Inc. | available, quality gates apply |
 | [FKWL](../companies/FKWL/README.md) | FRANKLIN WIRELESS CORP | available, quality gates apply |
 | [FLC](../companies/FLC/README.md) | FLAHERTY & CRUMRINE TOTAL RETURN FUND INC | not available |
@@ -103,4 +104,3 @@
 | [FSUN](../companies/FSUN/README.md) | FIRSTSUN CAPITAL BANCORP | available, quality gates apply |
 | [FSV](../companies/FSV/README.md) | FirstService Corp | not available |
 | [FT](../companies/FT/README.md) | FRANKLIN UNIVERSAL TRUST | not available |
-| [FTAI](../companies/FTAI/README.md) | FTAI Aviation Ltd. | available, quality gates apply |

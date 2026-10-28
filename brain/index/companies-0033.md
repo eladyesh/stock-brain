@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MGTX](../companies/MGTX/README.md) | MeiraGTx Holdings plc | available, quality gates apply |
 | [MGX](../companies/MGX/README.md) | Metagenomi Therapeutics, Inc. | available, quality gates apply |
 | [MGY](../companies/MGY/README.md) | Magnolia Oil & Gas Corp | available, quality gates apply |
 | [MGYR](../companies/MGYR/README.md) | Magyar Bancorp, Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [MPT](../companies/MPT/README.md) | MEDICAL PROPERTIES TRUST INC | not available |
 | [MPTI](../companies/MPTI/README.md) | M-tron Industries, Inc. | available, quality gates apply |
 | [MPU](../companies/MPU/README.md) | Mega Matrix Inc | not available |
-| [MPV](../companies/MPV/README.md) | BARINGS PARTICIPATION INVESTORS | not available |

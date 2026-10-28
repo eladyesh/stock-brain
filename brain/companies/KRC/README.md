@@ -8,11 +8,11 @@ tickers:
 - KRC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -59,8 +59,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
-  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
+  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
+  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001025996.json
@@ -367,6 +367,36 @@ sources:
   published_at: '2026-05-20'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026067051/krc-20260930.htm
+  title: 10-Q 0001628280-26-067051
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-28T16:25:55.588585+00:00'
+  sha256: 143c35afeb2d07a36291189dfa4787abaec90bb5b03c26b65e82950019cf2b29
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/krc-20261022.htm
+  title: 8-K 0001628280-26-066920
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-28T16:25:53.973774+00:00'
+  sha256: 39c3b4cedc369a5906dce26cb23be73819ca575bb54f4771030cf9910519c50c
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000119312526149727/d27549ddef14a.htm
+  title: DEF 14A 0001193125-26-149727
+  published_at: '2026-04-09'
+  retrieved_at: '2026-10-28T16:25:52.035372+00:00'
+  sha256: d778e2580b63ce4031c6051c2ca5f4750e67fb4d848221983f09bfbe9f161c4f
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000162828026007051/krc-20251231.htm
+  title: 10-K 0001628280-26-007051
+  published_at: '2026-02-11'
+  retrieved_at: '2026-10-28T16:25:49.841692+00:00'
+  sha256: 0957d4c51dc0c2a0cc2f98f8130d915ac08aced89c320c14ad9f5c6c8376bce7
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1025996/000102599623000142/krc-20230524.htm
+  title: 8-K/A 0001025996-23-000142
+  published_at: '2023-06-23'
+  retrieved_at: '2026-10-28T16:25:48.063738+00:00'
+  sha256: 1030aded823909187d29146415eb407a76b315c3442e95e8b1648cc59158cdae
 issuer_classification:
   cik: 0001025996
   classification_status: reported_sic
@@ -408,13 +438,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1025996/000102599623000142/0001025996-23-000142-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e92592e83b5c977be5eae4fcfdfbf85b6a8c1642c0225e3745e2081286756830
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -438,13 +477,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L756:
+
+> We own our interests in all of our real estate assets through Kilroy Realty, L.P. (the “Operating Partnership”) and conduct substantially all of our operations through the Operating Partnership. Unless stated otherwise or the context otherwise requires, the terms “Kilroy Realty Corporation” or the “Company,” “we,” “our,” and “us” refer to Kilroy Realty Corporation and its consolidated subsidiaries, including the Operating Partnership, and the term “Operating Partnership” refers to Kilroy Realty, L.P. and its consolidated subsidiaries. The descriptions of our business, employees, and properties apply to both the Company and the Operating Partnership. [S53]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1193:
+
+> We conduct our business on a consolidated basis in one operating segment and therefore have one reportable segment. Asset information by segment is not reported because the Company does not use this measure to assess performance. [S53]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-02-11, L497:
+
+> Our business is also gradually seeing the use of artificial intelligence to complement our decision making in order to improve our services and tailor our interactions. In recent years, the use of these methods has come under increased regulatory scrutiny. New laws, guidance, and/or decisions in this area may limit our ability to use our artificial intelligence models, or require us to make changes to our operations that may decrease our operational efficiency, result in an increase to operating costs, and/or hinder our ability to improve our services. For example, in October 2023, the President of the United States issued an executive order on the Safe, Secure and Trustworthy Development and Use of AI, emphasizing the need for transparency, accountability, and fairness in the development and use of AI. Any actual or perceived failure to comply with evolving regulatory frameworks around the development and use of AI, machine learning, and automated decision making could adversely affect us. [S56]
 
 ## Customers and end markets
 
@@ -456,9 +507,17 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-09, L897:
+
+> Supply Chain Responsibility. Kilroy is committed to conducting its business in compliance with the law and the highest levels of integrity, trust, and respect for the environment and human rights, and we expect our vendors and suppliers to uphold these principles. To ensure alignment, in 2025, we published an updated Vendor and Supplier Code of Conduct, which our vendors and suppliers are expected to comply with and which is posted on our website at https://kilroyrealty.com/sustainability. [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-10-23, L2062:
+
+> Implicit in historical cost accounting for real estate assets in accordance with GAAP is the assumption that the value of real estate assets diminishes predictably over time. Since real estate values have historically risen or fallen with market conditions, many industry investors and analysts have considered presentations of operating results for real estate companies using historical cost accounting alone to be insufficient. Because FFO excludes depreciation and amortization of real estate assets, we believe that FFO along with the required GAAP presentations provides a more complete measurement of our performance relative to our competitors and a more appropriate basis on which to make decisions involving operating, financing, and investing activities than the required GAAP presentations alone would provide. [S53]
 
 ## Moat and differentiation
 
@@ -467,6 +526,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1919:
+
+> Our general strategy is to maintain a conservative balance sheet with a strong credit profile and to maintain a capital structure that allows for financial flexibility and diversification of capital resources. We manage our capital structure to reflect a long-term investment approach and utilize multiple sources of capital to meet our long-term capital requirements. We believe that our current projected liquidity requirements for the next twelve-month period, as set forth above under the caption “—Liquidity Uses,” will be satisfied using a combination of the liquidity sources listed above, although there can be no assurance in this regard. We believe our disciplined capital structure and staggered debt maturities provide us with financial flexibility and enhance our ability to obtain additional sources of liquidity if necessary, and, therefore, we are well-positioned to refinance or repay maturing debt and to pursue our strategy of seeking attractive acquisition opportunities, which we may finance, as necessary, with future public and private issuances of debt and equity securities, although there can be no assurance in this regard. [S53]
 
 ## Financial performance
 
@@ -480,6 +543,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1844:
+
+> The Company intends to continue to make, but has not committed to making, regular quarterly cash distributions to common stockholders. All such distributions are at the discretion of the Board of Directors. The Company considers market factors and its performance in addition to REIT requirements in determining its distribution levels. Amounts accumulated for distribution to stockholders are invested primarily in interest-bearing accounts and short-term interest-bearing securities, which is consistent with the Company’s intention to maintain its qualification as a REIT. Such investments may include, for example, [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -491,6 +558,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1045:
+
+> We and our properties are subject to routine litigation incidental to our business. As of September 30, 2026, we are not a defendant in, and our properties are not subject to, any legal proceedings that we believe, if determined adversely to us, would have a material adverse effect upon our financial condition, results of operations or cash flows. [S53]
 
 ## Scenarios and open questions
 
@@ -504,25 +575,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -587,9 +658,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-20 | 4 | 0001628280-26-036944 | — | [S51] |
 | 2026-05-20 | 4 | 0001628280-26-036942 | — | [S52] |
 
+Source excerpt — 10-Q, filed 2026-10-23, L1229:
+
+> for the year ended December 31, 2025, and their respective other filings with the SEC. All forward-looking statements are based on currently available information and speak only as of the dates on which they are made. We assume no obligation to update any forward-looking statement that becomes untrue because of subsequent events, new information, or otherwise, except to the extent we are required to do so in connection with our ongoing requirements under federal securities laws. [S53]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001025996.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -693,4 +768,14 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S52] [4 0001628280-26-036942](https://www.sec.gov/Archives/edgar/data/1025996/000162828026036942/0001628280-26-036942-index.html) — published 2026-05-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [10-Q 0001628280-26-067051](https://www.sec.gov/Archives/edgar/data/1025996/000162828026067051/krc-20260930.htm) — published 2026-10-23; retrieved 2026-10-28T16:25:55.588585+00:00.
+
+[S54] [8-K 0001628280-26-066920](https://www.sec.gov/Archives/edgar/data/1025996/000162828026066920/krc-20261022.htm) — published 2026-10-22; retrieved 2026-10-28T16:25:53.973774+00:00.
+
+[S55] [DEF 14A 0001193125-26-149727](https://www.sec.gov/Archives/edgar/data/1025996/000119312526149727/d27549ddef14a.htm) — published 2026-04-09; retrieved 2026-10-28T16:25:52.035372+00:00.
+
+[S56] [10-K 0001628280-26-007051](https://www.sec.gov/Archives/edgar/data/1025996/000162828026007051/krc-20251231.htm) — published 2026-02-11; retrieved 2026-10-28T16:25:49.841692+00:00.
+
+[S57] [8-K/A 0001025996-23-000142](https://www.sec.gov/Archives/edgar/data/1025996/000102599623000142/krc-20230524.htm) — published 2023-06-23; retrieved 2026-10-28T16:25:48.063738+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.

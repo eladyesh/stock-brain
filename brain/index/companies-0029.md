@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [KIM$L, KIM$M, KIM$N](../companies/KIM_24L/README.md) | KIMCO REALTY CORP | available, quality gates apply |
 | [KINS](../companies/KINS/README.md) | KINGSTONE COMPANIES, INC. | available, quality gates apply |
 | [KIO](../companies/KIO/README.md) | KKR Income Opportunities Fund | not available |
 | [KITT](../companies/KITT/README.md) | Nauticus Robotics, Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [LASR](../companies/LASR/README.md) | NLIGHT, INC. | available, quality gates apply |
 | [LATA](../companies/LATA/README.md) | Galata Acquisition Corp. II | available, quality gates apply |
 | [LAUR](../companies/LAUR/README.md) | LAUREATE EDUCATION, INC. | available, quality gates apply |
-| [LAW](../companies/LAW/README.md) | CS Disco, Inc. | available, quality gates apply |

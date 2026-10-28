@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [EZGO](../companies/EZGO/README.md) | EZGO Technologies Ltd. | not available |
 | [EZPW](../companies/EZPW/README.md) | EZCORP INC | available, quality gates apply |
 | [EZRA](../companies/EZRA/README.md) | Reliance Global Group, Inc. | available, quality gates apply |
 | [F](../companies/F/README.md) | FORD MOTOR CO | not available |
@@ -103,4 +104,3 @@
 | [FIVN](../companies/FIVN/README.md) | Five9, Inc. | available, quality gates apply |
 | [FIX](../companies/FIX/README.md) | COMFORT SYSTEMS USA INC | available, quality gates apply |
 | [FIZZ](../companies/FIZZ/README.md) | NATIONAL BEVERAGE CORP | available, quality gates apply |
-| [FJDI](../companies/FJDI/README.md) | ARC Group Securities Acquisition I | available, quality gates apply |

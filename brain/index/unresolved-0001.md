@@ -67,13 +67,13 @@
 | [EH](../unmapped/f2a501c8a9e7a786ef8818ed200597d1.md) | NASDAQ | EHang Holdings Limited - ADS |
 | [EOCN](../unmapped/6364e673b246c8a3ceb65068c09a4eda.md) | NASDAQ | Eocene Ltd. - Ordinary Shares |
 | [ERIC](../unmapped/2c924ecca4a966cab8dd0d1380e0aaab.md) | NASDAQ | Ericsson - American Depositary Shares each representing 1 underlying Class B share |
-| [ESYN](../unmapped/fe5a0c67aa1cb5c6de7765ca769c9485.md) | NASDAQ | EnerSyn Global Inc. - Common Stock |
 | [EURKR](../unmapped/1b738c93ceb2762f2033d0cdee576fbf.md) | NASDAQ | Eureka Acquisition Corp - Right |
 | [FBIOP](../unmapped/7fa954442755973d923d665de9331137.md) | NASDAQ | Fortress Biotech, Inc. - 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock |
 | [FBYDP](../unmapped/99cb81e4a801e1fcca5880be6ac8da50.md) | NASDAQ | Falcon's Beyond Global, Inc. - 11% Series B Cumulative Convertible Preferred Stock |
 | [FCDH](../unmapped/68de2ac94a827dc0027e36b843cbe987.md) | NASDAQ | Forcendra Holding Limited - Class A Ordinary Shares |
 | [FCNCO](../unmapped/1a82421f44fe6a01e8a3af81839ac970.md) | NASDAQ | First Citizens BancShares, Inc. - 5.625% Non-Cumulative Perpetual Preferred Stock, Series C |
 | [FDUS](../unmapped/a00392a87fc6f0624723d102faf77799.md) | NASDAQ | Fidus Investment Corporation - Closed End Fund |
+| [FFTT](../unmapped/e9aaf3ba7ea36dbee0dd373803e2d6f0.md) | NASDAQ | Masonglory Limited - Class A Ordinary Shares |
 | [FGBIP](../unmapped/7b82b34f20e5af3ba04143c383075687.md) | NASDAQ | First Guaranty Bancshares, Inc. - 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock |
 | [FGCPP](../unmapped/337527570468d63e5e1225376174eca9.md) | NASDAQ | FG Communities Holdings Inc. - 8.00% Cumulative Series A Preferred Stock |
 | [FLYW](../unmapped/27a5df11c17b7a4bd7135f3b033d0bd8.md) | NASDAQ | Flywire Corporation - Voting Common Stock |

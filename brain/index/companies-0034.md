@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MPV](../companies/MPV/README.md) | BARINGS PARTICIPATION INVESTORS | not available |
 | [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
 | [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
 | [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
@@ -38,7 +39,6 @@
 | [MSFT](../companies/MSFT/README.md) | MICROSOFT CORP | available, quality gates apply |
 | [MSGE](../companies/MSGE/README.md) | Madison Square Garden Entertainment Corp. | available, quality gates apply |
 | [MSGM](../companies/MSGM/README.md) | Motorsport Games Inc. | available, quality gates apply |
-| [MSGY](../companies/MSGY/README.md) | Masonglory Ltd | not available |
 | [MSI](../companies/MSI/README.md) | Motorola Solutions, Inc. | available, quality gates apply |
 | [MSIF](../companies/MSIF/README.md) | MSC INCOME FUND, INC. | available, quality gates apply |
 | [MSLE](../companies/MSLE/README.md) | Satellos Bioscience Inc. | not available |

@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [IDE](../companies/IDE/README.md) | Voya Infrastructure, Industrials & Materials Fund | not available |
 | [IDN](../companies/IDN/README.md) | Intellicheck, Inc. | available, quality gates apply |
 | [IDR](../companies/IDR/README.md) | Idaho Strategic Resources, Inc. | available, quality gates apply |
 | [IDT](../companies/IDT/README.md) | IDT CORP | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [INTC](../companies/INTC/README.md) | INTEL CORP | available, quality gates apply |
 | [INTG](../companies/INTG/README.md) | INTERGROUP CORP | available, quality gates apply |
 | [INTJ](../companies/INTJ/README.md) | Intelligent Group Ltd | not available |
-| [INTR](../companies/INTR/README.md) | Inter & Co, Inc. | not available |

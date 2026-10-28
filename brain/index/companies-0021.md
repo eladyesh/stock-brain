@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [FTAI](../companies/FTAI/README.md) | FTAI Aviation Ltd. | available, quality gates apply |
 | [FTCI](../companies/FTCI/README.md) | FTC Solar, Inc. | available, quality gates apply |
 | [FTDR](../companies/FTDR/README.md) | Frontdoor, Inc. | available, quality gates apply |
 | [FTEK](../companies/FTEK/README.md) | FUEL TECH, INC. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [GEVO](../companies/GEVO/README.md) | Gevo, Inc. | available, quality gates apply |
 | [GF](../companies/GF/README.md) | NEW GERMANY FUND INC | not available |
 | [GFAI](../companies/GFAI/README.md) | Guardforce AI Co., Ltd. | not available |
-| [GFF](../companies/GFF/README.md) | GRIFFON CORP | available, quality gates apply |

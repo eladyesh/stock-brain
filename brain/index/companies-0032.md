@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [MARA](../companies/MARA/README.md) | MARA Holdings, Inc. | available, quality gates apply |
 | [MAS](../companies/MAS/README.md) | MASCO CORP /DE/ | not available |
 | [MASK](../companies/MASK/README.md) | 3 E Network Technology Group Ltd | not available |
 | [MASS](../companies/MASS/README.md) | 908 Devices Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [MGRC](../companies/MGRC/README.md) | MCGRATH RENTCORP | available, quality gates apply |
 | [MGRT](../companies/MGRT/README.md) | Mega Fortune Co Ltd | not available |
 | [MGRX](../companies/MGRX/README.md) | MANGOCEUTICALS, INC. | available, quality gates apply |
-| [MGTX](../companies/MGTX/README.md) | MeiraGTx Holdings plc | available, quality gates apply |

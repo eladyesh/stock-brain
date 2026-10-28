@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [JBLU](../companies/JBLU/README.md) | JETBLUE AIRWAYS CORP | available, quality gates apply |
 | [JBS](../companies/JBS/README.md) | JBS N.V. | not available |
 | [JBTM](../companies/JBTM/README.md) | JBT MAREL Corp | available, quality gates apply |
 | [JCAP](../companies/JCAP/README.md) | Jefferson Capital, Inc. / DE | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [KHC](../companies/KHC/README.md) | Kraft Heinz Co | available, quality gates apply |
 | [KIDS](../companies/KIDS/README.md) | ORTHOPEDIATRICS CORP | available, quality gates apply |
 | [KIDZ](../companies/KIDZ/README.md) | KIDZ AI Inc. | available, quality gates apply |
-| [KIM$L, KIM$M, KIM$N](../companies/KIM_24L/README.md) | KIMCO REALTY CORP | available, quality gates apply |

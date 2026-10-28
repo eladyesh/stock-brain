@@ -2,7 +2,7 @@
 
 [Company index](INDEX.md)
 
-Data release: `coverage-20261027-40530587641-1`; source created 2026-10-27T15:30:18.641431+00:00.
+Data release: `coverage-20261028-40722802424-1`; source created 2026-10-28T16:13:42.115634+00:00.
 
 These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.
 
@@ -10,10 +10,10 @@ These counts describe distinct mapped issuers. Foreign-form and fund-reporting s
 | --- | ---: | --- |
 | available | 4049 | Retain dated financial evidence and review blocked metrics before analytical use. |
 | latest_filing_incomplete | 208 | Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit. |
-| foreign_reporting_adapter | 1029 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
+| foreign_reporting_adapter | 1028 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
 | fund_reporting_review | 317 | Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification. |
 | unsupported_reporting_inventory | 27 | Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership. |
-| not_collected | 11 | Collect verified issuer submissions and source financial data before normalization. |
+| not_collected | 12 | Collect verified issuer submissions and source financial data before normalization. |
 
 Unresolved stock listings: **596**. Verify their issuer identity before attaching any company financial data.
 
@@ -110,6 +110,7 @@ Examples (up to 20; each company file contains its source evidence and task):
 - [LCU — Lion Copper Corp.](companies/LCU/README.md)
 - [LYCA — Lycia Therapeutics, Inc.](companies/LYCA/README.md)
 - [SRTM — Stratum Holdings Corp.](companies/SRTM/README.md)
+- [ESYN — EnerSyn Global Inc.](companies/ESYN/README.md)
 - [DAVI — DAVION HEALTHCARE PLC](companies/DAVI/README.md)
 - [PAXG — Pine Tree Acquisition Corp.](companies/PAXG/README.md)
 - [APXC — APEX CRITICAL METALS CORP.](companies/APXC/README.md)

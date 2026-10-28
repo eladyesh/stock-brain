@@ -43,6 +43,7 @@
 | [ESS](../companies/ESS/README.md) | ESSEX PROPERTY TRUST, INC. | available, quality gates apply |
 | [ESTA](../companies/ESTA/README.md) | ESTABLISHMENT LABS HOLDINGS INC. | available, quality gates apply |
 | [ESTC](../companies/ESTC/README.md) | Elastic N.V. | available, quality gates apply |
+| [ESYN](../companies/ESYN/README.md) | EnerSyn Global Inc. | not available |
 | [ETD](../companies/ETD/README.md) | ETHAN ALLEN INTERIORS INC | available, quality gates apply |
 | [ETG](../companies/ETG/README.md) | Eaton Vance Tax-Advantaged Global Dividend Income Fund | not available |
 | [ETJ](../companies/ETJ/README.md) | Eaton Vance Risk-Managed Diversified Equity Income Fund | not available |
@@ -103,4 +104,3 @@
 | [EXYN](../companies/EXYN/README.md) | Exyn Technologies, Inc. | available, quality gates apply |
 | [EYE](../companies/EYE/README.md) | National Vision Holdings, Inc. | available, quality gates apply |
 | [EYPT](../companies/EYPT/README.md) | EyePoint, Inc. | available, quality gates apply |
-| [EZGO](../companies/EZGO/README.md) | EZGO Technologies Ltd. | not available |
