@@ -8,11 +8,11 @@ tickers:
 - IPM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -94,8 +94,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
-  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
+  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
+  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001355839.json
@@ -156,6 +156,18 @@ sources:
   published_at: '2026-06-12'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1355839/000121390026111858/ea0307405-8k_intelligent.htm
+  title: 8-K 0001213900-26-111858
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-28T16:23:55.906148+00:00'
+  sha256: fa5f62e9f6f63d4aa556c62b1fc351c2e97522f3420a94535f2616684f84b647
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1355839/000121390026087787/ea0299991-10q_intelligent.htm
+  title: 10-Q 0001213900-26-087787
+  published_at: '2026-08-11'
+  retrieved_at: '2026-10-28T16:23:54.218852+00:00'
+  sha256: a659fd7bd252d06990d0d2469a923900487152e1fac258769e09a7ccd35c6107
 issuer_classification:
   cik: 0001355839
   classification_status: reported_sic
@@ -201,13 +213,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1355839/000121390013002188/0001213900-13-002188-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9d154dd0bda437805d8f3b2989268e95630f3236c2f2ce5afac86f725d5d0643
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -219,15 +242,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IPM/README.md
-full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IPM/README.md
+full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IPM — INTELLIGENT PROTECTION MANAGEMENT CORP.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IPM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IPM/README.md)
 
 ## Business overview
 
@@ -241,17 +264,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L103:
+
+> \| \| ● \| the intense competition in the industry in which our business operates and our ability to effectively compete with existing competitors and new market entrants; [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-11, L647:
+
+> The Company also generates subscription revenue from monthly premium subscription services from sales of its ManyCam software. Subscription revenues are presented net of refunds, credits, and known and estimated credit card chargebacks. During the six months ended June 30, 2026 and 2025, subscriptions were offered in durations of twelve-month and twenty-four-month terms. All subscription fees, however, are paid by credit card at the origination of the subscription regardless of the term of the subscription. Revenues from multi-month subscriptions are recognized on a straight-line basis over the period where the service is offered to the customer, indicated by length of the subscription term purchased. The unearned portion of subscription revenue is presented as deferred revenue in the accompanying condensed consolidated balance sheets. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-11, L641:
+
+> The Company recognizes revenue from the sale of services as it performs the underlying services, typically based on time and materials basis based upon hours incurred for the performance completed to date for which the Company has the right to consideration. The Company recognizes revenue on sales of goods at a point in time when the customer takes control of the goods, which typically occurs when title and risk of loss have passed to the customer. In most cases, the Company serves as principal; therefore it recognizes revenue on a gross basis for each of the Company’s services and product offerings principally because the Company is primarily responsible for fulfilling the promise to provide specified goods or service, and the Company has discretion in establishing the price of specified good or service. When the Company serves as an agent, it recognizes revenue on a net basis. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-11, L939:
+
+> We operate a secure private cloud from private suites in completely isolated areas that are leased within two Tier 3 data center facilities located in Phoenix, Arizona, and Edison, New Jersey (the “Data Centers”), pursuant to certain license agreements. As of June 30, 2026, the terms of the license agreements for the Data Centers located in Arizona and New Jersey extend through 2032 and 2027, respectively. Although we do not own or operate the Data Centers, we aim to use the high-level operations and standards provided by the Data Centers through our license agreements to provide our customers with secure and flexible cloud services. The Data Centers each conform to The Uptime Institute’s Tier 3 Certification, which is a globally recognized standard for validating critical data center infrastructure. The Tier 3 classification provides us with a degree of confidence that the Data Centers provide the necessary power, cooling, maintenance, and fault tolerance required for secure and reliable operations. Our critical infrastructure, hosted within the Data Centers, is designed to meet and exceed Tier 3 standards in all relevant categories. This allows us to deliver secure and compliant services to customers within heavily regulated industries, including financial services and healthcare, and other industries. Additionally, we incorporate a redundant, carrier-neutral network design … [S70]
 
 ## Industry and value chain
 
@@ -259,19 +298,35 @@ SEC-reported SIC **7370**: Services-Computer Programming, Data Processing, Etc..
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L1080:
+
+> During the three months ended June 30, 2026, we experienced supply chain constraints affecting the availability of memory, CPU and GPU components. These constraints extended product lead times compared to historical levels, resulting in delays between customer bookings and product shipments. As a result, a portion of booked orders during the quarter remained unrecognized as revenue pending fulfillment and delivery, which we expect to recognize in future quarters as the underlying products and services are shipped and installed. Deferred revenue was $4,469,109 as of June 30, 2026, which reflects amounts invoiced or collected for orders that had not yet been fulfilled. We are unable to predict with certainty when these supply chain conditions will normalize, and continued constraints affecting memory, CPU or GPU component availability could result in further delays in revenue recognition in future periods. [S70]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 8-K, filed 2026-10-23, L174:
+
+> also includes customary non-competition and non-solicitation provisions applicable to AdTech and the Stockholders. In addition, the parties [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-11, L112:
+
+> \| \| ● \| our reliance on Microsoft Corporation and others for software licenses and other intellectual property; [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L1026:
+
+> We present Adjusted EBITDA because it is a key measure used by our management and Board of Directors (the “Board”) to understand and evaluate our core operating performance and trends, to develop short- and long-term operational plans and to allocate resources to expand our business. In particular, the exclusion of certain expenses in calculating Adjusted EBITDA can provide a useful measure for period-to-period comparisons of the cash operating income generated by our business. We believe that Adjusted EBITDA is useful to investors and others to understand and evaluate our operating results, and it allows for a more meaningful comparison between our performance and that of competitors. [S70]
 
 ## Financial performance
 
@@ -369,6 +424,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L800:
+
+> During the six months ended June 30, 2026, the Company granted stock options to members of the Board of Directors (the “Board”) to purchase an aggregate of 40,000 shares of common stock at a weighted average exercise price of $1.62 per share. The stock options vest in four equal quarterly installments on the last day of each calendar quarter in 2026 and have a term of ten years. During the six months ended June 30, 2026, the Company also granted options to employees to purchase an aggregate of 276,000 shares of common stock. These options vest in equal tranches over a four-year period. The stock options granted during the six months ended June 30, 2026 have a term of ten years, an exercise price of $1.62 per share and a weighted average fair value of $1.41 per share, or $445,439 in the aggregate. During the six months ended June 30, 2025, the Company granted 275,000 stock options to members of the Board and to management. These options in the aggregate had an exercise price of $1.98 per share, a weighted average fair value of $1.79 per share and an aggregate fair value of $545,550. Stock-based compensation expense for the Company’s stock options for the three months ended June 30, 2026 and 2025, totaled $41,572 and $77,760, respectively. Stock-based compensation expense for the Company’s stock options for the six months ended June 30, 2026 and 2025, totaled $65,128 and … [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -381,6 +440,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L136:
+
+> to various conditions, including, among others, (i) the absence of a Material Adverse Effect (as defined in the Purchase Agreement), (ii) [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -390,25 +453,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -430,7 +493,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001355839.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -452,6 +515,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S23] [S-3 0001213900-26-068273](https://www.sec.gov/Archives/edgar/data/1355839/000121390026068273/0001213900-26-068273-index.html) — published 2026-06-12; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IPM/README.md).
+[S69] [8-K 0001213900-26-111858](https://www.sec.gov/Archives/edgar/data/1355839/000121390026111858/ea0307405-8k_intelligent.htm) — published 2026-10-23; retrieved 2026-10-28T16:23:55.906148+00:00.
+
+[S70] [10-Q 0001213900-26-087787](https://www.sec.gov/Archives/edgar/data/1355839/000121390026087787/ea0299991-10q_intelligent.htm) — published 2026-08-11; retrieved 2026-10-28T16:23:54.218852+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IPM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

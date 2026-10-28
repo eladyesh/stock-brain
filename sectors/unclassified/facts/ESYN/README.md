@@ -1,128 +1,43 @@
 ---
 schema_version: 1
 document_type: company_facts
-company_id: company-cik-0002020228
-cik: 0002020228
-company_name: Masonglory Ltd
+company_id: company-cik-0001897245
+cik: 0001897245
+company_name: EnerSyn Global Inc.
 tickers:
-- MSGY
+- ESYN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: false
 curated_research: null
 financial_gap:
-  reason: foreign_reporting_adapter
-  next_action: Add support for the observed 20-F, 40-F or 6-K reporting forms and
-    verify the actual accounting taxonomy before normalization.
-  observed_forms:
-  - '144'
-  - 20-F
-  - '3'
-  - 424B3
-  - 424B4
-  - 6-K
-  - 8-A12B
-  - CERT
-  - CORRESP
-  - DRS
-  - DRS/A
-  - DRSLTR
-  - EFFECT
-  - F-1
-  - F-1/A
-  - F-3
-  - FWP
-  - S-8
-  - SCHEDULE 13D
-  - SCHEDULE 13D/A
-  - UPLOAD
-input_sources:
-  submissions:
-    url: https://data.sec.gov/submissions/CIK0002020228.json
-    sha256: fdc0d579a1bd25c018b8cd37d807b6286b80420bef8fee2bfaa62dfd4c73efcb
-    retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-    archive: &id001
-      member: CIK0002020228.json
-      sha256: 593fbbea6512ef5ec729a5e513c465fbedaac8a66602c0abe00d0ba5a4d18732
-      url: https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip
-    acquisition: operator_supplied_sec_bulk_archive
+  reason: not_collected
+  next_action: Collect verified issuer submissions and source financial data before
+    normalization.
+  observed_forms: []
+input_sources: {}
 sources:
 - id: S01
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
-  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
-- id: S02
-  title: SEC issuer submissions
-  url: https://data.sec.gov/submissions/CIK0002020228.json
-  published_at: null
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: fdc0d579a1bd25c018b8cd37d807b6286b80420bef8fee2bfaa62dfd4c73efcb
-- id: S03
-  title: F-3 0001185185-26-004942
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/0001185185-26-004942-index.html
-  published_at: '2026-10-23'
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: null
-- id: S04
-  title: 6-K 0001185185-26-004913
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000118518526004913/0001185185-26-004913-index.html
-  published_at: '2026-10-22'
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: null
-- id: S05
-  title: 6-K 0001213900-26-111194
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000121390026111194/0001213900-26-111194-index.html
-  published_at: '2026-10-21'
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: null
-- id: S06
-  title: 6-K 0001185185-26-004602
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000118518526004602/0001185185-26-004602-index.html
-  published_at: '2026-10-06'
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: null
-- id: S07
-  title: 144 0001185185-26-004537
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000118518526004537/0001185185-26-004537-index.html
-  published_at: '2026-10-02'
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: null
-issuer_classification:
-  cik: 0002020228
-  classification_status: reported_sic
-  entity_type: other
-  name: Masonglory Ltd
-  sic: '1700'
-  sic_description: Construction - Special Trade Contractors
-classification_source:
-  acquisition: operator_supplied_sec_bulk_archive
-  archive: *id001
-  retrieved_at: '2026-10-24T13:22:51.759433+00:00'
-  sha256: fdc0d579a1bd25c018b8cd37d807b6286b80420bef8fee2bfaa62dfd4c73efcb
-  url: https://data.sec.gov/submissions/CIK0002020228.json
+  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
+  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+issuer_classification: null
+classification_source: null
 listings:
-- ticker: MSGY
+- ticker: ESYN
   exchange: NASDAQ
   instrument_type: common_stock
-research_filings:
-- accession: 0001213900-26-083085
-  filed: '2026-07-30'
-  form: 20-F
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000121390026083085/0001213900-26-083085-index.html
-- accession: 0001185185-26-004913
-  filed: '2026-10-22'
-  form: 6-K
-  url: https://www.sec.gov/Archives/edgar/data/2020228/000118518526004913/0001185185-26-004913-index.html
+research_filings: []
 research_progress:
-  stage: pending
-  input_sha256: 77345a5d2f6f161d3b5dfbf90cb0e0bf95a3270cdbc62287befaacc2c0cef9d7
+  stage: source_missing
+  input_sha256: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
   last_attempt_at: null
   last_success_at: null
   next_retry_at: null
@@ -132,35 +47,32 @@ research_progress:
   model_draft: false
   reviewed: false
 sector_assignment:
-  sector: industrials
-  method: project_sic_rule
-  sic: '1700'
-  sic_description: Construction - Special Trade Contractors
+  sector: unclassified
+  method: unresolved
+  sic: null
+  sic_description: null
   rule_version: 1
-  reason: Project navigation rules based on reported SEC SIC. These are provisional
-    broad sector groupings, not licensed or official GICS classifications. Unlisted,
-    mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
-    company-specific review.
-  source_url: https://data.sec.gov/submissions/CIK0002020228.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSGY/README.md
-full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
+  reason: Missing, ambiguous or unmapped reported industry; company-specific review
+    is required.
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/ESYN/README.md
+full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
-# MSGY — Masonglory Ltd
+# ESYN — EnerSyn Global Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSGY/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/ESYN/README.md)
 
 ## Business overview
 
-Reported issuer name: **Masonglory Ltd**. Stable SEC CIK: **0002020228**. [S02]
+Reported issuer name: **EnerSyn Global Inc.**. Stable SEC CIK: **0001897245**.
 
 The directory links the following current stock listings to this issuer. Classification is provisional where indicated.
 
 | Symbol | Exchange | Instrument | Identity revision | Evidence |
 | --- | --- | --- | ---: | --- |
-| MSGY | NASDAQ | common_stock | 1 | [S01] |
+| ESYN | NASDAQ | common_stock | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
@@ -178,11 +90,9 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 ## Industry and value chain
 
-SEC-reported SIC **1700**: Construction - Special Trade Contractors. [S02]
+Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 
-This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
-
-Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
+Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
@@ -226,13 +136,12 @@ Not available: substantive research has not been completed. Describe operational
 - The navigation assignment below does not establish domicile, a verified GICS sector or completed qualitative research.
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - No validated normalized financial history is available. Foreign forms, missing CompanyFacts accessions and quality failures require separate work; this is not zero revenue.
-- Next collection task: Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization.
-- Forms observed in the retained filing inventory: 144, 20-F, 3, 424B3, 424B4, 6-K, 8-A12B, CERT, CORRESP, DRS, DRS/A, DRSLTR, EFFECT, F-1, F-1/A, F-3, FWP, S-8, SCHEDULE 13D, SCHEDULE 13D/A, UPLOAD
-- Collector status: quality_review_required; last action: no_supported_filing; last checked: 2026-10-24T13:36:33.405889+00:00.
+- Next collection task: Collect verified issuer submissions and source financial data before normalization.
+- Forms observed in the retained filing inventory:
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **source_missing**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -260,32 +169,12 @@ Not available: substantive research has not been completed. Link relevant compan
 
 ## Recent developments
 
-Latest five available filing metadata records; document bodies have not been analyzed here.
-
-| Filed | Form | Accession | Period end | Filing |
-| --- | --- | --- | --- | --- |
-| 2026-10-23 | F-3 | 0001185185-26-004942 | — | [S03] |
-| 2026-10-22 | 6-K | 0001185185-26-004913 | — | [S04] |
-| 2026-10-21 | 6-K | 0001213900-26-111194 | — | [S05] |
-| 2026-10-06 | 6-K | 0001185185-26-004602 | — | [S06] |
-| 2026-10-02 | 144 | 0001185185-26-004537 | — | [S07] |
+Not available: substantive research has not been completed. Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
 
-[S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002020228.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-[S03] [F-3 0001185185-26-004942](https://www.sec.gov/Archives/edgar/data/2020228/000118518526004942/0001185185-26-004942-index.html) — published 2026-10-23; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-[S04] [6-K 0001185185-26-004913](https://www.sec.gov/Archives/edgar/data/2020228/000118518526004913/0001185185-26-004913-index.html) — published 2026-10-22; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-[S05] [6-K 0001213900-26-111194](https://www.sec.gov/Archives/edgar/data/2020228/000121390026111194/0001213900-26-111194-index.html) — published 2026-10-21; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-[S06] [6-K 0001185185-26-004602](https://www.sec.gov/Archives/edgar/data/2020228/000118518526004602/0001185185-26-004602-index.html) — published 2026-10-06; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-[S07] [144 0001185185-26-004537](https://www.sec.gov/Archives/edgar/data/2020228/000118518526004537/0001185185-26-004537-index.html) — published 2026-10-02; retrieved 2026-10-24T13:22:51.759433+00:00.
-
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSGY/README.md).
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/ESYN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

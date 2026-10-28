@@ -8,11 +8,11 @@ tickers:
 - IDT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,8 +76,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
-  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
+  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
+  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001005731.json
@@ -138,6 +138,18 @@ sources:
   published_at: '2026-09-29'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1005731/000143774926033419/idt20261014_def14a.htm
+  title: DEF 14A 0001437749-26-033419
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-28T16:22:22.441385+00:00'
+  sha256: a23e59d53cbc1f86691f75e856d4e306c506c26044b03dd9f87152a886b8b602
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1005731/000143774926031469/idt20260731_10k.htm
+  title: 10-K 0001437749-26-031469
+  published_at: '2026-09-29'
+  retrieved_at: '2026-10-28T16:22:20.338598+00:00'
+  sha256: b6618d15d2ec4596c0136fe9530bdfcd4124181338fb46b64673ad96ca49c4e4
 issuer_classification:
   cik: '0001005731'
   classification_status: reported_sic
@@ -207,13 +219,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1005731/000119312508199307/0001193125-08-199307-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: dd95a438cdfd91d098514a6f3029afdb0a38261e46981cbdc5d2da5d18555c3b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -228,15 +251,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001005731.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IDT/README.md
-full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IDT/README.md
+full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IDT — IDT CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IDT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IDT/README.md)
 
 ## Business overview
 
@@ -250,17 +273,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L205:
+
+> The Nominating Committee will consider director candidates recommended by the Company’s stockholders. Stockholders may recommend director candidates by contacting the Chairman of the Board as provided under the heading “Director Communications.” The Nominating Committee considers candidates suggested by its members, other directors, senior management and stockholders in anticipation of upcoming elections and actual or expected board vacancies. All candidates, including those recommended by stockholders, are evaluated on the same basis considering the entirety of their credentials and the needs of the Board of Directors and the Company. Of particular importance is the candidate’s wisdom, integrity, ability to make independent analytical inquiries, understanding of the business environment in which the Company operates, as well as his or her potential contribution to the diversity of the Board of Directors and his or her willingness to devote adequate time to fulfill duties as a director. Under “Proposal No. 1—Election of Directors” below, we provide an overview of each nominee’s experience, qualifications, attributes and skills, including as to personal factors of nominees and the diverse perspectives that nominees may bring to their service on the Board, that led the Nominating Committee and the Board of Directors to determine that each nominee should serve as a director. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — DEF 14A, filed 2026-10-23, L2237:
+
+> In Fiscal 2024, the Company’s high margin growth businesses built on prior performance and again delivered very strong results, while the Traditional Communications segment was able to partially offset the impact of sectoral decline on its bottom line. NRS grew its installed base, revenue and income from operations and saw increased contributions from newer offerings while continuing to introduce additional services. BOSS Money, the key component of the Fintech segment, delivered over 40% growth in both transaction volume and revenue. net2phone increased seats served, total revenue, subscription revenue and operating margins. Within the Traditional Communications segment, IDT Digital Payments grew revenue, and IDT Global was able to mitigate the bottom-line impact of continued revenue declines, while cost cutting and streamlining continued. On a consolidated basis, the Company delivered record levels of gross profit and gross profit margin. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-09-29, L318:
+
+> net2phone: Provides businesses with workflow and communications solutions, many of which are powered by AI, that analyze, inform, and manage business processes for enhanced productivity. net2phone’s offerings include: netphone AI Agent, an autonomous agentic solution; Coach, an AI-powered performance and workforce intelligence tool designed for managers of sales, support, and customer-facing teams; Unite, a unified communications as a service (UCaaS) solution; and, UContact, a contact center as a service (CCaaS) solution. All of the above-stated solutions can leverage net2phone’s proprietary integration layer, called Integrate. Integrate is the bridge between net2phone’s widening product portfolio and third party CRM or workflow systems. net2phone’s offerings are available worldwide with a focus on solutions tailored by geography across key North and South American markets and by industry or business vertical; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-09-29, L853:
+
+> We compete successfully in part by migrating customers of our other BOSS offerings from their current remittance providers to BOSS Money leveraging our highly regarded BOSS brand, insights into our customers, and cross-marketing capabilities. We compete for customers outside the BOSS ecosystem primarily based on brand reputation, low fees, and competitive foreign exchange rates. We believe that BOSS Money’s competitive strengths include: [S68]
 
 ## Industry and value chain
 
@@ -268,19 +307,35 @@ SEC-reported SIC **4813**: Telephone Communications (No Radiotelephone). [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-09-29, L1774:
+
+> Cyberattacks, including the use of malware, ransomware, computer viruses, denial of service attacks, credential harvesting, phishing and other social engineering, business email and collaboration-platform compromise, impersonation of our personnel, brands or systems (including through the use of AI-generated voice, video or text, or “deepfakes”), exploitation of software vulnerabilities and misconfigurations, and other means for obtaining unauthorized access to or disrupting the operation of our networks and systems and those of our suppliers, vendors and other service providers, could have an adverse effect on our business. Cyberattacks may cause equipment failures, loss of information (including sensitive personal information of customers or employees or valuable technical and marketing information), or disruptions to our or our customers’ operations. Furthermore, ransomware could potentially deny the use of our systems until a ransom is paid. Threat actors also increasingly target our customers, retailers, agents and business partners by impersonating us, our personnel or our systems, including through third-party messaging and collaboration platforms and spoofed websites, in order to induce fraudulent payments, harvest credentials or divert funds. Such schemes can harm our customers and partners, generate customer claims and chargebacks, and damage our reputation and … [S68]
+
 Navigation sector: **communication-services**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L4893:
+
+> Bill Pereira: Under the terms of the Pereira Agreement, in the event of Mr. Pereira’s death or disability, the Company shall pay Mr. Pereira or his estate a death/disability benefit equal to $800,000, one-half to be paid within ten (10) days of termination, and one-half to be paid monthly in equal installments over the six-month period following the date of the initial payment. If Mr. Pereira is terminated without “cause,” or if he voluntarily terminates his employment with “good reason,” each as defined in the Pereira Agreement, (i) he is entitled to a payment equal to $800,000, one-half paid ten days after the effective date of a release agreement and one-half paid monthly over the following six-month period, and (ii) all awards granted under the Company’s incentive plan shall vest (and the restrictions thereon lapse). A “change in control” is deemed to be “good reason” under the Pereira Agreement. Mr. Pereira has agreed not to compete with the Company for a period of one year following the termination of his agreement. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L6840:
+
+> (h) “Cause” means (i) the Participant’s refusal to comply with any lawful directive or policy of the Company which refusal is not cured by the Participant within ten (10) days of such written notice from the Company; (ii) the Company’s determination that the Participant has committed any act of dishonesty, embezzlement, unauthorized use or disclosure of confidential information or other intellectual property or trade secrets, common law fraud or other fraud against the Company or any Subsidiary or Affiliate; (iii) a material breach by the Participant of any written agreement with or any fiduciary duty owed to any Company or any Subsidiary or Affiliate; (iv) the Participant’s conviction (or the entry of a plea of a nolo contendere or equivalent plea) of a felony or any misdemeanor involving material dishonesty or moral turpitude; or (v) the Participant’s habitual or repeated misuse of, or habitual or repeated performance of Participant’s duties under the influence of, alcohol, illegally obtained prescription controlled substances or non-prescription controlled substances. Notwithstanding the foregoing, if a Participant and the Company (or any of its Affiliates) have entered into an employment agreement, consulting agreement or other similar agreement that specifically defines “cause,” then with respect to such Participant, “Cause” shall have the meaning defined in such other … [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-09-29, L711:
+
+> The recurring nature of substantially all of our revenue and the operating leverage inherent in our platform, which have enabled us to expand our margins as our network has grown; [S68]
 
 ## Financial performance
 
@@ -393,6 +448,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L133:
+
+> This Proxy Statement is being furnished to the stockholders of record of IDT Corporation, a Delaware corporation (the “Company” or “IDT”), as of the close of business in New York, New York on October 16, 2026, in connection with the solicitation by the Company’s Board of Directors (the “Board of Directors”) of proxies for use in voting at the Company’s 2026 Annual Meeting of Stockholders (the “Annual Meeting”). The Annual Meeting will be held on Thursday, December 10, 2026 at 11:00 a.m., local time, at the offices of IDT, 520 Broad Street, Newark, New Jersey 07102. The shares of the Company’s Class A common stock, par value $0.01 per share (“Class A Common Stock”), and Class B common stock, par value $0.01 per share (“Class B Common Stock”), present at the Annual Meeting or represented by the proxies received by Internet or mail (properly marked, dated and executed) and not revoked, will be voted at the Annual Meeting. This Proxy Statement is being mailed to the Company’s stockholders starting on or about November 2, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -405,6 +464,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L1351:
+
+> The following discussion and analysis of our compensation practices and related compensation information should be read in conjunction with the Summary Compensation table and other tables included in this proxy statement, as well as our financial statements and management’s discussion and analysis of our financial condition and results of operations included in our Annual Report on Form 10-K for the fiscal year ended July 31, 2026, which we refer to as the Form 10-K. The following discussion includes statements of judgment and forward-looking statements that involve risks and uncertainties. These forward-looking statements are based on our current expectations, estimates and projections about our industry, our business, compensation, management’s beliefs, and certain assumptions made by us, all of which are subject to change. Forward-looking statements can often be identified by words such as “anticipates,” “expects,” “intends,” “plans,” “predicts,” “believes,” “seeks,” “estimates,” “may,” “will,” “should,” “would,” “could,” “potential,” “continue,” “ongoing,” similar expressions, and variations or negatives of these words and include, but are not limited to, statements regarding projected performance and compensation. Actual results could differ significantly from those projected in the forward-looking statements as a result of certain factors, including, but not limited to, … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -414,25 +477,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -454,7 +517,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001005731.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -476,6 +539,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S39] [10-K 0001437749-26-031469](https://www.sec.gov/Archives/edgar/data/1005731/000143774926031469/0001437749-26-031469-index.html) — published 2026-09-29; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/IDT/README.md).
+[S67] [DEF 14A 0001437749-26-033419](https://www.sec.gov/Archives/edgar/data/1005731/000143774926033419/idt20261014_def14a.htm) — published 2026-10-23; retrieved 2026-10-28T16:22:22.441385+00:00.
+
+[S68] [10-K 0001437749-26-031469](https://www.sec.gov/Archives/edgar/data/1005731/000143774926031469/idt20260731_10k.htm) — published 2026-09-29; retrieved 2026-10-28T16:22:20.338598+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/IDT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

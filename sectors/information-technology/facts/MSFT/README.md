@@ -8,14 +8,14 @@ tickers:
 - MSFT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/information-technology/companies/MSFT/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/48056b79cf1dc5f5270bd576defc5c9bc49d62cf/sectors/information-technology/companies/MSFT/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -57,7 +57,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json
     sha256: dd0308149a8e96497989ed7c690b5a49a00bef9ceafbb24638bda41e8ae938dd
-    retrieved_at: '2026-10-27T06:30:37.963716+00:00'
+    retrieved_at: '2026-10-28T06:30:29.094922+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0000789019.json
     sha256: a9a65d8640cde1fe6fd7cf0219d5b948f431bf4f8b7954de4386d62f7eaa2523
@@ -72,8 +72,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:33.739265+00:00'
-  sha256: 29c7cedde394d9fb806c731f8be32ec8c78cad2668852342db80ae28619465f0
+  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
+  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000789019.json
@@ -84,19 +84,19 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json
   published_at: null
-  retrieved_at: '2026-10-27T06:30:37.963716+00:00'
+  retrieved_at: '2026-10-28T06:30:29.094922+00:00'
   sha256: dd0308149a8e96497989ed7c690b5a49a00bef9ceafbb24638bda41e8ae938dd
 - id: S04
   title: 10-K 0001193125-26-323660
   url: https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html
   published_at: '2026-07-29'
-  retrieved_at: '2026-10-27T06:30:37.963716+00:00'
+  retrieved_at: '2026-10-28T06:30:29.094922+00:00'
   sha256: null
 - id: S08
   title: 10-Q 0001193125-26-191507
   url: https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.html
   published_at: '2026-04-29'
-  retrieved_at: '2026-10-27T06:30:37.963716+00:00'
+  retrieved_at: '2026-10-28T06:30:29.094922+00:00'
   sha256: null
 - id: S17
   title: ARS 0001193125-26-427876
@@ -187,16 +187,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/information-technology/companies/MSFT/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSFT/README.md
-full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
+  source_url: https://github.com/eladyesh/stock-brain/blob/48056b79cf1dc5f5270bd576defc5c9bc49d62cf/sectors/information-technology/companies/MSFT/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/MSFT/README.md
+full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MSFT — MICROSOFT CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSFT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/MSFT/README.md)
 
 ## Business overview
 
@@ -274,7 +274,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: free_cash_flow=66987000000 USD (
 Derived observation: Operating cash flow / net income was 1.37x for the year ended 2026-06-30. Working capital and non-cash adjustments require separate filing analysis. [S04]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=182935000000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=133749000000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-27. Source retrieved: 2026-10-27T06:30:37.963716+00:00. [S03]
+Evidence cutoff: 2026-10-28. Source retrieved: 2026-10-28T06:30:29.094922+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -328,7 +328,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-27. Source retrieved: 2026-10-27T06:30:37.963716+00:00. [S03]
+Evidence cutoff: 2026-10-28. Source retrieved: 2026-10-28T06:30:29.094922+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -387,7 +387,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:29:09.982870+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/77264ce478c0c699392c0a049f464d4fda44c9f8/sectors/information-technology/companies/MSFT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/48056b79cf1dc5f5270bd576defc5c9bc49d62cf/sectors/information-technology/companies/MSFT/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -429,15 +429,15 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:33.739265+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000789019.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json) — published not supplied; retrieved 2026-10-27T06:30:37.963716+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json) — published not supplied; retrieved 2026-10-28T06:30:29.094922+00:00.
 
-[S04] [10-K 0001193125-26-323660](https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html) — published 2026-07-29; retrieved 2026-10-27T06:30:37.963716+00:00.
+[S04] [10-K 0001193125-26-323660](https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.html) — published 2026-07-29; retrieved 2026-10-28T06:30:29.094922+00:00.
 
-[S08] [10-Q 0001193125-26-191507](https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.html) — published 2026-04-29; retrieved 2026-10-27T06:30:37.963716+00:00.
+[S08] [10-Q 0001193125-26-191507](https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.html) — published 2026-04-29; retrieved 2026-10-28T06:30:29.094922+00:00.
 
 [S17] [ARS 0001193125-26-427876](https://www.sec.gov/Archives/edgar/data/789019/000119312526427876/0001193125-26-427876-index.html) — published 2026-10-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -449,6 +449,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0000789019-26-000226](https://www.sec.gov/Archives/edgar/data/789019/000078901926000226/0000789019-26-000226-index.html) — published 2026-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/MSFT/README.md).
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/MSFT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -8,11 +8,11 @@ tickers:
 - INFY
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-27'
-updated_at: '2026-10-27T15:30:18.641431+00:00'
+as_of: '2026-10-28'
+updated_at: '2026-10-28T16:13:42.115634+00:00'
 reviewed_at: null
-coverage_release: coverage-20261027-40530587641-1
-source_commit: 77264ce478c0c699392c0a049f464d4fda44c9f8
+coverage_release: coverage-20261028-40722802424-1
+source_commit: 48056b79cf1dc5f5270bd576defc5c9bc49d62cf
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -69,8 +69,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-27T15:25:35.250901+00:00'
-  sha256: 3e845dbd702671bbfbbc700f50d314d4d4cb439640ee0fe6fbf22fc3344c7f42
+  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
+  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001067491.json
@@ -107,6 +107,12 @@ sources:
   published_at: '2026-07-28'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm
+  title: 20-F 0001193125-26-270520
+  published_at: '2026-06-15'
+  retrieved_at: '2026-10-28T16:23:00.997483+00:00'
+  sha256: 1d0ad1d21f120834ed5ca66c7e29e3355403585de05fef8bbca4b3938b3489fe
 issuer_classification:
   cik: 0001067491
   classification_status: reported_sic
@@ -154,13 +160,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1067491/000089161803001195/0000891618-03-001195-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4a44a1d605116186d302bc24759db23bfa57304a650e02de66e58ce40f7010a9
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-28T16:19:58.196907+00:00'
+  last_success_at: '2026-10-28T16:19:58.196907+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -175,15 +192,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001067491.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/INFY/README.md
-full_history_commit: f974cdc6ffee05a6e0489d88d3e13c8eebf0b613
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/INFY/README.md
+full_history_commit: d9e673c37aaa38580be4e36b4880e8ab015a9390
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # INFY — Infosys Ltd
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/INFY/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/INFY/README.md)
 
 ## Business overview
 
@@ -197,17 +214,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-06-15, L133:
+
+> This Annual Report on Form 20-F contains ‘forward-looking statements’ within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements generally relate to future events or our future financial or operating performance and are based on our current expectations, assumptions, estimates and projections about the Company, our industry, economic conditions in the markets in which we operate, and certain other matters. Generally, these forward-looking statements can be identified by the use of forward-looking terminology such as ‘may’, ‘anticipate’, ‘believe’, ‘estimate’, ‘expect’, ‘continue’, ‘intend’, ‘will’, ‘project’, ‘seek’, ‘could’, ‘would’, ‘should’ and similar expressions. These statements are subject to substantial known and unknown risks, uncertainties and other factors, which may cause actual results or outcomes to differ materially from those implied by the forward-looking statements. Important factors that may cause actual results or outcomes to differ from those implied by the forward-looking statements include, but are not limited to, risks and uncertainties regarding the execution of our business strategy, increased competition for talent, our ability to attract and retain personnel, increase in wages, investments to … [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-06-15, L745:
+
+> Our AI first services are inherently designed with AI as the core execution layer, enabling new business models, products, and revenue streams for our clients by embedding intelligence directly into enterprise operations and decision making. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-06-15, L354:
+
+> Increased regulations, changes to existing regulations or increased government interventions, including sanctions, tariffs or trade restrictions in the industries in which our clients operate or economic uncertainty due to inflation, geopolitical conflicts and potential global economic slowdown may adversely affect our client’s businesses and may reduce demand for our services or cause us to incur additional costs in our processes or personnel, thereby negatively affecting our business, results of operations and financial condition. For instance, our clients may be subject to more stringent compliance requirements, including industry-specific compliance, privacy and security standards for handling data, which could impact the manner in which we provide our services. Additionally, geopolitical conflicts, including conflicts in the Middle East, Eastern Europe and India - Pakistan, may adversely affect certain of our clients’ operations or cause them to redirect spending toward business continuity, which may reduce their IT spend. A general slowdown in key geographies where our clients operate or depend on for their supply chain may adversely affect our revenues and profitability. [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-06-15, L1078:
+
+> Infosys Topaz Center of Excellence played a pivotal role in industrializing AI across client ecosystems, delivering several Generative AI engagements. This strong execution was underpinned by deep engineering rigor and a relentless focus on measurable business outcomes. We also saw significant traction in agentic AI, with several agent‑based solutions successfully deployed in production and generating tangible value for our customers. [S54]
 
 ## Industry and value chain
 
@@ -215,19 +248,35 @@ SEC-reported SIC **7371**: Services-Computer Programming Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-06-15, L354:
+
+> Increased regulations, changes to existing regulations or increased government interventions, including sanctions, tariffs or trade restrictions in the industries in which our clients operate or economic uncertainty due to inflation, geopolitical conflicts and potential global economic slowdown may adversely affect our client’s businesses and may reduce demand for our services or cause us to incur additional costs in our processes or personnel, thereby negatively affecting our business, results of operations and financial condition. For instance, our clients may be subject to more stringent compliance requirements, including industry-specific compliance, privacy and security standards for handling data, which could impact the manner in which we provide our services. Additionally, geopolitical conflicts, including conflicts in the Middle East, Eastern Europe and India - Pakistan, may adversely affect certain of our clients’ operations or cause them to redirect spending toward business continuity, which may reduce their IT spend. A general slowdown in key geographies where our clients operate or depend on for their supply chain may adversely affect our revenues and profitability. [S54]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-06-15, L133:
+
+> This Annual Report on Form 20-F contains ‘forward-looking statements’ within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements generally relate to future events or our future financial or operating performance and are based on our current expectations, assumptions, estimates and projections about the Company, our industry, economic conditions in the markets in which we operate, and certain other matters. Generally, these forward-looking statements can be identified by the use of forward-looking terminology such as ‘may’, ‘anticipate’, ‘believe’, ‘estimate’, ‘expect’, ‘continue’, ‘intend’, ‘will’, ‘project’, ‘seek’, ‘could’, ‘would’, ‘should’ and similar expressions. These statements are subject to substantial known and unknown risks, uncertainties and other factors, which may cause actual results or outcomes to differ materially from those implied by the forward-looking statements. Important factors that may cause actual results or outcomes to differ from those implied by the forward-looking statements include, but are not limited to, risks and uncertainties regarding the execution of our business strategy, increased competition for talent, our ability to attract and retain personnel, increase in wages, investments to … [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-06-15, L302:
+
+> Wage pressures and the hiring of employees and sub-contractors either outside or in India may prevent us from sustaining our competitive advantage and may reduce our profits. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-06-15, L300:
+
+> Any inability to manage our growth could disrupt our business, reduce our profitability and adversely impact our ability to implement our growth strategy. [S54]
 
 ## Financial performance
 
@@ -241,6 +290,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-06-15, L101:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -252,6 +305,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-06-15, L133:
+
+> This Annual Report on Form 20-F contains ‘forward-looking statements’ within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements generally relate to future events or our future financial or operating performance and are based on our current expectations, assumptions, estimates and projections about the Company, our industry, economic conditions in the markets in which we operate, and certain other matters. Generally, these forward-looking statements can be identified by the use of forward-looking terminology such as ‘may’, ‘anticipate’, ‘believe’, ‘estimate’, ‘expect’, ‘continue’, ‘intend’, ‘will’, ‘project’, ‘seek’, ‘could’, ‘would’, ‘should’ and similar expressions. These statements are subject to substantial known and unknown risks, uncertainties and other factors, which may cause actual results or outcomes to differ materially from those implied by the forward-looking statements. Important factors that may cause actual results or outcomes to differ from those implied by the forward-looking statements include, but are not limited to, risks and uncertainties regarding the execution of our business strategy, increased competition for talent, our ability to attract and retain personnel, increase in wages, investments to … [S54]
 
 ## Scenarios and open questions
 
@@ -265,25 +322,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -305,7 +362,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-27T15:25:35.250901+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001067491.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -319,6 +376,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001067491-26-000038](https://www.sec.gov/Archives/edgar/data/1067491/000106749126000038/0001067491-26-000038-index.html) — published 2026-07-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261027-40530587641-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f974cdc6ffee05a6e0489d88d3e13c8eebf0b613/brain/companies/INFY/README.md).
+[S54] [20-F 0001193125-26-270520](https://www.sec.gov/Archives/edgar/data/1067491/000119312526270520/infy-20260331.htm) — published 2026-06-15; retrieved 2026-10-28T16:23:00.997483+00:00.
+
+Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9e673c37aaa38580be4e36b4880e8ab015a9390/brain/companies/INFY/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

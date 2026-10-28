@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **1044**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **1045**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -315,6 +315,7 @@ Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are n
 | [ESBA, FISK, OGCP](facts/ESBA/README.md) | Empire State Realty OP, L.P. | available; quality gates apply | unresolved |
 | [ESRT](facts/ESRT/README.md) | Empire State Realty Trust, Inc. | available; quality gates apply | unresolved |
 | [ESS](facts/ESS/README.md) | ESSEX PROPERTY TRUST, INC. | available; quality gates apply | unresolved |
+| [ESYN](facts/ESYN/README.md) | EnerSyn Global Inc. | missing | unresolved |
 | [ETG](facts/ETG/README.md) | Eaton Vance Tax-Advantaged Global Dividend Income Fund | missing | unresolved |
 | [ETJ](facts/ETJ/README.md) | Eaton Vance Risk-Managed Diversified Equity Income Fund | missing | unresolved |
 | [ETSS](facts/ETSS/README.md) | Energy Transition Special Opportunities | available; quality gates apply | unresolved |

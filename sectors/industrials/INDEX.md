@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **763**. Curated profiles: **3**. Reviewed research: **3**.
+Factual files: **762**. Curated profiles: **3**. Reviewed research: **3**.
 
-Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -457,7 +457,6 @@ Data release: `coverage-20261027-40530587641-1`. Provisional SIC groupings are n
 | [MOGU](facts/MOGU/README.md) | MOGU Inc. | missing | project_sic_rule |
 | [MRTN](facts/MRTN/README.md) | MARTEN TRANSPORT LTD | available; quality gates apply | project_sic_rule |
 | [MSCI](facts/MSCI/README.md) | MSCI Inc. | available; quality gates apply | project_sic_rule |
-| [MSGY](facts/MSGY/README.md) | Masonglory Ltd | missing | project_sic_rule |
 | [MSM](facts/MSM/README.md) | MSC INDUSTRIAL DIRECT CO INC | available; quality gates apply | project_sic_rule |
 | [MTEN](facts/MTEN/README.md) | Mingteng International Corp Inc. | missing | project_sic_rule |
 | [MTRN](facts/MTRN/README.md) | MATERION Corp | available; quality gates apply | project_sic_rule |
