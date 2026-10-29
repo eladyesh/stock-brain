@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [HCKT](../companies/HCKT/README.md) | HACKETT GROUP, INC. | available, quality gates apply |
 | [HCM](../companies/HCM/README.md) | HUTCHMED (China) Ltd | not available |
 | [HCMA](../companies/HCMA/README.md) | HCM III ACQUISITION CORP. | available, quality gates apply |
 | [HCSG](../companies/HCSG/README.md) | HEALTHCARE SERVICES GROUP INC | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [HR](../companies/HR/README.md) | Healthcare Realty Trust Inc | available, quality gates apply |
 | [HRB](../companies/HRB/README.md) | H&R BLOCK INC | available, quality gates apply |
 | [HRI](../companies/HRI/README.md) | HERC HOLDINGS INC | available, quality gates apply |
+| [HRL](../companies/HRL/README.md) | HORMEL FOODS CORP /DE/ | available, quality gates apply |

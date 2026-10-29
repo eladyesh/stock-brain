@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [ADUR](../companies/ADUR/README.md) | ADURO CLEAN TECHNOLOGIES INC. | not available |
 | [ADUS](../companies/ADUS/README.md) | Addus HomeCare Corp | available, quality gates apply |
 | [ADV](../companies/ADV/README.md) | Advantage Solutions Inc. | available, quality gates apply |
 | [ADVB](../companies/ADVB/README.md) | Advanced Biomed Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [AIV](../companies/AIV/README.md) | APARTMENT INVESTMENT & MANAGEMENT CO | not available |
 | [AIXI](../companies/AIXI/README.md) | Xiao-I Corp | not available |
 | [AIZ](../companies/AIZ/README.md) | ASSURANT, INC. | available, quality gates apply |
+| [AJG](../companies/AJG/README.md) | Arthur J. Gallagher & Co. | available, quality gates apply |

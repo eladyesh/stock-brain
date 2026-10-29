@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [BKR](../companies/BKR/README.md) | Baker Hughes Co | available, quality gates apply |
 | [BKSY](../companies/BKSY/README.md) | BlackSky Technology Inc. | available, quality gates apply |
 | [BKT](../companies/BKT/README.md) | BLACKROCK INCOME TRUST, INC. | not available |
 | [BKTI](../companies/BKTI/README.md) | BK Technologies Corp | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [BRKR](../companies/BRKR/README.md) | BRUKER CORP | available, quality gates apply |
 | [BRLS](../companies/BRLS/README.md) | Borealis Foods Inc. | available, quality gates apply |
 | [BRLT](../companies/BRLT/README.md) | Brilliant Earth Group, Inc. | available, quality gates apply |
+| [BRN](../companies/BRN/README.md) | BARNWELL INDUSTRIES INC | available, quality gates apply |

@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [WXM](../companies/WXM/README.md) | WF International Ltd. | not available |
-| [WY](../companies/WY/README.md) | WEYERHAEUSER CO | available, quality gates apply |
-| [WYFI](../companies/WYFI/README.md) | WhiteFiber, Inc. | available, quality gates apply |
 | [WYHG](../companies/WYHG/README.md) | Wing Yip Food Holdings Group Ltd | not available |
 | [WYNN](../companies/WYNN/README.md) | WYNN RESORTS LTD | available, quality gates apply |
 | [WYY](../companies/WYY/README.md) | WIDEPOINT CORP | available, quality gates apply |
@@ -104,3 +101,6 @@
 | [YXT](../companies/YXT/README.md) | YXT.COM GROUP HOLDING Ltd | not available |
 | [YYAI](../companies/YYAI/README.md) | AIRWA INC. | available, quality gates apply |
 | [Z, ZG](../companies/Z/README.md) | ZILLOW GROUP, INC. | available, quality gates apply |
+| [ZBAO](../companies/ZBAO/README.md) | Zhibao Technology Inc. | not available |
+| [ZBH](../companies/ZBH/README.md) | ZIMMER BIOMET HOLDINGS, INC. | available, quality gates apply |
+| [ZBIO](../companies/ZBIO/README.md) | Zenas BioPharma, Inc. | available, quality gates apply |

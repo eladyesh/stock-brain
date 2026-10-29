@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [TUYA](../companies/TUYA/README.md) | Tuya Inc. | not available |
-| [TV](../companies/TV/README.md) | GRUPO TELEVISA, S.A.B. | not available |
-| [TVA](../companies/TVA/README.md) | Texas Ventures Acquisition III Corp | available, quality gates apply |
 | [TVAI](../companies/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available, quality gates apply |
 | [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |
 | [TVGN](../companies/TVGN/README.md) | Tevogen Inc. | available, quality gates apply |
@@ -104,3 +101,6 @@
 | [UROY](../companies/UROY/README.md) | Uranium Royalty Corp. | available, quality gates apply |
 | [USA](../companies/USA/README.md) | LIBERTY ALL STAR EQUITY FUND | not available |
 | [USAR](../companies/USAR/README.md) | USA Rare Earth, Inc. | available, quality gates apply |
+| [USAS](../companies/USAS/README.md) | Americas Gold & Silver Corp | not available |
+| [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
+| [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |

@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |
 | [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
 | [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |
 | [MZTI](../companies/MZTI/README.md) | MARZETTI CO | available, quality gates apply |
@@ -27,7 +26,6 @@
 | [NATL](../companies/NATL/README.md) | NCR Atleos Corp | available, quality gates apply |
 | [NATR](../companies/NATR/README.md) | NATURES SUNSHINE PRODUCTS INC | available, quality gates apply |
 | [NAUT](../companies/NAUT/README.md) | Nautilus Biotechnology, Inc. | available, quality gates apply |
-| [NAVI](../companies/NAVI/README.md) | NAVIENT CORP | available, quality gates apply |
 | [NAVN](../companies/NAVN/README.md) | Navan, Inc. | available, quality gates apply |
 | [NAZ](../companies/NAZ/README.md) | NUVEEN ARIZONA QUALITY MUNICIPAL INCOME FUND | not available |
 | [NB](../companies/NB/README.md) | NIOCORP DEVELOPMENTS LTD | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [NHP](../companies/NHP/README.md) | National Healthcare Properties, Inc. | available, quality gates apply |
 | [NHS](../companies/NHS/README.md) | Neuberger High Yield Strategies Fund Inc. | not available |
 | [NHTC](../companies/NHTC/README.md) | NATURAL HEALTH TRENDS CORP | not available |
+| [NI](../companies/NI/README.md) | NISOURCE INC. | available, quality gates apply |
+| [NIC](../companies/NIC/README.md) | NICOLET BANKSHARES INC | available, quality gates apply |

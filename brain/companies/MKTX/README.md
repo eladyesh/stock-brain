@@ -8,11 +8,11 @@ tickers:
 - MKTX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -74,8 +74,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001278021.json
@@ -466,6 +466,54 @@ sources:
   published_at: '2026-04-29'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312526430472/d150415d8k.htm
+  title: 8-K 0001193125-26-430472
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:29:40.079771+00:00'
+  sha256: 821361510e268c6ad1cdab3d7cef3314095546e57802ab8fb6022a9fe047c9b3
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312526340249/mktx-20260630.htm
+  title: 10-Q 0001193125-26-340249
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-29T16:29:38.133334+00:00'
+  sha256: e77e867a1d0754cdda145419e3cf80adc456817b6ce3199d0128fad20c7748df
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312526191601/mktx-20260429.htm
+  title: DEF 14A 0001193125-26-191601
+  published_at: '2026-04-29'
+  retrieved_at: '2026-10-29T16:29:36.148319+00:00'
+  sha256: bc55be33f65f306c309f3cf0ae49f0a8ff8e6f3eba6ece9e7b859b7b6c00be56
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312526161620/mktx-20260122.htm
+  title: 8-K/A 0001193125-26-161620
+  published_at: '2026-04-17'
+  retrieved_at: '2026-10-29T16:29:34.416887+00:00'
+  sha256: b0451099b483eed44a21eeae0448c586856c7c10092269e5079d5b1c64e15d0d
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312526067009/mktx-20251231.htm
+  title: 10-K 0001193125-26-067009
+  published_at: '2026-02-24'
+  retrieved_at: '2026-10-29T16:29:32.432048+00:00'
+  sha256: b1c439cea335bc9e2017d392481fc102414040a502b993e467ce41e75a6618c3
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312524150352/d783269d8ka.htm
+  title: 8-K/A 0001193125-24-150352
+  published_at: '2024-05-30'
+  retrieved_at: '2026-10-29T16:29:29.997463+00:00'
+  sha256: 18da8f13bce5efd866af8814ee5abc39e18bfe57e0113b0314374bbbada2f3bb
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000156459019046565/mktx-8ka_20191101.htm
+  title: 8-K/A 0001564590-19-046565
+  published_at: '2019-12-20'
+  retrieved_at: '2026-10-29T16:29:28.268990+00:00'
+  sha256: 8777a2609b622dc4e5e16dfc50ede7c1d7e2ffb7ca680c149db7ee6bbf686f48
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1278021/000119312512449336/d429211d8ka.htm
+  title: 8-K/A 0001193125-12-449336
+  published_at: '2012-11-02'
+  retrieved_at: '2026-10-29T16:29:26.568470+00:00'
+  sha256: 694d78d87f2ce532e5c66ef026f8657c7375373b5fdfa77d61d7d07031cb4f4f
 issuer_classification:
   cik: 0001278021
   classification_status: reported_sic
@@ -519,13 +567,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1278021/000119312512449336/0001193125-12-449336-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 40f91ba9479b0536e667d09a9859642ccbd44bff58d1aea1da575c2ff9ea87b3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -549,17 +608,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L9451:
+
+> The global fixed-income securities industry is risky and volatile and is directly affected by a number of economic, political and market factors that may impact trading volume. These factors could have a material adverse or positive effect on our business, financial condition and results of operations. These factors include, among others, fixed-income market conditions, the current interest rate environment, including the volatility of interest rates and investors’ forecasts of future interest rates, the duration of U.S high grade bonds traded, economic and political conditions in the United States, Europe and elsewhere, including recent and potential future changes in tariffs, international trade agreements or trade policies, and the consolidation or contraction of our broker-dealer and institutional investor clients. In the first six months of 2026, the market backdrop for the Company reflected increases in estimated market volumes in most of the Company’s key markets compared to the prior year, due, in part, to periods of event-driven volatility and elevated primary issuance. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L3597:
+
+> The Company’s classification of revenues in the Consolidated Statements of Operations represents revenues from contracts with customers disaggregated by type of revenue. The Company has four revenue streams as described below. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L9452:
+
+> Because the majority of our assets are short-term in nature, they are not significantly affected by inflation. However, the rate of inflation impacts our expenses, such as employee compensation, technology and communications expenses, which may not be readily recoverable in the prices of our services. To the extent inflation has other adverse effects on the securities markets or the economy, our financial position and results of operations may be adversely affected. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L3579:
+
+> Receivables from broker-dealers, clearing organizations and customers include amounts receivable for securities not delivered by the Company to the purchaser by the settlement date (“securities failed-to-deliver”) and cash deposits held at clearing organizations and clearing brokers to facilitate the settlement and clearance of matched principal transactions. Payables to broker-dealers, clearing organizations and customers include amounts payable for securities not received by the Company from a seller by the settlement date (“securities failed-to-receive”). Securities failed-to-deliver and securities failed-to-receive for transactions executed on a matched principal basis where the Company serves as a counterparty to both the buyer and the seller are recorded on a settlement date basis within receivables from and payables to broker-dealers, clearing organizations and customers. The difference between the Company’s trade-date receivables and payables for unsettled matched principal transactions reflects commissions earned and is recorded within accounts receivable, net on a trade date basis. [S68]
 
 ## Industry and value chain
 
@@ -567,17 +642,33 @@ SEC-reported SIC **6211**: Security Brokers, Dealers & Flotation Companies. [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-24, L1274:
+
+> We rely on our broker-dealer clients to provide liquidity on our electronic trading platforms by posting prices for bonds in their inventory and responding to institutional investor client inquiries. The contractual obligations of our broker-dealer clients to us are minimal, non-exclusive and terminable by such clients. Our broker-dealer clients buy and sell fixed-income securities through traditional methods, including by telephone and instant messaging, and through other electronic trading platforms. Some of our broker-dealer clients have developed electronic trading networks that compete with us or have announced their intention to explore the development of such electronic trading networks, and many of our broker-dealer clients are involved in other ventures, including other electronic trading platforms or other distribution channels, as trading participants and/or as investors. These competing trading platforms may offer some features that we do not currently offer. Accordingly, there can be no assurance that such broker-dealers’ primary commitments will not be to one of our competitors. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L9455:
+
+> The global fixed-income securities industry generally, and the electronic financial services markets in which we engage, in particular, are highly competitive, and we expect competition to intensify in the future. Sources of competition for us will continue to include, among others, bond trading conducted directly between broker-dealers and their institutional investor clients over the telephone or electronically and other multi-dealer or all-to-all trading platforms. Competitors, including companies in which some of our broker-dealer clients have invested, have developed or acquired electronic trading platforms or have announced their intention to explore the development of electronic platforms or information networks that may compete with us. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-24, L1025:
+
+> We rely upon a combination of copyright, patent, trade secret and trademark laws, written agreements and common law to protect our proprietary technology, processes and other intellectual property. Our software code, elements of our electronic trading platforms, website and other proprietary materials are protected by copyright laws. We have been issued several patents covering significant trading protocols and other aspects of our trading system technology. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L9447:
+
+> Our objective is to create, maintain and expand the leading global electronic network for the trading of fixed-income securities that enables institutional investors, broker-dealers and other market participants to connect, operate more efficiently and achieve better trading outcomes. We seek to achieve this goal by offering our clients full end-to-end electronic trading solutions and workflow tools, powered by a broad array of proprietary data and analytical tools. The key elements of our strategy are discussed in Part I, Item 1. “Business – Our Strategy” of our Form 10-K for the year ended December 31, 2025. [S68]
 
 ## Financial performance
 
@@ -1207,6 +1298,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L84:
+
+> “On May 27, 2026, the Company received from Parent a non-binding written indication of interest to acquire all of the outstanding Shares for $175.00 per Share in cash, which represented a premium of approximately 33.6% to the closing price of the Shares of $130.94 on May 27, 2026 (the “May 27 Proposal”). Neither the May 27 Proposal nor any later revised proposal by Parent included any proposals regarding post-Closing employment arrangements or any other post-Closing arrangements, including arrangements related to the retention of Company management in the surviving company or the participation in the equity of the surviving company, for any members of the Board or the Company’s executive officers. In addition, there were no discussions prior to the signing of the definitive agreement between any member of the Board or any of the Company’s executive officers, on the one hand, and any representative of Parent, on the other hand, regarding any post-Merger employment-related or compensation-related matters, other than discussions regarding the amendments to Mr. Concannon’s letter agreement and to the severance protection agreements of Ms. Fiszel Bieler and Mr. Pintoff, which the Company entered into on July 29, 2026, as disclosed in the Company’s Current Report on Form 8-K filed on July 30, 2026. The May 27 Proposal contemplated a sixty (60)-day exclusive negotiation period, … [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1219,6 +1314,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L610:
+
+> Although we believe that the expectations reflected in such forward-looking statements are based upon reasonable assumptions at the time made, we can give no assurance that such expectations will be achieved as anticipated or that our results, estimates or assumptions will be correct. Future events and actual results, financial and otherwise, may differ materially from the results discussed in the forward-looking statements, many of which are beyond MarketAxess’ control. Readers are cautioned not to place undue reliance on these forward-looking statements and are advised to consider the factors listed above together with the additional factors under the heading “Disclosure Regarding Forward-Looking Statements” and “Risk Factors” in MarketAxess’ Annual Report on Form 10-K, as may be supplemented or amended by MarketAxess’ Quarterly Reports on Form 10-Q, which are incorporated herein by reference. MarketAxess assumes no obligation to update or supplement forward-looking statements that become untrue because of subsequent events, new information or otherwise, except as required under applicable law. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1228,25 +1327,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1310,9 +1409,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-29 | SCHEDULE 13G | 0002100121-26-000488 | — | [S65] |
 | 2026-04-29 | ARS | 0001193125-26-191947 | — | [S66] |
 
+Source excerpt — 8-K, filed 2026-10-23, L610:
+
+> Although we believe that the expectations reflected in such forward-looking statements are based upon reasonable assumptions at the time made, we can give no assurance that such expectations will be achieved as anticipated or that our results, estimates or assumptions will be correct. Future events and actual results, financial and otherwise, may differ materially from the results discussed in the forward-looking statements, many of which are beyond MarketAxess’ control. Readers are cautioned not to place undue reliance on these forward-looking statements and are advised to consider the factors listed above together with the additional factors under the heading “Disclosure Regarding Forward-Looking Statements” and “Risk Factors” in MarketAxess’ Annual Report on Form 10-K, as may be supplemented or amended by MarketAxess’ Quarterly Reports on Form 10-Q, which are incorporated herein by reference. MarketAxess assumes no obligation to update or supplement forward-looking statements that become untrue because of subsequent events, new information or otherwise, except as required under applicable law. [S67]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001278021.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1444,4 +1547,20 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [ARS 0001193125-26-191947](https://www.sec.gov/Archives/edgar/data/1278021/000119312526191947/0001193125-26-191947-index.html) — published 2026-04-29; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001193125-26-430472](https://www.sec.gov/Archives/edgar/data/1278021/000119312526430472/d150415d8k.htm) — published 2026-10-23; retrieved 2026-10-29T16:29:40.079771+00:00.
+
+[S68] [10-Q 0001193125-26-340249](https://www.sec.gov/Archives/edgar/data/1278021/000119312526340249/mktx-20260630.htm) — published 2026-08-07; retrieved 2026-10-29T16:29:38.133334+00:00.
+
+[S69] [DEF 14A 0001193125-26-191601](https://www.sec.gov/Archives/edgar/data/1278021/000119312526191601/mktx-20260429.htm) — published 2026-04-29; retrieved 2026-10-29T16:29:36.148319+00:00.
+
+[S70] [8-K/A 0001193125-26-161620](https://www.sec.gov/Archives/edgar/data/1278021/000119312526161620/mktx-20260122.htm) — published 2026-04-17; retrieved 2026-10-29T16:29:34.416887+00:00.
+
+[S71] [10-K 0001193125-26-067009](https://www.sec.gov/Archives/edgar/data/1278021/000119312526067009/mktx-20251231.htm) — published 2026-02-24; retrieved 2026-10-29T16:29:32.432048+00:00.
+
+[S72] [8-K/A 0001193125-24-150352](https://www.sec.gov/Archives/edgar/data/1278021/000119312524150352/d783269d8ka.htm) — published 2024-05-30; retrieved 2026-10-29T16:29:29.997463+00:00.
+
+[S73] [8-K/A 0001564590-19-046565](https://www.sec.gov/Archives/edgar/data/1278021/000156459019046565/mktx-8ka_20191101.htm) — published 2019-12-20; retrieved 2026-10-29T16:29:28.268990+00:00.
+
+[S74] [8-K/A 0001193125-12-449336](https://www.sec.gov/Archives/edgar/data/1278021/000119312512449336/d429211d8ka.htm) — published 2012-11-02; retrieved 2026-10-29T16:29:26.568470+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

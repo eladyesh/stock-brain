@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [SDRL](../companies/SDRL/README.md) | SEADRILL Ltd | available, quality gates apply |
-| [SE](../companies/SE/README.md) | Sea Ltd | not available |
 | [SEAT](../companies/SEAT/README.md) | Vivid Seats Inc. | available, quality gates apply |
 | [SEB](../companies/SEB/README.md) | SEABOARD CORP /DE/ | available, quality gates apply |
 | [SECZ](../companies/SECZ/README.md) | Securitize Corp. | not available |
@@ -104,3 +102,5 @@
 | [SKWD](../companies/SKWD/README.md) | Skyward Specialty Insurance Group, Inc. | available, quality gates apply |
 | [SKY](../companies/SKY/README.md) | Champion Homes, Inc. | available, quality gates apply |
 | [SKYA](../companies/SKYA/README.md) | SkyAI, Inc. | available, quality gates apply |
+| [SKYD](../companies/SKYD/README.md) | Skydance Corp | available, quality gates apply |
+| [SKYE](../companies/SKYE/README.md) | Skye Bioscience, Inc. | available, quality gates apply |

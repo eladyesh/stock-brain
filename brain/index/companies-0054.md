@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [VLGEA](../companies/VLGEA/README.md) | VILLAGE SUPER MARKET INC | available, quality gates apply |
-| [VLN](../companies/VLN/README.md) | Valens Semiconductor Ltd. | not available |
-| [VLO](../companies/VLO/README.md) | VALERO ENERGY CORP/TX | available, quality gates apply |
 | [VLOS](../companies/VLOS/README.md) | Velos Acquisition I Corp. | available, quality gates apply |
 | [VLRS](../companies/VLRS/README.md) | Controladora Vuela Compania de Aviacion, S.A.B. de C.V. | not available |
 | [VLT](../companies/VLT/README.md) | Invesco High Income Trust II | not available |
@@ -104,3 +101,6 @@
 | [WDFC](../companies/WDFC/README.md) | WD 40 CO | available, quality gates apply |
 | [WDH](../companies/WDH/README.md) | Waterdrop Inc. | not available |
 | [WDS](../companies/WDS/README.md) | WOODSIDE ENERGY GROUP LTD | not available |
+| [WEC](../companies/WEC/README.md) | WEC ENERGY GROUP, INC. | available, quality gates apply |
+| [WELL](../companies/WELL/README.md) | WELLTOWER INC. | not available |
+| [WEN](../companies/WEN/README.md) | Wendy's Co | available, quality gates apply |

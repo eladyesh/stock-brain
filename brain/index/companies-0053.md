@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [USAS](../companies/USAS/README.md) | Americas Gold & Silver Corp | not available |
-| [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
-| [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |
 | [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
 | [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |
 | [USEA](../companies/USEA/README.md) | United Maritime Corp | not available |
@@ -104,3 +101,6 @@
 | [VKI](../companies/VKI/README.md) | Invesco Advantage Municipal Income Trust II | not available |
 | [VKQ](../companies/VKQ/README.md) | Invesco Municipal Trust | not available |
 | [VKTX](../companies/VKTX/README.md) | Viking Therapeutics, Inc. | available, quality gates apply |
+| [VLGEA](../companies/VLGEA/README.md) | VILLAGE SUPER MARKET INC | available, quality gates apply |
+| [VLN](../companies/VLN/README.md) | Valens Semiconductor Ltd. | not available |
+| [VLO](../companies/VLO/README.md) | VALERO ENERGY CORP/TX | available, quality gates apply |

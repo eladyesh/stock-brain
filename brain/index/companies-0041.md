@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [PLMK](../companies/PLMK/README.md) | Plum Acquisition Corp. IV | available, quality gates apply |
-| [PLMR](../companies/PLMR/README.md) | Palomar Holdings, Inc. | available, quality gates apply |
 | [PLNT](../companies/PLNT/README.md) | Planet Fitness, Inc. | available, quality gates apply |
 | [PLOW](../companies/PLOW/README.md) | DOUGLAS DYNAMICS, INC | available, quality gates apply |
 | [PLPC](../companies/PLPC/README.md) | PREFORMED LINE PRODUCTS CO | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [PRPO](../companies/PRPO/README.md) | Precipio, Inc. | available, quality gates apply |
 | [PRQR](../companies/PRQR/README.md) | ProQR Therapeutics N.V. | not available |
 | [PRSO](../companies/PRSO/README.md) | Peraso Inc. | available, quality gates apply |
+| [PRSU](../companies/PRSU/README.md) | Pursuit Attractions & Hospitality, Inc. | available, quality gates apply |
+| [PRTH](../companies/PRTH/README.md) | Priority Technology Holdings, Inc. | available, quality gates apply |

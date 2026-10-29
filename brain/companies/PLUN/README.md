@@ -8,11 +8,11 @@ tickers:
 - PLUN
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -57,8 +57,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
-  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
+  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
+  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002065661.json
@@ -525,7 +525,7 @@ Latest 30 filing metadata records of 30 retained records. A filing link is evide
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002065661.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -595,4 +595,4 @@ Latest 30 filing metadata records of 30 retained records. A filing link is evide
 
 [S35] [DRS 0001477932-25-002986](https://www.sec.gov/Archives/edgar/data/2065661/000147793225002986/0001477932-25-002986-index.html) — published 2025-04-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

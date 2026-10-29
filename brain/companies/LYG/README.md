@@ -8,11 +8,11 @@ tickers:
 - LYG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -47,8 +47,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
-  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
+  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
+  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001160106.json
@@ -355,6 +355,36 @@ sources:
   published_at: '2026-07-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426009123/a3201a.htm
+  title: 6-K 0001654954-26-009123
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:27:22.448182+00:00'
+  sha256: bd071c8eedc31feab086696e72e8c9dd9e7a71a7dc05c76789eb2459f96aae13
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495426002285/a8271w.htm
+  title: 6-K/A 0001654954-26-002285
+  published_at: '2026-03-16'
+  retrieved_at: '2026-10-29T16:27:20.996232+00:00'
+  sha256: dc8f40f8dfc88e281dfa6f5d3769674f9a3b04c2e0579ce803c2b82f97de6b89
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000116010626000010/lyg-20251231_d2.htm
+  title: 20-F 0001160106-26-000010
+  published_at: '2026-02-13'
+  retrieved_at: '2026-10-29T16:27:18.899788+00:00'
+  sha256: f8f36d8eb892e476bc812fc5f2cd4999da9c542c2b0e7d75891f45254362bea7
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495424001989/lloydsmaster-8032d.htm
+  title: 6-K/A 0001654954-24-001989
+  published_at: '2024-02-21'
+  retrieved_at: '2026-10-29T16:27:17.243847+00:00'
+  sha256: 6118b01208f9332621c10c5b20d095d20965debc6b6ae935e7d595aebf4d1fa6
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1160106/000165495423008386/a9451dlloyds.htm
+  title: 6-K/A 0001654954-23-008386
+  published_at: '2023-06-26'
+  retrieved_at: '2026-10-29T16:27:15.687998+00:00'
+  sha256: 2ae906d6e5b7c539bc558fecf8dea368a81ac88b6b53eab76f3ddca320aff845
 issuer_classification:
   cik: '0001160106'
   classification_status: reported_sic
@@ -394,13 +424,19 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1160106/000165495423008386/0001654954-23-008386-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a0877fba412cd7829a85d34ca0a5400152b6dc415864bf1ad60038a1016dfa28
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -424,6 +460,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-02-13, L2761:
+
+> Please refer to the “Divisional information” section under Item 4.B - “Business overview” on page 4. [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -442,9 +482,17 @@ SEC-reported SIC **6029**: Commercial Banks, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-02-13, L722:
+
+> and Scottish Widows, and through a range of distribution channels including the largest branch network and digital bank in the UK. [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-02-13, L581:
+
+> related to regulatory actions which may be taken in the event of a bank or Group failure; exposure to legal, regulatory or competition [S55]
 
 ## Moat and differentiation
 
@@ -466,6 +514,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-02-13, L279:
+
+> compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b) ☐ [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -477,6 +529,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-02-13, L602:
+
+> statements, please see the Risk Factors for 2025 filed by the Company with the SEC on Form 6-K on 29 January 2026 (the “6-K Risk Factors”) [S55]
 
 ## Scenarios and open questions
 
@@ -490,25 +546,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -573,9 +629,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-07-30 | 6-K | 0001160106-26-000024 | — | [S51] |
 | 2026-07-30 | 6-K | 0001160106-26-000022 | — | [S52] |
 
+Source excerpt — 20-F, filed 2026-02-13, L5290:
+
+> profile. Portfolio quality improved during the year, supported by robust affordability and credit controls with higher risk legacy vintage [S55]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001160106.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -679,4 +739,14 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S52] [6-K 0001160106-26-000022](https://www.sec.gov/Archives/edgar/data/1160106/000116010626000022/0001160106-26-000022-index.html) — published 2026-07-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001654954-26-009123](https://www.sec.gov/Archives/edgar/data/1160106/000165495426009123/a3201a.htm) — published 2026-10-23; retrieved 2026-10-29T16:27:22.448182+00:00.
+
+[S54] [6-K/A 0001654954-26-002285](https://www.sec.gov/Archives/edgar/data/1160106/000165495426002285/a8271w.htm) — published 2026-03-16; retrieved 2026-10-29T16:27:20.996232+00:00.
+
+[S55] [20-F 0001160106-26-000010](https://www.sec.gov/Archives/edgar/data/1160106/000116010626000010/lyg-20251231_d2.htm) — published 2026-02-13; retrieved 2026-10-29T16:27:18.899788+00:00.
+
+[S56] [6-K/A 0001654954-24-001989](https://www.sec.gov/Archives/edgar/data/1160106/000165495424001989/lloydsmaster-8032d.htm) — published 2024-02-21; retrieved 2026-10-29T16:27:17.243847+00:00.
+
+[S57] [6-K/A 0001654954-23-008386](https://www.sec.gov/Archives/edgar/data/1160106/000165495423008386/a9451dlloyds.htm) — published 2023-06-26; retrieved 2026-10-29T16:27:15.687998+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

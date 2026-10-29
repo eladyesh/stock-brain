@@ -4,6 +4,10 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [LOMA](../unmapped/684c5d19b7caad52261d1db13275e36c.md) | NYSE | Loma Negra Compania Industrial Argentina Sociedad Anonima ADS |
+| [LSPD](../unmapped/54438c8fa28c240dc0b8302f81af2a04.md) | NYSE | Lightspeed Commerce Inc. Subordinate Voting Shares |
+| [LXP$C](../unmapped/1a11b0287425a598a6acfcbec070d5bf.md) | NYSE | LXP Industrial Trust 6.5% Series C Cumulative Convertible Preferred Stock |
+| [MET$E](../unmapped/9a5beb829f61955ced4a66411d286293.md) | NYSE | MetLife, Inc. Depositary Shares |
 | [MFA$C](../unmapped/889658ac4fe44c191c376336ed615ad6.md) | NYSE | MFA Financial, Inc. 6.50% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock |
 | [MFG](../unmapped/e6a2351c4174e545c4f11f82063dcad6.md) | NYSE | Mizuho Financial Group, Inc. Sponosred ADR (Japan) |
 | [MITT$A](../unmapped/c15edd02dd46bb450298eeb0fc4d3fe0.md) | NYSE | TPG Mortgage Investment Trust, Inc. 8.25% Series A Cumulative Redeemable Preferred Stock |
@@ -100,7 +104,3 @@
 | [SEAL$B](../unmapped/02c13f832a483b784ee49275b2fecb6e.md) | NYSE | Seapeak LLC 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units |
 | [SHO](../unmapped/034a5f2d9067f04f1341446af9945c9c.md) | NYSE | Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares |
 | [SHO$H](../unmapped/4d03b66d97c3072d360dc24dc8e37b6a.md) | NYSE | Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock |
-| [SHO$I](../unmapped/6a4a5638edb998065da97e2040d5b76e.md) | NYSE | Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock |
-| [SID](../unmapped/8259b63ce0cb8f3dd6f5b70e53d700c5.md) | NYSE | Companhia Siderurgica Nacional S.A. Common Stock |
-| [SMFG](../unmapped/d2014fb2ce66140c774ef21f0246b2bd.md) | NYSE | Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan) |
-| [SNN](../unmapped/cc9e2261adf3f4b4838bdba26a256535.md) | NYSE | Smith & Nephew SNATS, Inc. Common Stock |

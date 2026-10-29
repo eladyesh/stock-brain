@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [LOAR](../companies/LOAR/README.md) | Loar Holdings Inc. | available, quality gates apply |
 | [LOB, LOB$A](../companies/LOB/README.md) | Live Oak Bancshares, Inc. | available, quality gates apply |
 | [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |
 | [LOCL](../companies/LOCL/README.md) | Local Bounti Corporation/DE | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [MANH](../companies/MANH/README.md) | MANHATTAN ASSOCIATES INC | available, quality gates apply |
 | [MANU](../companies/MANU/README.md) | Manchester United plc | not available |
 | [MAR](../companies/MAR/README.md) | MARRIOTT INTERNATIONAL INC /MD/ | available, quality gates apply |
+| [MARA](../companies/MARA/README.md) | MARA Holdings, Inc. | available, quality gates apply |

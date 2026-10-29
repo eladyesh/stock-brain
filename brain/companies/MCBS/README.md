@@ -8,11 +8,11 @@ tickers:
 - MCBS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,8 +75,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001747068.json
@@ -467,6 +467,36 @@ sources:
   published_at: '2025-06-06'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1747068/000110465926118460/mcbs-20261023x8k.htm
+  title: 8-K 0001104659-26-118460
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:28:21.743720+00:00'
+  sha256: 54ef1b7a000cd36d82d7e8e137b5c0b320ad9de7c725f278d202b8e1d475bd4a
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1747068/000110465926092674/mcbs-20260630x10q.htm
+  title: 10-Q 0001104659-26-092674
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-29T16:28:19.609263+00:00'
+  sha256: 2ec6d5fa33f11a91dc70ecb612877c766a2c8191e8e3556f481bce73824b1de9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1747068/000110465926045475/mcbs-20260521xdef14a.htm
+  title: DEF 14A 0001104659-26-045475
+  published_at: '2026-04-20'
+  retrieved_at: '2026-10-29T16:28:17.321383+00:00'
+  sha256: 5be2d31a51f14662ffaa4b6e3b12149a38be1bc8588382cd7ec55e99811e7276
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1747068/000174706826000010/mcbs-20251231x10k.htm
+  title: 10-K 0001747068-26-000010
+  published_at: '2026-03-16'
+  retrieved_at: '2026-10-29T16:28:15.154462+00:00'
+  sha256: 45a507b3228bc31cac0ff1ef40202e442d8428c0894a644f92a66fe8cb228dab
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1747068/000174706826000007/mcbs-20260212x8ka.htm
+  title: 8-K/A 0001747068-26-000007
+  published_at: '2026-02-12'
+  retrieved_at: '2026-10-29T16:28:12.848548+00:00'
+  sha256: fbeb99c0fd56068386faab1b86adfb39b9051abf7eea12c1d486600576d1f084
 issuer_classification:
   cik: 0001747068
   classification_status: reported_sic
@@ -508,13 +538,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1747068/000174706826000007/0001747068-26-000007-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a54614a171d1108ef7fe8a40aeebdfd0a1446db76aa09f3417228540c3fc1ae2
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -538,17 +579,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L17975:
+
+> \| \| ● \| our ability to successfully execute our business strategy to achieve profitable growth; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L4701:
+
+> Our Chief Executive Officer is our designated chief operating decision maker. While the chief operating decision maker monitors the revenue streams of the various products and services, our operations are managed and financial performance is evaluated on a Company-wide basis. Operating segments are aggregated into one segment as operating results for all segments are similar. Accordingly, all of the financial service operations are considered by management to be aggregated in one reportable operating segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-16, L854:
+
+> We evaluate our services on an ongoing basis, and will add or remove services based upon the perceived needs and financial requirements of our customers, competitive factors and our financial and other capabilities. Future services may also be significantly influenced by improvements and developments in technology and evolving state and federal laws and regulations. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L18037:
+
+> We are a full-service commercial bank focused on delivering personalized service in an efficient and reliable manner to the small to medium-sized businesses and individuals in our markets, predominantly Asian-American communities in growing metropolitan markets in the Eastern U.S. and Texas. We offer a suite of loan and deposit products tailored to meet the needs of the businesses and individuals already established in our communities, as well as first generation immigrants who desire to establish and grow their own businesses, purchase a home, or educate their children in the United States. Through our diverse and experienced management team and talented employees, we are able to speak the language of our customers and provide them with services and products in a culturally competent manner. [S68]
 
 ## Industry and value chain
 
@@ -556,17 +613,33 @@ SEC-reported SIC **6022**: State Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L17956:
+
+> \| \| ● \| general economic and business conditions in our local markets, including conditions affecting employment levels, interest rates, inflation, tariffs or trade wars (including reduced consumer spending, supply chain issues, and adverse impacts to credit quality), a sustained increase in commodity prices, slowdowns in economic growth, the threat of recession, volatile equity capital markets, property and casualty insurance costs, collateral values, customer income, creditworthiness and confidence, spending and savings that may affect customer bankruptcies, defaults, charge-offs and deposit activity; and the impact of the foregoing on customer and client behavior (including the velocity and levels of deposit withdrawals and loan repayment); [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L17957:
+
+> \| \| ● \| changes in the interest rate environment (including changes to the federal funds rate and the impact on the level and composition of deposits (as well as the cost of, and competition for, deposits), loan demand, liquidity and the values of loan collateral, securities and market fluctuations, and interest rate sensitive assets and liabilities), and competition in our markets may result in increased funding costs or reduced earning assets yields, thus reducing our margins and net interest income; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-16, L1092:
+
+> provisions in intellectual property, privacy, security, consumer protection, employment, and other laws applicable to the use of AI. These evolving laws and regulations could require changes in the Company’s implementation of AI technology and increase the Company’s compliance costs and the risk of non-compliance. AI models, particularly generative AI models, may produce output or take action that is incorrect, that reflects biases included in the data on which they are trained, that results in the release of private, confidential, or proprietary information, that infringes on the intellectual property rights of others, or that is otherwise harmful. In addition, the complexity of many AI models makes it difficult to understand why they are generating particular outputs. This limited transparency increases the challenges associated with assessing the proper operation of AI models, understanding and monitoring the capabilities of the AI models, reducing erroneous output, eliminating bias, and complying with regulations that require documentation or explanation of the basis on which decisions are made. Further, the Company may rely on AI models developed by third parties, and, to that extent, would be dependent in part on the manner in which those third parties develop and train their models, including risks arising from the inclusion of any unauthorized material in the training … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-20, L800:
+
+> We believe that our directors should have the highest professional and personal ethics and values, consistent with our longstanding values and standards. They should have broad experience at the policy-making level in areas relevant to our business. They should be committed to enhancing shareholder value and should have sufficient time to carry out their duties and to provide insight and practical wisdom based on their own unique experience. Each director must represent the interests of all shareholders. When considering potential director candidates, our board of directors also considers the candidate’s independence, character, judgment, diversity of background, age, skill-sets, financial literacy, specific business background and global or international experience in the context of our needs and those of the board of directors. Our board of directors’ priority in selecting board members is the identification of persons who will further the interests of our shareholders through his or her record of professional and personal experiences and expertise relevant to our growth strategy. The following matrix depicts the diversity of experience of our board of directors. [S69]
 
 ## Financial performance
 
@@ -1178,6 +1251,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L17294:
+
+> The Company adopted the MetroCity Bankshares, Inc. 2018 Stock Option Plan (the “Prior Option Plan”) effective as of April 18, 2018, and the Prior Option Plan was approved by the Company’s shareholders on May 30, 2018. The Prior Option Plan provided for awards of stock options to officers, employees and directors of the Company. The Board of Directors of the Company determined that it was in the best interests of the Company and its shareholders’to amend and restate the Prior Option Plan to provide for the grant of additional types of awards. Acting pursuant to its authority under the Prior Option Plan, the Board of Directors approved and adopted the MetroCity Bankshares, Inc. 2018 Omnibus Incentive Plan (the “2018 Incentive Plan”), which constitutes the amended and restated version of the Prior Option Plan. The Board of Directors has reserved 2,400,000 shares of Company common stock for issuance pursuant to awards granted under the 2018 Incentive Plan, any or all of which may be granted as nonqualified stock options, incentive stock options, restricted stock, restricted stock units, performance awards and other stock-based awards. In the event all or a portion of a stock award is forfeited, cancelled, expires, or is terminated before becoming vested, paid, exercised, converted, or otherwise settled in full, any unissued or forfeited shares again become available for issuance … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1190,6 +1267,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L4699:
+
+> Due to the nature of their activities, the Company and its subsidiary are at times engaged in various legal proceedings that arise in the course of normal business, some of which were outstanding as of June 30, 2026. Although the ultimate outcome of all claims and lawsuits outstanding as of June 30, 2026 cannot be ascertained at this time, it is the opinion of management that these matters, when resolved, will not have a material adverse effect on the Company’s results of operations or financial condition. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1199,25 +1280,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1282,9 +1363,13 @@ Latest 50 filing metadata records of 334 retained records. A filing link is evid
 | 2025-06-06 | EFFECT | 9999999995-25-001862 | — | [S65] |
 | 2025-06-06 | 424B3 | 0001104659-25-057385 | — | [S66] |
 
+Source excerpt — 10-Q, filed 2026-08-07, L13602:
+
+> The Company maintains cash deposits with a financial institution that during the year are in excess of the insured limitation of the Federal Deposit Insurance Corporation. If the financial institution were not to honor its contractual liability, the Company could incur losses. Management is of the opinion that there is not material risk because of the financial strength of the institution. [S68]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001747068.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1416,4 +1501,14 @@ Latest 50 filing metadata records of 334 retained records. A filing link is evid
 
 [S66] [424B3 0001104659-25-057385](https://www.sec.gov/Archives/edgar/data/1747068/000110465925057385/0001104659-25-057385-index.html) — published 2025-06-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001104659-26-118460](https://www.sec.gov/Archives/edgar/data/1747068/000110465926118460/mcbs-20261023x8k.htm) — published 2026-10-23; retrieved 2026-10-29T16:28:21.743720+00:00.
+
+[S68] [10-Q 0001104659-26-092674](https://www.sec.gov/Archives/edgar/data/1747068/000110465926092674/mcbs-20260630x10q.htm) — published 2026-08-07; retrieved 2026-10-29T16:28:19.609263+00:00.
+
+[S69] [DEF 14A 0001104659-26-045475](https://www.sec.gov/Archives/edgar/data/1747068/000110465926045475/mcbs-20260521xdef14a.htm) — published 2026-04-20; retrieved 2026-10-29T16:28:17.321383+00:00.
+
+[S70] [10-K 0001747068-26-000010](https://www.sec.gov/Archives/edgar/data/1747068/000174706826000010/mcbs-20251231x10k.htm) — published 2026-03-16; retrieved 2026-10-29T16:28:15.154462+00:00.
+
+[S71] [8-K/A 0001747068-26-000007](https://www.sec.gov/Archives/edgar/data/1747068/000174706826000007/mcbs-20260212x8ka.htm) — published 2026-02-12; retrieved 2026-10-29T16:28:12.848548+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

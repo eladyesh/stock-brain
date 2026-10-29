@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [WEC](../companies/WEC/README.md) | WEC ENERGY GROUP, INC. | available, quality gates apply |
-| [WELL](../companies/WELL/README.md) | WELLTOWER INC. | not available |
-| [WEN](../companies/WEN/README.md) | Wendy's Co | available, quality gates apply |
 | [WENC](../companies/WENC/README.md) | West Enclave Merger Corp. | available, quality gates apply |
 | [WENN](../companies/WENN/README.md) | WEN Acquisition Corp | available, quality gates apply |
 | [WERN](../companies/WERN/README.md) | WERNER ENTERPRISES INC | available, quality gates apply |
@@ -104,3 +101,6 @@
 | [WWD](../companies/WWD/README.md) | Woodward, Inc. | available, quality gates apply |
 | [WWR](../companies/WWR/README.md) | WESTWATER RESOURCES, INC. | not available |
 | [WWW](../companies/WWW/README.md) | WOLVERINE WORLD WIDE INC /DE/ | available, quality gates apply |
+| [WXM](../companies/WXM/README.md) | WF International Ltd. | not available |
+| [WY](../companies/WY/README.md) | WEYERHAEUSER CO | available, quality gates apply |
+| [WYFI](../companies/WYFI/README.md) | WhiteFiber, Inc. | available, quality gates apply |

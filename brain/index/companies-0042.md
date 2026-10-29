@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [PRSU](../companies/PRSU/README.md) | Pursuit Attractions & Hospitality, Inc. | available, quality gates apply |
-| [PRTH](../companies/PRTH/README.md) | Priority Technology Holdings, Inc. | available, quality gates apply |
 | [PRTS](../companies/PRTS/README.md) | CarParts.com, Inc. | available, quality gates apply |
 | [PRU](../companies/PRU/README.md) | PRUDENTIAL FINANCIAL INC | available, quality gates apply |
 | [PRVA](../companies/PRVA/README.md) | Privia Health Group, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [QXO, QXO$B](../companies/QXO/README.md) | QXO, Inc. | available, quality gates apply |
 | [R](../companies/R/README.md) | RYDER SYSTEM INC | available, quality gates apply |
 | [RA](../companies/RA/README.md) | Brookfield Real Assets Income Fund Inc. | not available |
+| [RAC](../companies/RAC/README.md) | Rithm Acquisition Corp. | available, quality gates apply |
+| [RACC](../companies/RACC/README.md) | Research Alliance Corp III | available, quality gates apply |

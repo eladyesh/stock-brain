@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [LAW](../companies/LAW/README.md) | CS Disco, Inc. | available, quality gates apply |
 | [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |
 | [LB](../companies/LB/README.md) | LandBridge Corp | available, quality gates apply |
 | [LBGJ](../companies/LBGJ/README.md) | Li Bang International Corp Inc. | not available |
@@ -104,3 +103,4 @@
 | [LNTH](../companies/LNTH/README.md) | Lantheus Holdings, Inc. | available, quality gates apply |
 | [LNZA](../companies/LNZA/README.md) | LanzaTech Global, Inc. | available, quality gates apply |
 | [LOAN](../companies/LOAN/README.md) | MANHATTAN BRIDGE CAPITAL, INC | available, quality gates apply |
+| [LOAR](../companies/LOAR/README.md) | Loar Holdings Inc. | available, quality gates apply |

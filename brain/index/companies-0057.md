@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [ZBAO](../companies/ZBAO/README.md) | Zhibao Technology Inc. | not available |
-| [ZBH](../companies/ZBH/README.md) | ZIMMER BIOMET HOLDINGS, INC. | available, quality gates apply |
-| [ZBIO](../companies/ZBIO/README.md) | Zenas BioPharma, Inc. | available, quality gates apply |
 | [ZBRA](../companies/ZBRA/README.md) | ZEBRA TECHNOLOGIES CORP | available, quality gates apply |
 | [ZCMD](../companies/ZCMD/README.md) | Zhongchao Inc. | not available |
 | [ZD](../companies/ZD/README.md) | ZIFF DAVIS, INC. | available, quality gates apply |

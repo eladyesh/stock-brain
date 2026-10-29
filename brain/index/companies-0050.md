@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [TDF](../companies/TDF/README.md) | TEMPLETON DRAGON FUND INC | not available |
-| [TDG](../companies/TDG/README.md) | TransDigm Group INC | available, quality gates apply |
-| [TDIC](../companies/TDIC/README.md) | Dreamland Ltd | not available |
 | [TDOC](../companies/TDOC/README.md) | Teladoc Health, Inc. | available, quality gates apply |
 | [TDS, TDS$U, TDS$V](../companies/TDS/README.md) | TELEPHONE & DATA SYSTEMS INC /DE/ | available, quality gates apply |
 | [TDTH](../companies/TDTH/README.md) | Trident Digital Tech Holdings Ltd | not available |
@@ -104,3 +101,6 @@
 | [TMTS](../companies/TMTS/README.md) | Spartacus Acquisition Corp. II | available, quality gates apply |
 | [TMUS](../companies/TMUS/README.md) | T-Mobile US, Inc. | available, quality gates apply |
 | [TNC](../companies/TNC/README.md) | TENNANT CO | available, quality gates apply |
+| [TNDM](../companies/TNDM/README.md) | TANDEM DIABETES CARE INC | available, quality gates apply |
+| [TNET](../companies/TNET/README.md) | TRINET GROUP, INC. | available, quality gates apply |
+| [TNGX](../companies/TNGX/README.md) | Tango Therapeutics, Inc. | available, quality gates apply |

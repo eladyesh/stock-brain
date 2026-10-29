@@ -4,6 +4,8 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
+| [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
 | [KVHI](../unmapped/a138e197a318da6e62bbc106766d4a74.md) | NASDAQ | KVH Industries, Inc. - Common Stock |
 | [LAMR](../unmapped/2005341159a85ea3739c689d79e6b9f2.md) | NASDAQ | Lamar Advertising Company - Class A Common Stock |
@@ -17,6 +19,7 @@
 | [MAYS](../unmapped/cf37ab5a31f55ca535dc45298738bb53.md) | NASDAQ | J. W. Mays, Inc. - Common Stock |
 | [MBNKO](../unmapped/cacdd6d161814fbce9a5a59b78b4a35b.md) | NASDAQ | Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share |
 | [MFIC](../unmapped/4f67c3cef367240ccafba2e8c121a083.md) | NASDAQ | MidCap Financial Investment Corporation - Closed End Fund |
+| [NAVI](../unmapped/176041ce63049dd0eb046d4236df0660.md) | NASDAQ | Navient Holdings, Inc. - Common Stock |
 | [NBN](../unmapped/686c676f6156989116439899f4802d5e.md) | NASDAQ | Northeast Bank - Common Stock |
 | [NBTX](../unmapped/efbd03bb57c4a657ac53a8a5940a5423.md) | NASDAQ | Nanobiotix S.A. - ADSs |
 | [NMPAR](../unmapped/6f8c6c9df5a3d0a85fce247952b287ca.md) | NASDAQ | NMP Acquisition Corp. - Right |
@@ -56,6 +59,7 @@
 | [SDHI](../unmapped/848c4cef171e3f404ff99a577e145361.md) | NASDAQ | Siddhi Acquisition Corp - Class A Common stock |
 | [SDHIR](../unmapped/f8845b7a897269addfb7a5b91272f781.md) | NASDAQ | Siddhi Acquisition Corp - Right |
 | [SLMBP](../unmapped/519e82e5feb1d1fdb1e39d8cbd12812e.md) | NASDAQ | SLM Corporation - Floating Rate Non-Cumulative Preferred Stock, Series B |
+| [SLMT](../unmapped/90d2d336420745a0d6cf9396b3616fb6.md) | NASDAQ | Solmate Infrastructure Public Limited Company - Class B Ordinary Shares |
 | [SLNHP](../unmapped/f01a38670025ce4e54cacdae6af3a38c.md) | NASDAQ | Soluna Holdings, Inc. - 9.0% Series A Cumulative Perpetual Preferred Stock |
 | [SLRC](../unmapped/b6de53d62eb77946f5acba1ac4d21279.md) | NASDAQ | SLR Investment Corp. - Closed End Fund |
 | [SQFTP](../unmapped/7c194b779408dc78eed13bfdeb6f849f.md) | NASDAQ | Presidio Property Trust, Inc. - 9.375% Series D Cumulative Redeemable Perpetual Preferred Stock, $0.01 par value per share |
@@ -100,7 +104,3 @@
 | [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
 | [AGM$G](../unmapped/0c51018b0c91bcec638297d582a585cd.md) | NYSE | Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G |
 | [AGM$H](../unmapped/6959ba4a13c9d80e7ab4f6941d9772bb.md) | NYSE | Federal Agricultural Mortgage Corporation 6.500% Non-Cumulative Preferred Stock, Series H |
-| [AGM$I](../unmapped/9250dbb92c03de5ac939b5330bd62630.md) | NYSE | Federal Agricultural Mortgage Corporation 6.875% Non-Cumulative Preferred Stock, Series I |
-| [AHL$D](../unmapped/2cc1c9ca7856b1e7d2deaa71e5d0d2a1.md) | NYSE | Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares |
-| [AHRT$A](../unmapped/e4c4cdeb1183ff2713423834074c9326.md) | NYSE | AH Realty Trust, Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock |
-| [AHT$D](../unmapped/cf11d3472a59967b0007f0c64a3290b2.md) | NYSE | Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock |

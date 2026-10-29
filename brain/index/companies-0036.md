@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [NI](../companies/NI/README.md) | NISOURCE INC. | available, quality gates apply |
-| [NIC](../companies/NIC/README.md) | NICOLET BANKSHARES INC | available, quality gates apply |
 | [NICE](../companies/NICE/README.md) | NICE Ltd. | not available |
 | [NICM](../companies/NICM/README.md) | NICOLA MINING INC. | not available |
 | [NIE](../companies/NIE/README.md) | Virtus Equity & Convertible Income Fund | not available |
@@ -104,3 +102,5 @@
 | [NTCL](../companies/NTCL/README.md) | NetClass Technology Inc | not available |
 | [NTCT](../companies/NTCT/README.md) | NETSCOUT SYSTEMS INC | available, quality gates apply |
 | [NTES](../companies/NTES/README.md) | NetEase, Inc. | not available |
+| [NTGR](../companies/NTGR/README.md) | NETGEAR, INC. | available, quality gates apply |
+| [NTHI](../companies/NTHI/README.md) | NEONC TECHNOLOGIES HOLDINGS, INC. | available, quality gates apply |

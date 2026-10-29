@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [EE](../companies/EE/README.md) | Excelerate Energy, Inc. | available, quality gates apply |
 | [EEFT](../companies/EEFT/README.md) | EURONET WORLDWIDE, INC. | available, quality gates apply |
 | [EEIQ](../companies/EEIQ/README.md) | EpicQuest Education Group International Ltd | not available |
 | [EFC](../companies/EFC/README.md) | Ellington Financial Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [EPD](../companies/EPD/README.md) | ENTERPRISE PRODUCTS PARTNERS L.P. | available, quality gates apply |
 | [EPM](../companies/EPM/README.md) | EVOLUTION PETROLEUM CORP | available, quality gates apply |
 | [EPOW](../companies/EPOW/README.md) | E-Power Inc. | not available |
+| [EPR](../companies/EPR/README.md) | EPR PROPERTIES | available, quality gates apply |

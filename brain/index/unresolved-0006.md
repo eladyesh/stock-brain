@@ -4,6 +4,10 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [SHO$I](../unmapped/6a4a5638edb998065da97e2040d5b76e.md) | NYSE | Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock |
+| [SID](../unmapped/8259b63ce0cb8f3dd6f5b70e53d700c5.md) | NYSE | Companhia Siderurgica Nacional S.A. Common Stock |
+| [SMFG](../unmapped/d2014fb2ce66140c774ef21f0246b2bd.md) | NYSE | Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan) |
+| [SNN](../unmapped/cc9e2261adf3f4b4838bdba26a256535.md) | NYSE | Smith & Nephew SNATS, Inc. Common Stock |
 | [SOR](../unmapped/231b4f61be34f61cd324e5790f181773.md) | NYSE | Source Capital, Inc. Cmn Shs of BI |
 | [SPE$C](../unmapped/edecfed41d3be8b94d1925aeb22fd335.md) | NYSE | Special Opportunities Fund Inc. 2.75% Convertible Preferred Stock, Series C |
 | [SPG$J](../unmapped/40489c82ad0404ffbc4544a84b49dfc9.md) | NYSE | Simon Property Group, Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock |
@@ -88,15 +92,15 @@
 | [PFFL](../unmapped/c0be4eab2ff6ab7772ccdb7b1db29d48.md) | NYSE_ARCA | ETRACS 2xMonthly Pay Leveraged Preferred Stock Index ETN due September 25, 2048 |
 | [SMHB](../unmapped/a062945760a0039deacc0926dee57634.md) | NYSE_ARCA | ETRACS Monthly Pay 2x Leveraged Small Cap High Dividend ETN Series B |
 | [UCIB](../unmapped/a3d872fea345e490efb784a69fed1724.md) | NYSE_ARCA | ETRACS UBS Bloomberg Constant Maturity Commodity Index (CMCI) Total Return ETN Series B due April 5, 2038 |
-| [CECO](../unmapped/1ddc81553fd96a422ff40baada859f8f.md) | UNKNOWN_F | CECO Environmental Corp. Common Stock |
-| [DDS](../unmapped/7806c5ab47b54fff2013c998fe25af6c.md) | UNKNOWN_F | Dillard's, Inc. Common Stock |
-| [DDT](../unmapped/492902f7ded94a71bdb3e1ee19d4a92a.md) | UNKNOWN_F | Dillard's Capital Trust I |
-| [ET](../unmapped/2fdd4ecaeb5aa28cb65e40c102885faa.md) | UNKNOWN_F | Energy Transfer LP Common Units |
-| [ET$I](../unmapped/b5726bce706fc0cf1358cda94294bcc0.md) | UNKNOWN_F | Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units |
-| [IBOC](../unmapped/14e023a09e4e413d29101bb05c8f2f4a.md) | UNKNOWN_F | International Bancshares Corporation Common Stock |
-| [OBK](../unmapped/acd6ed0fe8227df35d7c9cf7f12c7fb4.md) | UNKNOWN_F | Origin Bancorp, Inc. Common Stock |
-| [SUN](../unmapped/625c368f84318f6c4b0c8bdd13ec4e91.md) | UNKNOWN_F | Sunoco LP Common Units representing limited partner interests |
-| [SUNC](../unmapped/747a8accc81970657503c80fefbf9ec8.md) | UNKNOWN_F | SunocoCorp LLC Common Units, representing limited liability company interests |
-| [TCBI](../unmapped/03a1c873b2d24075cd59e15f871c6d83.md) | UNKNOWN_F | Texas Capital Bancshares, Inc. Common Stock |
-| [TCBI$B](../unmapped/a20637396f6e873b2dee3fc115804d1e.md) | UNKNOWN_F | Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B |
-| [USAC](../unmapped/d42b6fb2b09d5c1bb425217af05c0c5e.md) | UNKNOWN_F | USA Compression Partners, LP Common Units Representing Limited Partner Interests |
+| [CECO](../unmapped/2127ba719704d9f0917436e752ca0d9c.md) | UNKNOWN_TXSE | CECO Environmental Corp. Common Stock |
+| [DDS](../unmapped/4acff2777e566c646d77eec80dfc7373.md) | UNKNOWN_TXSE | Dillard's, Inc. Common Stock |
+| [DDT](../unmapped/bde8a45f2b6cb26906c9e8118077affb.md) | UNKNOWN_TXSE | Dillard's Capital Trust I |
+| [ET](../unmapped/06a1f4f11c1a93f74c6318cdd917ecdc.md) | UNKNOWN_TXSE | Energy Transfer LP Common Units |
+| [ET$I](../unmapped/81a20dd70ee9022eb0f4d5983b6c978f.md) | UNKNOWN_TXSE | Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units |
+| [IBOC](../unmapped/2400768d821de956519273adc2e7434b.md) | UNKNOWN_TXSE | International Bancshares Corporation Common Stock |
+| [OBK](../unmapped/4acf41249945ac8f668d020e29a6e221.md) | UNKNOWN_TXSE | Origin Bancorp, Inc. Common Stock |
+| [SUN](../unmapped/014f412e01be8f48803021b65a05b9f5.md) | UNKNOWN_TXSE | Sunoco LP Common Units representing limited partner interests |
+| [SUNC](../unmapped/13d851c23e3e2aec42e0b7b833a1fbc7.md) | UNKNOWN_TXSE | SunocoCorp LLC Common Units, representing limited liability company interests |
+| [TCBI](../unmapped/76201fb016168afc1589997f4c3f3e01.md) | UNKNOWN_TXSE | Texas Capital Bancshares, Inc. Common Stock |
+| [TCBI$B](../unmapped/c350a2be76eca7dc579dab8c65522910.md) | UNKNOWN_TXSE | Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B |
+| [USAC](../unmapped/f82223f2ecb9c151ac384d8e6bebbcf8.md) | UNKNOWN_TXSE | USA Compression Partners, LP Common Units Representing Limited Partner Interests |

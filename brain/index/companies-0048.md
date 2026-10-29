@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [SPAI](../companies/SPAI/README.md) | Safe Pro Group Inc. | available, quality gates apply |
-| [SPB](../companies/SPB/README.md) | Spectrum Brands Holdings, Inc. | available, quality gates apply |
-| [SPCB](../companies/SPCB/README.md) | SuperCom Ltd | not available |
 | [SPCE](../companies/SPCE/README.md) | Virgin Galactic Holdings, Inc | available, quality gates apply |
 | [SPCX](../companies/SPCX/README.md) | SPACE EXPLORATION TECHNOLOGIES CORP | available, quality gates apply |
 | [SPE](../companies/SPE/README.md) | SPECIAL OPPORTUNITIES FUND, INC. | not available |
@@ -104,3 +101,6 @@
 | [STRT](../companies/STRT/README.md) | STRATTEC SECURITY CORP | available, quality gates apply |
 | [STRW](../companies/STRW/README.md) | Strawberry Fields REIT, Inc. | available, quality gates apply |
 | [STRZ](../companies/STRZ/README.md) | STARZ ENTERTAINMENT CORP /CN/ | available, quality gates apply |
+| [STT, STT$G](../companies/STT/README.md) | STATE STREET CORP | available, quality gates apply |
+| [STTK](../companies/STTK/README.md) | Shattuck Labs, Inc. | available, quality gates apply |
+| [STUB](../companies/STUB/README.md) | StubHub Holdings, Inc. | available, quality gates apply |

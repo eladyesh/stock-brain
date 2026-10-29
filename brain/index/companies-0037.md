@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [NTGR](../companies/NTGR/README.md) | NETGEAR, INC. | available, quality gates apply |
-| [NTHI](../companies/NTHI/README.md) | NEONC TECHNOLOGIES HOLDINGS, INC. | available, quality gates apply |
 | [NTIC](../companies/NTIC/README.md) | NORTHERN TECHNOLOGIES INTERNATIONAL CORP | available, quality gates apply |
 | [NTIP](../companies/NTIP/README.md) | NETWORK-1 TECHNOLOGIES, INC. | available, quality gates apply |
 | [NTLA](../companies/NTLA/README.md) | Intellia Therapeutics, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [OCS](../companies/OCS/README.md) | Oculis Holding AG | not available |
 | [OCTV](../companies/OCTV/README.md) | Octave Intelligence plc | available, quality gates apply |
 | [OCUL](../companies/OCUL/README.md) | OCULAR THERAPEUTIX, INC | available, quality gates apply |
+| [ODC](../companies/ODC/README.md) | Oil-Dri Corp of America | available, quality gates apply |
+| [ODD](../companies/ODD/README.md) | Oddity Tech Ltd | not available |

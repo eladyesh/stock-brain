@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [GFF](../companies/GFF/README.md) | GRIFFON CORP | available, quality gates apply |
 | [GFI](../companies/GFI/README.md) | GOLD FIELDS LTD | not available |
 | [GFR](../companies/GFR/README.md) | Greenfire Resources Ltd. | not available |
 | [GFS](../companies/GFS/README.md) | GLOBALFOUNDRIES Inc. | not available |
@@ -104,3 +103,4 @@
 | [GPN](../companies/GPN/README.md) | GLOBAL PAYMENTS INC | available, quality gates apply |
 | [GPOR](../companies/GPOR/README.md) | GULFPORT ENERGY CORP | available, quality gates apply |
 | [GPRE](../companies/GPRE/README.md) | Green Plains Inc. | available, quality gates apply |
+| [GPRK](../companies/GPRK/README.md) | GeoPark Ltd | not available |

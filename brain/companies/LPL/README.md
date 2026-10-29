@@ -8,11 +8,11 @@ tickers:
 - LPL
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -59,8 +59,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
-  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
+  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
+  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001290109.json
@@ -367,6 +367,78 @@ sources:
   published_at: '2025-08-14'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526429453/notification_of_ndr__26.htm
+  title: 6-K 0001193125-26-429453
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:26:33.044515+00:00'
+  sha256: ba92f1dbebd50596167c756ab68fe76c1d9ff8c7f94de55e6ed62eebabcd8eec
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526398480/2nd_amendment_260923.htm
+  title: 6-K/A 0001193125-26-398480
+  published_at: '2026-09-23'
+  retrieved_at: '2026-10-29T16:26:31.436823+00:00'
+  sha256: cfcb3ed9cbd85273b7c25222139b3919ed2382f1e315005b78abc3691cbea996
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526318944/amendment_decision_on_tr.htm
+  title: 6-K/A 0001193125-26-318944
+  published_at: '2026-07-28'
+  retrieved_at: '2026-10-29T16:26:29.852561+00:00'
+  sha256: 35306b17a4490e6ab63636c98277802b9e69934c73b9d6cb6ec44521d2c29f04
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526252528/fifth_amendment.htm
+  title: 6-K/A 0001193125-26-252528
+  published_at: '2026-06-02'
+  retrieved_at: '2026-10-29T16:26:28.279773+00:00'
+  sha256: f779f1bc78e77cf80c8d9579e089bcf4d38b21877430455eff6141ca570d9498
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526183413/lpl-20251231.htm
+  title: 20-F 0001193125-26-183413
+  published_at: '2026-04-28'
+  retrieved_at: '2026-10-29T16:26:25.782853+00:00'
+  sha256: 345e68fcc7d5fb260f667275ca6856559cd3862d7bbc3bea72a35905203b47b4
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312526023296/amend_er_date_15_26.htm
+  title: 6-K/A 0001193125-26-023296
+  published_at: '2026-01-27'
+  retrieved_at: '2026-10-29T16:26:23.533865+00:00'
+  sha256: bd843f9069af8ba8b092cc64ce089b56ee4c9f2c04b8b11c4cdc96f3781aeee2
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312525335833/fourth_amendment.htm
+  title: 6-K/A 0001193125-25-335833
+  published_at: '2025-12-30'
+  retrieved_at: '2026-10-29T16:26:21.872792+00:00'
+  sha256: 08ec28971c189cc653a9a1777421fbd920abef26210c2b4f1672e7b2f3cc1d6f
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000095017025053031/amendment_gzca_250410.htm
+  title: 6-K/A 0000950170-25-053031
+  published_at: '2025-04-11'
+  retrieved_at: '2026-10-29T16:26:20.363762+00:00'
+  sha256: a9b2a66be202c286f6ca96fc89501df302cca3d57cec5636e92a2d6e198ee02c
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312524056764/d642503d6ka.htm
+  title: 6-K/A 0001193125-24-056764
+  published_at: '2024-03-04'
+  retrieved_at: '2026-10-29T16:26:18.569783+00:00'
+  sha256: 48e591ebc4e11c4fc1012dae818a34ce14b8fe4fd5d35883a3d1162dc308fe2b
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312524013551/d732021d6ka.htm
+  title: 6-K/A 0001193125-24-013551
+  published_at: '2024-01-24'
+  retrieved_at: '2026-10-29T16:26:17.058188+00:00'
+  sha256: 5abdeadf09f3204f8926979bb1085ed8e2025ecae707eb198c41abed40ea739e
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000095017023071281/amendment_of_report_of_a.htm
+  title: 6-K/A 0000950170-23-071281
+  published_at: '2023-12-19'
+  retrieved_at: '2026-10-29T16:26:15.341589+00:00'
+  sha256: 04db31942832a58a116e6d16441734fca089fbd616fb14b47e2d3a5bf8590a56
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1290109/000119312506248105/d20fa.htm
+  title: 20-F/A 0001193125-06-248105
+  published_at: '2006-12-07'
+  retrieved_at: '2026-10-29T16:26:13.532580+00:00'
+  sha256: 0348ae777e90dafce6e7d7b613cb3328f667133aadd58ec395477f660716ee94
 issuer_classification:
   cik: 0001290109
   classification_status: reported_sic
@@ -434,13 +506,23 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1290109/000095017023071281/0000950170-23-071281-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cdcfcb711181d683a8b2c04457b8b0e06df9eff8cad98338d4a51f7257d88a70
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -464,6 +546,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-28, L614:
+
+> While we believe that overcapacity and other cyclical issues in the industry are best addressed by increasing the proportion of high-value, differentiated specialty products based on newer technologies (such as OLED technology) in our product mix that are tailored to our customers’ evolving needs, we cannot provide any assurance that an increase in demand, which has helped to mitigate the impact of industry-wide overcapacity in the past, will recur or be sustained in future periods. We will therefore continue to closely monitor any overcapacity issues in the industry and respond accordingly. However, construction of new fabrication facilities and other capacity expansion projects in the display panel industry, including those currently under construction or planned to be constructed by us and other major display panel manufacturers in China and Korea, are undertaken with a multi-year time horizon based on expectations of future market trends. Therefore, even if overcapacity issues persist in the industry, there may be continued capacity expansion in the near future due to pre-committed capacity expansion projects in the industry that were undertaken in past years. Any significant industry-wide capacity increases that are not accompanied by a sufficient increase in demand could further drive down the average selling price of our panels, which would negatively affect our gross … [S57]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -472,9 +558,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-28, L570:
+
+> our dependence on growth in the demand for our products, which in turn is partly dependent on the growth of our downstream industries; [S57]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-28, L607:
+
+> The overall demand for end products that utilize certain types of our display panels, including IT and television products, has remained weak in recent years due in part to heightened macroeconomic uncertainty and volatility in global markets. See “Risks Relating to Our Industry — A global economic downturn may result in reduced demand for our products and adversely affect our profitability.” As each of our IT products, mobile and other products, televisions and auto product segments significantly contributes to our total sales, we will continue to be dependent on continuing demand from each of the IT products industry, the mobile device industry, the television industry and the automotive industry for a substantial portion of our sales. A prolonged downturn in any of those industries in which our customers operate would result in reduced demand for our products, which may in turn result in reduced revenue, lower average selling prices and/or reduced margins. [S57]
 
 ## Industry and value chain
 
@@ -482,17 +576,33 @@ SEC-reported SIC **3679**: Electronic Components, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-28, L611:
+
+> The current global supply of medium- and large-sized display panels is manufactured primarily based on thin-film transistor liquid crystal display, or TFT-LCD, technology, and to a lesser but increasing extent, organic light-emitting diode, or OLED, technology, and a majority of small-sized display panels is now manufactured primarily based on OLED technology. While TFT-LCD technology remains the predominant technology in the notebook computer and desktop monitor segments and continues to account for the majority of the overall medium- and large-sized display panel market, the proportion of OLED panels in such market has been steadily increasing in recent years, particularly in the high-end downstream product segments. Display panel manufacturers in general are vulnerable to cyclical market conditions. Intense competition and expectations of growth in demand across the display panel industry may cause manufacturers to make additional investments in manufacturing capacity on similar schedules, resulting in a surge in capacity when production is ramped up at new fabrication facilities. During such surges in capacity growth, as evidenced by past experiences, customers can exert strong downward pricing pressure, resulting in sharp declines in average selling prices and significant fluctuations in the panel manufacturers’ gross margins. Conversely, demand surges and fluctuations in … [S57]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-04-28, L611:
+
+> The current global supply of medium- and large-sized display panels is manufactured primarily based on thin-film transistor liquid crystal display, or TFT-LCD, technology, and to a lesser but increasing extent, organic light-emitting diode, or OLED, technology, and a majority of small-sized display panels is now manufactured primarily based on OLED technology. While TFT-LCD technology remains the predominant technology in the notebook computer and desktop monitor segments and continues to account for the majority of the overall medium- and large-sized display panel market, the proportion of OLED panels in such market has been steadily increasing in recent years, particularly in the high-end downstream product segments. Display panel manufacturers in general are vulnerable to cyclical market conditions. Intense competition and expectations of growth in demand across the display panel industry may cause manufacturers to make additional investments in manufacturing capacity on similar schedules, resulting in a surge in capacity when production is ramped up at new fabrication facilities. During such surges in capacity growth, as evidenced by past experiences, customers can exert strong downward pricing pressure, resulting in sharp declines in average selling prices and significant fluctuations in the panel manufacturers’ gross margins. Conversely, demand surges and fluctuations in … [S57]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-28, L631:
+
+> Our ability to compete successfully also depends on factors both within and outside our control, including product pricing, performance and reliability, our relationship with customers, successful and timely investment and product development, success or failure of our end-brand customers in marketing their brands and products, newly established industry standards, component and raw material supply costs, and general economic and industry conditions. We cannot provide assurance that we will be able to maintain a competitive advantage with respect to all these factors and, as a result, we may be unable to sustain our current market position. [S57]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-28, L639:
+
+> Close cooperation with our customers to gain insights into their product needs and to understand general trends in the end-product market is a key component of our strategy to produce successful products. In addition, when developing new products, we often work closely with equipment suppliers to design equipment that will make our production processes for such new products more efficient. If we are unable to work together effectively with our customers and equipment suppliers, or to sufficiently understand their respective needs and capabilities or general market trends, we may not be able to introduce or efficiently manufacture new products in a timely manner, which may have a material adverse effect on our financial situation. [S57]
 
 ## Financial performance
 
@@ -506,6 +616,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 6-K/A, filed 2026-06-02, L55:
+
+> j. The KRW amount set forth below in “Total Balance of the Company’s Financial Guarantees by Debtor” has been translated from USD at the market exchange rate in effect on April 26, 2022 (USD 1 to KRW 1,247.10), the date of the resolution of the board of directors. [S56]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -517,6 +631,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-28, L614:
+
+> While we believe that overcapacity and other cyclical issues in the industry are best addressed by increasing the proportion of high-value, differentiated specialty products based on newer technologies (such as OLED technology) in our product mix that are tailored to our customers’ evolving needs, we cannot provide any assurance that an increase in demand, which has helped to mitigate the impact of industry-wide overcapacity in the past, will recur or be sustained in future periods. We will therefore continue to closely monitor any overcapacity issues in the industry and respond accordingly. However, construction of new fabrication facilities and other capacity expansion projects in the display panel industry, including those currently under construction or planned to be constructed by us and other major display panel manufacturers in China and Korea, are undertaken with a multi-year time horizon based on expectations of future market trends. Therefore, even if overcapacity issues persist in the industry, there may be continued capacity expansion in the near future due to pre-committed capacity expansion projects in the industry that were undertaken in past years. Any significant industry-wide capacity increases that are not accompanied by a sufficient increase in demand could further drive down the average selling price of our panels, which would negatively affect our gross … [S57]
 
 ## Scenarios and open questions
 
@@ -530,25 +648,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -613,9 +731,13 @@ Latest 50 filing metadata records of 751 retained records. A filing link is evid
 | 2025-08-20 | 6-K | 0001290109-25-000004 | — | [S51] |
 | 2025-08-14 | 6-K | 0000950170-25-108394 | — | [S52] |
 
+Source excerpt — 20-F, filed 2026-04-28, L1769:
+
+> N.B. See Note 1(b) of the notes to our financial statements for changes to our subsidiaries during the year ended December 31, 2025. [S57]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001290109.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -719,4 +841,28 @@ Latest 50 filing metadata records of 751 retained records. A filing link is evid
 
 [S52] [6-K 0000950170-25-108394](https://www.sec.gov/Archives/edgar/data/1290109/000095017025108394/0000950170-25-108394-index.html) — published 2025-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001193125-26-429453](https://www.sec.gov/Archives/edgar/data/1290109/000119312526429453/notification_of_ndr__26.htm) — published 2026-10-23; retrieved 2026-10-29T16:26:33.044515+00:00.
+
+[S54] [6-K/A 0001193125-26-398480](https://www.sec.gov/Archives/edgar/data/1290109/000119312526398480/2nd_amendment_260923.htm) — published 2026-09-23; retrieved 2026-10-29T16:26:31.436823+00:00.
+
+[S55] [6-K/A 0001193125-26-318944](https://www.sec.gov/Archives/edgar/data/1290109/000119312526318944/amendment_decision_on_tr.htm) — published 2026-07-28; retrieved 2026-10-29T16:26:29.852561+00:00.
+
+[S56] [6-K/A 0001193125-26-252528](https://www.sec.gov/Archives/edgar/data/1290109/000119312526252528/fifth_amendment.htm) — published 2026-06-02; retrieved 2026-10-29T16:26:28.279773+00:00.
+
+[S57] [20-F 0001193125-26-183413](https://www.sec.gov/Archives/edgar/data/1290109/000119312526183413/lpl-20251231.htm) — published 2026-04-28; retrieved 2026-10-29T16:26:25.782853+00:00.
+
+[S58] [6-K/A 0001193125-26-023296](https://www.sec.gov/Archives/edgar/data/1290109/000119312526023296/amend_er_date_15_26.htm) — published 2026-01-27; retrieved 2026-10-29T16:26:23.533865+00:00.
+
+[S59] [6-K/A 0001193125-25-335833](https://www.sec.gov/Archives/edgar/data/1290109/000119312525335833/fourth_amendment.htm) — published 2025-12-30; retrieved 2026-10-29T16:26:21.872792+00:00.
+
+[S60] [6-K/A 0000950170-25-053031](https://www.sec.gov/Archives/edgar/data/1290109/000095017025053031/amendment_gzca_250410.htm) — published 2025-04-11; retrieved 2026-10-29T16:26:20.363762+00:00.
+
+[S61] [6-K/A 0001193125-24-056764](https://www.sec.gov/Archives/edgar/data/1290109/000119312524056764/d642503d6ka.htm) — published 2024-03-04; retrieved 2026-10-29T16:26:18.569783+00:00.
+
+[S62] [6-K/A 0001193125-24-013551](https://www.sec.gov/Archives/edgar/data/1290109/000119312524013551/d732021d6ka.htm) — published 2024-01-24; retrieved 2026-10-29T16:26:17.058188+00:00.
+
+[S63] [6-K/A 0000950170-23-071281](https://www.sec.gov/Archives/edgar/data/1290109/000095017023071281/amendment_of_report_of_a.htm) — published 2023-12-19; retrieved 2026-10-29T16:26:15.341589+00:00.
+
+[S64] [20-F/A 0001193125-06-248105](https://www.sec.gov/Archives/edgar/data/1290109/000119312506248105/d20fa.htm) — published 2006-12-07; retrieved 2026-10-29T16:26:13.532580+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

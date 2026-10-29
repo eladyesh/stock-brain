@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [DCGO](../companies/DCGO/README.md) | DocGo Inc. | available, quality gates apply |
 | [DCH](../companies/DCH/README.md) | Dauch Corp | available, quality gates apply |
 | [DCI](../companies/DCI/README.md) | DONALDSON Co INC | available, quality gates apply |
 | [DCM](../companies/DCM/README.md) | DeFi Capital Markets, Inc. | not available |
@@ -104,3 +103,4 @@
 | [DOV](../companies/DOV/README.md) | DOVER Corp | available, quality gates apply |
 | [DOW](../companies/DOW/README.md) | DOW INC. | available, quality gates apply |
 | [DOX](../companies/DOX/README.md) | AMDOCS LTD | not available |
+| [DOYU](../companies/DOYU/README.md) | DouYu International Holdings Ltd | not available |

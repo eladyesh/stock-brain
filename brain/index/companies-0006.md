@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [AVBP](../companies/AVBP/README.md) | ArriVent BioPharma, Inc. | available, quality gates apply |
 | [AVD](../companies/AVD/README.md) | AMERICAN VANGUARD CORP | available, quality gates apply |
 | [AVEX](../companies/AVEX/README.md) | AEVEX Corp. | available, quality gates apply |
 | [AVGO](../companies/AVGO/README.md) | Broadcom Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [BCE](../companies/BCE/README.md) | BCE INC | not available |
 | [BCG](../companies/BCG/README.md) | Binah Capital Group, Inc. | available, quality gates apply |
 | [BCHT](../companies/BCHT/README.md) | Birchtech Corp. | available, quality gates apply |
+| [BCML](../companies/BCML/README.md) | BayCom Corp | available, quality gates apply |

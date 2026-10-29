@@ -94,7 +94,6 @@
 | [ADGM](../companies/ADGM/README.md) | Adagio Medical Holdings, Inc. | available, quality gates apply |
 | [ADI](../companies/ADI/README.md) | ANALOG DEVICES INC | available, quality gates apply |
 | [ADIG](../companies/ADIG/README.md) | ADI GLOBAL DISTRIBUTION INC. | available, quality gates apply |
-| [ADIL](../companies/ADIL/README.md) | ADIAL PHARMACEUTICALS, INC. | available, quality gates apply |
 | [ADM](../companies/ADM/README.md) | Archer-Daniels-Midland Co | available, quality gates apply |
 | [ADMA](../companies/ADMA/README.md) | ADMA BIOLOGICS, INC. | available, quality gates apply |
 | [ADNT](../companies/ADNT/README.md) | Adient plc | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [ADSK](../companies/ADSK/README.md) | Autodesk, Inc. | available, quality gates apply |
 | [ADT](../companies/ADT/README.md) | ADT Inc. | available, quality gates apply |
 | [ADTN](../companies/ADTN/README.md) | ADTRAN Holdings, Inc. | available, quality gates apply |
+| [ADUR](../companies/ADUR/README.md) | ADURO CLEAN TECHNOLOGIES INC. | not available |

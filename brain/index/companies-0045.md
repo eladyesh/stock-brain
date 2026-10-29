@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [RUN](../companies/RUN/README.md) | Sunrun Inc. | available, quality gates apply |
-| [RVI](../companies/RVI/README.md) | Robinhood Ventures Fund I | not available |
 | [RVII](../companies/RVII/README.md) | Robinhood Ventures Fund II | available, quality gates apply |
 | [RVLV](../companies/RVLV/README.md) | Revolve Group, Inc. | available, quality gates apply |
 | [RVMD](../companies/RVMD/README.md) | Revolution Medicines, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [SDHC](../companies/SDHC/README.md) | Smith Douglas Homes Corp. | available, quality gates apply |
 | [SDHY](../companies/SDHY/README.md) | PGIM Short Duration High Yield Opportunities Fund | not available |
 | [SDOT](../companies/SDOT/README.md) | Sadot Group Inc. | available, quality gates apply |
+| [SDRL](../companies/SDRL/README.md) | SEADRILL Ltd | available, quality gates apply |
+| [SE](../companies/SE/README.md) | Sea Ltd | not available |

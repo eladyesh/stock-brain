@@ -8,11 +8,11 @@ tickers:
 - LVS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,8 +75,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
-  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
+  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
+  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001300514.json
@@ -467,6 +467,78 @@ sources:
   published_at: '2026-02-02'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051426000103/lvs-20260930.htm
+  title: 10-Q 0001300514-26-000103
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:27:13.219337+00:00'
+  sha256: 64551e315fe4253f11ac51523d4825a9df6454a9f4be767a946a8082f17f38b9
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051426000099/lvs-20261021.htm
+  title: 8-K 0001300514-26-000099
+  published_at: '2026-10-21'
+  retrieved_at: '2026-10-29T16:27:11.523641+00:00'
+  sha256: f1b3a49de6d60eb354a26b37c7202b8edfd8e3cb11737f1861fe9cd3200912c9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051426000031/lvs-20260401.htm
+  title: DEF 14A 0001300514-26-000031
+  published_at: '2026-04-01'
+  retrieved_at: '2026-10-29T16:27:09.776287+00:00'
+  sha256: 14870ed6188ceecfc1bf31a49bae8d0da7bcf3462ae0ec65a302beea9411ed55
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051426000013/lvs-20251231.htm
+  title: 10-K 0001300514-26-000013
+  published_at: '2026-02-06'
+  retrieved_at: '2026-10-29T16:27:07.813460+00:00'
+  sha256: ce83c16d811866e26228c4825f49554e3bfb1694bf90e0b00e316c27bee84586
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051425000058/lvs-20250127.htm
+  title: 8-K/A 0001300514-25-000058
+  published_at: '2025-03-11'
+  retrieved_at: '2026-10-29T16:27:05.541735+00:00'
+  sha256: 1eaa1e7fbc216ce0672eafe811a12bbca580dc42ac6a27f2653ac7c4797987a9
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051424000047/lvs-20240124.htm
+  title: 8-K/A 0001300514-24-000047
+  published_at: '2024-02-07'
+  retrieved_at: '2026-10-29T16:27:04.059109+00:00'
+  sha256: 009a018455f1bb3cd9a08280285d202fad71eaed59d1eb835a2953fea393d1d7
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051424000023/lvs-20240115.htm
+  title: 8-K/A 0001300514-24-000023
+  published_at: '2024-01-25'
+  retrieved_at: '2026-10-29T16:27:02.323288+00:00'
+  sha256: ed61176307678fbd4856accc97e6fbf707e8641a22d9f44fcfcd9b26f208462e
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051421000158/lvs-20210716.htm
+  title: 8-K/A 0001300514-21-000158
+  published_at: '2021-10-20'
+  retrieved_at: '2026-10-29T16:27:00.772049+00:00'
+  sha256: 571396571033308aa6806eec29bde6ebba49a574662eaf890621e5db12c8f3cd
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051421000016/lvs-20201221.htm
+  title: 8-K/A 0001300514-21-000016
+  published_at: '2021-01-07'
+  retrieved_at: '2026-10-29T16:26:59.175976+00:00'
+  sha256: e7de0015cf4e777762dbacdfa815701a2e6744e6d6db623ddb1e5ee49894c4f7
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051419000103/lvs-20190917.htm
+  title: 8-K/A 0001300514-19-000103
+  published_at: '2019-10-24'
+  retrieved_at: '2026-10-29T16:26:57.579215+00:00'
+  sha256: d1ced4727a599906b8c7780091f3dd44fc2b4b57462c5db13f0aca67350ddabb
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000130051417000073/lvs-20170930x8ka.htm
+  title: 8-K/A 0001300514-17-000073
+  published_at: '2017-10-26'
+  retrieved_at: '2026-10-29T16:26:55.871925+00:00'
+  sha256: 4932064e15515311d6511343d05c3070829a4d847f1bac01df2d9c27b99cce06
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1300514/000095014211001786/eh1100760_8ka.htm
+  title: 8-K/A 0000950142-11-001786
+  published_at: '2011-10-28'
+  retrieved_at: '2026-10-29T16:26:54.427979+00:00'
+  sha256: 6bdaeb34bc7339f832953834b3d516dbd3b03148361e4d13357cf3659c86c5cb
 issuer_classification:
   cik: '0001300514'
   classification_status: reported_sic
@@ -536,13 +608,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1300514/000095014211001786/0000950142-11-001786-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6e910eb33c84000778c76ac7c1b1f5ea72dc19a37822b8b1426fda0957633d0d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -566,17 +649,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L2329:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements made pursuant to the Safe Harbor Provisions of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include the discussions of our business strategies and expectations concerning future operations, margins, profitability, liquidity and capital resources. In addition, in certain portions included in this report, the words: “anticipates,” “believes,” “continues,” “estimates,” “expects,” “intends,” “may,” “plans,” “positions,” “remains,” “seeks,” “will,” “would,” and similar expressions, as they relate to our Company or management, are intended to identify forward-looking statements. Although we believe these forward-looking statements are reasonable, we cannot assure you any forward-looking statements will prove to be correct. These statements represent our expectations, beliefs, intentions or strategies concerning future events that, by their nature, involve known and unknown risks, uncertainties and other factors beyond our control, which may cause our actual results, performance, achievements or other expectations to be materially different from any future results, performance, achievements or other expectations expressed or implied by these forward-looking statements. These factors include, but are not limited to, the risks associated with: [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1045:
+
+> The Company views each of its operating properties as a reportable segment, which have been identified based on various factors such as regulatory environment, geography and the level at which the information is reviewed by the Company’s chief operating decision maker (the “CODM”). The Company’s CODM is its Chief Executive Officer. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L2188:
+
+> We regularly evaluate opportunities to improve our product offerings, such as refreshing our meeting and convention facilities, suites and rooms, retail malls, restaurant and nightlife mix and our gaming areas, as well as other anticipated revenue-generating additions to our Integrated Resorts. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-06, L226:
+
+> We are dedicated to sustainability across environmental, social and governance (“ESG”) priorities, anchored by our People, Communities and Planet corporate responsibility platform. We strive to deliver a positive working environment for our team members worldwide and pledge to promote the advancement of aspiring team members through a range of educational partnerships and leadership training. We are committed to creating and investing in industry-leading policies and procedures to safeguard our customers, partners, employees and neighbors. We drive social impact through, among other things, our Sands Cares charitable giving and community engagement program. Our industry-leading Integrated Resorts provide substantial contributions to our host communities including growth in leisure and business tourism, sustained job creation and ongoing financial opportunities for local small and medium-sized businesses. We continuously make efforts to improve our environmental performance through our Sands ECO360 global sustainability program (“Sands ECO360”). Through Sands ECO360, we develop and implement environmental practices to advance energy efficiency and transition to renewables, reduce waste, conserve water and source products and materials responsibly. [S70]
 
 ## Industry and value chain
 
@@ -584,17 +683,33 @@ SEC-reported SIC **7011**: Hotels & Motels. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-06, L1349:
+
+> (10)Primarily consists of all other non-cancellable contractual obligations and primarily relates to certain hotel management and service agreements, as described below. The amounts exclude open purchase orders with our suppliers that have not yet been received as these agreements generally allow us the option to cancel, reschedule and adjust terms based on our business needs prior to the delivery of goods or performance of services. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-10-23, L1651:
+
+> (1) Consolidated adjusted property EBITDA, which is a non-GAAP financial measure, is used by management as the primary measure of the operating performance of our segments. Consolidated adjusted property EBITDA is net income (loss) before stock-based compensation expense, corporate expense, pre-opening expense, development expense, depreciation and amortization, amortization of leasehold interests in land, gain or loss on disposal or impairment of assets, interest, other income or expense, gain or loss on modification or early retirement of debt and income taxes. Consolidated adjusted property EBITDA is a supplemental non-GAAP financial measure used by management, as well as industry analysts, to evaluate operations and operating performance. In particular, management utilizes consolidated adjusted property EBITDA to compare the operating profitability of our operations with those of our competitors, as well as a basis for determining certain incentive compensation. Integrated Resort companies, including LVSC, have historically reported adjusted property EBITDA as a supplemental performance measure to GAAP financial measures. In order to view the operations of their properties on a more stand-alone basis, Integrated Resort companies, including LVSC, have historically excluded certain expenses that do not relate to the management of [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-01, L7308:
+
+> significant competitive advantage in attracting patrons to our properties, and similar aircraft with comparable amenities are [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-10-23, L2071:
+
+> We own and operate retail malls at our Integrated Resorts at The Venetian Macao, The Plaza Macao and Four Seasons Macao, The Londoner Macao, The Parisian Macao and Marina Bay Sands. Our malls are designed to complement our other unique amenities and service offerings provided by our Integrated Resorts. Our strategy is to seek out desirable tenants that appeal to our patrons and provide a wide variety of shopping options. We generate our mall revenues primarily from leases with tenants through minimum base rents, overage rents and reimbursements for CAM and other expenditures. [S67]
 
 ## Financial performance
 
@@ -1224,6 +1339,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L832:
+
+> In October 2026, the Company’s Board of Directors declared a quarterly dividend of $0.30 per common share (a total estimated to be approximately $188 million) to be paid on November 10, 2026, to stockholders of record on November 2, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1236,6 +1355,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L2331:
+
+> •Natural or man-made disasters, an outbreak of highly infectious or contagious disease, political instability, civil unrest, terrorist activity or war could materially adversely affect the number of visitors to our facilities and disrupt our operations; [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1245,25 +1368,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1327,9 +1450,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-02 | 4 | 0001787180-26-000002 | — | [S65] |
 | 2026-02-02 | 4 | 0001667998-26-000002 | — | [S66] |
 
+Source excerpt — 10-Q, filed 2026-10-23, L796:
+
+> During the year ended December 31, 2024, the Company executed HKD/USD swaps, designated as hedges of portions of the cash flows related to the SCL senior notes due 2027 through 2031 (the “SCL Swaps”). As of September 30, 2026, the SCL Swaps had a total notional value of $3.41 billion and expire in line with the maturity dates of the related hedged cash flows. [S67]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001300514.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1461,4 +1588,28 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [4 0001667998-26-000002](https://www.sec.gov/Archives/edgar/data/1300514/000166799826000002/0001667998-26-000002-index.html) — published 2026-02-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [10-Q 0001300514-26-000103](https://www.sec.gov/Archives/edgar/data/1300514/000130051426000103/lvs-20260930.htm) — published 2026-10-23; retrieved 2026-10-29T16:27:13.219337+00:00.
+
+[S68] [8-K 0001300514-26-000099](https://www.sec.gov/Archives/edgar/data/1300514/000130051426000099/lvs-20261021.htm) — published 2026-10-21; retrieved 2026-10-29T16:27:11.523641+00:00.
+
+[S69] [DEF 14A 0001300514-26-000031](https://www.sec.gov/Archives/edgar/data/1300514/000130051426000031/lvs-20260401.htm) — published 2026-04-01; retrieved 2026-10-29T16:27:09.776287+00:00.
+
+[S70] [10-K 0001300514-26-000013](https://www.sec.gov/Archives/edgar/data/1300514/000130051426000013/lvs-20251231.htm) — published 2026-02-06; retrieved 2026-10-29T16:27:07.813460+00:00.
+
+[S71] [8-K/A 0001300514-25-000058](https://www.sec.gov/Archives/edgar/data/1300514/000130051425000058/lvs-20250127.htm) — published 2025-03-11; retrieved 2026-10-29T16:27:05.541735+00:00.
+
+[S72] [8-K/A 0001300514-24-000047](https://www.sec.gov/Archives/edgar/data/1300514/000130051424000047/lvs-20240124.htm) — published 2024-02-07; retrieved 2026-10-29T16:27:04.059109+00:00.
+
+[S73] [8-K/A 0001300514-24-000023](https://www.sec.gov/Archives/edgar/data/1300514/000130051424000023/lvs-20240115.htm) — published 2024-01-25; retrieved 2026-10-29T16:27:02.323288+00:00.
+
+[S74] [8-K/A 0001300514-21-000158](https://www.sec.gov/Archives/edgar/data/1300514/000130051421000158/lvs-20210716.htm) — published 2021-10-20; retrieved 2026-10-29T16:27:00.772049+00:00.
+
+[S75] [8-K/A 0001300514-21-000016](https://www.sec.gov/Archives/edgar/data/1300514/000130051421000016/lvs-20201221.htm) — published 2021-01-07; retrieved 2026-10-29T16:26:59.175976+00:00.
+
+[S76] [8-K/A 0001300514-19-000103](https://www.sec.gov/Archives/edgar/data/1300514/000130051419000103/lvs-20190917.htm) — published 2019-10-24; retrieved 2026-10-29T16:26:57.579215+00:00.
+
+[S77] [8-K/A 0001300514-17-000073](https://www.sec.gov/Archives/edgar/data/1300514/000130051417000073/lvs-20170930x8ka.htm) — published 2017-10-26; retrieved 2026-10-29T16:26:55.871925+00:00.
+
+[S78] [8-K/A 0000950142-11-001786](https://www.sec.gov/Archives/edgar/data/1300514/000095014211001786/eh1100760_8ka.htm) — published 2011-10-28; retrieved 2026-10-29T16:26:54.427979+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [PCT](../companies/PCT/README.md) | PureCycle Technologies, Inc. | available, quality gates apply |
-| [PCTY](../companies/PCTY/README.md) | Paylocity Holding Corp | available, quality gates apply |
 | [PCVX](../companies/PCVX/README.md) | Vaxcyte, Inc. | available, quality gates apply |
 | [PCYO](../companies/PCYO/README.md) | PURE CYCLE CORP | available, quality gates apply |
 | [PD](../companies/PD/README.md) | PagerDuty, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [PLD](../companies/PLD/README.md) | Prologis, Inc. | not available |
 | [PLG](../companies/PLG/README.md) | PLATINUM GROUP METALS LTD | not available |
 | [PLGO](../companies/PLGO/README.md) | Pelagos Insurance Capital Ltd | not available |
+| [PLMK](../companies/PLMK/README.md) | Plum Acquisition Corp. IV | available, quality gates apply |
+| [PLMR](../companies/PLMR/README.md) | Palomar Holdings, Inc. | available, quality gates apply |

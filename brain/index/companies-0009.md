@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [BRN](../companies/BRN/README.md) | BARNWELL INDUSTRIES INC | available, quality gates apply |
 | [BRNX](../companies/BRNX/README.md) | BRENX LTD. | not available |
 | [BRO](../companies/BRO/README.md) | BROWN & BROWN, INC. | available, quality gates apply |
 | [BROS](../companies/BROS/README.md) | Dutch Bros Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [CAES](../companies/CAES/README.md) | Cantor Equity Partners VII, Inc. | available, quality gates apply |
 | [CAF](../companies/CAF/README.md) | Morgan Stanley China A Share Fund, Inc. | not available |
 | [CAG](../companies/CAG/README.md) | CONAGRA BRANDS INC. | available, quality gates apply |
+| [CAH](../companies/CAH/README.md) | CARDINAL HEALTH INC | available, quality gates apply |

@@ -8,11 +8,11 @@ tickers:
 - LNAI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -94,8 +94,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001527728.json
@@ -486,6 +486,78 @@ sources:
   published_at: '2025-07-10'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112226001362/e8019_8-k.htm
+  title: 8-K 0001731122-26-001362
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:26:11.398971+00:00'
+  sha256: d6a391f6633b1be7c844ce21c94557b239e9945839d2057d5d298fc79dbd3500
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112226001339/e7993_10k.htm
+  title: 10-K 0001731122-26-001339
+  published_at: '2026-10-13'
+  retrieved_at: '2026-10-29T16:26:09.673467+00:00'
+  sha256: 3da6bf94ab64ed2a2ef10e5e32a54388e476d0996f21a2fd59c914929851c703
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112226000749/e7638_10-q.htm
+  title: 10-Q 0001731122-26-000749
+  published_at: '2026-05-15'
+  retrieved_at: '2026-10-29T16:26:08.021503+00:00'
+  sha256: cfca44205584e4132288c812cb2d237d0905e264c3e01e751b836e100ae23514
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112226000705/e7629_8-ka.htm
+  title: 8-K/A 0001731122-26-000705
+  published_at: '2026-05-11'
+  retrieved_at: '2026-10-29T16:26:06.270400+00:00'
+  sha256: 1767f7af290511cf63807e6d6f2cd592e60436aa3be8840cae3dd4862605c5da
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112226000559/e7555_def14a.htm
+  title: DEF 14A 0001731122-26-000559
+  published_at: '2026-04-13'
+  retrieved_at: '2026-10-29T16:26:04.672776+00:00'
+  sha256: 3eb2a32299b153469cd4d337e55c3ab8809463a2217dd0c81b7f00932a36fb12
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112224001672/e6067_8-ka.htm
+  title: 8-K/A 0001731122-24-001672
+  published_at: '2024-10-29'
+  retrieved_at: '2026-10-29T16:26:03.059267+00:00'
+  sha256: 415df7d0b58bb4f71356e6c372c171211e5e8a9dfbcb8e5c2c99088a2bba5af8
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112224000681/e5613_8-ka.htm
+  title: 8-K/A 0001731122-24-000681
+  published_at: '2024-04-24'
+  retrieved_at: '2026-10-29T16:26:01.473995+00:00'
+  sha256: a0dd56632d70c6fb7f63a3d417dfdc291346fc21392c9daa8fe9149f1549d7e6
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112221001378/e3028_8-ka.htm
+  title: 8-K/A 0001731122-21-001378
+  published_at: '2021-08-16'
+  retrieved_at: '2026-10-29T16:25:59.949951+00:00'
+  sha256: 896a67dc3af1bc1f26b673f7eae6d0150fd867d2aafaceb7f56eeab1f1ec9e9c
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112219000698/e1589_8ka.htm
+  title: 8-K/A 0001731122-19-000698
+  published_at: '2019-11-14'
+  retrieved_at: '2026-10-29T16:25:58.328547+00:00'
+  sha256: 37cb4d032d26d12f4e52417ae1af15ec4c60406d395af13ab6ea2a3cf1f51c7e
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000173112218000011/e1059_8k.htm
+  title: 8-K/A 0001731122-18-000011
+  published_at: '2018-04-03'
+  retrieved_at: '2026-10-29T16:25:56.809553+00:00'
+  sha256: 280a18062df1629f8d108f1108bb6af96469ece8f54a9bd6e99da50132f2045c
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000121390014005651/f8k020614a2_dandritbio.htm
+  title: 8-K/A 0001213900-14-005651
+  published_at: '2014-08-12'
+  retrieved_at: '2026-10-29T16:25:55.180593+00:00'
+  sha256: 38532d416074b57b107356ba1e8ab6df3bcd6f9e4ce505d901f7bda99a0432cf
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1527728/000121390014002021/f8k_dandrit.htm
+  title: 8-K/A 0001213900-14-002021
+  published_at: '2014-03-31'
+  retrieved_at: '2026-10-29T16:25:53.525358+00:00'
+  sha256: b19ceed1c3ec68d4de1c66e43ab07eeccbe05c02b31c2c92fc9b417cda3d40f0
 issuer_classification:
   cik: 0001527728
   classification_status: reported_sic
@@ -555,13 +627,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1527728/000121390014002021/0001213900-14-002021-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1d829493475dd0a3687b8f8ba3a7e9f6ae6c13f1c540368ec4ef0cc7238cc0b9
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -585,17 +668,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-10-13, L278:
+
+> expectations and beliefs concerning future developments and their potential effect on our business. In some cases, you can identify forward-looking [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-10-13, L4842:
+
+> issued ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures, which the Company adopted for the [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-10-13, L323:
+
+> \| The difficulty or impossibility of predicting future clinical trial results and regulatory outcomes of our products based upon our pre-clinical or earlier clinical trial performance; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-10-13, L951:
+
+> \| Negative publicity has had and may continue to have a negative impact on our business and may have a long-term effect on our relationships with our customers, partners and collaborators. [S68]
 
 ## Industry and value chain
 
@@ -603,17 +702,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-10-13, L892:
+
+> or our employees, the closing down of facilities, including those of our suppliers and manufacturers, requirements to obtain export licenses, [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-10-13, L1614:
+
+> in an environment of rapid technological change and there is the possibility that our competitors may achieve regulatory approval before [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-10-13, L353:
+
+> \| The dependence of certain of our pipelines on intellectual property licensed from licensors, and the severe adverse impact to our business operations of a disruption of one of our licensing relationships; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-05-15, L2447:
+
+> our business. Our strategy is to file patent applications to protect technology, inventions, and improvements to inventions that we consider [S69]
 
 ## Financial performance
 
@@ -1225,6 +1340,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-10-13, L1183:
+
+> filed stockholder derivative action lawsuits purportedly on behalf of the Company against certain of our executive officers [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1237,6 +1356,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-10-13, L411:
+
+> \| Such other factors as discussed throughout Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations and in Part I, Item 1A. Risk Factors herein. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1246,25 +1369,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1329,9 +1452,13 @@ Latest 50 filing metadata records of 597 retained records. A filing link is evid
 | 2025-07-14 | 8-K | 0001731122-25-000971 | — | [S65] |
 | 2025-07-10 | SCHEDULE 13D/A | 0001214659-25-010280 | — | [S66] |
 
+Source excerpt — 10-K, filed 2026-10-13, L3354:
+
+> and have not generated any product revenue. During the year ended June 30, 2026, we recognized $51,992 of service revenue from a single [S68]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001527728.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1463,4 +1590,28 @@ Latest 50 filing metadata records of 597 retained records. A filing link is evid
 
 [S66] [SCHEDULE 13D/A 0001214659-25-010280](https://www.sec.gov/Archives/edgar/data/1527728/000121465925010280/0001214659-25-010280-index.html) — published 2025-07-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001731122-26-001362](https://www.sec.gov/Archives/edgar/data/1527728/000173112226001362/e8019_8-k.htm) — published 2026-10-23; retrieved 2026-10-29T16:26:11.398971+00:00.
+
+[S68] [10-K 0001731122-26-001339](https://www.sec.gov/Archives/edgar/data/1527728/000173112226001339/e7993_10k.htm) — published 2026-10-13; retrieved 2026-10-29T16:26:09.673467+00:00.
+
+[S69] [10-Q 0001731122-26-000749](https://www.sec.gov/Archives/edgar/data/1527728/000173112226000749/e7638_10-q.htm) — published 2026-05-15; retrieved 2026-10-29T16:26:08.021503+00:00.
+
+[S70] [8-K/A 0001731122-26-000705](https://www.sec.gov/Archives/edgar/data/1527728/000173112226000705/e7629_8-ka.htm) — published 2026-05-11; retrieved 2026-10-29T16:26:06.270400+00:00.
+
+[S71] [DEF 14A 0001731122-26-000559](https://www.sec.gov/Archives/edgar/data/1527728/000173112226000559/e7555_def14a.htm) — published 2026-04-13; retrieved 2026-10-29T16:26:04.672776+00:00.
+
+[S72] [8-K/A 0001731122-24-001672](https://www.sec.gov/Archives/edgar/data/1527728/000173112224001672/e6067_8-ka.htm) — published 2024-10-29; retrieved 2026-10-29T16:26:03.059267+00:00.
+
+[S73] [8-K/A 0001731122-24-000681](https://www.sec.gov/Archives/edgar/data/1527728/000173112224000681/e5613_8-ka.htm) — published 2024-04-24; retrieved 2026-10-29T16:26:01.473995+00:00.
+
+[S74] [8-K/A 0001731122-21-001378](https://www.sec.gov/Archives/edgar/data/1527728/000173112221001378/e3028_8-ka.htm) — published 2021-08-16; retrieved 2026-10-29T16:25:59.949951+00:00.
+
+[S75] [8-K/A 0001731122-19-000698](https://www.sec.gov/Archives/edgar/data/1527728/000173112219000698/e1589_8ka.htm) — published 2019-11-14; retrieved 2026-10-29T16:25:58.328547+00:00.
+
+[S76] [8-K/A 0001731122-18-000011](https://www.sec.gov/Archives/edgar/data/1527728/000173112218000011/e1059_8k.htm) — published 2018-04-03; retrieved 2026-10-29T16:25:56.809553+00:00.
+
+[S77] [8-K/A 0001213900-14-005651](https://www.sec.gov/Archives/edgar/data/1527728/000121390014005651/f8k020614a2_dandritbio.htm) — published 2014-08-12; retrieved 2026-10-29T16:25:55.180593+00:00.
+
+[S78] [8-K/A 0001213900-14-002021](https://www.sec.gov/Archives/edgar/data/1527728/000121390014002021/f8k_dandrit.htm) — published 2014-03-31; retrieved 2026-10-29T16:25:53.525358+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.

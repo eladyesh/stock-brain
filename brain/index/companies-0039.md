@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
-| [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
 | [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
 | [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |
 | [OSG](../companies/OSG/README.md) | OCTAVE SPECIALTY GROUP INC | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [PCQ](../companies/PCQ/README.md) | PIMCO CALIFORNIA MUNICIPAL INCOME FUND | not available |
 | [PCRX](../companies/PCRX/README.md) | Pacira BioSciences, Inc. | available, quality gates apply |
 | [PCSA](../companies/PCSA/README.md) | Processa Pharmaceuticals, Inc. | available, quality gates apply |
+| [PCT](../companies/PCT/README.md) | PureCycle Technologies, Inc. | available, quality gates apply |
+| [PCTY](../companies/PCTY/README.md) | Paylocity Holding Corp | available, quality gates apply |

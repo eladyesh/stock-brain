@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [MPV](../companies/MPV/README.md) | BARINGS PARTICIPATION INVESTORS | not available |
 | [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
 | [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
 | [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
@@ -104,3 +103,4 @@
 | [MYO](../companies/MYO/README.md) | MYOMO, INC. | available, quality gates apply |
 | [MYPS](../companies/MYPS/README.md) | PLAYSTUDIOS, Inc. | available, quality gates apply |
 | [MYRG](../companies/MYRG/README.md) | MYR GROUP INC. | available, quality gates apply |
+| [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |

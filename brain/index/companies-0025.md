@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [HRL](../companies/HRL/README.md) | HORMEL FOODS CORP /DE/ | available, quality gates apply |
 | [HRMY](../companies/HRMY/README.md) | Harmony Biosciences Holdings, Inc. | available, quality gates apply |
 | [HROW](../companies/HROW/README.md) | HARROW, INC. | available, quality gates apply |
 | [HRTG](../companies/HRTG/README.md) | Heritage Insurance Holdings, Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [IDAC](../companies/IDAC/README.md) | Iron Dome Acquisition I Corp. | available, quality gates apply |
 | [IDAI](../companies/IDAI/README.md) | T Stamp Inc | available, quality gates apply |
 | [IDCC](../companies/IDCC/README.md) | InterDigital, Inc. | available, quality gates apply |
+| [IDE](../companies/IDE/README.md) | Voya Infrastructure, Industrials & Materials Fund | not available |

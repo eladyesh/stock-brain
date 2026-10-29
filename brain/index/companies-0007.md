@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [BCML](../companies/BCML/README.md) | BayCom Corp | available, quality gates apply |
 | [BCO](../companies/BCO/README.md) | BRINKS CO | available, quality gates apply |
 | [BCPC](../companies/BCPC/README.md) | BALCHEM CORP | available, quality gates apply |
 | [BCRX](../companies/BCRX/README.md) | BIOCRYST PHARMACEUTICALS INC | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [BKHA](../companies/BKHA/README.md) | Black Hawk Acquisition Corp | available, quality gates apply |
 | [BKKT](../companies/BKKT/README.md) | Bakkt, Inc. | available, quality gates apply |
 | [BKNG](../companies/BKNG/README.md) | Booking Holdings Inc. | available, quality gates apply |
+| [BKR](../companies/BKR/README.md) | Baker Hughes Co | available, quality gates apply |
