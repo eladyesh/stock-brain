@@ -8,11 +8,11 @@ tickers:
 - LSBK
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -65,8 +65,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002059653.json
@@ -133,6 +133,30 @@ sources:
   published_at: '2026-03-17'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/2059653/000119312526429503/lsbk-20261021.htm
+  title: 8-K 0001193125-26-429503
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:26:41.675334+00:00'
+  sha256: e01790e865dc5dd065c39796ebcc0a66f61d99b2e3fad1d3a75ce62cf1c70667
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/2059653/000119312526344793/lsbk-20260630.htm
+  title: 10-Q 0001193125-26-344793
+  published_at: '2026-08-11'
+  retrieved_at: '2026-10-29T16:26:39.598717+00:00'
+  sha256: 0e584bd7174bcc91407ea6aecf0ff52dab12f30efeaebbc6c556c6caa3fb9a36
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2059653/000119312526145635/lsbk-20260407.htm
+  title: DEF 14A 0001193125-26-145635
+  published_at: '2026-04-07'
+  retrieved_at: '2026-10-29T16:26:37.733538+00:00'
+  sha256: 9df9b874dcd7cae0055265f9a54c7faa250331ebd49cef160406eebaaa6f7474
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/2059653/000119312526109481/lsbk-20251231.htm
+  title: 10-K 0001193125-26-109481
+  published_at: '2026-03-17'
+  retrieved_at: '2026-10-29T16:26:35.497771+00:00'
+  sha256: 6da42686a32d5e70041979672243698202779501dc9768ea134a270e465dd369
 issuer_classification:
   cik: 0002059653
   classification_status: reported_sic
@@ -170,13 +194,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2059653/000119312526429503/0001193125-26-429503-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f79b1296eb5a9b0e0c6af30b807589174f91d816d920484edbc071369056c441
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -191,15 +224,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002059653.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LSBK/README.md
-full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
+full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LSBK/README.md
+full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # LSBK — Lake Shore Bancorp, Inc. /MD/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LSBK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LSBK/README.md)
 
 ## Business overview
 
@@ -213,9 +246,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L16701:
+
+> the failure of financial institutions may adversely affect our business, and the market price of our common stock; [S60]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-17, L9938:
+
+> The Company has one reporting unit, one operating segment and, consequently, a single reportable segment. The Chief Executive Officer, who is the Company’s chief operating decision maker, or CODM, monitors revenue streams and other information provided about the company’s products and services offered, expenses, operating metrics, and other financial metrics. The information provided to the CODM is presented on an aggregated entity-level basis, which is consistent with the accompanying Consolidated Financial Statements presented in this Form 10-K. In assessing operating results and in allocating resources, the CODM evaluates the financial performance of the Company’s business by evaluating revenue streams, significant expenses, and budget to actual results, among other things. Profitability is only determined at the entity [S62]
 
 ## Products and services
 
@@ -225,17 +266,29 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-Q, filed 2026-08-11, L20706:
+
+> Liquidity describes our ability to meet the financial obligations that arise during the ordinary course of business. Liquidity is primarily needed to fund loan commitments, to pay the deposit withdrawal requirements of our customers, as well as to fund current and planned expenditures. Our primary sources of funds consist of deposits, scheduled amortization and [S60]
+
 ## Industry and value chain
 
 SEC-reported SIC **6035**: Savings Institution, Federally Chartered. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-07, L906:
+
+> Mr. Sanvidge has been the Chairman of the board of directors for Lake Shore Bancorp, Inc. and Lake Shore Bank since May 2020. He previously served as the Vice Chairman of the Board beginning in 2018. Mr. Sanvidge is retired from his position as Chief Executive Officer and Administrative Director of the Chautauqua County Industrial Development Agency (“IDA”), a position he held from June 2014 until December 2017. He was previously the Executive Vice President of Administration and Supply Chain at Cliffstar Corporation in Dunkirk, New York, a private label juice and beverage manufacturer, a position he held from 2006 until 2012. Mr. Sanvidge began his tenure at Cliffstar Corporation in 1999 as Vice President of Human Resources and was promoted to Senior Vice President of Human Resources and Administration in 2003. [S61]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-11, L16718:
+
+> Financial institutions like us, in general, are significantly affected by economic conditions, competition, and the monetary and fiscal policies of the federal government. Lending activities are influenced by the demand for and supply of housing and commercial real estate, competition among lenders, interest rate conditions, and funds availability. Our operations and lending are principally concentrated in the Western New York area, and our operations and earnings are influenced by local economic conditions. Deposit balances and cost of funds are influenced by prevailing market rates on competing investments, customer preferences, and levels of personal income and savings in our primary market area. Operations are also significantly impacted by government policies and actions of regulatory authorities. Future changes in applicable law, regulations, or government policies may materially impact the Company. [S60]
 
 ## Moat and differentiation
 
@@ -244,6 +297,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-17, L332:
+
+> This annual report contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These statements are based on Lake Shore Bancorp, Inc.’s current expectations regarding its business strategies, intended results and future performance. Words such as anticipates, expects, intends, plans, believes, estimates and variations of such words and expressions are intended to identify forward-looking statements. Such statements reflect management's current views of future events and operations. These forward-looking statements are based on information currently available as of the date of this report. It is important to note that these forward-looking statements are not guarantees of future performance and involve and are subject to significant risks, contingencies, and uncertainties, many of which are difficult to predict and are generally beyond our control. Potential risks and uncertainties that could cause our actual results to differ from those anticipated in any forward-looking statements include, but are not limited to, data loss or other security breaches, including a breach of our operational or security systems, policies or procedures, including cyber-attacks on us or on our third party vendors or service providers, economic conditions, the effect of changes in monetary and fiscal policy, inflation, tariffs, unanticipated … [S62]
 
 ## Financial performance
 
@@ -344,6 +401,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L89:
+
+> On October 21, 2026, the Board of Directors of Lake Shore Bancorp, Inc. (the "Company") declared a cash dividend of $0.09 per share on its outstanding common stock. The dividend is expected to be paid on November 11, 2026 to shareholders of record as of November 2, 2026. [S59]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -356,6 +417,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L20722:
+
+> In February 2026, we committed to invest up to $2.0 million in Castle Creek Launchpad Fund II (SBIC) LP, a limited partnership investment fund. During the six months ended June 30, 2026, we funded an initial capital contribution of $248,000. As of June 30, 2026, the remaining unfunded commitment was $1.8 million. Future funding is subject to capital calls by the fund's general partner in accordance with the terms of the partnership agreement. Because no additional capital has been called, the unfunded commitment is not reflected as a liability in the consolidated statement of financial condition. We do not believe this commitment will have a material adverse effect on our liquidity, capital resources, or results of operations. [S60]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -365,25 +430,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -405,7 +470,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002059653.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -429,6 +494,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S40] [10-K 0001193125-26-109481](https://www.sec.gov/Archives/edgar/data/2059653/000119312526109481/0001193125-26-109481-index.html) — published 2026-03-17; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LSBK/README.md).
+[S59] [8-K 0001193125-26-429503](https://www.sec.gov/Archives/edgar/data/2059653/000119312526429503/lsbk-20261021.htm) — published 2026-10-23; retrieved 2026-10-29T16:26:41.675334+00:00.
+
+[S60] [10-Q 0001193125-26-344793](https://www.sec.gov/Archives/edgar/data/2059653/000119312526344793/lsbk-20260630.htm) — published 2026-08-11; retrieved 2026-10-29T16:26:39.598717+00:00.
+
+[S61] [DEF 14A 0001193125-26-145635](https://www.sec.gov/Archives/edgar/data/2059653/000119312526145635/lsbk-20260407.htm) — published 2026-04-07; retrieved 2026-10-29T16:26:37.733538+00:00.
+
+[S62] [10-K 0001193125-26-109481](https://www.sec.gov/Archives/edgar/data/2059653/000119312526109481/lsbk-20251231.htm) — published 2026-03-17; retrieved 2026-10-29T16:26:35.497771+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LSBK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

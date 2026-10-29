@@ -8,11 +8,11 @@ tickers:
 - YMT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -61,8 +61,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001991605.json
@@ -155,15 +155,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001991605.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/YMT/README.md
-full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
+full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/YMT/README.md
+full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # YMT — Yimutian Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/YMT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/YMT/README.md)
 
 ## Business overview
 
@@ -285,7 +285,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001991605.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -299,6 +299,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [424B3 0001213900-26-102833](https://www.sec.gov/Archives/edgar/data/1991605/000121390026102833/0001213900-26-102833-index.html) — published 2026-09-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/YMT/README.md).
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/YMT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

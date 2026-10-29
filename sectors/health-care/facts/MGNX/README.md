@@ -8,11 +8,11 @@ tickers:
 - MGNX
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -82,8 +82,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001125345.json
@@ -150,6 +150,24 @@ sources:
   published_at: '2026-03-09'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1125345/000112534526000056/mgnx-20260630.htm
+  title: 10-Q 0001125345-26-000056
+  published_at: '2026-08-14'
+  retrieved_at: '2026-10-29T16:29:02.843713+00:00'
+  sha256: d40e0e0273b7a1c238685d69e0b227a4110c44d5bcffd1116f74b8d2150ea34e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1125345/000112534526000021/mgnx-20260407.htm
+  title: DEF 14A 0001125345-26-000021
+  published_at: '2026-04-08'
+  retrieved_at: '2026-10-29T16:29:00.992005+00:00'
+  sha256: ceb93954e16372bf0be3de2858050d4c59e3fbb631361c96896bf1236ceab8d3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1125345/000112534526000017/mgnx-20251231.htm
+  title: 10-K 0001125345-26-000017
+  published_at: '2026-03-09'
+  retrieved_at: '2026-10-29T16:28:59.160737+00:00'
+  sha256: e200fdbfe8e8bd63d1f9d03c85e0ff709438f80b5f012edf71aca846061aaa3b
 issuer_classification:
   cik: '0001125345'
   classification_status: reported_sic
@@ -195,13 +213,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1125345/000112534515000031/0001125345-15-000031-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 148dfabaf2faeaa5b78be490d888468447dd4dc66754368b2eabd456cb69abeb
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -216,15 +245,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001125345.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/MGNX/README.md
-full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
+full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/MGNX/README.md
+full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MGNX — MACROGENICS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/MGNX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/MGNX/README.md)
 
 ## Business overview
 
@@ -238,17 +267,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L131:
+
+> •the impact of legislative and regulatory developments, public health crises, geopolitical tensions or other macroeconomic factors on our business, operations, clinical programs, manufacturing, financial results and other aspects of our business. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L624:
+
+> The Company identifies its reportable segments based on information reviewed by the Company’s Chief Operating Decision Maker (CODM), who is the Chief Executive Officer. The Company operates as one operating and reportable segment, which is developing innovative antibody-based therapeutics for the treatment of cancer. The Company has determined its reportable operating segment based on the management approach, which considers the internal organization and reporting used by the Company’s CODM to make decisions about allocating resources and assessing the Company’s performance. The determination of a single business segment is consistent with the consolidated financial information regularly reviewed by the CODM for purposes of assessing performance and allocating resources. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L877:
+
+> Our failure, or the failure of our third-party manufacturers, to comply with applicable regulations could result in sanctions being imposed on us, including clinical holds, fines, injunctions, civil penalties, delays, suspension or withdrawal of approvals, license revocation, seizures or recalls of product candidates or drugs, operating restrictions and criminal prosecutions, any of which could significantly and adversely affect supply of our products. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-08, L934:
+
+> Dr. Bonvini’s employment agreement includes non-competition and non-solicitation provisions that will prohibit him from competing with us, soliciting our customers or employees, or hiring our employees for a period of 12 months following the end of his employment with us for any reason. Dr. Bonvini is also subject to confidentiality and invention disclosure and assignment obligations. [S70]
 
 ## Industry and value chain
 
@@ -256,19 +301,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L740:
+
+> The global economy, credit markets and financial markets have and may continue to experience significant volatility as a result of significant worldwide events, including, fluctuating interest rates, geopolitical upheaval and tariffs or other restrictions imposed by the United States government or governments of other nations (collectively, the Macroeconomic Conditions). These Macroeconomic Conditions have and may continue to create supply chain disruptions, inventory disruptions, and fluctuations in economic growth, including fluctuations in employment rates, inflation, energy prices and consumer sentiment. It remains difficult to assess or predict the ultimate duration and economic impact of the Macroeconomic Conditions. Prolonged uncertainty with respect to Macroeconomic Conditions could cause further economic slowdown or cause other unpredictable events, each of which could adversely affect our business, results of operations or financial condition. [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-08, L878:
+
+> Mr. Risser is eligible to receive severance benefits in specified circumstances. Under the terms of his Amended Employment Agreement, upon execution and delivery of an irrevocable release of claims against the Company and subject to his continued compliance with the non-competition and non-solicitation, confidentiality and invention assignment provisions, Mr. Risser will be entitled to severance benefits if we terminate his employment without Cause or if he terminates employment with us for Good Reason, absent or in connection with a Change of Control. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-14, L486:
+
+> In 2022, the Company and Gilead Sciences, Inc. (Gilead) entered into an exclusive option and collaboration agreement (Gilead Agreement) to develop and commercialize MGD024, an investigational, bispecific antibody that binds CD123 and CD3, and create bispecific cancer antibodies using the Company’s DART and TRIDENT platforms and undertake their early development under a maximum of two separate bispecific cancer target research programs. Under the agreement, the Company will continue the ongoing phase 1 trial for MGD024 according to a development plan, during which Gilead will have the right to exercise an option granted to Gilead to obtain an exclusive license under the Company’s intellectual property to develop and [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-09, L281:
+
+> For our product candidates, we cannot market or promote a new product in a country until a marketing application has been approved by the appropriate regulatory authority for that jurisdiction. Subject to receiving marketing authorization in a jurisdiction, we believe we will be able to commercialize in that market through arrangements with third-party commercial partners. If we are unable to enter into third-party commercial arrangements for our product candidates that may be approved in the future, with respect to the United States we believe that we could potentially build the capabilities to commercialize our approved product or products. Outside the United States, our strategy is to enter into arrangements with third-party commercial partners for any of our product candidates that obtain marketing approval. [S71]
 
 ## Financial performance
 
@@ -381,6 +442,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L524:
+
+> The 2023 Plan was effective as of stockholder approval in May 2023. The 2023 Plan provides for grants of stock options and other stock-based awards, as well as cash-based performance awards. The 2023 Plan originally authorized the issuance of up to an aggregate of 4,850,000 shares of common stock. The Board of Directors and stockholders of the Company subsequently approved amendments to the 2023 Plan to increase the number of shares of common stock available to a total of [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -393,6 +458,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L108:
+
+> This report includes forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements include statements that may relate to our plans, objectives, goals, strategies, future events, future revenues or performance, capital expenditures, financing needs and other information that is not historical information. Many of these statements appear, in particular, under the headings "Risk Factors" and "Management's Discussion and Analysis of Financial Condition and Results of Operations" in this Quarterly Report on Form 10-Q. Forward-looking statements can often be identified by the use of terminology such as "subject to", "believe", "anticipate", "plan", "expect", "intend", "estimate", "project", "may", "will", "should", "would", "could", "can", the negatives thereof, variations thereon and similar expressions, or by discussions of strategy. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -402,25 +471,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -442,7 +511,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001125345.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -466,6 +535,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S63] [10-K 0001125345-26-000017](https://www.sec.gov/Archives/edgar/data/1125345/000112534526000017/0001125345-26-000017-index.html) — published 2026-03-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/MGNX/README.md).
+[S69] [10-Q 0001125345-26-000056](https://www.sec.gov/Archives/edgar/data/1125345/000112534526000056/mgnx-20260630.htm) — published 2026-08-14; retrieved 2026-10-29T16:29:02.843713+00:00.
+
+[S70] [DEF 14A 0001125345-26-000021](https://www.sec.gov/Archives/edgar/data/1125345/000112534526000021/mgnx-20260407.htm) — published 2026-04-08; retrieved 2026-10-29T16:29:00.992005+00:00.
+
+[S71] [10-K 0001125345-26-000017](https://www.sec.gov/Archives/edgar/data/1125345/000112534526000017/mgnx-20251231.htm) — published 2026-03-09; retrieved 2026-10-29T16:28:59.160737+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/MGNX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

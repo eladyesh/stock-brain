@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **964**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **963**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -37,7 +37,6 @@ Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are n
 | [ACXP](facts/ACXP/README.md) | Acurx Pharmaceuticals, Inc. | available; quality gates apply | project_sic_rule |
 | [ADCT](facts/ADCT/README.md) | ADC Therapeutics SA | available; quality gates apply | project_sic_rule |
 | [ADGM](facts/ADGM/README.md) | Adagio Medical Holdings, Inc. | available; quality gates apply | project_sic_rule |
-| [ADIL](facts/ADIL/README.md) | ADIAL PHARMACEUTICALS, INC. | available; quality gates apply | project_sic_rule |
 | [ADMA](facts/ADMA/README.md) | ADMA BIOLOGICS, INC. | available; quality gates apply | project_sic_rule |
 | [ADPT](facts/ADPT/README.md) | Adaptive Biotechnologies Corp | available; quality gates apply | project_sic_rule |
 | [ADRX](facts/ADRX/README.md) | ADARx Pharmaceuticals, Inc. | missing | project_sic_rule |

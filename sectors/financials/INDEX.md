@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **708**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **706**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -461,7 +461,6 @@ Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are n
 | [MVBF](facts/MVBF/README.md) | MVB FINANCIAL CORP | missing | project_sic_rule |
 | [MYFW](facts/MYFW/README.md) | First Western Financial Inc | available; quality gates apply | project_sic_rule |
 | [NAKA](facts/NAKA/README.md) | Nakamoto Inc. | available; quality gates apply | project_sic_rule |
-| [NAVI](facts/NAVI/README.md) | NAVIENT CORP | available; quality gates apply | project_sic_rule |
 | [NBBK](facts/NBBK/README.md) | NB Bancorp, Inc. | available; quality gates apply | project_sic_rule |
 | [NBHC](facts/NBHC/README.md) | National Bank Holdings Corp | available; quality gates apply | project_sic_rule |
 | [NBTB](facts/NBTB/README.md) | NBT BANCORP INC | available; quality gates apply | project_sic_rule |
@@ -599,7 +598,6 @@ Data release: `coverage-20261028-40722802424-1`. Provisional SIC groupings are n
 | [SLDE](facts/SLDE/README.md) | Slide Insurance Holdings, Inc. | available; quality gates apply | project_sic_rule |
 | [SLF](facts/SLF/README.md) | SUN LIFE FINANCIAL INC | missing | project_sic_rule |
 | [SLM](facts/SLM/README.md) | SLM Corp | available; quality gates apply | project_sic_rule |
-| [SLMT](facts/SLMT/README.md) | Brera Holdings PLC | missing | project_sic_rule |
 | [SLNH](facts/SLNH/README.md) | Soluna Holdings, Inc | available; quality gates apply | project_sic_rule |
 | [SLQT](facts/SLQT/README.md) | SelectQuote, Inc. | available; quality gates apply | project_sic_rule |
 | [SMBC](facts/SMBC/README.md) | SOUTHERN MISSOURI BANCORP, INC. | available; quality gates apply | project_sic_rule |

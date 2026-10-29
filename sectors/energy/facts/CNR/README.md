@@ -8,11 +8,11 @@ tickers:
 - CNR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,8 +76,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:02.154543+00:00'
-  sha256: 9075fbed01d898a38c24f9b203cac1b6a4eed581edb2da888a321447f3bb55cc
+  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
+  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001710366.json
@@ -205,15 +205,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001710366.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/CNR/README.md
-full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
+full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/CNR/README.md
+full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CNR — Core Natural Resources, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/CNR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/CNR/README.md)
 
 ## Business overview
 
@@ -440,7 +440,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:02.154543+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001710366.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -462,6 +462,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001710366-26-000053](https://www.sec.gov/Archives/edgar/data/1710366/000171036626000053/0001710366-26-000053-index.html) — published 2026-08-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/CNR/README.md).
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/CNR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

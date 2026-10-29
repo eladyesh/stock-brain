@@ -8,11 +8,11 @@ tickers:
 - LKQ
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-28'
-updated_at: '2026-10-28T16:13:42.115634+00:00'
+as_of: '2026-10-29'
+updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
-coverage_release: coverage-20261028-40722802424-1
-source_commit: 8a30d18f29f6ce6c61cbe955ca3f23f6f12ef180
+coverage_release: coverage-20261029-40909364006-1
+source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -80,8 +80,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-28T16:09:01.738588+00:00'
-  sha256: b555e192b928396dc88877226e82c2c8e9470c389cf2def559495683c673510d
+  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
+  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001065696.json
@@ -142,6 +142,30 @@ sources:
   published_at: '2026-09-02'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1065696/000106569626000047/lkq-20261021.htm
+  title: 8-K 0001065696-26-000047
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-29T16:25:51.446071+00:00'
+  sha256: ec7f95177f7d1d5d5a267c68a138989cd3bdc8086dd47990a7cb88389a34a9e2
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1065696/000106569626000044/lkq-20260630.htm
+  title: 10-Q 0001065696-26-000044
+  published_at: '2026-07-30'
+  retrieved_at: '2026-10-29T16:25:49.789430+00:00'
+  sha256: d39942eb26a523d693ba5d61030acdd2534c1f015b43c3434896bfbb5e116e31
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1065696/000106569626000026/lkq-20260323.htm
+  title: DEF 14A 0001065696-26-000026
+  published_at: '2026-03-24'
+  retrieved_at: '2026-10-29T16:25:48.068858+00:00'
+  sha256: 28b53fa2764982492a4f67ed37346c2a85ecca53311caf2a7995c54823c45166
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm
+  title: 10-K 0001065696-26-000012
+  published_at: '2026-02-19'
+  retrieved_at: '2026-10-29T16:25:46.288030+00:00'
+  sha256: f5f1a1d31ed5017e94ef6f0adc31bef51547bf30499bcdda57d06901f4e20898
 issuer_classification:
   cik: 0001065696
   classification_status: reported_sic
@@ -191,13 +215,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1065696/000106569616000110/0001065696-16-000110-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4537ad2ea73ee768cc2bbd31026d27bcaefe4f5e61ed6764f0f2e91f4d82eaf0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-29T16:24:48.518388+00:00'
+  last_success_at: '2026-10-29T16:24:48.518388+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -212,15 +247,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001065696.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LKQ/README.md
-full_history_commit: 5da532c3abee5b40a5400c5864c6f3f4593276d7
+full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LKQ/README.md
+full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # LKQ — LKQ CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LKQ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LKQ/README.md)
 
 ## Business overview
 
@@ -234,17 +269,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L874:
+
+> Our contingent consideration liabilities are related to our business acquisitions. Under the terms of the contingent consideration agreements, payments may be made at specified future dates depending on the performance of the acquired business subsequent to the acquisition. The liabilities for these payments are classified as Level 3 liabilities because the related fair value measurement, which is determined using an income approach, includes significant inputs not observable in the market. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L918:
+
+> We have three operating segments: North America; Europe; and Specialty, each of which are presented as a reportable segment. The segments are organized based on a combination of geographic regions served and the types of product lines offered. They are managed separately, as each business serves distinct customer bases and is impacted by different economic conditions. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-03-24, L600:
+
+> Oversight of the Company’s strategic planning process is a key responsibility of the Board. In this regard, the Board conducts an annual comprehensive review of our strategic plans and reviews our overall business. Discussion topics include, but are not limited to, our mission and values; competitive position of our existing businesses; potential new or expanded lines of business; potential geographic expansion; key industry trends and evolving technologies, which may impact the demand for our products and services; financial trends and outlook; capital allocation; talent management; regulatory environment; and matters related to our sustainability initiatives. Discussions about the Company’s strategy and execution are also undertaken by the Board committees. This process enables the Board to assess the Company’s strategy over the short, intermediate and long term. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L503:
+
+> Our mission is to be the leading global value-added and sustainable distributor of vehicle parts and accessories by offering our customers the most comprehensive, available and cost-effective selection of parts and service solutions while building strong partnerships with our employees and the communities in which we operate. Achieving our mission requires superior performance across numerous specialties. LKQ currently has operations in North America, Europe and Taiwan. We have attempted to include nominees to our Board of Directors that have the relevant experiences, qualifications, attributes and skills to help support our mission. The following matrix provides information regarding the experiences, qualifications, attributes and skills of our nominees. The matrix does not encompass all the experiences, qualifications, attributes and skills of our nominees, and the fact that a particular experience, qualification, attribute or skill is not listed does not mean that a nominee does not possess it. In addition, the absence of a particular experience, qualification, attribute or skill with respect to any of our nominees does not mean the nominee in question would be unable to contribute to the decision-making process in that area. For purposes of this Proxy Statement, each of our nominees identified up to a maximum of six experiential criteria areas identified in the table below … [S69]
 
 ## Industry and value chain
 
@@ -252,19 +303,35 @@ SEC-reported SIC **5010**: Wholesale-Motor Vehicles & Motor Vehicle Parts & Supp
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L66:
+
+> Mr. Abbate’s experience aligns closely with the Company’s strategic and operational priorities. He has led high-volume, multi-site distribution businesses where pricing, procurement and supply chain discipline are critical to performance, and has led portfolio transformation focused on margin improvement and cash generation. He also brings public-company and international experience. He currently serves on the board of ArcBest (Nasdaq: ARCB). He holds a bachelor’s degree in industrial engineering from the Georgia Institute of Technology and an MBA from Northwestern University’s Kellogg School of Management. [S67]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1271:
+
+> (1)Parts and services revenue increased by $9 million, or 0.5%, to $1,371 million for the three months ended June 30, 2026. This increase was due to an organic revenue increase of $7 million, or 0.5%, driven primarily by pricing initiatives to recoup tariff costs and offset inflationary pressures, partially offset by lower volumes in our paint, body and equipment ("PBE") business from increased competition and lower repairable claims and lower volumes in our salvage operations. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-19, L264:
+
+> We own and have the right to use various intellectual property, including intellectual property acquired as a result of past acquisitions. In addition to trade names, trademarks and patents, we also have technology-based intellectual property that has been both internally developed and obtained through license agreements and acquisitions. We do not believe that our business is materially dependent on any single item of intellectual property, or any single group of related intellectual property, owned or licensed, nor would the expiration of any particular item or related group of intellectual property, or the termination of any particular intellectual property license agreement, materially affect our business. See the risk factor "Intellectual property claims relating to aftermarket products could adversely affect our business." in Part I, Item 1A of this Annual Report on Form 10-K for further information regarding the risks related to intellectual property. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L656:
+
+> As part of executing our strategy to deliver profitable growth, drive a lean operating model and maximize returns on invested capital, we will, from time to time, engage in restructuring and business transformation initiatives. These initiatives can range in scope from broad changes such as centralizing and standardizing non-customer facing teams and divesting non-strategic assets, to targeted changes such as consolidating underutilized facilities and closing underperforming locations. Executing on these initiatives can take a few months to several years to fully implement depending on the scope and complexity of the initiative. Additionally, initiatives can change or expand based on the information obtained while executing on the initiative and when additional actions are identified. We anticipate we will incur approximately $90 million of costs in 2026 executing on the approved actions in connection with these initiatives. [S68]
 
 ## Financial performance
 
@@ -377,6 +444,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L64:
+
+> On October 23, 2026, the Board of Directors (the “Board”) of the Company announced that Justin L. Jude ceased to serve as the Company’s President and Chief Executive Officer and resigned as a member of the Board, in each case, effective October 23, 2026. In connection with Mr. Jude’s separation, the Board appointed Salvatore A. Abbate to succeed Mr. Jude as the Company’s President and Chief Executive Officer and as a member of the Board, in each case, effective as of December 15, 2026. In addition, effective as of October 23, 2026, the Company established an interim Office of the Chief Executive Officer to provide ongoing leadership continuity until Abbate assumes his role. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -389,6 +460,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L911:
+
+> We are from time to time subject to various claims and lawsuits incidental to our business. Some of these claims may involve complex issues that are subject to substantial uncertainties. However, in the opinion of management, based on currently available information, we do not expect that any currently outstanding claims and lawsuits will, individually or in the aggregate, have a material adverse effect on our financial position, results of operations or cash flows. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -398,25 +473,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -438,7 +513,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-28T16:09:01.738588+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001065696.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -460,6 +535,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001214659-26-011383](https://www.sec.gov/Archives/edgar/data/1065696/000121465926011383/0001214659-26-011383-index.html) — published 2026-09-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261028-40722802424-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/5da532c3abee5b40a5400c5864c6f3f4593276d7/brain/companies/LKQ/README.md).
+[S67] [8-K 0001065696-26-000047](https://www.sec.gov/Archives/edgar/data/1065696/000106569626000047/lkq-20261021.htm) — published 2026-10-23; retrieved 2026-10-29T16:25:51.446071+00:00.
+
+[S68] [10-Q 0001065696-26-000044](https://www.sec.gov/Archives/edgar/data/1065696/000106569626000044/lkq-20260630.htm) — published 2026-07-30; retrieved 2026-10-29T16:25:49.789430+00:00.
+
+[S69] [DEF 14A 0001065696-26-000026](https://www.sec.gov/Archives/edgar/data/1065696/000106569626000026/lkq-20260323.htm) — published 2026-03-24; retrieved 2026-10-29T16:25:48.068858+00:00.
+
+[S70] [10-K 0001065696-26-000012](https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm) — published 2026-02-19; retrieved 2026-10-29T16:25:46.288030+00:00.
+
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/LKQ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
