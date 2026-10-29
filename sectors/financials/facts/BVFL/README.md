@@ -12,7 +12,7 @@ as_of: '2026-10-29'
 updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
 coverage_release: coverage-20261029-40909364006-1
-source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
+source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -230,15 +230,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001302387.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/BVFL/README.md
-full_history_commit: 52b6569b626a07b359d4a15742ebb633a0e48007
+full_history_url: https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/BVFL/README.md
+full_history_commit: c26f59bc72c00102d2490e95b07449f8cd848491
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BVFL — BV Financial, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/BVFL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/BVFL/README.md)
 
 ## Business overview
 
@@ -515,6 +515,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S65] [10-K 0001193125-26-128285](https://www.sec.gov/Archives/edgar/data/1302387/000119312526128285/bvfl-20251231.htm) — published 2026-03-27; retrieved 2026-10-25T14:01:59.559159+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/52b6569b626a07b359d4a15742ebb633a0e48007/brain/companies/BVFL/README.md).
+Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/BVFL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
