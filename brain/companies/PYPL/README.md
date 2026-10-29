@@ -12,7 +12,7 @@ as_of: '2026-10-29'
 updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
 coverage_release: coverage-20261029-40909364006-1
-source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
+source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
 financial_history_available: false
 curated_research: null
 financial_gap:

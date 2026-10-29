@@ -13,10 +13,10 @@ as_of: '2026-10-29'
 updated_at: '2026-10-29T16:18:46.634043+00:00'
 reviewed_at: null
 coverage_release: coverage-20261029-40909364006-1
-source_commit: 066173dd7c0933a11c2085b144bbb14099b44560
+source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/066173dd7c0933a11c2085b144bbb14099b44560/sectors/information-technology/companies/ORCL/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/aa19db75827ed3c73031b70e9a0a2e63baffc491/sectors/information-technology/companies/ORCL/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -1229,7 +1229,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:43.155243+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/066173dd7c0933a11c2085b144bbb14099b44560/sectors/information-technology/companies/ORCL/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/aa19db75827ed3c73031b70e9a0a2e63baffc491/sectors/information-technology/companies/ORCL/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
