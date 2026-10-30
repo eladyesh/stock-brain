@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
-| [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |
 | [MZTI](../companies/MZTI/README.md) | MARZETTI CO | available, quality gates apply |
 | [MZYX](../companies/MZYX/README.md) | MOZAYYX Acquisition Corp. | available, quality gates apply |
 | [NA](../companies/NA/README.md) | Nano Labs Ltd | not available |
@@ -104,3 +102,5 @@
 | [NHTC](../companies/NHTC/README.md) | NATURAL HEALTH TRENDS CORP | not available |
 | [NI](../companies/NI/README.md) | NISOURCE INC. | available, quality gates apply |
 | [NIC](../companies/NIC/README.md) | NICOLET BANKSHARES INC | available, quality gates apply |
+| [NICE](../companies/NICE/README.md) | NICE Ltd. | not available |
+| [NICM](../companies/NICM/README.md) | NICOLA MINING INC. | not available |

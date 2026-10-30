@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [TDOC](../companies/TDOC/README.md) | Teladoc Health, Inc. | available, quality gates apply |
-| [TDS, TDS$U, TDS$V](../companies/TDS/README.md) | TELEPHONE & DATA SYSTEMS INC /DE/ | available, quality gates apply |
 | [TDTH](../companies/TDTH/README.md) | Trident Digital Tech Holdings Ltd | not available |
 | [TDUP](../companies/TDUP/README.md) | ThredUp Inc. | available, quality gates apply |
 | [TDW](../companies/TDW/README.md) | TIDEWATER INC | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [TNDM](../companies/TNDM/README.md) | TANDEM DIABETES CARE INC | available, quality gates apply |
 | [TNET](../companies/TNET/README.md) | TRINET GROUP, INC. | available, quality gates apply |
 | [TNGX](../companies/TNGX/README.md) | Tango Therapeutics, Inc. | available, quality gates apply |
+| [TNK](../companies/TNK/README.md) | TEEKAY TANKERS LTD. | not available |
+| [TNMG](../companies/TNMG/README.md) | TNL Mediagene | not available |

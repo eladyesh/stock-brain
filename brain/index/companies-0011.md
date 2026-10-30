@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [CEG](../companies/CEG/README.md) | Constellation Energy Corp | available, quality gates apply |
 | [CELC](../companies/CELC/README.md) | Celcuity Inc. | available, quality gates apply |
 | [CELH](../companies/CELH/README.md) | Celsius Holdings, Inc. | available, quality gates apply |
 | [CELU](../companies/CELU/README.md) | Celularity Inc | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [CLBK](../companies/CLBK/README.md) | Columbia Financial, Inc./MD/ | available, quality gates apply |
 | [CLBR](../companies/CLBR/README.md) | Colombier Acquisition Corp. III | available, quality gates apply |
 | [CLBT](../companies/CLBT/README.md) | Cellebrite DI Ltd. | not available |
-| [CLDI](../companies/CLDI/README.md) | Calidi Biotherapeutics, Inc. | available, quality gates apply |

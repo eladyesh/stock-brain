@@ -4,11 +4,12 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [EDU](../unmapped/da9d35fab8b9c3d5e4f61f7052b39e92.md) | NYSE | New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands) |
+| [EEA](../unmapped/9bf56b3f2eca467ee5ffa26b9705425f.md) | NYSE | The European Equity Fund, Inc. Common Stock |
 | [EFC$B](../unmapped/2d9d1a41829c7a92f0bbeff3f0cacc64.md) | NYSE | Ellington Financial Inc. 6.250% Series B Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
 | [EFC$C](../unmapped/1499ce87604125a3dbc221c007fff197.md) | NYSE | Ellington Financial Inc. 8.625% Series C Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
 | [EFC$D](../unmapped/50fe88a326ba9fff29880cd2bd65b2e3.md) | NYSE | Ellington Financial Inc. 7.00% Series D Cumulative Perpetual Redeemable Preferred Stock |
 | [EFR](../unmapped/52c0a2d457f4cc2142952a151c4cdc4d.md) | NYSE | Eaton Vance Senior Floating-Rate Fund Common Shares of Beneficial Interest |
-| [EICA](../unmapped/28425fe4dcf369535abbfc9016db19fc.md) | NYSE | Eagle Point Income Company 5.00% Series A Term Preferred Shares due 2026 |
 | [EIIA](../unmapped/f4fb9a256657420c0a7fa2dde987ef89.md) | NYSE | Eagle Point Institutional Income Fund 8.125% Series A Term Preferred Shares Due 2029 |
 | [ELPC](../unmapped/8deeb5909498e260a8ccfb625db10072.md) | NYSE | Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares) |
 | [EOI](../unmapped/c1c0fa60c092799f78abe778f7f3036f.md) | NYSE | Eaton Vance Enhance Equity Income Fund Eaton Vance Enhanced Equity Income Fund Shares of Beneficial Interest |
@@ -103,4 +104,3 @@
 | [LEN](../unmapped/29cc1071c6ca55de9b9f1fc035fe3a10.md) | NYSE | Lennar Corporation Class A Common Stock |
 | [LEN.B](../unmapped/915125fc04c0434227b3b3d687167021.md) | NYSE | Lennar Corporation Class B |
 | [LFT$A](../unmapped/34fb23af0e68c1e1f00ce420f85c404e.md) | NYSE | Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock |
-| [LND](../unmapped/fb86ce0fa0dc2c4910de794ae26da8df.md) | NYSE | Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil) |

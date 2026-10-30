@@ -30,6 +30,7 @@
 | [AES](../companies/AES/README.md) | AES CORP | available, quality gates apply |
 | [AESI](../companies/AESI/README.md) | Atlas Energy Solutions Inc. | available, quality gates apply |
 | [AESP](../companies/AESP/README.md) | Aeon Acquisition I Corp. | available, quality gates apply |
+| [AETR](../companies/AETR/README.md) | AETHERION TECHNOLOGIES INC. | not available |
 | [AEVA](../companies/AEVA/README.md) | Aeva Technologies, Inc. | available, quality gates apply |
 | [AEXA](../companies/AEXA/README.md) | American Exceptionalism Acquisition Corp. A | available, quality gates apply |
 | [AEYE](../companies/AEYE/README.md) | AUDIOEYE INC | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [AIV](../companies/AIV/README.md) | APARTMENT INVESTMENT & MANAGEMENT CO | not available |
 | [AIXI](../companies/AIXI/README.md) | Xiao-I Corp | not available |
 | [AIZ](../companies/AIZ/README.md) | ASSURANT, INC. | available, quality gates apply |
-| [AJG](../companies/AJG/README.md) | Arthur J. Gallagher & Co. | available, quality gates apply |

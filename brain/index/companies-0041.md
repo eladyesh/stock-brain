@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [PLNT](../companies/PLNT/README.md) | Planet Fitness, Inc. | available, quality gates apply |
-| [PLOW](../companies/PLOW/README.md) | DOUGLAS DYNAMICS, INC | available, quality gates apply |
 | [PLPC](../companies/PLPC/README.md) | PREFORMED LINE PRODUCTS CO | available, quality gates apply |
 | [PLRX](../companies/PLRX/README.md) | PLIANT THERAPEUTICS, INC. | available, quality gates apply |
 | [PLRZ](../companies/PLRZ/README.md) | Polyrizon Ltd. | not available |
@@ -104,3 +102,5 @@
 | [PRSO](../companies/PRSO/README.md) | Peraso Inc. | available, quality gates apply |
 | [PRSU](../companies/PRSU/README.md) | Pursuit Attractions & Hospitality, Inc. | available, quality gates apply |
 | [PRTH](../companies/PRTH/README.md) | Priority Technology Holdings, Inc. | available, quality gates apply |
+| [PRTS](../companies/PRTS/README.md) | CarParts.com, Inc. | available, quality gates apply |
+| [PRU](../companies/PRU/README.md) | PRUDENTIAL FINANCIAL INC | available, quality gates apply |

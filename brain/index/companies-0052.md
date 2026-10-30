@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [TVAI](../companies/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available, quality gates apply |
-| [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |
 | [TVGN](../companies/TVGN/README.md) | Tevogen Inc. | available, quality gates apply |
 | [TVIV](../companies/TVIV/README.md) | Texas Ventures Acquisition IV Corp | available, quality gates apply |
 | [TVRD](../companies/TVRD/README.md) | Tvardi Therapeutics, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [USAS](../companies/USAS/README.md) | Americas Gold & Silver Corp | not available |
 | [USAU](../companies/USAU/README.md) | U.S. GOLD CORP. | available, quality gates apply |
 | [USBC](../companies/USBC/README.md) | USBC, Inc. | available, quality gates apply |
+| [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
+| [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |

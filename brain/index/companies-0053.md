@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [USCB](../companies/USCB/README.md) | USCB FINANCIAL HOLDINGS, INC. | available, quality gates apply |
-| [USDE](../companies/USDE/README.md) | StableCoinX Inc. | available, quality gates apply |
 | [USEA](../companies/USEA/README.md) | United Maritime Corp | not available |
 | [USFD](../companies/USFD/README.md) | US Foods Holding Corp. | available, quality gates apply |
 | [USGO](../companies/USGO/README.md) | U.S. GoldMining Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [VLGEA](../companies/VLGEA/README.md) | VILLAGE SUPER MARKET INC | available, quality gates apply |
 | [VLN](../companies/VLN/README.md) | Valens Semiconductor Ltd. | not available |
 | [VLO](../companies/VLO/README.md) | VALERO ENERGY CORP/TX | available, quality gates apply |
+| [VLOS](../companies/VLOS/README.md) | Velos Acquisition I Corp. | available, quality gates apply |
+| [VLRS](../companies/VLRS/README.md) | Controladora Vuela Compania de Aviacion, S.A.B. de C.V. | not available |

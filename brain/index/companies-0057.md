@@ -4,9 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [ZBRA](../companies/ZBRA/README.md) | ZEBRA TECHNOLOGIES CORP | available, quality gates apply |
-| [ZCMD](../companies/ZCMD/README.md) | Zhongchao Inc. | not available |
-| [ZD](../companies/ZD/README.md) | ZIFF DAVIS, INC. | available, quality gates apply |
 | [ZDAI](../companies/ZDAI/README.md) | DirectBooking Technology Co., Ltd. | not available |
 | [ZDGE](../companies/ZDGE/README.md) | Zedge, Inc. | available, quality gates apply |
 | [ZENA](../companies/ZENA/README.md) | ZenaTech, Inc. | not available |

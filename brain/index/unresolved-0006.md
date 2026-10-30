@@ -4,6 +4,7 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [SHO$H](../unmapped/4d03b66d97c3072d360dc24dc8e37b6a.md) | NYSE | Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock |
 | [SHO$I](../unmapped/6a4a5638edb998065da97e2040d5b76e.md) | NYSE | Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock |
 | [SID](../unmapped/8259b63ce0cb8f3dd6f5b70e53d700c5.md) | NYSE | Companhia Siderurgica Nacional S.A. Common Stock |
 | [SMFG](../unmapped/d2014fb2ce66140c774ef21f0246b2bd.md) | NYSE | Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan) |
@@ -103,4 +104,3 @@
 | [SUNC](../unmapped/13d851c23e3e2aec42e0b7b833a1fbc7.md) | UNKNOWN_TXSE | SunocoCorp LLC Common Units, representing limited liability company interests |
 | [TCBI](../unmapped/76201fb016168afc1589997f4c3f3e01.md) | UNKNOWN_TXSE | Texas Capital Bancshares, Inc. Common Stock |
 | [TCBI$B](../unmapped/c350a2be76eca7dc579dab8c65522910.md) | UNKNOWN_TXSE | Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B |
-| [USAC](../unmapped/f82223f2ecb9c151ac384d8e6bebbcf8.md) | UNKNOWN_TXSE | USA Compression Partners, LP Common Units Representing Limited Partner Interests |

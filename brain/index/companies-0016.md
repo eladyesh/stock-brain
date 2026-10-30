@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [DOYU](../companies/DOYU/README.md) | DouYu International Holdings Ltd | not available |
 | [DPC](../companies/DPC/README.md) | DPC Holdings PLC | available, quality gates apply |
 | [DPG](../companies/DPG/README.md) | Duff & Phelps Utility & Infrastructure Fund Inc. | not available |
 | [DPRO](../companies/DPRO/README.md) | Draganfly Inc. | not available |
@@ -66,7 +67,6 @@
 | [DY](../companies/DY/README.md) | DYCOM INDUSTRIES INC | available, quality gates apply |
 | [DYAI](../companies/DYAI/README.md) | DYADIC INTERNATIONAL INC | available, quality gates apply |
 | [DYN](../companies/DYN/README.md) | Dyne Therapeutics, Inc. | available, quality gates apply |
-| [DYNC](../companies/DYNC/README.md) | Dynamix Corp | available, quality gates apply |
 | [DYOR](../companies/DYOR/README.md) | Insight Digital Partners II | available, quality gates apply |
 | [E](../companies/E/README.md) | ENI SPA | not available |
 | [EAD](../companies/EAD/README.md) | ALLSPRING INCOME OPPORTUNITIES FUND | not available |

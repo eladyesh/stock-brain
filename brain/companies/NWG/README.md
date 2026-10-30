@@ -8,11 +8,11 @@ tickers:
 - NWG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,8 +56,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000844150.json
@@ -364,6 +364,30 @@ sources:
   published_at: '2026-06-18'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/844150/000165495426009121/a3172a.htm
+  title: 6-K 0001654954-26-009121
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-30T16:14:17.180320+00:00'
+  sha256: 5a335c7d2d6f3f1d833f713bafc12ba6916a1df73c68f0a8fa004e42011a957d
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/844150/000110465926016245/nwg-20251231x20f.htm
+  title: 20-F 0001104659-26-016245
+  published_at: '2026-02-17'
+  retrieved_at: '2026-10-30T16:14:13.341712+00:00'
+  sha256: d57909313dd276b017bb82121756a3bdc99007d01e12d39e85a7f940a8314262
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/844150/000095010324003381/dp207948_6ka.htm
+  title: 6-K/A 0000950103-24-003381
+  published_at: '2024-03-04'
+  retrieved_at: '2026-10-30T16:14:10.636471+00:00'
+  sha256: bb9f6ba07478f24d81aa6571f875d4af193698646a81291bb592988cd5571572
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/844150/000165495423003171/a5854t.htm
+  title: 6-K/A 0001654954-23-003171
+  published_at: '2023-03-20'
+  retrieved_at: '2026-10-30T16:14:08.872159+00:00'
+  sha256: c000523cf340edcdc7cae425a3e3520b7e41a993f8a9e3615875366ff9988715
 issuer_classification:
   cik: 0000844150
   classification_status: reported_sic
@@ -399,13 +423,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/844150/000165495423003171/0001654954-23-003171-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 202b19553a96598a4dd10d832b986d9fc3db8890a1fab70485c88026a1c621aa
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -429,17 +464,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-02-17, L63599:
+
+> Employees may receive variable compensation in cash, in deferred cash or debt instruments of NatWest Group or in ordinary shares of NatWest Group plc subject to deferral, clawback and forfeiture criteria. We operate a number of share-based compensation schemes under which we grant awards of NatWest Group plc shares and share options to our employees. Such awards are subject to vesting conditions. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-02-17, L1202:
+
+> In the Annual Report on Form 20-F, unless specified otherwise, ‘parent company’ refers to NatWest Group plc, and ‘NatWest Group’, ‘Group’ or ‘we’ refers to NatWest Group plc and its subsidiaries. The term ‘NWH Group’ refers to NatWest Holdings Limited (‘NWH Limited’) and its subsidiary and associated undertakings. The term ‘NWM Group’ refers to NatWest Markets Plc (‘NWM Plc’) and its subsidiary and associated undertakings. The term 'RBSH N.V.' refers to RBS Holdings N.V. The term ‘NWM N.V.’ refers to NatWest Markets N.V. The term ‘NWM N.V. Group’ refers to NatWest Markets N.V. and its subsidiary and associated undertakings The term ‘NWMSI’ refers to NatWest Markets Securities, Inc. The term ‘RBS plc’ refers to The Royal Bank of Scotland plc. The term ‘NWB Plc’ refers to National Westminster Bank Plc. The term ‘RBSI Ltd’ refers to The Royal Bank of Scotland International Limited. Effective from Q2 2025, the reportable segment Private Banking was renamed Private Banking & Wealth Management. This does not change the financial results of Private Banking & Wealth Management or the consolidated financial results of NatWest Group. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-02-17, L105484:
+
+> \| ● \| changes to the regulatory environment and associated requirements which could lead to shifts in operating cost and regulatory capital requirements that impact NatWest Group’s product offerings and business models (see ‘NatWest Group’s businesses are subject to substantial regulation and oversight, which are constantly evolving and may adversely affect NatWest Group’ and ‘NatWest Group could incur losses or be required to maintain higher levels of capital as a result of limitations or failure of various models.) [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-02-17, L1299:
+
+> We continued to support our customers as net loans to customers of £418.9 billion increased by £18.6 billion in the year and net loans to customers excluding central items increased by £20.7 billion in the year. Retail Banking mortgage balances increased by £5.1 billion and Commercial & Institutional balances were up by £12.3 billion. [S54]
 
 ## Industry and value chain
 
@@ -447,17 +498,33 @@ SEC-reported SIC **6029**: Commercial Banks, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-02-17, L1111:
+
+> We caution you that a large number of important factors could adversely affect our results or our ability to implement our strategy, cause us to fail to meet our targets, predictions, expectations and other anticipated outcomes or affect the accuracy of forward-looking statements described in this document. These factors include, but are not limited to, those set forth in the risk factors and the other uncertainties described in NatWest Group plc’s 2025 Annual Report on Form 20-F, and its other filings with the US Securities and Exchange Commission. The principal risks and uncertainties that could adversely affect NatWest Group’s future results, its financial condition and/or prospects and cause them to be materially different from what is forecast or expected, include, but are not limited to: economic and political risk (including in respect of: political and economic risks and uncertainty in the UK and global markets, including as a result of inflation and interest rates, supply chain disruption, protectionist policies, and geopolitical developments); and changes in interest rates and foreign currency exchange rates; business change and execution risk (including in respect of the implementation of NatWest Group’s strategy; future acquisitions and divestments, the competitive environment; and the transfer of its EU corporate portfolio); financial resilience risk (including in … [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-02-17, L1137:
+
+> \| ● \| Factors and uncertainties beyond NatWest Group’s control. The extent and pace of climate change, including the timing and manifestation of physical and transition risks and nature loss; the macroeconomic environment; the effectiveness of actions of governments, legislators, regulators and businesses; changes to government policy direction, legislation, regulation and industry and market practice; the response of wider society, including NatWest Group’s value chain, including its investors, customers, counterparties, suppliers and business partners; changes in customer and societal behaviour and demand; availability of commercially viable opportunities in the sustainable and transition finance markets, competition dynamics, capital markets appetite, investor expectations, and external credit and concentration risk appetites which may constrain the scale or risk profile of opportunities accessible to NatWest Group; developments in available technology; the rollout of low carbon infrastructure; and the availability of accurate, verifiable, reliable, auditable, consistent and comparable data. [S54]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-02-17, L8118:
+
+> NatWest Group’s ability to attract and manage funding remains a critical competitive advantage. Other key competitive factors include cost management, growing digital sales focus, branch network re-shaping, and product simplification. Cost management remains a key focus, as banks seek to simplify their organisational and IT architectures while at the same time investing to ensure that they can meet customers’ evolving channel preferences. Customers have increasingly focused on the use of internet and mobile as sales and service channels for certain types of products. Therefore, competitive position and performance increasingly depends on the possession of user-friendly, diverse and efficient online solutions. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-02-17, L1107:
+
+> Certain sections in this document contain ‘forward-looking statements’ as that term is defined in the United States Private Securities Litigation Reform Act of 1995, such as statements with respect to NatWest Group’s financial condition, results of operations and business, including its strategic priorities, financial, investment and capital targets, and climate and sustainability-related targets, commitments and ambitions described herein. Statements that are not historical facts, including statements about NatWest Group’s beliefs and expectations, are forward-looking statements. Words such as ‘expect’, ‘estimate’, ‘project’, ‘anticipate’, ‘commit’, ‘believe’, ‘should’, ‘intend’, ‘will’, ‘plan’, ‘could’, ‘probability’, ‘risk’, ‘target’, ‘goal’, ‘objective’, ‘may’, ‘endeavour’, ‘outlook’, ‘optimistic’, ‘prospects’ and similar expressions or variations on these expressions are intended to identify forward-looking statements. In particular, this document includes forward-looking targets and guidance relating to financial performance measures, such as income growth, operating expense, RoTE, ROE, discretionary capital distribution targets, impairment loss rates, capital generation pre distributions, customer assets and liabilities growth rate, cost: income ratio, balance sheet reduction (including the reduction of RWAs), CET1 ratio (and key drivers of the CET1 ratio including … [S54]
 
 ## Financial performance
 
@@ -471,6 +538,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-02-17, L411:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -482,6 +553,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-02-17, L1111:
+
+> We caution you that a large number of important factors could adversely affect our results or our ability to implement our strategy, cause us to fail to meet our targets, predictions, expectations and other anticipated outcomes or affect the accuracy of forward-looking statements described in this document. These factors include, but are not limited to, those set forth in the risk factors and the other uncertainties described in NatWest Group plc’s 2025 Annual Report on Form 20-F, and its other filings with the US Securities and Exchange Commission. The principal risks and uncertainties that could adversely affect NatWest Group’s future results, its financial condition and/or prospects and cause them to be materially different from what is forecast or expected, include, but are not limited to: economic and political risk (including in respect of: political and economic risks and uncertainty in the UK and global markets, including as a result of inflation and interest rates, supply chain disruption, protectionist policies, and geopolitical developments); and changes in interest rates and foreign currency exchange rates; business change and execution risk (including in respect of the implementation of NatWest Group’s strategy; future acquisitions and divestments, the competitive environment; and the transfer of its EU corporate portfolio); financial resilience risk (including in … [S54]
 
 ## Scenarios and open questions
 
@@ -495,25 +570,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -578,9 +653,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-06-22 | CERT | 0000876661-26-000542 | — | [S51] |
 | 2026-06-18 | 6-K | 0000950103-26-009217 | — | [S52] |
 
+Source excerpt — 20-F, filed 2026-02-17, L1323:
+
+> The average LCR of 147%, representing £50.5 billion headroom above 100% minimum requirement, decreased by 4 percentage points during the year, primarily driven by increased lending partially offset by deposit growth. Our primary liquidity decreased by £3.8 billion to £157.3 billion, of which £81.1 billion, or 52% was cash and balances at central banks. [S54]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000844150.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -684,4 +763,12 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S52] [6-K 0000950103-26-009217](https://www.sec.gov/Archives/edgar/data/844150/000095010326009217/0000950103-26-009217-index.html) — published 2026-06-18; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001654954-26-009121](https://www.sec.gov/Archives/edgar/data/844150/000165495426009121/a3172a.htm) — published 2026-10-23; retrieved 2026-10-30T16:14:17.180320+00:00.
+
+[S54] [20-F 0001104659-26-016245](https://www.sec.gov/Archives/edgar/data/844150/000110465926016245/nwg-20251231x20f.htm) — published 2026-02-17; retrieved 2026-10-30T16:14:13.341712+00:00.
+
+[S55] [6-K/A 0000950103-24-003381](https://www.sec.gov/Archives/edgar/data/844150/000095010324003381/dp207948_6ka.htm) — published 2024-03-04; retrieved 2026-10-30T16:14:10.636471+00:00.
+
+[S56] [6-K/A 0001654954-23-003171](https://www.sec.gov/Archives/edgar/data/844150/000165495423003171/a5854t.htm) — published 2023-03-20; retrieved 2026-10-30T16:14:08.872159+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.

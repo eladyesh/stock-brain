@@ -70,7 +70,6 @@
 | [GCMG](../companies/GCMG/README.md) | GCM Grosvenor Inc. | available, quality gates apply |
 | [GCO](../companies/GCO/README.md) | GENESCO INC | available, quality gates apply |
 | [GCT](../companies/GCT/README.md) | GigaCloud Technology Inc | available, quality gates apply |
-| [GCTK](../companies/GCTK/README.md) | Glucotrack, Inc. | available, quality gates apply |
 | [GCTS](../companies/GCTS/README.md) | GCT Semiconductor Holding, Inc. | available, quality gates apply |
 | [GCV](../companies/GCV/README.md) | GABELLI CONVERTIBLE & INCOME SECURITIES FUND INC | not available |
 | [GD](../companies/GD/README.md) | GENERAL DYNAMICS CORP | not available |
@@ -104,3 +103,4 @@
 | [GF](../companies/GF/README.md) | NEW GERMANY FUND INC | not available |
 | [GFAI](../companies/GFAI/README.md) | Guardforce AI Co., Ltd. | not available |
 | [GFF](../companies/GFF/README.md) | GRIFFON CORP | available, quality gates apply |
+| [GFI](../companies/GFI/README.md) | GOLD FIELDS LTD | not available |

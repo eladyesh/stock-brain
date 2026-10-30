@@ -4,6 +4,7 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
+| [IRHO](../unmapped/9d08faf3f63abd04534166d8c1494a0f.md) | NASDAQ | Iron Horse Acquisitions II Corp. - Common Stock |
 | [JBHT](../unmapped/9081c1e3b7570789ce835833237929e2.md) | NASDAQ | J.B. Hunt Transport Services, Inc. - Common Stock |
 | [JBSS](../unmapped/7e1f366a316372b066aa48585ca6796d.md) | NASDAQ | John B. Sanfilippo & Son, Inc. - Common Stock |
 | [KCHVR](../unmapped/d52c6e8863e16385070bd2d73a035819.md) | NASDAQ | Kochav Defense Acquisition Corp. - Right |
@@ -18,12 +19,14 @@
 | [LOGI](../unmapped/b6122536d7414995d6e2c73fc91d76d5.md) | NASDAQ | Logitech International S.A. - Registered Shares |
 | [MAYS](../unmapped/cf37ab5a31f55ca535dc45298738bb53.md) | NASDAQ | J. W. Mays, Inc. - Common Stock |
 | [MBNKO](../unmapped/cacdd6d161814fbce9a5a59b78b4a35b.md) | NASDAQ | Medallion Bank - Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share |
+| [METAM](../unmapped/4e2edda470f2516428a2ebff98bdc9f8.md) | NASDAQ | Meta Platforms, Inc. - Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock |
 | [MFIC](../unmapped/4f67c3cef367240ccafba2e8c121a083.md) | NASDAQ | MidCap Financial Investment Corporation - Closed End Fund |
 | [NAVI](../unmapped/176041ce63049dd0eb046d4236df0660.md) | NASDAQ | Navient Holdings, Inc. - Common Stock |
 | [NBN](../unmapped/686c676f6156989116439899f4802d5e.md) | NASDAQ | Northeast Bank - Common Stock |
 | [NBTX](../unmapped/efbd03bb57c4a657ac53a8a5940a5423.md) | NASDAQ | Nanobiotix S.A. - ADSs |
 | [NMPAR](../unmapped/6f8c6c9df5a3d0a85fce247952b287ca.md) | NASDAQ | NMP Acquisition Corp. - Right |
 | [NOEMR](../unmapped/2654968ab2d22fb46390236857d8cf8d.md) | NASDAQ | CO2 Energy Transition Corp. - Right |
+| [NORD](../unmapped/9600c101cea178a115b397d52140e67d.md) | NASDAQ | Nordicus Partners Corporation - Common Stock |
 | [NSLR](../unmapped/a75fe80ed092e25394cc4149663a0cb4.md) | NASDAQ | Neostellar Capital Corp. - Closed End Fund |
 | [NVEC](../unmapped/f810d49415feae501e56bc9cd2dd8263.md) | NASDAQ | NVE Corporation - Common Stock |
 | [OCCI](../unmapped/a0614c2a0873da30e46e931cbb148df8.md) | NASDAQ | OFS Credit Company, Inc. - Closed End Fund |
@@ -89,7 +92,6 @@
 | [WTW](../unmapped/10549ff83c9020f9b796ad67f066c5bc.md) | NASDAQ | Willis Towers Watson Public Limited Company - Ordinary Shares |
 | [XCH](../unmapped/0ee1538e2d76d847dcc08eabca7de533.md) | NASDAQ | XCHG Limited - ADS |
 | [XTER](../unmapped/e3aa3fb6d39860a25e24195346d70594.md) | NASDAQ | Karman Line Acquisition Corp. - Class A Ordinary Shares |
-| [YHNAR](../unmapped/302827c24d788b9cd5fcfe60be36636d.md) | NASDAQ | YHN Acquisition I Limited - Right |
 | [ZION](../unmapped/98b2b79c3b30dfea79933e2622112884.md) | NASDAQ | Zions Bancorporation N.A. - Common Stock |
 | [ZIONP](../unmapped/6d12f363eceafd60217d54fa7fa300cb.md) | NASDAQ | Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th ownership interest in a share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock |
 | [ABR$D](../unmapped/4735a99fe5d53d8ce6537c77dd17ed29.md) | NYSE | Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share |
@@ -102,5 +104,3 @@
 | [AGM$D](../unmapped/590f79bcd29967bfaf88b8de774ff8e7.md) | NYSE | Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D |
 | [AGM$E](../unmapped/2536573c55dab3222322fdc8ee677baa.md) | NYSE | Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E |
 | [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
-| [AGM$G](../unmapped/0c51018b0c91bcec638297d582a585cd.md) | NYSE | Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G |
-| [AGM$H](../unmapped/6959ba4a13c9d80e7ab4f6941d9772bb.md) | NYSE | Federal Agricultural Mortgage Corporation 6.500% Non-Cumulative Preferred Stock, Series H |

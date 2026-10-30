@@ -1,70 +1,70 @@
 # Stock Brain — Company Markdown
 
-Verified data release: `coverage-20261029-40909364006-1`. Source created: 2026-10-29T16:18:46.634043+00:00.
+Verified data release: `coverage-20261030-41085569265-1`. Source created: 2026-10-30T16:05:25.650854+00:00.
 
-**5638 distinct mapped issuers**, **5868 mapped stock listings**, **600 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
+**5635 distinct mapped issuers**, **5865 mapped stock listings**, **601 unresolved listings**. All generated profiles remain factual stubs; these counts do not measure completed research or OTC coverage.
 
 ## Company pages — sorted by symbol
 
 | Page | First symbol | Last symbol |
 | --- | --- | --- |
 | [1](index/companies-0001.md) | A | ADUR |
-| [2](index/companies-0002.md) | ADUS | AJG |
-| [3](index/companies-0003.md) | AKA | AMTB |
-| [4](index/companies-0004.md) | AMTD | ARQ |
-| [5](index/companies-0005.md) | ARQQ | AVBP |
-| [6](index/companies-0006.md) | AVD | BCML |
-| [7](index/companies-0007.md) | BCO | BKR |
-| [8](index/companies-0008.md) | BKSY | BRN |
-| [9](index/companies-0009.md) | BRNX | CAH |
-| [10](index/companies-0010.md) | CAI | CEG |
-| [11](index/companies-0011.md) | CELC | CLDI |
-| [12](index/companies-0012.md) | CLDT | COO |
-| [13](index/companies-0013.md) | COOK | CTM |
-| [14](index/companies-0014.md) | CTMX | DCGO |
-| [15](index/companies-0015.md) | DCH | DOYU |
-| [16](index/companies-0016.md) | DPC | EE |
+| [2](index/companies-0002.md) | ADUS | AIZ |
+| [3](index/companies-0003.md) | AJG | AMT |
+| [4](index/companies-0004.md) | AMTB | AROW |
+| [5](index/companies-0005.md) | ARQ | AVBH |
+| [6](index/companies-0006.md) | AVBP | BCHT |
+| [7](index/companies-0007.md) | BCML | BKNG |
+| [8](index/companies-0008.md) | BKR | BRLT |
+| [9](index/companies-0009.md) | BRN | CAG |
+| [10](index/companies-0010.md) | CAH | CEE |
+| [11](index/companies-0011.md) | CEG | CLBT |
+| [12](index/companies-0012.md) | CLDI | CON |
+| [13](index/companies-0013.md) | COO | CTKB |
+| [14](index/companies-0014.md) | CTM | DCBO |
+| [15](index/companies-0015.md) | DCGO | DOX |
+| [16](index/companies-0016.md) | DOYU | EE |
 | [17](index/companies-0017.md) | EEFT | EPR |
 | [18](index/companies-0018.md) | EPRT | EZGO |
 | [19](index/companies-0019.md) | EZPW | FJDI |
 | [20](index/companies-0020.md) | FJET | FTAI |
-| [21](index/companies-0021.md) | FTCI | GFF |
-| [22](index/companies-0022.md) | GFI | GPRK |
-| [23](index/companies-0023.md) | GPRO | HCKT |
-| [24](index/companies-0024.md) | HCM | HRL |
-| [25](index/companies-0025.md) | HRMY | IDE |
-| [26](index/companies-0026.md) | IDN | INTR |
-| [27](index/companies-0027.md) | INTS | JBLU |
-| [28](index/companies-0028.md) | JBS | KIM$L |
-| [29](index/companies-0029.md) | KINS | LAW |
-| [30](index/companies-0030.md) | LAZ | LOAR |
-| [31](index/companies-0031.md) | LOB | MARA |
-| [32](index/companies-0032.md) | MAS | MGTX |
-| [33](index/companies-0033.md) | MGX | MPV |
-| [34](index/companies-0034.md) | MPWR | MYSE |
-| [35](index/companies-0035.md) | MYSZ | NIC |
-| [36](index/companies-0036.md) | NICE | NTHI |
-| [37](index/companies-0037.md) | NTIC | ODD |
-| [38](index/companies-0038.md) | ODFL | ORRF |
-| [39](index/companies-0039.md) | OSBC | PCTY |
-| [40](index/companies-0040.md) | PCVX | PLMR |
-| [41](index/companies-0041.md) | PLNT | PRTH |
-| [42](index/companies-0042.md) | PRTS | RACC |
-| [43](index/companies-0043.md) | RACD | RHP |
-| [44](index/companies-0044.md) | RIBB | RVI |
-| [45](index/companies-0045.md) | RVII | SE |
-| [46](index/companies-0046.md) | SEAT | SKYE |
-| [47](index/companies-0047.md) | SKYH | SPCB |
-| [48](index/companies-0048.md) | SPCE | STUB |
-| [49](index/companies-0049.md) | STVN | TDIC |
-| [50](index/companies-0050.md) | TDOC | TNGX |
-| [51](index/companies-0051.md) | TNK | TVA |
-| [52](index/companies-0052.md) | TVAI | USBC |
-| [53](index/companies-0053.md) | USCB | VLO |
-| [54](index/companies-0054.md) | VLOS | WEN |
-| [55](index/companies-0055.md) | WENC | WYFI |
-| [56](index/companies-0056.md) | WYHG | ZBIO |
-| [57](index/companies-0057.md) | ZBRA | ZYME |
+| [21](index/companies-0021.md) | FTCI | GFI |
+| [22](index/companies-0022.md) | GFR | GPRO |
+| [23](index/companies-0023.md) | GPUS | HCM |
+| [24](index/companies-0024.md) | HCMA | HRMY |
+| [25](index/companies-0025.md) | HROW | IDN |
+| [26](index/companies-0026.md) | IDR | INTS |
+| [27](index/companies-0027.md) | INTT | JBS |
+| [28](index/companies-0028.md) | JBTM | KINS |
+| [29](index/companies-0029.md) | KIO | LAZ |
+| [30](index/companies-0030.md) | LB | LOBO |
+| [31](index/companies-0031.md) | LOCL | MASK |
+| [32](index/companies-0032.md) | MASS | MGY |
+| [33](index/companies-0033.md) | MGYR | MQ |
+| [34](index/companies-0034.md) | MQY | MYX |
+| [35](index/companies-0035.md) | MZTI | NICM |
+| [36](index/companies-0036.md) | NIE | NTIP |
+| [37](index/companies-0037.md) | NTLA | ODTX |
+| [38](index/companies-0038.md) | ODYS | OSCR |
+| [39](index/companies-0039.md) | OSG | PCYO |
+| [40](index/companies-0040.md) | PD | PLOW |
+| [41](index/companies-0041.md) | PLPC | PRU |
+| [42](index/companies-0042.md) | PRVA | RACE |
+| [43](index/companies-0043.md) | RADX | RICK |
+| [44](index/companies-0044.md) | RIGL | RVLV |
+| [45](index/companies-0045.md) | RVMD | SEB |
+| [46](index/companies-0046.md) | SECZ | SKYQ |
+| [47](index/companies-0047.md) | SKYW | SPCX |
+| [48](index/companies-0048.md) | SPE | STX |
+| [49](index/companies-0049.md) | STXS | TDS |
+| [50](index/companies-0050.md) | TDTH | TNMG |
+| [51](index/companies-0051.md) | TNON | TVC |
+| [52](index/companies-0052.md) | TVGN | USDE |
+| [53](index/companies-0053.md) | USEA | VLRS |
+| [54](index/companies-0054.md) | VLT | WENN |
+| [55](index/companies-0055.md) | WERN | WYNN |
+| [56](index/companies-0056.md) | WYY | ZD |
+| [57](index/companies-0057.md) | ZDAI | ZYME |
 
 ## Unresolved listing pages
 
@@ -76,6 +76,7 @@ Verified data release: `coverage-20261029-40909364006-1`. Source created: 2026-1
 | [4](index/unresolved-0004.md) | 100 |
 | [5](index/unresolved-0005.md) | 100 |
 | [6](index/unresolved-0006.md) | 100 |
+| [7](index/unresolved-0007.md) | 1 |
 
 [Coverage gaps and next research tasks](GAPS.md)
 

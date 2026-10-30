@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [KINS](../companies/KINS/README.md) | KINGSTONE COMPANIES, INC. | available, quality gates apply |
 | [KIO](../companies/KIO/README.md) | KKR Income Opportunities Fund | not available |
 | [KITT](../companies/KITT/README.md) | Nauticus Robotics, Inc. | available, quality gates apply |
 | [KKR](../companies/KKR/README.md) | KKR & Co. Inc. | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [LATA](../companies/LATA/README.md) | Galata Acquisition Corp. II | available, quality gates apply |
 | [LAUR](../companies/LAUR/README.md) | LAUREATE EDUCATION, INC. | available, quality gates apply |
 | [LAW](../companies/LAW/README.md) | CS Disco, Inc. | available, quality gates apply |
+| [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |

@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [MPWR](../companies/MPWR/README.md) | MONOLITHIC POWER SYSTEMS, INC. | available, quality gates apply |
-| [MQ](../companies/MQ/README.md) | Marqeta, Inc. | available, quality gates apply |
 | [MQY](../companies/MQY/README.md) | BLACKROCK MUNIYIELD QUALITY FUND, INC. | not available |
 | [MRAM](../companies/MRAM/README.md) | EVERSPIN TECHNOLOGIES INC. | available, quality gates apply |
 | [MRBK](../companies/MRBK/README.md) | Meridian Corp | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [MYPS](../companies/MYPS/README.md) | PLAYSTUDIOS, Inc. | available, quality gates apply |
 | [MYRG](../companies/MYRG/README.md) | MYR GROUP INC. | available, quality gates apply |
 | [MYSE](../companies/MYSE/README.md) | Myseum.AI, Inc. | available, quality gates apply |
+| [MYSZ](../companies/MYSZ/README.md) | My Size, Inc. | available, quality gates apply |
+| [MYX](../companies/MYX/README.md) | Maywood Acquisition Corp. 2 | available, quality gates apply |

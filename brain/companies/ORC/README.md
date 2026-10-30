@@ -8,11 +8,11 @@ tickers:
 - ORC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -81,8 +81,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001518621.json
@@ -479,6 +479,48 @@ sources:
   published_at: '2026-02-02'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000143774926033373/orc20260930_10q.htm
+  title: 10-Q 0001437749-26-033373
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-30T16:15:40.392946+00:00'
+  sha256: 18dfb1af6331b01371f0e5b63342816aa43cd9bb9de9d838ce030a6415c6b903
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000143774926033285/orc20260727_8k.htm
+  title: 8-K 0001437749-26-033285
+  published_at: '2026-10-22'
+  retrieved_at: '2026-10-30T16:15:38.566857+00:00'
+  sha256: be221fa7d4d42d48dff3a513ecb15f7d1d84626c117bbbf1ec96a6d4974e48ac
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000143774926013358/orc20260309_def14a.htm
+  title: DEF 14A 0001437749-26-013358
+  published_at: '2026-04-27'
+  retrieved_at: '2026-10-30T16:15:37.035650+00:00'
+  sha256: c4cf1bb7b4faaa7cc3f0affe39171b22bb5eb9276f7bc13755db9f5e042d922d
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000143774926004889/orc20251231_10k.htm
+  title: 10-K 0001437749-26-004889
+  published_at: '2026-02-20'
+  retrieved_at: '2026-10-30T16:15:34.671670+00:00'
+  sha256: b616df299d3c0e15b95e1f36c7ce80aac6dae36aa6eba07de9ee3e52b4b80ca2
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000151862122000075/orc8k20220713.htm
+  title: 8-K/A 0001518621-22-000075
+  published_at: '2022-07-18'
+  retrieved_at: '2026-10-30T16:15:32.741945+00:00'
+  sha256: 3a45b8f3e9e4927100d105934344001713e8aaec2cf0b5354af02576ad6a91ee
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000151862122000057/orc8ka20220615.htm
+  title: 8-K/A 0001518621-22-000057
+  published_at: '2022-06-15'
+  retrieved_at: '2026-10-30T16:15:31.031622+00:00'
+  sha256: 569ab34b63633f6aaf3701c86887cfbc7c205350346479f3b196d7a49069cc33
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1518621/000127547719000028/orc8ka20190318.htm
+  title: 8-K/A 0001275477-19-000028
+  published_at: '2019-03-18'
+  retrieved_at: '2026-10-30T16:15:28.931281+00:00'
+  sha256: d2c5a57f78880d99a22f731210f21b2b156cba98954029ece3244cddf69761b2
 issuer_classification:
   cik: 0001518621
   classification_status: reported_sic
@@ -528,13 +570,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1518621/000127547719000028/0001275477-19-000028-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 95e92311b43557e74df1fdc7608d6a40d7027cb9b267e9f5a4648737889b1239
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -558,9 +607,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L2132:
+
+> Our business objective is to provide attractive risk-adjusted total returns over the long term through a combination of capital appreciation and the payment of regular monthly distributions. We intend to achieve this objective by investing in the two categories of Agency RMBS described above. We seek to generate income from the net interest margin on our leveraged PT RMBS and structured Agency RMBS portfolio. We intend to fund our PT RMBS and structured Agency RMBS through short-term borrowings structured as repurchase agreements. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L2125:
+
+> The Company follows ASC 280, Segment Reporting, which establishes standards for the way public business enterprises report information about operating segments in annual financial statements and requires that those enterprises report selected information about operating segments in financial statements issued to shareholders. The Company’s Chief Operating Decision Maker ("CODM"), its CEO, assesses performance and allocates resources based on company-wide financial information. The Company derives nearly all of its income from interest on its RMBS portfolio. Consequently, the Company has determined that it operates in a single reportable segment and the strategic purpose of all operating activities is to support that one segment. The CODM evaluates company-wide performance based on multiple performance measures, including net income, which is the Company's primary measure of segment performance. The CODM does not generally evaluate the Company's performance using asset or historical cash flow information. Because the Company has one reportable segment, the required segment financial information is included in the financial statements. Significant expenses within net income that are used to evaluate performance are each separately presented in the statements of comprehensive income (loss). The Company does not distinguish between markets or segments for the purpose of internal … [S68]
 
 ## Products and services
 
@@ -580,6 +637,10 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-20, L422:
+
+> Our net income largely depends on our ability to acquire Agency RMBS at favorable spreads over our borrowing costs. When we invest in Agency RMBS and other investment assets, we compete with a variety of institutional investors, including other REITs, insurance companies, mutual funds, pension funds, investment banking firms, banks and other financial institutions that invest in the same types of assets, the Federal Reserve Bank and other governmental entities or government-sponsored entities. Many of these investors have greater financial resources and access to lower costs of capital than we do. The existence of these competitive entities, as well as the possibility of additional entities forming in the future, may increase the competition for the acquisition of mortgage related securities, resulting in higher prices and lower yields on assets. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -587,6 +648,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-10-23, L7937:
+
+> Our strategy for hedging our funding costs typically involves taking short positions in interest rate futures, interest rate swaps, interest rate swaptions or other instruments. When the market causes these short positions to decline in value we are required to meet margin calls with cash. This can reduce our liquidity position to the extent other securities in our portfolio move in price in such a way that we do not receive enough cash via margin calls to offset the derivative related margin calls. If this were to occur in sufficient magnitude, the loss of liquidity might force us to reduce the size of the levered portfolio, pledge additional structured securities to raise funds or risk operating the portfolio with less liquidity. [S68]
 
 ## Financial performance
 
@@ -1195,6 +1260,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L756:
+
+> The Company may grant equity-based compensation to non-employee members of its Board of Directors and to the executive officers and employees of the Manager. Stock-based awards issued include performance units ("PUs"), deferred stock units ("DSUs") and immediately vested common stock awards. Compensation expense is measured and recognized for all stock-based payment awards made to employees and non-employee directors based on the fair value of the Company’s common stock on the date of grant. Compensation expense is recognized over each award’s respective service period using the graded vesting attribution method. The Company does not estimate forfeiture rates; but rather, adjusts for forfeitures in the periods in which they occur. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1207,6 +1276,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L2129:
+
+> The following discussion of our financial condition and results of operations should be read in conjunction with the financial statements and notes to those statements included in Item 1 of this Form 10-Q. Certain written statements in this Quarterly Report on Form 10-Q that are not historical facts constitute “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Exchange Act. Statements in this report addressing expectations, assumptions, beliefs, projections, future plans and strategies, future events, developments that we expect or anticipate will occur in the future, and future operating results, capital management, and dividend policy are forward-looking statements. Forward-looking statements are based upon management’s beliefs, assumptions, and expectations as of the date of this report regarding future events and operating performance, considering all information currently available to us, and are applicable only as of the date of this report. Forward-looking statements generally can be identified by the use of words such as “believe,” “expect,” “anticipate,” “estimate,” “plan,” “may,” “will,” “intend,” “should,” “could,” or similar expressions. We caution readers not to place undue reliance on our forward-looking statements, which are not historical facts and may be based on projections, … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1216,25 +1289,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1299,9 +1372,13 @@ Latest 50 filing metadata records of 876 retained records. A filing link is evid
 | 2026-02-20 | 10-K | 0001437749-26-004889 | — | [S66] |
 | 2026-02-02 | 4 | 0001437749-26-002701 | — | [S67] |
 
+Source excerpt — 10-Q, filed 2026-10-23, L1719:
+
+> From the inception of the stock repurchase program through September 30, 2026, the Company repurchased a total of 12,310,506 shares at an aggregate cost of approximately $123.3 million, including commissions and fees, for a weighted average price of $10.02 per share. During the three months ended September 30, 2026, the Company repurchased a total of 4,946,123 shares at an aggregate cost of approximately $31.2 million, including commissions and fees, for a weighted average price of $6.30 per share. During the nine months ended September 30, 2026, the Company repurchased a total of 6,052,680 shares at an aggregate cost of approximately $38.5 million, including commissions and fees, for a weighted average price of $6.36 per share. During the year ended December 31, 2025, the Company repurchased a total of 1,113,224 shares at an aggregate cost of approximately $7.3 million, including commissions and fees, for a weighted average price of $6.52 per share. Subsequent to September 30, 2026, the Company repurchased a total of 1,669,704 shares at an aggregate cost of approximately $8.4 million, including commissions and fees, for a weighted average price of $5.05 per share. The remaining authorization under the stock repurchase program as of October 22, 2026 was 19,996,753 shares. [S68]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001518621.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1435,4 +1512,18 @@ Latest 50 filing metadata records of 876 retained records. A filing link is evid
 
 [S67] [4 0001437749-26-002701](https://www.sec.gov/Archives/edgar/data/1518621/000143774926002701/0001437749-26-002701-index.html) — published 2026-02-02; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S68] [10-Q 0001437749-26-033373](https://www.sec.gov/Archives/edgar/data/1518621/000143774926033373/orc20260930_10q.htm) — published 2026-10-23; retrieved 2026-10-30T16:15:40.392946+00:00.
+
+[S69] [8-K 0001437749-26-033285](https://www.sec.gov/Archives/edgar/data/1518621/000143774926033285/orc20260727_8k.htm) — published 2026-10-22; retrieved 2026-10-30T16:15:38.566857+00:00.
+
+[S70] [DEF 14A 0001437749-26-013358](https://www.sec.gov/Archives/edgar/data/1518621/000143774926013358/orc20260309_def14a.htm) — published 2026-04-27; retrieved 2026-10-30T16:15:37.035650+00:00.
+
+[S71] [10-K 0001437749-26-004889](https://www.sec.gov/Archives/edgar/data/1518621/000143774926004889/orc20251231_10k.htm) — published 2026-02-20; retrieved 2026-10-30T16:15:34.671670+00:00.
+
+[S72] [8-K/A 0001518621-22-000075](https://www.sec.gov/Archives/edgar/data/1518621/000151862122000075/orc8k20220713.htm) — published 2022-07-18; retrieved 2026-10-30T16:15:32.741945+00:00.
+
+[S73] [8-K/A 0001518621-22-000057](https://www.sec.gov/Archives/edgar/data/1518621/000151862122000057/orc8ka20220615.htm) — published 2022-06-15; retrieved 2026-10-30T16:15:31.031622+00:00.
+
+[S74] [8-K/A 0001275477-19-000028](https://www.sec.gov/Archives/edgar/data/1518621/000127547719000028/orc8ka20190318.htm) — published 2019-03-18; retrieved 2026-10-30T16:15:28.931281+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.

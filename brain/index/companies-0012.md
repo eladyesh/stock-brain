@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [CLDI](../companies/CLDI/README.md) | Calidi Biotherapeutics, Inc. | available, quality gates apply |
 | [CLDT](../companies/CLDT/README.md) | Chatham Lodging Trust | available, quality gates apply |
 | [CLDX](../companies/CLDX/README.md) | Celldex Therapeutics, Inc. | available, quality gates apply |
 | [CLF](../companies/CLF/README.md) | CLEVELAND-CLIFFS INC. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [COLM](../companies/COLM/README.md) | COLUMBIA SPORTSWEAR CO | available, quality gates apply |
 | [COMP](../companies/COMP/README.md) | Compass, Inc. | available, quality gates apply |
 | [CON](../companies/CON/README.md) | Concentra Group Holdings Parent, Inc. | available, quality gates apply |
-| [COO](../companies/COO/README.md) | COOPER COMPANIES, INC. | available, quality gates apply |

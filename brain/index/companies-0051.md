@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [TNK](../companies/TNK/README.md) | TEEKAY TANKERS LTD. | not available |
-| [TNMG](../companies/TNMG/README.md) | TNL Mediagene | not available |
 | [TNON](../companies/TNON/README.md) | Tenon Medical, Inc. | available, quality gates apply |
 | [TNXP](../companies/TNXP/README.md) | Tonix Pharmaceuticals Holding Corp. | available, quality gates apply |
 | [TNYA](../companies/TNYA/README.md) | Tenaya Therapeutics, Inc. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [TUYA](../companies/TUYA/README.md) | Tuya Inc. | not available |
 | [TV](../companies/TV/README.md) | GRUPO TELEVISA, S.A.B. | not available |
 | [TVA](../companies/TVA/README.md) | Texas Ventures Acquisition III Corp | available, quality gates apply |
+| [TVAI](../companies/TVAI/README.md) | Thayer Ventures Acquisition Corp II | available, quality gates apply |
+| [TVC, TVE](../companies/TVC/README.md) | Tennessee Valley Authority | available, quality gates apply |

@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |
 | [LB](../companies/LB/README.md) | LandBridge Corp | available, quality gates apply |
 | [LBGJ](../companies/LBGJ/README.md) | Li Bang International Corp Inc. | not available |
 | [LBRT](../companies/LBRT/README.md) | Liberty Energy Inc. | available, quality gates apply |
@@ -93,7 +92,6 @@
 | [LMNR](../companies/LMNR/README.md) | Limoneira CO | available, quality gates apply |
 | [LMRI](../companies/LMRI/README.md) | Lumexa Imaging Holdings, Inc. | available, quality gates apply |
 | [LMT](../companies/LMT/README.md) | LOCKHEED MARTIN CORP | available, quality gates apply |
-| [LNAI](../companies/LNAI/README.md) | Lunai Bioworks Inc. | available, quality gates apply |
 | [LNC, LNC$D](../companies/LNC/README.md) | LINCOLN NATIONAL CORP | available, quality gates apply |
 | [LNG](../companies/LNG/README.md) | Cheniere Energy, Inc. | available, quality gates apply |
 | [LNKS](../companies/LNKS/README.md) | Linkers Industries Ltd | not available |
@@ -104,3 +102,5 @@
 | [LNZA](../companies/LNZA/README.md) | LanzaTech Global, Inc. | available, quality gates apply |
 | [LOAN](../companies/LOAN/README.md) | MANHATTAN BRIDGE CAPITAL, INC | available, quality gates apply |
 | [LOAR](../companies/LOAR/README.md) | Loar Holdings Inc. | available, quality gates apply |
+| [LOB, LOB$A](../companies/LOB/README.md) | Live Oak Bancshares, Inc. | available, quality gates apply |
+| [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |

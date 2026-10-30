@@ -4,7 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [IDN](../companies/IDN/README.md) | Intellicheck, Inc. | available, quality gates apply |
 | [IDR](../companies/IDR/README.md) | Idaho Strategic Resources, Inc. | available, quality gates apply |
 | [IDT](../companies/IDT/README.md) | IDT CORP | available, quality gates apply |
 | [IDXX](../companies/IDXX/README.md) | IDEXX LABORATORIES INC /DE | available, quality gates apply |
@@ -104,3 +103,4 @@
 | [INTG](../companies/INTG/README.md) | INTERGROUP CORP | available, quality gates apply |
 | [INTJ](../companies/INTJ/README.md) | Intelligent Group Ltd | not available |
 | [INTR](../companies/INTR/README.md) | Inter & Co, Inc. | not available |
+| [INTS](../companies/INTS/README.md) | INTENSITY THERAPEUTICS, INC. | available, quality gates apply |

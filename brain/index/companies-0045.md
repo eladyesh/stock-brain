@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [RVII](../companies/RVII/README.md) | Robinhood Ventures Fund II | available, quality gates apply |
-| [RVLV](../companies/RVLV/README.md) | Revolve Group, Inc. | available, quality gates apply |
 | [RVMD](../companies/RVMD/README.md) | Revolution Medicines, Inc. | available, quality gates apply |
 | [RVP](../companies/RVP/README.md) | RETRACTABLE TECHNOLOGIES INC | available, quality gates apply |
 | [RVSB](../companies/RVSB/README.md) | RIVERVIEW BANCORP INC | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [SDOT](../companies/SDOT/README.md) | Sadot Group Inc. | available, quality gates apply |
 | [SDRL](../companies/SDRL/README.md) | SEADRILL Ltd | available, quality gates apply |
 | [SE](../companies/SE/README.md) | Sea Ltd | not available |
+| [SEAT](../companies/SEAT/README.md) | Vivid Seats Inc. | available, quality gates apply |
+| [SEB](../companies/SEB/README.md) | SEABOARD CORP /DE/ | available, quality gates apply |

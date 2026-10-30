@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [VLOS](../companies/VLOS/README.md) | Velos Acquisition I Corp. | available, quality gates apply |
-| [VLRS](../companies/VLRS/README.md) | Controladora Vuela Compania de Aviacion, S.A.B. de C.V. | not available |
 | [VLT](../companies/VLT/README.md) | Invesco High Income Trust II | not available |
 | [VLTO](../companies/VLTO/README.md) | Veralto Corp | not available |
 | [VLY](../companies/VLY/README.md) | VALLEY NATIONAL BANCORP | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [WEC](../companies/WEC/README.md) | WEC ENERGY GROUP, INC. | available, quality gates apply |
 | [WELL](../companies/WELL/README.md) | WELLTOWER INC. | not available |
 | [WEN](../companies/WEN/README.md) | Wendy's Co | available, quality gates apply |
+| [WENC](../companies/WENC/README.md) | West Enclave Merger Corp. | available, quality gates apply |
+| [WENN](../companies/WENN/README.md) | WEN Acquisition Corp | available, quality gates apply |

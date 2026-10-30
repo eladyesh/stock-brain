@@ -8,11 +8,11 @@ tickers:
 - PBT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -67,8 +67,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000319654.json
@@ -375,6 +375,36 @@ sources:
   published_at: '2025-09-19'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/319654/000119312526430502/2026_pbt_8-k_special_mtg.htm
+  title: 8-K 0001193125-26-430502
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-30T16:16:38.868154+00:00'
+  sha256: ed77d5c157c967d93665c7b30b460c25f10f8884c85b1f7abca95d15af55af60
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/319654/000119312526348826/pbt_10q_6-30-2026.htm
+  title: 10-Q 0001193125-26-348826
+  published_at: '2026-08-13'
+  retrieved_at: '2026-10-30T16:16:37.208820+00:00'
+  sha256: 657409d558e887c53fc48bfe3294997a4458a5f4ceb24e3828fc7894a36bc137
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/319654/000119312526303155/amended_pbt_10-k_2025-12.htm
+  title: 10-K/A 0001193125-26-303155
+  published_at: '2026-07-14'
+  retrieved_at: '2026-10-30T16:16:34.157402+00:00'
+  sha256: 76a27b589ee46f499bd3f2ef786c79445bcc07936d7ce42858947da44a87a55c
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/319654/000119312526128561/pbt_10-k_2025-12-31.htm
+  title: 10-K 0001193125-26-128561
+  published_at: '2026-03-27'
+  retrieved_at: '2026-10-30T16:16:24.343874+00:00'
+  sha256: f4bbbd0d60ce7d69805e7e86b0bac8678960c6a28616545c32f047867a2315cf
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/319654/000119312522031731/d296022ddef14a.htm
+  title: DEF 14A 0001193125-22-031731
+  published_at: '2022-02-09'
+  retrieved_at: '2026-10-30T16:16:22.245414+00:00'
+  sha256: b38f6698fd192f375359c75de79f66f96c2bfea88e5274d0393330c3fb2a9f62
 issuer_classification:
   cik: 0000319654
   classification_status: reported_sic
@@ -417,13 +447,19 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/319654/000119312526430502/0001193125-26-430502-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cfdce2e7c877568d583ef186544e8aaef2d5a7afc48726593d4d6075bf263b3f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - competitive-landscape
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -465,13 +501,25 @@ SEC-reported SIC **6792**: Oil Royalty Traders. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K/A, filed 2026-07-14, L369:
+
+> From a global perspective, the International Energy Agency (“IEA”) observed in its World Energy Outlook 2025 that global electricity demand continued to grow in 2024 and all energy sources, including renewable power and each of the fossil fuels, grew to meet that demand, which stemmed from emerging market and developing economies. Renewable power generation constituted 70% of the energy sources that met that demand and renewables grow faster than any other energy source in each of the IEA World Outlook current policies, stated policies, net zero emissions by 2050, and accelerating clean cooking and electricity services scenarios. The IEA notes the uncertainty in the energy sector related to global policy and trade and the value of energy supply diversification and supply chain resilience, particularly in light of increased geopolitical competition and conflict. In the last year, the U.S. has diminished its backing of wind, solar and electric vehicles, and increased its support of domestic fossil fuels and nuclear energy. Further, while the IEA noted an increase in the number of countries adopting renewable energy policies and energy performance standards, including vehicle fuel economy standards and energy performance standards for appliances and industrial motors, in the 2010s, those adoptions have somewhat flattened during the 2020s. The IEA also indicates momentum for … [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K/A, filed 2026-07-14, L369:
+
+> From a global perspective, the International Energy Agency (“IEA”) observed in its World Energy Outlook 2025 that global electricity demand continued to grow in 2024 and all energy sources, including renewable power and each of the fossil fuels, grew to meet that demand, which stemmed from emerging market and developing economies. Renewable power generation constituted 70% of the energy sources that met that demand and renewables grow faster than any other energy source in each of the IEA World Outlook current policies, stated policies, net zero emissions by 2050, and accelerating clean cooking and electricity services scenarios. The IEA notes the uncertainty in the energy sector related to global policy and trade and the value of energy supply diversification and supply chain resilience, particularly in light of increased geopolitical competition and conflict. In the last year, the U.S. has diminished its backing of wind, solar and electric vehicles, and increased its support of domestic fossil fuels and nuclear energy. Further, while the IEA noted an increase in the number of countries adopting renewable energy policies and energy performance standards, including vehicle fuel economy standards and energy performance standards for appliances and industrial motors, in the 2010s, those adoptions have somewhat flattened during the 2020s. The IEA also indicates momentum for … [S55]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K/A, filed 2026-07-14, L285:
+
+> The income to the Trust attributable to the Royalties is not subject in material respects to seasonal factors nor in any manner related to or dependent upon patents, licenses, franchises or concessions. The Trust conducts no research activities. [S55]
 
 ## Growth drivers
 
@@ -489,6 +537,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K/A, filed 2026-07-14, L100:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -500,6 +552,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 8-K, filed 2026-10-23, L99:
+
+> Any statements in this Current Report on Form 8-K about future events or conditions, and other statements containing the words “estimates,” “believes,” “anticipates,” “plans,” “expects,” “will,” “may,” “intends,” and similar expressions, other than historical facts, constitute forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Factors or risks that could cause the Trust’s actual results to differ materially from the results the Trustee anticipates include, but are not limited to the factors described in Part I, Item 1A, “Risk Factors” of the Trust’s Annual Report on Form 10-K (as amended) for the year ended December 31, 2025, and Part II, Item 1A, “Risk Factors” of subsequently filed Quarterly Reports on Form 10-Q, as well as factors related to actions by the Participants or other unitholders, New PBT, Blackbeard, or other third parties, including courts, that are not within the control of the Trust or the Trustee. [S53]
 
 ## Scenarios and open questions
 
@@ -513,25 +569,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -596,9 +652,13 @@ Latest 50 filing metadata records of 530 retained records. A filing link is evid
 | 2025-09-22 | 4 | 0001104659-25-092151 | — | [S51] |
 | 2025-09-19 | 8-K | 0001193125-25-208392 | — | [S52] |
 
+Source excerpt — 8-K, filed 2026-10-23, L100:
+
+> Actual results may differ materially from those indicated by such forward-looking statements. In addition, the forward-looking statements included in this Current Report on Form 8-K represent the Trustee’s views as of the date hereof. The Trustee anticipates that subsequent events and developments may cause its views to change. However, while the Trustee may elect to update these forward-looking statements at some point in the future, it specifically disclaims any obligation to do so. These [S53]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000319654.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -702,4 +762,14 @@ Latest 50 filing metadata records of 530 retained records. A filing link is evid
 
 [S52] [8-K 0001193125-25-208392](https://www.sec.gov/Archives/edgar/data/319654/000119312525208392/0001193125-25-208392-index.html) — published 2025-09-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [8-K 0001193125-26-430502](https://www.sec.gov/Archives/edgar/data/319654/000119312526430502/2026_pbt_8-k_special_mtg.htm) — published 2026-10-23; retrieved 2026-10-30T16:16:38.868154+00:00.
+
+[S54] [10-Q 0001193125-26-348826](https://www.sec.gov/Archives/edgar/data/319654/000119312526348826/pbt_10q_6-30-2026.htm) — published 2026-08-13; retrieved 2026-10-30T16:16:37.208820+00:00.
+
+[S55] [10-K/A 0001193125-26-303155](https://www.sec.gov/Archives/edgar/data/319654/000119312526303155/amended_pbt_10-k_2025-12.htm) — published 2026-07-14; retrieved 2026-10-30T16:16:34.157402+00:00.
+
+[S56] [10-K 0001193125-26-128561](https://www.sec.gov/Archives/edgar/data/319654/000119312526128561/pbt_10-k_2025-12-31.htm) — published 2026-03-27; retrieved 2026-10-30T16:16:24.343874+00:00.
+
+[S57] [DEF 14A 0001193125-22-031731](https://www.sec.gov/Archives/edgar/data/319654/000119312522031731/d296022ddef14a.htm) — published 2022-02-09; retrieved 2026-10-30T16:16:22.245414+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.

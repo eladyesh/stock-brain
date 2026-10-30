@@ -4,8 +4,6 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
-| [PRTS](../companies/PRTS/README.md) | CarParts.com, Inc. | available, quality gates apply |
-| [PRU](../companies/PRU/README.md) | PRUDENTIAL FINANCIAL INC | available, quality gates apply |
 | [PRVA](../companies/PRVA/README.md) | Privia Health Group, Inc. | available, quality gates apply |
 | [PRZO](../companies/PRZO/README.md) | ParaZero Technologies Ltd. | not available |
 | [PS](../companies/PS/README.md) | PERSHING SQUARE INC. | available, quality gates apply |
@@ -104,3 +102,5 @@
 | [RA](../companies/RA/README.md) | Brookfield Real Assets Income Fund Inc. | not available |
 | [RAC](../companies/RAC/README.md) | Rithm Acquisition Corp. | available, quality gates apply |
 | [RACC](../companies/RACC/README.md) | Research Alliance Corp III | available, quality gates apply |
+| [RACD](../companies/RACD/README.md) | Research Alliance Corp IV | available, quality gates apply |
+| [RACE](../companies/RACE/README.md) | Ferrari N.V. | not available |

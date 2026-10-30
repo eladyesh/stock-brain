@@ -8,11 +8,11 @@ tickers:
 - NJR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -69,8 +69,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000356309.json
@@ -461,6 +461,30 @@ sources:
   published_at: '2025-12-29'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/356309/000114036126040587/ef20082449_8-k.htm
+  title: 8-K 0001140361-26-040587
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-30T16:13:28.352241+00:00'
+  sha256: baccb8ae9e1b1a184e55d37fe24e2d1ce99db5e97084a397e6df2609f72fbaad
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/356309/000035630926000037/njr-20260630.htm
+  title: 10-Q 0000356309-26-000037
+  published_at: '2026-08-04'
+  retrieved_at: '2026-10-30T16:13:26.330417+00:00'
+  sha256: b10e94860a86f29b7e0b0d476b8d8a2ba6d2b046a3b3f4ad13a31b7db23ad471
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/356309/000035630925000096/njr-20251209.htm
+  title: DEF 14A 0000356309-25-000096
+  published_at: '2025-12-10'
+  retrieved_at: '2026-10-30T16:13:24.161076+00:00'
+  sha256: 58ed2692dcc8f17a9015c7eb1347199ba4a3b39eb876841b315cc5a8f11e1f9f
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/356309/000035630925000093/njr-20250930.htm
+  title: 10-K 0000356309-25-000093
+  published_at: '2025-11-20'
+  retrieved_at: '2026-10-30T16:13:22.072746+00:00'
+  sha256: 2e6cf256f92afde8b595c728003a09bb9d6c57c2294c25f110999addd6c425bf
 issuer_classification:
   cik: 0000356309
   classification_status: reported_sic
@@ -498,13 +522,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/356309/000114036126040587/0001140361-26-040587-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f8857733131d8948c63b358755f555f5615c1c6d6a952b8decefb500847797db
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -528,17 +562,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L2683:
+
+> While we attempt to identify, manage and mitigate risks and uncertainties associated with our business to the extent practical, under the circumstances, some level of risk and uncertainty will always be present. Part I, Item 1A. Risk Factors of our 2025 Annual Report on Form 10-K includes a detailed discussion of our risk factors. Those risks and uncertainties have the potential to materially affect our financial condition and results of operations. There have been no material changes in our risk factors from those previously disclosed in Part I, Item 1A, of our 2025 Annual Report on Form 10-K. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L798:
+
+> Below is a listing of performance obligations that arise from contracts with customers, along with details on the satisfaction of each performance obligation, the significant payment terms and the nature of the goods and services being transferred, by reportable segment and other business operations: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2025-11-20, L761:
+
+> Severe weather impacts, including, but not limited to, hurricanes, earthquakes, thunderstorms, high winds, microbursts, wildfires, tornadoes, blizzards and snow or ice storms, can disrupt energy generation, transmission and distribution. Extreme weather conditions, especially those of prolonged duration, create high energy demand on our own and/or other systems and increase the risk that we may be unable to reliably serve customers. Risk of losing gas supply during extreme weather carries significant consequences, as without our services our customers may be subjected to dire circumstances. Additionally, extreme weather conditions may cause the breakdown of or damage to equipment essential to the operation of our assets, and could also raise market prices as we buy short-term energy to serve our own system. To the extent the frequency of extreme weather events increases, this could increase our cost of providing service. In addition, we may not recover all costs related to mitigating these physical and financial risks. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1930:
+
+> NJNG’s cost of natural gas is passed through to our customers, without markup, by applying NJNG’s authorized BGSS rate to actual therms delivered. There is no Utility Gross Margin associated with BGSS costs; therefore, changes in such costs do not impact NJNG’s earnings. NJNG monitors its actual natural gas costs in comparison to its BGSS rates to manage its cash flows associated with its allowed recovery of natural gas costs, which is facilitated through BPU-approved deferred accounting and the BGSS pricing mechanism. Accordingly, NJNG occasionally adjusts its periodic BGSS rates or can issue credits or refunds, as appropriate, for its residential and small commercial customers when the commodity cost varies from the existing BGSS rate. BGSS rates for its large commercial customers are adjusted monthly based on NYMEX prices. [S68]
 
 ## Industry and value chain
 
@@ -546,17 +596,33 @@ SEC-reported SIC **4924**: Natural Gas Distribution. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L299:
+
+> •the impact of events causing volatility in the equity and credit markets on our access to capital or on our suppliers or customers, including monetary, fiscal and regulatory policies of the U.S. government, including with respect to tariffs and trade restrictions, natural disasters, pandemic illness and other extreme events and risks, political and economic disruption and uncertainty related to international conflicts, and the international community’s responses to such events; [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1931:
+
+> NJNG’s residential and commercial markets are currently open to competition, and its rates are segregated between BGSS (i.e., natural gas commodity) and delivery (i.e., transportation) components. NJNG earns Utility Gross Margin through the delivery of natural gas to its customers and, therefore, is not negatively affected by customers who use its transportation service and purchase natural gas from another supplier. Under an existing order from the BPU, BGSS can be provided by suppliers other than the state’s natural gas utilities; however, customers who purchase natural gas from another supplier continue to use NJNG for transportation service. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1945:
+
+> NJNG is affected by the price of natural gas, which can have a significant impact on our cash flows and short-term financing costs, the price of natural gas charged to our customers through the BGSS clause, our ability to collect accounts receivable, which impacts our bad debt expense, and our ability to maintain a competitive advantage over other energy sources. Natural gas commodity prices are shown in the graph below, which illustrates the daily natural gas prices per MMBtu(1) in the Northeast market region, also known as TETCO M-3. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2025-12-10, L66:
+
+> We believe our ability to execute our strategy and deliver sustainable growth is driven by our people, culture and commitment to meeting customers’ energy needs and providing long-term value to shareowners. [S69]
 
 ## Financial performance
 
@@ -1177,6 +1243,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L2434:
+
+> In 1996, the Board of Directors authorized us to implement a share repurchase program, which was expanded seven times since the inception of the program, authorizing a total of 19.5M shares of common stock for repurchase. Since inception, we repurchased a total of approximately 17.8M of those shares and may repurchase an additional 1.7M shares under the approved program. There were no shares repurchased during the three and nine months ended June 30, 2026 and 2025. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1189,6 +1259,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L283:
+
+> We caution readers that the expectations, assumptions and beliefs that form the basis for forward-looking statements regarding customer growth, customer usage, qualifications for ITCs, RECs, future rate case proceedings and other filings with the BPU, financial condition, results of operations, cash flows, capital requirements, future capital expenditures, market risk, effective tax rate and other matters for fiscal 2026 and thereafter are subject to many factors that are beyond our ability to control or estimate precisely, such as estimates of future market conditions, the behavior of other market participants and changes in the debt and equity capital markets. The factors that could cause actual results to differ materially from our expectations, assumptions and beliefs include, but are not limited to, those discussed in Item 1A. Risk Factors of our Annual Report on Form 10-K for the fiscal year ended September 30, 2025, as well as the following, which are neither presented in order of importance nor weighted: [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1198,22 +1272,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -1283,7 +1357,7 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000356309.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1415,4 +1489,12 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [4 0000356309-25-000098](https://www.sec.gov/Archives/edgar/data/356309/000035630925000098/0000356309-25-000098-index.html) — published 2025-12-29; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001140361-26-040587](https://www.sec.gov/Archives/edgar/data/356309/000114036126040587/ef20082449_8-k.htm) — published 2026-10-23; retrieved 2026-10-30T16:13:28.352241+00:00.
+
+[S68] [10-Q 0000356309-26-000037](https://www.sec.gov/Archives/edgar/data/356309/000035630926000037/njr-20260630.htm) — published 2026-08-04; retrieved 2026-10-30T16:13:26.330417+00:00.
+
+[S69] [DEF 14A 0000356309-25-000096](https://www.sec.gov/Archives/edgar/data/356309/000035630925000096/njr-20251209.htm) — published 2025-12-10; retrieved 2026-10-30T16:13:24.161076+00:00.
+
+[S70] [10-K 0000356309-25-000093](https://www.sec.gov/Archives/edgar/data/356309/000035630925000093/njr-20250930.htm) — published 2025-11-20; retrieved 2026-10-30T16:13:22.072746+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
