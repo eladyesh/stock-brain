@@ -12,7 +12,7 @@ as_of: '2026-10-30'
 updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
 coverage_release: coverage-20261030-41085569265-1
-source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
+source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -240,15 +240,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001224133.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/MCHX/README.md
-full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/MCHX/README.md
+full_history_commit: 1b4771bc41dec553e210323f72d9bfc908288c04
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MCHX — MARCHEX INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/MCHX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/MCHX/README.md)
 
 ## Business overview
 
@@ -490,6 +490,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S34] [10-K 0001193125-26-125205](https://www.sec.gov/Archives/edgar/data/1224133/000119312526125205/0001193125-26-125205-index.html) — published 2026-03-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/MCHX/README.md).
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/MCHX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

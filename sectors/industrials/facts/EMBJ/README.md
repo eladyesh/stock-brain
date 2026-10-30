@@ -12,7 +12,7 @@ as_of: '2026-10-30'
 updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
 coverage_release: coverage-20261030-41085569265-1
-source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
+source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -203,15 +203,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001355444.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/EMBJ/README.md
-full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/EMBJ/README.md
+full_history_commit: 1b4771bc41dec553e210323f72d9bfc908288c04
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # EMBJ — EMBRAER S.A.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/EMBJ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/EMBJ/README.md)
 
 ## Business overview
 
@@ -389,6 +389,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S55] [20-F 0001628280-26-021824](https://www.sec.gov/Archives/edgar/data/1355444/000162828026021824/erj-20251231.htm) — published 2026-03-30; retrieved 2026-10-26T16:26:26.316416+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/EMBJ/README.md).
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/EMBJ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
