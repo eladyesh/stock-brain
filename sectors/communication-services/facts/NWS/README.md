@@ -9,11 +9,11 @@ tickers:
 - NWSA
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -69,8 +69,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
-  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
+  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
+  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001564708.json
@@ -125,6 +125,18 @@ sources:
   published_at: '2026-10-19'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm
+  title: DEF 14A 0001104659-26-109969
+  published_at: '2026-09-23'
+  retrieved_at: '2026-10-30T16:14:24.199965+00:00'
+  sha256: d98c6fd96a6ee8def4c1ef823f448784de5b527a3c93c7fac4da44024c86842e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm
+  title: 10-K 0001564708-26-000175
+  published_at: '2026-08-07'
+  retrieved_at: '2026-10-30T16:14:22.127821+00:00'
+  sha256: f41ad8f07e948d949b657e611c188802247ab1508e2b7e1ab82a36e9b1ac6306
 issuer_classification:
   cik: 0001564708
   classification_status: reported_sic
@@ -165,13 +177,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1564708/000156470826000235/0001564708-26-000235-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b460f92e870831aa12f3e54221e684915346597910eb217fc881e91a3f077f71
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -186,15 +208,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001564708.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/NWS/README.md
-full_history_commit: c26f59bc72c00102d2490e95b07449f8cd848491
+full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/NWS/README.md
+full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NWS, NWSA — NEWS CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/NWS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/NWS/README.md)
 
 ## Business overview
 
@@ -209,13 +231,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L846:
+
+> We provide below highlights of certain information contained elsewhere in this proxy statement. This summary does not contain all of the information you should consider before you decide how to vote. You should read the entire proxy statement carefully before voting. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-K, filed 2026-08-07, L225:
+
+> The Company’s diversified revenue base includes recurring subscriptions, circulation sales, advertising sales, sales of real estate listing products, licensing fees and other consumer product sales. Headquartered in New York, the Company operates primarily in the United States (“U.S.”), Australia and the United Kingdom (“U.K.”), with its content and other products and services distributed and consumed worldwide. The Company’s operations are organized into five reportable segments: (i) Dow Jones; (ii) Digital Real Estate Services; (iii) Book Publishing; (iv) News Media; and (v) Other, which includes the Company’s general corporate overhead expenses, strategy costs and costs related to the U.K. Newspaper Matters (as defined in Note 16—Commitments and Contingencies in the accompanying Consolidated Financial Statements). [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-08-07, L364:
+
+> News UK publishes The Sun, The Sun on Sunday, The Times and The Sunday Times, which are leading newspapers in the U.K. that together accounted for approximately one-third of all national newspaper sales as of June 30, 2026. The Sun is the most read news brand in the U.K., and The Times and The Sunday Times are the most read national newspapers in the U.K. quality market. News UK also distributes content through its digital platforms, including its websites, thesun.co.uk, the-sun.com and thetimes.com, as well as mobile apps. Together, across print and digital, these brands reach approximately 60% of adult news readers in the U.K., or approximately 29 million people, based on the PAMCo data referenced below. News UK’s print products are printed at facilities in England and Scotland operated by its joint venture with DMG Media. In addition to its news businesses, News UK has assembled a portfolio of complementary ancillary product offerings, including betting and gaming products. The following table provides information regarding News UK’s news portfolio: [S69]
 
 ## Customers and end markets
 
@@ -227,19 +261,35 @@ SEC-reported SIC **2711**: Newspapers: Publishing or  Publishing & Printing. [S0
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-08-07, L471:
+
+> •respond to new and evolving technologies, business models, distribution channels and platforms, including AI tools, products and services, content distribution platforms, media channels, online retailers and digital marketplaces, some of which have significant scale and leverage; [S69]
+
 Navigation sector: **communication-services**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L6029:
+
+> The Company believes that providing appropriate severance benefits helps attract and retain highly qualified executives by mitigating the risks associated with leaving a previous employer and accepting a new position with the Company and by providing income continuity following an unexpected termination. These arrangements also allow the Company to protect its interests through confidentiality, non-competition and other restrictive covenants in the event of an executive’s termination. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L4654:
+
+> Continued to lead industry-wide advocacy for the value of intellectual property, engaging with regulatory bodies to help ensure content creators receive fair compensation from dominant digital distribution platforms [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-09-23, L2715:
+
+> To assist the Board in its oversight of critical risks, the Company also undertakes a regular enterprise-wide, integrated risk assessment process culminating in semi-annual reports to the Audit Committee and the Board. The Corporate Audit Department continually monitors the risk profile of the Company and works with management at headquarters and the business units to conduct a risk assessment survey based on inputs from hundreds of employees throughout our businesses to identify, review and update an assessment of short-, intermediate- and long-term risks that the Company faces, in light of strategic priorities and industry and emerging trends. This process utilizes a heat map that consolidates key risks globally and identifies their probability and impact, and also identifies risk owners and steps taken by management to mitigate such risks based on their assessed impact and immediacy. These exercises inform the preparation of a risk-based audit plan to cover and address the effectiveness of control [S68]
 
 ## Financial performance
 
@@ -346,6 +396,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L101:
+
+> elect the six Directors identified in the attached proxy statement to the Board of Directors (the “Board”) of the Company; [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -358,6 +412,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L840:
+
+> fact are forward-looking statements. The words “expect,” “will,” “estimate,” “anticipate,” “predict,” “believe,” “should” and similar expressions and variations thereof are intended to identify forward-looking statements. These statements include statements regarding the intent, belief or current expectations of the Company, its directors or its officers with respect to, among other things, trends affecting the Company’s financial condition or results of operations and the Company’s strategy and strategic initiatives. Readers are cautioned that any forward-looking statements are not guarantees of future performance and involve risks and uncertainties. More information regarding these risks and uncertainties and other important factors that could cause actual results to differ materially from those in the forward-looking statements is set forth under the heading “Risk Factors” in Part I, Item 1A. in News Corporation’s Annual Report on Form 10-K for the fiscal year ended June 30, 2026, as filed with the Securities and Exchange Commission (the “SEC”) on August 7, 2026, and as may be updated in subsequent Quarterly Reports on Form 10-Q. The “forward-looking statements” included in this document are made only as of the date of this document and the Company does not have and does not undertake any obligation to publicly update any “forward-looking statements” to reflect subsequent … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -367,25 +425,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -407,7 +465,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001564708.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -427,6 +485,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001564708-26-000231](https://www.sec.gov/Archives/edgar/data/1564708/000156470826000231/0001564708-26-000231-index.html) — published 2026-10-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/NWS/README.md).
+[S68] [DEF 14A 0001104659-26-109969](https://www.sec.gov/Archives/edgar/data/1564708/000110465926109969/tm2624691-1_def14a.htm) — published 2026-09-23; retrieved 2026-10-30T16:14:24.199965+00:00.
+
+[S69] [10-K 0001564708-26-000175](https://www.sec.gov/Archives/edgar/data/1564708/000156470826000175/nws-20260630.htm) — published 2026-08-07; retrieved 2026-10-30T16:14:22.127821+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/NWS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

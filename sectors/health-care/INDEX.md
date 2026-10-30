@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **963**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **961**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261030-41085569265-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -363,7 +363,6 @@ Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are n
 | [FULC](facts/FULC/README.md) | Fulcrum Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
 | [GALT](facts/GALT/README.md) | GALECTIN THERAPEUTICS INC | available; quality gates apply | project_sic_rule |
 | [GANX](facts/GANX/README.md) | Gain Therapeutics, Inc. | available; quality gates apply | project_sic_rule |
-| [GCTK](facts/GCTK/README.md) | Glucotrack, Inc. | available; quality gates apply | project_sic_rule |
 | [GDTC](facts/GDTC/README.md) | CytoMed Therapeutics Ltd | missing | project_sic_rule |
 | [GEHC](facts/GEHC/README.md) | GE HealthCare Technologies Inc. | missing | project_sic_rule |
 | [GELS](facts/GELS/README.md) | Gelteq Ltd | missing | project_sic_rule |
@@ -527,7 +526,6 @@ Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are n
 | [LLY](facts/LLY/README.md) | ELI LILLY & Co | available; quality gates apply | project_sic_rule |
 | [LMAT](facts/LMAT/README.md) | LEMAITRE VASCULAR INC | available; quality gates apply | project_sic_rule |
 | [LMRI](facts/LMRI/README.md) | Lumexa Imaging Holdings, Inc. | available; quality gates apply | project_sic_rule |
-| [LNAI](facts/LNAI/README.md) | Lunai Bioworks Inc. | available; quality gates apply | project_sic_rule |
 | [LNSR](facts/LNSR/README.md) | LENSAR, Inc. | available; quality gates apply | project_sic_rule |
 | [LNTH](facts/LNTH/README.md) | Lantheus Holdings, Inc. | available; quality gates apply | project_sic_rule |
 | [LONA](facts/LONA/README.md) | LeonaBio, Inc. | available; quality gates apply | project_sic_rule |

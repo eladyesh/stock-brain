@@ -8,11 +8,11 @@ tickers:
 - PNC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,8 +75,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000713676.json
@@ -137,6 +137,24 @@ sources:
   published_at: '2026-10-15'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/713676/000162828026053170/pnc-20260630.htm
+  title: 10-Q 0001628280-26-053170
+  published_at: '2026-08-05'
+  retrieved_at: '2026-10-30T16:17:45.808334+00:00'
+  sha256: 09d5cf6651adb9a93870bb3e6efc78edfb3da31aa8ef0aa21f84f183d604245e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/713676/000119312526102189/d62941ddef14a.htm
+  title: DEF 14A 0001193125-26-102189
+  published_at: '2026-03-11'
+  retrieved_at: '2026-10-30T16:17:43.489650+00:00'
+  sha256: 02d7d9f389ef12a8d41d99d26b4f841bfeb42968ef4d583ced191e459ba0e3b4
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm
+  title: 10-K 0000713676-26-000020
+  published_at: '2026-02-20'
+  retrieved_at: '2026-10-30T16:17:40.619200+00:00'
+  sha256: 7f0c1f2578beda178a20bf827121069aa10ba174c7fed65a6c577095308aedbd
 issuer_classification:
   cik: '0000713676'
   classification_status: reported_sic
@@ -182,13 +200,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/713676/000071367621000092/0000713676-21-000092-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 95e201a3b06f6ca397e509e2f4d10bd9a32d5484ef7964117d9bded02c6cf5c4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-30T16:11:34.164763+00:00'
+  last_success_at: '2026-10-30T16:11:34.164763+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -203,15 +232,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000713676.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PNC/README.md
-full_history_commit: c26f59bc72c00102d2490e95b07449f8cd848491
+full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PNC/README.md
+full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PNC — PNC FINANCIAL SERVICES GROUP, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PNC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PNC/README.md)
 
 ## Business overview
 
@@ -225,17 +254,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L660:
+
+> We strive to serve our customers and expand and deepen relationships by offering a broad range of deposit, credit and fee-based products and services. We are focused on delivering those products and services to our customers with the goal of addressing their financial objectives and needs. Our business model is built on customer loyalty and engagement, understanding our customers’ financial goals and offering our diverse products and services to help them achieve financial well-being. Our approach is concentrated on organically growing and deepening client relationships across our businesses that meet our risk/return measures. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L4503:
+
+> Table 88 presents the noninterest income recognized within the scope of Topic 606 for each of our three reportable business segments’ principal products and services, along with the relationship to the noninterest income revenue streams reported on our Consolidated Income Statement. For a description of the fee-based revenue and how it is recognized for each segment’s principal products and services, see Note 23 Fee-based Revenue from Contracts with Customers in our 2025 Form 10-K. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L658:
+
+> Headquartered in Pittsburgh, Pennsylvania, we are one of the largest diversified financial institutions in the U.S. We have businesses engaged in retail banking, corporate and institutional banking and asset management, providing many of our products and services nationally. Our retail branch network is located coast-to-coast. We also have strategic international offices in four countries outside the U.S. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L659:
+
+> At PNC we manage our company for the long term. We are focused on the fundamentals of growing customers, loans, deposits and revenue and improving profitability, while investing for the future and managing risk, expenses and capital. We continue to invest in our products, markets and brand, and embrace our commitments to our customers, shareholders, employees and the communities where we do business. [S68]
 
 ## Industry and value chain
 
@@ -243,19 +288,35 @@ SEC-reported SIC **6021**: National Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-20, L1105:
+
+> to support identity theft and includes personal health information, as well as information regarding business plans and financial performance that has not been made public. As a result, efforts by bad actors to engage in various types of cyber attacks and breaches, including by way of computer viruses, hacking, ransomware and other malware, denial of service attacks, credential staffing, phishing, social engineering, account takeovers, insider threats and supply chain attacks pose serious risks to our business and reputation. [S70]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1851:
+
+> Deposit Betas: Deposit pricing changes are primarily driven by changes in the Federal Funds rate. PNC’s cumulative deposit beta was 47% through June 2026. We define the cumulative deposit beta as the change in deposit rate paid on total interest-bearing deposits divided by the change in the upper level of the average stated Federal Funds rate range since August 2024, the start of the current easing rate cycle. For rate sensitivity purposes, PNC assumes the cumulative deposit beta will decrease slightly from the current level. For interest rate risk modeling, PNC uses dynamic beta models to adjust assumed repricing sensitivity depending on market rate levels as well as other factors. The dynamic beta assumptions reflect historical experience as well as future expectations, and are periodically updated to reflect the current view of future expectations. Actual deposit rates paid may differ from modeled projections due to variables such as competition for deposits and customer behavior. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L2216:
+
+> –Costs associated with obtaining rights in intellectual property claimed by others and of adequacy of our intellectual property protection in general. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-11, L3076:
+
+> The Board believes that the current CEO should also serve as a director. Under the leadership structure discussed elsewhere in this proxy statement, a CEO-director acts as a liaison between the Board and management, and assists the Board in its oversight of the Company. Mr. Demchak’s experience and strong leadership provide the Board with insight into the business and strategic priorities of PNC. [S69]
 
 ## Financial performance
 
@@ -359,6 +420,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L822:
+
+> •On July 6, 2026, the PNC Board of Directors raised the quarterly cash dividend on common stock to $2.00 per share, an increase of 30 cents, or 18%. The dividend is payable on August 5, 2026 to shareholders of record at the close of business July 20, 2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -371,6 +436,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L655:
+
+> This Financial Review, including the Consolidated Financial Highlights, should be read together with our unaudited Consolidated Financial Statements included elsewhere in this Quarterly Report on Form 10-Q (the “Report” or “Form 10-Q”) and with Items 7, 8 and 9A of our 2025 Annual Report on Form 10-K (our “2025 Form 10-K”). For information regarding certain business, regulatory and legal risks, see the following: the Risk Management section of this Financial Review and Item 7 in our 2025 Form 10-K; Item 1A Risk Factors included in our 2025 Form 10-K; and the Commitments and Legal Proceedings Notes included in this Report and our first quarter 2026 Form 10-Q and Item 8 of our 2025 Form 10-K. Also, see the Cautionary Statement Regarding Forward-Looking Information section in this Financial Review and the Critical Accounting Estimates and Judgments section in this Financial Review and in our 2025 Form 10-K for certain other factors that could cause actual results or future events to differ, perhaps materially, from historical performance and from those anticipated in the forward-looking statements included in this Report. See Note 15 Segment Reporting for a reconciliation of total business segment earnings to total PNC consolidated net income as reported on a GAAP basis. In this Report, “PNC,” “we” or “us” refers to The PNC Financial Services Group, Inc. and its subsidiaries on a … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -380,25 +449,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -420,7 +489,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000713676.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -442,6 +511,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001628280-26-065997](https://www.sec.gov/Archives/edgar/data/713676/000162828026065997/0001628280-26-065997-index.html) — published 2026-10-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PNC/README.md).
+[S68] [10-Q 0001628280-26-053170](https://www.sec.gov/Archives/edgar/data/713676/000162828026053170/pnc-20260630.htm) — published 2026-08-05; retrieved 2026-10-30T16:17:45.808334+00:00.
+
+[S69] [DEF 14A 0001193125-26-102189](https://www.sec.gov/Archives/edgar/data/713676/000119312526102189/d62941ddef14a.htm) — published 2026-03-11; retrieved 2026-10-30T16:17:43.489650+00:00.
+
+[S70] [10-K 0000713676-26-000020](https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm) — published 2026-02-20; retrieved 2026-10-30T16:17:40.619200+00:00.
+
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PNC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

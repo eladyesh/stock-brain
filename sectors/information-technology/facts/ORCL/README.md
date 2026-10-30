@@ -9,14 +9,14 @@ tickers:
 - ORCL$D
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/aa19db75827ed3c73031b70e9a0a2e63baffc491/sectors/information-technology/companies/ORCL/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/ef2ed016c2c344c23ee7fb991b25bf93660da77e/sectors/information-technology/companies/ORCL/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -63,7 +63,7 @@ input_sources:
   history:
     url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json
     sha256: 65523545f040abaea1dfcf321da2a5aec85e7f34387244b0ffcb26e4c8707f7d
-    retrieved_at: '2026-10-29T03:02:29.826413+00:00'
+    retrieved_at: '2026-10-30T06:31:01.646917+00:00'
   submissions:
     url: https://data.sec.gov/submissions/CIK0001341439.json
     sha256: c41260def74f2052a1bfc9088a063688e772e5f1e4a7007ecb46c30312c84719
@@ -78,8 +78,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.951866+00:00'
-  sha256: 2ac9bdaf5d770442eb34b0b33eb6a5240dbd11a3f2077f7b88051dbb82d4313b
+  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
+  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001341439.json
@@ -90,19 +90,19 @@ sources:
   title: SEC CompanyFacts source
   url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json
   published_at: null
-  retrieved_at: '2026-10-29T03:02:29.826413+00:00'
+  retrieved_at: '2026-10-30T06:31:01.646917+00:00'
   sha256: 65523545f040abaea1dfcf321da2a5aec85e7f34387244b0ffcb26e4c8707f7d
 - id: S04
   title: 10-K 0001193125-26-277521
   url: https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html
   published_at: '2026-06-22'
-  retrieved_at: '2026-10-29T03:02:29.826413+00:00'
+  retrieved_at: '2026-10-30T06:31:01.646917+00:00'
   sha256: null
 - id: S05
   title: 10-Q 0001193125-26-389274
   url: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.html
   published_at: '2026-09-11'
-  retrieved_at: '2026-10-29T03:02:29.826413+00:00'
+  retrieved_at: '2026-10-30T06:31:01.646917+00:00'
   sha256: null
 - id: S18
   title: 4 0001341439-26-000117
@@ -206,16 +206,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/aa19db75827ed3c73031b70e9a0a2e63baffc491/sectors/information-technology/companies/ORCL/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/ORCL/README.md
-full_history_commit: c26f59bc72c00102d2490e95b07449f8cd848491
+  source_url: https://github.com/eladyesh/stock-brain/blob/ef2ed016c2c344c23ee7fb991b25bf93660da77e/sectors/information-technology/companies/ORCL/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/ORCL/README.md
+full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ORCL, ORCL$D — ORACLE CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/ORCL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/ORCL/README.md)
 
 ## Business overview
 
@@ -291,7 +291,7 @@ Formula: `(current / prior - 1) * 100`. Inputs: operating_cash_flow=31977000000 
 Derived observation: Operating cash flow / net income was 1.87x for the year ended 2026-05-31. Working capital and non-cash adjustments require separate filing analysis. [S53]
 Formula: `operating_cash_flow / net_income`. Inputs: operating_cash_flow=31977000000 USD (NetCashProvidedByUsedInOperatingActivities), net_income=17087000000 USD (NetIncomeLoss).
 
-Evidence cutoff: 2026-10-29. Source retrieved: 2026-10-29T03:02:29.826413+00:00. [S03]
+Evidence cutoff: 2026-10-30. Source retrieved: 2026-10-30T06:31:01.646917+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -345,7 +345,7 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 ## Balance sheet and capital allocation
 
-Evidence cutoff: 2026-10-29. Source retrieved: 2026-10-29T03:02:29.826413+00:00. [S03]
+Evidence cutoff: 2026-10-30. Source retrieved: 2026-10-30T06:31:01.646917+00:00. [S03]
 
 US GAAP facts and explicitly identified derivations. Values use the units shown, without scaling. Unavailable, conflicted or unverified cells remain blocked. No forecasts, prices, valuation multiples or research approval are inferred. Instant balance-sheet values are as of the period end; flow values cover the displayed interval.
 
@@ -404,7 +404,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:43.155243+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/aa19db75827ed3c73031b70e9a0a2e63baffc491/sectors/information-technology/companies/ORCL/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/ef2ed016c2c344c23ee7fb991b25bf93660da77e/sectors/information-technology/companies/ORCL/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -448,15 +448,15 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.951866+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001341439.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json) — published not supplied; retrieved 2026-10-29T03:02:29.826413+00:00.
+[S03] [SEC CompanyFacts source](https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json) — published not supplied; retrieved 2026-10-30T06:31:01.646917+00:00.
 
-[S04] [10-K 0001193125-26-277521](https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html) — published 2026-06-22; retrieved 2026-10-29T03:02:29.826413+00:00.
+[S04] [10-K 0001193125-26-277521](https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html) — published 2026-06-22; retrieved 2026-10-30T06:31:01.646917+00:00.
 
-[S05] [10-Q 0001193125-26-389274](https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.html) — published 2026-09-11; retrieved 2026-10-29T03:02:29.826413+00:00.
+[S05] [10-Q 0001193125-26-389274](https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/0001193125-26-389274-index.html) — published 2026-09-11; retrieved 2026-10-30T06:31:01.646917+00:00.
 
 [S18] [4 0001341439-26-000117](https://www.sec.gov/Archives/edgar/data/1341439/000134143926000117/0001341439-26-000117-index.html) — published 2026-10-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -470,6 +470,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S53] [10-K 0001193125-26-277521](https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.html) — published 2026-06-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/ORCL/README.md).
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/ORCL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

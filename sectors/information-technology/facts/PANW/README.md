@@ -8,11 +8,11 @@ tickers:
 - PANW
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-29'
-updated_at: '2026-10-29T16:18:46.634043+00:00'
+as_of: '2026-10-30'
+updated_at: '2026-10-30T16:05:25.650854+00:00'
 reviewed_at: null
-coverage_release: coverage-20261029-40909364006-1
-source_commit: aa19db75827ed3c73031b70e9a0a2e63baffc491
+coverage_release: coverage-20261030-41085569265-1
+source_commit: ef2ed016c2c344c23ee7fb991b25bf93660da77e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -79,8 +79,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-29T16:14:13.115716+00:00'
-  sha256: 0695ffec283534755d4efe90771a9cacee840d7affb7ba717f62899195a301c6
+  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
+  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001327567.json
@@ -211,15 +211,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001327567.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PANW/README.md
-full_history_commit: c26f59bc72c00102d2490e95b07449f8cd848491
+full_history_url: https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PANW/README.md
+full_history_commit: 79888139fa1fe8ad3404e6bc04e318eee1474f73
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PANW — Palo Alto Networks Inc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PANW/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PANW/README.md)
 
 ## Business overview
 
@@ -437,7 +437,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-29T16:14:13.115716+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001327567.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -459,6 +459,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S37] [10-K 0001327567-26-000023](https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/0001327567-26-000023-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261029-40909364006-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/c26f59bc72c00102d2490e95b07449f8cd848491/brain/companies/PANW/README.md).
+Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/79888139fa1fe8ad3404e6bc04e318eee1474f73/brain/companies/PANW/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

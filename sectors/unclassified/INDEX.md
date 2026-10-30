@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **1045**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **1044**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261030-41085569265-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -34,6 +34,7 @@ Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are n
 | [AEAQ](facts/AEAQ/README.md) | Activate Energy Acquisition Corp. | available; quality gates apply | unresolved |
 | [AEF](facts/AEF/README.md) | abrdn Emerging Markets ex-China Fund, Inc. | missing | unresolved |
 | [AESP](facts/AESP/README.md) | Aeon Acquisition I Corp. | available; quality gates apply | unresolved |
+| [AETR](facts/AETR/README.md) | AETHERION TECHNOLOGIES INC. | missing | unresolved |
 | [AEXA](facts/AEXA/README.md) | American Exceptionalism Acquisition Corp. A | available; quality gates apply | unresolved |
 | [AFB](facts/AFB/README.md) | ALLIANCEBERNSTEIN NATIONAL MUNICIPAL INCOME FUND | missing | unresolved |
 | [AFCG](facts/AFCG/README.md) | Advanced Flower Capital Inc. | available; quality gates apply | unresolved |
@@ -273,7 +274,6 @@ Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are n
 | [DV](facts/DV/README.md) | DoubleVerify Holdings, Inc. | available; quality gates apply | unresolved |
 | [DX](facts/DX/README.md) | DYNEX CAPITAL INC | available; quality gates apply | unresolved |
 | [DXYZ](facts/DXYZ/README.md) | Destiny Tech100 Inc. | missing | unresolved |
-| [DYNC](facts/DYNC/README.md) | Dynamix Corp | available; quality gates apply | unresolved |
 | [DYOR](facts/DYOR/README.md) | Insight Digital Partners II | available; quality gates apply | unresolved |
 | [EAD](facts/EAD/README.md) | ALLSPRING INCOME OPPORTUNITIES FUND | missing | unresolved |
 | [EARN](facts/EARN/README.md) | Ellington Credit Co | missing | unresolved |
@@ -1050,7 +1050,6 @@ Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are n
 | [XSLL](facts/XSLL/README.md) | Xsolla SPAC 1 | available; quality gates apply | unresolved |
 | [YALA](facts/YALA/README.md) | Yalla Group Ltd | missing | unresolved |
 | [YCY](facts/YCY/README.md) | AA Mission Acquisition Corp. II | available; quality gates apply | unresolved |
-| [YHNA](facts/YHNA/README.md) | YHN Acquisition I Ltd | available; quality gates apply | unresolved |
 | [YICC](facts/YICC/README.md) | Yorkville International Capital Corp. | missing | unresolved |
 | [YYAI](facts/YYAI/README.md) | AIRWA INC. | available; quality gates apply | unresolved |
 | [ZIP](facts/ZIP/README.md) | ZIPRECRUITER, INC. | available; quality gates apply | unresolved |

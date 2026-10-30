@@ -4,7 +4,7 @@
 
 [Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)
 
-Factual Markdown files in this branch: **5638**; financial history available: **4047**. Source release: `coverage-20261029-40909364006-1`, created 2026-10-29T16:18:46.634043+00:00.
+Factual Markdown files in this branch: **5635**; financial history available: **4043**. Source release: `coverage-20261030-41085569265-1`, created 2026-10-30T16:05:25.650854+00:00.
 
 Factual files are not completed research. Sector assignments from SIC are provisional project navigation rules; ambiguous industries and fund signals stay unclassified.
 
@@ -15,10 +15,10 @@ Factual files are not completed research. Sector assignments from SIC are provis
 | [Consumer Staples](consumer-staples/INDEX.md) | 176 | 0 | 0 |
 | [Energy](energy/INDEX.md) | 196 | 0 | 0 |
 | [Financials](financials/INDEX.md) | 706 | 0 | 0 |
-| [Health Care](health-care/INDEX.md) | 963 | 0 | 0 |
+| [Health Care](health-care/INDEX.md) | 961 | 0 | 0 |
 | [Industrials](industrials/INDEX.md) | 762 | 3 | 3 |
 | [Information Technology](information-technology/INDEX.md) | 637 | 7 | 7 |
 | [Materials](materials/INDEX.md) | 342 | 0 | 0 |
 | [Real Estate](real-estate/INDEX.md) | 56 | 0 | 0 |
 | [Utilities](utilities/INDEX.md) | 104 | 0 | 0 |
-| [Unclassified — needs evidence review](unclassified/INDEX.md) | 1045 | 0 | 0 |
+| [Unclassified — needs evidence review](unclassified/INDEX.md) | 1044 | 0 | 0 |

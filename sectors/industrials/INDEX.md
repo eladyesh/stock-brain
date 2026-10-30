@@ -6,7 +6,7 @@
 
 Factual files: **762**. Curated profiles: **3**. Reviewed research: **3**.
 
-Data release: `coverage-20261029-40909364006-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261030-41085569265-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
