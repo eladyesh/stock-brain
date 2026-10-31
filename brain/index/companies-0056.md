@@ -4,6 +4,8 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [WYHG](../companies/WYHG/README.md) | Wing Yip Food Holdings Group Ltd | not available |
+| [WYNN](../companies/WYNN/README.md) | WYNN RESORTS LTD | available, quality gates apply |
 | [WYY](../companies/WYY/README.md) | WIDEPOINT CORP | available, quality gates apply |
 | [XAIR](../companies/XAIR/README.md) | Beyond Air, Inc. | available, quality gates apply |
 | [XBIO](../companies/XBIO/README.md) | Xenetic Biosciences, Inc. | available, quality gates apply |
@@ -102,5 +104,3 @@
 | [ZBH](../companies/ZBH/README.md) | ZIMMER BIOMET HOLDINGS, INC. | available, quality gates apply |
 | [ZBIO](../companies/ZBIO/README.md) | Zenas BioPharma, Inc. | available, quality gates apply |
 | [ZBRA](../companies/ZBRA/README.md) | ZEBRA TECHNOLOGIES CORP | available, quality gates apply |
-| [ZCMD](../companies/ZCMD/README.md) | Zhongchao Inc. | not available |
-| [ZD](../companies/ZD/README.md) | ZIFF DAVIS, INC. | available, quality gates apply |

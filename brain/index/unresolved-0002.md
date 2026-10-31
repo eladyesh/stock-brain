@@ -40,7 +40,6 @@
 | [OXLCN](../unmapped/65c94d71ebc7c90bb8359370177834c1.md) | NASDAQ | Oxford Lane Capital Corp. - 7.125% Series 2029 Term Preferred Stock |
 | [OXSQ](../unmapped/f013595d91464d4ee5b4724dc72e1852.md) | NASDAQ | Oxford Square Capital Corp. - Closed End Fund |
 | [OZKAP](../unmapped/9039f490880f559609757b5c8667e8cc.md) | NASDAQ | Bank OZK - 4.625% Series A Non-Cumulative Perpetual Preferred Stock |
-| [PARA](../unmapped/3e33ca102b646219a00302c4137adb88.md) | NASDAQ | Parabolic Technologies, Inc. - Class A Common Stock |
 | [PECER](../unmapped/64748fff44764785917948804900000d.md) | NASDAQ | Peace Acquisition Corp - Right |
 | [PGACR](../unmapped/46d68be13b6f49052fda0b8701eab777.md) | NASDAQ | Pantages Capital Acquisition Corporation - Right |
 | [PHAR](../unmapped/4745cb8c47fa154f23a9a149693a7a96.md) | NASDAQ | Pharming Group N.V. - ADS, each representing 10 ordinary shares |
@@ -104,3 +103,4 @@
 | [AGM$D](../unmapped/590f79bcd29967bfaf88b8de774ff8e7.md) | NYSE | Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock, Series D |
 | [AGM$E](../unmapped/2536573c55dab3222322fdc8ee677baa.md) | NYSE | Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock, Series E |
 | [AGM$F](../unmapped/811d4fd1aa937012e48bbdae99b1c998.md) | NYSE | Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock, Series F |
+| [AGM$G](../unmapped/0c51018b0c91bcec638297d582a585cd.md) | NYSE | Federal Agricultural Mortgage Corporation 4.875% Non-Cumulative Preferred Stock, Series G |

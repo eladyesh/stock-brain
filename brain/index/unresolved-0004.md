@@ -4,7 +4,6 @@
 
 | Symbol | Exchange | Directory name |
 | --- | --- | --- |
-| [EDU](../unmapped/da9d35fab8b9c3d5e4f61f7052b39e92.md) | NYSE | New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands) |
 | [EEA](../unmapped/9bf56b3f2eca467ee5ffa26b9705425f.md) | NYSE | The European Equity Fund, Inc. Common Stock |
 | [EFC$B](../unmapped/2d9d1a41829c7a92f0bbeff3f0cacc64.md) | NYSE | Ellington Financial Inc. 6.250% Series B Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
 | [EFC$C](../unmapped/1499ce87604125a3dbc221c007fff197.md) | NYSE | Ellington Financial Inc. 8.625% Series C Fixed-Rate Reset Cumulative Redeemable Preferred Stock |
@@ -88,7 +87,6 @@
 | [ITUB](../unmapped/7842915ff62e5f35882673eff036ff1f.md) | NYSE | Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares) |
 | [IVR$C](../unmapped/ff7069bcf6bc5eb3b005896e70529582.md) | NYSE | INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock, Liquation Preference $25.00 per Share |
 | [JBK](../unmapped/3da09c893941bda2f8809d3d0eee4ac1.md) | NYSE | Lehman ABS 3.50 3.50% Adjustable Corp Backed Tr Certs GS Cap I |
-| [JKS](../unmapped/40247a0a3bd981524913a9948404cb1b.md) | NYSE | Jinko Holdings Limited American Depositary Shares (each representing 4 Ordinary Shares) |
 | [KEY](../unmapped/d154215576510caa70967c0fcf313c2d.md) | NYSE | KeyCorp Common Stock |
 | [KEY$I](../unmapped/3b05d2a81b94eedcf66de022b1a64145.md) | NYSE | KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock, Series E |
 | [KEY$J](../unmapped/2779d734b7bc268cf7c6f6a945902c84.md) | NYSE | KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock, Series F |
@@ -104,3 +102,5 @@
 | [LEN](../unmapped/29cc1071c6ca55de9b9f1fc035fe3a10.md) | NYSE | Lennar Corporation Class A Common Stock |
 | [LEN.B](../unmapped/915125fc04c0434227b3b3d687167021.md) | NYSE | Lennar Corporation Class B |
 | [LFT$A](../unmapped/34fb23af0e68c1e1f00ce420f85c404e.md) | NYSE | Lument Finance Trust, Inc. 7.875% Series A Cumulative Redeemable Preferred Stock |
+| [LND](../unmapped/fb86ce0fa0dc2c4910de794ae26da8df.md) | NYSE | Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil) |
+| [LOMA](../unmapped/684c5d19b7caad52261d1db13275e36c.md) | NYSE | Loma Negra Compania Industrial Argentina Sociedad Anonima ADS |

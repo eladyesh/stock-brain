@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [ODTX](../companies/ODTX/README.md) | Odyssey Therapeutics, Inc. | available, quality gates apply |
 | [ODYS](../companies/ODYS/README.md) | Odysight.ai Inc. | available, quality gates apply |
 | [OEC](../companies/OEC/README.md) | Orion S.A. | available, quality gates apply |
 | [OESX](../companies/OESX/README.md) | ORION ENERGY SYSTEMS, INC. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [ORN](../companies/ORN/README.md) | Orion Group Holdings Inc | not available |
 | [ORRF](../companies/ORRF/README.md) | ORRSTOWN FINANCIAL SERVICES INC | available, quality gates apply |
 | [OSBC](../companies/OSBC/README.md) | OLD SECOND BANCORP INC | available, quality gates apply |
-| [OSCR](../companies/OSCR/README.md) | Oscar Health, Inc. | available, quality gates apply |

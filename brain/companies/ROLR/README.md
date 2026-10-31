@@ -8,11 +8,11 @@ tickers:
 - ROLR
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,8 +75,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001947210.json
@@ -431,6 +431,36 @@ sources:
   published_at: '2026-01-07'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/rolr-20261021.htm
+  title: 8-K 0001753926-26-001993
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:38:11.672682+00:00'
+  sha256: 2e94066f88201dce52534d4c85b6a4e7a3e5add70b9944fa4777e3d70d1e5569
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001960/rolr-20260630.htm
+  title: 10-Q/A 0001753926-26-001960
+  published_at: '2026-10-16'
+  retrieved_at: '2026-10-31T15:38:09.981641+00:00'
+  sha256: 43aa2ded0907415e7f87987cd827049a89c1698cdb1edfcebb9a059424048288
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001419/rolr-20260630.htm
+  title: 10-Q 0001753926-26-001419
+  published_at: '2026-08-11'
+  retrieved_at: '2026-10-31T15:38:08.188068+00:00'
+  sha256: 77c30f89be24a1eaf6b33f8986cdeb4cb817fb50547df59c6bfc14560ce3b14f
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626000880/rolr-20251231.htm
+  title: DEF 14A 0001753926-26-000880
+  published_at: '2026-05-14'
+  retrieved_at: '2026-10-31T15:38:06.635672+00:00'
+  sha256: 8b285c7c1c4112302e9685094fa4df648817c85b16c4a5a6ff6f9b0fe90d4a0c
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626000462/rolr-20251231.htm
+  title: 10-K 0001753926-26-000462
+  published_at: '2026-03-10'
+  retrieved_at: '2026-10-31T15:38:04.750816+00:00'
+  sha256: ffe8a3821d9f30651377643cc174175b4e929779cce89d5b3f2c909f3df4fff5
 issuer_classification:
   cik: 0001947210
   classification_status: reported_sic
@@ -473,13 +503,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/0001753926-26-001993-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 155a47cf90c6a0e467cddf365cf0d9913c8fc7177819341d73e9cb0c51afb62c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -503,17 +544,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L486:
+
+> Forward-looking statements are not guarantees of future performance, and our actual results of operations, financial condition and liquidity, and the development of the industry in which we operate, may differ materially from the forward-looking statements contained in this report as a result of the following factors: [S62]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q/A, filed 2026-10-16, L5499:
+
+> For the six months ended June 30, 2026 and 2025, management has determined that the Company functions as a single operating segment, and thus reports as a single reportable segment. This determination is based on rules prescribed by GAAP applied to the manner in which management operates the Company. In particular, management assessed the discrete financial information routinely reviewed by the Company’s chief operating decision maker (“CODM”), its Chief Executive Officer, to monitor the Company’s operating performance and support decisions regarding allocation of resources to its operations. Specifically, performance is continuously monitored at the consolidated level as the Company is engaged in essentially the same business, which focuses on providing an online gaming casino to customers. The CODM evaluates the financial performance of the Company primarily by evaluating revenue (as disclosed on the unaudited condensed consolidated statements of operations), adjusted EBITDA (a non-GAAP measure), and cash provided by operating activities (as disclosed on the unaudited condensed consolidated statements of cash flows) to assess the Company's results and in the determination of allocating resources. For the three months ended June 30, 2026 and 2025 adjusted EBITDA was ($1,823) thousand and ($198) thousand, respectively. For the six months ended June 30, 2026 and 2025 adjusted … [S62]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L496:
+
+>  legislation, regulation, or other governmental action that affects our products, taxes, international trade regulation, or other aspects of our business; [S62]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-10, L360:
+
+> We offer our customers a wide array of popular and exciting casino games from over 80 leading third-party game developers. Our mission is to offer consistently superior customer experience by (i) providing fast onboarding, easy log-in and re-log-in, (ii) assuring efficient and secure payment processing, (iii) providing prompt payouts on player winnings, (iv) providing an array of responsible gaming tools and AI models to ensure a safe gaming experience, (v) offering generous bonuses, bonus play and free spins on popular games, (vi) utilizing an interactive environment for player engagement leading to longer stays online and more play and (vii) maintaining 24/7/365 customer service to assure customer satisfaction. [S65]
 
 ## Industry and value chain
 
@@ -521,17 +578,33 @@ SEC-reported SIC **7900**: Services-Amusement & Recreation Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L6575:
+
+> On April 14, 2026, the Company entered into the Collaboration Agreement with Crypto.com Derivatives North America ("CDNA"), a CFTC-registered designated contract market, derivatives clearing organization, and affiliate of Crypto.com, to launch an event-based prediction markets offering initially in the United States. Under the terms of the Collaboration Agreement, the Company intends to operate as a NFA -registered Guaranteed Introducing Broker and establish a relationship with Crypto.com's CFTC-registered Futures Commission Merchant, enabling the Company to offer CDNA's event contracts to customers across its existing distribution channels. The partnership is designed to allow customers to trade event contracts spanning finance, sports, entertainment and other approved categories through a regulated, user-friendly platform. Management believes this partnership represents a significant strategic growth opportunity that leverages the Company's established premium brand, customer-facing platform, and online gaming expertise to compete in a rapidly emerging regulated category. The Collaboration Agreement establishes Crypto.com and its affiliates as the Company's provider of prediction contracts across its U.S. distribution channels. Operating under its ROLR brand, the Company will enter the predictive market opening a new vertical for revenue generation. Under the terms of the … [S62]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q/A, filed 2026-10-16, L492:
+
+>  significant competition and competitive pressures from other companies worldwide in the industries in which we operate; [S62]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L499:
+
+>  litigation and our ability to obtain and maintain the intellectual property needed to adequately protect our products, and our ability to avoid infringing or otherwise violating the intellectual property rights of third parties; [S62]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q/A, filed 2026-10-16, L5772:
+
+> Management further determined that, based on their economic similarities, the Company’s operating subsidiaries, representing components, should be aggregated into one reporting unit for purposes of assessing potential impairment of goodwill in accordance with ASC 350, Intangibles - Goodwill and Other. These legal entities represent acquisitions that occurred over time pursuant to the Company’s strategic growth strategy. [S62]
 
 ## Financial performance
 
@@ -908,6 +981,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L78:
+
+> The Company evaluated the error in accordance with ASC 250, Accounting Changes and Error Corrections, and SEC Staff Accounting Bulletin Topic 1.M, Materiality, and concluded that it was material to the unaudited condensed consolidated financial statements as of and for the three months ended March 31, 2026 and as of and for the six months ended June 30, 2026, principally because of its effect on net loss and net loss per share. On October 15, 2026, the Audit Committee of the Company’s Board of Directors, after discussion with management concluded that such previously issued financial statements should no longer be relied upon. The Audit Committee has discussed the matter with the Company’s independent registered public accounting firm. Accordingly, investors should no longer rely upon those financial statements or, to the extent they describe those financial statements, the related earnings releases and other communications. The Company reported this conclusion in a Current Report on Form 8-K filed with the SEC on October 16, 2026, and is filing Amendment No. 1 to its Quarterly Report on Form 10-Q for the quarterly period ended March 31, 2026 concurrently with this Amendment. [S62]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -920,6 +997,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L502:
+
+> We have based the forward-looking statements contained in this Quarterly Report primarily on our current expectations, estimates, forecasts, and projections about future events and trends that we believe may affect our business, results of operations, financial condition, and prospects. Although we believe that we have a reasonable basis for each forward-looking statement contained in this Quarterly Report, we cannot guarantee that the future results, levels of activity, performance, or events and circumstances reflected in the forward-looking statements will be achieved or occur at all. The outcome of the events described in these forward-looking statements is subject to risks, uncertainties, and other factors described in “Risk Factors” and elsewhere in this Quarterly Report. Moreover, we operate in a very competitive and rapidly changing environment. New risks and uncertainties emerge from time to time, and it is not possible for us to predict all risks and uncertainties that could have an impact on the forward-looking statements contained in this Quarterly Report. The results, events, and circumstances reflected in the forward-looking statements may not be achieved or occur, and actual results, events, or circumstances could differ materially from those described in the forward-looking statements. [S62]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -929,25 +1010,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1012,9 +1093,13 @@ Latest 50 filing metadata records of 178 retained records. A filing link is evid
 | 2026-01-09 | 8-K | 0001753926-26-000084 | — | [S59] |
 | 2026-01-07 | 8-K | 0001753926-26-000064 | — | [S60] |
 
+Source excerpt — 10-Q/A, filed 2026-10-16, L6567:
+
+> The Company has evaluated subsequent events occurring after June 30, 2026 through August 11, 2026, the date these unaudited condensed consolidated financial statements were originally issued. Based on this evaluation, the Company did not identify any subsequent events that would have required adjustment to, or disclosure in, these unaudited condensed consolidated financial statements. [S62]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001947210.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1134,4 +1219,14 @@ Latest 50 filing metadata records of 178 retained records. A filing link is evid
 
 [S60] [8-K 0001753926-26-000064](https://www.sec.gov/Archives/edgar/data/1947210/000175392626000064/0001753926-26-000064-index.html) — published 2026-01-07; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S61] [8-K 0001753926-26-001993](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001993/rolr-20261021.htm) — published 2026-10-23; retrieved 2026-10-31T15:38:11.672682+00:00.
+
+[S62] [10-Q/A 0001753926-26-001960](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001960/rolr-20260630.htm) — published 2026-10-16; retrieved 2026-10-31T15:38:09.981641+00:00.
+
+[S63] [10-Q 0001753926-26-001419](https://www.sec.gov/Archives/edgar/data/1947210/000175392626001419/rolr-20260630.htm) — published 2026-08-11; retrieved 2026-10-31T15:38:08.188068+00:00.
+
+[S64] [DEF 14A 0001753926-26-000880](https://www.sec.gov/Archives/edgar/data/1947210/000175392626000880/rolr-20251231.htm) — published 2026-05-14; retrieved 2026-10-31T15:38:06.635672+00:00.
+
+[S65] [10-K 0001753926-26-000462](https://www.sec.gov/Archives/edgar/data/1947210/000175392626000462/rolr-20251231.htm) — published 2026-03-10; retrieved 2026-10-31T15:38:04.750816+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

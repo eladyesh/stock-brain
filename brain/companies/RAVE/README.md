@@ -8,11 +8,11 @@ tickers:
 - RAVE
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -87,8 +87,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
-  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
+  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000718332.json
@@ -479,6 +479,66 @@ sources:
   published_at: '2024-02-01'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/718332/000114036126040557/ny20083144x1_def14a.htm
+  title: DEF 14A 0001140361-26-040557
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:36:15.281955+00:00'
+  sha256: ca1b90498450d59dc9a852ac193e06fd4d22d7883ac6b05066d53de2447a674d
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/718332/000114036126037514/ef20075484_10k.htm
+  title: 10-K 0001140361-26-037514
+  published_at: '2026-09-24'
+  retrieved_at: '2026-10-31T15:36:11.985899+00:00'
+  sha256: de06b060375b89f9d285cd30afcd45807604719b54b3f895bdf55a8f71b0ea26
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/718332/000114036126037515/ef20082655_8k.htm
+  title: 8-K 0001140361-26-037515
+  published_at: '2026-09-24'
+  retrieved_at: '2026-10-31T15:36:13.655048+00:00'
+  sha256: 975a2a014e4438b36e7b2828a9e55e2184a13ec03b5a81c4e89161ca4d44df5d
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/718332/000114036126019447/ef20070480_10q.htm
+  title: 10-Q 0001140361-26-019447
+  published_at: '2026-05-07'
+  retrieved_at: '2026-10-31T15:36:10.192333+00:00'
+  sha256: ed05bf3c198fd331a1363c040c0c9d695e7ba1f43a6042177c78e6ea082e6d0c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/718332/000114036119018906/form8ka.htm
+  title: 8-K/A 0001140361-19-018906
+  published_at: '2019-10-23'
+  retrieved_at: '2026-10-31T15:36:08.524789+00:00'
+  sha256: 267f133379f31a75402570529f4ff01b3a4be467b0abc717ea6d3b914acd5e97
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/718332/000101054918000384/rave8k.htm
+  title: 8-K/A 0001010549-18-000384
+  published_at: '2018-11-07'
+  retrieved_at: '2026-10-31T15:36:06.914837+00:00'
+  sha256: 57e4fe3a1c8c455ee58d5db3ec01c2b6708cc76248e636a7d73877110fe1dc32
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/718332/000101054917000048/rave8k020717.htm
+  title: 8-K/A 0001010549-17-000048
+  published_at: '2017-02-08'
+  retrieved_at: '2026-10-31T15:36:05.276500+00:00'
+  sha256: 1af578a5658f5106eb45698049b30d1cb3264995493b12968ac846975be8cb98
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/718332/000101054916000774/rave8k110816.htm
+  title: 8-K/A 0001010549-16-000774
+  published_at: '2016-11-09'
+  retrieved_at: '2026-10-31T15:36:03.729572+00:00'
+  sha256: 94255cd14b2cfaef4ff681317e2729ad7514d4837a67f12a2b5a0b00158aaff0
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/718332/000071833208000026/fy08nanell062308.htm
+  title: 8-K/A 0000718332-08-000026
+  published_at: '2008-06-27'
+  retrieved_at: '2026-10-31T15:36:02.076774+00:00'
+  sha256: d93026211895a03412c4e09d94f8562d7bc773aa8971c1aee17f92cd8f66d8f6
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/718332/000095013404019772/d21155a1e8vkza.htm
+  title: 8-K/A 0000950134-04-019772
+  published_at: '2004-12-23'
+  retrieved_at: '2026-10-31T15:36:00.538948+00:00'
+  sha256: a8a6346e09c6dc2810e9e6b2a432ac74705b9c74f03d316641afcd4a600ecc05
 issuer_classification:
   cik: 0000718332
   classification_status: reported_sic
@@ -540,13 +600,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/718332/000095013404019772/0000950134-04-019772-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9105b30de677659000aceef2d3dff0b185c84ca1d46fbfb9db98b65140f9d37f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -570,9 +639,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L516:
+
+> The Company is committed to maintaining the highest standards of business conduct and corporate governance, which we believe are essential to running our business effectively, serving our shareholders well, and maintaining the Company’s integrity in the marketplace. The Company has adopted a Code of Business Conduct that applies to all Company employees and directors and a Financial Code of Conduct for financial managers. The Company’s Code of Business Conduct clearly states the Company’s policy prohibiting the Company’s employees, officers and directors from trading in securities of the Company or any other company while in possession of material non-public information about the Company or other companies, including our suppliers and customers, as well as from communicating such information to others who might trade on the basis of that information. We believe this policy promotes compliance with insider trading laws, rules and regulations, and any listing standards that are applicable to the Company. The Company’s insider trading policy is contained in its Code of Business Conduct, and the Company has not adopted separate insider trading policies and procedures. The policy does not apply to transactions by the Company in its own securities. The Board has authorized a discretionary stock repurchase program under which the Company may, but is not obligated to, repurchase … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-09-24, L3792:
+
+> In November 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU” or “standard”) 2023-07, Segment Reporting: Improvements to Reportable Segment Disclosures (Topic 280). The new guidance is effective for the Company's fiscal year beginning after December 15, 2023 and for interim periods beginning after December 15, 2024. The Company adopted this standard on July 1, 2024, which required companies to enhance disclosure of significant reportable segment expenses. [S68]
 
 ## Products and services
 
@@ -582,15 +659,27 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-K, filed 2026-09-24, L119:
+
+> Express Units serve our customers through a variety of non-traditional points of sale. Express Units are typically located in a convenience store, food court, college campus, airport terminal, travel plaza, athletic facility, or other commercial facility. They have limited or no seating and solely offer quick carryout service of a limited menu of pizza and other foods and beverages. An Express Unit typically occupies approximately 200 to 400 square feet and is commonly operated by the operator or food service licensee of the commercial host facility. We have developed a high-quality, pre-prepared crust that is topped and cooked on-site, allowing this concept to offer a lower initial investment and reduced labor and operating costs while maintaining product quality and consistency. Like Delco Units, Express Units are primarily production-oriented facilities and, therefore, do not require all of the equipment, labor or square footage of the Buffet Unit. [S68]
+
 ## Industry and value chain
 
 SEC-reported SIC **5140**: Wholesale-Groceries & Related Products. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L516:
+
+> The Company is committed to maintaining the highest standards of business conduct and corporate governance, which we believe are essential to running our business effectively, serving our shareholders well, and maintaining the Company’s integrity in the marketplace. The Company has adopted a Code of Business Conduct that applies to all Company employees and directors and a Financial Code of Conduct for financial managers. The Company’s Code of Business Conduct clearly states the Company’s policy prohibiting the Company’s employees, officers and directors from trading in securities of the Company or any other company while in possession of material non-public information about the Company or other companies, including our suppliers and customers, as well as from communicating such information to others who might trade on the basis of that information. We believe this policy promotes compliance with insider trading laws, rules and regulations, and any listing standards that are applicable to the Company. The Company’s insider trading policy is contained in its Code of Business Conduct, and the Company has not adopted separate insider trading policies and procedures. The policy does not apply to transactions by the Company in its own securities. The Board has authorized a discretionary stock repurchase program under which the Company may, but is not obligated to, repurchase … [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-09-24, L81:
+
+> This Form 10-K contains certain forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, which are intended to be covered by the safe harbors created thereby. Forward-looking statements include statements which are predictive in nature, which depend upon or refer to future events or conditions, or which include words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “estimate” or similar expressions. These statements include the plans and objectives of management for future operations, including plans and objectives relating to future growth of our business activities and availability of funds. Statements that address business and growth strategies, performance goals, projected financial condition and operating results, our understanding of our competition, industry and market trends, and any other statements or assumptions that are not historical facts are forward-looking statements. [S68]
 
 ## Moat and differentiation
 
@@ -599,6 +688,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-09-24, L129:
+
+> We intend to expand the Pizza Inn system domestically and internationally in markets with significant long-term growth potential and where we believe we can use our competitive strengths to establish brand recognition and gain local market share. We plan to expand our Pizza Inn branded domestic restaurant base primarily through opening new franchised restaurants with new and existing franchisees. We expect to evaluate the continued development of new Pizza Inn Buffet and Delco Units in international markets in fiscal 2027. [S68]
 
 ## Financial performance
 
@@ -1228,6 +1321,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L85:
+
+> Your vote is important. Whether or not you plan to attend the Annual Meeting, we hope you will vote as soon as possible. To vote your shares, you may use the enclosed proxy card, vote via the Internet or telephone, or attend the Annual Meeting and vote in person. On behalf of our board of directors, we urge you to complete, sign, date, and return the enclosed proxy card, or vote via the Internet or telephone, even if you currently plan to attend the Annual Meeting. This will help to ensure your representation at the Annual Meeting. Please review the instructions on the proxy card regarding each of these voting options. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1240,6 +1337,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-09-24, L3784:
+
+> We are engaged in various legal proceedings and have certain unresolved claims pending. Liabilities have been established based on our best estimates of our potential liability in certain of these matters. Based upon consultation with legal counsel, management is of the opinion that there are no matters pending or threatened which are expected to have a material adverse effect, individually or in the aggregate, on the consolidated financial condition or results of operations. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1249,25 +1350,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1331,9 +1432,13 @@ Latest 50 filing metadata records of 927 retained records. A filing link is evid
 | 2024-02-05 | SC 13D/A | 0001099910-24-000075 | — | [S65] |
 | 2024-02-01 | 8-K | 0001140361-24-005024 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-10-23, L504:
+
+> The Audit Committee has selected Bodwell Vasek Wells DeSimone, LLP (“BVWD”), an independent registered public accounting firm, as the independent auditors of the Company for the 2027 fiscal year. As a matter of good corporate governance, the Audit Committee has determined to submit its selection to shareholders for ratification. Shareholder ratification of the appointment is not required by our Bylaws or by any other applicable law. If our selection of auditors is not ratified by the holders of a majority of the shares of Common Stock entitled to vote and represented in person or by proxy at the Annual Meeting, the Audit Committee will reconsider whether or not to retain BVWD. Even if the selection is ratified, the Audit Committee in its discretion may select a different registered public accounting firm at any time during the year if it determines that such a change would be in the best interests of the Company and our shareholders. [S67]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000718332.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1465,4 +1570,24 @@ Latest 50 filing metadata records of 927 retained records. A filing link is evid
 
 [S66] [8-K 0001140361-24-005024](https://www.sec.gov/Archives/edgar/data/718332/000114036124005024/0001140361-24-005024-index.html) — published 2024-02-01; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [DEF 14A 0001140361-26-040557](https://www.sec.gov/Archives/edgar/data/718332/000114036126040557/ny20083144x1_def14a.htm) — published 2026-10-23; retrieved 2026-10-31T15:36:15.281955+00:00.
+
+[S68] [10-K 0001140361-26-037514](https://www.sec.gov/Archives/edgar/data/718332/000114036126037514/ef20075484_10k.htm) — published 2026-09-24; retrieved 2026-10-31T15:36:11.985899+00:00.
+
+[S69] [8-K 0001140361-26-037515](https://www.sec.gov/Archives/edgar/data/718332/000114036126037515/ef20082655_8k.htm) — published 2026-09-24; retrieved 2026-10-31T15:36:13.655048+00:00.
+
+[S70] [10-Q 0001140361-26-019447](https://www.sec.gov/Archives/edgar/data/718332/000114036126019447/ef20070480_10q.htm) — published 2026-05-07; retrieved 2026-10-31T15:36:10.192333+00:00.
+
+[S71] [8-K/A 0001140361-19-018906](https://www.sec.gov/Archives/edgar/data/718332/000114036119018906/form8ka.htm) — published 2019-10-23; retrieved 2026-10-31T15:36:08.524789+00:00.
+
+[S72] [8-K/A 0001010549-18-000384](https://www.sec.gov/Archives/edgar/data/718332/000101054918000384/rave8k.htm) — published 2018-11-07; retrieved 2026-10-31T15:36:06.914837+00:00.
+
+[S73] [8-K/A 0001010549-17-000048](https://www.sec.gov/Archives/edgar/data/718332/000101054917000048/rave8k020717.htm) — published 2017-02-08; retrieved 2026-10-31T15:36:05.276500+00:00.
+
+[S74] [8-K/A 0001010549-16-000774](https://www.sec.gov/Archives/edgar/data/718332/000101054916000774/rave8k110816.htm) — published 2016-11-09; retrieved 2026-10-31T15:36:03.729572+00:00.
+
+[S75] [8-K/A 0000718332-08-000026](https://www.sec.gov/Archives/edgar/data/718332/000071833208000026/fy08nanell062308.htm) — published 2008-06-27; retrieved 2026-10-31T15:36:02.076774+00:00.
+
+[S76] [8-K/A 0000950134-04-019772](https://www.sec.gov/Archives/edgar/data/718332/000095013404019772/d21155a1e8vkza.htm) — published 2004-12-23; retrieved 2026-10-31T15:36:00.538948+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

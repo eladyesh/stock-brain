@@ -8,11 +8,11 @@ tickers:
 - SLB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -82,8 +82,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000087347.json
@@ -474,6 +474,54 @@ sources:
   published_at: '2026-04-24'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/d151271d8k.htm
+  title: 8-K 0001193125-26-429435
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:40:32.337496+00:00'
+  sha256: 761a12fc080e2994c9805246d0f94dc81b08cf603540e0dc649d82bcd595e8c3
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312526322595/slb-20260630.htm
+  title: 10-Q 0001193125-26-322595
+  published_at: '2026-07-29'
+  retrieved_at: '2026-10-31T15:40:30.567819+00:00'
+  sha256: cbc0e70af121fab7a09fce7999e8d6b820ea16f12b93b426d16df8478afea637
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/87347/000130817926000024/slb2026-def14a.htm
+  title: DEF 14A 0001308179-26-000024
+  published_at: '2026-02-26'
+  retrieved_at: '2026-10-31T15:40:28.647108+00:00'
+  sha256: eff0a5414fbad775fa6965babc6c423f08d3b2230b6cf7e4488b88c487d550a6
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-20251231.htm
+  title: 10-K 0001193125-26-021017
+  published_at: '2026-01-23'
+  retrieved_at: '2026-10-31T15:40:26.579996+00:00'
+  sha256: a1c60e9059721f457f19022ad5830952d7bb7a3f7fc293d2c58fef3cc2b7c87a
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312524085160/d735749d8ka.htm
+  title: 8-K/A 0001193125-24-085160
+  published_at: '2024-04-03'
+  retrieved_at: '2026-10-31T15:40:24.957978+00:00'
+  sha256: 837125a9394a461478519fcaad36336078327615e4555aefa1d04b3b7bd83804
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312521016253/d100679d8ka.htm
+  title: 8-K/A 0001193125-21-016253
+  published_at: '2021-01-25'
+  retrieved_at: '2026-10-31T15:40:23.282638+00:00'
+  sha256: 7fc95e3317ada1b2d3d4e95b8336f3e7d1e902b7d52e9a2847719e7e40af189d
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312519200837/d761449d8ka.htm
+  title: 8-K/A 0001193125-19-200837
+  published_at: '2019-07-24'
+  retrieved_at: '2026-10-31T15:40:21.816811+00:00'
+  sha256: 126a074d1c828f68978c6ae58f0d5b0cd0f147db12fe8f5610673ef6f5efcc08
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/87347/000119312519060080/d717830d8ka.htm
+  title: 8-K/A 0001193125-19-060080
+  published_at: '2019-03-01'
+  retrieved_at: '2026-10-31T15:40:20.254572+00:00'
+  sha256: 80f08735fae3f1c519266df999f4f2fe5ed5d25b0cc9923438ba429a9fd6f36d
 issuer_classification:
   cik: 0000087347
   classification_status: reported_sic
@@ -527,13 +575,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/87347/000119312519060080/0001193125-19-060080-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 68965ec7aeda333d20ee63e158a751f27782a0aec0f32547e82274abf62d3480
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -557,6 +615,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-02-26, L1182:
+
+> on the classifications most relevant to their home countries. We provide self-identifications for non-U.S. director nominees [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -565,9 +627,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-01-23, L520:
+
+> Seasonal changes in weather and significant weather events can temporarily affect the delivery of SLB’s products and services. For example, the spring thaw in Canada and other Northern climates and consequent road restrictions can affect activity levels, while the winter months in the North Sea, Russia, and China can produce severe weather conditions that can temporarily reduce levels of activity. In addition, hurricanes and typhoons can disrupt coastal and offshore operations. Furthermore, customer spending patterns for exploration data, software, and other products may result in higher activity in the fourth quarter of the year as clients seek to fully utilize their annual budgets. Conversely, customer budget constraints in North America may lead to lower demand for our services and products in the fourth quarter of the year. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-02-26, L533:
+
+> Core: Our Core business was led by a 12% growth in our Production Systems Division, driven by the impact of ChampionX. Production and recovery activity is becoming a strategic priority for our customers to unlock incremental barrels at the lowest cost. This translated into higher demand particularly for intervention services, artificial lift, production chemicals and SLB OneSubsea. [S69]
 
 ## Industry and value chain
 
@@ -575,17 +645,33 @@ SEC-reported SIC **1389**: Oil & Gas Field Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L11954:
+
+> This second-quarter 2026 Form 10-Q, as well as other statements we make, contain “forward-looking statements” within the meaning of the federal securities laws, which include any statements that are not historical facts. Such statements often contain words such as “expect,” “may,” “can,” “believe,” “predict,” “plan,” “potential,” “projected,” “projections,” “precursor,” “forecast,” “outlook,” “expectations,” “estimate,” “intend,” “anticipate,” “ambition,” “goal,” “target,” “scheduled,” “think,” “should,” “could,” “would,” “will,” “see,” “likely,” and other similar words. Forward-looking statements address matters that are, to varying degrees, uncertain, such as statements about SLB’s financial and performance targets and other forecasts or expectations regarding, or dependent on, its business outlook; growth for SLB as a whole and for each of its Divisions (and for specified business lines, geographic areas, or technologies within each Division); the benefits of the ChampionX acquisition, including the ability of SLB to integrate the ChampionX business successfully and to achieve anticipated synergies and value creation from the acquisition; oil and natural gas demand and production growth; oil and natural gas prices; forecasts or expectations regarding energy transition and global climate change; improvements in operating procedures and technology; capital expenditures by SLB … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-02-26, L3757:
+
+> efficiency goals and comparing these results to our competitors will motivate our executives to focus on outperformance and will [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-02-26, L3447:
+
+> the best available talent and sees gender diversity as a source of creativity, innovation, and competitive advantage. In this regard, [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-02-26, L59:
+
+> despite a challenging backdrop for the industry. At the same time, we continued to advance our strategy with a growing emphasis [S69]
 
 ## Financial performance
 
@@ -1209,6 +1295,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L11972:
+
+> On January 21, 2016, the SLB Board of Directors approved a $10 billion share repurchase program for SLB common stock. As of June 30, 2026, SLB had repurchased approximately $7.0 billion of SLB common stock under this program. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1221,6 +1311,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L11967:
+
+> As of the date of this filing, there have been no material changes from the risk factors disclosed in Part I, Item 1A, of SLB’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1230,25 +1324,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1313,9 +1407,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-29 | 4 | 0000087347-26-000075 | — | [S65] |
 | 2026-04-24 | 8-K | 0001193125-26-174940 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-02-26, L7116:
+
+> that could affect these amounts include the time during the year of any such event, the price of SLB common stock, and SLB’s [S69]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000087347.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1447,4 +1545,20 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [8-K 0001193125-26-174940](https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/0001193125-26-174940-index.html) — published 2026-04-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001193125-26-429435](https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/d151271d8k.htm) — published 2026-10-23; retrieved 2026-10-31T15:40:32.337496+00:00.
+
+[S68] [10-Q 0001193125-26-322595](https://www.sec.gov/Archives/edgar/data/87347/000119312526322595/slb-20260630.htm) — published 2026-07-29; retrieved 2026-10-31T15:40:30.567819+00:00.
+
+[S69] [DEF 14A 0001308179-26-000024](https://www.sec.gov/Archives/edgar/data/87347/000130817926000024/slb2026-def14a.htm) — published 2026-02-26; retrieved 2026-10-31T15:40:28.647108+00:00.
+
+[S70] [10-K 0001193125-26-021017](https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-20251231.htm) — published 2026-01-23; retrieved 2026-10-31T15:40:26.579996+00:00.
+
+[S71] [8-K/A 0001193125-24-085160](https://www.sec.gov/Archives/edgar/data/87347/000119312524085160/d735749d8ka.htm) — published 2024-04-03; retrieved 2026-10-31T15:40:24.957978+00:00.
+
+[S72] [8-K/A 0001193125-21-016253](https://www.sec.gov/Archives/edgar/data/87347/000119312521016253/d100679d8ka.htm) — published 2021-01-25; retrieved 2026-10-31T15:40:23.282638+00:00.
+
+[S73] [8-K/A 0001193125-19-200837](https://www.sec.gov/Archives/edgar/data/87347/000119312519200837/d761449d8ka.htm) — published 2019-07-24; retrieved 2026-10-31T15:40:21.816811+00:00.
+
+[S74] [8-K/A 0001193125-19-060080](https://www.sec.gov/Archives/edgar/data/87347/000119312519060080/d717830d8ka.htm) — published 2019-03-01; retrieved 2026-10-31T15:40:20.254572+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

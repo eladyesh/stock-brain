@@ -8,11 +8,11 @@ tickers:
 - SGML
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -51,8 +51,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
-  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
+  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001848309.json
@@ -359,6 +359,36 @@ sources:
   published_at: '2025-06-06'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1848309/000129281426004998/sgml20261023_6k.htm
+  title: 6-K 0001292814-26-004998
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:39:33.304575+00:00'
+  sha256: 57a934d3ab5745db3445a7d267bd023e09e1931dfa9e676baf9f5d9548c5d796
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1848309/000129281426001908/sgmlform40f_2025.htm
+  title: 40-F 0001292814-26-001908
+  published_at: '2026-03-30'
+  retrieved_at: '2026-10-31T15:39:31.746751+00:00'
+  sha256: d7697fa25cc1f74891d3ded2d84c81ec934809c8dc1d934a43c10349470f090b
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1848309/000117184325002438/sgml20241231_40fa.htm
+  title: 40-F/A 0001171843-25-002438
+  published_at: '2025-04-24'
+  retrieved_at: '2026-10-31T15:39:30.248119+00:00'
+  sha256: 3ef21c737453b219143bd28f54f24928560a51df12b531aaee43fa9c5f770b20
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1848309/000110465922120281/tm2226872d3_6ka.htm
+  title: 6-K/A 0001104659-22-120281
+  published_at: '2022-11-18'
+  retrieved_at: '2026-10-31T15:39:27.025409+00:00'
+  sha256: 34df759af66a7ce0c6cb532970e9e1d7d13c68cbe8bf168bb335e3cb15074d32
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1848309/000110465922120290/tm2226872d2_6ka.htm
+  title: 6-K/A 0001104659-22-120290
+  published_at: '2022-11-18'
+  retrieved_at: '2026-10-31T15:39:28.654852+00:00'
+  sha256: 0070d093ece3e7366f02f41004e136b98aa887e393db983f9ae5632e2fd99c74
 issuer_classification:
   cik: 0001848309
   classification_status: reported_sic
@@ -398,13 +428,16 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1848309/000110465922120281/0001104659-22-120281-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: accdcf64522fdbf8a79244393eb0438662e05025cd540561472b45d8b8049f6d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -470,6 +503,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-30, L126:
+
+> principal executive officers, principal financial officer, principal accounting officer or controller, the Company intends to disclose [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -481,6 +518,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 40-F, filed 2026-03-30, L141:
+
+> risk factors—Market Risk” attached hereto as Exhibit 99.2 which contains the link to the Management’s Discussion [S54]
 
 ## Scenarios and open questions
 
@@ -494,7 +535,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -506,13 +547,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -577,9 +618,13 @@ Latest 50 filing metadata records of 203 retained records. A filing link is evid
 | 2025-07-09 | 6-K | 0001171843-25-004376 | — | [S51] |
 | 2025-06-06 | SD | 0001171843-25-003754 | — | [S52] |
 
+Source excerpt — 40-F/A, filed 2025-04-24, L86:
+
+> This Form 40-F/A is being filed to amend the Annual Report on Form 40-F for the year ended December 31, 2024, originally filed with the Securities and Exchange Commission (the “Commission”) on March 31, 2025 (the “Original 2024 40-F”). The purpose of this Form 40-F/A is to include the Incentive Compensation Clawback Policy as an exhibit to this Form, as previously filed on May 1, 2024, as an Exhibit 97 to the Company’s Annual Report on Form 40-F (No. 1-40786). Except as described above, the Original 2024 40-F and any other exhibits thereto remain unchanged. This Amendment No. 1 speaks as of the filing date of the Original 2024 40-F and does not reflect events occurring after the original filing date or modify or update those disclosures that may be affected by subsequent events. [S55]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001848309.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -683,4 +728,14 @@ Latest 50 filing metadata records of 203 retained records. A filing link is evid
 
 [S52] [SD 0001171843-25-003754](https://www.sec.gov/Archives/edgar/data/1848309/000117184325003754/0001171843-25-003754-index.html) — published 2025-06-06; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S53] [6-K 0001292814-26-004998](https://www.sec.gov/Archives/edgar/data/1848309/000129281426004998/sgml20261023_6k.htm) — published 2026-10-23; retrieved 2026-10-31T15:39:33.304575+00:00.
+
+[S54] [40-F 0001292814-26-001908](https://www.sec.gov/Archives/edgar/data/1848309/000129281426001908/sgmlform40f_2025.htm) — published 2026-03-30; retrieved 2026-10-31T15:39:31.746751+00:00.
+
+[S55] [40-F/A 0001171843-25-002438](https://www.sec.gov/Archives/edgar/data/1848309/000117184325002438/sgml20241231_40fa.htm) — published 2025-04-24; retrieved 2026-10-31T15:39:30.248119+00:00.
+
+[S56] [6-K/A 0001104659-22-120281](https://www.sec.gov/Archives/edgar/data/1848309/000110465922120281/tm2226872d3_6ka.htm) — published 2022-11-18; retrieved 2026-10-31T15:39:27.025409+00:00.
+
+[S57] [6-K/A 0001104659-22-120290](https://www.sec.gov/Archives/edgar/data/1848309/000110465922120290/tm2226872d2_6ka.htm) — published 2022-11-18; retrieved 2026-10-31T15:39:28.654852+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

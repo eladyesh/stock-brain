@@ -8,11 +8,11 @@ tickers:
 - M
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,8 +76,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000794367.json
@@ -1389,7 +1389,7 @@ Source excerpt — DEF 14A, filed 2026-03-31, L101:
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000794367.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1535,4 +1535,4 @@ Source excerpt — DEF 14A, filed 2026-03-31, L101:
 
 [S73] [8-K/A 0000794367-17-000111](https://www.sec.gov/Archives/edgar/data/794367/000079436717000111/form8ka5-24x17.htm) — published 2017-09-08; retrieved 2026-10-29T16:27:24.688972+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

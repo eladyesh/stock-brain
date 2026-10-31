@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |
 | [LOCL](../companies/LOCL/README.md) | Local Bounti Corporation/DE | available, quality gates apply |
 | [LOCO](../companies/LOCO/README.md) | El Pollo Loco Holdings, Inc. | available, quality gates apply |
 | [LODE](../companies/LODE/README.md) | Comstock Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [MAR](../companies/MAR/README.md) | MARRIOTT INTERNATIONAL INC /MD/ | available, quality gates apply |
 | [MARA](../companies/MARA/README.md) | MARA Holdings, Inc. | available, quality gates apply |
 | [MAS](../companies/MAS/README.md) | MASCO CORP /DE/ | not available |
-| [MASK](../companies/MASK/README.md) | 3 E Network Technology Group Ltd | not available |

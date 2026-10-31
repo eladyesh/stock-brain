@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [LAZ](../companies/LAZ/README.md) | Lazard, Inc. | not available |
 | [LB](../companies/LB/README.md) | LandBridge Corp | available, quality gates apply |
 | [LBGJ](../companies/LBGJ/README.md) | Li Bang International Corp Inc. | not available |
 | [LBRT](../companies/LBRT/README.md) | Liberty Energy Inc. | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [LOAN](../companies/LOAN/README.md) | MANHATTAN BRIDGE CAPITAL, INC | available, quality gates apply |
 | [LOAR](../companies/LOAR/README.md) | Loar Holdings Inc. | available, quality gates apply |
 | [LOB, LOB$A](../companies/LOB/README.md) | Live Oak Bancshares, Inc. | available, quality gates apply |
-| [LOBO](../companies/LOBO/README.md) | LOBO TECHNOLOGIES LTD. | not available |

@@ -2,20 +2,20 @@
 
 [Company index](INDEX.md)
 
-Data release: `coverage-20261030-41085569265-1`; source created 2026-10-30T16:05:25.650854+00:00.
+Data release: `coverage-20261031-41214572563-1`; source created 2026-10-31T15:28:34.866331+00:00.
 
 These counts describe distinct mapped issuers. Foreign-form and fund-reporting signals are derived from retained filing metadata, not a verified domicile or final instrument classification. The universe may include funds awaiting instrument review. Financial coverage is separate from completed research.
 
 | Financial collection state | Issuers | Next action |
 | --- | ---: | --- |
-| available | 4043 | Retain dated financial evidence and review blocked metrics before analytical use. |
+| available | 4044 | Retain dated financial evidence and review blocked metrics before analytical use. |
 | latest_filing_incomplete | 208 | Resolve the latest financial filing/CompanyFacts mismatch; any historical bootstrap must keep the latest-period gap explicit. |
-| foreign_reporting_adapter | 1027 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
+| foreign_reporting_adapter | 1028 | Add support for the observed 20-F, 40-F or 6-K reporting forms and verify the actual accounting taxonomy before normalization. |
 | fund_reporting_review | 317 | Review the instrument against its N-CSR/N-CSRS reporting evidence before applying an operating-company model. This signal alone is not a final fund classification. |
 | unsupported_reporting_inventory | 27 | Review primary filing evidence and identify the reporting regime; do not infer financial values from directory membership. |
 | not_collected | 13 | Collect verified issuer submissions and source financial data before normalization. |
 
-Unresolved stock listings: **601**. Verify their issuer identity before attaching any company financial data.
+Unresolved stock listings: **599**. Verify their issuer identity before attaching any company financial data.
 
 Generated research profiles remain stubs. Curated research links retain their original review dates; broad market prices, consensus, news and ownership still need separate source coverage.
 

@@ -8,11 +8,11 @@ tickers:
 - SBMT
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -64,8 +64,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002067674.json
@@ -390,6 +390,24 @@ sources:
   published_at: '2026-05-20'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/2067674/000153949726002744/n5138_x44-8k.htm
+  title: 8-K 0001539497-26-002744
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:39:12.776377+00:00'
+  sha256: 8442364714cc7313f4aea94ccc3c1b5842be18e1c03e8ff0d1d9c68ee49a63c9
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/2067674/000153949726002599/n5138_x40-8ka.htm
+  title: 8-K/A 0001539497-26-002599
+  published_at: '2026-09-25'
+  retrieved_at: '2026-10-31T15:39:11.210414+00:00'
+  sha256: f117176ea4075a5663c6404bfe2e9e5541eb8e511d217c7e9a2093bcbed64dc8
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/2067674/000153949726002208/n5138_x28-10q.htm
+  title: 10-Q 0001539497-26-002208
+  published_at: '2026-08-13'
+  retrieved_at: '2026-10-31T15:39:09.694304+00:00'
+  sha256: b9603c7330b1e50dabca2210bb9392117964c9537c8b05984e97a9445c3e1d9a
 issuer_classification:
   cik: '0002067674'
   classification_status: reported_sic
@@ -422,13 +440,17 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2067674/000153949726002599/0001539497-26-002599-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a5534874fa934d8f5621df7a511944373623ed1a6f432cb2f796e3da17fd43e5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - management-and-governance
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -452,9 +474,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L954:
+
+> incidental to our business, or as described below, the Company is not currently a party to any material pending legal proceedings [S58]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L1347:
+
+> in the exploration of its mineral properties and has determined that it operates in one operating and reportable segment. Operating [S58]
 
 ## Products and services
 
@@ -570,6 +600,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L98:
+
+> The Company and certain of its respective directors and executive officers, under SEC rules, may be deemed to be “participants” in the solicitation of proxies from shareholders of the Company in connection with the proposed transaction. Information about the Company’s directors and executive officers is available in the Company’s registration statement on Form S-1/A, which was filed with the [S56]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -582,6 +616,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L109:
+
+> claims and property rights; risks in obtaining, maintaining or amending permits, licenses and future permitting and regulatory approvals; commodity-price fluctuations; litigation; the inherently hazardous nature of mining-related activities and other operational and environmental risks inherent in mineral exploration and mining-related activities. Additional risk factors are discussed under the headings "Forward-Looking Statements" and "Risk Factors" in the Company’s Registration [S56]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -591,10 +629,10 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
@@ -603,10 +641,10 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -676,7 +714,7 @@ Latest 50 filing metadata records of 91 retained records. A filing link is evide
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002067674.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -786,4 +824,10 @@ Latest 50 filing metadata records of 91 retained records. A filing link is evide
 
 [S55] [4 0000912282-26-000747](https://www.sec.gov/Archives/edgar/data/2067674/000091228226000747/0000912282-26-000747-index.html) — published 2026-05-20; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S56] [8-K 0001539497-26-002744](https://www.sec.gov/Archives/edgar/data/2067674/000153949726002744/n5138_x44-8k.htm) — published 2026-10-23; retrieved 2026-10-31T15:39:12.776377+00:00.
+
+[S57] [8-K/A 0001539497-26-002599](https://www.sec.gov/Archives/edgar/data/2067674/000153949726002599/n5138_x40-8ka.htm) — published 2026-09-25; retrieved 2026-10-31T15:39:11.210414+00:00.
+
+[S58] [10-Q 0001539497-26-002208](https://www.sec.gov/Archives/edgar/data/2067674/000153949726002208/n5138_x28-10q.htm) — published 2026-08-13; retrieved 2026-10-31T15:39:09.694304+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

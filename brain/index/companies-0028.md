@@ -28,6 +28,7 @@
 | [JILL](../companies/JILL/README.md) | J.Jill, Inc. | available, quality gates apply |
 | [JJSF](../companies/JJSF/README.md) | J&J SNACK FOODS CORP | available, quality gates apply |
 | [JKHY](../companies/JKHY/README.md) | JACK HENRY & ASSOCIATES INC | available, quality gates apply |
+| [JKS](../companies/JKS/README.md) | Jinko Holdings Ltd | not available |
 | [JL](../companies/JL/README.md) | J-Long Group Ltd | not available |
 | [JLHL](../companies/JLHL/README.md) | Julong Holding Ltd | not available |
 | [JLL](../companies/JLL/README.md) | JONES LANG LASALLE INC | available, quality gates apply |
@@ -103,4 +104,3 @@
 | [KIDS](../companies/KIDS/README.md) | ORTHOPEDIATRICS CORP | available, quality gates apply |
 | [KIDZ](../companies/KIDZ/README.md) | KIDZ AI Inc. | available, quality gates apply |
 | [KIM$L, KIM$M, KIM$N](../companies/KIM_24L/README.md) | KIMCO REALTY CORP | available, quality gates apply |
-| [KINS](../companies/KINS/README.md) | KINGSTONE COMPANIES, INC. | available, quality gates apply |

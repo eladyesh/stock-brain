@@ -8,11 +8,11 @@ tickers:
 - RITM
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -93,8 +93,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001556593.json
@@ -491,6 +491,48 @@ sources:
   published_at: '2026-02-19'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000155659326000033/ritm-20261023.htm
+  title: 8-K 0001556593-26-000033
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:37:36.970358+00:00'
+  sha256: 7b91a77c1bc1fa1c862e9adf403399ddfe5e40dff02bc98aab75f475e2a33b92
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000155659326000029/nrz-20260630.htm
+  title: 10-Q 0001556593-26-000029
+  published_at: '2026-08-04'
+  retrieved_at: '2026-10-31T15:37:34.661907+00:00'
+  sha256: 1ce1ecaa9ffe977fc21fd2e547490a72be82274655a0c062cf7a880fbd0b6dc0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000110465926041536/tm2523978-2_def14a.htm
+  title: DEF 14A 0001104659-26-041536
+  published_at: '2026-04-09'
+  retrieved_at: '2026-10-31T15:37:32.740896+00:00'
+  sha256: 499c217d03cfe309b9b0321c841ae315d75ab785a5782919f91cec04ae2a5604
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000155659326000012/nrz-20251231.htm
+  title: 10-K 0001556593-26-000012
+  published_at: '2026-02-19'
+  retrieved_at: '2026-10-31T15:37:28.599117+00:00'
+  sha256: 07e318c2099c7497ce3c322af720cadc1bb2054ebef550511817bc567212413f
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000155659326000015/ritm-20251219.htm
+  title: 8-K/A 0001556593-26-000015
+  published_at: '2026-02-19'
+  retrieved_at: '2026-10-31T15:37:31.057742+00:00'
+  sha256: 30a07f96fed95250da19989c0747d99092a0a742cfb07463f45472b850033f83
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000114036121031137/ny20000703x2_8ka.htm
+  title: 8-K/A 0001140361-21-031137
+  published_at: '2021-09-14'
+  retrieved_at: '2026-10-31T15:37:26.869183+00:00'
+  sha256: b38b8aaa9fcb2b4ef47621fc691b73ad79a820be139b8b61df6c731731ffbd8c
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1556593/000156761917002246/s001937x2_8ka.htm
+  title: 8-K/A 0001567619-17-002246
+  published_at: '2017-10-27'
+  retrieved_at: '2026-10-31T15:37:25.061220+00:00'
+  sha256: 4edd12d884055f93b64d19c7092d33831fbe98c08a22812f7806059cb996deef
 issuer_classification:
   cik: 0001556593
   classification_status: reported_sic
@@ -540,13 +582,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1556593/000156761917002246/0001567619-17-002246-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 020e880c5e2e7e6be7e1d69f899fbc9715b41279f438e49611bde7289eab8d91
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -570,17 +623,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L68:
+
+> Our ability to implement our business strategy is subject to numerous risks, and the following summarizes the principal risks that may materially adversely affect our business, financial condition, results of operations and cash flows. The following should be read in conjunction with the more complete discussion of risk factors we face, which are set forth under Part I, Item 1A. “Risk Factors” in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “2025 Form 10-K”). These risks and factors include, among others: [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L882:
+
+> Rithm Capital conducts its business and generates substantially all of its revenues primarily in the U.S. through operating segments that have been aggregated into the following reportable segments: (i) Origination and Servicing, (ii) Residential Transitional Lending, (iii) Asset Management, (iv) Investment Portfolio and (v) Commercial Real Estate. Activities that are not directly attributable or not allocated to any of the reportable segments are reported under Corporate as a reconciling item to the Company’s consolidated financial statements. The activities within Corporate primarily consist of general, administrative and operating expenses, corporate cash and related interest income, the Senior Unsecured Notes (as defined in Note 17) and related interest expense and restricted cash and redeemable non-controlling interest related to Class A ordinary shares of Rithm Acquisition Corp., a special purpose acquisition company (the “SPAC”), which is consolidated by the Company. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-04-09, L1259:
+
+> Acquired Crestline, growing our product offerings in direct lending and private credit and adding an insurance platform for future growth. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-09, L992:
+
+> We believe in championing our customers, employees and communities through empowerment, as well as action. We are committed to conducting operations and activities in a sustainable manner and continually aim to find new ways to improve our corporate sustainability through energy efficiency, conservation and waste reduction across our family of companies. In December 2025, we acquired Paramount Group, Inc. (together with its subsidiaries, “Paramount”), a vertically integrated REIT that owns and operates Class A office properties in New York City and San Francisco. Paramount is committed to sustainability leadership, demonstrated by achieving Leadership in Energy and Environmental Design (LEED) Platinum or Gold designations, ENERGY STAR labels and Fitwel certifications across its portfolio. Additionally, at all of our operating companies, we encourage our colleagues and customers to “go green” or paperless where applicable. In particular, our mortgage company is continuing a successful initiative, through which we encourage customers to switch to paperless billing and communications while we support tree planting efforts across the United States and globally. As of December 31, 2025, approximately 52% of customers opt for paperless and reduce their carbon footprint through this effort. Additionally, at our mortgage company, we provide our customers with opportunities to learn … [S70]
 
 ## Industry and value chain
 
@@ -588,17 +657,33 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L5048:
+
+> The Origination and Servicing segment is Rithm Capital’s largest business by assets, equity and earnings contribution. The segment operates through our wholly owned subsidiaries Newrez and NRM, through which, we originate and service residential mortgage loans across multiple distribution channels and product types. As of March 31, 2026, the latest period for which servicing rankings are available, Newrez ranked among the top five lenders in the U.S. based on total funded volume of originations and the top five servicers in the U.S. based on total unpaid principal balance (“UPB”) serviced, according to Inside Mortgage Finance. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-04, L5580:
+
+> Our net income is primarily generated from net interest income, servicing fee revenue less cost to service, gain on sale of loans less cost to originate, asset management fees less expenses and property rental revenue less operating costs. Changes in various factors such as market interest rates, prepayment speeds, estimated future cash flows, servicing costs and credit quality could affect the amount of basis premium to be amortized or discount to be accreted into interest income for a given period. Prepayment speeds vary according to the type of investment, conditions in the financial markets, competition and other factors, none of which can be predicted with any certainty. Additionally, changes in these inputs along with other factors such as delinquency rates and recapture rates may significantly impact the fair value of our MSRs and as a result, our earnings. Our operating results may also be affected by credit losses in excess of initial estimates or unanticipated credit events experienced by borrowers whose mortgage loans underlie the MSRs, residential transition loans or the non-Agency securities held in our investment portfolio. Asset management fees are directly related to growth in AUM and investment performance of our funds. Decline in investment performance may slow our AUM growth and increase the potential for redemptions from our funds. Property rental revenue … [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-19, L671:
+
+> The multi-year migration process also presents operational and execution risks, including risks related to data conversion, system integration, change management, and the potential need to operate multiple servicing systems concurrently. In addition, once the migration is complete, our ability to transition to an alternative servicing platform may be limited by contractual restrictions, switching costs, and the time and expense required to implement a replacement solution. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-04, L4927:
+
+> In executing our strategy, from time to time, we explore, and will continue to explore, various opportunities to create value for our shareholders, which may include acquisitions and dispositions of assets, financing transactions (including equity or debt offerings by one or more of our subsidiaries), business combinations, a change in our tax status, spin-off transactions or other similar transactions. Among other opportunities, we believe there are additional growth opportunities in the direct lending, insurance, private equity and infrastructure spaces. Each of the potential transactions described above is subject to market conditions, regulatory considerations and other factors. There can be no assurances as to the timing of any such transaction or that a transaction will be completed at all. [S69]
 
 ## Financial performance
 
@@ -1204,6 +1289,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L4689:
+
+> In March 2026, Rithm Capital’s board of directors renewed the Company’s stock repurchase program, authorizing the repurchase of up to $200.0 million of its common stock and $100.0 million of its preferred stock for the period from January 1, 2026 through December 31, 2026. The objective of the stock repurchase program is to seek flexibility to return capital when deemed accretive to stockholders. Repurchases can be made from time to time through open market purchases or privately negotiated transactions, pursuant to one or more plans established pursuant to Rule 10b5-1 under the Securities Exchange Act of 1934 or by means of one or more tender offers, in each case, as permitted by securities laws and other legal requirements. During the six months ended June 30, 2026, the Company did not repurchase any shares of its common stock or its preferred stock. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1216,6 +1305,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L68:
+
+> Our ability to implement our business strategy is subject to numerous risks, and the following summarizes the principal risks that may materially adversely affect our business, financial condition, results of operations and cash flows. The following should be read in conjunction with the more complete discussion of risk factors we face, which are set forth under Part I, Item 1A. “Risk Factors” in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “2025 Form 10-K”). These risks and factors include, among others: [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1225,25 +1318,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1308,9 +1401,13 @@ Latest 50 filing metadata records of 813 retained records. A filing link is evid
 | 2026-02-19 | 8-K/A | 0001556593-26-000015 | — | [S66] |
 | 2026-02-19 | 10-K | 0001556593-26-000012 | — | [S67] |
 
+Source excerpt — 10-Q, filed 2026-08-04, L113:
+
+> •were made only as of the date of the applicable agreement or such other date or dates as may be specified in the agreement and are subject to more recent developments. [S69]
+
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001556593.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1444,4 +1541,18 @@ Latest 50 filing metadata records of 813 retained records. A filing link is evid
 
 [S67] [10-K 0001556593-26-000012](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000012/0001556593-26-000012-index.html) — published 2026-02-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S68] [8-K 0001556593-26-000033](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000033/ritm-20261023.htm) — published 2026-10-23; retrieved 2026-10-31T15:37:36.970358+00:00.
+
+[S69] [10-Q 0001556593-26-000029](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000029/nrz-20260630.htm) — published 2026-08-04; retrieved 2026-10-31T15:37:34.661907+00:00.
+
+[S70] [DEF 14A 0001104659-26-041536](https://www.sec.gov/Archives/edgar/data/1556593/000110465926041536/tm2523978-2_def14a.htm) — published 2026-04-09; retrieved 2026-10-31T15:37:32.740896+00:00.
+
+[S71] [10-K 0001556593-26-000012](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000012/nrz-20251231.htm) — published 2026-02-19; retrieved 2026-10-31T15:37:28.599117+00:00.
+
+[S72] [8-K/A 0001556593-26-000015](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000015/ritm-20251219.htm) — published 2026-02-19; retrieved 2026-10-31T15:37:31.057742+00:00.
+
+[S73] [8-K/A 0001140361-21-031137](https://www.sec.gov/Archives/edgar/data/1556593/000114036121031137/ny20000703x2_8ka.htm) — published 2021-09-14; retrieved 2026-10-31T15:37:26.869183+00:00.
+
+[S74] [8-K/A 0001567619-17-002246](https://www.sec.gov/Archives/edgar/data/1556593/000156761917002246/s001937x2_8ka.htm) — published 2017-10-27; retrieved 2026-10-31T15:37:25.061220+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.

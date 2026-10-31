@@ -4,6 +4,7 @@
 
 | Symbols | Company | Financial history |
 | --- | --- | --- |
+| [NICM](../companies/NICM/README.md) | NICOLA MINING INC. | not available |
 | [NIE](../companies/NIE/README.md) | Virtus Equity & Convertible Income Fund | not available |
 | [NIKI](../companies/NIKI/README.md) | Niki BioSolutions, Inc. | not available |
 | [NIM](../companies/NIM/README.md) | NUVEEN SELECT MATURITIES MUNICIPAL FUND | not available |
@@ -103,4 +104,3 @@
 | [NTGR](../companies/NTGR/README.md) | NETGEAR, INC. | available, quality gates apply |
 | [NTHI](../companies/NTHI/README.md) | NEONC TECHNOLOGIES HOLDINGS, INC. | available, quality gates apply |
 | [NTIC](../companies/NTIC/README.md) | NORTHERN TECHNOLOGIES INTERNATIONAL CORP | available, quality gates apply |
-| [NTIP](../companies/NTIP/README.md) | NETWORK-1 TECHNOLOGIES, INC. | available, quality gates apply |

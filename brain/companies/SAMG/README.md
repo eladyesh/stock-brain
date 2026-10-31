@@ -8,11 +8,11 @@ tickers:
 - SAMG
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -80,8 +80,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
-  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
+  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0001549966.json
@@ -478,6 +478,42 @@ sources:
   published_at: '2025-04-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000119312526430468/samg-20261023.htm
+  title: 8-K 0001193125-26-430468
+  published_at: '2026-10-23'
+  retrieved_at: '2026-10-31T15:38:52.418786+00:00'
+  sha256: a9c5835336eccf9eaa43ceecf5a0ecdb2fe1d904f3013524c0513b7a9799eb55
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000119312526326191/samg-20260630.htm
+  title: 10-Q 0001193125-26-326191
+  published_at: '2026-07-30'
+  retrieved_at: '2026-10-31T15:38:50.522695+00:00'
+  sha256: 67caa5fdd7b99f6c5eab738545e4d28a7d11acfa5a3c490ca324cf0f6f9694b2
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000119312526197178/samg-20260420.htm
+  title: DEF 14A 0001193125-26-197178
+  published_at: '2026-04-30'
+  retrieved_at: '2026-10-31T15:38:48.847513+00:00'
+  sha256: 4c0b07578db44d65af64dd372a4dede74b05fb862d5cb46080368db77fbef69d
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000119312526108402/samg-20251231.htm
+  title: 10-K 0001193125-26-108402
+  published_at: '2026-03-16'
+  retrieved_at: '2026-10-31T15:38:46.902945+00:00'
+  sha256: a3cbe49d0c39f1198c09c8ea53d56d1b8878dfdd3f9ad1d15b7ad4e0120f409b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000156459019034712/samg-8ka_20190701.htm
+  title: 8-K/A 0001564590-19-034712
+  published_at: '2019-09-13'
+  retrieved_at: '2026-10-31T15:38:45.052298+00:00'
+  sha256: d87631f5810e1456b77c0f0bd6731c51c91a2f61b69e3fe0d210169e9d81cf95
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1549966/000156459015005955/samg-8ka_20150731.htm
+  title: 8-K/A 0001564590-15-005955
+  published_at: '2015-08-03'
+  retrieved_at: '2026-10-31T15:38:43.475014+00:00'
+  sha256: cd76e560a5dff96186e3055c08bd9bd0d685b04ad08124c70141c47bc0206d8f
 issuer_classification:
   cik: 0001549966
   classification_status: reported_sic
@@ -523,13 +559,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1549966/000156459015005955/0001564590-15-005955-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 307d2651057d6515c243b5d0e3bcea5b791458fb0cdfc0902e987581ebc01436
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -553,13 +598,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L8610:
+
+> EBITDA, a non-GAAP measure of earnings, represents net income before provision for income taxes, interest income, interest expense, depreciation and amortization. We define Adjusted EBITDA as EBITDA without giving effect to items including, but not limited to, professional fees associated with acquisitions or financing transactions, gains on extinguishment of debt or other obligations related to acquisitions, losses on disposals or abandonment of assets and leaseholds, severance and other similar expenses, but including partner incentive allocations, prior to our initial public offering, as an expense. We use this non-GAAP financial measure to assess the strength of our business. These adjustments and the non-GAAP financial measures that are derived from them provide supplemental information to analyze our business from period to period. Investors should consider these non-GAAP financial measures in addition to, and not as a substitute for, financial measures in accordance with GAAP. See “Supplemental Non-GAAP Financial Information” for a reconciliation of non-GAAP financial measures. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5688:
+
+> The Company views its operations as comprising one operating and reportable segment, the investment management industry. The Company’s chief operating decision maker, who is the Company’s Chief Executive Officer, monitors and reviews financial information at a consolidated level for assessing operating results and the allocation of resources. Net income is the predominant GAAP measure the Company’s chief operating decision maker uses to assess operating results and the allocation of resources. The accounting policies used to measure the operating results of the segment are the same as those described in the summary of significant accounting policies. [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-07-30, L12596:
+
+> The average value of our assets under management for the three and six months ended June 30, 2026 was approximately $36.4 and $37.0 billion, respectively. Assuming a 10% increase or decrease in our average assets under management and the change being proportionately distributed over all our products, the value would increase or decrease by approximately $3.6 and $3.7 billion, respectively, for the three and six months ended June 30, 2026, which would cause an annualized increase or decrease in revenues of approximately $12.3 and $12.4 million, respectively, for the three and six months ended June 30, 2026, at a weighted average fee rate for the three and six months ended June 30, 2026 of 0.34%. [S69]
 
 ## Customers and end markets
 
@@ -571,9 +628,17 @@ SEC-reported SIC **6282**: Investment Advice. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-30, L624:
+
+> We believe that, in order to create long-term value for our stockholders, we need a skilled and experienced management team focused on achieving profitable and sustainable financial results, expanding our investment capabilities through disciplined growth, continuing to diversify sources of revenue and delivering superior client service. We depend on our management team to execute the strategic direction of our Company and maintain our standards for ethical, responsible and professional conduct. We also rely on our management team to manage our professionals and distribution channels and provide the operational infrastructure that allows our investment professionals to focus on achieving attractive investment returns and superior client service. In addition, we depend on our management team to encourage an entrepreneurial and collegial business culture. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-16, L368:
+
+> The long-only, equity investment focus of the majority of our strategies exposes us to greater risk than certain of our competitors whose investment strategies may also include non-equity securities or hedged positions. [S71]
 
 ## Moat and differentiation
 
@@ -582,6 +647,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L259:
+
+> This report contains, and from time to time our management may make, forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934, each as amended. For these statements, we claim the protection of the safe harbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995. These forward-looking statements are subject to risks, uncertainties and assumptions. These statements are only predictions based on our current expectations and projections about future events. Important factors that could cause actual results, level of activity, performance or achievements to differ materially from those indicated by such forward-looking statements include, but are not limited to: incurrence of net losses, fluctuations in quarterly and annual results, adverse economic or market conditions, our expectations with respect to future levels of assets under management, inflows and outflows, our ability to retain clients, our ability to maintain our fee structure, our particular choices regarding investment strategies employed, our ability to hire and retain qualified investment professionals, the cost of complying with current and future regulations coupled with the cost of defending ourselves from related investigations or litigation, failure of our operational safeguards … [S69]
 
 ## Financial performance
 
@@ -1211,6 +1280,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L6275:
+
+> On August 16, 2024, the Company announced that its Board of Directors approved a share repurchase program authorizing the Company to repurchase up to $12,000,000 of the Company’s outstanding Class A common stock (the “2024 Repurchase Program”). [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1223,6 +1296,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L259:
+
+> This report contains, and from time to time our management may make, forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934, each as amended. For these statements, we claim the protection of the safe harbor for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995. These forward-looking statements are subject to risks, uncertainties and assumptions. These statements are only predictions based on our current expectations and projections about future events. Important factors that could cause actual results, level of activity, performance or achievements to differ materially from those indicated by such forward-looking statements include, but are not limited to: incurrence of net losses, fluctuations in quarterly and annual results, adverse economic or market conditions, our expectations with respect to future levels of assets under management, inflows and outflows, our ability to retain clients, our ability to maintain our fee structure, our particular choices regarding investment strategies employed, our ability to hire and retain qualified investment professionals, the cost of complying with current and future regulations coupled with the cost of defending ourselves from related investigations or litigation, failure of our operational safeguards … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1232,25 +1309,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1314,9 +1391,13 @@ Latest 50 filing metadata records of 550 retained records. A filing link is evid
 | 2025-05-02 | SCHEDULE 13G/A | 0000919574-25-002744 | — | [S66] |
 | 2025-04-30 | ARS | 0000950170-25-061077 | — | [S67] |
 
+Source excerpt — DEF 14A, filed 2026-04-30, L311:
+
+> The Board is divided into three staggered classes of directors of the same or nearly the same number and each director is assigned to one of the three classes. At each annual meeting of the stockholders, a class of directors will be elected for a three-year term to succeed the directors of the same class whose terms are then expiring. The term of the current Class I director expires upon the election and qualification of a successor director at this year’s Annual Meeting. The term of the Class I director elected at this year’s Annual Meeting will expire upon the election and qualification of a successor director at the annual meeting of stockholders to be held during the year 2029. The terms of the other directors expire upon the election and qualification of successor directors at the annual meeting of stockholders to be held during the years 2027 for the Class II directors and 2028 for the Class III directors. [S70]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001549966.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1450,4 +1531,16 @@ Latest 50 filing metadata records of 550 retained records. A filing link is evid
 
 [S67] [ARS 0000950170-25-061077](https://www.sec.gov/Archives/edgar/data/1549966/000095017025061077/0000950170-25-061077-index.html) — published 2025-04-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S68] [8-K 0001193125-26-430468](https://www.sec.gov/Archives/edgar/data/1549966/000119312526430468/samg-20261023.htm) — published 2026-10-23; retrieved 2026-10-31T15:38:52.418786+00:00.
+
+[S69] [10-Q 0001193125-26-326191](https://www.sec.gov/Archives/edgar/data/1549966/000119312526326191/samg-20260630.htm) — published 2026-07-30; retrieved 2026-10-31T15:38:50.522695+00:00.
+
+[S70] [DEF 14A 0001193125-26-197178](https://www.sec.gov/Archives/edgar/data/1549966/000119312526197178/samg-20260420.htm) — published 2026-04-30; retrieved 2026-10-31T15:38:48.847513+00:00.
+
+[S71] [10-K 0001193125-26-108402](https://www.sec.gov/Archives/edgar/data/1549966/000119312526108402/samg-20251231.htm) — published 2026-03-16; retrieved 2026-10-31T15:38:46.902945+00:00.
+
+[S72] [8-K/A 0001564590-19-034712](https://www.sec.gov/Archives/edgar/data/1549966/000156459019034712/samg-8ka_20190701.htm) — published 2019-09-13; retrieved 2026-10-31T15:38:45.052298+00:00.
+
+[S73] [8-K/A 0001564590-15-005955](https://www.sec.gov/Archives/edgar/data/1549966/000156459015005955/samg-8ka_20150731.htm) — published 2015-08-03; retrieved 2026-10-31T15:38:43.475014+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.
