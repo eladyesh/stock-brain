@@ -8,11 +8,11 @@ tickers:
 - RIBB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -65,8 +65,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
-  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
+  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0002035016.json
@@ -133,6 +133,18 @@ sources:
   published_at: '2026-03-31'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2035016/000121390026090076/ea0301991-10q_ribbon.htm
+  title: 10-Q 0001213900-26-090076
+  published_at: '2026-08-14'
+  retrieved_at: '2026-10-31T15:37:21.406449+00:00'
+  sha256: d47c426e268ca4392749654b4411e4fa394a07fca2f927a91f8b785d1caf7632
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/2035016/000121390026037440/ea0283868-10k_ribbon.htm
+  title: 10-K 0001213900-26-037440
+  published_at: '2026-03-31'
+  retrieved_at: '2026-10-31T15:37:18.275107+00:00'
+  sha256: d3d62cc59401b67a8e9c58f690616ac01894499da66521914b9e549b758732ca
 issuer_classification:
   cik: '0002035016'
   classification_status: reported_sic
@@ -179,13 +191,19 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2035016/000121390026003388/0001213900-26-003388-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3c019bd859834bc1450e76b41064357d12c441b644525a0faf30638f5874a608
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -197,15 +215,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RIBB/README.md
-full_history_commit: 1b4771bc41dec553e210323f72d9bfc908288c04
+full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RIBB/README.md
+full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RIBB — Ribbon Acquisition Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RIBB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RIBB/README.md)
 
 ## Business overview
 
@@ -219,9 +237,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L668:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart our Business Startups Act of 2012, (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S61]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-31, L412:
+
+> \| Established businesses with long-term financial visibility. We will seek to acquire a target that has already generated, or has the near-term potential to generate, strong and stable cash flow, with predictable and recurring revenue streams. [S63]
 
 ## Products and services
 
@@ -242,6 +268,10 @@ Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-14, L641:
+
+> The obligations of the Company to consummate the Business Combination are further subject to additional conditions, including, among other things: (i) material compliance by DRC Company Parties with its agreements and covenants under the Business Combination Agreement; (ii) the truth and accuracy of the representations and warranties of DRC Company Parties, subject to customary bring-down standards; (iii) no Material Adverse Effect (as defined in the Business Combination Agreement) having occurred since the date of the Business Combination Agreement that is continuing; (iv) delivery of a certificate executed by the Chief Executive Officer or Chief Financial Officer of DRC Company Parties certifying compliance with specified closing conditions; (v) the termination of certain agreements among DRC Company Parties and its stockholders; (vi) receipt of required third-party consents; (vii) execution and delivery of Non-Competition Agreements by certain key employees of DRC Company Parties; and (viii) execution and delivery of a Lock-Up Agreement by DRC Company Parties’ securityholders and the Company’s Sponsor along other ancillary agreements to the Business Combination Agreement. [S61]
 
 ## Moat and differentiation
 
@@ -350,6 +380,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L595:
+
+> The Company has until January 16, 2027 (the “Combination Period”) to complete the initial Business Combination. If the Company has not completed the initial Business Combination within the Combination Period, the Company will: (i) cease all operations except for the purpose of winding up, (ii) as promptly as reasonably possible but not more than ten business days thereafter, subject to lawfully available funds therefor, redeem 100% of the public shares, at a per-share price, payable in cash, equal to the aggregate amount then on deposit in the Trust Account, including interest (net of taxes payable) divided by the number of then issued and outstanding public shares, which redemption will completely extinguish public shareholders’ rights as shareholders (including the right to receive further liquidation distributions, if any), subject to applicable law, and (iii) as promptly as reasonably possible following such redemption, subject to the approval of the Company’s remaining shareholders and the Company’s board of directors, liquidate and dissolve, subject in the case of clauses (ii) and (iii), to the Company’s obligations under Cayman Islands law to provide for claims of creditors and the requirements of other applicable law. The Company’s initial shareholders have agreed to waive their rights to share in any distribution from the trust account with respect to their initial … [S61]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -362,6 +396,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L641:
+
+> The obligations of the Company to consummate the Business Combination are further subject to additional conditions, including, among other things: (i) material compliance by DRC Company Parties with its agreements and covenants under the Business Combination Agreement; (ii) the truth and accuracy of the representations and warranties of DRC Company Parties, subject to customary bring-down standards; (iii) no Material Adverse Effect (as defined in the Business Combination Agreement) having occurred since the date of the Business Combination Agreement that is continuing; (iv) delivery of a certificate executed by the Chief Executive Officer or Chief Financial Officer of DRC Company Parties certifying compliance with specified closing conditions; (v) the termination of certain agreements among DRC Company Parties and its stockholders; (vi) receipt of required third-party consents; (vii) execution and delivery of Non-Competition Agreements by certain key employees of DRC Company Parties; and (viii) execution and delivery of a Lock-Up Agreement by DRC Company Parties’ securityholders and the Company’s Sponsor along other ancillary agreements to the Business Combination Agreement. [S61]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -371,25 +409,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -411,7 +449,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002035016.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -435,6 +473,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S31] [10-K 0001213900-26-037440](https://www.sec.gov/Archives/edgar/data/2035016/000121390026037440/0001213900-26-037440-index.html) — published 2026-03-31; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RIBB/README.md).
+[S61] [10-Q 0001213900-26-090076](https://www.sec.gov/Archives/edgar/data/2035016/000121390026090076/ea0301991-10q_ribbon.htm) — published 2026-08-14; retrieved 2026-10-31T15:37:21.406449+00:00.
+
+[S63] [10-K 0001213900-26-037440](https://www.sec.gov/Archives/edgar/data/2035016/000121390026037440/ea0283868-10k_ribbon.htm) — published 2026-03-31; retrieved 2026-10-31T15:37:18.275107+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RIBB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

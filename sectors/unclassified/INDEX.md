@@ -4,9 +4,9 @@
 
 [All sectors](../README.md) · [Master index](../../INDEX.md)
 
-Factual files: **1044**. Curated profiles: **0**. Reviewed research: **0**.
+Factual files: **1045**. Curated profiles: **0**. Reviewed research: **0**.
 
-Data release: `coverage-20261030-41085569265-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
+Data release: `coverage-20261031-41214572563-1`. Provisional SIC groupings are not official GICS classifications. Factual profiles remain stubs and do not enter reviewed retrieval. Counts can overlap: a researched company also has a separate factual file.
 
 ## Factual company files
 
@@ -519,6 +519,7 @@ Data release: `coverage-20261030-41085569265-1`. Provisional SIC groupings are n
 | [JGH](facts/JGH/README.md) | Nuveen Global High Income Fund | missing | unresolved |
 | [JHI](facts/JHI/README.md) | JOHN HANCOCK INVESTORS TRUST | missing | unresolved |
 | [JHS](facts/JHS/README.md) | JOHN HANCOCK INCOME SECURITIES TRUST | missing | unresolved |
+| [JKS](facts/JKS/README.md) | Jinko Holdings Ltd | missing | unresolved |
 | [JLS](facts/JLS/README.md) | Nuveen Mortgage & Income Fund/MA/ | missing | unresolved |
 | [JMM](facts/JMM/README.md) | Nuveen Multi-Market Income Fund | missing | unresolved |
 | [JOF](facts/JOF/README.md) | JAPAN SMALLER CAPITALIZATION FUND INC | missing | unresolved |

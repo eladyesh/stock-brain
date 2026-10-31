@@ -8,11 +8,11 @@ tickers:
 - RTO
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -59,8 +59,8 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:12.358089+00:00'
-  sha256: a960a0bfc5439fac9e467fe07ef1f44afe893ba2afc3297648321a80ce09971e
+  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000930157.json
@@ -97,6 +97,12 @@ sources:
   published_at: '2026-09-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/rto-20251231x20f.htm
+  title: 20-F 0001104659-26-034062
+  published_at: '2026-03-25'
+  retrieved_at: '2026-10-31T15:38:18.029457+00:00'
+  sha256: c037b351bf396f665fd939c5811271d7350757538939082b1eaabcf9936a2a41
 issuer_classification:
   cik: 0000930157
   classification_status: reported_sic
@@ -132,13 +138,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/930157/000165495422014527/0001654954-22-014527-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 456fdc224a2b459f5c174c192204d68ef388470afcd4f72a1d201f1bd40374ff
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-10-31T15:34:51.132722+00:00'
+  last_success_at: '2026-10-31T15:34:51.132722+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -153,15 +170,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000930157.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RTO/README.md
-full_history_commit: 1b4771bc41dec553e210323f72d9bfc908288c04
+full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RTO/README.md
+full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RTO — RENTOKIL INITIAL PLC /FI
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RTO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RTO/README.md)
 
 ## Business overview
 
@@ -175,17 +192,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-03-25, L220:
+
+> \| \| ● \| our ability to attract, retain and develop key personnel to lead our business; [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-03-25, L10241:
+
+> Disaggregation of revenue into region, category, and major type of revenue stream is shown below under segment reporting. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-03-25, L437:
+
+> Our ability to maintain our customer service and execute our business strategy depends on our ability to attract and retain a suitably skilled and qualified labour force. There can be no assurance that we will be able to recruit, train and retain such a labour force in sufficient numbers or of sufficient quality, or that pressure to recruit will not lead to a significant increase in employee costs. In markets where overall employment rates are high, and/or our business is growing quickly, either organically or through acquisitions, we may have difficulties attracting, training and retaining operational personnel of suitable capability. In addition, changes in the global job market may cause, or continue to cause, difficulty in recruiting, training and retaining a suitably skilled and qualified labour force. As a result, we could experience difficulty in responding to customer calls in a timely fashion or delivering our services in a high-quality or timely manner, and could be forced to increase wages to attract, train and retain colleagues, which would result in higher operating costs and reduced profitability. Any of these factors may have a material adverse effect on our business, reputation, results of operations, financial condition and/or prospects. [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-03-25, L226:
+
+> \| \| ● \| weakening general economic conditions, including changes in the global job market or decreased consumer confidence or spending levels, especially as they may affect demand from our customers; [S54]
 
 ## Industry and value chain
 
@@ -193,19 +226,35 @@ SEC-reported SIC **8741**: Services-Management Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-03-25, L232:
+
+> \| \| ● \| supply chain issues, which may result in product shortages, cost increases or other disruptions to our business; [S54]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-03-25, L438:
+
+> Moreover, some of our colleagues are members of local trade unions and similar organisations. Industrial action in key operations could result in diminished customer service levels or higher costs and, if prolonged, could damage our reputation and ability to retain existing customers or acquire new customers. Although we believe that all of our operations have good relations with their colleagues and the trade unions that represent those colleagues (where applicable), there can be no assurance that work stoppages or other labour-related developments (including the introduction of new labour regulations in countries where we operate) will not adversely affect our business, reputation, results of operations, financial condition and/or prospects. In addition, potential competition from key colleagues who leave Rentokil Initial could impact our ability to maintain our market share in certain geographic areas. [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-03-25, L233:
+
+> \| \| ● \| our ability to protect our intellectual property and other proprietary rights that are material to our business; [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-03-25, L427:
+
+> In addition, we have sold a number of our businesses in the past and expect to continue to dispose of businesses from time to time if consistent with our strategy. For example, the Group completed the disposal of its Workwear business in France to H.I.G. Capital on 30 September 2025. Under business sale contracts, we may provide warranties and indemnities to purchasers. Accordingly, we may make provisions in our consolidated financial statements for potential liabilities and costs relating to a disposed business. We may also make provisions in our consolidated financial statements for amounts to cover legal or regulatory claims which are known to be outstanding at the time of sale or which may subsequently become apparent. There can be no assurance that such provisions will be sufficient to cover potential liabilities and consequently disposals of our businesses may have a material adverse effect on our business, reputation, results of operations, financial condition and/or prospects. [S54]
 
 ## Financial performance
 
@@ -219,6 +268,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-03-25, L172:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b).◻ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -230,6 +283,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-03-25, L247:
+
+> Further details on the principal risks that may affect the Group can be found in the “Risks and Uncertainties” section detailed on pages 68 to 70 and the left column on page 71 and under the heading “Strategic Report—Responsible Business—Climate-related risk management” on page 62 (in relation to climate-related risks), in each case of the Company’s Annual Report 2025 included as exhibit 15.1 to this Form 20-F, as well as on pages F-51 to F-54 (in relation to financial risks) and under the heading Item 3.D “Risk Factors”, in each case of this Form 20-F. [S54]
 
 ## Scenarios and open questions
 
@@ -243,25 +300,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -283,7 +340,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:12.358089+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000930157.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -297,6 +354,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001654954-26-008651](https://www.sec.gov/Archives/edgar/data/930157/000165495426008651/0001654954-26-008651-index.html) — published 2026-09-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/RTO/README.md).
+[S54] [20-F 0001104659-26-034062](https://www.sec.gov/Archives/edgar/data/930157/000110465926034062/rto-20251231x20f.htm) — published 2026-03-25; retrieved 2026-10-31T15:38:18.029457+00:00.
+
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/RTO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

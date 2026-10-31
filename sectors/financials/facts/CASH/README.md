@@ -8,11 +8,11 @@ tickers:
 - CASH
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-30'
-updated_at: '2026-10-30T16:05:25.650854+00:00'
+as_of: '2026-10-31'
+updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
-coverage_release: coverage-20261030-41085569265-1
-source_commit: f9a34108789a82bf7c75f9d65a0e9552aa5552db
+coverage_release: coverage-20261031-41214572563-1
+source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -84,8 +84,8 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-30T16:00:11.183681+00:00'
-  sha256: 64301e84a89de015f12206ec26fa4a677c38e33277e47d0b3a6b91e370e8d274
+  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
   url: https://data.sec.gov/submissions/CIK0000907471.json
@@ -208,15 +208,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000907471.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/CASH/README.md
-full_history_commit: 1b4771bc41dec553e210323f72d9bfc908288c04
+full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/CASH/README.md
+full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # CASH — PATHWARD FINANCIAL, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/CASH/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/CASH/README.md)
 
 ## Business overview
 
@@ -431,7 +431,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-30T16:00:11.183681+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000907471.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -453,6 +453,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S19] [4 0001768567-26-000004](https://www.sec.gov/Archives/edgar/data/907471/000176856726000004/0001768567-26-000004-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261030-41085569265-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1b4771bc41dec553e210323f72d9bfc908288c04/brain/companies/CASH/README.md).
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/CASH/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
