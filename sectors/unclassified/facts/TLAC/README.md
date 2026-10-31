@@ -12,7 +12,7 @@ as_of: '2026-10-31'
 updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
 coverage_release: coverage-20261031-41214572563-1
-source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
+source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -126,15 +126,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/TLAC/README.md
-full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
+full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TLAC/README.md
+full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # TLAC — Three Lions Acquisition Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/TLAC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TLAC/README.md)
 
 ## Business overview
 
@@ -270,6 +270,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [SCHEDULE 13G 0000902664-26-003771](https://www.sec.gov/Archives/edgar/data/2128462/000090266426003771/0000902664-26-003771-index.html) — published 2026-09-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/TLAC/README.md).
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TLAC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

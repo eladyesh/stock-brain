@@ -12,7 +12,7 @@ as_of: '2026-10-31'
 updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
 coverage_release: coverage-20261031-41214572563-1
-source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
+source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -166,15 +166,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001619544.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/JFU/README.md
-full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
+full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/JFU/README.md
+full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # JFU — 9F Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/JFU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/JFU/README.md)
 
 ## Business overview
 
@@ -352,6 +352,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [20-F 0001213900-26-050184](https://www.sec.gov/Archives/edgar/data/1619544/000121390026050184/ea0285067-20f_9finc.htm) — published 2026-04-30; retrieved 2026-10-28T16:24:59.046274+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/JFU/README.md).
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/JFU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

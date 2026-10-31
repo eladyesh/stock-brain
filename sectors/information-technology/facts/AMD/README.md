@@ -12,10 +12,10 @@ as_of: '2026-10-31'
 updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
 coverage_release: coverage-20261031-41214572563-1
-source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
+source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/e900d91bfb56607a6ce8cdc654d8694135f95645/sectors/information-technology/companies/AMD/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/8081407561667f8ebe7ff1552fb3fec9d59d7758/sectors/information-technology/companies/AMD/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -219,16 +219,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/e900d91bfb56607a6ce8cdc654d8694135f95645/sectors/information-technology/companies/AMD/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/AMD/README.md
-full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
+  source_url: https://github.com/eladyesh/stock-brain/blob/8081407561667f8ebe7ff1552fb3fec9d59d7758/sectors/information-technology/companies/AMD/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/AMD/README.md
+full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMD — ADVANCED MICRO DEVICES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/AMD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/AMD/README.md)
 
 ## Business overview
 
@@ -419,7 +419,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:27:06.478312+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/e900d91bfb56607a6ce8cdc654d8694135f95645/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/8081407561667f8ebe7ff1552fb3fec9d59d7758/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -483,6 +483,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [144 0001950047-26-009483](https://www.sec.gov/Archives/edgar/data/2488/000195004726009483/0001950047-26-009483-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/AMD/README.md).
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/AMD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-10-31'
 updated_at: '2026-10-31T15:28:34.866331+00:00'
 reviewed_at: null
 coverage_release: coverage-20261031-41214572563-1
-source_commit: e900d91bfb56607a6ce8cdc654d8694135f95645
+source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -221,15 +221,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001781755.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/BWIN/README.md
-full_history_commit: a9ef625895af1155648871f95420641ee0ec60f4
+full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/BWIN/README.md
+full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # BWIN — Baldwin Insurance Group, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/BWIN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/BWIN/README.md)
 
 ## Business overview
 
@@ -457,6 +457,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [SCHEDULE 13G/A 0000315066-26-002344](https://www.sec.gov/Archives/edgar/data/1781755/000031506626002344/0000315066-26-002344-index.html) — published 2026-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/a9ef625895af1155648871f95420641ee0ec60f4/brain/companies/BWIN/README.md).
+Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/BWIN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
