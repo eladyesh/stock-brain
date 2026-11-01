@@ -8,11 +8,11 @@ tickers:
 - UMC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -56,7 +56,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  retrieved_at: '2026-11-01T16:07:03.340031+00:00'
   sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
@@ -94,6 +94,12 @@ sources:
   published_at: '2026-10-05'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm
+  title: 20-F 0001193125-26-193757
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-01T16:23:01.301927+00:00'
+  sha256: fb5209e4f5b516ff0b6ab257880715b120d3e6e2f77da288a3f27a24348d10e0
 issuer_classification:
   cik: '0001033767'
   classification_status: reported_sic
@@ -137,13 +143,23 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1033767/000130901413000658/0001309014-13-000658-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 41f99ac6e9a88513f83955edd5db9bfa08f3eabddb3a61d2d28acc167126e711
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -158,15 +174,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001033767.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UMC/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UMC/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # UMC — UNITED MICROELECTRONICS CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UMC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UMC/README.md)
 
 ## Business overview
 
@@ -180,6 +196,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-30, L499:
+
+> Our disclosure and analysis in this Annual Report contain or incorporate by reference some forward-looking statements. We have based these forward-looking statements on our current expectations and projections about future events. You can identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. The words “may,” “will,” “is/are likely to,” “anticipate,” “believe,” “estimate,” “expect,” “intend,” “plan” and similar expressions are intended to identify a number of these forward-looking statements. Forward-looking statements in this Annual Report include, but are not limited to, statements regarding our business strategies and future plans, anticipated business condition and financial results, our capital expenditure plans, our capacity management plans, expectations as to the capabilities of our technologies and manufacturing process, technological upgrades, investment in research and development, future market demand, regulatory or other developments in our industry, business expansion plans or new investments as well as business acquisitions and financing plans. Please see “Item 3. Key Information—D. Risk Factors” for a further discussion of certain factors that may cause actual results to differ materially from those indicated by our forward-looking statements. Although we believe that these expectations and projections … [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -188,9 +208,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-30, L737:
+
+> In addition, even when these crises have abated, there could be lingering effects from these types of crises on our business, including a significant reduction in orders from our customers, insolvency of key suppliers resulting in product delays, inability of customers to obtain credit to finance purchases of our products, customer insolvencies and bankruptcies, and counterparty failures negatively impacting our treasury operations. Any future systemic political, economic or financial crisis could cause revenues for the semiconductor industry as a whole to decline dramatically, and if the economic condition or financial condition of our customers were to deteriorate, additional accounting related allowances may be required in the future and such additional allowances could increase our operating expenses and therefore reduce our operating income and net income. Any disruption in global trade conditions such as an increase in tariffs or the escalation of regional trade tensions will indirectly impact the global business environment which may adversely impact our business, results of operations and financial condition. [S55]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-30, L736:
+
+> In recent times, several major systemic economic and financial crises have negatively affected global business, banking and financial sectors, including the semiconductor industry and markets. These types of crises cause turmoil in global markets that often result in declines in electronic product sales from which we generate our income through our goods and services. In addition, these crises may cause various indirect effects such as undermining the ability of our customers to remain competitive when faced with the financial and economic challenges created by adverse political and macroeconomic conditions and by companies struggling to survive in the wake of these crises. For example, beginning in early 2023, the semiconductor industry was affected by an economic downturn that resulted in reduced demand for consumer electronics and other products incorporating semiconductors, which in turn affected our business operations and financial condition. While there were signs of recovery since 2024, the industry continued to face challenges from global economic uncertainties. [S55]
 
 ## Industry and value chain
 
@@ -198,19 +226,35 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-30, L769:
+
+> our ability to obtain equipment, raw materials, electricity, water and other required utilities on a timely and economic basis; [S55]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-04-30, L810:
+
+> The semiconductor industry is characterized by rapidly evolving and constantly changing technology. If we do not anticipate the technology evolution and rapidly adopt new and innovative technology, we may not be able to produce sufficiently advanced services at competitive prices. Our competitors may adopt new technology before we do and reduce our ability to compete effectively in the market. If we are unable to begin offering advanced services and processes on a competitive and timely basis, we may lose customers to our competitors providing similar technologies, which may cause our operating revenues to decline unless we can replace lost customers with new customers. In addition, the market prices for advanced technology and services tend to fall over time. As a result, if we are unable to offer new advanced services and processes on a competitive and timely basis, we may need to reduce prices that we set for our existing services and processes, which would have a negative effect on our profitability. We also depend upon the introduction of new technologies on a timely basis in order to benefit from the relatively higher prices such new technologies offer in the earlier stages of their life cycles. If we are unable to introduce new technologies on a timely and competitive basis, we may not be able to benefit from the relatively higher prices for new technologies, and our … [S55]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-30, L813:
+
+> In addition, some of our customers rely upon third-party vendors, or intellectual property (IP) vendors, for the IP they embed into their designs. Although we work and collaborate with IP vendors with respect to such matters, there can be no guarantee that we will be successful or that the vendors will deliver according to our requirements or the needs of our customers. Failures to meet the targets or to deliver on a timely basis could cause customers to cancel orders and/or shift capacity to other suppliers. [S55]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-30, L964:
+
+> The success of our business depends upon attracting and retaining experienced executives, engineers and other employees to implement our strategy. The competition for skilled employees is intense in our industry, which is exacerbated by the shortage of qualified personnel with appropriate experiences and expertise. We expect demand for personnel in Taiwan to increase in the future as new wafer fabrication facilities and other businesses are established in Taiwan. We also expect demand for experienced personnel in other locations to increase significantly as our competitors establish and expand their operations. Some of our competitors are willing to offer better compensation than what we do to our executives, engineers and other employees. We do not have long-term employment contracts with any of our employees. If we were unable to retain our existing personnel or attract, assimilate and recruit new experienced personnel in the future, it could seriously disrupt our operations and delay or restrict the growth of our business. [S55]
 
 ## Financial performance
 
@@ -224,6 +268,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-04-30, L127:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -235,6 +283,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-30, L499:
+
+> Our disclosure and analysis in this Annual Report contain or incorporate by reference some forward-looking statements. We have based these forward-looking statements on our current expectations and projections about future events. You can identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. The words “may,” “will,” “is/are likely to,” “anticipate,” “believe,” “estimate,” “expect,” “intend,” “plan” and similar expressions are intended to identify a number of these forward-looking statements. Forward-looking statements in this Annual Report include, but are not limited to, statements regarding our business strategies and future plans, anticipated business condition and financial results, our capital expenditure plans, our capacity management plans, expectations as to the capabilities of our technologies and manufacturing process, technological upgrades, investment in research and development, future market demand, regulatory or other developments in our industry, business expansion plans or new investments as well as business acquisitions and financing plans. Please see “Item 3. Key Information—D. Risk Factors” for a further discussion of certain factors that may cause actual results to differ materially from those indicated by our forward-looking statements. Although we believe that these expectations and projections … [S55]
 
 ## Scenarios and open questions
 
@@ -248,25 +300,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -288,7 +340,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.340031+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001033767.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -302,6 +354,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001193125-26-413371](https://www.sec.gov/Archives/edgar/data/1033767/000119312526413371/0001193125-26-413371-index.html) — published 2026-10-05; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UMC/README.md).
+[S55] [20-F 0001193125-26-193757](https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm) — published 2026-04-30; retrieved 2026-11-01T16:23:01.301927+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UMC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

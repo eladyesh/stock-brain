@@ -8,11 +8,11 @@ tickers:
 - VAI
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,7 +75,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -137,6 +137,24 @@ sources:
   published_at: '2026-06-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1711012/000121390026112097/ea0309479-8k_valor.htm
+  title: 8-K 0001213900-26-112097
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:24:06.330983+00:00'
+  sha256: 1f6289b345c27e2cde5fbd2b4e20f72dc2a32440e0628d4feecc24dee0e93d72
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1711012/000121390026090099/ea0300866-10q_senmiao.htm
+  title: 10-Q 0001213900-26-090099
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-01T16:24:04.428255+00:00'
+  sha256: 3889ec69c7edeae42343a7633515824d875edd12cd7a483081a6e10881b57b59
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1711012/000121390026073684/ea0295105-10k_senmiao.htm
+  title: 10-K 0001213900-26-073684
+  published_at: '2026-06-30'
+  retrieved_at: '2026-11-01T16:24:01.624987+00:00'
+  sha256: d850fea831a886b39c9a6340dae8cb03fd525480b61fac26b49b69f373b7bc62
 issuer_classification:
   cik: '0001711012'
   classification_status: reported_sic
@@ -178,13 +196,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1711012/000114420418021631/0001144204-18-021631-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3a5a355991192aebc873f149ff83d56e57e445a815fa6fb174339175985a2229
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -199,15 +228,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001711012.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/VAI/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/VAI/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # VAI — Valor Energy Inc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/VAI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/VAI/README.md)
 
 ## Business overview
 
@@ -221,17 +250,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L75:
+
+> \| \| ● \| the regulations and the impact by public health epidemics in China on the industries we operate in and our business, results of operations and financial condition; [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1120:
+
+> In November 2023, the FASB issued ASU 2023-07, which is an update to Topic 280, Segment Reporting: Improvements to reportable Segment Disclosures (“ASU 2023-07”), which enhances the disclosure required for reportable segments in annual and interim consolidated financial statements, including additional, more detailed information about a reportable segment’s expenses. ASU 2023-07 is effective for fiscal years beginning after December 15, 2023, and interim periods within fiscal years beginning after December 15, 2024. Early adoption is permitted. The Company adopted ASU 2023-07 for the year ended March 31, 2025, retrospectively to all periods presented in the consolidated financial statement. The adoption of this ASU had no material impact on reportable segments identified and had no effect on the Company’s consolidated financial position, results of operations, or cash flows. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L83:
+
+> \| \| ● \| our expectations regarding demand for and market acceptance of our products and services; [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1562:
+
+> Our automobile transaction and related Services are mainly comprised of (i) automobile operating lease where we provide car rental services to individual customers to meet their personal needs with lease term no more than twelve months (the “Auto Operating Leasing”); (ii) service fees from new energy vehicles (“NEVs”) leasing where we charge NEVs lessees for a series of the services provided to them based on the chosen product solutions (the “Service for NEVs Leasing”); (iii)service fees from automobile purchase for a series of the services provided to purchasers throughout the purchase process based on the sales price of the automobiles and relevant services provided (the “ Service for Automobile Purchase”) ;(iv) monthly services where we provide management and related services to other online ride-hailing platforms we cooperated with (“Partner Platforms”) and other companies and earn commission from them (the “Auto Commissions”); (v) automobile financing where we provide our customers with auto finance solutions through finance leases (the “Auto Financing”); (vi) default fees we charges to the lessees for early-termination the contracts or other violation behaviors to the contracts (the “Default Revenue”); and (vii) other supporting services provided to customers, including auto management and other related services (the “Auto Management Services”) and automobile sales (the … [S70]
 
 ## Industry and value chain
 
@@ -239,19 +284,35 @@ SEC-reported SIC **7510**: Services-Auto Rental & Leasing (No Drivers). [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-06-30, L2447:
+
+> as BYD are not maintained on favorable terms, or if supply chain constraints limit NEV availability, [S71]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-14, L89:
+
+> \| \| ● \| competition in the online ride-hailing, automobile financing and leasing industries in China; [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-06-30, L1001:
+
+> profits, capital gains, income from disposition of assets, royalties of intellectual property rights, indemnity or compensation lawfully [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1559:
+
+> Starting in 2026, we began evaluating opportunities to expand its business into AI infrastructure. In furtherance of this initiative, we appointed David Nichols as a strategic advisor to assist us in advancing our strategy across AI infrastructure, digital infrastructure and new energy initiatives, with a particular focus on power infrastructure origination, capital formation and institutional partnerships. [S70]
 
 ## Financial performance
 
@@ -352,6 +413,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1357:
+
+> At the 2018 Annual Meeting of Stockholders of the Company held on November 8, 2018, the Company’s stockholders approved the Company’s 2018 Equity Incentive Plan for employees, officers, directors and consultants of the Company and its affiliates. In March 2023 and April 2024, the Annual Meeting of Stockholders of Company for the years ended March 31, 2022 and 2023 further approved the amendments to the 2018 Equity Incentive Plan, to increase the number of shares of common stock reserved under the Plan to 150,000 shares and 180,000 shares, respectively, giving retroactive effect to the twice 1-for-10 reverse stock splits on the Company’s common stock became effective on April 6, 2022 and July 29, 2025, respectively. A committee consisting of at least two independent directors would be appointed by the Board or in the absence of such a committee, the board of directors, will be responsible for the general administration of the Equity Incentive Plan. All awards granted under the Equity Incentive Plan will be governed by separate award agreements between the Company and the participants. As of June 30, 2026, the Company has granted an aggregate of 3,038 RSUs, among which, 2,645 RSUs were issued under the Equity Incentive Plan, 318 RSUs were vested but have not been issued while 75 RSUs were forfeited due to two directors ceased to serve on the board of the Company since November … [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -364,6 +429,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L108:
+
+> warranties and covenants, including, among other things, (a) the absence of any material adverse effect, and (b) the absence of legal [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -373,25 +442,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -413,7 +482,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001711012.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -435,6 +504,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S26] [10-K 0001213900-26-073684](https://www.sec.gov/Archives/edgar/data/1711012/000121390026073684/0001213900-26-073684-index.html) — published 2026-06-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/VAI/README.md).
+[S69] [8-K 0001213900-26-112097](https://www.sec.gov/Archives/edgar/data/1711012/000121390026112097/ea0309479-8k_valor.htm) — published 2026-10-23; retrieved 2026-11-01T16:24:06.330983+00:00.
+
+[S70] [10-Q 0001213900-26-090099](https://www.sec.gov/Archives/edgar/data/1711012/000121390026090099/ea0300866-10q_senmiao.htm) — published 2026-08-14; retrieved 2026-11-01T16:24:04.428255+00:00.
+
+[S71] [10-K 0001213900-26-073684](https://www.sec.gov/Archives/edgar/data/1711012/000121390026073684/ea0295105-10k_senmiao.htm) — published 2026-06-30; retrieved 2026-11-01T16:24:01.624987+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/VAI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

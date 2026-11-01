@@ -8,11 +8,11 @@ tickers:
 - SUNB
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -63,7 +63,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  retrieved_at: '2026-11-01T16:07:03.340031+00:00'
   sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
@@ -119,6 +119,30 @@ sources:
   published_at: '2026-09-22'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/2083785/000119312526430618/d418170d8ka.htm
+  title: 8-K/A 0001193125-26-430618
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:19:50.076061+00:00'
+  sha256: 9ac3ec870d87b2ebe95419a10e3f273ac820d2eedc8a07ac77125e9957c7f5af
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/2083785/000162828026061146/snblt-20260731.htm
+  title: 10-Q 0001628280-26-061146
+  published_at: '2026-09-09'
+  retrieved_at: '2026-11-01T16:19:48.227584+00:00'
+  sha256: 1a352c992981c0549ee0912266ed5b838fb1c6461789e120bf12b3b98b0a8d5e
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/2083785/000119312526310387/d63647ddef14a.htm
+  title: DEF 14A 0001193125-26-310387
+  published_at: '2026-07-21'
+  retrieved_at: '2026-11-01T16:19:44.362151+00:00'
+  sha256: a504d9a08028fcce66c66a2ce338ace02df395ac088f548192dba7bd1573d1dc
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2083785/000162828026044888/snblt-20260430.htm
+  title: 10-K 0001628280-26-044888
+  published_at: '2026-06-23'
+  retrieved_at: '2026-11-01T16:19:42.284617+00:00'
+  sha256: 8ef428d6b34aab41ec7ad6f3478c8cb53955a72fb7cc37c7f7991ea26ddffaaa
 issuer_classification:
   cik: 0002083785
   classification_status: reported_sic
@@ -160,13 +184,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2083785/000119312526430618/0001193125-26-430618-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9a755b90ba8c47bac85e3676a719483b2dad80cea75be7870225233615bc62b3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -181,15 +216,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002083785.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/SUNB/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/SUNB/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # SUNB — Sunbelt Rentals Holdings, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/SUNB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/SUNB/README.md)
 
 ## Business overview
 
@@ -203,17 +238,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-09, L177:
+
+> This quarterly report on Form 10-Q contains forward-looking statements within the meaning of the “safe harbor” provisions of the Private Securities Litigation Reform Act of 1995. Such statements can be identified by the use of forward-looking terminology such as “believe,” “expect,” “may,” “will,” “should,” “seek,” “on-track,” “plan,” “project,” “forecast,” “intend” or “anticipate,” or the negative thereof or comparable terminology, or by discussions of strategy or outlook. You are cautioned that our business and operations are subject to a variety of risks and uncertainties, many of which are beyond our control, and, consequently, our actual results may differ materially from those projected. [S59]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-09, L1151:
+
+> Revenues by reportable segment are presented in Note 5 of the condensed consolidated financial statements, using the revenue captions reflected in our condensed consolidated statements of income. [S59]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-09, L185:
+
+> •changes in the rental rates that we can charge for the equipment in our rental fleet or our services; [S59]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-09, L180:
+
+> •the impact of global economic conditions (including inflation, interest rates, supply chain constraints, tariffs, trade wars and sanctions) and geopolitical risks (including risks related to international conflicts) on us, our customers and our suppliers, in the United States and the rest of the world; [S59]
 
 ## Industry and value chain
 
@@ -221,19 +272,35 @@ SEC-reported SIC **7359**: Services-Equipment Rental & Leasing, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-09, L180:
+
+> •the impact of global economic conditions (including inflation, interest rates, supply chain constraints, tariffs, trade wars and sanctions) and geopolitical risks (including risks related to international conflicts) on us, our customers and our suppliers, in the United States and the rest of the world; [S59]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-07-21, L1770:
+
+> The Code requires compliance with standards relating to conflicts of interest, protection of company assets and confidential information, accurate recordkeeping, fair competition, anti-bribery and corruption, insider trading, and appropriate public communications. It also establishes expectations for lawful and ethical interactions with customers, suppliers, business partners, and government entities. [S60]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-06-23, L318:
+
+> Investing in the best systems. Our competitive advantage also depends on having the right systems and applications to allow our staff to deliver the highest standards of service. We make use of what we believe is industry-leading technology to further differentiate our service and capitalize on growth opportunities in the marketplace, including mobile apps and websites where customers can, among other things, manage their accounts and track deliveries, as well as systems and tools aimed to optimize our workflows (see “—Information Technology” below). [S61]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-09, L2322:
+
+> at which the record of the register of the Ashtead Shareholders was taken. The Redomiciliation and the U.S. Listing did not result in any changes in the day-to-day operations of our business, our strategy or our total issued share capital. Sunbelt Rentals common stock began trading on the NYSE on March 2, 2026. [S59]
 
 ## Financial performance
 
@@ -334,6 +401,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-10-23, L84:
+
+> This Current Report on Form 8-K/A (this “Amendment”) amends the Current Report on Form 8-K of Sunbelt Rentals Holdings, Inc., a Delaware corporation (the “Company” or “Sunbelt”) filed with the U.S. Securities and Exchange Commission on September 2, 2026 (the “Original Form 8-K”). The Original Form 8-K reported the final voting results of the Company’s 2026 Annual Meeting of Stockholders held on September 1, 2026 (the “Annual Meeting”). The sole purpose of this Amendment is to disclose the Company’s decision regarding whether stockholder votes to approve the compensation of its named executive officers required by Section 14A(a)(1) of the Securities Exchange Act of 1934, as amended, and Rule 14a-21(a) promulgated thereunder (the “Say-on-Pay Vote”) should be held every one, two or three years (the “Say-on-Frequency Proposal”). No other changes have been made to the Original Form 8-K. [S57]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -346,6 +417,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-09, L1168:
+
+> Sales revenue is recognized when control of the asset transfers to the customer, which is typically when the asset is picked up by, or delivered to, the customer and when significant risks and rewards of ownership have passed to the customer. The Company routinely sells its used rental equipment in order to manage repair and maintenance costs, as well as the composition, age and size of its fleet. The Company disposes of used equipment through a variety of channels including retail sales to customers and other third parties, sales to wholesalers, brokered sales and auctions. Sales of rental equipment in connection with trade-in arrangements with certain manufacturers from whom the Company purchases new equipment is accounted for at the lower of transaction value or fair value based on independent appraisals. If the trade-in price of a unit of equipment exceeds the fair market value of that unit, the excess is accounted for as a reduction of the cost of the related purchase of new rental equipment. [S59]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -355,25 +430,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -395,7 +470,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.340031+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002083785.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -415,6 +490,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S11] [4 0001193125-26-398094](https://www.sec.gov/Archives/edgar/data/2083785/000119312526398094/0001193125-26-398094-index.html) — published 2026-09-22; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/SUNB/README.md).
+[S57] [8-K/A 0001193125-26-430618](https://www.sec.gov/Archives/edgar/data/2083785/000119312526430618/d418170d8ka.htm) — published 2026-10-23; retrieved 2026-11-01T16:19:50.076061+00:00.
+
+[S59] [10-Q 0001628280-26-061146](https://www.sec.gov/Archives/edgar/data/2083785/000162828026061146/snblt-20260731.htm) — published 2026-09-09; retrieved 2026-11-01T16:19:48.227584+00:00.
+
+[S60] [DEF 14A 0001193125-26-310387](https://www.sec.gov/Archives/edgar/data/2083785/000119312526310387/d63647ddef14a.htm) — published 2026-07-21; retrieved 2026-11-01T16:19:44.362151+00:00.
+
+[S61] [10-K 0001628280-26-044888](https://www.sec.gov/Archives/edgar/data/2083785/000162828026044888/snblt-20260430.htm) — published 2026-06-23; retrieved 2026-11-01T16:19:42.284617+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/SUNB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

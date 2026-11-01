@@ -8,11 +8,11 @@ tickers:
 - UYSC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -67,7 +67,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -129,6 +129,24 @@ sources:
   published_at: '2026-07-14'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/2036973/000118518526004933/uysc8k425102226.htm
+  title: 8-K 0001185185-26-004933
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:23:55.751566+00:00'
+  sha256: 191231865f805a2c5d52f82987abab50a60ae0e50c73f51553fbb4d967b0f4e2
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2036973/000118518526003499/uyscu10q063026.htm
+  title: 10-Q 0001185185-26-003499
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-01T16:23:54.119336+00:00'
+  sha256: 3f40531abbeeb119f31f18b52dde19656bc6ccbf7089363cf53de0a556369422
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/2036973/000118518526002932/uyscu10k033126.htm
+  title: 10-K 0001185185-26-002932
+  published_at: '2026-07-14'
+  retrieved_at: '2026-11-01T16:23:51.485970+00:00'
+  sha256: 31429c8b59c804c8c707049bfc6d0375fe9704b18f03cd6d7f40b4ae79320703
 issuer_classification:
   cik: 0002036973
   classification_status: reported_sic
@@ -166,13 +184,21 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2036973/000118518526004933/0001185185-26-004933-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d438edb67a3cea3ef0f19f7cfd479b3d6de097a8f633bb8a7e9c31860ddac15c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -184,15 +210,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UYSC/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UYSC/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # UYSC — UY Scuti Acquisition Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UYSC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UYSC/README.md)
 
 ## Business overview
 
@@ -206,9 +232,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1109:
+
+> as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS [S61]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L1143:
+
+> information with respect to separate divisions and does not have separate operating or reportable segments. Since the Company operates [S61]
 
 ## Products and services
 
@@ -230,13 +264,25 @@ Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 8-K, filed 2026-10-23, L190:
+
+> (8) the ability to realize the anticipated benefits of the business combination, which may be affected by, among other things, competition, [S60]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-07-14, L460:
+
+> with laws, including those relating to foreign corrupt practices and money laundering; (p) ownership of intellectual property; (q) customers [S62]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-07-14, L1801:
+
+> that represent challenges that we face in connection with the successful implementation of our strategy. The occurrence of one or more [S62]
 
 ## Financial performance
 
@@ -337,6 +383,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L152:
+
+> Merger Sub, and their respective directors, executive officers and employees and other persons may be deemed to be participants in the [S60]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -349,6 +399,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L2189:
+
+> of these factors could result in a significant or material adverse effect on our results of operations or financial condition. Additional [S61]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -358,25 +412,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -398,7 +452,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002036973.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -420,6 +474,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [10-K 0001185185-26-002932](https://www.sec.gov/Archives/edgar/data/2036973/000118518526002932/0001185185-26-002932-index.html) — published 2026-07-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/UYSC/README.md).
+[S60] [8-K 0001185185-26-004933](https://www.sec.gov/Archives/edgar/data/2036973/000118518526004933/uysc8k425102226.htm) — published 2026-10-23; retrieved 2026-11-01T16:23:55.751566+00:00.
+
+[S61] [10-Q 0001185185-26-003499](https://www.sec.gov/Archives/edgar/data/2036973/000118518526003499/uyscu10q063026.htm) — published 2026-08-13; retrieved 2026-11-01T16:23:54.119336+00:00.
+
+[S62] [10-K 0001185185-26-002932](https://www.sec.gov/Archives/edgar/data/2036973/000118518526002932/uyscu10k033126.htm) — published 2026-07-14; retrieved 2026-11-01T16:23:51.485970+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/UYSC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

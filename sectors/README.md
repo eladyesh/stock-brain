@@ -4,7 +4,7 @@
 
 [Master index](../INDEX.md) · [Coverage policy](../docs/BRAIN_MARKDOWN.md)
 
-Factual Markdown files in this branch: **5637**; financial history available: **4044**. Source release: `coverage-20261031-41214572563-1`, created 2026-10-31T15:28:34.866331+00:00.
+Factual Markdown files in this branch: **5637**; financial history available: **4044**. Source release: `coverage-20261101-41324509967-1`, created 2026-11-01T16:11:48.803754+00:00.
 
 Factual files are not completed research. Sector assignments from SIC are provisional project navigation rules; ambiguous industries and fund signals stay unclassified.
 

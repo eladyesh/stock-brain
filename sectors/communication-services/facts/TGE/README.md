@@ -8,11 +8,11 @@ tickers:
 - TGE
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -55,7 +55,7 @@ sources:
   title: otherlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:13.589303+00:00'
+  retrieved_at: '2026-11-01T16:07:03.340031+00:00'
   sha256: ee0a872edece98430f3ba5a1ed6e9c683d7a1bb4b2980bdc9743c6995f264398
 - id: S02
   title: SEC issuer submissions
@@ -141,15 +141,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002053456.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TGE/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/TGE/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # TGE — Generation Essentials Group
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TGE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/TGE/README.md)
 
 ## Business overview
 
@@ -271,7 +271,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:13.589303+00:00.
+[S01] [otherlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.340031+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002053456.json) — published not supplied; retrieved 2026-10-23T08:33:02.691743+00:00.
 
@@ -285,6 +285,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [424B3 0001213900-26-066273](https://www.sec.gov/Archives/edgar/data/2053456/000121390026066273/0001213900-26-066273-index.html) — published 2026-06-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/TGE/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/TGE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

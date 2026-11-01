@@ -8,11 +8,11 @@ tickers:
 - WDC
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -76,7 +76,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -138,6 +138,18 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm
+  title: 10-Q 0001628280-26-066933
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:24:50.978566+00:00'
+  sha256: d3b3ae4b3aa635c729b40639491ac9aafd657491c15f25c64473a38c5689d069
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/106040/000162828026064909/wdc-20261005.htm
+  title: DEF 14A 0001628280-26-064909
+  published_at: '2026-10-05'
+  retrieved_at: '2026-11-01T16:24:47.435827+00:00'
+  sha256: 85f21e1639f346f0e480d17c7d4e2aeafefa4c1b1b82b301808d6abc34ae6d40
 issuer_classification:
   cik: '0000106040'
   classification_status: reported_sic
@@ -191,13 +203,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/106040/000119312523026907/0001193125-23-026907-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 89a6a3a9dc923d65cb07d33f90cebeeb29b2a1b5849a63ab0a0f044e51ee0e90
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -212,15 +235,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000106040.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/WDC/README.md
-full_history_commit: 55a2fe56c449abe86c556158885afe76d4cc7995
+full_history_url: https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/WDC/README.md
+full_history_commit: 1ebb779d4f1de8aec808971f2f67b25a849b85a9
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WDC — WESTERN DIGITAL CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/WDC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/WDC/README.md)
 
 ## Business overview
 
@@ -234,17 +257,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L120:
+
+> You are urged to carefully review the disclosures we make concerning these risks and review the additional disclosures we make concerning material risks and other factors that may affect the outcome of our forward-looking statements and our business and operating results, including those made in Part I, Item 1A of our Annual Report on Form 10-K for the year ended July 3, 2026 (our “2026 Annual Report on Form 10-K”) and any of those made in our other reports filed with the Securities and Exchange Commission (“SEC”), including under “Risk Factors” in Item 1A of subsequent Annual Reports on Form 10-K and Quarterly Reports on Form 10-Q that may from time to time amend, supplement or supersede the risks and uncertainties disclosed in our 2026 Annual Report on Form 10-K. You are cautioned not to place undue reliance on the forward-looking statements included in this Quarterly Report on Form 10-Q, which speak only as of the date of this document. We do not intend, and undertake no obligation, to update or revise these forward-looking statements to reflect new information or events after the date of this document or to reflect the occurrence of unanticipated events, except as required by law. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L521:
+
+> The Company’s Chief Executive Officer is the Company’s Chief Operating Decision Maker (“CODM”). The CODM manages the business as a provider of data storage devices and solutions based on HDD technology. The CODM evaluates the performance of the Company and makes decisions regarding the allocation of resources based on the Company’s Net income and Total assets. The Company has therefore determined that it has one reportable segment: HDD. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1368:
+
+> Client revenue, representing 7% of total revenue, increased by 119% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by an approximately 15% increase in exabytes shipped and an approximately 90% increase in average selling price per exabyte. The increase in average selling price was driven by a shift in product mix to higher capacity drives and an improved pricing environment, while our exabytes shipped increase was driven by strong demand for our products. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-23, L465:
+
+> The Company manufactures, markets, and sells data storage devices and solutions globally through its sales personnel, dealers, distributors, retailers, and subsidiaries. Its extensive portfolio of technology and products addresses the following key end markets: “Cloud,” “Client,” and “Consumer.” Cloud is comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, the Company provides its original equipment manufacturer (“OEM”) and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market provides a wide range of retail and other end-user products, which capitalize on the strength of the Company’s product brand recognition and vast presence around the world. [S67]
 
 ## Industry and value chain
 
@@ -252,19 +291,35 @@ SEC-reported SIC **3572**: Computer Storage Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-05, L114:
+
+> We believe in leading by example and remain dedicated to operating responsibly by upholding integrity, accountability and transparency in everything we do. As AI infrastructure scales globally, we are closely overseeing material sustainability factors related to our business, such as energy demand, supply chain emissions, responsible sourcing and material use. [S69]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-10-23, L110:
+
+> •the competitive environment, including actions by our competitors and the impact of competitive products and pricing; [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1514:
+
+> In the ordinary course of business, we may provide indemnifications of varying scope and terms to customers, vendors, lessors, business partners and other parties with respect to certain matters, including, but not limited to, losses arising out of our breach of agreements, products or services to be provided by us, environmental compliance or from intellectual property infringement claims made by third parties. In addition, we have entered into indemnification agreements with our directors and certain of our officers that require us, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. We maintain director and officer insurance, which may cover certain liabilities arising from our obligation to indemnify our directors and officers in certain circumstances. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-10-05, L103:
+
+> As AI reshapes the global technology landscape, the need to store, protect, access and scale massive volumes of data has never been greater. WD is uniquely positioned at the center of that opportunity, with deep customer relationships, a leading high-capacity HDD portfolio, a technology roadmap designed to support the next generation of cloud and AI infrastructure and a strong team of Drivers. Business momentum is building across our entire portfolio, and our management team has executed on our strategy delivering strong revenue and margins amidst exceptional demand. Our focus on leading-edge innovation has been a driver of margin expansion and recognized in our relationships with hyperscaler and enterprise customers. [S69]
 
 ## Financial performance
 
@@ -392,6 +447,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L1194:
+
+> Under the Company’s share repurchase program, the Board of Directors has authorized the repurchase of up to $6.0 billion of the Company’s common stock (the “Share Repurchase Program”). There is no expiration date for the Share Repurchase Program. During the three months ended October 2, 2026, the Company repurchased 2.0 million shares under the Share Repurchase Program for a total cash cost of $1.00 billion. During the three months ended October 3, 2025, the Company repurchased 6.4 million shares under the Share Repurchase Program for a total cash cost of $553 million plus $4 million for accrued excise taxes. As of October 2, 2026, the Company had $2.26 billion available for repurchases pursuant to the Share Repurchase Program. Repurchases under the Share Repurchase Program may be made in the open market or in privately negotiated transactions and may be made under a Rule 10b5-1 plan. The Company expects shares repurchased under the Share Repurchase Program to be funded principally by operating cash flows. The amount and timing of share repurchases will depend on market conditions and other corporate considerations. The Company may suspend or discontinue the Share Repurchase Program at any time. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -404,6 +463,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L120:
+
+> You are urged to carefully review the disclosures we make concerning these risks and review the additional disclosures we make concerning material risks and other factors that may affect the outcome of our forward-looking statements and our business and operating results, including those made in Part I, Item 1A of our Annual Report on Form 10-K for the year ended July 3, 2026 (our “2026 Annual Report on Form 10-K”) and any of those made in our other reports filed with the Securities and Exchange Commission (“SEC”), including under “Risk Factors” in Item 1A of subsequent Annual Reports on Form 10-K and Quarterly Reports on Form 10-Q that may from time to time amend, supplement or supersede the risks and uncertainties disclosed in our 2026 Annual Report on Form 10-K. You are cautioned not to place undue reliance on the forward-looking statements included in this Quarterly Report on Form 10-Q, which speak only as of the date of this document. We do not intend, and undertake no obligation, to update or revise these forward-looking statements to reflect new information or events after the date of this document or to reflect the occurrence of unanticipated events, except as required by law. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -413,25 +476,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -451,7 +514,7 @@ Latest five available filing metadata records; document bodies have not been ana
 
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000106040.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -473,6 +536,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S65] [10-K 0001628280-26-057139](https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/0001628280-26-057139-index.html) — published 2026-08-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/55a2fe56c449abe86c556158885afe76d4cc7995/brain/companies/WDC/README.md).
+[S67] [10-Q 0001628280-26-066933](https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm) — published 2026-10-23; retrieved 2026-11-01T16:24:50.978566+00:00.
+
+[S69] [DEF 14A 0001628280-26-064909](https://www.sec.gov/Archives/edgar/data/106040/000162828026064909/wdc-20261005.htm) — published 2026-10-05; retrieved 2026-11-01T16:24:47.435827+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/1ebb779d4f1de8aec808971f2f67b25a849b85a9/brain/companies/WDC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
