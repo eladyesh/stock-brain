@@ -8,11 +8,11 @@ tickers:
 - SUNS
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -75,7 +75,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -437,6 +437,30 @@ sources:
   published_at: '2025-08-13'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/2012706/000162828026067043/suns-20261023.htm
+  title: 8-K 0001628280-26-067043
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:19:58.513967+00:00'
+  sha256: 3d59beb16f83aca8ba72ac7ccb7f9383f0d07bd60b0123e73c4a5194eece4514
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/2012706/000162828026053845/suns-20260630.htm
+  title: 10-Q 0001628280-26-053845
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-01T16:19:56.873421+00:00'
+  sha256: b5fa9b11d238d4bc920a6991b7358d11103ae27ba6bd7eb5e864b645086bd18f
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/2012706/000114036126014817/ny20067610x1_def14a.htm
+  title: DEF 14A 0001140361-26-014817
+  published_at: '2026-04-15'
+  retrieved_at: '2026-11-01T16:19:54.998037+00:00'
+  sha256: f3d345c810f573c7b046e75666335f9bf17f3a558580da549d498a4b702d91d1
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/2012706/000162828026017017/suns-20251231.htm
+  title: 10-K 0001628280-26-017017
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-01T16:19:53.016046+00:00'
+  sha256: e9920b601f3e8119ebefb1cfc2934b3d01a3df6470eed579a532b72e2c2a82cb
 issuer_classification:
   cik: '0002012706'
   classification_status: reported_sic
@@ -474,13 +498,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2012706/000162828026067043/0001628280-26-067043-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ec70f99c02947b4e125af7eda6423ebae78b121a622b62256bc8011d31b55231
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -504,9 +537,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L941:
+
+> •the state of the U.S. economy generally or in the specific geographic regions in which we operate, including as a result of the impact of natural disasters; [S63]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L910:
+
+> ASC 280, Segment Reporting, establishes standards for reporting financial and descriptive information about an enterprise’s reportable segments. The Company is an institutional lender that provides debt capital solutions to CRE markets in the Southern United States, with a primary focus on opportunities in Arizona, Florida, Georgia, Nevada, North Carolina, South Carolina, Tennessee and Texas. The Company generates revenue from originating and investing in secured CRE loans and providing capital to high-quality borrowers and sponsors with transitional business plans collateralized by CRE assets with opportunities for near-term value creation, as well as recapitalization opportunities. The accounting policies of the institutional lending segment are the same as those described in the summary of significant accounting policies. [S63]
 
 ## Products and services
 
@@ -522,17 +563,33 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-12, L641:
+
+> We may originate or acquire loans on transitional CRE properties to borrowers who are typically seeking capital for repositioning, renovation, rehabilitation, leasing, development, redevelopment or construction. The typical borrower under a loan on a transitional asset has usually identified an undervalued asset that has been under-managed and/or is located in an improving market. If the market in which the asset is located fails to materialize according to the borrower’s projections, or if the borrower fails to improve the quality of the asset’s management and/or the value of the asset, or if it costs the borrower more than estimated or takes longer to execute its business plan than estimated, including as a result of supply chain disruptions, the borrower may not receive a sufficient return on the asset to satisfy our loan or may experience a prolonged reduction of net operating income and may not be able to make payments on our loan on a timely basis or at all, which could materially and adversely affect us. Other risks may include: environmental risks, delays in legal and other approvals (e.g., certificates of occupancy), other construction and renovation risks and subsequent leasing of the property not being completed on schedule and general economic conditions. Accordingly, we bear the risk that we may not recover some or all of our loan unpaid principal balance and … [S65]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1036:
+
+> The results of our operations are affected by a number of factors and primarily depend on, among other things, the level of our net interest margin, the market value of our assets and the supply of, and demand for, commercial real estate debt and other financial assets in the marketplace. Our net interest margin, which includes the accretion and amortization of OID, is recognized based on the contractual rate and the outstanding principal balance of the loans we originate. Interest rates will vary according to the type of loan, conditions in the financial markets, creditworthiness of our borrowers, competition and other factors, some of which cannot be predicted with any certainty. Our operating results may also be impacted by credit losses in excess of initial anticipations or unanticipated credit events experienced by our borrowers. [S63]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-12, L359:
+
+> In the face of this competition, we have access to our Manager’s and TCG’s investment professionals and their financing industry expertise and relationships, which may provide us with a competitive advantage in competing effectively for attractive investment opportunities and help us assess risks and determine appropriate pricing for certain potential investments. We also believe we have a more flexible funding structure than our competitors with typical REIT land ownership models, given our ability to redeploy funds more quickly. The duration of our loans, as compared to the length of leases usually employed by REIT land ownership models, allows us to redeploy our capital with more flexibility as market changes occur instead of being locked in for longer periods of time. This model also allows our borrowers to retain control of their real estate assets, which is important to their businesses and allows for more flexibility regarding their capital structure. Although we believe our Manager’s expertise and our flexible funding structure provide us with valuable competitive advantages, we may not be able to achieve our business goals or expectations due to the competitive risks that we face. [S65]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-12, L538:
+
+> Our business and our ability to execute our strategy are subject to many risks. Before making a decision to invest in our common stock, you should carefully consider all of the risks and uncertainties described in the risks set forth below. These risks include, but are not limited to, the following: [S65]
 
 ## Financial performance
 
@@ -946,6 +1003,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L62:
+
+> On October 23, 2026, the Board of Directors (the “Board”) of the Company authorized a prorated dividend on SUNS Common Stock in the amount of $0.09 per share (the “Stub Period Dividend”) for the calendar quarter in which the closing occurs of the previously announced pending merger, pursuant to which SRT will merge with and into Merger Sub, with Merger Sub surviving as a wholly owned subsidiary of the Company (the “Merger”). The Stub Period Dividend will be paid on November 5, 2026 to stockholders of record at the close of business on November 2, 2026. On October 23, 2026, the Company issued a press release announcing that the Board approved and the Company declared the Stub Period Dividend and the results of the Special Meeting. A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated herein by reference. [S62]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -958,6 +1019,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L67:
+
+> and financial and operational impact thereof; other statements of management’s belief, intentions or goals; the payment of future dividends by the Company; and other statements that are not historical facts. These forward-looking statements are based on each of the companies’ current plans, objectives, estimates, expectations and intentions and inherently involve significant risks and uncertainties. Actual results and the timing of events could differ materially from those anticipated in such forward-looking statements as a result of these risks and uncertainties, which include, without limitation, risks and uncertainties associated with: the Company’s and SRT’s ability to complete the proposed Merger on the proposed terms or on the anticipated timeline, or at all, including risks and uncertainties related to satisfaction of closing conditions to consummate the proposed Merger; the occurrence of any event, change or other circumstance that could give rise to the termination of the Merger Agreement; risks related to diverting the attention of Company and SRT management, respectively, from ongoing business operations; failure to realize the expected benefits of the proposed Merger; significant transaction costs and/or unknown or inestimable liabilities; the risk of stockholder litigation in connection with the proposed Merger, including resulting expense or delay; the risk that … [S62]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -967,25 +1032,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1050,9 +1115,13 @@ Latest 50 filing metadata records of 173 retained records. A filing link is evid
 | 2025-08-19 | 4 | 0001200461-25-000037 | — | [S60] |
 | 2025-08-13 | 8-K | 0001829126-25-006195 | — | [S61] |
 
+Source excerpt — 10-Q, filed 2026-08-06, L676:
+
+> During the year ended December 31, 2025, the Company entered into a series of amendments to the Revolving Credit Facility that, among other things, increased the aggregate commitment from $50.0 million to $140.0 million. [S63]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0002012706.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1174,4 +1243,12 @@ Latest 50 filing metadata records of 173 retained records. A filing link is evid
 
 [S61] [8-K 0001829126-25-006195](https://www.sec.gov/Archives/edgar/data/2012706/000182912625006195/0001829126-25-006195-index.html) — published 2025-08-13; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S62] [8-K 0001628280-26-067043](https://www.sec.gov/Archives/edgar/data/2012706/000162828026067043/suns-20261023.htm) — published 2026-10-23; retrieved 2026-11-01T16:19:58.513967+00:00.
+
+[S63] [10-Q 0001628280-26-053845](https://www.sec.gov/Archives/edgar/data/2012706/000162828026053845/suns-20260630.htm) — published 2026-08-06; retrieved 2026-11-01T16:19:56.873421+00:00.
+
+[S64] [DEF 14A 0001140361-26-014817](https://www.sec.gov/Archives/edgar/data/2012706/000114036126014817/ny20067610x1_def14a.htm) — published 2026-04-15; retrieved 2026-11-01T16:19:54.998037+00:00.
+
+[S65] [10-K 0001628280-26-017017](https://www.sec.gov/Archives/edgar/data/2012706/000162828026017017/suns-20251231.htm) — published 2026-03-12; retrieved 2026-11-01T16:19:53.016046+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

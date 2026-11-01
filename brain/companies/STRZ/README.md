@@ -8,11 +8,11 @@ tickers:
 - STRZ
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -88,7 +88,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -492,6 +492,54 @@ sources:
   published_at: '2026-05-14'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/929351/000092935126000045/starz-20261020.htm
+  title: 8-K 0000929351-26-000045
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:19:39.660902+00:00'
+  sha256: 79d29b5c4b75a9f8f20dc522815e7578d043746f4ba0272e55d52b80ee927aaf
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/929351/000162828026054565/starz-20260630.htm
+  title: 10-Q 0001628280-26-054565
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-01T16:19:37.743062+00:00'
+  sha256: de041e05bf11b5d736e171684b0f87721f7f4fc25d5481fd2b11e3d93258643c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/929351/000092935126000021/starz-20260402.htm
+  title: DEF 14A 0000929351-26-000021
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-01T16:19:35.840126+00:00'
+  sha256: 082fb9d226120267c6d5dac8ddc690df6ffc68c73fd43f6beb0476b83614525f
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/929351/000092935125000069/starz-20250729.htm
+  title: 10-K/A 0000929351-25-000069
+  published_at: '2025-07-29'
+  retrieved_at: '2026-11-01T16:19:33.904710+00:00'
+  sha256: 2a0c543c682e785b7a80128ebdbf617867f94ad0c73594c1a8cd20f85e027f62
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/929351/000092935125000038/starz-20250331.htm
+  title: 10-K 0000929351-25-000038
+  published_at: '2025-06-26'
+  retrieved_at: '2026-11-01T16:19:31.876134+00:00'
+  sha256: 2791fae392bf3ff6330fdef57bf626ad3c162df576d6c9fab723aaf59f93ee80
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/929351/000119312525116017/d867517d8ka.htm
+  title: 8-K/A 0001193125-25-116017
+  published_at: '2025-05-08'
+  retrieved_at: '2026-11-01T16:19:29.896679+00:00'
+  sha256: 497429900acffd7a41970836237a6b161c67499fdd19e015a2a124903e788761
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/929351/000119312524065991/d122023d8ka.htm
+  title: 8-K/A 0001193125-24-065991
+  published_at: '2024-03-12'
+  retrieved_at: '2026-11-01T16:19:28.185624+00:00'
+  sha256: fb9aa38dff8163ed176c68abfa0311f23296c35196245145adf466e83db45ced
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/929351/000092935122000009/lgfa-20220215.htm
+  title: 8-K/A 0000929351-22-000009
+  published_at: '2022-02-16'
+  retrieved_at: '2026-11-01T16:19:26.525726+00:00'
+  sha256: b0cbc2373a24296b3cf04cf554a4c091098010ac1c4a4cc3744a910c54063b83
 issuer_classification:
   cik: 0000929351
   classification_status: reported_sic
@@ -546,13 +594,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/929351/000092935122000009/0000929351-22-000009-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 76713b5b7251c81d2de8b0cc9d8012b9f1e9ee1c19ae56875b0fcba105e2d3e0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -576,17 +635,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L161:
+
+> This Quarterly Report on Form 10-Q includes statements that are, or may be deemed to be, “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). These forward-looking statements can be identified by the use of forward-looking terminology, including the terms “believes,” “estimates,” “potential,” “anticipates,” “expects,” “intends,” “plans,” “projects,” “forecasts,” “may,” “will,” “could,” “would” or “should” or, in each case, their negative or other variations or comparable terminology. These forward-looking statements include all matters that are not historical facts. They appear in a number of places throughout this report and include statements regarding our intentions, beliefs or current expectations concerning, among other things, our results of operations, financial condition, liquidity, prospects, growth, strategies and the industry in which we operate. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L402:
+
+> Following the Separation, Starz manages and reports its operating results through one reportable segment, Starz Networks, which includes our consolidated operations. During the six months ended June 30, 2026, International included our operations in India and Southeast Asia. Effective April 1, 2025, we transferred our operations in India and Southeast Asia to New Lionsgate. Given that Starz and New Lionsgate were under common control at the time of the transfer, no gain or loss was recorded related to the transfer. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2025-06-26, L1352:
+
+> Under the current restructuring plan and ongoing strategic content review, the net future cash outlay from continuing operations, for charges recorded through March 31, 2025 is estimated to range from approximately $43 million to $47 million for contractual commitments on content in territories exited and payments on the remaining amounts payable for content removed from our services, net of estimated recoveries. As we continue to evaluate the Company's current [S73]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L3525:
+
+> In appointing executive officers to the management team, the Company does not set specific targets; however, the Company seeks to recruit, develop and promote a broad group of executive talent, reflecting our community and customers, factoring in the background, competencies, skills and personal and varied qualities required for new executive officers, in order to add value to the Company and produce the most appealing content for our customers in light of opportunities and risks facing the Company. Currently, two (2) of the Named Executive Officers of the Company are women, representing 40% of the Named Executive Officers. [S71]
 
 ## Industry and value chain
 
@@ -594,17 +669,33 @@ SEC-reported SIC **7812**: Services-Motion Picture & Video Tape Production. [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L1128:
+
+> •Starz’s Code of Business Conduct and Ethics governs conduct with, and applies to, our suppliers, vendors, contractors and agents, as applicable. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2025-06-26, L79:
+
+> •Starz faces substantial competition in all aspects of its business, including competition for marketing and carriage of its services. [S73]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L163:
+
+> We caution you that forward-looking statements made in this report or anywhere else are not guarantees of future performance and that our actual results of operations, financial condition and liquidity, and the development of the industry in which we operate may differ materially and adversely from those made in or suggested by the forward-looking statements contained in this report as a result of various important factors, including, but not limited to: the benefits of the Separation (as defined below); unexpected costs related to the Separation; the substantial investment of capital required to produce, market, and distribute programming; budget overruns; limitations imposed by our credit facilities and notes; unpredictability of the commercial success of our programming; risks related to acquisition and integration of future acquired businesses; the effects of dispositions of businesses or assets, including individual series or film libraries; the cost of defending our intellectual property; technological changes and other trends affecting the entertainment industry; potential adverse reactions or changes to business or employee relationships; the impact of global pandemics on our business; weakness in the global economy and financial markets, including a recession and past and future bank failures; wars, terrorism and multiple international conflicts that could cause … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L342:
+
+> In 2025, we delivered exactly what we set out to do. We grew revenue sequentially in the third and fourth quarters, grew over-the-top (“OTT”) subscribers in three of four quarters (with domestic OTT subscribers reaching an all-time high and up more than 7% year-over-year), and finished the year at 2.9x leverage—better than our 3.1x guidance.2 Adjusted OIBDA grew year-over-year, and we continued our rapid shift to digital: roughly 70% of our revenue and subscribers now come from OTT. All of this occurred while achieving revenue of approximately $1.3 billion despite broader industry pressures—proof that our strategy of targeting women and underrepresented audiences with premium, differentiated content is working. We are complementary, not competitive, to the large general-entertainment streamers, and that positioning is paying off. [S71]
 
 ## Financial performance
 
@@ -1216,6 +1307,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L62:
+
+> Pursuant to the Agreement, Mr. Macdonald is entitled to receive an annual base salary of $1,060,000 and is eligible to receive an annual bonus with a target opportunity equal to 125% of his base salary, subject to achievement of performance criteria and goals as determined by the Compensation & Talent Committee of the Board of Directors of the Company (the “Compensation Committee”). In the event Mr. Macdonald experiences a qualifying termination during the term of the Agreement, or his employment does not continue beyond the term, he will be eligible to receive a prorated annual bonus for the fiscal year in which such termination occurs based on actual performance. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1228,6 +1323,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L162:
+
+> By their nature, forward-looking statements involve risks and uncertainties because they relate to events and depend on circumstances that may or may not occur in the future. We believe that these risks and uncertainties include, but are not limited to, those discussed under Part I, Item 1A. Risk Factors found in our Annual Report on Form 10-KT filed with the Securities and Exchange Commission (the “SEC”) on February 26, 2026 (the "Form 10-KT") as updated by any update to the risk factors found under Part II, Item 1A. "Risk Factors" herein. These risk factors should not be construed as exhaustive and should be read with our Form 10-KT and the other cautionary statements and information in this report. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1237,25 +1336,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1320,9 +1419,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-14 | 4 | 0002067037-26-000002 | — | [S67] |
 | 2026-05-14 | 4 | 0002066768-26-000002 | — | [S68] |
 
+Source excerpt — 10-Q, filed 2026-08-07, L605:
+
+> The reconciliation of the beginning and ending contract termination liability balance showing activity during the year is as follows: [S70]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0000929351.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1458,4 +1561,20 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S68] [4 0002066768-26-000002](https://www.sec.gov/Archives/edgar/data/929351/000206676826000002/0002066768-26-000002-index.html) — published 2026-05-14; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S69] [8-K 0000929351-26-000045](https://www.sec.gov/Archives/edgar/data/929351/000092935126000045/starz-20261020.htm) — published 2026-10-23; retrieved 2026-11-01T16:19:39.660902+00:00.
+
+[S70] [10-Q 0001628280-26-054565](https://www.sec.gov/Archives/edgar/data/929351/000162828026054565/starz-20260630.htm) — published 2026-08-07; retrieved 2026-11-01T16:19:37.743062+00:00.
+
+[S71] [DEF 14A 0000929351-26-000021](https://www.sec.gov/Archives/edgar/data/929351/000092935126000021/starz-20260402.htm) — published 2026-04-02; retrieved 2026-11-01T16:19:35.840126+00:00.
+
+[S72] [10-K/A 0000929351-25-000069](https://www.sec.gov/Archives/edgar/data/929351/000092935125000069/starz-20250729.htm) — published 2025-07-29; retrieved 2026-11-01T16:19:33.904710+00:00.
+
+[S73] [10-K 0000929351-25-000038](https://www.sec.gov/Archives/edgar/data/929351/000092935125000038/starz-20250331.htm) — published 2025-06-26; retrieved 2026-11-01T16:19:31.876134+00:00.
+
+[S74] [8-K/A 0001193125-25-116017](https://www.sec.gov/Archives/edgar/data/929351/000119312525116017/d867517d8ka.htm) — published 2025-05-08; retrieved 2026-11-01T16:19:29.896679+00:00.
+
+[S75] [8-K/A 0001193125-24-065991](https://www.sec.gov/Archives/edgar/data/929351/000119312524065991/d122023d8ka.htm) — published 2024-03-12; retrieved 2026-11-01T16:19:28.185624+00:00.
+
+[S76] [8-K/A 0000929351-22-000009](https://www.sec.gov/Archives/edgar/data/929351/000092935122000009/lgfa-20220215.htm) — published 2022-02-16; retrieved 2026-11-01T16:19:26.525726+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

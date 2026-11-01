@@ -8,11 +8,11 @@ tickers:
 - WDAY
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -71,7 +71,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -463,6 +463,30 @@ sources:
   published_at: '2026-07-10'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926118496/tm2626731d6_8k.htm
+  title: 8-K 0001104659-26-118496
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:24:36.974465+00:00'
+  sha256: 759e86f17d97ab9ca3ce5af04138b6f7927c3962768762a34c576ac47f2ed49a
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1327811/000132781126000044/wday-20260731.htm
+  title: 10-Q 0001327811-26-000044
+  published_at: '2026-08-27'
+  retrieved_at: '2026-11-01T16:24:35.179970+00:00'
+  sha256: 2723eaee769c4468f74057c6bb99dddda236fb77eca7646b42b5de855d14c2f7
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm
+  title: DEF 14A 0001104659-26-055687
+  published_at: '2026-05-05'
+  retrieved_at: '2026-11-01T16:24:32.628700+00:00'
+  sha256: 3336269d7e430ec2aa24efff322e24a03b923e68620321d6de3d326434102990
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm
+  title: 10-K 0001327811-26-000014
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-01T16:24:30.267687+00:00'
+  sha256: 2382989b3e2b97ea1a381c9a3715a09591251138cfe36f484bb1540104cc3ff0
 issuer_classification:
   cik: 0001327811
   classification_status: reported_sic
@@ -500,13 +524,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926118496/0001104659-26-118496-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 670f756d83765c7d3a599b063b8f5c9fe60c67615a001222d8f4be32a3b2e828
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -530,17 +565,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-27, L422:
+
+> We operate as a single operating and reportable segment: cloud applications. Although we offer a variety of enterprise cloud solutions to a diverse global customer base, we operate in one operating segment because our business activities are managed on a consolidated basis, our service offerings all operate on the Workday platform and are deployed in a similar manner, and our Chief Operating Decision Maker (“CODM”), who is our Chief Executive Officer, allocates resources and assesses performance based upon discrete financial information at the consolidated level. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-27, L422:
+
+> We operate as a single operating and reportable segment: cloud applications. Although we offer a variety of enterprise cloud solutions to a diverse global customer base, we operate in one operating segment because our business activities are managed on a consolidated basis, our service offerings all operate on the Workday platform and are deployed in a similar manner, and our Chief Operating Decision Maker (“CODM”), who is our Chief Executive Officer, allocates resources and assesses performance based upon discrete financial information at the consolidated level. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-27, L1070:
+
+> We expect sales and marketing expenses to increase in absolute dollars as we continue to invest domestically and internationally to expand awareness of our brand and product offerings to attract new and existing customers. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-27, L415:
+
+> Workday is a leading enterprise AI platform that operates at the core of human resources, finance, and information technology, providing solutions for human capital management, financial management, spend management, and planning. Workday couples AI with the context, guardrails, and trusted processes that run the enterprise, delivering both AI that assists with work and agents that are capable of driving measurable outcomes for our customers. [S68]
 
 ## Industry and value chain
 
@@ -548,17 +599,33 @@ SEC-reported SIC **7374**: Services-Computer Processing & Data Preparation. [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-27, L1426:
+
+> Cybersecurity threats and attacks are often targeted at companies such as ours and may take a variety of forms ranging from individuals or groups of security researchers, to insiders, to sophisticated hacker organizations, including state-sponsored actors and financially motivated actors. These threats may be directed at us or at third parties in our supply chain, including cloud service providers, software vendors, open-source software maintainers, and other service providers or partners whose products or services are integrated with or support our platform and solutions. As our market presence grows and as our ecosystem of partners, integrations, and service providers expands, we face increased risks of cybersecurity attack or other security threats, including supply chain attacks. Additionally, as AI technologies, including generative AI models, develop rapidly, threat actors are using these technologies to create sophisticated new attack methods that are increasingly automated, targeted, damaging, and more difficult to defend against. Threat actors may also target our AI models and related infrastructure in ways that we cannot yet anticipate. Further, remote work and resource access, including our hybrid work model, has and may continue to result in an increased risk of cybersecurity-related events, including phishing and other social engineering attacks, exploitation of … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-27, L1272:
+
+> We are regularly involved with claims, suits, purported class or representative actions, and may be involved in regulatory and government investigations and other proceedings, involving competition, intellectual property, data security and privacy, bankruptcy, tax and related compliance, labor and employment, commercial disputes, and other matters. Such claims, suits, actions, regulatory and government investigations, and other proceedings can impose a significant burden on management and employees, could prevent us from offering one or more of our applications, services, or features to others, could require us to change our technology or business practices, or could result in monetary damages, fines, civil or criminal penalties, reputational harm, or other adverse consequences. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-27, L600:
+
+> Technology patents and other intangible assets with estimable useful lives are amortized on a straight-line basis. As of July 31, 2026, our future estimated amortization expense was as follows (in millions): [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-27, L1056:
+
+> We expect costs of subscription services will continue to increase in absolute dollars as we improve and expand our technical operations infrastructure, including third-party hosted infrastructure, and as we grow our enhanced customer support services. [S68]
 
 ## Financial performance
 
@@ -1188,6 +1255,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-27, L767:
+
+> We repurchase shares of our Class A common stock under share repurchase programs authorized by our Board of Directors. Under these programs, we may repurchase shares of our Class A common stock through open market purchases, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, in privately negotiated transactions, or by other means, in accordance with applicable securities laws and other restrictions. The timing and total amount of share repurchases will depend upon business, economic, and market conditions, corporate and regulatory requirements, prevailing stock prices, and other considerations. The share repurchase programs have no expiration date, may be suspended or discontinued at any time, and do not obligate us to acquire any amount of Class A common stock. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1200,6 +1271,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-27, L950:
+
+> This report contains forward-looking statements, which are subject to safe harbor protection under the Private Securities Litigation Reform Act of 1995. All statements contained in this report other than statements of historical fact, including statements regarding our future financial condition and operating results, business strategy and plans, and objectives for future operations, are forward-looking statements. The words “believe,” “may,” “will,” “estimate,” “continue,” “anticipate,” “intend,” “expect,” “seek,” “plan,” and similar expressions are intended to identify forward-looking statements. We have based these forward-looking statements largely on our current expectations, beliefs, and projections about future events, conditions, and trends that we believe may affect our financial condition, operating results, business strategy, short-term and long-term business operations and objectives, and financial needs. These forward-looking statements are subject to a number of risks, uncertainties, assumptions, and changes in circumstances that are difficult to predict and many of which are outside of our control, such as those arising from the impact of recent macroeconomic events, including geopolitical instability, increased tariffs, elevated inflation and energy prices, and fluctuating interest rates and foreign currency exchange rates, as well as those described in the … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1209,25 +1284,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1291,9 +1366,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-07-13 | 4 | 0000938071-26-000046 | — | [S65] |
 | 2026-07-10 | 144 | 0001950047-26-007018 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-05-05, L3325:
+
+> Notwithstanding its selection and even if our stockholders ratify the selection, our Audit Committee, in its discretion, may appoint another independent registered public accounting firm at any time during the year if the Audit Committee believes that such a change would be in the best interests of Workday and its stockholders. At the Annual Meeting, the stockholders are being asked to ratify the appointment of Ernst & Young LLP as our independent registered public accounting firm for our fiscal year ending January 31, 2027. Our Audit Committee is submitting the selection of Ernst & Young LLP to our stockholders because we value our stockholders’ views on our independent registered public accounting firm and as a matter of good corporate governance. Representatives of Ernst & Young LLP will be present at the Annual Meeting and they will have an opportunity to make statements and will be available to respond to appropriate questions from stockholders. [S69]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001327811.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1425,4 +1504,12 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [144 0001950047-26-007018](https://www.sec.gov/Archives/edgar/data/1327811/000195004726007018/0001950047-26-007018-index.html) — published 2026-07-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [8-K 0001104659-26-118496](https://www.sec.gov/Archives/edgar/data/1327811/000110465926118496/tm2626731d6_8k.htm) — published 2026-10-23; retrieved 2026-11-01T16:24:36.974465+00:00.
+
+[S68] [10-Q 0001327811-26-000044](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000044/wday-20260731.htm) — published 2026-08-27; retrieved 2026-11-01T16:24:35.179970+00:00.
+
+[S69] [DEF 14A 0001104659-26-055687](https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm) — published 2026-05-05; retrieved 2026-11-01T16:24:32.628700+00:00.
+
+[S70] [10-K 0001327811-26-000014](https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/wday-20260131.htm) — published 2026-03-06; retrieved 2026-11-01T16:24:30.267687+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

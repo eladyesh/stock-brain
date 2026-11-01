@@ -8,11 +8,11 @@ tickers:
 - STLD
 status: stub
 canonical_reviewed: false
-as_of: '2026-10-31'
-updated_at: '2026-10-31T15:28:34.866331+00:00'
+as_of: '2026-11-01'
+updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
-coverage_release: coverage-20261031-41214572563-1
-source_commit: 8081407561667f8ebe7ff1552fb3fec9d59d7758
+coverage_release: coverage-20261101-41324509967-1
+source_commit: 92fb0215f8fbb63ae57fbfc9bd079d1dfdba618e
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -67,7 +67,7 @@ sources:
   title: nasdaqlisted.txt
   url: https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt
   published_at: null
-  retrieved_at: '2026-10-31T15:24:12.830356+00:00'
+  retrieved_at: '2026-11-01T16:07:03.070084+00:00'
   sha256: b160a2f2814e5df68d7e414fba70f808f7ad3d20cbbdd167a8a2e38a10044168
 - id: S02
   title: SEC issuer submissions
@@ -459,6 +459,42 @@ sources:
   published_at: '2026-04-24'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465926118461/stld-20260930x10q.htm
+  title: 10-Q 0001104659-26-118461
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-01T16:19:23.843798+00:00'
+  sha256: 1a5a9f7d36095ac29d3eee87b8e804cdad0c7fd45624b14ee188de37d43187f4
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465926117217/tm2627861d2_8k.htm
+  title: 8-K 0001104659-26-117217
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-01T16:19:22.146294+00:00'
+  sha256: 66d4b9b119b5c348fcd7355b2fdabe4a8db7d46c38eb888b60a8d8a7f4d3ad3e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465926098390/tm2623531d1_8ka.htm
+  title: 8-K/A 0001104659-26-098390
+  published_at: '2026-08-18'
+  retrieved_at: '2026-11-01T16:19:20.519918+00:00'
+  sha256: ddf764271291a346bfe641248adc376ed0f9c91e57f57a8cae0b155fc31006a0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465926035826/stld-20260506xdef14a.htm
+  title: DEF 14A 0001104659-26-035826
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-01T16:19:18.826705+00:00'
+  sha256: 4bde7d229ddeed5ccf2602d409a5c62cffebf859d14e4681646211f580a65326
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465926021395/stld-20251231x10k.htm
+  title: 10-K 0001104659-26-021395
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-01T16:19:16.862715+00:00'
+  sha256: bed7303d2abd2f6656bccd0b6e81bf5bb5de6ae2896fed77aab30bb0a84e0b5c
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1022671/000110465925094939/tm2527620d1_8ka.htm
+  title: 8-K/A 0001104659-25-094939
+  published_at: '2025-09-30'
+  retrieved_at: '2026-11-01T16:19:14.976534+00:00'
+  sha256: 7651e076baab0e4795dc0bd6e6c8a535a6cb89d1dec3a1c87a0b945e8ff6080c
 issuer_classification:
   cik: '0001022671'
   classification_status: reported_sic
@@ -504,13 +540,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1022671/000110465925094939/0001104659-25-094939-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ee233b6c95005066141de8eb016358ef300e843e72c4dcc2ef721ae3e548b32e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-01T16:17:56.222188+00:00'
+  last_success_at: '2026-11-01T16:17:56.222188+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -534,17 +581,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-23, L11350:
+
+> We are a leading industrial metals solutions company, with facilities located throughout the United States and Mexico. We operate a circular manufacturing model, producing high-quality, lower-carbon-emission products with recycled scrap as the primary input. Our primary sources of revenue are currently from the manufacture and sale of steel products, the processing and sale of recycled ferrous and nonferrous metals, and the fabrication and sale of steel joists and deck products. We have also recently added aluminum operations, further diversifying our product offerings to supply aluminum flat rolled products with higher recycled content to the countercyclical sustainable beverage can industry, in addition to the automotive and industrial sectors. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-23, L3511:
+
+> Other. Other operations consist of subsidiary operations that are below the company’s quantitative thresholds required for reportable segments and primarily consists of a joint venture and the company’s idled Minnesota ironmaking operations. Also included in “Other” are certain unallocated corporate accounts, such as the company’s senior unsecured credit facility, senior notes, certain other investments and certain profit sharing expenses. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-23, L3506:
+
+> Steel Dynamics, Inc. (SDI), together with its subsidiaries (the company), is a leading industrial metals solutions company, with facilities located throughout the United States and Mexico. SDI is one of the largest domestic steel producers and metal recyclers in North America, combined with meaningful downstream steel fabrication operations. The company has also recently added aluminum operations, further diversifying its product offerings to supply aluminum flat rolled products with higher recycled content to the countercyclical sustainable beverage can industry, in addition to the automotive and industrial sectors. The company has four reporting segments: steel operations, metals recycling operations, steel fabrication operations, and aluminum operations. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-23, L11347:
+
+> This report contains some predictive statements about future events, including statements related to conditions in domestic or global economies, conditions in steel, aluminum, and recycled metals market places, Steel Dynamics' revenues, costs of purchased materials, future profitability and earnings, and the operation of new, existing or planned facilities. These statements, which we generally precede or accompany by such typical conditional words as "anticipate", "intend", "believe", "estimate", "plan", "seek", "project", or "expect", or by the words "may", "will", or "should", are intended to be made as "forward-looking", subject to many risks and uncertainties, within the safe harbor protections of the Private Securities Litigation Reform Act of 1995. These statements speak only as of this date and are based upon information and assumptions, which we consider reasonable as of this date, concerning our businesses and the environments in which they operate. Such predictive statements are not guarantees of future performance, and we undertake no duty to update or revise any such statements. Some factors that could cause such forward-looking statements to turn out differently than anticipated include: (1) domestic and global economic factors; (2) global steelmaking overcapacity and imports of steel, together with increased scrap prices; (3) the cyclical nature of the metals … [S67]
 
 ## Industry and value chain
 
@@ -552,17 +615,33 @@ SEC-reported SIC **3312**: Steel Works, Blast Furnaces & Rolling Mills (Coke Ove
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L4315:
+
+> Inventories are stated at lower of cost or net realizable value. Cost is determined using a weighted average cost method for raw materials (including scrap, purchased steel substrate and aluminum slabs) and supplies, and on a first-in, first-out basis for other inventory. Inventory consisted of the following (in thousands): [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-10-23, L11347:
+
+> This report contains some predictive statements about future events, including statements related to conditions in domestic or global economies, conditions in steel, aluminum, and recycled metals market places, Steel Dynamics' revenues, costs of purchased materials, future profitability and earnings, and the operation of new, existing or planned facilities. These statements, which we generally precede or accompany by such typical conditional words as "anticipate", "intend", "believe", "estimate", "plan", "seek", "project", or "expect", or by the words "may", "will", or "should", are intended to be made as "forward-looking", subject to many risks and uncertainties, within the safe harbor protections of the Private Securities Litigation Reform Act of 1995. These statements speak only as of this date and are based upon information and assumptions, which we consider reasonable as of this date, concerning our businesses and the environments in which they operate. Such predictive statements are not guarantees of future performance, and we undertake no duty to update or revise any such statements. Some factors that could cause such forward-looking statements to turn out differently than anticipated include: (1) domestic and global economic factors; (2) global steelmaking overcapacity and imports of steel, together with increased scrap prices; (3) the cyclical nature of the metals … [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-27, L446:
+
+> Our vertically connected businesses support our higher through-cycle steel production and overall profitability. Our internal manufacturing operations provide a significant competitive advantage by contributing to more stable through-cycle earnings and cash flow generation. Our steel fabrication operations and downstream processing facilities consume significant volumes of steel. During weaker steel demand environments, we can source their steel needs internally, and during stronger steel demand environments, we may also purchase steel externally. Ultimately, we optimize our companywide profitability and minimize earnings volatility. In 2025, our own steel consuming businesses purchased 1.8 million tons of steel from our steel mills, representing 13% of our total 2025 steel shipments. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-10-23, L11347:
+
+> This report contains some predictive statements about future events, including statements related to conditions in domestic or global economies, conditions in steel, aluminum, and recycled metals market places, Steel Dynamics' revenues, costs of purchased materials, future profitability and earnings, and the operation of new, existing or planned facilities. These statements, which we generally precede or accompany by such typical conditional words as "anticipate", "intend", "believe", "estimate", "plan", "seek", "project", or "expect", or by the words "may", "will", or "should", are intended to be made as "forward-looking", subject to many risks and uncertainties, within the safe harbor protections of the Private Securities Litigation Reform Act of 1995. These statements speak only as of this date and are based upon information and assumptions, which we consider reasonable as of this date, concerning our businesses and the environments in which they operate. Such predictive statements are not guarantees of future performance, and we undertake no duty to update or revise any such statements. Some factors that could cause such forward-looking statements to turn out differently than anticipated include: (1) domestic and global economic factors; (2) global steelmaking overcapacity and imports of steel, together with increased scrap prices; (3) the cyclical nature of the metals … [S67]
 
 ## Financial performance
 
@@ -1189,6 +1268,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-23, L12787:
+
+> Cash Dividends. As a reflection of continued confidence in our current and future cash flow generation capability and financial position, we increased our quarterly cash dividend by 6% to $0.53 per share in the first quarter of 2026 (from $0.50 per share for each quarter in 2025), resulting in declared cash dividends of $228.2 million during the first nine months of 2026, compared to $221.7 million during the same period in 2025. We paid cash dividends of $225.1 million and $218.1 million during the first nine months of 2026 and 2025, respectively. Our board of directors approves the payment of dividends on a quarterly basis. The determination to pay cash dividends in the future is at the discretion of our board of directors, after taking into account various factors provided by executive management, including our financial condition, results of operations, outstanding indebtedness, current and anticipated cash needs and growth plans. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1201,6 +1284,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-23, L11348:
+
+> More specifically, we refer you to our more detailed explanation of these and other factors and risks that may cause such predictive statements to turn out differently, as set forth in our most recent Annual Report on Form 10-K under the headings Special Note Regarding Forward-Looking Statements and Risk Factors for the year ended December 31, 2025, in our quarterly reports on Form 10-Q, or in other reports which we from time to time file with the Securities and Exchange Commission. These reports are available publicly on the Securities and Exchange Commission website, www.sec.gov, and on our website, www.steeldynamics.com under “Investors – SEC Filings.” [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1210,25 +1297,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1293,9 +1380,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-27 | 10-Q | 0001104659-26-049415 | — | [S65] |
 | 2026-04-24 | 4 | 0001022671-26-000100 | — | [S66] |
 
+Source excerpt — DEF 14A, filed 2026-03-27, L4242:
+
+> Additionally, we match 401(k) contributions with a minimum match of 10% and a maximum match of 50% based on a companywide return on assets calculation. For 2025, the amounts for our NEOs based upon the Company’s average matching percentage during the year of 25% of his or her individual contributions which ranged from $9,852 to $11,146, including a matching contribution of $10,166 to our CEO. [S70]
+
 ## Sources and change log
 
-[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-10-31T15:24:12.830356+00:00.
+[S01] [nasdaqlisted.txt](https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt) — published not supplied; retrieved 2026-11-01T16:07:03.070084+00:00.
 
 [S02] [SEC issuer submissions](https://data.sec.gov/submissions/CIK0001022671.json) — published not supplied; retrieved 2026-10-24T13:22:51.759433+00:00.
 
@@ -1427,4 +1518,16 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 
 [S66] [4 0001022671-26-000100](https://www.sec.gov/Archives/edgar/data/1022671/000102267126000100/0001022671-26-000100-index.html) — published 2026-04-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261031-41214572563-1`. Dated research changes remain in Git history; review is never inferred from collection.
+[S67] [10-Q 0001104659-26-118461](https://www.sec.gov/Archives/edgar/data/1022671/000110465926118461/stld-20260930x10q.htm) — published 2026-10-23; retrieved 2026-11-01T16:19:23.843798+00:00.
+
+[S68] [8-K 0001104659-26-117217](https://www.sec.gov/Archives/edgar/data/1022671/000110465926117217/tm2627861d2_8k.htm) — published 2026-10-20; retrieved 2026-11-01T16:19:22.146294+00:00.
+
+[S69] [8-K/A 0001104659-26-098390](https://www.sec.gov/Archives/edgar/data/1022671/000110465926098390/tm2623531d1_8ka.htm) — published 2026-08-18; retrieved 2026-11-01T16:19:20.519918+00:00.
+
+[S70] [DEF 14A 0001104659-26-035826](https://www.sec.gov/Archives/edgar/data/1022671/000110465926035826/stld-20260506xdef14a.htm) — published 2026-03-27; retrieved 2026-11-01T16:19:18.826705+00:00.
+
+[S71] [10-K 0001104659-26-021395](https://www.sec.gov/Archives/edgar/data/1022671/000110465926021395/stld-20251231x10k.htm) — published 2026-02-27; retrieved 2026-11-01T16:19:16.862715+00:00.
+
+[S72] [8-K/A 0001104659-25-094939](https://www.sec.gov/Archives/edgar/data/1022671/000110465925094939/tm2527620d1_8ka.htm) — published 2025-09-30; retrieved 2026-11-01T16:19:14.976534+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
