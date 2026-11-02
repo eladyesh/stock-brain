@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -137,6 +137,24 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm
+  title: 10-Q 0001174922-26-000055
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-02T22:07:00.045453+00:00'
+  sha256: fd7812d538f50e02dca313fcd28fc753eb5f044898c379fc5db23627a90e496c
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1174922/000119312526124077/d26334ddef14a.htm
+  title: DEF 14A 0001193125-26-124077
+  published_at: '2026-03-25'
+  retrieved_at: '2026-11-02T22:06:58.318487+00:00'
+  sha256: 0a7c6f7db8a0049a358b7f3287b872baea390cca8867e99495760b98553437b0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1174922/000117492226000013/wynn-20251231.htm
+  title: 10-K 0001174922-26-000013
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-02T22:06:56.498361+00:00'
+  sha256: 4ed91df811921d6cf8d92a4b9460a1b09d421af3718f5ff2482bed456557205a
 issuer_classification:
   cik: 0001174922
   classification_status: reported_sic
@@ -202,13 +220,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1174922/000117492215000046/0001174922-15-000046-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d4185c8902613178641944d51f5ac53d4f4e673c7d9548eb145898000e00c86f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -223,15 +252,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001174922.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/WYNN/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/WYNN/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # WYNN — WYNN RESORTS LTD
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/WYNN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/WYNN/README.md)
 
 ## Business overview
 
@@ -245,17 +274,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1121:
+
+> We make forward-looking statements in this Quarterly Report on Form 10-Q based upon the beliefs and assumptions of our management and on information currently available to us. Forward-looking statements include, but are not limited to, information about our business strategy, development activities, competition and possible or assumed future results of operations, throughout this report and are often preceded by, followed by or include the words "may," "will," "should," "would," "could," "believe," "expect," "anticipate," "estimate," "intend," "plan," "continue" or the negative of these terms or similar expressions. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L873:
+
+> The Company has identified its reportable segments based on factors such as geography, regulatory environment, the Company's organizational and management reporting structure and the information reviewed by its chief operating decision maker, the Company's Chief Executive Officer ("CEO"). The primary profitability measure used by the Company's CEO to review segment operating results and allocate resources is Adjusted Property EBITDAR. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-02, L394:
+
+> Demand for our products and services may be negatively impacted by geopolitical tensions, visa and travel restrictions or difficulties, restrictions on international money transfers and other policies or campaigns implemented by regional governments. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-25, L3206:
+
+> We purposefully speak first about our people. Our employees are everyday creators of unforgettable experiences, which our customers return for. They are also the ones who identify, design, build, maintain, and create ‘magic’ at our resorts. These resorts allow us to showcase our ability to surprise and delight customers while respectfully stewarding our planet and driving financial efficiency for our investors. To that end, we have committed to three sustainability goals that guide our company growth and address climate change: [S69]
 
 ## Industry and value chain
 
@@ -263,19 +308,35 @@ SEC-reported SIC **7011**: Hotels & Motels. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-02, L445:
+
+> Our reputation and the value of our brand, including the perception held by our customers, business partners, other key stakeholders and the communities in which we do business, are important assets. Our business faces increasing scrutiny related to environmental, social and governance activities, and risk of damage to our reputation and the value of our brands if we fail to act responsibly in a number of areas, such as diversity and inclusion, environmental stewardship, supply chain management, sustainability, workplace conduct, human rights, philanthropy, and support for local communities. Any harm to our reputation could have a material adverse effect on our business, results of operations, and cash flows. [S70]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1121:
+
+> We make forward-looking statements in this Quarterly Report on Form 10-Q based upon the beliefs and assumptions of our management and on information currently available to us. Forward-looking statements include, but are not limited to, information about our business strategy, development activities, competition and possible or assumed future results of operations, throughout this report and are often preceded by, followed by or include the words "may," "will," "should," "would," "could," "believe," "expect," "anticipate," "estimate," "intend," "plan," "continue" or the negative of these terms or similar expressions. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1666:
+
+> Wynn Resorts, Limited and other subsidiaries. Wynn Resorts, Limited is a holding company and, as a result, our ability to pay dividends is dependent on our ability to obtain funds and our subsidiaries' ability to provide funds to us. Wynn Resorts, Limited primarily generates cash from royalty (including intellectual property license) and management agreements with our resorts, dividends and distributions from our subsidiaries, and the operations of the Retail Joint Venture of which we own 50.1%. Fees payable by Wynn Macau SA to Wynn Resorts, Limited under its intellectual property license agreement are capped at $150.0 million for the year ending December 31, 2026. We expect to use cash held by Wynn Resorts, Limited and other to service our Retail Term Loan, to fund working capital needs of our subsidiaries, pay dividends, make required capital contributions to the Al Marjan Joint Venture, and for general corporate purposes. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-25, L106:
+
+> As we expand our global presence, we remain vigilant in protecting and preserving the culture and brand that define Wynn Resorts. Growth will never come at the expense of our standards. Whether a guest walks through the doors of Wynn Las Vegas, Encore Boston Harbor, Wynn Palace, Wynn Macau, or soon Wynn Al Marjan Island, they will encounter the same hallmarks of excellence in design and service that have set us apart from the beginning. That is a promise we take seriously—and one we will keep, without exception. [S69]
 
 ## Financial performance
 
@@ -403,6 +464,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L676:
+
+> In November 2024, the Company’s Board of Directors authorized an increase in the amount of the Company's outstanding shares of common stock available for repurchase under the previously available repurchase authorization to $1.00 billion. The equity repurchase program authorizes discretionary repurchases by the Company from time to time through open market purchases, including pursuant to plans designed to comply with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended, privately negotiated transactions, accelerated share repurchases, or block trades, subject to market conditions, applicable legal requirements and other factors. The repurchase authorization has no expiration date, and the equity repurchase program may be suspended, discontinued or accelerated at any time. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -415,6 +480,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1122:
+
+> Forward-looking statements are subject to a number of risks and uncertainties that could cause actual results to differ materially from those we express in these forward-looking statements, including the risks and uncertainties in Item 1A — "Risk Factors" of our Annual Report on Form 10-K for the year ended December 31, 2025 and other factors we describe from time to time in our periodic filings with the Securities and Exchange Commission ("SEC"), such as: [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -424,25 +493,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -484,6 +553,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0002045912-26-000010](https://www.sec.gov/Archives/edgar/data/1174922/000204591226000010/0002045912-26-000010-index.html) — published 2026-09-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/WYNN/README.md).
+[S68] [10-Q 0001174922-26-000055](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000055/wynn-20260630.htm) — published 2026-08-06; retrieved 2026-11-02T22:07:00.045453+00:00.
+
+[S69] [DEF 14A 0001193125-26-124077](https://www.sec.gov/Archives/edgar/data/1174922/000119312526124077/d26334ddef14a.htm) — published 2026-03-25; retrieved 2026-11-02T22:06:58.318487+00:00.
+
+[S70] [10-K 0001174922-26-000013](https://www.sec.gov/Archives/edgar/data/1174922/000117492226000013/wynn-20251231.htm) — published 2026-03-02; retrieved 2026-11-02T22:06:56.498361+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/WYNN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

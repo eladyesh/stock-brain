@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,18 @@ sources:
   published_at: '2026-02-25'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1854139/000143774926033400/zvia20261022_8k.htm
+  title: 8-K 0001437749-26-033400
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-02T22:08:29.358159+00:00'
+  sha256: 18e4799e2ac5ef6553e3bf85ddb109d7f32150fdf319293aad0c20dabbb91035
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1854139/000143774926025925/zvia20260630c_10q.htm
+  title: 10-Q 0001437749-26-025925
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-02T22:08:27.392401+00:00'
+  sha256: cac06f1de24f8db9150e3bb2ad9b2833a0d375a044fef96fc1104724508e3121
 issuer_classification:
   cik: 0001854139
   classification_status: reported_sic
@@ -185,13 +197,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1854139/000095017024110366/0000950170-24-110366-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 8a11f3c97d328917794359b9d6cb230a84b9456582101c3f3ccf050fce6aeb37
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -206,15 +228,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001854139.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZVIA/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZVIA/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ZVIA — Zevia PBC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZVIA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZVIA/README.md)
 
 ## Business overview
 
@@ -228,6 +250,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L206:
+
+> This Quarterly Report on Form 10-Q for the period ended June 30, 2026 (“Quarterly Report”) contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), about us and our industry that involve substantial known and unknown risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report, including, without limitation, statements regarding our future results of operations or financial condition, business strategy, expectations about capital allocation, investment activities, sourcing of raw materials, the impact of our supply chain challenges, logistics, distribution and marketing initiatives and activities, the impact of our Productivity Initiative and our warehouse restructuring plan, including expected restructuring charges, cost savings and other benefits, the impacts of tariffs, including import tax on steel and aluminum, factors and trends in our business, including seasonality, future expenses or payments under the TRA (as defined below), shifting market demand and consumer preferences, ability to effectively compete, validity of our trademarks and other intellectual property, impact of government regulations, liquidity and capital requirements, including the … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -236,9 +262,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L227:
+
+> change in consumer preferences, perception and spending habits, particularly due to impacts of inflation, in the commercial beverage industry and on zero sugar, naturally sweetened products, and failure to develop or enrich our product offerings or gain market acceptance of our products, including new offerings; [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L4975:
+
+> We generate net sales from the sales of our products, including Soda, Energy Drinks, and Tea drinks, to our customers, which include grocery distributors, national retailers, convenience retailers, natural products retailers, warehouse club retailers and retailers with e-commerce channels, in the U.S. and Canada. In 2026, we will discontinue selling the Tea product line. [S67]
 
 ## Industry and value chain
 
@@ -246,19 +280,35 @@ SEC-reported SIC **2086**: Bottled & Canned Soft Drinks & Carbonated Waters. [S0
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L206:
+
+> This Quarterly Report on Form 10-Q for the period ended June 30, 2026 (“Quarterly Report”) contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), about us and our industry that involve substantial known and unknown risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report, including, without limitation, statements regarding our future results of operations or financial condition, business strategy, expectations about capital allocation, investment activities, sourcing of raw materials, the impact of our supply chain challenges, logistics, distribution and marketing initiatives and activities, the impact of our Productivity Initiative and our warehouse restructuring plan, including expected restructuring charges, cost savings and other benefits, the impacts of tariffs, including import tax on steel and aluminum, factors and trends in our business, including seasonality, future expenses or payments under the TRA (as defined below), shifting market demand and consumer preferences, ability to effectively compete, validity of our trademarks and other intellectual property, impact of government regulations, liquidity and capital requirements, including the … [S67]
+
 Navigation sector: **consumer-staples**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L4971:
+
+> We continue to monitor macroeconomic trends and uncertainties such as key ingredient inflation, any potential shutdown of the U.S. government, the ongoing conflicts in the Middle East, the effects of tariffs, and the potential imposition of modified or additional tariffs, which may adversely affect our net sales and profitability. As a result of the rapid changes in global trade policies, including tariffs, and potential tariff modifications or the imposition of tariffs, export controls or other retaliatory actions by other countries, we have experienced and anticipate continuing to experience increased supply chain challenges, commodity cost volatility, and consumer and economic uncertainty. This has also created a complex and challenging retail environment for us as consumers reduce discretionary spending. A decline in consumer spending may have an adverse effect on our revenues, margins, and operating results. We, along with our competitors, have increased pricing on a number of products in response to widespread inflation, which could be exacerbated as a result of the tariffs. These pricing increases may result in future reductions in volume. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L206:
+
+> This Quarterly Report on Form 10-Q for the period ended June 30, 2026 (“Quarterly Report”) contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), about us and our industry that involve substantial known and unknown risks and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report, including, without limitation, statements regarding our future results of operations or financial condition, business strategy, expectations about capital allocation, investment activities, sourcing of raw materials, the impact of our supply chain challenges, logistics, distribution and marketing initiatives and activities, the impact of our Productivity Initiative and our warehouse restructuring plan, including expected restructuring charges, cost savings and other benefits, the impacts of tariffs, including import tax on steel and aluminum, factors and trends in our business, including seasonality, future expenses or payments under the TRA (as defined below), shifting market demand and consumer preferences, ability to effectively compete, validity of our trademarks and other intellectual property, impact of government regulations, liquidity and capital requirements, including the … [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 8-K, filed 2026-10-23, L84:
+
+> On October 22, 2026 (the “Effective Date”), Zevia PBC (“Zevia” or the “Company”) entered into a Securities Purchase Agreement (the “Purchase Agreement”) with Bubble Holdings, LLC, a Delaware limited liability company and an affiliate of GP Investments, Ltd. (the “Purchaser”). Pursuant to the Purchase Agreement, on the terms and subject to the conditions set forth therein, the Company agreed to issue and sell to the Purchaser, and the Purchaser agreed to purchase from the Company, an aggregate of 20,000 shares of a new series of preferred stock of the Company, par value $0.001 per share, designated as “Series A Senior Convertible Preferred Stock” (the “Series A Preferred Stock”), for a purchase price of $1,000 per share and an aggregate purchase price of up to $20.0 million (the “Investment”), in a transaction exempt from the registration requirements of the Securities Act of 1933, as amended (the “Securities Act”). The Company intends to use the net proceeds from the Investment to fund key strategic priorities and general corporate purposes. [S66]
 
 ## Financial performance
 
@@ -371,6 +421,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-23, L88:
+
+> Pursuant to the Purchase Agreement, for so long as the Purchaser, together with its affiliates, beneficially owns at least 10,000 shares of Series A Preferred Stock or at least 8% of the Company’s outstanding common stock (including the Series A Preferred Stock on an as-converted basis) (the “Beneficial Ownership Requirement”), the Purchaser will have the right to designate one individual (the “Purchaser Designee”) for nomination, recommendation and support by the Company and the Company’s board of directors (the “Board”) for election to the Board, subject to the Purchaser Designee satisfying applicable legal, New York Stock Exchange (“NYSE”), independence and Company governance qualification requirements. If the Beneficial Ownership Requirement ceases to be satisfied, the Purchaser’s designation right will terminate and, at the Board’s written request, the Purchaser will cause the Purchaser Designee to resign. For so long as the Beneficial Ownership Requirement is satisfied, the Company may not, without the Purchaser’s consent, decrease the size of the Board if doing so would require the resignation of the Purchaser Designee. Effective as of the Initial Closing, the size of the Board was increased to eight members. [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -383,6 +437,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L94:
+
+> The Purchaser has agreed not to transfer any shares of Series A Preferred Stock or Class A common stock, par value $0.001 per share (the “Class A Common Stock”) issued or issuable upon conversion thereof until the date that is 12 months following the Deferred Closing (or, if the Deferred Closing does not occur as a result of the failure of a Tranche 2 Condition that the Purchaser does not waive, 12 months following the date that is the earlier of (i) five business days after the filing of the 2026 Annual Report and (ii) April 15, 2027), subject to exceptions for transfers to affiliates, transfers in connection with a change of control approved by the Board and certain transfers by operation of law. The Company has a right of first offer on any proposed transfer of Series A Preferred Stock by the Purchaser other than to an affiliate, exercisable within 15 business days following receipt of the Purchaser’s offer notice. Any transfer that would result in a transferee acquiring a majority of the Purchaser’s shares of Series A Preferred Stock or the right to direct the exercise of the Purchaser’s rights under the Purchase Agreement requires the Company’s prior written consent, not to be unreasonably withheld, conditioned or delayed. The Purchaser has also agreed to use commercially reasonable efforts to effect transfers in a manner that would not have a material adverse effect on … [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -392,25 +450,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -456,6 +514,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S46] [10-K 0001437749-26-005601](https://www.sec.gov/Archives/edgar/data/1854139/000143774926005601/0001437749-26-005601-index.html) — published 2026-02-25; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZVIA/README.md).
+[S66] [8-K 0001437749-26-033400](https://www.sec.gov/Archives/edgar/data/1854139/000143774926033400/zvia20261022_8k.htm) — published 2026-10-23; retrieved 2026-11-02T22:08:29.358159+00:00.
+
+[S67] [10-Q 0001437749-26-025925](https://www.sec.gov/Archives/edgar/data/1854139/000143774926025925/zvia20260630c_10q.htm) — published 2026-08-05; retrieved 2026-11-02T22:08:27.392401+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZVIA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

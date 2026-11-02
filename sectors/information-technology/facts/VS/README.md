@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -203,15 +203,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001701963.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/VS/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/VS/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # VS — Versus Systems Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/VS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/VS/README.md)
 
 ## Business overview
 
@@ -450,6 +450,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S23] [10-K 0001213900-26-044110](https://www.sec.gov/Archives/edgar/data/1701963/000121390026044110/0001213900-26-044110-index.html) — published 2026-04-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/VS/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/VS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

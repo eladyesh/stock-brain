@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -128,6 +128,18 @@ sources:
   published_at: '2026-09-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/712034/000119312526328057/acco-20260630.htm
+  title: 10-Q 0001193125-26-328057
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-02T22:10:58.476691+00:00'
+  sha256: 12286c44306fbd902cd0edd75b57ce838f1d230e73bf1d4d695fc5982ddd41e0
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/712034/000119312526098616/acco-20251231.htm
+  title: 10-K 0001193125-26-098616
+  published_at: '2026-03-09'
+  retrieved_at: '2026-11-02T22:10:54.079349+00:00'
+  sha256: 081c4204bba25c558d6b8054fc58dcc4b09b8271f1b250497f9f96f7468c5f97
 issuer_classification:
   cik: '0000712034'
   classification_status: reported_sic
@@ -169,13 +181,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/712034/000110465921022851/0001104659-21-022851-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 503878e8d26d37d332f00b89cc7cfd01f8d92040d6f2130219a552cbe995bd96
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -190,15 +212,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000712034.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCO/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCO/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACCO — ACCO BRANDS Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCO/README.md)
 
 ## Business overview
 
@@ -212,6 +234,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L6540:
+
+> Legislatures and taxing authorities in many jurisdictions in which we operate may enact changes to, or seek to enforce, novel interpretations of their tax rules. These changes may include modifications that can be temporary or permanent. For example, the Organisation for Economic Cooperation and Development (the "OECD"), the European Union and other countries (including countries in which we operate) have committed to enacting substantial changes to numerous long-standing tax principles impacting how large multinational enterprises are taxed. In particular, the OECD's Pillar Two initiative introduces a 15% global minimum tax (the "Global Minimum Tax") applied on a country-by-country basis and some jurisdictions have enacted a Global Minimum Tax effective January 1, 2024 while others are still evaluating the situation. As of June 30, 2026, there was no impact to our effective tax rate resulting from the enactment of a Global Minimum Tax in the jurisdictions in which we operate. Management will continue to assess the impact and materiality of these potential new rules as well as any other changes in domestic and international tax rules and regulations. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -220,9 +246,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-31, L8401:
+
+> We distribute our products through a wide variety of channels to ensure that our products are readily and conveniently available for purchase by consumers and other end-users, wherever they prefer to shop. These channels include mass retailers, e-tailers, discount, drug/grocery and variety chains, warehouse clubs, hardware and specialty stores, independent office product dealers, office superstores, wholesalers, contract stationers and specialist technology businesses. We also sell directly through e-commerce sites and our direct sales organization. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-31, L7954:
+
+> Revenue is recognized when control of the promised goods or services is transferred to our customers in an amount reflective of the consideration we expect to receive in exchange for those goods or services. Taxes we collect concurrent with revenue producing activities are excluded from revenue. Incidental items incurred that are immaterial in the context of the contract are expensed. [S69]
 
 ## Industry and value chain
 
@@ -230,19 +264,35 @@ SEC-reported SIC **2780**: Blankbooks, Looseleaf Binders & Bookbindg & Relatd Wo
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L10824:
+
+> During 2024, the Company announced a multi-year restructuring and cost savings program, with currently anticipated annualized pre-tax cost savings of approximately $100.0 million by the end of 2026. The program incorporates initiatives to simplify and delayer the Company's operating structure and reduce costs through headcount reductions, supply chain optimization, global footprint rationalization, and better leveraging the Company's sourcing capabilities. In the first half of the current year the Company realized approximately $20.0 million in pre-tariff savings and approximately $80.0 million since inception of the program. [S69]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-09, L555:
+
+> Certain of our customers source and sell products under their own private label brands that compete with our products. Additionally, as large traditional retail and online customers grow even larger and become more sophisticated, they may continue to demand lower pricing, shorter lead times for the delivery of products, smaller more frequent shipments, or impose other requirements on product suppliers. These business demands may relate to inventory practices, logistics, or other aspects of the customer-supplier relationship. If we do not effectively respond to these demands, these customers could decrease their purchases from us. A reduction in the demand for our products by these customers and the costs of complying with their business demands could have a material adverse effect on our business, operating results, and financial condition. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-31, L9778:
+
+> We are party to various lawsuits, regulatory proceedings, and claims incidental to our business. In addition, we may be unaware of third-party claims of intellectual property infringement relating to our technology, brands, or products, and we may face other claims related to business operations. Any litigation regarding patents or other intellectual property could be costly and time-consuming and might require us to pay monetary damages or enter into costly license agreements. We also may be subject to injunctions against development and sale of certain of our products. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-31, L4118:
+
+> On January 30, 2026, we completed the acquisition of EPOS from Demant A/S, a leading Danish hearing healthcare company. Based in Copenhagen, Denmark, EPOS provides a comprehensive range of premium enterprise wired and wireless headsets, and other audio solutions, that build on over a century of research in psychoacoustics. The EPOS product line is designed to reduce listening fatigue, improve voice clarity and support cognitive performance. EPOS complements our global computer accessories portfolio and expands on our strategy into growing technology peripherals. For accounting purposes, the Company is the acquiring enterprise. The EPOS acquisition is being accounted for as a purchase business combination and the results of EPOS are included in both of the Company's operating business segments in our consolidated financial statements as of the acquisition date. [S69]
 
 ## Financial performance
 
@@ -358,6 +408,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L5590:
+
+> We generally recognize expense for stock-based awards ratably over the vesting period. During the second quarter of 2026, stock compensation grants were made consisting of 1,311,987 PSUs and 31,170 RSUs; in addition, the Company's Board of Directors approved the annual stock compensation grant to eligible non-employee directors, which consisted of 262,472 RSUs. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -370,6 +424,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L98:
+
+> Some of the factors that could affect our results or cause our plans, actions and results to differ materially from those expressed in the forward-looking statements contained in this Quarterly Report on Form 10-Q are detailed in "Part I, Item 1. Business" and "Part I, Item 1A. Risk Factors" in our Annual Report on Form 10-K for the year ended December 31, 2025, as well as in "Part I, Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations" of this Quarterly Report on Form 10-Q and from time to time in our other Securities and Exchange Commission (the "SEC") filings. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -379,25 +437,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -441,6 +499,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0000712034-26-000081](https://www.sec.gov/Archives/edgar/data/712034/000071203426000081/0000712034-26-000081-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCO/README.md).
+[S69] [10-Q 0001193125-26-328057](https://www.sec.gov/Archives/edgar/data/712034/000119312526328057/acco-20260630.htm) — published 2026-07-31; retrieved 2026-11-02T22:10:58.476691+00:00.
+
+[S71] [10-K 0001193125-26-098616](https://www.sec.gov/Archives/edgar/data/712034/000119312526098616/acco-20251231.htm) — published 2026-03-09; retrieved 2026-11-02T22:10:54.079349+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -151,6 +151,18 @@ sources:
   published_at: '2026-08-19'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1704292/000162828026053793/zlab-20260630.htm
+  title: 10-Q 0001628280-26-053793
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-02T22:08:18.053873+00:00'
+  sha256: 9bf89bd87b3a9c569beabea78190dd12753ee88abafde07a1da6c8643d4bae78
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1704292/000170429226000030/zlab-20260428.htm
+  title: DEF 14A 0001704292-26-000030
+  published_at: '2026-04-28'
+  retrieved_at: '2026-11-02T22:08:16.289309+00:00'
+  sha256: 0b7dfd485621505d127fd5c24095903212dd7ad615d78ea8419d0da9bdd0eb05
 issuer_classification:
   cik: 0001704292
   classification_status: reported_sic
@@ -196,13 +208,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1704292/000119312522136847/0001193125-22-136847-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 45d37ed400dd7d5697666e38e839b9ae90268fc00565bf7efe720a46fb3b6b21
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -217,15 +240,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001704292.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZLAB/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZLAB/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ZLAB — Zai Lab Ltd
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZLAB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZLAB/README.md)
 
 ## Business overview
 
@@ -239,17 +262,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L192:
+
+> This report contains certain forward-looking statements, including statements relating to our strategy and plans; potential of and expectations for our business, commercial products, and pipeline programs; the market for our commercial and pipeline products; capital allocation and investment strategy; clinical development programs and related clinical trials; clinical trial data, data readouts, and presentations; risks and uncertainties associated with drug development and commercialization; regulatory discussions, submissions, filings, and approvals and the timing thereof; the potential benefits, safety, and efficacy of our products and product candidates and those of our collaboration partners; the anticipated benefits and potential of investments, collaborations, and business development activities; our profitability; and our future financial and operating results. All statements, other than statements of historical fact, included in this report are forward-looking statements, and can be identified by words such as “aim,” “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “forecast,” “goal,” “intend,” “may,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or the negative of these terms or similar expressions. Such statements constitute forward-looking statements within the meaning of the … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L724:
+
+> The Company operates as a single operating segment that is engaged in discovering, developing, and commercializing products that address medical conditions with significant unmet needs in the areas of oncology, immunology, neuroscience, and infectious disease. A global research and development organization and a supply chain organization discover, develop, manufacture, and supply the Company’s products. A global commercial organization markets, distributes, and sells the products. The business is also supported by global corporate staff functions. The Company’s Chief Operating Decision Maker (the “CODM”) is the Chief Executive Officer, who assesses performance and allocates resources based on significant expenses and net income on a consolidated basis. The significant expenses that are regularly provided to the CODM include those amounts that are also reported on the consolidated statement of operations as well as below additional disaggregated measures. The CODM also reviews cash position (which includes cash and cash equivalents, current restricted cash, and short-term investments that are reported on the consolidated balance sheets) when making operating decisions. In accordance with ASC 280, the Company has only one reportable segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L192:
+
+> This report contains certain forward-looking statements, including statements relating to our strategy and plans; potential of and expectations for our business, commercial products, and pipeline programs; the market for our commercial and pipeline products; capital allocation and investment strategy; clinical development programs and related clinical trials; clinical trial data, data readouts, and presentations; risks and uncertainties associated with drug development and commercialization; regulatory discussions, submissions, filings, and approvals and the timing thereof; the potential benefits, safety, and efficacy of our products and product candidates and those of our collaboration partners; the anticipated benefits and potential of investments, collaborations, and business development activities; our profitability; and our future financial and operating results. All statements, other than statements of historical fact, included in this report are forward-looking statements, and can be identified by words such as “aim,” “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “forecast,” “goal,” “intend,” “may,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or the negative of these terms or similar expressions. Such statements constitute forward-looking statements within the meaning of the … [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L914:
+
+> We sell our products to distributors (our customers), who ultimately sell the products to healthcare providers, primarily in mainland China. We recognize revenue when the performance obligations are satisfied upon the product’s delivery to distributors. [S68]
 
 ## Industry and value chain
 
@@ -257,19 +296,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L724:
+
+> The Company operates as a single operating segment that is engaged in discovering, developing, and commercializing products that address medical conditions with significant unmet needs in the areas of oncology, immunology, neuroscience, and infectious disease. A global research and development organization and a supply chain organization discover, develop, manufacture, and supply the Company’s products. A global commercial organization markets, distributes, and sells the products. The business is also supported by global corporate staff functions. The Company’s Chief Operating Decision Maker (the “CODM”) is the Chief Executive Officer, who assesses performance and allocates resources based on significant expenses and net income on a consolidated basis. The significant expenses that are regularly provided to the CODM include those amounts that are also reported on the consolidated statement of operations as well as below additional disaggregated measures. The CODM also reviews cash position (which includes cash and cash equivalents, current restricted cash, and short-term investments that are reported on the consolidated balance sheets) when making operating decisions. In accordance with ASC 280, the Company has only one reportable segment. [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L574:
+
+> •Market Competitive. While we do not benchmark our compensation, or its components, to a specific market percentile of compensation, we consider the executive compensation programs of a peer group of biotechnology and pharmaceutical companies that we believe are representative of the companies we primarily compete with for talent in the geographies where we do business. Broader market data, as further described below, is also considered in order to provide additional context for our executive compensation decisions. Peer group and market practices are among the many factors we consider in developing an executive compensation program that is designed to enable us to recruit, retain, and motivate our leadership team to achieve our business objectives and enhance shareholder value. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L680:
+
+> In January 2025, the Company entered into a license agreement with Zenas BioPharma (HK) Limited, a subsidiary of Zenas BioPharma, Inc. (“Zenas”), pursuant to which the Company obtained a license under certain patents and know-how of Zenas to develop and commercialize products containing a differentiated humanized monoclonal antibody targeting IGF-1R as an active ingredient in Greater China. One of the members of the Company’s Board of Directors, Mr. Moulder, is also the Chairman of the Board of Directors and Chief Executive Officer of Zenas. The Company recorded a $10.0 million upfront fee into research and development expenses in the first quarter of 2025. As of June 30, 2026, the Company [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L192:
+
+> This report contains certain forward-looking statements, including statements relating to our strategy and plans; potential of and expectations for our business, commercial products, and pipeline programs; the market for our commercial and pipeline products; capital allocation and investment strategy; clinical development programs and related clinical trials; clinical trial data, data readouts, and presentations; risks and uncertainties associated with drug development and commercialization; regulatory discussions, submissions, filings, and approvals and the timing thereof; the potential benefits, safety, and efficacy of our products and product candidates and those of our collaboration partners; the anticipated benefits and potential of investments, collaborations, and business development activities; our profitability; and our future financial and operating results. All statements, other than statements of historical fact, included in this report are forward-looking statements, and can be identified by words such as “aim,” “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “forecast,” “goal,” “intend,” “may,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or the negative of these terms or similar expressions. Such statements constitute forward-looking statements within the meaning of the … [S68]
 
 ## Financial performance
 
@@ -367,6 +422,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L680:
+
+> In January 2025, the Company entered into a license agreement with Zenas BioPharma (HK) Limited, a subsidiary of Zenas BioPharma, Inc. (“Zenas”), pursuant to which the Company obtained a license under certain patents and know-how of Zenas to develop and commercialize products containing a differentiated humanized monoclonal antibody targeting IGF-1R as an active ingredient in Greater China. One of the members of the Company’s Board of Directors, Mr. Moulder, is also the Chairman of the Board of Directors and Chief Executive Officer of Zenas. The Company recorded a $10.0 million upfront fee into research and development expenses in the first quarter of 2025. As of June 30, 2026, the Company [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -379,6 +438,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L984:
+
+> We are subject to risks and uncertainties that could, directly or indirectly, adversely affect our business, results of operations, financial condition, liquidity, cash flows, strategies, and/or prospects. There have been no material changes in our risk factors from those disclosed in the “Risk Factors” section of our 2025 Annual Report. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -388,25 +451,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -450,6 +513,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001959173-26-006213](https://www.sec.gov/Archives/edgar/data/1704292/000195917326006213/0001959173-26-006213-index.html) — published 2026-08-19; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ZLAB/README.md).
+[S68] [10-Q 0001628280-26-053793](https://www.sec.gov/Archives/edgar/data/1704292/000162828026053793/zlab-20260630.htm) — published 2026-08-06; retrieved 2026-11-02T22:08:18.053873+00:00.
+
+[S69] [DEF 14A 0001704292-26-000030](https://www.sec.gov/Archives/edgar/data/1704292/000170429226000030/zlab-20260428.htm) — published 2026-04-28; retrieved 2026-11-02T22:08:16.289309+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ZLAB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

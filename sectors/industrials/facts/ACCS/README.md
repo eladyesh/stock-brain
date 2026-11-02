@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -158,6 +158,12 @@ sources:
   published_at: '2026-03-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/843006/000111650209000064/isdr8ka.htm
+  title: 8-K/A 0001116502-09-000064
+  published_at: '2009-01-15'
+  retrieved_at: '2026-11-02T22:11:02.408407+00:00'
+  sha256: ce2197b47813cca3bcf99d00a6bcce299e9963e495ce4030f801a813ede2744d
 issuer_classification:
   cik: 0000843006
   classification_status: reported_sic
@@ -227,13 +233,14 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/843006/000111650209000064/0001116502-09-000064-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 435b48b274943766ebc0fe0c23d9441e13e1289b6dc697707120b17c90e937a4
-  last_attempt_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-03T22:04:14.646377+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - management-and-governance
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -248,15 +255,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000843006.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCS/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCS/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACCS — ACCESS Newswire Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCS/README.md)
 
 ## Business overview
 
@@ -422,6 +429,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2009-01-15, L65; prior source set, update pending:
+
+> On January 9, 2009, Issuer Direct Corporation (the “Company”) notified De Joya Griffith & Company, LLC. (“De Joya”) that effective January 9, 2009 the Company has decided to dismiss DeJoya as the Company’s independent registered public accounting firm. The decision to dismiss DeJoya was made and approved by the Company’s Board of Directors. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -443,7 +454,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -455,7 +466,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
@@ -507,6 +518,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S40] [10-K 0001683168-26-002018](https://www.sec.gov/Archives/edgar/data/843006/000168316826002018/0001683168-26-002018-index.html) — published 2026-03-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ACCS/README.md).
+[S68] [8-K/A 0001116502-09-000064](https://www.sec.gov/Archives/edgar/data/843006/000111650209000064/isdr8ka.htm) — published 2009-01-15; retrieved 2026-11-02T22:11:02.408407+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACCS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

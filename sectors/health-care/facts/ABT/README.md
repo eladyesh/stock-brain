@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -99,6 +99,24 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1800/000162828026050134/abt-20260630.htm
+  title: 10-Q 0001628280-26-050134
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-02T22:08:47.025275+00:00'
+  sha256: ec840d02ba4c08e681a2164ad651c3847558e0dde4910dc7b0059b3a456de1c7
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1800/000130817926000064/abt-20260311.htm
+  title: DEF 14A 0001308179-26-000064
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-02T22:08:45.180028+00:00'
+  sha256: 15cd7a336e90e1d7dea16ca83aadcc83af69b5cbb7575a8cc98cb67a579d0ba9
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm
+  title: 10-K 0001628280-26-010185
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-02T22:08:43.197233+00:00'
+  sha256: d55632b106942d12eb71d0621fc819f6c6ebcf009a04feb3f34950bd6781ebbf
 issuer_classification:
   cik: 0000001800
   classification_status: reported_sic
@@ -144,13 +162,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1800/000110465923069894/0001104659-23-069894-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 271d283b5d2a0f23a4ab333ae098c334530a8aa4aa924c035429c021356d0aab
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -165,15 +193,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000001800.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ABT/README.md
-full_history_commit: 74ccef77fa9cf26c36f793c485fb03c45f0e266e
+full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ABT/README.md
+full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ABT — ABBOTT LABORATORIES
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ABT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ABT/README.md)
 
 ## Business overview
 
@@ -187,13 +215,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L671:
+
+> To impact the most lives, we must get our innovative healthcare solutions to people who need them and ensure our business is resilient and prepared for the future, working to protect the environment, ensure a responsible supply chain, build the workforce of tomorrow and responsibly connect technology and care. [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-07-28, L447:
+
+> Abbott’s revenues are derived primarily from the sale of a broad portfolio of healthcare products under short-term receivable arrangements. Abbott has four reportable segments: Established Pharmaceutical Products, Nutritional Products, Diagnostic Products, and Medical Devices. [S54]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — DEF 14A, filed 2026-03-13, L665:
+
+> At Abbott, sustainability means managing our company to deliver long-term impact for the people we serve — shaping the future of healthcare and helping the greatest number of people live better and healthier lives. Our products and services touched the lives of approximately 2 billion people in 2024 and our goal is to reach 3 billion people a year by 2030. [S55]
 
 ## Customers and end markets
 
@@ -205,19 +245,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L595:
+
+> Five new independent directors have been elected in the last five years to supplement the Board’s skills and provide fresh perspective, including in the areas of finance, supply chain and infrastructure management, technology, medical science, and healthcare delivery [S55]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-28, L958:
+
+> Abbott’s revenues are derived primarily from the sale of a broad portfolio of healthcare products under short-term receivable arrangements. Patent protection and licenses, technological and performance features, and inclusion of Abbott’s products under a contract most significantly impact which products are sold; price controls, competition, and rebates most significantly impact the net selling prices of products; and foreign currency translation impacts the measurement of net sales and costs. Abbott’s primary products are medical devices, diagnostic testing products, nutritional products, and branded generic pharmaceuticals. [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-20, L303:
+
+> Abbott is aware of the desirability for patent and trademark protection for its products. Accordingly, where possible, patents and trademarks are sought and obtained for Abbott’s products in the United States and countries of interest to Abbott. Abbott owns or has licenses under a substantial number of patents and patent applications. Principal trademarks and the products they cover are discussed in the Narrative Description of Business on pages 1 through 4. These, and various patents that expire during the period from 2026 to 2046, in the aggregate, are believed to be of material importance in the operation of Abbott’s business. Abbott believes that no single patent, license, or trademark is material in relation to Abbott’s business as a whole. [S56]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-13, L774:
+
+> •Aligned to drive Abbott’s strategic priorities, reflects strong sustainable performance resulting in total shareholder return (TSR) above the peer median on a one-year, three-year, and five-year basis. [S55]
 
 ## Financial performance
 
@@ -231,6 +287,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1087:
+
+> In the first six months of 2026, Abbott repurchased approximately 11.6 million of its common shares for $1.0 billion. As of June 30, 2026, $5.6 billion remains available for repurchase under the share repurchase program authorized by the board of directors in October 2024. [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -242,6 +302,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-07-28, L560:
+
+> The allowance for doubtful accounts reflects the current estimate of credit losses expected to be incurred over the life of the accounts receivable. Abbott considers various factors in establishing, monitoring, and adjusting its allowance for doubtful accounts, including the aging of the accounts and aging trends, the historical level of charge-offs, and specific exposures related to particular customers. Abbott also monitors other risk factors and forward-looking information, such as country risk, when determining credit limits for customers and establishing adequate allowances. [S54]
 
 ## Scenarios and open questions
 
@@ -255,25 +319,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -309,6 +373,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0001104659-26-113286](https://www.sec.gov/Archives/edgar/data/1800/000110465926113286/0001104659-26-113286-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/74ccef77fa9cf26c36f793c485fb03c45f0e266e/brain/companies/ABT/README.md).
+[S54] [10-Q 0001628280-26-050134](https://www.sec.gov/Archives/edgar/data/1800/000162828026050134/abt-20260630.htm) — published 2026-07-28; retrieved 2026-11-02T22:08:47.025275+00:00.
+
+[S55] [DEF 14A 0001308179-26-000064](https://www.sec.gov/Archives/edgar/data/1800/000130817926000064/abt-20260311.htm) — published 2026-03-13; retrieved 2026-11-02T22:08:45.180028+00:00.
+
+[S56] [10-K 0001628280-26-010185](https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm) — published 2026-02-20; retrieved 2026-11-02T22:08:43.197233+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ABT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
