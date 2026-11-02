@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -472,6 +472,30 @@ sources:
   published_at: '2026-01-12'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1937653/000193765326000055/zyme-20261022.htm
+  title: 8-K 0001937653-26-000055
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-02T22:08:37.509994+00:00'
+  sha256: 436aef48f754c169f6a0ca6e58a4882fba00fed816070f3e8b7e67555779fbeb
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1937653/000193765326000047/zyme-20260630.htm
+  title: 10-Q 0001937653-26-000047
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-02T22:08:35.831101+00:00'
+  sha256: c3877a2cf99f08dd984f22b711653138bfaa1bceecaba9dc07fc7dac4005a6b9
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1937653/000193765326000015/zyme-20251231.htm
+  title: 10-K 0001937653-26-000015
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-02T22:08:33.886015+00:00'
+  sha256: 5f60bd3f2c99eff77cda9a9e14a6bee4da4fd2a83cbd0055e72e4c1bfb87a124
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1937653/000119312525274338/d81081ddef14a.htm
+  title: DEF 14A 0001193125-25-274338
+  published_at: '2025-11-10'
+  retrieved_at: '2026-11-02T22:08:31.720817+00:00'
+  sha256: 956998ab5df492e4ad6e2e0baaec311c9a7075e6e5b96962f4143768cb8c8231
 issuer_classification:
   cik: 0001937653
   classification_status: reported_sic
@@ -509,13 +533,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1937653/000193765326000055/0001937653-26-000055-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 754d5b999b9224d4124a8b198d5ad746d4abfdb58acc373f6f8d2ccc7bee34c8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -539,13 +573,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L151:
+
+> •the evolution of our business strategy related to anticipated and potential future milestones and royalty streams and existing and potential new partnerships; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1074:
+
+> The Company operates and manages its business in a single reportable segment, which is the management of a portfolio of licensed healthcare assets and development of novel multifunctional biotherapeutics (the “biotherapeutics segment”). [S67]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1587:
+
+> We expect to collaborate with additional pharmaceutical and biotechnology companies for later-stage development and potential commercialization of our products candidates. Our ability to reach a definitive agreement for a collaboration will depend, among other things, upon our assessment of the strategic partner’s resources and expertise, the terms and conditions of the proposed collaboration and the proposed strategic partner’s evaluation of a number of factors. These factors may include the design or results of clinical trials, the likelihood of approval by the FDA or similar regulatory authorities outside the United States, the potential market for the product candidate, the costs and complexities of manufacturing and delivering the product candidate to patients, the potential of competing products, uncertainty regarding our ownership of technology, industry and market conditions generally, and whether alternative product candidates or technologies for similar indications may be more attractive than a collaboration with us. Strategic partnerships are complex and time-consuming to negotiate and document. In addition, there have been and may continue to be a significant number of business combinations among large pharmaceutical companies that have resulted in and may in the future result in a reduced number of potential strategic partners. In addition, as part of our recently … [S67]
 
 ## Customers and end markets
 
@@ -557,17 +603,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1522:
+
+> We have physical operations and personnel in North America, Europe and Asia, and some of our suppliers and collaborative and clinical trial relationships are located outside the United States. Our future results could be harmed by a variety of factors, including: [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L181:
+
+> •our ability to face significant competition, including biosimilar products, as well as competition for potential acquisitions and other business development transactions we may pursue; [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 8-K, filed 2026-10-23, L74:
+
+> License. Under the terms of the Collaboration and License Agreement, the Company granted to Roche an exclusive, worldwide, royalty-bearing license, with the right to grant sublicenses, under certain of the Company’s intellectual property, to research, develop, make, have made, use, sell, offer for sale, import, export, and otherwise exploit pharmaceutical products, including any combination product, containing (i) ZW209, (ii) any other trispecific T-cell engagers targeting DLL3-expressing tumor cells that are covered by any intellectual property owned or controlled by the Company as of the Effective Date (as defined below), or (iii) any derivatives, modifications or a back-up compound of the foregoing (each a “Compound”), as a pharmaceutically active ingredient, regardless of its finished forms, formulations, or dosages (“Products”), and companion diagnostics for such Products. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L170:
+
+> •our ability to raise sufficient debt, equity, or non-dilutive financing to support our strategy and business objectives, including the proposed non-recourse debt financing with OMERS Life Sciences to partially fund our proposed acquisition of Theravance. [S67]
 
 ## Financial performance
 
@@ -1148,6 +1210,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L793:
+
+> On August 1, 2024, the board of directors of the Company authorized a stock repurchase program (the “2024 Repurchase Program”), whereby the Company may repurchase up to $60,000 of the Company’s outstanding common stock, par value $0.00001 per share. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1160,6 +1226,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L145:
+
+> This Quarterly Report on Form 10-Q includes “forward-looking statements” or information within the meaning of applicable securities legislation, including Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements include statements that may relate to our plans, objectives, goals, strategies, future events, future revenue or performance, capital expenditures, financing needs and other information that is not historical information. Many of these statements appear, in particular, under the headings “Business,” “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” Forward-looking statements can often be identified by the use of terminology such as “subject to,” “believe,” “anticipate,” “plan,” “expect,” “intend,” “estimate,” “project,” “may,” “will,” “should,” “would,” “could,” “can,” the negatives thereof, variations thereon and similar expressions, or by discussions of strategy. In addition, any statements or information that refer to expectations, beliefs, plans, projections, objectives, performance or other characterizations of future events or circumstances, including any underlying assumptions, are forward-looking. In particular, these forward-looking statements include, but are not … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1169,25 +1239,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1251,6 +1321,10 @@ Latest 50 filing metadata records of 334 retained records. A filing link is evid
 | 2026-01-12 | 144 | 0001193125-26-010578 | — | [S63] |
 | 2026-01-12 | 144 | 0001193125-26-010577 | — | [S64] |
 | 2026-01-12 | 144 | 0001193125-26-010571 | — | [S65] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L794:
+
+> During the year ended December 31, 2024, the Company repurchased 2,545,402 shares of its common stock for a cost of $30,000, and incurred commission expense of $51, under the 2024 Repurchase Program, which have been recorded against accumulated deficit. The Company’s share repurchases in excess of issuances are subject to a 1% excise tax enacted by the Inflation Reduction Act of $152. During the year ended December 31, 2024, the Company retired all 2,545,402 shares repurchased. These shares were returned to the status of authorized and unissued shares. During the year ended December 31, 2025, the Company completed the 2024 Repurchase Program by repurchasing 1,856,907 shares of its common stock for a cost of $29,997 and incurred commission expense of $37, which have been recorded against accumulated deficit. Excise tax was estimated as nil. The Company retired all 1,856,907 shares repurchased. These shares were returned to the status of authorized and unissued shares. [S67]
 
 ## Sources and change log
 
@@ -1383,5 +1457,13 @@ Latest 50 filing metadata records of 334 retained records. A filing link is evid
 [S64] [144 0001193125-26-010577](https://www.sec.gov/Archives/edgar/data/1937653/000119312526010577/0001193125-26-010577-index.html) — published 2026-01-12; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S65] [144 0001193125-26-010571](https://www.sec.gov/Archives/edgar/data/1937653/000119312526010571/0001193125-26-010571-index.html) — published 2026-01-12; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S66] [8-K 0001937653-26-000055](https://www.sec.gov/Archives/edgar/data/1937653/000193765326000055/zyme-20261022.htm) — published 2026-10-23; retrieved 2026-11-02T22:08:37.509994+00:00.
+
+[S67] [10-Q 0001937653-26-000047](https://www.sec.gov/Archives/edgar/data/1937653/000193765326000047/zyme-20260630.htm) — published 2026-08-06; retrieved 2026-11-02T22:08:35.831101+00:00.
+
+[S68] [10-K 0001937653-26-000015](https://www.sec.gov/Archives/edgar/data/1937653/000193765326000015/zyme-20251231.htm) — published 2026-03-02; retrieved 2026-11-02T22:08:33.886015+00:00.
+
+[S69] [DEF 14A 0001193125-25-274338](https://www.sec.gov/Archives/edgar/data/1937653/000119312525274338/d81081ddef14a.htm) — published 2025-11-10; retrieved 2026-11-02T22:08:31.720817+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

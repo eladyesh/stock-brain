@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -245,6 +245,18 @@ sources:
   published_at: '2025-11-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S33
+  url: https://www.sec.gov/Archives/edgar/data/2096900/000121390026110318/ea0308878-8k_averin.htm
+  title: 8-K 0001213900-26-110318
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-02T22:10:31.708732+00:00'
+  sha256: 6953eda28aabb68ea9f43a77634f98655b7afea4ee7723fa5783e03f084c9776
+- id: S34
+  url: https://www.sec.gov/Archives/edgar/data/2096900/000121390026085680/ea0300633-10q_averin.htm
+  title: 10-Q 0001213900-26-085680
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-02T22:10:29.960703+00:00'
+  sha256: 16f3b1eb34641f52a073440ac8652908eb192af2dce29de25395c15b42091a48
 issuer_classification:
   cik: 0002096900
   classification_status: reported_sic
@@ -273,13 +285,19 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2096900/000121390026110318/0001213900-26-110318-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: aef11f094f87ca5a158baef07d04a3bb8ec148791b9ab31271418cf6d2af419f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -303,9 +321,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L244:
+
+> \| “Founder Shares” are to the (i) Class B Ordinary Shares initially purchased by our Sponsor prior to the Initial Public Offering and (ii) Class A Ordinary Shares that will be issued upon the automatic conversion of the Class B Ordinary Shares (x) at the time of our Business Combination as described in the IPO Registration Statement (as defined below) or (y) earlier at the option of the holders thereof, as described in the IPO Registration Statement; for the avoidance of doubt, such Class A Ordinary Shares will not be “Public Shares” (as defined below); [S34]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1234:
+
+> The Company’s CODM has been identified as the Chief Executive Officer, who reviews the assets, operating results, and financial metrics for the Company as a whole to make decisions about allocating resources and assessing financial performance. Accordingly, Management has determined that the Company only has one reportable segment. [S34]
 
 ## Products and services
 
@@ -320,6 +346,10 @@ Not available: substantive research has not been completed. Describe buyers, use
 SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1150:
+
+> The Company’s ability to complete an initial Business Combination may be adversely affected by various factors, many of which are beyond the Company’s control. The Company’s ability to consummate an initial Business Combination could be impacted by, among other things, changes in laws or regulations, downturns in the financial markets or in economic conditions, inflation, fluctuations in interest rates, increases in tariffs, supply chain disruptions, declines in consumer confidence and spending, public health considerations, and geopolitical instability, such as the military conflicts in Ukraine, between the United States, Israel and Iran and others in the Middle East, and Southwest Asia or other armed hostilities. The Company cannot at this time predict the likelihood of one or more of the above events, their duration or magnitude or the extent to which they may negatively impact the Company’s ability to complete an initial Business Combination. [S34]
 
 ## Competitive landscape
 
@@ -421,6 +451,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-16, L75:
+
+> October 16, 2026, Mary Szela notified the board of directors (the “Board”) of Averin Capital Acquisition Corp. (the [S33]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -433,6 +467,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1517:
+
+> under Rule 12b-2 of the Exchange Act, we are not required to include risk factors in this Report. For detailed descriptions of the risks [S34]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -442,25 +480,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -501,6 +539,10 @@ Latest 27 filing metadata records of 27 retained records. A filing link is evide
 | 2026-02-18 | 8-A12B | 0001213900-26-017788 | — | [S30] |
 | 2026-01-30 | S-1 | 0001213900-26-010180 | — | [S31] |
 | 2025-11-17 | DRS | 0001213900-25-111443 | — | [S32] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L1254:
+
+> The Company evaluated subsequent events to determine if events or transactions occurred after the balance sheet date through the date that the financial statements were issued. Based upon this review, the Company did not identify any subsequent events that would have required adjustment or disclosure in the financial statements. [S34]
 
 ## Sources and change log
 
@@ -567,5 +609,9 @@ Latest 27 filing metadata records of 27 retained records. A filing link is evide
 [S31] [S-1 0001213900-26-010180](https://www.sec.gov/Archives/edgar/data/2096900/000121390026010180/0001213900-26-010180-index.html) — published 2026-01-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S32] [DRS 0001213900-25-111443](https://www.sec.gov/Archives/edgar/data/2096900/000121390025111443/0001213900-25-111443-index.html) — published 2025-11-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S33] [8-K 0001213900-26-110318](https://www.sec.gov/Archives/edgar/data/2096900/000121390026110318/ea0308878-8k_averin.htm) — published 2026-10-16; retrieved 2026-11-02T22:10:31.708732+00:00.
+
+[S34] [10-Q 0001213900-26-085680](https://www.sec.gov/Archives/edgar/data/2096900/000121390026085680/ea0300633-10q_averin.htm) — published 2026-08-05; retrieved 2026-11-02T22:10:29.960703+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

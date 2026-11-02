@@ -14,7 +14,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -484,6 +484,54 @@ sources:
   published_at: '2026-09-09'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390026111872/ea0308315-04.htm
+  title: DEF 14A 0001213900-26-111872
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-02T22:05:28.697603+00:00'
+  sha256: 5e314f7602828d5c3152967441044908ca5739aa5f24998478e4cf16476274b8
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000399/whlr-20261013.htm
+  title: 8-K 0001527541-26-000399
+  published_at: '2026-10-19'
+  retrieved_at: '2026-11-02T22:05:26.822497+00:00'
+  sha256: 838783b2d921616478b025cff2f73e8c512f669a3b3fce31f53d52d778079e7a
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/whlr-20260630.htm
+  title: 10-Q 0001527541-26-000251
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-02T22:05:24.968545+00:00'
+  sha256: ff3cd89ce13a66c242a00983f301a9ab7966028b1b77abf7c1ac007144535d49
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754126000050/whlr-20251231.htm
+  title: 10-K 0001527541-26-000050
+  published_at: '2026-03-05'
+  retrieved_at: '2026-11-02T22:05:23.134490+00:00'
+  sha256: 2c97f4861f8744f95fd5f7e1359cd0691da8f907ade4c41a41d270d46330da3c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754124000108/whlr-20240613.htm
+  title: 8-K/A 0001527541-24-000108
+  published_at: '2024-06-18'
+  retrieved_at: '2026-11-02T22:05:21.606483+00:00'
+  sha256: 12595b5fa910fd308f54ea5f8026e8e4ede3f548bdf390c91d904f95da5a0b6c
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000152754122000060/whlr-20220822.htm
+  title: 8-K/A 0001527541-22-000060
+  published_at: '2022-10-31'
+  retrieved_at: '2026-11-02T22:05:19.956161+00:00'
+  sha256: 5fc5f363d7662fcbe41a41f52dbfd629753c3418b1b64c91993091ab51ba5ff6
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390019027303/f8k121919a1_wheelerreal.htm
+  title: 8-K/A 0001213900-19-027303
+  published_at: '2019-12-31'
+  retrieved_at: '2026-11-02T22:05:18.245826+00:00'
+  sha256: 3c7787f6aba1331c4fc970dc549042e1fd770333a696d27619de7fb641d61a99
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1527541/000121390019026723/f8k122019a_wheelerrealestate.htm
+  title: 8-K/A 0001213900-19-026723
+  published_at: '2019-12-20'
+  retrieved_at: '2026-11-02T22:05:16.747455+00:00'
+  sha256: 12a1584585fd2f2bc46153760f425920a6bbcb2da46d869a048ac1cec6f556fe
 issuer_classification:
   cik: '0001527541'
   classification_status: reported_sic
@@ -543,13 +591,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1527541/000121390019026723/0001213900-19-026723-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b62b9be7ec512bd7e7780e57133fa9bd9d2052fbcf84bfb6776848ffe639db6c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -575,6 +630,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1080:
+
+> In addition to historical information, this discussion and analysis contains forward-looking statements based on current expectations that involve risks, uncertainties and assumptions, such as our plans, objectives, expectations and intentions as further described under the caption above entitled "Cautionary Statement on Forward-Looking Statements." Our actual results or other events and the timing of events may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth in the caption above entitled "Cautionary Statement on Forward-Looking Statements." These forward-looking statements are not historical facts but are the intent, belief or current expectations of our management based on its knowledge and understanding of our business and industry. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -587,6 +646,10 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-K, filed 2026-03-05, L302:
+
+> Investors and others should note that we currently announce material information using SEC filings and press releases. In the future, we will continue to use these channels to distribute material information about the Company, and may also utilize public conference calls, webcasts, our website and/or various social media sites to communicate important information about the Company, key personnel, trends, corporate initiatives and other matters. Information that we post on our website or on social media channels could be deemed material; therefore, investors, the media, our customers, business partners and others interested in the Company should review the information posted on our website as well as on LinkedIn at https://www.linkedin.com/company/wheeler-real-estate-investment-trust/, in addition to following the Company’s press releases and SEC filings. Any updates to the list of social media channels we may use to communicate material information will be posted on the Investor Relations page of our website at https://www.whlr.us. The information we post through these channels is not a part of this Annual Report on Form 10-K or any other document we file with the SEC, and the inclusion of our website addresses and LinkedIn account are as inactive textual references only. [S70]
+
 ## Industry and value chain
 
 SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
@@ -597,6 +660,10 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L185:
+
+> •the inability to generate sufficient cash flows due to market conditions, competition, uninsured losses, changes in tax or other applicable laws. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -604,6 +671,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1417:
+
+> Our success in executing on our strategy will dictate our liquidity needs going forward. If we are unable to execute in these areas, our ability to grow may be limited without additional capital. [S69]
 
 ## Financial performance
 
@@ -1212,6 +1283,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-23, L78:
+
+> • Proposal 1: the election of seven members of the Board of Directors (such proposal, “Proposal 1”); [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1224,6 +1299,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L763:
+
+> The Company is involved in various legal proceedings arising in the ordinary course of its business, including, but not limited to commercial disputes. The Company believes that such litigation, claims and administrative proceedings will not have a material adverse impact on its financial position or its results of operations. The Company records a liability when it considers the loss probable and the amount can be reasonably estimated. In addition, the below legal proceedings are in process: [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1233,25 +1312,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1315,6 +1394,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-09-10 | 4 | 0001475597-26-000237 | — | [S64] |
 | 2026-09-10 | 3 | 0001475597-26-000236 | — | [S65] |
 | 2026-09-09 | 424B3 | 0001527541-26-000346 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-10-23, L2218:
+
+> The Company’s Bylaws do not require that stockholders ratify the appointment of Cherry Bekaert LLP as the Company’s independent registered public accounting firm, but the Audit Committee values the opinions of our stockholders and will consider the outcome of this vote in its decision to appoint an independent registered public accounting firm next year. Because the vote on this proposal is advisory, the Audit Committee will not be bound by the outcome of the vote. Thus, regardless of whether the selection is ratified, the Audit Committee, in its sole discretion, may retain Cherry Bekaert LLP or may change the appointment at any time during the year. [S67]
 
 ## Sources and change log
 
@@ -1449,5 +1532,21 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [3 0001475597-26-000236](https://www.sec.gov/Archives/edgar/data/1527541/000147559726000236/0001475597-26-000236-index.html) — published 2026-09-10; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S66] [424B3 0001527541-26-000346](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000346/0001527541-26-000346-index.html) — published 2026-09-09; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S67] [DEF 14A 0001213900-26-111872](https://www.sec.gov/Archives/edgar/data/1527541/000121390026111872/ea0308315-04.htm) — published 2026-10-23; retrieved 2026-11-02T22:05:28.697603+00:00.
+
+[S68] [8-K 0001527541-26-000399](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000399/whlr-20261013.htm) — published 2026-10-19; retrieved 2026-11-02T22:05:26.822497+00:00.
+
+[S69] [10-Q 0001527541-26-000251](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000251/whlr-20260630.htm) — published 2026-08-06; retrieved 2026-11-02T22:05:24.968545+00:00.
+
+[S70] [10-K 0001527541-26-000050](https://www.sec.gov/Archives/edgar/data/1527541/000152754126000050/whlr-20251231.htm) — published 2026-03-05; retrieved 2026-11-02T22:05:23.134490+00:00.
+
+[S71] [8-K/A 0001527541-24-000108](https://www.sec.gov/Archives/edgar/data/1527541/000152754124000108/whlr-20240613.htm) — published 2024-06-18; retrieved 2026-11-02T22:05:21.606483+00:00.
+
+[S72] [8-K/A 0001527541-22-000060](https://www.sec.gov/Archives/edgar/data/1527541/000152754122000060/whlr-20220822.htm) — published 2022-10-31; retrieved 2026-11-02T22:05:19.956161+00:00.
+
+[S73] [8-K/A 0001213900-19-027303](https://www.sec.gov/Archives/edgar/data/1527541/000121390019027303/f8k121919a1_wheelerreal.htm) — published 2019-12-31; retrieved 2026-11-02T22:05:18.245826+00:00.
+
+[S74] [8-K/A 0001213900-19-026723](https://www.sec.gov/Archives/edgar/data/1527541/000121390019026723/f8k122019a_wheelerrealestate.htm) — published 2019-12-20; retrieved 2026-11-02T22:05:16.747455+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

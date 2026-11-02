@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -372,6 +372,48 @@ sources:
   published_at: '2026-02-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000162828026042364/acb-20260331.htm
+  title: 40-F 0001628280-26-042364
+  published_at: '2026-06-11'
+  retrieved_at: '2026-11-02T22:10:43.642753+00:00'
+  sha256: d88f94cf36654a0c2bf78aa7ec26a9eb90a4bf23b8d02fe7c71e45f113d6275d
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000119312522151396/d489560d6ka.htm
+  title: 6-K/A 0001193125-22-151396
+  published_at: '2022-05-16'
+  retrieved_at: '2026-11-02T22:10:42.150569+00:00'
+  sha256: 7a34110be771848d318817a4fab2cafa7a3fd4b535e31f6c3b6764a36530160c
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000119312522043431/d320934d6ka.htm
+  title: 6-K/A 0001193125-22-043431
+  published_at: '2022-02-15'
+  retrieved_at: '2026-11-02T22:10:40.417138+00:00'
+  sha256: e264a9ad3b4ee28f7d37c50763d952ed7287dc354bd3322565c8b0654e3463a0
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000119312520291910/d31020d6ka.htm
+  title: 6-K/A 0001193125-20-291910
+  published_at: '2020-11-13'
+  retrieved_at: '2026-11-02T22:10:38.920688+00:00'
+  sha256: a93ad1e412163b6b5155cb8b57eb680ad82447a3af0827721c8c36e2eae41e1a
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000127956920000417/aurora_40fa.htm
+  title: 40-F/A 0001279569-20-000417
+  published_at: '2020-03-27'
+  retrieved_at: '2026-11-02T22:10:37.202893+00:00'
+  sha256: 43cca9d78a91981fcd8553899c268b6fe553c2b13c474bcae16a253456932551
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000127956920000204/aurora_6ka.htm
+  title: 6-K/A 0001279569-20-000204
+  published_at: '2020-02-25'
+  retrieved_at: '2026-11-02T22:10:35.585074+00:00'
+  sha256: af159b6fc2ba8254691d1bd1d131b273d93e41ce95af8a80f895bc9bad53d9f2
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1683541/000127956919001924/aurora_40fa.htm
+  title: 40-F/A 0001279569-19-001924
+  published_at: '2019-09-13'
+  retrieved_at: '2026-11-02T22:10:33.927636+00:00'
+  sha256: 4f4a6dd0104b0d4013a5e0efa8ed3533e8ee4965a7067a1064cab24475f53c01
 issuer_classification:
   cik: 0001683541
   classification_status: reported_sic
@@ -423,13 +465,17 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1683541/000127956920000204/0001279569-20-000204-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 4b5e8b9572fd1eee86968b60156cfe786fa078d218fceb83a47ea1ae5f3ba999
-  last_attempt_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-03T22:04:14.646377+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - competitive-landscape
+  - management-and-governance
+  - products-and-services
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -461,6 +507,10 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 40-F, filed 2026-06-11, L99; prior source set, update pending:
+
+> •the Company’s breeding program, product portfolio and innovation, and the expected impact on revenue and long-term success; [S53]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
@@ -474,6 +524,10 @@ This is reported industry metadata, not an official GICS assignment or a complet
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 40-F, filed 2026-06-11, L107; prior source set, update pending:
+
+> Such forward looking statements are estimates reflecting the Company’s best judgment based upon current information and involve a number of risks and uncertainties, and there can be no assurance that other factors will not affect the accuracy of such forward-looking statements. These risks include, but are not limited to, the ability to retain key personnel, the ability to continue investing in infrastructure to support growth, the ability to obtain financing on acceptable terms, the continued quality of our products, customer experience and retention, the development of third party government and non-government consumer sales channels, management’s estimates of consumer demand in Canada and in jurisdictions where the Company exports, expectations of future results and expenses, the availability of additional capital to complete construction projects and facilities improvements, the risk of successful integration of acquired business and operations, management’s estimation that SG&A will grow only in proportion of revenue growth, the ability to expand and maintain distribution capabilities, the impact of competition, the general impact of financial market conditions, the yield from cannabis growing operations, product demand, changes in prices of required commodities, competition, and the possibility for changes in laws, rules, and regulations in the industry, epidemics, … [S53]
 
 ## Moat and differentiation
 
@@ -495,6 +549,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-06-11, L67; prior source set, update pending:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the Registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -506,6 +564,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 40-F, filed 2026-06-11, L107; prior source set, update pending:
+
+> Such forward looking statements are estimates reflecting the Company’s best judgment based upon current information and involve a number of risks and uncertainties, and there can be no assurance that other factors will not affect the accuracy of such forward-looking statements. These risks include, but are not limited to, the ability to retain key personnel, the ability to continue investing in infrastructure to support growth, the ability to obtain financing on acceptable terms, the continued quality of our products, customer experience and retention, the development of third party government and non-government consumer sales channels, management’s estimates of consumer demand in Canada and in jurisdictions where the Company exports, expectations of future results and expenses, the availability of additional capital to complete construction projects and facilities improvements, the risk of successful integration of acquired business and operations, management’s estimation that SG&A will grow only in proportion of revenue growth, the ability to expand and maintain distribution capabilities, the impact of competition, the general impact of financial market conditions, the yield from cannabis growing operations, product demand, changes in prices of required commodities, competition, and the possibility for changes in laws, rules, and regulations in the industry, epidemics, … [S53]
 
 ## Scenarios and open questions
 
@@ -519,22 +581,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -707,5 +769,19 @@ Latest 50 filing metadata records of 425 retained records. A filing link is evid
 [S51] [6-K 0001279569-26-000095](https://www.sec.gov/Archives/edgar/data/1683541/000127956926000095/0001279569-26-000095-index.html) — published 2026-02-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001193125-26-037743](https://www.sec.gov/Archives/edgar/data/1683541/000119312526037743/0001193125-26-037743-index.html) — published 2026-02-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [40-F 0001628280-26-042364](https://www.sec.gov/Archives/edgar/data/1683541/000162828026042364/acb-20260331.htm) — published 2026-06-11; retrieved 2026-11-02T22:10:43.642753+00:00.
+
+[S54] [6-K/A 0001193125-22-151396](https://www.sec.gov/Archives/edgar/data/1683541/000119312522151396/d489560d6ka.htm) — published 2022-05-16; retrieved 2026-11-02T22:10:42.150569+00:00.
+
+[S55] [6-K/A 0001193125-22-043431](https://www.sec.gov/Archives/edgar/data/1683541/000119312522043431/d320934d6ka.htm) — published 2022-02-15; retrieved 2026-11-02T22:10:40.417138+00:00.
+
+[S56] [6-K/A 0001193125-20-291910](https://www.sec.gov/Archives/edgar/data/1683541/000119312520291910/d31020d6ka.htm) — published 2020-11-13; retrieved 2026-11-02T22:10:38.920688+00:00.
+
+[S57] [40-F/A 0001279569-20-000417](https://www.sec.gov/Archives/edgar/data/1683541/000127956920000417/aurora_40fa.htm) — published 2020-03-27; retrieved 2026-11-02T22:10:37.202893+00:00.
+
+[S58] [6-K/A 0001279569-20-000204](https://www.sec.gov/Archives/edgar/data/1683541/000127956920000204/aurora_6ka.htm) — published 2020-02-25; retrieved 2026-11-02T22:10:35.585074+00:00.
+
+[S59] [40-F/A 0001279569-19-001924](https://www.sec.gov/Archives/edgar/data/1683541/000127956919001924/aurora_40fa.htm) — published 2019-09-13; retrieved 2026-11-02T22:10:33.927636+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

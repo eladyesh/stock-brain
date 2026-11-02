@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -451,6 +451,42 @@ sources:
   published_at: '2026-06-30'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000119312526429847/d181204d8k.htm
+  title: 8-K 0001193125-26-429847
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-02T22:06:27.458278+00:00'
+  sha256: 7739d7988813a549a84301d9b0ed5967d69981318a70eb8c1f117daca8ec4860
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000196848726000036/ws-20260831.htm
+  title: 10-Q 0001968487-26-000036
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-02T22:06:25.504563+00:00'
+  sha256: a14062cef2432be0d249a13d3973583dc6501781120f64021279d32a3597ee66
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000119312526356964/d417231d8ka.htm
+  title: 8-K/A 0001193125-26-356964
+  published_at: '2026-08-19'
+  retrieved_at: '2026-11-02T22:06:23.485330+00:00'
+  sha256: 67197b4d643d6e0401bc38b601ba464f4c3c38a323afd0a25946e005fdd2cbd7
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000119312526352256/d163786ddef14a.htm
+  title: DEF 14A 0001193125-26-352256
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-02T22:06:21.673491+00:00'
+  sha256: 78a5d9e2eb92d0951ed3229f10fd3ef39453141a85421abf7ff78eac8101b143
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000196848726000026/ws-20260531.htm
+  title: 10-K 0001968487-26-000026
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-02T22:06:19.318317+00:00'
+  sha256: df2c1cc08d5679a4eaa71e08f5bc8df8529dbd16850de622ba62538395bc390b
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1968487/000196848726000020/ws-20260710.htm
+  title: 8-K/A 0001968487-26-000020
+  published_at: '2026-07-10'
+  retrieved_at: '2026-11-02T22:06:17.597355+00:00'
+  sha256: cf68cd81c8a78c179bf5c76432cdce7950e053819026190e0e2bdcb1c4b4f733
 issuer_classification:
   cik: 0001968487
   classification_status: reported_sic
@@ -496,13 +532,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1968487/000196848726000020/0001968487-26-000020-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ce9f895ad8a2bf7c8f8ad2ab1729a0ff1147096e45c71270c471be11cb3101d2
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -526,17 +573,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-13, L485:
+
+> if a DPLTA is established, we will be subject to ongoing financial obligations to Kloeckner and its minority shareholders that could adversely affect our business, financial condition, results of operations or cash flows; [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-13, L10430:
+
+> The Company’s CODM is Worthington Steel’s CEO. The Company has determined that it has only one operating segment and therefore one reportable segment after considering several sources of information, including the Company’s internal organizational structure, the basis on which budgets and forecasts are prepared, the financial information that the Company’s CODM reviews in evaluating company performance and determining how resources should be allocated, and how the Company releases information to the public and analysts. The CODM manages all business activities on a consolidated basis, and as a result, the Company has concluded that there is only one operating segment and therefore one reportable segment. [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-13, L509:
+
+> risks associated with doing business internationally, including economic, political and social instability, foreign currency exchange rate exposure and the acceptance of our products in global markets; [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-13, L448:
+
+> effects of public health emergencies and the various responses of governmental and nongovernmental authorities thereto on economies and markets, and our customers, counterparties, and employees and third-party service providers; and [S66]
 
 ## Industry and value chain
 
@@ -544,17 +607,33 @@ SEC-reported SIC **3310**: Steel Works, Blast Furnaces & Rolling & Finishing Mil
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-10-13, L412:
+
+> anticipated improvements and efficiencies in costs, operations, sales, inventory management, sourcing and the supply chain and the results thereof; [S66]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-10-13, L11044:
+
+> The metals processing and service center industry is fragmented and highly competitive. Given the broad base of products and services we offer following the Kloeckner Acquisition, specific competitors vary based on the end market, product and service offering, geography, and customer requirements. Competition is primarily on the basis of price, product quality, value-added capabilities, service, and the ability to meet delivery requirements. Our pricing is affected by, among other factors, metals prices, the cost and availability of raw materials, transportation and shipping costs, foreign currency exchange rates, and general economic conditions in the markets in which we operate. [S66]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-07-30, L571:
+
+> We own several patents, trademarks, copyrights and trade secrets, and hold licenses to intellectual property owned by others. Although our patents, copyrights, trademarks, trade secrets, and other intellectual property rights are important to our success, we do not consider any single, or in the aggregate, patent, trademark, copyright, trade secret or license to be of material importance to our business. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-10-13, L4400:
+
+> The acquisition advances the Company's growth strategy by broadening its value-added product offerings, diversifying its end-market exposure and geographic footprint, and significantly increasing the scale of its metals processing operations. The combination is also expected to provide opportunities for operational efficiencies and further growth. [S66]
 
 ## Financial performance
 
@@ -1113,6 +1192,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-13, L7423:
+
+> The ETR for the first quarter of fiscal 2027 differed from the statutory rate primarily due to tax effects associated with the acquisition of Kloeckner. The ETR for the first quarter of fiscal 2026 differed from the statutory rate primarily due to non-deductible executive compensation, revaluation of a German net operating loss carryforward due to the Sitem Group transaction, and income from unconsolidated joint ventures outside the U.S. recognized net of tax. [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1125,6 +1208,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-13, L386:
+
+> Selected statements made by Worthington Steel, Inc. (“Worthington Steel” and, together with its consolidated subsidiaries, the “Company,” “we,” “us,” or “our”) contained in this Quarterly Report on Form 10-Q (this “Form 10-Q”), including, without limitation, the notes to the consolidated financial statements contained in Part I, Item 1 hereto, “Part I, Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and “Part II, Item 1A. Risk Factors—Proposed Acquisition-Related Risks,” constitute “forward-looking statements,” as that term is used in the Private Securities Litigation Reform Act of 1995, as amended (the “PSLRA”). Forward-looking statements reflect the Company’s current expectations, estimates or projections concerning future results or events. These statements are often identified by the use of forward-looking words or phrases such as “believe,” “expect,” “anticipate,” “may,” “could,” “should,” “would,” “intend,” “plan,” “will,” “likely,” “estimate,” “project,” “position,” “strategy,” “target,” “aim,” “seek,” “foresee,” or other similar words or phrases. These forward-looking statements include, without limitation, statements relating to: [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1134,25 +1221,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -1216,6 +1303,10 @@ Latest 50 filing metadata records of 252 retained records. A filing link is evid
 | 2026-06-30 | 4 | 0001193125-26-290495 | — | [S62] |
 | 2026-06-30 | 4 | 0001193125-26-290488 | — | [S63] |
 | 2026-06-30 | 4 | 0001193125-26-290478 | — | [S64] |
+
+Source excerpt — 10-Q, filed 2026-10-13, L6496:
+
+> Subsequent to August 31, 2026, the Company amended its ABL Mexico Facility. For additional information, see “Note 19 – Subsequent Events”. [S66]
 
 ## Sources and change log
 
@@ -1346,5 +1437,17 @@ Latest 50 filing metadata records of 252 retained records. A filing link is evid
 [S63] [4 0001193125-26-290488](https://www.sec.gov/Archives/edgar/data/1968487/000119312526290488/0001193125-26-290488-index.html) — published 2026-06-30; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S64] [4 0001193125-26-290478](https://www.sec.gov/Archives/edgar/data/1968487/000119312526290478/0001193125-26-290478-index.html) — published 2026-06-30; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S65] [8-K 0001193125-26-429847](https://www.sec.gov/Archives/edgar/data/1968487/000119312526429847/d181204d8k.htm) — published 2026-10-23; retrieved 2026-11-02T22:06:27.458278+00:00.
+
+[S66] [10-Q 0001968487-26-000036](https://www.sec.gov/Archives/edgar/data/1968487/000196848726000036/ws-20260831.htm) — published 2026-10-13; retrieved 2026-11-02T22:06:25.504563+00:00.
+
+[S67] [8-K/A 0001193125-26-356964](https://www.sec.gov/Archives/edgar/data/1968487/000119312526356964/d417231d8ka.htm) — published 2026-08-19; retrieved 2026-11-02T22:06:23.485330+00:00.
+
+[S68] [DEF 14A 0001193125-26-352256](https://www.sec.gov/Archives/edgar/data/1968487/000119312526352256/d163786ddef14a.htm) — published 2026-08-14; retrieved 2026-11-02T22:06:21.673491+00:00.
+
+[S69] [10-K 0001968487-26-000026](https://www.sec.gov/Archives/edgar/data/1968487/000196848726000026/ws-20260531.htm) — published 2026-07-30; retrieved 2026-11-02T22:06:19.318317+00:00.
+
+[S70] [8-K/A 0001968487-26-000020](https://www.sec.gov/Archives/edgar/data/1968487/000196848726000020/ws-20260710.htm) — published 2026-07-10; retrieved 2026-11-02T22:06:17.597355+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

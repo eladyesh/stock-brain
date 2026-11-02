@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 5ac9ccc675475bdae6b9c8a41440450d815ff80b
+source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -357,6 +357,12 @@ sources:
   published_at: '2026-07-27'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/evernorth-elocx8xk.htm
+  title: 8-K 0001628280-26-067061
+  published_at: '2026-10-23'
+  retrieved_at: '2026-11-02T22:07:13.152355+00:00'
+  sha256: 3a73f2a45afea664bd10e812748258d578bedc030679c4066f7d1228590c193e
 issuer_classification:
   cik: 0002092592
   classification_status: reported_sic
@@ -380,13 +386,14 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/0001628280-26-067061-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d4d0b63549ab07a532dd9ee2e5f3af7f0c7530a04f12b0d9830f3d915ebb70c6
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-02T22:04:14.646377+00:00'
+  last_success_at: '2026-11-02T22:04:14.646377+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -464,6 +471,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-23, L69:
+
+> The Purchase Agreement will terminate automatically on the earliest to occur of (i) the first day of the month next following the 14-month anniversary of the date of the Purchase Agreement, (ii) the date on which Cantor has purchased the Total Commitment of shares of Common Stock under the Purchase Agreement, (iii) the date on which the Common Stock fails to be listed or quoted on The Nasdaq Stock Market LLC or a specified alternative market and (iv) the commencement of certain bankruptcy or insolvency proceedings with respect to the Company. The Company has the right to terminate the Purchase Agreement at any time after Commencement, at no cost or penalty, upon three trading days’ prior written notice to Cantor, provided that the Upfront Commitment Fee and any Additional Commitment Fee (including any Additional Commitment Fee determined by reference to a Measurement Date occurring on the effective date of such termination) payable have theretofore been paid. Cantor also has the right to terminate the Purchase Agreement upon the occurrence of certain customary events specified therein, including a material adverse effect with respect to the Company, a fundamental transaction, an uncured material breach by the Company of the Registration Rights Agreement, a lapse in the availability of the Initial Resale Registration Statement for more than 45 consecutive trading days or an … [S53]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -476,7 +487,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -491,7 +502,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -664,5 +675,7 @@ Latest 50 filing metadata records of 171 retained records. A filing link is evid
 [S51] [425 0000950103-26-011290](https://www.sec.gov/Archives/edgar/data/2092592/000095010326011290/0000950103-26-011290-index.html) — published 2026-07-28; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S52] [425 0000950103-26-011204](https://www.sec.gov/Archives/edgar/data/2092592/000095010326011204/0000950103-26-011204-index.html) — published 2026-07-27; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S53] [8-K 0001628280-26-067061](https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/evernorth-elocx8xk.htm) — published 2026-10-23; retrieved 2026-11-02T22:07:13.152355+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
