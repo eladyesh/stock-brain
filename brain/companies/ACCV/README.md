@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -247,6 +247,12 @@ sources:
   published_at: '2026-06-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S35
+  url: https://www.sec.gov/Archives/edgar/data/2141406/000162828026065600/axdebtagreementxoctober920.htm
+  title: 8-K 0001628280-26-065600
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-03T19:58:40.630419+00:00'
+  sha256: 868dceddb4d8a41e25273ba842132b561b4199667b884f0cc67c1368cb57d183
 issuer_classification:
   cik: '0002141406'
   classification_status: reported_sic
@@ -270,12 +276,12 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2141406/000162828026065600/0001628280-26-065600-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cb2783dd3fff451f9f2da00017469d33ef551e1fec5de8af2abd36895ea75a49
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
+  source_set_current: true
   evidence_topics: []
   derived_observations: 0
   model_draft: false
@@ -366,7 +372,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -500,5 +506,7 @@ Latest 32 filing metadata records of 32 retained records. A filing link is evide
 [S33] [DRS/A 0001628279-26-000969](https://www.sec.gov/Archives/edgar/data/2141406/000162827926000969/0001628279-26-000969-index.html) — published 2026-08-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S34] [DRS 0001628279-26-000804](https://www.sec.gov/Archives/edgar/data/2141406/000162827926000804/0001628279-26-000804-index.html) — published 2026-06-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S35] [8-K 0001628280-26-065600](https://www.sec.gov/Archives/edgar/data/2141406/000162828026065600/axdebtagreementxoctober920.htm) — published 2026-10-13; retrieved 2026-11-03T19:58:40.630419+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

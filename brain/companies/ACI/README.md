@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -473,6 +473,30 @@ sources:
   published_at: '2026-06-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1646972/000164697226000065/aci-20260912.htm
+  title: 10-Q 0001646972-26-000065
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-03T20:01:32.197036+00:00'
+  sha256: 02c33cf7c5efc15a49493aa4ddb5bb1d02b2b82fc6ac9a35bcaaa1af5023f34c
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1646972/000164697226000062/aci-20261015.htm
+  title: 8-K 0001646972-26-000062
+  published_at: '2026-10-15'
+  retrieved_at: '2026-11-03T20:01:30.480047+00:00'
+  sha256: a66432e3b80d2137e5c5d3dfd6e2283237f570c7cfd4760dd3237215309a4a1f
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1646972/000114036126025819/ny20070872x2_def14a.htm
+  title: DEF 14A 0001140361-26-025819
+  published_at: '2026-06-22'
+  retrieved_at: '2026-11-03T20:01:28.648458+00:00'
+  sha256: 4568f343f10e8c9c6dd72bb404a1decf504474bc85a6baee8beea421543e3da5
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm
+  title: 10-K 0001646972-26-000032
+  published_at: '2026-04-27'
+  retrieved_at: '2026-11-03T20:01:26.711419+00:00'
+  sha256: d4bdec3b204b13847dc9b420479f1790bbe13638eeb751d9b6efd9409d96aa03
 issuer_classification:
   cik: 0001646972
   classification_status: reported_sic
@@ -510,13 +534,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1646972/000164697226000062/0001646972-26-000062-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 74f09433bf04c7ffe43f7de8cbe6a3a13ce2c7d22275219b9328ad2ce359ced0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -540,17 +574,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-20, L713:
+
+> This Form 10-Q contains "forward-looking statements" within the meaning of the federal securities laws. The "forward-looking statements" include our current expectations, assumptions, estimates and projections about our business and our industry. They include, but are not limited to, statements relating to our future operating or financial performance, turnaround strategy, customer strategy, cost structure, operating model, portfolio of banners, markets, assets and businesses, and capital allocation priorities, the development of a multi-year financial outlook, and management's expectations regarding our long-term growth and value creation opportunities which the Company believes to be reasonable at this time. You can identify forward-looking statements by the use of words such as "outlook," "may," "should," "could," "estimates," "predicts," "potential," "continue," "anticipates," "believes," "plans," "expects," "future" and "intends" and similar expressions which are intended to identify forward-looking statements. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-20, L628:
+
+> The Company and its subsidiaries offer grocery products, general merchandise, health and beauty care products, pharmacy, fuel and other items and services in its stores or through digital channels. The Company's retail operating divisions are geographically based, have similar economic characteristics and similar expected long-term financial performance. On July 23, 2026, the Company announced a regional operating structure realignment referred to as ACI Edge. Based on management's initial assessment, the Company determined that its operating segments and reporting units continue to be its operating divisions, which are now referred to as markets, and that the Company continues to have one reportable segment. This determination may be reassessed in future periods as implementation of ACI Edge progresses and management further evaluates its impact on the Company's organizational and reporting structure. Each reporting unit constitutes a business for which discrete financial information is available and for which the Chief Operating Decision Maker ("CODM"), the Company's Chief Executive Officer, regularly reviews the operating results and makes key operating decisions on how to allocate resources. Across all operating segments, the Company operates primarily one store format. Each market offers, through its stores and digital channels, the same general mix of products with … [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-04-27, L227:
+
+> Various agricultural commodities constitute the principal raw materials used by us in the manufacture of our food products. Although historically raw materials for our products have not been in short supply and have been readily available, see "Part I—Item 1A. Risk Factors" regarding the potential adverse impact on our results of operations due to the lack of, or reduced availability of, raw materials. [S72]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-20, L728:
+
+> •changes in tax rates, tax laws, and regulations that directly impact our business or our customers. [S69]
 
 ## Industry and value chain
 
@@ -558,17 +608,33 @@ SEC-reported SIC **5411**: Retail-Grocery Stores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-06-22, L134:
+
+> Our approach balances affordability with quality, choice, and differentiation. To provide fuel to reinvest in value while maintaining a long-term focus on returns for our stockholders, we are growing our retail media platform, managing costs, strengthening our productivity engine, and accelerating automation and AI-enabled tools across merchandising, stores, and the supply chain. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-06-22, L10129:
+
+> All executive employment agreements contain indemnification provisions and various covenants, including covenants related to confidentiality, non-competition, non-solicitation, and non-disparagement. [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-10-20, L562:
+
+> The Company is subject from time to time to various claims and lawsuits, including matters involving trade, business and operational practices, personnel and employment issues, lawsuits alleging violations of state and/or federal wage and hour laws, real estate disputes, personal injury, antitrust claims, packaging or product claims, claims related to the sale of drug or pharmacy products, such as opioids, intellectual property claims and other proceedings arising in or outside of the ordinary course of business. The Company is also subject, from time to time, to government investigations, subpoenas, audits, reviews, claims enforcement actions and litigation. These can include routine, regular and special investigations, audits, civil or criminal subpoenas, civil investigative demands ("CIDs") and reviews by various governmental authorities. Some of these claims or suits purport or may be determined to be class actions and/or seek substantial damages. It is the opinion of the Company's management that although the amount of liability with respect to certain of the matters described herein cannot be ascertained at this time, any resulting liability of these and other matters, including any punitive damages, will not have a material adverse effect on the Company's business or overall financial condition. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-06-22, L105:
+
+> A Customer-Centric Experience – At the heart of our strategy is a relentless focus on the customer experience. In our stores, we provide market tailored fresh offerings and value-enhancing services. In eCommerce we offer speed, convenience, and variety from our store-based fulfillment model. In pharmacy we not only fill prescriptions, but we also immunize and treat our patients along their wellness journeys. [S71]
 
 ## Financial performance
 
@@ -1192,6 +1258,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-20, L1064:
+
+> We have established a dividend policy pursuant to which we intend to pay a quarterly dividend on our Class A common stock. On April 14, 2026, the Board of Directors (the "Board") increased the quarterly cash dividend 13% from $0.15 per common share to $0.17 per common share. Cash dividends paid on our Class A common stock were $166.6 million ($0.34 per common share) and $169.6 million ($0.30 per common share) during the first 28 weeks of fiscal 2026 and first 28 weeks of fiscal 2025, respectively. On October 13, 2026, we announced the next quarterly dividend payment of $0.17 per share of Class A common stock to be paid on November 6, 2026, to stockholders of record as of the close of business on October 23, 2026. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1204,6 +1274,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-20, L562:
+
+> The Company is subject from time to time to various claims and lawsuits, including matters involving trade, business and operational practices, personnel and employment issues, lawsuits alleging violations of state and/or federal wage and hour laws, real estate disputes, personal injury, antitrust claims, packaging or product claims, claims related to the sale of drug or pharmacy products, such as opioids, intellectual property claims and other proceedings arising in or outside of the ordinary course of business. The Company is also subject, from time to time, to government investigations, subpoenas, audits, reviews, claims enforcement actions and litigation. These can include routine, regular and special investigations, audits, civil or criminal subpoenas, civil investigative demands ("CIDs") and reviews by various governmental authorities. Some of these claims or suits purport or may be determined to be class actions and/or seek substantial damages. It is the opinion of the Company's management that although the amount of liability with respect to certain of the matters described herein cannot be ascertained at this time, any resulting liability of these and other matters, including any punitive damages, will not have a material adverse effect on the Company's business or overall financial condition. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1213,22 +1287,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -1433,5 +1507,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S67] [4/A 0001628280-26-040959](https://www.sec.gov/Archives/edgar/data/1646972/000162828026040959/0001628280-26-040959-index.html) — published 2026-06-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [4/A 0001628280-26-040957](https://www.sec.gov/Archives/edgar/data/1646972/000162828026040957/0001628280-26-040957-index.html) — published 2026-06-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [10-Q 0001646972-26-000065](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000065/aci-20260912.htm) — published 2026-10-20; retrieved 2026-11-03T20:01:32.197036+00:00.
+
+[S70] [8-K 0001646972-26-000062](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000062/aci-20261015.htm) — published 2026-10-15; retrieved 2026-11-03T20:01:30.480047+00:00.
+
+[S71] [DEF 14A 0001140361-26-025819](https://www.sec.gov/Archives/edgar/data/1646972/000114036126025819/ny20070872x2_def14a.htm) — published 2026-06-22; retrieved 2026-11-03T20:01:28.648458+00:00.
+
+[S72] [10-K 0001646972-26-000032](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) — published 2026-04-27; retrieved 2026-11-03T20:01:26.711419+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

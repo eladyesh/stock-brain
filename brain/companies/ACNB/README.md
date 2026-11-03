@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,60 @@ sources:
   published_at: '2026-03-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/715579/000162828026063501/acnb-20260925.htm
+  title: 8-K 0001628280-26-063501
+  published_at: '2026-09-25'
+  retrieved_at: '2026-11-03T20:03:10.292540+00:00'
+  sha256: 580900eba6e0f2db087fa33ef10c581833001352d59f9570f0aac8d0adabd89d
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/715579/000162828026054143/acnb-20260630.htm
+  title: 10-Q 0001628280-26-054143
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-03T20:03:08.433189+00:00'
+  sha256: 418696f00a78071205b91c706091ce36397ffd905789cb04b88bc29155d2b8d8
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/715579/000110465926036515/tm261884-7_def14a.htm
+  title: DEF 14A 0001104659-26-036515
+  published_at: '2026-03-30'
+  retrieved_at: '2026-11-03T20:03:05.830644+00:00'
+  sha256: 23a91c3796afd9337bdabe29e069fc634bc452c696c24afeabbd6b81f62dbe2a
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/715579/000162828026017229/acnb-20251231.htm
+  title: 10-K 0001628280-26-017229
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-03T20:03:03.820159+00:00'
+  sha256: b81dcfdf36e404044d4961b811e86e0b386e33653b2a872aa0a66480c7d6fe18
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/715579/000071557925000071/acnb-20250201.htm
+  title: 8-K/A 0000715579-25-000071
+  published_at: '2025-04-04'
+  retrieved_at: '2026-11-03T20:03:01.799247+00:00'
+  sha256: f9e741ac81de62cde4c5037166230c41abbe69d0599e1259146909a2e2d27e51
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/715579/000110465925008955/tm255374d1_8ka.htm
+  title: 8-K/A 0001104659-25-008955
+  published_at: '2025-02-04'
+  retrieved_at: '2026-11-03T20:03:00.196308+00:00'
+  sha256: e4b25d1bd21764f2d5fc417e0e63e6683a0eced67d965b839c2e05edfaaac8f2
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/715579/000071557924000048/acnb-20240315.htm
+  title: 8-K/A 0000715579-24-000048
+  published_at: '2024-03-21'
+  retrieved_at: '2026-11-03T20:02:58.608722+00:00'
+  sha256: 3c969779ec4e6c896d99e848e0050afb695f2be82d2b576454bbcc49905303ec
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/715579/000071557922000076/acnb-20220914.htm
+  title: 8-K/A 0000715579-22-000076
+  published_at: '2022-09-16'
+  retrieved_at: '2026-11-03T20:02:57.065124+00:00'
+  sha256: ad37b51adf332e99cc3663a6125bdff74bf69bf5a67500ccd08d66e2eeac2362
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/715579/000110465920038883/a20-13784_18ka.htm
+  title: 8-K/A 0001104659-20-038883
+  published_at: '2020-03-26'
+  retrieved_at: '2026-11-03T20:02:55.459395+00:00'
+  sha256: ffd65161c102e6ac4e9c6f7cbb75c09d771c94e96fe45bbfc4b13846d661856f
 issuer_classification:
   cik: 0000715579
   classification_status: reported_sic
@@ -525,13 +579,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/715579/000110465920038883/0001104659-20-038883-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ff78fc26b9d3405738f9211b711c697e97c6c36a4bb2e8aa47e78273167765ca
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -555,9 +619,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-30, L2474:
+
+> We provide NEOs with employment agreements and/or change in control agreements as a market expectation in talent management and to encourage executives to focus on generating shareholder value during any potential change in control [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-12, L557:
+
+> Technology and other changes are allowing parties to complete financial transactions that historically have involved banks through alternative methods. For example, consumers can now maintain funds in brokerage accounts or mutual funds that would have historically been held as bank deposits. Consumers can also complete transactions such as paying bills and/or transferring funds directly without the assistance of banks. The process of eliminating banks as intermediaries, known as “disintermediation”, could result in the loss of fee income, as well as the loss of customer deposits and the related income generated from those deposits. The loss of these revenue streams and the lower cost deposits as a source of funds could have a material adverse effect on ACNB’s financial condition and results of operations. [S70]
 
 ## Products and services
 
@@ -567,23 +639,43 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-K, filed 2026-03-12, L579:
+
+> CHANGES TO TRADE POLICIES AND TARIFFS CAN HAVE AN ADVERSE IMPACT ON OUR BUSINESS AND OUR CUSTOMERS. [S70]
+
 ## Industry and value chain
 
 SEC-reported SIC **6022**: State Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-12, L580:
+
+> Changes in trade policies, including the imposition of tariffs or the escalation of a trade war, could negatively impact the economic conditions in the markets we serve. Our customers-particularly local businesses engaged in agriculture, manufacturing, and retail-may face higher costs for imported goods and materials, reduced export demand, and supply chain disruptions due to increased tariffs. These challenges could lead to lower revenues, reduced profitability, and potential layoffs, all of which may impair our customers’ ability to meet their financial obligations. Furthermore, prolonged trade tensions and economic uncertainty could lead to market volatility, declining asset values, and weakened consumer confidence. If our [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1914:
+
+> ACNB’s deposit pricing function employs a disciplined pricing approach based upon liquidity needs and alternative funding rates, but also strives to price deposits to be competitive with local competition, including local government investment trusts, credit unions and larger regional banks. Based on total Bank deposits outstanding, consumer and commercial constituted approximately 60% and 40%, respectively, of total Bank deposits as of June 30, 2026 compared to 61% and 39%, respectively, as of December 31, 2025. The ratio of uninsured and non-collateralized Bank deposits to total Bank deposits was 18.1% at June 30, 2026. As of June 30, 2026, cash on hand, the fair value of unencumbered investment securities and collateralized borrowing capacities at the FHLB and the Discount Window at the Bank were 329.7% of uninsured and non-collateralized Bank deposits. At June 30, 2026, deposits from the 20 largest unrelated depositors, excluding internal accounts, of the Bank totaled $170.3 million, or 6.7%, of total Bank deposits compared to $177.2 million, or 7.2%, of total Bank deposits at December 31, 2025. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-12, L503:
+
+> Governmental bodies have implemented laws and are considering further regulation of AI (including machine learning), which could negatively impact ACNB’s ability to use and develop AI. ACNB is unable to predict how application of existing laws, including federal and state privacy and data protection laws, and adoption of new laws and regulations applicable to AI will affect it but it is likely that compliance with such laws and regulations will increase its compliance costs and such increase may be substantial and adversely affect its results of operations. Furthermore, its use of Generative AI and other forms of AI may expose us to risks relating to intellectual property ownership and licensing rights, including copyright of Generative AI and other AI output as these issues have not been fully interpreted by federal courts or been fully addressed by federal or state legislation or regulations. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-12, L434:
+
+> ACNB Corporation and its subsidiaries pursue organic and inorganic growth strategies. In furtherance of the inorganic growth strategy, on July 1, 2017, ACNB acquired New Windsor Bancorp, Inc. and its wholly-owned subsidiary, New Windsor State Bank, headquartered in Taneytown, Maryland. Additionally, on January 11, 2020, ACNB acquired Frederick County Bancorp, Inc. and its wholly-owned subsidiary, Frederick County Bank, headquartered in Frederick, Maryland. Effective February 1, 2025, ACNB acquired Traditions Bancorp, Inc., holding company for Traditions Bank, York, Pennsylvania. Traditions was merged with and into a wholly-owned subsidiary of ACNB Corporation immediately followed by the merger of Traditions Bank with and into ACNB Bank. ACNB Bank is operating the former Traditions Bank offices as “Traditions Bank, A Division of ACNB Bank”. [S70]
 
 ## Financial performance
 
@@ -1204,6 +1296,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L607:
+
+> On April 29, 2026, the Corporation announced that the Board of Directors approved a plan to repurchase, in open market transactions at prevailing market prices, up to 310,000 shares, or approximately 3%, of the outstanding shares of ACNB’s common stock. This common stock repurchase program replaced and superseded any and all earlier announced repurchase plans. During the three months ended June 30, 2026, the Corporation repurchased 56,308 shares under this plan. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1216,6 +1312,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1345:
+
+> The Corporation is subject to claims and lawsuits which arise primarily in the ordinary course of business. Based on information presently available and advice received from legal counsel representing the Corporation in connection with any such claims and lawsuits, it is the opinion of management that the disposition or ultimate determination of any such claims and lawsuits will not have a material adverse effect on the consolidated financial position, consolidated results of operations or liquidity of the Corporation. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1225,25 +1325,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1307,6 +1407,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-17 | 4 | 0001628280-26-018501 | — | [S64] |
 | 2026-03-17 | 4 | 0001628280-26-018500 | — | [S65] |
 | 2026-03-17 | 4 | 0001628280-26-018499 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L583:
+
+> The accompanying unaudited Consolidated Financial Statements have been prepared in accordance with GAAP for interim financial information and with the instructions to Form 10-Q and Article 10 of Regulation S-X. The preparation of financial statements in accordance with GAAP requires management to make estimates and assumptions that affect the amounts of assets and liabilities as of the date of the financial statements as well as revenues and expenses during the period. Actual results could differ from those estimates. In the opinion of management, the accompanying unaudited Consolidated Financial Statements contain all adjustments necessary for a fair presentation. All such adjustments are of a normal recurring nature. These Consolidated Financial Statements should be read in conjunction with the audited Consolidated Financial Statements and the notes included in the Corporation’s Annual Report on Form 10-K for the year ended December 31, 2025. The Corporation evaluates subsequent events through the filing date of this Form 10-Q with the SEC. The results of operations for the three and six month period ended June 30, 2026, are not necessarily indicative of the results to be expected for the full year. [S68]
 
 ## Sources and change log
 
@@ -1441,5 +1545,23 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001628280-26-018500](https://www.sec.gov/Archives/edgar/data/715579/000162828026018500/0001628280-26-018500-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001628280-26-018499](https://www.sec.gov/Archives/edgar/data/715579/000162828026018499/0001628280-26-018499-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001628280-26-063501](https://www.sec.gov/Archives/edgar/data/715579/000162828026063501/acnb-20260925.htm) — published 2026-09-25; retrieved 2026-11-03T20:03:10.292540+00:00.
+
+[S68] [10-Q 0001628280-26-054143](https://www.sec.gov/Archives/edgar/data/715579/000162828026054143/acnb-20260630.htm) — published 2026-08-06; retrieved 2026-11-03T20:03:08.433189+00:00.
+
+[S69] [DEF 14A 0001104659-26-036515](https://www.sec.gov/Archives/edgar/data/715579/000110465926036515/tm261884-7_def14a.htm) — published 2026-03-30; retrieved 2026-11-03T20:03:05.830644+00:00.
+
+[S70] [10-K 0001628280-26-017229](https://www.sec.gov/Archives/edgar/data/715579/000162828026017229/acnb-20251231.htm) — published 2026-03-12; retrieved 2026-11-03T20:03:03.820159+00:00.
+
+[S71] [8-K/A 0000715579-25-000071](https://www.sec.gov/Archives/edgar/data/715579/000071557925000071/acnb-20250201.htm) — published 2025-04-04; retrieved 2026-11-03T20:03:01.799247+00:00.
+
+[S72] [8-K/A 0001104659-25-008955](https://www.sec.gov/Archives/edgar/data/715579/000110465925008955/tm255374d1_8ka.htm) — published 2025-02-04; retrieved 2026-11-03T20:03:00.196308+00:00.
+
+[S73] [8-K/A 0000715579-24-000048](https://www.sec.gov/Archives/edgar/data/715579/000071557924000048/acnb-20240315.htm) — published 2024-03-21; retrieved 2026-11-03T20:02:58.608722+00:00.
+
+[S74] [8-K/A 0000715579-22-000076](https://www.sec.gov/Archives/edgar/data/715579/000071557922000076/acnb-20220914.htm) — published 2022-09-16; retrieved 2026-11-03T20:02:57.065124+00:00.
+
+[S75] [8-K/A 0001104659-20-038883](https://www.sec.gov/Archives/edgar/data/715579/000110465920038883/a20-13784_18ka.htm) — published 2020-03-26; retrieved 2026-11-03T20:02:55.459395+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
