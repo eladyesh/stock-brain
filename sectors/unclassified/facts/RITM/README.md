@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -257,15 +257,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/RITM/README.md
-full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/RITM/README.md
+full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # RITM — Rithm Capital Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/RITM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/RITM/README.md)
 
 ## Business overview
 
@@ -544,6 +544,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S71] [10-K 0001556593-26-000012](https://www.sec.gov/Archives/edgar/data/1556593/000155659326000012/nrz-20251231.htm) — published 2026-02-19; retrieved 2026-10-31T15:37:28.599117+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/RITM/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/RITM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

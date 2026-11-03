@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,24 @@ sources:
   published_at: '2026-02-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/75252/000110465926111408/ach-20260916x8ka.htm
+  title: 8-K/A 0001104659-26-111408
+  published_at: '2026-09-28'
+  retrieved_at: '2026-11-03T20:00:46.332506+00:00'
+  sha256: ae620cc1bd5ff4c755d3d82135b212b65b083efaddffecedf1e5115928f46f45
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/75252/000110465926093177/ach-20260630x10q.htm
+  title: 10-Q 0001104659-26-093177
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-03T20:00:44.565041+00:00'
+  sha256: 87dc791c5c54962fdfd9e82d32b0a26e759dfdbd92cf10aa9ddd6da26b15c826
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/75252/000110465926038823/ach-20260514xdef14a.htm
+  title: DEF 14A 0001104659-26-038823
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-03T20:00:42.464447+00:00'
+  sha256: bf7aef7ff618f9b9977bfa1b338717cd84e87961ff3cea7ee0e0904d3908f073
 issuer_classification:
   cik: '0000075252'
   classification_status: reported_sic
@@ -209,13 +227,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/75252/000119312517329671/0001193125-17-329671-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c667bd978869d8649e6b635655468f75469ca003cb159a685e2094675fb60100
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -230,15 +258,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000075252.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACH/README.md
-full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACH/README.md
+full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACH — ACCENDRA HEALTH INC/VA/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACH/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACH/README.md)
 
 ## Business overview
 
@@ -252,6 +280,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L3204:
+
+> Accounts Receivable, Net. Due to the nature of our industry and the reimbursement environment in which we operate, certain estimates are required to record net revenue and accounts receivable at their net realizable values, including estimating variable consideration. Inherent in these estimates is the risk that they will have to be revised or updated as additional information becomes available. Specifically, the complexity of many third-party billing arrangements, contractual terms, and the uncertainty of reimbursement amounts for certain services may result in adjustments to amounts originally recorded. Such adjustments are typically identified and recorded at the point of cash application, claim amount or account review. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -260,9 +292,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-10, L3200:
+
+> Discontinued Operations and Assets Held-for-Sale. On February 28, 2025, we announced that we were actively engaged in discussions regarding the anticipated sale of our Products and Healthcare Services (P&HS) business. On October 7, 2025, we entered into an Equity Purchase Agreement (the Purchase Agreement) by and among the Company, Dominion Healthcare Acquisition Corporation, a Delaware corporation (the Purchaser), and Dominion Healthcare Holdings, L.P., a Delaware limited partnership (Purchaser Parent) to sell the P&HS business, for an aggregate of $375 million in cash, subject to certain adjustments for cash, indebtedness, net working capital and transaction expenses. On December 31, 2025, we completed the sale of the P&HS business pursuant to the Purchase Agreement (the P&HS Sale). We retained a 5% equity interest in the P&HS business, which is reflected in other assets, net on our condensed consolidated balance sheets. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-10, L10390:
+
+> impact (i) the ability of financial institutions to meet their contractual commitments to us, (ii) the ability of our customers and suppliers to meet their obligations to us or (iii) our cost of borrowing. [S69]
 
 ## Industry and value chain
 
@@ -270,19 +310,35 @@ SEC-reported SIC **5047**: Wholesale-Medical, Dental & Hospital Equipment & Supp
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L993:
+
+> Accendra Health recognizes the important role we play in building a more sustainable healthcare supply chain. Our sustainability activities focus on ensuring that our company and facilities operate effectively, responsibly, and sustainably. We are also firmly committed to conducting business in compliance with applicable environmental laws and regulations. We believe that acting in an environmentally responsible way throughout our operations benefits our businesses and the communities we serve. [S70]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L9520:
+
+> The Officer Severance Policy imposes certain non-competition and non-solicitation restrictive covenants on the executive officers for the duration of the severance period and includes perpetual confidentiality provisions. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-10, L10417:
+
+> \| \| ● \| our ability to avoid infringement, misappropriation or other violations of the intellectual property and proprietary rights of third parties; [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L1026:
+
+> We actively engaged with shareholders throughout 2025 and consistently discussed the Company’s strategic vision, operating and growth strategy, and financial targets. [S70]
 
 ## Financial performance
 
@@ -389,6 +445,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-09-28, L141:
+
+> On September 22, 2026, Accendra Health and Mr. Gardner-Smith, the Company’s next President and Chief Executive Officer, mutually agreed to an effective start date of October 5, 2026. Edward A. Pesicka, who previously announced his intent to retire in August, will remain in the role of President and Chief Executive Officer until Mr. Gardner-Smith assumes the role on October 5, 2026, at which point Mr. Pesicka will also retire from the Board of Directors, as previously announced. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -401,6 +461,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L10427:
+
+> \| \| ● \| other factors detailed from time to time in the reports we file with the SEC, including those described in “Item 1A. Risk Factors” of our Annual Report on Form 10-K for the year ended December 31, 2025. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -410,25 +474,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -474,6 +538,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S65] [10-K 0001104659-26-018169](https://www.sec.gov/Archives/edgar/data/75252/000110465926018169/0001104659-26-018169-index.html) — published 2026-02-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACH/README.md).
+[S68] [8-K/A 0001104659-26-111408](https://www.sec.gov/Archives/edgar/data/75252/000110465926111408/ach-20260916x8ka.htm) — published 2026-09-28; retrieved 2026-11-03T20:00:46.332506+00:00.
+
+[S69] [10-Q 0001104659-26-093177](https://www.sec.gov/Archives/edgar/data/75252/000110465926093177/ach-20260630x10q.htm) — published 2026-08-10; retrieved 2026-11-03T20:00:44.565041+00:00.
+
+[S70] [DEF 14A 0001104659-26-038823](https://www.sec.gov/Archives/edgar/data/75252/000110465926038823/ach-20260514xdef14a.htm) — published 2026-04-02; retrieved 2026-11-03T20:00:42.464447+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACH/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

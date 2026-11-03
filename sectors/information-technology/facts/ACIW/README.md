@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -140,6 +140,24 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/935036/000093503626000028/aciw-20260630.htm
+  title: 10-Q 0000935036-26-000028
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-03T20:02:16.551830+00:00'
+  sha256: 79e5b44be36e5fc70762d5e07bf9bafa3099dbd0e1409e5964d79dfc18d1753f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/935036/000119312526162572/d44162ddef14a.htm
+  title: DEF 14A 0001193125-26-162572
+  published_at: '2026-04-20'
+  retrieved_at: '2026-11-03T20:02:12.749264+00:00'
+  sha256: 422a345ca77badff6e623f6b9fc2a2bdeb35d30a9d4b543a26742af4f2ed5d7b
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm
+  title: 10-K 0000935036-26-000011
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-03T20:02:10.803393+00:00'
+  sha256: 6520d8b25e67c61c7ccaa465766608e7eaef86e34a95ebfac9d7a64a6a47b54b
 issuer_classification:
   cik: 0000935036
   classification_status: reported_sic
@@ -193,13 +211,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/935036/000119312513226273/0001193125-13-226273-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ff5a0174d5b7047dc9075768e7c51409fa409a97336499ea80b0424a8b5a43af
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -214,15 +243,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000935036.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACIW/README.md
-full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACIW/README.md
+full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACIW — ACI WORLDWIDE, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACIW/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACIW/README.md)
 
 ## Business overview
 
@@ -236,17 +265,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1072:
+
+> Forward-looking statements in this report include, but are not limited to, statements regarding future operations, business strategy, business environment, key trends, and, in each case, statements related to expected financial and other benefits. Many of these factors will be important in determining our actual future results. Any or all of the forward-looking statements in this report may turn out to be incorrect. They may be based on inaccurate assumptions or may not account for known or unknown risks and uncertainties. Consequently, no forward-looking statement can be guaranteed. Actual future results may vary materially from those expressed or implied in any forward-looking statements, and our business, financial condition and results of operations could be materially and adversely affected. In addition, we disclaim any obligation to update any forward-looking statements after the date of this report, except as required by law. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L857:
+
+> The Company’s Chief Executive Officer is also the chief operating decision maker. The CODM, together with other senior management personnel, focus their review on consolidated financial information and the allocation of resources based on operating results, including revenues and Segment Adjusted EBITDA, for each segment, separate from corporate operations. No operating segments have been aggregated to form the reportable segments. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L978:
+
+> (c) Other segment items – other includes selling and marketing, product management, third-party royalties and other cost of goods sold excluding interchange. Selling and marketing costs, which are the costs related to selling our products to current and prospective customers as well as the costs related to promoting the Company, its products and the research efforts required to measure customers’ future needs and satisfaction levels. Selling costs are primarily the human resource and travel costs related to the effort expended to license our products and services to current and potential clients within defined territories and/or industries as well as the management of the overall relationship with customer accounts. Selling costs also include the costs associated with assisting distributors in their efforts to sell our products and services in their respective local markets. Product management costs are primarily the human resource costs related to developing and documenting our product requirements. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1084:
+
+> Adoption of cloud technology. ACI has recognized the industry's technical inflection point as financial institutions transition from traditional on-premises infrastructure to private and public cloud environments, and we are actively supporting our customers' cloud strategies. Cloud technology enables the financial services ecosystem to reduce technical risk, accelerate innovation, improve time-to-market for new revenue-generating solutions, and enhance scalability, resiliency, and long-term operating economics. As banks, intermediaries, merchants, and billers modernize their systems to take advantage of these capabilities, our ongoing investments and partnerships allow us to deliver cloud benefits today while maintaining ACI's core strengths in performance, resiliency, and scalability. In addition, cloud-native, multi-tenant SaaS solutions expand our reach to smaller institutions by providing scalable, easy‑to‑integrate offerings at accessible price points. Building on these foundations, ACI Connetic—our fully cloud‑native banking platform launched in 2025—advances this strategy by conforming fully to Cloud Native Computing Foundation principles and by being deployable across public cloud environments such as Microsoft Azure and Amazon Web Services, as well as customers’ private clouds. Working closely with key hardware and software partners including IBM and Red Hat, we … [S68]
 
 ## Industry and value chain
 
@@ -254,19 +299,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-26, L394:
+
+> As part of our business, we electronically receive, process, store, and transmit information, including personal information and sensitive business information of our customers. Cybersecurity incidents vary in their form and can include the deployment of harmful malware or ransomware, denial-of-services attacks, and other attacks, which may affect business continuity and threaten the availability, confidentiality and integrity of our systems and information. Cybersecurity incidents can also include employee or personnel failures, fraud, phishing or other social engineering attempts, AI deep fakes, zero-day sophistication, supply chain threats, AI created malware or ransomware, or other methods to cause confidential information, payments, account access or access credentials, or other data to be transmitted to an unintended recipient. Cybersecurity threat actors also may attempt to exploit vulnerabilities in both ACI and cloud provider infrastructure along with vulnerabilities in software including software commonly used by companies in cloud-based services and bundled software. Like many other companies, we detect attempts by threat actors to gain access to our systems and networks on a frequent basis, and the frequency of such attempts could increase in the future. Unauthorized access, use, or disruptions to our data, computer systems or databases or other cybersecurity … [S70]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-20, L11672:
+
+> We entered into a severance agreement with our CEO on June 1, 2023 (the “2023 CEO Severance Agreement”), which has a three-year term with successive one-year renewal terms subject to termination. The 2023 CEO Severance Agreement provides that if the Company terminates Mr. Warsop’s employment other than for “Cause”, “Death or “Disability,” or “Retirement” or Mr. Warsop terminates his employment for “Good Reason,” other than in circumstances covered by Mr. Warsop’s CIC Agreement (defined below), Mr. Warsop would be entitled to the following benefits: (1) a lump sum cash amount equal to 1.5 times the sum of his annual base salary plus his target annual bonus; (2) generally, at least 18 months of continued benefits to him and his family at the same after-tax cost to him as would have applied prior to the termination (or certain economically equivalent benefits); (3) pro-rata vesting of his then-outstanding restricted stock units; and (4) pro-rata vesting of his then-outstanding PSUs based on actual performance for the full performance period. Pro-rata vesting of equity awards as described above is based on Mr. Warsop’s completed months of service during the vesting or performance period, as applicable. The terms “Cause”, “Disability,” and “Good Reason” have the meanings assigned thereto in Mr. Warsop’s CIC Agreement. The separation benefits described above are generally subject to … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-26, L333:
+
+> In addition to our own products, we distribute, or act as a sales agent for, software developed by third parties. However, we typically are not involved in the development process used by these third parties. Our rights to those third-party products and the associated intellectual property rights are limited by the terms of the contractual agreement between us and the respective third party. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1084:
+
+> Adoption of cloud technology. ACI has recognized the industry's technical inflection point as financial institutions transition from traditional on-premises infrastructure to private and public cloud environments, and we are actively supporting our customers' cloud strategies. Cloud technology enables the financial services ecosystem to reduce technical risk, accelerate innovation, improve time-to-market for new revenue-generating solutions, and enhance scalability, resiliency, and long-term operating economics. As banks, intermediaries, merchants, and billers modernize their systems to take advantage of these capabilities, our ongoing investments and partnerships allow us to deliver cloud benefits today while maintaining ACI's core strengths in performance, resiliency, and scalability. In addition, cloud-native, multi-tenant SaaS solutions expand our reach to smaller institutions by providing scalable, easy‑to‑integrate offerings at accessible price points. Building on these foundations, ACI Connetic—our fully cloud‑native banking platform launched in 2025—advances this strategy by conforming fully to Cloud Native Computing Foundation principles and by being deployable across public cloud environments such as Microsoft Azure and Amazon Web Services, as well as customers’ private clouds. Working closely with key hardware and software partners including IBM and Red Hat, we … [S68]
 
 ## Financial performance
 
@@ -394,6 +455,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-20, L123:
+
+> To elect the nine directors named in the accompanying proxy statement to our Board of Directors to hold office until the 2027 Annual Meeting of Stockholders; [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -406,6 +471,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1073:
+
+> All forward-looking statements in this report are expressly qualified by the risk factors discussed in our filings with the Securities and Exchange Commission (“SEC”). The cautionary statements in this report expressly qualify all of our forward-looking statements. Factors that could cause actual results to differ from those expressed or implied in the forward-looking statements include, but are not limited to, those discussed in our Risk Factors in Part 1, Item 1A of our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, and in Part 2, Item 1A of this Form 10-Q. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -415,25 +484,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -477,6 +546,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S62] [10-K 0000935036-26-000011](https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/0000935036-26-000011-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACIW/README.md).
+[S68] [10-Q 0000935036-26-000028](https://www.sec.gov/Archives/edgar/data/935036/000093503626000028/aciw-20260630.htm) — published 2026-08-06; retrieved 2026-11-03T20:02:16.551830+00:00.
+
+[S69] [DEF 14A 0001193125-26-162572](https://www.sec.gov/Archives/edgar/data/935036/000119312526162572/d44162ddef14a.htm) — published 2026-04-20; retrieved 2026-11-03T20:02:12.749264+00:00.
+
+[S70] [10-K 0000935036-26-000011](https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm) — published 2026-02-26; retrieved 2026-11-03T20:02:10.803393+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACIW/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

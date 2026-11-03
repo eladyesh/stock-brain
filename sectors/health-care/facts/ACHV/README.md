@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -152,6 +152,18 @@ sources:
   published_at: '2026-08-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/949858/000119312526410781/achv-20261001.htm
+  title: 8-K 0001193125-26-410781
+  published_at: '2026-10-01'
+  retrieved_at: '2026-11-03T20:01:24.404295+00:00'
+  sha256: f4ed73fdf51c1e3a78f3e6855c0b19c655fb257a2d8483cd0081441bab2814d2
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/949858/000119312526344624/achv-20260630.htm
+  title: 10-Q 0001193125-26-344624
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-03T20:01:22.688389+00:00'
+  sha256: 70e8b9205c62695a9456336369b011bf7e229a2b1251e37190f510d74e943a99
 issuer_classification:
   cik: 0000949858
   classification_status: reported_sic
@@ -202,13 +214,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/949858/000095012310073206/0000950123-10-073206-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6f383c04ff24b66ada896ec26527cffd43ac63b84f2c3ca5553af2225223180b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -223,15 +244,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000949858.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHV/README.md
-full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHV/README.md
+full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACHV — ACHIEVE LIFE SCIENCES, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHV/README.md)
 
 ## Business overview
 
@@ -245,6 +266,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L238:
+
+> This Quarterly Report on Form 10-Q contains “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements involve a number of risks and uncertainties. We caution readers that any forward-looking statement is not a guarantee of future performance and that actual results could differ materially from those contained in the forward-looking statement. These statements are based on current expectations of future events. We operate in a competitive and rapidly changing environment, and new risks emerge from time to time. It is not possible to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. Such statements include, but are not limited to, statements about future financial and operating results, plans, objectives, expectations and intentions, costs and expenses, interest rates, outcome of contingencies, financial condition, results of operations, liquidity, business strategies, cost savings, objectives of management and other statements that are not historical facts. You can find many of these statements by looking for words like “believes,” “expects,” “anticipates,” “estimates,” “may,” “should,” “will,” … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -252,6 +277,10 @@ Not available: substantive research has not been completed. Describe revenue str
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-11, L6367:
+
+> Any inability to successfully complete clinical development and obtain regulatory approval for cytisinicline could result in additional costs to us or impair our ability to generate revenue. In addition, if we make manufacturing or formulation changes to cytisinicline, we may need to conduct additional non-clinical trials, or the results obtained from such new formulation may not be consistent with previous results obtained. Clinical trial delays could result in delayed regulatory approval and potential commercialization, as well as shorten any periods during which our products have patent protection and may allow competitors to develop and bring products to market before we do, which could impair our ability to successfully commercialize cytisinicline and may harm our business and results of operations. [S68]
 
 ## Customers and end markets
 
@@ -263,19 +292,35 @@ SEC-reported SIC **2835**: In Vitro & In Vivo Diagnostic Substances. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L6107:
+
+> In June 2026, we received a Complete Response Letter, or CRL, from the FDA regarding our NDA for cytisinicline relating to outstanding manufacturing-related observations from a current Good Manufacturing Practice, or cGMP, inspection of a third-party manufacturing facility and to final product labeling that was not completed by the FDA’s action date. The FDA identified no deficiencies regarding the clinical efficacy or safety of cytisinicline. The deficiencies cited in the CRL concern our prior third-party manufacturer named in our NDA, who underwent a non-Achieve related FDA cGMP inspection and the FDA made observations, two of which were related to solid oral dose manufacturing. As a result, the third-party manufacturer's facility, where the FDA made the two observations, received an Official Action Indicated, or OAI, classification and a warning letter. The observations resulting in the OAI classification and warning letter at the third-party manufacturer's facility relate to general cGMP matters at the facility and are not specific to cytisinicline. We have partnered with a U.S.-based manufacturer, Adare Pharma Solutions, or Adare, to manufacture our finished drug product for potential commercial launch and beyond (see Note 8 "Related Party Transactions" in the accompanying consolidated financial statements). We have completed the analytical method transfer to Adare's … [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-11, L287:
+
+> We face substantial competition, and our competitors may discover, develop or commercialize products faster or more successfully than us. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-11, L4838:
+
+> On July 25, 2024, we entered into a contingent convertible debt agreement, or New Debt Agreement with SVB, a division of First-Citizens Bank & Trust Company, or FCB, in its capacity as administrative agent and collateral agent, and FCB, as a lender, or Lender, pursuant to which the Lender provided term loans having an aggregate original principal amount of $10.0 million, with additional term loans of up to $10.0 million available upon the occurrence of certain events as provided for in the New Debt Agreement and further described below, or New Convertible Term Loan. Our obligations under the New Debt Agreement are secured by substantially all of our assets, other than intellectual property. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L6152:
+
+> We have incurred an accumulated deficit of $345.2 million through June 30, 2026, and we expect to incur substantial additional losses in the future as we operate our business and continue or expand our regulatory, manufacturing, commercialization and other R&D activities and other operations. We have not generated any revenue from product sales to date, and we may not generate product sales revenue in the near future, if ever. As of June 30, 2026, we had a cash, cash equivalents and marketable securities balance of $187.3 million and a negative working capital balance of $9.4 million. For the six months ended June 30, 2026, net cash used in operations was $17.7 million. [S68]
 
 ## Financial performance
 
@@ -373,6 +418,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-01, L103:
+
+> On October 1, 2026, Achieve Life Sciences, Inc. (the “Company”) announced that the Board of Directors of the Company (the “Board”) appointed Benjamin Halladay as the Company’s Chief Financial Officer and “principal financial officer,” effective as of October 5, 2026 (the “Appointment Date”). [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -385,6 +434,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L258:
+
+> our expectations regarding the impact of the macroeconomic and geopolitical environment, including fluctuating inflation, interest and tariff rates, the impact of significant political, trade and regulatory developments, potential shutdowns of the U.S. government, increased volatility in the debt and equity markets, instability in the global banking system, global health crises and pandemics and geopolitical conflict, and their potentially material adverse impact on our business and the execution of our preclinical studies and clinical trials. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -394,25 +447,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -456,6 +509,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001949846-26-000528](https://www.sec.gov/Archives/edgar/data/949858/000194984626000528/0001949846-26-000528-index.html) — published 2026-08-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHV/README.md).
+[S67] [8-K 0001193125-26-410781](https://www.sec.gov/Archives/edgar/data/949858/000119312526410781/achv-20261001.htm) — published 2026-10-01; retrieved 2026-11-03T20:01:24.404295+00:00.
+
+[S68] [10-Q 0001193125-26-344624](https://www.sec.gov/Archives/edgar/data/949858/000119312526344624/achv-20260630.htm) — published 2026-08-11; retrieved 2026-11-03T20:01:22.688389+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

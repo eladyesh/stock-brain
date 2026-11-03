@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: b7d564f6a774e716acb58b68cc3c1e8b1400a1e5
+source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -151,6 +151,24 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1824502/000182450226000078/achr-20260929.htm
+  title: 8-K 0001824502-26-000078
+  published_at: '2026-10-02'
+  retrieved_at: '2026-11-03T20:01:11.274809+00:00'
+  sha256: 528830baac61bac68baea691897ca2bbf7420de11a953f3a3de79fcc4cc43207
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/achr-20260630.htm
+  title: 10-Q 0001824502-26-000059
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-03T20:01:09.370300+00:00'
+  sha256: 61d873ae75de32771309307b7f9c5d98d384a29beacf4c9c0cb4f5db8b74ac46
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1824502/000182450226000019/achr-20251231.htm
+  title: 10-K 0001824502-26-000019
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-03T20:01:05.154957+00:00'
+  sha256: f0f59322197fa74f1036ad7d9837344334eecf21be6103cd60cab9171066bb3b
 issuer_classification:
   cik: 0001824502
   classification_status: reported_sic
@@ -196,13 +214,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1824502/000121390021007946/0001213900-21-007946-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 618fbc9e88730152d178f796f64d8ab063bd85ce392ad92b42886fb1142c1138
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-03T19:57:53.299416+00:00'
+  last_success_at: '2026-11-03T19:57:53.299416+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -217,15 +246,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001824502.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHR/README.md
-full_history_commit: ef36a46d682e789d5949ebe61d4ec5a6bea5f3de
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHR/README.md
+full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACHR — Archer Aviation Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHR/README.md)
 
 ## Business overview
 
@@ -239,17 +268,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L174:
+
+> As a result of a number of known and unknown risks and uncertainties, our actual results or performance may be materially different from those expressed or implied by these forward-looking statements. Some factors that could cause actual results to differ include those described in Part II, Item 1A, “Risk Factors” in this Quarterly Report and Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the SEC on March 2, 2026 (the “Annual Report”). Readers are urged to carefully review and consider the various disclosures made in this Quarterly Report, the Annual Report, and other documents we file from time to time with the SEC that disclose risks and uncertainties that may affect our business. Moreover, new risks emerge from time to time. It is not possible for us to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks and uncertainties, the future events and circumstances discussed in this Quarterly Report and the Annual Report may not occur and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L1319:
+
+> Operating segments are defined as components of an entity for which separate financial information is available and that is regularly reviewed by the Chief Operating Decision Maker (“CODM”) in deciding how to allocate resources to an individual segment and in assessing performance. The Company’s CODM is its Chief Executive Officer. The Company has determined that it operates as a single operating segment and one reportable segment, as the CODM reviews financial information presented on a consolidated basis. The CODM uses net loss for purposes of making operating decisions, allocating resources, and evaluating financial performance. Given the Company’s pre-commercialization operating stage, it currently has no concentration exposure to products, services, or customers. Segment asset information is not regularly provided to the CODM to allocate resources. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-02, L333:
+
+> •engage third parties on the design, development, manufacturing, certification and marketing of our products and services; [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-02, L432:
+
+> •complaints or negative publicity or reviews about our aircraft or service offerings from our customers or negative publicity reviews about other brands or events we are associated with, even if factually incorrect or based on isolated incidents; [S70]
 
 ## Industry and value chain
 
@@ -257,19 +302,35 @@ SEC-reported SIC **3721**: Aircraft. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-02, L280:
+
+> A key aspect of our strategy has been to focus our internal component development efforts on the key enabling technologies like our electric and hybrid propulsion systems, flight control software and composites. For those areas that are not differentiating technologies we aim to leverage the existing aerospace supply base to supply us with components many of which are already being used in certified aircraft today. We depend on U.S. and non-U.S. suppliers and service providers to meet quality, performance, cost and delivery requirements as we work towards developing and manufacturing, and ultimately commercialization of, our aircraft. Key raw materials used for our aircraft include aluminum and composites. [S70]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 8-K, filed 2026-10-02, L63:
+
+> On September 29, 2026, the United States District Court for the Northern District of California (the "Court") ruled on the parties’ motions to dismiss in Joby Aero, Inc. v. Archer Aviation Inc., et al., Case No. 5:25-cv-10703-SVK (N.D. Cal.), which the Company previously disclosed. The Court narrowed the claims asserted against the Company and its employee, dismissing certain trade-secret and contract-related claims, with leave to amend in some cases, while allowing other claims to proceed. The Court also dismissed, without leave to amend, the Company’s counterclaims against Joby Aero, Inc. and Joby Aviation, Inc. in regards to allegations of violations of the Lanham Act and California’s Unfair Competition Law. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1061:
+
+> On March 9, 2026, the Company filed a complaint with the U.S. International Trade Commission (“ITC”) requesting the ITC prevent Joby from importing certain eVTOL aircraft, power systems for eVTOL aircraft, and components thereof, on the basis that such products infringe certain of the Company's U.S. patents. The ITC instituted an investigation (Inv. No. 337-TA-1499) on April 9, 2026 and the matter is pending before an administrative law judge. The administrative law judge set September 14, 2027 as the target date for the ITC’s final determination. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L172:
+
+> This Quarterly Report contains forward-looking statements. All statements, other than statements of present or historical fact, included or incorporated by reference in this Quarterly Report regarding our future financial performance, as well as our strategy, future operations, financial position, estimated revenues and losses, projected costs, prospects, plans, and objectives of management are forward-looking statements. When used in this Quarterly Report, the words “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “future,” “intends,” “may,” “might,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “will,” “would,” the negative of such terms and other similar expressions are intended to identify forward-looking statements, although not all forward-looking statements contain such identifying words. [S68]
 
 ## Financial performance
 
@@ -379,6 +440,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1065:
+
+> On June 24, 2026, a putative stockholder filed a shareholder derivative action in the Delaware Court of Chancery, purportedly on behalf of the Company, against current members and one former member of the Company’s Board of Directors. The Company is the nominal defendant. The complaint alleges that the individual defendants awarded excessive compensation to its non-employee directors and asserts claims for breach of fiduciary duty against all individual defendants and unjust enrichment against the non-employee director defendants. The complaint seeks, among other relief, disgorgement of allegedly excessive compensation and corporate governance reforms. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +456,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L174:
+
+> As a result of a number of known and unknown risks and uncertainties, our actual results or performance may be materially different from those expressed or implied by these forward-looking statements. Some factors that could cause actual results to differ include those described in Part II, Item 1A, “Risk Factors” in this Quarterly Report and Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the SEC on March 2, 2026 (the “Annual Report”). Readers are urged to carefully review and consider the various disclosures made in this Quarterly Report, the Annual Report, and other documents we file from time to time with the SEC that disclose risks and uncertainties that may affect our business. Moreover, new risks emerge from time to time. It is not possible for us to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks and uncertainties, the future events and circumstances discussed in this Quarterly Report and the Annual Report may not occur and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +469,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -462,6 +531,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [25-NSE 0000876661-26-000755](https://www.sec.gov/Archives/edgar/data/1824502/000087666126000755/0000876661-26-000755-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/ef36a46d682e789d5949ebe61d4ec5a6bea5f3de/brain/companies/ACHR/README.md).
+[S67] [8-K 0001824502-26-000078](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000078/achr-20260929.htm) — published 2026-10-02; retrieved 2026-11-03T20:01:11.274809+00:00.
+
+[S68] [10-Q 0001824502-26-000059](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000059/achr-20260630.htm) — published 2026-08-10; retrieved 2026-11-03T20:01:09.370300+00:00.
+
+[S70] [10-K 0001824502-26-000019](https://www.sec.gov/Archives/edgar/data/1824502/000182450226000019/achr-20251231.htm) — published 2026-03-02; retrieved 2026-11-03T20:01:05.154957+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACHR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
