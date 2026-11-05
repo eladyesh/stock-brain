@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -364,6 +364,24 @@ sources:
   published_at: '2024-11-06'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1863934/000106299326005398/form40fa.htm
+  title: 40-F/A 0001062993-26-005398
+  published_at: '2026-10-19'
+  retrieved_at: '2026-11-05T20:35:39.303776+00:00'
+  sha256: 159f0a02db6165d6d72c9509ce95897b0591eac8aefe26936e42d50d082e502b
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1863934/000106299326005400/form6k.htm
+  title: 6-K 0001062993-26-005400
+  published_at: '2026-10-19'
+  retrieved_at: '2026-11-05T20:35:41.028278+00:00'
+  sha256: b17392a0e487e2b0a26dc06d7076b50f8a2ea3e68dc454bba76c8bfe5353b5c1
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1863934/000106299326004744/form40f.htm
+  title: 40-F 0001062993-26-004744
+  published_at: '2026-08-31'
+  retrieved_at: '2026-11-05T20:35:37.742901+00:00'
+  sha256: 580e1b3bcc1195aa03269f3f5df45ac75a4dbf6fd97f04230f9ec97e95a36aa8
 issuer_classification:
   cik: 0001863934
   classification_status: reported_sic
@@ -395,13 +413,16 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1863934/000106299326005400/0001062993-26-005400-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 22bb9e12f0209e30867ab900a6510284d54119663e1530ed94d7dbe8d53ce00e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -424,6 +445,10 @@ The directory links the following current stock listings to this issuer. Classif
 | ADUR | NASDAQ | common_stock | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+Source excerpt — 40-F/A, filed 2026-10-19, L122:
+
+> As of the fiscal year ended May 31, 2026, the Registrant qualifies as an "emerging growth company" under Section 3 of the Exchange Act, as a result of enactment of the Jumpstart Our Business Startups Act (the "JOBS Act"). Under the JOBS Act, "emerging growth companies" are exempt from Section 404(b) of the Sarbanes-Oxley Act of 2002, which generally requires that a public company's registered public accounting firm provide an attestation report relating to management's assessment of internal control over financial reporting. The Registrant qualifies as an "emerging growth company" and therefore has not included in, or incorporated by reference into, this Annual Report such an attestation report as of the end of the period covered by this Annual Report. [S53]
 
 ## Revenue model and segments
 
@@ -467,6 +492,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F/A, filed 2026-10-19, L78:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to §240.10D-1(b). [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -491,9 +520,9 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
@@ -503,13 +532,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -573,6 +602,10 @@ Latest 50 filing metadata records of 76 retained records. A filing link is evide
 | 2024-11-08 | 424B4 | 0001062993-24-018657 | — | [S50] |
 | 2024-11-07 | 6-K | 0001062993-24-018611 | — | [S51] |
 | 2024-11-06 | CERT | 0001354457-24-000849 | — | [S52] |
+
+Source excerpt — 40-F/A, filed 2026-10-19, L116:
+
+> The Registrant has a separately designated standing Audit Committee established for the purpose of overseeing the accounting and financial reporting processes of the Company and audits of the financial statements of the Company in accordance with Section 3(a)(58)(A) of the Exchange Act and Rule 5602(c) of the NASDAQ Stock Market Rules. During the year ended May 31, 2026, the following individuals served on Company's Audit Committee: Peter Kampian, James E. Scott and Marie Grönborg. All of the members of the Audit Committee are considered independent based on the criteria for independence prescribed by Rule 10A-3 of the Exchange Act and Rule 5605(a)(2) of the NASDAQ Stock Market Rules. [S53]
 
 ## Sources and change log
 
@@ -679,5 +712,11 @@ Latest 50 filing metadata records of 76 retained records. A filing link is evide
 [S51] [6-K 0001062993-24-018611](https://www.sec.gov/Archives/edgar/data/1863934/000106299324018611/0001062993-24-018611-index.html) — published 2024-11-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [CERT 0001354457-24-000849](https://www.sec.gov/Archives/edgar/data/1863934/000135445724000849/0001354457-24-000849-index.html) — published 2024-11-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [40-F/A 0001062993-26-005398](https://www.sec.gov/Archives/edgar/data/1863934/000106299326005398/form40fa.htm) — published 2026-10-19; retrieved 2026-11-05T20:35:39.303776+00:00.
+
+[S54] [6-K 0001062993-26-005400](https://www.sec.gov/Archives/edgar/data/1863934/000106299326005400/form6k.htm) — published 2026-10-19; retrieved 2026-11-05T20:35:41.028278+00:00.
+
+[S55] [40-F 0001062993-26-004744](https://www.sec.gov/Archives/edgar/data/1863934/000106299326004744/form40f.htm) — published 2026-08-31; retrieved 2026-11-05T20:35:37.742901+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -475,6 +475,42 @@ sources:
   published_at: '2026-02-25'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/917251/000091725126000075/adc-20261020.htm
+  title: 8-K 0000917251-26-000075
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-05T20:31:47.500755+00:00'
+  sha256: c1aa240bd56a86db03d69e7b5ca43789253e7a74970657976c94255545b999c4
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/917251/000091725126000076/adc-20260930.htm
+  title: 10-Q 0000917251-26-000076
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-05T20:31:49.153126+00:00'
+  sha256: a31c579176c8309b6755eb3d85a437ef61caee16d3cecdd1cd992dd9812eb61b
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/917251/000091725126000031/adc-20260402.htm
+  title: DEF 14A 0000917251-26-000031
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-05T20:31:45.819426+00:00'
+  sha256: a274d8d8992e236d72bb37d365de253fe42ad6bfa9c471354c72922077867676
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/917251/000091725126000013/adc-20251231.htm
+  title: 10-K 0000917251-26-000013
+  published_at: '2026-02-10'
+  retrieved_at: '2026-11-05T20:31:43.074346+00:00'
+  sha256: ff311a762a3b52b16c142e4e2435d77333f29dac34420ddb76b0ed9d9e1efebd
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/917251/000114420416118912/v446909_8ka.htm
+  title: 8-K/A 0001144204-16-118912
+  published_at: '2016-08-15'
+  retrieved_at: '2026-11-05T20:31:41.449846+00:00'
+  sha256: b056947b9f95475c9332ddc8ace5436003b659cb00a6953db084496f34f7e086
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/917251/000114420411048496/v232855_8ka.htm
+  title: 8-K/A 0001144204-11-048496
+  published_at: '2011-08-18'
+  retrieved_at: '2026-11-05T20:31:39.639073+00:00'
+  sha256: 512bc7c163f7c716ad58f1005e8e34c45b912f75bc39f84a3d6ffef816bfce82
 issuer_classification:
   cik: 0000917251
   classification_status: reported_sic
@@ -523,13 +559,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/917251/000114420411048496/0001144204-11-048496-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0b21df64d528c777af441e6653f6f85b652857e3e6dfca0c25233a9400351c54
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -554,9 +599,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-20, L628:
+
+> The Company is primarily engaged in the business of owning, acquiring, developing and managing retail real estate. We organize and operate our business as a single operating segment and the Company’s chief operating decision maker, (“CODM”), which is its Chief Executive Officer, does not distinguish or group operations on a geographic, tenant sector, tenant or other basis when assessing the financial performance of the Company’s portfolio of properties. Accordingly, the Company has a single reportable segment for disclosure purposes. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-20, L628:
+
+> The Company is primarily engaged in the business of owning, acquiring, developing and managing retail real estate. We organize and operate our business as a single operating segment and the Company’s chief operating decision maker, (“CODM”), which is its Chief Executive Officer, does not distinguish or group operations on a geographic, tenant sector, tenant or other basis when assessing the financial performance of the Company’s portfolio of properties. Accordingly, the Company has a single reportable segment for disclosure purposes. [S69]
 
 ## Products and services
 
@@ -572,17 +625,33 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L1870:
+
+> Michael Hollman was appointed to the Board in August 2020. He currently serves as SVP, Treasurer and Head of Strategic Finance at Hilton, a position he has held since 2020. In this role, he oversees the Corporate Finance, Corporate Strategy and Global Treasury teams, and is responsible for a wide variety of activities and initiatives, including public market offerings, capital allocation, cash management, business development and Mergers & Acquisitions. Prior to becoming Treasurer, Mr. Hollman served as Vice President of Mergers & Acquisitions and Capital Markets from 2017 to 2020. Before joining Hilton, Mr. Hollman worked in investment banking, specializing in the real estate and lodging sectors. He most recently served as a Director of the Real Estate and Lodging Investment Banking Group at Citigroup from 2013 to 2017, and previously held similar roles at UBS Investment Bank from 2004 to 2013. Prior to banking, Mr. Hollman was a management consultant at Kurt Salmon Associates, now a part of Accenture Strategy, from 2004 to 2007, where he was responsible for the development and execution of strategic initiatives and supply chain-related projects for consumer product and retail companies. He currently serves on the Board of Directors and as the Treasurer on the executive committee of DC Central Kitchen. He received a B.S. in Industrial Engineering from the Georgia Institute of … [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L1486:
+
+> If Mr. Coughenour’s employment were terminated by the Company for Cause, he would not be entitled to any severance payments, and he would forfeit any unvested securities of the Company. If Mr. Coughenour’s employment were terminated by the Company without Cause or by him with Good Reason (as defined therein), he will (i) receive a severance amount equal to 100% of his annual base salary, (ii) be deemed to have vested in a pro rata portion of the restricted stock, including any restricted shares awarded at the end of a performance period pursuant to performance awards, set forth in the letter agreement, based on the number of completed years of service since the start date and (iii) be released from his post-employment non-competition covenant. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-10, L463:
+
+> We primarily invest in properties leased to tenants in sectors where a physical location is critical to the generation of sales and profits. Such tenants operate in sectors including grocery stores, home improvement, convenience stores, tire and auto services, auto parts and dollar stores. We believe many of these businesses have adopted effective omni-channel strategies that leverage their brick-and-mortar locations as a distinct competitive advantage against online only retailers and other competitors. In addition, these businesses generally operate in sectors that are resilient through economic cycles. While we believe this to be the case, technology and business conditions, particularly in the retail industry, are rapidly changing, and our tenants may be adversely affected by technological innovation, changing consumer preferences and competition from non-traditional sources. To the extent our current and prospective tenants face increased competition their businesses could suffer. There can be no assurance that our tenants will be successful in meeting any new competition, and a deterioration in our tenants’ businesses could impair their ability to meet their lease obligations to us and materially and adversely affect us. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L585:
+
+> We are committed to managing the Company for the benefit of our stockholders and are focused on maintaining good corporate governance. Our Board is ultimately responsible for corporate sustainability oversight. The Nominating and Governance Committee of the Board (the “NGC”) oversees our management-level ESG Steering Committee, which sets our sustainability strategy and ensures our strategy is implemented throughout our operations. [S70]
 
 ## Financial performance
 
@@ -1194,6 +1263,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-20, L1108:
+
+> Performance units have been granted to certain executive officers and are subject to a three-year performance period, following the conclusion of which shares awarded are determined by the Company’s total shareholder return (“TSR”) compared to the constituents of the MSCI US REIT Index and a defined peer group. Fifty percent of the award is based upon the TSR percentile rank versus the constituents in the MSCI US REIT Index for the three-year performance period; and fifty percent of the award is based upon TSR percentile rank versus a specified net lease peer group for the three-year performance period. For performance units granted prior to 2023, vesting of the shares awarded occurs ratably over a three-year period, with the initial vesting occurring immediately following the conclusion of the performance period such that all units vest within five years of the original award date. Performance units granted in 2023 or later vest following the conclusion of the performance period such that all units will vest three years from the original award date. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1206,6 +1279,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-20, L1153:
+
+> In the ordinary course of business, the Company is party to various legal actions which the Company considers to be routine in nature and incidental to the operation of its business. The Company believes that the outcome of the proceedings will not have a material adverse effect upon the Company’s consolidated financial position or results of operations. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1215,25 +1292,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1297,6 +1374,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-26 | SCHEDULE 13G/A | 0000102909-26-000575 | — | [S65] |
 | 2026-02-26 | 8-K | 0000917251-26-000017 | — | [S66] |
 | 2026-02-25 | 4 | 0001932559-26-000002 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-10-20, L1147:
+
+> During the nine months ended September 30, 2026, 21,688 restricted equity awards were granted to non-employee directors at a weighted average grant date fair value of $75.28 per share. During the year ended December 31, 2025, 18,467 restricted shares were granted to non-employee directors at a weighted average grant date fair value of $72.83 per share. [S69]
 
 ## Sources and change log
 
@@ -1433,5 +1514,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0000917251-26-000017](https://www.sec.gov/Archives/edgar/data/917251/000091725126000017/0000917251-26-000017-index.html) — published 2026-02-26; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S67] [4 0001932559-26-000002](https://www.sec.gov/Archives/edgar/data/917251/000193255926000002/0001932559-26-000002-index.html) — published 2026-02-25; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S68] [8-K 0000917251-26-000075](https://www.sec.gov/Archives/edgar/data/917251/000091725126000075/adc-20261020.htm) — published 2026-10-20; retrieved 2026-11-05T20:31:47.500755+00:00.
+
+[S69] [10-Q 0000917251-26-000076](https://www.sec.gov/Archives/edgar/data/917251/000091725126000076/adc-20260930.htm) — published 2026-10-20; retrieved 2026-11-05T20:31:49.153126+00:00.
+
+[S70] [DEF 14A 0000917251-26-000031](https://www.sec.gov/Archives/edgar/data/917251/000091725126000031/adc-20260402.htm) — published 2026-04-02; retrieved 2026-11-05T20:31:45.819426+00:00.
+
+[S71] [10-K 0000917251-26-000013](https://www.sec.gov/Archives/edgar/data/917251/000091725126000013/adc-20251231.htm) — published 2026-02-10; retrieved 2026-11-05T20:31:43.074346+00:00.
+
+[S72] [8-K/A 0001144204-16-118912](https://www.sec.gov/Archives/edgar/data/917251/000114420416118912/v446909_8ka.htm) — published 2016-08-15; retrieved 2026-11-05T20:31:41.449846+00:00.
+
+[S73] [8-K/A 0001144204-11-048496](https://www.sec.gov/Archives/edgar/data/917251/000114420411048496/v232855_8ka.htm) — published 2011-08-18; retrieved 2026-11-05T20:31:39.639073+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

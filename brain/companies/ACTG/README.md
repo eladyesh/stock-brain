@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -470,6 +470,54 @@ sources:
   published_at: '2025-06-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454926000034/actg-20260630.htm
+  title: 10-Q 0000934549-26-000034
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-05T20:29:24.398816+00:00'
+  sha256: 7e72a35e4109239671fd966a37c6e28707552ada02e90997d37f3201cf154e1b
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454926000031/actg-20260805.htm
+  title: 8-K 0000934549-26-000031
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-05T20:29:22.041735+00:00'
+  sha256: 51b1357818487d09d1f2afe4a74dc1b10bb3206331d4d16c4d89c4031f38f894
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454926000016/actg-20260430.htm
+  title: DEF 14A 0000934549-26-000016
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-05T20:29:20.424547+00:00'
+  sha256: 14a1ae73e84eeb67380e519ef88de53ad62e3ce27352d8c3d163f94400e76119
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454926000010/actg-20251231.htm
+  title: 10-K 0000934549-26-000010
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-05T20:29:18.405085+00:00'
+  sha256: 5f9c5930d4361bf3eb2585a44920a46e427b6393d1c0f1da16625ac5762a4eff
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/934549/000110465925000341/tm2432316d1_8ka.htm
+  title: 8-K/A 0001104659-25-000341
+  published_at: '2025-01-02'
+  retrieved_at: '2026-11-05T20:29:16.659212+00:00'
+  sha256: c17d00c67df4a01fc1f44bdc352bfe7c13b78f1d7eec8ec0cd819cca5b0be6fc
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/934549/000110465924077564/tm2418379d2_8ka.htm
+  title: 8-K/A 0001104659-24-077564
+  published_at: '2024-07-03'
+  retrieved_at: '2026-11-05T20:29:14.979295+00:00'
+  sha256: 597657c407af8ac25dcd799c0dc588c51f589fac5a37198abe1fddaa28b2c164
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454923000077/actg-20230727.htm
+  title: 8-K/A 0000934549-23-000077
+  published_at: '2023-08-02'
+  retrieved_at: '2026-11-05T20:29:03.986328+00:00'
+  sha256: 36e9dd0b785a3caeec14751b9031ef30eb419192391b3a4025a1cdbf430be7ed
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/934549/000093454917000031/a8kaveritonedebtconversion.htm
+  title: 8-K/A 0000934549-17-000031
+  published_at: '2017-05-26'
+  retrieved_at: '2026-11-05T20:29:02.361745+00:00'
+  sha256: ba54c2fdcc3b057ed022266f8a25c39575fab6a07987b57d0cc6078537bf68ba
 issuer_classification:
   cik: 0000934549
   classification_status: reported_sic
@@ -523,13 +571,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/934549/000093454917000031/0000934549-17-000031-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a4ebba9c33ccd543fb15acdff8e7e3e51a87f8a15621664be5e4411b0db6ec2e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -553,17 +612,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L180:
+
+> This Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2026 (this “Quarterly Report”) contains forward-looking statements within the meaning of the federal securities laws. To the extent that statements in this Quarterly Report are not recitations of historical fact, such statements constitute forward-looking statements, which, by definition, involve risks and uncertainties that could cause actual results to differ materially from those expressed or implied by such statements. These forward-looking statements are intended to qualify for the safe harbor from liability established by the Private Securities Litigation Reform Act of 1995. Throughout this Quarterly Report, we have attempted to identify forward-looking statements by using words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “forecasts,” “goal,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” or other forms of these words or similar words or expressions or the negative thereof, although not all forward-looking statements contain these terms. Forward-looking statements include statements regarding, among other things, our business, operating, development, investment and finance strategies, our relationship with Starboard Value LP, acquisition and development activities, financial results of our operating businesses, other related … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1242:
+
+> As of June 30, 2026, the Company operates and reports its results in four reportable segments: Intellectual Property Operations, Industrial Operations, Energy Operations and Manufacturing Operations. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L180:
+
+> This Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2026 (this “Quarterly Report”) contains forward-looking statements within the meaning of the federal securities laws. To the extent that statements in this Quarterly Report are not recitations of historical fact, such statements constitute forward-looking statements, which, by definition, involve risks and uncertainties that could cause actual results to differ materially from those expressed or implied by such statements. These forward-looking statements are intended to qualify for the safe harbor from liability established by the Private Securities Litigation Reform Act of 1995. Throughout this Quarterly Report, we have attempted to identify forward-looking statements by using words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “forecasts,” “goal,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” or other forms of these words or similar words or expressions or the negative thereof, although not all forward-looking statements contain these terms. Forward-looking statements include statements regarding, among other things, our business, operating, development, investment and finance strategies, our relationship with Starboard Value LP, acquisition and development activities, financial results of our operating businesses, other related … [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L644:
+
+> The Company’s Manufacturing Operations consists of its wholly-owned subsidiary Deflecto Acquisition, Inc. (“Deflecto”). Headquartered in Indianapolis, Indiana, Deflecto is a leading specialty manufacturer of essential products serving the commercial transportation, HVAC and office markets. Deflecto is a market leader across each of its segments and end markets, supplying essential, regulatory mandated products to a blue-chip customer base via long-term relationships with more than 1,500 leading retail, wholesale and OEM customers and distribution partners globally. As of June 30, 2026, Deflecto’s products include emergency warning triangles and vehicle mud flaps used by the transportation industry, various airducts and air registers used by the HVAC market and literature and sign holders used by the office market. Deflecto manufactures its products at nine manufacturing facilities across the United States, Canada, the United Kingdom and China. [S67]
 
 ## Industry and value chain
 
@@ -571,17 +646,33 @@ SEC-reported SIC **6794**: Patent Owners & Lessors. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L193:
+
+> •Inflationary pressures or any supply chain disruptions, labor shortages or inability to manage inventory levels of our operating businesses; [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L212:
+
+> •The potential for negative impacts to our operating businesses as a result of competition, pricing, regulations, the political environment, or other economic or market related factors/conditions; [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L632:
+
+> The Company, through its Patent Licensing, Enforcement and Technologies Business, invests in intellectual property and engages in the licensing and enforcement of patented technologies. Through our Patent Licensing, Enforcement and [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-30, L541:
+
+> Active stockholder engagement is foundational to Acacia’s long-term and sustained success. Through our stockholder engagement program, management discusses and solicits stockholder views and feedback on our strategy, financial and operational performance, financial results, governance, compensation programs, and other capital market-relevant matters. Our stockholder engagements support increased corporate accountability, improved decision-making, and ultimately help us deliver long-term value for our stockholders. [S69]
 
 ## Financial performance
 
@@ -1199,6 +1290,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1030:
+
+> On November 12, 2021, the Board of Directors of the Company (the “Board”) formed a Special Committee comprised of directors not affiliated or associated with Starboard in order to explore the possibility of simplifying the Company’s capital structure. Management of the Company believed that the Company’s capital structure, with multiple different series of securities, made it difficult for investors to understand and value the Company and created an impediment to new public investment. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1211,6 +1306,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L217:
+
+> We have based our forward-looking statements on management’s current expectations and projections about trends affecting our business and industry and other future events. Although we do not make forward-looking statements unless we believe we have a reasonable basis for doing so, we cannot guarantee their accuracy. For additional information related to the risks and uncertainties that may cause actual results to differ materially from those expressed or implied in the forward-looking statements described in this Quarterly Report, refer to “Item 1A. Risk Factors” and “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations,” in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, filed with the Securities and Exchange Commission (“SEC”) on March 12, 2026 (our “2025 Annual Report”), as well as in our other public filings with the SEC. In addition, actual results may differ materially as a result of additional risks and uncertainties of which we are currently unaware or which we do not currently view as material to our business. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1220,25 +1319,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1302,6 +1401,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-06-13 | 4 | 0001776505-25-000010 | — | [S64] |
 | 2025-06-13 | 144 | 0001776505-25-000009 | — | [S65] |
 | 2025-06-11 | 4 | 0001977936-25-000005 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L947:
+
+> On November 21, 2025, Deflecto sold certain specified assets exclusively used in its floor protection business, including contracts, customer lists, vendor lists, certain specified trademarks and patents and a specified list of equipment, pursuant to an asset purchase agreement. The total consideration was $2.99 million. The acquisition agreement provides for additional consideration in the form of an earnout, based on the achievement of specified revenue targets during the post-closing period. Because the amount of the obligation could not be reasonably estimated as of the acquisition date, no amount related to contingent consideration was included in the purchase price. The Company will recognize any contingent consideration as a gain in the period in which the contingency is resolved and the consideration becomes realizable. The carrying value of the disposed property, equipment and inventory was $1.5 million and trademarks and patents was $1.3 million. The Company recognized a loss on sale of $91,000 during the year ended December 31, 2025 included in other income (expense), net in the consolidated statements of operations and comprehensive income (loss). [S67]
 
 ## Sources and change log
 
@@ -1436,5 +1539,21 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [144 0001776505-25-000009](https://www.sec.gov/Archives/edgar/data/934549/000177650525000009/0001776505-25-000009-index.html) — published 2025-06-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001977936-25-000005](https://www.sec.gov/Archives/edgar/data/934549/000197793625000005/0001977936-25-000005-index.html) — published 2025-06-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [10-Q 0000934549-26-000034](https://www.sec.gov/Archives/edgar/data/934549/000093454926000034/actg-20260630.htm) — published 2026-08-06; retrieved 2026-11-05T20:29:24.398816+00:00.
+
+[S68] [8-K 0000934549-26-000031](https://www.sec.gov/Archives/edgar/data/934549/000093454926000031/actg-20260805.htm) — published 2026-08-05; retrieved 2026-11-05T20:29:22.041735+00:00.
+
+[S69] [DEF 14A 0000934549-26-000016](https://www.sec.gov/Archives/edgar/data/934549/000093454926000016/actg-20260430.htm) — published 2026-04-30; retrieved 2026-11-05T20:29:20.424547+00:00.
+
+[S70] [10-K 0000934549-26-000010](https://www.sec.gov/Archives/edgar/data/934549/000093454926000010/actg-20251231.htm) — published 2026-03-12; retrieved 2026-11-05T20:29:18.405085+00:00.
+
+[S71] [8-K/A 0001104659-25-000341](https://www.sec.gov/Archives/edgar/data/934549/000110465925000341/tm2432316d1_8ka.htm) — published 2025-01-02; retrieved 2026-11-05T20:29:16.659212+00:00.
+
+[S72] [8-K/A 0001104659-24-077564](https://www.sec.gov/Archives/edgar/data/934549/000110465924077564/tm2418379d2_8ka.htm) — published 2024-07-03; retrieved 2026-11-05T20:29:14.979295+00:00.
+
+[S73] [8-K/A 0000934549-23-000077](https://www.sec.gov/Archives/edgar/data/934549/000093454923000077/actg-20230727.htm) — published 2023-08-02; retrieved 2026-11-05T20:29:03.986328+00:00.
+
+[S74] [8-K/A 0000934549-17-000031](https://www.sec.gov/Archives/edgar/data/934549/000093454917000031/a8kaveritonedebtconversion.htm) — published 2017-05-26; retrieved 2026-11-05T20:29:02.361745+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

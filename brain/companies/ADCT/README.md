@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -465,6 +465,30 @@ sources:
   published_at: '2026-01-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1771910/000095010326015465/dp254756_8k.htm
+  title: 8-K 0000950103-26-015465
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-05T20:31:57.650570+00:00'
+  sha256: b124f891b95156d8a84cea68bf1abc56706e8ca9e9c36ccc46e13aa865f55883
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1771910/000162828026056711/adc-20260630.htm
+  title: 10-Q 0001628280-26-056711
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-05T20:31:55.624990+00:00'
+  sha256: a4d719878c64299412869ae67db5ea8f9f5455970117aa4b10ee1a4b47c0ac45
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1771910/000114036126015491/ny20070055x2_def14a.htm
+  title: DEF 14A 0001140361-26-015491
+  published_at: '2026-04-20'
+  retrieved_at: '2026-11-05T20:31:53.940703+00:00'
+  sha256: 060d88b843447809b41d70dc8a253b6d34ea5860c48dcd27c5ad3dbbd3278a3f
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1771910/000162828026016491/adc-20251231.htm
+  title: 10-K 0001628280-26-016491
+  published_at: '2026-03-10'
+  retrieved_at: '2026-11-05T20:31:51.553122+00:00'
+  sha256: 9bfcbf6e3b07b1a484113ceab6f117ae2bdca535fecaf867661c8a5157ff8844
 issuer_classification:
   cik: 0001771910
   classification_status: reported_sic
@@ -502,13 +526,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1771910/000095010326015465/0000950103-26-015465-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1c9d7a71f8825afc92fcc0cb99f9db914622e6ffc8ff9f93cf725178d76adc1e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -532,17 +567,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L131:
+
+> •the substantial net losses that we have incurred since our inception, our expectation to continue to incur losses for the foreseeable future and our need to raise additional capital to fund our operations and execute our business plan, which will depend on financial, economic and market conditions, the number of authorized shares, and other factors, over which we may have no or limited control; [S65]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L897:
+
+> The Company is managed and operated as one reportable segment, which includes all global activities related to the development and commercialization of targeted ADC cancer therapies. The determination of a single reportable segment is consistent with the consolidated financial information regularly provided to the Company’s CODM, which is its chief executive officer. The CODM uses loss from operations and consolidated net loss for purposes of assessing performance, making operating decisions, allocating resources and planning and forecasting for future periods. The CODM allocates resources and plans for the long-term growth of the Company based on the Company's available cash resources, forecasted cash flow, and expenditures on a consolidated basis, as well as an assessment of the probability of success of its research and development activities. Resource allocation and long-term growth decisions are informed by budgeted and forecasted expense information, along with actual expenses incurred to date. The measure of segment assets is reported on the consolidated balance sheets as total assets. [S65]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L144:
+
+> •our reliance on third parties for preclinical studies and clinical trials and for the manufacture, production, storage and distribution of our products and product candidates and certain commercialization activities for our products; [S65]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-10, L1632:
+
+> To date, the Company’s only source of product revenue, which commenced during May 2021, has been sales of ZYNLONTA only in the U.S., which is sold primarily through wholesale distributors. In addition, the Company earns license revenues and royalties through its license agreements with third parties. See Note 16 “Revenue” for further information. We continuously monitor the creditworthiness of our customers and have internal policies regarding [S67]
 
 ## Industry and value chain
 
@@ -550,17 +601,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L647:
+
+> Some of our inventory components require long lead times to manufacture. Therefore, we make long-term investments in our supply chain in order to ensure we have enough drug product to meet current and future revenue forecasts. Third party manufacturing agreements include non-cancelable obligations related to the supply of ZYNLONTA. There have been no material changes related to our non-cancelable obligations under these arrangements as disclosed in our Annual Report on Form 10-K for the year ended December 31, 2025. [S65]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-10, L255:
+
+> On April 23, 2021, ZYNLONTA received accelerated approval from the FDA for the treatment of adult patients with relapsed or refractory large B-cell lymphoma after two or more lines of systemic therapy, including DLBCL not otherwise specified, DLBCL arising from low-grade lymphoma and high-grade B-cell lymphoma. Continued approval for this indication is contingent upon verification and description of clinical benefit in a confirmatory trial, which we intend to satisfy through our LOTIS-5 confirmatory Phase 3 clinical trial. The FDA granted Orphan Drug Exclusivity for ZYNLONTA on May 20, 2021, which means that the FDA may not approve any other applications to market the same product for the same indication for seven years from the date of approval except in limited circumstances. Under the Biologics Price Competition and Innovation Act of 2009 (the “BPCIA”), we believe ZYNLONTA is the first loncastuximab tesirine product to have been licensed by the FDA and should be entitled to a period of 12 years of Reference Product Exclusivity (“RPE”). However, the FDA has not yet awarded ZYNLONTA such RPE, and the FDA may not do so for unknown reasons. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-13, L145:
+
+> •our ability to obtain, maintain and protect our intellectual property rights and our ability to operate our business without infringing on the intellectual property rights of others; [S65]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-13, L1224:
+
+> Our primary uses of capital are, and we expect will continue to be, research and development expenses, selling and marketing expenses, compensation and related expenses, interest and principal payments on debt obligations and other operating expenses. We expect to incur substantial expenses as we continue to devote substantial resources to research and development and marketing and commercialization efforts, in particular to grow ZYNLONTA in the 3L+ DLBCL setting, continue to study and advance ZYNLONTA in earlier lines of therapy and in combinations to potentially expand our market opportunity. Cash used to fund operating expenses is impacted by the timing of when we pay expenses, as reflected in the change in our outstanding accounts payable and accrued expenses, as well as the timing of collecting receivables from the sale of ZYNLONTA and paying royalties related to our deferred royalty obligation. [S65]
 
 ## Financial performance
 
@@ -1039,6 +1106,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L728:
+
+> On June 11, 2025, the Board of Directors approved the 2025 Restructuring to focus resources on ZYNLONTA® (loncastuximab tesirine-lpyl) expansion opportunities and the advancement of its PSMA-targeting ADC. The Company has discontinued early development efforts for the remaining preclinical programs in solid tumors. In connection with the 2025 Restructuring, the Company closed down its UK research and development facility, and has reduced its global workforce across functions by approximately 30%. The 2025 Restructuring was complete as of June 30, 2026. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1051,6 +1122,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L149:
+
+> •and those identified in the “Item 1A. Risk Factors” of our Annual Report on Form 10-K, and in our other reports filed with the U.S. Securities and Exchange Commission (the “SEC”), from time to time thereafter. [S65]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1060,25 +1135,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1142,6 +1217,10 @@ Latest 50 filing metadata records of 435 retained records. A filing link is evid
 | 2026-02-17 | SCHEDULE 13G/A | 0000902664-26-001151 | — | [S61] |
 | 2026-02-13 | SCHEDULE 13G/A | 0001104659-26-015265 | — | [S62] |
 | 2026-01-12 | 8-K | 0000950103-26-000349 | — | [S63] |
+
+Source excerpt — 10-Q, filed 2026-08-13, L568:
+
+> On August 25, 2021, the Company entered into a royalty purchase agreement with certain entities managed by HCR for up to $325.0 million. Under the terms of the agreement, the Company received gross proceeds of $225.0 million upon closing (the “First Investment Amount”) and received an additional $75.0 million during the year ended [S65]
 
 ## Sources and change log
 
@@ -1270,5 +1349,13 @@ Latest 50 filing metadata records of 435 retained records. A filing link is evid
 [S62] [SCHEDULE 13G/A 0001104659-26-015265](https://www.sec.gov/Archives/edgar/data/1771910/000110465926015265/0001104659-26-015265-index.html) — published 2026-02-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S63] [8-K 0000950103-26-000349](https://www.sec.gov/Archives/edgar/data/1771910/000095010326000349/0000950103-26-000349-index.html) — published 2026-01-12; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S64] [8-K 0000950103-26-015465](https://www.sec.gov/Archives/edgar/data/1771910/000095010326015465/dp254756_8k.htm) — published 2026-10-13; retrieved 2026-11-05T20:31:57.650570+00:00.
+
+[S65] [10-Q 0001628280-26-056711](https://www.sec.gov/Archives/edgar/data/1771910/000162828026056711/adc-20260630.htm) — published 2026-08-13; retrieved 2026-11-05T20:31:55.624990+00:00.
+
+[S66] [DEF 14A 0001140361-26-015491](https://www.sec.gov/Archives/edgar/data/1771910/000114036126015491/ny20070055x2_def14a.htm) — published 2026-04-20; retrieved 2026-11-05T20:31:53.940703+00:00.
+
+[S67] [10-K 0001628280-26-016491](https://www.sec.gov/Archives/edgar/data/1771910/000162828026016491/adc-20251231.htm) — published 2026-03-10; retrieved 2026-11-05T20:31:51.553122+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

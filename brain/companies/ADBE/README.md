@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -473,6 +473,36 @@ sources:
   published_at: '2026-04-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm
+  title: 10-Q 0000796343-26-000156
+  published_at: '2026-09-22'
+  retrieved_at: '2026-11-05T20:31:33.216352+00:00'
+  sha256: 65a8675ac28fc94ef7b0d2308283d4ecf66f835f1c2082800e8291ed0dc2d8df
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm
+  title: 8-K 0000796343-26-000147
+  published_at: '2026-09-10'
+  retrieved_at: '2026-11-05T20:31:30.990650+00:00'
+  sha256: 59b53405b0e59187ee15979b56fd7b6a6fd6283361deff00fe66c57733a88c97
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/796343/000079634326000043/adbe-20260227.htm
+  title: DEF 14A 0000796343-26-000043
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-05T20:31:29.227158+00:00'
+  sha256: 6de517dde4b5d45fae0117988c0fcf0b0d766a81826824849aae6ed00a5d6bdc
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm
+  title: 10-K 0000796343-26-000003
+  published_at: '2026-01-15'
+  retrieved_at: '2026-11-05T20:31:27.281346+00:00'
+  sha256: 9192c24abb31ccdc8057fe56d307c20b708fd8a1accd62fc7597a3a827b017d2
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/796343/000079634319000004/adbe8kamarketoacquisition.htm
+  title: 8-K/A 0000796343-19-000004
+  published_at: '2019-01-14'
+  retrieved_at: '2026-11-05T20:31:25.693223+00:00'
+  sha256: 3b0eea60f29a8a8f4f6ad7f1f74212dea2778917322e3fe4a2508c24ce599811
 issuer_classification:
   cik: 0000796343
   classification_status: reported_sic
@@ -514,13 +544,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/796343/000079634319000004/0000796343-19-000004-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a794605dde36d0226d4432036781c40f395710cb6704ba84ca7bd70f21af1e97
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -544,17 +585,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-22, L751:
+
+> We may use derivatives to partially offset our business exposure to foreign currency and interest rate risk on expected future cash flows and certain existing assets and liabilities. We do not use any of our derivative instruments for trading purposes. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-22, L495:
+
+> Subscription revenue for the three and nine months ended August 28, 2026 and August 29, 2025 were as follows: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-22, L1006:
+
+> In the ordinary course of business, we provide indemnifications of varying scope to our customers and channel partners against claims of intellectual property infringement made by third parties arising from the use of our products and from time to time, we are subject to claims by our customers under these indemnification provisions. Historically, costs related to these indemnification provisions have not been significant and we are unable to estimate the maximum potential impact of these indemnification provisions on our future results of operations. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-22, L1006:
+
+> In the ordinary course of business, we provide indemnifications of varying scope to our customers and channel partners against claims of intellectual property infringement made by third parties arising from the use of our products and from time to time, we are subject to claims by our customers under these indemnification provisions. Historically, costs related to these indemnification provisions have not been significant and we are unable to estimate the maximum potential impact of these indemnification provisions on our future results of operations. [S68]
 
 ## Industry and value chain
 
@@ -562,17 +619,33 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-22, L1151:
+
+> Our solutions targeted toward the Creative & Marketing Professionals customer group consist of our customer experience orchestration offerings as well as Creative Cloud flagship apps such as Photoshop, Lightroom, Illustrator and Premiere. Creators, creative professionals and marketing professionals require agile and comprehensive solutions to create high volumes of compelling content, infused with commercially safe AI capabilities. For creators and creative professionals, we offer an end-to-end, ideation-to-creation platform powered by our commercially safe Adobe Firefly models and an expansive partner model ecosystem, offering customers choice and flexibility. For marketing professionals, we unify creative production and marketing execution with content supply chain solutions that deliver end-to-end customer experience orchestration solutions, automate workflows and personalize experiences and engagement at scale across channels. Our customer experience orchestration solutions deliver actionable data, with products such as Adobe Analytics and Adobe Real-Time Customer Data Platform; optimize personalized content delivery, with products such as Adobe Experience Manager, Adobe Commerce and Adobe GenStudio for Performance Marketing; and manage customer journeys, with products such as Adobe Marketo Engage and Adobe Campaign. Adobe Experience Platform is a customer data platform … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-09-22, L1019:
+
+> On October 20, 2023, a securities class action captioned Pembroke Pines Firefighters & Police Officers Pension Fund et al v. Adobe, Inc. et al, renamed as In Re Adobe Inc. Securities Litigation, Case No. 1:23-cv-09260, was filed in the U.S. District Court for the Southern District of New York (the “Securities Action”) naming Adobe and certain of our current and former officers as defendants. The Securities Action purports to be brought on behalf of purchasers of the Company’s stock between July 23, 2021 and September 22, 2022 (the “Class Period”). The complaint, which was amended on February 23, 2024, alleges that certain public statements made by Adobe during the Class Period related to competition from Figma and the adequacy of Adobe’s existing offerings to counter harms Adobe may have faced due to Figma’s growing market position were materially false and misleading. The Securities Action seeks unspecified compensatory damages, attorneys’ fees and costs, and extraordinary equitable and/or injunctive relief. We filed a motion to dismiss the Securities Action, which was granted in full on March 27, 2025. Plaintiff sought leave to amend the complaint in response to the court’s order, which the court denied on November 7, 2025. Plaintiff is appealing the court’s orders. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-09-22, L1006:
+
+> In the ordinary course of business, we provide indemnifications of varying scope to our customers and channel partners against claims of intellectual property infringement made by third parties arising from the use of our products and from time to time, we are subject to claims by our customers under these indemnification provisions. Historically, costs related to these indemnification provisions have not been significant and we are unable to estimate the maximum potential impact of these indemnification provisions on our future results of operations. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-22, L1157:
+
+> Our success will be achieved through continued customer acquisition and retention by delivering valuable new features and technologies to customers with our latest releases, including generative AI capabilities to enhance creativity, productivity and marketing, and expanding availability of our offerings across an increasing number of surfaces. As part of our customer-focused strategy, we utilize a data-driven operating model and tailored go-to-market motion to raise awareness of our products and drive customer acquisition, engagement and retention. Overall, our strategy is designed to increase our revenue with existing users, continue to attract new customers, and grow our recurring and predictable revenue stream that is recognized ratably. Due to the nature of certain offerings which contain cross-product integrations or benefits, revenue attributable to certain product entitlements may be recognized in either customer group. [S68]
 
 ## Financial performance
 
@@ -1202,6 +1275,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-09-22, L886:
+
+> In the first quarter of fiscal 2026, the Executive Compensation Committee of our Board of Directors (the “ECC”) approved the 2026 Performance Share Program, the terms of which are similar to the 2025 Performance Share Program that is still outstanding. For information regarding our outstanding Performance Share Programs, including the terms, see “Note 12. Stock-Based Compensation” of our Annual Report on Form 10-K for the fiscal year ended November 28, 2025. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1214,6 +1291,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-22, L1138:
+
+> In addition to historical information, this Quarterly Report on Form 10-Q contains forward-looking statements, including statements regarding product plans, future growth, market opportunities, including artificial intelligence (“AI”) opportunities, customer needs, business and finance strategies, macroeconomic conditions, fluctuations in foreign currency exchange rates, strategic investments, industry positioning, customer acquisition and retention, the amount of annualized recurring revenue and revenue growth. In addition, when used in this report, the words “will,” “expects,” “could,” “would,” “may,” “anticipates,” “intends,” “plans,” “believes,” “seeks,” “targets,” “estimates,” “continues” and similar expressions, as well as statements regarding our focus for the future, are generally intended to identify forward-looking statements. Each of the forward-looking statements we make in this report involves risks and uncertainties that could cause actual results to differ materially from these forward-looking statements. Factors that might cause or contribute to such differences include, but are not limited to, those discussed in the section titled “Risk Factors” in Part II, Item 1A of this report. The risks described herein and in other documents we file from time to time with the U.S. Securities and Exchange Commission (the “SEC”), including our Annual Report on Form 10-K for … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1223,25 +1304,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1304,6 +1385,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-20 | 144 | 0001965301-26-000043 | — | [S65] |
 | 2026-04-17 | 4 | 0000796343-26-000097 | — | [S66] |
 | 2026-04-17 | 4 | 0000796343-26-000095 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-02-27, L40:
+
+> During fiscal 2025, we focused on delivering innovative, AI-driven platforms and tools to our three key customer audiences. We achieved record revenue of $23.77 billion, representing 11% year-over-year growth. GAAP diluted earnings per share for the year was $16.70, growing 35% year over year. Our Digital Media business achieved revenue of $17.65 billion, growing 11% year over year. Our Digital Experience business achieved revenue of $5.86 billion, growing 9% year over year. Digital Experience subscription revenue was $5.41 billion, growing 11% year over year. We executed record share repurchases totaling nearly $12 billion, reducing our shares outstanding by over 6% during the year, underscoring our confidence in the company's long-term opportunity and continued commitment to delivering stockholder value. [S70]
 
 ## Sources and change log
 
@@ -1440,5 +1525,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0000796343-26-000097](https://www.sec.gov/Archives/edgar/data/796343/000079634326000097/0000796343-26-000097-index.html) — published 2026-04-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0000796343-26-000095](https://www.sec.gov/Archives/edgar/data/796343/000079634326000095/0000796343-26-000095-index.html) — published 2026-04-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [10-Q 0000796343-26-000156](https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm) — published 2026-09-22; retrieved 2026-11-05T20:31:33.216352+00:00.
+
+[S69] [8-K 0000796343-26-000147](https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm) — published 2026-09-10; retrieved 2026-11-05T20:31:30.990650+00:00.
+
+[S70] [DEF 14A 0000796343-26-000043](https://www.sec.gov/Archives/edgar/data/796343/000079634326000043/adbe-20260227.htm) — published 2026-02-27; retrieved 2026-11-05T20:31:29.227158+00:00.
+
+[S71] [10-K 0000796343-26-000003](https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm) — published 2026-01-15; retrieved 2026-11-05T20:31:27.281346+00:00.
+
+[S72] [8-K/A 0000796343-19-000004](https://www.sec.gov/Archives/edgar/data/796343/000079634319000004/adbe8kamarketoacquisition.htm) — published 2019-01-14; retrieved 2026-11-05T20:31:25.693223+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -485,6 +485,60 @@ sources:
   published_at: '2025-11-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000114036126031423/ef20079311_8k.htm
+  title: 8-K 0001140361-26-031423
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-05T20:33:26.830184+00:00'
+  sha256: cecd4f57759c613fc2980f0d1d34708e2bfd34fd033744d3f1d4125c4dd551d1
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000114036126031445/ef20075111_10q.htm
+  title: 10-Q 0001140361-26-031445
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-05T20:33:28.547191+00:00'
+  sha256: 0010b3ddacaf434a9db494d4b357d5e8fc1ab4df3dbc1241680f5d5f18f6cb8f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000114036126014799/ny20064057x1_def14a.htm
+  title: DEF 14A 0001140361-26-014799
+  published_at: '2026-04-15'
+  retrieved_at: '2026-11-05T20:33:25.064519+00:00'
+  sha256: cf7b62b35bd1199bea170d9f6125b013fda04011bf74aa812eca684989364569
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000114036126006815/ef20059416_10-k.htm
+  title: 10-K 0001140361-26-006815
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-05T20:33:23.192373+00:00'
+  sha256: faf0be5fd1e3f05d325185e815442fcd0965ae7dce8ec324f058e2ec21c972d5
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000119380519000569/e618520_8ka-adma.htm
+  title: 8-K/A 0001193805-19-000569
+  published_at: '2019-06-12'
+  retrieved_at: '2026-11-05T20:33:21.318547+00:00'
+  sha256: e82a2488e59bbfbc6014912b8938fcb19e7dd8c1d769e70d8a256f3f96073ace
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000119380517001337/e616382_8ka-adma.htm
+  title: 8-K/A 0001193805-17-001337
+  published_at: '2017-07-28'
+  retrieved_at: '2026-11-05T20:33:19.649020+00:00'
+  sha256: f5f001348ed2a05a5e6c81b761b1ef1d517de48fda1d8d83870d19d98ad77c1d
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000119380512001076/e609784_8ka-adma.htm
+  title: 8-K/A 0001193805-12-001076
+  published_at: '2012-06-22'
+  retrieved_at: '2026-11-05T20:33:11.062189+00:00'
+  sha256: 69198baa9f7e3a049646219d3588bee7e7188a902b0cb77639f5a087b08ef796
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000119380512000748/e609613_8ka-adma.htm
+  title: 8-K/A 0001193805-12-000748
+  published_at: '2012-04-24'
+  retrieved_at: '2026-11-05T20:33:09.358495+00:00'
+  sha256: c36dd916e0319deabbb7108d81d6d238797e4cd6fcac2b0ba2b31544a5afac5c
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1368514/000119380512000555/e609522_8ka-adma.htm
+  title: 8-K/A 0001193805-12-000555
+  published_at: '2012-03-29'
+  retrieved_at: '2026-11-05T20:33:07.542978+00:00'
+  sha256: 0ae45f3af96abf390ef9b15661e37c7c8c5ba3c602a4cc7d6a10de79c0a2efb5
 issuer_classification:
   cik: 0001368514
   classification_status: reported_sic
@@ -542,13 +596,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1368514/000119380512000555/0001193805-12-000555-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 61ed5d2f6e7d0d04e4d3e2c626a720d6508e5740768a4e46c742fd3fdf13f367
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -572,17 +637,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L275:
+
+> Federal, state and local regulatory and business review processes and timing by such governmental and regulatory agencies of our business and regulatory submissions; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-25, L5243:
+
+> The Company is engaged in the manufacture, marketing and development of specialty plasma-derived biologics. The Company’s ADMA BioManufacturing operating segment reflects the Company’s immunoglobulin manufacturing, commercial and development operations in Boca Raton, FL. The Plasma Collection Centers operating segment consists of ten plasma collection facilities located throughout the United States, all of which are operational, collecting plasma and currently holding FDA licenses. The Company defines its operating segments as those business units whose operating results are regularly reviewed by the chief operating decision maker (“CODM”) to analyze performance and allocate resources. The Corporate information included in the reconciliations below generally consists of certain unallocated general and administrative overhead expenses and interest expense on the Company’s senior debt (see Note 7). The Company’s CODM is its President and Chief Executive Officer. For the Company’s two operating segments, the CODM uses income/loss before taxes as the measure of segment profit to determine the allocation of resources for each segment. Transactions between the two operating segments consist solely of the transfer of raw material plasma inventory at cost from the Plasma Collection Centers segment to the ADMA BioManufacturing segment with no markup or intercompany profit. Income tax … [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L271:
+
+> the acceptability of any of our products, including ASCENIV, BIVIGAM and Nabi-HB, for any purpose, including FDA-approved indications, by physicians, patients or payers; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L5282:
+
+> The loss of any key customers or a material change in the revenue generated by any of these customers, could have a material adverse effect on our business, results of operations and financial condition. Moreover, we anticipate deriving increased revenue from some of these customers over the next few years. Factors that could influence our relationships with our customers include, among other things: [S68]
 
 ## Industry and value chain
 
@@ -590,17 +671,33 @@ SEC-reported SIC **2836**: Biological Products, (No Diagnostic Substances). [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L334:
+
+> future domestic and global economic conditions including, but not limited to, supply chain constraints, inflationary pressures or performance or geopolitical conditions, including the continuing conflicts in Europe, certain countries in South America, Northern Africa and in the Middle East and surrounding areas, and international trade and U.S. tariff policies and any anticipated effects of such factors on the pricing and availability of imported raw materials used in the production of our products. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L287:
+
+> our ability to market and promote Nabi-HB in a highly competitive environment with increasing competition from other antiviral therapies and to generate meaningful revenues from this product; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L233:
+
+> This Quarterly Report on Form 10-Q includes our trademarks, trade names and service marks, such as “ASCENIV™,” “Nabi-HB®” and “BIVIGAM®,” which are protected under applicable intellectual property laws and are the property of ADMA Biologics, Inc., or its subsidiaries. Solely for convenience, trademarks, trade names and service marks referred to in this report may appear without the ®, ™ or SM symbols, but such references are not intended to indicate, in any way, that we will not assert, to the fullest extent under applicable law, our rights or the right of the applicable licensor to these trademarks, trade names and service marks. We do not intend our use or display of other parties’ trademarks, trade names or service marks to imply, and such use or display should not be construed to imply, a relationship with, or endorsement or sponsorship of us by, these other parties. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L241:
+
+> our plans to develop, manufacture, market, launch and expand our commercial infrastructure and commercialize our current and future products and the success of such efforts; [S68]
 
 ## Financial performance
 
@@ -1230,6 +1327,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1881:
+
+> In May 2025, the Company’s board of directors (the “Board”) authorized a share repurchase program of up to $500.0 million of the Company’s outstanding shares of common stock (the “Repurchase Program”). The Repurchase Program does not obligate the Company to acquire any particular amount of its common stock, and may be modified, suspended, or terminated at any time. The Repurchase Program has no expiration date. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1242,6 +1343,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L3659:
+
+> The following discussion of our financial condition and results of operations, which refers to our historical results, should be read in conjunction with the other sections of this Quarterly Report on Form 10-Q, including “Risk Factors” and our unaudited consolidated financial statements and the notes thereto appearing elsewhere herein, and in conjunction with the Management’s Discussion and Analysis of Financial Condition and Results of Operations set forth in our Annual Report on Form 10-K for the year ended December 31, 2025, filed on February 25, 2026 (the “2025 10-K”). The various sections of this discussion contain a number of forward-looking statements, all of which are based on our current expectations and could be affected by the uncertainties and risk factors described throughout or referenced within this Quarterly Report on Form 10-Q. See “Special Note Regarding Forward-Looking Statements.” Our actual results may differ materially from our current expectations. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1251,25 +1356,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1332,6 +1437,10 @@ Latest 50 filing metadata records of 995 retained records. A filing link is evid
 | 2025-11-21 | 4 | 0001140361-25-042997 | — | [S64] |
 | 2025-11-05 | 10-Q | 0001140361-25-040578 | — | [S65] |
 | 2025-11-05 | 8-K | 0001140361-25-040539 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-15, L816:
+
+> The Audit Committee held nine meetings during the year ended December 31, 2025. A copy of the Audit Committee’s charter is posted on our website at www.admabiologics.com. [S69]
 
 ## Sources and change log
 
@@ -1466,5 +1575,23 @@ Latest 50 filing metadata records of 995 retained records. A filing link is evid
 [S65] [10-Q 0001140361-25-040578](https://www.sec.gov/Archives/edgar/data/1368514/000114036125040578/0001140361-25-040578-index.html) — published 2025-11-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [8-K 0001140361-25-040539](https://www.sec.gov/Archives/edgar/data/1368514/000114036125040539/0001140361-25-040539-index.html) — published 2025-11-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001140361-26-031423](https://www.sec.gov/Archives/edgar/data/1368514/000114036126031423/ef20079311_8k.htm) — published 2026-08-05; retrieved 2026-11-05T20:33:26.830184+00:00.
+
+[S68] [10-Q 0001140361-26-031445](https://www.sec.gov/Archives/edgar/data/1368514/000114036126031445/ef20075111_10q.htm) — published 2026-08-05; retrieved 2026-11-05T20:33:28.547191+00:00.
+
+[S69] [DEF 14A 0001140361-26-014799](https://www.sec.gov/Archives/edgar/data/1368514/000114036126014799/ny20064057x1_def14a.htm) — published 2026-04-15; retrieved 2026-11-05T20:33:25.064519+00:00.
+
+[S70] [10-K 0001140361-26-006815](https://www.sec.gov/Archives/edgar/data/1368514/000114036126006815/ef20059416_10-k.htm) — published 2026-02-25; retrieved 2026-11-05T20:33:23.192373+00:00.
+
+[S71] [8-K/A 0001193805-19-000569](https://www.sec.gov/Archives/edgar/data/1368514/000119380519000569/e618520_8ka-adma.htm) — published 2019-06-12; retrieved 2026-11-05T20:33:21.318547+00:00.
+
+[S72] [8-K/A 0001193805-17-001337](https://www.sec.gov/Archives/edgar/data/1368514/000119380517001337/e616382_8ka-adma.htm) — published 2017-07-28; retrieved 2026-11-05T20:33:19.649020+00:00.
+
+[S73] [8-K/A 0001193805-12-001076](https://www.sec.gov/Archives/edgar/data/1368514/000119380512001076/e609784_8ka-adma.htm) — published 2012-06-22; retrieved 2026-11-05T20:33:11.062189+00:00.
+
+[S74] [8-K/A 0001193805-12-000748](https://www.sec.gov/Archives/edgar/data/1368514/000119380512000748/e609613_8ka-adma.htm) — published 2012-04-24; retrieved 2026-11-05T20:33:09.358495+00:00.
+
+[S75] [8-K/A 0001193805-12-000555](https://www.sec.gov/Archives/edgar/data/1368514/000119380512000555/e609522_8ka-adma.htm) — published 2012-03-29; retrieved 2026-11-05T20:33:07.542978+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

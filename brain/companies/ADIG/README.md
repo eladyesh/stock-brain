@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -377,6 +377,18 @@ sources:
   published_at: '2026-07-07'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/2105139/000162828026056469/adig-20260813.htm
+  title: 8-K 0001628280-26-056469
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-05T20:32:53.577338+00:00'
+  sha256: 510dbf50636ef845303d89510e000a9f547abe3b09c58f6632b8e571d4860608
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/2105139/000162828026056748/adig-20260704.htm
+  title: 10-Q 0001628280-26-056748
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-05T20:32:55.135328+00:00'
+  sha256: 38b885826641c5c13bdce3c82cfcdaf0f254e6c2b52f491a8e9fcb8bf807ff5f
 issuer_classification:
   cik: 0002105139
   classification_status: reported_sic
@@ -405,13 +417,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2105139/000162828026056469/0001628280-26-056469-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: fe13a003b2ba2b1994ef1a4b117406cd3370911b39d94620a1c5f564970f5824
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -435,23 +456,43 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L562:
+
+> For the three and six months ended July 4, 2026, net tax expense was $2 million and $1 million, respectively. For the three and six months ended June 28, 2025, net tax expense was $9 million and $10 million, respectively. Net tax expense consists primarily of interim period tax expense based on year-to-date pretax income multiplied by our forecasted effective tax rate. In addition to items specific to the period, our income tax rate is impacted by the mix of earnings across the jurisdictions in which we operate, non-deductible Indemnification Agreement expense, and stock based compensation. [S56]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L349:
+
+> ADI Global Distribution Inc. (“ADI,” the “Company,” “we,” “us,” or “our”) is a leading, global specialty distributor of professionally installed low-voltage products, including security and audio-visual (“AV”) solutions, serving commercial and residential markets through an omnichannel go-to-market platform. ADI sells primarily to professional installers, dealers and integrators. We offer an expansive list of products from leading suppliers across key specialty low-voltage categories. ADI complements supplier products with a suite of exclusive brands and service offerings. ADI Global Distribution is our sole operating and reportable segment, based upon the information used by our chief operating decision maker (“CODM”). The Company’s CODM is its Chief Executive Officer. Our CODM utilizes net income as the primary measure of segment performance because it reflects the underlying business performance and provides the CODM with a basis for making resource allocation decisions. The CODM uses net income to monitor budget versus actual results, for assessing performance of the segment and as a component in determining management’s compensation. Our CODM does not utilize assets for making resource allocation decisions. The CODM does not receive additional expense information beyond what is presented within the Unaudited Condensed Combined Financial Statements. [S56]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L664:
+
+> Our omnichannel go-to-market platform is underpinned by a digital experience designed to deepen customer engagement and broaden our reach. We combine an extensive third-party product portfolio and deep supplier relationships with a growing suite of exclusive brands and software-based services. These exclusive brands and services are designed to help our customers build stronger businesses, differentiate our offerings and improve the end user experience. [S56]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-13, L633:
+
+> •adverse macroeconomic and market conditions affecting our customers, including inflation, interest rates and access to credit, and the resulting impacts on demand, order patterns and pricing; [S56]
 
 ## Industry and value chain
 
 SEC-reported SIC **5072**: Wholesale-Hardware. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — 10-Q, filed 2026-08-13, L624:
+
+> •disruptions, delays or cost increases in our supply chain and fulfillment operations, including our reliance on third-parties; [S56]
 
 ## Competitive landscape
 
@@ -460,6 +501,10 @@ Not available: substantive research has not been completed. Identify direct comp
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-08-13, L352:
+
+> We have entered into a separation and distribution agreement and certain ancillary agreements with Resideo that provide a framework for the relationship between the parties going forward, including, among others, a transition services agreement, tax matters agreement, employee matters agreement and intellectual property matters agreement, which govern the relationship of the parties following the Spin-Off. [S56]
 
 ## Growth drivers
 
@@ -519,6 +564,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L350:
+
+> Prior to August 3, 2026, the Company was wholly owned by Resideo Technologies, Inc. (“Resideo” or “Parent”). On July 30, 2025, Resideo announced its plan to separate its ADI business (“Spin-Off”) from the rest of the Resideo business. On July 1, 2026, the Board of Directors of Resideo authorized the Spin-Off. [S56]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -531,6 +580,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L618:
+
+> Forward-looking statements are based on assumptions and assessments made by our management in light of their experience and perceptions of historical trends, current conditions, expected future developments and other factors they believe to be appropriate. These forward-looking statements are subject to a number of risks and uncertainties, including but not limited to the risks and uncertainties set forth under “Cautionary Statement Concerning Forward-Looking Statements,” “Risk Factors,” and “Management's Discussion and Analysis of Financial Condition and Results of Operations” included in the Company's Information Statement and this Form 10-Q. [S56]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -540,25 +593,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -622,6 +675,10 @@ Latest 50 filing metadata records of 59 retained records. A filing link is evide
 | 2026-07-14 | 8-K | 0001213900-26-077774 | — | [S52] |
 | 2026-07-07 | SEC STAFF ACTION | 9999999997-26-001163 | — | [S53] |
 | 2026-07-07 | 3 | 0001213900-26-076018 | — | [S54] |
+
+Source excerpt — 10-Q, filed 2026-08-13, L353:
+
+> Refer to Note 15. Subsequent Events, of the Notes to the Unaudited Condensed Combined Financial Statements for additional information regarding the Spin-Off. [S56]
 
 ## Sources and change log
 
@@ -732,5 +789,9 @@ Latest 50 filing metadata records of 59 retained records. A filing link is evide
 [S53] [SEC STAFF ACTION 9999999997-26-001163](https://www.sec.gov/Archives/edgar/data/2105139/999999999726001163/9999999997-26-001163-index.html) — published 2026-07-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S54] [3 0001213900-26-076018](https://www.sec.gov/Archives/edgar/data/2105139/000121390026076018/0001213900-26-076018-index.html) — published 2026-07-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S55] [8-K 0001628280-26-056469](https://www.sec.gov/Archives/edgar/data/2105139/000162828026056469/adig-20260813.htm) — published 2026-08-13; retrieved 2026-11-05T20:32:53.577338+00:00.
+
+[S56] [10-Q 0001628280-26-056748](https://www.sec.gov/Archives/edgar/data/2105139/000162828026056748/adig-20260704.htm) — published 2026-08-13; retrieved 2026-11-05T20:32:55.135328+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

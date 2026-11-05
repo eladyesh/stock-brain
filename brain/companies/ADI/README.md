@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -483,6 +483,36 @@ sources:
   published_at: '2026-07-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/6281/000119312526394361/d175690d8k.htm
+  title: 8-K 0001193125-26-394361
+  published_at: '2026-09-17'
+  retrieved_at: '2026-11-05T20:32:51.374650+00:00'
+  sha256: efc6c1ba6616c7e98c41581492ebef28ee247bf74afc649d8b2a529089f67a65
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/adi-20260801.htm
+  title: 10-Q 0000006281-26-000073
+  published_at: '2026-08-19'
+  retrieved_at: '2026-11-05T20:32:49.660593+00:00'
+  sha256: bb1130e3c5d1922dbe6d8c0c020bb7e3e630f5857e314fe975fc5f8c34f34c60
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/6281/000000628126000010/adi-20260122.htm
+  title: DEF 14A 0000006281-26-000010
+  published_at: '2026-01-23'
+  retrieved_at: '2026-11-05T20:32:47.933309+00:00'
+  sha256: e369893092f10e5272c2689eedff1054da2b8be1d5b2dad60b6cdd9b19942ac3
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm
+  title: 10-K 0000006281-25-000153
+  published_at: '2025-11-25'
+  retrieved_at: '2026-11-05T20:32:45.956043+00:00'
+  sha256: 993a5713e57c77e121af290bda88b41a0e2caa490978de8dc3854d62754d0e58
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/6281/000000628121000257/adi-20210826.htm
+  title: 8-K/A 0000006281-21-000257
+  published_at: '2021-09-24'
+  retrieved_at: '2026-11-05T20:32:44.415744+00:00'
+  sha256: f903917670ad9fca0340d346ff168c97437f4c134c6e01bc4c7e295c72534a3f
 issuer_classification:
   cik: 0000006281
   classification_status: reported_sic
@@ -524,13 +554,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/6281/000000628121000257/0000006281-21-000257-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b6eaa6e65f89f9e54eca06a20be64ac7a19c9c5e974155f8de18d3cc17054bee
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -554,17 +595,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-19, L777:
+
+> This Quarterly Report on Form 10-Q, including the following discussion, contains forward-looking statements regarding future events and our future results that are subject to the safe harbor created under the Private Securities Litigation Reform Act of 1995 and other safe harbors under the Securities Act of 1933 and the Securities Exchange Act of 1934. All statements other than statements of historical fact are statements that could be deemed forward-looking statements. These statements are based on current expectations, estimates, forecasts and projections about the industries in which we operate and the beliefs and assumptions of our management. Words such as “expects,” “anticipates,” “targets,” “goals,” “projects,” “intends,” “plans,” “believes,” “seeks,” “estimates,” “continues,” “potential,” “may,” “could” and “will,” and variations of such words and similar expressions are intended to identify such forward-looking statements, however, the absence of the foregoing words or expressions does not mean that a statement is not forward-looking. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of various factors. [S71]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2025-11-25, L1755:
+
+> In November 2023, the FASB issued ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures, which enhances the disclosure requirements for reportable segments. ASU 2023-07 requires segment disclosure to include significant segment expense categories and amounts, and qualitative detail of other segment items. Disclosure of multiple measures of segment profit and loss may also be reported. The Company adopted ASU 2023-07 in fiscal 2025. See Note 4, Industry, Segment and Geographic Information, of the Notes to Consolidated Financial Statements for additional information. [S73]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-19, L831:
+
+> The following tables summarize revenue by sales channel. We sell our products globally through a direct sales force, third-party distributors, independent sales representatives and via our website. Distributors are customers that buy products with the intention of reselling them. Direct customers are non-distributor customers and consist primarily of original equipment manufacturers. Other customers include the U.S. government, government prime contractors and certain commercial customers for which revenue is recorded over time. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-19, L517:
+
+> The following tables summarize revenue by end market. The categorization of revenue by end market is determined using a variety of data points including the technical characteristics of the product, the “sold to” customer information, the “ship to” customer information and the end customer product or application into which the Company’s product will be incorporated. The assignment of products to end markets may change over time. When this occurs, the Company reclassifies revenue by end market for prior periods. Such reclassifications typically do not materially change the sizing of, or the underlying trends of results within, each end market. [S71]
 
 ## Industry and value chain
 
@@ -572,17 +629,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-19, L778:
+
+> The following important factors and uncertainties, among others, could cause actual results to differ materially from those described in the forward-looking statements: economic, political, legal and regulatory uncertainty or conflicts; recently announced and future tariffs and other trade restrictions; changes in export classifications, import and export regulations or duties and tariffs; changes in demand for semiconductor products; performance of independent distributors; manufacturing delays, product and raw materials availability and supply chain disruptions; products may be diverted from our authorized distribution channels; our development of technologies and research and development investments; our ability to compete successfully in the markets in which we operate; our future liquidity, capital needs and capital expenditures; our ability to recruit and retain key personnel; risks related to acquisitions or other strategic transactions; unanticipated difficulties or expenditures relating to integrating acquired businesses; security breaches or other cyber incidents; risks related to the use of artificial intelligence in our business operations, products and services; adverse results in litigation; the outcome of any regulatory actions, including governmental inquiries, investigations or enforcement proceedings in the event of noncompliance or alleged noncompliance with … [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-01-23, L2314:
+
+> Our business is based on innovation and helping our customers solve some of the world’s most complex problems. As a knowledge-based business, we believe that the skills, expertise, and experience of our employees, including our NEOs, are unique and critical factors in our overall success. The competition for talent in the technology sector is fierce. To drive continued successful operational and financial performance, we must attract, motivate, reward, and retain top executive talent. Accordingly, our executive compensation programs are designed to: [S72]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-01-23, L2149:
+
+> Ms. Asgeirsson has served as our Senior Vice President, Chief Legal Officer, and Corporate Secretary since August 2021. Ms. Asgeirsson leads our worldwide legal, governance, trade, regulatory, government affairs, risk, and compliance functions, including mergers and acquisitions, litigation, intellectual property, and corporate matters, as well as internal audit, enterprise risk and the governance aspect of our ESG programs. Ms. Asgeirsson also acts as a strategic advisor to ADI’s executive leadership team and Board of Directors. Ms. Asgeirsson has over two decades of combined experience in private practice at American Lawyer-ranked international law firms and in senior and executive level roles at publicly traded technology companies. Prior to joining ADI, Ms. Asgeirsson worked at Acacia Communications, Inc., an optical networking and strategy technology company, from April 2015 to August 2021, as its Vice President, General Counsel and Secretary from April 2015 to January 2019, and then as its Chief Legal Officer, Chief Compliance Officer, and Secretary, from February 2019 to August 2021, leading global teams with diverse responsibilities. During her tenure at Acacia, she accomplished several significant strategic projects and transactions, including Acacia’s initial public offering (IPO), the best-performing U.S. IPO of 2016, and Acacia’s multi-billion-dollar sale to Cisco … [S72]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-01-23, L135:
+
+> This Proxy Statement contains forward-looking statements regarding future events and our future results that are subject to the safe harbor created under the Private Securities Litigation Reform Act of 1995 and other safe harbors under the Securities Act of 1933 and the Securities Exchange Act of 1934. All statements other than statements of historical fact are statements that could be deemed forward-looking statements. These statements are based on current expectations, estimates, forecasts, and projections about the industries in which we operate and the beliefs and assumptions of our management. Words such as “expects,” “anticipates,” “targets,” “goals,” “projects,” “intends,” “plans,” “believes,” “seeks,” “estimates,” “continues,” “may,” “could” and “will,” and variations of such words and similar expressions are intended to identify such forward-looking statements. In addition, any statements that refer to projections regarding our future financial performance and our long-term financial model, including future free cash flow return and capital strategy; our strategy; the effects of business, economic, political, legal, and regulatory impacts or conflicts upon our global operations; anticipated growth and trends in our industry, markets, and businesses; new or improved innovative solutions, products, and technologies, including those related to digital, software, … [S72]
 
 ## Financial performance
 
@@ -1212,6 +1285,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-19, L347:
+
+> As of August 1, 2026, the Company’s Board of Directors had authorized the repurchase of an aggregate of $26.7 billion of its common stock under its common stock repurchase program and $7.4 billion remained available for repurchases under the program. [S71]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1224,6 +1301,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-19, L763:
+
+> During fiscal 2025, the Company received an assessment from the U.S. Internal Revenue Service (IRS) for fiscal 2018 and fiscal 2019, totaling approximately $267.0 million. The assessment excludes any penalties and interest. The assessment pertains to transfer pricing arrangements between the Company and one of its wholly-owned foreign subsidiaries. The Company firmly disagrees with this assessment and maintains that its transfer pricing is appropriate. Consequently, the Company has not recorded any additional tax liability related to fiscal 2018 and fiscal 2019 in relation to this issue, nor to any other periods. The Company intends to vigorously defend its original tax return position and is preparing for an appeal with the IRS. Should the IRS ultimately prevail regarding its assessments for fiscal 2018 and fiscal 2019, such a resolution, along with any potential impact on subsequent fiscal years, could have a material adverse effect on the Company’s income tax expense and net earnings in future periods. [S71]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1233,25 +1314,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1314,6 +1395,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-07-09 | 4 | 0000900729-26-000012 | — | [S67] |
 | 2026-07-06 | 4 | 0001201872-26-000013 | — | [S68] |
 | 2026-07-02 | 8-K | 0001193125-26-294488 | — | [S69] |
+
+Source excerpt — DEF 14A, filed 2026-01-23, L135:
+
+> This Proxy Statement contains forward-looking statements regarding future events and our future results that are subject to the safe harbor created under the Private Securities Litigation Reform Act of 1995 and other safe harbors under the Securities Act of 1933 and the Securities Exchange Act of 1934. All statements other than statements of historical fact are statements that could be deemed forward-looking statements. These statements are based on current expectations, estimates, forecasts, and projections about the industries in which we operate and the beliefs and assumptions of our management. Words such as “expects,” “anticipates,” “targets,” “goals,” “projects,” “intends,” “plans,” “believes,” “seeks,” “estimates,” “continues,” “may,” “could” and “will,” and variations of such words and similar expressions are intended to identify such forward-looking statements. In addition, any statements that refer to projections regarding our future financial performance and our long-term financial model, including future free cash flow return and capital strategy; our strategy; the effects of business, economic, political, legal, and regulatory impacts or conflicts upon our global operations; anticipated growth and trends in our industry, markets, and businesses; new or improved innovative solutions, products, and technologies, including those related to digital, software, … [S72]
 
 ## Sources and change log
 
@@ -1454,5 +1539,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S68] [4 0001201872-26-000013](https://www.sec.gov/Archives/edgar/data/6281/000120187226000013/0001201872-26-000013-index.html) — published 2026-07-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S69] [8-K 0001193125-26-294488](https://www.sec.gov/Archives/edgar/data/6281/000119312526294488/0001193125-26-294488-index.html) — published 2026-07-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S70] [8-K 0001193125-26-394361](https://www.sec.gov/Archives/edgar/data/6281/000119312526394361/d175690d8k.htm) — published 2026-09-17; retrieved 2026-11-05T20:32:51.374650+00:00.
+
+[S71] [10-Q 0000006281-26-000073](https://www.sec.gov/Archives/edgar/data/6281/000000628126000073/adi-20260801.htm) — published 2026-08-19; retrieved 2026-11-05T20:32:49.660593+00:00.
+
+[S72] [DEF 14A 0000006281-26-000010](https://www.sec.gov/Archives/edgar/data/6281/000000628126000010/adi-20260122.htm) — published 2026-01-23; retrieved 2026-11-05T20:32:47.933309+00:00.
+
+[S73] [10-K 0000006281-25-000153](https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm) — published 2025-11-25; retrieved 2026-11-05T20:32:45.956043+00:00.
+
+[S74] [8-K/A 0000006281-21-000257](https://www.sec.gov/Archives/edgar/data/6281/000000628121000257/adi-20210826.htm) — published 2021-09-24; retrieved 2026-11-05T20:32:44.415744+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/68485afc2c279cc446102d99a1310528fc8bf3ae/sectors/information-technology/companies/PLTR/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/86d2c2eb5f0d04184291ea987a803ca356b9eea9/sectors/information-technology/companies/PLTR/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -1228,7 +1228,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:34.755788+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/68485afc2c279cc446102d99a1310528fc8bf3ae/sectors/information-technology/companies/PLTR/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/86d2c2eb5f0d04184291ea987a803ca356b9eea9/sectors/information-technology/companies/PLTR/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
