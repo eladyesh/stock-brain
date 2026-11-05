@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -137,6 +137,12 @@ sources:
   published_at: '2026-08-28'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/769397/000076939726000061/adsk-20260731.htm
+  title: 10-Q 0000769397-26-000061
+  published_at: '2026-08-28'
+  retrieved_at: '2026-11-05T20:34:23.942296+00:00'
+  sha256: 19391d3b220edbb04b6004666f6ab3ed352e685a4703133b6ae509e3779f6abf
 issuer_classification:
   cik: 0000769397
   classification_status: reported_sic
@@ -178,13 +184,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/769397/000076939719000007/0000769397-19-000007-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 96f4289fe88d4b43152145d84386285905f9c4db4d4e7e2ad48d69d1aca2ce9c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -199,15 +216,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000769397.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADSK/README.md
-full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
+full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADSK/README.md
+full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ADSK — Autodesk, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADSK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADSK/README.md)
 
 ## Business overview
 
@@ -221,17 +238,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-28, L995:
+
+> The discussion in our MD&A and elsewhere in this Quarterly Report on Form 10-Q contains trend analyses and other forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements are any statements that look to future events and consist of, among other things, our business strategies, including those discussed in “Strategy,” “Overview of the Three and Six Months Ended July 31, 2026,” and in “Results of Operations-Overview.” Examples of such forward-looking statements may relate to items such as future net revenue, operating expenses, recurring revenue, net revenue retention rate, cash flow, remaining performance obligations, and other future financial results (by product type and geography); the transition to annual billings for multi-year contracts; the implementation of new transaction models; the effectiveness of our efforts to successfully manage transitions to new markets; our ability to increase our subscription base; expected market trends, including the growth of cloud and mobile computing; the availability of credit; the effects of global economic conditions, including from global trade wars or an economic downturn or recession in the United States or in other countries around the world; the effects of revenue recognition; the effects of recently issued … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-28, L184:
+
+> (1) During fiscal year 2027, the Company began classifying maintenance revenue within “Subscription revenue”. Prior period amounts have been reclassified to conform to the current period presentation. The reclassification did not impact total net revenue. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-28, L995:
+
+> The discussion in our MD&A and elsewhere in this Quarterly Report on Form 10-Q contains trend analyses and other forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements are any statements that look to future events and consist of, among other things, our business strategies, including those discussed in “Strategy,” “Overview of the Three and Six Months Ended July 31, 2026,” and in “Results of Operations-Overview.” Examples of such forward-looking statements may relate to items such as future net revenue, operating expenses, recurring revenue, net revenue retention rate, cash flow, remaining performance obligations, and other future financial results (by product type and geography); the transition to annual billings for multi-year contracts; the implementation of new transaction models; the effectiveness of our efforts to successfully manage transitions to new markets; our ability to increase our subscription base; expected market trends, including the growth of cloud and mobile computing; the availability of credit; the effects of global economic conditions, including from global trade wars or an economic downturn or recession in the United States or in other countries around the world; the effects of revenue recognition; the effects of recently issued … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-28, L998:
+
+> Autodesk is changing how the world is designed and made. Our technology spans architecture, engineering, construction, product design, manufacturing, operations, and media and entertainment, empowering innovators everywhere to solve challenges big and small. From greener buildings to smarter products to more mesmerizing blockbusters, Autodesk technology helps our customers to design and make a better world for all. [S69]
 
 ## Industry and value chain
 
@@ -239,19 +272,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-28, L1106:
+
+> We believe our investment in cloud products and a subscription business model, backed by a strong balance sheet, give us a robust foundation to successfully navigate complex geopolitical and global macro-economic challenges. However, material scarcity, supply chain disruption and resulting inflationary pressures, higher interest rates, a global labor shortage, ongoing geopolitical conflicts, economic and regulatory uncertainty, the potential for global trade wars, and foreign exchange rate fluctuations, may impact our outlook. The extent of the impact of these risks on our business in fiscal 2027 and beyond will depend on several factors, some of which are out of our control. Further discussion of the potential impacts of these risks on our business can be found in Part II, Item 1A, “Risk Factors.” [S69]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-28, L1413:
+
+> In addition, we frequently introduce new business models or methods that require a considerable investment of technical and financial resources, such as our introduction of flexible subscription and service offerings, our transition of multi-subscription plans to named-user plans and our new transaction model. In addition, our acquisition of MaintainX expands our relationship with manufacturing, and architecture, engineering, and construction customers into asset operations and maintenance management. It is uncertain whether these strategies, including our product and pricing changes, will accurately reflect customer demand or be successful, or whether we will be able to develop the necessary infrastructure and business models more quickly than our competitors. We make such investments through further development and enhancement of our existing products and services, as well as through acquisitions. Such investments may not result in sufficient revenue generation to justify their costs and could result in decreased net revenue or profitability. If we are not able to meet customer requirements, either with respect to new customers or existing customers, and either with respect to our software or the manner in which we provide such products, or if we are not able to adapt our business model to meet our customers’ requirements, our business, financial condition, or results of … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-28, L844:
+
+> In the normal course of business, Autodesk provides indemnifications of varying scopes, including limited product warranties and indemnification of customers against claims of intellectual property infringement made by third parties arising from the use of its products or services. Autodesk accrues for known indemnification issues if a loss is probable and can be reasonably estimated. Historically, costs related to these indemnifications have not been significant, and because potential future costs are highly variable, Autodesk is unable to estimate the maximum potential impact of these indemnifications on its future results of operations. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-28, L826:
+
+> During the fiscal year ended January 31, 2026, Autodesk initiated a restructuring plan (“January 2026 Plan”) that represents the culmination of Autodesk’s sales and marketing optimization program. The January 2026 Plan also reallocates resources in certain other functions to accelerate Autodesk’s strategic priorities. Autodesk expects to complete the January 2026 Plan by the end of the fiscal year ending January 31, 2027. [S69]
 
 ## Financial performance
 
@@ -379,6 +428,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-28, L849:
+
+> In early March 2024, the Audit Committee of Autodesk’s Board of Directors commenced an internal investigation with the assistance of outside counsel and advisors regarding the Company’s free cash flow and non-GAAP operating margin practices (the “Internal Investigation”). On April 24, 2024, Michael Barkasi filed a purported federal securities class action complaint in the Northern District of California against the Company, our Chief Executive Officer, Andrew Anagnost, and our former Chief Financial Officer, Deborah L. Clifford. The complaint, which was filed shortly after the Company’s announcement of the Internal Investigation, generally alleged that the defendants made false and misleading statements in violation of Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 (the “Exchange Act”), and Rule 10b-5 promulgated thereunder. On July 10, 2024, the Court appointed a lead plaintiff in the action, and an amended complaint was filed on September 16, 2024. The action purported to be brought on behalf of those who purchased or otherwise acquired the Company’s securities between February 23, 2023 and April 16, 2024, and sought unspecified damages and other relief. On November 25, 2024, defendants filed a motion to dismiss the complaint. On July 18, 2025, the Court granted defendants’ motion to dismiss with leave to amend. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +444,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-28, L995:
+
+> The discussion in our MD&A and elsewhere in this Quarterly Report on Form 10-Q contains trend analyses and other forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements are any statements that look to future events and consist of, among other things, our business strategies, including those discussed in “Strategy,” “Overview of the Three and Six Months Ended July 31, 2026,” and in “Results of Operations-Overview.” Examples of such forward-looking statements may relate to items such as future net revenue, operating expenses, recurring revenue, net revenue retention rate, cash flow, remaining performance obligations, and other future financial results (by product type and geography); the transition to annual billings for multi-year contracts; the implementation of new transaction models; the effectiveness of our efforts to successfully manage transitions to new markets; our ability to increase our subscription base; expected market trends, including the growth of cloud and mobile computing; the availability of credit; the effects of global economic conditions, including from global trade wars or an economic downturn or recession in the United States or in other countries around the world; the effects of revenue recognition; the effects of recently issued … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +457,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -460,6 +517,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [10-Q 0000769397-26-000061](https://www.sec.gov/Archives/edgar/data/769397/000076939726000061/0000769397-26-000061-index.html) — published 2026-08-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADSK/README.md).
+[S69] [10-Q 0000769397-26-000061](https://www.sec.gov/Archives/edgar/data/769397/000076939726000061/adsk-20260731.htm) — published 2026-08-28; retrieved 2026-11-05T20:34:23.942296+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADSK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

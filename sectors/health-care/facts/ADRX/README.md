@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -89,6 +89,12 @@ sources:
   published_at: '2026-09-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S50
+  url: https://www.sec.gov/Archives/edgar/data/1802369/000119312526405297/d186630d8k.htm
+  title: 8-K 0001193125-26-405297
+  published_at: '2026-09-28'
+  retrieved_at: '2026-11-05T20:34:16.034503+00:00'
+  sha256: 7231d91fe7ac94cd2ad8613fa2b5058e6e983d59a88dbb467f2e1a92728401a7
 issuer_classification:
   cik: 0001802369
   classification_status: reported_sic
@@ -112,13 +118,14 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1802369/000119312526405297/0001193125-26-405297-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 263aef7991ca483c6defd1c3405e89b72550cab08e1ab3a96f1a024a0ada5d00
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -133,15 +140,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001802369.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADRX/README.md
-full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
+full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADRX/README.md
+full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ADRX — ADARx Pharmaceuticals, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADRX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADRX/README.md)
 
 ## Business overview
 
@@ -199,6 +206,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-28, L85:
+
+> On September 28, 2026, in connection with the closing of the initial public offering (the “IPO”) of shares of Common Stock, the Company filed an amended and restated certificate of incorporation (the “Restated Certificate”) with the Secretary of State of the State of Delaware. The Company’s board of directors (the “Board”) and stockholders previously approved the Restated Certificate to be effective immediately prior to the closing of the IPO. [S50]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -223,7 +234,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -235,7 +246,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
@@ -277,6 +288,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0000947871-26-000912](https://www.sec.gov/Archives/edgar/data/1802369/000094787126000912/0000947871-26-000912-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADRX/README.md).
+[S50] [8-K 0001193125-26-405297](https://www.sec.gov/Archives/edgar/data/1802369/000119312526405297/d186630d8k.htm) — published 2026-09-28; retrieved 2026-11-05T20:34:16.034503+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADRX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

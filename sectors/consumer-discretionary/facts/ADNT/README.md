@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -142,6 +142,30 @@ sources:
   published_at: '2025-11-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1670541/000167054126000105/adnt-20260917.htm
+  title: 8-K 0001670541-26-000105
+  published_at: '2026-09-18'
+  retrieved_at: '2026-11-05T20:33:51.799793+00:00'
+  sha256: 715d473102124e79f64157f61a7c6ef67af0ae87e64277a8b0d6820152d996b1
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1670541/000167054126000093/adnt-20260630.htm
+  title: 10-Q 0001670541-26-000093
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-05T20:33:49.977985+00:00'
+  sha256: e330b162b01b43bd6df2ace6634f6ece00a7d789a796b94b39323250e9c208ae
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1670541/000167054126000011/adnt-20260120.htm
+  title: DEF 14A 0001670541-26-000011
+  published_at: '2026-01-21'
+  retrieved_at: '2026-11-05T20:33:48.098997+00:00'
+  sha256: 9c5a63ce1f0d8a2608c7aeb098971a4d35609e103bc194aa54269d2681baa84c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1670541/000167054125000152/adnt-20250930.htm
+  title: 10-K 0001670541-25-000152
+  published_at: '2025-11-18'
+  retrieved_at: '2026-11-05T20:33:36.192751+00:00'
+  sha256: e07aca58abb2d47c37bfacab698ae4d4cdb9792327da6dbef0f87410770eeb21
 issuer_classification:
   cik: '0001670541'
   classification_status: reported_sic
@@ -191,13 +215,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1670541/000167054117000050/0001670541-17-000050-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f74a7d40deca227ea7e1711a9fa2f2fce964a9e527328c7c5b72261cb83367f7
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -212,15 +246,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001670541.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADNT/README.md
-full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
+full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADNT/README.md
+full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ADNT — Adient plc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADNT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADNT/README.md)
 
 ## Business overview
 
@@ -234,17 +268,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-01-21, L527:
+
+> Adient and its Board believe that a commitment to positive sustainability-related business practices strengthens our Company, increases our connection with our shareholders, helps us better serve our customers and the communities in which we operate and fosters employee engagement at all levels. As part of our enterprise-wide approach to risk management and our strategies for long-term value creation, the Board and management monitor long-term risks and opportunities that may be impacted by sustainability issues and establish ongoing goals and strategies to address such risks and opportunities. Additional information about Adient’s corporate sustainability efforts is available on our website at https://www.adient.com/about-us/sustainability. We expect that our 2025 [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L397:
+
+> Refer to Note 15, "Segment Information," of the notes to the consolidated financial statements for more information on Adient's reportable segments. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2025-11-18, L230:
+
+> Adient utilizes a global Core Product Portfolio, or CPP, strategy for part and design reuse in all of its product applications. Adient intends to continue investing in its CPP to sustain and expand its market success and to leverage its existing modular and scalable systems and interchangeable components. Through the CPP strategy, Adient provides high quality products for its customers with market competitive cost and mass (low weight to improve fuel economy) while meeting their performance requirements. Adient continues to use its CPP to advance Adient's lean manufacturing initiatives by providing standard, flexible processes that reduce complexity, inventory and floor space. This will yield reductions in development time, product cost and investment. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-01-21, L527:
+
+> Adient and its Board believe that a commitment to positive sustainability-related business practices strengthens our Company, increases our connection with our shareholders, helps us better serve our customers and the communities in which we operate and fosters employee engagement at all levels. As part of our enterprise-wide approach to risk management and our strategies for long-term value creation, the Board and management monitor long-term risks and opportunities that may be impacted by sustainability issues and establish ongoing goals and strategies to address such risks and opportunities. Additional information about Adient’s corporate sustainability efforts is available on our website at https://www.adient.com/about-us/sustainability. We expect that our 2025 [S70]
 
 ## Industry and value chain
 
@@ -252,15 +302,27 @@ SEC-reported SIC **3714**: Motor Vehicle Parts & Accessories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L552:
+
+> Adient enters into supply chain financing programs in certain domestic and foreign jurisdictions to either sell or discount accounts receivable without recourse to third-party institutions. Sales or discounts of accounts receivable are reflected as a reduction of accounts receivable on the consolidated statements of financial position and the proceeds are included in cash flows from operating activities in the consolidated statements of cash flows. As of June 30, 2026, $157 million was funded under these programs compared to $185 million as of September 30, 2025. [S69]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1244:
+
+> The results presented below are not necessarily indicative of full-year results as Adient, along with the automotive industry, continues to face a dynamic environment surrounding future production volume. This dynamic environment is the result of a combination of factors experienced over the recent past including the impact of higher energy, freight and other costs resulting from the conflicts in the Middle East and other parts of the world, softening consumer demand due in part to vehicle affordability, the direct and indirect impacts resulting from the imposition of U.S. and foreign tariffs, market share loss for foreign/luxury OEMs in the Asia reporting unit combined with modest expected margin declines as Adient continues to win new business with local OEMs in China, intensifying competition from Chinese imports and lower exports to China from EMEA as domestic brands expand in China, overcapacity in the EMEA reporting unit resulting in pricing pressure, continued disruptions caused by slower EV adoption rates, and interruptions from other suppliers due to production downtime and shortages of critical components or raw materials. Adient has also been experiencing increased levels of discussions with taxing authorities and more aggressive negotiations by the tax authorities as part of tax audits and related inquiries, resulting in higher levels of uncertainty on tax … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-08-05, L901:
+
+> In calculating the provision for income taxes, Adient uses an estimate of the annual effective tax rate based upon the facts and circumstances known at each interim period. On a quarterly basis, the actual effective tax rate is adjusted, as appropriate, based on changes in facts and circumstances, if any, as compared to those forecasted at the beginning of the fiscal year and each interim period thereafter. For the three and nine months ended June 30, 2026, Adient’s income tax expense was $23 million equating to an effective tax rate of 35% and $97 million equating to an effective tax rate of 53%, respectively. The three month income tax expense was higher than the Irish statutory rate of 12.5% primarily due to the inability to record a tax benefit for losses in jurisdictions with valuation allowances, partially offset by tax benefits related to a transfer of intellectual property rights between subsidiaries in different tax jurisdictions. The nine month income tax expense was higher than the Irish statutory rate of 12.5% primarily due to the inability to record a tax benefit for losses in jurisdictions with valuation allowances and the establishment of uncertain tax positions as a result of initiating a foreign tax audit settlement, partially offset by tax benefits related to audit closures, statute expirations and a transfer of intellectual property rights between … [S69]
 
 ## Growth drivers
 
@@ -377,6 +439,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-18, L36:
+
+> Adient plc (“Adient”) today announced that on October 1, 2026, Peter H. Carlin will resign from Adient’s board of directors and join Adient as Vice President, Finance. Additionally, the size of Adient’s board of directors will be reduced to seven members as of such date. Effective November 16, 2026, Mr. Carlin will be appointed as Executive Vice President and Chief Financial Officer (“CFO”) of Adient and will assume the duties as principal financial officer of Adient at that time. Mr. Carlin has served as a member of Adient’s board of directors since 2018. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -389,6 +455,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1211:
+
+> Adient is involved in various lawsuits, claims and proceedings incident to the operation of its businesses, including those pertaining to product recall, product liability, casualty environmental, safety and health, intellectual property, employment, trade compliance, commercial and contractual matters, and various other matters. Although the outcome of any such lawsuit, claim or proceeding cannot be predicted with certainty and some may be disposed of unfavorably to Adient, it is management's opinion that none of these will have a material adverse effect on Adient's financial position, results of operations or cash flows. Costs related to such matters were not material to the periods presented. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -398,25 +468,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -462,6 +532,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S62] [10-K 0001670541-25-000152](https://www.sec.gov/Archives/edgar/data/1670541/000167054125000152/0001670541-25-000152-index.html) — published 2025-11-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ADNT/README.md).
+[S68] [8-K 0001670541-26-000105](https://www.sec.gov/Archives/edgar/data/1670541/000167054126000105/adnt-20260917.htm) — published 2026-09-18; retrieved 2026-11-05T20:33:51.799793+00:00.
+
+[S69] [10-Q 0001670541-26-000093](https://www.sec.gov/Archives/edgar/data/1670541/000167054126000093/adnt-20260630.htm) — published 2026-08-05; retrieved 2026-11-05T20:33:49.977985+00:00.
+
+[S70] [DEF 14A 0001670541-26-000011](https://www.sec.gov/Archives/edgar/data/1670541/000167054126000011/adnt-20260120.htm) — published 2026-01-21; retrieved 2026-11-05T20:33:48.098997+00:00.
+
+[S71] [10-K 0001670541-25-000152](https://www.sec.gov/Archives/edgar/data/1670541/000167054125000152/adnt-20250930.htm) — published 2025-11-18; retrieved 2026-11-05T20:33:36.192751+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADNT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -133,6 +133,24 @@ sources:
   published_at: '2026-03-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/2098/000119312526338211/acu-20260630.htm
+  title: 10-Q 0001193125-26-338211
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-05T20:29:44.727768+00:00'
+  sha256: 58be62751eeded0a97302968c627fe229d7278f1e26d6fe327a7246878f024df
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/2098/000119312526129439/d57325ddef14a.htm
+  title: DEF 14A 0001193125-26-129439
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-05T20:29:40.475997+00:00'
+  sha256: 0b1f76d114e44389106bf3175ca368daad4b3fbaf3806bf47b7eb5fa40373e96
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/2098/000119312526102079/acu-20251231.htm
+  title: 10-K 0001193125-26-102079
+  published_at: '2026-03-11'
+  retrieved_at: '2026-11-05T20:29:38.626679+00:00'
+  sha256: f41109956331b81588997c4640e93e94df11e147a7091ec672e15c373f243ef0
 issuer_classification:
   cik: 0000002098
   classification_status: reported_sic
@@ -178,13 +196,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2098/000102660814000066/0001026608-14-000066-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 91946900f4b54b8f9f220e9a11e4e4627040704adb674e4aeb066061ce07d658
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -199,15 +228,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000002098.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACU/README.md
-full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
+full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ACU/README.md
+full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ACU — ACME UNITED CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ACU/README.md)
 
 ## Business overview
 
@@ -221,17 +250,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6072:
+
+> We have been actively diversifying our supply base for many years and source products and components in a number of countries. A significant portion of the products we sell (and components used in our products) are sourced from suppliers located in China. The United States government has imposed, and may continue to impose or adjust, significant tariffs on a range of Chinese goods. These tariffs have increased our costs of goods sold and could further escalate depending on changes in trade policy, negotiations, or retaliatory measures by China or by other countries similarly impacted. The indirect impact on demand for our products as a result of these developments has become more uncertain. The Company has taken and continues to take steps to mitigate the potential impact on our business and operations through strategic sourcing adjustments, price adjustments and supply chain diversification, but such efforts have not been able to fully mitigate the effects of the imposition of tariffs and related developments. Any further increases of existing tariffs, the imposition of new tariffs, the potential modifications to existing trade agreements, new restrictions on free trade and the responses by other governments to changes in trade policy by the United States may further adversely impact demand for our products, increase our costs, and disrupt our supply chain. These risks, in … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4037:
+
+> The Company’s reportable business segments consist of: (1) United States; (2) Canada; and (3) Europe. As described below, the activities of the Company’s Asian operations are closely linked to those of the U.S. operations; accordingly, the Company’s CODM reviews the financial results of both on a consolidated basis, and the results of the Asian operations have been aggregated with the results of the United States operations to form one reportable segment called the “United States segment” or “U.S. segment”. Each reportable segment derives its revenue from the sales of i) first aid and medical products and ii) cutting and sharpening tools to school, home, office, hardware, sporting and industrial markets. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5953:
+
+> These risks and uncertainties include, without limitation, the following: (i) changes in the Company’s plans, strategies, objectives, expectations and intentions, which may be made at any time at the discretion of the Company; (ii) the impact of volatility in global economic conditions, including the impact on the Company’s suppliers and customers; (iii) international trade policies of the United States or foreign governments and their impact on demand for our products and our competitive position, including the imposition of new tariffs, changes in existing tariff rates or the threat of any such action; (iv) the continuing adverse impact of inflation, including product costs, transportation costs and interest rates; (v) currency fluctuations; (vi) potential adverse effects on the Company, its customers, and suppliers resulting from the wars in Ukraine and the Middle East; (vii) additional disruptions in the Company’s supply chains, whether caused by pandemics, natural disasters, including trucker shortages, port closures, port strikes or otherwise; (viii) labor related costs the Company has and may continue to incur, including costs of acquiring and training new employees and rising wages and benefits; (ix) changes in client needs and consumer spending habits; (x) the Company’s ability to effectively manage its inventory in a rapidly changing business environment; (xi) the … [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3500:
+
+> A performance obligation is a promise in a contract to transfer a distinct good or service to the customer. A contract’s transaction price is allocated to each distinct performance obligation and recognized as revenue when, or as, the performance obligation is satisfied. Revenue is generated by the sale of the Company’s products to its customers. Sales contracts (purchase orders) generally have a single performance obligation that is satisfied at a point in time, upon shipment or delivery, depending on the terms of the underlying contract. Revenue is measured based on the consideration specified in the contract. The amount of consideration we receive and revenue we recognize is impacted by incentives ("customer rebates"), including sales rebates, which are generally tied to sales volume levels, in-store promotional allowances, shared media and customer catalog allowances and other cooperative advertising arrangements; freight allowance programs offered to our customers; and allowance for returns and discounts. We generally recognize customer rebate costs as a deduction to gross sales at the time that the associated revenue is recognized. [S67]
 
 ## Industry and value chain
 
@@ -239,19 +284,35 @@ SEC-reported SIC **3420**: Cutlery, Handtools & General Hardware. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6072:
+
+> We have been actively diversifying our supply base for many years and source products and components in a number of countries. A significant portion of the products we sell (and components used in our products) are sourced from suppliers located in China. The United States government has imposed, and may continue to impose or adjust, significant tariffs on a range of Chinese goods. These tariffs have increased our costs of goods sold and could further escalate depending on changes in trade policy, negotiations, or retaliatory measures by China or by other countries similarly impacted. The indirect impact on demand for our products as a result of these developments has become more uncertain. The Company has taken and continues to take steps to mitigate the potential impact on our business and operations through strategic sourcing adjustments, price adjustments and supply chain diversification, but such efforts have not been able to fully mitigate the effects of the imposition of tariffs and related developments. Any further increases of existing tariffs, the imposition of new tariffs, the potential modifications to existing trade agreements, new restrictions on free trade and the responses by other governments to changes in trade policy by the United States may further adversely impact demand for our products, increase our costs, and disrupt our supply chain. These risks, in … [S67]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5953:
+
+> These risks and uncertainties include, without limitation, the following: (i) changes in the Company’s plans, strategies, objectives, expectations and intentions, which may be made at any time at the discretion of the Company; (ii) the impact of volatility in global economic conditions, including the impact on the Company’s suppliers and customers; (iii) international trade policies of the United States or foreign governments and their impact on demand for our products and our competitive position, including the imposition of new tariffs, changes in existing tariff rates or the threat of any such action; (iv) the continuing adverse impact of inflation, including product costs, transportation costs and interest rates; (v) currency fluctuations; (vi) potential adverse effects on the Company, its customers, and suppliers resulting from the wars in Ukraine and the Middle East; (vii) additional disruptions in the Company’s supply chains, whether caused by pandemics, natural disasters, including trucker shortages, port closures, port strikes or otherwise; (viii) labor related costs the Company has and may continue to incur, including costs of acquiring and training new employees and rising wages and benefits; (ix) changes in client needs and consumer spending habits; (x) the Company’s ability to effectively manage its inventory in a rapidly changing business environment; (xi) the … [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-11, L370:
+
+> The Company owns many patents and trademarks that are important to its business. The Company’s success depends in part on its ability to maintain patent protection for its products, to preserve its proprietary technology and to operate without infringing upon the patents or proprietary rights of others. The Company generally files patent applications in the United States and foreign countries where patent protection for its technology is appropriate and available. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-11, L361:
+
+> We continue to expand our catalog of craft items with patented new technologies, handle designs and construction that has driven Westcott to be a leader in fashionable and functional solutions for students and adults. In addition, Westcott continues to build on its cutting line with an expanded assortment of ceramic safety knives which include new features, allowing its customers to remain safer on the job. [S70]
 
 ## Financial performance
 
@@ -379,6 +440,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-27, L64:
+
+> On behalf of your Board of Directors and Management, I cordially invite you to attend the 2026 Annual Meeting of Shareholders of Acme United Corporation scheduled to be held on Monday, April 27, 2026, at 11:00 A.M., Eastern Time. The Annual Meeting will be held as a “virtual meeting”, i.e., solely by means of remote communication via the Internet at www.virtualshareholdermeeting.com/ACU2026. Shareholders will be able to participate virtually, vote on matters submitted to the shareholders and submit questions during the Annual Meeting electronically. All shareholders will have the same rights and opportunities to participate in this virtual Annual Meeting as they would have at an in-person annual meeting. The Meeting will be held for the following purposes: [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +456,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5954:
+
+> For a more detailed discussion of these and other factors affecting the Company, see the Risk Factors described in Item 1A included in the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025 and below under “Financial Condition”. All forward-looking statements in this report are based upon information available to the Company on the date of this report. The Company undertakes no obligation to publicly update or revise any forward-looking statement, whether as a result of new information, future events, or otherwise, except as required by law. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +469,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -462,6 +531,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S53] [10-K 0001193125-26-102079](https://www.sec.gov/Archives/edgar/data/2098/000119312526102079/0001193125-26-102079-index.html) — published 2026-03-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/ACU/README.md).
+[S67] [10-Q 0001193125-26-338211](https://www.sec.gov/Archives/edgar/data/2098/000119312526338211/acu-20260630.htm) — published 2026-08-06; retrieved 2026-11-05T20:29:44.727768+00:00.
+
+[S69] [DEF 14A 0001193125-26-129439](https://www.sec.gov/Archives/edgar/data/2098/000119312526129439/d57325ddef14a.htm) — published 2026-03-27; retrieved 2026-11-05T20:29:40.475997+00:00.
+
+[S70] [10-K 0001193125-26-102079](https://www.sec.gov/Archives/edgar/data/2098/000119312526102079/acu-20251231.htm) — published 2026-03-11; retrieved 2026-11-05T20:29:38.626679+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ACU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

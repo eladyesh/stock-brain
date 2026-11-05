@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 68485afc2c279cc446102d99a1310528fc8bf3ae
+source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -153,6 +153,18 @@ sources:
   published_at: '2026-02-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/821130/000082113026000046/ad-20260630.htm
+  title: 10-Q 0000821130-26-000046
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-05T20:30:41.463675+00:00'
+  sha256: f0fc302cef8d2c52ea4b0288bc71f66932df9e03b5b1c2c5435509f6d9d270fe
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/821130/000082113026000025/ad-20260402.htm
+  title: DEF 14A 0000821130-26-000025
+  published_at: '2026-04-07'
+  retrieved_at: '2026-11-05T20:30:36.076481+00:00'
+  sha256: 389376e8586874fae4b425ad2f5d426dea94f3e70f6f7c55b1f0d0db2699bdd1
 issuer_classification:
   cik: 0000821130
   classification_status: reported_sic
@@ -223,13 +235,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/821130/000110465911028621/0001104659-11-028621-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0e49000809d8dc49a56e88a4128d9835aa67bcee211602bafc976717e7dc5ee4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-05T20:27:49.643469+00:00'
+  last_success_at: '2026-11-05T20:27:49.643469+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -244,15 +263,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000821130.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/AD/README.md
-full_history_commit: 9a2d93421bf50e1b28d316e7c6a7d3bd950c2718
+full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AD/README.md
+full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AD — ARRAY DIGITAL INFRASTRUCTURE, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/AD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AD/README.md)
 
 ## Business overview
 
@@ -266,9 +285,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-04-07, L976:
+
+> To support our business strategy \| \| Based on job scope, market data, individual performance and expected future contribution [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1127:
+
+> Array is a single reportable segment. Array generates its revenues primarily by leasing tower space on Array-owned towers to customers. Array's chief operating decision maker is the TDS President and Chief Executive Officer. [S69]
 
 ## Products and services
 
@@ -290,9 +317,17 @@ Navigation sector: **communication-services**. Method: `project_sic_rule`. Proje
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-07, L476:
+
+> ▪Increasing competition in the tower industry could adversely affect Array’s revenues, negatively impact future growth and increase its costs to compete. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — DEF 14A, filed 2026-04-07, L64:
+
+> Array principally leases tower space and seeks to increase tower revenues through growing colocations. Array has a competitive advantage over other tower companies, in that a significant number of towers are in rural locations without any other competitors in close proximity. [S70]
 
 ## Growth drivers
 
@@ -397,6 +432,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L241:
+
+> On May 7, 2026, TDS delivered to the Array Board of Directors a letter setting forth a non-binding proposal to acquire all of the outstanding Array Common Shares that are not owned by TDS (the “Array Proposal”). A special committee of independent and disinterested directors of the Array Board of Directors has been formed to evaluate this proposal. For additional information on the Array Proposal, see TDS’ Current Report on Form 8-K, filed with the U.S. Securities and Exchange Commission on May 8, 2026. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -409,6 +448,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L469:
+
+> This Form 10-Q, including exhibits, contains statements that are not based on historical facts and represent forward-looking statements, as this term is defined in the Private Securities Litigation Reform Act of 1995. All statements, other than statements of historical facts, that address activities, events or developments that Array intends, expects, projects, believes, estimates, plans or anticipates will or may occur in the future are forward-looking statements. The words “believes,” “anticipates,” “estimates,” “expects,” “plans,” “intends,” “projects” and similar expressions are intended to identify these forward-looking statements, but are not the exclusive means of identifying them. Such forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause actual results, events or developments to be significantly different from any future results, events or developments expressed or implied by such forward-looking statements. Such risks, uncertainties and other factors include, but are not limited to, those set forth below, as more fully described under “Risk Factors” in Array's Form 10-K for the year ended December 31, 2025 and in this Form 10-Q. Each of the following risks could have a material adverse effect on Array’s business, financial condition or results of operations. However, such factors are not necessarily all of the … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -418,25 +461,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -482,6 +525,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S45] [10-K 0000821130-26-000012](https://www.sec.gov/Archives/edgar/data/821130/000082113026000012/0000821130-26-000012-index.html) — published 2026-02-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9a2d93421bf50e1b28d316e7c6a7d3bd950c2718/brain/companies/AD/README.md).
+[S69] [10-Q 0000821130-26-000046](https://www.sec.gov/Archives/edgar/data/821130/000082113026000046/ad-20260630.htm) — published 2026-08-07; retrieved 2026-11-05T20:30:41.463675+00:00.
+
+[S70] [DEF 14A 0000821130-26-000025](https://www.sec.gov/Archives/edgar/data/821130/000082113026000025/ad-20260402.htm) — published 2026-04-07; retrieved 2026-11-05T20:30:36.076481+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
