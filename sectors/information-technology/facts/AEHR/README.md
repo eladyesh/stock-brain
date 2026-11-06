@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -124,6 +124,24 @@ sources:
   published_at: '2026-10-13'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1040470/000165495426009056/aehr_8k.htm
+  title: 8-K 0001654954-26-009056
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-06T19:51:30.931006+00:00'
+  sha256: 3fbbe41f26f956d1891ace12a56324a284296bde8fe2f0b20107928894edb121
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1040470/000165495426008222/aehr_def14a.htm
+  title: DEF 14A 0001654954-26-008222
+  published_at: '2026-09-09'
+  retrieved_at: '2026-11-06T19:51:29.393641+00:00'
+  sha256: 52426e277068f95057eae072c6d511288aeb89d77026b72613fff63d613d05a2
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1040470/000165495426006919/aehr_10k.htm
+  title: 10-K 0001654954-26-006919
+  published_at: '2026-07-27'
+  retrieved_at: '2026-11-06T19:51:27.690913+00:00'
+  sha256: b6726c7b809baa01990cd6e3995877e2af24edf6477afaa4d98d7ced3386ddac
 issuer_classification:
   cik: '0001040470'
   classification_status: reported_sic
@@ -165,13 +183,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1040470/000165495419010574/0001654954-19-010574-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 949eab133b157f2fe9ba80c4c9123860cb81fe8c10be1f9cc5cdd44f8b6cca95
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -186,15 +215,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001040470.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEHR/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEHR/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AEHR — AEHR TEST SYSTEMS
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEHR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEHR/README.md)
 
 ## Business overview
 
@@ -208,17 +237,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-09, L112:
+
+> All shareholders are cordially invited to attend the meeting. At the meeting, you will hear a report on our business and have a chance to meet some of our directors and executive officers. [S72]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-07-27, L6269:
+
+> The Company's chief executive officer, who is the chief operating decision maker ("CODM"), reviews discrete financial information presented at the consolidated basis, to assess performance and allocate resources. There are no segment managers who are held accountable for operations or operating results below the consolidated unit level. Accordingly, the Company has only one operating and reportable segment. The measure of segment profit or loss that our CODM uses to allocate resources and assess performance is our consolidated net income (loss). [S73]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-07-27, L361:
+
+> Investors and others should note that we announce material financial information to our investors using our investor relations website (https://www.aehr.com/investor-relations/), SEC filings, press releases, public conference calls and webcasts. We use these channels to communicate with our investors and the public about our company, our products and services and other issues. It is possible that the information we post on our investor relations website could be deemed to be material information. Therefore, we encourage investors, the media, and others interested in our company to review the information we post on our investor relations website. [S73]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-07-27, L395:
+
+> The Company also views emerging developments in the data storage and memory markets as new opportunities for its systems, as these end markets and customers require devices with extremely high levels of quality and long-term reliability. One such opportunity for wafer-level burn-in is semiconductors used in solid state disk drives for data storage using NAND flash semiconductor memory devices. The NAND flash memory market performs 100% test and burn-in on devices used in mission-critical applications such as enterprise storage, and the Company sees this as an opportunity for its fully automated systems and WaferPaks. [S73]
 
 ## Industry and value chain
 
@@ -226,19 +271,35 @@ SEC-reported SIC **3825**: Instruments For Meas & Testing of  Electricity & Elec
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-09, L544:
+
+> LAURA OLIPHANT has been a director of the Company since July 2019. From 2016 to 2018, she was the Chief Executive Officer of Translarity, Inc., a venture funded probe card company. From 2001 to 2016, she served as an Investment Director at Intel Capital, the venture capital organization of Intel Corporation, a publicly traded global semiconductor company, where she made and managed investments in the semiconductor capital equipment and materials area and received Intel’s highest award for the strategic impact of her contributions. Prior to 2001, Laura was a Process Engineer and a Supply Chain Manager in Intel’s Technology and Manufacturing Group, where she was responsible for several major selections of semiconductor capital equipment for Intel’s factories. Dr. Oliphant is National Association of Corporate Directors (NACD), Directorship Certified® and was named to the 2022 NACD Directorship 100 for her strategic impact in the boardroom. She currently serves as a supervisory board member of BE Semiconductor Industries N.V., a publicly traded European supplier of advanced packaging semiconductor process equipment, and as an independent board member of USA Triathlon, which is the National Governing Body for triathlon and associated sports in the United States. She received a B.E. in Chemical Engineering from Manhattan University in Riverdale, New York, and Ph.D. in Chemical … [S72]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-07-27, L449:
+
+> The semiconductor equipment industry is intensely competitive. Significant competitive factors in the semiconductor equipment market include price, technical capabilities, quality, flexibility, automation, cost of ownership, reliability, throughput, product availability and customer service. In each of the markets it serves, the Company faces competition from established competitors and potential new entrants, many of which have greater financial, engineering, manufacturing and marketing resources than the Company. [S73]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-07-27, L436:
+
+> The Company’s customer service and support program includes system installation, system repair, applications engineering support, spare parts inventories, customer training and documentation. The Company has applications engineering and field service personnel located near and sometimes co-located at our customers and includes resources at the corporate headquarters in Fremont, California, at customer locations in Texas, at the Company’s subsidiaries in Germany, Japan and the Philippines, at its branch office in Taiwan, and also through third-party agreements in China and South Korea. The Company’s distributors provide applications and field service support in other parts of the world. The Company customarily provides a warranty on its products. The Company offers service contracts on its systems directly and through its subsidiaries, distributors and representatives. The Company believes that maintaining a close relationship with customers and providing them with ongoing engineering support improves customer satisfaction and will provide the Company with a competitive advantage in selling its products to the Company’s customers. [S73]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-07-27, L505:
+
+> Additionally, the semiconductor industry has experienced significant consolidation over the past several years, and such consolidation may further increase competitive factors within the industry. We also expect our competitors to continue to improve the performance of their current products and to introduce new products with improved price and performance characteristics. New product introductions by our competitors or by new market entrants could cause a decline in sales or loss of market acceptance of our products. We have observed price competition in the systems market, particularly with respect to its less advanced products. Increased competitive pressure could also lead to intensified price-based competition, resulting in lower prices which could adversely affect our operating margins and results. We believe that to remain competitive we must invest significant financial resources in new product development and expand our customer service and support worldwide. There can be no assurance that we will be able to compete successfully in the future. [S73]
 
 ## Financial performance
 
@@ -351,6 +412,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-20, L168:
+
+> Proposal Two: Ratify the selection, by the Audit Committee of the Board of Directors, of BPM LLP as the Company’s independent registered public accounting firm for the fiscal year ending June 25, 2027. [S71]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -363,6 +428,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-07-27, L360:
+
+> This Annual Report on Form 10-K contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements contained in this Annual Report on Form 10-K other than statements of historical fact, including statements regarding our future results of operations and financial position, our business strategy and plans, and our objectives for future operations, are forward-looking statements. The words “believe,” “may,” “will,” “estimate,” “continue,” “anticipate,” “plan,” “intend,” “expect,” “could,” “target,” “project,” “should,” “predict,” “potential,” “would,” “seek” and similar expressions and the negative of those expressions are intended to identify forward-looking statements. These forward-looking statements are subject to a number of risks, uncertainties and assumptions that are difficult to predict. Therefore, actual results may differ materially and adversely from those expressed in any forward-looking statements. These risks include but are not limited to those factors identified in “Risk Factors” beginning on page \[13\] of this Annual Report on Form 10-K, those factors that we may from time to time identify in our periodic filings with the Securities and Exchange Commission, as well as other factors beyond our … [S73]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -372,25 +441,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -432,6 +501,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S25] [4 0001040470-26-000303](https://www.sec.gov/Archives/edgar/data/1040470/000104047026000303/0001040470-26-000303-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEHR/README.md).
+[S71] [8-K 0001654954-26-009056](https://www.sec.gov/Archives/edgar/data/1040470/000165495426009056/aehr_8k.htm) — published 2026-10-20; retrieved 2026-11-06T19:51:30.931006+00:00.
+
+[S72] [DEF 14A 0001654954-26-008222](https://www.sec.gov/Archives/edgar/data/1040470/000165495426008222/aehr_def14a.htm) — published 2026-09-09; retrieved 2026-11-06T19:51:29.393641+00:00.
+
+[S73] [10-K 0001654954-26-006919](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006919/aehr_10k.htm) — published 2026-07-27; retrieved 2026-11-06T19:51:27.690913+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEHR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

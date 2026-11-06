@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -146,6 +146,18 @@ sources:
   published_at: '2026-06-08'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1853044/000182912626008507/aeriestech_10q.htm
+  title: 10-Q 0001829126-26-008507
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-06T19:53:26.888771+00:00'
+  sha256: dd46e05af6ab1b9f6d55aea4738a0fbb939a7f3e7c5d977ebc84a4c91561a5f6
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1853044/000182912626006123/aeriestech_10k.htm
+  title: 10-K 0001829126-26-006123
+  published_at: '2026-06-08'
+  retrieved_at: '2026-11-06T19:53:25.066707+00:00'
+  sha256: 975b83970c2cc70538b7261e6f92c8ada976f8e49a054621f4ae2a9501360ad8
 issuer_classification:
   cik: 0001853044
   classification_status: reported_sic
@@ -191,13 +203,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1853044/000182912623007736/0001829126-23-007736-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1f038ef575c98fae0cf4ec894c0a8dfd533d41b08e49d995a92fbc1587391bd5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -212,15 +234,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001853044.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AERT/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AERT/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AERT — Aeries Technology, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AERT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AERT/README.md)
 
 ## Business overview
 
@@ -234,13 +256,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L295:
+
+> \| our business development efforts to maximize our potential value and to retain and expand our client base; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-K, filed 2026-06-08, L823:
+
+> fee, early terminations or non-renewals could still negatively impact our revenue streams, especially if a significant client is involved. [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-10, L4623:
+
+> Our clients leverage our services for comprehensive organizational operations management, encompassing application engineering, information technology systems, data analytics and business intelligence, cybersecurity, finance and accounting, human resources, and customer service operations. We recruit and employ qualified professionals, place them on our payroll, and deploy them strategically across client operations. We work closely with clients to identify the best candidates and integrate with their organizational structures. Our talent professionals serve as operational extensions of client teams, and Aeries retains responsibility for career development, recognition programs, and advancement opportunities, which we believe contribute to stronger employee engagement and lower voluntary turnover. We oversee regulatory compliance, tax administration, talent acquisition, human resources management, and brand alignment for each GCC we establish. [S67]
 
 ## Customers and end markets
 
@@ -252,19 +286,35 @@ SEC-reported SIC **8742**: Services-Management Consulting Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-06-08, L563:
+
+> Aeries has adopted environmental, social, and governance (“ESG”) guidelines applicable to our operations, employees, clients, and third-party service providers. These guidelines address employee well-being in recruitment, retention, and development, client privacy and security, supply chain ESG considerations, environmental impact reduction, and systemic risk management. Aeries supports local community initiatives through financial contributions and employee volunteer time. [S69]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-06-08, L300:
+
+> The provider-supported GCC services market is experiencing increased competition as various categories of service providers enter the sector with specialized offerings.1 However, we believe the substantial market growth and evolving complexity of enterprise requirements create opportunities for providers who can deliver integrated, results-driven solutions across the complete GCC lifecycle. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-10, L4059:
+
+> In the normal course of business, the Company is a party to a variety of agreements under which it may be obligated to indemnify the other party for certain matters. These obligations typically arise in contracts where the Company customarily agrees to hold the other party harmless against losses arising from a breach of representations or covenants for certain matters, infringement of third-party intellectual property rights, data privacy violations, and certain tortious conduct in the course of providing services. The duration of these indemnifications varies, and in certain cases, is indefinite. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L295:
+
+> \| our business development efforts to maximize our potential value and to retain and expand our client base; [S67]
 
 ## Financial performance
 
@@ -380,6 +430,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L2592:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act of 2002, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -392,6 +446,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L4614:
+
+> In addition to historical information, the following discussion contains forward-looking statements, including, but not limited to, statements regarding our expectations for future performance, liquidity and capital resources that involve risks, uncertainties and assumptions that could cause actual results to differ materially from our expectations. Our actual results may differ materially from those contained in or implied by any forward-looking statements. Factors that could cause such differences include those identified below and those described under “Risk Factors” and “Cautionary Note Regarding Forward-Looking Statements,” discussed in this quarterly report and our Annual Report on Form 10-K for the fiscal year ended March 31, 2026. You should consider these factors carefully in evaluating forward-looking statements and are cautioned not to place undue reliance on such statements, which speak only as of the date of this Annual Report on Form 10-K. It is impossible for us to predict new events or circumstances that may arise in the future or how they may affect us. Unless otherwise required by law, we undertake no obligation to update forward looking statements to reflect events or circumstances occurring after the date of this annual report. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -401,25 +459,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -463,6 +521,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S31] [10-K 0001829126-26-006123](https://www.sec.gov/Archives/edgar/data/1853044/000182912626006123/0001829126-26-006123-index.html) — published 2026-06-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AERT/README.md).
+[S67] [10-Q 0001829126-26-008507](https://www.sec.gov/Archives/edgar/data/1853044/000182912626008507/aeriestech_10q.htm) — published 2026-08-10; retrieved 2026-11-06T19:53:26.888771+00:00.
+
+[S69] [10-K 0001829126-26-006123](https://www.sec.gov/Archives/edgar/data/1853044/000182912626006123/aeriestech_10k.htm) — published 2026-06-08; retrieved 2026-11-06T19:53:25.066707+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AERT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

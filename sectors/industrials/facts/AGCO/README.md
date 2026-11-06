@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -132,6 +132,18 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/880266/000088026626000023/agco-20260311.htm
+  title: DEF 14A 0000880266-26-000023
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-06T19:56:08.081338+00:00'
+  sha256: 27cd0aa7b50a71b753020bbf600b39ddf908251a807f952ea4ae5af89ebfdd6e
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/880266/000088026626000010/agco-20251231.htm
+  title: 10-K 0000880266-26-000010
+  published_at: '2026-02-13'
+  retrieved_at: '2026-11-06T19:56:06.153902+00:00'
+  sha256: 7aa1a044e5c8a695c3ea3d7fbe9478349829bd505ac827aff66f5150bbbe3355
 issuer_classification:
   cik: 0000880266
   classification_status: reported_sic
@@ -173,13 +185,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/880266/000088026623000045/0000880266-23-000045-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 69c54ce7b9b8d15eb14dc8c003bf21da071607ac870447924dd760ba05d8ad33
-  last_attempt_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-07T19:49:30.346586+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -194,15 +217,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000880266.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AGCO/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGCO/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AGCO — AGCO CORP /DE
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AGCO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGCO/README.md)
 
 ## Business overview
 
@@ -216,17 +239,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L582; prior source set, update pending:
+
+> With more than 30 years of experience in the agricultural equipment industry, including working in Europe, Mr. Hansotia has direct and extensive experience in almost every aspect of our business and has broad industry knowledge in order to be able to address the needs of farmers throughout the world. Mr. Hansotia has extensive experience in the agricultural equipment industry in the areas of engineering, quality, advanced technology, manufacturing and product management. More recently, he has led AGCO’s growing focus on precision agriculture, which we view as critical to the success of our farmers and the long-term sustainability of our food supply. Mr. Hansotia brings to the Board a strong strategic view on the future trends in global agriculture, proven global leadership experience as well as valuable subject matter expertise. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-13, L564; prior source set, update pending:
+
+> The Company has four operating segments which are also its reportable segments which consist of the Europe/Middle East (“EME”), North America, South America and Asia/Pacific/Africa (“APA”) regions. The Company’s reportable segments are geography based and distribute a full range of agricultural machinery and precision agriculture technology. The Company evaluates segment performance primarily based on income from operations. Sales for each segment are based on the location of the third-party customer. The Company’s selling, general and administrative expenses and engineering expenses are charged to each segment based on the region and division where the expenses are incurred. As a result, the components of income (loss) from operations for one segment may not be comparable to another segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L1331; prior source set, update pending:
+
+> Torsten R.W. Dehner is Senior Vice President, General Manager, Global Fendt/Valtra and Product Management. In this role, Mr. Dehner is responsible for growing and reinforcing Fendt and Valtra’s leading market positions worldwide. Additionally, he oversees the development of AGCO’s multi-brand product portfolio, prioritizing the needs of global farmers. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-13, L221; prior source set, update pending:
+
+> Generally, retail sales by dealers to farmers are highly seasonal and largely are a function of the timing of the planting and harvesting seasons. To the extent possible, we attempt to ship products to our dealers and distributors on a level basis throughout the year to reduce the effect of seasonal retail demands on our manufacturing operations and to minimize our investment in inventory. Our financing requirements are subject to variations due to seasonal changes in working capital levels, which typically increase in the first half of the year and then decrease in the second half of the year. The fourth quarter is also typically a period for higher retail sales because of our customers’ year-end tax planning considerations, the increase in the availability of funds from completed harvests and the timing of dealer incentives. Our net sales and income from operations historically have been the lowest in the first quarter and have increased in subsequent quarters. [S68]
 
 ## Industry and value chain
 
@@ -234,19 +273,35 @@ SEC-reported SIC **3523**: Farm Machinery & Equipment. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L454; prior source set, update pending:
+
+> As CEO of Ryerson, Mr. Arnold led the transformation of the business under private equity ownership into a leader in its industry, and then through its successful initial public offering in 2014. At Ryerson and previously Timken, Mr. Arnold was a supplier to the agricultural industry and developed extensive manufacturing and distribution expertise at both. As an independent director at Gardner Denver, he had an integral role in the sale of Gardner Denver to KKR. Mr. Arnold brings public company board and management, mergers & acquisitions, capital allocation, manufacturing, distribution, supply chain, strategy and technology expertise to the Board. In addition, Mr. Arnold has significant international experience, having been responsible for global businesses with facilities worldwide. [S67]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L2798; prior source set, update pending:
+
+> The employment agreements with executives generally contain certain restrictive covenants that continue for a period of two years after termination of employment, including a non-competition covenant, a non-solicitation of customers covenant and a non-recruitment of employees covenant. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L1314; prior source set, update pending:
+
+> Roger N. Batkin has been Senior Vice President, General Counsel, Chief Sustainability Officer and Corporate Secretary since January 2022. Mr. Batkin has overall responsibility for the company's legal matters, including the ethics and compliance program, litigation, regulatory and securities filings, intellectual property, mergers, acquisitions, joint ventures and other worldwide legal activities. Additionally, as Chief Sustainability Officer, he leads AGCO's sustainability efforts. Mr. Batkin is also responsible for global governmental affairs, corporate administration and records, and he is Chair of the AGCO Foundation. Mr. Batkin supports and counsels the Board of Directors on governance and legal matters. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-12, L970; prior source set, update pending:
+
+> •Board Size and Composition. Consistent with its annual practice, the Governance Committee reviewed the Board’s size and structure and considered it relative to the extensive ongoing Board refresh process the Board is pursuing. The Board has added five new independent members since 2021 and believes that the refreshment process should proceed in a manner that gives new Board members the benefit of interacting with those having longer tenure. In addition, with the assistance of a third-party advisor, we completed a comprehensive refreshment of our strategy that was reviewed and adopted by the full Board. The Governance Committee determined that the specific expertise it had identified for its ongoing Board search was consistent with the strategic plan and would best serve the Company. [S67]
 
 ## Financial performance
 
@@ -368,6 +423,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L77; prior source set, update pending:
+
+> 1.To elect nine directors to the Board of Directors for terms expiring at the Annual Meeting in 2027; [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -380,6 +439,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-02-13, L274; prior source set, update pending:
+
+> Our success depends entirely on the vitality of the agricultural industry. Historically, the agricultural industry has been cyclical and subject to a variety of economic and other factors. Sales of agricultural equipment, in turn, also are cyclical and generally reflect the economic health of the agricultural industry. The economic health of the agricultural industry is affected by numerous factors, including farm income, farm land values and debt levels and financing costs, all of which are influenced by levels of commodity and protein prices, acreage planted, crop yields, agricultural product demand, farm input costs, government policies, tariffs and government subsidies. The economic health of the agricultural industry also is influenced by general economic conditions, interest rate and exchange rate levels, and the availability of financing for retail customers, including government financing subsidies to farmers, which can be significant in countries such as Brazil, as discussed elsewhere in this “Risk Factors” section. Trends in the agricultural industry, such as farm consolidations, may affect the agricultural equipment market. In addition, weather conditions, such as floods, heat waves or droughts, and pervasive livestock or crop diseases affect farmers’ buying decisions. Downturns in the agricultural industry due to these or other factors, which could vary by market, … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -389,25 +452,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -451,6 +514,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0000880266-26-000073](https://www.sec.gov/Archives/edgar/data/880266/000088026626000073/0000880266-26-000073-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AGCO/README.md).
+[S67] [DEF 14A 0000880266-26-000023](https://www.sec.gov/Archives/edgar/data/880266/000088026626000023/agco-20260311.htm) — published 2026-03-12; retrieved 2026-11-06T19:56:08.081338+00:00.
+
+[S68] [10-K 0000880266-26-000010](https://www.sec.gov/Archives/edgar/data/880266/000088026626000010/agco-20251231.htm) — published 2026-02-13; retrieved 2026-11-06T19:56:06.153902+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGCO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

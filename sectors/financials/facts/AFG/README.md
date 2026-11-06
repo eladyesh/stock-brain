@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-02-25'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1042046/000104204626000024/afg-20260630.htm
+  title: 10-Q 0001042046-26-000024
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-06T19:55:00.378511+00:00'
+  sha256: e6e1a990f92a55c90e6ae4860914a551a2a39cf943a98122c5a6c6b0b02b1760
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1042046/000114036126013118/ny20062510x1_def14a.htm
+  title: DEF 14A 0001140361-26-013118
+  published_at: '2026-04-03'
+  retrieved_at: '2026-11-06T19:54:56.861991+00:00'
+  sha256: cb0d5aa48da2292cb9783bc6898e14a401d40e0c85fdcaaaae919a6fcd75bde5
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1042046/000104204626000010/afg-20251231.htm
+  title: 10-K 0001042046-26-000010
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-06T19:54:54.807512+00:00'
+  sha256: a2851cc14280c4d3691b5d41a01cfde88c3dd53e4a39a6a664c28f18a9fcf312
 issuer_classification:
   cik: '0001042046'
   classification_status: reported_sic
@@ -184,13 +202,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1042046/000119312526333957/0001193125-26-333957-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5d33d1aa94f1838b879749e868e29235c0b51ea213bd9fc8977dbbb4657b3912
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -205,15 +233,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001042046.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFG/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFG/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AFG — AMERICAN FINANCIAL GROUP INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFG/README.md)
 
 ## Business overview
 
@@ -227,17 +255,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-04-03, L651:
+
+> Our values form the foundation of our business, shape our priorities, and set our expectations for how we conduct our business, service our customers and interact with each other. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L509:
+
+> AFG reports its property and casualty insurance business in the following Specialty sub-segments: (i) Property and transportation, which includes physical damage and liability coverage for buses and trucks and other specialty transportation niches, inland and ocean marine, agricultural-related products and other commercial property coverages, (ii) Specialty casualty, which includes primarily excess and surplus and excess liability, general liability for the energy, construction and environmental industries, executive and professional liability, specialty coverages in targeted markets, and workers’ compensation insurance, and (iii) Specialty financial, which includes risk management insurance programs for lending and leasing institutions (including equipment leasing and collateral and lender-placed mortgage property insurance), surety and fidelity products and trade credit insurance. AFG’s reportable segments and their components were determined based primarily upon similar economic characteristics, products and services. The impacts of all intercompany transactions between segments have been eliminated. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-04-03, L3220:
+
+> We believe that concentrating our efforts help us run our business more effectively, enhance our products, protect our customers, serve our communities and support approximately 8,500 employees worldwide. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-03, L651:
+
+> Our values form the foundation of our business, shape our priorities, and set our expectations for how we conduct our business, service our customers and interact with each other. [S69]
 
 ## Industry and value chain
 
@@ -245,15 +289,27 @@ SEC-reported SIC **6331**: Fire, Marine & Casualty Insurance. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-25, L513:
+
+> In recent years, various types of investors have increasingly sought to participate in the property and casualty insurance industry. Well-capitalized new entrants to the property and casualty insurance industry, or existing competitors that receive substantial infusions of capital or access to third-party capital, provide increasing competition, which may adversely impact AFG’s business and profitability. Further, technology companies or other third parties have created, and may in the future create, technology-enabled business models, processes, platforms or alternate distribution channels that may adversely impact AFG’s competitive position in some parts of its business. [S70]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-03, L4104:
+
+> In addition to the foregoing data, when weighing potential 2025 target and maximum levels for each of the Annual Plan components, the Compensation Committee also considered other factors that might impact the Company’s ongoing financial performance, including, but not limited to, competition, macroeconomic conditions, market influences, governmental regulation and the Board of Directors’ desire to devote resources to other internal corporate objectives, such as acquisitions or start-ups. The Compensation Committee’s overarching approach for each metric was to set the target at levels that would represent very strong Company performance and the maximum at levels that would represent extraordinary performance, both objectively under AFG’s business plan and comparatively relative to its peers’ projected performance. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2026-02-25, L485:
+
+> AFG operates in limited foreign jurisdictions where its operations are subject to regulation and supervision of the various jurisdictions. These regulations, which vary depending on the jurisdiction, include, among others, solvency and market conduct regulations, including Solvency II; anti-corruption and anti-terrorist financing guidelines, laws and regulations; various privacy, insurance, tax, tariff, trade and sanctions laws and regulations, including the EU and UK General Data Protection Regulation (“GDPR”); and corporate, employment, intellectual property and investment laws and regulations. AFG has foreign insurance company subsidiaries domiciled in the United Kingdom, Ireland, Mexico, Bermuda, and the Cayman Islands and branch operations in Canada and Singapore, all of which are subject to regulation by the insurance regulator of such jurisdiction. [S70]
 
 ## Growth drivers
 
@@ -376,6 +432,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2868:
+
+> AFG’s management, with participation of its Co-Chief Executive Officers and its Chief Financial Officer, has evaluated AFG’s disclosure controls and procedures (as defined in Exchange Act Rule 13a-15) as of the end of the period covered by this report. Based on that evaluation, AFG’s Co-CEOs and CFO concluded that the controls and procedures are effective. There have been no changes in AFG’s internal control over financial reporting during the second fiscal quarter of 2026 that materially affected, or are reasonably likely to materially affect, AFG’s internal control over financial reporting. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +448,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1549:
+
+> Actual results and/or financial condition could differ materially from those contained in or implied by such forward-looking statements for a variety of reasons including but not limited to the following and the risks and uncertainties AFG describes in the “Risk Factors” section of its most recent Annual Report on Form 10-K, as updated by its other reports filed with the Securities and Exchange Commission, including: [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +461,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -461,6 +525,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S62] [10-K 0001042046-26-000010](https://www.sec.gov/Archives/edgar/data/1042046/000104204626000010/0001042046-26-000010-index.html) — published 2026-02-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFG/README.md).
+[S67] [10-Q 0001042046-26-000024](https://www.sec.gov/Archives/edgar/data/1042046/000104204626000024/afg-20260630.htm) — published 2026-08-06; retrieved 2026-11-06T19:55:00.378511+00:00.
+
+[S69] [DEF 14A 0001140361-26-013118](https://www.sec.gov/Archives/edgar/data/1042046/000114036126013118/ny20062510x1_def14a.htm) — published 2026-04-03; retrieved 2026-11-06T19:54:56.861991+00:00.
+
+[S70] [10-K 0001042046-26-000010](https://www.sec.gov/Archives/edgar/data/1042046/000104204626000010/afg-20251231.htm) — published 2026-02-25; retrieved 2026-11-06T19:54:54.807512+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

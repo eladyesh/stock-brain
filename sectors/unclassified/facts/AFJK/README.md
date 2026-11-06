@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -136,6 +136,18 @@ sources:
   published_at: '2026-05-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1979005/000149315226047583/formdef14a.htm
+  title: DEF 14A 0001493152-26-047583
+  published_at: '2026-10-19'
+  retrieved_at: '2026-11-06T19:55:07.801931+00:00'
+  sha256: 0b9cc4d63e67ddc3692139e597b54ec963661d60d8a8c41a2a2dfe7737aee32e
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1979005/000149315226021108/form10-k.htm
+  title: 10-K 0001493152-26-021108
+  published_at: '2026-05-04'
+  retrieved_at: '2026-11-06T19:55:02.896488+00:00'
+  sha256: 52a9e58acfe4a5e875137a521a64db2c744fb1fb481ae284b9ab57fcbf1c5eca
 issuer_classification:
   cik: 0001979005
   classification_status: reported_sic
@@ -173,13 +185,21 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1979005/000149315226045745/0001493152-26-045745-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3874209efea676c0934e3aa2ce6b5a005713cb5642152d55cdce9f44320047cd
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -191,15 +211,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFJK/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFJK/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AFJK — Aimei Health Technology Co., Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFJK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFJK/README.md)
 
 ## Business overview
 
@@ -212,6 +232,10 @@ The directory links the following current stock listings to this issuer. Classif
 | AFJK | NASDAQ | equity_candidate | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+Source excerpt — DEF 14A, filed 2026-10-19, L994:
+
+> or other reports filed with the SEC occur, our business, financial condition and operating results may be materially adversely affected [S63]
 
 ## Revenue model and segments
 
@@ -231,19 +255,35 @@ SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-05-04, L1939:
+
+> Limited, a China-based end-to-end supply chain solution provider with a focus on providing cross-border logistics services, since October [S66]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-05-04, L1413:
+
+> identifying, evaluating and selecting a target business for our initial business combination, we may encounter intense competition from [S66]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-05-04, L450:
+
+> changes; (9) compliance with laws; (10) company permits; (11) litigation; (12) material contracts; (13) intellectual property; (14) taxes [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-05-04, L779:
+
+> company towards commercialization. Consistent with our strategy, we have identified the following general criteria and guidelines that [S66]
 
 ## Financial performance
 
@@ -347,6 +387,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-19, L166:
+
+> Agreement also provide that if the board of directors (the “Board”) anticipates that we may not be able to consummate [S63]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -359,6 +403,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-19, L917:
+
+> Report on Form 10-K for the year ended December 31, 2025, including those factors described under the “Item 1A. Risk Factors” [S63]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -368,25 +416,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -432,6 +480,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S30] [10-K 0001493152-26-021108](https://www.sec.gov/Archives/edgar/data/1979005/000149315226021108/0001493152-26-021108-index.html) — published 2026-05-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFJK/README.md).
+[S63] [DEF 14A 0001493152-26-047583](https://www.sec.gov/Archives/edgar/data/1979005/000149315226047583/formdef14a.htm) — published 2026-10-19; retrieved 2026-11-06T19:55:07.801931+00:00.
+
+[S66] [10-K 0001493152-26-021108](https://www.sec.gov/Archives/edgar/data/1979005/000149315226021108/form10-k.htm) — published 2026-05-04; retrieved 2026-11-06T19:55:02.896488+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFJK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

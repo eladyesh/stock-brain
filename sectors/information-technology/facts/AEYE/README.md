@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -156,6 +156,18 @@ sources:
   published_at: '2026-03-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1362190/000110465926117191/tm2627892d1_8k.htm
+  title: 8-K 0001104659-26-117191
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-06T19:54:35.360369+00:00'
+  sha256: 0ea03433aa1257a43dbda879eb90a0083625413429161ca44650c19d94b6f1f3
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1362190/000110465926096032/aeye-20260630x10q.htm
+  title: 10-Q 0001104659-26-096032
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-06T19:54:33.725070+00:00'
+  sha256: 9a04ebb035d1e534f47e36807204da84391d2a745af8dcc0efe0dfe29dd41393
 issuer_classification:
   cik: 0001362190
   classification_status: reported_sic
@@ -218,13 +230,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1362190/000110465915003307/0001104659-15-003307-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d8fc3c12a5def3be0bb05c0a2ad5c445bfdd0e70fb21c7295157583280c81346
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -239,15 +261,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001362190.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEYE/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEYE/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AEYE — AUDIOEYE INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEYE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEYE/README.md)
 
 ## Business overview
 
@@ -261,17 +283,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L4655:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of the federal securities laws, including Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). In some cases, you may be able to identify forward-looking statements by terms such as “may,” “should,” “will,” “forecasts,” “expects,” “plans,” “anticipates,” “believes,” “estimates,” “predicts,” “projects,” “potential” or “continue,” the negative of these terms and other similar expressions that predict or indicate future events or trends or that are not statements of historical matters. These forward-looking statements relate to our future plans, objectives, expectations, intentions and financial performance and the assumptions that underlie these statements, and are based only on our current beliefs, expectations and assumptions regarding the future of our business, future plans and strategies, projections, anticipated events and trends, the economy and other future conditions and speak only as of the date on which they are made. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L3609:
+
+> Non-subscription revenue consists primarily of PDF remediation and one-time website and mobile application reporting services and is recognized upon delivery. Consideration payable under PDF remediation arrangements is based on usage. Consideration payable under non-subscription website and mobile application reporting services arrangements is based on fixed fees. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L4660:
+
+> \| \| ● \| rapid changes in internet-based applications that may affect the utility and commercial viability of our products; [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-13, L4669:
+
+> At its core, AudioEye’s offering provides ongoing testing, automated fixes, and 24/7 monitoring that continually improves conformance with Web Content Accessibility Guidelines (“WCAG”). This in turn helps businesses and organizations comply with WCAG standards as well as applicable U.S. and foreign accessibility laws. Our technology is capable of immediately identifying and fixing most of the common accessibility errors and addresses a wide range of disabilities including dyslexia, color blindness, epilepsy and more. AudioEye also offers additional solutions to provide for enhanced compliance and accessibility, including periodic auditing, custom fixes by experts, and legal support services. Our solutions may be purchased through a subscription service on a month-to-month basis or with one or multi-year terms. We also offer PDF remediation services, as well as mobile application and audit reporting services, including Voluntary Product Accessibility Template (VPAT) audits, to help our customers with their digital accessibility needs. [S69]
 
 ## Industry and value chain
 
@@ -285,13 +323,25 @@ Navigation sector: **information-technology**. Method: `project_sic_rule`. Proje
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-13, L4663:
+
+> \| \| ● \| the level of competition from our existing competitors and from new competitors in our marketplace; and [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-13, L3928:
+
+> Intangible assets include patents, capitalized software development costs, and customer relationships. Intangible assets with finite lives are amortized on a straight-line basis over their respective estimated useful lives and are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of such assets may not be recoverable. Intangible assets determined to have [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-13, L4672:
+
+> We plan to continue to invest in research and development and expand our portfolio of proprietary intellectual property. [S69]
 
 ## Financial performance
 
@@ -410,6 +460,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-20, L71:
+
+> announced that the Board of Directors of the Company has approved a new program to repurchase up to $15.0 million of its outstanding [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -422,6 +476,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L4262:
+
+> On the basis of our current knowledge and understanding, we do not believe that judgments, settlements or orders, if any, arising from these matters (either individually or in the aggregate) will have a material adverse effect on our financial position or results of operations. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -431,25 +489,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -495,6 +553,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S57] [10-K 0001104659-26-027159](https://www.sec.gov/Archives/edgar/data/1362190/000110465926027159/0001104659-26-027159-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEYE/README.md).
+[S68] [8-K 0001104659-26-117191](https://www.sec.gov/Archives/edgar/data/1362190/000110465926117191/tm2627892d1_8k.htm) — published 2026-10-20; retrieved 2026-11-06T19:54:35.360369+00:00.
+
+[S69] [10-Q 0001104659-26-096032](https://www.sec.gov/Archives/edgar/data/1362190/000110465926096032/aeye-20260630x10q.htm) — published 2026-08-13; retrieved 2026-11-06T19:54:33.725070+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEYE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

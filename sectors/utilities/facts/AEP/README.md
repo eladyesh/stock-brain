@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -110,6 +110,24 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/4904/000000490426000063/aep-20260929.htm
+  title: 8-K 0000004904-26-000063
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-06T19:52:54.425172+00:00'
+  sha256: 241a95a2faf717eae16588f9178c39622687d061d878d1c8a955f19992e49544
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/4904/000000490426000059/aep-20260630.htm
+  title: 10-Q 0000004904-26-000059
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-06T19:52:51.914265+00:00'
+  sha256: 598014e446a2872c90b74a730eb31894d8fdafd4432d2dccf34913bae83d3dc7
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/4904/000000490426000022/aep-20260318.htm
+  title: DEF 14A 0000004904-26-000022
+  published_at: '2026-03-18'
+  retrieved_at: '2026-11-06T19:52:50.079943+00:00'
+  sha256: 4cb42c36dd028ad0f8819f879db3701ce20d0bc027a32686faf1a5515fc38d06
 issuer_classification:
   cik: 0000004904
   classification_status: reported_sic
@@ -159,13 +177,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/4904/000000490420000073/0000004904-20-000073-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b53b63eef0dc5b51a737640b0c0afa0605bb64fcb03868acad6feb7c208bcae8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -180,15 +207,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000004904.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEP/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEP/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AEP — AMERICAN ELECTRIC POWER CO INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEP/README.md)
 
 ## Business overview
 
@@ -202,9 +229,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L481:
+
+> \| • \| New legislation or regulations adopted in the states in which we operate or federal legislation or regulations adopted that alters the regulatory framework or that prevents the timely recovery of costs and investments. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L866:
+
+> AEP’s primary business is the generation, transmission and distribution of electricity. Within its Vertically Integrated Utilities segment, AEP centrally dispatches generation assets and manages its overall utility operations on an integrated basis because of the substantial impact of cost-based rates and regulatory oversight applicable to each public utility subsidiary. Intersegment sales and transfers are generally based on underlying contractual arrangements and agreements. AEP’s reportable segments are as follows: [S54]
 
 ## Products and services
 
@@ -214,17 +249,29 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-Q, filed 2026-07-30, L507:
+
+> \| • \| The impact of changing expectations and demands of customers, regulators, investors and stakeholders, including development, adoption, and use of AI by us, our customers and our third party vendors and evolving expectations related to sustainability. [S54]
+
 ## Industry and value chain
 
 SEC-reported SIC **4911**: Electric Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L492:
+
+> \| • \| The disruption of AEP’s business operations due to impacts of economic or market conditions, costs of compliance with potential government regulations, electricity usage, supply chain issues, customers, service providers, vendors and suppliers caused by natural disasters or other events. [S54]
+
 Navigation sector: **utilities**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 8-K, filed 2026-09-30, L49:
+
+> On September 29, 2026, Alicia Knapp, President Nuclear Development of American Electric Power (“AEP” or the “Company”), left the Company. Ms. Knapp’s involuntary separation triggers benefits to her under the Company’s Executive Severance Plan if she enters a severance, release of all claims, and noncompetition agreement (“Agreement”) with the Company. Under the Company’s Executive Severance Plan, the Company would provide Ms. Knapp one times her current salary and target annual incentive compensation, prorated vesting of performance shares and restricted stock units under the Company’s long-term incentive plan. By signing the Agreement, Ms. Knapp would release the Company from all claims that she may lawfully release, agree not to compete with the Company for one year, and re-affirm certain non-solicitation, confidentiality, non-disparagement and cooperation covenants with the Company. [S53]
 
 ## Moat and differentiation
 
@@ -233,6 +280,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-18, L543:
+
+> Our business is heavily regulated. AEP engages in a complex business with significant public policy and public safety implications. A portion of our business deals with nuclear regulations and operations. The development and execution of our strategy depend on directors who have experience with public policy issues in heavily regulated industries, energy markets, technology, renewable energy, and electric transmission and distribution infrastructure. [S55]
 
 ## Financial performance
 
@@ -246,6 +297,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1460:
+
+> The Board of Directors declared a quarterly dividend of $0.95 per share in July 2026. Future dividends may vary depending upon AEP’s profit levels, operating cash flow levels and capital requirements, as well as financial and other business conditions existing at the time. Parent’s income primarily derives from common stock equity in the earnings of its utility subsidiaries. Various financing arrangements and regulatory requirements may impose certain restrictions on the ability of the subsidiaries to transfer funds to Parent in the form of dividends. Management does not believe these restrictions will have any significant impact on its ability to access cash to meet the payment of dividends on its common stock. See “Dividend Restrictions” section of Note 12 for additional information. [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -257,6 +312,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-07-30, L486:
+
+> \| • \| The impact of extreme weather conditions, natural disasters and catastrophic events such as storms, hurricanes, wildfires and drought conditions that pose significant risks including potential litigation and the inability to recover significant damages and restoration costs incurred. [S54]
 
 ## Scenarios and open questions
 
@@ -270,25 +329,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -324,6 +383,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0001628280-26-064440](https://www.sec.gov/Archives/edgar/data/4904/000162828026064440/0001628280-26-064440-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEP/README.md).
+[S53] [8-K 0000004904-26-000063](https://www.sec.gov/Archives/edgar/data/4904/000000490426000063/aep-20260929.htm) — published 2026-09-30; retrieved 2026-11-06T19:52:54.425172+00:00.
+
+[S54] [10-Q 0000004904-26-000059](https://www.sec.gov/Archives/edgar/data/4904/000000490426000059/aep-20260630.htm) — published 2026-07-30; retrieved 2026-11-06T19:52:51.914265+00:00.
+
+[S55] [DEF 14A 0000004904-26-000022](https://www.sec.gov/Archives/edgar/data/4904/000000490426000022/aep-20260318.htm) — published 2026-03-18; retrieved 2026-11-06T19:52:50.079943+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

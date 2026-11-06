@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -123,6 +123,12 @@ sources:
   published_at: '2026-07-29'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/2230/000110465926016993/tm261679d1_def14a.htm
+  title: DEF 14A 0001104659-26-016993
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-06T19:50:27.707379+00:00'
+  sha256: 03cbdee823a3df235cbac54793c37a02f2a8feeec1b4b3192e8aed7ae4fa09b4
 issuer_classification:
   cik: '0000002230'
   classification_status: missing_or_invalid_sic
@@ -154,13 +160,15 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2230/000089843224000469/0000898432-24-000469-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c6c54fe3c7b0e22263f7aedd08696c3eb589c811617a2c000f8a96240d9e69fd
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -172,15 +180,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADX/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/ADX/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ADX — ADAMS DIVERSIFIED EQUITY FUND, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/ADX/README.md)
 
 ## Business overview
 
@@ -236,6 +244,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-02-18, L374:
+
+> The Annual Meeting of Stockholders of Adams Diversified Equity Fund, Inc., a Maryland corporation (the “Fund”), will be held on Thursday, April 16, 2026, at 10:00 a.m., local time, at the Fund’s offices at 500 E. Pratt Street, Suite 1300, Baltimore, MD 21202, for the purposes set forth in the accompanying Notice of Annual Meeting and also set forth below. This proxy statement is furnished in connection with the solicitation by the Board of Directors of proxies to be used at the meeting and at any and all adjournments or postponements thereof and is first being provided to stockholders on or about February 18, 2026. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -260,7 +272,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -272,13 +284,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -314,6 +326,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [N-PX 0001104659-26-088075](https://www.sec.gov/Archives/edgar/data/2230/000110465926088075/0001104659-26-088075-index.html) — published 2026-07-29; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/ADX/README.md).
+[S53] [DEF 14A 0001104659-26-016993](https://www.sec.gov/Archives/edgar/data/2230/000110465926016993/tm261679d1_def14a.htm) — published 2026-02-18; retrieved 2026-11-06T19:50:27.707379+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/ADX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

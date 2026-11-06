@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -132,6 +132,24 @@ sources:
   published_at: '2026-09-08'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/927003/000092700326000032/aeis-20260630x10q.htm
+  title: 10-Q 0000927003-26-000032
+  published_at: '2026-08-03'
+  retrieved_at: '2026-11-06T19:51:56.991777+00:00'
+  sha256: 2b2e5badb206532c4678998f6fcc70e58c53afa5d14865b94588bcfff665fc27
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/927003/000110465926035159/aeis-20260507xdef14a.htm
+  title: DEF 14A 0001104659-26-035159
+  published_at: '2026-03-26'
+  retrieved_at: '2026-11-06T19:51:53.316229+00:00'
+  sha256: ca65bc6b08ab5226e09b507e20d58cded4fef74c2ef4b08fd1061dfa955db5d3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm
+  title: 10-K 0001104659-26-014731
+  published_at: '2026-02-13'
+  retrieved_at: '2026-11-06T19:51:51.305947+00:00'
+  sha256: dd770f94d23217f608601176f14ecd47263d2d76e834cb94c7172bdb543b096e
 issuer_classification:
   cik: 0000927003
   classification_status: reported_sic
@@ -189,13 +207,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/927003/000092700313000024/0000927003-13-000024-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ce3b3c0ef4f1007113cff8916f2a0f27c5f6591ff84cde09b3d2bb16c17549da
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -210,15 +239,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000927003.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEIS/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEIS/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AEIS — ADVANCED ENERGY INDUSTRIES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEIS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEIS/README.md)
 
 ## Business overview
 
@@ -232,17 +261,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-03, L4746:
+
+> Advanced Energy Industries, Inc., a Delaware corporation, and its consolidated subsidiaries (“we,” “us,” “our,” or “Advanced Energy”) provides highly engineered, critical, precision power conversion, measurement, and control solutions to our global customers. We design, manufacture, sell, and service precision power products that transform, refine, and modify the raw electrical power coming from either the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Many of our products enable customers to reduce or optimize their energy consumption through increased power conversion efficiency, power density, power coupling, and process control across a wide range of applications. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-13, L908:
+
+> International governments have heightened their review and scrutiny of multinational businesses like ours, which could increase our compliance costs and future tax liability to those governments. As governments continue to look for ways to increase their revenue streams, they could increase audits of companies to accelerate the recovery of monies perceived as owed to them under current or past regulations. As we are subject to examination by tax authorities in every jurisdiction where we do business, an unfavorable audit outcome could adversely affect us. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-03, L4746:
+
+> Advanced Energy Industries, Inc., a Delaware corporation, and its consolidated subsidiaries (“we,” “us,” “our,” or “Advanced Energy”) provides highly engineered, critical, precision power conversion, measurement, and control solutions to our global customers. We design, manufacture, sell, and service precision power products that transform, refine, and modify the raw electrical power coming from either the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Many of our products enable customers to reduce or optimize their energy consumption through increased power conversion efficiency, power density, power coupling, and process control across a wide range of applications. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-03, L9744:
+
+> \| \| ● \| disruptions to our manufacturing operations or those of our customers or suppliers; [S68]
 
 ## Industry and value chain
 
@@ -250,19 +295,35 @@ SEC-reported SIC **3679**: Electronic Components, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-03, L9750:
+
+> \| \| ● \| changes to and maintaining compliance with U.S. federal, state, local and foreign regulations, including with respect to trade compliance, privacy and data protection, supply chain, and environmental, health and safety regulation; [S68]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-03-26, L1469:
+
+> Directors who have served in senior leadership positions are important to the Company, as they bring experience and perspective in analyzing, shaping, and overseeing the execution of important operational and policy issues at a senior level. This experience is particularly valuable when developed in organizations that operated at a global scale, faced significant competition, and navigated rapidly evolving technology-driven markets. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-03, L9558:
+
+> We are involved in disputes and legal actions arising in the normal course of our business. While we currently believe that the amount of any ultimate loss would not be material to our financial position, the outcome of these actions is inherently difficult to predict. In the event of an adverse outcome, the ultimate loss could have a material adverse effect on our financial position or reported results of operations. An unfavorable decision in intellectual property litigation also could require material changes in production processes and products or result in our inability to ship products or components found to have violated third party intellectual property rights. We accrue loss contingencies in connection with our commitments and contingencies, including litigation, when it is probable that a loss has occurred, and the amount of such loss can be reasonably estimated. We are not currently a party to any other legal action that we believe would have a material adverse impact on our business, financial condition, results of operations or cash flows. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-26, L2464:
+
+> Sustainability is key to our strategy in the products we make, the way we operate, and how we govern as a public company. We believe our efforts to increase power conversion efficiency and improve the efficiency of our operations reflect our commitment to minimizing the environmental impact and carbon emissions that may be linked to the industries we serve. We are committed to responsible sourcing of the materials in our products, and we seek to engage with and positively impact the local communities where we operate. We also aspire to be a premier employer and good corporate citizen. We recognize that diverse perspectives and collaboration enable us to drive innovation and future growth for our global customers. [S69]
 
 ## Financial performance
 
@@ -369,6 +430,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-03, L8287:
+
+> As of June 30, 2026, the remaining amount authorized by the Board of Directors (“our Board” or “the Board”) for future share repurchases was $166.6 million with no time limitation. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -381,6 +446,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-03, L9558:
+
+> We are involved in disputes and legal actions arising in the normal course of our business. While we currently believe that the amount of any ultimate loss would not be material to our financial position, the outcome of these actions is inherently difficult to predict. In the event of an adverse outcome, the ultimate loss could have a material adverse effect on our financial position or reported results of operations. An unfavorable decision in intellectual property litigation also could require material changes in production processes and products or result in our inability to ship products or components found to have violated third party intellectual property rights. We accrue loss contingencies in connection with our commitments and contingencies, including litigation, when it is probable that a loss has occurred, and the amount of such loss can be reasonably estimated. We are not currently a party to any other legal action that we believe would have a material adverse impact on our business, financial condition, results of operations or cash flows. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -390,25 +459,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -452,6 +521,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001959173-26-006787](https://www.sec.gov/Archives/edgar/data/927003/000195917326006787/0001959173-26-006787-index.html) — published 2026-09-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AEIS/README.md).
+[S68] [10-Q 0000927003-26-000032](https://www.sec.gov/Archives/edgar/data/927003/000092700326000032/aeis-20260630x10q.htm) — published 2026-08-03; retrieved 2026-11-06T19:51:56.991777+00:00.
+
+[S69] [DEF 14A 0001104659-26-035159](https://www.sec.gov/Archives/edgar/data/927003/000110465926035159/aeis-20260507xdef14a.htm) — published 2026-03-26; retrieved 2026-11-06T19:51:53.316229+00:00.
+
+[S70] [10-K 0001104659-26-014731](https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm) — published 2026-02-13; retrieved 2026-11-06T19:51:51.305947+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AEIS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

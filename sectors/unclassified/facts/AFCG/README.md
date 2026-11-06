@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,18 @@ sources:
   published_at: '2026-09-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1822523/000162828026056471/afcg-20260630.htm
+  title: 10-Q 0001628280-26-056471
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-06T19:54:50.507235+00:00'
+  sha256: 474950578ea0cf736e83e74753e17568cc41464cf12a76ff61b2239f2b611dd9
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1822523/000162828026014392/afcg-20251231.htm
+  title: 10-K 0001628280-26-014392
+  published_at: '2026-03-04'
+  retrieved_at: '2026-11-06T19:54:46.741452+00:00'
+  sha256: 19b5454db049caef268ae0600665df34ee46319e847f7aa5df022aac29dbf806
 issuer_classification:
   cik: 0001822523
   classification_status: missing_or_invalid_sic
@@ -197,13 +209,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1822523/000114036121037544/0001140361-21-037544-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6a664fad02160d595b99c0ed278a395c59f8ee2809b04f5755043c30444e29b8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -215,15 +235,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFCG/README.md
-full_history_commit: 03bf6615b383e67c33170fc6596e78f71b7c19f2
+full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFCG/README.md
+full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AFCG — Advanced Flower Capital Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFCG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFCG/README.md)
 
 ## Business overview
 
@@ -237,9 +257,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1568:
+
+> •the state of the U.S. economy generally or in the specific geographic regions in which we operate, including as a result of the impact of natural disasters; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L1448:
+
+> ASC 280, Segment Reporting, establishes standards for reporting financial and descriptive information about an enterprise’s reportable segments. The Company generates revenue from loans to senior secured loans and other types of loans and debt securities to public and privately held lower-middle-market companies across a broad range of industries, including state law-compliant cannabis operators and ancillary cannabis companies. Businesses ancillary to the cannabis industry may include, but are not limited to, brand developers, business services providers, and equipment and consumables providers. These investments typically have maturities ranging from two to five years and may accrue interest at either fixed or floating rates. The accounting policies of the direct lending segment are the same as those described in the summary of significant accounting policies. [S68]
 
 ## Products and services
 
@@ -259,13 +287,25 @@ Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-04, L696:
+
+> During the year ended December 31, 2025, we operated in a competitive market for the origination and acquisition of attractive lending opportunities. We competed with a variety of institutional investors, including other REITs, debt funds, specialty finance companies, savings and loan associations, banks, mortgage bankers, insurance companies, investment banking firms, financial institutions, private equity and hedge funds, and other entities. Some of our competitors were substantially larger and had considerably greater financial, technical and marketing resources than we do. Several of our competitors, including other REITs, have recently raised, or are expected to raise, significant amounts of capital and may have investment objectives that overlap with our investment objectives, which may create additional competition for lending and other investment opportunities. Some of our competitors may have had a lower cost of funds and access to funding sources that may not be available to us or are only available to us on substantially less attractive terms. Many of our competitors were not subject to the operating constraints associated with REIT tax compliance or maintenance of an exemption from the 1940 Act. In addition, some of our competitors may have had higher risk tolerances or different risk assessments, which allowed them to consider a wider variety of investments and … [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-04, L699:
+
+> In the face of this competition, we had access to our Manager’s professionals and their financing industry expertise and relationships, which provided us with a competitive advantage in competing effectively for attractive investment opportunities and help us assess risks and determine appropriate pricing for certain potential investments. We also believe we had a more flexible funding structure than our competitors with typical REIT land ownership models, given our ability to redeploy funds more quickly. The duration of our loans, as compared to the length of leases usually employed by REIT land ownership models, allowed us to redeploy our capital with more flexibility as market changes occur instead of being locked in for longer periods of time. This model also allowed our borrowers to retain control of their real estate assets, which is important to their businesses and allowed for more flexibility regarding their capital structure. Although we believe our Manager’s expertise and our flexible funding structure provided us with valuable competitive advantages, we may not have been able to achieve our business goals or expectations due to the competitive risks that we faced. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-04, L288:
+
+> The Conversion is also expected to enable us to significantly expand our investment universe by increasing our ability to lend to ancillary cannabis businesses as well as non-real estate covered vertically integrated operators. [S70]
 
 ## Financial performance
 
@@ -372,6 +412,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L903:
+
+> The Adviser shall value the investments owned by the Company, subject at all times to the oversight of the Company’s Board of Directors (the “Board” or the “Board of Directors”). The Adviser shall follow its own written valuation policies and procedures as approved by the Board when determining valuations. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -384,6 +428,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1291:
+
+> Historically, the Company provided loans to companies operating in the cannabis industry which involved significant risks, including the risk of strict enforcement against the Company’s borrowers on the federal illegality of cannabis, the Company’s borrowers’ inability to renew or otherwise maintain their licenses or other requisite authorizations for their cannabis operations, and such loans lack of liquidity, and the Company could lose all or part of any of the Company’s loans. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -393,25 +441,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -455,6 +503,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001628280-26-063099](https://www.sec.gov/Archives/edgar/data/1822523/000162828026063099/0001628280-26-063099-index.html) — published 2026-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/03bf6615b383e67c33170fc6596e78f71b7c19f2/brain/companies/AFCG/README.md).
+[S68] [10-Q 0001628280-26-056471](https://www.sec.gov/Archives/edgar/data/1822523/000162828026056471/afcg-20260630.htm) — published 2026-08-13; retrieved 2026-11-06T19:54:50.507235+00:00.
+
+[S70] [10-K 0001628280-26-014392](https://www.sec.gov/Archives/edgar/data/1822523/000162828026014392/afcg-20251231.htm) — published 2026-03-04; retrieved 2026-11-06T19:54:46.741452+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AFCG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
