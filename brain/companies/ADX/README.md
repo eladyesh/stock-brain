@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -393,6 +393,24 @@ sources:
   published_at: '2025-02-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/2230/000110465926016993/tm261679d1_def14a.htm
+  title: DEF 14A 0001104659-26-016993
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-06T19:50:27.707379+00:00'
+  sha256: 03cbdee823a3df235cbac54793c37a02f2a8feeec1b4b3192e8aed7ae4fa09b4
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/2230/000089843224000469/form8k-a.htm
+  title: 8-K/A 0000898432-24-000469
+  published_at: '2024-06-07'
+  retrieved_at: '2026-11-06T19:50:26.173167+00:00'
+  sha256: d61e0a712a146a1c98eb66ad974294d31f9c8b3913febf5b006b216a2dffc9dd
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/2230/000089843224000465/form8-k.htm
+  title: 8-K 0000898432-24-000465
+  published_at: '2024-06-06'
+  retrieved_at: '2026-11-06T19:50:24.425501+00:00'
+  sha256: 3eb85eb7caa9a830193b8d28348465020e562efcbb51fe5a51cc895cb8dcfd64
 issuer_classification:
   cik: '0000002230'
   classification_status: missing_or_invalid_sic
@@ -424,13 +442,15 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2230/000089843224000469/0000898432-24-000469-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c6c54fe3c7b0e22263f7aedd08696c3eb589c811617a2c000f8a96240d9e69fd
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -494,6 +514,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-02-18, L374:
+
+> The Annual Meeting of Stockholders of Adams Diversified Equity Fund, Inc., a Maryland corporation (the “Fund”), will be held on Thursday, April 16, 2026, at 10:00 a.m., local time, at the Fund’s offices at 500 E. Pratt Street, Suite 1300, Baltimore, MD 21202, for the purposes set forth in the accompanying Notice of Annual Meeting and also set forth below. This proxy statement is furnished in connection with the solicitation by the Board of Directors of proxies to be used at the meeting and at any and all adjournments or postponements thereof and is first being provided to stockholders on or about February 18, 2026. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -518,7 +542,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -530,13 +554,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -600,6 +624,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-02-12 | 5 | 0000002230-25-000018 | — | [S50] |
 | 2025-02-11 | 13F-HR | 0001104659-25-011305 | — | [S51] |
 | 2025-02-11 | 5 | 0000002230-25-000016 | — | [S52] |
+
+Source excerpt — DEF 14A, filed 2026-02-18, L1439:
+
+> As permitted under the Act, the Audit Committee selected PricewaterhouseCoopers LLP, 100 E. Pratt Street, Suite 2600, Baltimore, MD 21202, an independent registered public accounting firm, for recommendation to the full Board as the independent registered public accounting firm to audit the books and accounts of the Fund for the year ending December 31, 2026. PricewaterhouseCoopers LLP was the Fund’s principal auditor during the year 2025. A majority of the members of the Board of Directors who are not “interested persons” ​(as defined by the Act) have approved the selection of PricewaterhouseCoopers LLP as the Fund’s independent registered public accounting firm for 2026. While not required under the Act, the Audit Committee and the Board of Directors have determined to submit for stockholder ratification the selection of PricewaterhouseCoopers LLP as the Fund’s independent registered public accounting firm for 2026 at the Annual Meeting. If the stockholders do not ratify the selection of PricewaterhouseCoopers LLP, the Board of Directors will reconsider whether or not to appoint PricewaterhouseCoopers LLP, but may nonetheless appoint such firm. Representatives of PricewaterhouseCoopers LLP are expected to be present at the meeting to make a statement, if they so desire, and to respond to appropriate questions. The Fund has been informed that PricewaterhouseCoopers LLP does … [S53]
 
 ## Sources and change log
 
@@ -706,5 +734,11 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S51] [13F-HR 0001104659-25-011305](https://www.sec.gov/Archives/edgar/data/2230/000110465925011305/0001104659-25-011305-index.html) — published 2025-02-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [5 0000002230-25-000016](https://www.sec.gov/Archives/edgar/data/2230/000000223025000016/0000002230-25-000016-index.html) — published 2025-02-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [DEF 14A 0001104659-26-016993](https://www.sec.gov/Archives/edgar/data/2230/000110465926016993/tm261679d1_def14a.htm) — published 2026-02-18; retrieved 2026-11-06T19:50:27.707379+00:00.
+
+[S54] [8-K/A 0000898432-24-000469](https://www.sec.gov/Archives/edgar/data/2230/000089843224000469/form8k-a.htm) — published 2024-06-07; retrieved 2026-11-06T19:50:26.173167+00:00.
+
+[S55] [8-K 0000898432-24-000465](https://www.sec.gov/Archives/edgar/data/2230/000089843224000465/form8-k.htm) — published 2024-06-06; retrieved 2026-11-06T19:50:24.425501+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

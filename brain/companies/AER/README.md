@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -374,6 +374,66 @@ sources:
   published_at: '2026-03-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000095015726001081/form6-k.htm
+  title: 6-K 0000950157-26-001081
+  published_at: '2026-10-07'
+  retrieved_at: '2026-11-06T19:53:13.000023+00:00'
+  sha256: 509cc50e68b05af7024d1b7e2d3081673544cefc936211017d2bef1ed3005eb3
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000095015726000232/form6-ka.htm
+  title: 6-K/A 0000950157-26-000232
+  published_at: '2026-03-05'
+  retrieved_at: '2026-11-06T19:53:11.288017+00:00'
+  sha256: 229ff1b4e2d536bc88c5e9d16f10d0fa5ec4c2aef2f7ff750a2f2f9341cf083d
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000162828026007513/aer-20251231.htm
+  title: 20-F 0001628280-26-007513
+  published_at: '2026-02-12'
+  retrieved_at: '2026-11-06T19:53:09.472489+00:00'
+  sha256: 9e7dbf76e6967f272792c838a0cab6c1fe9ce18bac00d89b566c2fa70ea722c2
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000137878924000030/aer-20231231.htm
+  title: 20-F/A 0001378789-24-000030
+  published_at: '2024-09-13'
+  retrieved_at: '2026-11-06T19:53:07.458863+00:00'
+  sha256: 7ada0e6612294b4916cbe023624288c74153c8c574b98fde398c3b041a74dc18
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000095015722000595/form20-f_a.htm
+  title: 20-F/A 0000950157-22-000595
+  published_at: '2022-05-17'
+  retrieved_at: '2026-11-06T19:53:05.639132+00:00'
+  sha256: 298d26560cb41ee603f90a9350776ba6b6c2630a5fd2d08f1d099f31a02024bb
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000137878919000018/aer-06302019x6kxxbrl.htm
+  title: 6-K/A 0001378789-19-000018
+  published_at: '2019-09-20'
+  retrieved_at: '2026-11-06T19:53:03.449231+00:00'
+  sha256: 02709cfb0a0b6ff0e1e355cb028e09dbd343fbf39db122f39b672b41a85eaaf8
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000110465912075414/a12-26318_36ka.htm
+  title: 6-K/A 0001104659-12-075414
+  published_at: '2012-11-07'
+  retrieved_at: '2026-11-06T19:53:01.417978+00:00'
+  sha256: 45f62d47a5fde05fcdbf7574a7a7a7e65da4ebc072c5032d664aa7735ca69244
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000110465912014392/a12-6138_16ka.htm
+  title: 6-K/A 0001104659-12-014392
+  published_at: '2012-02-29'
+  retrieved_at: '2026-11-06T19:52:59.759309+00:00'
+  sha256: a5fc711653247ac2f49a3c195e9a5cc9ff3131a87b9c76d341da205cbf624dcd
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000110465911039483/a11-16241_56ka.htm
+  title: 6-K/A 0001104659-11-039483
+  published_at: '2011-07-18'
+  retrieved_at: '2026-11-06T19:52:58.237074+00:00'
+  sha256: 6862b4c6a208142cda5b23f65b2f9cff3894d8403c61abc10f738c74c91a2680
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1378789/000110465911021310/a11-10464_120fa.htm
+  title: 20-F/A 0001104659-11-021310
+  published_at: '2011-04-20'
+  retrieved_at: '2026-11-06T19:52:56.540114+00:00'
+  sha256: 61476dcd28c7f233f03dc4c532c4526b3f7f09806a2bba94187d76ed6b872c8f
 issuer_classification:
   cik: 0001378789
   classification_status: reported_sic
@@ -433,13 +493,23 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1378789/000110465911039483/0001104659-11-039483-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e863618fa1cf87cbe1923d2fb000318e6246fd61c772ca0098bc25385d683965
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -463,6 +533,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-02-12, L283:
+
+> This annual report includes “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, principally under the captions “Item 3. Key Information—Risk Factors,” “Item 4. Information on the Company” and “Item 5. Operating and Financial Review and Prospects.” We have based these forward looking statements largely on our current beliefs and projections about future events and financial trends affecting our business. Many important factors, in addition to those discussed in this annual report, could cause our actual results to differ substantially from those anticipated in our forward-looking statements, including, among other things: [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -471,9 +545,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-02-12, L546:
+
+> We have longstanding relationships and contractual commitments with approximately 150 customers, including the two largest manufacturers of commercial aviation engines, GE Aerospace and CFMI, to which we provide spare engines services for their airline customers. Our services include leasing, guaranteed availability, administrative servicing, light maintenance, logistics and optimization of commercial jet engines. [S55]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-02-12, L450:
+
+> •missed or late delivery of aircraft and engines ordered by us and an inability to meet our contractual obligations to our customers, resulting in lost or delayed revenues, lower growth rates and strained customer relationships; [S55]
 
 ## Industry and value chain
 
@@ -481,17 +563,33 @@ SEC-reported SIC **7359**: Services-Equipment Rental & Leasing, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-02-12, L338:
+
+> •We rely on a small number of manufacturers for the supply of commercial flight equipment, and disruptions in these manufacturers’ operating abilities, including as a result of supply chain issues, labor stoppages and quality control issues, have caused us to experience delays, and may cause us to experience further delays, on the delivery of our flight equipment orders. We may experience additional delivery delays and associated costs if flight equipment fails to meet the contractual requirements or the requirements of air travel regulators. [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-02-12, L299:
+
+> The words “believe,” “may,” “will,” “aim,” “estimate,” “continue,” “anticipate,” “intend,” “expect” and similar words are intended to identify forward-looking statements. Forward-looking statements include information concerning our possible or assumed future results of operations, business strategies, financing plans, competitive position, industry environment, potential growth opportunities, the effects of future regulation and the effects of competition. Forward-looking statements speak only as of the date they were made and we undertake no obligation to update publicly or to revise any forward-looking statements because of new information, future events or other factors. In light of the risks and uncertainties described above, the forward-looking events and circumstances described in this annual report might not occur and are not guarantees of future performance. [S55]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-02-12, L343:
+
+> •We may face new compliance obligations and increased cybersecurity, data privacy, and intellectual property risks in connection with the adoption of artificial intelligence (“AI”), which may result in operational errors, reputational harm or legal exposure. [S55]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-02-12, L804:
+
+> Due to our aircraft order book, we believe that we are well-positioned to take advantage of trading opportunities and expand our aircraft portfolio. We believe that our global network of strong relationships with airlines, aircraft manufacturers, maintenance, repair and overhaul service providers and commercial and financial institutions gives us a competitive advantage in sourcing and executing transactions. Our revolving credit facilities are designed to allow us to rapidly execute our portfolio management strategies by providing us with large-scale committed funding to acquire new and used aircraft. [S55]
 
 ## Financial performance
 
@@ -505,6 +603,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-02-12, L45:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b).Yes ☐ No ☒ [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -516,6 +618,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-02-12, L283:
+
+> This annual report includes “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, principally under the captions “Item 3. Key Information—Risk Factors,” “Item 4. Information on the Company” and “Item 5. Operating and Financial Review and Prospects.” We have based these forward looking statements largely on our current beliefs and projections about future events and financial trends affecting our business. Many important factors, in addition to those discussed in this annual report, could cause our actual results to differ substantially from those anticipated in our forward-looking statements, including, among other things: [S55]
 
 ## Scenarios and open questions
 
@@ -529,25 +635,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -611,6 +717,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-18 | 3 | 0000950157-26-000348 | — | [S50] |
 | 2026-03-18 | 3 | 0000950157-26-000346 | — | [S51] |
 | 2026-03-05 | 6-K/A | 0000950157-26-000232 | — | [S52] |
+
+Source excerpt — 20-F, filed 2026-02-12, L374:
+
+> Despite rate decreases during the year ended December 31, 2025, interest rates remain elevated relative to the past 15 years in the United States, the European Union and other countries, and may remain high during 2026. In a higher interest rate environment, we are obligated to make higher interest payments to the lenders of our floating-rate debt, which negatively impacts our net income to the extent that those payments are not hedged. Higher rates are also likely to increase the cost of any new financing we may raise during this period, which could, if not hedged, impact our net income. Typically, we are not able to immediately offset this negative impact by increasing the rates on our leases. During the year ended December 31, 2025, 99% of our basic lease rents from flight equipment under operating leases was attributable to leases with fixed lease rates or power-by-the-hour (“PBH”) agreements and 1% was derived from leases with lease rates tied to floating interest rates. As our leases are primarily for multiple years with fixed lease rates for the duration of the lease, we generally cannot increase the lease rates with respect to a particular aircraft until the expiration of the lease, even if the market is able to bear the increased lease rates. As a result, there will be a lag in our ability to adjust and pass on the costs of increasing interest rates. Rising interest … [S55]
 
 ## Sources and change log
 
@@ -717,5 +827,25 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S51] [3 0000950157-26-000346](https://www.sec.gov/Archives/edgar/data/1378789/000095015726000346/0000950157-26-000346-index.html) — published 2026-03-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K/A 0000950157-26-000232](https://www.sec.gov/Archives/edgar/data/1378789/000095015726000232/0000950157-26-000232-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0000950157-26-001081](https://www.sec.gov/Archives/edgar/data/1378789/000095015726001081/form6-k.htm) — published 2026-10-07; retrieved 2026-11-06T19:53:13.000023+00:00.
+
+[S54] [6-K/A 0000950157-26-000232](https://www.sec.gov/Archives/edgar/data/1378789/000095015726000232/form6-ka.htm) — published 2026-03-05; retrieved 2026-11-06T19:53:11.288017+00:00.
+
+[S55] [20-F 0001628280-26-007513](https://www.sec.gov/Archives/edgar/data/1378789/000162828026007513/aer-20251231.htm) — published 2026-02-12; retrieved 2026-11-06T19:53:09.472489+00:00.
+
+[S56] [20-F/A 0001378789-24-000030](https://www.sec.gov/Archives/edgar/data/1378789/000137878924000030/aer-20231231.htm) — published 2024-09-13; retrieved 2026-11-06T19:53:07.458863+00:00.
+
+[S57] [20-F/A 0000950157-22-000595](https://www.sec.gov/Archives/edgar/data/1378789/000095015722000595/form20-f_a.htm) — published 2022-05-17; retrieved 2026-11-06T19:53:05.639132+00:00.
+
+[S58] [6-K/A 0001378789-19-000018](https://www.sec.gov/Archives/edgar/data/1378789/000137878919000018/aer-06302019x6kxxbrl.htm) — published 2019-09-20; retrieved 2026-11-06T19:53:03.449231+00:00.
+
+[S59] [6-K/A 0001104659-12-075414](https://www.sec.gov/Archives/edgar/data/1378789/000110465912075414/a12-26318_36ka.htm) — published 2012-11-07; retrieved 2026-11-06T19:53:01.417978+00:00.
+
+[S60] [6-K/A 0001104659-12-014392](https://www.sec.gov/Archives/edgar/data/1378789/000110465912014392/a12-6138_16ka.htm) — published 2012-02-29; retrieved 2026-11-06T19:52:59.759309+00:00.
+
+[S61] [6-K/A 0001104659-11-039483](https://www.sec.gov/Archives/edgar/data/1378789/000110465911039483/a11-16241_56ka.htm) — published 2011-07-18; retrieved 2026-11-06T19:52:58.237074+00:00.
+
+[S62] [20-F/A 0001104659-11-021310](https://www.sec.gov/Archives/edgar/data/1378789/000110465911021310/a11-10464_120fa.htm) — published 2011-04-20; retrieved 2026-11-06T19:52:56.540114+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

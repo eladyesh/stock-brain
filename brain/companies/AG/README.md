@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -380,6 +380,78 @@ sources:
   published_at: '2025-05-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000106299326005282/form6k.htm
+  title: 6-K 0001062993-26-005282
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-06T19:55:53.378706+00:00'
+  sha256: e756857fb0c2733e9d961a3917da94b13de777c7af00a4b5907e2a2ee07051c7
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000106299326001765/form40f.htm
+  title: 40-F 0001062993-26-001765
+  published_at: '2026-03-31'
+  retrieved_at: '2026-11-06T19:55:51.775828+00:00'
+  sha256: 6c52e6d054e9908447d92f2a5e925acaedad6461b00d3aa818500cb729304a07
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000162828026009480/ag-2025q4x6k.htm
+  title: 6-K/A 0001628280-26-009480
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-06T19:55:50.197041+00:00'
+  sha256: 43a776afd7dc1c173c729ed7ad8d310923996df2c8ae6747c51b9380fd337ae9
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000162828022006137/ag-2021q4x6ka.htm
+  title: 6-K/A 0001628280-22-006137
+  published_at: '2022-03-15'
+  retrieved_at: '2026-11-06T19:55:48.812901+00:00'
+  sha256: adbca731d79afe03927eddfb1acf1a143875c81702f484b0dabab5d22cce38d1
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000117625622000051/firstmajestic6kanomrd.htm
+  title: 6-K/A 0001176256-22-000051
+  published_at: '2022-02-16'
+  retrieved_at: '2026-11-06T19:55:47.118548+00:00'
+  sha256: c322f38d85ab437030b65bbc9a340e51822b7546dda655148ccf7300bb2efc02
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000162828021005616/ag-2020q4x6ka.htm
+  title: 6-K/A 0001628280-21-005616
+  published_at: '2021-03-25'
+  retrieved_at: '2026-11-06T19:55:45.560422+00:00'
+  sha256: 21ce78460f20ede194229f3606710707282a3038a8791d4177ef44bdbe840201
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000106299320002917/form6ka.htm
+  title: 6-K/A 0001062993-20-002917
+  published_at: '2020-06-19'
+  retrieved_at: '2026-11-06T19:55:43.011368+00:00'
+  sha256: b1a8c145c4cbb11899590af28fe5501a8cf822fbf6dfff8550d9f235e3a5b79b
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000117625620000118/firstmajestic6kanomrd.htm
+  title: 6-K/A 0001176256-20-000118
+  published_at: '2020-04-01'
+  retrieved_at: '2026-11-06T19:55:41.435809+00:00'
+  sha256: f2ce8a0c0627b58165572026c1904458f20badb880fec52b9e8d0b854f3b23a2
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000091228219000138/firstmajestic6ka_111419.htm
+  title: 6-K/A 0000912282-19-000138
+  published_at: '2019-11-14'
+  retrieved_at: '2026-11-06T19:55:39.638304+00:00'
+  sha256: 11ff9619ca82e4a14f49c81afaa91cd58dc2c94aad9597ef9ce958d627975b1b
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000119312519215174/d758003d6ka.htm
+  title: 6-K/A 0001193125-19-215174
+  published_at: '2019-08-07'
+  retrieved_at: '2026-11-06T19:55:37.896063+00:00'
+  sha256: 5f6198b37bbacd8a1210f5ace4e802c11ddd4c846078b4ea6bcec38ca0acee1b
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000106299318001489/form40fa.htm
+  title: 40-F/A 0001062993-18-001489
+  published_at: '2018-04-04'
+  retrieved_at: '2026-11-06T19:55:36.071860+00:00'
+  sha256: f997e7dac1b0be58900a8bc33d67021bc47ae2c9bf02f9412e82a747310420fd
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1308648/000127956914001965/firstmajectic40fa.htm
+  title: 40-F/A 0001279569-14-001965
+  published_at: '2014-12-04'
+  retrieved_at: '2026-11-06T19:55:34.324386+00:00'
+  sha256: 8a683ecb7892d07efdd68b14f197272ba2902e3915fbd8aa8959ee7d3f57d1cc
 issuer_classification:
   cik: 0001308648
   classification_status: reported_sic
@@ -447,13 +519,15 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1308648/000119312519215174/0001193125-19-215174-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d0efbdfa02d9819f4f667c63c78835ec949e432bf491e2c59b324ae63f3fe61f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -519,6 +593,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-31, L68:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -543,7 +621,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -555,13 +633,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -625,6 +703,10 @@ Latest 50 filing metadata records of 584 retained records. A filing link is evid
 | 2025-05-21 | 6-K | 0001062993-25-009926 | — | [S50] |
 | 2025-05-15 | 6-K | 0001062993-25-009445 | — | [S51] |
 | 2025-05-12 | SCHEDULE 13G/A | 0000950170-25-069558 | — | [S52] |
+
+Source excerpt — 40-F, filed 2026-03-31, L96:
+
+> The Company’s management excluded from its assessment the internal controls, policies and procedures of Gatos Silver, Inc. (“Gatos Silver”), which the Company acquired on January 16, 2025. This limitation of scope is in accordance with section 3.3(1)(b) of Canadian National Instrument 52-109 Certification of Disclosure in Issuers’ Annual and Interim Filings which allows for an issuer to limit the design of disclosure controls and procedures or internal control over financial reporting to exclude a business that the issuer acquired not more than 365 days before the end of the financial period to which the CEO’s and CFO’s certification of annual filings relates. With the exception of the internal controls of Gatos Silver, there have been no significant changes in our internal control over financial reporting during the year ended December 31, 2025 that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting. [S54]
 
 ## Sources and change log
 
@@ -731,5 +813,29 @@ Latest 50 filing metadata records of 584 retained records. A filing link is evid
 [S51] [6-K 0001062993-25-009445](https://www.sec.gov/Archives/edgar/data/1308648/000106299325009445/0001062993-25-009445-index.html) — published 2025-05-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [SCHEDULE 13G/A 0000950170-25-069558](https://www.sec.gov/Archives/edgar/data/1308648/000095017025069558/0000950170-25-069558-index.html) — published 2025-05-12; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001062993-26-005282](https://www.sec.gov/Archives/edgar/data/1308648/000106299326005282/form6k.htm) — published 2026-10-13; retrieved 2026-11-06T19:55:53.378706+00:00.
+
+[S54] [40-F 0001062993-26-001765](https://www.sec.gov/Archives/edgar/data/1308648/000106299326001765/form40f.htm) — published 2026-03-31; retrieved 2026-11-06T19:55:51.775828+00:00.
+
+[S55] [6-K/A 0001628280-26-009480](https://www.sec.gov/Archives/edgar/data/1308648/000162828026009480/ag-2025q4x6k.htm) — published 2026-02-19; retrieved 2026-11-06T19:55:50.197041+00:00.
+
+[S56] [6-K/A 0001628280-22-006137](https://www.sec.gov/Archives/edgar/data/1308648/000162828022006137/ag-2021q4x6ka.htm) — published 2022-03-15; retrieved 2026-11-06T19:55:48.812901+00:00.
+
+[S57] [6-K/A 0001176256-22-000051](https://www.sec.gov/Archives/edgar/data/1308648/000117625622000051/firstmajestic6kanomrd.htm) — published 2022-02-16; retrieved 2026-11-06T19:55:47.118548+00:00.
+
+[S58] [6-K/A 0001628280-21-005616](https://www.sec.gov/Archives/edgar/data/1308648/000162828021005616/ag-2020q4x6ka.htm) — published 2021-03-25; retrieved 2026-11-06T19:55:45.560422+00:00.
+
+[S59] [6-K/A 0001062993-20-002917](https://www.sec.gov/Archives/edgar/data/1308648/000106299320002917/form6ka.htm) — published 2020-06-19; retrieved 2026-11-06T19:55:43.011368+00:00.
+
+[S60] [6-K/A 0001176256-20-000118](https://www.sec.gov/Archives/edgar/data/1308648/000117625620000118/firstmajestic6kanomrd.htm) — published 2020-04-01; retrieved 2026-11-06T19:55:41.435809+00:00.
+
+[S61] [6-K/A 0000912282-19-000138](https://www.sec.gov/Archives/edgar/data/1308648/000091228219000138/firstmajestic6ka_111419.htm) — published 2019-11-14; retrieved 2026-11-06T19:55:39.638304+00:00.
+
+[S62] [6-K/A 0001193125-19-215174](https://www.sec.gov/Archives/edgar/data/1308648/000119312519215174/d758003d6ka.htm) — published 2019-08-07; retrieved 2026-11-06T19:55:37.896063+00:00.
+
+[S63] [40-F/A 0001062993-18-001489](https://www.sec.gov/Archives/edgar/data/1308648/000106299318001489/form40fa.htm) — published 2018-04-04; retrieved 2026-11-06T19:55:36.071860+00:00.
+
+[S64] [40-F/A 0001279569-14-001965](https://www.sec.gov/Archives/edgar/data/1308648/000127956914001965/firstmajectic40fa.htm) — published 2014-12-04; retrieved 2026-11-06T19:55:34.324386+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

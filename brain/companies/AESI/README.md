@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 86d2c2eb5f0d04184291ea987a803ca356b9eea9
+source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -458,6 +458,36 @@ sources:
   published_at: '2026-02-24'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1984060/000110465926117979/tm2628081d1_8k.htm
+  title: 8-K 0001104659-26-117979
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-06T19:53:55.583626+00:00'
+  sha256: 77acbaba4e60575bd751ef6207d9f22d34d2d85a9b31a3291ea56fb8d2cde05f
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1984060/000119312526333424/aesi-20260630.htm
+  title: 10-Q 0001193125-26-333424
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-06T19:53:53.775276+00:00'
+  sha256: 56a549845d03d327f53495151531d3107ac1aebd0683e3891b3cb3647fb38979
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1984060/000114036126011749/ny20063836x2_def14a.htm
+  title: DEF 14A 0001140361-26-011749
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-06T19:53:52.052015+00:00'
+  sha256: e721bc557becd6d8bb5b49fcd47e8e9c76a2796e9c88afb80f1c5f65ecdde7b4
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1984060/000119312526067145/aesi-20251231.htm
+  title: 10-K 0001193125-26-067145
+  published_at: '2026-02-24'
+  retrieved_at: '2026-11-06T19:53:49.991002+00:00'
+  sha256: 9314040eb3da3466672d2807d4530b52b4cdce94deaffc07f221fa4123f02811
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1984060/000110465924058683/tm2413159d1_8ka.htm
+  title: 8-K/A 0001104659-24-058683
+  published_at: '2024-05-08'
+  retrieved_at: '2026-11-06T19:53:48.295787+00:00'
+  sha256: b50d71e222ae4443a15fa1f13b1796a5ebe514b20b88f6c4dcc6971745d1b07b
 issuer_classification:
   cik: 0001984060
   classification_status: reported_sic
@@ -499,13 +529,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1984060/000110465924058683/0001104659-24-058683-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e935d1a8807a064444976c7c69e7db647c66addfe35c4d8f372c050ff65169c1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-06T19:49:30.346586+00:00'
+  last_success_at: '2026-11-06T19:49:30.346586+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -529,17 +570,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L2810:
+
+> The Company is a producer of high-quality, locally sourced 100 mesh and 40/70 sand used as a proppant during the well completion process. Proppant is necessary to facilitate the recovery of hydrocarbons from oil and natural gas wells. One hundred percent of Atlas LLC’s sand reserves are located in Texas within the Permian Basin and operations consist of proppant production and processing facilities, including four facilities near Kermit, Texas (together, the “Kermit facilities”), a fifth facility near Monahans, Texas (the “Monahans facility”), and the OnCore distributed mining network. We sell products and services primarily to oil and natural gas exploration and production companies and oilfield services companies primarily under supply agreements and also through spot sales on the open market. We operate a differentiated logistics platform that is designed to increase the efficiency, safety and sustainability of the oil and natural gas industry primarily within the Permian Basin. This includes our fleet of fit-for-purpose trucks, trailers, wellsite equipment, and the Dune Express, an overland conveyor infrastructure solution. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-24, L730:
+
+> Atlas Energy Solutions Inc. is a leading proppant producer, logistics, and distributed power solutions provider, primarily serving the Permian Basin of West Texas and New Mexico. We operate our business through two reportable segments: Sand and Logistics and Power. Our mission is to improve human beings’ access to the hydrocarbons that power our lives, and, by doing so, we maximize the value creation for our stockholders. Value creation for our shareholders is our fundamental goal. In order to fulfill our mission and create value for our shareholders, we strive to optimize the outcomes for our broader stakeholders, including our employees and the communities in which we operate. We are proud of the fact that our approach to innovation in the hydrocarbon industry drives efficiencies creating value for our shareholders, while also delivering differentiated social and environmental progress. The Company has driven innovation designed to provide industry-leading environmental benefits by reducing energy consumption, emissions, and our aerial footprint. We call this Sustainable Environmental and Social Progress, and it is driven by shareholder value creation. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8245:
+
+> customer concentration, the potential for future consolidation amongst current or potential customers and the possibility that customers may not continue to outsource their power system needs, which could affect demand for our products and services, especially in the power generation industry; [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L2838:
+
+> We are exposed to credit losses primarily through sales of products, services, and rentals. We analyze accounts receivable on an individual customer and overall basis through review of historical collection experience and current aging status of our customer accounts. We also consider the financial condition and economic environment of our customers in evaluating the need for an allowance. The Company considers its trade receivables to consist of two portfolio segments: general receivables and shortfall receivables. [S66]
 
 ## Industry and value chain
 
@@ -547,17 +604,33 @@ SEC-reported SIC **1311**: Crude Petroleum & Natural Gas. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8321:
+
+> We operate a differentiated logistics platform that is designed to increase the efficiency, safety and sustainability of the oil and natural gas industry primarily within the Permian Basin. This includes our fleet of fit-for-purpose trucks, trailers, wellsite equipment, and the Dune Express, an overland conveyor infrastructure solution. We have also begun integrating autonomous driving technologies in certain of our fit-for-purpose trucks, creating the first semi-autonomous oilfield logistics network in an effort to increase our automation of the oil and gas proppant supply chain. [S66]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-24, L698:
+
+> the ability of certain of the Principal Stockholders and members of the Board to compete with the Company; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-27, L659:
+
+> Robb L. Voyles has served as a member of our Board since March 2023 and currently serves as chair of our Audit Committee. Mr. Voyles has served as a Mediator, Arbitrator, on our Nominating and Corporate Governance Committee and a Referee/Special Master with JAMS, the largest private provider of alternative dispute resolution services worldwide since 2021. He has served as a consultant for Superior Energy Services, a privately held oil field service company, since November 2024. Mr. Voyles previously served as Executive Vice President, Secretary and Chief Legal Officer at Halliburton from 2014 through 2021, where he led the company’s litigation, commercial law, mergers and acquisitions, intellectual property, labor and employment and ethics and compliance departments. He was also responsible for Halliburton’s corporate governance, directed its enterprise risk management program and guided the company’s sustainability and ESG design, practices and reporting. Mr. Voyles also served as Halliburton’s interim Chief Financial Officer in 2017. Prior to his tenure at Halliburton, Mr. Voyles spent 26 years with Baker Botts L.L.P., where he was a senior partner and the global chair of the litigation department. Mr. Voyles earned a Juris Doctor degree from the University of Michigan Law School and a Bachelor of Business Administration in accounting from the University of Dayton. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L8215:
+
+> This Report contains forward-looking statements that are subject to risks and uncertainties. All statements, other than statements of historical fact included in this Report, regarding our strategy, future operations, financial position, estimated revenues and losses, projected costs, prospects, plans and objectives of management are forward-looking statements. When used in this Report, the words “may,” “forecast,” “continue,” “could,” “would,” “will,” “plan,” “believe,” “anticipate,” “intend,” “estimate,” “expect,” “project” and similar expressions are intended to identify forward-looking statements, although not all forward-looking statements contain such identifying words. These forward-looking statements are based on our current expectations and assumptions about future events and are based on currently available information as to the outcome and timing of future events. When considering forward-looking statements, you should keep in mind the risk factors and other cautionary statements described under the section titled “Risk Factors” included in this Report and in our Annual Report, and our Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, filed with the SEC on May 5, 2026. By their nature, forward-looking statements involve known and unknown risks and uncertainties because they relate to events and depend on circumstances that may or may not occur in … [S66]
 
 ## Financial performance
 
@@ -1113,6 +1186,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L5997:
+
+> On October 24, 2024, the Board of Directors of the Company (the “Board”) authorized a share repurchase program under which the Company may repurchase up to $200.0 million of outstanding Common Stock until December 31, 2026. There were no shares repurchased during the three and six months ended June 30, 2026. During both the three and six months ended June 30, 2025, the Company repurchased 16,380 shares of Common Stock through open-market purchases, pursuant to our share repurchase program, at an average price, including commission, of $12.21 for an aggregate purchase price of $200,000. As of June 30, 2026, $199.8 million remains available for repurchase. [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1125,6 +1202,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8215:
+
+> This Report contains forward-looking statements that are subject to risks and uncertainties. All statements, other than statements of historical fact included in this Report, regarding our strategy, future operations, financial position, estimated revenues and losses, projected costs, prospects, plans and objectives of management are forward-looking statements. When used in this Report, the words “may,” “forecast,” “continue,” “could,” “would,” “will,” “plan,” “believe,” “anticipate,” “intend,” “estimate,” “expect,” “project” and similar expressions are intended to identify forward-looking statements, although not all forward-looking statements contain such identifying words. These forward-looking statements are based on our current expectations and assumptions about future events and are based on currently available information as to the outcome and timing of future events. When considering forward-looking statements, you should keep in mind the risk factors and other cautionary statements described under the section titled “Risk Factors” included in this Report and in our Annual Report, and our Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, filed with the SEC on May 5, 2026. By their nature, forward-looking statements involve known and unknown risks and uncertainties because they relate to events and depend on circumstances that may or may not occur in … [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1134,25 +1215,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1216,6 +1297,10 @@ Latest 50 filing metadata records of 261 retained records. A filing link is evid
 | 2026-03-06 | 4 | 0001193125-26-096867 | — | [S62] |
 | 2026-03-06 | 4 | 0001193125-26-096854 | — | [S63] |
 | 2026-02-24 | 10-K | 0001193125-26-067145 | — | [S64] |
+
+Source excerpt — DEF 14A, filed 2026-03-27, L1071:
+
+> Anthem Ventures provides us with transportation services. Anthem Ventures is owned and controlled by our Executive Chairman, Ben M. “Bud” Brigham. During the year ended December 31, 2025, we made payments equal to approximately $0.1 million to Anthem Ventures for these services. As of December 31, 2025, we did not have an outstanding accounts payable with Anthem Ventures. As of December 31, 2025, we had de minimis prepaid expenses with Anthem Ventures. [S67]
 
 ## Sources and change log
 
@@ -1346,5 +1431,15 @@ Latest 50 filing metadata records of 261 retained records. A filing link is evid
 [S63] [4 0001193125-26-096854](https://www.sec.gov/Archives/edgar/data/1984060/000119312526096854/0001193125-26-096854-index.html) — published 2026-03-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S64] [10-K 0001193125-26-067145](https://www.sec.gov/Archives/edgar/data/1984060/000119312526067145/0001193125-26-067145-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S65] [8-K 0001104659-26-117979](https://www.sec.gov/Archives/edgar/data/1984060/000110465926117979/tm2628081d1_8k.htm) — published 2026-10-22; retrieved 2026-11-06T19:53:55.583626+00:00.
+
+[S66] [10-Q 0001193125-26-333424](https://www.sec.gov/Archives/edgar/data/1984060/000119312526333424/aesi-20260630.htm) — published 2026-08-05; retrieved 2026-11-06T19:53:53.775276+00:00.
+
+[S67] [DEF 14A 0001140361-26-011749](https://www.sec.gov/Archives/edgar/data/1984060/000114036126011749/ny20063836x2_def14a.htm) — published 2026-03-27; retrieved 2026-11-06T19:53:52.052015+00:00.
+
+[S68] [10-K 0001193125-26-067145](https://www.sec.gov/Archives/edgar/data/1984060/000119312526067145/aesi-20251231.htm) — published 2026-02-24; retrieved 2026-11-06T19:53:49.991002+00:00.
+
+[S69] [8-K/A 0001104659-24-058683](https://www.sec.gov/Archives/edgar/data/1984060/000110465924058683/tm2413159d1_8ka.htm) — published 2024-05-08; retrieved 2026-11-06T19:53:48.295787+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
