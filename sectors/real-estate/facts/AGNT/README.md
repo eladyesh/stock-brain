@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -133,6 +133,24 @@ sources:
   published_at: '2026-09-15'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1495932/000110465926114628/agnt-20261002x8k.htm
+  title: 8-K 0001104659-26-114628
+  published_at: '2026-10-08'
+  retrieved_at: '2026-11-07T18:00:49.349684+00:00'
+  sha256: bbcf4f317f6381310bb70c15c1ad7e06f2c1c569c04beed8f82180829d452556
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1495932/000110465926090337/agnt-20260630x10q.htm
+  title: 10-Q 0001104659-26-090337
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-07T18:00:47.758985+00:00'
+  sha256: 8fe1d043ec249156725caf5b7a22793e75353db4d9ec0ad90b587038875257f9
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1495932/000110465926019145/expi-20251231x10k.htm
+  title: 10-K 0001104659-26-019145
+  published_at: '2026-02-24'
+  retrieved_at: '2026-11-07T18:00:43.986306+00:00'
+  sha256: 1e57665bd4c586e03cc7a3b1e6ecb214e6be2798dec4e051c374cc228bba186d
 issuer_classification:
   cik: 0001495932
   classification_status: reported_sic
@@ -170,13 +188,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1495932/000110465926114628/0001104659-26-114628-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5e4074d2738741f84e7fa05a78e74e3176d86f0c84fc9b16a2431db7e90fd8ba
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -191,15 +218,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001495932.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNT/README.md
-full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNT/README.md
+full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AGNT — AGNT, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNT/README.md)
 
 ## Business overview
 
@@ -213,13 +240,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L338:
+
+> This Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2026 (this “Quarterly Report”), including the “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part I, Item 2 herein (“MD&A”), contains statements that are not historical facts and may constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements are not based on historical facts but rather represent current expectations and assumptions of future events. For example, statements in this Quarterly Report regarding the potential future impact of macroeconomic conditions on our business and results of operations and expectations of growth, including as a result of investment in technology and entering into new markets, are forward-looking statements. These statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-04, L2216:
+
+> AGNT, Inc. (“AGNT”, the “Company”, “we”, “us” or “our”) (formerly known as eXp World Holdings, Inc.) was incorporated in the State of Delaware on July 30, 2008 and converted to a Texas corporation on June 11, 2026. AGNT is a multi-model real estate platform operating through its subsidiaries eXp Realty®, the Company’s cloud-based brokerage, and NextHome, Inc. (“NextHome”), a national real estate franchise. Together, these businesses support independent real estate agents, franchise owners, brokers, and entrepreneurs across North America and international markets. The Company also operates FrameVR.io, a virtual collaboration platform, and SUCCESS® Enterprises, a personal development and media brand. The Company reports results through three reportable segments: North American Realty, International Realty, and Other Affiliated Services. [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-04, L4283:
+
+> Real estate sales transactions are based on the side (buyer or seller) of each real estate transaction and are recorded upon the closing of a purchase or sale of a home in which our agents and brokers represented the buyer or seller, respectively. Transaction volume represents the total sales value for all transactions and is influenced by several market factors, including, but not limited to, the pricing and quality of our services and market conditions that affect home sales, such as macroeconomic factors, economic growth, or contraction, local inventory levels, mortgage interest rates, and seasonality. The number of real estate transactions and volume are key drivers of our revenue and profitability. [S69]
 
 ## Customers and end markets
 
@@ -237,13 +276,25 @@ Navigation sector: **real-estate**. Method: `project_sic_rule`. Project navigati
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-04, L6073:
+
+> The Company’s success depends significantly on its ability to attract, retain, and engage qualified real estate agents and brokers, who are the foundation of the Company’s revenue-generating activities. Competition for skilled agents and brokers is intense, as the Company faces pressure from other brokerages offering alternative compensation models, technology tools, or support services, as well as from technology companies seeking experienced professionals in software development and cloud-based solutions. If the Company fails to recruit and retain a strong network of agents and brokers, the Company’s competitive position, market share, and overall business performance could be adversely affected. Likewise, our franchisees could experience similar issues, which could result in a decrease in royalty fees received by us, negatively affect franchisees’ perception of our value proposition, limit our ability to expand our franchise network, or require us to offer more advantageous financial arrangements to attract and retain franchisees. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-24, L436:
+
+> The Company’s cloud-based real estate brokerage is highly dependent on the proprietary technology that the Company employs and the intellectual property that the Company creates. “eXp Realty” is one of the Company’s registered trademarks in the United States, among other registered and nonregistered trademarks. The Company also owns the rights to key domain names used by its domestic and international brokerages: including, for example, https://exprealty.com and https://exprealty.ca. Additionally, the Company owns registered trademarks and the rights to domain names which are leveraged in its other business segments and in connection with services that complement its real estate brokerage, such as the “SUCCESS®” registered trademark and https://success.com. The Company has also engaged various third parties to extend enterprise licenses for critical transaction management, client relationship management and other proprietary software. Information contained on the websites associated with such domain names is not incorporated by reference into this Annual Report. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-04, L6073:
+
+> The Company’s success depends significantly on its ability to attract, retain, and engage qualified real estate agents and brokers, who are the foundation of the Company’s revenue-generating activities. Competition for skilled agents and brokers is intense, as the Company faces pressure from other brokerages offering alternative compensation models, technology tools, or support services, as well as from technology companies seeking experienced professionals in software development and cloud-based solutions. If the Company fails to recruit and retain a strong network of agents and brokers, the Company’s competitive position, market share, and overall business performance could be adversely affected. Likewise, our franchisees could experience similar issues, which could result in a decrease in royalty fees received by us, negatively affect franchisees’ perception of our value proposition, limit our ability to expand our franchise network, or require us to offer more advantageous financial arrangements to attract and retain franchisees. [S69]
 
 ## Financial performance
 
@@ -359,6 +410,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-08, L133:
+
+> (b) On October 2, 2026, Glenn Sanford, the Chairman and Chief Executive Officer of AGNT, Inc. (the “Company”), confirmed to the Company’s Board of Directors (the “Board”) that, to facilitate the Company’s planned leadership succession, he recommended that Leo Pareja, Chief Executive Officer of eXp Realty, LLC (“eXp Realty”), a wholly owned subsidiary of the Company, be appointed as the Company’s Chief Executive Officer, and that Mr. Sanford intends to transition from his role as Chief Executive Officer of the Company and from all other employment positions with the Company and its subsidiaries, effective October 8, 2026. Mr. Sanford will continue to serve as Chairman of the Board following this transition. Upon the cessation of his employment with the Company, Mr. Sanford will become eligible to participate in the Company’s non-employee director compensation program on the same terms generally applicable to the Company’s independent directors, as described under “Non-Employee Director Compensation” in the Company’s definitive proxy statement for its 2026 annual meeting of stockholders, filed with the Securities and Exchange Commission on March 9, 2026. Although Mr. Sanford is not expected to qualify as an independent director under the Company’s applicable director independence standards, the Compensation Committee of the Board determined that Mr. Sanford will receive the … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -371,6 +426,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L346:
+
+> \| \| ● \| changes in tax laws and regulations that may have a material adverse effect on our business; [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -380,25 +439,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -442,6 +501,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K 0001104659-26-107720](https://www.sec.gov/Archives/edgar/data/1495932/000110465926107720/0001104659-26-107720-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNT/README.md).
+[S68] [8-K 0001104659-26-114628](https://www.sec.gov/Archives/edgar/data/1495932/000110465926114628/agnt-20261002x8k.htm) — published 2026-10-08; retrieved 2026-11-07T18:00:49.349684+00:00.
+
+[S69] [10-Q 0001104659-26-090337](https://www.sec.gov/Archives/edgar/data/1495932/000110465926090337/agnt-20260630x10q.htm) — published 2026-08-04; retrieved 2026-11-07T18:00:47.758985+00:00.
+
+[S71] [10-K 0001104659-26-019145](https://www.sec.gov/Archives/edgar/data/1495932/000110465926019145/expi-20251231x10k.htm) — published 2026-02-24; retrieved 2026-11-07T18:00:43.986306+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -109,12 +109,12 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/2100457/000106299326005413/0001062993-26-005413-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 99a094558b903c29eb74bef7813d20dc781fe291b4dd76d347d170120818abdb
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
+  source_set_current: true
   evidence_topics: []
   derived_observations: 0
   model_draft: false
@@ -130,15 +130,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002100457.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIBZ/README.md
-full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIBZ/README.md
+full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AIBZ — Bitzero Holdings Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIBZ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIBZ/README.md)
 
 ## Business overview
 
@@ -220,7 +220,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -274,6 +274,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001062993-26-004938](https://www.sec.gov/Archives/edgar/data/2100457/000106299326004938/0001062993-26-004938-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIBZ/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIBZ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -155,6 +155,18 @@ sources:
   published_at: '2026-10-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1446159/000117184326005556/agpu20260630_10q.htm
+  title: 10-Q 0001171843-26-005556
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-07T18:01:18.340899+00:00'
+  sha256: 5b322306cac5c6905c77a06c9bc646385b18e89067d0ccbe728a0815d759d3d3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1446159/000117184326002094/poai20251231_10k.htm
+  title: 10-K 0001171843-26-002094
+  published_at: '2026-03-31'
+  retrieved_at: '2026-11-07T18:01:16.659061+00:00'
+  sha256: 9c382da6028ccb51bf4687741025538b4a28428a5eedca515c581528ed743607
 issuer_classification:
   cik: 0001446159
   classification_status: reported_sic
@@ -224,13 +236,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1446159/000117184318000813/0001171843-18-000813-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6a5999c43dc53e4b2ec4a40c5ac4b8d6733ce1c0a4037e757d59061b42fec860
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -245,15 +268,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001446159.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGPU/README.md
-full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGPU/README.md
+full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AGPU — Axe Compute Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGPU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGPU/README.md)
 
 ## Business overview
 
@@ -267,17 +290,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L199:
+
+> In addition to historical information, certain information in this Quarterly Report on Form 10-Q includes forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended ("Securities Act") and Section 21E of the Securities Exchange Act of 1934, as amended ("Exchange Act"). All statements, other than statements of historical facts, including statements concerning our plans, objectives, goals, beliefs, business strategies, future events, business conditions, our results of operations, financial position and our business outlook, business trends and other information, may be forward-looking statements. You can identify these forward-looking statements by the words "believes," "intends," "expects," “might,” "may," "will," "should," "plans," "projects," "contemplates," "intends," "budgets," “potential,” "predicts," "estimates," "anticipates," “future,” “goal,” and variations of such words or similar expressions. These statements are based on our beliefs, as well as assumptions we have used based upon information currently available to us. Because these statements reflect our current views concerning future events, these statements involve risks, uncertainties, and assumptions, many of which, by their nature, are inherently uncertain and beyond our control. Our expectations, beliefs, estimates and projections are expressed in good faith and we … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L4345:
+
+> The Company has determined its operating segments in accordance with ASC 280, Segment Reporting. Factors used to determine the Company’s reportable segments include the availability of separate financial statements, the existence of separate leadership across business lines, the economic factors affecting each segment, and the evaluation of operating results at the segment level. The Company’s Chief Operating Decision Maker (“CODM”), its chief executive officer, allocates the Company’s resources for each of the operating segments and evaluates their relative performance based on losses from operations, operating loss, and net loss. Operating expenses are disaggregated by department for purposes of evaluating each segment’s performance. Each operating segment listed below has separate financial statements and locally based leadership that are evaluated based on the results of their respective segments. It should be noted that the operating segments below have different products and services. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-14, L5497:
+
+> Sales and marketing expenses. Sales and marketing expenses consist of expenses required to market and sell our products and services. Sales and marketing expenses increased by $0.9 million to $1.2 million in the six months ended June 30, 2026, compared to $0.3 million in the comparable period in 2025. The increase was primarily due to increased sales and marketing activities to support the expansion of our compute services business. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-31, L653:
+
+> Our Board recognizes the critical importance of maintaining the trust and confidence of our customers, clients, business partners and employees. The Board exercises oversight of our risk management program, and cybersecurity represents an important component of our overall approach to enterprise risk management (“ERM”). Our cybersecurity policies, standards, processes, and practices are integrated into our ERM program and are based on frameworks established by the National Institute of Standards and Technology (“NIST”) and other applicable industry standards. In general, we seek to address cybersecurity risks through a cross-functional approach that is focused on preserving the confidentiality, security, and availability of the information that we collect and store by identifying, preventing, and mitigating cybersecurity threats and effectively responding to cybersecurity incidents when they occur. [S70]
 
 ## Industry and value chain
 
@@ -285,19 +324,35 @@ SEC-reported SIC **6199**: Finance Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L5558:
+
+> Our ability to acquire and deploy owned GPU infrastructure depends on our ability to procure GPUs and related hardware in sufficient quantities, on acceptable terms, and within timeframes consistent with our customer commitments. We source GPU hardware primarily from NVIDIA, which is currently the dominant supplier of GPUs used for AI training and inference, and we do not manufacture any hardware ourselves. Reliance on a limited number of suppliers exposes us to a range of risks, including limited availability of the latest-generation components, lack of control over production costs, delivery, and pricing, extended or unpredictable lead times, the potential for binding price or purchase commitments at above-market rates, supplier prioritization of other customers, and shifts in market-leading technologies away from those offered by our current suppliers. Our suppliers in turn rely on complex networks of third-party suppliers, including semiconductor foundries such as Taiwan Semiconductor Manufacturing Company, and any disruption affecting these upstream suppliers, whether due to geopolitical factors, capacity constraints, or natural disasters, could affect the availability and cost of the hardware we require. The loss of or significant disruption to our access to NVIDIA GPU supply and related hardware, or material price increases or extended delivery lead times, could delay … [S69]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-31, L470:
+
+> We believe our competitive position is supported by several key factors. First, our globally distributed network provides geographic diversity and access to compute resources across multiple regions that we believe is difficult to replicate at speed. Second, our 48-hour provisioning capability and flexible contract structures allow customers to scale GPU capacity in response to near-term workload demands without the multi-month lead times typically associated with dedicated data center deployments. Third, our asset-light operating model—under which we do not own physical data center facilities—allows us to grow our addressable footprint without the capital intensity that characterizes many of our competitors. Fourth, our integration of ATH token settlement creates an additional economic incentive structure that we believe differentiates our offering for customers participating in decentralized infrastructure ecosystems. We believe these factors, together with our pricing model, differentiate us from both hyperscale cloud providers and dedicated AI infrastructure operators. However, there can be no assurance that we will be able to maintain or improve our competitive position, and competitive pressures could materially and adversely affect our revenue, margins, and results of operations. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-14, L2647:
+
+> On March 14, 2025, the Company entered into an asset purchase agreement (the “APA”) and closed the transactions contemplated therein with DeRoyal Industries, Inc., a Tennessee corporation (“DeRoyal”), to sell and assign to DeRoyal assets and liabilities exclusively related to the business of providing products for automated, direct-to-drain medical fluid disposal, including the Company’s STREAMWAY® product line (the “Eagan Business”). These assets were operated by the Company’s wholly owned subsidiary, Skyline Medical, and were previously reported in the Company’s Eagan operating segment. The purchased assets exclusively related to the Eagan Business included but were not limited to cash, certain accounts receivable, inventories, patents, fixed assets, and real property leased by the Company and exclusively used in connection with the Eagan Business. The total purchase price for the assets was $625,000, plus the assumption of certain liabilities related to the Eagan Business including the lease for the office and warehouse space located at 2915 Commers Drive Suite 900 Eagan, MN 55121, certain accounts payable, and contract liabilities associated with the Eagan Business. The ongoing activities of the former Eagan operating segment are limited to wind down activities. As a result of these developments, the former Eagan operating segments have been reclassified to discontinued … [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-14, L200:
+
+> We caution you that the risks, uncertainties and other factors referenced above may not contain all of the risks, uncertainties and other factors that are important to you. In addition, we cannot assure you that we will realize the results, benefits or developments that we expect or anticipate or, even if substantially realized, that they will result in the consequences or affect us or our business in the way expected. There can be no assurance that (i) we have correctly measured or identified all of the factors affecting our business or the extent of these factors’ likely impact, (ii) the available information with respect to these factors on which such analysis is based is complete or accurate, (iii) such analysis is correct, or (iv) our strategy, which is based in part on this analysis, will be successful. All forward-looking statements in this Quarterly Report on Form 10-Q apply only as of the date of this Quarterly Report on Form 10-Q or as of the date they were made or as otherwise specified herein. We assume no obligation to revise or update any forward-looking statements for any reason, except as required by law. [S69]
 
 ## Financial performance
 
@@ -404,6 +459,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L2532:
+
+> The provision of compute services is the priority of the Company and remains its focus. The Company also maintains its legacy oncology drug discovery solutions business, which was previously conducted under the Predictive Oncology Inc. name. Current operations in this business are limited, and the Company is exploring strategic alternatives, including a potential sale or other disposition, although no definitive plan has been approved. Historically, this business applied AI to support the discovery and development of cancer therapies, with the objective of improving treatment effectiveness and patient outcomes. The business leveraged AI capabilities to provide actionable insights about drug compounds to improve the drug discovery process and increase the probability of drug compound success. In February 2026, the Company announced that it is exploring strategic alternatives for this oncology drug discovery solutions business. However, as of the date of this Quarterly Report on Form 10-Q, the Company’s Board of Directors has not yet committed to a specific course of action. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -416,6 +475,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L199:
+
+> In addition to historical information, certain information in this Quarterly Report on Form 10-Q includes forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended ("Securities Act") and Section 21E of the Securities Exchange Act of 1934, as amended ("Exchange Act"). All statements, other than statements of historical facts, including statements concerning our plans, objectives, goals, beliefs, business strategies, future events, business conditions, our results of operations, financial position and our business outlook, business trends and other information, may be forward-looking statements. You can identify these forward-looking statements by the words "believes," "intends," "expects," “might,” "may," "will," "should," "plans," "projects," "contemplates," "intends," "budgets," “potential,” "predicts," "estimates," "anticipates," “future,” “goal,” and variations of such words or similar expressions. These statements are based on our beliefs, as well as assumptions we have used based upon information currently available to us. Because these statements reflect our current views concerning future events, these statements involve risks, uncertainties, and assumptions, many of which, by their nature, are inherently uncertain and beyond our control. Our expectations, beliefs, estimates and projections are expressed in good faith and we … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -425,25 +488,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -487,6 +550,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001171843-26-006424](https://www.sec.gov/Archives/edgar/data/1446159/000117184326006424/0001171843-26-006424-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGPU/README.md).
+[S69] [10-Q 0001171843-26-005556](https://www.sec.gov/Archives/edgar/data/1446159/000117184326005556/agpu20260630_10q.htm) — published 2026-08-14; retrieved 2026-11-07T18:01:18.340899+00:00.
+
+[S70] [10-K 0001171843-26-002094](https://www.sec.gov/Archives/edgar/data/1446159/000117184326002094/poai20251231_10k.htm) — published 2026-03-31; retrieved 2026-11-07T18:01:16.659061+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGPU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

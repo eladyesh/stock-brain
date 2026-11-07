@@ -18,7 +18,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -157,6 +157,24 @@ sources:
   published_at: '2026-02-23'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1423689/000142368926000128/agnc-20260630.htm
+  title: 10-Q 0001423689-26-000128
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-07T18:00:40.061010+00:00'
+  sha256: e9b77e59e8270bb2264db38c852dd0d3bd1cb4839947db17b0323e296b0e512c
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1423689/000142368926000058/agnc-20260304.htm
+  title: DEF 14A 0001423689-26-000058
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-07T18:00:38.341758+00:00'
+  sha256: 35a9db21e7725053e6030ec20149cc7e2bbca638f082c3f6d9889231b9a149cb
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1423689/000142368926000043/agnc-20251231.htm
+  title: 10-K 0001423689-26-000043
+  published_at: '2026-02-23'
+  retrieved_at: '2026-11-07T18:00:36.506594+00:00'
+  sha256: 4d3fb574fc6ba9e833319b8916c08d724f85c108a375f7d3e8982b3ab18c643f
 issuer_classification:
   cik: 0001423689
   classification_status: reported_sic
@@ -220,13 +238,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1423689/000142368913000037/0001423689-13-000037-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 409fa6f437ffa96e61ef468964033ac2b43e63b612686c7d6a2af9aca007f1b7
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -238,15 +265,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNC/README.md
-full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNC/README.md
+full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AGNC, AGNCL, AGNCM, AGNCN, AGNCO, AGNCP, AGNCZ — AGNC Investment Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNC/README.md)
 
 ## Business overview
 
@@ -266,9 +293,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L412:
+
+> We operate to qualify to be taxed as a real estate investment trust (“REIT”) under the Internal Revenue Code of 1986, as amended (the “Internal Revenue Code”). As a REIT, we are required to distribute annually 90% of our taxable income, and we will generally not be subject to U.S. federal or state corporate income tax to the extent that we distribute our annual taxable income to our stockholders on a timely basis. It is our intention to distribute 100% of our taxable income within the time limits prescribed by the Internal Revenue Code, which may extend into the subsequent tax year. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-31, L1266:
+
+> Our portfolio is managed as a whole, with investment and hedging decisions assessed collectively by the Chief Operating Decision Maker (CODM). The CODM, represented by our Chief Executive Officer with the support of our Executive Management Committee, allocates resources and evaluates financial performance by considering the market risks identified above. The CODM also considers factors such as total assets and repurchase agreements outstanding, as reported on the consolidated balance sheet; our TBA position, as disclosed in Note 5. Derivative and Other Hedging Instruments; our ability to hedge certain risks; and our intention to qualify as a REIT. Consequently, the Company operates as a single reportable segment, as reflected in the accompanying consolidated financial statements and notes. [S68]
 
 ## Products and services
 
@@ -284,19 +319,35 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L1286:
+
+> The investment environment during the second quarter of 2026 was shaped by heightened geopolitical uncertainty as escalating rhetoric and hostilities between the United States and Iran dominated financial market performance. With ship traffic through the Strait of Hormuz severely constrained, elevated energy prices and supply chain disruptions became the primary macroeconomic concerns. These developments caused Treasury yields to increase, the yield curve to flatten, and market expectations for Federal Reserve policy to shift from anticipated rate cuts toward potential rate hikes by year-end. Despite this challenging backdrop, Agency RMBS generated a positive excess return relative to U.S. Treasuries for the fifth consecutive quarter, contributing to AGNC's economic return on tangible common equity per share of 6.7%, comprised of our monthly dividend and the improvement in tangible book value.1 [S68]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-03-06, L1786:
+
+> result of arms-length negotiations with these NEOs. The severance provisions included in the employment agreements related to a change of control include a “double trigger” requirement, which we determined was appropriate and in the best interest of our stockholders. See “Severance and Change of Control Payments” on page 44. The employment agreements with these NEOs also include covenants related to post-employment obligations in areas such as competition with us, solicitation of our employees, and the confidentiality of certain information. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-23, L426:
+
+> We currently make limited use of AI technologies in our operations; however, we may expand our use of AI over time, and certain third-party service providers on which we rely may also utilize AI in providing services to us. AI technologies are rapidly evolving and may present risks related to data quality or completeness, model accuracy, cybersecurity, bias, explainability, intellectual property, and other operational, legal and business risks. Increased use of AI, whether by us or our vendors, could require additional governance, controls, and oversight and may increase our reliance on third-party data and technology. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-31, L2019:
+
+> TBA dollar roll transactions enhance our funding diversification, expand our available pool of assets, and improve our liquidity position by typically requiring less collateral than Agency RMBS financed with repo. These transactions may also benefit from lower implied costs, or “specialness.” However, if rolling TBA contracts into future months becomes uneconomical, we may need to take physical delivery of the underlying securities and fund those securities with other sources, potentially reducing our liquidity position. [S68]
 
 ## Financial performance
 
@@ -403,6 +454,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L1157:
+
+> Basic net income (loss) per common share is computed by dividing (i) net income (loss) available (attributable) to common stockholders by (ii) the sum of our weighted-average number of common shares outstanding and the weighted-average number of vested but not yet issued time- and performance-based restricted stock units (“RSUs”) that were outstanding during the period, which were granted under our long-term incentive program to employees and non-employee members of the Board of Directors (“the Board”). Diluted net income (loss) per common share assumes the issuance of all potential common stock equivalents unless doing so would reduce a loss or increase income per common share. Our potential common stock equivalents consist of unvested time- and performance-based RSUs. The following table presents the computations of basic and diluted net income (loss) per common share for the periods indicated (shares and dollars in millions): [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -415,6 +470,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L2001:
+
+> Our business is dependent on our ability to maintain adequate levels of liquidity and capital resources to fund day-to-day operations, fulfill collateral requirements under our funding and derivative agreements, and to satisfy our dividend distribution requirement of at least 90% of our taxable income to maintain our qualification as a REIT. Our primary sources of liquidity are unencumbered cash and securities, borrowings available under repurchase agreements, TBA dollar roll financing and monthly receipts of principal and interest payments. We may also conduct asset sales, change our asset or funding mix, issue equity or undertake other capital enhancing actions to maintain adequate levels of liquidity and capital resources. There are various risks and uncertainties that can impact our liquidity, such as those described in Item 1A. Risk Factors of our most recent Annual Report on Form 10-K and Item 3. Quantitative and Qualitative Disclosures of Market Risks in this Form 10-Q. In assessing our liquidity, we consider a number of factors, including our current leverage, collateral levels, access to capital markets, overall market conditions, and the sensitivity of our tangible net book value over a range of scenarios. We believe that we have sufficient liquidity and capital resources available to meet our obligations and execute our business strategy. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -424,25 +483,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -488,6 +547,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S64] [10-K 0001423689-26-000043](https://www.sec.gov/Archives/edgar/data/1423689/000142368926000043/0001423689-26-000043-index.html) — published 2026-02-23; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AGNC/README.md).
+[S68] [10-Q 0001423689-26-000128](https://www.sec.gov/Archives/edgar/data/1423689/000142368926000128/agnc-20260630.htm) — published 2026-07-31; retrieved 2026-11-07T18:00:40.061010+00:00.
+
+[S69] [DEF 14A 0001423689-26-000058](https://www.sec.gov/Archives/edgar/data/1423689/000142368926000058/agnc-20260304.htm) — published 2026-03-06; retrieved 2026-11-07T18:00:38.341758+00:00.
+
+[S70] [10-K 0001423689-26-000043](https://www.sec.gov/Archives/edgar/data/1423689/000142368926000043/agnc-20251231.htm) — published 2026-02-23; retrieved 2026-11-07T18:00:36.506594+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AGNC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

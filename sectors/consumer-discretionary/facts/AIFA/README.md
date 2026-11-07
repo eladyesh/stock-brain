@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -158,6 +158,24 @@ sources:
   published_at: '2026-08-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1708341/000121390026099460/ea0302134-02.htm
+  title: DEF 14A 0001213900-26-099460
+  published_at: '2026-09-14'
+  retrieved_at: '2026-11-07T18:04:07.752172+00:00'
+  sha256: d48e9119436dd3c23f9a9efc223cb256cfbc7942b6e3e92be57d86445c1c76ca
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1708341/000121390026090237/ea0301070-10q_allinfuture.htm
+  title: 10-Q 0001213900-26-090237
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-07T18:04:06.087504+00:00'
+  sha256: 5f7d7912d7360a9a7881370c2ef2d5d51389d5f3f5506ec30e1407108085d3f6
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1708341/000117184326003627/f10k_051126.htm
+  title: 10-K 0001171843-26-003627
+  published_at: '2026-05-22'
+  retrieved_at: '2026-11-07T18:04:04.247146+00:00'
+  sha256: e9a6b46e0f2074a52022ad6c81f2990184181d9e6b1f2f7028f2066e6eccfd72
 issuer_classification:
   cik: 0001708341
   classification_status: reported_sic
@@ -199,13 +217,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1708341/000121390022039568/0001213900-22-039568-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: de80a43c53e343c418ef2e6b97ebc0878f26ca1881293e616cd054924b0a15aa
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -220,15 +246,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001708341.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIFA/README.md
-full_history_commit: fd10ac7383bb02748d9125b578ec1ede86e3a21b
+full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIFA/README.md
+full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AIFA — All In FutureTech Alliance, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIFA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIFA/README.md)
 
 ## Business overview
 
@@ -242,9 +268,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L318:
+
+> Our Nominating and Corporate Governance Committee seeks to assemble a Board of Directors that, as a whole, possesses the appropriate balance of professional and industry knowledge, financial expertise and management experience necessary to oversee and direct our business. To that end, the Nominating and Corporate Governance Committee has evaluated the Board of Directors’ current members in the broader context of the Board of Directors’ overall composition. The Nominating and Corporate Governance Committee maintains a goal of recruiting members who complement and strengthen the skills of other members and who also exhibit integrity, collegiality, sound business judgment and other qualities that the Nominating and Corporate Governance Committee views as critical to effective functioning of the Board. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1203:
+
+> Reportable segments are components of an enterprise about which separate financial information is available for evaluation by the chief operating decision maker in making decisions about how to allocate resources and assess performance. The Company’s President is the chief operating decision maker of Allied Esports, (video game events and tournaments), Z-Tech and BLT (casual mobile games) and Skyline (live concert promotion), which are reported as separate operating segments. See Note 14 – Segment Data. [S69]
 
 ## Products and services
 
@@ -266,13 +300,25 @@ Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Proje
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L2368:
+
+> (a) Engaging in Competition with the Company; Solicitation of Customers and Employees; Disclosure of Confidential Information. If a Holder’s employment with the Company or Subsidiary is terminated for any reason whatsoever, and Holder (i) within three months after the date thereof, accepts employment with any competitor of, or otherwise engages in competition with, the Company, any Subsidiary, or any Affiliate thereof, (ii) within two years after the date thereof, solicits any customers or employees of the Company, any Subsidiary, or any Affiliate thereof to do business with or render services to the Holder or any business with which the Holder becomes affiliated or to which the Holder renders services or (iii) at any time uses or discloses to anyone outside the Company any confidential information of the Company, any Subsidiary, or any Affiliate thereof in violation of the Company’s policies or any agreement between the Holder and the Company or Subsidiary, the Committee, in its sole discretion, may require such Holder to return (through the payment of cash, return and transfer to the Company of shares of Common Stock or by other methods determined by the Committee) to the Company the economic value of any award that was realized or obtained by such Holder at any time during the period beginning on the date that is six months prior to the date such Holder’s employment with … [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-05-22, L294:
+
+> We believe that to maintain a competitive advantage in the marketplace, we must develop and maintain protection of the proprietary aspects of our technology and our intellectual property. We rely on trademarks and other measures to protect our intellectual property, and vigorously defend such intellectual property as necessary (e.g. cease and desist letters directed to infringing third parties). [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-05-22, L103:
+
+> The information in this Annual Report on Form 10-K (the “Annual Report”) includes “forward-looking statements” under Section 27A of the Securities Act of 1933, as amended (the “Securities Act”) and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements, other than statements of historical fact included in this Annual Report, regarding our strategy, future operations, financial position, estimated revenues and losses, projected costs, prospects, plans and objectives of management are forward-looking statements. When used in this Annual Report, the words “could,” “believe,” “anticipate,” “intend,” “estimate,” “expect,” “project” and similar expressions, and the negatives thereof, are intended to identify forward-looking statements, although not all forward-looking statements contain such identifying words. When considering forward-looking statements, you should keep in mind the risk factors and other cautionary statements described under the heading “Risk Factors” included in this Annual Report. These forward-looking statements are based on our current expectations and assumptions about future events and are based on currently available information as to the outcome and timing of future events. Nevertheless, and despite the fact that management’s expectations and estimates are based on assumptions management believes to be reasonable … [S70]
 
 ## Financial performance
 
@@ -370,6 +416,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L177:
+
+> We are providing you with these proxy materials because the board of directors (the “Board of Directors” or the “Board”) of All In FutureTech Alliance, Inc. (sometimes referred to as “we,” “us,” “our” or the “Company”) is soliciting your proxy to vote at the 2026 annual meeting of stockholders, including at any adjournments or postponements thereof (the “Annual Meeting”). The Annual Meeting will be held on October 12, 2026, at 10:00 a.m. eastern time, virtually and exclusively online via live audio-only webcast at www.virtualshareholdermeeting.com/AIFA2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -382,6 +432,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1326:
+
+> The Company is periodically involved in various disputes, claims, liens and litigation matters arising out of the normal course of business. While the outcome of these disputes, claims, liens and litigation matters cannot be predicted with certainty, after consulting with legal counsel, management does not believe that the outcome of these matters will have a material adverse effect on the Company’s consolidated financial position, results of operations or cash flows. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -391,25 +445,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -453,6 +507,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [PRE 14A 0001213900-26-091399](https://www.sec.gov/Archives/edgar/data/1708341/000121390026091399/0001213900-26-091399-index.html) — published 2026-08-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/fd10ac7383bb02748d9125b578ec1ede86e3a21b/brain/companies/AIFA/README.md).
+[S68] [DEF 14A 0001213900-26-099460](https://www.sec.gov/Archives/edgar/data/1708341/000121390026099460/ea0302134-02.htm) — published 2026-09-14; retrieved 2026-11-07T18:04:07.752172+00:00.
+
+[S69] [10-Q 0001213900-26-090237](https://www.sec.gov/Archives/edgar/data/1708341/000121390026090237/ea0301070-10q_allinfuture.htm) — published 2026-08-14; retrieved 2026-11-07T18:04:06.087504+00:00.
+
+[S70] [10-K 0001171843-26-003627](https://www.sec.gov/Archives/edgar/data/1708341/000117184326003627/f10k_051126.htm) — published 2026-05-22; retrieved 2026-11-07T18:04:04.247146+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIFA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
