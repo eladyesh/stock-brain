@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -383,6 +383,30 @@ sources:
   published_at: '2025-08-08'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1178819/000117881926000090/a6kalamosgoldprovidesnotic.htm
+  title: 6-K 0001178819-26-000090
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-07T17:59:32.726458+00:00'
+  sha256: a4cea4ec1408ce314f4b5fba321e20b77c911603e8b818d4949029115dd0c394
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1178819/000117881926000048/agi-20251231_d2.htm
+  title: 40-F 0001178819-26-000048
+  published_at: '2026-03-26'
+  retrieved_at: '2026-11-07T17:59:31.016091+00:00'
+  sha256: 48069fe482c3dbbb7585215fbcb9377cd45adc29e8bd3d6cb1aa97ef44d6e1c2
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1178819/000117881926000038/form6-kaxamendedfinancials.htm
+  title: 6-K/A 0001178819-26-000038
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-07T17:59:29.475721+00:00'
+  sha256: e6df2767eac4000f892987eea38f890a941310e35e66e7e3063be2660305b65f
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1178819/000113717106000772/alamos40f033106.htm
+  title: 40-F/A 0001137171-06-000772
+  published_at: '2006-03-31'
+  retrieved_at: '2026-11-07T17:59:27.771328+00:00'
+  sha256: 367d070f45e10e896ec3f6329cb34c741472d9fa10e729eb9556a222f3003a53
 issuer_classification:
   cik: 0001178819
   classification_status: reported_sic
@@ -418,13 +442,16 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1178819/000117881926000038/0001178819-26-000038-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 346d1b874d77b67411aec528ed7e5dcaafaafae8078f814968d05a2582f0e671
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -490,6 +517,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-26, L57:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). o [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -501,6 +532,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 40-F, filed 2026-03-26, L70:
+
+> Risk factors that may affect Alamos’ ability to achieve the expectations set forth in the forward-looking statements in this Form 40-F include, but are not limited to: the actual results of current exploration activities; changes to current estimates of Mineral Reserves and Resources; changes to production estimates (which assume accuracy of projected ore grade, mining rates, recovery timing and recovery rate estimates which may be impacted by unscheduled maintenance, weather issues, labour and contractor availability and other operating or technical difficulties in connection with mining or development activities, including geotechnical challenges); conclusions of economic and geological evaluations; the costs and timing of exploration, construction and development of new deposits; changes in project parameters as plans continue to be refined; operations may be exposed to illnesses, diseases, epidemics and pandemics which may impact, among other things, the broader market and the trading price of the Company's shares; the duration of any regulatory responses to any illness, disease, epidemic or pandemic; government and the Company’s attempts to reduce the spread of any illness, disease, epidemic or pandemic which may affect many aspects of the Company's operations including the ability to transport personnel to and from site, contractor and supply availability and the ability … [S54]
 
 ## Scenarios and open questions
 
@@ -514,7 +549,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -526,13 +561,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -596,6 +631,10 @@ Latest 50 filing metadata records of 751 retained records. A filing link is evid
 | 2025-08-27 | 6-K | 0001178819-25-000096 | — | [S50] |
 | 2025-08-12 | EFFECT | 9999999995-25-002588 | — | [S51] |
 | 2025-08-08 | 6-K | 0001178819-25-000091 | — | [S52] |
+
+Source excerpt — 40-F, filed 2026-03-26, L83:
+
+> (e)Changes in Internal Control over Financial Reporting. There were no changes in Alamos’ internal control over financial reporting that occurred during the year ended December 31, 2025 that have materially affected or are reasonably likely to materially affect, Alamos’ internal control over financial reporting. [S54]
 
 ## Sources and change log
 
@@ -702,5 +741,13 @@ Latest 50 filing metadata records of 751 retained records. A filing link is evid
 [S51] [EFFECT 9999999995-25-002588](https://www.sec.gov/Archives/edgar/data/1178819/999999999525002588/9999999995-25-002588-index.html) — published 2025-08-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001178819-25-000091](https://www.sec.gov/Archives/edgar/data/1178819/000117881925000091/0001178819-25-000091-index.html) — published 2025-08-08; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001178819-26-000090](https://www.sec.gov/Archives/edgar/data/1178819/000117881926000090/a6kalamosgoldprovidesnotic.htm) — published 2026-09-30; retrieved 2026-11-07T17:59:32.726458+00:00.
+
+[S54] [40-F 0001178819-26-000048](https://www.sec.gov/Archives/edgar/data/1178819/000117881926000048/agi-20251231_d2.htm) — published 2026-03-26; retrieved 2026-11-07T17:59:31.016091+00:00.
+
+[S55] [6-K/A 0001178819-26-000038](https://www.sec.gov/Archives/edgar/data/1178819/000117881926000038/form6-kaxamendedfinancials.htm) — published 2026-02-19; retrieved 2026-11-07T17:59:29.475721+00:00.
+
+[S56] [40-F/A 0001137171-06-000772](https://www.sec.gov/Archives/edgar/data/1178819/000113717106000772/alamos40f033106.htm) — published 2006-03-31; retrieved 2026-11-07T17:59:27.771328+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

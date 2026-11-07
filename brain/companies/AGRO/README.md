@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -380,6 +380,36 @@ sources:
   published_at: '2025-12-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1499505/000149950526000086/form6-kxredemptionannounce.htm
+  title: 6-K 0001499505-26-000086
+  published_at: '2026-09-28'
+  retrieved_at: '2026-11-07T18:01:31.110360+00:00'
+  sha256: 33f79df3728baf32bbdda3481ff0553e89dc556f8e141a8d27d486f6df8dbb4a
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1499505/000149950526000069/agro-20251231.htm
+  title: 20-F 0001499505-26-000069
+  published_at: '2026-04-29'
+  retrieved_at: '2026-11-07T18:01:28.891315+00:00'
+  sha256: ff41a743b6539761057b5ef0df77a644c7f81c5b0e0020477cec0d807a8797a4
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1499505/000149950525000045/agro-20250930.htm
+  title: 6-K/A 0001499505-25-000045
+  published_at: '2025-12-01'
+  retrieved_at: '2026-11-07T18:01:27.227978+00:00'
+  sha256: 631563e5072089dcbdd0357c8723c260eec968df909c8e807986ca1f675b1089
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1499505/000167276417000074/v469210_20fa.htm
+  title: 20-F/A 0001672764-17-000074
+  published_at: '2017-06-22'
+  retrieved_at: '2026-11-07T18:01:25.011994+00:00'
+  sha256: ae6b9f315aa73a3215750fa38b85c3ec08a233e1a2f2e82f4b2471c71c3870c6
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1499505/000119312512422706/d424001d6ka.htm
+  title: 6-K/A 0001193125-12-422706
+  published_at: '2012-10-15'
+  retrieved_at: '2026-11-07T18:01:22.815212+00:00'
+  sha256: 9fcbea8e7f348b2cb677964a7327960951e97743130fcb92f13efc6f92144e5f
 issuer_classification:
   cik: 0001499505
   classification_status: reported_sic
@@ -419,13 +449,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1499505/000119312512422706/0001193125-12-422706-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5b94def89f02f4e190752aec80fdb6d21b80d4cf9eb9e3f7f277243eca086c32
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -449,17 +490,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-29, L581:
+
+> •developments in, or changes to, the laws, regulations and governmental policies governing our business, including limitations on ownership of farmland by foreign entities in certain jurisdictions in which we operate, environmental laws and regulations and the effects of the imposition of tariffs, the modification of trade agreements between countries or other international trade restrictions, as well as the related countermeasures taken by the countries impacted by such policies; [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-04-29, L963:
+
+> Our ability to issue CBIOs depends on maintaining valid ANP production efficiency certification for each of our mills, issued pursuant to ANP Resolution No. 984/2025 (as amended from time to time). This certification requires independent technical audits, ongoing compliance with efficiency thresholds, and timely renewal. Any failure to obtain, maintain or renew such certification, whether due to operational issues, audit findings, technical deficiencies or regulatory changes, would prevent us from issuing CBIOs, and would directly reduce a revenue stream that has become an increasingly important component of our Sugar, Ethanol and Energy segment results. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-29, L594:
+
+> •the development of the logistics and infrastructure for transportation of our products in the countries where we operate; [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-29, L852:
+
+> In addition, disease among our dairy cattle herd, such as mastitis, tuberculosis, brucellosis and foot-and-mouth disease, could have an adverse effect on productivity. Outbreaks of cattle diseases may also result in the closure of certain important markets to our cattle-derived products. Although we abide by national veterinary health guidelines, which include laboratory analyses and vaccination, to control diseases among the herds, especially foot-and-mouth disease, we cannot assure that future outbreaks of cattle diseases will not occur. A future outbreak of diseases among our cattle herds could adversely affect our milk sales and operating results and financial condition. Furthermore, outbreaks, or fears of outbreaks, of any of these or other animal diseases may lead to the cancellation of orders by our customers, in particular if the disease has the potential to affect human health or create adverse publicity that may have a material adverse effect on consumer demand for our products. [S54]
 
 ## Industry and value chain
 
@@ -467,17 +524,33 @@ SEC-reported SIC **0100**: Agricultural Production-Crops. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-29, L777:
+
+> •A significant increase in the price of raw materials we use in our operations, or the shortage of such raw materials, could adversely affect our results of operations. [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-04-29, L922:
+
+> Due to regulatory, economic, and governmental policies, local prices of critical raw materials and inputs may differ substantially from prevailing international and regional market prices. Argentina has faced and continues to face high inflationary pressures. Consequently, we may only be able to increase fertilizer prices to offset general cost increases to the extent that economic and market competition conditions allow. Failure to do so could negatively affect our operations and profitability. [S54]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-29, L954:
+
+> We may be unable to protect our information systems and technology platforms from the aforementioned risks and any cyber-attacks may result in operational disruptions, business interruption, significant losses of intellectual property, trade secrets, customer data and other confidential information, in addition to significant net assets, including cash, which may materially adversely affect us as it could damage our reputation or result in lawsuits, regulatory fines, sanctions, regulatory intervention and others. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-29, L882:
+
+> As part of our business strategy, we have grown through acquisitions. We plan to continue growing by acquiring other farms and production facilities throughout South America. A significant recent step in this strategy is our acquisition of a 90% stake in Profertil S.A. (“Profertil”) from Nutrien Ltd. (“Nutrien”) and YPF S.A. (“YPF”). This transaction positions us as the controlling shareholder, alongside Asociación de Cooperativas Argentinas Coop. Ltda. (“ACA”), in Argentina’s leading producer of urea and ammonia, strengthening our fertilizer supply chain and regional industrial footprint. We believe that the agricultural industry and agricultural activity in the region are highly fragmented and that our future consolidation opportunities will continue to be significant to our growth. However, our management is unable to predict whether or when any prospective acquisitions or strategic alliances will occur, or if such transactions will be agreed upon on favorable terms and conditions. Our ability to continue to expand our business successfully through acquisitions and strategic alliances, including the successful integration and joint operation of Profertil, depends on many factors, including our ability to identify suitable targets, access financing sources, including through capital markets, at acceptable conditions, negotiate favorable transaction terms and successfully … [S54]
 
 ## Financial performance
 
@@ -491,6 +564,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-04-29, L71:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -502,6 +579,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-29, L748:
+
+> This annual report includes information provided by us and by third-party sources that we believe are reliable, including data related to the economic conditions in the markets in which we operate. Unless otherwise indicated, information in this annual report concerning economic conditions is based on publicly available information from third-party sources which we believe to be reasonable. The economic conditions in the markets in which we operate may deteriorate, and those economies may not grow at the rates projected by market data, or at all. The deterioration of the economic conditions in the markets in which we operate may have a material adverse effect on our business, results of operations and financial condition and the market price of our common shares. [S54]
 
 ## Scenarios and open questions
 
@@ -515,25 +596,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -597,6 +678,10 @@ Latest 50 filing metadata records of 422 retained records. A filing link is evid
 | 2025-12-02 | 6-K | 0000950103-25-015573 | — | [S50] |
 | 2025-12-01 | 6-K | 0001499505-25-000047 | — | [S51] |
 | 2025-12-01 | 6-K | 0001499505-25-000046 | — | [S52] |
+
+Source excerpt — 20-F, filed 2026-04-29, L1131:
+
+> All of our operations and/or development activities are in South America. As of December 31, 2025, based on total asset value, 63.3% of our assets were located in Argentina, 30.3% in Brazil and 2.3% in Uruguay. During the year ended December 31, 2025, 33.8% of our consolidated revenue were attributable to our Argentine operations, 35.7% were attributable [S54]
 
 ## Sources and change log
 
@@ -703,5 +788,15 @@ Latest 50 filing metadata records of 422 retained records. A filing link is evid
 [S51] [6-K 0001499505-25-000047](https://www.sec.gov/Archives/edgar/data/1499505/000149950525000047/0001499505-25-000047-index.html) — published 2025-12-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001499505-25-000046](https://www.sec.gov/Archives/edgar/data/1499505/000149950525000046/0001499505-25-000046-index.html) — published 2025-12-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001499505-26-000086](https://www.sec.gov/Archives/edgar/data/1499505/000149950526000086/form6-kxredemptionannounce.htm) — published 2026-09-28; retrieved 2026-11-07T18:01:31.110360+00:00.
+
+[S54] [20-F 0001499505-26-000069](https://www.sec.gov/Archives/edgar/data/1499505/000149950526000069/agro-20251231.htm) — published 2026-04-29; retrieved 2026-11-07T18:01:28.891315+00:00.
+
+[S55] [6-K/A 0001499505-25-000045](https://www.sec.gov/Archives/edgar/data/1499505/000149950525000045/agro-20250930.htm) — published 2025-12-01; retrieved 2026-11-07T18:01:27.227978+00:00.
+
+[S56] [20-F/A 0001672764-17-000074](https://www.sec.gov/Archives/edgar/data/1499505/000167276417000074/v469210_20fa.htm) — published 2017-06-22; retrieved 2026-11-07T18:01:25.011994+00:00.
+
+[S57] [6-K/A 0001193125-12-422706](https://www.sec.gov/Archives/edgar/data/1499505/000119312512422706/d424001d6ka.htm) — published 2012-10-15; retrieved 2026-11-07T18:01:22.815212+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

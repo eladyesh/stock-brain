@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -499,6 +499,36 @@ sources:
   published_at: '2025-05-07'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1267395/000126739526000031/form6-kq22026.htm
+  title: 6-K 0001267395-26-000031
+  published_at: '2026-09-09'
+  retrieved_at: '2026-11-07T18:02:25.995496+00:00'
+  sha256: 97f8b0f694c6e3e9ceb52d13e15335ae6f251277873436bf358b94df031e7f87
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1267395/000126739526000007/ahl-20251231.htm
+  title: 20-F 0001267395-26-000007
+  published_at: '2026-03-30'
+  retrieved_at: '2026-11-07T18:02:23.906041+00:00'
+  sha256: eb5628ef485c22fa90d86d5866d5afced9ac175ed9fa782ad3b8d2fa6728d962
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1267395/000126739519000073/a8-kxsupplementalindenture.htm
+  title: 8-K 0001267395-19-000073
+  published_at: '2019-06-28'
+  retrieved_at: '2026-11-07T18:02:22.226296+00:00'
+  sha256: f92b5ea5280793121741eb76ea81aa3247c9d173b5b16c0dfd5be6b05dd002b1
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1267395/000126739518000074/form8-kofficerdeparture.htm
+  title: 8-K/A 0001267395-18-000074
+  published_at: '2018-07-05'
+  retrieved_at: '2026-11-07T18:02:20.721117+00:00'
+  sha256: 24460a6b7562e0e3c4c439869d80219afe90f0561e7f284875eebb122ab2465b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1267395/000126739518000030/a2017proxystatement2018fil.htm
+  title: DEF 14A 0001267395-18-000030
+  published_at: '2018-03-19'
+  retrieved_at: '2026-11-07T18:02:18.836522+00:00'
+  sha256: 9dc349ece81cd18aa29f47a042627d3c8ae8a6ec1161e9de3ec0c39c6418125d
 issuer_classification:
   cik: 0001267395
   classification_status: reported_sic
@@ -541,13 +571,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1267395/000126739518000074/0001267395-18-000074-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4b13d913396cab6627fd19dd4081a7855bdc1a75904d17d9a1fe049355d3d35d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -572,17 +613,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-03-30, L166:
+
+> You should carefully consider the following risk factors and all other information set forth in this report, including our consolidated financial statements and the notes thereto. Any of the risks described below could materially and adversely affect our business, operating results or financial condition. The risk factors described below could also cause our actual results to differ materially from those in the forward-looking and other statements contained in this report and other documents that we file with the SEC. The risks and uncertainties described below are not the only ones we face. However, these are the risks we believe to be material as of the date of this report. Additional risks not presently known to us or that we currently deem immaterial may also impair our future business, financial condition or operating results. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-03-30, L595:
+
+> We have determined our reportable segments, Aspen Insurance and Aspen Re, by taking into account the manner in which management makes operating decisions and assesses operating performance. Profit or loss for each of the business segments is measured by underwriting income or loss. Underwriting profit is the excess of net earned premiums over the sum of losses and loss expenses, acquisition costs and general and administrative expenses. Underwriting income or loss provides a basis for management to evaluate the segment’s underwriting performance. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-03-30, L140:
+
+> References in this Annual Report on Form 20-F (this “report”) to the “Company,” “Aspen,” the “Aspen Group,” “we,” “us” or “our” or similar refer to Aspen Insurance Holdings Limited (“Aspen Holdings”) or Aspen Holdings and its consolidated subsidiaries, as the context requires. Our principal operating subsidiaries are: Aspen Bermuda Limited (“Aspen Bermuda”), Aspen Specialty Insurance Company (“Aspen Specialty”), Aspen American Insurance Company (“AAIC”), Aspen Insurance UK Limited (“Aspen UK”) and Aspen Underwriting Limited (“AUL”) (as the sole corporate member of our Lloyd’s operations, Lloyd’s Syndicate 4711, which is managed by Aspen Managing Agency Limited (“AMAL”) (together, “Aspen Lloyd’s”)), each referred to herein as an “Operating Subsidiary” and collectively referred to as the “Operating Subsidiaries”. References to “Aspen Capital Markets” or “ACM” means our products offered to third-party investors that participate in alternative reinsurance markets, including through Peregrine Reinsurance Ltd (“Peregrine”), and related management entities, including Aspen Capital Management, Ltd. (“ACML”). ACM forms part of the Aspen Capital Partners (“ACP”) platform, in recognition of the synergies between ACM and the Company’s ceded reinsurance teams. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-03-30, L392:
+
+> In the ordinary course of business, we may be involved in various litigation matters, including but not limited to commercial disputes, employee claims, shareholder claims and class actions (including, by way of example, employee allegations of improper termination and discrimination and claims related to violations of applicable government laws regarding religious freedom, advertising and intellectual property) and from time to time may be involved in governmental or regulatory investigations, exams or inquiries or similar matters arising out of our current or future business (including, but not limited to, in connection with the Merger). Any claims asserted against us, regardless of merit or eventual outcome, could harm our reputation and have an adverse impact on our relationship with our customers, partners and other third parties and could lead to additional related claims. Our insurance or indemnities may not cover all claims that may be asserted against us, and any claims asserted against us, regardless of merit or eventual outcome, may harm our reputation and cause us to expend resources in our defense. Furthermore, there is no guarantee that we will be successful in defending ourselves in future litigation or similar matters under various laws. If judgments or settlements in any future litigation or investigation significantly exceed our insurance coverage, our … [S69]
 
 ## Industry and value chain
 
@@ -590,17 +647,33 @@ SEC-reported SIC **6331**: Fire, Marine & Casualty Insurance. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-03-30, L203:
+
+> In addition, the costs associated with insured losses—often referred to as claims inflation—may increase at rates that exceed general economic inflation. Claims inflation may be driven by increases in the cost of construction materials, automobile parts, medical care, skilled labor, and litigation and claims-handling expenses, as well as supply chain disruptions and other industry-specific factors. These increases may result in higher claim severity and may adversely affect our underwriting results. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-03-30, L208:
+
+> Historically, the performance of the property and casualty reinsurance and insurance industries has tended to fluctuate in cyclical periods of price competition and excess underwriting capacity, followed by periods of high premium rates fueled by shortages of underwriting capacity. Although an individual (re)insurance company’s performance is dependent on its own specific business characteristics, the profitability of most property and casualty (re)insurance companies tends to follow this market cycle. Further, this cyclical market pattern can be more pronounced in the reinsurance market in which Aspen Re competes and in the excess and surplus market in which Aspen Insurance primarily competes than in the standard admitted insurance market. In addition, compared with historical cyclical periods, a cycle of increased price competition related to excess underwriting capacity may continue for a prolonged period of time as new and existing reinsurance and insurance market participants and products continue to enter the (re)insurance markets. Unfavorable market conditions may affect the ability of our (re)insurance subsidiaries to write business at rates they consider appropriate relative to the risk assumed. If we cannot write business at appropriate rates, our business would be significantly and adversely affected. We believe the market currently remains attractive; however, … [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-03-30, L354:
+
+> With new technologies and AI tools emerging at a rapid pace, there is no assurance that we will be able to evaluate and integrate new technologies or update our existing systems to keep pace with our competitors and customer needs. While we believe AI presents significant opportunities to support our strategic goals, we may not be successful in implementing AI technologies. It is possible that any AI we use does not perform as anticipated, suffers from “hallucinations” or that its outputs may not be as expected or may result in unlawful discrimination, which may put us at a competitive disadvantage, result in reputational damage and regulatory fines and actions. The shifting regulatory landscape surrounding traditional AI and generative AI is evolving, and the expanded use of these technologies may become subject to regulatory scrutiny under new or existing laws. Moreover, the intellectual property and ownership rights associated with both forms of artificial intelligence have not been fully addressed by courts in the U.S. or in other jurisdictions that we operate in. Failure to comply with the applicable AI related regulations could result in fines, penalties, litigation, or restrictions on our business operations. These outcomes may have a materially adverse effect on our business or financial condition. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-03-30, L294:
+
+> If our Operating Subsidiaries’ or if Lloyd’s ratings are reduced from their current levels by either A.M. Best or S&P, our competitive position in the (re)insurance industry might suffer and it may be more difficult for us to market our products, expand our (re)insurance portfolio and renew our existing (re)insurance policies and agreements. A rating downgrade may also require us to establish trusts or post letters of credit for ceding company clients and could trigger provisions allowing some clients to terminate their (re)insurance contracts with us. Some contracts also provide for the return of premium to the ceding client in the event of a rating downgrade. It is increasingly common for our reinsurance contracts to contain such terms. Whether a cedant would exercise any of these rights could depend on various factors, such as the reason for and the extent of such downgrade, the prevailing market conditions and the pricing and availability of replacement reinsurance coverage. A downgrade could result in a substantial loss of business as ceding companies and brokers that place such business move to other reinsurers with higher ratings and therefore such downgrade may materially and adversely impact our business, operating results, liquidity and financial flexibility. [S69]
 
 ## Financial performance
 
@@ -1209,6 +1282,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-03-30, L54:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1221,6 +1298,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 20-F, filed 2026-03-30, L166:
+
+> You should carefully consider the following risk factors and all other information set forth in this report, including our consolidated financial statements and the notes thereto. Any of the risks described below could materially and adversely affect our business, operating results or financial condition. The risk factors described below could also cause our actual results to differ materially from those in the forward-looking and other statements contained in this report and other documents that we file with the SEC. The risks and uncertainties described below are not the only ones we face. However, these are the risks we believe to be material as of the date of this report. Additional risks not presently known to us or that we currently deem immaterial may also impair our future business, financial condition or operating results. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1230,25 +1311,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1312,6 +1393,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-05-08 | 6-K | 0001628280-25-023393 | — | [S65] |
 | 2025-05-08 | F-N | 0001628280-25-023388 | — | [S66] |
 | 2025-05-07 | EFFECT | 9999999995-25-001441 | — | [S67] |
+
+Source excerpt — 20-F, filed 2026-03-30, L936:
+
+> From January 1, 2025 to January 1, 2026, gross exposure was relatively flat with small increases during the year offset by exposure reductions due to market conditions at January 1, 2026. The increase in net exposure was driven by changes to reinsurance protection. Less ACM was placed for 2026 with fronted participants moving into run-off increasing the reinsurance segment net position. For the insurance segment, the main cat cover was placed with lower attachment but less limit providing more working protection but increasing tail exposure at Group level from 1-in-100 year PMLs upwards. Mid-year resets of the cat bond and ILWs also increased exposure from 1-in-50 year PMLs upwards. An updated view of risk was introduced for European windstorm which had a minor impact slightly increasing tail exposure. [S69]
 
 ## Sources and change log
 
@@ -1448,5 +1533,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [F-N 0001628280-25-023388](https://www.sec.gov/Archives/edgar/data/1267395/000162828025023388/0001628280-25-023388-index.html) — published 2025-05-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [EFFECT 9999999995-25-001441](https://www.sec.gov/Archives/edgar/data/1267395/999999999525001441/9999999995-25-001441-index.html) — published 2025-05-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [6-K 0001267395-26-000031](https://www.sec.gov/Archives/edgar/data/1267395/000126739526000031/form6-kq22026.htm) — published 2026-09-09; retrieved 2026-11-07T18:02:25.995496+00:00.
+
+[S69] [20-F 0001267395-26-000007](https://www.sec.gov/Archives/edgar/data/1267395/000126739526000007/ahl-20251231.htm) — published 2026-03-30; retrieved 2026-11-07T18:02:23.906041+00:00.
+
+[S70] [8-K 0001267395-19-000073](https://www.sec.gov/Archives/edgar/data/1267395/000126739519000073/a8-kxsupplementalindenture.htm) — published 2019-06-28; retrieved 2026-11-07T18:02:22.226296+00:00.
+
+[S71] [8-K/A 0001267395-18-000074](https://www.sec.gov/Archives/edgar/data/1267395/000126739518000074/form8-kofficerdeparture.htm) — published 2018-07-05; retrieved 2026-11-07T18:02:20.721117+00:00.
+
+[S72] [DEF 14A 0001267395-18-000030](https://www.sec.gov/Archives/edgar/data/1267395/000126739518000030/a2017proxystatement2018fil.htm) — published 2018-03-19; retrieved 2026-11-07T18:02:18.836522+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

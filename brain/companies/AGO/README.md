@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,36 @@ sources:
   published_at: '2026-03-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1273813/000127381326000077/ago-20260630.htm
+  title: 10-Q 0001273813-26-000077
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-07T18:00:57.238394+00:00'
+  sha256: 6eaa259e2686f3ef30c4227408e464accb5e501675cae03d6c0ec109cf148fc7
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1273813/000127381326000079/ago-20260807.htm
+  title: 8-K 0001273813-26-000079
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-07T18:00:59.209555+00:00'
+  sha256: 672193acda5547d7d0629ba36b6f7c74c94d5ab0ccb56ce2b102d2a330331a17
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1273813/000127381326000028/ago-20260318.htm
+  title: DEF 14A 0001273813-26-000028
+  published_at: '2026-03-18'
+  retrieved_at: '2026-11-07T18:00:55.447680+00:00'
+  sha256: 4a9721b48eef4383fa774a9e9f2854e47739544d2ccb7c6fc17c6a9d0bbd5cd7
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1273813/000127381326000011/ago-20251231.htm
+  title: 10-K 0001273813-26-000011
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-07T18:00:53.141613+00:00'
+  sha256: c970c5b1941fbc66857d205e2f5015fb907e7b2211a251495f00876279d8d0bb
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1273813/000127381323000008/ago-20230228.htm
+  title: 8-K/A 0001273813-23-000008
+  published_at: '2023-03-02'
+  retrieved_at: '2026-11-07T18:00:51.522859+00:00'
+  sha256: 40fcfaa9439832a440026d413de3eb4df3122021d39a2688321fca44354021fc
 issuer_classification:
   cik: 0001273813
   classification_status: reported_sic
@@ -509,13 +539,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1273813/000127381323000008/0001273813-23-000008-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 865d17ff204b004672edf6f2be3878ec120f604c1665f8e9a9f37ad6d699d201
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -539,13 +578,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-18, L43:
+
+> We provide further detail on our achievements and future plans in the Letter to Shareholders accompanying our 2025 Annual Report. We encourage you to review that letter, our 2025 Annual Report, and the Proxy Statement that follows. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-07, L687:
+
+> Prior to the first quarter of 2026, the Company disclosed two reportable segments: Insurance and Asset Management. As a result of the expansion of the Company’s business into annuity reinsurance, the chief operating decision maker (CODM) began assessing the results of operations of the Company’s annuity reinsurance business separately and therefore a new operating segment, Annuity Reinsurance, was added in the first quarter of 2026. In addition, the Insurance segment was renamed the Financial Guaranty segment starting in the first quarter of 2026, which includes financial guaranty insurance and reinsurance and also specialty insurance and reinsurance on transactions with risk profiles similar to those of the Company’s structured finance exposures written in financial guaranty form. The Company separately reports the results of its Corporate division and the effects of consolidating financial guaranty VIEs (FG VIEs) and consolidated investment vehicles (CIVs). This presentation is consistent with the manner in which the Chief Executive Officer and President, who serves as the CODM, reviews the business to assess performance and allocate resources. The CODM predominantly uses adjusted operating income to allocate resources for each segment in the annual budget and forecasting process and to assess the performance of each segment. [S67]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — DEF 14A, filed 2026-03-18, L696:
+
+> The security of our products, services and corporate network is a key priority both for the growth of our business and our responsibilities as the leading financial guaranty insurance company. We have taken a risk-based approach to cybersecurity and have implemented cybersecurity policies throughout our operations. We maintain cybersecurity insurance to mitigate any costs that may be associated with a cybersecurity incident. [S69]
 
 ## Customers and end markets
 
@@ -561,13 +612,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1223:
+
+> Certain BIG healthcare exposures are experiencing rising labor costs due to competition for labor and shortages in certain markets. Additionally, inflation has increased the cost of medical supplies, medical equipment and pharmacy products, while U.S. hospitals with large Medicaid and Medicare payor mixes have not seen reimbursement levels keep pace with rising costs and may be further impacted by cuts to Medicaid funding that will go into effect later in 2026 and in 2027. The combined revenue and expense challenges have led to cash flow and liquidity stress in certain transactions. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-18, L1931:
+
+> Mr. Bailenson was responsible in the 2025 performance year for leading our financial guaranty underwriting businesses and origination strategies worldwide, as well as other initiatives for revenue generation. In that capacity, in 2025 he led various strategic initiatives to help us expand our financial guaranty business geographically and with respect to new asset classes. Mr. Bailenson is also responsible for our intellectual property and information technology, along with investor relations. More specifically, Mr. Bailenson: [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L2694:
+
+> If one or more of these or other risks or uncertainties materialize, or if Assured Guaranty’s underlying assumptions prove to be incorrect, actual results may vary materially from what Assured Guaranty projected. Any forward looking statements in this Form 10-Q reflect Assured Guaranty’s current views with respect to future events and are subject to these and other risks, uncertainties and assumptions relating to its operations, results of operations, growth strategy and liquidity. [S67]
 
 ## Financial performance
 
@@ -1176,6 +1239,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L2653:
+
+> As of August 5, 2026, AGL was authorized to repurchase an additional $121 million of its common shares. The Board of Directors may modify, suspend or terminate the repurchase program at any time, and the program does not have a stated expiration date. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1188,6 +1255,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L2514:
+
+> Lawsuits arise in the ordinary course of the Company’s business. It is the opinion of the Company’s management, based upon the information available, that the expected outcome of litigation against the Company, individually or in the aggregate, will not have a material adverse effect on the Company’s financial position, although an adverse resolution of litigation against the Company in a fiscal quarter or year could have a material adverse effect on the Company’s results of operations or liquidity in that particular quarter or year. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1197,25 +1268,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1279,6 +1350,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-23 | 4 | 0001213900-26-032973 | — | [S64] |
 | 2026-03-20 | 144 | 0001949846-26-000185 | — | [S65] |
 | 2026-03-19 | 8-K | 0001273813-26-000044 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-03-18, L534:
+
+> Our Board usually meets four times per year in regularly scheduled meetings, but will meet more often if necessary. During 2025, our Board met four times. All of our current directors attended at least 75% of the aggregate number of meetings of our Board and committees of our Board of which they were a member held while they were in office during the year ended December 31, 2025. All of our directors then in office attended the Annual General Meeting that was held on May 2, 2025. [S69]
 
 ## Sources and change log
 
@@ -1413,5 +1488,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [144 0001949846-26-000185](https://www.sec.gov/Archives/edgar/data/1273813/000194984626000185/0001949846-26-000185-index.html) — published 2026-03-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [8-K 0001273813-26-000044](https://www.sec.gov/Archives/edgar/data/1273813/000127381326000044/0001273813-26-000044-index.html) — published 2026-03-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [10-Q 0001273813-26-000077](https://www.sec.gov/Archives/edgar/data/1273813/000127381326000077/ago-20260630.htm) — published 2026-08-07; retrieved 2026-11-07T18:00:57.238394+00:00.
+
+[S68] [8-K 0001273813-26-000079](https://www.sec.gov/Archives/edgar/data/1273813/000127381326000079/ago-20260807.htm) — published 2026-08-07; retrieved 2026-11-07T18:00:59.209555+00:00.
+
+[S69] [DEF 14A 0001273813-26-000028](https://www.sec.gov/Archives/edgar/data/1273813/000127381326000028/ago-20260318.htm) — published 2026-03-18; retrieved 2026-11-07T18:00:55.447680+00:00.
+
+[S70] [10-K 0001273813-26-000011](https://www.sec.gov/Archives/edgar/data/1273813/000127381326000011/ago-20251231.htm) — published 2026-02-27; retrieved 2026-11-07T18:00:53.141613+00:00.
+
+[S71] [8-K/A 0001273813-23-000008](https://www.sec.gov/Archives/edgar/data/1273813/000127381323000008/ago-20230228.htm) — published 2023-03-02; retrieved 2026-11-07T18:00:51.522859+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

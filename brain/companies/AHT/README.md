@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -480,6 +480,78 @@ sources:
   published_at: '2026-03-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000110465926117508/tm2627927d1_8k.htm
+  title: 8-K 0001104659-26-117508
+  published_at: '2026-10-21'
+  retrieved_at: '2026-11-07T18:03:30.958366+00:00'
+  sha256: e6235ff847baad8cf9a942ba775042af256abd821a309166858dbd6c958f3a2e
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258226000183/aht-20260630.htm
+  title: 10-Q 0001232582-26-000183
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-07T18:03:28.960567+00:00'
+  sha256: a820b397ec25bcc3b866b126497f5d495c8b5ad1297f5062c8d72d5767ef930d
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258226000085/aht-20260331.htm
+  title: DEF 14A 0001232582-26-000085
+  published_at: '2026-03-31'
+  retrieved_at: '2026-11-07T18:03:26.958937+00:00'
+  sha256: 75a3896f7364e9ab4bec2737663016d05102621041acafb3076c029d8da71e5e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258226000067/aht-20251231.htm
+  title: 10-K 0001232582-26-000067
+  published_at: '2026-03-23'
+  retrieved_at: '2026-11-07T18:03:24.400518+00:00'
+  sha256: c56c1954eee18f94e26868ad2c504c96bf8506d181470919c82069e35e4c2f96
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258225000139/aht-20250822.htm
+  title: 8-K/A 0001232582-25-000139
+  published_at: '2025-08-27'
+  retrieved_at: '2026-11-07T18:03:22.631913+00:00'
+  sha256: d0655a8891b8ffa370e147e894857a34b2dfd358ba9994d984d3e3b47137c31c
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258225000009/aht-20250110.htm
+  title: 8-K/A 0001232582-25-000009
+  published_at: '2025-01-14'
+  retrieved_at: '2026-11-07T18:03:21.010550+00:00'
+  sha256: d9011f12443a5a2ee684e6558ffaad83f91ce7961af1bbe3b1ecd9dd3b919c78
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258224000085/aht-20240627.htm
+  title: 8-K/A 0001232582-24-000085
+  published_at: '2024-07-02'
+  retrieved_at: '2026-11-07T18:03:19.291074+00:00'
+  sha256: 7a273bddf0cc80f343093036e51689ac5ac74f993c4721733bd32aa35e1d07a3
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258224000079/aht-20240610.htm
+  title: 8-K/A 0001232582-24-000079
+  published_at: '2024-06-13'
+  retrieved_at: '2026-11-07T18:03:17.719730+00:00'
+  sha256: f9c3ee795e542fec0fae6037ce397f13b1778688d013603d927e34b83627060d
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258224000074/aht-20240514.htm
+  title: 8-K/A 0001232582-24-000074
+  published_at: '2024-05-20'
+  retrieved_at: '2026-11-07T18:03:15.981832+00:00'
+  sha256: f5152e0f855d748d140be5725785cb01133d0abed3c75d003c2ffc6464e7a09d
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258223000113/aht-20231206.htm
+  title: 8-K/A 0001232582-23-000113
+  published_at: '2023-12-12'
+  retrieved_at: '2026-11-07T18:03:14.360368+00:00'
+  sha256: 6ebb7564708fe86c9124c5fd387d5ff4751d1535d5998a33df4d99980eb22c55
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258223000076/aht-20230801.htm
+  title: 8-K/A 0001232582-23-000076
+  published_at: '2023-08-02'
+  retrieved_at: '2026-11-07T18:03:12.571420+00:00'
+  sha256: 0f05ae794e58e1eb3bd287ed344346081279c24841da46b46dc5dd9b9e22ace5
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1232582/000123258220000080/aht2020q3er8-ka.htm
+  title: 8-K/A 0001232582-20-000080
+  published_at: '2020-11-09'
+  retrieved_at: '2026-11-07T18:03:11.036385+00:00'
+  sha256: c289aa06a0a23673d90e7fa08b3621816bc86b828e4d1208677d3ceb7325d07d
 issuer_classification:
   cik: 0001232582
   classification_status: reported_sic
@@ -549,13 +621,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1232582/000123258220000080/0001232582-20-000080-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 11799329fd11a617474188ad2473ed9048b81301dbc0844f5205e3a4a2cf7a94
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -579,17 +662,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1126:
+
+> Ashford Hospitality Trust, Inc., together with its subsidiaries (“Ashford Trust”), is a real estate investment trust (“REIT”). While our portfolio currently consists of upscale hotels and upper upscale full-service hotels, our investment strategy is predominantly focused on investing in upper upscale full-service hotels in the United States that have revenue per available room (“RevPAR”) generally less than twice the U.S. national average, and in all methods including direct real estate, equity and debt. We currently anticipate future investments will predominantly be in upper upscale hotels. We own our lodging investments and conduct our business through Ashford Hospitality Limited Partnership (“Ashford Trust OP”), our operating partnership. Ashford OP General Partner LLC, a wholly owned subsidiary of Ashford Trust, serves as the sole general partner of our operating partnership. Terms such as “the Company,” “we,” “us” or “our” refer to Ashford Hospitality Trust, Inc. and, as the context may require, all entities included in its consolidated financial statements. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L2582:
+
+> Following Stirling OP’s redemption of its unit holders on September 2, 2025, the Company updated the presentation of its reportable segment for the three and six months ended June 30, 2026 and 2025, to incorporate the results of Stirling OP’s four hotel properties. Prior to September 2, 2025, the CODM did not regularly review the results of Stirling OP. The following tables include revenues, significant hotel operating expenses, and Hotel Adjusted EBITDA for the Company’s hotels, reconciled to the consolidated amounts included in the Company’s consolidated statements of operations (in thousands): [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-23, L467:
+
+> Our business and financial performance are affected by the health of the worldwide travel industry. Travel expenditures are sensitive to personal and business-related discretionary spending levels, tending to decline or grow more slowly during economic downturns, as well as to disruptions due to other factors, including those discussed below. Decreased travel expenditures could reduce the demand for our services, thereby causing a reduction in revenue. For example, during regional or global recessions, domestic and global economic conditions can deteriorate rapidly, resulting in increased unemployment and a reduction in expenditures for both business and leisure travelers. A slower spending rate on the services we provide could have a negative impact on our revenue growth. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-23, L618:
+
+> As a company conducting business with physical operations throughout North America, we are exposed, both directly and indirectly, to the effects of changes in U.S., state and local tax rules. Taxes for financial reporting purposes and cash tax liabilities in the future may be adversely affected by changes in such tax rules. Such changes may put us at a competitive disadvantage compared to some of our major competitors, to the extent we are unable to pass the tax costs through to our customers. [S70]
 
 ## Industry and value chain
 
@@ -597,17 +696,33 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-23, L369:
+
+> The U.S. government has imposed significant tariffs on imported goods, and additional tariffs or trade restrictions may be implemented in the future. On February 20, 2026, the United States Supreme Court issued a ruling striking down certain tariffs previously imposed under the International Emergency Economic Powers Act (“IEEPA”). Following the Supreme Court’s decision, the U.S. presidential administration announced its intention to invoke other laws to collect tariffs and announced new tariffs on imports from all countries, in addition to any existing non-IEEPA tariffs. These measures could strain international trade relations and increase the risk that foreign governments impose retaliatory tariffs or other restrictions on goods imported from the United States. There remains substantial uncertainty regarding the duration of existing and newly announced tariffs, potential changes or pauses to such tariffs, tariff levels, and whether further additional tariffs or other retaliatory actions may be imposed, modified, or suspended. Such actions may lead to higher costs for goods and services, supply chain disruptions, increased operational complexity and broader economic uncertainty, all of which could adversely affect our business and financial condition. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L3132:
+
+> Our existing hotel properties are mostly located in developed areas with competing hotel properties. Future occupancy, ADR, and RevPAR of any individual hotel could be materially and adversely affected by an increase in the number or quality of competitive hotel properties, home-sharing companies or apartment operators offering short-term rentals in its market area. Competition could also affect the quality and quantity of future investment opportunities. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L148:
+
+> positioned upscale select-service hotels. We believe this diversity remains a competitive advantage, particularly in an environment [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-23, L269:
+
+> Our strategy is designed to take advantage of lodging industry conditions and adjust to changes in market circumstances over time. Our assessment of market conditions will determine asset reallocation strategies. While we seek to capitalize on favorable market fundamentals, conditions beyond our control may have an impact on overall profitability, our investment [S70]
 
 ## Financial performance
 
@@ -1222,6 +1337,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-21, L137:
+
+> replaced from time to time, unless the Company’s board of directors has exempted such purchase (the “Rights Agreement Ownership [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1234,6 +1353,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2571:
+
+> We are also engaged in other legal proceedings that have arisen but have not been fully adjudicated. To the extent the claims giving rise to these legal proceedings are not covered by insurance, they relate to the following general types of claims: employment matters; tax matters; and matters relating to compliance with applicable law (for example, the Americans with Disabilities Act and similar state laws). The likelihood of loss from these legal proceedings is based on the definitions within contingency accounting literature. We recognize a loss when we believe the loss is both probable and reasonably estimable. Based on the information available to us relating to these legal proceedings and/or our experience in similar legal proceedings, we do not believe the ultimate resolution of these proceedings, either individually or in the aggregate, will have a material adverse effect on our consolidated financial position, results of operations or cash flow. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1243,25 +1366,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1325,6 +1448,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-17 | 424B3 | 0001232582-26-000052 | — | [S64] |
 | 2026-03-17 | 8-K | 0001232582-26-000050 | — | [S65] |
 | 2026-03-10 | 424B3 | 0001232582-26-000043 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L1153:
+
+> During the year ended December 31, 2025, Ashford M Investor LLC (“Ashford Investor LLC”) issued preferred membership interests in the Renaissance Nashville in Nashville, Tennessee in return for $88.0 million. The preferred membership interests issued to the holder are classified as liabilities within “indebtedness, net” in the consolidated balance sheet and do not constitute equity at risk. Ashford Investor LLC is considered a VIE. Ashford Trust as managing member, has the power to direct the activities that most significantly impact Ashford Investor LLC’s economic performance, while the holder, as non‑managing member, holds participating rights over certain major decisions but does not have the ability to remove Ashford Trust without cause. Based on these factors, Ashford Trust is identified as the primary beneficiary and consolidates Ashford Investor LLC. See note 6. [S68]
 
 ## Sources and change log
 
@@ -1459,5 +1586,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [8-K 0001232582-26-000050](https://www.sec.gov/Archives/edgar/data/1232582/000123258226000050/0001232582-26-000050-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [424B3 0001232582-26-000043](https://www.sec.gov/Archives/edgar/data/1232582/000123258226000043/0001232582-26-000043-index.html) — published 2026-03-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-117508](https://www.sec.gov/Archives/edgar/data/1232582/000110465926117508/tm2627927d1_8k.htm) — published 2026-10-21; retrieved 2026-11-07T18:03:30.958366+00:00.
+
+[S68] [10-Q 0001232582-26-000183](https://www.sec.gov/Archives/edgar/data/1232582/000123258226000183/aht-20260630.htm) — published 2026-08-12; retrieved 2026-11-07T18:03:28.960567+00:00.
+
+[S69] [DEF 14A 0001232582-26-000085](https://www.sec.gov/Archives/edgar/data/1232582/000123258226000085/aht-20260331.htm) — published 2026-03-31; retrieved 2026-11-07T18:03:26.958937+00:00.
+
+[S70] [10-K 0001232582-26-000067](https://www.sec.gov/Archives/edgar/data/1232582/000123258226000067/aht-20251231.htm) — published 2026-03-23; retrieved 2026-11-07T18:03:24.400518+00:00.
+
+[S71] [8-K/A 0001232582-25-000139](https://www.sec.gov/Archives/edgar/data/1232582/000123258225000139/aht-20250822.htm) — published 2025-08-27; retrieved 2026-11-07T18:03:22.631913+00:00.
+
+[S72] [8-K/A 0001232582-25-000009](https://www.sec.gov/Archives/edgar/data/1232582/000123258225000009/aht-20250110.htm) — published 2025-01-14; retrieved 2026-11-07T18:03:21.010550+00:00.
+
+[S73] [8-K/A 0001232582-24-000085](https://www.sec.gov/Archives/edgar/data/1232582/000123258224000085/aht-20240627.htm) — published 2024-07-02; retrieved 2026-11-07T18:03:19.291074+00:00.
+
+[S74] [8-K/A 0001232582-24-000079](https://www.sec.gov/Archives/edgar/data/1232582/000123258224000079/aht-20240610.htm) — published 2024-06-13; retrieved 2026-11-07T18:03:17.719730+00:00.
+
+[S75] [8-K/A 0001232582-24-000074](https://www.sec.gov/Archives/edgar/data/1232582/000123258224000074/aht-20240514.htm) — published 2024-05-20; retrieved 2026-11-07T18:03:15.981832+00:00.
+
+[S76] [8-K/A 0001232582-23-000113](https://www.sec.gov/Archives/edgar/data/1232582/000123258223000113/aht-20231206.htm) — published 2023-12-12; retrieved 2026-11-07T18:03:14.360368+00:00.
+
+[S77] [8-K/A 0001232582-23-000076](https://www.sec.gov/Archives/edgar/data/1232582/000123258223000076/aht-20230801.htm) — published 2023-08-02; retrieved 2026-11-07T18:03:12.571420+00:00.
+
+[S78] [8-K/A 0001232582-20-000080](https://www.sec.gov/Archives/edgar/data/1232582/000123258220000080/aht2020q3er8-ka.htm) — published 2020-11-09; retrieved 2026-11-07T18:03:11.036385+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

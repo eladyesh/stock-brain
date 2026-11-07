@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 0fe1bd4b14b27b36b782428a47500971a40bd2c5
+source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -466,6 +466,48 @@ sources:
   published_at: '2026-04-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587726000133/agm-20261022.htm
+  title: 8-K 0000845877-26-000133
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-07T18:00:19.096349+00:00'
+  sha256: 68e575645cf3983d81a335220874cc4797fb59967e7d6cb1c4af8700226ba7dd
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587726000123/agm-20260630.htm
+  title: 10-Q 0000845877-26-000123
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-07T18:00:17.074468+00:00'
+  sha256: 9830c2dd401acedc2302b79f445c67fe07b7f32a9951e499f0ec22ccd557fc85
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587726000078/agm-20260413.htm
+  title: DEF 14A 0000845877-26-000078
+  published_at: '2026-04-13'
+  retrieved_at: '2026-11-07T18:00:15.072017+00:00'
+  sha256: 0a360f88e479a280e85283704697c6e27e972a5efc3825694cb47e6ad63906a4
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587726000014/agm-20251231.htm
+  title: 10-K 0000845877-26-000014
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-07T18:00:12.836988+00:00'
+  sha256: 8d2ea23f10c256aefacc82b0398ba1b281ed30b2ef7f8cae4c7d4b5f4c9a5fc7
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587724000166/agm-20240516.htm
+  title: 8-K/A 0000845877-24-000166
+  published_at: '2024-06-04'
+  retrieved_at: '2026-11-07T18:00:11.253996+00:00'
+  sha256: dea92c76790a96291827a90413873a17a8f9d808b0a88c7793a2171c3bbbf4fd
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587722000137/agm-20220519.htm
+  title: 8-K/A 0000845877-22-000137
+  published_at: '2022-06-02'
+  retrieved_at: '2026-11-07T18:00:09.538546+00:00'
+  sha256: d3deafd83600e6e8e4a5e45665dd94b5a8f5de9318dfed9374ac967d261e8f48
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/845877/000084587717000167/a201712078-k1.htm
+  title: 8-K/A 0000845877-17-000167
+  published_at: '2017-12-07'
+  retrieved_at: '2026-11-07T18:00:07.851687+00:00'
+  sha256: ba23027b77b54b993a68832ac1c50740db5b94f0430936f2bcbbcbd458d4748e
 issuer_classification:
   cik: 0000845877
   classification_status: reported_sic
@@ -518,13 +560,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/845877/000084587717000167/0000845877-17-000167-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 996852279b88b1935c5a58916f482f0880e0cbedee3ac8e018109f67dc24a9e0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-07T17:58:19.720602+00:00'
+  last_success_at: '2026-11-07T17:58:19.720602+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -549,17 +601,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L2467:
+
+> Our outstanding business volume was $37.2 billion as of June 30, 2026, a net increase of $2.4 billion from March 31, 2026 after taking into account all new business, maturities, sales, and paydowns on existing assets. The net increase was due to new volume during the quarter totaling $4.0 billion, partially offset by scheduled maturities and repayments of $1.6 billion. The net new volume includes increases of $1.8 billion in the Agricultural Finance and $0.6 billion in the Infrastructure Finance lines of business. For more information about our business volume, see MD&A—Results of Operations—Business Volume. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-19, L2904:
+
+> During fourth quarter 2024, Farmer Mac's Chief Operating Decision Maker ("CODM") – its Chief Executive Officer – began to be provided with financial information of an additional operating segment, "Broadband Infrastructure." Prior to fourth quarter 2024, the financial information of the Broadband Infrastructure segment had been included within the Rural Utilities segment, which was renamed as "Power & Utilities" in fourth quarter 2024. The CODM reviews segment core earnings to make decisions about allocating resources and to assess the financial performance of the segments. Prior to fourth quarter 2024, the reportable segments were: Farm & Ranch, Corporate AgFinance, Rural Utilities, Renewable Energy, Funding, Investments, and Corporate. Beginning in fourth quarter 2024, the reportable segments are: Farm & Ranch, Corporate AgFinance, Power & Utilities, Broadband Infrastructure, Renewable Energy, Funding, and Investments. The purpose of separately reporting the financial results of the Broadband Infrastructure segment is for the CODM to separately review and analyze its financial [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-19, L721:
+
+> Our business, operating results, financial condition, and capital levels may be materially and adversely affected by external factors that may affect the demand for our secondary market, the price or marketability of our products, or our ability to offer our products and services. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-13, L1147:
+
+> We proudly engage in philanthropy to support our customers and communities. Our efforts begin in the [S70]
 
 ## Industry and value chain
 
@@ -567,9 +635,17 @@ SEC-reported SIC **6111**: Federal & Federally-Sponsored Credit Agencies. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L2421:
+
+> •the effect of economic conditions stemming from disruptive global events or otherwise on agricultural mortgage or infrastructure lending, borrower repayment capacity, or collateral values, including inflation, fluctuations in interest rates, changes in U.S. trade policies (including tariffs and trade restrictions), fluctuations in export demand for U.S. agricultural products and foreign currency exchange rates, supply chain disruptions, increases in input costs, labor availability, and volatility in commodity prices; [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-19, L519:
+
+> Farmer Mac is the only federally-chartered corporation established to provide a secondary market for agricultural mortgage loans, infrastructure loans, and USDA Securities, but faces competition from other entities that purchase, retain, securitize, or provide financing for the types of assets eligible for our secondary market activities. These entities include commercial and investment banks, insurance companies, other FCS institutions, financial funds, and certain government programs. We also compete indirectly with originators of Eligible Loans that would prefer to retain the loans they originate rather than sell them into the secondary market. We are able to compete to acquire Eligible Loans due to the variety of products we offer and our ability to offer competitive funding structures and pricing to our customers. This enables us to provide flexible financing options and products designed to meet the varied needs of lending institutions related to capital requirements, liquidity, credit risk, and management of sector and geographic concentrations and borrower exposure limits. The relative competitiveness of our loan rates and our ability to develop business with lending institutions are affected by many factors, including: [S71]
 
 ## Moat and differentiation
 
@@ -578,6 +654,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L3067:
+
+> Another focus of our planned infrastructure investments is a continued effort to expand our servicing capabilities and to enhance the efficiency of processes associated with loan onboarding and servicing. We expect to continue to leverage technology enhancements and servicing standardization efforts to drive scalability and consistency. We plan to implement technology enhancements and process re-engineering over the next several years to continue to incorporate servicing platform optimization and to provide flexibility in accessing loan portfolio information, increase standardization of data and processing, and streamline operational workflows. [S69]
 
 ## Financial performance
 
@@ -1186,6 +1266,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1781:
+
+> •a portion of the guarantee fees have been set aside as a reserve against losses arising from guarantee activities in an amount determined by Farmer Mac's board of directors to be necessary and such reserve has been exhausted; and [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1198,6 +1282,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L2415:
+
+> statements, including the factors discussed under "Risk Factors" in Part I, Item 1A of Farmer Mac's 2025 Annual Report as well as uncertainties about: [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1207,25 +1295,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1289,6 +1377,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-02 | 4 | 0001811540-26-000004 | — | [S65] |
 | 2026-04-02 | 4 | 0001776941-26-000002 | — | [S66] |
 | 2026-04-02 | 4 | 0001775984-26-000004 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-07-30, L1431:
+
+> (3)Includes $59.2 million of nonaccrual loans for which there was no associated allowance. During the year ended December 31, 2025, Farmer Mac received $6.5 million in interest on nonaccrual loans. [S69]
 
 ## Sources and change log
 
@@ -1425,5 +1517,19 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0001776941-26-000002](https://www.sec.gov/Archives/edgar/data/845877/000177694126000002/0001776941-26-000002-index.html) — published 2026-04-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001775984-26-000004](https://www.sec.gov/Archives/edgar/data/845877/000177598426000004/0001775984-26-000004-index.html) — published 2026-04-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0000845877-26-000133](https://www.sec.gov/Archives/edgar/data/845877/000084587726000133/agm-20261022.htm) — published 2026-10-22; retrieved 2026-11-07T18:00:19.096349+00:00.
+
+[S69] [10-Q 0000845877-26-000123](https://www.sec.gov/Archives/edgar/data/845877/000084587726000123/agm-20260630.htm) — published 2026-07-30; retrieved 2026-11-07T18:00:17.074468+00:00.
+
+[S70] [DEF 14A 0000845877-26-000078](https://www.sec.gov/Archives/edgar/data/845877/000084587726000078/agm-20260413.htm) — published 2026-04-13; retrieved 2026-11-07T18:00:15.072017+00:00.
+
+[S71] [10-K 0000845877-26-000014](https://www.sec.gov/Archives/edgar/data/845877/000084587726000014/agm-20251231.htm) — published 2026-02-19; retrieved 2026-11-07T18:00:12.836988+00:00.
+
+[S72] [8-K/A 0000845877-24-000166](https://www.sec.gov/Archives/edgar/data/845877/000084587724000166/agm-20240516.htm) — published 2024-06-04; retrieved 2026-11-07T18:00:11.253996+00:00.
+
+[S73] [8-K/A 0000845877-22-000137](https://www.sec.gov/Archives/edgar/data/845877/000084587722000137/agm-20220519.htm) — published 2022-06-02; retrieved 2026-11-07T18:00:09.538546+00:00.
+
+[S74] [8-K/A 0000845877-17-000167](https://www.sec.gov/Archives/edgar/data/845877/000084587717000167/a201712078-k1.htm) — published 2017-12-07; retrieved 2026-11-07T18:00:07.851687+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
