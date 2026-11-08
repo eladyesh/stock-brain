@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -369,6 +369,12 @@ sources:
   published_at: '2023-05-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1778114/000119312520188401/d65542d8k.htm
+  title: 8-K 0001193125-20-188401
+  published_at: '2020-07-07'
+  retrieved_at: '2026-11-08T18:16:35.677538+00:00'
+  sha256: 97e428c369b4320c12e8cd4d34305d78335de2adda4cd63c06cfb361d6097c48
 issuer_classification:
   cik: 0001778114
   classification_status: missing_or_invalid_sic
@@ -396,11 +402,11 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1778114/000119312520188401/0001193125-20-188401-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: a038e6093d11479ec1e230b6a797866f724a24dac8151c2026caac4ebbdd3ce7
-  last_attempt_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-09T18:13:06.363886+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 0
@@ -490,7 +496,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -678,5 +684,7 @@ Latest 50 filing metadata records of 209 retained records. A filing link is evid
 [S51] [3 0000883237-23-000097](https://www.sec.gov/Archives/edgar/data/1778114/000088323723000097/0000883237-23-000097-index.html) — published 2023-05-31; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [3 0000883237-23-000084](https://www.sec.gov/Archives/edgar/data/1778114/000088323723000084/0000883237-23-000084-index.html) — published 2023-05-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [8-K 0001193125-20-188401](https://www.sec.gov/Archives/edgar/data/1778114/000119312520188401/d65542d8k.htm) — published 2020-07-07; retrieved 2026-11-08T18:16:35.677538+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

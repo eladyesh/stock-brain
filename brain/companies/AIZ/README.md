@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -467,6 +467,30 @@ sources:
   published_at: '2026-03-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1267238/000126723826000041/aiz-20260630.htm
+  title: 10-Q 0001267238-26-000041
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-08T18:21:16.378048+00:00'
+  sha256: 8b99c258aa6be25280257e8b3f84b32a20f53af60f208e675b32d66ebd6dc546
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1267238/000126723826000039/aiz-20260804.htm
+  title: 8-K 0001267238-26-000039
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-08T18:21:14.595846+00:00'
+  sha256: ebb831feaf4bfc511c7c1c800df17f2fa6ed90e41e8a252fb370a15a16c72dd7
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1267238/000126723826000018/aiz-20260406.htm
+  title: DEF 14A 0001267238-26-000018
+  published_at: '2026-04-06'
+  retrieved_at: '2026-11-08T18:21:12.140180+00:00'
+  sha256: f86a6d39633a3cc1a03ed3d2f19a8c97946d628fc30aae6726f17434dbe84533
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1267238/000126723826000010/aiz-20251231.htm
+  title: 10-K 0001267238-26-000010
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-08T18:21:09.468475+00:00'
+  sha256: d3b2c507acdfaecb8f608704ba4e8a97f8737db3ac75591da5cbe596ef81cf7b
 issuer_classification:
   cik: 0001267238
   classification_status: reported_sic
@@ -504,13 +528,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1267238/000126723826000039/0001267238-26-000039-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c15737c6faab6b95bada91985a0facefd8682d5feea61a8896fecf8f3ff46c69
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -534,17 +569,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L7884:
+
+> Some of the statements in this Report, including our business and financial plans and any statements regarding our anticipated future financial performance, business prospects, growth and operating strategies and similar matters, may constitute forward-looking statements within the meaning of the U.S. Private Securities Litigation Reform Act of 1995. You can identify forward-looking statements by the use of words such as “outlook,” “objective,” “will,” “may,” “can,” “anticipates,” “expects,” “estimates,” “projects,” “intends,” “plans,” “believes,” “targets,” “forecasts,” “potential,” “approximately,” and the negative version of those words and other words and terms with a similar meaning. Any forward-looking statements contained in this Report are based upon our historical performance and on current plans, estimates and expectations. The inclusion of this forward-looking information should not be regarded as a representation by us or any other person that our future plans, estimates or expectations will be achieved. Our actual results might differ materially from those projected in the forward-looking statements. We undertake no obligation to update or review any forward-looking statement, whether as a result of new information, future events or other developments. The following factors could cause our actual results to differ materially from those currently estimated by … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-19, L305:
+
+> The composition of our reportable segments aligns with how we view and manage our business. For additional information on our segments, see “Item 7 – Management’s Discussion and Analysis of Financial Condition and Results of Operations – Results of Operations” and Note 5 to the Consolidated Financial Statements included elsewhere in this Report. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-19, L410:
+
+> Global Lifestyle operates globally, with approximately 80.7% of its revenue from North America (the U.S. and Canada), 7.7% from Latin America (Brazil, Argentina, Puerto Rico, Mexico, Chile, Colombia and Peru), 5.9% from Europe (the United Kingdom (the “U.K.”), France, Italy, Spain, Germany and the Netherlands) and 5.7% from Asia Pacific (Japan, Australia, New Zealand, South Korea, India, Singapore and Hong Kong for the year ended December 31, 2025). Global Lifestyle focuses on establishing strong, long-term relationships with clients that are leaders in their markets, including leading distributors of our products and services. In Connected Living, we partner with the mobile eco-system (including carriers, retailers, OEMs and cable MSOs) and financial and other institutions to market our mobile device solutions, with some of the largest OEMs, consumer electronics retailers, appliance retailers (including e-commerce retailers) and cable operators to market our extended service contracts and related services, and with financial institutions, insurers and retailers to market our credit and other insurance products. In Global Automotive, we partner with auto dealers and agents, third-party administrators, manufacturers, equipment retailers and large banks and financing companies to market our vehicle protection, commercial equipment products and other related services. Many of our … [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-06, L2229:
+
+> •Connected Communities. As a purpose-driven company, we help our customers maximize opportunities in a way that contributes to a thriving society. We do this by focusing on creating an inclusive culture where employees have opportunities to learn and grow; supporting communities through investing our time, skills and resources where needed; and creating superior experiences for our customers. [S69]
 
 ## Industry and value chain
 
@@ -552,17 +603,33 @@ SEC-reported SIC **6399**: Insurance Carriers, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3014:
+
+> In the Global Lifestyle segment, revenues from service contracts and sales of products are primarily from the Company’s Connected Living business. Through partnerships with the mobile eco-system, the Company provides administrative services related to its device protection products, including program design and marketing strategy, risk management, data analytics, customer support and claims handling, supply chain and service delivery, repair and logistics, and device disposition. Administrative fees are generally billed monthly based on the volume of services provided during the billing period (for example, based on the number of mobile subscribers) with payment due within a short-term period. Each service or bundle of services, depending on the contract, is an individual performance obligation with a standalone selling price. The Company recognizes revenue as it invoices, which corresponds to the value transferred to the customer. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L7937:
+
+> Our results may also be impacted by our ability to capitalize on opportunities for further growth, including within adjacent markets such as home warranty. Our mobile business is subject to volatility in device trade-in volumes and margins based on the actual and anticipated timing of the release of new devices, carrier promotional programs and sales prices for used devices, as well as to changes in consumer preferences and client forecasts and demands. Our Homeowners revenue is impacted by changes in the housing market, as well as the voluntary insurance market. In addition, across many of our businesses, we must respond to competitive pressures, including the threat of disruption and competition for talent. For more information on these and other factors that could affect our results, see “Item 1A—Risk Factors—Business, Strategic and Operational Risks—Significant competitive pressures, changes in customer preferences and disruption could adversely affect our results of operations”, “—Our mobile business is subject to the risk of declines in the value and availability of mobile devices, and to regulatory compliance and other risks” and “—The success of our business depends on the execution of our strategy, including through the continuing service of key executives, senior leaders, highly-skilled personnel and a high-performing workforce” in our 2025 Annual Report. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-06, L1108:
+
+> •Technology: Extensive experience in technology and financial technology industries. Deeply knowledgeable about technology, data, blockchain and AI, including strategy, commercialization, governance, intellectual property and privacy issues, through executive roles at data and technology companies. Experience overseeing the enterprise technology strategy of a large content and services company. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L7888:
+
+> (iv)the failure to execute our strategy, including through organic growth and the continuing service of key executives, senior leaders, highly-skilled personnel and a high-performing workforce; [S67]
 
 ## Financial performance
 
@@ -1186,6 +1253,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L9178:
+
+> During Six Months 2026, we made common stock repurchases and paid dividends to our common stockholders of $292.0 million. We paid dividends of $0.88 per common share on June 29, 2026 to stockholders of record as of June 8, 2026. Any determination to declare and pay future dividends is at the sole discretion of the Board of Directors (the “Board”) and depends [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1198,6 +1269,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L7817:
+
+> The Company has established an accrued liability for certain legal and regulatory proceedings. The possible loss or range of loss resulting from such litigation and regulatory proceedings, if any, in excess of the amounts accrued is inherently unpredictable and uncertain. Consequently, no reasonable estimate can be made of any possible loss or range of loss in excess of the accrual. Although the Company cannot predict the outcome of any pending legal or regulatory proceeding, or the potential losses, fines, penalties or equitable relief, if any, that may result, it is possible that such outcome could have a material adverse effect on the Company’s consolidated results of operations or cash flows for an individual reporting period. However, on the basis of currently available information, management does not believe that the pending matters are likely to have a material adverse effect, individually or in the aggregate, on the Company’s financial condition. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1207,25 +1282,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1289,6 +1364,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-18 | 4 | 0001193125-26-114331 | — | [S64] |
 | 2026-03-18 | 4 | 0001193125-26-114320 | — | [S65] |
 | 2026-03-18 | 4 | 0001193125-26-114270 | — | [S66] |
+
+Source excerpt — 10-K, filed 2026-02-19, L962:
+
+> Additional regulation and guidance with respect to the implementation of certain OBBBA provisions are expected in 2026. We currently do not expect a material tax impact to our results of operations or financial condition due to these recent developments, and we continue to monitor and evaluate the potential impact of changing tax laws and regulations on future years. [S70]
 
 ## Sources and change log
 
@@ -1423,5 +1502,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001193125-26-114320](https://www.sec.gov/Archives/edgar/data/1267238/000119312526114320/0001193125-26-114320-index.html) — published 2026-03-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001193125-26-114270](https://www.sec.gov/Archives/edgar/data/1267238/000119312526114270/0001193125-26-114270-index.html) — published 2026-03-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [10-Q 0001267238-26-000041](https://www.sec.gov/Archives/edgar/data/1267238/000126723826000041/aiz-20260630.htm) — published 2026-08-06; retrieved 2026-11-08T18:21:16.378048+00:00.
+
+[S68] [8-K 0001267238-26-000039](https://www.sec.gov/Archives/edgar/data/1267238/000126723826000039/aiz-20260804.htm) — published 2026-08-04; retrieved 2026-11-08T18:21:14.595846+00:00.
+
+[S69] [DEF 14A 0001267238-26-000018](https://www.sec.gov/Archives/edgar/data/1267238/000126723826000018/aiz-20260406.htm) — published 2026-04-06; retrieved 2026-11-08T18:21:12.140180+00:00.
+
+[S70] [10-K 0001267238-26-000010](https://www.sec.gov/Archives/edgar/data/1267238/000126723826000010/aiz-20251231.htm) — published 2026-02-19; retrieved 2026-11-08T18:21:09.468475+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

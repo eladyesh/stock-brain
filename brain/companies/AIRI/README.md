@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -495,6 +495,78 @@ sources:
   published_at: '2025-08-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390026093066/ea0303062-8k_air.htm
+  title: 8-K 0001213900-26-093066
+  published_at: '2026-08-24'
+  retrieved_at: '2026-11-08T18:19:31.070008+00:00'
+  sha256: c9b7645d16550bc048022f0bb517e5747ad484d803d2a5c1a2f5b0266d75aa84
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390026088334/ea0300847-10q_airindus.htm
+  title: 10-Q 0001213900-26-088334
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-08T18:19:29.051805+00:00'
+  sha256: c252a726073d3c7cfa673cf4fb65eccd51319f0a9d317187f37a1822d3326cf6
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390026035731/ea0282298-10k_airindustries.htm
+  title: 10-K 0001213900-26-035731
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-08T18:19:27.294306+00:00'
+  sha256: 934aa0bbe683b85c131475971d3e5724cf80a5b22c38e5afdc4f0c69901e6534
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390025039574/ea0240488-01.htm
+  title: DEF 14A 0001213900-25-039574
+  published_at: '2025-05-05'
+  retrieved_at: '2026-11-08T18:19:25.572137+00:00'
+  sha256: 02a7bf2d23c1d220891d540b8bebab5ad66f924a3a5c01ebd1a2a1ed2460c74b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390022026513/ea159849-8ka_airind.htm
+  title: 8-K/A 0001213900-22-026513
+  published_at: '2022-05-13'
+  retrieved_at: '2026-11-08T18:19:24.022679+00:00'
+  sha256: f62fa1257fbd3b046d6b8903c3c89965aaf040dd4fd1aa6f26304a72c86ca222
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000121390021040153/ea145203-8ka_airindustries.htm
+  title: 8-K/A 0001213900-21-040153
+  published_at: '2021-08-04'
+  retrieved_at: '2026-11-08T18:18:49.366704+00:00'
+  sha256: fe861e6f2cfef43db892000ac3328cb657ef86ca8b670c297bc838366ac8dc2e
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380517000921/e616187_8ka-air.htm
+  title: 8-K/A 0001193805-17-000921
+  published_at: '2017-05-22'
+  retrieved_at: '2026-11-08T18:18:40.268554+00:00'
+  sha256: 688361c4e4a8bbf48bd9174d460801d43e9913244edf488f91df296e78adf4e3
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380517000870/e616162_8ka-air.htm
+  title: 8-K/A 0001193805-17-000870
+  published_at: '2017-05-15'
+  retrieved_at: '2026-11-08T18:18:38.691666+00:00'
+  sha256: f8c26f2f8c8d8351b4bb17c9656f37874d66a61dbc38660910f3368508f0f408
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380516003097/e614952_8ka-air.htm
+  title: 8-K/A 0001193805-16-003097
+  published_at: '2016-04-22'
+  retrieved_at: '2026-11-08T18:18:36.765139+00:00'
+  sha256: 8a3cad220badbae17fb66b5bc5655b9fdeff3df0e6f1a22920fff3c57ac8a64c
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380513001420/e611204_8ka-air.htm
+  title: 8-K/A 0001193805-13-001420
+  published_at: '2013-08-13'
+  retrieved_at: '2026-11-08T18:18:35.044429+00:00'
+  sha256: 76b751b6c860ee7b256581a0b0eb2b440a7ad38ed70ba93da77f17d0f38c4bc7
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380509001976/e605950_8ka-air.txt
+  title: 8-K/A 0001193805-09-001976
+  published_at: '2009-10-16'
+  retrieved_at: '2026-11-08T18:18:33.355204+00:00'
+  sha256: 1cce3e11ac9d387769124e97ebade0914881dc56ce7f1f4e753ad9c96cc6ae6c
+- id: S79
+  url: https://www.sec.gov/Archives/edgar/data/1009891/000119380508003400/e604801_8ka-aig.txt
+  title: 8-K/A 0001193805-08-003400
+  published_at: '2008-12-16'
+  retrieved_at: '2026-11-08T18:18:31.710080+00:00'
+  sha256: 7b403b08e888791d14e3397ad5dd3131eed6c5ce8ceb68c05000eaa0c877877f
 issuer_classification:
   cik: 0001009891
   classification_status: reported_sic
@@ -564,13 +636,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1009891/000119380508003400/0001193805-08-003400-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 77fae3f6513c600d2ca077722f93852c3c39d4d34ccec09c0d08a889c3929c2a
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -594,6 +676,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1280:
+
+> is a small individual component for assembly by others or complete assemblies we manufacture ourselves, our high quality and extremely [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -602,9 +688,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1279:
+
+> The ultimate end-user for most of our products is the U.S. government, foreign governments, and commercial global airlines. Whether it [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1287:
+
+> of certain parts and components and receive LTAs from our customers, both demonstrating their commitment to us. [S69]
 
 ## Industry and value chain
 
@@ -612,17 +706,33 @@ SEC-reported SIC **3728**: Aircraft Parts & Auxiliary Equipment, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L114:
+
+> distribution channels, profitability, new products, adequacy of funds from operations, and general economic conditions, these statements [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L107:
+
+> performance including, in particular, future sales, product demand, competition and the effect of economic conditions, include forward-looking [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-27, L654:
+
+> intellectual property, if any, related to the product. Consequently, if a customer desires to use another manufacturer to fabricate its [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-27, L413:
+
+> hesitant to commit to long-term contracts at fixed prices, posing a substantial risk given our strategy often entails entering into LTA [S70]
 
 ## Financial performance
 
@@ -1243,6 +1353,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1189:
+
+> The Company recorded stock-based compensation expense for certain employees and members of the Company’s Board of Directors of $8,000 and $4,000 for the three months ended June 30, 2026 and 2025, respectively, and $35,000 and $22,000 for the six months ended June 30, 2026 and 2025, respectively, in its condensed consolidated statements of operations, and such amounts were included as a component of operating expenses. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1255,6 +1369,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L121:
+
+> include, but are not limited to, those discussed under the heading “Risk Factors” in our Annual Report on Form 10-K for [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1264,25 +1382,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1346,6 +1464,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-09-15 | 8-K | 0001213900-25-087386 | — | [S65] |
 | 2025-09-03 | 8-K | 0001213900-25-083701 | — | [S66] |
 | 2025-08-27 | S-8 | 0001213900-25-081100 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L946:
+
+> To support current operations and strategic initiatives, the Company has raised capital through public market sales of its common stock since December 2024 and believes it can continue to access equity markets in future periods. During the year ended December 31, 2025, the Company generated gross proceeds of $4,869,000 through an At The Market (“ATM”) Offering, of which approximately $3,930,000 is restricted for the benefit of the Current Credit Facility lender. In light of the entry into the Merger Agreement with Tenax (each as defined in “Note 11. Merger Information”), the Company has temporarily paused all equity raising activity. See “Note 11. Merger Information”. [S69]
 
 ## Sources and change log
 
@@ -1482,5 +1604,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0001213900-25-083701](https://www.sec.gov/Archives/edgar/data/1009891/000121390025083701/0001213900-25-083701-index.html) — published 2025-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [S-8 0001213900-25-081100](https://www.sec.gov/Archives/edgar/data/1009891/000121390025081100/0001213900-25-081100-index.html) — published 2025-08-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001213900-26-093066](https://www.sec.gov/Archives/edgar/data/1009891/000121390026093066/ea0303062-8k_air.htm) — published 2026-08-24; retrieved 2026-11-08T18:19:31.070008+00:00.
+
+[S69] [10-Q 0001213900-26-088334](https://www.sec.gov/Archives/edgar/data/1009891/000121390026088334/ea0300847-10q_airindus.htm) — published 2026-08-12; retrieved 2026-11-08T18:19:29.051805+00:00.
+
+[S70] [10-K 0001213900-26-035731](https://www.sec.gov/Archives/edgar/data/1009891/000121390026035731/ea0282298-10k_airindustries.htm) — published 2026-03-27; retrieved 2026-11-08T18:19:27.294306+00:00.
+
+[S71] [DEF 14A 0001213900-25-039574](https://www.sec.gov/Archives/edgar/data/1009891/000121390025039574/ea0240488-01.htm) — published 2025-05-05; retrieved 2026-11-08T18:19:25.572137+00:00.
+
+[S72] [8-K/A 0001213900-22-026513](https://www.sec.gov/Archives/edgar/data/1009891/000121390022026513/ea159849-8ka_airind.htm) — published 2022-05-13; retrieved 2026-11-08T18:19:24.022679+00:00.
+
+[S73] [8-K/A 0001213900-21-040153](https://www.sec.gov/Archives/edgar/data/1009891/000121390021040153/ea145203-8ka_airindustries.htm) — published 2021-08-04; retrieved 2026-11-08T18:18:49.366704+00:00.
+
+[S74] [8-K/A 0001193805-17-000921](https://www.sec.gov/Archives/edgar/data/1009891/000119380517000921/e616187_8ka-air.htm) — published 2017-05-22; retrieved 2026-11-08T18:18:40.268554+00:00.
+
+[S75] [8-K/A 0001193805-17-000870](https://www.sec.gov/Archives/edgar/data/1009891/000119380517000870/e616162_8ka-air.htm) — published 2017-05-15; retrieved 2026-11-08T18:18:38.691666+00:00.
+
+[S76] [8-K/A 0001193805-16-003097](https://www.sec.gov/Archives/edgar/data/1009891/000119380516003097/e614952_8ka-air.htm) — published 2016-04-22; retrieved 2026-11-08T18:18:36.765139+00:00.
+
+[S77] [8-K/A 0001193805-13-001420](https://www.sec.gov/Archives/edgar/data/1009891/000119380513001420/e611204_8ka-air.htm) — published 2013-08-13; retrieved 2026-11-08T18:18:35.044429+00:00.
+
+[S78] [8-K/A 0001193805-09-001976](https://www.sec.gov/Archives/edgar/data/1009891/000119380509001976/e605950_8ka-air.txt) — published 2009-10-16; retrieved 2026-11-08T18:18:33.355204+00:00.
+
+[S79] [8-K/A 0001193805-08-003400](https://www.sec.gov/Archives/edgar/data/1009891/000119380508003400/e604801_8ka-aig.txt) — published 2008-12-16; retrieved 2026-11-08T18:18:31.710080+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

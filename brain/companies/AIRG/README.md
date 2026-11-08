@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -474,6 +474,54 @@ sources:
   published_at: '2026-03-24'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000119312526409868/airg-20260929.htm
+  title: 8-K 0001193125-26-409868
+  published_at: '2026-10-01'
+  retrieved_at: '2026-11-08T18:18:29.387002+00:00'
+  sha256: ee5c4ecc977bd7365ffcd8e6a62e186a6cf1593fe0e882bb7c657b36028a28c7
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000119312526335336/airg-20260630.htm
+  title: 10-Q 0001193125-26-335336
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-08T18:18:27.333861+00:00'
+  sha256: d5187c23cb310f4e76e1e662a9b746f986ad75869720235f947393374531c34f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000119312526197736/airg-20260430.htm
+  title: DEF 14A 0001193125-26-197736
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-08T18:18:25.517313+00:00'
+  sha256: 2487dffab5396cc63a8f5c55f8daed33b93911e9aa825f3dc4eab98413ddbbd0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000119312526076752/airg-20251231.htm
+  title: 10-K 0001193125-26-076752
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-08T18:18:23.648947+00:00'
+  sha256: 77715f3562e53925eda3abcbc1e797ca8e37a62f2c6f88f4cbcc919fff510e4e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000095017022019820/airg-20221017.htm
+  title: 8-K/A 0000950170-22-019820
+  published_at: '2022-10-21'
+  retrieved_at: '2026-11-08T18:18:21.673721+00:00'
+  sha256: 12ce46c7b34598f9cafc19c86498177d345ed0e5cbae52a56ed7f42d29329033
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000095017022007129/airg-20220502.htm
+  title: 8-K/A 0000950170-22-007129
+  published_at: '2022-05-04'
+  retrieved_at: '2026-11-08T18:18:15.364537+00:00'
+  sha256: 93819e50f3c83803e74d1e009ad3737497a08d8f3d96eeb2c70955b59aed0681
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000095017021000488/airg-20210715.htm
+  title: 8-K/A 0000950170-21-000488
+  published_at: '2021-07-21'
+  retrieved_at: '2026-11-08T18:18:13.690833+00:00'
+  sha256: 6c1198cd26294611511d4cd377c0baf558977025dd6a6d630fc470665a3dbb70
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1272842/000156459017013371/airg-8ka_20170427.htm
+  title: 8-K/A 0001564590-17-013371
+  published_at: '2017-07-12'
+  retrieved_at: '2026-11-08T18:18:03.870500+00:00'
+  sha256: 6025691029a8242d21c53113713a118e8bdbfb64c984a67bca5467870946bc4d
 issuer_classification:
   cik: 0001272842
   classification_status: reported_sic
@@ -527,13 +575,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1272842/000156459017013371/0001564590-17-013371-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 865380973be8b47a5831631431fbf7d7b5fa173defa09de43f09063d9619d8e0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -557,17 +616,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L6491:
+
+> This quarterly report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the Exchange Act). All statements other than statements of historical fact contained in this quarterly report, including statements regarding our future operating results, financial position and cash flows, our business strategy and plans, and our objectives for future operations, are forward-looking statements. These statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. In some cases, you can identify forward-looking statements by terms such as “may,” “will,” “would,” “could,” “should,” “expect,” “plan,” “anticipate,” “intend,” “target,” “project,” “contemplate,” “believe,” “estimate,” “predict,” “potential” or “continue” or the negative of these terms or other similar expressions. The forward-looking statements in this quarterly report are only predictions. We have based these forward-looking statements largely on our current expectations and projections about future events and financial trends that we believe may affect our financial condition, operating results, business strategy, short-term … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L5625:
+
+> Due to similarities of its products, methods of production and its management and administrative structure, the Company operates as a single operating and reportable segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L3247:
+
+> Airgain, Inc. was incorporated in the State of California on March 20, 1995; and reincorporated in the State of Delaware on August 17, 2016. Airgain, Inc. together with its subsidiaries are herein referred to as the “Company,” “we,” or “our.” Headquartered in San Diego, California, Airgain, Inc. (NASDAQ: AIRG) is a leading provider of advanced wireless connectivity solutions that drive cutting-edge innovation in 5G technology. We are committed to delivering high-performance, cost-effective, and energy-efficient wireless solutions that enable rapid market deployment. Our mission is to connect the world through integrated, innovative, and optimized wireless solutions. Our diverse product portfolio serves three primary markets: enterprise, automotive, and consumer. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L6510:
+
+> Our performance and future success also depend on factors such as continued investments in our growth, our ability to expand into growing addressable markets, including enterprise, automotive, and consumer, our ability to develop, market and sell advanced systems solutions that meet our customers’ requirements, the average selling prices of our products and solutions, and manufacturing costs. Our customers are price conscious, and our operating results are affected by pricing pressure which may force us to lower prices below our established list prices. Our ability to maintain or increase our sales depends on, among other things: [S68]
 
 ## Industry and value chain
 
@@ -575,17 +650,33 @@ SEC-reported SIC **3663**: Radio & Tv Broadcasting & Communications Equipment. [
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L6498:
+
+> Our Lighthouse platform in the enterprise market is a carrier‑grade, high‑power 5G smart repeater designed to extend coverage and offload capacity for MNO and system integrators. Lighthouse supports rapid deployment and does not require wired backhaul, offering a cost‑effective alternative to small cells and distributed antenna systems (DAS) for coverage enhancement. Our NimbeLink embedded modems serve numerous enterprise IoT sectors that require cellular connectivity, including packaging, logistics, EV charging, smart buildings, agriculture, and self-service innovations. These NimbeLink cellular modems, which are both patented and end-device certified, minimize the need for additional OEM end-customer carrier certifications. Our asset tracking solutions are deployed across transportation, supply chain, and other specialized applications. Our enterprise IoT and machine-to-machine (M2M) antennas are extensively deployed in diverse systems, products, and applications, including access points, gateways, FWA devices and utility meters. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-30, L268:
+
+> A classified Board allows for a greater amount of stability and continuity, providing institutional perspective and knowledge both to management and other directors in a time of growth and transformation for Airgain. By its very nature, a classified Board ensures that at any given time there will be experienced directors serving on our Board who are fully immersed in and knowledgeable about our highly technical business, including our relationships with our current and potential strategic partners, as well as the competition, opportunities, risks and challenges that exist in our industry. Each year the nominating and corporate governance committee reviews the qualifications and performance of the directors prior to nominating them to stand for election. We believe the benefit of a classified Board to Airgain and our stockholders comes from the continuity of highly qualified, engaged and knowledgeable directors. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L5057:
+
+> In some agreements to which the Company is a party, the Company has agreed to indemnify the other party for certain matters, including, but not limited to product liability and intellectual property. To date, we have not recorded any material liabilities in the accompanying consolidated financial statements. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L6509:
+
+> We believe that our performance and future success depend upon several factors including macro-economic and geopolitical uncertainties, import/export controls, and tariffs and trade policies of the United States and other countries, the impact of inflation on consumer spending, and our ability to transition from a component provider to a wireless systems provider and to develop technology leadership and expand our markets. [S68]
 
 ## Financial performance
 
@@ -1200,6 +1291,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-01, L88:
+
+> On September 29, 2026, upon the recommendation of the Nominating and Corporate Governance Committee of the board of directors (the “Board”) of Airgain, Inc. (the “Company”), and pursuant to the amended and restated bylaws of the Company, the Board appointed Stephan D. Memmen to the Board as a Class II director with an initial term expiring at the Company’s 2027 annual meeting of stockholders, effective October 1, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1212,6 +1307,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L6491:
+
+> This quarterly report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the Exchange Act). All statements other than statements of historical fact contained in this quarterly report, including statements regarding our future operating results, financial position and cash flows, our business strategy and plans, and our objectives for future operations, are forward-looking statements. These statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. In some cases, you can identify forward-looking statements by terms such as “may,” “will,” “would,” “could,” “should,” “expect,” “plan,” “anticipate,” “intend,” “target,” “project,” “contemplate,” “believe,” “estimate,” “predict,” “potential” or “continue” or the negative of these terms or other similar expressions. The forward-looking statements in this quarterly report are only predictions. We have based these forward-looking statements largely on our current expectations and projections about future events and financial trends that we believe may affect our financial condition, operating results, business strategy, short-term … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1221,25 +1320,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1303,6 +1402,10 @@ Latest 50 filing metadata records of 601 retained records. A filing link is evid
 | 2026-03-24 | 4 | 0001193125-26-122271 | — | [S64] |
 | 2026-03-24 | 4 | 0001193125-26-122266 | — | [S65] |
 | 2026-03-24 | 4 | 0001193125-26-122260 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-30, L1127:
+
+> Stockholder ratification of the appointment of Grant Thornton LLP as the Company’s independent registered public accounting firm is not required by Delaware law, the Company’s amended and restated certificate of incorporation, or the Company’s amended and restated bylaws. However, the audit committee is submitting the appointment of Grant Thornton LLP to the stockholders for ratification as a matter of good corporate practice. If the stockholders fail to ratify the appointment, the audit committee will reconsider whether to retain that firm. Even if the appointment is ratified, the audit committee in its discretion may direct the appointment of a different independent registered accounting firm at any time during the year if the audit committee determines that such a change would be in the best interests of the Company and its stockholders. [S69]
 
 ## Sources and change log
 
@@ -1437,5 +1540,21 @@ Latest 50 filing metadata records of 601 retained records. A filing link is evid
 [S65] [4 0001193125-26-122266](https://www.sec.gov/Archives/edgar/data/1272842/000119312526122266/0001193125-26-122266-index.html) — published 2026-03-24; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001193125-26-122260](https://www.sec.gov/Archives/edgar/data/1272842/000119312526122260/0001193125-26-122260-index.html) — published 2026-03-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001193125-26-409868](https://www.sec.gov/Archives/edgar/data/1272842/000119312526409868/airg-20260929.htm) — published 2026-10-01; retrieved 2026-11-08T18:18:29.387002+00:00.
+
+[S68] [10-Q 0001193125-26-335336](https://www.sec.gov/Archives/edgar/data/1272842/000119312526335336/airg-20260630.htm) — published 2026-08-05; retrieved 2026-11-08T18:18:27.333861+00:00.
+
+[S69] [DEF 14A 0001193125-26-197736](https://www.sec.gov/Archives/edgar/data/1272842/000119312526197736/airg-20260430.htm) — published 2026-04-30; retrieved 2026-11-08T18:18:25.517313+00:00.
+
+[S70] [10-K 0001193125-26-076752](https://www.sec.gov/Archives/edgar/data/1272842/000119312526076752/airg-20251231.htm) — published 2026-02-26; retrieved 2026-11-08T18:18:23.648947+00:00.
+
+[S71] [8-K/A 0000950170-22-019820](https://www.sec.gov/Archives/edgar/data/1272842/000095017022019820/airg-20221017.htm) — published 2022-10-21; retrieved 2026-11-08T18:18:21.673721+00:00.
+
+[S72] [8-K/A 0000950170-22-007129](https://www.sec.gov/Archives/edgar/data/1272842/000095017022007129/airg-20220502.htm) — published 2022-05-04; retrieved 2026-11-08T18:18:15.364537+00:00.
+
+[S73] [8-K/A 0000950170-21-000488](https://www.sec.gov/Archives/edgar/data/1272842/000095017021000488/airg-20210715.htm) — published 2021-07-21; retrieved 2026-11-08T18:18:13.690833+00:00.
+
+[S74] [8-K/A 0001564590-17-013371](https://www.sec.gov/Archives/edgar/data/1272842/000156459017013371/airg-8ka_20170427.htm) — published 2017-07-12; retrieved 2026-11-08T18:18:03.870500+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

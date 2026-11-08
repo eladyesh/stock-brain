@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -483,6 +483,78 @@ sources:
   published_at: '2025-08-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000098/airt-20260904.htm
+  title: 8-K 0000353184-26-000098
+  published_at: '2026-09-04'
+  retrieved_at: '2026-11-08T18:20:31.096788+00:00'
+  sha256: efa28afeecf275e5418307efaae0cd0122729fd4da36cd1151daa48a8b1e106f
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000094/airt-20260828.htm
+  title: 8-K/A 0000353184-26-000094
+  published_at: '2026-08-28'
+  retrieved_at: '2026-11-08T18:20:29.368360+00:00'
+  sha256: 20b6733a300f15be7c79630c42386082408d46ac2467521dc47ecf3ebab8682e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000088/airt-20260826.htm
+  title: 8-K/A 0000353184-26-000088
+  published_at: '2026-08-26'
+  retrieved_at: '2026-11-08T18:20:27.635933+00:00'
+  sha256: 60c16016dfd8be1c912990512a00c5e04cb35fbf1bdcd3e138528e779e29c0e4
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000077/airt-20260630.htm
+  title: 10-Q 0000353184-26-000077
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-08T18:20:25.888279+00:00'
+  sha256: f0be0bb09f9a9adb7f3b1d65ed06d9e9c69041a2ceecb9f8fd4e25c62ac7ae27
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000064/airt-20260710.htm
+  title: DEF 14A 0000353184-26-000064
+  published_at: '2026-07-10'
+  retrieved_at: '2026-11-08T18:20:23.985747+00:00'
+  sha256: 9fc7f02823e93250e32ac51335438cae0cfbc8d4e47f09e84f4ae90d87d3786a
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000054/airt-20260331.htm
+  title: 10-K 0000353184-26-000054
+  published_at: '2026-06-29'
+  retrieved_at: '2026-11-08T18:20:22.047516+00:00'
+  sha256: 291b6cfb0cbe7d769038c4ea315444691edc33a5df28fe76c9e7ae1b6f011226
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000035/airt-20260310.htm
+  title: 8-K/A 0000353184-26-000035
+  published_at: '2026-03-10'
+  retrieved_at: '2026-11-08T18:20:20.158613+00:00'
+  sha256: fabb55f1e66e26aa09a018a8fd5ff7074c01940c4f0107f34e386fb76c8c3926
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318426000024/airt-20260304.htm
+  title: 8-K/A 0000353184-26-000024
+  published_at: '2026-03-04'
+  retrieved_at: '2026-11-08T18:20:16.791527+00:00'
+  sha256: 0e1ee02a0ba88dad9127cb6d5e597618c0ba9de8aea3ac886b557ee0201622b1
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/353184/000035318421000049/airt-20210514.htm
+  title: 8-K/A 0000353184-21-000049
+  published_at: '2021-06-08'
+  retrieved_at: '2026-11-08T18:20:14.821625+00:00'
+  sha256: e6de29568547bb3cb8fcfbda8c068cfbb485ba6f972d188dd9be174518920207
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/353184/000143774919010900/airt20190528_8ka.htm
+  title: 8-K/A 0001437749-19-010900
+  published_at: '2019-05-28'
+  retrieved_at: '2026-11-08T18:20:09.771806+00:00'
+  sha256: 5308649441af83ea83dbfe60d8f794c7e854e149186e217f5ea554f219b10107
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/353184/000143774919006656/airt20190405_8ka.htm
+  title: 8-K/A 0001437749-19-006656
+  published_at: '2019-04-05'
+  retrieved_at: '2026-11-08T18:20:02.364238+00:00'
+  sha256: ddab4795e196270e850f18dd0d9b70fe5d6fcd05f9a75915478efd621f554127
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/353184/000143774918021133/airt20181119_8ka.htm
+  title: 8-K/A 0001437749-18-021133
+  published_at: '2018-11-20'
+  retrieved_at: '2026-11-08T18:20:00.863858+00:00'
+  sha256: b8dd541f8720c919f0779c77ac527ab0afb68d6f1868744c7982bdc9312c1b8c
 issuer_classification:
   cik: 0000353184
   classification_status: reported_sic
@@ -552,13 +624,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/353184/000143774918021133/0001437749-18-021133-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 84a82ecbdb792d4a33eebf8f96519c5bbdca1ab51768dc61f98f3087cfd9980e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -582,17 +665,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1136:
+
+> •The risk that Rex’s operations are subject to extensive regulation and oversight and that compliance failures or adverse regulatory actions could materially harm our business and results; [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L642:
+
+> Contract liabilities relate to deferred revenue, our unconditional right to receive consideration in advance of performance with respect to subscription revenue and advanced customer deposits with respect to product sales. Outstanding contract liabilities as of June 30, 2026 and March 31, 2026 were $24.2 million and $22.8 million, respectively. The amount of contract liabilities outstanding as of March 31, 2026 that were recognized during the first quarter of fiscal 2027 was $19.5 million. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-06-29, L475:
+
+> Inflation has accelerated in the U.S. and globally due in part to global supply chain issues, the increase in interest rates by the Federal Reserve, armed conflicts, a rise in energy prices, wage increases and strong consumer demand. An inflationary environment can increase our cost of labor, as well as our other operating costs, which may have a material adverse impact on our financial results. In addition, economic conditions could impact and reduce the number of customers who purchase our products or services as credit becomes more expensive or unavailable. Although interest rates have increased and may increase further, inflation may continue. Further, increased interest rates could have a negative effect on the securities markets generally which may, in turn, have a material adverse effect on the market price of our Common Stock and our ability to sell additional trust preferred securities. [S72]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-06-29, L430:
+
+> •We are affected by the risks faced by commercial aircraft operators and MRO companies because they are our customers. [S72]
 
 ## Industry and value chain
 
@@ -600,17 +699,33 @@ SEC-reported SIC **4513**: Air Courier Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-06-29, L318:
+
+> GGS designs and engineers its products. Components acquired from third-party suppliers are used in the assembly of its finished products and are sourced from a diverse supply chain. The primary components for mobile deicing equipment are the chassis (which is a commercial medium or heavy-duty truck), the fluid storage tank, a boom system, the fluid delivery system and heating equipment. The price of these components is influenced by raw material costs, principally high-strength carbon steels and stainless steel. GGS utilizes continuous improvements and other techniques to improve efficiencies and designs to minimize product price increases to its customers, to respond to regulatory changes, such as emission standards, and to incorporate technological improvements to enhance the efficiency of GGS’s products. Improvements have included the development of single operator mobile deicing units to replace units requiring two operators, a patented premium deicing blend system and a more efficient forced-air deicing system. [S72]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-07-10, L750:
+
+> The Employment Agreement also provides for (i) insurance and other benefits in accordance with the Company’s standard benefit package, (ii) four (4) weeks of vacation per year, subject to the terms and conditions of the Company’s vacation policy, and (iii) certain restrictive covenants (non-competition, non-solicitation, non-disparagement and confidentiality). If the Company terminates the Employment Agreement for any reason other than for “Cause” (as defined in the Employment Agreement), then Ms. Kennedy shall be entitled to a severance payment equal to six (6) months plus one (1) month for each year of employment, up to a maximum of twelve (12) months of her base salary. Such severance payment is contingent upon the execution and delivery by Ms. Kennedy of a general release of all claims and the expiration of any applicable rescission period in connection therewith. [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-06-29, L1561:
+
+> Intangible Assets – Amortizable intangible assets consist of acquired patents, tradenames, customer relationships, and other finite-lived identifiable intangibles. Such intangibles are initially recorded at fair value and subsequently subject to amortization. Amortization is recorded using the straight-line method over the estimated useful lives of the assets. In accordance with the applicable accounting guidance, the Company evaluates the recoverability of amortizable intangible assets whenever events occur that indicate potential impairment. In doing so, the Company assesses whether the carrying amount of the asset is unrecoverable by estimating the sum of the future cash flows expected to result from the asset, undiscounted and without interest charges. If the carrying amount is more than the recoverable amount, an impairment charge must be recognized based on the estimated fair value of the asset. [S72]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-06-29, L539:
+
+> We expect the growth and development of our business to come primarily from internal expansion and through acquisitions, investments, and strategic partnering. As we expand our business, there can be no assurance that financial controls, the level and knowledge of personnel, operational abilities, legal and compliance controls and other corporate support systems will be adequate to manage our business and growth. The ineffectiveness of any of these controls or systems could adversely affect our business and prospects. In addition, if we acquire new businesses and/or introduce new products, we face numerous risks and uncertainties concerning the integration of their controls and systems, including financial controls, accounting and data processing systems, management controls, other operations and adequate security. A failure to integrate these systems and controls, and even an inefficient integration of these systems and controls, could adversely affect our business and prospects. [S72]
 
 ## Financial performance
 
@@ -1222,6 +1337,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L732:
+
+> shares for $0.5 million. Due to the subordinated financial support, Bloomia is a variable interest entity to which the Company holds variable interests in the common stock. The Company has determined it is not the primary beneficiary, as it does not control Bloomia's Board of Directors, which is the party with the power to direct the activities that most significantly impact the economic performance of Bloomia. Additionally, the Company's exposure to variability of Bloomia is limited to its 33.7% ownership in Bloomia's common stock. Accordingly, the Company does not consolidate Bloomia and will continue to account for this investment using the equity method of accounting. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1234,6 +1353,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1144:
+
+> Our MD&A should be read in conjunction with the Consolidated Financial Statements and related Notes included in Item 1 of Part 1 of this Quarterly Report on Form 10-Q and our Annual Report on Form 10-K for the fiscal year ended March 31, 2026 (including the information presented therein under Risk Factors), as well as other publicly available information. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1243,25 +1366,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1325,6 +1448,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-08-14 | 4 | 0000353184-25-000091 | — | [S64] |
 | 2025-08-14 | 3 | 0000353184-25-000090 | — | [S65] |
 | 2025-08-14 | 4 | 0000353184-25-000089 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-14, L583:
+
+> On December 18, 2025, Air T Rex Acquisition, Inc., a wholly owned subsidiary of the Company, acquired substantially all of the outstanding capital stock of Regional Express Holdings Pty Ltd ("Rex"), an Australian regional airline operator that had been in voluntary administration, pursuant to a Deed of Company Arrangement and a related Creditors Trust. Consideration transferred was $10.2 million, and the Company recognized a gain on bargain purchase of $111.2 million during the year ended March 31, 2026 within non-operating (expense) income. The acquisition established the Company’s regional airline segment. A complete description of the transaction, including the acquisition-date fair values of the assets acquired and liabilities assumed and the calculation of the gain on bargain purchase, is included in Note 2 to the consolidated financial statements in the Company’s Annual Report on Form 10-K for the fiscal year ended March 31, 2026. [S70]
 
 ## Sources and change log
 
@@ -1459,5 +1586,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [3 0000353184-25-000090](https://www.sec.gov/Archives/edgar/data/353184/000035318425000090/0000353184-25-000090-index.html) — published 2025-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0000353184-25-000089](https://www.sec.gov/Archives/edgar/data/353184/000035318425000089/0000353184-25-000089-index.html) — published 2025-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0000353184-26-000098](https://www.sec.gov/Archives/edgar/data/353184/000035318426000098/airt-20260904.htm) — published 2026-09-04; retrieved 2026-11-08T18:20:31.096788+00:00.
+
+[S68] [8-K/A 0000353184-26-000094](https://www.sec.gov/Archives/edgar/data/353184/000035318426000094/airt-20260828.htm) — published 2026-08-28; retrieved 2026-11-08T18:20:29.368360+00:00.
+
+[S69] [8-K/A 0000353184-26-000088](https://www.sec.gov/Archives/edgar/data/353184/000035318426000088/airt-20260826.htm) — published 2026-08-26; retrieved 2026-11-08T18:20:27.635933+00:00.
+
+[S70] [10-Q 0000353184-26-000077](https://www.sec.gov/Archives/edgar/data/353184/000035318426000077/airt-20260630.htm) — published 2026-08-14; retrieved 2026-11-08T18:20:25.888279+00:00.
+
+[S71] [DEF 14A 0000353184-26-000064](https://www.sec.gov/Archives/edgar/data/353184/000035318426000064/airt-20260710.htm) — published 2026-07-10; retrieved 2026-11-08T18:20:23.985747+00:00.
+
+[S72] [10-K 0000353184-26-000054](https://www.sec.gov/Archives/edgar/data/353184/000035318426000054/airt-20260331.htm) — published 2026-06-29; retrieved 2026-11-08T18:20:22.047516+00:00.
+
+[S73] [8-K/A 0000353184-26-000035](https://www.sec.gov/Archives/edgar/data/353184/000035318426000035/airt-20260310.htm) — published 2026-03-10; retrieved 2026-11-08T18:20:20.158613+00:00.
+
+[S74] [8-K/A 0000353184-26-000024](https://www.sec.gov/Archives/edgar/data/353184/000035318426000024/airt-20260304.htm) — published 2026-03-04; retrieved 2026-11-08T18:20:16.791527+00:00.
+
+[S75] [8-K/A 0000353184-21-000049](https://www.sec.gov/Archives/edgar/data/353184/000035318421000049/airt-20210514.htm) — published 2021-06-08; retrieved 2026-11-08T18:20:14.821625+00:00.
+
+[S76] [8-K/A 0001437749-19-010900](https://www.sec.gov/Archives/edgar/data/353184/000143774919010900/airt20190528_8ka.htm) — published 2019-05-28; retrieved 2026-11-08T18:20:09.771806+00:00.
+
+[S77] [8-K/A 0001437749-19-006656](https://www.sec.gov/Archives/edgar/data/353184/000143774919006656/airt20190405_8ka.htm) — published 2019-04-05; retrieved 2026-11-08T18:20:02.364238+00:00.
+
+[S78] [8-K/A 0001437749-18-021133](https://www.sec.gov/Archives/edgar/data/353184/000143774918021133/airt20181119_8ka.htm) — published 2018-11-20; retrieved 2026-11-08T18:20:00.863858+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

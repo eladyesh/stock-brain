@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -463,6 +463,48 @@ sources:
   published_at: '2026-02-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026111152/ea0309255-8k_realpha.htm
+  title: 8-K 0001213900-26-111152
+  published_at: '2026-10-21'
+  retrieved_at: '2026-11-08T18:17:54.651153+00:00'
+  sha256: 775b0237e95fc33029ea13f1113875939621b6f45b3742ecbaec749cad8b6b06
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026110453/ea0308906-8ka2_realpha.htm
+  title: 8-K/A 0001213900-26-110453
+  published_at: '2026-10-19'
+  retrieved_at: '2026-11-08T18:17:52.783876+00:00'
+  sha256: 76845903f0370e2513f3499a53ed932f12d91a1cb8f911b0817095c37f3bd457
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026103529/ea0305215-03.htm
+  title: DEF 14A 0001213900-26-103529
+  published_at: '2026-09-25'
+  retrieved_at: '2026-11-08T18:17:51.132471+00:00'
+  sha256: 8e6619270fd325a3469d7c3e8a1cd99454c67fe70777e9c6d8173fb0ee3f9bb6
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026102384/ea0303605-8ka1_realpha.htm
+  title: 8-K/A 0001213900-26-102384
+  published_at: '2026-09-23'
+  retrieved_at: '2026-11-08T18:17:49.204611+00:00'
+  sha256: fa2828b1803b3b9323d4ab5545d20cae219561d5c13e645d86376b3f115e554b
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026090106/ea0301138-10q_realpha.htm
+  title: 10-Q 0001213900-26-090106
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-08T18:17:47.553175+00:00'
+  sha256: b9a52cb43e76429520686dba0eb4197cc64544f44ea97dc7979517b68d06960d
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390026026653/ea0277755-10k_realpha.htm
+  title: 10-K 0001213900-26-026653
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-08T18:17:45.738248+00:00'
+  sha256: fb513cd2ad4d47f97c924fbe1d31c92891d766b5bd5f722f3a8c99ee0da8ec0e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1859199/000121390025007910/ea0229027-8ka1_realpha.htm
+  title: 8-K/A 0001213900-25-007910
+  published_at: '2025-01-29'
+  retrieved_at: '2026-11-08T18:17:43.866245+00:00'
+  sha256: 4cf0430d847a67a0ae3fd66683ea1ae73572d293d39f41a03c65dd7c2b06269a
 issuer_classification:
   cik: 0001859199
   classification_status: reported_sic
@@ -512,13 +554,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1859199/000121390025007910/0001213900-25-007910-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c35272cfd8b63f9c848db16fb0bc49efd412480de441633a0b32b0164047bd74
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -542,17 +595,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-25, L363:
+
+> Our business, property and affairs are managed by, or under the direction of, our board of directors, in accordance with the General Corporation Law of the State of Delaware (“DGCL”) and our bylaws. Members of the board of directors are kept informed of our business through discussions with the Chief Executive Officer, Chief Financial Officer and other key members of management, by reviewing materials provided to them by management, and by participating in meetings of the board of directors and its committees. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1535:
+
+> The Company operates through two reportable segments: homebuying services and technology services. The homebuying services segment includes the Company’s residential real estate brokerage, mortgage brokerage, and related settlement services operations. The technology services segment includes the Company’s AI-powered customer experience platform and software development and support services provided to third parties. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-09-25, L879:
+
+> We believe that the experience of the members of our board of directors, together with the expertise brought to our operations by Mr. Devanur, the Executive Chairman of our board of directors, and Michael J. Logozzo, our Chief Executive Officer and director, will help us achieve our goals of commercializing and expanding the reach of our products and technologies. For these reasons, we concluded that each of these individuals should serve as a director. [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-12, L461:
+
+> \| Organic growth. Achieved through our internal R&D efforts. We are constantly working to improve the reAlpha platform, develop new and refine existing AI-based technologies, such as “Claire,” the AI-powered “Loan Officer Assistant” and “Engagement Agent,” and leverage technology to streamline the homebuying transaction process with the goal of providing our customers with the best possible experience when using our reAlpha platform. [S69]
 
 ## Industry and value chain
 
@@ -560,17 +629,33 @@ SEC-reported SIC **6500**: Real Estate. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-12, L1370:
+
+> increased interest rates, slow economic growth or recessionary conditions, supply chain disruptions, the pace of home price appreciation [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-12, L604:
+
+> sources in our technology services segment. We believe that we will continue to face competition from other companies, including large [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-09-25, L619:
+
+> In connection with his appointment, the Company entered into an employment agreement with Mr. Kutzman, dated February 24, 2026, which sets forth the terms of Mr. Kutzman’s services as Chief Financial Officer and his compensation arrangement, effective as of February 25, 2026. Pursuant to his employment agreement, Mr. Kutzman will receive (i) an annual base salary of $275,000, which will be reviewed annually by the compensation committee and may be increased by the compensation committee at any time for any reason, (ii) an annual cash incentive bonus in an amount equal to 66.7% of his then base salary based on the achievement of certain performance targets to be established by the compensation committee, which bonus will be payable no later than two and a half months after the fiscal year to which the performance targets relate to, and (iii) certain other benefits such as unlimited vacation, health insurance and others. Mr. Kutzman is also eligible to participate in the 2022 Plan and may receive equity awards pursuant to the 2022 Plan, which equity awards may be subject to certain performance criteria and metrics that will be established by the compensation committee at such time, including financial, operational and other metrics. Mr. Kutzman or the Company may terminate his employment agreement at any time upon written notice to the other party, and it contains customary … [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-14, L1655:
+
+> \| \| ● \| We may be unable to obtain financing through the debt and equity capital markets, which would have a material adverse effect on our growth strategy and our financial condition and results of operations; [S68]
 
 ## Financial performance
 
@@ -1046,6 +1131,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-21, L67:
+
+> as of March 9, 2026, the Board of Directors (the “Board”) of reAlpha Tech Corp. (the “Company”), upon recommendation [S64]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1058,6 +1147,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-09-25, L415:
+
+> Our audit committee is responsible for overseeing our risk management process. Our audit committee focuses on our general risk management policies and strategy, the most significant risks facing us, including risks associated with our audit, financial reporting, internal control, disclosure control, regulatory compliance and cybersecurity matters, and oversees the implementation of risk mitigation strategies by management. Our board of directors is also apprised of particular risk management matters in connection with its general oversight and approval of corporate matters and significant transactions. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1067,25 +1160,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1149,6 +1242,10 @@ Latest 50 filing metadata records of 371 retained records. A filing link is evid
 | 2026-02-27 | 8-K | 0001213900-26-021105 | — | [S61] |
 | 2026-02-11 | 8-K | 0001213900-26-014591 | — | [S62] |
 | 2026-02-10 | 8-K | 0001213900-26-014381 | — | [S63] |
+
+Source excerpt — DEF 14A, filed 2026-09-25, L374:
+
+> The board of directors has three standing committees, the audit committee, the compensation committee and the governance committee (collectively, the “board committees”). All members of the board committees are non-employee directors who are deemed independent. During the year ended December 31, 2025, the board of directors held 7 meetings, the audit committee held 5 meetings, the compensation committee held 4 meetings, and the governance committee held 0 meetings. Each of our directors attended at least 75% of the meetings held by the board of directors and the board committees of which he or she is a member. We do not have a policy with regard to board of directors’ attendance at our annual meeting of stockholders. None of our directors or executive officers were selected as a result of an arrangement or understanding between him/her and any other person. [S66]
 
 ## Sources and change log
 
@@ -1277,5 +1374,19 @@ Latest 50 filing metadata records of 371 retained records. A filing link is evid
 [S62] [8-K 0001213900-26-014591](https://www.sec.gov/Archives/edgar/data/1859199/000121390026014591/0001213900-26-014591-index.html) — published 2026-02-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S63] [8-K 0001213900-26-014381](https://www.sec.gov/Archives/edgar/data/1859199/000121390026014381/0001213900-26-014381-index.html) — published 2026-02-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S64] [8-K 0001213900-26-111152](https://www.sec.gov/Archives/edgar/data/1859199/000121390026111152/ea0309255-8k_realpha.htm) — published 2026-10-21; retrieved 2026-11-08T18:17:54.651153+00:00.
+
+[S65] [8-K/A 0001213900-26-110453](https://www.sec.gov/Archives/edgar/data/1859199/000121390026110453/ea0308906-8ka2_realpha.htm) — published 2026-10-19; retrieved 2026-11-08T18:17:52.783876+00:00.
+
+[S66] [DEF 14A 0001213900-26-103529](https://www.sec.gov/Archives/edgar/data/1859199/000121390026103529/ea0305215-03.htm) — published 2026-09-25; retrieved 2026-11-08T18:17:51.132471+00:00.
+
+[S67] [8-K/A 0001213900-26-102384](https://www.sec.gov/Archives/edgar/data/1859199/000121390026102384/ea0303605-8ka1_realpha.htm) — published 2026-09-23; retrieved 2026-11-08T18:17:49.204611+00:00.
+
+[S68] [10-Q 0001213900-26-090106](https://www.sec.gov/Archives/edgar/data/1859199/000121390026090106/ea0301138-10q_realpha.htm) — published 2026-08-14; retrieved 2026-11-08T18:17:47.553175+00:00.
+
+[S69] [10-K 0001213900-26-026653](https://www.sec.gov/Archives/edgar/data/1859199/000121390026026653/ea0277755-10k_realpha.htm) — published 2026-03-12; retrieved 2026-11-08T18:17:45.738248+00:00.
+
+[S70] [8-K/A 0001213900-25-007910](https://www.sec.gov/Archives/edgar/data/1859199/000121390025007910/ea0229027-8ka1_realpha.htm) — published 2025-01-29; retrieved 2026-11-08T18:17:43.866245+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -464,6 +464,30 @@ sources:
   published_at: '2026-07-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1667011/000162828026054325/aip-20260806.htm
+  title: 8-K 0001628280-26-054325
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-08T18:17:17.931795+00:00'
+  sha256: 6402cb42f940f6d62c937e10b53617e795473124ba50621032f9b3cd9721e398
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1667011/000162828026054464/aip-20260630.htm
+  title: 10-Q 0001628280-26-054464
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-08T18:17:19.770535+00:00'
+  sha256: 9ee539bda2f5b629327bab7b6655fee5336a7085a6f3b6472c69527d1cdd7e36
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1667011/000119312526166706/d885938ddef14a.htm
+  title: DEF 14A 0001193125-26-166706
+  published_at: '2026-04-21'
+  retrieved_at: '2026-11-08T18:17:16.355460+00:00'
+  sha256: 3acb0b34a32d58c7230e2b76a1a6023ee19a6409a2c58b95918e0f1df4d18450
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1667011/000162828026007726/aip-20251231.htm
+  title: 10-K 0001628280-26-007726
+  published_at: '2026-02-12'
+  retrieved_at: '2026-11-08T18:17:14.550139+00:00'
+  sha256: 2287754727316c54f9ec3ad4383fd6e63334757fca6b2c6368c71376cc36797d
 issuer_classification:
   cik: '0001667011'
   classification_status: reported_sic
@@ -501,13 +525,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1667011/000162828026054325/0001628280-26-054325-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6fbf8441c413516c4994e2b32442ce9e86397e047dead0130989617b0a41acd6
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -531,17 +566,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1063:
+
+> We believe that the growth of our business and our future success are dependent upon many factors including those described under “Risk Factors” and elsewhere in this report, in addition to those described below. While each of these factors presents significant opportunities for us, these factors also pose challenges that we must successfully address in order to sustain the growth of our business and enhance our results of operations. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L485:
+
+> The Company operates as a single operating segment. The chief operating decision maker (CODM) is the Company’s Chief Executive Officer, who makes resource allocation decisions and assesses performance based on financial information presented on a consolidated basis, accompanied by disaggregated revenue information. Accordingly, the Company has determined that it has a single reportable segment and operating segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1061:
+
+> On January 14, 2026, we completed the acquisition of Cycuity for a total consideration of approximately $43.1 million. The addition of Cycuity’s technology and expertise strengthens our product portfolio, enabling chip designers to understand and improve data movement security in chiplets and SoCs, and addresses a growing industry concern about the increasing volume of sophisticated cyberattacks targeting the vast amounts of unsecured data moving through semiconductors. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1057:
+
+> We are a leading provider of semiconductor system IP, including interconnect and other intellectual property (collectively, System IP) technology. Our System IP technology manages on-chip communications and IP block deployments by helping to enable the underlying data movement across chiplets, single-die and multi-die System-on-Chip (SoC) semiconductors. Our leading proprietary System IP solutions achieve this by connecting various semiconductor IP blocks such as processors, memory and logic via multiple Network-on-Chips (NoCs) in order for our customers to meet functional design goals as well as performance and power requirements, while addressing design complexity with efficient and lower cost solutions. [S68]
 
 ## Industry and value chain
 
@@ -549,17 +600,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1069:
+
+> Demand for our interconnect IP solutions and associated royalty revenue is highly dependent on market conditions in the end markets in which our customers operate. These end markets, which include the automotive, enterprise computing, communications, artificial intelligence and machine learning, consumer electronics, and industrial markets, are subject to a number of factors including end-product acceptance and sales, competitive pressures, supply chain issues and general market conditions. For example, our revenue has been supported by the increased need for more complex SoCs to enable sophisticated automated driving. If the demand in this market continues to grow, we anticipate it will continue to have a positive impact on our revenue. In contrast, if general market conditions deteriorate or other factors occur, such as supply chain issues and global trade restrictions resulting in fewer semiconductors utilizing our IP solutions being available for sale, our revenue would be adversely affected. Further, royalty revenue can be significantly impacted period to period due to changing trends in consumer spending, especially as it relates to the automotive, computing and consumer electronics markets. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1399:
+
+> ■We face significant competition from larger companies and third-party providers that may deploy their resources so they can develop their IP solutions internally; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L475:
+
+> Arteris, Inc. was incorporated in Delaware on April 12, 2004. Arteris, Inc. and its subsidiaries (collectively, the Company or Arteris) develop and license Network-on-Chip (NoC) interconnect intellectual property (IP), System-on-Chip (SoC) and related software solutions used in the design of semiconductor chips and chiplets used in a broad range of end products. The Company also provides hardware security verification software solutions, IP support & maintenance, professional services, training and on-site support to assist customers with the development and use of its technologies. The Company is headquartered in Campbell, California and has offices in the United States, France, Poland, Japan, South Korea, Taiwan and China. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1076:
+
+> In order to address rapid technological developments and expand our offerings, we have invested significantly in our research and development efforts. These investments, which continue to include growth in engineering headcount, have resulted in substantially increased research and development expenses. As we continue to invest in our technology and new product design efforts, we anticipate research and development expense will continue to increase on an absolute basis and as a percentage of revenue in the near term. In the medium to longer term, however, while we expect to increase our research and development expense on an absolute basis, we expect this expense to reduce as a percentage of revenue. [S68]
 
 ## Financial performance
 
@@ -1174,6 +1241,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L997:
+
+> The Company granted 68,848 PSUs to its executive officers during the six months ended June 30, 2026. As of June 30, 2026, there was $1.2 million of unamortized stock-based compensation cost related to unvested performance stock units, which is expected to be recognized over a weighted-average period of 2.6 years. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1186,6 +1257,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L960:
+
+> Significant judgment is required in both the determination of probability and determination as to whether a loss is reasonably estimable. Intellectual property claims are inherently unpredictable and may have a material adverse effect on the Company’s financial position, results of operations, or cash flows. Due to the inherent uncertainties and complex technical issues arising from this or any intellectual property litigation, the Company cannot predict or guarantee any result of, and cannot reasonably estimate liability, if any, or range of loss that could result from such intellectual property litigation. Future revisions to such estimates could materially impact the Company’s results. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1195,25 +1270,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1277,6 +1352,10 @@ Latest 50 filing metadata records of 759 retained records. A filing link is evid
 | 2026-07-02 | 4 | 0001184563-26-000007 | — | [S64] |
 | 2026-07-02 | 4 | 0001068987-26-000015 | — | [S65] |
 | 2026-07-01 | 144 | 0001950047-26-006774 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-21, L562:
+
+> Neither our bylaws nor other governing documents or law require stockholder ratification of the selection of Deloitte as our independent registered public accounting firm. However, the Audit Committee is submitting the selection of Deloitte to our stockholders for ratification as a matter of good corporate practice. If our stockholders fail to ratify the selection, the Audit Committee will reconsider whether or not to retain Deloitte. Even if the selection is ratified, the Audit Committee in its discretion may direct the appointment of a different independent registered public accounting firm at any time during the year if they determine that such a change would be in the best interests of the Company and our stockholders. [S69]
 
 ## Sources and change log
 
@@ -1411,5 +1490,13 @@ Latest 50 filing metadata records of 759 retained records. A filing link is evid
 [S65] [4 0001068987-26-000015](https://www.sec.gov/Archives/edgar/data/1667011/000106898726000015/0001068987-26-000015-index.html) — published 2026-07-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [144 0001950047-26-006774](https://www.sec.gov/Archives/edgar/data/1667011/000195004726006774/0001950047-26-006774-index.html) — published 2026-07-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001628280-26-054325](https://www.sec.gov/Archives/edgar/data/1667011/000162828026054325/aip-20260806.htm) — published 2026-08-06; retrieved 2026-11-08T18:17:17.931795+00:00.
+
+[S68] [10-Q 0001628280-26-054464](https://www.sec.gov/Archives/edgar/data/1667011/000162828026054464/aip-20260630.htm) — published 2026-08-06; retrieved 2026-11-08T18:17:19.770535+00:00.
+
+[S69] [DEF 14A 0001193125-26-166706](https://www.sec.gov/Archives/edgar/data/1667011/000119312526166706/d885938ddef14a.htm) — published 2026-04-21; retrieved 2026-11-08T18:17:16.355460+00:00.
+
+[S70] [10-K 0001628280-26-007726](https://www.sec.gov/Archives/edgar/data/1667011/000162828026007726/aip-20251231.htm) — published 2026-02-12; retrieved 2026-11-08T18:17:14.550139+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

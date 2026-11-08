@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -475,6 +475,42 @@ sources:
   published_at: '2026-04-29'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/354190/000035419026000197/ajg-20260824.htm
+  title: 8-K 0000354190-26-000197
+  published_at: '2026-08-27'
+  retrieved_at: '2026-11-08T18:21:28.960485+00:00'
+  sha256: 44a099ca6d65852a962fc07cc9beea882a9eb400ca9dc710fb8c457048c8d055
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/354190/000162828026053489/ajg-20260630.htm
+  title: 10-Q 0001628280-26-053489
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-08T18:21:27.212972+00:00'
+  sha256: c7c8398e959e414da3bdebef26c065c3dc62a901a749dd8cc5acc677a399bb5a
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/354190/000035419026000101/ajg-20260323.htm
+  title: DEF 14A 0000354190-26-000101
+  published_at: '2026-03-23'
+  retrieved_at: '2026-11-08T18:21:25.247238+00:00'
+  sha256: 87a878aa73385291bb1f53ed264a7c83d8300d4e099c7bd27e1ccc7ca36d1857
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm
+  title: 10-K 0001628280-26-008662
+  published_at: '2026-02-17'
+  retrieved_at: '2026-11-08T18:21:23.175232+00:00'
+  sha256: 0ca0fbed8402ab096873d67a20e94286f5b31c33ad93656b9c63680a3e009419
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/354190/000162828025046542/ajg-20250818.htm
+  title: 8-K/A 0001628280-25-046542
+  published_at: '2025-10-28'
+  retrieved_at: '2026-11-08T18:21:21.227445+00:00'
+  sha256: 12de1aeb5a5781394b06ace7817e10fc31af7bafde803b0eb2ed5e43ec42167a
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/354190/000119312522041905/d313545d8ka.htm
+  title: 8-K/A 0001193125-22-041905
+  published_at: '2022-02-14'
+  retrieved_at: '2026-11-08T18:21:19.450925+00:00'
+  sha256: 6596f88f0a45fd20782aa83b7fdb71f695ad88d71b5ed8d0ea9054012a812f96
 issuer_classification:
   cik: 0000354190
   classification_status: reported_sic
@@ -520,13 +556,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/354190/000119312522041905/0001193125-22-041905-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a4f3a6ed6f42c5dcbe2b7f3a098ba85cf61cab68e87775df41daf3f765f31c36
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -550,13 +596,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L64:
+
+> •Risks associated with the use of AI in our business operations, including regulatory, data privacy, cybersecurity, E&O, intellectual property, competition, and “AI-washing” perception risks; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-05, L478:
+
+> Arthur J. Gallagher & Co. and its subsidiaries, collectively referred to herein as we, our, us, Gallagher or the Company, provide insurance and reinsurance brokerage, consulting and third-party claims settlement and administration services to both domestic and international entities. We have three reportable segments: brokerage, risk management and corporate. Our brokers, agents and administrators act as intermediaries between underwriting enterprises and our clients. [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-02-17, L64:
+
+> This report contains certain statements related to future results, or states our intentions, beliefs and expectations or predictions for the future of Arthur J. Gallagher & Co. and its subsidiaries, collectively referred to herein as we, our, us, Gallagher or the Company, which are forward-looking statements as that term is defined in the Private Securities Litigation Reform Act of 1995. Forward‑looking statements relate to expectations or forecasts of future events. Such statements use words such as “anticipate,” “believe,” “estimate,” “expect,” “contemplate,” “forecast,” “project,” “intend,” “plan,” “potential,” and other similar terms, and future or conditional tense verbs like “could,” “may,” “might,” “see,” “should,” “will” and “would.” You can also identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. For example, we may use forward-looking statements when addressing topics such as: the impact of general economic conditions, including inflation, interest rates and market uncertainty; the effects of geopolitical volatility, including repercussions from the armed conflicts in Ukraine, the Middle East, Latin America and the Caribbean; market and industry conditions, including competitive and pricing trends and the impact of large natural events; acquisition strategy including the expected size of our acquisition … [S71]
 
 ## Customers and end markets
 
@@ -568,17 +626,33 @@ SEC-reported SIC **6411**: Insurance Agents, Brokers & Service. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-17, L543:
+
+> •Increased competition from new market participants such as banks, accounting firms, consulting firms and Internet or other technology firms offering risk management or insurance brokerage services, or new distribution channels for insurance such as payroll firms and professional employer organizations; and [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L59:
+
+> •Risks that could negatively affect the success of our acquisition strategy, including economic uncertainty affecting sourcing and pricing; industry consolidation and competition for targets; inaccurate assumptions and failure to realize expected benefits; regulatory approval; closing and integration risks; potential impairment charges; and unanticipated liabilities including cybersecurity and compliance risks; [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L64:
+
+> •Risks associated with the use of AI in our business operations, including regulatory, data privacy, cybersecurity, E&O, intellectual property, competition, and “AI-washing” perception risks; [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-17, L386:
+
+> Through these acquisitions, we seek to expand our talent pool, enhance our geographic presence and service capabilities, or further diversify our business mix. We also focus on identifying: [S71]
 
 ## Financial performance
 
@@ -1187,6 +1261,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L775:
+
+> Stock option grants vest ratable over three years and expire seven years from the date of grant, or earlier in the event of certain employment terminations. Options granted to executive officers are not subject to forfeiture upon departure after attaining age 62. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1199,6 +1277,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L91:
+
+> A detailed discussion of the factors that could cause actual results to differ materially from our published expectations is contained under the heading “Risk Factors” in our filings with the Securities and Exchange Commission (SEC), including our most recent Annual Report on Form 10-K, this and subsequent Quarterly Reports on Form 10-Q and any other reports we file with the SEC in the future. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1208,25 +1290,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1290,6 +1372,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-07 | 10-Q | 0001628280-26-031592 | — | [S65] |
 | 2026-04-30 | 8-K | 0000354190-26-000132 | — | [S66] |
 | 2026-04-29 | SCHEDULE 13G | 0002100119-26-000173 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L482:
+
+> We are a global insurance brokerage, risk management and consulting services firm, headquartered in Rolling Meadows, Illinois. We provide these services in approximately 130 countries around the world through our owned operations and a network of correspondent brokers and consultants. We have prepared the accompanying unaudited consolidated financial statements pursuant to the rules and regulations of the SEC. Certain information and footnote disclosures normally included in annual financial statements have been omitted pursuant to such rules and regulations. The unaudited consolidated financial statements included herein are, in the opinion of management, prepared on a basis consistent with our audited consolidated financial statements for the year ended December 31, 2025, and include all normal recurring adjustments necessary for a fair presentation of the information set forth herein. The quarterly results of operations are not necessarily indicative of the results of operations to be reported for subsequent quarters or the full year. These unaudited consolidated financial statements should be read in conjunction with the audited consolidated financial statements and the notes thereto included in our Annual Report on Form 10-K for the year ended December 31, 2025. In the preparation of our unaudited consolidated financial statements as of June 30, 2026, management evaluated … [S69]
 
 ## Sources and change log
 
@@ -1426,5 +1512,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0000354190-26-000132](https://www.sec.gov/Archives/edgar/data/354190/000035419026000132/0000354190-26-000132-index.html) — published 2026-04-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [SCHEDULE 13G 0002100119-26-000173](https://www.sec.gov/Archives/edgar/data/354190/000210011926000173/0002100119-26-000173-index.html) — published 2026-04-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0000354190-26-000197](https://www.sec.gov/Archives/edgar/data/354190/000035419026000197/ajg-20260824.htm) — published 2026-08-27; retrieved 2026-11-08T18:21:28.960485+00:00.
+
+[S69] [10-Q 0001628280-26-053489](https://www.sec.gov/Archives/edgar/data/354190/000162828026053489/ajg-20260630.htm) — published 2026-08-05; retrieved 2026-11-08T18:21:27.212972+00:00.
+
+[S70] [DEF 14A 0000354190-26-000101](https://www.sec.gov/Archives/edgar/data/354190/000035419026000101/ajg-20260323.htm) — published 2026-03-23; retrieved 2026-11-08T18:21:25.247238+00:00.
+
+[S71] [10-K 0001628280-26-008662](https://www.sec.gov/Archives/edgar/data/354190/000162828026008662/ajg-20251231.htm) — published 2026-02-17; retrieved 2026-11-08T18:21:23.175232+00:00.
+
+[S72] [8-K/A 0001628280-25-046542](https://www.sec.gov/Archives/edgar/data/354190/000162828025046542/ajg-20250818.htm) — published 2025-10-28; retrieved 2026-11-08T18:21:21.227445+00:00.
+
+[S73] [8-K/A 0001193125-22-041905](https://www.sec.gov/Archives/edgar/data/354190/000119312522041905/d313545d8ka.htm) — published 2022-02-14; retrieved 2026-11-08T18:21:19.450925+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
