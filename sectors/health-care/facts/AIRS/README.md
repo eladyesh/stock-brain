@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-04-06'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1870940/000187094026000041/airs-20260805.htm
+  title: 8-K 0001870940-26-000041
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-08T18:19:58.386271+00:00'
+  sha256: aca509605a7c49102e14f0e9a3b476f99fd8be3d033c1b8172bd528ac871276b
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1870940/000187094026000038/airs-20260630.htm
+  title: 10-Q 0001870940-26-000038
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-08T18:19:56.815151+00:00'
+  sha256: c67b25143213326430bb228d33964bf9cac56cef70be885e94025bb8b55b2226
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1870940/000187094026000021/airs-20251231.htm
+  title: 10-K/A 0001870940-26-000021
+  published_at: '2026-04-06'
+  retrieved_at: '2026-11-08T18:19:51.593637+00:00'
+  sha256: a7d4b3719de8531cadab1417e0a981e0b72e48c2039f3d7da79bd112fdb3a485
 issuer_classification:
   cik: 0001870940
   classification_status: reported_sic
@@ -193,13 +211,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1870940/000187094026000022/0001870940-26-000022-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b7ca92a5f4069345e718a4d09d298d8043aace21ac59f61132d2e046bc2b2725
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -214,15 +242,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001870940.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIRS/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIRS/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AIRS — Airsculpt Technologies, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIRS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIRS/README.md)
 
 ## Business overview
 
@@ -236,13 +264,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L160:
+
+> We have made statements in the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and in other sections of this Quarterly Report that are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “anticipates,” “believes,” “estimates,” “predicts,” “potential” or “continue,” the negative of these terms and other comparable terminology, but the absence of these words does not mean that a statement is not forward-looking. These forward-looking statements, which are subject to risks, uncertainties and assumptions about us, may include projections of our future financial performance, our anticipated growth strategies and anticipated trends in our business. These statements are only predictions based on our current expectations and projections about future events. You are cautioned that there are important risks and uncertainties, many of which are beyond our control, that could cause our actual results, level of activity, performance or achievements to differ materially from the projected results, level of activity, performance or achievements that are expressed or implied by such forward-looking statements, including those factors discussed in the section titled “Risk Factors” in our Annual Report on Form … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-10, L588:
+
+> The Company has one operating and one reportable segment: direct medical procedure services. This segment is made up of facilities and medical staff that provide the Company’s patented AirSculpt® procedures to patients. The accounting [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-10, L911:
+
+> During the ordinary course of business, we have become and may in the future become subject to pending and threatened legal actions and proceedings, including with respect to the quality of our services. All of the current legal actions and proceedings that we are a party to are of an ordinary or routine nature incidental to our operations, the resolution of which should not have a material adverse effect on our financial condition, results of operations or cash flows. These claims, to the extent they exceed our insurance deductibles, are covered by insurance, but there can be no assurance that our insurance coverage will be adequate to cover any such liability. [S68]
 
 ## Customers and end markets
 
@@ -254,19 +294,35 @@ SEC-reported SIC **8011**: Services-Offices & Clinics of  Doctors of  Medicine. 
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K/A, filed 2026-04-06, L305:
+
+> In connection with the AirSculpt® method, we currently use an FDA-approved handpiece manufactured by Euromi S.A., a Belgian company that specializes in the manufacturing and distribution of medical, dermatological and plastic surgery products, and other FDA- approved parts, such as the cannula and vacuum pump, from other manufacturers. The handpiece we use costs significantly more than other handpiece models, and we believe it is more powerful while being gentler for the patient, helping to produce better results. Some of the other parts used are customized for us by our suppliers for our procedure. Although using FDA-approved equipment in medical procedures is the practice of medicine and does not itself require further FDA review or approval, FDA regulations require that we report certain information about adverse medical events if our AirSculpt® procedures have caused or contributed to those adverse events. [S70]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-10, L161:
+
+> Our future results could be affected by a variety of other factors, including, but not limited to, inability to sell equity or other securities in the future at a time when we might otherwise wish to effect sales; inability to raise capital on commercially reasonable terms, if at all; the risk that any future financings may dilute our stockholders or restrict our business; failure to stabilize and grow same-center performance; not being able to optimize our marketing investment, go-to-market strategy and sales process; not having the ability to expand our financing options for consumers; being unsuccessful in further product innovations; failure to operate centers in a cost-effective manner; increased operating expenses due to rising inflation; increased competition in the weight loss and obesity solutions market, including as a result of recent regulatory action, and increased market acceptance, availability and customer awareness of weight-loss drugs; shortages or quality control issues with third-party manufacturers or suppliers; competition for surgeons; litigation or medical malpractice claims; inability to protect the confidentiality of our proprietary information; changes in laws governing the corporate practice of medicine or fee-splitting; changes in regulatory, macroeconomic conditions, including inflation and the threat of recession, economic and other conditions of … [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K/A, filed 2026-04-06, L229:
+
+> As of December 31, 2025, our patent portfolio is comprised of two issued U.S. utility patents, one pending U.S. utility patent application, one pending U.S. provisional patent application, one pending U.S. design patent application, one pending Canada utility patent application, and one pending U.K. utility patent application, each of which we own directly. At least some of the tools we currently use to perform our fat removal and fat transfer procedures are purchased from third parties, and we do not own the proprietary rights to such tools. Instead of protecting specific, individual liposuction components, our currently issued patents relate to certain proprietary implementations of the process described in the section “Our Technique, Training and Equipment,” and the combination of multiple components to form proprietary systems that are specially configured for carrying out those proprietary processes. We believe the systems and methodologies claimed in our issued patents provide impressive results with less patient trauma relative to other systems and methods, such as liposuction and abdominoplasty (tummy tuck), that require more invasive surgical procedures. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L161:
+
+> Our future results could be affected by a variety of other factors, including, but not limited to, inability to sell equity or other securities in the future at a time when we might otherwise wish to effect sales; inability to raise capital on commercially reasonable terms, if at all; the risk that any future financings may dilute our stockholders or restrict our business; failure to stabilize and grow same-center performance; not being able to optimize our marketing investment, go-to-market strategy and sales process; not having the ability to expand our financing options for consumers; being unsuccessful in further product innovations; failure to operate centers in a cost-effective manner; increased operating expenses due to rising inflation; increased competition in the weight loss and obesity solutions market, including as a result of recent regulatory action, and increased market acceptance, availability and customer awareness of weight-loss drugs; shortages or quality control issues with third-party manufacturers or suppliers; competition for surgeons; litigation or medical malpractice claims; inability to protect the confidentiality of our proprietary information; changes in laws governing the corporate practice of medicine or fee-splitting; changes in regulatory, macroeconomic conditions, including inflation and the threat of recession, economic and other conditions of … [S68]
 
 ## Financial performance
 
@@ -382,6 +438,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-12, L60:
+
+> On August 5, 2026, the Board of Directors of AirSculpt Technologies, Inc. (the “Company”) approved the relocation of the Company’s corporate headquarters from 1111 Lincoln Road, Suite 802, Miami Beach, Florida 33139 to 2023 West Platt Street, Tampa FL 33605. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -394,6 +454,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L160:
+
+> We have made statements in the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and in other sections of this Quarterly Report that are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “anticipates,” “believes,” “estimates,” “predicts,” “potential” or “continue,” the negative of these terms and other comparable terminology, but the absence of these words does not mean that a statement is not forward-looking. These forward-looking statements, which are subject to risks, uncertainties and assumptions about us, may include projections of our future financial performance, our anticipated growth strategies and anticipated trends in our business. These statements are only predictions based on our current expectations and projections about future events. You are cautioned that there are important risks and uncertainties, many of which are beyond our control, that could cause our actual results, level of activity, performance or achievements to differ materially from the projected results, level of activity, performance or achievements that are expressed or implied by such forward-looking statements, including those factors discussed in the section titled “Risk Factors” in our Annual Report on Form … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -403,25 +467,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -467,6 +531,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S40] [10-K/A 0001870940-26-000021](https://www.sec.gov/Archives/edgar/data/1870940/000187094026000021/0001870940-26-000021-index.html) — published 2026-04-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIRS/README.md).
+[S67] [8-K 0001870940-26-000041](https://www.sec.gov/Archives/edgar/data/1870940/000187094026000041/airs-20260805.htm) — published 2026-08-12; retrieved 2026-11-08T18:19:58.386271+00:00.
+
+[S68] [10-Q 0001870940-26-000038](https://www.sec.gov/Archives/edgar/data/1870940/000187094026000038/airs-20260630.htm) — published 2026-08-10; retrieved 2026-11-08T18:19:56.815151+00:00.
+
+[S70] [10-K/A 0001870940-26-000021](https://www.sec.gov/Archives/edgar/data/1870940/000187094026000021/airs-20251231.htm) — published 2026-04-06; retrieved 2026-11-08T18:19:51.593637+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIRS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

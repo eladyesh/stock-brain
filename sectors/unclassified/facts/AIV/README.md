@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -121,6 +121,24 @@ sources:
   published_at: '2026-09-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/922864/000119312526338545/aiv-20260630.htm
+  title: 10-Q 0001193125-26-338545
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-08T18:20:55.903540+00:00'
+  sha256: 4506bfa78c1dbd9325ad37a2500ac0a5f5675727bf39a73c5b831c89f49ab980
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/922864/000119312526177149/aiv-20260422.htm
+  title: DEF 14A 0001193125-26-177149
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-08T18:20:54.006633+00:00'
+  sha256: cef8a6ea38f2e43165d3ca2743e2e17ac05cfba6cd2c50b97bf6badadaa2ed68
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/922864/000119312526085547/aiv-20251231.htm
+  title: 10-K 0001193125-26-085547
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-08T18:20:51.743368+00:00'
+  sha256: 5f637cde54d76bc942b36d7e1335efbddc7f5f8b6d47c18d12e849d58a800cb5
 issuer_classification:
   cik: 0000922864
   classification_status: reported_sic
@@ -178,13 +196,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/922864/000092286413000005/0000922864-13-000005-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 269753589d44a300edd663f271dcc1b6464f323a1735449972e14e9aac7b3137
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -196,15 +221,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIV/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIV/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AIV — APARTMENT INVESTMENT & MANAGEMENT CO
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIV/README.md)
 
 ## Business overview
 
@@ -218,9 +243,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L219:
+
+> We present our business as a whole, in the same manner our management views and operates the business; [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-02, L2136:
+
+> Operating income amounts not attributed to our segments include property management costs, casualty losses, and, if applicable, the results of apartment communities sold and reported in consolidated amounts, which we do not allocate to our segments for purposes of evaluating segment performance. [S56]
 
 ## Products and services
 
@@ -236,11 +269,19 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-02, L625:
+
+> Adverse economic and geopolitical conditions, local, regional, national, or international health crises and dislocations in the credit markets could negatively impact our tenants and our operations. The occurrence of regional epidemics or a global pandemic, may adversely affect our operations, financial condition, and results of operations. These conditions also may add uncertainty to operations and may cause supply chain disruptions. [S56]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-24, L4889:
+
+> All severance payments and benefits under the 2021 Employment Agreement are subject to applicable withholding obligations, Mr. Powell’s execution and non-revocation of a release of claims, and compliance with certain non-competition, non-disclosure, and non-solicitation covenants. [S55]
 
 ## Moat and differentiation
 
@@ -262,6 +303,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L6269:
+
+> On November 10, 2025, our Board of Directors (the “Board”) determined advisable and approved a Plan of Sale and Liquidation, subject to stockholder approval. The Plan of Sale and Liquidation provides for the Company’s complete liquidation and dissolution in accordance with Section 331, Section 336 and Section 346(a) of the Internal Revenue Code of 1986 (the “Code”), as amended, and the Maryland General Corporation Law (“MGCL”). On February 6, 2026, holders of Common Shares representing approximately 83% of the outstanding Common Shares voted in favor of the adoption of the Plan of Sale and Liquidation. As a result, the Plan of Sale and Liquidation was adopted. [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -273,6 +318,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-08-07, L6277:
+
+> No assurance can be given that any liquidating distributions the Company pays to its shareholders will equal or exceed the estimate of net assets in liquidation presented on the Condensed Consolidated Statement of Net Assets as of June 30, 2026. For a discussion of risks related to the Plan of Sale and Liquidation, refer to the section entitled “Risk Factors” described in Item 1A of Aimco’s and Aimco Operating Partnership’s combined Annual Report on Form 10-K for the year ended December 31, 2025. We expect to comply with the requirements necessary to continue to qualify as a REIT through the completion of the liquidation process, or until such time as Aimco terminates its status as a REIT and/or any remaining assets are transferred into a liquidating trust or other liquidating entity. The Board shall use commercially reasonable efforts to continue to cause Aimco to maintain its REIT status; provided, however, that the Board may elect to terminate Aimco’s status as a REIT if it determines that such termination would be in the best interest of the stockholders. [S54]
 
 ## Scenarios and open questions
 
@@ -286,25 +335,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -340,6 +389,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0000922864-26-000037](https://www.sec.gov/Archives/edgar/data/922864/000092286426000037/0000922864-26-000037-index.html) — published 2026-09-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIV/README.md).
+[S54] [10-Q 0001193125-26-338545](https://www.sec.gov/Archives/edgar/data/922864/000119312526338545/aiv-20260630.htm) — published 2026-08-07; retrieved 2026-11-08T18:20:55.903540+00:00.
+
+[S55] [DEF 14A 0001193125-26-177149](https://www.sec.gov/Archives/edgar/data/922864/000119312526177149/aiv-20260422.htm) — published 2026-04-24; retrieved 2026-11-08T18:20:54.006633+00:00.
+
+[S56] [10-K 0001193125-26-085547](https://www.sec.gov/Archives/edgar/data/922864/000119312526085547/aiv-20251231.htm) — published 2026-03-02; retrieved 2026-11-08T18:20:51.743368+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

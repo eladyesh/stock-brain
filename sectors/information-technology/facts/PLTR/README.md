@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/897a5ec8e06dcb4c9844b83dea2f5d822553ed72/sectors/information-technology/companies/PLTR/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f/sectors/information-technology/companies/PLTR/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -203,16 +203,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/897a5ec8e06dcb4c9844b83dea2f5d822553ed72/sectors/information-technology/companies/PLTR/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/PLTR/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+  source_url: https://github.com/eladyesh/stock-brain/blob/204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f/sectors/information-technology/companies/PLTR/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PLTR/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PLTR — Palantir Technologies Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/PLTR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PLTR/README.md)
 
 ## Business overview
 
@@ -403,7 +403,7 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:34.755788+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/897a5ec8e06dcb4c9844b83dea2f5d822553ed72/sectors/information-technology/companies/PLTR/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f/sectors/information-technology/companies/PLTR/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -467,6 +467,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001823923-26-000013](https://www.sec.gov/Archives/edgar/data/1321655/000182392326000013/0001823923-26-000013-index.html) — published 2026-10-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/PLTR/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PLTR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

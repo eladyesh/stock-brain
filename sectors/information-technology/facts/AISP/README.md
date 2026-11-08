@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -156,6 +156,18 @@ sources:
   published_at: '2026-02-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1842566/000165495426007328/airsp_10q.htm
+  title: 10-Q 0001654954-26-007328
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-08T18:20:38.637510+00:00'
+  sha256: b52e38b1ab287ac615c5a4cfe3cc60508f5b4888415d80c1629895317e97b83c
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1842566/000165495426001280/airsp_10k.htm
+  title: 10-K 0001654954-26-001280
+  published_at: '2026-02-17'
+  retrieved_at: '2026-11-08T18:20:36.830777+00:00'
+  sha256: 260777c99b0a37c045c84fc2f18ea763c33585b50054167a0d06d714eea747e4
 issuer_classification:
   cik: 0001842566
   classification_status: reported_sic
@@ -197,13 +209,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1842566/000165495424001400/0001654954-24-001400-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a5a8a2f0da2aabcd042d461854a392b1453d8e1cca3b6436787e7944be437611
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -218,15 +241,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001842566.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AISP/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AISP/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AISP — Airship AI Holdings, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AISP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AISP/README.md)
 
 ## Business overview
 
@@ -240,17 +263,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3677:
+
+> Our typical customer engagement is a multi-year agreement that includes our core offerings together with professional services, technical support and software maintenance, which we expect to result in predictable, long-term recurring revenue. From inception until the Merger in December 2023, we operated as a 100% employee-owned, bootstrapped company with no outside investment. As a U.S.-based company, we operate at the intersection of public safety and AI, in which we address a combined market we estimate at more than $70 billion in 2026 and growing, spanning edge AI hardware and software (approximately $30 billion, according to Grand View Research, 2026, service and professional robotics, including robotics-as-a-service (approximately $31 billion according to Fortune Business Insights, 2026), and agentic AI (approximately $10 billion according to multiple industry analysts, 2026). [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L2360:
+
+> The Financial Accounting Standards Board, or FASB, Accounting Standard Codification, or ASC, Topic 280, Segment Reporting, requires that an enterprise report selected information about reportable segments in its financial reports issued to its stockholders. Operating segments are defined as components of an entity for which separate financial information is available and that is regularly reviewed by the Chief Operating Decision Maker (“CODM”) in deciding how to allocate resources to an individual segment and in assessing performance. The Chief Executive Officer, Chief Financial Officer and President are the Company’s CODM. The CODM monitors the revenue and expense components of the various products and services the Company offers, but operations are managed and financial performance is evaluated on a corporation-wide basis in comparison to a business plan which is developed each year. Accordingly, all operations are considered by the CODM to be one operating segment and one reportable segment as contained in the Consolidated Statements of Operations and Comprehensive Income (Loss) to the consolidated financial statements. The CODM uses consolidated net income (loss) as its required measure of segment profit/loss, as such measure is determined in accordance with the measurement principles most consistent with the consolidated financial statements. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3676:
+
+> Our primary offerings include Outpost AI (edge structuring and analysis), Acropolis (enterprise management software backbone, deployable on-premises or in cloud/multi-cloud architectures), Airship Command (visualization across workstation, web and mobile) and Fortress Server (our on-premises data center server and storage platform). These product offerings allow customers to manage their data across the full data lifecycle through a secure, permission-based, single-pane-of-glass architecture. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L2299:
+
+> For the six months ended June 30, 2026, the Company had revenue from ninety three customers and five customers represented 88% of total revenue. The primary reason for the high level of customer concentration for the six months ended June 30, 2026 was due to reliance on five customers for the six months ended June 30, 2026. As of June 30, 2026, three customers represented approximately 83% of outstanding account receivables. Due to the nature of the customers and timely payment history, customer concentration and credit risk in account receivables is estimated to be minimal. [S68]
 
 ## Industry and value chain
 
@@ -258,19 +297,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-17, L788:
+
+> We may encounter supply chain, human, or technical obstacles that prevent our products and services from operating profitably. If our offerings do not function reliably or fail to achieve customer expectations in terms of performance, customers could assert liability claims against us or cancel their contracts with us. This could damage our reputation and impair our ability to attract or maintain customers. We cannot assure you that material performance problems or defects in our products will not arise in the future. Errors may result from receipt, entry, or interpretation of customer information or from interface of our services. These defects and errors and any failure by us to identify and address them could result in loss of revenue or market share, liability to customers or others, failure to achieve market acceptance or expansion, diversion of development resources, injury to our reputation, and increased service and maintenance costs. The costs incurred in correcting any defects or errors or in responding to resulting claims or liability may be substantial and could adversely affect our operating results. [S70]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-17, L743:
+
+> In addition, our ability to provide effective services is largely dependent on our ability to attract, train, and retain qualified personnel with experience in supporting customers on platforms such as ours. The number of our customers has grown significantly, and that growth has and may continue to put additional pressure on our services teams. We may be unable to respond quickly enough to accommodate short-term increases in customer demand for our support and maintenance services. We also may be unable to modify the future scope and delivery of our support and maintenance services to compete with changes in the services provided by our competitors. Increased customer demand for support, without corresponding revenue, could increase costs and negatively affect our business and results of operations. In addition, as we continue to grow our operations and expand outside of the United States, we need to be able to provide efficient services that meet our customers’ needs globally at scale, and our services teams may face additional challenges, including those associated with operating the platforms and delivering support, training, and documentation in languages other than English and providing services across expanded time-zones. If we are unable to provide efficient support and maintenance services globally at scale, our ability to grow our operations may be harmed, and we may … [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4320:
+
+> From time to time, we may become involved in actions, claims, litigation, and other legal proceedings occurring in the ordinary course of its business from time to time, including assertions by third parties relating to intellectual property infringement, contract or warranty breaches, or employment-related matters. We are not currently a party to any actions, claims, suits, or other legal procedures whose conclusion, if not determined in our favor, would have a material adverse effect on our business, financial condition, or results of operations, either individually or in the aggregate. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-17, L525:
+
+> We expect that our market opportunity will continue to grow as we expand our edge AI hardware and software capabilities allowing us to serve our customers more broadly across their operations. [S70]
 
 ## Financial performance
 
@@ -383,6 +438,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2403:
+
+> The aggregate number of shares of common stock issued under the Equity Incentive Plan is 7,340,382. Such aggregate number of shares of stock will automatically increase on January 1 of each year for a period of ten years commencing on January 1, 2023 and ending on (and including) January 1, 2032, in an amount equal to 2.0% of the total number of shares of common stock outstanding on December 31 of the preceding year; provided, however, that the Company’s Board of Directors may act prior to January 1 of a given year to provide that the increase for such year will be a lesser number of shares of common stock. The aggregate number of shares of common stock reserved for grant and issuance under the Equity Incentive Plan is 4,149,684 as of June 30, 2026. The Company measures the cost of employee services received in exchange for an award of equity instruments based on the grant-date fair value of the award. The cost is recognized over the period which an employee is required to provide service in exchange for the award-the requisite service period. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -395,6 +454,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3656:
+
+> The following discussion and analysis summarizes the significant factors affecting our operating results, financial condition, liquidity and cash flows as of and for the periods presented below. The following discussion and analysis should be read in conjunction with our financial statements and the related notes thereto included elsewhere in this report. The discussion contains forward-looking statements that are based on the beliefs of management, as well as assumptions made by, and information currently available to, management. Actual results could differ materially from those discussed in or implied by forward-looking statements as a result of various factors, including those discussed below and elsewhere in this report, particularly in the sections titled “Risk Factors” and “Special Note Regarding Forward-Looking Statements.” [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -404,25 +467,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -468,6 +531,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S41] [10-K 0001654954-26-001280](https://www.sec.gov/Archives/edgar/data/1842566/000165495426001280/0001654954-26-001280-index.html) — published 2026-02-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AISP/README.md).
+[S68] [10-Q 0001654954-26-007328](https://www.sec.gov/Archives/edgar/data/1842566/000165495426007328/airsp_10q.htm) — published 2026-08-06; retrieved 2026-11-08T18:20:38.637510+00:00.
+
+[S70] [10-K 0001654954-26-001280](https://www.sec.gov/Archives/edgar/data/1842566/000165495426001280/airsp_10k.htm) — published 2026-02-17; retrieved 2026-11-08T18:20:36.830777+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AISP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

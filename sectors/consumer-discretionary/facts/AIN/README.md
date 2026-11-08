@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -143,6 +143,24 @@ sources:
   published_at: '2026-02-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/819793/000162828026052329/ain-20260630.htm
+  title: 10-Q 0001628280-26-052329
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-08T18:16:30.933020+00:00'
+  sha256: 6c619c3d6d8039e815403109fa72f217a7d102e949e46ed43fe1f6225382bc99
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/819793/000162828026022940/ain-20260401.htm
+  title: DEF 14A 0001628280-26-022940
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-08T18:16:29.154258+00:00'
+  sha256: 01fcf4dfecc4e9b1ce216d49371d4505866c67301bc22264c3042e129dc6bf33
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/819793/000162828026012906/ain-20251231.htm
+  title: 10-K 0001628280-26-012906
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-08T18:16:27.109055+00:00'
+  sha256: 78a6db8b6a59be7b7f7ac51b9b708d1f4a68e6a95f7e131a05b5af58f81354a1
 issuer_classification:
   cik: 0000819793
   classification_status: reported_sic
@@ -212,13 +230,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/819793/000089109212000820/0000891092-12-000820-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b443b1b449638eab8f47844119eb1e7c354f4071cf108b4ddb5135ee0dd62059
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
+  last_success_at: '2026-11-08T18:13:06.363886+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -233,15 +262,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000819793.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIN/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIN/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AIN — ALBANY INTERNATIONAL CORP /DE/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIN/README.md)
 
 ## Business overview
 
@@ -255,17 +284,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L400:
+
+> The Machine Clothing segment supplies permeable and impermeable belts used in the manufacture of paper, paperboard, tissue and towel products, nonwovens, fiber cement and for several other industrial applications. We sell our MC products directly to customer end-users in countries across the globe. Our products, manufacturing processes, and distribution channels are substantially the same in each region of the world in which we operate. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L398:
+
+> The Company is organized based on the nature of its products and is composed of two reportable segments, Machine Clothing ("MC") and Albany Engineered Composites ("AEC"), each overseen by a segment president. These segments are reflective of how the Company's Chief Executive Officer, who is its Chief Operating Decision Maker ("CODM"), reviews operating results for the purpose of allocating resources and assessing performance. Our CODM evaluates each segment's performance based on metrics such as net revenues, gross profit, and other key financial data, to assess performance and allocate resources that align with company-wide goals. The Company has not aggregated operating segments for purposes of identifying reportable segments. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-04, L400:
+
+> The Machine Clothing segment supplies permeable and impermeable belts used in the manufacture of paper, paperboard, tissue and towel products, nonwovens, fiber cement and for several other industrial applications. We sell our MC products directly to customer end-users in countries across the globe. Our products, manufacturing processes, and distribution channels are substantially the same in each region of the world in which we operate. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1271:
+
+> indications of interest with regards to a sale of the facility. We continue to engage closely with our customers throughout the strategic assessment process. This review is expected to be completed by the end of 2026. [S69]
 
 ## Industry and value chain
 
@@ -273,19 +318,35 @@ SEC-reported SIC **2221**: Broadwoven Fabric Mills, Man Made Fiber & Silk. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L400:
+
+> The Machine Clothing segment supplies permeable and impermeable belts used in the manufacture of paper, paperboard, tissue and towel products, nonwovens, fiber cement and for several other industrial applications. We sell our MC products directly to customer end-users in countries across the globe. Our products, manufacturing processes, and distribution channels are substantially the same in each region of the world in which we operate. [S69]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L2240:
+
+> base salary in effect at the time of the Qualifying Termination, less applicable withholdings and deductions, for a period of 24 months. In the event the Qualifying Termination occurs within 12 months of a Change in Control (as defined in the Severance Agreement), the officer would be entitled to receive his or her gross monthly base salary in effect at the time of the Qualifying Termination, less applicable withholdings and deductions, for a period of 36 months, although in that case some of the monthly payments would be accelerated and paid as a lump sum to comply with applicable tax laws. The officer would also remain eligible for a prorated payment of any bonus earned during the year in which the Qualifying Termination occurs, and 12 months of executive outplacement services. In addition, if elected, the Company would pay the required premium to continue healthcare coverage under the Consolidated Omnibus Budget Reconciliation Act (“COBRA”). In order to receive the severance benefits, the officer would be obligated to execute a release in favor of the Company at the time of termination which would also bind the officer to a restrictive covenant for the period during which the severance benefits are being paid. The initial term of each Severance Agreement is three years, but each will thereafter automatically renew for one-year periods unless the Company timely notifies the … [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1375:
+
+> Consolidated Technical and research expenses decreased by $0.8 million as compared to the three months ended June 30, 2025, primarily due to lower intellectual property-related defense costs in the current year. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-27, L328:
+
+> We support global human rights, aligning our policies with the United Nations Global Compact and the Universal Declaration of Human Rights. Our strategy is to focus on the advantages inherent in combining our individual strengths for collective success and promoting an inclusive company culture. [S71]
 
 ## Financial performance
 
@@ -410,6 +471,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1268:
+
+> (a)On February 21, 2025, the Company's Board of Directors authorized the Company to repurchase shares up to $250 million (excluding any fees, commissions, taxes or other expenses related to such purchases), which replaces the 2021 authorization. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -422,6 +487,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1041:
+
+> The borrowings are guaranteed by certain of the Company’s subsidiaries, including all significant U.S. subsidiaries (subject to certain exceptions), as defined in the Amended Credit Agreement. Our ability to borrow additional amounts under the Amended Credit Agreement is conditional upon the absence of any defaults, as well as the absence of any material adverse change (as defined in the Amended Credit Agreement). [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -431,25 +500,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -493,6 +562,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S53] [10-K 0001628280-26-012906](https://www.sec.gov/Archives/edgar/data/819793/000162828026012906/0001628280-26-012906-index.html) — published 2026-02-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AIN/README.md).
+[S69] [10-Q 0001628280-26-052329](https://www.sec.gov/Archives/edgar/data/819793/000162828026052329/ain-20260630.htm) — published 2026-08-04; retrieved 2026-11-08T18:16:30.933020+00:00.
+
+[S70] [DEF 14A 0001628280-26-022940](https://www.sec.gov/Archives/edgar/data/819793/000162828026022940/ain-20260401.htm) — published 2026-04-02; retrieved 2026-11-08T18:16:29.154258+00:00.
+
+[S71] [10-K 0001628280-26-012906](https://www.sec.gov/Archives/edgar/data/819793/000162828026012906/ain-20251231.htm) — published 2026-02-27; retrieved 2026-11-08T18:16:27.109055+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AIN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

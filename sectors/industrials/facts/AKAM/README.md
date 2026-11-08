@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 897a5ec8e06dcb4c9844b83dea2f5d822553ed72
+source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -128,6 +128,18 @@ sources:
   published_at: '2026-09-25'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1086222/000108622226000042/akam-20260330.htm
+  title: DEF 14A 0001086222-26-000042
+  published_at: '2026-03-31'
+  retrieved_at: '2026-11-08T18:21:43.701004+00:00'
+  sha256: 8b2594aae5f528595b7321525680620907abf577d84742c3ec849d473576f83a
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1086222/000108622226000022/akam-20251231.htm
+  title: 10-K 0001086222-26-000022
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-08T18:21:41.256282+00:00'
+  sha256: 66595de693b93f0320eeeb33f3cbfbd7b6901f18136fbd23d889e3b022d1dbd5
 issuer_classification:
   cik: 0001086222
   classification_status: reported_sic
@@ -169,13 +181,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1086222/000108622225000057/0001086222-25-000057-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 406529391d19ceb8308039758d7e4f4bc293e8f1c76075c738f5fe936c399c73
-  last_attempt_at: null
+  last_attempt_at: '2026-11-08T18:13:06.363886+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-09T18:13:06.363886+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -190,15 +213,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001086222.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AKAM/README.md
-full_history_commit: 9ce9ba7dde955e58421992481cd013c9475dbbdb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AKAM/README.md
+full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AKAM — AKAMAI TECHNOLOGIES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AKAM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AKAM/README.md)
 
 ## Business overview
 
@@ -212,17 +235,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L189; prior source set, update pending:
+
+> We operate in a technology landscape that is rapidly evolving, and the world is more connected than ever, with more people accessing a myriad of apps on more devices, from more places around the world. This connectivity presents opportunities for businesses to improve productivity and efficiency, expand to new markets, support remote or hybrid workforces, build brand affinity and meet rising user expectations for immersive and personalized experiences. To meet the digital demands of customers and employees, organizations are re-evaluating how they build, deliver, secure and scale new digital apps and services. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-20, L1329; prior source set, update pending:
+
+> Akamai Technologies, Inc. (the “Company”) develops and provides solutions for global enterprises to build, secure and accelerate their applications and digital experiences. Its massively distributed global infrastructure is comprised of core and distributed compute sites, more than 4,300 edge points-of-presence in over 130 countries and approximately 700 cities. The Company was incorporated in Delaware in 1998 and is headquartered in Cambridge, Massachusetts. The Company is currently organized and operates as one operating and reportable segment. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L259; prior source set, update pending:
+
+> •Build Efficiency – To reduce the energy intensity of our operations, Akamai continually works toward innovating software and hardware optimizations across our platform. We aim to improve the energy efficiency of Akamai’s globally distributed infrastructure, reducing the overall power consumption required to deliver our services while maintaining industry-leading performance. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-31, L42; prior source set, update pending:
+
+> Akamai also made substantial strides as the cybersecurity and cloud computing company that powers and protects business online. Closing the year with strong momentum, we delivered $4,208 million in total revenue, a 5% year-over-year increase, and outperformed expectations across key financial metrics. Our strategic focus is validated by the rapid adoption of our fastest-growing product lines. Of particular note was the strong fourth quarter performance of our Guardicore Segmentation and API Security products with 36% year-over-year revenue growth, alongside a 45% year-over-year increase in Cloud Infrastructure Services revenue. We are thrilled to see these high-growth product lines contributing to our customers' success. [S67]
 
 ## Industry and value chain
 
@@ -230,19 +269,35 @@ SEC-reported SIC **7389**: Services-Business Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L229; prior source set, update pending:
+
+> Trust is fundamental to Akamai's operations. We work to earn and maintain that trust through ethical conduct, transparency and the protection of personal privacy, and our operations are designed to support a secure, resilient and reliable platform that customers depend on. Our commitment spans key areas including human rights, ethics and compliance, data privacy and security and responsible supply chain management. [S67]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-20, L235; prior source set, update pending:
+
+> The market for our solutions is intensely competitive and characterized by rapidly changing technology, evolving industry standards and frequent new product and service innovations. We expect competition for our offerings to increase both from existing competitors and new market entrants. We compete primarily on the basis of: [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L314; prior source set, update pending:
+
+> In addition, Akamai has established an AI Governance Program covering the principles, policies, and procedures for the responsible, safe, secure, and effective use, development, deployment, operation, monitoring and decommissioning of AI systems. The Board, primarily through the Audit Committee, oversees risks and opportunities arising from the development and use of AI, including implications for data privacy and security, product integrity, intellectual property, and evolving regulatory requirements. Management provides periodic updates on our AI strategy and controls and engages the Board on material AI‑related investments and risk mitigations. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-31, L195; prior source set, update pending:
+
+> It is our view that the internet's role in transforming the way we exchange ideas and information and conduct business is more vital than ever. Our strategy is to help continue to drive this transformation by offering security, cloud computing and content delivery services with the industry-leading reliability, scale and expertise our customers need to grow their business with confidence. [S67]
 
 ## Financial performance
 
@@ -370,6 +425,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L66; prior source set, update pending:
+
+> (1)To elect nine nominees currently serving as members of our Board of Directors and named in the attached proxy statement to serve on our Board of Directors for a one-year term expiring at the 2027 Annual Meeting of Stockholders; [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -382,6 +441,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-03-31, L166; prior source set, update pending:
+
+> This Proxy Statement contains “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995 regarding Akamai Technologies, Inc., which we refer to as “we,” “us,” or the “Company.” All statements other than statements of historical facts are statements that could be deemed forward-looking statements. These statements are subject to risks and uncertainties and are based on the beliefs and assumptions of our management as of the date hereof based on information currently available to them. Use of words such as “believes,” “could,” “expects,” “anticipates,” “intends,” “plans,” “projects,” “estimates,” “should,” “forecasts,” “if,” “intend,” “continues,” “goal,” “objective,” “likely,” “may,” and variations of such words or similar expressions are intended to identify a forward-looking statement. Forward-looking statements are not guarantees of future performance or achievements and involve risks, uncertainties and assumptions. Actual events or results may differ materially from the forward-looking statements we make. Factors that could cause or contribute to such differences include, but are not limited to, inability to grow revenue, particularly from increased sales of security and cloud computing solutions, or inability to increase profitability as projected; inability to successfully develop, deploy or scale our artificial intelligence … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -391,25 +454,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -451,6 +514,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001086222-26-000089](https://www.sec.gov/Archives/edgar/data/1086222/000108622226000089/0001086222-26-000089-index.html) — published 2026-09-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/9ce9ba7dde955e58421992481cd013c9475dbbdb/brain/companies/AKAM/README.md).
+[S67] [DEF 14A 0001086222-26-000042](https://www.sec.gov/Archives/edgar/data/1086222/000108622226000042/akam-20260330.htm) — published 2026-03-31; retrieved 2026-11-08T18:21:43.701004+00:00.
+
+[S68] [10-K 0001086222-26-000022](https://www.sec.gov/Archives/edgar/data/1086222/000108622226000022/akam-20251231.htm) — published 2026-02-20; retrieved 2026-11-08T18:21:41.256282+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/AKAM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
