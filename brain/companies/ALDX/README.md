@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -485,6 +485,36 @@ sources:
   published_at: '2025-06-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1341235/000119312526405954/aldx-20260929.htm
+  title: 8-K 0001193125-26-405954
+  published_at: '2026-09-29'
+  retrieved_at: '2026-11-09T22:53:45.327246+00:00'
+  sha256: 62f4e69cde14da6414ff75d03dc4b8d014a9cf2c43f12fb89f9c1b82e5c1cca5
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1341235/000134123526000010/aldx-20260630.htm
+  title: 10-Q 0001341235-26-000010
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-09T22:53:43.619451+00:00'
+  sha256: aab3adff969fd91fca9d021c503a5f307375f27a2b176100047043c375e6e3e6
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1341235/000119312526182099/d54888ddef14a.htm
+  title: DEF 14A 0001193125-26-182099
+  published_at: '2026-04-27'
+  retrieved_at: '2026-11-09T22:53:41.177548+00:00'
+  sha256: 817aba54ab000c2e593d06e539d25178564d3d114a4638be3b2f6ed11927d553
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1341235/000119312526083012/aldx-20251231.htm
+  title: 10-K 0001193125-26-083012
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-09T22:53:39.357715+00:00'
+  sha256: 18893de5ac2143f7977360ac85fc0e2c693de5f010a2b27b42d792cc832307e7
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1341235/000119312517176590/d395816d8ka.htm
+  title: 8-K/A 0001193125-17-176590
+  published_at: '2017-05-19'
+  retrieved_at: '2026-11-09T22:53:37.548701+00:00'
+  sha256: a305007809f559037ac07cd1176db8c3452ae3f713babf40d18705e465821419
 issuer_classification:
   cik: '0001341235'
   classification_status: reported_sic
@@ -526,13 +556,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1341235/000119312517176590/0001193125-17-176590-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0b52e461052ac36680028647baae24ec31da60cc6cc14a90b21abdbb9ecbe186
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -556,13 +596,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3772:
+
+> In addition, from time to time, the Company may become subject to litigation and claims arising in the ordinary course of business. The Company is not currently a party to any material legal proceedings that we expect to have any material adverse effect on our business, financial condition, or results of operation. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3784:
+
+> The Company operates through a single operating and reportable segment focused on the discovery and development of innovative therapies designed to treat immune-mediated diseases. The segment's approach is to develop pharmaceuticals that modulate protein systems, instead of directly inhibiting or activating single protein targets, with the goal of optimizing multiple pathways at once while minimizing toxicity. The Company's product candidates include RASP (reactive aldehyde species) modulators ADX‑248, ADX‑246, and chemically related molecules for the potential treatment of systemic and retinal immune-mediated diseases. The Company's late-stage product candidates are reproxalap, a RASP modulator for the potential treatment of dry eye disease and allergic conjunctivitis, and ADX‑2191, a novel formulation of intravitreal methotrexate for the potential treatment of primary vitreoretinal lymphoma and retinitis pigmentosa. The Company's tangible assets are held in the United States. The Company manages all business activities on a consolidated basis. The Company's Chief Operating Decision Maker (CODM) is the Chief Executive Officer. [S70]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3856:
+
+> We have no products approved for sale in the United States or elsewhere. We will not receive any revenue from sales of our product candidates that we develop until we obtain regulatory approval. We intend to commercialize our products, if approved for sale, directly or through collaborations. Although we may receive commercial and license revenue in the future, we have to date primarily funded our operations through the sale of our common stock, convertible preferred stock, convertible promissory notes, warrants, and borrowings under debt facilities. We will need to raise additional capital in the form of debt or equity or through partnerships to fund additional development of our product candidates, and we may in-license, acquire, or invest in complementary businesses or products. In addition, contingent on capital resources, we may augment, diminish, or otherwise modify the clinical development plan described herein. [S70]
 
 ## Customers and end markets
 
@@ -574,17 +626,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4914:
+
+> Any failure to follow cGMP or other regulatory requirements or any delay, interruption, or other issues that arise in the manufacture, fill-finish, packaging, or storage of our products as a result of a failure of our facilities or the facilities or operations of third parties to comply with regulatory requirements or pass any regulatory authority inspection could significantly impair our ability to develop and commercialize our products, including leading to significant delays in the availability of products for our clinical trials, the termination or hold on a clinical trial, or the delay or prevention of a filing or approval of marketing applications for our product candidates. Our reliance on third-party manufacturing facilities located outside the United States exposes us to significant regulatory and operational risks. The FDA has recently expanded its use of unannounced inspections of foreign manufacturing sites, and any failure by these facilities to comply with applicable cGMP or inspection requirements could result in product shipment delays, warning letters, import restrictions, or the loss of manufacturing authorization. In addition, ongoing political pressures to strengthen oversight of foreign drug and medical supply chains may lead to stricter enforcement and increased inspection frequency. Furthermore, the current presidential administration has issued … [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4598:
+
+> If our competitors develop treatments for the target indications of our product candidates that are approved more quickly than ours, marketed more successfully, or demonstrated to be safer or more effective than our product candidates, our commercial opportunity will be reduced or eliminated. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2506:
+
+> In connection with the January 2018 acquisition of Helio Vision, Inc. (Helio), the Company obtained the rights to develop ADX‑2191 for the treatment of proliferative vitreoretinopathy (the Helio Product Candidate) pursuant to an Agreement and Plan of Merger dated as of January 24, 2019 (the Merger Agreement). Under the Merger Agreement, the Company may be required to issue additional shares of common stock to the former securityholders and an advisor of Helio upon achievement of certain FDA regulatory milestones related to the Helio Product Candidate (the Milestone Shares). During the year ended December 31, 2024, the Company ceased development of the Helio Product Candidate for the treatment of proliferative vitreoretinopathy. As a result, subject to the terms and conditions of the Merger Agreement, the Helio Product Candidate and related intellectual property rights may revert to an entity designated by the representative of the former Helio securityholders, if the agreement is terminated. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3790:
+
+> Various statements throughout this report are “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements involve substantial risks and uncertainties. All statements, other than statements of historical facts, included in this report regarding our strategy, future operations, future financial position, future revenue, projected costs, prospects, plans and objectives of management are forward-looking statements. Forward-looking statements are subject to risks and uncertainties and are based on information currently available to our management. Words such as, but not limited to, “anticipate,” “believe,” “estimate,” “expect,” “intend,” “may,” “plan,” “contemplates,” “predict,” “project,” “target,” “likely,” “potential,” “continue,” “ongoing,” “design,” “might,” “objective,” “will,” “would,” “should,” “could,” or the negative of these terms and similar expressions or words, identify forward-looking statements. Forward-looking statements reflect our current views with respect to future events and are based on assumptions and subject to risks and uncertainties. Given associated risk and uncertainties, you should not place undue reliance on our forward-looking statements. The events and circumstances reflected in our forward-looking statements may not occur and actual results could differ materially from those … [S70]
 
 ## Financial performance
 
@@ -1184,6 +1252,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3170:
+
+> The Company approved the 2013 Equity Incentive Plan in October 2013, which was amended in June 2016 and June 2018 (Amended 2013 Plan). The Amended 2013 Plan provided for the granting of stock options, restricted stock units (RSU), stock appreciation rights, and stock units to certain employees, members of the board of directors and consultants of the Company. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1196,6 +1268,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-09-29, L121:
+
+> This Current Report on Form 8-K contains and various statements to be made during the conference call are forward-looking statements, including statements regarding the outcome and expected timing of discussions with the FDA; the timing and outcome of the expected FDRR submission; the FDA’s potential approval of reproxalap; the FDA’s potential acceptance and/or approval of a potential NDA resubmission for reproxalap; a potential NDA resubmission or the supplemental responses to the FDA; and Aldeyra’s projected cash runway. Any statements about Aldeyra’s expectations, beliefs, plans, predictions, forecasts, objectives, assumptions, or future events or performance are not historical facts and may be forward-looking. These statements are often, but not always, made through the use of words or phrases such as “anticipates,” “believes,” “can,” “could,” “may,” “predicts,” “potential,” “should,” “will,” “estimate,” “plans,” “projects,” “continuing,” “ongoing,” “expects,” “intends,” and similar words or phrases. Although Aldeyra believes that the expectations reflected in these forward-looking statements are reasonable, these statements are not guarantees of future performance and involve risks and uncertainties which are subject to change based on various important factors, some of which are beyond Aldeyra’s control. Aldeyra has based these forward-looking statements largely on its … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1205,25 +1281,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1287,6 +1363,10 @@ Latest 50 filing metadata records of 646 retained records. A filing link is evid
 | 2025-06-12 | 4 | 0000950170-25-085489 | — | [S66] |
 | 2025-06-12 | 4 | 0000950170-25-085475 | — | [S67] |
 | 2025-06-12 | 4 | 0000950170-25-085454 | — | [S68] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L2506:
+
+> In connection with the January 2018 acquisition of Helio Vision, Inc. (Helio), the Company obtained the rights to develop ADX‑2191 for the treatment of proliferative vitreoretinopathy (the Helio Product Candidate) pursuant to an Agreement and Plan of Merger dated as of January 24, 2019 (the Merger Agreement). Under the Merger Agreement, the Company may be required to issue additional shares of common stock to the former securityholders and an advisor of Helio upon achievement of certain FDA regulatory milestones related to the Helio Product Candidate (the Milestone Shares). During the year ended December 31, 2024, the Company ceased development of the Helio Product Candidate for the treatment of proliferative vitreoretinopathy. As a result, subject to the terms and conditions of the Merger Agreement, the Helio Product Candidate and related intellectual property rights may revert to an entity designated by the representative of the former Helio securityholders, if the agreement is terminated. [S70]
 
 ## Sources and change log
 
@@ -1425,5 +1505,15 @@ Latest 50 filing metadata records of 646 retained records. A filing link is evid
 [S67] [4 0000950170-25-085475](https://www.sec.gov/Archives/edgar/data/1341235/000095017025085475/0000950170-25-085475-index.html) — published 2025-06-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [4 0000950170-25-085454](https://www.sec.gov/Archives/edgar/data/1341235/000095017025085454/0000950170-25-085454-index.html) — published 2025-06-12; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [8-K 0001193125-26-405954](https://www.sec.gov/Archives/edgar/data/1341235/000119312526405954/aldx-20260929.htm) — published 2026-09-29; retrieved 2026-11-09T22:53:45.327246+00:00.
+
+[S70] [10-Q 0001341235-26-000010](https://www.sec.gov/Archives/edgar/data/1341235/000134123526000010/aldx-20260630.htm) — published 2026-08-06; retrieved 2026-11-09T22:53:43.619451+00:00.
+
+[S71] [DEF 14A 0001193125-26-182099](https://www.sec.gov/Archives/edgar/data/1341235/000119312526182099/d54888ddef14a.htm) — published 2026-04-27; retrieved 2026-11-09T22:53:41.177548+00:00.
+
+[S72] [10-K 0001193125-26-083012](https://www.sec.gov/Archives/edgar/data/1341235/000119312526083012/aldx-20251231.htm) — published 2026-02-27; retrieved 2026-11-09T22:53:39.357715+00:00.
+
+[S73] [8-K/A 0001193125-17-176590](https://www.sec.gov/Archives/edgar/data/1341235/000119312517176590/d395816d8ka.htm) — published 2017-05-19; retrieved 2026-11-09T22:53:37.548701+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

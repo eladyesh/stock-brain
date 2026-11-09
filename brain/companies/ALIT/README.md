@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,42 @@ sources:
   published_at: '2026-04-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000162828026065893/alit-20261014.htm
+  title: 8-K 0001628280-26-065893
+  published_at: '2026-10-14'
+  retrieved_at: '2026-11-09T22:55:31.233293+00:00'
+  sha256: d985dc842846cfebc79b0251cac15b0dafb69aa0cffecbffb97953048967a828
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000162828026052636/alit-20260630.htm
+  title: 10-Q 0001628280-26-052636
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-09T22:55:29.570626+00:00'
+  sha256: 0293363ac4e437d39bd3dc46bb23e6e3bccb1c45301590324b0beef7009f0acb
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000162828026027616/alit-20260427.htm
+  title: DEF 14A 0001628280-26-027616
+  published_at: '2026-04-27'
+  retrieved_at: '2026-11-09T22:55:27.597730+00:00'
+  sha256: 9a3f888fc65d5300d812abdd0132bb6dab7f0a497cfa7f4da547add1d4ec201f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000162828026011108/alit-20251231.htm
+  title: 10-K 0001628280-26-011108
+  published_at: '2026-02-24'
+  retrieved_at: '2026-11-09T22:55:25.606536+00:00'
+  sha256: aaa9d30a894774eea090634bbf3bec23c13d2901df56aab6d4a463e45eebccd6
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000095017024061246/alit-20240505.htm
+  title: 8-K/A 0000950170-24-061246
+  published_at: '2024-05-17'
+  retrieved_at: '2026-11-09T22:55:24.043935+00:00'
+  sha256: b32975ecbffb73bc97f28c0166c5724b5f90b1674c685eed9eb88bfcfe506b92
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1809104/000119312521244033/d23006d8ka.htm
+  title: 8-K/A 0001193125-21-244033
+  published_at: '2021-08-12'
+  retrieved_at: '2026-11-09T22:55:22.460630+00:00'
+  sha256: c2e8c3819d093b42b6a45fb3ffa2fea9df9d57e03a50a31c10902fb0c387b50d
 issuer_classification:
   cik: 0001809104
   classification_status: reported_sic
@@ -513,13 +549,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1809104/000119312521244033/0001193125-21-244033-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9932e2b2fe5acc5990c9745640f83ff03c7115c20626cc9297b3b94cb3814902
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -543,17 +589,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L170:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the "Securities Act"), and Section 21E of the Securities Exchange Act of 1934, as amended (the "Exchange Act"). These forward-looking statements include, but are not limited to, statements that relate to expectations regarding future financial performance (including the impact of bookings and losses from contract renewals on revenue growth), and business strategies or expectations for our business. Forward-looking statements can often be identified by the use of words such as “anticipate,” “appear,” “approximate,” “believe,” “continue,” “could,” “estimate,” “expect,” “foresee,” “intends,” “may,” “might,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “would” or similar expressions or the negative thereof. These forward-looking statements are based on information available as of the date of this report and the Company’s management’s current expectations, forecasts and assumptions, and involve a number of judgments, known and unknown risks and uncertainties and other factors, many of which are outside the control of the Company and its directors, officers and affiliates. We believe these factors include but are not limited to those described under the section entitled “Risk Factors” in our Annual Report on … [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L509:
+
+> The majority of the Company’s revenue is highly recurring and is derived from contracts with customers to provide integrated health, wealth, and leave administrative solutions that empower clients and their employees to manage their health, wealth and HR needs. The Company’s revenues are disaggregated by recurring and project revenues within the reportable segment. Recurring revenues are typically longer term in nature and more predictable on an annual basis, while project revenues consist of project work of a shorter duration and are therefore less predictable on an annual basis. See Note 12, “Segment Reporting” for quantitative disclosures of recurring and project revenues by reportable segment. The Company’s reportable segment is Employer Solutions. Employer Solutions is driven by our digital, software and AI-led capabilities powered by the Alight Worklife® platform and spanning total employee wellbeing and engagement, including integrated benefits administration, healthcare navigation, financial health and employee wellbeing. The Company believes the revenue categories within Employer Solutions depict how the nature, amount, timing, and uncertainty of its revenue and cash flows are affected by economic factors. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-04, L510:
+
+> Revenues are recognized when control of the promised services is transferred to the customer in the amount that best reflects the consideration to which the Company expects to be entitled in exchange for those services. The majority of the Company’s revenue is recognized over time as the customer simultaneously receives and consumes the benefits of our services. We may occasionally be entitled to a fee based on achieving certain performance criteria or contract milestones. To the extent that we cannot estimate with reasonable assurance the likelihood that we will achieve the performance target, we will constrain this portion of the transaction price and recognize it when or as the uncertainty is resolved. Any taxes assessed on revenues relating to services provided to our clients are recorded on a net basis. All of the Company’s revenues are described in more detail below. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L518:
+
+> payable until the commencement of the ongoing administrative phase, we begin transferring services to our customers approximately four months prior to payments being due as part of our annual enrollment services. Although our per-participant fees are considered variable, they are typically predictable in nature, and therefore we do not generally constrain any portion of our transaction price estimates. We use an input method based on the labor costs incurred relative to total labor costs as the measure of progress in satisfying our Health Solutions performance obligation commencing when the customer’s annual enrollment services begin. Given that the Health Solutions enrollment and administrative services are stand-ready in nature, it can be difficult to estimate the total expected efforts or hours we will incur for a particular benefits cycle. Therefore, the input measure is based on the historical effort expended, which is measured as labor cost. [S67]
 
 ## Industry and value chain
 
@@ -565,13 +627,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1350:
+
+> Adjusted Diluted Earnings Per Share From Continuing Operations is defined as Adjusted Net Income From Continuing Operations divided by the adjusted weighted-average number of shares of common stock, diluted. The adjusted weighted shares calculation assumes the full exchange of the non-controlling interest units and the full amount of non-vested time-based restricted units that were determined to be antidilutive and therefore excluded from the U.S. GAAP diluted earnings per share. Adjusted Diluted Earnings Per Share From Continuing Operations, including the adjusted weighted-average number of shares, is used by us and our investors to evaluate our core operating performance and to benchmark our operating performance against our competitors. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-24, L333:
+
+> Our intellectual property portfolio is primarily comprised of various copyrights (including copyrights in software) and trademarks, as well as certain trade secrets or proprietary know-how of our business. Our success has resulted in part from our proprietary methodologies, process and other intellectual property, such as certain of Alight's platforms. However, any of our proprietary rights could be challenged, invalidated or circumvented, or may not provide significant competitive advantages. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-27, L117:
+
+> momentum and expand our market position. With disciplined execution across our operating principles, we believe Alight [S68]
 
 ## Financial performance
 
@@ -1158,6 +1232,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L489:
+
+> At Alight's 2026 Annual Meeting of Stockholders held on June 10, 2026, stockholders approved a reverse stock split of Alight's outstanding common stock and a corresponding decrease in the number of authorized shares of each class and series of common stock (the "Reverse Stock Split"). On June 10, 2026, the Company's Board of Directors determined to effectuate the Reverse Stock Split at a ratio of 1-for-20. The Reverse Stock Split became effective as of Tuesday, June 30, 2026, at 5:00 p.m. Eastern Time (the "Effective Time"). Alight’s Class A Common Stock began trading on a split-adjusted basis on the NYSE under the existing symbol (ALIT) when the market opened on Wednesday, July 1, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1170,6 +1248,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-14, L75:
+
+> This Report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These statements include, but are not limited to, statements regarding the Company’s ability to consummate a Potential Transaction and the terms thereof, and the Projections and other prospective financial information included in the Cleansing Materials and statements regarding 2026 Business Outlook. In some cases, these forward-looking statements can be identified by the use of words such as “outlook,” “believes,” “expects,” “potential,” “continues,” “may,” “will,” “would,” “should,” “could,” “seeks,” “projects,” “predicts,” “intends,” “plans,” “estimates,” “anticipates” or the negative version of these words or other comparable words. Such forward-looking statements are subject to various risks and uncertainties, including those described under the section entitled “Risk Factors” of Alight’s Annual Report on Form 10-K, filed with the Securities and Exchange Commission (the “SEC”) on February 24, 2026, as such factors may be updated from time to time in Alight's filings with the SEC, which are, or will be, accessible on the SEC's website at www.sec.gov. Accordingly, there are or will be important factors that could cause actual outcomes or results to differ materially from those … [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1179,25 +1261,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1261,6 +1343,10 @@ Latest 50 filing metadata records of 715 retained records. A filing link is evid
 | 2026-04-29 | ARS | 0001628280-26-028052 | — | [S63] |
 | 2026-04-27 | DEFA14A | 0001628280-26-027623 | — | [S64] |
 | 2026-04-27 | DEF 14A | 0001628280-26-027616 | — | [S65] |
+
+Source excerpt — DEF 14A, filed 2026-04-27, L2674:
+
+> Denise Williams received compensation for serving on our Board during the year ended December 31, 2025. Mr. Henson and Mses. [S68]
 
 ## Sources and change log
 
@@ -1393,5 +1479,17 @@ Latest 50 filing metadata records of 715 retained records. A filing link is evid
 [S64] [DEFA14A 0001628280-26-027623](https://www.sec.gov/Archives/edgar/data/1809104/000162828026027623/0001628280-26-027623-index.html) — published 2026-04-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S65] [DEF 14A 0001628280-26-027616](https://www.sec.gov/Archives/edgar/data/1809104/000162828026027616/0001628280-26-027616-index.html) — published 2026-04-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S66] [8-K 0001628280-26-065893](https://www.sec.gov/Archives/edgar/data/1809104/000162828026065893/alit-20261014.htm) — published 2026-10-14; retrieved 2026-11-09T22:55:31.233293+00:00.
+
+[S67] [10-Q 0001628280-26-052636](https://www.sec.gov/Archives/edgar/data/1809104/000162828026052636/alit-20260630.htm) — published 2026-08-04; retrieved 2026-11-09T22:55:29.570626+00:00.
+
+[S68] [DEF 14A 0001628280-26-027616](https://www.sec.gov/Archives/edgar/data/1809104/000162828026027616/alit-20260427.htm) — published 2026-04-27; retrieved 2026-11-09T22:55:27.597730+00:00.
+
+[S69] [10-K 0001628280-26-011108](https://www.sec.gov/Archives/edgar/data/1809104/000162828026011108/alit-20251231.htm) — published 2026-02-24; retrieved 2026-11-09T22:55:25.606536+00:00.
+
+[S70] [8-K/A 0000950170-24-061246](https://www.sec.gov/Archives/edgar/data/1809104/000095017024061246/alit-20240505.htm) — published 2024-05-17; retrieved 2026-11-09T22:55:24.043935+00:00.
+
+[S71] [8-K/A 0001193125-21-244033](https://www.sec.gov/Archives/edgar/data/1809104/000119312521244033/d23006d8ka.htm) — published 2021-08-12; retrieved 2026-11-09T22:55:22.460630+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

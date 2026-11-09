@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -462,6 +462,54 @@ sources:
   published_at: '2026-03-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707726000102/alg-20260929.htm
+  title: 8-K 0000897077-26-000102
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-09T22:54:15.331456+00:00'
+  sha256: bca33b7a04789cf344c1531079768882dafa806d4cd0d226db1d06a093543c77
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707726000092/alg-20260630.htm
+  title: 10-Q 0000897077-26-000092
+  published_at: '2026-08-03'
+  retrieved_at: '2026-11-09T22:54:13.761523+00:00'
+  sha256: f101fef56d1d26dac744a888311b16cae5a62c48e331e69d832c597ba6fd831e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707726000047/alg-20260319.htm
+  title: DEF 14A 0000897077-26-000047
+  published_at: '2026-03-19'
+  retrieved_at: '2026-11-09T22:54:12.066156+00:00'
+  sha256: bc81c796ee1263ffb97a7bd17b7020fd7f973ffced832bfd5530c277d5d99f10
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707726000016/alg-20251231.htm
+  title: 10-K 0000897077-26-000016
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-09T22:54:10.305101+00:00'
+  sha256: d29f7b2d3c277fce0bb13a63c9fb282eb3227d3924e3770081d9f1e97fee0380
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707720000004/alg-20191029.htm
+  title: 8-K/A 0000897077-20-000004
+  published_at: '2020-01-07'
+  retrieved_at: '2026-11-09T22:54:08.601216+00:00'
+  sha256: 3d0a7524905801142c549dd882108416c83e2fe7cff322aa2933f2221394e726
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707714000059/a20148-kaformspecialized.htm
+  title: 8-K/A 0000897077-14-000059
+  published_at: '2014-07-25'
+  retrieved_at: '2026-11-09T22:54:06.588553+00:00'
+  sha256: 0cd6e8515a0ec9c4aeddd61924a4a0988a67631de40c5b8eda7e8098a3ec5e01
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707712000009/alg-8kq12012.htm
+  title: 8-K/A 0000897077-12-000009
+  published_at: '2012-05-03'
+  retrieved_at: '2026-11-09T22:54:05.039143+00:00'
+  sha256: f3c643cbe640329365729fe221f71e401ce3569b32521a8f6717857badcdd29e
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/897077/000089707711000036/alg-8k.htm
+  title: 8-K/A 0000897077-11-000036
+  published_at: '2011-10-21'
+  retrieved_at: '2026-11-09T22:54:03.165246+00:00'
+  sha256: 1fa0aa5ab73aa6c8148e937624572b3f82f1736520f2dec0eded3be81ebab673
 issuer_classification:
   cik: 0000897077
   classification_status: reported_sic
@@ -515,13 +563,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/897077/000089707711000036/0000897077-11-000036-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 64fc648ecbcc846f9c0b53beed5031f7394b1520cfdca283bef72068ee312e92
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -545,17 +604,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-03, L1111:
+
+> •our ability to achieve anticipated cost savings and synergies associated with restructuring some of our business operations; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-02, L1365:
+
+> In November 2023, the Financial Accounting Standards Board (“FASB”) issued ASU No. 2023-07, Improvements to Reportable Segment Disclosures (Topic 280). This ASU updates reportable segment disclosure requirements by requiring disclosures of significant reportable segment expenses that are regularly provided to the Chief Operating Decision Maker (“CODM”) and included within each reported measure of a segment's profit or loss. This ASU also requires disclosure of the title and position of the individual identified as the CODM and an explanation of how the CODM uses the reported measures of a segment’s profit or loss in assessing segment performance and deciding how to allocate resources. The ASU is effective for annual periods beginning after [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 8-K, filed 2026-09-30, L51:
+
+> On September 29, 2026, Alamo Group Inc. (the “Company”), as part of its ongoing review of its product portfolio, decided to cease production of its Dixie Chopper branded line of products. The Company estimates that it will incur approximately $15.0 million to $20.0 million in charges in the third quarter of 2026 in connection with this action, including approximately $1.0 to $4.0 million in cash expenditures related to inventory returns, contractual purchase commitments, and other associated costs. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-03, L650:
+
+> At June 30, 2026 the Company had $11.8 million in reserves for sales discounts compared to $10.7 million at December 31, 2025 related to products shipped to our customers under various promotional programs. [S68]
 
 ## Industry and value chain
 
@@ -563,17 +638,33 @@ SEC-reported SIC **3523**: Farm Machinery & Equipment. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 8-K, filed 2026-09-30, L56:
+
+> This Current Report on Form 8-K contains forward-looking statements that are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements involve known and unknown risks and uncertainties, which may cause the Company’s actual results in future periods to differ materially from forecasted results. Among those factors which could cause actual results to differ materially are the following: adverse economic conditions which could lead to a reduction in overall market demand, supply chain disruptions, labor constraints, increasing costs due to inflation, disease outbreaks, geopolitical risks, including tariffs, trade wars, and the effects of the war in the Ukraine and the Middle East, competition, weather, seasonality, currency-related issues, and other risk factors listed from time to time in the Company’s SEC reports. The Company does not undertake any obligation to update the information contained herein, which speaks only as of this date. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 8-K, filed 2026-09-30, L56:
+
+> This Current Report on Form 8-K contains forward-looking statements that are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements involve known and unknown risks and uncertainties, which may cause the Company’s actual results in future periods to differ materially from forecasted results. Among those factors which could cause actual results to differ materially are the following: adverse economic conditions which could lead to a reduction in overall market demand, supply chain disruptions, labor constraints, increasing costs due to inflation, disease outbreaks, geopolitical risks, including tariffs, trade wars, and the effects of the war in the Ukraine and the Middle East, competition, weather, seasonality, currency-related issues, and other risk factors listed from time to time in the Company’s SEC reports. The Company does not undertake any obligation to update the information contained herein, which speaks only as of this date. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-19, L740:
+
+> Nina C. Grooms has been a director of the Company since December 2021. Ms. Grooms has been Chief Executive Officer of CDO Solutions since November 2024. CDO Solutions specializes in AI and digital transformation strategies and solutions that revolutionize how organizations operate and innovate. From August 2022 to April 2024, Ms. Grooms served as Chief Executive Officer of Oralucent, an oral care company that seeks to revolutionize oral care, and that holds several patents related to Artificial Intelligence and blue light technology. Prior to joining Oralucent, Ms. Grooms was Chief Product Officer of May Mobility in Ann Arbor, Michigan. May Mobility is a leader in autonomous vehicle technology with a mission to transform communities through the development and deployment of safe and accessible autonomous vehicles. Ms. Grooms joined May Mobility in 2020. Prior to joining May Mobility, Ms. Grooms served in various executive roles with Ford Motor Company, most recently as Chief Product Owner for Ford's Autonomous Vehicle Group and Chief Operating Officer of Connected Solutions for Ford’s retail vehicles. Prior to her service with Ford, Ms. Grooms held several executive positions with the General Electric Company from 2012 to 2017, including as Vice President, Global Customer & Services Marketing, Artificial Intelligence & IoT Software at GE Digital. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-03, L1087:
+
+> As of June 30, 2026, we believe our financial position remains robust, supported by a strong balance sheet and healthy cash flow from operations. Our available liquidity, comprised of cash and cash equivalents, along with access to undrawn credit facilities, ensures that we are well equipped to meet our operating needs and explore strategic initiatives that could enhance shareholder value. We continuously evaluate our capital allocation strategy, including potentially repurchasing shares under the share repurchase program adopted by the Company and approved by the Board of Directors as announced on October 31, 2024 if it aligns with our strategic priorities and is deemed to be in the best interest of our shareholders. We believe that repurchasing our shares would be a prudent use of capital, provided appropriate market conditions exist. [S68]
 
 ## Financial performance
 
@@ -1203,6 +1294,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-03, L815:
+
+> On July 1, 2026, the Company announced that its Board of Directors had declared a quarterly cash dividend of $0.34 per share, which was paid on July 29, 2026, to shareholders of record at the close of business on July 16, 2026. The Company also has a share repurchase program under which the Company is authorized to repurchase, in the aggregate, up to $50 million of its outstanding common stock. During 2026, the Company purchased 61,932 shares. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1215,6 +1310,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-09-30, L56:
+
+> This Current Report on Form 8-K contains forward-looking statements that are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements involve known and unknown risks and uncertainties, which may cause the Company’s actual results in future periods to differ materially from forecasted results. Among those factors which could cause actual results to differ materially are the following: adverse economic conditions which could lead to a reduction in overall market demand, supply chain disruptions, labor constraints, increasing costs due to inflation, disease outbreaks, geopolitical risks, including tariffs, trade wars, and the effects of the war in the Ukraine and the Middle East, competition, weather, seasonality, currency-related issues, and other risk factors listed from time to time in the Company’s SEC reports. The Company does not undertake any obligation to update the information contained herein, which speaks only as of this date. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1224,25 +1323,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1305,6 +1404,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-11 | 4 | 0000897077-26-000036 | — | [S64] |
 | 2026-03-11 | 4 | 0000897077-26-000034 | — | [S65] |
 | 2026-03-11 | 4 | 0000897077-26-000032 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-03-19, L2172:
+
+> The Compensation Committee and senior management monitor the Company’s equity grant practices to evaluate whether such policies comply with governing regulations and are consistent with good corporate practices. As previously discussed, long-term equity incentive compensation for our NEOs consists of RSAs and PSUs. For other employees, when making regular annual equity grants, the Board’s long-standing practice is to approve them, at the Compensation Committee’s recommendation, at its meeting in February of each year as part of the annual compensation review and after results for the preceding fiscal year become available. In addition, the Board may make grants at any time during the year it deems appropriate, including with respect to new hires or transitions. The Board does not time the disclosure of material nonpublic information for the purpose of affecting the value of executive compensation. [S69]
 
 ## Sources and change log
 
@@ -1439,5 +1542,21 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0000897077-26-000034](https://www.sec.gov/Archives/edgar/data/897077/000089707726000034/0000897077-26-000034-index.html) — published 2026-03-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0000897077-26-000032](https://www.sec.gov/Archives/edgar/data/897077/000089707726000032/0000897077-26-000032-index.html) — published 2026-03-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0000897077-26-000102](https://www.sec.gov/Archives/edgar/data/897077/000089707726000102/alg-20260929.htm) — published 2026-09-30; retrieved 2026-11-09T22:54:15.331456+00:00.
+
+[S68] [10-Q 0000897077-26-000092](https://www.sec.gov/Archives/edgar/data/897077/000089707726000092/alg-20260630.htm) — published 2026-08-03; retrieved 2026-11-09T22:54:13.761523+00:00.
+
+[S69] [DEF 14A 0000897077-26-000047](https://www.sec.gov/Archives/edgar/data/897077/000089707726000047/alg-20260319.htm) — published 2026-03-19; retrieved 2026-11-09T22:54:12.066156+00:00.
+
+[S70] [10-K 0000897077-26-000016](https://www.sec.gov/Archives/edgar/data/897077/000089707726000016/alg-20251231.htm) — published 2026-03-02; retrieved 2026-11-09T22:54:10.305101+00:00.
+
+[S71] [8-K/A 0000897077-20-000004](https://www.sec.gov/Archives/edgar/data/897077/000089707720000004/alg-20191029.htm) — published 2020-01-07; retrieved 2026-11-09T22:54:08.601216+00:00.
+
+[S72] [8-K/A 0000897077-14-000059](https://www.sec.gov/Archives/edgar/data/897077/000089707714000059/a20148-kaformspecialized.htm) — published 2014-07-25; retrieved 2026-11-09T22:54:06.588553+00:00.
+
+[S73] [8-K/A 0000897077-12-000009](https://www.sec.gov/Archives/edgar/data/897077/000089707712000009/alg-8kq12012.htm) — published 2012-05-03; retrieved 2026-11-09T22:54:05.039143+00:00.
+
+[S74] [8-K/A 0000897077-11-000036](https://www.sec.gov/Archives/edgar/data/897077/000089707711000036/alg-8k.htm) — published 2011-10-21; retrieved 2026-11-09T22:54:03.165246+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

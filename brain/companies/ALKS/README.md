@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -473,6 +473,42 @@ sources:
   published_at: '2026-05-15'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526396065/alks-20260921.htm
+  title: 8-K 0001193125-26-396065
+  published_at: '2026-09-21'
+  retrieved_at: '2026-11-09T22:56:04.336812+00:00'
+  sha256: c89c1db1e3617fd27b420fced4d2130d5dfbccf3cea66bfe415ed7bd0f5ecc25
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526330564/alks-20260224.htm
+  title: 8-K/A 0001193125-26-330564
+  published_at: '2026-08-03'
+  retrieved_at: '2026-11-09T22:56:02.798725+00:00'
+  sha256: c5d73bafec8c6a7e0e4d54231f05c0e7d6982f2c2ad17a41ffb2489f2c1608ad
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526319022/alks-20260630.htm
+  title: 10-Q 0001193125-26-319022
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-09T22:56:00.839844+00:00'
+  sha256: f7f407617f2e7e7cc20f665166b862b76993b98b5338d65b4891d056f41c42e8
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526201657/alks-20260212.htm
+  title: 8-K/A 0001193125-26-201657
+  published_at: '2026-05-01'
+  retrieved_at: '2026-11-09T22:55:58.854647+00:00'
+  sha256: 2f05c007da08a92dea6bf2244f5a0546698d5cfdec07dc78f9f6885caffdaf82
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526143977/alks-20260406.htm
+  title: DEF 14A 0001193125-26-143977
+  published_at: '2026-04-06'
+  retrieved_at: '2026-11-09T22:55:56.886038+00:00'
+  sha256: adecd3234e2b4cec4ac97333afc354596417619f2e6ca89f88ef921ac4cabef8
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526068925/alks-20251231.htm
+  title: 10-K 0001193125-26-068925
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-09T22:55:54.607957+00:00'
+  sha256: e6f9863c4dd5e2cb4cafbe50260a89851700ebc0ac85bd6b29f396f531cdf355
 issuer_classification:
   cik: '0001520262'
   classification_status: reported_sic
@@ -518,13 +554,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1520262/000119312526201657/0001193125-26-201657-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3505c0bbbe419a7c7c5b9417415b33444fbfab5a910e05075e2b87dd6e666742
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -548,17 +595,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-28, L216:
+
+> Actual results might differ materially from those expressed or implied by these forward-looking statements because these forward-looking statements are subject to risks, assumptions and uncertainties. In light of these risks, assumptions and uncertainties, the forward-looking expectations discussed in this Form 10-Q might not occur. You are cautioned not to place undue reliance on the forward-looking statements in this Form 10-Q, which speak only as of the date of this Form 10-Q. All subsequent written and oral forward-looking statements concerning the matters addressed in this Form 10-Q and attributable to us or any person acting on our behalf are expressly qualified in their entirety by the cautionary statements contained or referred to in this section. Except as required by applicable law or regulation, we do not undertake any obligation to update publicly or revise any forward-looking statements, whether as a result of new information, future events or otherwise. For information about the risks, assumptions and uncertainties of our business, [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-28, L3647:
+
+> Operating segments are defined as components of an enterprise engaging in business activities for which separate financial information is available and regularly reviewed by the chief operating decision maker (“CODM”) in deciding how to allocate resources and in assessing performance. The Company has utilized the management approach to determine that the Company is managed as one segment on a consolidated basis and is in the business of developing, manufacturing and commercializing medicines designed to help people living with complex and difficult-to-treat psychiatric and neurological disorders. The Company’s CODM, the Chief Executive Officer, reviews the Company’s operating results on an aggregate basis and manages the Company’s operations as a single operating unit. The Company’s CODM measures profitability on a reportable segment basis using net (loss) income and utilizes this information in allocating resources and in assessing performance by monitoring budget versus actual results. Please refer to Note 17, Segment Reporting, in these “Notes to Condensed Consolidated Financial Statements” in this Form 10-Q for further information. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-28, L191:
+
+> our expectations regarding our products, including expectations related to product development; regulatory exclusivities, filings, approvals and timelines; therapeutic and commercial value, scope and potential; and the costs and expenses related to such activities and expectations; [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-25, L3950:
+
+> Revenues from product sales are recorded net of reserves established for applicable discounts and allowances that are offered within contracts with our customers, healthcare providers or payers. Our process for estimating reserves established for these variable consideration components does not differ materially from historical practices. The transaction price, which includes variable consideration reflecting the impact of discounts and allowances, may be subject to constraint and is included in the net sales price only to the extent that it is probable that a significant reversal of the amount of the cumulative revenues recognized will not occur in a future period. Actual amounts may ultimately differ from our estimates. If actual results vary, we adjust these estimates, which could have an effect on earnings in the period of adjustment. The following are our significant categories of sales discounts and allowances: [S73]
 
 ## Industry and value chain
 
@@ -566,17 +629,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-06, L2748:
+
+> We are committed to meeting our manufacturing objectives reliably and responsibly through the establishment and maintenance of a safe, sustainable and ethical supply chain. We contract with a broad network of third-party manufacturers to formulate certain products and produce components of products or product packaging for clinical and commercial use. All service providers involved in the manufacture and packaging of our products are subject to inspection by the FDA or comparable agencies in other jurisdictions and we require that our contract manufacturers adhere to current Good Manufacturing Practices (“GMP”) in the manufacture of these products and product components. All contract manufacturers and GxP suppliers must undergo an assessment and/or inspection by our quality personnel to assess their compliance with applicable standards and regulations prior to initiating work for Alkermes. [S72]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-28, L195:
+
+> our expectations regarding the competitive, payer, legislative, regulatory and policy landscape, and changes therein, related to our products, including competition from generic forms of our products or competitive products and development programs; barriers to access or coverage of our products and potential changes in reimbursement of our products; and legislation, regulations, executive orders, guidance or other measures that may impact pricing and reimbursement of, and access to, our products; [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-28, L209:
+
+> our expectations regarding the timing, outcome and impact of administrative, regulatory, legal and other proceedings related to our products and intellectual property (“IP”), including our patents, know-how, and related rights or obligations; [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-06, L831:
+
+> Three strategic priorities guided our management of the business in 2025: drive strong commercial performance and revenue growth, advance development of our portfolio of orexin 2 receptor agonists, and deliver significant profitability and cash generation. At the same time, we were also focused on exploring opportunities to expand our pipeline and/or commercial products portfolio. Underpinning these priorities and the operation of our business is our foundation of strong corporate governance, our dedication to patients and to our employees, and our commitment to operating in an ethical and responsible manner. [S72]
 
 ## Financial performance
 
@@ -1206,6 +1285,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-08-03, L122:
+
+> Alkermes plc (the “Company”) filed a Current Report on Form 8-K on February 25, 2026 (the “Original Form 8-K”), reporting, among other items, that the Company’s board of directors (the “Board”) had appointed Blair C. Jackson, the Company’s then-current Executive Vice President, Chief Operating Officer, to serve as the Company’s Chief Executive Officer (“CEO”), effective August 1, 2026. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1218,6 +1301,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-28, L218:
+
+> see “Part I, Item 1A—Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the United States (“U.S.”) Securities and Exchange Commission (the “SEC”) on February 25, 2026 (our “Annual Report”). [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1227,25 +1314,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1308,6 +1395,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-22 | 4 | 0001520262-26-000083 | — | [S65] |
 | 2026-05-20 | 8-K | 0001193125-26-232584 | — | [S66] |
 | 2026-05-15 | SCHEDULE 13G/A | 0000080255-26-000390 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-06, L4964:
+
+> Each of our named executive officers is eligible to receive an annual cash performance pay award, the amount of which is determined by the Compensation Committee based on pre-determined performance pay targets and pay ranges for each named executive officer. The Compensation Committee works with Company management and the Board to set annual corporate objectives—including financial, operating, pipeline, strategic and/or corporate responsibility-related objectives—on which the Board believes the Company should focus during the year to achieve its strategic goals. Annual cash performance payouts are based upon the Company’s performance against these annual corporate objectives and, for executive officers other than the CEO, their individual performance in contributing to the achievement of such objectives. [S72]
 
 ## Sources and change log
 
@@ -1444,5 +1535,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0001193125-26-232584](https://www.sec.gov/Archives/edgar/data/1520262/000119312526232584/0001193125-26-232584-index.html) — published 2026-05-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [SCHEDULE 13G/A 0000080255-26-000390](https://www.sec.gov/Archives/edgar/data/1520262/000008025526000390/0000080255-26-000390-index.html) — published 2026-05-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-396065](https://www.sec.gov/Archives/edgar/data/1520262/000119312526396065/alks-20260921.htm) — published 2026-09-21; retrieved 2026-11-09T22:56:04.336812+00:00.
+
+[S69] [8-K/A 0001193125-26-330564](https://www.sec.gov/Archives/edgar/data/1520262/000119312526330564/alks-20260224.htm) — published 2026-08-03; retrieved 2026-11-09T22:56:02.798725+00:00.
+
+[S70] [10-Q 0001193125-26-319022](https://www.sec.gov/Archives/edgar/data/1520262/000119312526319022/alks-20260630.htm) — published 2026-07-28; retrieved 2026-11-09T22:56:00.839844+00:00.
+
+[S71] [8-K/A 0001193125-26-201657](https://www.sec.gov/Archives/edgar/data/1520262/000119312526201657/alks-20260212.htm) — published 2026-05-01; retrieved 2026-11-09T22:55:58.854647+00:00.
+
+[S72] [DEF 14A 0001193125-26-143977](https://www.sec.gov/Archives/edgar/data/1520262/000119312526143977/alks-20260406.htm) — published 2026-04-06; retrieved 2026-11-09T22:55:56.886038+00:00.
+
+[S73] [10-K 0001193125-26-068925](https://www.sec.gov/Archives/edgar/data/1520262/000119312526068925/alks-20251231.htm) — published 2026-02-25; retrieved 2026-11-09T22:55:54.607957+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

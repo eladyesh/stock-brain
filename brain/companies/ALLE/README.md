@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,30 @@ sources:
   published_at: '2026-03-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/alle-20261022.htm
+  title: 8-K 0001579241-26-000032
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-09T22:56:36.656154+00:00'
+  sha256: a2f0d0fcd83c1e3bb277d254179a17e86056c2f037348afc6961ae0f0e819b43
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1579241/000157924126000034/alle-20260930.htm
+  title: 10-Q 0001579241-26-000034
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-09T22:56:38.368124+00:00'
+  sha256: 2bcd5db7beaf97cf8a7ddc7d9cc5827b473fd85a36121c5ef7c3576d0b11699a
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1579241/000110465926044597/alle-20260604xdef14a.htm
+  title: DEF 14A 0001104659-26-044597
+  published_at: '2026-04-17'
+  retrieved_at: '2026-11-09T22:56:34.734920+00:00'
+  sha256: 9acdb5fec1c00830b265c6db7e81e2e6ae6cfbf7c4246f2ebfc4fda2a191cd49
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm
+  title: 10-K 0001579241-26-000007
+  published_at: '2026-02-17'
+  retrieved_at: '2026-11-09T22:56:32.879207+00:00'
+  sha256: f7c3d7e09e00c2de8ce2dcd8089c1601cb6b1ad21026108e99ab9ffad9219960
 issuer_classification:
   cik: 0001579241
   classification_status: reported_sic
@@ -506,13 +530,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/0001579241-26-000032-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e0af666a8681e78d0ae5a756d06837ba44e5bd7d7dcddaeb2d4f6ff248dbef72
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -536,17 +571,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-22, L996:
+
+> We operate in and report financial results for two segments: Allegion Americas and Allegion International. These segments represent the level at which our chief operating decision maker reviews our financial performance and makes operating decisions. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-22, L792:
+
+> Net revenues are shown by tangible product sales and services and software, as contract terms, conditions and economic factors affecting the nature, amount, timing and uncertainty around revenue recognition and cash flows are substantially similar within each of these two principal revenue streams. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-22, L1224:
+
+> •our products or solutions failing to meet certification and specification requirements, being defective, causing property damage, bodily harm or injury, or otherwise falling short of customers’ needs and expectations; [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-22, L309:
+
+> On July 1, 2025, the Company, through its subsidiaries, acquired 100% of ELATEC, including Elatec GmbH and other group entities ("ELATEC"). ELATEC is a manufacturer of security and access technology based in Germany. This acquisition helps the Company expand its global electronics portfolio in attractive end markets while also increasing strategic relationships with channel partners. The purchase price of the acquisition was €327.9 million (approximately $386.5 million). The Company used cash on hand and borrowings under the Revolving Facility to finance the acquisition. ELATEC is reported in the Company's Allegion International segment. [S69]
 
 ## Industry and value chain
 
@@ -554,17 +605,33 @@ SEC-reported SIC **7381**: Services-Detective, Guard & Armored Car Services. [S0
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-10-22, L1233:
+
+> •disruptions in our global supply chain, including product manufacturing and logistical services provided by our supplier partners; [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-17, L344:
+
+> The security products markets are highly competitive and fragmented throughout the world, with a number of large multi-national companies and thousands of smaller regional and local companies. This high degree of fragmentation primarily reflects local regulatory requirements and highly variable end-user needs. We believe our principal global competitors are Assa Abloy AB and dormakaba Group. We also face competition in various markets and product categories throughout the world, including Fortune Brands Innovations, Inc. in the North American residential market and from private label brands. As we move into more technologically advanced product categories, we may also compete against new, more specialized competitors. [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-10-22, L1255:
+
+> In the normal course of business, we are involved in a variety of lawsuits, claims and legal proceedings, including commercial and contract disputes, labor and employment matters, product liability claims, environmental liabilities, antitrust and trade regulation matters, intellectual property disputes and tax-related matters. In our opinion, pending legal matters are not expected to have a material adverse impact on our results of operations, financial condition, liquidity or cash flows. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-17, L2070:
+
+> She has robust experience in shaping M&A and driving strategy for a large global manufacturing company and a technology company. Her understanding of strategic planning, capital allocation and acquisitions benefits the Board as it oversees Allegion’s long-term growth strategy. She has significant knowledge regarding the investment community and financial markets, based on nearly two decades as an equity research analyst in the industrial sector. [S70]
 
 ## Financial performance
 
@@ -1188,6 +1255,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-22, L667:
+
+> In April 2026, the Company’s Board of Directors (the “Board”) reauthorized the Company’s existing share repurchase program and, as a result, authorized the repurchase of up to, and including, $500.0 million of the Company’s ordinary shares (the “Share Repurchase Authorization”). During the nine months ended September 30, 2026, the Company repurchased $280.3 million of ordinary shares on the open market under the Share Repurchase Authorization. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1200,6 +1271,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-22, L796:
+
+> The Company is involved in various litigation, claims and administrative proceedings, including those related to environmental and product warranty matters, and the Company also has certain contractual obligations requiring minimum purchases. Amounts recorded for identified contingent liabilities are estimates, which are reviewed periodically and adjusted to reflect additional information when it becomes available. Subject to the uncertainties inherent in estimating future costs for contingent liabilities, except as expressly set forth in this note, management believes that any liability which may result from these legal matters would not have a material adverse effect on the financial condition, results of operations, liquidity or cash flows of the Company. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1209,25 +1284,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1291,6 +1366,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-15 | 8-K | 0001579241-26-000010 | — | [S65] |
 | 2026-03-26 | SCHEDULE 13G/A | 0000102909-26-000439 | — | [S66] |
 | 2026-03-12 | 4 | 0001284967-26-000002 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-17, L3219:
+
+> Overall, 2025 was marked by high-single digit enterprise revenue growth, accretive capital deployment and strong cash generation. Our company grew revenue and profitability while making responsible investments to drive future growth. During the year, those investments included the acquisitions of Brisant Secure, ELATEC, Gatewise, Lemaar, Next Door Company, Novas, Trimco, UAP and Waitwhile. These acquisitions leverage core Allegion strengths in mechanical security hardware, while also increasing our deep customer relationships and continuing to build out our portfolio to meet customer and end-user needs through electronics and software. [S70]
 
 ## Sources and change log
 
@@ -1427,5 +1506,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [SCHEDULE 13G/A 0000102909-26-000439](https://www.sec.gov/Archives/edgar/data/1579241/000010290926000439/0000102909-26-000439-index.html) — published 2026-03-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001284967-26-000002](https://www.sec.gov/Archives/edgar/data/1579241/000128496726000002/0001284967-26-000002-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001579241-26-000032](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000032/alle-20261022.htm) — published 2026-10-22; retrieved 2026-11-09T22:56:36.656154+00:00.
+
+[S69] [10-Q 0001579241-26-000034](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000034/alle-20260930.htm) — published 2026-10-22; retrieved 2026-11-09T22:56:38.368124+00:00.
+
+[S70] [DEF 14A 0001104659-26-044597](https://www.sec.gov/Archives/edgar/data/1579241/000110465926044597/alle-20260604xdef14a.htm) — published 2026-04-17; retrieved 2026-11-09T22:56:34.734920+00:00.
+
+[S71] [10-K 0001579241-26-000007](https://www.sec.gov/Archives/edgar/data/1579241/000157924126000007/alle-20251231.htm) — published 2026-02-17; retrieved 2026-11-09T22:56:32.879207+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

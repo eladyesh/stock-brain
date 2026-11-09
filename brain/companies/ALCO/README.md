@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -464,6 +464,54 @@ sources:
   published_at: '2025-10-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/3545/000000354526000047/alco-20260908.htm
+  title: 8-K 0000003545-26-000047
+  published_at: '2026-09-09'
+  retrieved_at: '2026-11-09T22:53:28.291991+00:00'
+  sha256: 9349dd58cebe5d4e249e3f7df1b9d1b7ac46e9c4183a7283d020fb729c391250
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/3545/000000354526000043/alco-20260630.htm
+  title: 10-Q 0000003545-26-000043
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-09T22:53:26.541790+00:00'
+  sha256: 59e57f957506a10414ada0d6918cb1c70437d50fd42dad8bcdee10e04f7175e9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/3545/000000354526000004/alco-20260113.htm
+  title: DEF 14A 0000003545-26-000004
+  published_at: '2026-01-14'
+  retrieved_at: '2026-11-09T22:53:24.943844+00:00'
+  sha256: d46243083634fdace03cc239ff9b520e8313f09abac6e8951450df9df55c16fa
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/3545/000000354525000140/alco-20250930.htm
+  title: 10-K 0000003545-25-000140
+  published_at: '2025-11-24'
+  retrieved_at: '2026-11-09T22:53:23.073765+00:00'
+  sha256: 39c4743c75d259f9a5dd77f4a2d1608e7cc21bd916be14025dde612ffda9de2c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/3545/000156459021036902/alco-8ka_20210301.htm
+  title: 8-K/A 0001564590-21-036902
+  published_at: '2021-07-16'
+  retrieved_at: '2026-11-09T22:53:21.510859+00:00'
+  sha256: 8c38c9b35351e3a31fddd9f6c80f44d2fe7ff869ac08f3c5e8161fe90d419fd1
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/3545/000000354518000030/a8-k_axproxyxprop4.htm
+  title: 8-K/A 0000003545-18-000030
+  published_at: '2018-03-15'
+  retrieved_at: '2026-11-09T22:53:19.861709+00:00'
+  sha256: 76c0dee42434badcf8794e40ba437b3f7fe735789c233214fccc4667ad6951b0
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/3545/000089109215001225/e62805_8ka.htm
+  title: 8-K/A 0000891092-15-001225
+  published_at: '2015-02-13'
+  retrieved_at: '2026-11-09T22:53:18.289756+00:00'
+  sha256: 8060964de1245370f1194d95f1c2847ee74b76c7db7478c8acbd585d45f687f4
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/3545/000089109212004456/e49457_8ka.htm
+  title: 8-K/A 0000891092-12-004456
+  published_at: '2012-08-06'
+  retrieved_at: '2026-11-09T22:53:16.703165+00:00'
+  sha256: 7d6876b7dd7cd180d4cb11c90fa8899edada17bf659a6f769c8ae22918a161b3
 issuer_classification:
   cik: '0000003545'
   classification_status: reported_sic
@@ -517,13 +565,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/3545/000089109212004456/0000891092-12-004456-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 235fbaa3179a155ca079c4fec20693c5978fddbdbbd351afe957005bcf17eb7d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -547,17 +606,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L1012:
+
+> Our business has historically generated full fiscal year positive net cash flows from operating activities, although the net cash flow in the first quarter of each fiscal year has been negative because of seasonality and the associated need to expend cash in advance of generating revenues from the harvesting season. In January 2025, we announced a Strategic Transformation in our business focus, to wind down our Alico Citrus division, which holds our citrus production operations, to focus on a long-term diversified land usage and real estate development strategy. In May 2025, we entered into a Mutual Contract Termination Agreement with Tropicana, terminating our agreement with them in its entirety following the fulfillment of all obligations under that agreement concerning the 2024/2025 Crop Year and all outstanding amounts had been settled by June 30, 2025. Sources of cash primarily include cash flows from operations, strategic sales of land and other assets, amounts available under our RLOC, and access to capital markets. Access to additional borrowings under our RLOC is subject to the satisfaction of customary borrowing conditions. As a public company, we may have access to other sources of capital. However, access to, and availability of, financing on acceptable terms in the future will be affected by many factors, including (i) financial condition, prospects, and credit … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L610:
+
+> Beginning with the third quarter of fiscal year 2026, following the substantial completion of the Strategic Transformation and final citrus harvest, the Company’s CODM assesses performance and allocates resources based on one reportable segment. The change reflects the wind-down of substantially all of the Company’s citrus production operations and management’s current assessment of the business on a consolidated basis. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2025-11-24, L380:
+
+> Many companies compete in our different businesses. As we transition our primary focus toward land development, we may face intense competition from regional and national landowners and developers, private equity and infrastructure investors, as well as from other agricultural operators for leases and farm-related opportunities. Competitors may have greater access to capital, larger inventories of entitled land, established development platforms, more extensive relationships with municipalities and utilities, and stronger sales, brokerage and marketing channels and offer products that are similar to our products or are direct competitors to our products. We face strong competition from these and other companies engaged in the agricultural product business. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2025-11-24, L440:
+
+> During the year ended September 30, 2025, we continued to experience inflationary pressure on labor costs, which we expect to continue through 2026. A number of external factors, including armed conflicts and geopolitical instability, as well as responses to such events including sanctions or other restrictive actions, by the United States and/or other countries, changes in trade policies and the imposition of tariffs, pandemics or health crises, adverse weather conditions, increases in fuel prices, supply chain disruptions (including raw material shortages), government shut down and labor shortages have impacted, and may continue to impact, transportation and commodity costs and create significant macroeconomic uncertainty. When prices increase, we may or may not pass on such increases to our customers without suffering reduced volume, revenue, margins and operating results. The extent to which current macroeconomic conditions will continue to impact our results will depend on future developments, which are uncertain. Potential negative impacts of these uncertain conditions could include, but are not limited to, the following: [S70]
 
 ## Industry and value chain
 
@@ -565,17 +640,33 @@ SEC-reported SIC **6519**: Lessors of  Real Property, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2025-11-24, L345:
+
+> Raw materials needed to cultivate the various crops grown by us consist primarily of fertilizers, herbicides, insecticides and fuel and are readily available from local suppliers. These raw materials are purchased on an order basis without long-term commitments. Our key suppliers for fertilizer, herbicides and insecticides include Howard Fertilizer, Wedgeworth’s, Nutrien AG Solutions and Helena Agri-Enterprises. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-10, L598:
+
+> The citrus industry is subject to various factors over which growers have limited or no control, including weather conditions, disease, pestilence, water supply and market price fluctuations. Market prices are highly sensitive to aggregate domestic and foreign crop sizes, as well as factors including, but not limited to, weather and competition from foreign countries. In May 2025, we entered into a Mutual Contract Termination Agreement with Tropicana and as such, they are no longer a customer of the Company. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2025-11-24, L293:
+
+> While we consider our various intellectual property to be valued assets, we do not believe that our competitive position or our operations are dependent upon or would be materially impacted by any single piece of intellectual property or group of related intellectual property registrations or rights. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L160:
+
+> This Quarterly Report on Form 10-Q (the “Quarterly Report”) contains certain forward-looking statements. We intend such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements other than statements of historical fact contained in this Quarterly Report are forward-looking statements, including without limitation, statements regarding our strategy and the Company’s Strategic Transformation, (including the wind-down of the Alico Citrus division and expected changes in seasonal revenue patterns), business plans and objectives, operating and financial outlook, future performance and results, our real estate development activities; the development, sale or lease of land and related assets; the recoverability and impairment of long-lived assets; market conditions and demand for land sales, leasing and development activities; expectations regarding dividends, share repurchases, liquidity and capital resources; compliance with financing arrangements, including minimum liquidity requirements, interest rates and the loan-to-value cap; obligations under, and expected repayment of amounts related to, the CGSD funding arrangement; expectations regarding income taxes and … [S68]
 
 ## Financial performance
 
@@ -1193,6 +1284,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-09, L49:
+
+> On September 8, 2026, the Board of Directors of Alico, Inc. declared a fourth quarter of fiscal year 2026 cash dividend of $0.05 per share on its outstanding common stock to be paid to shareholders of record as of October 2, 2026, with payment expected on October 16, 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1205,6 +1300,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L911:
+
+> From time to time, Alico may be involved in litigation relating to claims arising out of its operations in the normal course of business. There are no current legal proceedings to which the Company is a party or of which any of its property is subject that it believes will have a material adverse effect on its financial condition. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1214,25 +1313,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1296,6 +1395,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-10-02 | 4 | 0001098536-25-000007 | — | [S64] |
 | 2025-10-02 | 4 | 0000003545-25-000130 | — | [S65] |
 | 2025-10-01 | 8-K | 0000003545-25-000128 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-10, L1017:
+
+> assets. A significant piece of objective negative evidence evaluated was the cumulative loss expected to be incurred over a three-year period during the year ending September 30, 2025. Such objective evidence limits the ability to consider other subjective evidence, such as our projections for future growth. The amount of the deferred tax asset considered realizable, however, could be adjusted if estimates of future taxable income during the carryforward period are increased or if objective negative evidence in the form of cumulative losses is no longer present and additional weight is given to subjective evidence such as our projections for growth. [S68]
 
 ## Sources and change log
 
@@ -1430,5 +1533,21 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0000003545-25-000130](https://www.sec.gov/Archives/edgar/data/3545/000000354525000130/0000003545-25-000130-index.html) — published 2025-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [8-K 0000003545-25-000128](https://www.sec.gov/Archives/edgar/data/3545/000000354525000128/0000003545-25-000128-index.html) — published 2025-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0000003545-26-000047](https://www.sec.gov/Archives/edgar/data/3545/000000354526000047/alco-20260908.htm) — published 2026-09-09; retrieved 2026-11-09T22:53:28.291991+00:00.
+
+[S68] [10-Q 0000003545-26-000043](https://www.sec.gov/Archives/edgar/data/3545/000000354526000043/alco-20260630.htm) — published 2026-08-10; retrieved 2026-11-09T22:53:26.541790+00:00.
+
+[S69] [DEF 14A 0000003545-26-000004](https://www.sec.gov/Archives/edgar/data/3545/000000354526000004/alco-20260113.htm) — published 2026-01-14; retrieved 2026-11-09T22:53:24.943844+00:00.
+
+[S70] [10-K 0000003545-25-000140](https://www.sec.gov/Archives/edgar/data/3545/000000354525000140/alco-20250930.htm) — published 2025-11-24; retrieved 2026-11-09T22:53:23.073765+00:00.
+
+[S71] [8-K/A 0001564590-21-036902](https://www.sec.gov/Archives/edgar/data/3545/000156459021036902/alco-8ka_20210301.htm) — published 2021-07-16; retrieved 2026-11-09T22:53:21.510859+00:00.
+
+[S72] [8-K/A 0000003545-18-000030](https://www.sec.gov/Archives/edgar/data/3545/000000354518000030/a8-k_axproxyxprop4.htm) — published 2018-03-15; retrieved 2026-11-09T22:53:19.861709+00:00.
+
+[S73] [8-K/A 0000891092-15-001225](https://www.sec.gov/Archives/edgar/data/3545/000089109215001225/e62805_8ka.htm) — published 2015-02-13; retrieved 2026-11-09T22:53:18.289756+00:00.
+
+[S74] [8-K/A 0000891092-12-004456](https://www.sec.gov/Archives/edgar/data/3545/000089109212004456/e49457_8ka.htm) — published 2012-08-06; retrieved 2026-11-09T22:53:16.703165+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

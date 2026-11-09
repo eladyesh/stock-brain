@@ -4,7 +4,7 @@
   "release_tag": "coverage-20261101-41324509967-1",
   "created_at": "2026-11-01T16:11:48.803754+00:00",
   "database_sha256": "a00f4582e1fd7dbedc70d6ee44652e3a3ce38951dab168c5a16faf9fec3073ff",
-  "source_commit": "204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f",
+  "source_commit": "24b45739301817a91334ded2f20d99ded4cc7ea6",
   "company_profiles": 5637,
   "company_paths": {
     "0000001750": "brain/companies/AIR/README.md",
@@ -5649,7 +5649,7 @@
   "unresolved_listings": 599,
   "financial_profiles": 4044,
   "reviewed_generated_profiles": 0,
-  "bytes": 483119022,
+  "bytes": 483436608,
   "financial_gap_counts": {
     "available": 4044,
     "latest_filing_incomplete": 208,
@@ -11899,18 +11899,18 @@
     "ff7069bcf6bc5eb3b005896e70529582"
   ],
   "research_queue": {
-    "at": "2026-11-08T18:13:06.363886+00:00",
+    "at": "2026-11-09T22:51:05.851006+00:00",
     "release_tag": "coverage-20261101-41324509967-1",
     "issuers": 5637,
-    "attempted": 28,
-    "completed": 26,
-    "failed": 2,
+    "attempted": 33,
+    "completed": 32,
+    "failed": 1,
     "requests": 360,
     "stop_reason": "request_budget",
     "counts": {
-      "evidence_collected": 455,
-      "pending": 5131,
-      "retry": 30,
+      "evidence_collected": 487,
+      "pending": 5098,
+      "retry": 31,
       "source_missing": 21
     },
     "model_attempts": 0,

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -472,6 +472,36 @@ sources:
   published_at: '2026-05-06'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1529274/000152927426000056/alk-20261002.htm
+  title: 8-K 0001529274-26-000056
+  published_at: '2026-10-07'
+  retrieved_at: '2026-11-09T22:56:13.347071+00:00'
+  sha256: 1c00a53a242045a4792a3cc51398671a903c1cc4f7f1683708c44981e29fe32d
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1529274/000152927426000052/alk-20260630.htm
+  title: 10-Q 0001529274-26-000052
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-09T22:56:11.697206+00:00'
+  sha256: daea96d352f9d2a10d11c1cedfb36367538d48472df02a9cf8f70dbb523c4b5e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1529274/000152927426000023/alk-20260407.htm
+  title: DEF 14A 0001529274-26-000023
+  published_at: '2026-04-07'
+  retrieved_at: '2026-11-09T22:56:10.005357+00:00'
+  sha256: dccc42d03cb0b70e1d04d31315eede9c57df089558706cb97e3145c42a9f7404
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1529274/000152927426000009/alk-20251231.htm
+  title: 10-K 0001529274-26-000009
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-09T22:56:08.280685+00:00'
+  sha256: c4dd4c840fee47300343865c8d54916c472b808cedfec869d2e5a325e64689b3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1529274/000152927424000146/alk-20240701.htm
+  title: 8-K/A 0001529274-24-000146
+  published_at: '2024-07-03'
+  retrieved_at: '2026-11-09T22:56:06.612263+00:00'
+  sha256: 52af927b3df3d768459da219fc8592801fcdcf267f8ae2d87807cdf56ff272bf
 issuer_classification:
   cik: 0001529274
   classification_status: reported_sic
@@ -513,13 +543,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1529274/000152927424000146/0001529274-24-000146-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0d7c8c5eecb10daccfe02161685fe1c2ac52f0e74e2e68ac718415cd19807005
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -543,13 +583,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L684:
+
+> Any statements made in this Quarterly Report on Form 10-Q that are not statements of historical fact, including statements about our beliefs and expectations, are forward-looking statements and should be evaluated as such. Forward-looking statements include information concerning possible or assumed future results of operations, including descriptions of our business plan and strategies. These statements often include words such as “anticipates,” “commits,” “expects,” “suggests,” “plans,” “believes,” “intends,” “estimates,” “targets,” “projects,” “seeks,” “should,” “can,” “could,” “would,” “may,” “will,” “forecasts,” “strategy,” “future,” “likely” or the negative of these terms or other similar expressions. We base these forward-looking statements on our current expectations, plans and assumptions that we have made in light of our experience in the industry, as well as our perceptions of historical trends, current conditions, expected future developments and other factors we believe are appropriate under the circumstances at such time. Forward-looking statements are not guarantees of future performance or results and are subject to and involve risks, uncertainties and assumptions. Although we believe that these forward-looking statements are based on reasonable assumptions at the time they are made, you should be aware that many factors could affect our actual results or … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-07-30, L380:
+
+> The Company's chief operating decision maker, the Chief Executive Officer, assesses performance for the Company's single reportable segment and decides how to allocate resources based on the Company’s net loss (see the Unaudited Condensed Consolidated Statements of Operations). [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-07-30, L753:
+
+> Continued Leadership in Innovation. Our ability to maintain a differentiated platform and offering is dependent upon our pace of innovation. Our single code base, built on a multi-tenant infrastructure and combined with continuous software delivery enables us to bring new, innovative products to market quickly and positions us with what we believe is market-leading breadth in terms of product offerings and feature sets. We remain committed to investing in our platform, notably through our research and development spend, which was 24.2% and 24.4% of our revenues for the three and six months ended June 30, 2026, respectively. Our future success will depend on our continued leadership in innovation. [S68]
 
 ## Customers and end markets
 
@@ -561,17 +613,33 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-07, L466:
+
+> Douglas A. Linebarger has served as our Chief Legal Officer and Secretary since March 2018 and previously served as our Vice President, General Counsel and Secretary from April 2015 to March 2018. Prior to joining Alkami, from 2013 until 2015, Mr. Linebarger served as General Counsel and Secretary at One Network Enterprises, a global supply chain software company. From January 2007 until its acquisition by Dell Technologies Inc. in January 2013, Mr. Linebarger served as General Counsel and Secretary of Credant Technologies, a leading provider of data protection software solutions. Earlier in his career, Mr. Linebarger was an associate in the Corporate and Securities Section of the law firm Jenkens & Gilchrist, P.C. Mr. Linebarger holds a B.B.A. in Business from Baylor University and a J.D. from Baylor University School of Law. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-30, L368:
+
+> Alkami Technology, Inc. (the “Company”) is a cloud-based digital sales and service platform provider. The Company inspires and empowers community, regional and super-regional financial institutions (“FIs”) to compete with large, technologically advanced and well-resourced banks in the United States. The Company’s solution, the Alkami Digital Sales & Service Platform, consisting of the Alkami Digital Banking Platform, Onboarding & Account Opening, and Data & Marketing, allows FIs to onboard, engage and grow new users, accelerate revenues and meaningfully improve operational efficiency, all with the support of a proprietary, true cloud-based, multi-tenant architecture. The Company cultivates deep relationships with its clients through long-term, subscription-based contractual arrangements, aligning its growth with its clients’ success and generating an attractive unit economic model. The Company was incorporated in Delaware in August 2011, and its principal offices are located in Plano, Texas. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-30, L581:
+
+> The Company may become party to various legal actions during the ordinary course of business. Defending such proceedings is costly and can impose a significant burden on management and employees, it may receive unfavorable preliminary or interim rulings during litigation, and there can be no assurances that favorable final outcomes will be obtained. In addition, the Company’s industry is characterized by the existence of a large number of patents, copyrights, trademarks, trade secrets and other intellectual property and proprietary rights. Companies in our industry are often required to defend against litigation claims based on allegations of infringement or other violations of intellectual property rights. Furthermore, client agreements typically require the Company to indemnify clients against liabilities incurred in connection with claims alleging its solutions infringe the intellectual property rights of a third party. From time to time, the Company has been involved in disputes related to patent and other intellectual property rights of third parties, none of which has resulted in material liabilities. The Company expects these types of disputes may continue to arise in the future. Based upon present information, the Company believes that its liability, if any, arising from such pending legal proceedings, asserted legal claims and known potential legal claims that are … [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L735:
+
+> Alkami was founded to help level the playing field for FIs. Since then, our vision has been to create a platform that combines premium technology and fintech solutions in one integrated ecosystem, delivered as a software-as-a-service (“SaaS”) solution and providing our clients’ account holders with a single point of access to all things digital. We have invested significant resources to build a technology stack that prioritized innovation velocity and speed-to-market given the importance of product depth and functionality in winning and retaining clients. In October 2020, we acquired ACH Alert, LLC (“ACH Alert”) to pursue adjacent product opportunities, such as fraud prevention and to expand our addressable market. In April 2022, we acquired Segmint, Inc. (“Segmint”), a leading cloud-based financial data analytics and transaction data cleansing provider. In March 2025, we acquired Fin Technologies, Inc., dba MANTL (“MANTL”), to provide onboarding, account opening, and loan origination solutions that allow FIs to acquire commercial, business and retail customers through a variety of channels for deposit account and loan types. [S68]
 
 ## Financial performance
 
@@ -1192,6 +1260,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-07, L36:
+
+> Biographical and other information regarding Ms. Hudson is set forth in the Company’s definitive proxy statement on Schedule 14A filed with the United States Securities and Exchange Commission on April 7, 2026, under the section “Executive Officers,” and such biographical information is incorporated by reference herein. There are no family relationships between Ms. Hudson and any other person requiring disclosure under Item 401(d) of Regulation S-K and no transactions with related persons requiring disclosure under Item 404(a) of Regulation S-K. Ms. Hudson will not receive any additional compensation in connection with assuming the responsibilities of the principal accounting officer of the Company on an interim basis. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1204,6 +1276,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L684:
+
+> Any statements made in this Quarterly Report on Form 10-Q that are not statements of historical fact, including statements about our beliefs and expectations, are forward-looking statements and should be evaluated as such. Forward-looking statements include information concerning possible or assumed future results of operations, including descriptions of our business plan and strategies. These statements often include words such as “anticipates,” “commits,” “expects,” “suggests,” “plans,” “believes,” “intends,” “estimates,” “targets,” “projects,” “seeks,” “should,” “can,” “could,” “would,” “may,” “will,” “forecasts,” “strategy,” “future,” “likely” or the negative of these terms or other similar expressions. We base these forward-looking statements on our current expectations, plans and assumptions that we have made in light of our experience in the industry, as well as our perceptions of historical trends, current conditions, expected future developments and other factors we believe are appropriate under the circumstances at such time. Forward-looking statements are not guarantees of future performance or results and are subject to and involve risks, uncertainties and assumptions. Although we believe that these forward-looking statements are based on reasonable assumptions at the time they are made, you should be aware that many factors could affect our actual results or … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1213,25 +1289,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1295,6 +1371,10 @@ Latest 50 filing metadata records of 609 retained records. A filing link is evid
 | 2026-05-06 | 8-K | 0001529274-26-000036 | — | [S64] |
 | 2026-05-06 | 4 | 0000950142-26-001307 | — | [S65] |
 | 2026-05-06 | 4 | 0000950142-26-001306 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-07, L293:
+
+> Risk assessment and oversight are an integral part of our governance and management processes. Our Board encourages management to promote a culture that incorporates risk management into our corporate strategy and day-to-day business operations. Management discusses strategic and operational risks at regular management meetings, and conducts specific strategic planning and review sessions during the year that include a focused discussion and analysis of the risks we face. Throughout the year, senior management reviews these risks with the Board at regular Board meetings as part of management presentations that focus on particular business functions, operations or strategies, and presents analysis of our short- and long-term risk exposures and the steps taken by management to mitigate or eliminate such risks, including our internal control environment. [S69]
 
 ## Sources and change log
 
@@ -1429,5 +1509,15 @@ Latest 50 filing metadata records of 609 retained records. A filing link is evid
 [S65] [4 0000950142-26-001307](https://www.sec.gov/Archives/edgar/data/1529274/000095014226001307/0000950142-26-001307-index.html) — published 2026-05-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0000950142-26-001306](https://www.sec.gov/Archives/edgar/data/1529274/000095014226001306/0000950142-26-001306-index.html) — published 2026-05-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001529274-26-000056](https://www.sec.gov/Archives/edgar/data/1529274/000152927426000056/alk-20261002.htm) — published 2026-10-07; retrieved 2026-11-09T22:56:13.347071+00:00.
+
+[S68] [10-Q 0001529274-26-000052](https://www.sec.gov/Archives/edgar/data/1529274/000152927426000052/alk-20260630.htm) — published 2026-07-30; retrieved 2026-11-09T22:56:11.697206+00:00.
+
+[S69] [DEF 14A 0001529274-26-000023](https://www.sec.gov/Archives/edgar/data/1529274/000152927426000023/alk-20260407.htm) — published 2026-04-07; retrieved 2026-11-09T22:56:10.005357+00:00.
+
+[S70] [10-K 0001529274-26-000009](https://www.sec.gov/Archives/edgar/data/1529274/000152927426000009/alk-20251231.htm) — published 2026-02-26; retrieved 2026-11-09T22:56:08.280685+00:00.
+
+[S71] [8-K/A 0001529274-24-000146](https://www.sec.gov/Archives/edgar/data/1529274/000152927424000146/alk-20240701.htm) — published 2024-07-03; retrieved 2026-11-09T22:56:06.612263+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

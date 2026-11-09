@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -461,6 +461,60 @@ sources:
   published_at: '2025-10-29'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714926000065/algn-20260827.htm
+  title: 8-K 0001097149-26-000065
+  published_at: '2026-08-31'
+  retrieved_at: '2026-11-09T22:54:43.736448+00:00'
+  sha256: 552b1a824f7812cf87e4d350bc6942dcd354435a55e8b2bf56ee5d05a95e1d07
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714926000060/algn-20260630.htm
+  title: 10-Q 0001097149-26-000060
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-09T22:54:42.038562+00:00'
+  sha256: 97416dec38dedca6f435cd690eca659ae6c937ea141d01dea3eb178f129e99ad
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714926000023/algn-20260407.htm
+  title: DEF 14A 0001097149-26-000023
+  published_at: '2026-04-07'
+  retrieved_at: '2026-11-09T22:54:40.193888+00:00'
+  sha256: c53974dfb1d134ff03754771e7a5343d18d88040bb9bd301dcad028f7d46fb48
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714926000014/algn-20251231.htm
+  title: 10-K 0001097149-26-000014
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-09T22:54:38.446448+00:00'
+  sha256: 5475bbb207a390a81eb057a1420f8624f84dede06f02d780ba51292c70b31a64
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714922000064/algn-20221028.htm
+  title: 8-K/A 0001097149-22-000064
+  published_at: '2022-10-31'
+  retrieved_at: '2026-11-09T22:54:36.773685+00:00'
+  sha256: 3e0a402d99ba26fc8e81fb01f48106f74e2b06d91f69efa7514edb56fa8d302a
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714922000031/algn-20220429.htm
+  title: 8-K/A 0001097149-22-000031
+  published_at: '2022-05-02'
+  retrieved_at: '2026-11-09T22:54:35.200827+00:00'
+  sha256: 4e12fda1af7d716d7589cbf9fa0e106136fc69dd20f161ffaa8214280191b609
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714919000016/form8kaitem205amendedsdcfi.htm
+  title: 8-K/A 0001097149-19-000016
+  published_at: '2019-04-11'
+  retrieved_at: '2026-11-09T22:54:33.635761+00:00'
+  sha256: 13f012ac50249c522f5aa35cd07396dcd57b737c9e35f3dd82fb4d827510860f
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000109714917000032/item507.htm
+  title: 8-K/A 0001097149-17-000032
+  published_at: '2017-10-02'
+  retrieved_at: '2026-11-09T22:54:31.714112+00:00'
+  sha256: d862de6f2517f8c45e66ad5555eb1d12badcefbf05fdace544a53cf09c420d47
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1097149/000110262416003158/align8ka.htm
+  title: 8-K/A 0001102624-16-003158
+  published_at: '2016-07-28'
+  retrieved_at: '2026-11-09T22:54:30.078301+00:00'
+  sha256: a83c0647b2f2815e3bf36d3afb07277504ddbb5c831ac21e77a95d2dba9610f2
 issuer_classification:
   cik: 0001097149
   classification_status: reported_sic
@@ -518,13 +572,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1097149/000110262416003158/0001102624-16-003158-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 484cf07f1e79f1f50e0dd02e8273d77616d05a2770e941555a4a230670ba059e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -548,17 +613,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L728:
+
+> Under Securities and Exchange Commission Regulation S-K, Item 103, we are required to briefly describe any material pending legal proceedings other than ordinary routine litigation incidental to our business, to which we or any of our subsidiaries are a party or of which any of our or our subsidiaries’ property is subject. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L644:
+
+> The change in the carrying value of goodwill for the six months ended June 30, 2026, categorized by reportable segment, is as follows (in thousands): [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L772:
+
+> In the normal course of business, to facilitate transactions in our services and products, we indemnify certain parties: customers, vendors, lessors and other parties with respect to certain matters, including, but not limited to, services to be provided by us and intellectual property infringement claims made by third parties. In addition, we have entered into indemnification agreements with our directors and our executive officers that will require us, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. Several of these agreements limit the time within which an indemnification claim can be made and the amount of the claim. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1465:
+
+> Inflation has and may continue to adversely impact spending and trade activities, and may unpredictably impact global and regional economies. Efforts by central banks and federal, state and local governments to combat inflation could result in an economic recession or slowdown or adversely impact consumer spending for a prolonged period of time. Higher inflation, as well as the cost of fuel, energy and domestic and international shipping costs, food and other essential or discretionary items, raw material prices and labor rates, has and may continue to rise, which could adversely impact the costs of producing, procuring and shipping our products. We may not be able to fully mitigate the impact of the increased costs or pass price increases on to our customers, which could result in downward pressure on our operating results. Attempts to offset cost increases with price increases may reduce sales, increase customer dissatisfaction or otherwise harm our reputation. Any of these events could materially affect our business, financial condition or results of operations. [S68]
 
 ## Industry and value chain
 
@@ -566,17 +647,33 @@ SEC-reported SIC **3842**: Orthopedic, Prosthetic & Surgical Appliances & Suppli
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1153:
+
+> New Manufacturing Facility: During the second quarter, we announced plans to expand our global manufacturing network with a new facility in Hyderabad, India, which is expected to commence operations in 2027 and will represent our first manufacturing facility in India. We expect to invest approximately $200 million over the next several years in connection with the project, including both capital expenditures and operating costs. The planned expansion is intended to support growth in high-demand markets, enhance supply chain resiliency, increase manufacturing capacity, improve operational efficiency, and further diversify our global manufacturing footprint. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L739:
+
+> On July 9, 2024, Defendants filed counterclaims against us alleging antitrust violations and unfair competition. Among other things, the counterclaims sought injunctive relief and money damages. On August 29, 2025, Defendants filed amended counterclaims, which additionally alleged that Align procured certain materials patents by fraud. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L738:
+
+> On April 11, 2024, we filed a lawsuit in the U.S. District Court for the Western District of Texas against ClearCorrect Operating, LLC, ClearCorrect Holdings, Inc. and Institut Straumann AG, (collectively the “Defendants”). The complaint asserted infringement of our patents related to aligner material, treatment planning, and intraoral scanner technologies. Among other things, the complaint sought relief enjoining the Defendants’ infringement of multiple Align multilayer material patents through Defendants’ manufacture, sale and offer for sale of aligners made with Zendura FLX/ClearQuartz materials. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1151:
+
+> experiences to millions of people around the world. We strive to achieve this through our continued focus on, and execution of, our strategic growth drivers: (i) International Expansion; (ii) General Practitioner dentists (“GP”) treatment; (iii) Patient Demand; and (iv) Orthodontic Utilization. Our growth strategy depends on our ability to facilitate the digital transformation of dentistry, our continuous focus on innovation, and expansion to meet and exceed evolving customer expectations as the array of products and services available to them increases. [S68]
 
 ## Financial performance
 
@@ -1206,6 +1303,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-31, L42:
+
+> On August 27, 2026, the Board of Directors (the “Board”) of Align Technology, Inc. (the “Company”) appointed Quentin Blackford, 48, to the Board. In connection with Mr. Blackford’s appointment, the Board increased the size of the Board from ten to eleven directors. The Company expects Mr. Blackford to stand for election at the next annual meeting of stockholders, which is expected to be held in May 2027. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1218,6 +1319,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L773:
+
+> It is not possible to make a reasonable estimate of the maximum potential amount of future payments, if any, under these indemnification agreements due to the unique facts and circumstances involved in each particular agreement. Additionally, we have a limited history of prior indemnification claims and the payments we have made under such agreements have not had a material adverse effect on our results of operations, cash flows or financial position. However, to the extent that valid indemnification claims arise in the future, future payments by us could be significant and could have a material adverse effect on our results of operations or cash flows in a particular period. As of June 30, 2026, we did not have any material indemnification claims that were probable or reasonably possible. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1227,25 +1332,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1308,6 +1413,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-01-21 | SCHEDULE 13G/A | 0002012383-26-000736 | — | [S64] |
 | 2025-11-05 | 10-Q | 0001097149-25-000079 | — | [S65] |
 | 2025-10-29 | 8-K | 0001097149-25-000075 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L1089:
+
+> In the fourth quarter of 2024, we incurred approximately $37.0 million in restructuring expenses, of which $13.0 million remained unpaid and were included in Accrued liabilities as of December 31, 2024. During the year ended 2025, we reduced our December 31, 2024 restructuring liability by approximately $14.6 million primarily due to cash payments, offset by approximately $2.1 million of additional restructuring expense recorded in Cost of net revenues. As of June 30, 2026, we had no remaining restructuring liability related to the 2024 Restructuring. [S68]
 
 ## Sources and change log
 
@@ -1442,5 +1551,23 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [10-Q 0001097149-25-000079](https://www.sec.gov/Archives/edgar/data/1097149/000109714925000079/0001097149-25-000079-index.html) — published 2025-11-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [8-K 0001097149-25-000075](https://www.sec.gov/Archives/edgar/data/1097149/000109714925000075/0001097149-25-000075-index.html) — published 2025-10-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001097149-26-000065](https://www.sec.gov/Archives/edgar/data/1097149/000109714926000065/algn-20260827.htm) — published 2026-08-31; retrieved 2026-11-09T22:54:43.736448+00:00.
+
+[S68] [10-Q 0001097149-26-000060](https://www.sec.gov/Archives/edgar/data/1097149/000109714926000060/algn-20260630.htm) — published 2026-08-05; retrieved 2026-11-09T22:54:42.038562+00:00.
+
+[S69] [DEF 14A 0001097149-26-000023](https://www.sec.gov/Archives/edgar/data/1097149/000109714926000023/algn-20260407.htm) — published 2026-04-07; retrieved 2026-11-09T22:54:40.193888+00:00.
+
+[S70] [10-K 0001097149-26-000014](https://www.sec.gov/Archives/edgar/data/1097149/000109714926000014/algn-20251231.htm) — published 2026-02-27; retrieved 2026-11-09T22:54:38.446448+00:00.
+
+[S71] [8-K/A 0001097149-22-000064](https://www.sec.gov/Archives/edgar/data/1097149/000109714922000064/algn-20221028.htm) — published 2022-10-31; retrieved 2026-11-09T22:54:36.773685+00:00.
+
+[S72] [8-K/A 0001097149-22-000031](https://www.sec.gov/Archives/edgar/data/1097149/000109714922000031/algn-20220429.htm) — published 2022-05-02; retrieved 2026-11-09T22:54:35.200827+00:00.
+
+[S73] [8-K/A 0001097149-19-000016](https://www.sec.gov/Archives/edgar/data/1097149/000109714919000016/form8kaitem205amendedsdcfi.htm) — published 2019-04-11; retrieved 2026-11-09T22:54:33.635761+00:00.
+
+[S74] [8-K/A 0001097149-17-000032](https://www.sec.gov/Archives/edgar/data/1097149/000109714917000032/item507.htm) — published 2017-10-02; retrieved 2026-11-09T22:54:31.714112+00:00.
+
+[S75] [8-K/A 0001102624-16-003158](https://www.sec.gov/Archives/edgar/data/1097149/000110262416003158/align8ka.htm) — published 2016-07-28; retrieved 2026-11-09T22:54:30.078301+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -482,6 +482,54 @@ sources:
   published_at: '2026-03-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/915913/000114036126035623/ef20081522_8k.htm
+  title: 8-K 0001140361-26-035623
+  published_at: '2026-09-03'
+  retrieved_at: '2026-11-09T22:53:08.535699+00:00'
+  sha256: 10f70e6b72c8e390b2c39c8a05f106c4e9a1568d5c6725358bc50bca8e170ba0
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/alb-20260630.htm
+  title: 10-Q 0000915913-26-000102
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-09T22:53:06.796100+00:00'
+  sha256: 214da7c93134cb2b7b9cc4e18721089666fd7b8555a03336f74f09fe0d5ff805
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/915913/000091591326000060/alb-20251231.htm
+  title: 10-K/A 0000915913-26-000060
+  published_at: '2026-03-31'
+  retrieved_at: '2026-11-09T22:53:05.133751+00:00'
+  sha256: b172477a6ccaadd9c0f25498220f5d420264399a81fe0227e68e91ac10739047
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/915913/000091591326000050/alb-20260323.htm
+  title: DEF 14A 0000915913-26-000050
+  published_at: '2026-03-24'
+  retrieved_at: '2026-11-09T22:53:03.353371+00:00'
+  sha256: 19abb168af7c7fef58169326c3ec2b01b6d7682471e329193e33d793f5120d2e
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm
+  title: 10-K 0000915913-26-000018
+  published_at: '2026-02-11'
+  retrieved_at: '2026-11-09T22:53:00.864348+00:00'
+  sha256: 6bb02d791b729ee6e4b7744b66e443e4c877bfed86fefa2f495f5794c5f5a7ed
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/915913/000091591322000159/alb-20221025.htm
+  title: 8-K/A 0000915913-22-000159
+  published_at: '2022-10-31'
+  retrieved_at: '2026-11-09T22:52:59.043961+00:00'
+  sha256: c5de85a96727bbf3062705f907f3d27b8c8ba783623f81837360aab5b66e9b43
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/915913/000093244015000115/form8ka_484313.htm
+  title: 8-K/A 0000932440-15-000115
+  published_at: '2015-03-26'
+  retrieved_at: '2026-11-09T22:52:57.357111+00:00'
+  sha256: 75be7f248ac84e96d9e6f7abd511f63b37ec42fe7016e0fdffadcfae6b543dcb
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/915913/000119312514360967/d791195d8ka.htm
+  title: 8-K/A 0001193125-14-360967
+  published_at: '2014-10-01'
+  retrieved_at: '2026-11-09T22:52:55.670688+00:00'
+  sha256: 7a56d7eae2c96a66ceb64ba4af6584bdae1113f6f1067b07c8d2bbaa44b7682e
 issuer_classification:
   cik: 0000915913
   classification_status: reported_sic
@@ -539,13 +587,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/915913/000119312514360967/0001193125-14-360967-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7049f34e53bcd3816cc56364d64d03a4620f34972229213ba85bb6131d15e626
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -570,17 +629,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L700:
+
+> We are involved from time to time in legal proceedings of types regarded as common in our business, including administrative or judicial proceedings seeking remediation under environmental laws, such as the federal Comprehensive Environmental Response, Compensation and Liability Act, commonly known as CERCLA or Superfund, products liability, breach of contract liability and premises liability litigation. Where appropriate, we may establish financial reserves for such proceedings. We also maintain insurance to mitigate certain of such risks. Costs for legal services are generally expensed as incurred. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L474:
+
+> On October 25, 2025, the Company signed a definitive agreement to divest the controlling ownership interest of its Refining Solutions business to ChemCat AcquisitionCo, LLC and contribute the remaining ownership interest to ChemCat Holdings, LP, a newly formed limited partnership (“Holdco”), with the sale closing on March 2, 2026. The Refining Solutions business that was divested and contributed is defined as the Company’s Ketjen reportable segment, excluding its performance catalysts solutions (“PCS”) business and the Company’s 50% ownership interest in Eurecat S.A. (which the Company divested in a separate transaction as described below). Following the completion of the transactions in the definitive agreement (collectively, the “Refining Solutions Business Transaction”), the Company received $525.2 million in cash, net of cash sold, owned 49% of the common units of Holdco and retained 100% ownership of the PCS business. As a result of the Refining Solutions Business Transaction, the Company recorded a loss of $95.0 million before income taxes in 2026. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1473:
+
+> We are a world leader in transforming essential resources into critical ingredients for mobility, energy, connectivity, and health. Our purpose is to enable a more resilient world. We partner to pioneer new ways to move, power, connect, and protect. The end markets we serve include grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals and medical devices. We believe that our world-class resources with reliable and consistent supply, our leading process chemistry, high-impact innovation, customer centricity and focus on people and planet will enable us to maintain a leading position in the industries in which we operate. Additional information regarding our products, markets and financial performance is provided at our website, www.albemarle.com. Our website is not a part of this document nor is it incorporated herein by reference. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1473:
+
+> We are a world leader in transforming essential resources into critical ingredients for mobility, energy, connectivity, and health. Our purpose is to enable a more resilient world. We partner to pioneer new ways to move, power, connect, and protect. The end markets we serve include grid storage, automotive, aerospace, conventional energy, electronics, construction, agriculture and food, pharmaceuticals and medical devices. We believe that our world-class resources with reliable and consistent supply, our leading process chemistry, high-impact innovation, customer centricity and focus on people and planet will enable us to maintain a leading position in the industries in which we operate. Additional information regarding our products, markets and financial performance is provided at our website, www.albemarle.com. Our website is not a part of this document nor is it incorporated herein by reference. [S69]
 
 ## Industry and value chain
 
@@ -588,17 +663,33 @@ SEC-reported SIC **2821**: Plastic Materials, Synth Resins & Nonvulcan Elastomer
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1221:
+
+> The Corporate and All Other category is not considered to be a segment and includes corporate-related items not allocated to the operating segments, as well as the results of the PCS business and the ownership interest in the Ketjen joint venture, as they do not fit into any of our core businesses. Pension and other post-employment benefit (“OPEB”) service cost (which represents the benefits earned by active employees during the period) and amortization of prior service cost or benefit are allocated to the reportable segments and Corporate, whereas the remaining components of pension and OPEB benefits cost or credit (“non-operating pension and OPEB items”) are included in Corporate. Segment data includes inter-segment transfers of raw materials at cost and allocations for certain corporate costs. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 8-K, filed 2026-09-03, L109:
+
+> non-competition, non‑solicitation and other post-employment restrictive covenants for a period of two years following his termination of employment. The Executive Employment Agreement further provides that if Mr. Udd’s employment is terminated [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-11, L314:
+
+> Our intellectual property, including our patents, licenses and trade names, is an important component of our business. As of December 31, 2025, we owned more than 1,500 active patents and more than 750 pending patent applications in key strategic markets worldwide. We also have acquired rights under patents and inventions of others through licenses, and we license certain patents and inventions to third parties. The Company believes the duration of its intellectual property rights is adequate relative to the expected lives of its products and services. [S72]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L50:
+
+> at Deloitte, and Mark R. Widmar, CEO of First Solar. Ms. Collins and Mr. Widmar expand the Board’s expertise and further align the Board’s experience with our strategic priorities and growth opportunities. [S71]
 
 ## Financial performance
 
@@ -1213,6 +1304,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-03, L74:
+
+> On September 2, 2026, the Board of Directors of the Company (the “Board”) of Albemarle Corporation (the “Company”) approved a leadership succession [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1225,6 +1320,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L698:
+
+> We believe that any sum we may be required to pay in connection with environmental remediation matters in excess of the amounts recorded would likely occur over a period of time and would likely not have a material adverse effect upon our results of operations, financial condition or cash flows on a consolidated annual basis although any such sum could have a material adverse impact on our results of operations, financial condition or cash flows in a particular quarterly reporting period. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1234,25 +1333,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1316,6 +1415,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-10 | 4 | 0001585657-26-000004 | — | [S65] |
 | 2026-03-06 | 8-K | 0000915913-26-000032 | — | [S66] |
 | 2026-03-04 | 4 | 0002082528-26-000004 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L678:
+
+> During the year ended December 31, 2025, the Company received $350 million from a customer for the delivery of specified amounts of spodumene and lithium salts over the next 5 years. Deferred revenue of $21.9 million and $43.8 million was recognized in Net sales during the three-month and six-month periods ended June 30, 2026, respectively. There was no deferred revenue recognized in Net sales during the three-month and six-month periods ended June 30, 2025. [S69]
 
 ## Sources and change log
 
@@ -1452,5 +1555,21 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0000915913-26-000032](https://www.sec.gov/Archives/edgar/data/915913/000091591326000032/0000915913-26-000032-index.html) — published 2026-03-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0002082528-26-000004](https://www.sec.gov/Archives/edgar/data/915913/000208252826000004/0002082528-26-000004-index.html) — published 2026-03-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001140361-26-035623](https://www.sec.gov/Archives/edgar/data/915913/000114036126035623/ef20081522_8k.htm) — published 2026-09-03; retrieved 2026-11-09T22:53:08.535699+00:00.
+
+[S69] [10-Q 0000915913-26-000102](https://www.sec.gov/Archives/edgar/data/915913/000091591326000102/alb-20260630.htm) — published 2026-08-05; retrieved 2026-11-09T22:53:06.796100+00:00.
+
+[S70] [10-K/A 0000915913-26-000060](https://www.sec.gov/Archives/edgar/data/915913/000091591326000060/alb-20251231.htm) — published 2026-03-31; retrieved 2026-11-09T22:53:05.133751+00:00.
+
+[S71] [DEF 14A 0000915913-26-000050](https://www.sec.gov/Archives/edgar/data/915913/000091591326000050/alb-20260323.htm) — published 2026-03-24; retrieved 2026-11-09T22:53:03.353371+00:00.
+
+[S72] [10-K 0000915913-26-000018](https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm) — published 2026-02-11; retrieved 2026-11-09T22:53:00.864348+00:00.
+
+[S73] [8-K/A 0000915913-22-000159](https://www.sec.gov/Archives/edgar/data/915913/000091591322000159/alb-20221025.htm) — published 2022-10-31; retrieved 2026-11-09T22:52:59.043961+00:00.
+
+[S74] [8-K/A 0000932440-15-000115](https://www.sec.gov/Archives/edgar/data/915913/000093244015000115/form8ka_484313.htm) — published 2015-03-26; retrieved 2026-11-09T22:52:57.357111+00:00.
+
+[S75] [8-K/A 0001193125-14-360967](https://www.sec.gov/Archives/edgar/data/915913/000119312514360967/d791195d8ka.htm) — published 2014-10-01; retrieved 2026-11-09T22:52:55.670688+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

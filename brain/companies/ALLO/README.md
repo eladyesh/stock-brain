@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -480,6 +480,42 @@ sources:
   published_at: '2026-03-16'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000119312526379423/d522964d8k.htm
+  title: 8-K 0001193125-26-379423
+  published_at: '2026-09-02'
+  retrieved_at: '2026-11-09T22:56:50.107494+00:00'
+  sha256: bdbd10d8905d99ab41a34966c09ca4ae367b02fcbbd796171113543285ff082d
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000162828026056213/allo-20260630.htm
+  title: 10-Q 0001628280-26-056213
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-09T22:56:48.456011+00:00'
+  sha256: 7ab5601ee105ab9195433e54800eb5933aea4f4839b03e320ab4bc0fb192d083
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000162828026028948/allo-20260430.htm
+  title: DEF 14A 0001628280-26-028948
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-09T22:56:46.296773+00:00'
+  sha256: 460aa4e33d2225aa62c47fbd0e74bdeef0dff0197b4cd50c7d594337d0bcc6a2
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000162828026017242/allo-20251231.htm
+  title: 10-K 0001628280-26-017242
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-09T22:56:44.441119+00:00'
+  sha256: 2e7f1b111fabf78f2c6da071a8f8f944cbd70d5a26d072038a7b15d65f410428
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000173728723000083/allo-20231016.htm
+  title: 8-K/A 0001737287-23-000083
+  published_at: '2023-10-17'
+  retrieved_at: '2026-11-09T22:56:42.530775+00:00'
+  sha256: 4fee11ab3ec160a54c858e0e2a88cb78700029962c443d52eff9a1a84dac8333
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1737287/000173728720000050/allo-20200605.htm
+  title: 8-K/A 0001737287-20-000050
+  published_at: '2020-10-26'
+  retrieved_at: '2026-11-09T22:56:40.797736+00:00'
+  sha256: d62b111d68da0680cb3ed74a879f54ab9376b86c5c9237d7cff5ce6a6dafb9a9
 issuer_classification:
   cik: 0001737287
   classification_status: reported_sic
@@ -525,13 +561,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1737287/000173728720000050/0001737287-20-000050-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 57b77ec80605c8f161a272702d431f874c900232ab29493ccba373a6e75a2cc7
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -555,13 +601,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L799:
+
+> Research and development activities are central to our business model. Product candidates in later stages of clinical development generally have higher development costs than those in earlier stages of clinical development, primarily due to the increased size and duration of later-stage clinical trials. We expect our research and development expenses to increase in the future as our clinical programs progress and as we seek to initiate clinical trials of additional product candidates. The cost of advancing our manufacturing process as well as the cost of manufacturing product candidates for clinical trials are included in our research and development expense. We also expect to incur increased research and development expenses as we selectively identify and develop additional product candidates. However, it is difficult to determine with certainty the duration and completion costs of our current or future preclinical programs and clinical trials of our product candidates. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-12, L695:
+
+> The Company has one reportable segment related to developing and commercializing genetically engineered allogeneic T cell product candidates for the treatment of cancer and autoimmune diseases. The segment derives its current revenues from research and development collaborations. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-12, L786:
+
+> In the future, we may generate revenue from a combination of product sales, marketing and distribution arrangements and other collaborations, strategic alliances and licensing arrangements or a combination of these approaches. We expect that any revenue we generate will fluctuate from quarter to quarter as a result of the timing and amount of license fees, milestones and other payments, and the amount and timing of payments that we receive upon the sale of our products, to the extent any are successfully commercialized. If we fail to complete the development of our product candidates in a timely manner or obtain regulatory approval of them, our ability to generate future revenue, and our results of operations and financial position, will be materially adversely affected. [S68]
 
 ## Customers and end markets
 
@@ -573,17 +631,33 @@ SEC-reported SIC **2836**: Biological Products, (No Diagnostic Substances). [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L793:
+
+> •costs related to production of clinical materials, including fees paid for raw materials and to contract manufacturers; [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L816:
+
+> In addition, the probability of success for each product candidate will depend on numerous factors, including safety, efficacy, competition, manufacturing capability and commercial viability. We will determine which programs to pursue and how much to fund each program in response to the scientific and clinical success of each product candidate, as well as an assessment of each product candidate’s commercial potential. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-12, L500:
+
+> In April 2018, the Company entered into an Asset Contribution Agreement (the Pfizer Agreement) with Pfizer pursuant to which the Company acquired certain assets and assumed certain liabilities from Pfizer, including agreements with Cellectis S.A. (Cellectis) and Servier as described below, and other intellectual property for the development and administration of chimeric antigen receptor (CAR) T cells for the treatment of cancer. The Company is required to make payments upon the achievement of certain sales and regulatory milestones and pay royalties on certain net sales pursuant to the Pfizer Agreement as further described in Note 6 to the Annual Report. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L759:
+
+> In May 2024, we entered into an Amendment and Settlement Agreement (the Servier Amendment) with Servier under which we: (1) expanded our territory under the Original Servier Agreement to include the European Union and the United Kingdom, and provided for an option to further expand our territory to include China and Japan, (2) waived certain of our rights to elect to convert certain of our license rights to a worldwide license, (3) revised our future milestone payments to coincide with Servier’s milestone payments to Cellectis under the Servier-Cellectis Agreement, (4) agreed to pre-pay a future €20 million milestone payment into an escrow account, and (5) increased the United States tiered royalty rates to a range from the low tens to the mid teen percentages, and agreed to an ex-U.S. royalty rate of 10%. On December 15, 2025, Cellectis publicly reported that an arbitral tribunal issued a decision providing for a partial termination of the Servier-Cellectis Agreement with respect to UCART19V1, which is the same as ALLO-501, a product candidate which we previously abandoned in favor of cema-cel (formerly known as ALLO-501A), and affirmed continued licensing rights relating to cema-cel. As a result of that decision, our Servier license covering UCART19V1/ALLO-501 was automatically terminated. The arbitration decision requires Cellectis, at our request, to engage in good-faith … [S68]
 
 ## Financial performance
 
@@ -1186,6 +1260,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L488:
+
+> On May 12, 2025, the Company’s Board of Directors approved an approximately 28% reduction in the Company’s employee workforce (Workforce Reduction) in connection with a reduction in manufacturing operations and a reprioritization of resources to focus on the Company’s clinical programs. The Workforce Reduction included one-time severance payments and other employee benefits and resulted in impairment of equipment. During the three and six months ended June 30, 2025, the Company recorded $3.1 million, $0.3 million, and $1.3 million in research and development expense, general and administrative expense, and equipment impairment, respectively, in the statement of operations and comprehensive loss. There were no such costs for the three and six months ended June 30, 2026. As of June 30, 2026, there were no remaining severance and other employee benefits accruals associated with the Workforce Reduction. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1198,6 +1276,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L603:
+
+> In the ordinary course of business, the Company or its business partners are from time to time subject to legal claims and regulatory actions that could have a material adverse effect on its business or financial position. The Company assesses its potential liability in such situations by analyzing the possible outcomes of various litigation, regulatory, and settlement strategies. If the Company determines that a material loss is probable and its amount can be reasonably estimated, it will accrue an amount equal to the estimated loss. As of June 30, 2026, the Company did not accrue any estimated losses related to its ongoing legal proceedings. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1207,25 +1289,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1289,6 +1371,10 @@ Latest 50 filing metadata records of 583 retained records. A filing link is evid
 | 2026-03-18 | 4 | 0001737287-26-000013 | — | [S64] |
 | 2026-03-16 | 144 | 0002057918-26-000004 | — | [S65] |
 | 2026-03-16 | 144 | 0001611024-26-000003 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L484:
+
+> During the year ended December 31, 2024, the Company made a decision to sublease one of its leased buildings in South San Francisco. The Company vacated and ceased occupancy of this building and began actively marketing the leased building for sublease in 2024. The Company determined that the change in how this building is being used was an indicator of impairment. The Company identified this to-be-sublet property as a separate asset group. The Company concluded that the carrying value of this to-be-sublet property asset group was not recoverable and the estimated fair value of this asset group was below its carrying value. The decrease in the fair value of this asset group was mainly due to the lower estimated sublease income based on current commercial rental market conditions compared to the lease payments in accordance with the initial operating lease agreement. The Company performed discounted cash flow analysis to estimate the fair value of its right-of-use asset and leasehold improvements. The key inputs to this valuation were expected sublease rental income of $1.9 million through March 2032 and the risk-adjusted annual discount rate of 9.50%. Based on this analysis, the Company concluded the fair value of the right-of-use asset and leasehold improvements of $1.2 million was lower than its net book value of $7.5 million. The Company recognized an aggregate long-lived … [S68]
 
 ## Sources and change log
 
@@ -1423,5 +1509,17 @@ Latest 50 filing metadata records of 583 retained records. A filing link is evid
 [S65] [144 0002057918-26-000004](https://www.sec.gov/Archives/edgar/data/1737287/000205791826000004/0002057918-26-000004-index.html) — published 2026-03-16; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S66] [144 0001611024-26-000003](https://www.sec.gov/Archives/edgar/data/1737287/000161102426000003/0001611024-26-000003-index.html) — published 2026-03-16; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S67] [8-K 0001193125-26-379423](https://www.sec.gov/Archives/edgar/data/1737287/000119312526379423/d522964d8k.htm) — published 2026-09-02; retrieved 2026-11-09T22:56:50.107494+00:00.
+
+[S68] [10-Q 0001628280-26-056213](https://www.sec.gov/Archives/edgar/data/1737287/000162828026056213/allo-20260630.htm) — published 2026-08-12; retrieved 2026-11-09T22:56:48.456011+00:00.
+
+[S69] [DEF 14A 0001628280-26-028948](https://www.sec.gov/Archives/edgar/data/1737287/000162828026028948/allo-20260430.htm) — published 2026-04-30; retrieved 2026-11-09T22:56:46.296773+00:00.
+
+[S70] [10-K 0001628280-26-017242](https://www.sec.gov/Archives/edgar/data/1737287/000162828026017242/allo-20251231.htm) — published 2026-03-12; retrieved 2026-11-09T22:56:44.441119+00:00.
+
+[S71] [8-K/A 0001737287-23-000083](https://www.sec.gov/Archives/edgar/data/1737287/000173728723000083/allo-20231016.htm) — published 2023-10-17; retrieved 2026-11-09T22:56:42.530775+00:00.
+
+[S72] [8-K/A 0001737287-20-000050](https://www.sec.gov/Archives/edgar/data/1737287/000173728720000050/allo-20200605.htm) — published 2020-10-26; retrieved 2026-11-09T22:56:40.797736+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
