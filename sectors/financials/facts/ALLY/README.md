@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -132,6 +132,18 @@ sources:
   published_at: '2026-10-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/40729/000004072926000017/ally-20260630.htm
+  title: 10-Q 0000040729-26-000017
+  published_at: '2026-07-23'
+  retrieved_at: '2026-11-09T22:57:26.544103+00:00'
+  sha256: 381361f2fc15866ef277ad5503b7830c07fe15206ebde8555839d6dcc0de866a
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/40729/000119312526113819/ally-20260318.htm
+  title: DEF 14A 0001193125-26-113819
+  published_at: '2026-03-18'
+  retrieved_at: '2026-11-09T22:57:24.076580+00:00'
+  sha256: 0bfe114f5a81fe5d0328973b142cf18bb25677d7a3ff35bcebacf98263b3eb7e
 issuer_classification:
   cik: 0000040729
   classification_status: reported_sic
@@ -169,13 +181,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/40729/000119312526425698/0001193125-26-425698-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a49d7431bc667ea9b0eef29b7c75283352cf6ae46ebaab0397ce26911af8f919
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -190,15 +213,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000040729.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALLY/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALLY/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALLY — Ally Financial Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALLY/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALLY/README.md)
 
 ## Business overview
 
@@ -212,17 +235,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-23, L1863:
+
+> We provide long-term guarantee contracts to investors in certain nonconsolidated affordable housing entities and have extended a line of credit to provide liquidity. Since we do not have control over the entities or the power to make decisions, we do not consolidate the entities and our involvement is limited to the guarantee and the line of credit. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-23, L898:
+
+> The following tables present a disaggregated view of our revenue from contracts with customers. For further information regarding our revenue recognition policies and details about the nature of our respective revenue streams, refer to Note 1 and Note 3 to the Consolidated Financial Statements in our 2025 Annual Report on Form 10-K. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-23, L3434:
+
+> •our ability to develop, maintain, or market our products or services or to absorb unanticipated costs or liabilities associated with those products or services; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-23, L2492:
+
+> Our economic hedges include interest rate swaps that we offer as an accommodation to our customers within our Corporate Finance business. We offset the majority of the market risk of these customer swaps by entering into offsetting derivatives transactions with other counterparties. [S68]
 
 ## Industry and value chain
 
@@ -230,19 +269,35 @@ SEC-reported SIC **6022**: State Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-18, L7919:
+
+> Maintained Ally’s position, internally and externally, as an employer of choice with a very strong culture as reflected in organizational health metrics, including the following for our Finance, Treasury, Accounting and Supply Chain Teams: [S69]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-23, L3440:
+
+> •the continuing profitability and viability of our dealer-centric automotive finance and insurance businesses, especially in the face of competition from captive finance companies and their automotive manufacturing sponsors and challenges to the dealer’s role as intermediary between manufacturers and purchasers; [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-23, L3452:
+
+> •our ability to keep pace with changes in technology, such as AI, that affect us or our customers, counterparties, service providers, or competitors or to maintain rights or interests in associated intellectual property; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-23, L3534:
+
+> Corporate and Other includes the results of Ally Invest, our digital brokerage and advisory offering, which enables us to complement our competitive deposit products with low-cost investing. The digital advisory business aligns with our strategy to create a premier digital financial services company and provides additional sources of fee income through asset management and certain other fees, with minimal balance sheet utilization. This business also provides an additional source of low-cost deposits through arrangements with Ally Invest’s clearing broker. [S68]
 
 ## Financial performance
 
@@ -349,6 +404,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-23, L2417:
+
+> Under U.S. Basel III, Ally and Ally Bank must maintain a minimum Common Equity Tier 1 risk-based capital ratio of 4.5%, a minimum Tier 1 risk-based capital ratio of 6%, and a minimum total risk-based capital ratio of 8%. On top of the minimum risk-based capital ratios, Ally and Ally Bank are subject to a capital conservation buffer requirement, which must be satisfied entirely with capital that qualifies as Common Equity Tier 1 capital. Failure to maintain more than the full amount of the capital conservation buffer requirement would result in automatic restrictions on the ability of Ally and Ally Bank to make capital distributions, including dividend payments and share repurchases and redemptions, and to pay discretionary bonuses to executive officers. U.S. Basel III also subjects Ally and Ally Bank to a minimum Tier 1 leverage ratio of 4%. While the capital conservation buffer requirement for Ally Bank is fixed at 2.5% of RWAs, the capital conservation buffer requirement for a Category IV firm, like Ally, is equal to its stress capital buffer requirement. The stress capital buffer requirement for Ally, in turn, is the greater of 2.5% and the result of the following calculation: (1) the difference between Ally’s starting and minimum projected Common Equity Tier 1 capital ratios under the severely adverse scenario in the supervisory stress test, plus (2) the sum of the dollar … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -361,6 +420,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-23, L3458:
+
+> •other assumptions, risks, or uncertainties described in the Risk Factors (Part II, Item 1A herein), Management’s Discussion and Analysis of Financial Condition and Results of Operations (Part I, Item 2 herein), or the Notes to the Condensed Consolidated Financial Statements (Part I, Item 1 herein) in this Quarterly Report on Form 10-Q or described in any of the Company’s annual, quarterly or current reports. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -370,25 +433,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -432,6 +495,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001738255-26-000006](https://www.sec.gov/Archives/edgar/data/40729/000173825526000006/0001738255-26-000006-index.html) — published 2026-10-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALLY/README.md).
+[S68] [10-Q 0000040729-26-000017](https://www.sec.gov/Archives/edgar/data/40729/000004072926000017/ally-20260630.htm) — published 2026-07-23; retrieved 2026-11-09T22:57:26.544103+00:00.
+
+[S69] [DEF 14A 0001193125-26-113819](https://www.sec.gov/Archives/edgar/data/40729/000119312526113819/ally-20260318.htm) — published 2026-03-18; retrieved 2026-11-09T22:57:24.076580+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALLY/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

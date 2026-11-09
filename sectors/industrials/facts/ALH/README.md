@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -129,6 +129,18 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1317685/000162828026056784/all-20260630.htm
+  title: 10-Q 0001628280-26-056784
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-09T22:55:01.700264+00:00'
+  sha256: 8cd596556ac93bd4a68a77f71199d961e4d9fc7c703915240fbca4e0fa8d65bc
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1317685/000131768526000011/all-20251231.htm
+  title: 10-K 0001317685-26-000011
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-09T22:54:56.385811+00:00'
+  sha256: bf8d7c65dd5b39bb4196ce8fc0672436fe523ad1339238fae6c7ac1f6ba0a556
 issuer_classification:
   cik: 0001317685
   classification_status: reported_sic
@@ -166,13 +178,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1317685/000162828026056465/0001628280-26-056465-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: fb0d390490389deda4d800074e96bbe9f402dc33ae7ad1ac559461660851a80d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -187,15 +210,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001317685.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALH/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALH/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALH — Alliance Laundry Holdings Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALH/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALH/README.md)
 
 ## Business overview
 
@@ -209,17 +232,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L884:
+
+> The Company’s Chief Operating Decision Maker (CODM) is our Chief Executive Officer. The Company operates through two reportable segments in accordance with ASC 280, Segment Reporting: North America (United States and Canada) and International (all other global markets). This structure reflects how the CODM evaluates performance and allocates resources. Across both reportable segments, we manufacture and sell commercial laundry equipment suitable for diverse applications, ranging from small chassis products installed in laundromats, multi-housing facilities and residential settings, to large industrial units designed for institutional laundry applications. [S59]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L884:
+
+> The Company’s Chief Operating Decision Maker (CODM) is our Chief Executive Officer. The Company operates through two reportable segments in accordance with ASC 280, Segment Reporting: North America (United States and Canada) and International (all other global markets). This structure reflects how the CODM evaluates performance and allocates resources. Across both reportable segments, we manufacture and sell commercial laundry equipment suitable for diverse applications, ranging from small chassis products installed in laundromats, multi-housing facilities and residential settings, to large industrial units designed for institutional laundry applications. [S59]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L955:
+
+> We produce a full line of commercial washers and dryers with load capacities up to 400 pounds as well as presses and finishing equipment under the well-known brand names of Speed Queen, UniMac, Huebsch, IPSO and Primus. Our products are sold to three core end markets, including: [S59]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-13, L954:
+
+> We are the world’s largest designer and manufacturer of commercial laundry systems, serving a diverse and resilient range of global end markets. We believe we engineer and produce the highest quality and one of the most reliable commercial laundry systems in the industry. We leverage our pure play focus on the commercial laundry industry and over 100 years of engineering excellence to drive innovation and design our equipment to deliver outstanding performance in the most demanding applications. We believe the need for clean laundry is universal and growing, and our premium machines meet this fundamental human need, all day, every day. [S59]
 
 ## Industry and value chain
 
@@ -227,19 +266,35 @@ SEC-reported SIC **3580**: Refrigeration & Service Industry Machinery. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L676:
+
+> The Company is subject to the effects of changing raw material and component costs caused by movements in underlying commodity prices. The Company purchases raw materials and components containing various commodities including nickel, zinc, aluminum, and copper. The Company generally buys these raw materials and components based upon market prices that are established with the vendor as part of the procurement process. [S59]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-13, L160:
+
+> This quarterly report on Form 10-Q (the “Quarterly Report”) contains “forward-looking statements” within the meaning of the U.S. Private Securities Litigation Reform Act of 1995, as amended. Forward-looking statements include statements that are not historical facts and can be identified by terms such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” “would” or similar expressions and the negatives of those terms. The forward-looking statements are generally contained in the section captioned “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” Forward-looking statements include information concerning our possible or assumed future results of operations, client demand, business strategies, technology developments, financing and investment plans, our industry and regulatory environment, potential growth opportunities and the effects of competition. [S59]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-13, L383:
+
+> ◦Failure to adequately protect our intellectual property rights may have a material adverse effect on our results of [S61]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-13, L765:
+
+> We believe there is an exciting opportunity to significantly expand our share in the residential market, as demand for [S61]
 
 ## Financial performance
 
@@ -352,6 +407,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L808:
+
+> On September 25, 2025, the Company’s board of directors and stockholders terminated the ALH Holding Inc. 2015 Stock Option Plan (the "2015 Stock Option Plan") and approved the 2025 Omnibus Incentive Compensation Plan (the "2025 Compensation Plan"). No further awards will be granted under the 2015 Stock Option Plan, but existing awards will continue to vest and be exercisable in accordance with the plan terms. [S59]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -364,6 +423,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L182:
+
+> •other factors disclosed in the section entitled “Risk Factors” in Part I Item 1A. in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 and elsewhere in this Quarterly Report. [S59]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -373,25 +436,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -435,6 +498,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S12] [4 0001628280-26-062245](https://www.sec.gov/Archives/edgar/data/1317685/000162828026062245/0001628280-26-062245-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALH/README.md).
+[S59] [10-Q 0001628280-26-056784](https://www.sec.gov/Archives/edgar/data/1317685/000162828026056784/all-20260630.htm) — published 2026-08-13; retrieved 2026-11-09T22:55:01.700264+00:00.
+
+[S61] [10-K 0001317685-26-000011](https://www.sec.gov/Archives/edgar/data/1317685/000131768526000011/all-20251231.htm) — published 2026-03-13; retrieved 2026-11-09T22:54:56.385811+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALH/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

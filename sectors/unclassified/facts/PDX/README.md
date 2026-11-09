@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -146,15 +146,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PDX/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/PDX/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # PDX — PIMCO Dynamic Income Strategy Fund
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PDX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/PDX/README.md)
 
 ## Business overview
 
@@ -288,6 +288,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0001510281-26-000336](https://www.sec.gov/Archives/edgar/data/1756908/000151028126000336/0001510281-26-000336-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/PDX/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/PDX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

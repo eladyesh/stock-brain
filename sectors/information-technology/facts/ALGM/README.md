@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -143,6 +143,24 @@ sources:
   published_at: '2026-05-21'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/866291/000119312526339226/algm-20260805.htm
+  title: 8-K 0001193125-26-339226
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-09T22:54:28.022341+00:00'
+  sha256: 5404cd59a8a407faad7f7e98c733fca0696b56322a545b533dda6aef2d035559
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/866291/000119312526327128/algm-20260626.htm
+  title: 10-Q 0001193125-26-327128
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-09T22:54:26.287844+00:00'
+  sha256: 204beb1bb863634d88919e7ec7695d5c1ea157f0e0862616b8e4bdf19593bf7a
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/866291/000119312526280254/algm-20260624.htm
+  title: DEF 14A 0001193125-26-280254
+  published_at: '2026-06-24'
+  retrieved_at: '2026-11-09T22:54:24.458719+00:00'
+  sha256: 9f9c29875d3e38106dcc2f87afa09a48bcd1eb41600207505dd43a9dfb476f38
 issuer_classification:
   cik: 0000866291
   classification_status: reported_sic
@@ -192,13 +210,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/866291/000086629120000009/0000866291-20-000009-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 36b6f8c510c19b10284c82cb4552f59b5e168f8ff336639eb60ec3ae269ae917
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -213,15 +242,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000866291.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALGM/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALGM/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALGM — ALLEGRO MICROSYSTEMS, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALGM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALGM/README.md)
 
 ## Business overview
 
@@ -235,17 +264,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L239:
+
+> Statements regarding our future results of operations and financial position, business strategy and plans and objectives of management for future operations, including, among others, statements regarding the liquidity, growth and profitability strategies and factors and trends affecting our business are forward-looking statements. Without limiting the foregoing, in some cases, you can identify forward-looking statements by terms such as “aim,” “may,” “will,” “should,” “expect,” “exploring,” “plan,” “anticipate,” “could,” “intend,” “target,” “project,” “would,” “contemplate,” “believe,” “estimate,” “predict,” “potential,” “seek,” or “continue” or the negative of these terms or other similar expressions, although not all forward-looking statements contain these words. No forward-looking statement is a guarantee of future results, performance, or achievements, and one should avoid placing undue reliance on such statements. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-31, L2561:
+
+> The Company operates as one reportable segment, which involves the design, development, production and distribution of various ICs in various markets worldwide. The Company has a single, company-wide management team that administers all properties as a whole rather than as discrete operating segments. The Chief Operating Decision Maker (“CODM”), who is the Company’s Chief Executive Officer, measures financial performance as a single enterprise and not on a legal entity or end market basis. The CODM uses consolidated net income or loss, as reported in the Consolidated Statement of Operations, as the profitability measure in making decisions. The measure of segment assets is reported on the Consolidated Balance Sheet as total assets. Throughout the year, the CODM allocates capital resources on a project-by-project basis across the Company’s entire asset base to maximize profitability without regard to a legal entity or end market basis. The Company operates in a number of countries throughout the world in a variety of product lines through its business unit structure. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-31, L4657:
+
+> Our sensor ICs provide critical feedback for motion, position, speed, and electrical current sensing, while our power ICs control motors and manage power conversion and regulation across a wide range of applications. By embedding system-level intelligence directly into our products, we reduce the number of components required in a customer’s design while improving performance, energy efficiency, safety, and reliability. We believe our deep application knowledge, differentiated technology, and strong customer relationships enable us to deliver solutions that are more integrated, intelligent and efficient than typical ICs. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-31, L4665:
+
+> Our end customers continually develop new products in existing and new application areas, and we work closely with most of our significant original equipment manufacturer (“OEMs”) customers in our target markets to understand their product roadmaps and strategies. For new products, the time from design initiation and manufacturing until we generate sales can be lengthy, typically between two and four years. As a result, our future sales are highly dependent on our continued success at winning design mandates from our customers. Further, despite current inflationary and pricing conditions, we expect the average sales prices (“ASPs”) of our products to decline over time, and we consider design wins to be critical to our future success as they help mitigate declines in ASPs. We anticipate being increasingly dependent on revenue from newer design wins for our newer products. The selection process is typically lengthy and may require us to incur significant design and development expenditures in pursuit of a design win, with no assurance that our solutions will be selected. As a result, the loss of any key design win or any significant delay in the ramp-up of volume production of a customer’s products into which our product is designed could adversely affect our business. In addition, volume production is contingent upon the successful introduction and market acceptance of our … [S69]
 
 ## Industry and value chain
 
@@ -253,19 +298,35 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L4662:
+
+> Inflation rates in the markets in which we operate have remained elevated and may continue to rise as a result of cost increases attributable to a rise in global energy and commodity prices and global tariff policies. Inflation in recent quarters has led us to experience higher costs, including higher labor costs, wafer and other costs for materials from suppliers, and transportation and energy costs. Our suppliers have raised their prices and may continue to raise prices, and in the competitive markets in which we operate, we may not be able to make corresponding price increases to preserve our gross margins and profitability. If inflation rates continue to rise or remain elevated for a sustained period of time, they could have a material adverse effect on our business, financial condition, results of operations and liquidity. While we have attempted to offset increases in these costs through various productivity and cost reduction initiatives, as well as adjusting our selling prices and releasing new products with improved gross margins, our ability to increase our average selling prices depends on market conditions and competitive dynamics. Given the timing of our actions compared to the timing of these inflationary pressures, there may be periods during which we are unable to fully recover the increases in our costs. [S69]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-06-24, L5716:
+
+> The Severance Agreements and the Employment Agreement provide that if a NEO’s employment is terminated by the Company without “cause” or by the executive for “good reason” (each such term as defined in the applicable agreement) (a “Qualifying Termination”), subject to the executive’s execution of an effective general release of claims and continued compliance with applicable non-competition, non-solicitation and (in the case of Mr. Doogue) other restrictive covenants applicable to the executive pursuant to their respective pre-IPO share award agreement, we will pay or provide the executive with the following severance benefits: [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-06-24, L634:
+
+> Mr. Doogue has served as our President and Chief Executive Officer and as a member of our Board since February 2025. Mr. Doogue joined Allegro in 1998 as a Design Engineer facilitating the development of our innovative magnetic sensor integrated circuits. Since joining, he has worked in a number of leadership roles and has been instrumental in shaping our strategy, developing our technology roadmap and creating new, innovative products that drive customer value. Mr. Doogue has enabled our disruptive technologies and business lines through his leadership roles as Director of Strategic Marketing, Vice President of Advanced Sensor Technologies, Senior Vice President of Technology and Products and, most recently, Executive Vice President (EVP) and Chief Technology Officer (CTO). In his role as EVP and CTO, Mr. Doogue led Allegro’s technology development and worldwide operations organizations, which includes the wafer technology development, manufacturing, supply chain, procurement and quality teams. Mr. Doogue earned his B.A. in Physics from Colby College, B.E. in Electrical Engineering from Dartmouth and completed the SEP program at the Stanford University Graduate Business School. He holds over 75 semiconductor-related U.S. patents. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-31, L5953:
+
+> We believe that our existing cash will be sufficient to finance our continued operations, growth strategy, planned capital expenditures and the additional expenses that we expect to incur during the next 12 months. In order to support and achieve our future growth plans, we may need or advantageously seek to obtain additional funding through equity or debt financing. We believe that our current operating structure will facilitate sufficient cash flows from operations to satisfy our expected long-term liquidity requirements beyond the next 12 months. If these resources are not sufficient to satisfy our liquidity requirements due to changes in circumstances, we may be required to borrow under our revolving credit facility or seek additional financing. If we raise additional funds by issuing equity securities that are not used to repurchase existing shares outstanding, our stockholders will experience dilution. Debt financing, if available, may contain covenants that significantly restrict our operations or our ability to obtain additional debt financing in the future. Any additional financing that we raise may contain terms that are not favorable to us or our stockholders. We cannot assure you that we would be able to obtain additional financing on terms favorable to us or our existing stockholders, or at all. [S69]
 
 ## Financial performance
 
@@ -384,6 +445,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-07, L102:
+
+> On August 5, 2026, Allegro MicroSystems, Inc. (the “Company”) held its Annual Meeting of Shareholders (the “Annual Meeting”). At the Annual Meeting, the three proposals, as described in the Company’s definitive proxy statement on Schedule 14A filed with the Securities Exchange Commission on June 24, 2026, were presented. At the Annual Meeting, the Company’s shareholders: (i) elected each of the three nominees, Jennie M. Raubacher, Brian C. White and Robert J. Willett to serve as Class III Directors until the 2029 Annual Meeting of Shareholders, and until each such director’s respective successor is elected and qualified; (ii) ratified the appointment of PricewaterhouseCoopers, LLP as the Company’s independent registered public accounting firm for the fiscal year ending March 26, 2027; and (iii) approved, on an advisory basis, the Company’s executive compensation. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -396,6 +461,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L240:
+
+> Forward-looking statements are based on our management’s beliefs and assumptions and on information currently available to us. Such beliefs and assumptions may or may not prove to be correct. Additionally, such forward-looking statements are subject to a number of known and unknown risks, uncertainties and assumptions, and actual results may differ materially from those expressed or implied in the forward-looking statements due to various factors, including, but not limited to, those identified in Part I, Item 2. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and Part II, Item 1A. “Risk Factors” in this Quarterly Report and Part I, Item 1A. “Risk Factors” in our Annual Report on Form 10-K for the year ended March 27, 2026, filed with the Securities and Exchange Commission (“SEC”) on May 21, 2026 (the “2026 Annual Report”), as any such factors may be updated from time to time in our Quarterly Reports on Form 10-Q, and our other filings with the SEC. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -405,25 +474,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -467,6 +536,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S50] [10-K 0001193125-26-233537](https://www.sec.gov/Archives/edgar/data/866291/000119312526233537/0001193125-26-233537-index.html) — published 2026-05-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALGM/README.md).
+[S68] [8-K 0001193125-26-339226](https://www.sec.gov/Archives/edgar/data/866291/000119312526339226/algm-20260805.htm) — published 2026-08-07; retrieved 2026-11-09T22:54:28.022341+00:00.
+
+[S69] [10-Q 0001193125-26-327128](https://www.sec.gov/Archives/edgar/data/866291/000119312526327128/algm-20260626.htm) — published 2026-07-31; retrieved 2026-11-09T22:54:26.287844+00:00.
+
+[S70] [DEF 14A 0001193125-26-280254](https://www.sec.gov/Archives/edgar/data/866291/000119312526280254/algm-20260624.htm) — published 2026-06-24; retrieved 2026-11-09T22:54:24.458719+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALGM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

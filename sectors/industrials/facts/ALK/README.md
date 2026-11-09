@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -135,6 +135,18 @@ sources:
   published_at: '2026-09-24'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/766421/000076642126000041/alk-20260630.htm
+  title: 10-Q 0000766421-26-000041
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-09T22:55:50.405621+00:00'
+  sha256: df39ae827d9971dcdeb8b633ee45c217f321c7e38babb5b932c1b83565961112
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/766421/000076642126000010/alk-20251231.htm
+  title: 10-K 0000766421-26-000010
+  published_at: '2026-02-12'
+  retrieved_at: '2026-11-09T22:55:46.524649+00:00'
+  sha256: 509906d5088d7402a8d720dcec6f16d685904f8603ae1123836781458be1d075
 issuer_classification:
   cik: '0000766421'
   classification_status: reported_sic
@@ -204,13 +216,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/766421/000076642117000013/0000766421-17-000013-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cb8563c4ac5f4b26d2fd3ae52f57e2cdec2056a65a4033663c88ba053721961c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
+  last_success_at: '2026-11-09T22:51:05.851006+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -225,15 +247,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000766421.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALK/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALK/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALK — ALASKA AIR GROUP, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALK/README.md)
 
 ## Business overview
 
@@ -247,13 +269,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L129:
+
+> You should not place undue reliance on our forward-looking statements because the matters they describe are subject to known and unknown risks, uncertainties and other unpredictable factors, many of which are beyond our control. Our forward-looking statements are based on the information currently available to us and speak only as of the date on which this report was filed with the SEC. Other than as required by law, we expressly disclaim any obligation to issue any updates or revisions to our forward-looking statements, even if subsequent events cause our expectations to change regarding the matters discussed in those statements. For a discussion of risks and uncertainties that may cause our forward-looking statements to differ materially, see Item 1A. "Risk Factors” within the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. Some of these risks include competition; labor costs, relations, and availability; general economic conditions; increases in operating costs, including fuel; uncertainties regarding the ability to successfully integrate operations following the acquisition of Hawaiian Holdings, Inc., and the ability to realize anticipated cost savings, synergies, or growth from the acquisition; inability to meet cost reduction and other strategic goals; seasonal fluctuations in demand and financial results; supply chain risks; events that … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-04, L387:
+
+> Operating segments are defined as components of an enterprise for which separate financial information is available and regularly reviewed by the chief operating decision maker (CODM) in deciding how to allocate resources and in assessing performance. During the first quarter of 2026, the Company’s reportable segments changed because of changes in the business, organizational structure, and financial information reviewed by the CODM. [S69]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-02-12, L428:
+
+> The airline industry is highly competitive, with carriers constantly seeking to defend and grow market share. Some carriers in our markets often discount fares to drive traffic in new markets or to stimulate traffic when necessary to improve load factors. Historically, markets that faced competition from low-cost and ultra-low-cost carriers were subject to disruptive ticket and fee pricing as the carriers' low unit cost allowed them to serve markets at very low fares. Legacy carriers with expansive networks and diversified product offerings have experienced greater success attracting more price-conscious customers with their basic economy offerings. These factors can reduce our pricing power and that of the airline industry as a whole. Fares below operating costs can be harmful if sustained over a long period of time. We will defend our position in our core markets, and if necessary, adjust capacity to better match supply with demand. Our cost discipline and high productivity have historically enabled us to maintain competitive fares. [S71]
 
 ## Customers and end markets
 
@@ -265,19 +299,35 @@ SEC-reported SIC **4512**: Air Transportation, Scheduled. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L129:
+
+> You should not place undue reliance on our forward-looking statements because the matters they describe are subject to known and unknown risks, uncertainties and other unpredictable factors, many of which are beyond our control. Our forward-looking statements are based on the information currently available to us and speak only as of the date on which this report was filed with the SEC. Other than as required by law, we expressly disclaim any obligation to issue any updates or revisions to our forward-looking statements, even if subsequent events cause our expectations to change regarding the matters discussed in those statements. For a discussion of risks and uncertainties that may cause our forward-looking statements to differ materially, see Item 1A. "Risk Factors” within the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. Some of these risks include competition; labor costs, relations, and availability; general economic conditions; increases in operating costs, including fuel; uncertainties regarding the ability to successfully integrate operations following the acquisition of Hawaiian Holdings, Inc., and the ability to realize anticipated cost savings, synergies, or growth from the acquisition; inability to meet cost reduction and other strategic goals; seasonal fluctuations in demand and financial results; supply chain risks; events that … [S69]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-04, L129:
+
+> You should not place undue reliance on our forward-looking statements because the matters they describe are subject to known and unknown risks, uncertainties and other unpredictable factors, many of which are beyond our control. Our forward-looking statements are based on the information currently available to us and speak only as of the date on which this report was filed with the SEC. Other than as required by law, we expressly disclaim any obligation to issue any updates or revisions to our forward-looking statements, even if subsequent events cause our expectations to change regarding the matters discussed in those statements. For a discussion of risks and uncertainties that may cause our forward-looking statements to differ materially, see Item 1A. "Risk Factors” within the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. Some of these risks include competition; labor costs, relations, and availability; general economic conditions; increases in operating costs, including fuel; uncertainties regarding the ability to successfully integrate operations following the acquisition of Hawaiian Holdings, Inc., and the ability to realize anticipated cost savings, synergies, or growth from the acquisition; inability to meet cost reduction and other strategic goals; seasonal fluctuations in demand and financial results; supply chain risks; events that … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-12, L683:
+
+> Our airlines are parties to marketing agreements with a number of domestic and international air carriers, or “partners,” including an expanded relationship with American Airlines and other oneworld carriers. These agreements provide that certain flight segments operated by us are held out as partner “codeshare” flights and that certain partner flights are held out for sale as codeshare flights. In addition, the agreements generally provide that members of our airlines' loyalty programs can earn credit on or redeem credit for partner flights and vice versa. We receive revenue from flights sold under codeshare and from interline arrangements. The loss of a significant partner through bankruptcy, consolidation, or otherwise, could have a negative effect on our revenue or the attractiveness of our loyalty programs, which we believe is a source of competitive advantage. Additionally, we rely on partners to provide available space for credit redemption on their aircraft. Should partners not make available enough inventory within their cabins for our members, the attractiveness of our program may be decreased. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-12, L676:
+
+> Our strategy involves a high concentration of our business in key West Coast markets. A significant portion of our flights occur to and from our stations in Seattle, Honolulu, Portland, and California. [S71]
 
 ## Financial performance
 
@@ -387,6 +437,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L635:
+
+> In December 2024, the Board of Directors authorized a $1 billion share repurchase program. Under this program, the Company repurchased 5.9 million shares for $250 million during the six months ended June 30, 2026 and 10.5 million shares for $535 million during the six months ended June 30, 2025. As of June 30, 2026, $180 million remained available for repurchase under the program. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -399,6 +453,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L129:
+
+> You should not place undue reliance on our forward-looking statements because the matters they describe are subject to known and unknown risks, uncertainties and other unpredictable factors, many of which are beyond our control. Our forward-looking statements are based on the information currently available to us and speak only as of the date on which this report was filed with the SEC. Other than as required by law, we expressly disclaim any obligation to issue any updates or revisions to our forward-looking statements, even if subsequent events cause our expectations to change regarding the matters discussed in those statements. For a discussion of risks and uncertainties that may cause our forward-looking statements to differ materially, see Item 1A. "Risk Factors” within the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. Some of these risks include competition; labor costs, relations, and availability; general economic conditions; increases in operating costs, including fuel; uncertainties regarding the ability to successfully integrate operations following the acquisition of Hawaiian Holdings, Inc., and the ability to realize anticipated cost savings, synergies, or growth from the acquisition; inability to meet cost reduction and other strategic goals; seasonal fluctuations in demand and financial results; supply chain risks; events that … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -408,25 +466,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -470,6 +528,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001999104-26-000010](https://www.sec.gov/Archives/edgar/data/766421/000199910426000010/0001999104-26-000010-index.html) — published 2026-09-24; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALK/README.md).
+[S69] [10-Q 0000766421-26-000041](https://www.sec.gov/Archives/edgar/data/766421/000076642126000041/alk-20260630.htm) — published 2026-08-04; retrieved 2026-11-09T22:55:50.405621+00:00.
+
+[S71] [10-K 0000766421-26-000010](https://www.sec.gov/Archives/edgar/data/766421/000076642126000010/alk-20251231.htm) — published 2026-02-12; retrieved 2026-11-09T22:55:46.524649+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

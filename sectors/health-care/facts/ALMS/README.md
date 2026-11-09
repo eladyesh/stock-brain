@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 204f3cdbbf1aa4d293d16ca1426a5b6c8ba2f16f
+source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -153,6 +153,12 @@ sources:
   published_at: '2026-03-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1847367/000184736726000006/alms-20251231x10k.htm
+  title: 10-K 0001847367-26-000006
+  published_at: '2026-03-19'
+  retrieved_at: '2026-11-09T22:57:41.049663+00:00'
+  sha256: 2735d84edffb73ec8e5bdf6176f3148624ba2e34fb88199d86440fadd6dcf48b
 issuer_classification:
   cik: 0001847367
   classification_status: reported_sic
@@ -194,13 +200,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1847367/000184736725000035/0001847367-25-000035-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: fd920f7440512e63b0bc0526ada61330cc4ebb20eb02accaea97bc4c7aa51b15
-  last_attempt_at: null
+  last_attempt_at: '2026-11-09T22:51:05.851006+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-10T22:51:05.851006+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -215,15 +232,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001847367.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALMS/README.md
-full_history_commit: d9fa20bef5c93a07dc35e332f689a4b7a8cc1341
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMS/README.md
+full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALMS — ALUMIS INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALMS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMS/README.md)
 
 ## Business overview
 
@@ -237,17 +254,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-03-19, L492; prior source set, update pending:
+
+> \| \| ● \| our expectations regarding the period during which we qualify as an “emerging growth company” under the Jumpstart Our Business Startups Act of 2012, as amended (the “JOBS Act”), and a “smaller reporting company,” as defined in Rule 12b-2 of the Exchange Act; and [S60]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-19, L1601; prior source set, update pending:
+
+> We do not expect to generate revenue from any product candidates that we develop until we obtain regulatory approval for one or more of such product candidates and commercialize our products or enter into collaboration agreements with third parties. Because of the numerous risks and uncertainties associated with biopharmaceutical product development, we may never achieve or sustain profitability and, unless and until we are able to develop and commercialize our product candidates, we will need to continue to raise additional capital. Until such time as we can generate significant revenue from product sales, if ever, we expect to finance our operations through public or private equity or debt financings, or potentially other capital sources, such as collaboration or licensing arrangements with third parties or other strategic transactions. There are no assurances that we will be successful in obtaining an adequate level of financing to support our business plans when needed on acceptable terms, or at all. To the extent that we raise additional capital through the sale of equity or convertible debt securities, the ownership interest of our stockholders will be or could be diluted, and the terms of these securities may include liquidation or other preferences that adversely affect the rights of our common stockholders. Debt financing and equity financing, if available, may … [S60]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-19, L634; prior source set, update pending:
+
+> We do not own or operate, and currently have no plans to establish, any manufacturing facilities. We currently rely, and expect to continue to rely, on third parties for the manufacture of our product candidates for clinical testing, as well as for manufacture of any products that we may commercialize, if approved. To date, we have obtained active pharmaceutical ingredients (“API”) for envu and A-005 for our preclinical and clinical testing from different third-party API manufacturers and bulk drug product from other third-party manufacturers. We obtain our preclinical and clinical supplies from these manufacturers on a purchase order basis and currently do not have long-term supply arrangements in place. Our principal suppliers of critical raw materials are located in India and in Taiwan. We are in the process of implementing a redundant supply chain for envu API, drug product and critical raw material. For all our product candidates, we intend to identify and qualify redundant manufacturers to provide the API and drug product and prior to submission of the NDA to the FDA and/or a marketing authorization application to the European Medicines Agency (“EMA”) and/or other health authorities. envu and A-005 are compounds of low molecular weight, generally called small molecules. Envu can be manufactured in reliable and reproducible processes from readily available starting … [S60]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-19, L1054; prior source set, update pending:
+
+> The complexity of announced or future tariffs may also increase the risk that we or our customers or suppliers may be [S60]
 
 ## Industry and value chain
 
@@ -255,19 +288,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-19, L634; prior source set, update pending:
+
+> We do not own or operate, and currently have no plans to establish, any manufacturing facilities. We currently rely, and expect to continue to rely, on third parties for the manufacture of our product candidates for clinical testing, as well as for manufacture of any products that we may commercialize, if approved. To date, we have obtained active pharmaceutical ingredients (“API”) for envu and A-005 for our preclinical and clinical testing from different third-party API manufacturers and bulk drug product from other third-party manufacturers. We obtain our preclinical and clinical supplies from these manufacturers on a purchase order basis and currently do not have long-term supply arrangements in place. Our principal suppliers of critical raw materials are located in India and in Taiwan. We are in the process of implementing a redundant supply chain for envu API, drug product and critical raw material. For all our product candidates, we intend to identify and qualify redundant manufacturers to provide the API and drug product and prior to submission of the NDA to the FDA and/or a marketing authorization application to the European Medicines Agency (“EMA”) and/or other health authorities. envu and A-005 are compounds of low molecular weight, generally called small molecules. Envu can be manufactured in reliable and reproducible processes from readily available starting … [S60]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-19, L473; prior source set, update pending:
+
+> \| \| ● \| developments related to our competitors and our industry, including the success of competing product candidates and therapies that are, or may become, available; [S60]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-19, L490; prior source set, update pending:
+
+> \| \| ● \| our ability to obtain, maintain, protect and enforce intellectual property protection for our product candidates and technology and not infringe, misappropriate or otherwise violate the intellectual property of others; [S60]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-19, L471; prior source set, update pending:
+
+> \| \| ● \| our expectations regarding the potential benefits of our strategy, including with respect to the integration of operations, technologies and personnel associated with the ACELYRIN Merger (as defined herein); [S60]
 
 ## Financial performance
 
@@ -377,6 +426,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-03-19, L537; prior source set, update pending:
+
+> On February 6, 2025, we entered into an Agreement and Plan of Merger, and, on April 20, 2025, we entered into an Amendment to Agreement and Plan of Merger (collectively the “Merger Agreement”) with ACELYRIN, Inc. (“ACELYRIN”) and Arrow Merger Sub, Inc., a Delaware corporation and our direct wholly owned subsidiary (“Merger Sub”). Under the terms of the Merger Agreement, Merger Sub merged with and into ACELYRIN, with ACELYRIN continuing as our direct wholly owned subsidiary (the “ACELYRIN Merger”). The Merger Agreement was approved by the disinterested directors on our board of directors and the board of directors of ACELYRIN and was approved by the [S60]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -389,6 +442,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-03-19, L494; prior source set, update pending:
+
+> You should refer to the section titled “Risk Factors” in Part I, Item 1A. of this Annual Report on Form 10-K for a discussion of other important factors that may cause our actual results to differ materially from those expressed or implied by our forward-looking statements. As a result of these factors, we cannot assure you that the forward-looking statements in this Annual Report on Form 10-K will prove to be accurate. [S60]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -398,25 +455,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -462,6 +519,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S45] [10-K 0001847367-26-000006](https://www.sec.gov/Archives/edgar/data/1847367/000184736726000006/0001847367-26-000006-index.html) — published 2026-03-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/d9fa20bef5c93a07dc35e332f689a4b7a8cc1341/brain/companies/ALMS/README.md).
+[S60] [10-K 0001847367-26-000006](https://www.sec.gov/Archives/edgar/data/1847367/000184736726000006/alms-20251231x10k.htm) — published 2026-03-19; retrieved 2026-11-09T22:57:41.049663+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
