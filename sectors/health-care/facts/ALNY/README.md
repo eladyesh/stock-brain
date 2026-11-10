@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -128,6 +128,12 @@ sources:
   published_at: '2026-07-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1178670/000117867026000062/alny-20260630.htm
+  title: 10-Q 0001178670-26-000062
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-10T20:12:33.809062+00:00'
+  sha256: c2a5581c2cd1dacb71cb9285b05ac0a4cd4376473c10f767a2ee2072dfec1cc9
 issuer_classification:
   cik: 0001178670
   classification_status: reported_sic
@@ -165,13 +171,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1178670/000117867026000060/0001178670-26-000060-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 06a7741c1e7d78b2beaeabb215a89a563b7d4006b2314ad335a0dad52cac0859
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -186,15 +201,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001178670.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNY/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNY/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALNY — ALNYLAM PHARMACEUTICALS, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNY/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNY/README.md)
 
 ## Business overview
 
@@ -208,6 +223,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L155:
+
+> •the impact of any future pandemics or public health emergencies on, among other things, our financial performance, business and operations, including manufacturing, supply chain, research and development activities and pipeline programs, and other potential impacts to our business; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -215,6 +234,10 @@ Not available: substantive research has not been completed. Describe revenue str
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-07-30, L162:
+
+> •the ability of the third parties on which we rely for development, manufacture and distribution of our products to meet their obligations to us; [S69]
 
 ## Customers and end markets
 
@@ -226,19 +249,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L155:
+
+> •the impact of any future pandemics or public health emergencies on, among other things, our financial performance, business and operations, including manufacturing, supply chain, research and development activities and pipeline programs, and other potential impacts to our business; [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1454:
+
+> •We and our collaborators face competition from other companies that are working to develop novel drugs and technology platforms using technology similar to ours, as well as from companies utilizing emerging technologies. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-30, L452:
+
+> Alnylam Pharmaceuticals, Inc. (also referred to as Alnylam, the Company, we, our or us) commenced operations on June 14, 2002 as a biopharmaceutical company seeking to develop and commercialize novel therapeutics based on ribonucleic acid interference, or RNAi. We are committed to the advancement of our company strategy of building a multi-product, global, commercial biopharmaceutical company with a deep and sustainable clinical pipeline of RNAi therapeutics for future growth and a robust, organic research engine for sustainable innovation and great potential for patient impact. Since inception, we have focused on discovering, developing and commercializing RNAi therapeutics by establishing and maintaining a strong intellectual property position in the RNAi field, establishing strategic collaborations with leading pharmaceutical and life sciences companies, generating revenues through licensing agreements, and ultimately developing and commercializing RNAi therapeutics globally, either independently or with our strategic collaborators. We have devoted substantially all of our efforts to business planning, research, development, manufacturing and commercializing biopharmaceutical products, acquiring, filing and expanding our intellectual property rights, recruiting our management and technical staff, and raising capital. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L150:
+
+> •the potential for improved product profiles to emerge from our technologies and our ability to expand our clinical development pipeline to include additional tissue types and disease indications; [S69]
 
 ## Financial performance
 
@@ -354,6 +393,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1913:
+
+> Anti-takeover provisions in our governing documents and under Delaware law could make an acquisition of us, which may be beneficial to our stockholders, more difficult and may prevent attempts by our stockholders to replace or remove our current management or members of our board of directors. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -366,6 +409,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L172:
+
+> Any forward-looking statements in this Quarterly Report on Form 10-Q reflect our current views with respect to future events and with respect to our business and future financial performance, and involve known and unknown risks, uncertainties and other factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by these forward-looking statements. Factors that may cause actual results to differ materially from current expectations include, among other things, those described under Part II, Item 1A, “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a very competitive and rapidly changing environment. New risk factors emerge from time to time and it is not possible for management to predict all risk factors, nor can we assess the impact of all risk factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements. Given these uncertainties, you should not place undue reliance on these forward-looking statements. Except as required by law, we assume no obligation to update or revise these forward-looking statements for any reason, even if new information becomes available in the future. You are advised, … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -375,25 +422,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -435,6 +482,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K 0001178670-26-000060](https://www.sec.gov/Archives/edgar/data/1178670/000117867026000060/0001178670-26-000060-index.html) — published 2026-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNY/README.md).
+[S69] [10-Q 0001178670-26-000062](https://www.sec.gov/Archives/edgar/data/1178670/000117867026000062/alny-20260630.htm) — published 2026-07-30; retrieved 2026-11-10T20:12:33.809062+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNY/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

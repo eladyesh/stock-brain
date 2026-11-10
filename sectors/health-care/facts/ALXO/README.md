@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -145,6 +145,12 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1810182/000119312526337920/alxo-20260630.htm
+  title: 10-Q 0001193125-26-337920
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-10T20:15:40.223459+00:00'
+  sha256: 350ae5e5734281ca271c3062d0d4d90f646a954f755c536452be461efec3f0b9
 issuer_classification:
   cik: 0001810182
   classification_status: reported_sic
@@ -182,13 +188,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1810182/000119312526422992/0001193125-26-422992-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 8df28de4009e2840e007f3246e248f372a1dfe86bc42d30773582ce8fe6ff498
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -203,15 +219,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001810182.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALXO/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALXO/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALXO — ALX ONCOLOGY HOLDINGS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALXO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALXO/README.md)
 
 ## Business overview
 
@@ -225,13 +241,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L179:
+
+> We have based these forward-looking statements largely on our current expectations and projections about our business, the industry in which we operate and financial trends that we believe may affect our business, financial condition, results of operations and prospects, and these forward-looking statements are not guarantees of future performance or development. These forward-looking statements speak only as of the date of this Quarterly Report on Form 10-Q and are subject to a number of risks, uncertainties and assumptions described in the section titled “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified, you should not rely on these forward-looking statements as predictions of future events. The events and circumstances reflected in our forward-looking statements may not be achieved or occur and actual results could differ materially from those projected in the forward-looking statements. Except as required by applicable law, we do not plan to publicly update or revise any forward-looking statements contained herein, whether as a result of any new information, future events or otherwise. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4716:
+
+> The Company has determined it operates in a single operating segment and has one reportable segment. The Company reviews for indicators of impairment on a quarterly basis, including changes in how its property is being used. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L7929:
+
+> We also expect to rely on other third parties to label, package, store and distribute product candidate supplies for our clinical trials. Any performance failure on the part of our distributors could delay clinical development or marketing approval of any future product candidates or commercialization of our products, producing additional losses and depriving us of potential drug revenue. [S68]
 
 ## Customers and end markets
 
@@ -243,19 +271,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L8501:
+
+> Despite our implementation of security measures, any of the computer systems and networks belonging to or used by us or our employees and our CROs and other third-party service providers are vulnerable to damage and disruption from computer viruses, ransomware and other malicious code, unauthorized access, natural disasters, terrorism, war and telecommunication and electrical failure, as well as security breaches and incidents from inadvertent or intentional actions, or from cyber-attacks by malicious third parties (including supply chain cyber-attacks, denial-of-service attacks, social engineering and other means to affect service reliability and threaten the confidentiality, integrity and availability of information), which may compromise system infrastructure or lead to the loss, destruction, alteration, prevention of access to, disclosure, or dissemination of, or damage or unauthorized access to, our data (including trade secrets or other confidential information, intellectual property, proprietary business information, and personal information) or data that is processed or maintained on our behalf, or other assets, which could result in financial, legal, business and reputational harm to us. Any system failure, accident or security breach or incident that causes interruptions in our own or in our CROs’ or other third-party service providers’ operations could result in a … [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L7855:
+
+> Subject enrollment may also be affected if new standards of care become widely available or our competitors have ongoing competing clinical trials for product candidates that are under development for the same indications as our product candidates, and patients who would otherwise be eligible for our clinical trials instead enroll in clinical trials of our competitors’ product candidates. In addition, regulatory requirements governing clinical trials have changed and may continue to change in the future. The timing of our clinical trials depends on our ability to recruit subjects to participate in our studies and changes to regulatory requirements, if any, governing clinical trials may impede our ability to enroll subjects. Subject enrollment may also be affected by other factors, including: [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L166:
+
+> our plans and ability to obtain or protect intellectual property rights, including extensions of existing patent terms where available; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L6132:
+
+> Based on our clinical results to date in multiple oncology indications that show encouraging anti-tumor activity and tolerability, our strategy is to pursue evorpacept as a potentially critical component of future oncology treatments in combination with anticancer antibodies. [S68]
 
 ## Financial performance
 
@@ -353,6 +397,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L8255:
+
+> Our ability to compete in the highly competitive biotechnology and life science industries depends upon our ability to attract, motivate and retain highly qualified managerial, scientific and medical personnel. We are highly dependent on our management and our scientific, technical, business and medical personnel. The loss of the services provided by any of our executive officers, other key employees and other scientific and medical advisors, our inability to find suitable replacements, and the impacts of any executive officer changes, could result in delays in the development of our product candidates and harm our business. Additionally, layoffs or furloughs, including the previously completed RIF, pausing recruiting efforts, or employee attrition could also create delays in the development of our product candidates, yield unintended consequences and costs, such as the loss of institutional knowledge and expertise, attrition beyond the intended reduction in force, the distraction of employees and reduced employee morale, which could all adversely affect our reputation as an employer, making it more difficult for us to hire new employees in the future and harm our business. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -365,6 +413,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L179:
+
+> We have based these forward-looking statements largely on our current expectations and projections about our business, the industry in which we operate and financial trends that we believe may affect our business, financial condition, results of operations and prospects, and these forward-looking statements are not guarantees of future performance or development. These forward-looking statements speak only as of the date of this Quarterly Report on Form 10-Q and are subject to a number of risks, uncertainties and assumptions described in the section titled “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified, you should not rely on these forward-looking statements as predictions of future events. The events and circumstances reflected in our forward-looking statements may not be achieved or occur and actual results could differ materially from those projected in the forward-looking statements. Except as required by applicable law, we do not plan to publicly update or revise any forward-looking statements contained herein, whether as a result of any new information, future events or otherwise. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -374,25 +426,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -436,6 +488,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [SCHEDULE 13G/A 0001193125-26-352359](https://www.sec.gov/Archives/edgar/data/1810182/000119312526352359/0001193125-26-352359-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALXO/README.md).
+[S68] [10-Q 0001193125-26-337920](https://www.sec.gov/Archives/edgar/data/1810182/000119312526337920/alxo-20260630.htm) — published 2026-08-06; retrieved 2026-11-10T20:15:40.223459+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALXO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

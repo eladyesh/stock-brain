@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -182,15 +182,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001691493.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/NU/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/NU/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NU — Nu Holdings Ltd.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/NU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/NU/README.md)
 
 ## Business overview
 
@@ -368,6 +368,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [20-F 0001292814-26-002166](https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm) — published 2026-04-08; retrieved 2026-10-30T16:13:43.707273+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/NU/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/NU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-03-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/46129/000110465926091098/alnt-20260630x10q.htm
+  title: 10-Q 0001104659-26-091098
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-10T20:12:25.185529+00:00'
+  sha256: 7336da8e04a022f0aa526b6d70c79ec6233f771d0918e7d4a5e81de8291b6f58
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/46129/000114036126011362/ny20061041x1_def14a.htm
+  title: DEF 14A 0001140361-26-011362
+  published_at: '2026-03-26'
+  retrieved_at: '2026-11-10T20:12:21.442797+00:00'
+  sha256: 794a74dc4550be5ddcb4a5f200025b70eb6125b38659e69ca03eb9e694a528aa
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/46129/000110465926024123/alnt-20251231x10k.htm
+  title: 10-K 0001104659-26-024123
+  published_at: '2026-03-05'
+  retrieved_at: '2026-11-10T20:12:19.499836+00:00'
+  sha256: 7982051c6c5c066e4fdbc5fdad51bb08ee82159210c5b4ccdc4f4845c55dfba0
 issuer_classification:
   cik: 0000046129
   classification_status: reported_sic
@@ -204,13 +222,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/46129/000104746903018774/0001047469-03-018774-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f80accb0cf7c424ef92ec58d4e53fce53b9da9d0bff710634d25699cf5934836
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -225,15 +254,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000046129.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNT/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNT/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALNT — ALLIENT INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNT/README.md)
 
 ## Business overview
 
@@ -247,17 +276,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8888:
+
+> Throughout 2025 and through the first two quarters of 2026, we continue to refine our strategy to expand our vertical market focus to accelerate our growth. Throughout its history, the Company has expanded our capabilities to be a leading global provider of motion solutions. More recently, we have been building our controls and power technologies, both organically and through acquisitions. The evolution of these additional pillars of our business enhances our overall value proposition, expands our addressable markets and is aligned with mega technology trends. These advancements required us to refine our strategy to leverage the value opportunity that exists in three technology pillars – Motion, Controls, and Power. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L3839:
+
+> The Company disaggregates revenue from contracts with customers into geographical regions and target markets. The Company determines that disaggregating revenue into these categories achieves the disclosure objective to depict how the nature, amount, timing, and uncertainty of revenue and cash flows are affected by economic factors. As noted below in Note 17, Segment Information, the Company’s business consists of one reportable segment. Revenue by geographic region is based on point of shipment origin. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8885:
+
+> We are a global company that is engaged in the business of designing, manufacturing, and selling precision motion, control, power, and structural composites to provide integrated system solutions as well as individual products, to a broad spectrum of customers throughout the world primarily for the industrial, vehicle, medical, and aerospace and defense markets. We are headquartered in Williamsville, NY, and have operations in the United States, Canada, Mexico, Europe, and Asia-Pacific. We are known worldwide for our expertise in electro-magnetic, mechanical, and electronic motion technology. We sell component and integrated controlled motion solutions to end customers and OEMs through our own direct sales force and authorized manufacturers’ representatives and distributors. Our products include nano precision positioning systems, servo control systems, motion controllers, digital servo amplifiers and drives, brushless servo, torque, and coreless motors, brush motors, integrated motor-drives, gear motors, gearing, incremental and absolute optical encoders, active (electronic) and passive (magnetic) filters for power quality and harmonic issues, Industrial safety rated input/output Modules, Universal Industrial Communications Gateways, light-weighting technologies, transformers, and other controlled motion-related products. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-26, L897:
+
+> been committed to responsible and sustainable business practices that considered the best interest of our customers, employees, suppliers, communities, and other stakeholders. [S69]
 
 ## Industry and value chain
 
@@ -265,19 +310,35 @@ SEC-reported SIC **3825**: Instruments For Meas & Testing of  Electricity & Elec
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8897:
+
+> The current geopolitical conflicts are creating higher levels of economic uncertainty and increased volatility with respect to energy prices, interest rates, our supply chain (in particular, with respect to changes and proposed changes to tariffs and trade policies), and certain customer ordering patterns. We are closely monitoring the developments and continue to adjust our production platform to react to changing customer ordering patterns. The impact of the conflicts on our operational and financial performance will depend on future developments that cannot be predicted. [S67]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-05, L378:
+
+> Our products and solutions are sold into the global market with a large and diverse group of competitors that vary by product, geography, industry and application. The controlled motion market is highly fragmented with many competitors, some of which are substantially larger and have greater resources than Allient. We believe our competitive advantages include our electro-magnetic, mechanical and electronic controlled motion expertise, the breadth of our motor technologies and our ability to integrate these technologies with our encoders, gearing, power electronics, digital control technologies and network/feedback communications capabilities, as well as our global presence. Unlike many of our competitors, we are unique in our ability to provide custom-engineered controlled motion solutions that integrate the products we manufacture such as embedded or external electrical control solutions with our motors. We compete on [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-05, L321:
+
+> All statements contained herein that are not statements of historical fact constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. Forward-looking statements include, without limitation, any statement that may predict, forecast, indicate, or imply future results, performance, or achievements, and may contain the word “believe,” “anticipate,” “expect,” “project,” “intend,” “will continue,” “will likely result,” “should” or words or phrases of similar meaning. Forward-looking statements involve known and unknown risks and uncertainties that may cause actual results to differ materially from the expected results described in the forward-looking statements. The risks and uncertainties include those associated with: the domestic and foreign general business and economic conditions in the markets we serve, including political and currency risks and adverse changes in local legal and regulatory environments; the severity, magnitude and duration of weather, natural disaster, or pandemic-related events, including impacts of businesses’ and governments’ responses to such events on our operations and personnel, and on commercial activity and demand across our and our customers’ businesses, and on global supply chains; the ability to protect the Company’s intellectual property; our ability to sustain, manage or forecast our … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L8888:
+
+> Throughout 2025 and through the first two quarters of 2026, we continue to refine our strategy to expand our vertical market focus to accelerate our growth. Throughout its history, the Company has expanded our capabilities to be a leading global provider of motion solutions. More recently, we have been building our controls and power technologies, both organically and through acquisitions. The evolution of these additional pillars of our business enhances our overall value proposition, expands our addressable markets and is aligned with mega technology trends. These advancements required us to refine our strategy to leverage the value opportunity that exists in three technology pillars – Motion, Controls, and Power. [S67]
 
 ## Financial performance
 
@@ -396,6 +457,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L10263:
+
+> Management uses Adjusted net income and Adjusted diluted earnings per share to assess the Company’s consolidated financial and operating performance. Adjusted net income and Adjusted diluted earnings per share are provided for informational purposes only and are not a measure of financial performance under GAAP. These measures help management make decisions that are expected to facilitate meeting current financial goals as well as achieving optimal financial performance. Adjusted net income provides management with a measure of financial performance of the Company based on operational factors as it removes the impact of certain non-routine items from the Company’s operating results. Adjusted diluted earnings per share provides management with an indication of how Adjusted net income would be reflected on a per share basis for comparison to the GAAP diluted earnings per share measure. Adjusted net income is a key metric used by senior management and the Company’s board of directors to review the consolidated financial performance of the business. This measure adjusts net income determined in accordance with GAAP to reflect changes in financial results associated with the highlighted expense and income items. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -408,6 +473,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L8883:
+
+> New risk factors emerge from time to time, and it is not possible for management to predict all such risk factors, nor can it assess the impact of all such risk factors on its business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements. The Company’s expectations, beliefs and projections are believed to have a reasonable basis; however, the Company makes no assurance that expectations, beliefs, or projections will be achieved. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -417,25 +486,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -481,6 +550,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S66] [10-K 0001104659-26-024123](https://www.sec.gov/Archives/edgar/data/46129/000110465926024123/0001104659-26-024123-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALNT/README.md).
+[S67] [10-Q 0001104659-26-091098](https://www.sec.gov/Archives/edgar/data/46129/000110465926091098/alnt-20260630x10q.htm) — published 2026-08-05; retrieved 2026-11-10T20:12:25.185529+00:00.
+
+[S69] [DEF 14A 0001140361-26-011362](https://www.sec.gov/Archives/edgar/data/46129/000114036126011362/ny20061041x1_def14a.htm) — published 2026-03-26; retrieved 2026-11-10T20:12:21.442797+00:00.
+
+[S70] [10-K 0001104659-26-024123](https://www.sec.gov/Archives/edgar/data/46129/000110465926024123/alnt-20251231x10k.htm) — published 2026-03-05; retrieved 2026-11-10T20:12:19.499836+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALNT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

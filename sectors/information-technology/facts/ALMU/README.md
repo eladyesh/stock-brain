@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1828805/000121390026111607/ea0309405-8k_aeluma.htm
+  title: 8-K 0001213900-26-111607
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-10T20:12:07.665508+00:00'
+  sha256: da328db31521fcedcc1ca3470a0b99406124bdc53aa286288d7f9d4db3541a60
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1828805/000121390026105227/ea0306962-01.htm
+  title: DEF 14A 0001213900-26-105227
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-10T20:12:05.948608+00:00'
+  sha256: 6e5c76ad9d43c1913b4417ccf79d5f2c326fbd6c376992a3713f8ac784a776b2
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1828805/000121390026100584/ea0305364-10k_aeluma.htm
+  title: 10-K 0001213900-26-100584
+  published_at: '2026-09-16'
+  retrieved_at: '2026-11-10T20:12:04.104503+00:00'
+  sha256: 142d392ef24aed799a28ebc9e4345cc90337d0a9a05857e65b8e81ab85ef1110
 issuer_classification:
   cik: 0001828805
   classification_status: reported_sic
@@ -192,13 +210,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1828805/000121390021035347/0001213900-21-035347-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a1a438d9dd8e18e9c73758daafb2818d38e24adc07e2a0356b5c781a80ac41cd
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -213,15 +242,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001828805.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMU/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALMU/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALMU — Aeluma, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALMU/README.md)
 
 ## Business overview
 
@@ -235,17 +264,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L603:
+
+> We are an “emerging growth company,” as defined in the Jumpstart Our Business Startups Act of 2012, and a “smaller reporting company,” as defined in the Exchange Act. As an emerging growth company and smaller reporting company, we have opted to comply with the applicable reduced requirements for disclosure about our executive compensation arrangements and other matters. For so long as we remain an emerging growth company, we will not be required to submit certain executive compensation matters to our stockholders for advisory votes, such as “say on pay” and “say on frequency” votes, as well as include the pay versus performance disclosures in a proxy statement. We may continue to be a smaller reporting company even after we no longer qualify as an emerging growth company. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-09-16, L3750:
+
+> reportable segment, all financial information disclosed herein represents the results of the Company’s single reportable segment. [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-09-16, L458:
+
+> are uncertain, and broad market forecasts may not be representative of the portion that is addressable by our products. We prioritize [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-09-16, L800:
+
+> and components that our customers incorporate into their end-products and systems, which may require development effort that may involve [S71]
 
 ## Industry and value chain
 
@@ -253,19 +298,35 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-09-16, L405:
+
+> quality systems, and stronger relationships with customers and supply chain partners. Competitors may also develop alternative technologies [S71]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L797:
+
+> All of the above severance benefits are contingent on Mr. Stewart signing and not revoking a release of claims and remaining in strict compliance with the terms of his employment agreement and his existing non-competition, non-solicitation, and confidentiality agreement with the Company and any other written agreement between him and the Company. In addition to the specific terms summarized above, Mr. Stewart is eligible to participate in the other compensation and benefits programs generally available to Company employees. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-09-30, L448:
+
+> Steven P. DenBaars has served as a Distinguished Professor of Materials and Electrical and Computer Engineering at the University of California Santa Barbara since 1991. Prof. DenBaars has been very active in entrepreneurship, having helped co-found several start-up companies in the field of photonics and electronics. In 1996, he co-founded Nitres Inc., which was acquired by Cree Inc. in May 2000. In 2013, he co-founded SLD Laser, and helped build the company to over 150 employees before being acquired by Kyocera Corporation in 2021. In 2014, he assisted Dr. Jeffry Shealy in the founding of Akoustis Technologies Inc. (AKTS) for commercialization of RF Filters. In 2022, he joined the Board of Directors of SmartKem Ltd., a high-performance organic semiconductor company, and in 2025, he joined the Board of Palomino Laboratories Inc. He was named an IEEE Fellow in 2005, a member of the National Academy of Engineers in 2012, a member of the National Academy of Inventors in 2014, and an Optica Fellow in 2023. He has authored or co-authored over 1200 technical publications, 380 conference presentations, and over 193 patents. Dr. DenBaars has a Bachelor of Science in Metallurgical Engineering from the University of Arizona and a Master of Science and a Ph.D. in Material Science and Electrical Engineering from the University of Southern California. We believe Dr. DenBaars qualifies as … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-09-16, L588:
+
+> capital or cash flows necessary to expand our operations and invest in new enterprises, which could reduce our ability to compete successfully [S71]
 
 ## Financial performance
 
@@ -378,6 +439,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-22, L89:
+
+> our President, Chief Executive Officer, and Chairman of our Board of Directors, adopted a Rule 10b5-1 trading arrangement that provided [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -390,6 +455,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-09-16, L262:
+
+> in Part I, Item 1A. “Risk Factors” of this report and throughout Part II, Item 7. “Management’s Discussion [S71]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -399,25 +468,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -461,6 +530,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S32] [10-K 0001213900-26-100584](https://www.sec.gov/Archives/edgar/data/1828805/000121390026100584/0001213900-26-100584-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALMU/README.md).
+[S69] [8-K 0001213900-26-111607](https://www.sec.gov/Archives/edgar/data/1828805/000121390026111607/ea0309405-8k_aeluma.htm) — published 2026-10-22; retrieved 2026-11-10T20:12:07.665508+00:00.
+
+[S70] [DEF 14A 0001213900-26-105227](https://www.sec.gov/Archives/edgar/data/1828805/000121390026105227/ea0306962-01.htm) — published 2026-09-30; retrieved 2026-11-10T20:12:05.948608+00:00.
+
+[S71] [10-K 0001213900-26-100584](https://www.sec.gov/Archives/edgar/data/1828805/000121390026100584/ea0305364-10k_aeluma.htm) — published 2026-09-16; retrieved 2026-11-10T20:12:04.104503+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALMU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

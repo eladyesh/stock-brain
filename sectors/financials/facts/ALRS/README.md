@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -150,6 +150,24 @@ sources:
   published_at: '2026-03-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/903419/000143774926029099/alrs20260825_8k.htm
+  title: 8-K 0001437749-26-029099
+  published_at: '2026-08-27'
+  retrieved_at: '2026-11-10T20:14:02.575539+00:00'
+  sha256: 2d93ccb860a3d4c9177295e64cc348fabd918e1cc867d62583ddba70b1427091
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/903419/000143774926025463/alrs20260630_10q.htm
+  title: 10-Q 0001437749-26-025463
+  published_at: '2026-08-03'
+  retrieved_at: '2026-11-10T20:13:59.987418+00:00'
+  sha256: e332c018f5c802acb3e02687f6b564833b6d42bf9c40a066f7809612d7bddfb6
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/903419/000143774926006820/alrs20251231_10k.htm
+  title: 10-K 0001437749-26-006820
+  published_at: '2026-03-04'
+  retrieved_at: '2026-11-10T20:13:54.928457+00:00'
+  sha256: 647ab5248b58ea969ca302ab9edd4db459381294cfd15b65c40b115ec3bc098f
 issuer_classification:
   cik: 0000903419
   classification_status: reported_sic
@@ -199,13 +217,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/903419/000155837021005518/0001558370-21-005518-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: eba432ee9fd132dfc75c9b2a67cebd44037ef3238dd07b35b9cc1450cacb50ce
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -220,15 +249,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000903419.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALRS/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALRS/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ALRS — ALERUS FINANCIAL CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALRS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALRS/README.md)
 
 ## Business overview
 
@@ -242,17 +271,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-03, L5756:
+
+> emerging issues related to the development and use of artificial intelligence that could give rise to legal or regulatory action, damage our reputation, or otherwise materially harm our business or customers; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-03, L3935:
+
+> Reportable segments are determined based on the services offered, the significance of the services offered, the significance of those services to the Company’s financial statements, and management’s regular review of the operating results of those services. The Company currently operates through three operating segments: banking, retirement and benefit services, and wealth advisory services. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-04, L1145:
+
+> Like most investment advisory and wealth management businesses, the investment advisory contracts the Company has with the Company’s clients are typically terminable by the client without cause upon less than 30 days’ notice. As a result, even short-term declines in the performance of the securities the Company manages, which can result from factors outside the Company’s control, such as adverse changes in market or economic conditions or the poor performance of some of the investments the Company has recommended to the Company’s clients, could lead some of its clients to move assets under the Company’s management to other asset classes such as broad index funds or treasury securities, or to investment advisors which have investment product offerings or investment strategies different than ours. Therefore, the Company’s operating results are heavily dependent on the financial performance of the Company’s investment portfolios and the investment strategies the Company employs in the Company’s investment advisory businesses and even short-term declines in the performance of the investment portfolios the Company manages for the Company’s clients, whatever the cause, could result in a decline in AUM and a corresponding decline in investment management fees, which would adversely affect the Company’s results of operations. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-03, L5751:
+
+> rapid and expensive technological changes implemented by the Company and other parties in the financial services industry, including third-party vendors, which may be more difficult to implement or more expensive than anticipated or which may have unforeseen consequences to us and our customers, including the development and implementation of tools incorporating artificial intelligence; [S68]
 
 ## Industry and value chain
 
@@ -260,19 +305,35 @@ SEC-reported SIC **6021**: National Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-04, L338:
+
+> \| disruptions to the global supply chain, including as a result of domestic or foreign policies; [S70]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-03, L5761:
+
+> increased competition in the financial services industry, including from non-banks such as credit unions, financial technology companies and digital asset service providers; [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-04, L1110:
+
+> Maintenance of the Company’s reputation depends not only on its success in maintaining the Company’s service-focused culture and controlling and mitigating the various risks described in this report, but also on the Company’s success in identifying and appropriately addressing issues that may arise in the areas described above. Maintaining the Company’s reputation also depends on its ability to successfully prevent third parties from infringing on the “Alerus” brand and associated trademarks and the Company’s other intellectual property. Defense of the Company’s reputation, trademarks and other intellectual property, including through litigation, could result in costs that could have a material adverse effect on the Company’s business, financial condition, results of operations and growth prospects. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-04, L1011:
+
+> The Company may not be successful in implementing the Company’s organic growth strategy, which could have a material adverse effect on the Company’s business, financial condition, results of operations and growth prospects. [S70]
 
 ## Financial performance
 
@@ -376,6 +437,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-27, L74:
+
+> On August 27, 2026, Alerus Financial Corporation (the “Company”) announced that its Board of Directors (the “Board”) declared a cash dividend of $0.22 per share of its common stock. The dividend is payable on October 9, 2026, to stockholders of record on September 25, 2026. A copy of the press release announcing the dividend is attached as Exhibit 99.1 to this Form 8-K and is incorporated herein by reference. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +453,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-03, L5841:
+
+> any other risks described in the “Risk Factors” section of this report and in other reports filed by Alerus Financial Corporation with the SEC. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +466,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -461,6 +530,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S48] [10-K 0001437749-26-006820](https://www.sec.gov/Archives/edgar/data/903419/000143774926006820/0001437749-26-006820-index.html) — published 2026-03-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/ALRS/README.md).
+[S67] [8-K 0001437749-26-029099](https://www.sec.gov/Archives/edgar/data/903419/000143774926029099/alrs20260825_8k.htm) — published 2026-08-27; retrieved 2026-11-10T20:14:02.575539+00:00.
+
+[S68] [10-Q 0001437749-26-025463](https://www.sec.gov/Archives/edgar/data/903419/000143774926025463/alrs20260630_10q.htm) — published 2026-08-03; retrieved 2026-11-10T20:13:59.987418+00:00.
+
+[S70] [10-K 0001437749-26-006820](https://www.sec.gov/Archives/edgar/data/903419/000143774926006820/alrs20251231_10k.htm) — published 2026-03-04; retrieved 2026-11-10T20:13:54.928457+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ALRS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

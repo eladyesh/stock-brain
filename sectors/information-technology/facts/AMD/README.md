@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/24b45739301817a91334ded2f20d99ded4cc7ea6/sectors/information-technology/companies/AMD/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/6dea3be4625120db9da80155a96f14ed62690190/sectors/information-technology/companies/AMD/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -201,11 +201,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2488/000119312522123652/0001193125-22-123652-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: f10d35e136ae44e1bb32f1c493d4db039de6e3a96c61ff192e7dc5431652ed13
-  last_attempt_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-11T20:10:56.246440+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 10
@@ -219,16 +219,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/24b45739301817a91334ded2f20d99ded4cc7ea6/sectors/information-technology/companies/AMD/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMD/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+  source_url: https://github.com/eladyesh/stock-brain/blob/6dea3be4625120db9da80155a96f14ed62690190/sectors/information-technology/companies/AMD/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMD/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMD — ADVANCED MICRO DEVICES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMD/README.md)
 
 ## Business overview
 
@@ -419,11 +419,11 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:27:06.478312+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/24b45739301817a91334ded2f20d99ded4cc7ea6/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/6dea3be4625120db9da80155a96f14ed62690190/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -483,6 +483,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [144 0001950047-26-009483](https://www.sec.gov/Archives/edgar/data/2488/000195004726009483/0001950047-26-009483-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMD/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

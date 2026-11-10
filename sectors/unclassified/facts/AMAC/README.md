@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -106,6 +106,12 @@ sources:
   published_at: '2026-07-21'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S25
+  url: https://www.sec.gov/Archives/edgar/data/2110119/000121390026094378/ea0303242-10q_amr.htm
+  title: 10-Q 0001213900-26-094378
+  published_at: '2026-08-27'
+  retrieved_at: '2026-11-10T20:16:12.921181+00:00'
+  sha256: 3efe1a51905b016152f5d208b8840f35d5ab2655748c14d85d3a1f7ed6bfbcc1
 issuer_classification:
   cik: 0002110119
   classification_status: reported_sic
@@ -134,13 +140,19 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2110119/000121390026097666/0001213900-26-097666-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7b3c3e7f97898edc190beb7cb11ef22bad218d463175c07f4b52c2bbe8e81c3e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -152,15 +164,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMAC/README.md
-full_history_commit: 2a475d5f7d7de42ae2b318e51e43cda99027f72f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMAC/README.md
+full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMAC — AMR Resources Acquisition Corp.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMAC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMAC/README.md)
 
 ## Business overview
 
@@ -174,9 +186,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-27, L427:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S25]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-27, L529:
+
+> The Company’s CODM has been identified as the Chief Financial Officer, who reviews the assets, operating results, and financial metrics for the Company as a whole to make decisions about allocating resources and assessing financial performance. Accordingly, management has determined that the Company only has one reportable segment. [S25]
 
 ## Products and services
 
@@ -191,6 +211,10 @@ Not available: substantive research has not been completed. Describe buyers, use
 SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — 10-Q, filed 2026-08-27, L486:
+
+> The United States and global markets are experiencing volatility and disruption following the geopolitical instability resulting from the ongoing Russia-Ukraine conflict and the Israel-Hamas conflict. In response to the ongoing Russia-Ukraine conflict, the North Atlantic Treaty Organization (“NATO”) deployed additional military forces to eastern Europe, and the United States, the United Kingdom, the European Union and other countries have announced various sanctions and restrictive actions against Russia, Belarus and related individuals and entities, including the removal of certain financial institutions from the Society for Worldwide Interbank Financial Telecommunication payment system. Certain countries, including the United States, have also provided and may continue to provide military aid or other assistance to Ukraine and to Israel, increasing geopolitical tensions among a number of nations. The invasion of Ukraine by Russia and the Israel-Hamas conflict and the resulting measures that have been taken, and could be taken in the future, by NATO, the United States, the United Kingdom, the European Union, Israel and its neighboring states and other countries have created global security concerns that could have a lasting impact on regional and global economies. Although the length and impact of the ongoing conflicts are highly unpredictable, they could lead to market … [S25]
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -264,6 +288,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-27, L401:
+
+> Upon the closing of the Initial Public Offering on July 20, 2026, an amount of $260,000,000 ($10.00 per Unit) from the net proceeds of the sale of the Units, and a portion of the proceeds of the sale of the Private Placement Units, are held in a trust account (the “Trust Account”) and may only be invested in U.S. government treasury obligations with a maturity of 185 days or less or in money market funds meeting certain conditions under Rule 2a-7 under the Investment Company Act, which invest only in direct U.S. government treasury obligations; the holding of these assets in this form is intended to be temporary and for the sole purpose of facilitating the intended Business Combination. To mitigate the risk that might be deemed to be an investment company for purposes of the Investment Company Act, which risk increases the longer that the Company holds investments in the Trust Account, the Company may, at any time (based on management team’s ongoing assessment of all factors related to the potential status under the Investment Company Act), instruct the trustee to liquidate the investments held in the Trust Account and instead to hold the funds in the Trust Account in cash or in an interest bearing demand deposit account at a bank. Except with respect to interest earned on the funds held in the Trust Account that may be released to the Company to pay its taxes, if any, the … [S25]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -276,6 +304,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-27, L577:
+
+> results to differ materially from those anticipated in the forward-looking statements, please refer to the Risk Factors section of the [S25]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -285,25 +317,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -343,6 +375,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [8-K 0001213900-26-080043](https://www.sec.gov/Archives/edgar/data/2110119/000121390026080043/0001213900-26-080043-index.html) — published 2026-07-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2a475d5f7d7de42ae2b318e51e43cda99027f72f/brain/companies/AMAC/README.md).
+[S25] [10-Q 0001213900-26-094378](https://www.sec.gov/Archives/edgar/data/2110119/000121390026094378/ea0303242-10q_amr.htm) — published 2026-08-27; retrieved 2026-11-10T20:16:12.921181+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMAC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
