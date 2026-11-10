@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -416,6 +416,30 @@ sources:
   published_at: '2026-06-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1500412/000119312526343443/ambq-20260811.htm
+  title: 8-K 0001193125-26-343443
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-10T20:17:06.052368+00:00'
+  sha256: fc87c8b24c18786c432ee2c34f0f8b2e263681ff38ef169496d5a74c255c849c
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1500412/000119312526344145/ambq-20260630.htm
+  title: 10-Q 0001193125-26-344145
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-10T20:17:07.798447+00:00'
+  sha256: c121fc44b4f55914d64a0e2d266d8a7f6c7a6587ce993b3d4d6f3f2d5b60073b
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1500412/000119312526170349/ambq-20260422.htm
+  title: DEF 14A 0001193125-26-170349
+  published_at: '2026-04-22'
+  retrieved_at: '2026-11-10T20:17:04.483170+00:00'
+  sha256: 0ebaa8a14ae978f03800386186c34667f6a2f7bc7fd851bdf605f63805da4347
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/1500412/000119312526094004/ambq-20251231.htm
+  title: 10-K 0001193125-26-094004
+  published_at: '2026-03-05'
+  retrieved_at: '2026-11-10T20:17:02.704999+00:00'
+  sha256: d24c46b5246729c58f3e639fa93502b1d5f66c03ab61ac9fedc6bcd2ddefcb52
 issuer_classification:
   cik: '0001500412'
   classification_status: reported_sic
@@ -453,13 +477,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1500412/000119312526343443/0001193125-26-343443-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 01ef993cbf33610a96de5b4e4680594f0a71371be3f31b2983ac38354053404a
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -483,17 +518,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L4556:
+
+> anticipated trends, challenges and growth in our business and the markets in which we operate, including pricing expectations; [S60]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-11, L4097:
+
+> The Company’s chief operating decision maker ("CODM") is the Company’s chief executive officer ("CEO"). The CODM reviews the financial information presented on a consolidated basis for purposes of making operating decisions, assessing financial performance and allocating resources. The CODM uses revenue, gross margin, operating expenses and net loss by its single operating and reportable segment to make strategic business decisions. [S60]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-11, L4552:
+
+> our ability to compensate for decreases in average selling prices of our products or increases in prices for inputs to our products; [S60]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-11, L4600:
+
+> Our customers rely on Ambiq to deliver AI compute closer to end users (edge environments) where power consumption challenges are the most severe. We seek to drive growth in AI adoption at the edge in the personal devices, medical/healthcare, industrial edge and smart home and building markets and continue to set new standards in edge AI performance and power efficiency. Over time, we expect to integrate our ultra-low power technology into additional chip products that benefit from greater power efficiency, including high-performance compute applications such as AI data centers and automotive. [S60]
 
 ## Industry and value chain
 
@@ -501,17 +552,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3269:
+
+> The Company's products depend on a sole supplier of wafers and a limited number of third-party manufacturers. The continued and timely supply of input materials and the availability of manufacturing capacity and packaging and testing services impact the Company's ability to meet customer demand. Supply chain disruptions, shortages of raw materials, and manufacturing limitations could limit the Company's ability to meet customer demand and result in delayed, reduced or canceled orders. The Company has established relationships with leading suppliers and partners, and believes these relationships increase the resiliency of the Company's supply chain for its customers. From time to time, subject to inventory disruptions, the Company's customers may buy and hold excess inventories. Consequently, the Company may be subject to resulting fluctuations in the demand for its products. [S60]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-11, L4546:
+
+> the timing and success of new features, integrations, capabilities, and enhancements by us, or by our competitors to their products, including the successful integration of AI; [S60]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-11, L4586:
+
+> our expectations regarding our ability to obtain, maintain, protect and enforce intellectual property protection for our technology; and [S60]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L4548:
+
+> our end customer relationships and our ability to retain and expand our end customer relationships and to achieve design wins; [S60]
 
 ## Financial performance
 
@@ -746,6 +813,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3757:
+
+> The holders of common stock are entitled to receive dividends at the discretion of the board of directors, subject to preferences that may apply to shares of preferred stock outstanding at the time. [S60]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -758,6 +829,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L3107:
+
+> The loss of one or more of these customers could have a material adverse impact on the Company’s results of operations and financial position. [S60]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -767,25 +842,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -849,6 +924,10 @@ Latest 50 filing metadata records of 186 retained records. A filing link is evid
 | 2026-06-10 | 4 | 0001266870-26-000002 | — | [S56] |
 | 2026-06-08 | 8-K | 0001193125-26-261248 | — | [S57] |
 | 2026-06-04 | 4 | 0001312143-26-000008 | — | [S58] |
+
+Source excerpt — DEF 14A, filed 2026-04-22, L609:
+
+> Neither the Company’s Bylaws nor other governing documents or law require stockholder ratification of the selection of KPMG LLP as the Company’s independent registered public accounting firm. However, the Audit Committee of the Board of Directors is submitting the selection of KPMG LLP to the stockholders for ratification as a matter of good corporate practice. If the stockholders fail to ratify the selection, the Audit Committee will reconsider whether or not to retain KPMG LLP. Even if the selection is ratified, the Audit Committee in its discretion may select a different independent registered public accounting firm at any time during the year if they determine that such a change would be in the best interests of the Company and its stockholders. [S61]
 
 ## Sources and change log
 
@@ -967,5 +1046,13 @@ Latest 50 filing metadata records of 186 retained records. A filing link is evid
 [S57] [8-K 0001193125-26-261248](https://www.sec.gov/Archives/edgar/data/1500412/000119312526261248/0001193125-26-261248-index.html) — published 2026-06-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S58] [4 0001312143-26-000008](https://www.sec.gov/Archives/edgar/data/1500412/000131214326000008/0001312143-26-000008-index.html) — published 2026-06-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S59] [8-K 0001193125-26-343443](https://www.sec.gov/Archives/edgar/data/1500412/000119312526343443/ambq-20260811.htm) — published 2026-08-11; retrieved 2026-11-10T20:17:06.052368+00:00.
+
+[S60] [10-Q 0001193125-26-344145](https://www.sec.gov/Archives/edgar/data/1500412/000119312526344145/ambq-20260630.htm) — published 2026-08-11; retrieved 2026-11-10T20:17:07.798447+00:00.
+
+[S61] [DEF 14A 0001193125-26-170349](https://www.sec.gov/Archives/edgar/data/1500412/000119312526170349/ambq-20260422.htm) — published 2026-04-22; retrieved 2026-11-10T20:17:04.483170+00:00.
+
+[S62] [10-K 0001193125-26-094004](https://www.sec.gov/Archives/edgar/data/1500412/000119312526094004/ambq-20251231.htm) — published 2026-03-05; retrieved 2026-11-10T20:17:02.704999+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -485,6 +485,66 @@ sources:
   published_at: '2025-06-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/778164/000121390026086336/ea0300178-10q_alto.htm
+  title: 10-Q 0001213900-26-086336
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-10T20:15:14.292836+00:00'
+  sha256: 08cd1bc8add97b2e70e10bdee7e299f41a77711efb79ed55bc46c6d8182b1242
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/778164/000121390026086750/ea0300670-8k_alto.htm
+  title: 8-K 0001213900-26-086750
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-10T20:15:15.957432+00:00'
+  sha256: dd144ab32c07f338a58176d7ebfcf3ce5a965723020a1c457436ac3bea9cc9ef
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/778164/000121390026050384/ea0288169-def14a_alto.htm
+  title: DEF 14A 0001213900-26-050384
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-10T20:15:12.125939+00:00'
+  sha256: d575448f70fd12c08b7342c7649c989face12d9b95c65c2560e5aa673529aa66
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/778164/000121390026027687/ea0280136-10k_alto.htm
+  title: 10-K 0001213900-26-027687
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-10T20:15:10.099975+00:00'
+  sha256: 16e80658e712e54b4e000c1ee7f37dc45e4afe6845ad12770ca643f25be9b56b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/778164/000121390020001683/f8k110719a_pacificethanol.htm
+  title: 8-K/A 0001213900-20-001683
+  published_at: '2020-01-24'
+  retrieved_at: '2026-11-10T20:15:07.688250+00:00'
+  sha256: 73ff01e125452430046fe2f5e571e3e2cad4076dd1304436d17a424980137e21
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/778164/000168316817001904/paceth_8ka-070317.htm
+  title: 8-K/A 0001683168-17-001904
+  published_at: '2017-07-31'
+  retrieved_at: '2026-11-10T20:15:05.851453+00:00'
+  sha256: a62770c3849e9221dae4e47a30ca4003c2c0f9de72047f69c24a5d50caac63e2
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/778164/000101968716005418/peix_8ka-030916.htm
+  title: 8-K/A 0001019687-16-005418
+  published_at: '2016-03-10'
+  retrieved_at: '2026-11-10T20:15:01.226119+00:00'
+  sha256: 8b2755d38f43823d79cdad84d08613166ddaa5489a204d556d4c129afd1cd95a
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/778164/000101968715002954/peix_8ka.htm
+  title: 8-K/A 0001019687-15-002954
+  published_at: '2015-08-05'
+  retrieved_at: '2026-11-10T20:14:59.318524+00:00'
+  sha256: b4d9ac0f123f129efcb1c4b9a01306b5430b00ce1ef472d1eec4216d8efb0618
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/778164/000101968713002723/paceth_8ka.htm
+  title: 8-K/A 0001019687-13-002723
+  published_at: '2013-07-26'
+  retrieved_at: '2026-11-10T20:14:57.456414+00:00'
+  sha256: 6554bef2ec6141edd33b870db956e47b4a577fe8db9ec6fcfa06be72572648e5
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/778164/000101968711003820/paceth_8ka.htm
+  title: 8-K/A 0001019687-11-003820
+  published_at: '2011-12-12'
+  retrieved_at: '2026-11-10T20:14:55.558861+00:00'
+  sha256: babcab22d8be033a9917ba30bce29297b0218753a09b72b57a7cabe3337c663c
 issuer_classification:
   cik: 0000778164
   classification_status: reported_sic
@@ -546,13 +606,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/778164/000101968711003820/0001019687-11-003820-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: daceccfeb0454807a22d43f6b2628751ef4d62b48dbd93e163bf684bbaa12807
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -576,17 +647,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1139:
+
+> The following discussion and analysis should be read in conjunction with our condensed consolidated financial statements and notes to condensed consolidated financial statements included elsewhere in this report. This report and our condensed consolidated financial statements and notes to condensed consolidated financial statements contain forward-looking statements, which generally include the plans and objectives of management for future operations, including plans and objectives relating to our future economic performance and our current beliefs regarding revenues we might generate and profits we might earn if we are successful in implementing our business and growth strategies, and statements of the assumptions underlying or relating to any of the foregoing. The forward-looking statements and associated risks may include, relate to or be qualified by other important factors, including: [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L859:
+
+> A segment is a component of an enterprise whose operating results are regularly reviewed by the enterprise’s chief operating decision maker (“CODM”) to make decisions about resources to be allocated to the segment and assess its performance, and for which discrete financial information is available. The Company’s CODM is the Company’s executive committee, which is led by the Company’s Chief Executive Officer (“CEO”) and includes its Chief Financial Officer, Chief Operating Officer, Chief Commercial Officer and Chief Legal Officer (“Executive Committee”). The Company manages and assesses the performance of its reportable segments by its gross profit (loss). As part of the Executive Committee’s review of segment-level performance, each member of the Executive Committee reviews the gross profit of the Company’s reportable segments and provides expertise and analysis from their respective areas which drive the evaluation of the performance of the Company’s reportable segments and allocation of resources to those segments. Even though the CEO has the authority to override the other members for strategic or other reasons, key decisions are made jointly by the Executive Committee. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1160:
+
+> Our mission is to produce the highest quality, sustainable ingredients that make everyday products better. We intend to accomplish this goal in part by investing in our specialized and higher-value specialty alcohol production and distribution infrastructure, expanding production in high-demand essential ingredients, expanding and extending the sale of our products into new regional and international markets, building efficiencies and economies of scale and by capturing a greater portion of the value stream. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1170:
+
+> We have extensive and long-standing customer relationships, both domestic and international, for our specialty alcohols, renewable fuels and essential ingredients. These customers include producers and distributors of ingredients for cosmetics, sanitizers and related products, distilled spirits producers, food products manufacturers, producers of personal health/consumer health and personal care hygiene products, and global trading firms. [S68]
 
 ## Industry and value chain
 
@@ -594,17 +681,33 @@ SEC-reported SIC **2860**: Industrial Organic Chemicals. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1455:
+
+> The prices of our products are volatile and subject to large fluctuations. For example, the market price of fuel-grade ethanol is dependent upon many factors, including the supply of ethanol and the price of gasoline, which is in turn dependent upon the price of petroleum which itself is highly volatile, difficult to forecast and influenced by a wide variety of global economic and geopolitical conditions, including decisions concerning petroleum output by the Organization of Petroleum Exporting Countries (OPEC) and their allies, an intergovernmental organization that seeks to manage the price and supply of oil on the global energy market. Other important factors that impact the price of petroleum include war and threats of war, attacks on or threats to shipping vessels as has recently occurred in the Red Sea, the consequent rerouting of supply lines to less direct or more expensive paths, and other supply chain disruptions. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1504:
+
+> \| \| ● \| limit our flexibility to pursue strategic opportunities or react to changes in our business and the industries in which we operate and, consequently, place us at a competitive disadvantage to our competitors who have less debt; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1571:
+
+> Our and our business partners’ or contractors’ failure to fully comply with applicable data privacy or similar laws could lead to significant fines and require onerous corrective action. In addition, data security breaches experienced by us or our business partners or contractors could result in the loss of trade secrets or other intellectual property, public disclosure of sensitive commercial data, and the exposure of personally identifiable information (including sensitive personal information) of our employees, customers, suppliers, contractors and others. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1183:
+
+> At our Columbia facility, we began work to add a third CO2 storage tank and expect the tank to be operational in the fourth quarter. This expanded storage capacity will allow us to further capitalize on the growing demand for premium CO2 in the Pacific Northwest. We continue advancing multiple pathways to further monetize CO2 production, including opportunities for utilization and sequestration. Our strategy emphasizes low-capital, high-return projects while preserving flexibility as regulatory and commercial markets continue to evolve. We intend to move quickly by pursuing partnerships with stakeholders that already have compression capabilities, allowing us to accelerate commercialization. [S68]
 
 ## Financial performance
 
@@ -1222,6 +1325,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1560:
+
+> We intend to retain a significant portion of any future earnings to finance the development, operation and expansion of our business. We do not anticipate paying any cash dividends on our common stock in the near future. The declaration, payment, and amount of any future dividends will be made at the discretion of our board of directors, and will depend upon, among other things, our results of operations, cash flows, and financial condition, operating and capital requirements, compliance with any applicable debt covenants, and other factors our board of directors considers relevant. There is no assurance that future dividends will be paid, and, if dividends are paid, there is no assurance of the amount of any such dividend. Unless our board of directors determines to pay dividends, our stockholders will be required to look solely to appreciation in the value of our common stock to realize any gain on their investment. There can be no assurance that any such appreciation will occur. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1234,6 +1341,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1150:
+
+> Any of the factors described immediately above or referenced from time to time in our filings with the Securities and Exchange Commission or in the “Risk Factors” section below could cause our financial results, including our net income or loss or growth in net income or loss, to differ materially from prior results, which in turn could, among other things, cause the price of our common stock to fluctuate substantially. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1243,25 +1354,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1325,6 +1436,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-07-09 | 3 | 0001213900-25-062170 | — | [S65] |
 | 2025-07-09 | 3 | 0001213900-25-062168 | — | [S66] |
 | 2025-06-27 | 8-K | 0001213900-25-058625 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-30, L1555:
+
+> \| (1) \| Annual run rate is the number of shares of common stock and options granted during the year, divided [S70]
 
 ## Sources and change log
 
@@ -1461,5 +1576,25 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [3 0001213900-25-062168](https://www.sec.gov/Archives/edgar/data/778164/000121390025062168/0001213900-25-062168-index.html) — published 2025-07-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [8-K 0001213900-25-058625](https://www.sec.gov/Archives/edgar/data/778164/000121390025058625/0001213900-25-058625-index.html) — published 2025-06-27; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [10-Q 0001213900-26-086336](https://www.sec.gov/Archives/edgar/data/778164/000121390026086336/ea0300178-10q_alto.htm) — published 2026-08-07; retrieved 2026-11-10T20:15:14.292836+00:00.
+
+[S69] [8-K 0001213900-26-086750](https://www.sec.gov/Archives/edgar/data/778164/000121390026086750/ea0300670-8k_alto.htm) — published 2026-08-07; retrieved 2026-11-10T20:15:15.957432+00:00.
+
+[S70] [DEF 14A 0001213900-26-050384](https://www.sec.gov/Archives/edgar/data/778164/000121390026050384/ea0288169-def14a_alto.htm) — published 2026-04-30; retrieved 2026-11-10T20:15:12.125939+00:00.
+
+[S71] [10-K 0001213900-26-027687](https://www.sec.gov/Archives/edgar/data/778164/000121390026027687/ea0280136-10k_alto.htm) — published 2026-03-13; retrieved 2026-11-10T20:15:10.099975+00:00.
+
+[S72] [8-K/A 0001213900-20-001683](https://www.sec.gov/Archives/edgar/data/778164/000121390020001683/f8k110719a_pacificethanol.htm) — published 2020-01-24; retrieved 2026-11-10T20:15:07.688250+00:00.
+
+[S73] [8-K/A 0001683168-17-001904](https://www.sec.gov/Archives/edgar/data/778164/000168316817001904/paceth_8ka-070317.htm) — published 2017-07-31; retrieved 2026-11-10T20:15:05.851453+00:00.
+
+[S74] [8-K/A 0001019687-16-005418](https://www.sec.gov/Archives/edgar/data/778164/000101968716005418/peix_8ka-030916.htm) — published 2016-03-10; retrieved 2026-11-10T20:15:01.226119+00:00.
+
+[S75] [8-K/A 0001019687-15-002954](https://www.sec.gov/Archives/edgar/data/778164/000101968715002954/peix_8ka.htm) — published 2015-08-05; retrieved 2026-11-10T20:14:59.318524+00:00.
+
+[S76] [8-K/A 0001019687-13-002723](https://www.sec.gov/Archives/edgar/data/778164/000101968713002723/paceth_8ka.htm) — published 2013-07-26; retrieved 2026-11-10T20:14:57.456414+00:00.
+
+[S77] [8-K/A 0001019687-11-003820](https://www.sec.gov/Archives/edgar/data/778164/000101968711003820/paceth_8ka.htm) — published 2011-12-12; retrieved 2026-11-10T20:14:55.558861+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

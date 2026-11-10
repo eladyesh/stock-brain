@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -472,6 +472,42 @@ sources:
   published_at: '2026-04-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000145920026000014/alrm-20260806.htm
+  title: 8-K 0001459200-26-000014
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-10T20:13:42.733960+00:00'
+  sha256: 3d4aba2375179155f1db83bab1a7d33e428020ce35a21f26c665d82801700b18
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000145920026000015/alrm-20260630.htm
+  title: 10-Q 0001459200-26-000015
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-10T20:13:44.622614+00:00'
+  sha256: 9d542d0af968003dc8fe004b7f27be726ede6291a8b9fdbf4e4b5ec32994f9e6
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000110465926047867/tm261450-1_def14a.htm
+  title: DEF 14A 0001104659-26-047867
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-10T20:13:40.945249+00:00'
+  sha256: abbf165a3179a3e1c2bf701519eee980e708c1799f10ce2ec792344398c9cdf3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000145920026000005/alrm-20251231.htm
+  title: 10-K 0001459200-26-000005
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-10T20:13:38.936982+00:00'
+  sha256: 1398681a06b4c8b53451d7c102fa81d8db75965302a2e6ed09dd670736515a1a
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000145920022000002/alrm-20210830.htm
+  title: 8-K/A 0001459200-22-000002
+  published_at: '2022-02-18'
+  retrieved_at: '2026-11-10T20:13:37.014000+00:00'
+  sha256: ad35d1a80a98716628516994a8e275f9ed79d688edfb3454d9b77ef4447abe04
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1459200/000145920017000016/a8kaalarmcom.htm
+  title: 8-K/A 0001459200-17-000016
+  published_at: '2017-05-24'
+  retrieved_at: '2026-11-10T20:13:35.409884+00:00'
+  sha256: 5b1cffcc484a5dabaaf017e97ee85f0d8763d8f226786eca0e6ef089cad47144
 issuer_classification:
   cik: 0001459200
   classification_status: reported_sic
@@ -517,13 +553,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1459200/000145920017000016/0001459200-17-000016-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d54b2b69b108294b6f6ecf265b1eb77e85e32477d6cba037225693ed811d406e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -547,17 +594,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L437:
+
+> In the opinion of management, these condensed consolidated financial statements include all normal recurring adjustments necessary for a fair statement of the results of operations, financial position and cash flows for the periods presented. However, the global economy, credit markets and financial markets have and may continue to experience significant volatility as a result of significant worldwide events, including public health crises, and geopolitical upheaval (including the ongoing conflicts in Ukraine, and in the Middle East and surrounding areas), disruptions to global supply chains, fluctuations in interest rates, tariffs, risk of recession and inflation (collectively, the Macroeconomic Conditions). These Macroeconomic Conditions have and may continue to create supply chain disruptions, inventory disruptions, and fluctuations in economic growth, including fluctuations in employment rates, inflation, tariffs, energy prices and consumer sentiment. It remains difficult to assess or predict the ultimate duration and economic impact of the Macroeconomic Conditions. The results of operations for the three and six months ended June 30, 2026 are not necessarily indicative of the results that can be expected for our entire fiscal year ending December 31, 2026, which is increasingly true in periods of uncertainty, such as the uncertainty caused by the Macroeconomic Conditions. … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L931:
+
+> Our chief operating decision maker is our chief executive officer. Management determined the operational data used by the chief operating decision maker is that of the two reportable segments. Management bases strategic goals and decisions on these segments and the data presented below is used to measure financial results. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1073:
+
+> Alarm.com primarily generates SaaS and license revenue through our service provider partners, who resell our services and pay us monthly fees. Contracts with our service provider partners typically have an initial term of one year, with subsequent renewal terms of one year. Our service provider partners have indicated that they typically have three to five-year service contracts with residential and commercial property owners who use our solutions. We also generate hardware and other revenue, primarily from our service provider partners and distributors. Our hardware sales include connected devices that enable our services, such as video cameras, video recorders, gunshot detection sensors, gateway modules and smart thermostats. We believe our network of service providers and the length of our service relationships with residential and commercial property owners, combined with our robust SaaS platforms and over 20 years of operating experience, contribute to a compelling business model. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1080:
+
+> We also generate revenue from the sale of many types of hardware, including video cameras, video recorders, cellular radio modules, smart thermostats, image sensors, gunshot detection sensors and other peripherals, that enable our solutions. Our hardware and other revenue also includes our revenue from the sale of perpetual licenses that provide our customers in the commercial market the right to use our video surveillance software for an indefinite period of time in exchange for a one-time license fee. Additionally, our hardware and other revenue includes our revenue from the sale of licenses that provide our customers the right to use our gunshot detection solution in exchange for license fees. Hardware and other revenue represented 32% of our revenue during the three and six months ended June 30, 2026, as compared to 33% and 32% in the same periods in the prior year. We typically expect hardware and other revenue to fluctuate as a percentage of total revenue. [S68]
 
 ## Industry and value chain
 
@@ -565,17 +628,33 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L437:
+
+> In the opinion of management, these condensed consolidated financial statements include all normal recurring adjustments necessary for a fair statement of the results of operations, financial position and cash flows for the periods presented. However, the global economy, credit markets and financial markets have and may continue to experience significant volatility as a result of significant worldwide events, including public health crises, and geopolitical upheaval (including the ongoing conflicts in Ukraine, and in the Middle East and surrounding areas), disruptions to global supply chains, fluctuations in interest rates, tariffs, risk of recession and inflation (collectively, the Macroeconomic Conditions). These Macroeconomic Conditions have and may continue to create supply chain disruptions, inventory disruptions, and fluctuations in economic growth, including fluctuations in employment rates, inflation, tariffs, energy prices and consumer sentiment. It remains difficult to assess or predict the ultimate duration and economic impact of the Macroeconomic Conditions. The results of operations for the three and six months ended June 30, 2026 are not necessarily indicative of the results that can be expected for our entire fiscal year ending December 31, 2026, which is increasingly true in periods of uncertainty, such as the uncertainty caused by the Macroeconomic Conditions. … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1479:
+
+> •We benefit from integration of our solutions with third-party platform providers. If developers of third-party platform providers choose not to partner with us, or are acquired by our competitors, our integrated solutions platform, business and results of operations may be harmed. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L829:
+
+> On January 10, 2022, EcoFactor, Inc., or EcoFactor, filed a lawsuit against us in U.S. District Court, District of Oregon, alleging Alarm.com’s products and services directly and indirectly infringe five U.S. patents owned by EcoFactor. EcoFactor is seeking a permanent injunction, enhanced damages and attorneys' fees. EcoFactor had previously asserted two of the same patents against us in an October 2019 complaint with the U.S. International Trade Commission, or ITC. In July 2021, the ITC found in favor of Alarm.com. EcoFactor appealed the decision but withdrew its appeal in December 2021. We moved to dismiss the Oregon case for failure to state a claim on March 28, 2022. On April 18, 2022, the district court stayed the case at the request of the parties pending the disposition of other proceedings involving the asserted patents. These proceedings include four ex parte reexamination proceedings at the U.S. Patent and Trademark Office and one inter partes review. Three of the patents were found unpatentable in reexamination. The decision with respect to one of the patents was affirmed by the United States Court of Appeals for the Federal Circuit, or Federal Circuit, on January 21, 2026, EcoFactor filed an appeal of the decision with respect to the second patent with the Federal Circuit on November 20, 2025, and EcoFactor is appealing the rejection of the third patent to the … [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1140:
+
+> The number of employees in sales and marketing functions increased from 599 as of June 30, 2025 to 612 as of June 30, 2026 and decreased from 615 as of March 31, 2026. We expect to continue to invest in our sales and marketing activities to expand our business both domestically and internationally. We may increase the size of our sales force and our service provider partner support team to provide additional support to our existing service provider partner base to drive their productivity in selling our solutions as well as to enroll new service provider partners in North America and in international markets. [S68]
 
 ## Financial performance
 
@@ -1196,6 +1275,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L846:
+
+> On May 24, 2024, our board of directors authorized the repurchase of our common stock in connection with the issuance of the 2029 Notes and also authorized a stock repurchase program, effective May 31, 2024, under which we were authorized to purchase up to an aggregate of $100.0 million of our outstanding common stock during the two-year period ended May 31, 2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1208,6 +1291,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L840:
+
+> We may also be a party to litigation and subject to claims incident to the ordinary course of business. Although the results of litigation and claims cannot be predicted with certainty, we currently believe that the final outcome of these ordinary course matters will not have a material adverse effect on our business. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1217,25 +1304,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1299,6 +1386,10 @@ Latest 50 filing metadata records of 823 retained records. A filing link is evid
 | 2026-04-10 | 4 | 0001193125-26-151505 | — | [S64] |
 | 2026-04-10 | 4 | 0001193125-26-151501 | — | [S65] |
 | 2026-04-10 | 4 | 0001193125-26-151498 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L916:
+
+> For purposes of interim reporting, our annual effective income tax rate is estimated in accordance with ASC 740-270, "Interim Reporting." This rate is applied to income before income taxes, including income from equity method investments, net of the entities expected to be benefited during the year. Discrete items that impact the tax provision are recorded in the period incurred. [S68]
 
 ## Sources and change log
 
@@ -1433,5 +1524,17 @@ Latest 50 filing metadata records of 823 retained records. A filing link is evid
 [S65] [4 0001193125-26-151501](https://www.sec.gov/Archives/edgar/data/1459200/000119312526151501/0001193125-26-151501-index.html) — published 2026-04-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001193125-26-151498](https://www.sec.gov/Archives/edgar/data/1459200/000119312526151498/0001193125-26-151498-index.html) — published 2026-04-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001459200-26-000014](https://www.sec.gov/Archives/edgar/data/1459200/000145920026000014/alrm-20260806.htm) — published 2026-08-06; retrieved 2026-11-10T20:13:42.733960+00:00.
+
+[S68] [10-Q 0001459200-26-000015](https://www.sec.gov/Archives/edgar/data/1459200/000145920026000015/alrm-20260630.htm) — published 2026-08-06; retrieved 2026-11-10T20:13:44.622614+00:00.
+
+[S69] [DEF 14A 0001104659-26-047867](https://www.sec.gov/Archives/edgar/data/1459200/000110465926047867/tm261450-1_def14a.htm) — published 2026-04-23; retrieved 2026-11-10T20:13:40.945249+00:00.
+
+[S70] [10-K 0001459200-26-000005](https://www.sec.gov/Archives/edgar/data/1459200/000145920026000005/alrm-20251231.htm) — published 2026-02-19; retrieved 2026-11-10T20:13:38.936982+00:00.
+
+[S71] [8-K/A 0001459200-22-000002](https://www.sec.gov/Archives/edgar/data/1459200/000145920022000002/alrm-20210830.htm) — published 2022-02-18; retrieved 2026-11-10T20:13:37.014000+00:00.
+
+[S72] [8-K/A 0001459200-17-000016](https://www.sec.gov/Archives/edgar/data/1459200/000145920017000016/a8kaalarmcom.htm) — published 2017-05-24; retrieved 2026-11-10T20:13:35.409884+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

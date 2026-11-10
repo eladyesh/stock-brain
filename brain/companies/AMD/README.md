@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/24b45739301817a91334ded2f20d99ded4cc7ea6/sectors/information-technology/companies/AMD/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/6dea3be4625120db9da80155a96f14ed62690190/sectors/information-technology/companies/AMD/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -479,6 +479,30 @@ sources:
   published_at: '2026-08-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/2488/000000248825000089/amd-20250514.htm
+  title: 8-K/A 0000002488-25-000089
+  published_at: '2025-06-03'
+  retrieved_at: '2026-11-10T20:18:12.740268+00:00'
+  sha256: 40f9c8b2e00ff266320cf126ff4f329ed7775ff26b8eba23db912790e5792764
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/2488/000000248823000042/amd-20230108.htm
+  title: 8-K/A 0000002488-23-000042
+  published_at: '2023-02-21'
+  retrieved_at: '2026-11-10T20:18:11.175703+00:00'
+  sha256: d8dbbcd6dd1f0c1ea90780fd9e34a4a773887a147da539036e846a1f2ff478f8
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/2488/000119312522167938/d319334d8ka.htm
+  title: 8-K/A 0001193125-22-167938
+  published_at: '2022-06-06'
+  retrieved_at: '2026-11-10T20:18:09.432503+00:00'
+  sha256: a1c8f42c309f56175dcf4d2f7a64c3262c4f1087ad6f5da30b535ca3c7eed694
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/2488/000119312522123652/d354388d8ka.htm
+  title: 8-K/A 0001193125-22-123652
+  published_at: '2022-04-27'
+  retrieved_at: '2026-11-10T20:18:07.553550+00:00'
+  sha256: e478eb8c57dad7c26575988105f0a7c0d7f124fe4451529077a8513f7902527e
 issuer_classification:
   cik: 0000002488
   classification_status: reported_sic
@@ -537,11 +561,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2488/000119312522123652/0001193125-22-123652-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: f10d35e136ae44e1bb32f1c493d4db039de6e3a96c61ff192e7dc5431652ed13
-  last_attempt_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-11T20:10:56.246440+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 10
@@ -1244,11 +1268,11 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:27:06.478312+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/24b45739301817a91334ded2f20d99ded4cc7ea6/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/6dea3be4625120db9da80155a96f14ed62690190/sectors/information-technology/companies/AMD/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -1465,5 +1489,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0000002488-26-000127](https://www.sec.gov/Archives/edgar/data/2488/000000248826000127/0000002488-26-000127-index.html) — published 2026-08-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0000002488-26-000125](https://www.sec.gov/Archives/edgar/data/2488/000000248826000125/0000002488-26-000125-index.html) — published 2026-08-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K/A 0000002488-25-000089](https://www.sec.gov/Archives/edgar/data/2488/000000248825000089/amd-20250514.htm) — published 2025-06-03; retrieved 2026-11-10T20:18:12.740268+00:00.
+
+[S69] [8-K/A 0000002488-23-000042](https://www.sec.gov/Archives/edgar/data/2488/000000248823000042/amd-20230108.htm) — published 2023-02-21; retrieved 2026-11-10T20:18:11.175703+00:00.
+
+[S70] [8-K/A 0001193125-22-167938](https://www.sec.gov/Archives/edgar/data/2488/000119312522167938/d319334d8ka.htm) — published 2022-06-06; retrieved 2026-11-10T20:18:09.432503+00:00.
+
+[S71] [8-K/A 0001193125-22-123652](https://www.sec.gov/Archives/edgar/data/2488/000119312522123652/d354388d8ka.htm) — published 2022-04-27; retrieved 2026-11-10T20:18:07.553550+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

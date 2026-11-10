@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -321,6 +321,18 @@ sources:
   published_at: '2026-03-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S45
+  url: https://www.sec.gov/Archives/edgar/data/2112457/000121390026088708/ea0301177-10q_amanat.htm
+  title: 10-Q 0001213900-26-088708
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-10T20:16:32.124398+00:00'
+  sha256: 81b8a1a76712fe187e9df28d35f0738f8e96cad333a980021da5e35cd0d63a05
+- id: S46
+  url: https://www.sec.gov/Archives/edgar/data/2112457/000121390026061615/ea0292117-8k_amanat.htm
+  title: 8-K 0001213900-26-061615
+  published_at: '2026-05-27'
+  retrieved_at: '2026-11-10T20:16:30.463840+00:00'
+  sha256: 0b92343fbf3d77dff00983e18b9cfc8f66a83b8a7d65d3a01fac851693599815
 issuer_classification:
   cik: '0002112457'
   classification_status: reported_sic
@@ -349,13 +361,18 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2112457/000121390026061615/0001213900-26-061615-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: fdaba667959c6df43f5b8c74aabb2a248e7d3fdda66389e04f68f2c8b6cb561c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -379,9 +396,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L748:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act of 2002, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S45]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L915:
+
+> The Company’s CODM has been identified as the Chief Executive Officer, who reviews the assets, operating results, and financial metrics for the Company as a whole to make decisions about allocating resources and assessing financial performance. Accordingly, management has determined that the Company only has one reportable segment. [S45]
 
 ## Products and services
 
@@ -497,6 +522,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L730:
+
+> The Company will have until (i) the period ending on the date that is 24 months from the closing of the Initial Public Offering, or such earlier liquidation as the Company’s board of directors may approve, in which the Company must complete an initial Business Combination or (ii) such other time period in which the Company must complete an initial Business Combination pursuant to an amendment to the Company’s Amended and Restated Memorandum and Articles of Association. However, if the Company has not completed a Business Combination within the Completion Window, the Company will as promptly as reasonably possible but not more than ten business days thereafter, redeem 100% of the Public Shares, at a per-share price, payable in cash, equal to the aggregate amount then on deposit in the Trust Account, including interest earned on the funds held in the trust account (less taxes paid or payable and up to $100,000 of interest to pay liquidation expenses), divided by the number of then issued and outstanding Public Shares, which redemption will constitute full and complete payment for the Public Shares and completely extinguish the rights of the Public Shareholders as shareholders (including the right to receive further liquidation or other distributions, if any), subject to the Company’s obligations under Cayman Islands law to provide for claims of creditors and subject to the other … [S45]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -509,6 +538,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L960:
+
+> materially from those anticipated in the forward-looking statements, please refer to the Risk Factors section of the Company’s final [S45]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -518,10 +551,10 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
@@ -530,13 +563,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -589,6 +622,10 @@ Latest 39 filing metadata records of 39 retained records. A filing link is evide
 | 2026-04-17 | S-1 | 0001213900-26-045252 | — | [S42] |
 | 2026-03-30 | UPLOAD | 0000000000-26-003184 | — | [S43] |
 | 2026-03-18 | DRS | 0001213900-26-030961 | — | [S44] |
+
+Source excerpt — 10-Q, filed 2026-08-13, L935:
+
+> The Company evaluated subsequent events and transactions that occurred after the unaudited condensed balance sheet date up to the date that the unaudited condensed financial statements were issued. Based upon this review, other than as described below, the Company did not identify any subsequent events that would have required adjustment or disclosure in the unaudited condensed financial statements. [S45]
 
 ## Sources and change log
 
@@ -679,5 +716,9 @@ Latest 39 filing metadata records of 39 retained records. A filing link is evide
 [S43] [UPLOAD 0000000000-26-003184](https://www.sec.gov/Archives/edgar/data/2112457/000000000026003184/0000000000-26-003184-index.html) — published 2026-03-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S44] [DRS 0001213900-26-030961](https://www.sec.gov/Archives/edgar/data/2112457/000121390026030961/0001213900-26-030961-index.html) — published 2026-03-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S45] [10-Q 0001213900-26-088708](https://www.sec.gov/Archives/edgar/data/2112457/000121390026088708/ea0301177-10q_amanat.htm) — published 2026-08-13; retrieved 2026-11-10T20:16:32.124398+00:00.
+
+[S46] [8-K 0001213900-26-061615](https://www.sec.gov/Archives/edgar/data/2112457/000121390026061615/ea0292117-8k_amanat.htm) — published 2026-05-27; retrieved 2026-11-10T20:16:30.463840+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

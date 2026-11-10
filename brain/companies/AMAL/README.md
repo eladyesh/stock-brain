@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 24b45739301817a91334ded2f20d99ded4cc7ea6
+source_commit: 6dea3be4625120db9da80155a96f14ed62690190
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,48 @@ sources:
   published_at: '2026-05-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360826000212/amal-20261022.htm
+  title: 8-K 0001823608-26-000212
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-10T20:16:28.259919+00:00'
+  sha256: e2c4dbe1c41bc86e2d3e2fa3b2d0af521da0b6a0d52f5ebe64f725e9dd6863eb
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360826000182/amal-20260630.htm
+  title: 10-Q 0001823608-26-000182
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-10T20:16:26.231203+00:00'
+  sha256: 5c15829e0e460690fe005c132b488f861496eb89a0559713962dd0e35329f6c7
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360826000098/amal-20260410.htm
+  title: DEF 14A 0001823608-26-000098
+  published_at: '2026-04-10'
+  retrieved_at: '2026-11-10T20:16:24.365123+00:00'
+  sha256: 38e675aa728ba31869a6a530c357643809b3b31904931c10624460936f164406
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360826000048/amal-20251231.htm
+  title: 10-K 0001823608-26-000048
+  published_at: '2026-03-05'
+  retrieved_at: '2026-11-10T20:16:22.240485+00:00'
+  sha256: 0a4c490b4944dd45c37863e537540bf1e8718d3ace01775dbea0df2d79d58107
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360824000171/amal-20240521.htm
+  title: 8-K/A 0001823608-24-000171
+  published_at: '2024-10-01'
+  retrieved_at: '2026-11-10T20:16:20.424559+00:00'
+  sha256: d368370f1e1b7948a9d225d8f87632bc2f890948e68d640f5eccd75e79449bec
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360824000112/amal-20240423.htm
+  title: 8-K/A 0001823608-24-000112
+  published_at: '2024-04-24'
+  retrieved_at: '2026-11-10T20:16:18.855757+00:00'
+  sha256: accfa8e82f9ed1733575050d3dee4f6ce619a57ccce3899e46ced99f7bf39cd4
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1823608/000182360821000007/secamalformreinterimceoapp.htm
+  title: 8-K/A 0001823608-21-000007
+  published_at: '2021-02-03'
+  retrieved_at: '2026-11-10T20:16:17.064325+00:00'
+  sha256: 0b69e237a2601304c411d7c36720767c816b7dfc4389ff52d2cadc06f893ee0c
 issuer_classification:
   cik: 0001823608
   classification_status: reported_sic
@@ -517,13 +559,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1823608/000182360821000007/0001823608-21-000007-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: af70066ee4065d7fa4c634a090515035b4e6e507d348fd0a07c6ea44146eece0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-10T20:10:56.246440+00:00'
+  last_success_at: '2026-11-10T20:10:56.246440+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -547,17 +600,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1986:
+
+> Our goal is to be the go-to financial partner for people and organizations who strive to make a meaningful impact in our society and who care about their communities, the environment, and social justice. The growth of our business is fundamental to our social mission and how we deliver impact and value for our stakeholders. The Company has obtained B CorporationTM certification, a distinction earned after being evaluated under rigorous standards of social and environmental performance, accountability, and transparency. The Company is also the largest of twelve commercial financial institutions in the United States that are members of the Global Alliance for Banking on Values, a network of banking leaders from around the world committed to advancing positive change in the banking sector. We hold governance positions in the United Nations ("UN") convened Net Zero Banking Alliance and the Global Partnership for Carbon Accounting Financials ("PCAF") and an advisory role for the Glasgow Finance Alliance for Net Zero. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1971:
+
+> The Company's reportable segment is determined by the Chief Executive Officer, who is the designated chief operating decision maker, based upon information provided about the Company's products and services offered, primarily banking operations. Substantially all of our operations occur through the Bank and involve the delivery of loan and deposit products to customers. Management makes operating decisions and assesses performance based on an ongoing review of its banking operation, which constitutes our only operating segment for financial reporting purposes. We do not consider our trust and investment management business as a separate segment. The accounting policies of the Company's segment are the same as those described in the Note 1 “Summary of Significant Accounting Policies” in our 2025 Annual Report. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1983:
+
+> We currently offer a wide range of trust, custody and investment management services, including asset safekeeping, corporate actions, income collections, proxy services, account transition, asset transfers, and conversion management. We also offer a broad range of investment products, including both index and actively-managed funds spanning equity, fixed-income, real estate and alternative investment strategies to meet the needs of our clients. Our products and services are tailored to our target customer base that prefers a financial partner that is socially responsible, values-oriented and committed to creating positive change in the world. These customers include advocacy-based non-profits, social welfare organizations, national labor unions, political organizations, foundations, socially responsible businesses, and other for-profit companies that seek to balance their profit-making [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1982:
+
+> Our commercial banking and trust businesses are national in scope and we also offer a full range of products and services to both commercial and retail customers through our branches and offices across New York City, Washington, D.C., Northern California, and Boston and our digital banking platform. Our corporate divisions include Commercial Banking, Trust and Investment Management and Consumer Banking. Our product line includes commercial and industrial ("C&I") loans, commercial real estate ("CRE") loans, multifamily loans, residential mortgage loans through our marketing services agreement with Embrace Home Loans, consumer loans (predominantly residential solar) and a variety of commercial and consumer deposit products, including non-interest-bearing accounts, interest-bearing demand products, savings accounts, money market accounts and certificates of deposit. We also offer online banking and bill payment services, online cash management, safe deposit box rentals, debit card and ATM card services, and the availability of a nationwide network of ATMs for our customers. [S68]
 
 ## Industry and value chain
 
@@ -565,17 +634,33 @@ SEC-reported SIC **6022**: State Commercial Banks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-10, L231:
+
+> JoAnn Lilek has more than 30 years combined experience as a Chief Financial Officer and operations leader in consulting, commercial banking, and supply chain management. From 2010 to 2018, she served as Chief Financial Officer and Chief Operating Officer of Accretive Solutions, Inc., a private equity owned company. From 2008 to 2010, Ms. Lilek served as Executive Vice-President, Chief Financial Officer and Corporate Secretary of Midwest Banc Holdings, Inc. (Nasdaq: MBHI) where she was part of the turnaround team commissioned to recapitalize its subsidiary, Midwest Bank, during the global financial crisis of 2008. From 2001 to 2008, Ms. Lilek was Chief Financial Officer for DSC Logistics ("DSC"), a well-known, privately held national provider of third-party logistics and supply chain management services. Prior to DSC, [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-04, L187:
+
+> 19.the impact of competition with other financial institutions, including pricing pressures and the resulting impact on results, including compression to net interest margin; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-05, L306:
+
+> cost core deposits to the bank. Our total deposit base is composed of 41% non-interest-bearing accounts and has an average cost of deposits of only 160 basis points for the year ended December 31, 2025. We believe that our focus on serving the banking interests of the mission-driven customer market gives us a competitive advantage over other commercial banks in generating business from our target customer base. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-10, L603:
+
+> Historically, our leadership structure separated the roles of Chair of the Board of Directors and Chief Executive Officer. The Board believes that this separation is presently appropriate as it allows Ms. Brown, as President and Chief Executive Officer, to focus primarily on leading our strategy and day-to-day operations, while Ms. Fox, as Chair, can focus on leading the Board in its consideration of strategic issues and monitoring corporate governance, social responsibility, community relations and stockholder issues. [S69]
 
 ## Financial performance
 
@@ -1187,6 +1272,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1528:
+
+> On April 28, 2021, the Company's stockholders approved the Amalgamated Financial Corp. Employee Stock Purchase Plan (the "ESPP") which was implemented on March 2, 2022. The aggregate number of shares of common stock that may be purchased and issued under the ESPP will not exceed 500,000 of previously authorized shares. Under the terms of the ESPP, employees may authorize the withholding of up to 15% of their eligible compensation to purchase the Company's shares of common stock, not to exceed $25,000 of the fair market value of such common stock for any calendar year. The purchase price per shares acquired under the ESPP will never be less than 85% of the fair market value of the Company's common stock on the last day of the offering period. The Company's Board of Directors in its discretion may terminate the ESPP at any time with respect to any shares for which options have not been granted. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1199,6 +1288,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1098:
+
+> In order to manage credit quality, we view the Company’s loan portfolio by various segments. For commercial loans, we assign individual credit ratings ranging from 1 (lowest risk) to 10 (highest risk) as an indicator of credit quality. These ratings are based on specific risk factors including (i) historical and projected financial results of the borrower, (ii) market conditions of the borrower’s industry that may affect the borrower’s future financial performance, (iii) business experience of the borrower’s management, (iv) nature of the underlying collateral, if any, including the ability of the collateral to generate sources of repayment, and (v) history of the borrower’s payment performance. These specific risk factors are then utilized as inputs in our credit model to determine the associated credit rating. Non-rated loans generally include residential mortgages and consumer loans. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1208,25 +1301,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1290,6 +1383,10 @@ Latest 50 filing metadata records of 605 retained records. A filing link is evid
 | 2026-05-22 | 4 | 0001823608-26-000159 | — | [S64] |
 | 2026-05-22 | 4 | 0001823608-26-000158 | — | [S65] |
 | 2026-05-22 | 4 | 0001823608-26-000157 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-04, L1864:
+
+> During the year ended December 31, 2025, the Company entered into a fifteen year lease agreement, following a sixteen-month base rent abatement period, for the Company's headquarters. The base rent amount for the premises commences at $6.2 million per annum and is escalated by approximately 9% on the fifth anniversary of rent commencement and by an additional approximately 8% on the tenth anniversary of rent commencement. The lease is not set to commence until the Company moves to the new premises later in 2026. [S68]
 
 ## Sources and change log
 
@@ -1424,5 +1521,19 @@ Latest 50 filing metadata records of 605 retained records. A filing link is evid
 [S65] [4 0001823608-26-000158](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000158/0001823608-26-000158-index.html) — published 2026-05-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001823608-26-000157](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000157/0001823608-26-000157-index.html) — published 2026-05-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001823608-26-000212](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000212/amal-20261022.htm) — published 2026-10-22; retrieved 2026-11-10T20:16:28.259919+00:00.
+
+[S68] [10-Q 0001823608-26-000182](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000182/amal-20260630.htm) — published 2026-08-04; retrieved 2026-11-10T20:16:26.231203+00:00.
+
+[S69] [DEF 14A 0001823608-26-000098](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000098/amal-20260410.htm) — published 2026-04-10; retrieved 2026-11-10T20:16:24.365123+00:00.
+
+[S70] [10-K 0001823608-26-000048](https://www.sec.gov/Archives/edgar/data/1823608/000182360826000048/amal-20251231.htm) — published 2026-03-05; retrieved 2026-11-10T20:16:22.240485+00:00.
+
+[S71] [8-K/A 0001823608-24-000171](https://www.sec.gov/Archives/edgar/data/1823608/000182360824000171/amal-20240521.htm) — published 2024-10-01; retrieved 2026-11-10T20:16:20.424559+00:00.
+
+[S72] [8-K/A 0001823608-24-000112](https://www.sec.gov/Archives/edgar/data/1823608/000182360824000112/amal-20240423.htm) — published 2024-04-24; retrieved 2026-11-10T20:16:18.855757+00:00.
+
+[S73] [8-K/A 0001823608-21-000007](https://www.sec.gov/Archives/edgar/data/1823608/000182360821000007/secamalformreinterimceoapp.htm) — published 2021-02-03; retrieved 2026-11-10T20:16:17.064325+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
