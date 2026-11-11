@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -146,6 +146,18 @@ sources:
   published_at: '2026-03-31'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/744825/000143774926027716/asha20260630_10q.htm
+  title: 10-Q 0001437749-26-027716
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-11T20:01:38.275302+00:00'
+  sha256: 7fad9c8abfc70fc6da8c12f00f21c41cbcdbf8dc286499c069df12858c0bd28e
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/744825/000143774926014145/asha20260429_def14a.htm
+  title: DEF 14A 0001437749-26-014145
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-11T20:01:35.323697+00:00'
+  sha256: c3e112651ffec28595538f86839df4eacfdd7a7a0404ea985aba1a069a79d673
 issuer_classification:
   cik: 0000744825
   classification_status: reported_sic
@@ -191,13 +203,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/744825/000114420412015218/0001144204-12-015218-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ad4e37de64b090c8c28a0687b4bb3cdcb5f76328d4b0a76616f80f97ea8071c0
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -212,15 +232,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000744825.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMS/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMS/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMS — AMERICAN SHARED HOSPITAL SERVICES
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMS/README.md)
 
 ## Business overview
 
@@ -234,17 +254,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L2524:
+
+> This quarterly report to the SEC may be deemed to contain certain forward-looking statements. The Private Securities Litigation Reform Act of 1995 has established that these statements qualify for safe harbors from liability. Forward-looking statements may include words like we “believe”, “anticipate”, “target”, “expect”, “pro forma”, “estimate”, “intend”, “will”, “is designed to”, “plan” and words of similar meaning. Forward-looking statements describe our future plans, objectives, expectations or goals. Such statements address future events and conditions and include, but are not limited to, such things as capital expenditures, earnings, liquidity and capital resources, financing of our business, government programs and regulations, legislation affecting the health care industry, the expansion of our proton beam radiation therapy business, accounting matters, compliance with debt covenants, completed and potential acquisitions, competition, customer concentration, contractual obligations, timing of payments, technology and interest rates. These forward-looking statements involve known and unknown risks that may cause our actual results in future periods to differ materially from those expressed in any forward-looking statement. Factors that could cause or contribute to such differences include, but are not limited to, such things as our level of debt, the limited market for … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L2000:
+
+> Business segment information - Based on the guidance provided in accordance with ASC 280 Segment Reporting (“ASC 280”), the Company analyzed its subsidiaries which are all in the business of providing radiosurgery and radiation therapy services, either through leasing to healthcare providers or directly to patients, and concluded there are two reportable segments, leasing and direct patient services. As of June 30, 2026, the Company provided Gamma Knife and PBRT equipment to eight hospitals in the United States, which constitutes the leasing segment. As of June 30, 2026, the Company owns and operates two single-unit Gamma Knife facilities in Lima, Peru and Guayaquil, Ecuador, one single-unit radiation therapy facility in Puebla, Mexico and the Company also owns a majority interest in and operates, three single-unit radiation therapy facilities in Rhode Island, which collectively constitute the direct patient services segment. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L2524:
+
+> This quarterly report to the SEC may be deemed to contain certain forward-looking statements. The Private Securities Litigation Reform Act of 1995 has established that these statements qualify for safe harbors from liability. Forward-looking statements may include words like we “believe”, “anticipate”, “target”, “expect”, “pro forma”, “estimate”, “intend”, “will”, “is designed to”, “plan” and words of similar meaning. Forward-looking statements describe our future plans, objectives, expectations or goals. Such statements address future events and conditions and include, but are not limited to, such things as capital expenditures, earnings, liquidity and capital resources, financing of our business, government programs and regulations, legislation affecting the health care industry, the expansion of our proton beam radiation therapy business, accounting matters, compliance with debt covenants, completed and potential acquisitions, competition, customer concentration, contractual obligations, timing of payments, technology and interest rates. These forward-looking statements involve known and unknown risks that may cause our actual results in future periods to differ materially from those expressed in any forward-looking statement. Factors that could cause or contribute to such differences include, but are not limited to, such things as our level of debt, the limited market for … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-13, L2524:
+
+> This quarterly report to the SEC may be deemed to contain certain forward-looking statements. The Private Securities Litigation Reform Act of 1995 has established that these statements qualify for safe harbors from liability. Forward-looking statements may include words like we “believe”, “anticipate”, “target”, “expect”, “pro forma”, “estimate”, “intend”, “will”, “is designed to”, “plan” and words of similar meaning. Forward-looking statements describe our future plans, objectives, expectations or goals. Such statements address future events and conditions and include, but are not limited to, such things as capital expenditures, earnings, liquidity and capital resources, financing of our business, government programs and regulations, legislation affecting the health care industry, the expansion of our proton beam radiation therapy business, accounting matters, compliance with debt covenants, completed and potential acquisitions, competition, customer concentration, contractual obligations, timing of payments, technology and interest rates. These forward-looking statements involve known and unknown risks that may cause our actual results in future periods to differ materially from those expressed in any forward-looking statement. Factors that could cause or contribute to such differences include, but are not limited to, such things as our level of debt, the limited market for … [S69]
 
 ## Industry and value chain
 
@@ -257,6 +293,10 @@ Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigati
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-13, L2524:
+
+> This quarterly report to the SEC may be deemed to contain certain forward-looking statements. The Private Securities Litigation Reform Act of 1995 has established that these statements qualify for safe harbors from liability. Forward-looking statements may include words like we “believe”, “anticipate”, “target”, “expect”, “pro forma”, “estimate”, “intend”, “will”, “is designed to”, “plan” and words of similar meaning. Forward-looking statements describe our future plans, objectives, expectations or goals. Such statements address future events and conditions and include, but are not limited to, such things as capital expenditures, earnings, liquidity and capital resources, financing of our business, government programs and regulations, legislation affecting the health care industry, the expansion of our proton beam radiation therapy business, accounting matters, compliance with debt covenants, completed and potential acquisitions, competition, customer concentration, contractual obligations, timing of payments, technology and interest rates. These forward-looking statements involve known and unknown risks that may cause our actual results in future periods to differ materially from those expressed in any forward-looking statement. Factors that could cause or contribute to such differences include, but are not limited to, such things as our level of debt, the limited market for … [S69]
 
 ## Moat and differentiation
 
@@ -383,6 +423,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-30, L65:
+
+> ADVISORY VOTE ON OUR EXECUTIVE COMPENSATION. To approve, on a non-binding, advisory basis, the compensation of our named executive officers, as disclosed in the Proxy Statement. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -395,6 +439,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L2727:
+
+> There were no material changes during the period covered in this report to the risk factors previously disclosed in Part 1, Item 1A, of the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -404,25 +452,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -468,6 +516,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S38] [10-K 0001437749-26-010731](https://www.sec.gov/Archives/edgar/data/744825/000143774926010731/0001437749-26-010731-index.html) — published 2026-03-31; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMS/README.md).
+[S69] [10-Q 0001437749-26-027716](https://www.sec.gov/Archives/edgar/data/744825/000143774926027716/asha20260630_10q.htm) — published 2026-08-13; retrieved 2026-11-11T20:01:38.275302+00:00.
+
+[S70] [DEF 14A 0001437749-26-014145](https://www.sec.gov/Archives/edgar/data/744825/000143774926014145/asha20260429_def14a.htm) — published 2026-04-30; retrieved 2026-11-11T20:01:35.323697+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

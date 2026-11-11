@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,30 @@ sources:
   published_at: '2025-11-25'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2011286/000201128626000026/amtm-20260928.htm
+  title: 8-K 0002011286-26-000026
+  published_at: '2026-10-02'
+  retrieved_at: '2026-11-11T20:02:46.325841+00:00'
+  sha256: 4460cd2b61af2b32b724aafe3f5eed123eb1f03bcb79deea7e6ae093d842c757
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/2011286/000162828026055727/amtm-20260703.htm
+  title: 10-Q 0001628280-26-055727
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-11T20:02:44.951136+00:00'
+  sha256: 7644fc2d3f06b697b3c7327938bc5b9b002a637db6e05560b08236faec9046fe
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/2011286/000110465925123111/tm2523471-2_def14a.htm
+  title: DEF 14A 0001104659-25-123111
+  published_at: '2025-12-19'
+  retrieved_at: '2026-11-11T20:02:43.227157+00:00'
+  sha256: 813a429460a2cf48185cc6380b9b0f2b8737a1c0146f1bf7ad9c0492c2872751
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm
+  title: 10-K 0001628280-25-053993
+  published_at: '2025-11-25'
+  retrieved_at: '2026-11-11T20:02:41.615538+00:00'
+  sha256: 0ed55a782d39ca563b684646173225b21a0f420d42f23e3f9d7e1552284be9af
 issuer_classification:
   cik: 0002011286
   classification_status: reported_sic
@@ -185,13 +209,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/2011286/000095015724001363/0000950157-24-001363-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0923be7e2dc194591cd07c96c039ad1796979578e44ce5d0d69af9ab65744f1d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -206,15 +241,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0002011286.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMTM/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMTM/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMTM — Amentum Holdings, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMTM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMTM/README.md)
 
 ## Business overview
 
@@ -228,17 +263,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L423:
+
+> We conduct our business activities and report financial results as two reportable segments: Digital Solutions (“DS”) and Global Engineering Solutions (“GES”). The DS segment provides advanced digital and data-driven solutions including intelligence analytics, space system development, cybersecurity, and next generation IT across the federal government and commercial clients. The GES segment provides large-scale environmental remediation, nuclear power solutions, platform engineering, sustainment and supply chain management across all seven continents for the U.S. government and allied nations. [S62]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-11, L423:
+
+> We conduct our business activities and report financial results as two reportable segments: Digital Solutions (“DS”) and Global Engineering Solutions (“GES”). The DS segment provides advanced digital and data-driven solutions including intelligence analytics, space system development, cybersecurity, and next generation IT across the federal government and commercial clients. The GES segment provides large-scale environmental remediation, nuclear power solutions, platform engineering, sustainment and supply chain management across all seven continents for the U.S. government and allied nations. [S62]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-11, L736:
+
+> We primarily sell our services to the U.S. Government. These contracts are subject to extensive legal and regulatory requirements, and we are occasionally the subject of investigations by various agencies of the U.S. Government who investigate whether our operations are being conducted in accordance with these requirements. Such investigations could result in administrative, civil or criminal liabilities, including repayments, fines or penalties being imposed on us, or could lead to suspension or debarment from future U.S. Government contracting. U.S. Government investigations often take years to complete and may result in adverse action against us. Any adverse actions arising from such matters could have a material effect on our ability to invoice and receive timely payment on our contracts, perform contracts or compete for contracts with the U.S. Government and could have a material effect on our operating performance. There are currently no investigations that are expected to have a material impact on our results of operations. [S62]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-11, L422:
+
+> Amentum Holdings, Inc. (collectively with its subsidiaries, “we,” “us,” “our,” “Amentum,” or the “Company”) is a global advanced engineering and technology solutions provider to a broad base of U.S. and allied government agencies, and customers in international and commercial markets, supporting programs of critical national importance across energy and environmental, intelligence, space, defense, civilian and commercial end-markets. We offer a broad reach of capabilities including energy, environmental remediation, intelligence and counter threat solutions, data fusion and analytics, engineering and integration, advanced test, training and readiness, and citizen solutions. As a leading provider of differentiated technology solutions, we have built a repertoire of deep customer knowledge, enabling us to engage our customers across multiple capabilities and markets. [S62]
 
 ## Industry and value chain
 
@@ -246,19 +297,35 @@ SEC-reported SIC **7389**: Services-Business Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L423:
+
+> We conduct our business activities and report financial results as two reportable segments: Digital Solutions (“DS”) and Global Engineering Solutions (“GES”). The DS segment provides advanced digital and data-driven solutions including intelligence analytics, space system development, cybersecurity, and next generation IT across the federal government and commercial clients. The GES segment provides large-scale environmental remediation, nuclear power solutions, platform engineering, sustainment and supply chain management across all seven continents for the U.S. government and allied nations. [S62]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2025-12-19, L6739:
+
+> The employment agreements include non-competition, non-solicitation of employees and customer restrictions, non-disclosure of confidential information and other customary restrictive covenants. [S63]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2025-11-25, L260:
+
+> •Win and successfully execute the largest, most complex programs for the government across the energy and environmental, intelligence, space, defense, and civilian end-markets. The scale and diversity of our solutions, capabilities, geographies, workforce and contract vehicles are central to our strategy and position us for outsized growth with our customers. The contracts we hold allow us to strategically partner with our customers on innovative engineering and technology solutions creating a competitive advantage for us, providing the opportunity for on-contract growth. We believe the U.S. federal government is increasingly looking to large, diversified providers for comprehensive solutions, for which Amentum offers a breadth and depth of proven expertise that is unique in the government services industry. [S64]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2025-12-19, L5592:
+
+> Analyze the prevailing executive compensation structure and plan designs, and help the Compensation Committee assess the appropriateness of our compensation program in the context of aligning executive officer interests with those of our strategy and our shareholder interests [S63]
 
 ## Financial performance
 
@@ -383,6 +450,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-02, L104:
+
+> The Board of Directors of Amentum Holdings, Inc. (the “Company”) approved an amendment and restatement of [S61]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -395,6 +466,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L733:
+
+> The Company is involved in various claims, disputes and administrative proceedings arising in the normal course of business. Liabilities for loss contingencies arising from claims, assessments, litigation, fines and penalties and other sources are recorded when it is probable that an unfavorable result and/or liability will be incurred and the cost of the unfavorable result or liability can be reasonably estimated. Management is of the opinion that any liability or loss associated with such matters, either individually or in the aggregate, will not have a material adverse effect on the Company’s operations and liquidity. [S62]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -404,25 +479,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -468,6 +543,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S49] [10-K 0001628280-25-053993](https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/0001628280-25-053993-index.html) — published 2025-11-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMTM/README.md).
+[S61] [8-K 0002011286-26-000026](https://www.sec.gov/Archives/edgar/data/2011286/000201128626000026/amtm-20260928.htm) — published 2026-10-02; retrieved 2026-11-11T20:02:46.325841+00:00.
+
+[S62] [10-Q 0001628280-26-055727](https://www.sec.gov/Archives/edgar/data/2011286/000162828026055727/amtm-20260703.htm) — published 2026-08-11; retrieved 2026-11-11T20:02:44.951136+00:00.
+
+[S63] [DEF 14A 0001104659-25-123111](https://www.sec.gov/Archives/edgar/data/2011286/000110465925123111/tm2523471-2_def14a.htm) — published 2025-12-19; retrieved 2026-11-11T20:02:43.227157+00:00.
+
+[S64] [10-K 0001628280-25-053993](https://www.sec.gov/Archives/edgar/data/2011286/000162828025053993/amtm-20251003.htm) — published 2025-11-25; retrieved 2026-11-11T20:02:41.615538+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMTM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -146,6 +146,12 @@ sources:
   published_at: '2026-09-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1370053/000119312526088290/anab-20251231.htm
+  title: 10-K 0001193125-26-088290
+  published_at: '2026-03-03'
+  retrieved_at: '2026-11-11T20:03:42.946120+00:00'
+  sha256: 25df272c6bcec8ba4da10f85e8058c3d0e9496853c35596d6a5c17067595bc01
 issuer_classification:
   cik: '0001370053'
   classification_status: reported_sic
@@ -192,13 +198,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1370053/000119312526177317/0001193125-26-177317-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 9eb6b4fe037ac800d5667ef27717d568a7ebe85739e411b32c03609d1367cec3
-  last_attempt_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-12T19:58:05.441404+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -213,15 +229,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001370053.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ANAB/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANAB/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANAB — ANAPTYSBIO, INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ANAB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANAB/README.md)
 
 ## Business overview
 
@@ -235,13 +251,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-03-03, L396; prior source set, update pending:
+
+> the impact of political, economic or public health events on our business and the U.S. and global economies; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-K, filed 2026-03-03, L5658; prior source set, update pending:
+
+> The accompanying consolidated financial statements include us and our wholly owned Australian subsidiary, which was deregistered with the Australian Securities & Investments Commission as of December 31, 2025. The deregistration did not have a material impact on our consolidated financial statements. All intercompany accounts and transactions have been eliminated in consolidation. We operate in two reportable segments, and our functional and reporting currency is the U.S. dollar. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-03-03, L1082; prior source set, update pending:
+
+> The term of individual patents depends upon the legal term of the patents in the countries in which they are obtained. In most countries in which we file, the patent term is 20 years from the earliest date of filing a non-provisional patent application related to the patent. A U.S. patent also may be accorded a patent term adjustment (“PTA”) under certain circumstances to compensate for delays in obtaining the patent from the U.S. Patent and Trademark Office (“USPTO”). In some instances, such a PTA may result in a U.S. patent term extending beyond 20 years from the earliest date of filing a non-provisional patent application related to the U.S. patent. In addition, the term of a U.S. patent that covers an FDA-approved drug may also be eligible for patent term extension, which permits patent term restoration as compensation for the patent term lost during the FDA regulatory review process. The Hatch-Waxman Act permits a patent term extension of up to five years beyond the expiration of the patent. The length of the patent term extension is related to the length of time the drug is under regulatory review. Patent term extension cannot extend the remaining term of a patent beyond a total of 14 years from the date of product approval and only one patent applicable to an approved drug may be extended. Similar provisions are available in Europe and other foreign jurisdictions to … [S68]
 
 ## Customers and end markets
 
@@ -253,19 +281,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-03, L1161; prior source set, update pending:
+
+> Adverse event reporting and submission of periodic reports are required following FDA approval of a BLA. The FDA also may require post-marketing testing, known as Phase 4 testing, REMS, and surveillance to monitor the effects of an approved product, or the FDA may place conditions on an approval that could restrict the distribution or use of the product. In addition, quality control, biological product manufacture, packaging, and labeling procedures must continue to conform to cGMP regulations after approval. Biologic manufacturers and certain of their subcontractors are required to register their establishments with the FDA and certain state agencies. Registration with the FDA subjects entities to periodic unannounced inspections by the FDA, during which the agency inspects manufacturing facilities to assess compliance with cGMP regulations. Accordingly, manufacturers must continue to expend time, money, and effort in the areas of production and quality-control to maintain compliance with cGMP regulations. Regulatory authorities may withdraw product approvals or request product recalls if a company fails to comply with regulatory standards, if it encounters problems following initial marketing, or if previously unrecognized problems are subsequently discovered. In addition, biological product manufacturers in the U.S. must comply with applicable provisions of the Drug Supply … [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-03, L384; prior source set, update pending:
+
+> the potential benefits and advantages of our product candidates and approaches versus those of our competitors; [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-03, L1061; prior source set, update pending:
+
+> Our intellectual property is critical to our business and we strive to protect it, including by obtaining and maintaining patent protection in the United States and internationally for product candidates, novel biological discoveries, epitopes, new therapeutic approaches and potential indications, and other inventions that are important to our business. In total, our patent portfolio, including patents co-owned with GSK, patents licensed from Centessa Pharmaceuticals (UK) Ltd. (“Centessa”), and patents to certain antibody discovery technology consisted of approximately 96 issued patents and 120 pending patent applications as of December 31, 2025. The foregoing does not include certain patents and patent applications that are not material to our business and which we intend to let lapse. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-03, L1020; prior source set, update pending:
+
+> We are a clinical-stage biotechnology company focused on delivering innovative immunology therapeutics. Our antibodies modulate key nodes governing the body’s regulation of autoimmunity and inflammation. Dysregulated immune responses may result in abnormal and pathological inflammation in diseases with large and substantially underserved patient populations in therapeutic areas including but not limited to gastroenterology, rheumatology, dermatology, and respiratory. The key elements of our strategy include: [S68]
 
 ## Financial performance
 
@@ -378,6 +422,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-03-03, L126; prior source set, update pending:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -390,6 +438,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-03-03, L413; prior source set, update pending:
+
+> These forward-looking statements are subject to a number of risks, uncertainties, and assumptions, including those described in Item 1A, “Risk Factors,” and elsewhere in this Annual Report. Moreover, we operate in a competitive and rapidly changing environment, and new risks emerge from time to time. It is not possible for our management to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks, uncertainties, and assumptions, the forward-looking events and circumstances discussed in this Annual Report may not occur, and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -399,25 +451,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -461,6 +513,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001477384-26-000013](https://www.sec.gov/Archives/edgar/data/1370053/000147738426000013/0001477384-26-000013-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/ANAB/README.md).
+[S68] [10-K 0001193125-26-088290](https://www.sec.gov/Archives/edgar/data/1370053/000119312526088290/anab-20251231.htm) — published 2026-03-03; retrieved 2026-11-11T20:03:42.946120+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANAB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

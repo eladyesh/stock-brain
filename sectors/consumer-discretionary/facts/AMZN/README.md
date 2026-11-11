@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -135,6 +135,12 @@ sources:
   published_at: '2026-09-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+  title: 10-Q 0001018724-26-000026
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-11T20:03:27.154712+00:00'
+  sha256: ff53dd742d19b6b61707dff7da693a02571fbd631ff2ba3a7ded9f3373f10681
 issuer_classification:
   cik: 0001018724
   classification_status: reported_sic
@@ -172,13 +178,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/0001104659-26-107526-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0d0be12c9e174da078a86c08142f2a790a75cc6fe937179a45bdd7607baf1a65
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -193,15 +210,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001018724.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMZN/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMZN/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMZN — AMAZON COM INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMZN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMZN/README.md)
 
 ## Business overview
 
@@ -215,17 +232,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L569:
+
+> accruals and disclosures as appropriate. For the matters we disclose that do not include an estimate of the amount of loss or range of losses, such an estimate is not possible or is immaterial, and we may be unable to estimate the possible loss or range of losses that could potentially result from the application of non-monetary remedies. Until the final resolution of such matters, if any of our estimates and assumptions change or prove to have been incorrect, we may experience losses in excess of the amounts recorded, which could have a material effect on our business, consolidated financial position, results of operations, or cash flows. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-31, L834:
+
+> We have organized our operations into three segments: North America, International, and AWS. We allocate to segment results the operating expenses “Fulfillment,” “Technology and infrastructure,” “Sales and marketing,” and “General and administrative” based on usage, which is generally reflected in the segment in which the costs are incurred. The majority of technology costs recorded in “Technology and infrastructure” are incurred in the U.S. and are included in our North America and AWS segments. The majority of infrastructure costs recorded in “Technology and infrastructure” are allocated to the AWS segment based on usage. There are no internal revenue transactions between our reportable segments. Our chief operating decision maker (“CODM”) is our President and Chief Executive Officer. Our CODM regularly reviews consolidated net sales, consolidated operating expenses, and consolidated operating income (loss) by segment. Amounts included in consolidated operating expenses include “Cost of sales,” “Fulfillment,” “Technology and infrastructure,” “Sales and marketing,” “General and administrative,” and “Other operating expense (income), net.” Our CODM manages our business primarily by reviewing consolidated results by segment on a quarterly basis, and using those results along with forecasts and other non-financial information in our annual budgeting process. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-31, L993:
+
+> Macroeconomic factors, including changes in inflation and interest rates, resource and supply volatility, global economic and geopolitical developments, including unpredictable shifts in global tariff and trade policies, and the development and adoption of technologies and services, including artificial intelligence, have direct and indirect impacts on our results of operations that are difficult to predict, isolate, and quantify. These could affect customer demand for our products and services, our ability to forecast growth needs, expenses, and benefits from new technologies. Further, we expect to continue making additional investments in our artificial intelligence initiatives. We expect some or all of these factors to continue to impact our results of operations into Q3 2026. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-31, L891:
+
+> (2)Includes product sales where our customers physically select items in a store. Sales to customers who order goods online for delivery or pickup at our physical stores are included in “Online stores.” [S69]
 
 ## Industry and value chain
 
@@ -233,19 +266,35 @@ SEC-reported SIC **5961**: Retail-Catalog & Mail-Order Houses. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L1061:
+
+> Shipping costs were $23.4 billion and $27.9 billion in Q2 2025 and Q2 2026, and $45.9 billion and $53.6 billion for the six months ended June 30, 2025 and 2026. Shipping costs to receive products from our suppliers are included in our inventory and recognized as cost of sales upon sale of products to our customers. We expect our cost of shipping to continue to increase to the [S69]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-31, L565:
+
+> In addition, we are regularly subject to claims, litigation, and other proceedings, including government inquiries and investigations that could lead to the foregoing and potential regulatory proceedings, involving patent and other intellectual property matters, taxes, labor and employment, competition and antitrust, privacy and data protection, consumer protection, commercial disputes, goods and services offered by us and by third parties, and other matters. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-31, L565:
+
+> In addition, we are regularly subject to claims, litigation, and other proceedings, including government inquiries and investigations that could lead to the foregoing and potential regulatory proceedings, involving patent and other intellectual property matters, taxes, labor and employment, competition and antitrust, privacy and data protection, consumer protection, commercial disputes, goods and services offered by us and by third parties, and other matters. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-31, L1069:
+
+> We seek to expand our fulfillment network to accommodate a greater selection and in-stock inventory levels and to meet anticipated shipment volumes from sales of our own products as well as sales by third parties for which we provide the fulfillment services. We regularly evaluate our facility requirements. [S69]
 
 ## Financial performance
 
@@ -367,6 +416,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L674:
+
+> In March 2022, the Board of Directors authorized a program to repurchase up to $10.0 billion of our common stock, with no fixed expiration. There were no repurchases of our common stock during the six months ended June 30, 2025 or 2026. As of June 30, 2026, we have $6.1 billion remaining under the repurchase program. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -379,6 +432,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L949:
+
+> This Quarterly Report on Form 10-Q includes forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact, including statements regarding guidance, industry prospects, or future results of operations or financial position, made in this Quarterly Report on Form 10-Q are forward-looking. We use words such as anticipates, believes, expects, future, intends, and similar expressions to identify forward-looking statements. Forward-looking statements reflect management’s current expectations and are inherently uncertain. Actual results and outcomes could differ materially for a variety of reasons, including, among others, fluctuations in foreign exchange rates and energy prices, changes in global economic conditions, tariff and trade policies, resource and supply volatility, including for memory chips, and customer demand and spending, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the internet, online commerce, cloud services, and new and emerging technologies, the amount that Amazon.com invests in new business opportunities and the timing of those investments, the mix of products and services sold to customers, the mix of net sales derived from products as compared with services, the extent to which we owe income or other taxes, … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -388,25 +445,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -448,6 +505,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K 0001104659-26-107526](https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/0001104659-26-107526-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMZN/README.md).
+[S69] [10-Q 0001018724-26-000026](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm) — published 2026-07-31; retrieved 2026-11-11T20:03:27.154712+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMZN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

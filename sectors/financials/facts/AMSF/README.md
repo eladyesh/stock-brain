@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -139,6 +139,18 @@ sources:
   published_at: '2026-02-27'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1018979/000119312526314074/amsf-20260630.htm
+  title: 10-Q 0001193125-26-314074
+  published_at: '2026-07-23'
+  retrieved_at: '2026-11-11T20:02:01.994267+00:00'
+  sha256: f82944999e6a1e6b2bd1248abe9ef2b7d6846f8b44b1f6bc91685fda54276aa3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1018979/000119312526082513/amsf-20251231.htm
+  title: 10-K 0001193125-26-082513
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-11T20:01:57.058707+00:00'
+  sha256: a9fe507ca6633d04aed353a519a94aa457fdb32f0b1f447bdd2ec0c7a6b51abd
 issuer_classification:
   cik: 0001018979
   classification_status: reported_sic
@@ -180,13 +192,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1018979/000119312523265138/0001193125-23-265138-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f4bdb3a0e8f795f75807a72afbccf9f04af642a724090c3568f8f65a6d38387b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -201,15 +221,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001018979.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMSF/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMSF/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMSF — AMERISAFE INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMSF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMSF/README.md)
 
 ## Business overview
 
@@ -223,9 +243,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-23, L234:
+
+> This report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and 21E of the Securities Exchange Act of 1934. Forward-looking statements are all statements other than statements of historical facts. You should not place undue reliance on these statements. These forward-looking statements include statements that reflect the current views of our senior management with respect to our financial performance and future events with respect to our business and the insurance industry in general. Statements that include the words “expect,” “intend,” “plan,” “believe,” “project,” “forecast,” “estimate,” “may,” “should,” “could,” “to be,” “anticipate,” “strive,” and similar statements of a future or forward-looking nature identify forward-looking statements. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-23, L9216:
+
+> We operate as a single reportable segment, Insurance Operations, through our wholly owned subsidiaries. Profits, losses and assets are evaluated on a consolidated basis. [S67]
 
 ## Products and services
 
@@ -234,6 +262,10 @@ Not available: substantive research has not been completed. Describe the main pr
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-27, L5219:
+
+> Throughout our 40-year history, the retention, growth and development of our employees has been critical to our success. In order to continue to deliver on our mission of providing quality insurance services to our customers, it is crucial that we continue to attract and retain talented employees that are aligned with our mission. [S70]
 
 ## Industry and value chain
 
@@ -247,6 +279,10 @@ Navigation sector: **financials**. Method: `project_sic_rule`. Project navigatio
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-23, L239:
+
+> increased competition on the basis of types of insurance offered, premium rates, coverage availability, payment terms, claims management, safety services, policy terms, overall financial strength, financial ratings and reputation; [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -254,6 +290,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-27, L531:
+
+> Focus on Underwriting Profitability. We intend to maintain our underwriting discipline throughout market cycles with the objective of remaining profitable. Our strategy is to focus on underwriting workers’ compensation insurance in hazardous industries and to maintain adequate rate levels commensurate with the risks we underwrite. We will also continue to strive for improved risk selection and pricing, as well as reduced frequency and severity of claims through comprehensive workplace safety reviews, effective medical cost containment measures and rapid closing of claims through personal, direct contact with our policyholders and their employees. [S70]
 
 ## Financial performance
 
@@ -375,6 +415,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-23, L4273:
+
+> During the six months ended June 30, 2026, the Company issued 24,619 shares of common stock to executive officers pursuant to vested performance awards and 4,230 shares of common stock to executive officers upon the vesting of restricted stock units (RSUs). During the six months ended June 30, 2026, the Company awarded 16,380 shares of restricted common stock to non-employee directors. The market value of these shares totaled $1.5 million. During the six months ended June 30, 2025, the Company issued 19,737 shares of common stock to executive officers pursuant to vested performance awards. During the six months ended June 30, 2025, the Company awarded 11,452 shares of restricted common stock to non-employee directors. The market value of these shares totaled $1.4 million. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -387,6 +431,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-23, L267:
+
+> other risks and uncertainties described in more detail under the heading “Risk Factors” in Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2025 and from time to time in the Company’s other filings with the Securities and Exchange Commission (SEC). [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -396,25 +444,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -460,6 +508,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S58] [10-K 0001193125-26-082513](https://www.sec.gov/Archives/edgar/data/1018979/000119312526082513/0001193125-26-082513-index.html) — published 2026-02-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMSF/README.md).
+[S67] [10-Q 0001193125-26-314074](https://www.sec.gov/Archives/edgar/data/1018979/000119312526314074/amsf-20260630.htm) — published 2026-07-23; retrieved 2026-11-11T20:02:01.994267+00:00.
+
+[S70] [10-K 0001193125-26-082513](https://www.sec.gov/Archives/edgar/data/1018979/000119312526082513/amsf-20251231.htm) — published 2026-02-27; retrieved 2026-11-11T20:01:57.058707+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMSF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

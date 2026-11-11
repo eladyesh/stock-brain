@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -142,6 +142,18 @@ sources:
   published_at: '2026-10-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1393584/000139358426000018/amwl-20260630.htm
+  title: 10-Q 0001393584-26-000018
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-11T20:03:09.836555+00:00'
+  sha256: c382ca96ba92b095bc79a24fc5dd7c6a7a522be82c02f01aca588658d6011d51
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1393584/000139358426000008/amwl-20260423.htm
+  title: DEF 14A 0001393584-26-000008
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-11T20:03:06.545154+00:00'
+  sha256: 8181f13376b48259b25e34c929358e4c9dae696e1960032209873d7c64db9c6e
 issuer_classification:
   cik: 0001393584
   classification_status: reported_sic
@@ -179,13 +191,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1393584/000139358426000016/0001393584-26-000016-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 20493b6eeafbf8def2c8a9c353c357dd53955a2c988e4acea4539dd0697b2919
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -200,15 +222,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001393584.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMWL/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMWL/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMWL — American Well Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMWL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMWL/README.md)
 
 ## Business overview
 
@@ -222,17 +244,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L4142:
+
+> APC generated revenues of $459 during the three and six months ended June 30, 2025. Given that we operate our business as a single reporting unit, we are unable to reasonably determine stand-alone costs and related earnings or loss before income taxes attributable to the APC business. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L5658:
+
+> We sell the Amwell Platform on a subscription basis, which with our modular platform architecture allows our clients to introduce innovative digital care use cases over time, expanding our subscription revenue opportunity. To support the Amwell Platform, we offer professional services on a fee-for-service basis and a range of patient and provider Carepoint devices and software that support hospital and home use cases and access to AMG, our affiliated medical group that provides clinical services on a fee-for-service basis. The combination of the Amwell Platform, professional services and Carepoint hardware allows our clients to deploy digital care solutions across their full enterprise, deepening their relationships with existing and new patients and members through improved care access and coordination, cost and quality. Our contracts are typically three years in length but may be longer for our largest strategic client partners. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-04-23, L280:
+
+> Our commitment to viewing our business through a corporate responsibility lens is strong and we continue to be guided by three pillars: Our People, Our Products and Our Operations. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L3376:
+
+> The Company operates and manages its business as one reportable and operating segment. The Company’s Amwell Platform enables hybrid care delivery for our customers. The measure of segment assets is reported on the balance sheet as total consolidated assets. In addition, the Company derives revenue primarily in the United States and manages the business activities on a consolidated basis. [S69]
 
 ## Industry and value chain
 
@@ -246,13 +284,25 @@ Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigati
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-23, L2921:
+
+> This agreement provides for restrictions on non-competition (during employment and for (A) 24 months following a termination of employment without cause or resignation for good reason or (B) 12 months following any other termination event), non-solicitation of customers and employees (during employment and for 24 months post-termination), confidentiality (in perpetuity) and mutual non-disparagement (in perpetuity). [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-04, L5254:
+
+> The Company’s arrangements generally include certain provisions for indemnifying clients against third-party claims asserting infringement of certain intellectual property rights in the ordinary course of business. The Company also regularly indemnifies clients against third-party claims that the company’s products or services breach applicable law or regulation or from claims resulting from a breach of the business associate agreement in place with the client. In addition, the Company indemnifies its officers, directors and certain key employees while they are serving in good faith in their capacities. Through June 30, 2026 and December 31, 2025, there have been no claims under any indemnification provisions. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-23, L28:
+
+> 2025 was a transformative year for Amwell as we executed against our strategic priorities with discipline and focus. Our mission to transform healthcare through technology has never been more relevant, and I am pleased to report significant progress toward our goal of achieving positive cash flow from operations in 2026. [S70]
 
 ## Financial performance
 
@@ -365,6 +415,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L4584:
+
+> The Company’s Amended and Restated Certificate of Incorporation authorizes the issuance of 100,000,000 shares of undesignated preferred stock, par value of $0.01 per share, with rights and preferences, including voting rights, designated from time to time by the board of directors. No shares of preferred stock were issued or outstanding as of June 30, 2026 and December 31, 2025. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -377,6 +431,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L5256:
+
+> From time to time, and in the ordinary course of business, the Company may be subject to various claims, charges, and litigation. As of June 30, 2026 and December 31, 2025, the Company did not have any pending claims, charges or litigation that it expects would have a material adverse effect on its consolidated financial position, results of operations or cash flows. We have $8,510 of legal exposure accrued related to potential settlements and legal costs, of which $5,200 relates to one specific case. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -386,25 +444,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -448,6 +506,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [144 0001193125-26-410841](https://www.sec.gov/Archives/edgar/data/1393584/000119312526410841/0001193125-26-410841-index.html) — published 2026-10-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMWL/README.md).
+[S69] [10-Q 0001393584-26-000018](https://www.sec.gov/Archives/edgar/data/1393584/000139358426000018/amwl-20260630.htm) — published 2026-08-04; retrieved 2026-11-11T20:03:09.836555+00:00.
+
+[S70] [DEF 14A 0001393584-26-000008](https://www.sec.gov/Archives/edgar/data/1393584/000139358426000008/amwl-20260423.htm) — published 2026-04-23; retrieved 2026-11-11T20:03:06.545154+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMWL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

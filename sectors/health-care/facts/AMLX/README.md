@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -145,6 +145,18 @@ sources:
   published_at: '2026-09-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/d160615d8k.htm
+  title: 8-K 0001193125-26-385331
+  published_at: '2026-09-08'
+  retrieved_at: '2026-11-11T19:59:36.561789+00:00'
+  sha256: 96813faa3dc8ebf1c4f94df8e5d430711cc38bde86f918f8dd4ef473c07a3894
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1658551/000119312526336682/amlx-20260630.htm
+  title: 10-Q 0001193125-26-336682
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-11T19:59:34.921252+00:00'
+  sha256: c0a2899290c37cee5f2db4f740abbbf4c3ffaf9c3059a723f24de485d8bdc8ee
 issuer_classification:
   cik: 0001658551
   classification_status: reported_sic
@@ -182,13 +194,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/0001193125-26-385331-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a8211e78395628d0a9834ead734a2a1e1e337bf894a028dc2dcd1c2bd05c0b2f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -203,15 +225,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001658551.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMLX/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMLX/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AMLX — Amylyx Pharmaceuticals, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMLX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMLX/README.md)
 
 ## Business overview
 
@@ -225,13 +247,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L281:
+
+> the implementation of our business model and strategic plans for our business, products, product candidates and technology; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2723:
+
+> To continue its development efforts, the Company may need to obtain substantial additional funding through public or private equity offerings, debt financings, collaborations, strategic alliances and/or licensing arrangements in order to fund its research and development and ongoing operating expenses. The Company may not be able to obtain financing on acceptable terms, when needed or at all, and the Company may not be able to enter into collaborations, strategic alliances or licensing arrangements. The terms of any financing may adversely affect the holdings or the rights of the Company’s stockholders. Any collaborations, strategic alliances or licensing arrangements may require the Company to relinquish rights to certain of its technologies, future revenue streams, research programs or product candidates or grant licenses on terms that may not be favorable to the Company. If the Company is unable to obtain funding, the Company could be forced to delay, limit, reduce or eliminate some or all of its research and development programs, pipeline expansion or future commercialization efforts or grant rights to develop and market product candidates, which could adversely affect its business prospects. Although management will continue to pursue these plans, there is no assurance that the Company will be successful in obtaining sufficient funding on terms acceptable to the Company … [S67]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L285:
+
+> the scope of protection we are able to establish and maintain for intellectual property rights covering our products, product candidates and technology; [S67]
 
 ## Customers and end markets
 
@@ -243,19 +277,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6301:
+
+> We currently engage third-party manufacturers to provide the APIs of avexitide and AMX0035 and for the final drug product formulation of avexitide and AMX0035 that is being or will be used in our clinical trials and for expanded access and commercial supply, as applicable, and we engage separate third parties for the blending and packaging of finished clinical materials. We must be able to demonstrate comparability of drug substance across suppliers along with stability data across suppliers. We currently rely on single manufacturers to supply each of our APIs. Although we believe that there are several potential alternative manufacturers who could manufacture each of the APIs in avexitide and AMX0035, we may incur added costs and delays in identifying and qualifying any such replacement. Moreover, the extent to which rising demand in certain APIs, geopolitical events, global health crises or economic policies, including tariffs, may impact our ability to procure sufficient supplies for the development of avexitide and AMX0035, and any other current or future products and product candidates will depend on whether the economic challenges caused by such events continue to impact the global economy and supply chains, among many other factors. For example, recent increased demand for GLP-1 and other peptide-based therapeutics has, and in the future could continue to, result in … [S67]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L5943:
+
+> advantages that our competitors and potential competitors may have in securing funding, obtaining the rights to critical IP or developing competing technologies or products; [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 8-K, filed 2026-09-08, L91:
+
+> The Bachem Manufacturing Agreement contains customary representations, warranties and covenants, including with respect to the ownership of any intellectual property created pursuant to the Bachem Manufacturing Agreement, as well as provisions relating to acceptance, warranty, quality, testing and inspection, audit, access to information, indemnification, confidentiality and other matters. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L5868:
+
+> If we are unable in the future to expand our sales, marketing, manufacturing and distribution capabilities or enter into agreements with third parties to market and sell avexitide, AMX0035 or other current or future product candidates for which we obtain marketing approval, we will be unable to generate any additional product revenue. [S67]
 
 ## Financial performance
 
@@ -356,6 +406,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4024:
+
+> Under the Company’s Fourth Amended and Restated Certificate of Incorporation, or the certificate of incorporation, each share of common stock entitles the holder to one vote on all matters submitted to the stockholders for a vote provided, however, that, except as otherwise required by law, holders of common stock shall not be entitled to vote on any amendment to the Company’s certificate of incorporation that relates solely to the terms of one or more outstanding series of preferred stock if the holders of such affected series are entitled, either separately or together with the holders of one or more other such series, to vote thereon pursuant to the certificate of incorporation or pursuant to the Delaware General Corporation Law. Holders of common stock are entitled to receive dividends, as may be declared by the Company’s Board of Directors, if any, subject to the preferential dividend rights of the preferred stock. No dividends were declared or paid during the six months ended June 30, 2026 and 2025. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -368,6 +422,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L300:
+
+> Any forward-looking statements in this Quarterly Report reflect our current views with respect to future events and with respect to our future financial performance, and involve known and unknown risks, uncertainties and other factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by these forward-looking statements. Factors that may cause actual results to differ materially from current expectations include, among other things, those described under the section titled “Risk Factors” and elsewhere in this Quarterly Report. Given these uncertainties, you should not place undue reliance on these forward-looking statements. Except as required by law, we assume no obligation to update or revise these forward-looking statements for any reason, even if new information becomes available in the future. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -377,25 +435,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -439,6 +497,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S20] [4 0001193125-26-390508](https://www.sec.gov/Archives/edgar/data/1658551/000119312526390508/0001193125-26-390508-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AMLX/README.md).
+[S66] [8-K 0001193125-26-385331](https://www.sec.gov/Archives/edgar/data/1658551/000119312526385331/d160615d8k.htm) — published 2026-09-08; retrieved 2026-11-11T19:59:36.561789+00:00.
+
+[S67] [10-Q 0001193125-26-336682](https://www.sec.gov/Archives/edgar/data/1658551/000119312526336682/amlx-20260630.htm) — published 2026-08-06; retrieved 2026-11-11T19:59:34.921252+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AMLX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

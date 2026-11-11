@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -131,6 +131,24 @@ sources:
   published_at: '2026-08-07'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1037868/000103786826000175/ame-20260630.htm
+  title: 10-Q 0001037868-26-000175
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-11T19:58:40.795333+00:00'
+  sha256: 189e2584edd931162c020c77bbabfd7fb476c9e3dfcd6d5d81787243595c0d0f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1037868/000103786826000062/ame-20260311.htm
+  title: DEF 14A 0001037868-26-000062
+  published_at: '2026-03-11'
+  retrieved_at: '2026-11-11T19:58:39.309554+00:00'
+  sha256: 5867655f1aa117282055a12699c3b970abb53ea2a44c6f089c1637d008202540
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1037868/000103786826000016/ame-20251231.htm
+  title: 10-K 0001037868-26-000016
+  published_at: '2026-02-17'
+  retrieved_at: '2026-11-11T19:58:37.730141+00:00'
+  sha256: 81b7d5a34c545ea073289df3ed8b8256a1f183a4ff73fc28aa3dbf8d3b62a5d1
 issuer_classification:
   cik: 0001037868
   classification_status: reported_sic
@@ -168,13 +186,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1037868/000103786826000191/0001037868-26-000191-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 33003907b1d51f1b132139570b9a46afb5fdb9e2a99a216ddab44efe67ecdfb2
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -189,15 +218,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001037868.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AME/README.md
-full_history_commit: 876d144f6387664050d096ed943ae2c26137a2cb
+full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AME/README.md
+full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AME — AMETEK INC/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AME/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AME/README.md)
 
 ## Business overview
 
@@ -211,17 +240,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-11, L142:
+
+> AMETEK’s core values are ingrained across our company and are aligned with the distributed nature of our business model. They are based on doing what is right for our stockholders, employees, customers, suppliers, and the communities where we operate. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L371:
+
+> The accompanying consolidated financial statements are unaudited. AMETEK, Inc. (the “Company”) believes that all adjustments (which primarily consist of normal recurring accruals) necessary for a fair presentation of the consolidated financial position of the Company at June 30, 2026, the consolidated results of its operations for the three and six months ended June 30, 2026 and 2025 and its cash flows for the six months ended June 30, 2026 and 2025 have been included. The Company has two reportable segments, Electronic Instruments Group (“EIG”) and Electromechanical Group (“EMG”). The Company identifies its operating segments for segment reporting purposes primarily on the basis of product type, production processes, distribution methods and management organizations. Quarterly results of operations are not necessarily indicative of results for the full year. The accompanying consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes presented in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025 as filed with the U.S. Securities and Exchange Commission. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-04, L672:
+
+> On May 5, 2026, the Company announced that it has entered into a definitive agreement to acquire a portfolio of instrumentation business from Indicor, LLC ("Indicor Instrumentation") in an all-cash transaction valued at approximately $5.0 billion. Indicor Instrumentation is a collection of leading businesses that design and manufacture mission critical solutions for demanding industrial and scientific applications. Its products serve customers across end markets that align closely with the Company's existing portfolio of instrumentation businesses. Indicor Instrumentation has annual sales of approximately $1.1 billion. The transaction is subject to customary closing conditions, including applicable regulatory approvals, and is expected to close in the second half of 2026. Following closing of the transaction, the businesses will be integrated into EIG or EMG based on product offerings and market alignment. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L672:
+
+> On May 5, 2026, the Company announced that it has entered into a definitive agreement to acquire a portfolio of instrumentation business from Indicor, LLC ("Indicor Instrumentation") in an all-cash transaction valued at approximately $5.0 billion. Indicor Instrumentation is a collection of leading businesses that design and manufacture mission critical solutions for demanding industrial and scientific applications. Its products serve customers across end markets that align closely with the Company's existing portfolio of instrumentation businesses. Indicor Instrumentation has annual sales of approximately $1.1 billion. The transaction is subject to customary closing conditions, including applicable regulatory approvals, and is expected to close in the second half of 2026. Following closing of the transaction, the businesses will be integrated into EIG or EMG based on product offerings and market alignment. [S68]
 
 ## Industry and value chain
 
@@ -229,19 +274,35 @@ SEC-reported SIC **3823**: Industrial Instruments For Measurement, Display, and 
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1073:
+
+> Information contained in this discussion, other than historical information, is considered “forward-looking statements” and is subject to various factors and uncertainties that may cause actual results to differ significantly from expectations. These factors and uncertainties include risks related to the Company’s ability to consummate and successfully integrate future acquisitions; risks associated with international sales and operations, including supply chain disruptions; tariffs, trade disputes and currency conditions; the Company’s ability to successfully develop new products, open new facilities or transfer product lines; the price and availability of raw materials; compliance with government regulations, including environmental regulations; changes in the competitive environment or the effects of competition in the Company’s markets; the ability to maintain adequate liquidity and financing sources; and general economic conditions affecting the industries the Company serves. A detailed discussion of these and other factors that may affect the Company’s future results is contained in AMETEK’s filings with the U.S. Securities and Exchange Commission, including its most recent reports on Form 10-K, 10-Q, and 8-K. AMETEK disclaims any intention or obligation to update or revise any forward-looking statements, unless required by the securities laws to do so. [S68]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1073:
+
+> Information contained in this discussion, other than historical information, is considered “forward-looking statements” and is subject to various factors and uncertainties that may cause actual results to differ significantly from expectations. These factors and uncertainties include risks related to the Company’s ability to consummate and successfully integrate future acquisitions; risks associated with international sales and operations, including supply chain disruptions; tariffs, trade disputes and currency conditions; the Company’s ability to successfully develop new products, open new facilities or transfer product lines; the price and availability of raw materials; compliance with government regulations, including environmental regulations; changes in the competitive environment or the effects of competition in the Company’s markets; the ability to maintain adequate liquidity and financing sources; and general economic conditions affecting the industries the Company serves. A detailed discussion of these and other factors that may affect the Company’s future results is contained in AMETEK’s filings with the U.S. Securities and Exchange Commission, including its most recent reports on Form 10-K, 10-Q, and 8-K. AMETEK disclaims any intention or obligation to update or revise any forward-looking statements, unless required by the securities laws to do so. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-17, L281:
+
+> In many instances, EIG's products differ from or are technologically superior to its competitors’ products. EIG has achieved competitive advantage through continued investment in research, development and engineering to develop market-leading products and solutions that serve niche markets. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-17, L369:
+
+> International sales for 2025 and 2024 represented 48.2% and 47.4% of our consolidated net sales, respectively. As a result of our growth strategy, we anticipate that the percentage of sales outside the United States will increase in the future. As of December 31, 2025, we have manufacturing operations in 22 countries outside the United States, with significant operations in Canada, China, France, Germany, Mexico, Serbia, Poland and the United Kingdom. A disruption of our ability to obtain a supply of goods from these countries or a change in the cost to purchase, manufacture, or distribute these products could have an adverse effect on our sales and operations. International sales and operations are subject to the customary risks of operating in an international environment, including: [S70]
 
 ## Financial performance
 
@@ -354,6 +415,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1030:
+
+> Additional financing activities for the first six months of 2026 included cash dividends paid of $155.7 million, compared with $143.0 million for the first six months of 2025. Effective February 12, 2026, the Company’s Board of Directors approved a 10% increase in the quarterly cash dividend on the Company’s common stock to $0.34 per common share from $0.31 per common share. The Company used $28.1 million to repurchase its common stock for the first six months of 2026, compared with $18.1 million for the first six months of 2025. Proceeds from stock option exercises were $20.8 million for the first six months of 2026, compared with $12.3 million for the first six months of 2025. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -366,6 +431,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-03-11, L794:
+
+> compensation, including the quantitative nature of our goals, the setting of capped payout targets with actual payouts based on a capped achievement scale, and the individual performance evaluation process, are designed to prevent excessive risk-taking that would potentially harm our value or reward poor executive judgment. We reviewed our compensation policies and practices and concluded that they are not reasonably likely to have a material adverse effect on the company. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -375,25 +444,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -437,6 +506,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001921094-26-000815](https://www.sec.gov/Archives/edgar/data/1037868/000192109426000815/0001921094-26-000815-index.html) — published 2026-08-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/876d144f6387664050d096ed943ae2c26137a2cb/brain/companies/AME/README.md).
+[S68] [10-Q 0001037868-26-000175](https://www.sec.gov/Archives/edgar/data/1037868/000103786826000175/ame-20260630.htm) — published 2026-08-04; retrieved 2026-11-11T19:58:40.795333+00:00.
+
+[S69] [DEF 14A 0001037868-26-000062](https://www.sec.gov/Archives/edgar/data/1037868/000103786826000062/ame-20260311.htm) — published 2026-03-11; retrieved 2026-11-11T19:58:39.309554+00:00.
+
+[S70] [10-K 0001037868-26-000016](https://www.sec.gov/Archives/edgar/data/1037868/000103786826000016/ame-20251231.htm) — published 2026-02-17; retrieved 2026-11-11T19:58:37.730141+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AME/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
