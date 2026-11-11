@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -458,6 +458,36 @@ sources:
   published_at: '2025-08-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926030505/amix20260914_8k.htm
+  title: 8-K 0001437749-26-030505
+  published_at: '2026-09-16'
+  retrieved_at: '2026-11-11T19:59:19.783443+00:00'
+  sha256: 876918496f997527d7300be9b790f7fd9b15566997e196e714172cc85e2af030
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926030345/amix20260905_def14a.htm
+  title: DEF 14A 0001437749-26-030345
+  published_at: '2026-09-14'
+  retrieved_at: '2026-11-11T19:59:18.335776+00:00'
+  sha256: 8d86361989a2bab2b9a09179b4f3b1c2f08f52254ceb3d294f85371de20d612b
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926027429/amix20260630_10q.htm
+  title: 10-Q 0001437749-26-027429
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-11T19:59:16.614141+00:00'
+  sha256: 468f1bbd13d7b36d4a0334467c40bc859ecffbe28b8c3f575eef45d5aacdb168
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926020686/amix20260331c_10ka.htm
+  title: 10-K/A 0001437749-26-020686
+  published_at: '2026-06-15'
+  retrieved_at: '2026-11-11T19:59:15.109959+00:00'
+  sha256: 90852fc7101852844ecb36b752164d8c89e0b8cd981bfb46d8df4924cc2a8c9d
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926018573/amix20260331_10k.htm
+  title: 10-K 0001437749-26-018573
+  published_at: '2026-05-27'
+  retrieved_at: '2026-11-11T19:59:13.606892+00:00'
+  sha256: f3089bbdec8af5461ca91f34b56f2218a29b26ba325949296ff90fc48b2f4c9d
 issuer_classification:
   cik: 0001617867
   classification_status: reported_sic
@@ -500,13 +530,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1617867/000143774926030505/0001437749-26-030505-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5bc43bd967da9dd7025ed41a4c3d6e81631a79e83ebee03b49d5572459e033a1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -530,17 +571,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L607:
+
+> Our management is responsible for managing risks in our business, including developing processes to manage and monitor risks. The Board views its role as one of oversight. The Board focuses on understanding management’s risk management systems, the effectiveness of those systems, and the way in which management proactively manages risks. In addition, the Board utilizes the Nominating and Corporate Governance Committee, the Audit Committee and the Compensation Committee to manage risks that arise under each committee’s area of focus. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L679:
+
+> Operating segments are defined as components of an enterprise about which separate discrete information is available for evaluation by the chief operating decision maker ("CODM"), or decision-making group, in deciding how to allocate resources in assessing performance. Management has determined that the Company operates in one reportable segment, which is advancing the development of innovative technologies for sensing and treating disorders relating to the nervous system. The Company is initially focused on developing the technology for patients with pancreatic cancer, however, the Company believes the technology constitutes a platform with the potential to address several indications, including chronic pain management, hypertension, cardiovascular disease and a wide range of other nerve-related disorders. The Company's CODM is its Chief Executive Officer. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1095:
+
+> We will need to raise additional capital to meet our obligations and execute our business plan. We estimate that we will require additional financing of approximately $25 to $30 million to fund our operations to commercialization of our first indication. The timing and costs of clinical trials are difficult to predict and trial plans may change in response to evolving circumstances and as such the foregoing estimates may prove to be inaccurate. If we are unable to raise sufficient funds, we will be required to develop and implement an alternative plan to further extend payables, reduce overhead or scale back our business plan until sufficient additional capital is raised to support further operations. There can be no assurance that such a plan will be successful. We recognize the need to raise additional capital to continue to execute our business plan, including obtaining regulatory clearance for our products currently under development and commercializing and generating revenues from products under development. There is no assurance that additional financing will be available when needed or that management will be able to obtain financing on terms acceptable to us. A failure to raise sufficient capital, generate sufficient product revenues, control expenditures and regulatory matters, among other factors, will adversely impact our ability to meet our financial obligations as … [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-05-27, L980:
+
+> The medical device and life-science industry in general is characterized by rapid and significant technological changes, frequent new product introductions and enhancements and evolving industry standards. Our future success will depend on our ability to continually develop and then improve the products that we design and to develop and introduce new products that address the evolving needs of our customers on a timely and cost-effective basis. [S69]
 
 ## Industry and value chain
 
@@ -548,17 +605,33 @@ SEC-reported SIC **3841**: Surgical & Medical Instruments & Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L577:
+
+> Trent Smith, Chief Financial Officer. Mr. Smith joined us in July 2023 as our Chief Financial Officer. Mr. Smith has extensive management, accounting, financial and international experience. From June 2018 to September 2022, Mr. Smith served as the Corporate Controller and Vice-President of Soliton, Inc., a medical device company focused on developing new technology for use in aesthetics that was acquired by AbbVie, Inc. in December 2021 and he continued to provide transition support post acquisition. From 2011 to 2018, Mr. Smith held various positions with InfuSystem Holdings, Inc., a national provider of infusion pumps and related services to the healthcare industry, where he served as Corporate Controller and Vice-President before a promotion to Chief Accounting Officer and Executive Vice President. From 2010 to 2011, Mr. Smith served as the Director of External Reporting of Syncreon Holdings, Inc., an international leader in global supply chain management, where he was responsible for creating the external reporting department to be compliant with SEC type reporting. From 2006 to 2010, Mr. Smith served as the Director of Accounting and Financial Reporting of Champion Homes, Inc., a leader in the manufactured housing industry and one of the largest modular homebuilders in North America. From 2005 to 2006, Mr. Smith served as the Director of External Financial Reporting for … [S66]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-09-14, L872:
+
+> If Mr. Smith’s employment is terminated upon his disability or death, at our election without “cause”, which requires 90 days advance notice, or by Mr. Smith for “good reason,” which requires 30 days advance notice, pursuant to his employment agreement Mr. Smith was entitled to receive severance payments equal to nine months of Mr. Smith’s base salary and 100% of the target bonus for the year in which such termination occurs, which was subsequently increased to twelve months; provided that such amounts shall be increased to thirteen and one-half months of Mr. Smith’s base salary and 125% of the target bonus for the year in which such termination occurs if Mr. Smith’s agreement is terminated without “cause” or by Mr. Smith for “good reason” within three months prior to or twelve months after of a “change of control.” Mr. Smith agreed not to compete with us until twelve months after the termination of his employment. [S66]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L584:
+
+> Christopher Capelli, Director. Dr. Capelli is the Founder and Chairman of the Board of Listen Energy, Inc., an early-stage energy technology company developing a novel process for continuous lithium extraction from brines for the EV battery market. Dr. Capelli leads the board on strategy, fundraising and partnership development. Previously, Dr. Capelli served as a Research Fellow at AbbVie following its acquisition of Soliton, Inc. in December 2021. At Soliton, he was Co-Founder, President, Chief Science Officer and Vice Chairman of the Board, and played a central role in the invention, development and clinical validation of the RESONIC™ Rapid Acoustic Pulse device, which achieved multiple FDA 510(k) clearances. Dr. Capelli is the lead inventor in Soliton’s RAP technology. A graduate of Massachusetts Institute of Technology (“MIT”) with a Bachelor of Science degree in Mechanical Engineering, Dr. Capelli earned his M.D. from the University of Wisconsin Medical School and maintains a medical license in the State of Wisconsin. As a result of his scientific work since graduating from MIT, Dr. Capelli holds over 100 issued patents and more than 300 global patent applications. These patents served as the basis for the creation of five companies having a total market capitalization greater than $36 billion. As a businessman, Dr. Capelli has been directly involved in the start-up of … [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-05-27, L1038:
+
+> The competition for qualified personnel in the medical device fields is intense and we rely heavily on our ability to attract and retain qualified scientific, technical, and managerial personnel. Our future success depends upon our ability to attract, retain and motivate highly skilled employees. In order to commercialize our products successfully, we will be required to expand our workforce, particularly in the areas of research and development and clinical studies, finance, accounting and reporting, sales and marketing and supply chain management. These activities will require the addition of new personnel and the development of additional expertise by existing management personnel. We face intense competition for qualified individuals from numerous pharmaceutical, biopharmaceutical and biotechnology companies, as well as academic and other research institutions. We may not be able to attract and retain these individuals on acceptable terms or at all. Failure to do so could materially harm our business. [S69]
 
 ## Financial performance
 
@@ -1056,6 +1129,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-16, L69:
+
+> On September 14, 2026, Autonomix Medical, Inc. (the “Company”) Board of Directors (the “Board”) increased the size of the Board from five to six members and appointed Sandra Kalter as an independent member of the Company’s Board, effective immediately. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1068,6 +1145,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-09-14, L1032:
+
+> Our Compensation Committee reviews our compensation policies and practices to determine areas of potential risks and the actions we have taken, or should take, to mitigate any such identified risks. Based on the Compensation Committee’s review of our compensation policies and practices, we do not believe that any risks relating to our compensation policies and practices for our employees are reasonably likely to have a material adverse effect on our business. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1077,25 +1158,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1159,6 +1240,10 @@ Latest 50 filing metadata records of 148 retained records. A filing link is evid
 | 2025-08-28 | UPLOAD | 0000000000-25-009241 | — | [S62] |
 | 2025-08-27 | 8-K | 0001437749-25-027890 | — | [S63] |
 | 2025-08-26 | 8-K | 0001437749-25-027719 | — | [S64] |
+
+Source excerpt — DEF 14A, filed 2026-09-14, L589:
+
+> Our Board of Directors oversees the business affairs of Autonomix and monitors the performance of management. Pursuant to our Bylaws, the Board of Directors shall consist of no less than one director. Members of the Board of Directors discussed various business matters informally on numerous occasions throughout the fiscal year ended March 31, 2026 (“fiscal 2026”). The Board held 6meetings during fiscal 2026. In addition to meetings of the full Board of Directors, our Board has established an Audit Committee, Compensation Committee and Nominating and Corporate Governance Committee. During fiscal 2026, these Board committees held an additional 7 meetings during the year. Specifically, the breakdown of the committee meetings for fiscal 2026 are as follows: 5 for the Audit Committee and 2 for the Compensation Committee. Our Nominating and Corporate Governance Committee did not meet during fiscal year 2026. We believe that such interaction between fellow Board members and with management provided proper oversight of the Company. Each incumbent director attended more than 75% of the total number of meetings of the Board of Directors and committee meetings of which such director was a member (held during the period for which such director was in office). [S66]
 
 ## Sources and change log
 
@@ -1289,5 +1374,15 @@ Latest 50 filing metadata records of 148 retained records. A filing link is evid
 [S63] [8-K 0001437749-25-027890](https://www.sec.gov/Archives/edgar/data/1617867/000143774925027890/0001437749-25-027890-index.html) — published 2025-08-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S64] [8-K 0001437749-25-027719](https://www.sec.gov/Archives/edgar/data/1617867/000143774925027719/0001437749-25-027719-index.html) — published 2025-08-26; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S65] [8-K 0001437749-26-030505](https://www.sec.gov/Archives/edgar/data/1617867/000143774926030505/amix20260914_8k.htm) — published 2026-09-16; retrieved 2026-11-11T19:59:19.783443+00:00.
+
+[S66] [DEF 14A 0001437749-26-030345](https://www.sec.gov/Archives/edgar/data/1617867/000143774926030345/amix20260905_def14a.htm) — published 2026-09-14; retrieved 2026-11-11T19:59:18.335776+00:00.
+
+[S67] [10-Q 0001437749-26-027429](https://www.sec.gov/Archives/edgar/data/1617867/000143774926027429/amix20260630_10q.htm) — published 2026-08-13; retrieved 2026-11-11T19:59:16.614141+00:00.
+
+[S68] [10-K/A 0001437749-26-020686](https://www.sec.gov/Archives/edgar/data/1617867/000143774926020686/amix20260331c_10ka.htm) — published 2026-06-15; retrieved 2026-11-11T19:59:15.109959+00:00.
+
+[S69] [10-K 0001437749-26-018573](https://www.sec.gov/Archives/edgar/data/1617867/000143774926018573/amix20260331_10k.htm) — published 2026-05-27; retrieved 2026-11-11T19:59:13.606892+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

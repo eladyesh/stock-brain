@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -484,6 +484,66 @@ sources:
   published_at: '2025-08-06'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774926030822/amsc20260921_8k.htm
+  title: 8-K 0001437749-26-030822
+  published_at: '2026-09-21'
+  retrieved_at: '2026-11-11T20:01:53.602381+00:00'
+  sha256: 7054f934d511f67cb5a462eb58d7b9d7db891b4dd6650fc0e8077ff6e89eb510
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774926025922/amsc20260630_10q.htm
+  title: 10-Q 0001437749-26-025922
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-11T20:01:52.129040+00:00'
+  sha256: bd36bfc40787e60d22c57493c42e989c71367d62feea5733f96ade3376ac3f92
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/880807/000119312526275809/d129644ddef14a.htm
+  title: DEF 14A 0001193125-26-275809
+  published_at: '2026-06-18'
+  retrieved_at: '2026-11-11T20:01:50.648864+00:00'
+  sha256: 3c61f285f601571ede6e1fbe827e42e7bcb0cfeb7f6aeff8af3c62b60aa76900
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774926018542/amsc20260331_10k.htm
+  title: 10-K 0001437749-26-018542
+  published_at: '2026-05-27'
+  retrieved_at: '2026-11-11T20:01:48.995532+00:00'
+  sha256: b1c924540b860c071411cb8626691a6edb986ea7ae62a28a6ab620d0fbcc2c20
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774926004349/amsc20260217_8ka.htm
+  title: 8-K/A 0001437749-26-004349
+  published_at: '2026-02-17'
+  retrieved_at: '2026-11-11T20:01:47.385014+00:00'
+  sha256: 82622d801afd2c6fec2f955cbf102ff81546ead88a7567f4366ec54ed1629e03
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774924024924/amsc20240804_8ka.htm
+  title: 8-K/A 0001437749-24-024924
+  published_at: '2024-08-06'
+  retrieved_at: '2026-11-11T20:01:45.971448+00:00'
+  sha256: d3c831625f4afd5f9387f486ed3428adb1fa618540680296b62ec5f6927a4200
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/880807/000143774920025291/amsc20201120_8ka.htm
+  title: 8-K/A 0001437749-20-025291
+  published_at: '2020-12-14'
+  retrieved_at: '2026-11-11T20:01:44.475580+00:00'
+  sha256: 7fdf53f3bf991cc568734a79e4fd0a360ad0ff3c62e26e9fcac7d9274944eb84
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/880807/000162828017005914/amsc033120178-ka.htm
+  title: 8-K/A 0001628280-17-005914
+  published_at: '2017-05-25'
+  retrieved_at: '2026-11-11T20:01:43.183489+00:00'
+  sha256: 8af34a69e15fca5fea23e6f584381e45fd7549bc943d361235f07e8e88fdff9c
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/880807/000119312512041344/d295522d8ka.htm
+  title: 8-K/A 0001193125-12-041344
+  published_at: '2012-02-06'
+  retrieved_at: '2026-11-11T20:01:41.778406+00:00'
+  sha256: d67632a9bd5eca0e566c38e252c046f31fad58219aa7e91c148ac69a5153ce98
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/880807/000095012310086373/b82278e8vkza.htm
+  title: 8-K/A 0000950123-10-086373
+  published_at: '2010-09-15'
+  retrieved_at: '2026-11-11T20:01:40.079373+00:00'
+  sha256: 07a4d6bce0dbef3dd3ddaf6957029703d86b8d2381f18c873bf81c8cec5711fa
 issuer_classification:
   cik: 0000880807
   classification_status: reported_sic
@@ -545,13 +605,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/880807/000095012310086373/0000950123-10-086373-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d58eec1f79798265cbc37616a0bb74bdc1ab5fd1fac3c0cddc12f89497bb6d47
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -575,6 +645,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1734:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). For this purpose, any statements contained herein that relate to future events or conditions, including without limitation, the statements in Part II, “Item 1A. Risk Factors” and in Part I under “Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and located elsewhere herein regarding industry prospects, our addressable markets, our competitive position, macroeconomic conditions and their anticipated effect on our business, the benefits of our acquisitions, financial results and financial condition, expectations for our products, capabilities and potential uses of our products, steps taken to enhance liquidity, or our prospective results of operations or financial position, may be deemed to be forward-looking statements. Without limiting the foregoing, the words “believes,” “anticipates,” “plans,” “expects,” and similar expressions are intended to identify forward-looking statements. Such forward-looking statements represent management’s current expectations and are inherently uncertain. There are a number of important factors that could materially impact the value of our common stock or cause actual results to differ materially from those indicated by such … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -583,9 +657,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1734:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). For this purpose, any statements contained herein that relate to future events or conditions, including without limitation, the statements in Part II, “Item 1A. Risk Factors” and in Part I under “Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and located elsewhere herein regarding industry prospects, our addressable markets, our competitive position, macroeconomic conditions and their anticipated effect on our business, the benefits of our acquisitions, financial results and financial condition, expectations for our products, capabilities and potential uses of our products, steps taken to enhance liquidity, or our prospective results of operations or financial position, may be deemed to be forward-looking statements. Without limiting the foregoing, the words “believes,” “anticipates,” “plans,” “expects,” and similar expressions are intended to identify forward-looking statements. Such forward-looking statements represent management’s current expectations and are inherently uncertain. There are a number of important factors that could materially impact the value of our common stock or cause actual results to differ materially from those indicated by such … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1737:
+
+> s business is negatively affected, it could adversely impact our business; Our success in addressing the wind energy market is dependent on the manufacturers that license our designs; Many of our revenue opportunities are dependent upon subcontractors and other business collaborators; Problems with product quality or product performance may cause us to incur warranty expenses or product liability charges and may damage our market reputation and prevent us from achieving increased sales and market share; Many of our customers outside of the United States may be either directly or indirectly related to governmental entities, and we could be adversely affected by violations of the United States Foreign Corrupt Practices Act and similar worldwide anti-bribery laws outside the United States; We have had limited success marketing and selling our superconductor products and system-level solutions, including our REG system, and our failure to more broadly market and sell our products and solutions could lower our revenue and cash flow; We or third parties on whom we depend may be adversely affected by natural disasters, including events resulting from climate change, and our business continuity and disaster recovery plans may not adequately protect us or our value chain from such events; Uncertainty surrounding our prospects and financial condition may have an adverse effect on our … [S69]
 
 ## Industry and value chain
 
@@ -593,17 +675,33 @@ SEC-reported SIC **3621**: Motors & Generators. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1758:
+
+> Changes in macroeconomic conditions arising from various reasons, such as the ongoing wars between Russia and Ukraine, and in the Middle East, tariffs, trade restrictions and resulting trade conflicts, labor force availability, sourcing, material delays and global supply chain disruptions, could have a material adverse effect on our business, financial condition and results of operations. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1737:
+
+> s business is negatively affected, it could adversely impact our business; Our success in addressing the wind energy market is dependent on the manufacturers that license our designs; Many of our revenue opportunities are dependent upon subcontractors and other business collaborators; Problems with product quality or product performance may cause us to incur warranty expenses or product liability charges and may damage our market reputation and prevent us from achieving increased sales and market share; Many of our customers outside of the United States may be either directly or indirectly related to governmental entities, and we could be adversely affected by violations of the United States Foreign Corrupt Practices Act and similar worldwide anti-bribery laws outside the United States; We have had limited success marketing and selling our superconductor products and system-level solutions, including our REG system, and our failure to more broadly market and sell our products and solutions could lower our revenue and cash flow; We or third parties on whom we depend may be adversely affected by natural disasters, including events resulting from climate change, and our business continuity and disaster recovery plans may not adequately protect us or our value chain from such events; Uncertainty surrounding our prospects and financial condition may have an adverse effect on our … [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1739:
+
+> s political, social, regulatory and economic environment may affect our financial performance; Industry consolidation could result in more powerful competitors and fewer customers; Evolving and varied expectations on environmental sustainability and social initiatives could adversely impact our business and financial results; Growth of the wind energy market depends largely on the availability and size of government subsidies, economic incentives and legislative programs designed to support the growth of wind energy; Lower prices for other energy sources may reduce the demand for wind energy development, which could have a material adverse effect on our ability to grow our Wind business; Our technology and products could infringe intellectual property rights of others, which may require costly litigation and, if we are not successful, could cause us to pay substantial damages and disrupt our business; We may be unable to adequately prevent disclosure of trade secrets and other proprietary information; Our patents may not provide meaningful or long-term protection for our technology, which could result in us losing some or all of our market position; Third parties have or may acquire patents that cover the materials, processes and technologies we use or may use in the future to manufacture our Amperium products, and our success depends on our ability to license such patents or … [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1737:
+
+> s business is negatively affected, it could adversely impact our business; Our success in addressing the wind energy market is dependent on the manufacturers that license our designs; Many of our revenue opportunities are dependent upon subcontractors and other business collaborators; Problems with product quality or product performance may cause us to incur warranty expenses or product liability charges and may damage our market reputation and prevent us from achieving increased sales and market share; Many of our customers outside of the United States may be either directly or indirectly related to governmental entities, and we could be adversely affected by violations of the United States Foreign Corrupt Practices Act and similar worldwide anti-bribery laws outside the United States; We have had limited success marketing and selling our superconductor products and system-level solutions, including our REG system, and our failure to more broadly market and sell our products and solutions could lower our revenue and cash flow; We or third parties on whom we depend may be adversely affected by natural disasters, including events resulting from climate change, and our business continuity and disaster recovery plans may not adequately protect us or our value chain from such events; Uncertainty surrounding our prospects and financial condition may have an adverse effect on our … [S69]
 
 ## Financial performance
 
@@ -1230,6 +1328,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-21, L77:
+
+> (b) On September 17, 2026, Barbara G. Littlefield informed the Board of Directors (the “Board”) of American Superconductor Corporation of her resignation from the Board, effective at 12 p.m. eastern time on Friday, September 18, 2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1242,6 +1344,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1734:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). For this purpose, any statements contained herein that relate to future events or conditions, including without limitation, the statements in Part II, “Item 1A. Risk Factors” and in Part I under “Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and located elsewhere herein regarding industry prospects, our addressable markets, our competitive position, macroeconomic conditions and their anticipated effect on our business, the benefits of our acquisitions, financial results and financial condition, expectations for our products, capabilities and potential uses of our products, steps taken to enhance liquidity, or our prospective results of operations or financial position, may be deemed to be forward-looking statements. Without limiting the foregoing, the words “believes,” “anticipates,” “plans,” “expects,” and similar expressions are intended to identify forward-looking statements. Such forward-looking statements represent management’s current expectations and are inherently uncertain. There are a number of important factors that could materially impact the value of our common stock or cause actual results to differ materially from those indicated by such … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1251,25 +1357,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1333,6 +1439,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-08-08 | 144 | 0001969223-25-000589 | — | [S65] |
 | 2025-08-08 | 4 | 0000950170-25-105858 | — | [S66] |
 | 2025-08-06 | 4 | 0000950170-25-104155 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L1725:
+
+> The Company has performed an evaluation of subsequent events through the time of filing this Quarterly Report on Form 10-Q with the SEC and has determined that there are no such events to report. [S69]
 
 ## Sources and change log
 
@@ -1469,5 +1579,25 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0000950170-25-105858](https://www.sec.gov/Archives/edgar/data/880807/000095017025105858/0000950170-25-105858-index.html) — published 2025-08-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0000950170-25-104155](https://www.sec.gov/Archives/edgar/data/880807/000095017025104155/0000950170-25-104155-index.html) — published 2025-08-06; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001437749-26-030822](https://www.sec.gov/Archives/edgar/data/880807/000143774926030822/amsc20260921_8k.htm) — published 2026-09-21; retrieved 2026-11-11T20:01:53.602381+00:00.
+
+[S69] [10-Q 0001437749-26-025922](https://www.sec.gov/Archives/edgar/data/880807/000143774926025922/amsc20260630_10q.htm) — published 2026-08-05; retrieved 2026-11-11T20:01:52.129040+00:00.
+
+[S70] [DEF 14A 0001193125-26-275809](https://www.sec.gov/Archives/edgar/data/880807/000119312526275809/d129644ddef14a.htm) — published 2026-06-18; retrieved 2026-11-11T20:01:50.648864+00:00.
+
+[S71] [10-K 0001437749-26-018542](https://www.sec.gov/Archives/edgar/data/880807/000143774926018542/amsc20260331_10k.htm) — published 2026-05-27; retrieved 2026-11-11T20:01:48.995532+00:00.
+
+[S72] [8-K/A 0001437749-26-004349](https://www.sec.gov/Archives/edgar/data/880807/000143774926004349/amsc20260217_8ka.htm) — published 2026-02-17; retrieved 2026-11-11T20:01:47.385014+00:00.
+
+[S73] [8-K/A 0001437749-24-024924](https://www.sec.gov/Archives/edgar/data/880807/000143774924024924/amsc20240804_8ka.htm) — published 2024-08-06; retrieved 2026-11-11T20:01:45.971448+00:00.
+
+[S74] [8-K/A 0001437749-20-025291](https://www.sec.gov/Archives/edgar/data/880807/000143774920025291/amsc20201120_8ka.htm) — published 2020-12-14; retrieved 2026-11-11T20:01:44.475580+00:00.
+
+[S75] [8-K/A 0001628280-17-005914](https://www.sec.gov/Archives/edgar/data/880807/000162828017005914/amsc033120178-ka.htm) — published 2017-05-25; retrieved 2026-11-11T20:01:43.183489+00:00.
+
+[S76] [8-K/A 0001193125-12-041344](https://www.sec.gov/Archives/edgar/data/880807/000119312512041344/d295522d8ka.htm) — published 2012-02-06; retrieved 2026-11-11T20:01:41.778406+00:00.
+
+[S77] [8-K/A 0000950123-10-086373](https://www.sec.gov/Archives/edgar/data/880807/000095012310086373/b82278e8vkza.htm) — published 2010-09-15; retrieved 2026-11-11T20:01:40.079373+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

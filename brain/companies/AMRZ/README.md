@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -412,6 +412,30 @@ sources:
   published_at: '2026-03-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/2035989/000114036126036349/ef20081881_8k.htm
+  title: 8-K 0001140361-26-036349
+  published_at: '2026-09-11'
+  retrieved_at: '2026-11-11T20:01:28.093282+00:00'
+  sha256: 6bf76873d01c3809585827abefa5668396bd2c30bac4b480009a62df48c3c578
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/2035989/000203598926000067/holcim-20260630.htm
+  title: 10-Q 0002035989-26-000067
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-11T20:01:26.393656+00:00'
+  sha256: 5b3bb12ff55b774df2dfc3290dba9802e2b5466758d8a85aa5b44da25ef216af
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/2035989/000114036126009219/ny20064985x2_def14a.htm
+  title: DEF 14A 0001140361-26-009219
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-11T20:01:24.351634+00:00'
+  sha256: e52eb59c77ed1f46c9d80c64f11b65f7054827507ea401da18f5a7d364459819
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/2035989/000203598926000017/holcim-20251231.htm
+  title: 10-K 0002035989-26-000017
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-11T20:01:22.252472+00:00'
+  sha256: 96611e455a5f9fce79c77002b6be9d69db68d06c7c2cb579b4b41a4a12eea6a0
 issuer_classification:
   cik: 0002035989
   classification_status: reported_sic
@@ -449,13 +473,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2035989/000114036126036349/0001140361-26-036349-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5c4d2c39e7d64b9375c9fd81d02b38720de475ceb0e1d8b64a297974c742271b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -479,17 +514,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L211:
+
+> These are only some of the factors that may affect the forward-looking statements contained in this Quarterly Report. We operate [S60]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L2037:
+
+> The Company is organized into two reportable segments — Building Materials and Building Envelope — that [S60]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-10, L8219:
+
+> for a wide range of applications across North America. Key product offerings of this segment include [S60]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-10, L8454:
+
+> address our customers’ needs. We believe we are at the forefront of new product developments, and our [S60]
 
 ## Industry and value chain
 
@@ -497,17 +548,33 @@ SEC-reported SIC **3241**: Cement, Hydraulic. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L951:
+
+> Amrize’s Executive Management currently consists of Jan Jenisch (Chief Executive Officer), Ian Johnston (Chief Financial Officer), Roald Brouwer (Chief Technology Officer), Stephen Clark (Chief People Officer), Nollaig Forrest (Chief Marketing and Corporate Affairs Officer), Jake Gosa (President of Amrize Building Envelope), Mario Gross (Chief Supply Chain Officer), Jaime Hill (President of Amrize Building Materials), Samuel Poletti (Chief Strategy and M&A Officer), and Denise Singleton (Chief Legal Officer and Corporate Secretary). [S61]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-03-12, L2872:
+
+> reviews and approves, for the Chief Executive Officer and members of our executive management, any employment agreements, non-competition agreements and change in control agreements or provisions and any special or supplemental benefits; [S61]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-12, L1136:
+
+> Mr. Rivkin has served as Senior Vice President and Chief Legal Officer for United Airlines Holdings, Inc. (“United”) since 2019, where he leads United’s legal department, including the corporate, securities, finance, commercial, litigation, government contracts, intellectual property, antitrust, environmental, employment and international groups. Mr. Rivkin is also responsible for security, facilitation, compliance, ethics and investigations. Prior to joining United, Mr. Rivkin served as deputy mayor of the City of Chicago from 2017 to 2019, where he oversaw the implementation of Mayor Rahm Emanuel’s key priorities across city departments and agencies, focusing his efforts on economic [S61]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-12, L14700:
+
+> Recruiting, developing and retaining qualified employees is essential to executing our strategy and maintaining our competitive position. We are a people-first company and investing in training our people supports skill development, employee retention, and long-term business continuity. We provide our employees with the tools, training, and time to perform their work safely and successfully coupled with competitive wages and benefits, and by providing a safe and respectful work environment. We embrace the diverse backgrounds and viewpoints of our team members so that we may learn from one another, and continue to improve our culture. [S61]
 
 ## Financial performance
 
@@ -748,6 +815,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L208:
+
+> •the fact that certain of Amrize's executive officers and directors may have actual or potential conflicts of interest [S60]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -760,6 +831,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L215:
+
+> “Legal Proceedings” and Item 1A, “Risk Factors” of Part II; in the Company’s Annual Report on Form 10-K for the year ended [S60]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -769,25 +844,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -851,6 +926,10 @@ Latest 50 filing metadata records of 164 retained records. A filing link is evid
 | 2026-03-12 | 4 | 0002035989-26-000031 | — | [S56] |
 | 2026-03-12 | ARS | 0001140361-26-009228 | — | [S57] |
 | 2026-03-12 | DEFA14A | 0001140361-26-009224 | — | [S58] |
+
+Source excerpt — DEF 14A, filed 2026-03-12, L966:
+
+> The Audit Committee has also appointed Ernst & Young LLP as Amrize’s independent registered public accounting firm for the fiscal year 2026 for purposes of U.S. securities law reporting. The Articles of Association do not require that Shareholders ratify the appointment of Ernst & Young LLP as Amrize’s independent registered public accounting firm. However, Amrize is submitting the appointment of Ernst & Young LLP to the Shareholders for ratification as a matter of good corporate governance. If the Shareholders do not ratify the appointment, the Audit Committee will reconsider whether to retain Ernst & Young LLP. Even if the appointment is ratified, the Audit Committee may, in its discretion, change the appointment during the year if the Audit Committee determines that such a change would be in the best interests of Amrize and its Shareholders. [S61]
 
 ## Sources and change log
 
@@ -969,5 +1048,13 @@ Latest 50 filing metadata records of 164 retained records. A filing link is evid
 [S57] [ARS 0001140361-26-009228](https://www.sec.gov/Archives/edgar/data/2035989/000114036126009228/0001140361-26-009228-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S58] [DEFA14A 0001140361-26-009224](https://www.sec.gov/Archives/edgar/data/2035989/000114036126009224/0001140361-26-009224-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S59] [8-K 0001140361-26-036349](https://www.sec.gov/Archives/edgar/data/2035989/000114036126036349/ef20081881_8k.htm) — published 2026-09-11; retrieved 2026-11-11T20:01:28.093282+00:00.
+
+[S60] [10-Q 0002035989-26-000067](https://www.sec.gov/Archives/edgar/data/2035989/000203598926000067/holcim-20260630.htm) — published 2026-08-10; retrieved 2026-11-11T20:01:26.393656+00:00.
+
+[S61] [DEF 14A 0001140361-26-009219](https://www.sec.gov/Archives/edgar/data/2035989/000114036126009219/ny20064985x2_def14a.htm) — published 2026-03-12; retrieved 2026-11-11T20:01:24.351634+00:00.
+
+[S62] [10-K 0002035989-26-000017](https://www.sec.gov/Archives/edgar/data/2035989/000203598926000017/holcim-20251231.htm) — published 2026-02-18; retrieved 2026-11-11T20:01:22.252472+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -460,6 +460,30 @@ sources:
   published_at: '2026-04-24'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1866692/000119312526422944/d446234d8k.htm
+  title: 8-K 0001193125-26-422944
+  published_at: '2026-10-15'
+  retrieved_at: '2026-11-11T20:00:39.592601+00:00'
+  sha256: d6149718db82450df5d251fd03cadefd3abbe9686f3ebe0764b65dd792561d0b
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1866692/000119312526335706/ampl-20260630.htm
+  title: 10-Q 0001193125-26-335706
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-11T20:00:37.574818+00:00'
+  sha256: 20a50b04eae89cf2c4a8f5e111f00bc975d42aa698157d33ad188eaabbe6d304
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1866692/000114036126016728/ny20065883x1_def14a.htm
+  title: DEF 14A 0001140361-26-016728
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-11T20:00:35.965559+00:00'
+  sha256: cc5de88a98f5faecabd6416f6ff90632493c057898e4980906bb075089191730
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1866692/000119312526057847/ampl-20251231.htm
+  title: 10-K 0001193125-26-057847
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-11T20:00:34.405126+00:00'
+  sha256: 16fd5b02e13f3297a0d726430c6cae3e891422405338ac35d589743b1e127a35
 issuer_classification:
   cik: 0001866692
   classification_status: reported_sic
@@ -497,13 +521,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1866692/000119312526422944/0001193125-26-422944-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 647c5810a57296cb924b2cee0d51979fac24a8427cc74fe83a75c5c9ef5e01f7
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -527,17 +562,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L255:
+
+> future investments in our business, our anticipated capital expenditures, and our estimates regarding our capital requirements; [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3567:
+
+> The Company has a single operating and reportable segment. The software segment provides an AI Analytics Platform to customers using a SaaS model. The Company derives revenue primarily in the United States and manages the business activities on a consolidated basis. The accounting policies of the software segment are the same as those described in the summary of significant accounting policies. [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L298:
+
+> The market in which we operate is highly competitive, and our ability to compete depends on developments in our technology, including the successful deployment of AI in our products. If we do not compete effectively, our business, financial condition, and results of operations could be materially adversely affected. [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L6588:
+
+> At the core of our AI Analytics Platform is our Behavioral Graph, a proprietary, purpose-built behavioral database that is the largest of its kind. Our Behavioral Graph instantly finds patterns, makes recommendations, and connects customer actions along their journeys to the right business outcomes, like engagement, growth, and loyalty. We have also re-architected Amplitude to be AI-led from the ground up. This transformation integrates AI across our platform to deliver intelligent insights, automate complex workflows, and enable adaptive experiences for our customers. With built-in AI agents and infrastructure—not bolted-on features—Amplitude helps teams reduce guesswork and drive durable business growth. Consistently ranked #1 in multiple categories by G2, Amplitude offers a comprehensive and easy-to-use platform, which includes Product and Marketing Analytics, Session Replay, Feature and Web Experimentation, Activation, Guides and Surveys, AI Agents, Amplitude Model Context Protocol ("MCP"), AI Visibility, AI Feedback, Agent Analytics, Global Agent and Specialized Agents. [S66]
 
 ## Industry and value chain
 
@@ -545,17 +596,33 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L10177:
+
+> Our results of operations may vary based on the impact of changes in our industry or the global economy on us or our customers or potential customers. Our ability to grow our revenue and the profitability of our business depends, in part, on demand for software applications generally. Historically, during economic downturns there have been reductions in spending on software applications and services generally, as well as pressure for extended billing terms and other financial concessions. To the extent that economic conditions deteriorate in the United States or abroad, including as a result of inflationary pressures and the responses by central banking authorities to control such inflation, rising interest rates, debt and equity market fluctuations, bank failures, diminished liquidity and credit availability, increased unemployment rates, decreased investor and consumer confidence, political turmoil, the imposition of tariffs (and uncertainty related to the enforceability thereof) and any retaliatory trade protection measures or trade wars that ensue, supply chain challenges, natural catastrophes and the effects of climate change, regional and global conflicts, and terrorist attacks on the United States, Europe, the Middle East, the Asia-Pacific region, or elsewhere, our customers and prospective customers may go out of business or elect to decrease their budgets, which would … [S66]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-06, L10081:
+
+> Our revenue growth rate may decline over time. In future periods, our revenue growth could slow or our revenue could decline for a number of reasons, including slowing demand for our AI Analytics Platform, increased competition, changes to technology, a decrease in the growth of our overall market, or our failure, for any reason, to manage our growth effectively or to continue to take advantage of growth opportunities. We have also encountered, and will continue to encounter, risks and uncertainties frequently experienced by growing companies in rapidly changing industries, such as the risks and uncertainties described in this Quarterly Report on Form 10-Q. If our assumptions regarding these risks and uncertainties and our future revenue growth are incorrect or change, or if we do not address these risks successfully, our financial condition and results of operations could differ materially from our expectations, and our business could be materially adversely affected. [S66]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L300:
+
+> Our intellectual property rights may not protect our business or provide us with a competitive advantage, which could have a material adverse effect on our business, financial condition, and results of operations. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L6597:
+
+> innovative products, features, and functionality targeted at our core customer base. In addition, we may choose to add new products and offerings or enhance our platform capabilities through acquisitions. In recent years, we have acquired companies to improve and expand our platform capabilities. In October 2024, we acquired CommandAI to provide intuitive AI-powered user assistance to make complex software easier to adopt and navigate. In June 2025, we completed an asset acquisition of Inari to accelerate our AI roadmap, leveraging their team’s deep expertise in applied AI. In July 2025, we completed a talent acquisition of June.io, a startup focused on empowering early‑stage product teams, to contribute to our next generation of AI-driven analytics experiences. In July 2025, we completed the acquisition of Kraftful, integrating Kraftful's Voice of Customer Technology to unite quantitative user behavioral data and qualitative user feedback into Amplitude. In January 2026, we completed the acquisition of InfiniGrow Ltd., an AI marketing analytics company that helps organizations measure, forecast, and optimize the impact of marketing on revenue. In May 2026, we acquired the brand, perpetual non-exclusive license to use certain proprietary technology, and customers of Statsig to enhance our warehouse native experiment and feature flag initiatives. Going forward, we may pursue … [S66]
 
 ## Financial performance
 
@@ -1173,6 +1240,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-15, L83:
+
+> On October 15, 2026, the Board of Directors (the “Board”) of Amplitude, Inc. (the “Company”) appointed Vijaye Raji to serve as a Class III director, to serve for an initial term expiring at the Company’s 2027 annual meeting of stockholders and until his successor has been elected and qualified or until his earlier resignation, disqualification, retirement or removal. Mr. Raji was appointed to a newly created directorship on the Board resulting from an increase in the size of the Board from eight to nine directors. In connection with his appointment as a Class III director, Mr. Raji was also appointed to serve as a member of the Cybersecurity Committee (the “Cybersecurity Committee”) of the Board. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1185,6 +1256,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L273:
+
+> You should not rely upon forward-looking statements as predictions of future events. We have based the forward-looking statements contained in this Quarterly Report on Form 10-Q primarily on our current expectations, estimates, forecasts, and projections about future events and trends that we believe may affect our business, results of operations, financial condition, and prospects. Although we believe that we have a reasonable basis for each forward-looking statement contained in this Quarterly Report on Form 10-Q, we cannot guarantee that the future results, levels of activity, performance, events, and circumstances reflected in the forward-looking statements will be achieved or occur at all. The outcome of the events described in these forward-looking statements is subject to risks, uncertainties, and other factors discussed in Part I, Item 2, “Management's Discussion and Analysis of Financial Condition and Results of Operations” and Part II, Item 1A, “Risk Factors” in this Quarterly Report on Form 10-Q as well as other documents that may be filed by us from time to time with the Securities and Exchange Commission. Moreover, we operate in a very competitive and rapidly changing environment. New risks and uncertainties emerge from time to time, and it is not possible for us to predict all risks and uncertainties that could have an impact on the forward-looking statements … [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1194,25 +1269,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1276,6 +1351,10 @@ Latest 50 filing metadata records of 518 retained records. A filing link is evid
 | 2026-04-24 | ARS | 0001140361-26-016733 | — | [S62] |
 | 2026-04-24 | DEFA14A | 0001140361-26-016730 | — | [S63] |
 | 2026-04-24 | DEF 14A | 0001140361-26-016728 | — | [S64] |
+
+Source excerpt — DEF 14A, filed 2026-04-24, L1648:
+
+> Risk assessment and oversight are an integral part of our governance and management processes. Our Board encourages management to promote a culture that incorporates risk management into our corporate strategy and day-to-day business operations. Management discusses strategic and operational risks at regular management meetings, and conducts specific strategic planning and review sessions during the year that include a focused discussion and analysis of the risks we face. Throughout the year, senior management reviews these risks with the Board at regular board meetings as part of management presentations that focus on particular business functions, operations, or strategies, and presents the steps taken by management to mitigate or eliminate such risks. [S67]
 
 ## Sources and change log
 
@@ -1406,5 +1485,13 @@ Latest 50 filing metadata records of 518 retained records. A filing link is evid
 [S63] [DEFA14A 0001140361-26-016730](https://www.sec.gov/Archives/edgar/data/1866692/000114036126016730/0001140361-26-016730-index.html) — published 2026-04-24; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S64] [DEF 14A 0001140361-26-016728](https://www.sec.gov/Archives/edgar/data/1866692/000114036126016728/0001140361-26-016728-index.html) — published 2026-04-24; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S65] [8-K 0001193125-26-422944](https://www.sec.gov/Archives/edgar/data/1866692/000119312526422944/d446234d8k.htm) — published 2026-10-15; retrieved 2026-11-11T20:00:39.592601+00:00.
+
+[S66] [10-Q 0001193125-26-335706](https://www.sec.gov/Archives/edgar/data/1866692/000119312526335706/ampl-20260630.htm) — published 2026-08-06; retrieved 2026-11-11T20:00:37.574818+00:00.
+
+[S67] [DEF 14A 0001140361-26-016728](https://www.sec.gov/Archives/edgar/data/1866692/000114036126016728/ny20065883x1_def14a.htm) — published 2026-04-24; retrieved 2026-11-11T20:00:35.965559+00:00.
+
+[S68] [10-K 0001193125-26-057847](https://www.sec.gov/Archives/edgar/data/1866692/000119312526057847/ampl-20251231.htm) — published 2026-02-19; retrieved 2026-11-11T20:00:34.405126+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

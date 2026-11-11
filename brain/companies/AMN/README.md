@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,42 @@ sources:
   published_at: '2025-09-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000162828026054507/amn-20260630.htm
+  title: 10-Q 0001628280-26-054507
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-11T19:59:46.562399+00:00'
+  sha256: 854c2a1e0dbcc89e19f37202d0ec0b265e8570b08da20e8976845e087c23eb0c
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000114275026000008/amn-20260806.htm
+  title: 8-K 0001142750-26-000008
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-11T19:59:44.810489+00:00'
+  sha256: d1192c838d77af4c864676aedb4e0cd6e88b72a0e55f1b9ab7aca5abb685a7ed
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000110465926029908/tm2524278-3_def14a.htm
+  title: DEF 14A 0001104659-26-029908
+  published_at: '2026-03-18'
+  retrieved_at: '2026-11-11T19:59:43.277996+00:00'
+  sha256: c32ecaff91577112ede31596e6cfd68776b4c68db3db4eeca4d6cd28649a9fa8
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000162828026009918/amn-20251231.htm
+  title: 10-K 0001628280-26-009918
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-11T19:59:41.739972+00:00'
+  sha256: 54cf85a4dffa0d3b18e4d7155dae137650a0d49c9b728166008784d75f16246b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000095014221001406/eh210146809_8ka1.htm
+  title: 8-K/A 0000950142-21-001406
+  published_at: '2021-04-23'
+  retrieved_at: '2026-11-11T19:59:39.917633+00:00'
+  sha256: 969a3b5c172781f5ad21ef3671bce5ed994a2b28dbdf227cd1765e698be1dc7f
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1142750/000095014220001304/eh2000716_8ka1.htm
+  title: 8-K/A 0000950142-20-001304
+  published_at: '2020-05-01'
+  retrieved_at: '2026-11-11T19:59:38.425770+00:00'
+  sha256: b4df99a5a5b6daf50ff8f13b85ad6998846af51847b1d182d134e73c908409ec
 issuer_classification:
   cik: '0001142750'
   classification_status: reported_sic
@@ -514,13 +550,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1142750/000095014220001304/0000950142-20-001304-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6021040f50ed30ca93a08f8ce113a6c7dee1f53d397593aa03928e285902b3e2
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -544,17 +591,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L842:
+
+> We provide technology-enabled healthcare workforce solutions and staffing services to healthcare organizations across the nation. The Company provides access to a comprehensive network of healthcare professionals through its recruitment strategies and breadth of career opportunities. We help providers optimize their workforce to reduce complexity and increase efficiency. Our total talent solutions include vendor-neutral and managed services programs, clinical and interim healthcare leaders, temporary staffing, permanent placement, executive search, vendor management systems, recruitment process outsourcing, language services, revenue cycle solutions, labor disruption and other services. Our diverse client base includes acute-care hospitals, community health centers and clinics, physician practice groups, retail and urgent care centers, home health facilities, schools, inpatient and outpatient rehabilitation facilities, ambulatory care facilities, outpatient surgical facilities, and many other healthcare settings. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L474:
+
+> The Company’s operating segments are identified in the same manner as they are reported internally and used by the Company’s chief operating decision maker (“CODM”) for the purpose of evaluating performance and allocating resources. The Company has three reportable segments: (1) nurse and allied solutions, (2) physician and leadership solutions, and (3) technology and workforce solutions. The nurse and allied solutions segment includes the Company’s travel nurse staffing (including international nurse staffing and rapid response nurse staffing), labor disruption staffing, local staffing, international nurse permanent placement, and allied staffing (including revenue cycle solutions) businesses. The physician and leadership solutions segment includes the Company’s locum tenens staffing, healthcare interim leadership staffing, executive search, and physician permanent placement businesses. The technology and workforce solutions segment includes the Company’s language services, vendor management systems (“VMS”), workforce optimization, and outsourced solutions businesses. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1039:
+
+> •the effects of economic downturns, inflation, recession or slow recoveries, or additional changes in or continued uncertainty with respect to governmental policies, which could result in less demand for our services, increased client initiatives designed to contain costs, including reevaluating their approach as it pertains to contingent labor and managed services programs; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-18, L2607:
+
+> As part of our engagement in the public policy process, we participate in certain industry trade organizations representing the interests of the healthcare, healthcare workforce, staffing industry, and the broader business community with purposes that include, but are not limited to education about the industry, issues affecting the industry, and industry best practices and standards. We may not always support every position taken by our trade associations or the other members; however, we believe our participation in these organizations makes us more effective and broadens our perspective on policy issues critical to our industry, our company, our customers, and our communities. [S70]
 
 ## Industry and value chain
 
@@ -562,17 +625,33 @@ SEC-reported SIC **7363**: Services-Help Supply Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-20, L460:
+
+> In addition to our in-house capabilities, we engage with key security and technology vendors, industry participants and intelligence communities to assess our program and test our technical capabilities and enhance the effectiveness of our information and cybersecurity policies and procedures. We use a combination of tools and technologies to protect AMN Healthcare’s assets and information. We maintain and operate a proactive threat intelligence program to identify and assess risk. We have implemented processes to identify, monitor and address material risks from cybersecurity threats associated with our use of third-party vendors, including those in our supply chain or who have access to our systems, data or facilities that house such systems or data. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L861:
+
+> In our technology and workforce solutions segment, second quarter minutes in our language services business were in line with prior year and higher compared to prior quarter. Ongoing pricing pressure for language services continues to be a headwind due to increased market competition. Volume in our VMS business declined compared to prior year and prior quarter. [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1053:
+
+> •disruption to or failures of our SaaS-based or technology-enabled services, or our inability to adequately protect our intellectual property rights with respect to such technologies or sufficiently protect the privacy of personal information, could reduce client satisfaction, harm our reputation and negatively affect our business; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-18, L1078:
+
+> We believe that directors who have served in senior executive positions (CEO, CFO, COO, CLO or substantially equivalent positions) are important because they have the experience and perspective to analyze, shape and oversee our strategy and offer guidance from their prior experience. [S70]
 
 ## Financial performance
 
@@ -1193,6 +1272,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1011:
+
+> In addition to our cash requirements, we have a share repurchase program authorized by our board of directors, which does not require the purchase of any minimum number of shares and may be suspended or discontinued at any time. See additional information in the accompanying Part II, Item 2, “Unregistered Sales of Equity Securities and Use of Proceeds.” [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1205,6 +1288,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1065:
+
+> •any recognition of an impairment to the substantial amount of goodwill or intangible assets on our balance sheet, which could result in a material adverse impact to our results of operations; [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1214,25 +1301,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1296,6 +1383,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-10-17 | 4 | 0001628280-25-045309 | — | [S65] |
 | 2025-10-06 | 8-K | 0000950142-25-002687 | — | [S66] |
 | 2025-09-22 | 8-K | 0000950142-25-002494 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-03-18, L3129:
+
+> The Board has executive sessions, led by our Board Chair, at each regularly scheduled Board meeting during the year, for which our management director, Ms. Grace, is not present. [S70]
 
 ## Sources and change log
 
@@ -1432,5 +1523,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [8-K 0000950142-25-002687](https://www.sec.gov/Archives/edgar/data/1142750/000095014225002687/0000950142-25-002687-index.html) — published 2025-10-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [8-K 0000950142-25-002494](https://www.sec.gov/Archives/edgar/data/1142750/000095014225002494/0000950142-25-002494-index.html) — published 2025-09-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [10-Q 0001628280-26-054507](https://www.sec.gov/Archives/edgar/data/1142750/000162828026054507/amn-20260630.htm) — published 2026-08-07; retrieved 2026-11-11T19:59:46.562399+00:00.
+
+[S69] [8-K 0001142750-26-000008](https://www.sec.gov/Archives/edgar/data/1142750/000114275026000008/amn-20260806.htm) — published 2026-08-06; retrieved 2026-11-11T19:59:44.810489+00:00.
+
+[S70] [DEF 14A 0001104659-26-029908](https://www.sec.gov/Archives/edgar/data/1142750/000110465926029908/tm2524278-3_def14a.htm) — published 2026-03-18; retrieved 2026-11-11T19:59:43.277996+00:00.
+
+[S71] [10-K 0001628280-26-009918](https://www.sec.gov/Archives/edgar/data/1142750/000162828026009918/amn-20251231.htm) — published 2026-02-20; retrieved 2026-11-11T19:59:41.739972+00:00.
+
+[S72] [8-K/A 0000950142-21-001406](https://www.sec.gov/Archives/edgar/data/1142750/000095014221001406/eh210146809_8ka1.htm) — published 2021-04-23; retrieved 2026-11-11T19:59:39.917633+00:00.
+
+[S73] [8-K/A 0000950142-20-001304](https://www.sec.gov/Archives/edgar/data/1142750/000095014220001304/eh2000716_8ka1.htm) — published 2020-05-01; retrieved 2026-11-11T19:59:38.425770+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

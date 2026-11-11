@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 6dea3be4625120db9da80155a96f14ed62690190
+source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -504,6 +504,78 @@ sources:
   published_at: '2025-11-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465926093400/ampy-20260810x8k.htm
+  title: 8-K 0001104659-26-093400
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-11T20:01:06.921227+00:00'
+  sha256: c0096f5a2b131ee2db8ba12f1d3e3d447a97679531a1303fa7a72b28df682b31
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465926093408/ampy-20260630x10q.htm
+  title: 10-Q 0001104659-26-093408
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-11T20:01:08.469396+00:00'
+  sha256: e6b87ecc0b602f5ee5b0a1a23daf6b3b4239ed5421530b0151591641ef0d839f
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465926047701/tm264826-1_def14a.htm
+  title: DEF 14A 0001104659-26-047701
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-11T20:01:05.496259+00:00'
+  sha256: 16f0bc4e6084474897e70c73dc88ab4ff8e7470ced6d426e2d92005178a6c527
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465926027245/tm268668d1_8ka.htm
+  title: 8-K/A 0001104659-26-027245
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-11T20:01:03.730984+00:00'
+  sha256: 00a49f704bac5dd2a2b21aeb6aa0a4f99e8f3f2152a578d1b4f3a5fa47fc16fd
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465926025299/ampy-20251231x10k.htm
+  title: 10-K 0001104659-26-025299
+  published_at: '2026-03-09'
+  retrieved_at: '2026-11-11T20:01:02.188333+00:00'
+  sha256: 007520cbbd26a272e1a4fdfaa8f3e8d7ac82da000a93a8931b30ad2bc0936668
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000119312520286825/d48882d8ka.htm
+  title: 8-K/A 0001193125-20-286825
+  published_at: '2020-11-05'
+  retrieved_at: '2026-11-11T20:01:00.659684+00:00'
+  sha256: ad3d63bcc5869271028da0b043a40ea0fa56336b57bd8526f1c44f2a763de872
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000119312520108091/d891270d8ka.htm
+  title: 8-K/A 0001193125-20-108091
+  published_at: '2020-04-15'
+  retrieved_at: '2026-11-11T20:00:59.006123+00:00'
+  sha256: 8239873c6d1b6c05930f743701037cb515746aa4b3c48d292c4e4f37024ab71f
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465916107996/a16-7194_18ka.htm
+  title: 8-K/A 0001104659-16-107996
+  published_at: '2016-03-28'
+  retrieved_at: '2026-11-11T20:00:57.717588+00:00'
+  sha256: cde8f1ef371f500ba900a0d43af4614e77f74ead450eacf6f3724bc693b49b32
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465915025683/a15-8579_18ka.htm
+  title: 8-K/A 0001104659-15-025683
+  published_at: '2015-04-03'
+  retrieved_at: '2026-11-11T20:00:55.896019+00:00'
+  sha256: 64e3838e644855e493bbf6ced4be5926555cf43dfe138f5d4b4a408b937b720a
+- id: S79
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465915021970/a15-7545_18ka.htm
+  title: 8-K/A 0001104659-15-021970
+  published_at: '2015-03-24'
+  retrieved_at: '2026-11-11T20:00:54.485878+00:00'
+  sha256: 8c4a1944260c151280d2c2572dccb3651fc2bf30dd6b4acdb531b59c4624b847
+- id: S80
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465913050433/a13-15283_18ka.htm
+  title: 8-K/A 0001104659-13-050433
+  published_at: '2013-06-20'
+  retrieved_at: '2026-11-11T20:00:53.127090+00:00'
+  sha256: 7c3e6c12acf77a9cbfc26cfbf704591f1497b6718c84f5abcc4e16e5e7eea8b9
+- id: S81
+  url: https://www.sec.gov/Archives/edgar/data/1533924/000110465913023019/a13-8188_18ka.htm
+  title: 8-K/A 0001104659-13-023019
+  published_at: '2013-03-21'
+  retrieved_at: '2026-11-11T20:00:51.623316+00:00'
+  sha256: 2727da4cbe5b3e61c7d8031abe430f5b82e6057293ef791a65b6f51f5b67a313
 issuer_classification:
   cik: 0001533924
   classification_status: reported_sic
@@ -573,13 +645,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1533924/000110465913023019/0001104659-13-023019-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: eb637f18f16667b197a0f86bee29cc8603445e0bdfab976281334182515929b3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-11T19:58:05.441404+00:00'
+  last_success_at: '2026-11-11T19:58:05.441404+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -603,17 +685,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 8-K, filed 2026-08-10, L157:
+
+> expect or anticipate will or may occur in the future, including things such as projections of results of operations, plans for growth, goals, future capital expenditures, competitive strengths, references to future intentions and other such references. These forward-looking statements involve risks and uncertainties and other factors that could cause the Company’s actual results or financial condition to differ materially from those expressed or implied by forward-looking statements. These include risks and uncertainties relating to, among other things: the Company’s evaluation and implementation of strategic alternatives; the Company’s implementation of the Share Repurchase Program and resulting purchases thereunder; risks related to the redetermination of the borrowing base under the Company’s revolving credit facility; the Company’s ability to satisfy debt obligations; the Company’s need to make accretive acquisitions or substantial capital expenditures to maintain its declining asset base, including the existence of unanticipated liabilities or problems relating to acquired or divested business or properties; volatility in the prices for oil, natural gas and NGLs; the Company’s ability to access funds on acceptable terms, if at all, because of the terms and conditions governing the Company’s indebtedness, including financial covenants; general political and economic … [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L3400:
+
+> The Company operates in one reportable segment that is engaged in the acquisition, development, exploitation and production of oil and natural gas properties. The Company’s management evaluates performance based on one reportable business segment as there are not different economic environments within the operation of the Company’s oil and natural gas properties. [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-09, L3418:
+
+> Our cybersecurity strategy is risk-based and is designed to reduce the likelihood and impact of cyber threats through prevention, detection, analysis, response, and resiliency. Our risk management processes include technical controls, policy enforcement mechanisms, continuous monitoring, contractual arrangements, use of third-party tools and services, and management oversight to assess, identify, and manage risks from cybersecurity threats. We implement controls to protect Company information (including the information of our customers and other third parties), our information systems, our business operations, and our products and services. However, our financial, accounting, data processing, portfolio monitoring, backup or other operating systems and facilities may fail to operate properly or become disabled or damaged as a result of a number of factors including events that are wholly or partially beyond our control. [S74]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-10, L10190:
+
+> Working Capital. Working capital is the amount by which current assets exceed current liabilities. Our working capital requirements are primarily driven by changes in accounts receivable and accounts payable, as well as the classification of our debt outstanding. These changes are impacted by changes in the prices of commodities that we buy and sell. In general, our working capital requirements increase in periods of rising commodity prices and decrease in periods of declining commodity prices. However, our working capital needs do not necessarily change at the same rate as commodity prices because both accounts receivable and accounts payable are impacted by the same commodity prices. In addition, the timing of payments received by our customers or paid to our suppliers can also cause fluctuations in working capital because we settle with most of our larger customers on a monthly basis and often near the end of the month. We expect that our future working capital requirements will be impacted by these same factors. From time-to-time, our working capital will reflect a deficit, while at other times it will reflect a surplus. This fluctuation is not unusual. [S71]
 
 ## Industry and value chain
 
@@ -621,9 +719,17 @@ SEC-reported SIC **1311**: Crude Petroleum & Natural Gas. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L10190:
+
+> Working Capital. Working capital is the amount by which current assets exceed current liabilities. Our working capital requirements are primarily driven by changes in accounts receivable and accounts payable, as well as the classification of our debt outstanding. These changes are impacted by changes in the prices of commodities that we buy and sell. In general, our working capital requirements increase in periods of rising commodity prices and decrease in periods of declining commodity prices. However, our working capital needs do not necessarily change at the same rate as commodity prices because both accounts receivable and accounts payable are impacted by the same commodity prices. In addition, the timing of payments received by our customers or paid to our suppliers can also cause fluctuations in working capital because we settle with most of our larger customers on a monthly basis and often near the end of the month. We expect that our future working capital requirements will be impacted by these same factors. From time-to-time, our working capital will reflect a deficit, while at other times it will reflect a surplus. This fluctuation is not unusual. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-23, L1554:
+
+> For purposes of determining this performance peer group, the Compensation Committee approved the inclusion of two industry specific, market-based indices to ensure a robust comparator set to buffer against continued transactional activity over the performance period and to acknowledge the broader competition for investor capital. The Compensation Committee, in consultation with Meridian, approved the following peer group of 12 companies and 2 broader indices to assess fiscal year 2025 long-term incentive performance: [S72]
 
 ## Moat and differentiation
 
@@ -632,6 +738,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L10187:
+
+> Hedging. Commodity hedging has been and remains an important part of our strategy to reduce cash flow volatility. Our hedging activities are intended to support oil and NGL prices at targeted levels and to manage our exposure to commodity price fluctuations. We intend to enter into commodity derivative contracts at times and on terms desired to maintain a portfolio of commodity derivative contracts covering at least 25% - 75%, depending on availability under the Revolving Credit Facility, of our estimated production from total proved developed producing reserves over a one-year period at any given point of time. We may, however, from time to time, hedge more or less than this approximate amount. Additionally, we may take advantage of opportunities to modify our commodity derivative portfolio to change the percentage of our hedged production volumes when circumstances suggest that it is prudent to do so. Market conditions may also impact our ability to enter into future commodity derivative contracts. [S71]
 
 ## Financial performance
 
@@ -1255,6 +1365,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-10, L153:
+
+> The Company today announced that its Board of Directors has approved a share repurchase program (the “Share Repurchase Program”), with authorization to purchase up to an aggregate of $15.0 million of the Company’s common stock, par value $0.01 per share (the “Common Stock”), inclusive of any direct fees, commissions or other expenses related to such repurchases but excluding legal and other ancillary fees and expenses related thereto. Under the Share Repurchase Program, repurchases may begin after market open on August 11, 2026 and continue through and including December 31, 2026. Repurchases under the Share Repurchase Program may be made from time to time through open market repurchases or through privately negotiated transactions subject to market conditions, applicable legal requirements, and other relevant factors. Open market repurchases may be structured to occur in accordance with the requirements of Rule 10b-18 under the Exchange Act. The Company may also, from time to time, enter into Rule 10b5-1 plans to facilitate repurchases of shares of its Common Stock under this authorization. The Company is not obligated under the Share Repurchase Program to acquire any particular amount of Common Stock, and the Company may terminate or suspend the Share Repurchase Program at any time. The timing and actual number of shares repurchased may depend on a variety of factors, … [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1267,6 +1381,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-08-10, L157:
+
+> expect or anticipate will or may occur in the future, including things such as projections of results of operations, plans for growth, goals, future capital expenditures, competitive strengths, references to future intentions and other such references. These forward-looking statements involve risks and uncertainties and other factors that could cause the Company’s actual results or financial condition to differ materially from those expressed or implied by forward-looking statements. These include risks and uncertainties relating to, among other things: the Company’s evaluation and implementation of strategic alternatives; the Company’s implementation of the Share Repurchase Program and resulting purchases thereunder; risks related to the redetermination of the borrowing base under the Company’s revolving credit facility; the Company’s ability to satisfy debt obligations; the Company’s need to make accretive acquisitions or substantial capital expenditures to maintain its declining asset base, including the existence of unanticipated liabilities or problems relating to acquired or divested business or properties; volatility in the prices for oil, natural gas and NGLs; the Company’s ability to access funds on acceptable terms, if at all, because of the terms and conditions governing the Company’s indebtedness, including financial covenants; general political and economic … [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1276,25 +1394,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1358,6 +1476,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-11-14 | SCHEDULE 13G | 0001104659-25-112541 | — | [S67] |
 | 2025-11-05 | 10-Q | 0001104659-25-107056 | — | [S68] |
 | 2025-11-05 | 8-K | 0001104659-25-107000 | — | [S69] |
+
+Source excerpt — 10-Q, filed 2026-08-10, L3401:
+
+> The Company’s assets have historically consisted primarily of producing oil and natural gas properties located in Oklahoma, the Rockies (“Bairoil”), federal waters offshore Southern California (“Beta”), East Texas/North Louisiana and the Eagle Ford (non-op). The Company’s oil and natural gas properties were located in large, mature oil and natural gas reservoirs. The Company’s properties historically consisted primarily of operated and non-operated working interests in producing and undeveloped leasehold acreage and working interests in identified producing wells. The Company divested its assets in Oklahoma, East Texas/North Louisiana and the Eagle Ford (non-op) during the year ended December 31, 2025. [S71]
 
 ## Sources and change log
 
@@ -1498,5 +1620,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S68] [10-Q 0001104659-25-107056](https://www.sec.gov/Archives/edgar/data/1533924/000110465925107056/0001104659-25-107056-index.html) — published 2025-11-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S69] [8-K 0001104659-25-107000](https://www.sec.gov/Archives/edgar/data/1533924/000110465925107000/0001104659-25-107000-index.html) — published 2025-11-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S70] [8-K 0001104659-26-093400](https://www.sec.gov/Archives/edgar/data/1533924/000110465926093400/ampy-20260810x8k.htm) — published 2026-08-10; retrieved 2026-11-11T20:01:06.921227+00:00.
+
+[S71] [10-Q 0001104659-26-093408](https://www.sec.gov/Archives/edgar/data/1533924/000110465926093408/ampy-20260630x10q.htm) — published 2026-08-10; retrieved 2026-11-11T20:01:08.469396+00:00.
+
+[S72] [DEF 14A 0001104659-26-047701](https://www.sec.gov/Archives/edgar/data/1533924/000110465926047701/tm264826-1_def14a.htm) — published 2026-04-23; retrieved 2026-11-11T20:01:05.496259+00:00.
+
+[S73] [8-K/A 0001104659-26-027245](https://www.sec.gov/Archives/edgar/data/1533924/000110465926027245/tm268668d1_8ka.htm) — published 2026-03-13; retrieved 2026-11-11T20:01:03.730984+00:00.
+
+[S74] [10-K 0001104659-26-025299](https://www.sec.gov/Archives/edgar/data/1533924/000110465926025299/ampy-20251231x10k.htm) — published 2026-03-09; retrieved 2026-11-11T20:01:02.188333+00:00.
+
+[S75] [8-K/A 0001193125-20-286825](https://www.sec.gov/Archives/edgar/data/1533924/000119312520286825/d48882d8ka.htm) — published 2020-11-05; retrieved 2026-11-11T20:01:00.659684+00:00.
+
+[S76] [8-K/A 0001193125-20-108091](https://www.sec.gov/Archives/edgar/data/1533924/000119312520108091/d891270d8ka.htm) — published 2020-04-15; retrieved 2026-11-11T20:00:59.006123+00:00.
+
+[S77] [8-K/A 0001104659-16-107996](https://www.sec.gov/Archives/edgar/data/1533924/000110465916107996/a16-7194_18ka.htm) — published 2016-03-28; retrieved 2026-11-11T20:00:57.717588+00:00.
+
+[S78] [8-K/A 0001104659-15-025683](https://www.sec.gov/Archives/edgar/data/1533924/000110465915025683/a15-8579_18ka.htm) — published 2015-04-03; retrieved 2026-11-11T20:00:55.896019+00:00.
+
+[S79] [8-K/A 0001104659-15-021970](https://www.sec.gov/Archives/edgar/data/1533924/000110465915021970/a15-7545_18ka.htm) — published 2015-03-24; retrieved 2026-11-11T20:00:54.485878+00:00.
+
+[S80] [8-K/A 0001104659-13-050433](https://www.sec.gov/Archives/edgar/data/1533924/000110465913050433/a13-15283_18ka.htm) — published 2013-06-20; retrieved 2026-11-11T20:00:53.127090+00:00.
+
+[S81] [8-K/A 0001104659-13-023019](https://www.sec.gov/Archives/edgar/data/1533924/000110465913023019/a13-8188_18ka.htm) — published 2013-03-21; retrieved 2026-11-11T20:00:51.623316+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
