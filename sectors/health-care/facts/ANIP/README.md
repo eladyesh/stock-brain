@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -136,6 +136,24 @@ sources:
   published_at: '2026-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1023024/000102302426000071/ani-20260819.htm
+  title: 8-K 0001023024-26-000071
+  published_at: '2026-08-24'
+  retrieved_at: '2026-11-12T20:37:40.562204+00:00'
+  sha256: 9161a58d713f956040304fb795eb7421bd6451bede0f0bdc1cfc91c7216ca6c5
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1023024/000102302426000069/anip-20260630.htm
+  title: 10-Q 0001023024-26-000069
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-12T20:37:39.184036+00:00'
+  sha256: f73f5affeb11e4dc76172c498d84bd0619b9c1a66f9b9034e83850dc799a69f7
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1023024/000102302426000014/anip-20251231.htm
+  title: 10-K 0001023024-26-000014
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-12T20:37:36.276122+00:00'
+  sha256: b44fa15ece5e9d2f4ff4f5c804154cd299649f40df197bf7efe84847c54ade69
 issuer_classification:
   cik: '0001023024'
   classification_status: reported_sic
@@ -185,13 +203,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1023024/000114420414062978/0001144204-14-062978-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: be02fec46b92f02f29afc74dbfd0dbfc6966db979f2d1eb69a09b218877ac46e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -206,15 +235,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001023024.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIP/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIP/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANIP — ANI PHARMACEUTICALS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIP/README.md)
 
 ## Business overview
 
@@ -228,17 +257,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L179:
+
+> •general economic, industry, geopolitical and market conditions, such as military conflict or war, inflation and financial institution instability, or the impact of global pandemics on our business. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L927:
+
+> An operating segment is defined as a component of an entity that engages in business activities from which it may recognize revenues and incur expenses, the operating results of which are regularly reviewed by the entity’s chief operating decision maker (“CODM”) to make decisions about resources to be allocated to the segment and assess its performance, and for which discrete financial information is available. The CODM for the Company is the Chief Executive Officer. The Company does not aggregate its operating segments for reporting purposes, and therefore, the reportable segments are the same as its operating segments. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L165:
+
+> •our financial performance, including our estimates of our expenses and capital requirements, and our expectations regarding our revenue potential (including revenue from licensing, royalties and sales) of our products; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-27, L423:
+
+> Our customers include national wholesalers, specialty pharmacies, retail pharmacy chains, distributors, mail order houses, group purchasing organizations, and hospitals and healthcare providers, which then sell our products to patients. [S70]
 
 ## Industry and value chain
 
@@ -246,19 +291,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L700:
+
+> Raw materials are sourced for products, including active pharmaceutical ingredients (“API”), from both domestic and international suppliers. Generally, only a single source of API is qualified for use in each product due to the cost and time required to validate a second source of supply. As a result, the Company is dependent upon its current vendors to reliably supply the API required for on-going product manufacturing. During the three months ended June 30, 2026, no single vendor represented more than 10% of our raw inventory purchases. During the six months ended June 30, 2026, approximately 23% of the Company’s raw material inventory purchases were from one domestic supplier. During the three months ended June 30, 2025, no single vendor represented more than 10% of our raw inventory purchases. During the six months ended June 30, 2025, approximately 23% of the Company’s raw material inventory purchases were from one domestic supplier. [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-07, L1017:
+
+> We plan to strengthen our Generics and Other segment through continued investment in our research and development capabilities and increased focus on niche opportunities. We have grown our Generics business through a combination of market share gains on existing products and new product launches. We have also successfully acquired numerous ANDAs through business and asset acquisitions. Our most recent business acquisition in the Generics and Other segment was the acquisition of Novitium Pharma LLC (“Novitium”) in 2021, which included Novitium’s portfolio of commercial and pipeline generic products, manufacturing and development facilities and expert workforce. The Novitium acquisition significantly increased our generic pharmaceutical research and development and manufacturing capabilities. We have begun to increase our focus on niche lower competition opportunities such as injectables, paragraph IV (“PIV”), and competitive generic therapy (“CGT”) designation filings. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L562:
+
+> In January 2026, Novitium Pharma LLC (“Novitium”), a subsidiary of the Company, entered into an IP license agreement (“Harmony Agreement”) with Harmony Biosciences LLC (“Harmony”), which includes an exclusive license to intellectual property that will expand the intellectual property estate of Harmony, as well as a co-exclusive license, with which Harmony and Novitium intend to develop a novel formulation of pitolisant in broad central nervous system indications outside of sleep/wake. Under the Harmony Agreement, the Company received an upfront license fee of $15.0 million, which was recognized as revenue within the condensed consolidated statements of operations for the three months ended March 31, 2026. In addition, the Company earns low-single digit royalties on net sales of pitolisant-based products. The Company recognized royalty revenue of $9.7 million and $16.3 million in the three and six months ended June 30, 2026, respectively. In addition, the Company expects to receive an aggregate of $10.0 million upon achievement of certain development milestones satisfied over time. During the three and six months ended June 30, 2026, the Company recognized $8.0 million of revenue associated with the achievement of development milestones, and expects to recognize the remaining revenue during the third quarter of 2026. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1014:
+
+> We plan to continue to expand our Rare Disease business, through a combination of organic growth and acquisitions. While we execute against our strategic initiatives that we believe will result in long-term, sustainable growth and value to our stockholders, we continue to evaluate potential acquisitions and other strategic transactions of businesses that we believe complement our existing portfolio, infrastructure and capabilities or provide us with the opportunity to expand our existing capabilities. [S68]
 
 ## Financial performance
 
@@ -383,6 +444,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-24, L47:
+
+> On August 19, 2026, the Board of Directors (the “Board”) of ANI Pharmaceuticals, Inc. (the “Company”) appointed Henry Gosebruch to serve on the Board as a director with a term expiring at the Company’s 2027 annual meeting of stockholders. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -395,6 +460,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L180:
+
+> Any forward-looking statements in this Quarterly Report on Form 10-Q are based on the reasonable beliefs of our management as well as assumptions made by and information currently available to our management. Forward-looking statements are inherently subject to known and unknown risks, uncertainties and other factors, some of which cannot be predicted or quantified, that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by these forward-looking statements. Factors that might cause such a difference include, but are not limited to, those discussed under Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, as filed with the United States (“U.S.”) Securities and Exchange Commission (the “SEC”) on February 27, 2026 and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a very competitive and rapidly changing environment. New risk factors emerge from time to time and it is not possible for management to predict all risk factors, nor can we assess the impact of all risk factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements. Given these uncertainties, you should not … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -404,25 +473,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -466,6 +535,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001822629-26-000016](https://www.sec.gov/Archives/edgar/data/1023024/000182262926000016/0001822629-26-000016-index.html) — published 2026-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIP/README.md).
+[S67] [8-K 0001023024-26-000071](https://www.sec.gov/Archives/edgar/data/1023024/000102302426000071/ani-20260819.htm) — published 2026-08-24; retrieved 2026-11-12T20:37:40.562204+00:00.
+
+[S68] [10-Q 0001023024-26-000069](https://www.sec.gov/Archives/edgar/data/1023024/000102302426000069/anip-20260630.htm) — published 2026-08-07; retrieved 2026-11-12T20:37:39.184036+00:00.
+
+[S70] [10-K 0001023024-26-000014](https://www.sec.gov/Archives/edgar/data/1023024/000102302426000014/anip-20251231.htm) — published 2026-02-27; retrieved 2026-11-12T20:37:36.276122+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

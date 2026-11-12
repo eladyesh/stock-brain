@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -174,15 +174,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/IPFX/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/IPFX/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # IPFX — Inflection Point Acquisition Corp. VI
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/IPFX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/IPFX/README.md)
 
 ## Business overview
 
@@ -391,6 +391,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S57] [10-Q 0001213900-26-091724](https://www.sec.gov/Archives/edgar/data/2102041/000121390026091724/ea0301369-10q_inflection6.htm) — published 2026-08-19; retrieved 2026-10-28T16:23:43.199952+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/IPFX/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/IPFX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

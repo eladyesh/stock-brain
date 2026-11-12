@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -125,6 +125,12 @@ sources:
   published_at: '2026-10-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm
+  title: 10-Q 0001596532-26-000175
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-12T20:35:55.062714+00:00'
+  sha256: a288c155fc54775b00852936e9c1c95f77deb03b43322fd650b24940dc239ea5
 issuer_classification:
   cik: 0001596532
   classification_status: reported_sic
@@ -162,13 +168,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/0001596532-26-000174-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0a230fb0edef9c3df93307ee4146d7dfc10528fd0992735770925824be34bfc4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -183,15 +200,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001596532.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANET/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANET/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANET — Arista Networks, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANET/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANET/README.md)
 
 ## Business overview
 
@@ -205,17 +222,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L550:
+
+> We outsource most of our manufacturing and supply chain management operations to third-party contract manufacturers, who procure components and assemble products on our behalf. A significant portion of our purchase orders for finished goods and strategic components, including integrated circuits consigned to contract manufacturers, consists of non-cancellable commitments. As of June 30, 2026, we had non-cancellable purchase commitments not recorded on our balance sheet of $9.7 billion, of which $9.4 billion have expected receipt dates within 12 months, and $0.3 billion have expected receipt dates greater than 12 months. These open purchase orders are considered enforceable and legally binding, and while we may have some limited ability to reschedule, and adjust our requirements based on our business needs prior to the delivery of goods or performance of services, this can only occur with the agreement of the related supplier. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L630:
+
+> We operate as one reportable segment. The accounting policies of the reportable segment are the same as those described in the summary of significant accounting policies. Our chief operating decision maker ("CODM") is our Chief Executive Officer and Chairperson of the Board, who reviews financial information presented on a consolidated basis for purposes of allocating resources and evaluating financial performance. The financial information reviewed by the CODM reflects quarterly and year-to-date operating results, with a primary focus on revenue, gross margin, operating margin and net income as reported on the consolidated statements of income. Consolidated financial information is used by the CODM to evaluate performance and make decisions regarding resource allocation and other strategic initiatives. This consolidated financial information is also what is used to establish and approve operating budgets and forecasts. The measure of segment assets is reported on the consolidated balance sheets in total. There was no change for each of the periods presented in the measurement methods used to determine reported segment profit and loss. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L555:
+
+> We have entered into agreements with some of our direct customers and channel partners that contain indemnification provisions relating to potential situations where claims could be alleged that our products infringe the intellectual property rights of a third party. We have, at our option and expense, the ability to repair any infringement, replace product with a non-infringing equivalent-in-function product or refund our customers all or a portion of the value of the product. Other guarantees or indemnification agreements include guarantees of product and service performance and standby letters of credit for leased facilities and corporate credit cards. We have not recorded a liability related to these indemnification and guarantee provisions and our guarantee and indemnification arrangements have not had a significant impact on our consolidated financial statements to date. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L555:
+
+> We have entered into agreements with some of our direct customers and channel partners that contain indemnification provisions relating to potential situations where claims could be alleged that our products infringe the intellectual property rights of a third party. We have, at our option and expense, the ability to repair any infringement, replace product with a non-infringing equivalent-in-function product or refund our customers all or a portion of the value of the product. Other guarantees or indemnification agreements include guarantees of product and service performance and standby letters of credit for leased facilities and corporate credit cards. We have not recorded a liability related to these indemnification and guarantee provisions and our guarantee and indemnification arrangements have not had a significant impact on our consolidated financial statements to date. [S68]
 
 ## Industry and value chain
 
@@ -223,19 +256,35 @@ SEC-reported SIC **3576**: Computer Communications Equipment. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L550:
+
+> We outsource most of our manufacturing and supply chain management operations to third-party contract manufacturers, who procure components and assemble products on our behalf. A significant portion of our purchase orders for finished goods and strategic components, including integrated circuits consigned to contract manufacturers, consists of non-cancellable commitments. As of June 30, 2026, we had non-cancellable purchase commitments not recorded on our balance sheet of $9.7 billion, of which $9.4 billion have expected receipt dates within 12 months, and $0.3 billion have expected receipt dates greater than 12 months. These open purchase orders are considered enforceable and legally binding, and while we may have some limited ability to reschedule, and adjust our requirements based on our business needs prior to the delivery of goods or performance of services, this can only occur with the agreement of the related supplier. [S68]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L662:
+
+> The market for cloud networking is characterized by rapid technological evolution, intensifying competition, and the expansion of generative and agentic AI. To sustain our success and adapt to the market, we must increase sales in cloud, AI and enterprise data center Ethernet switching/routing markets, and campus workspace markets by leveraging our ability to rapidly develop new features and software applications. Our growth strategy relies on maintaining our agility and increasing our investment in research and development to deliver market-leading features to enhance the functionality of our existing cloud networking platform, expand our product offerings and build upon our technology leadership. In addition, we must continue to expand our global sales force and deepen our channel partnerships to reach new customers more effectively and increase sales to existing customers. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L555:
+
+> We have entered into agreements with some of our direct customers and channel partners that contain indemnification provisions relating to potential situations where claims could be alleged that our products infringe the intellectual property rights of a third party. We have, at our option and expense, the ability to repair any infringement, replace product with a non-infringing equivalent-in-function product or refund our customers all or a portion of the value of the product. Other guarantees or indemnification agreements include guarantees of product and service performance and standby letters of credit for leased facilities and corporate credit cards. We have not recorded a liability related to these indemnification and guarantee provisions and our guarantee and indemnification arrangements have not had a significant impact on our consolidated financial statements to date. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L662:
+
+> The market for cloud networking is characterized by rapid technological evolution, intensifying competition, and the expansion of generative and agentic AI. To sustain our success and adapt to the market, we must increase sales in cloud, AI and enterprise data center Ethernet switching/routing markets, and campus workspace markets by leveraging our ability to rapidly develop new features and software applications. Our growth strategy relies on maintaining our agility and increasing our investment in research and development to deliver market-leading features to enhance the functionality of our existing cloud networking platform, expand our product offerings and build upon our technology leadership. In addition, we must continue to expand our global sales force and deepen our channel partnerships to reach new customers more effectively and increase sales to existing customers. [S68]
 
 ## Financial performance
 
@@ -345,6 +394,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L561:
+
+> In May 2025 our board of directors authorized a $1.5 billion stock repurchase program (the “Repurchase Program”). This authorization allows us to repurchase shares of our common stock that will be funded from working capital. Repurchases may be made at management's discretion from time to time on the open market, through privately negotiated transactions, transactions structured through investment banking institutions, block purchases, trading plans under Rule 10b5-1 of the Securities Exchange Act of 1934, as amended (the "Exchange Act"), or a combination of the foregoing. The Repurchase Program does not obligate us to acquire any of our common stock and may be suspended or discontinued by the Company at any time without prior notice. We did not repurchase any shares during the six months ended June 30, 2026. As of June 30, 2026, the remaining authorized amount for repurchases under the Repurchase Program was $817.9 million. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -357,6 +410,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L558:
+
+> We record a provision for contingent losses when it is both probable that a liability has been incurred and the amount of the loss can be reasonably estimated. As of June 30, 2026, provisions recorded for contingent losses related to other claims and matters have not been significant. Based on currently-available information, management does not believe that any additional liabilities relating to other unresolved matters are probable or that the amount of any resulting loss is estimable, and believes these other matters are not likely, individually and in the aggregate, to have a material adverse effect on our financial position, results of operations or cash flows; however, litigation is subject to inherent uncertainties and our view of these matters may change in the future. Were an unfavorable outcome to occur, there exists the possibility of a material adverse impact on our financial position, results of operations or cash flows for the period in which the unfavorable outcome occurs, and potentially in future periods. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -366,25 +423,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -428,6 +485,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [144 0001968582-26-001067](https://www.sec.gov/Archives/edgar/data/1596532/000196858226001067/0001968582-26-001067-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANET/README.md).
+[S68] [10-Q 0001596532-26-000175](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm) — published 2026-08-05; retrieved 2026-11-12T20:35:55.062714+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANET/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

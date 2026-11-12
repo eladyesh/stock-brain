@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -149,6 +149,30 @@ sources:
   published_at: '2026-07-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1275187/000114036126039020/ef20083493_8k.htm
+  title: 8-K 0001140361-26-039020
+  published_at: '2026-10-08'
+  retrieved_at: '2026-11-12T20:37:02.912633+00:00'
+  sha256: 691580872c42e3d146855a7c10a49c47bd2089419baec9943c3a04b7e5a1bcfe
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1275187/000114036126039022/ny20083274x1_def14a.htm
+  title: DEF 14A 0001140361-26-039022
+  published_at: '2026-10-08'
+  retrieved_at: '2026-11-12T20:37:04.471358+00:00'
+  sha256: 3ad40f88ccfb8503237d2d97341b2f5b2296d528309b034c54603312955d2e43
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1275187/000162828026065423/ango-20260831.htm
+  title: 10-Q 0001628280-26-065423
+  published_at: '2026-10-08'
+  retrieved_at: '2026-11-12T20:37:06.275033+00:00'
+  sha256: 4b62b33fca6000aabd1900a1815c267e500c3bdaece604204d00a4249f4984c6
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1275187/000162828026048138/ango-20260531.htm
+  title: 10-K 0001628280-26-048138
+  published_at: '2026-07-14'
+  retrieved_at: '2026-11-12T20:36:58.515188+00:00'
+  sha256: 7a8ed0b5368f1a55573b17d38ad36b8cab244b7faaecd0d4fea154c66ded4d28
 issuer_classification:
   cik: 0001275187
   classification_status: reported_sic
@@ -216,13 +240,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1275187/000091412112000407/0000914121-12-000407-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 6dcff87539e0b2ebf7e6fb413ffe49be46e34d0b6eed2a86e5957460938893ba
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -237,15 +272,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001275187.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANGO/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANGO/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANGO — ANGIODYNAMICS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANGO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANGO/README.md)
 
 ## Business overview
 
@@ -259,17 +294,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-08, L1806:
+
+> Our Board of Directors has adopted a written Code of Conduct for our Company. Our Code of Conduct is available at our website located at www.angiodynamics.com under the “Investors-Corporate Governance-Highlights-Governance Documents-Code of Conduct” caption. All Company officers, employees, and directors are required to comply with our Code of Conduct. Our Code of Conduct covers a number of topics, including conflicts of interest, insider trading, fair dealing, equal employment opportunity and harassment, anti-bribery, and confidential information, as well as requiring adherence to all laws, rules, and regulations applicable to our business. Employees are required to bring any violations and suspected violations of the Code of Conduct to the attention of the Company through management or our legal counsel or by using the Company’s confidential Compliance Hotline. The Company also maintains a Board-approved comprehensive compliance program to ensure our employees comply with applicable laws, rules, regulations, and industry codes when interacting with healthcare professionals. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-07-14, L391:
+
+> The Company's recent divestitures of certain product lines, along with potential future divestitures of certain other product lines will allow us to transform ourselves into a high growth, highly profitable, medical technology company. If we are unable to achieve our growth and profitability objectives due to competition, lack of acceptance of our products, failure to generate favorable clinical data or gain regulatory approvals, or other risks as described in this section, or due to other events, we will not be successful in transforming our business and may not see the appropriate market valuation. The divestiture of product lines will impact revenue, earnings and cash flows, which over time we expect to replace by investing in higher margin revenue streams. There is a risk that we will be unable to replace the revenue, earnings and cash flow that these product lines generated, or that the cost of such will be higher than expected. If we are unable to achieve our profit and growth objectives, such failure will be exacerbated by the loss of revenue, earnings and cash flow generated by our divested product lines and could materially impact our financial position and results of operations, resulting in a decline in our stock price. [S73]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-08, L823:
+
+> AngioDynamics is a dynamic, diversified medical technology company committed to expanding treatment options and improving patient outcomes and quality of life by focusing on cardiovascular disease and cancer. Our execution strategy is built on innovative R&D, clinical and regulatory pathway expansion and customer centric sales performance. We design, manufacture and sell a wide range of medical, surgical and diagnostic devices used by professional healthcare providers for vascular access, for the treatment of peripheral vascular disease and for use in oncology and surgical settings. Our devices are generally used in minimally invasive, image-guided procedures. Many of our products are intended to be used once and then discarded, or they may be temporarily implanted for short- or long-term use. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-08, L829:
+
+> The current macroeconomic environment continues to impact our business and may continue to pose future risks. The Company's ability to manufacture products, the reliability of our supply chain, labor shortages, backlog, inflation (including the cost and availability of raw materials, direct labor and shipping) and tariffs have impacted our business, trends that may continue. Accordingly, management continues to evaluate the Company’s liquidity position, communicate with and monitor the actions of our customers and suppliers, and review our near-term financial performance. [S70]
 
 ## Industry and value chain
 
@@ -277,19 +328,35 @@ SEC-reported SIC **3841**: Surgical & Medical Instruments & Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 8-K, filed 2026-10-08, L86:
+
+> trials, overall economic conditions (including inflation, tariffs, labor shortages and supply chain challenges including the cost and availability of raw materials), the results of on-going litigation, challenges with respect to third-party [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 8-K, filed 2026-10-08, L88:
+
+> effects of economic, credit and capital market conditions, general market conditions, market acceptance, foreign currency exchange rate fluctuations, the effects on pricing from group purchasing organizations and competition, the ability of [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 8-K, filed 2026-10-08, L84:
+
+> existing and new products, technological advances and patents attained by competitors, infringement of AngioDynamics’ technology or assertions that AngioDynamics’ technology infringes the technology of third parties, the ability of AngioDynamics to [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-10-08, L673:
+
+> Short- and long-term compensation opportunities with performance metrics tied to our strategy and performance (including relative total shareholder return) [S69]
 
 ## Financial performance
 
@@ -402,6 +469,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-08, L255:
+
+> consider and vote upon a “Say-on-Pay” advisory vote on the approval of the compensation of AngioDynamics’ named executive officers; [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -414,6 +485,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-08, L89:
+
+> AngioDynamics to obtain regulatory clearances or approval of its products, or to integrate acquired businesses, as well as the risk factors listed from time to time in AngioDynamics’ SEC filings, including but not limited to its Annual Report on Form [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -423,25 +498,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -489,6 +564,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S50] [10-K 0001628280-26-048138](https://www.sec.gov/Archives/edgar/data/1275187/000162828026048138/0001628280-26-048138-index.html) — published 2026-07-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANGO/README.md).
+[S68] [8-K 0001140361-26-039020](https://www.sec.gov/Archives/edgar/data/1275187/000114036126039020/ef20083493_8k.htm) — published 2026-10-08; retrieved 2026-11-12T20:37:02.912633+00:00.
+
+[S69] [DEF 14A 0001140361-26-039022](https://www.sec.gov/Archives/edgar/data/1275187/000114036126039022/ny20083274x1_def14a.htm) — published 2026-10-08; retrieved 2026-11-12T20:37:04.471358+00:00.
+
+[S70] [10-Q 0001628280-26-065423](https://www.sec.gov/Archives/edgar/data/1275187/000162828026065423/ango-20260831.htm) — published 2026-10-08; retrieved 2026-11-12T20:37:06.275033+00:00.
+
+[S73] [10-K 0001628280-26-048138](https://www.sec.gov/Archives/edgar/data/1275187/000162828026048138/ango-20260531.htm) — published 2026-07-14; retrieved 2026-11-12T20:36:58.515188+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANGO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

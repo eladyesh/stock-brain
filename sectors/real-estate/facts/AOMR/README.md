@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,30 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1766478/000176647826000065/aomr-20261006.htm
+  title: 8-K 0001766478-26-000065
+  published_at: '2026-10-07'
+  retrieved_at: '2026-11-12T20:38:44.756197+00:00'
+  sha256: 5ae511613a2682eb12882dbb54744592fec1e43bd212fe5095747943f27dcdd4
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm
+  title: 10-Q 0001766478-26-000044
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-12T20:38:43.351802+00:00'
+  sha256: ea235512a6e07a84abf5113de36cc2e45d86f06a6f0472771596e56444e456a9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1766478/000176647826000011/aomr-20260401.htm
+  title: DEF 14A 0001766478-26-000011
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-12T20:38:41.998266+00:00'
+  sha256: 4d30c905b0c1030f177474805999fc1c190bc95fb9c9bf832ad2c9d93981a96b
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1766478/000176647826000002/aomr-20251231.htm
+  title: 10-K 0001766478-26-000002
+  published_at: '2026-03-03'
+  retrieved_at: '2026-11-12T20:38:40.464145+00:00'
+  sha256: 64c02dc54422ecf14230924b1a9606395e9a3541a96573015abe1ab45494e446
 issuer_classification:
   cik: 0001766478
   classification_status: reported_sic
@@ -184,13 +208,22 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1766478/000176647826000065/0001766478-26-000065-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7df9471e19c0a7abebd8966a8e85d2e7c81aaf079c21b32e53d96f9dd3f529d5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -205,15 +238,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001766478.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AOMR/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AOMR/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AOMR — Angel Oak Mortgage REIT, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AOMR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AOMR/README.md)
 
 ## Business overview
 
@@ -227,13 +260,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1035:
+
+> Factors that could have a material adverse effect on future results and performance relative to those set forth in or implied by the related forward-looking statements, as well as on our business, financial condition, liquidity, results of operations and prospects, include, but are not limited to: [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-04, L434:
+
+> Operating segments are defined as a component of a public entity that engages in business activities from which it may recognize revenues and incur expenses, has operating results that are regularly reviewed by the public entity’s chief operating decision maker (“CODM”) to make decisions about resources to be allocated to the segment and assess its performance, and has discrete financial information available. The Company’s CODM is its Chief Executive Officer, Mr. Sreeniwas Prabhu. The Company has determined it currently operates in a single operating segment and has one reportable segment, which is to acquire, invest in, and finance mortgage‑related assets. The CODM reviews net income, net interest income (interest income less interest expense) earned on its portfolio of residential mortgage loans, residential mortgage loans in securitization trusts, RMBS, and other assets as presented on a consolidated basis for purposes of making operating decisions, allocating resources, and evaluating financial performance. Net interest income as used by the CODM in this context is consistent with that presented within the Company’s consolidated financial statements. Segment assets are reflected on the accompanying Balance Sheet as “total assets” and significant segment expenses are listed on the accompanying statement of operations. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-03-03, L607:
+
+> negatively impact the market perception of our products and discourage market participants from doing business with us. These risks may increase in the future as we continue to increase our reliance on the internet and on the use of cybersecurity. [S70]
 
 ## Customers and end markets
 
@@ -251,13 +296,25 @@ Navigation sector: **real-estate**. Method: `project_sic_rule`. Project navigati
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-01, L681:
+
+> Under the Severance Policy, upon a termination of employment by us without “cause” or by the executive officer for “good reason,” then, subject to such executive officer’s execution of a general release of claims in favor of us (a “Release”) and continued compliance with non-competition, non-solicitation and non-disparagement covenants, such executive officer will be entitled to receive: (i) an amount equal to (A) 2.0 (the “Severance Multiple”), multiplied by (B) the sum of (1) such executive officer’s annual base salary and (2) such executive officer’s average cash performance bonus paid for the three most recent years (or such lesser period for which such [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-03, L411:
+
+> We do not own the brand, trademark, or logo that we may use in our business and may be unable to protect this intellectual property against infringement from third parties. We are party to a trademark license agreement (the “trademark license agreement”) with an affiliate of our Manager (the “licensor”) pursuant to which the licensor granted us a non-exclusive, non-transferable, non-sublicensable, royalty-free license to use the name “Angel Oak Mortgage REIT, Inc.” for so long as our Manager (or another Angel Oak affiliate that serves as our manager) remains an affiliate of the licensor. The trademark license agreement is subject to automatic termination if our Manager or another affiliate of Angel Oak is no longer acting as our manager under the Management Agreement. The trademark license agreement may be terminated by the licensor without cause and in its sole judgment after 30 days’ written notice to us or immediately if the licensor believes that we are using the licensed marks improperly. Pursuant to the trademark license agreement, the licensor retains the right to continue using the “Angel Oak” name and the licensor is not precluded from licensing or transferring the ownership of the “Angel Oak” name to third parties, some of whom may compete against us. Consequently, we may be unable to prevent any damage to goodwill that may occur as a result of the activities of the … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1041:
+
+> •the ability of our Manager to locate suitable investments for us, manage our portfolio, and implement our strategy; [S68]
 
 ## Financial performance
 
@@ -361,6 +418,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-07, L49:
+
+> On October 6, 2026, the board of directors (the “Board”) of Angel Oak Mortgage REIT, Inc. (the “Company”) adopted amended and restated bylaws of the Company (as so amended and restated, the “Fifth Amended and Restated Bylaws”), effective immediately. The Fifth Amended and Restated Bylaws, among other things: [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -373,6 +434,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1034:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements involve numerous risks and uncertainties. Our actual results may differ from our beliefs, expectations, estimates, and projections and, consequently, you should not rely on these forward-looking statements as predictions of future events. Forward-looking statements are not historical in nature and can be identified by words such as “anticipate,” “estimate,” “will,” “should,” “expect,” “believe,” “intend,” “seek,” “plan” and similar expressions or their negative forms, or by references to strategy, plans, or intentions. These forward-looking statements are subject to risks and uncertainties, including, among other things, those described under Item 1A. “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025 (the “Annual Report on Form 10-K”). Other risks, uncertainties, and factors that could cause actual results to differ materially from those projected may be described from time to time in other reports we file with the Securities and Exchange Commission (the “SEC”). We undertake no obligation to update or revise any forward-looking statements, whether as a result of new information, future events, or otherwise. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -382,25 +447,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -446,6 +511,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S56] [10-K 0001766478-26-000002](https://www.sec.gov/Archives/edgar/data/1766478/000176647826000002/0001766478-26-000002-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AOMR/README.md).
+[S67] [8-K 0001766478-26-000065](https://www.sec.gov/Archives/edgar/data/1766478/000176647826000065/aomr-20261006.htm) — published 2026-10-07; retrieved 2026-11-12T20:38:44.756197+00:00.
+
+[S68] [10-Q 0001766478-26-000044](https://www.sec.gov/Archives/edgar/data/1766478/000176647826000044/aomr-20260630.htm) — published 2026-08-04; retrieved 2026-11-12T20:38:43.351802+00:00.
+
+[S69] [DEF 14A 0001766478-26-000011](https://www.sec.gov/Archives/edgar/data/1766478/000176647826000011/aomr-20260401.htm) — published 2026-04-01; retrieved 2026-11-12T20:38:41.998266+00:00.
+
+[S70] [10-K 0001766478-26-000002](https://www.sec.gov/Archives/edgar/data/1766478/000176647826000002/aomr-20251231.htm) — published 2026-03-03; retrieved 2026-11-12T20:38:40.464145+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AOMR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

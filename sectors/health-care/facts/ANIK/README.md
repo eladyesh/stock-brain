@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/898437/000117184326005012/anik20260630_10q.htm
+  title: 10-Q 0001171843-26-005012
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-12T20:37:30.104795+00:00'
+  sha256: 58d84a547cb934989f36222960381a6358f01c1bccec6f8671266072e19fd5fe
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/898437/000114036126017488/ny20067128x1_def14a.htm
+  title: DEF 14A 0001140361-26-017488
+  published_at: '2026-04-28'
+  retrieved_at: '2026-11-12T20:37:27.146980+00:00'
+  sha256: 12eb136afb55f6604ef531cc10fd3e7672c66d91fc3269119e1498189ce1dbb0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/898437/000117184326001275/anik20251231_10k.htm
+  title: 10-K 0001171843-26-001275
+  published_at: '2026-03-03'
+  retrieved_at: '2026-11-12T20:37:25.582653+00:00'
+  sha256: c89cdfc142c0d551f110ab9d9371ba765f02ac313fc335207cd2ae8be54005ec
 issuer_classification:
   cik: 0000898437
   classification_status: reported_sic
@@ -200,13 +218,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/898437/000115752310001560/0001157523-10-001560-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e368faa7ca3660aae960dcbe026ea58822871fff074e51ab27d518f82bfe1239
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -221,15 +250,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000898437.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIK/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIK/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANIK — Anika Therapeutics, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIK/README.md)
 
 ## Business overview
 
@@ -243,17 +272,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-29, L5067:
+
+> You should read the following discussion in conjunction with our financial statements and related notes appearing elsewhere in this report and our audited consolidated financial statements and related notes contained in our Annual Report on Form 10-K for the year ended December 31, 2025, or our 2025 Form 10-K. In addition to historical information, this report contains "forward-looking statements" within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934, as amended, or the Exchange Act, concerning our business, consolidated financial condition, and results of operations. The Securities and Exchange Commission, or the SEC, encourages companies to disclose forward-looking statements so that investors can better understand a company’s future prospects and make informed investment decisions. Forward-looking statements are subject to risks and uncertainties, many of which are outside our control, which could cause actual results to differ materially from these statements. Therefore, you should not rely on any of these forward-looking statements. Forward-looking statements can be identified by words such as "will," "likely," "may," "believe," "expect," "anticipate," "intend," "seek," "designed," "develop," "would," "future," "can," "could," and other expressions that are predictions of or indicate future events and trends … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-03-03, L5734:
+
+> In early 2020, the Company expanded its overall technology platform through its strategic acquisitions of Parcus Medical, LLC (“Parcus Medical”), a sports medicine implant and instrumentation company, and Arthrosurface Incorporated (“Arthrosurface”), a company specializing in less invasive, bone preserving partial and total joint replacement solutions. These acquisitions broadened the Company's product portfolio, developed over its 30 years of expertise in hyaluronic acid technology, into joint preservation and restoration, added higher-growth revenue streams, increased its commercial capabilities, diversified its revenue base, and expanded its product pipeline and research and development expertise. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-29, L2657:
+
+> In early 2020, the Company expanded its overall technology platform through its acquisitions of Parcus Medical, LLC (“Parcus Medical”), a sports medicine implant and instrumentation company, and Arthrosurface Incorporated (“Arthrosurface”), a company specializing in less invasive, bone preserving partial and total joint replacement solutions. These acquisitions broadened the Company's product portfolio, developed over its 30 years of expertise in hyaluronic acid technology, into joint preservation and restoration, increased its commercial capabilities, diversified its revenue base, and expanded its product pipeline and research and development expertise. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-29, L5077:
+
+> Over 30 years of experience in HA and HA-based regenerative solutions and early intervention orthopedics, combined with seasoned leadership with a strong financial foundation for future investment in meaningful solutions for our customers and their patients; [S68]
 
 ## Industry and value chain
 
@@ -261,19 +306,35 @@ SEC-reported SIC **3841**: Surgical & Medical Instruments & Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L3716:
+
+> We continue to focus on working to ensure that our international distributors are organizations that operate in compliance with our policies and procedures and all laws and regulations. Using an independent screening process and third-party service providers that focus on investigating the integrity, reputation and business practices of our potential distribution partners, we attempt to gauge the level of risk posed by international distributors based on their geographic location and past corporate behavior, among other factors, and tailor our due diligence efforts and our willingness to engage specific distributors accordingly. We recognize that vigilant oversight of this aspect of our supply chain is foundational to our ability to grow our business with high ethical standards and integrity. [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L4452:
+
+> The Compensation Committee uses compensation data from our identified peer companies, as well as multiple other reference points, as one of several factors in determining appropriate compensation parameters, and to inform its decisions about overall compensation opportunities, specific compensation elements, and targeted compensation levels. In establishing targeted pay levels, the Compensation Committee considers not only competitive market data, but also factors such as company, business, and individual performance, scope of responsibility, critical needs and skill sets, leadership potential, internal equity, and succession planning. The Compensation Committee believes that this approach gives them the ability to more accurately reflect factors and individual contributions that cannot be absolutely quantified. The Compensation Committee also considers our primary location near Boston, Massachusetts, the high level of competition for highly qualified life sciences employees in that area, and the need to remain competitive with the compensation offered by other life sciences companies to ensure the successful recruitment and retention of top performing executives and employees, all of which have become more challenging in recent years. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-29, L3538:
+
+> In certain of its contracts, the Company warrants to its customers that the products it manufactures conform to the product specifications as in effect at the time of delivery of the specific product. The Company may also warrant that the products it manufactures do not infringe, violate, or breach any U.S. or international patent or intellectual property right, trade secret, or other proprietary information of any third party. On occasion, the Company contractually indemnifies its customers against any and all losses arising out of, or in any way connected with, any claim or claims of breach of its warranties or any actual or alleged defect in any product caused by the negligent acts or omissions of the Company. The Company maintains a products liability insurance policy that limits its exposure to these risks. Based on the Company’s historical activity, in combination with its liability insurance coverage, the Company believes the estimated fair value of these indemnification agreements is immaterial. The Company had no accrued warranties as of June 30, 2026, or December 31, 2025, and has no history of claims paid. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-28, L112:
+
+> Looking ahead, our strategy is anchored in three core priorities that will guide Anika’s next phase of shareholder value creation. We are focused on accelerating growth through our Commercial Channel by building on strong international OA Pain Management momentum and scaling Integrity utilization in the U.S. We remain committed to advancing a robust HA-based product pipeline, including Hyalofast and Cingal, which represent significant opportunities in cartilage repair and next-generation OA pain management. Finally, we are strengthening operational discipline with improved productivity, rigorous cost control, and a continued emphasis on aligning resources with our highest-return programs. [S69]
 
 ## Financial performance
 
@@ -389,6 +450,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L3934:
+
+> The Anika Therapeutics, Inc. 2021 Inducement Plan (the “Inducement Plan”) was adopted by the Company’s board of directors on November 4, 2021, and subsequently amended on December 22, 2023 and May 2, 2024. On May 2, 2024, the Company’s board of directors approved an amendment to the Inducement Plan increasing the number of shares by 100,000 shares. The Inducement Plan reserves 350,000 shares of common stock for issuance pursuant to equity-based awards granted under the Inducement Plan. Such awards may be granted only to an individual who was not previously the Company’s employee or director with the Company. The Inducement Plan provides for the grant of awards under terms substantially similar to the 2017 Plan (as amended). Subject to adjustment for specified types of changes in the Company’s capitalization, no more than 350,000 shares of common stock may be issued under the Inducement Plan. There were 0.1 million shares available for future grant at June 30, 2026 under the Inducement Plan. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -401,6 +466,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L3539:
+
+> The Company is also involved from time to time in various legal proceedings arising in the normal course of business. Although the outcomes of these legal proceedings are inherently difficult to predict, the Company does not expect the resolution of these occasional legal proceedings to have a material adverse effect on its financial position, results of operations, or cash flow. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -410,25 +479,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -474,6 +543,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S51] [10-K 0001171843-26-001275](https://www.sec.gov/Archives/edgar/data/898437/000117184326001275/0001171843-26-001275-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANIK/README.md).
+[S68] [10-Q 0001171843-26-005012](https://www.sec.gov/Archives/edgar/data/898437/000117184326005012/anik20260630_10q.htm) — published 2026-07-29; retrieved 2026-11-12T20:37:30.104795+00:00.
+
+[S69] [DEF 14A 0001140361-26-017488](https://www.sec.gov/Archives/edgar/data/898437/000114036126017488/ny20067128x1_def14a.htm) — published 2026-04-28; retrieved 2026-11-12T20:37:27.146980+00:00.
+
+[S70] [10-K 0001171843-26-001275](https://www.sec.gov/Archives/edgar/data/898437/000117184326001275/anik20251231_10k.htm) — published 2026-03-03; retrieved 2026-11-12T20:37:25.582653+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANIK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

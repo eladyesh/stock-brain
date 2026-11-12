@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -150,6 +150,24 @@ sources:
   published_at: '2026-02-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630.htm
+  title: 10-Q 0001517302-26-000114
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-12T20:40:01.452365+00:00'
+  sha256: 7452ad4b57c3777444da03510440028be6f89be33d8b653ec2de7475f019383f
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1517302/000151730226000079/apam-20260417.htm
+  title: DEF 14A 0001517302-26-000079
+  published_at: '2026-04-17'
+  retrieved_at: '2026-11-12T20:39:59.350624+00:00'
+  sha256: da27d558a3797906f03675219736d2336083d139625c98b66145b402aedfc026
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1517302/000151730226000047/apam-20251231.htm
+  title: 10-K 0001517302-26-000047
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-12T20:39:57.750557+00:00'
+  sha256: 77b485fcbb2e8b30f2b94d8741636b8704d35324a59a1c4c4255aad89d2db98d
 issuer_classification:
   cik: '0001517302'
   classification_status: reported_sic
@@ -191,13 +209,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1517302/000151730220000069/0001517302-20-000069-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c6fb169a263c01ad921e288845ec8deb081075bce0812ab2e2243c1dab70665b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -212,15 +239,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001517302.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/APAM/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APAM/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APAM — Artisan Partners Asset Management Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/APAM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APAM/README.md)
 
 ## Business overview
 
@@ -234,6 +261,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L128:
+
+> This report contains, and from time to time our management may make, forward-looking statements within the meaning of the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995. Statements regarding future events and our future performance, as well as management’s current expectations, beliefs, plans, estimates or projections relating to the future, are forward-looking statements within the meaning of these laws. In some cases, you can identify these statements by forward-looking words such as “may”, “might”, “will”, “should”, “expects”, “intends”, “plans”, “anticipates”, “believes”, “estimates”, “predicts”, “potential” or “continue”, the negative of these terms and other comparable terminology. Forward-looking statements are only predictions based on current expectations of our management and information available to us at the time such statements are made. Forward-looking statements are subject to a number of risks and uncertainties, and there are important factors that could cause actual results, level of activity, performance, actions or achievements to differ materially from the results, level of activity, performance, actions or achievements expressed or implied by the forward-looking statements. These factors include: the loss of key investment professionals or senior management, adverse market or economic conditions, poor performance of our … [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -241,6 +272,10 @@ Not available: substantive research has not been completed. Describe revenue str
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-07-31, L1114:
+
+> Changes to our operating results from one period to another are primarily caused by changes in the amount of our AUM. A key driver of changes in our AUM over time is the long-term investment performance of our investment strategies. Changes in the relative composition of our AUM among our investment strategies and vehicles and the effective fee rates on our products also impact our operating results. [S70]
 
 ## Customers and end markets
 
@@ -252,19 +287,35 @@ SEC-reported SIC **6282**: Investment Advice. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L1433:
+
+> The goal of our marketing, distribution and client services efforts is to establish and maintain a client base that is diversified by investment strategy, client type and distribution channel. As distribution channels have evolved to have more institutional-like decision-making processes and longer-term investment horizons, we have expanded our distribution efforts into those areas. [S70]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-17, L1477:
+
+> Each of our NEOs has agreed, pursuant to his or her equity award agreements, to certain restrictive covenants, including agreements not to compete with us or solicit our clients and employees, in each case for one year after he or she ceases to be employed by the Company. Enforcement of the restrictive covenants may be limited or even prohibited, depending on an individual’s particular facts and circumstances. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-20, L736:
+
+> AI is used within our business and we plan to further incorporate it where opportunity exists. The use of AI offers efficiencies, but also introduces significant challenges related to data security, privacy, intellectual property, regulatory compliance, accuracy and bias concerns, and reputational harm, among others. For example, AI technologies, including generative AI, may create content that appears correct but is factually inaccurate or flawed. AI technologies evolve at a rapid pace and their usage requires integration with other technology applications, data platforms and business processes. Globally, courts and regulatory agencies are developing approaches to dealing with AI-related issues, which creates uncertainty around the use of the technology. Use of AI technologies requires ongoing operational controls and procedures, and the development and implementation of appropriate protections and safeguards. Failure to successfully integrate AI technologies, respond to client or market demands, identify or address applicable legal or regulatory issues or effectively manage related risks could result in legal and regulatory liabilities and harm our reputation and growth. [S72]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-17, L773:
+
+> ▪2025 performance-based incentive compensation (i.e., cash and equity awards) increased 5% for Mr. Gottlieb and 3% for Mr. Colson relative to 2024, reflecting, among other things, the successful mid-year leadership transition, progress made on the firm’s strategic priorities, and the continued growth of our assets under management and revenue. These positive developments were tempered by higher net client outflows in the aggregate during 2025, which contributed to a more measured increase in compensation. For our other NEOs who were also NEOs in 2024, performance-based compensation increased 2% to 9% year over year. [S71]
 
 ## Financial performance
 
@@ -392,6 +443,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L844:
+
+> APAM is subject to U.S. federal, state and local income taxation on APAM’s allocable portion of Holdings’ income as well as foreign income taxes payable by Holdings’ subsidiaries. APAM’s effective tax rate was 21.0% and 20.6% for the six months ended June 30, 2026 and 2025, respectively. APAM’s effective income tax rate was equal to the U.S. federal statutory rate of 21% as the incremental impact to the rate from state and local taxes and limits on executive compensation was effectively offset by (i) a rate benefit attributable to the fact that, for the six months ended June 30, 2026, approximately 14% of Artisan Partners Holdings’ full year projected taxable earnings were attributable to other partners and not subject to corporate-level taxes and (ii) a rate benefit from tax deductible dividends paid on unvested restricted share-based awards. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -404,6 +459,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L128:
+
+> This report contains, and from time to time our management may make, forward-looking statements within the meaning of the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995. Statements regarding future events and our future performance, as well as management’s current expectations, beliefs, plans, estimates or projections relating to the future, are forward-looking statements within the meaning of these laws. In some cases, you can identify these statements by forward-looking words such as “may”, “might”, “will”, “should”, “expects”, “intends”, “plans”, “anticipates”, “believes”, “estimates”, “predicts”, “potential” or “continue”, the negative of these terms and other comparable terminology. Forward-looking statements are only predictions based on current expectations of our management and information available to us at the time such statements are made. Forward-looking statements are subject to a number of risks and uncertainties, and there are important factors that could cause actual results, level of activity, performance, actions or achievements to differ materially from the results, level of activity, performance, actions or achievements expressed or implied by the forward-looking statements. These factors include: the loss of key investment professionals or senior management, adverse market or economic conditions, poor performance of our … [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -413,25 +472,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -475,6 +534,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S49] [10-K 0001517302-26-000047](https://www.sec.gov/Archives/edgar/data/1517302/000151730226000047/0001517302-26-000047-index.html) — published 2026-02-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/APAM/README.md).
+[S70] [10-Q 0001517302-26-000114](https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630.htm) — published 2026-07-31; retrieved 2026-11-12T20:40:01.452365+00:00.
+
+[S71] [DEF 14A 0001517302-26-000079](https://www.sec.gov/Archives/edgar/data/1517302/000151730226000079/apam-20260417.htm) — published 2026-04-17; retrieved 2026-11-12T20:39:59.350624+00:00.
+
+[S72] [10-K 0001517302-26-000047](https://www.sec.gov/Archives/edgar/data/1517302/000151730226000047/apam-20251231.htm) — published 2026-02-20; retrieved 2026-11-12T20:39:57.750557+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APAM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

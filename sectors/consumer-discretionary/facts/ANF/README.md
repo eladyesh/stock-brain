@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -130,6 +130,12 @@ sources:
   published_at: '2026-09-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm
+  title: 10-Q 0001018840-26-000047
+  published_at: '2026-09-04'
+  retrieved_at: '2026-11-12T20:36:11.908703+00:00'
+  sha256: a6deec03df8848c05dfbf0c726c37759267e4874a37f2dc98f3bc405a85631c6
 issuer_classification:
   cik: 0001018840
   classification_status: reported_sic
@@ -195,13 +201,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1018840/000101884019000010/0001018840-19-000010-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 559f23e1542e060ead369ed5d592220b6ec37be89c7bf3c339997ceeb0af0cbf
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -216,15 +233,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001018840.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANF/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANF/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ANF — ABERCROMBIE & FITCH CO /DE/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANF/README.md)
 
 ## Business overview
 
@@ -238,17 +255,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1350:
+
+> Changes in trade policy and related uncertainty, including enacted and proposed tariffs affecting countries from which we source a significant portion of our merchandise, have resulted in a dynamic and unpredictable trade environment that has adversely impacted our business and operations. These impacts include volatility in duties on merchandise sourced from impacted countries and added complexity to our supply chain and sourcing processes. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-04, L553:
+
+> The Company manages its business on a geographic basis, consisting of three reportable segments: Americas; Europe, the Middle East and Africa (“EMEA”); and Asia-Pacific (“APAC”). Corporate functions and other income and expenses are evaluated on a consolidated basis and are not allocated to the Company’s segments, and therefore are included as a reconciling item between segment and total operating income. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1288:
+
+> •risks related to our global operations and supply chain, including political or climate-related conditions in the countries where we sell or source our products, and the resulting impacts on transportation and freight costs; [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-04, L1291:
+
+> •risks related to our failure to engage our customers, anticipate customer demand, expectations, and changing fashion trends, and manage our inventory and product delivery; [S67]
 
 ## Industry and value chain
 
@@ -256,19 +289,35 @@ SEC-reported SIC **5651**: Retail-Family Clothing Stores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-04, L612:
+
+> Under the supply chain finance (“SCF”) program, which is administered by a third party, the Company’s vendors, at their sole discretion, are given the opportunity to sell receivables from the Company to a participating financial institution at a discount that leverages the Company’s credit profile. The commercial terms negotiated by the Company with its vendors are consistent, irrespective of whether a vendor participates in the SCF program. A participating vendor has the option to be paid by the financial institution earlier than the original invoice due date. The Company’s responsibility is limited to making payment on the terms originally negotiated by the Company with each vendor, regardless of whether the vendor sells its receivable to a financial institution. If a vendor chooses to participate in the SCF program, the Company pays the financial institution the stated amount of confirmed merchandise invoices on the stated maturity date, which is typically 60 days from the invoice date. The agreement with the financial institution does not require the Company to provide assets pledged as security or other forms of guarantees for the SCF program. [S67]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1364:
+
+> Global supply chain conditions continue to be affected by disruptions in major maritime routes, higher transportation and logistics costs, and increased competition for supply chain capacity due to uncertainty in the global trade environment and ongoing armed conflicts. For example, armed conflicts in the Middle East have contributed to elevated freight rates and longer transit times compared to historical levels, and prolonged or escalating conflicts could result in additional supply chain disruption, including higher energy and transportation costs (such as fuel related charges), shipping delays, or increased air freight usage to mitigate inventory delays. [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1237:
+
+> The Company’s long-lived assets and intellectual property, which primarily relates to trademark assets associated with the Company’s global operations, by geographic area as of August 1, 2026, January 31, 2026 and August 2, 2025 were as follows: [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-04, L1926:
+
+> When evaluating opportunities for investments in the business, management considers alignment with initiatives that position the business for sustainable long-term growth and with the Company’s strategic priorities as described within Part I, “Item 1. Business - STRATEGY AND KEY BUSINESS PRIORITIES” included in the Fiscal 2025 Form 10-K, including being opportunistic regarding areas for growth. Examples of potential investment opportunities include, but are not limited to, new store experiences, and investments in the Company’s digital and omnichannel initiatives. Historically, the Company has utilized free cash flow generated from operations to fund any discretionary capital expenditures, which have been prioritized towards new store experiences, as well as marketing, digital and omnichannel investments, and information technology. For the year-to-date period ended August 1, 2026, the Company invested $129.4 million towards capital expenditures. Total capital expenditures for Fiscal 2026 are expected to be around $250 million. [S67]
 
 ## Financial performance
 
@@ -396,6 +445,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1922:
+
+> The Company’s capital allocation strategy and priorities are reviewed by A&F’s Board of Directors quarterly, considering both liquidity and valuation factors. The Company believes that it will have adequate liquidity to fund operating activities for the next twelve months. The Company monitors market conditions and may in the future determine whether and when to repurchase shares of its Common Stock. For a discussion of the Company’s share repurchase activity, please see below under “Share repurchases.” [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -408,6 +461,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-04, L1284:
+
+> The Company cautions that any forward-looking statements (as such term is defined in the Private Securities Litigation Reform Act of 1995) contained in this Quarterly Report on Form 10-Q or made by the Company or its management and authorized spokespeople involve risks and uncertainties and are subject to change based on various important factors, many of which may be beyond the Company’s and management’s control. Words such as “estimate,” “project,” “plan,” “believe,” “expect,” “anticipate,” “intend,” “should,” “are confident,” “will,” “could,” “outlook,” or the negative versions of those words or other comparable words, and similar expressions may identify forward-looking statements. Future economic and industry trends that could potentially impact revenue and profitability are difficult to predict. Therefore, there can be no assurance that the forward-looking statements included in this Quarterly Report on Form 10-Q will prove to be accurate. Factors that could cause results to differ from those expressed in the Company’s forward-looking statements include, but are not limited to, the risks described or referenced in Part I, Item 1A. “Risk Factors,” in the Company’s Fiscal 2025 Form 10-K and otherwise in our subsequent reports and filings with the SEC, as well as the following: [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -417,25 +474,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -477,6 +534,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001225208-26-007495](https://www.sec.gov/Archives/edgar/data/1018840/000122520826007495/0001225208-26-007495-index.html) — published 2026-09-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/ANF/README.md).
+[S67] [10-Q 0001018840-26-000047](https://www.sec.gov/Archives/edgar/data/1018840/000101884026000047/anf-20260801.htm) — published 2026-09-04; retrieved 2026-11-12T20:36:11.908703+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ANF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

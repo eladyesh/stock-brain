@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -158,6 +158,18 @@ sources:
   published_at: '2026-03-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/6176/000119312526343321/ap-20260630.htm
+  title: 10-Q 0001193125-26-343321
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-12T20:39:38.712434+00:00'
+  sha256: 4cefb5cc7180ebeb78be8b99851ba6b0e075b289e7f094ea1358a89fc2a88ac1
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/6176/000119312526108598/ap-20251231.htm
+  title: 10-K 0001193125-26-108598
+  published_at: '2026-03-16'
+  retrieved_at: '2026-11-12T20:39:35.048415+00:00'
+  sha256: 0902e231a6953b9062fb59fb2d82be5efa2a74f390ac3fb3464263d8a0a9bc50
 issuer_classification:
   cik: '0000006176'
   classification_status: reported_sic
@@ -215,13 +227,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/6176/000119312516593046/0001193125-16-593046-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c19f154b11b2e3a7562730e91af17c553db393ac33b89b04da32e4879b5787de
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -236,15 +259,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000006176.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AP/README.md
-full_history_commit: da8cd95563ea061c99219f658cc12f18850f2a59
+full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AP/README.md
+full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AP — AMPCO PITTSBURGH CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AP/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AP/README.md)
 
 ## Business overview
 
@@ -258,17 +281,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L9308:
+
+> Tariffs are now applied to steel forged and cast rolls shipped from the segment's European facilities to the United States and to U.S. forged and cast rolls shipped to China. Steel is an important distinction as the highest volume of cast rolls imported into the United States is subject only to a country-specific tariff of 10% instead of the higher rates on steel forged roll imports. As the U.S. market is underserved for cast rolls, these tariffs have had little effect on our business. Tariffs remain in place for products that compete with our FEP products, resulting in increases in orders and higher margins. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-11, L9240:
+
+> Identifiable assets for the FCEP segment include (i) the Estimated Recovery of $5,370 at June 30, 2026 and $7,500 at December 31, 2025 and (ii) investments in joint ventures of $835 at each of June 30, 2026 and December 31, 2025. Identifiable assets for the ALP segment include asbestos-related insurance receivables of $116,965 and $126,838 at June 30, 2026 and December 31, 2025, respectively. Identifiable assets for Corporate represent cash and cash equivalents and other items not allocated to reportable segments. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-11, L9254:
+
+> The Private Securities Litigation Reform Act of 1995 (the “Act”) provides a safe harbor for forward-looking statements made by us or on behalf of Ampco-Pittsburgh Corporation and its subsidiaries (collectively, “we,” “us,” “our,” or the “Corporation”). Management’s Discussion and Analysis of Financial Condition and Results of Operations and other sections of this Quarterly Report on Form 10-Q, as well as the condensed consolidated financial statements and notes hereto, may include, but are not limited to, statements about operating performance, trends and events we expect or anticipate will occur in the future, statements about sales and production levels, timing of orders for our products, restructurings, the impact from pandemics and geopolitical conflicts, profitability and anticipated expenses, inflation, the global supply chain, the continued impact of tariffs, global trade conditions, the number and size of asbestos-related claims and sufficiency of asbestos-related insurance coverage, our ability to convert backlog to revenue in a timely manner, and cash outflows. All statements in this document other than statements of historical fact are statements that are, or could be, deemed “forward-looking statements” within the meaning of the Act and words such as “may,” “will,” “intend,” “believe,” “expect,” “anticipate,” “estimate,” “project,” “target,” “goal,” “forecast,” and … [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-11, L9274:
+
+> increases in commodity prices or insufficient hedging against increases in commodity prices, reductions in electricity and natural gas supply, or shortages of key production materials for us or our customers; [S68]
 
 ## Industry and value chain
 
@@ -276,19 +315,35 @@ SEC-reported SIC **3561**: Pumps & Pumping Equipment. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L9254:
+
+> The Private Securities Litigation Reform Act of 1995 (the “Act”) provides a safe harbor for forward-looking statements made by us or on behalf of Ampco-Pittsburgh Corporation and its subsidiaries (collectively, “we,” “us,” “our,” or the “Corporation”). Management’s Discussion and Analysis of Financial Condition and Results of Operations and other sections of this Quarterly Report on Form 10-Q, as well as the condensed consolidated financial statements and notes hereto, may include, but are not limited to, statements about operating performance, trends and events we expect or anticipate will occur in the future, statements about sales and production levels, timing of orders for our products, restructurings, the impact from pandemics and geopolitical conflicts, profitability and anticipated expenses, inflation, the global supply chain, the continued impact of tariffs, global trade conditions, the number and size of asbestos-related claims and sufficiency of asbestos-related insurance coverage, our ability to convert backlog to revenue in a timely manner, and cash outflows. All statements in this document other than statements of historical fact are statements that are, or could be, deemed “forward-looking statements” within the meaning of the Act and words such as “may,” “will,” “intend,” “believe,” “expect,” “anticipate,” “estimate,” “project,” “target,” “goal,” “forecast,” and … [S68]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-11, L9308:
+
+> Tariffs are now applied to steel forged and cast rolls shipped from the segment's European facilities to the United States and to U.S. forged and cast rolls shipped to China. Steel is an important distinction as the highest volume of cast rolls imported into the United States is subject only to a country-specific tariff of 10% instead of the higher rates on steel forged roll imports. As the U.S. market is underserved for cast rolls, these tariffs have had little effect on our business. Tariffs remain in place for products that compete with our FEP products, resulting in increases in orders and higher margins. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-16, L360:
+
+> While the Corporation and its subsidiaries hold certain patents, trademarks and licenses, in the opinion of the Corporation, they are not material to either segment. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L9264:
+
+> inability to obtain necessary capital or financing on satisfactory terms to acquire capital expenditures that may be necessary to support our growth strategy; [S68]
 
 ## Financial performance
 
@@ -398,6 +453,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L6953:
+
+> The Incentive Plan may be administered by the Board of Directors or the Compensation Committee of the Board of Directors. The Compensation Committee has the authority to determine, within the limits of the express provisions of the Incentive Plan, the individuals to whom the awards will be granted and the nature, amount and terms of such awards. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -410,6 +469,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L9290:
+
+> those discussed more fully elsewhere in this report and in documents filed with the Securities and Exchange Commission by us, particularly in Item 1A, Risk Factors, in Part I of our Annual Report on Form 10-K for the year ended December 31, 2025. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -419,25 +482,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -483,6 +546,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S43] [10-K 0001193125-26-108598](https://www.sec.gov/Archives/edgar/data/6176/000119312526108598/0001193125-26-108598-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/da8cd95563ea061c99219f658cc12f18850f2a59/brain/companies/AP/README.md).
+[S68] [10-Q 0001193125-26-343321](https://www.sec.gov/Archives/edgar/data/6176/000119312526343321/ap-20260630.htm) — published 2026-08-11; retrieved 2026-11-12T20:39:38.712434+00:00.
+
+[S70] [10-K 0001193125-26-108598](https://www.sec.gov/Archives/edgar/data/6176/000119312526108598/ap-20251231.htm) — published 2026-03-16; retrieved 2026-11-12T20:39:35.048415+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/AP/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
