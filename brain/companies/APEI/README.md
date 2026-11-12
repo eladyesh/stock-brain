@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -466,6 +466,48 @@ sources:
   published_at: '2026-03-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000110465926093372/tm2622572d1_8k.htm
+  title: 8-K 0001104659-26-093372
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-12T20:40:43.753380+00:00'
+  sha256: 21cbdf6c7c38fff3c26bf6738f9d31ee4ba85df8cd3da1ccf758bf7ec8d8df61
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000120179226000012/apei-20260630.htm
+  title: 10-Q 0001201792-26-000012
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-12T20:40:45.159933+00:00'
+  sha256: 91f2b68dce4c2f9426639839531b6e8533eb110e862440e1ccdd5d3def31abd6
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000114036126013996/ny20064163x1_def14a.htm
+  title: DEF 14A 0001140361-26-013996
+  published_at: '2026-04-09'
+  retrieved_at: '2026-11-12T20:40:42.319609+00:00'
+  sha256: ebf21b82aee8e3fc1c23d1104f6697726f2049675e814d48ba4dc991e1c13ece
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000120179226000004/apei-20251231.htm
+  title: 10-K 0001201792-26-000004
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-12T20:40:40.793813+00:00'
+  sha256: 3a976a89ec20553f00724449a607cfee7c6618a768bd90c2ee5a7ae1fd0bae86
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000110465925109894/tm2530981d1_8ka.htm
+  title: 8-K/A 0001104659-25-109894
+  published_at: '2025-11-12'
+  retrieved_at: '2026-11-12T20:40:39.299241+00:00'
+  sha256: 67b0f11b96028f01150961166c8f3b3f80429a03ae3197baa410526dc156fb86
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000110465921140551/tm2132594d1_8ka.htm
+  title: 8-K/A 0001104659-21-140551
+  published_at: '2021-11-17'
+  retrieved_at: '2026-11-12T20:40:37.831619+00:00'
+  sha256: b59385d4877cc1f95df89338de097aa23671255008e014cbcddb83de0cfa6a1c
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1201792/000110465921065928/tm2116275d1_8ka.htm
+  title: 8-K/A 0001104659-21-065928
+  published_at: '2021-05-13'
+  retrieved_at: '2026-11-12T20:40:36.396938+00:00'
+  sha256: 28d5626a12e7970051ce7c2b4e06a2d2d683b731df1e0f1ef7407034779972f6
 issuer_classification:
   cik: 0001201792
   classification_status: reported_sic
@@ -515,13 +557,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1201792/000110465921065928/0001104659-21-065928-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 9cc23ada355677dfca1a519930952d8c2c56d53cdab19897c834db6756b35082
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -545,9 +595,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L681:
+
+> •our ability to manage, grow, and diversify our business and execute our business initiatives and strategy; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L347:
+
+> The Company’s reportable segments are determined in accordance with FASB ASC 280, Segment Reporting, and are based upon how the chief operating decision maker, or CODM, analyzes performance and makes decisions. The Company organizes its business across two reportable segments: Military+ and Health+. Each segment represents an educational division that provides a variety of postsecondary academic programs. [S68]
 
 ## Products and services
 
@@ -567,13 +625,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-09, L6568:
+
+> In 2014, the MDC Committee authorized negotiating an employment agreement with Mr. Sunderland on substantially the same terms as the agreements with our other then-serving NEOs. The Committee determined it was appropriate to have an employment agreement with Mr. Sunderland in an effort to retain Mr. Sunderland, treat him similarly to other executives, and to ensure his agreement would be subject to post-employment non-competition and non-solicitation terms with which he otherwise would not have had to comply. The agreement provided for certain payments in connection with a termination of his employment within 180 days prior to or 365 days following a change of control of the Company. On June 13, 2024, the Company, APUS and Mr. Sunderland entered into a Transition and Release Agreement (the “Transition Agreement”) providing for Mr. Sunderland’s transition and the eventual cessation of his services as an employee and officer of the Company. Under the terms of the Transition Agreement, Mr. Sunderland remained an employee of the Company until February 20, 2026, the date of his departure from the Company, and the terms of the Sunderland Employment Agreement continued in full force and effect until such date. Accordingly, Mr. Sunderland was entitled to the applicable payments set forth under his employment agreement except as modified under the Transition Agreement. Mr. Sunderland’s … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-09, L10104:
+
+> material breach of any term of any employment, consulting or other services, confidentiality, intellectual property, or non-competition agreements, if any, between such executive and the Company or an affiliate. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-09, L139:
+
+> During 2025, our management team worked to simplify and strengthen APEI by delivering on the commitments they established at the start of the year, and our 2025 performance reflects their efforts. We redeemed all outstanding shares of preferred stock, sold certain corporate buildings, divested Graduate School USA, and made meaningful progress on the planned combination of American Public University System, Rasmussen University, and Hondros College of Nursing. We believe completion of the combination will position us to expand our campus footprint, provide greater programmatic and academic choice, reinforce student and alumni support, more effectively meet the growing demand for nursing and other healthcare professionals, and accelerate enrollment growth among non-military, military, military family, and veteran student. We are also proud of our financial results in 2025, which included increases in revenue, net income available to common stockholders, adjusted EBITDA, and fully diluted earnings per share available to common stockholders. [S69]
 
 ## Financial performance
 
@@ -1203,6 +1273,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L383:
+
+> Stock-based compensation cost is recognized as an expense generally over a three-year vesting period using the straight-line method for employees and the graded-vesting method for members of the Company’s Board of Directors or the Board, and is measured using the Company’s closing stock price on the date of the grant. An accelerated one-year period is used to recognize stock-based compensation cost for employees who have reached certain service and retirement eligibility criteria on the date of grant. The fair value of each option award is estimated at the date of grant using a Black-Scholes option-pricing model that uses certain assumptions. The Company makes assumptions with respect to expected stock price volatility based on the average historical volatility of the Company’s common stock. In addition, the Company determines the risk-free interest rate by selecting the U.S. Treasury constant maturity for the same maturity as the estimated life of the option quoted on an investment basis in effect at the time of grant for that business day. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1215,6 +1289,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L721:
+
+> Forward-looking statements should be considered in light of these factors and the factors described elsewhere in this Quarterly Report, in the “Risk Factors” section of this Quarterly Report and our Annual Report, and elsewhere in our various filings with the Securities and Exchange Commission, or the SEC. It is important that you read these factors and the other cautionary statements made in this Quarterly Report as being applicable to all related forward-looking statements wherever they appear in this Quarterly Report. If one or more of these factors materialize, or if any underlying assumptions prove incorrect, our actual results, performance, or achievements may vary materially from any future results, performance, or achievements expressed or implied by these forward-looking statements. You should also read the more detailed description of our business in our Annual Report when considering forward-looking statements. We caution readers not to place undue reliance on any forward-looking statements made by us, which speak only as of the date of this Quarterly Report. We undertake no obligation to publicly update any forward-looking statements after the date of this Quarterly Report, whether as a result of new information, future events, or otherwise, except as required by law. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1224,25 +1302,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1305,6 +1383,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-17 | 4 | 0001123292-26-000466 | — | [S64] |
 | 2026-03-16 | 144 | 0001959173-26-002350 | — | [S65] |
 | 2026-03-16 | 144 | 0001959173-26-002349 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-10, L384:
+
+> Estimating the percentage of share-based awards that are expected to vest, and in the case of performance stock units, the level of performance that will be achieved and the number of shares that will be earned, requires judgment. The Company estimates forfeitures of share-based awards at the time of grant and revises such estimates in subsequent periods if actual forfeitures differ from original estimates. The forfeiture assumption is ultimately adjusted to the actual forfeiture rate. If actual results differ significantly from these estimates, stock-based compensation expense could be higher or lower and have a material impact on the accompanying Consolidated Financial Statements. Estimates of fair value are subjective and are not intended to predict actual future events, and subsequent events are not indicative of the reasonableness of the original estimates of fair value made under ASC 718. [S68]
 
 ## Sources and change log
 
@@ -1439,5 +1521,19 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [144 0001959173-26-002350](https://www.sec.gov/Archives/edgar/data/1201792/000195917326002350/0001959173-26-002350-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [144 0001959173-26-002349](https://www.sec.gov/Archives/edgar/data/1201792/000195917326002349/0001959173-26-002349-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-093372](https://www.sec.gov/Archives/edgar/data/1201792/000110465926093372/tm2622572d1_8k.htm) — published 2026-08-10; retrieved 2026-11-12T20:40:43.753380+00:00.
+
+[S68] [10-Q 0001201792-26-000012](https://www.sec.gov/Archives/edgar/data/1201792/000120179226000012/apei-20260630.htm) — published 2026-08-10; retrieved 2026-11-12T20:40:45.159933+00:00.
+
+[S69] [DEF 14A 0001140361-26-013996](https://www.sec.gov/Archives/edgar/data/1201792/000114036126013996/ny20064163x1_def14a.htm) — published 2026-04-09; retrieved 2026-11-12T20:40:42.319609+00:00.
+
+[S70] [10-K 0001201792-26-000004](https://www.sec.gov/Archives/edgar/data/1201792/000120179226000004/apei-20251231.htm) — published 2026-03-12; retrieved 2026-11-12T20:40:40.793813+00:00.
+
+[S71] [8-K/A 0001104659-25-109894](https://www.sec.gov/Archives/edgar/data/1201792/000110465925109894/tm2530981d1_8ka.htm) — published 2025-11-12; retrieved 2026-11-12T20:40:39.299241+00:00.
+
+[S72] [8-K/A 0001104659-21-140551](https://www.sec.gov/Archives/edgar/data/1201792/000110465921140551/tm2132594d1_8ka.htm) — published 2021-11-17; retrieved 2026-11-12T20:40:37.831619+00:00.
+
+[S73] [8-K/A 0001104659-21-065928](https://www.sec.gov/Archives/edgar/data/1201792/000110465921065928/tm2116275d1_8ka.htm) — published 2021-05-13; retrieved 2026-11-12T20:40:36.396938+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

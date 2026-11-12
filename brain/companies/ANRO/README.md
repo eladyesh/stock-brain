@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -449,6 +449,30 @@ sources:
   published_at: '2026-02-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/1999480/000199948026000024/alto-20260826.htm
+  title: 8-K 0001999480-26-000024
+  published_at: '2026-08-27'
+  retrieved_at: '2026-11-12T20:38:24.986933+00:00'
+  sha256: 9e72a481ec442caf02eae3dd492f77c7cffadf28282da9ace3eb2e7f6d0204e2
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1999480/000199948026000023/alto-20260630.htm
+  title: 10-Q 0001999480-26-000023
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-12T20:38:23.601938+00:00'
+  sha256: 04720963b2c670f8893ac1125f7e4821b03b007c28726f724f65bdcd46def004
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1999480/000110465926035180/tm264616-1_def14a.htm
+  title: DEF 14A 0001104659-26-035180
+  published_at: '2026-03-26'
+  retrieved_at: '2026-11-12T20:38:22.109508+00:00'
+  sha256: bb23eb996d92c336128a4c52a9c5f79d5054912d013c4e76c7ba7cdc3d3451f8
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1999480/000199948026000002/alto-20251231.htm
+  title: 10-K 0001999480-26-000002
+  published_at: '2026-03-16'
+  retrieved_at: '2026-11-12T20:38:20.564262+00:00'
+  sha256: 059f2482213b8be5a36c0221411859db255646bcb32a6bd47e7f8b55528fe121
 issuer_classification:
   cik: 0001999480
   classification_status: reported_sic
@@ -486,13 +510,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1999480/000199948026000024/0001999480-26-000024-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 11b1233ad96215b7fe4bacbc46dc72c0922c4b400865d589fcf8fdb56a30f177
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -516,17 +551,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L132:
+
+> •the implementation of our strategic plans for our business and any product candidates we may develop; [S65]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L843:
+
+> As a single reportable segment entity, the Company’s segment performance measure is consolidated net loss. Asset information is not used by the Company’s President and Chief Executive Officer, its chief operating decision maker (“CODM”) to allocate resources. Certain significant segment expenses below loss from operations are presented in the Company’s consolidated statements of operations and are therefore not presented below. Additional disaggregated significant segment expenses on a functional basis, that are not separately presented on the Company’s condensed consolidated statements of operations, are presented below (in thousands): [S65]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-12, L930:
+
+> If we are unable to obtain funding, we will be forced to delay, reduce, or eliminate some or all of our research and development programs, product portfolio expansion, or commercialization efforts, which could adversely affect our business prospects, or we may be unable to continue operations. Although we continue to pursue these plans, there is no assurance that we will be successful in obtaining sufficient funding on terms acceptable to us to fund continuing operations, if at all. [S65]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-16, L1038:
+
+> Some actors also now engage and are expected to continue to engage in cyber-attacks for geopolitical reasons and in conjunction with military conflicts and defense activities. During times of war and other major conflicts, we, the third parties upon which we rely, and our customers may be vulnerable to a heightened risk of these attacks, including retaliatory cyber-attacks, that could materially disrupt our systems and operations, supply chain, and ability to produce, sell, and distribute our goods and services. In addition to experiencing a security incident, third parties may gather, collect, or infer sensitive information about us from public sources, data brokers, or other means that reveals competitively sensitive details about our organization and could be used to undermine our competitive advantage or market position. [S67]
 
 ## Industry and value chain
 
@@ -534,17 +585,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-26, L4493:
+
+> marketing, distribution and sale of the Company’s products (including with group purchasing organizations, distributors and other vendors); supply chain achievements (including establishing relationships with manufacturers or suppliers of active pharmaceutical ingredients and other component materials and manufacturers of the Company’s products); co-development, co-marketing, profit sharing, joint venture or other similar arrangements; individual performance goals; corporate development and planning goals; and other measures of performance selected by the Board or Committee. [S66]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L130:
+
+> •the effects of competition with respect to our current product candidates or any of our future product candidates, as well as innovations by current and future competitors in our industry; [S65]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-12, L133:
+
+> •our intellectual property position, including the scope of protection we are able to establish, maintain, defend and enforce for intellectual property rights covering our product candidates and our Precision Psychiatry Platform; [S65]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L890:
+
+> ALTO-300, also known as agomelatine, is an investigational oral, small molecule melatonergic (MT1 and MT2) agonist and serotonergic (5-HT2C) antagonist with antidepressant properties, and is being developed at 25mg as an adjunctive treatment in the United States for patients with MDD, characterized by an electroencephalography, or EEG, biomarker. Agomelatine has been approved as an antidepressant in Europe and Australia at both 25mg and 50mg, but has not been approved in the United States. In comparison to the 50mg dose of agomelatine, the 25mg dose has been shown to have equivalent antidepressant efficacy and has not been associated with reversible, low liver enzyme elevations observed with the 50mg dose. A published meta analysis including more than 58,000 patients demonstrated that agomelatine is not associated with elevated aspartate transferase, or AST, or alanine transaminase, or ALT, unlike certain other commonly used antidepressants. In our development program, including our completed Phase 2a and ongoing Phase 2b study, we have observed low rates of liver function test, or LFT, elevations (greater than 3 times the upper limit of normal, or ULN) with the 25mg dose which supports our strategy of developing only the 25mg dosage strength. [S65]
 
 ## Financial performance
 
@@ -974,6 +1041,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-27, L54:
+
+> On August 26, 2026 (the “Effective Date”), the Board of Directors (the “Board”) of Alto Neuroscience, Inc. (the “Company”) promoted Nicholas C. Smith, the Company’s Chief Financial Officer and Chief Business Officer, to the position of President and Chief Financial Officer, effective immediately. In connection with Mr. Smith’s promotion, as of August 26, 2026, Amit Etkin, M.D., Ph.D., the Company’s President and Chief Executive Officer, continues in his role as the Company’s Chief Executive Officer, but no longer holds the office of the President. Dr. Etkin serves as the Company’s principal executive officer and Mr. Smith serves as the Company’s principal financial officer. [S64]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -986,6 +1057,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L144:
+
+> You are urged to carefully review the disclosures we make concerning risks and other factors that may affect our business and operating results under “Item 1A. Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025, or Annual Report, under “Item 1A. Risk Factors” in this Quarterly Report, and in our other reports filed with the Securities and Exchange Commission, or SEC. Because forward-looking statements are inherently subject to risks and uncertainties, some of which cannot be predicted or quantified, you should not rely on these forward-looking statements as predictions of future events. The events and circumstances reflected in our forward-looking statements may not be achieved or occur and actual results could differ materially from those projected in such statements. Moreover, we operate in a very competitive and rapidly changing environment. New risks emerge from time to time. It is not possible for our management to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. Given these uncertainties, you should not place undue reliance on these forward-looking statements. [S65]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -995,25 +1070,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1077,6 +1152,10 @@ Latest 50 filing metadata records of 195 retained records. A filing link is evid
 | 2026-02-17 | SCHEDULE 13G/A | 0001172661-26-001262 | — | [S61] |
 | 2026-02-17 | SCHEDULE 13G/A | 0000905148-26-000894 | — | [S62] |
 | 2026-02-17 | SCHEDULE 13G/A | 0000902664-26-001136 | — | [S63] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L600:
+
+> The Company determined the initial fair value of the Convertible Grant Agreement using a probability-weighted income approach. Draw downs under the Convertible Grant Agreement were $0.8 million during the three months ended June 30, 2025, and $1.3 million during the year ended December 31, 2024. The Company remeasured the fair value of the Convertible Grant Agreement as of June 30, 2026 to be $2.5 million using a probability-weighted income approach. The Company calculated discounted cash flows of the Convertible Grant Agreement using a discount rate of 21.69% and adjusted for the probability of various repayment scenarios. [S65]
 
 ## Sources and change log
 
@@ -1205,5 +1284,13 @@ Latest 50 filing metadata records of 195 retained records. A filing link is evid
 [S62] [SCHEDULE 13G/A 0000905148-26-000894](https://www.sec.gov/Archives/edgar/data/1999480/000090514826000894/0000905148-26-000894-index.html) — published 2026-02-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S63] [SCHEDULE 13G/A 0000902664-26-001136](https://www.sec.gov/Archives/edgar/data/1999480/000090266426001136/0000902664-26-001136-index.html) — published 2026-02-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S64] [8-K 0001999480-26-000024](https://www.sec.gov/Archives/edgar/data/1999480/000199948026000024/alto-20260826.htm) — published 2026-08-27; retrieved 2026-11-12T20:38:24.986933+00:00.
+
+[S65] [10-Q 0001999480-26-000023](https://www.sec.gov/Archives/edgar/data/1999480/000199948026000023/alto-20260630.htm) — published 2026-08-12; retrieved 2026-11-12T20:38:23.601938+00:00.
+
+[S66] [DEF 14A 0001104659-26-035180](https://www.sec.gov/Archives/edgar/data/1999480/000110465926035180/tm264616-1_def14a.htm) — published 2026-03-26; retrieved 2026-11-12T20:38:22.109508+00:00.
+
+[S67] [10-K 0001999480-26-000002](https://www.sec.gov/Archives/edgar/data/1999480/000199948026000002/alto-20251231.htm) — published 2026-03-16; retrieved 2026-11-12T20:38:20.564262+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

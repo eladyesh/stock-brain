@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -484,6 +484,36 @@ sources:
   published_at: '2026-03-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/315293/000119312526397203/d38875d8k.htm
+  title: 8-K 0001193125-26-397203
+  published_at: '2026-09-22'
+  retrieved_at: '2026-11-12T20:38:53.157906+00:00'
+  sha256: 4c3d4333c7050f23b8eb7f73714da045ca13795985bf2cf994cb12da6ab41183
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/315293/000162828026050610/aon-20260630.htm
+  title: 10-Q 0001628280-26-050610
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-12T20:38:51.824485+00:00'
+  sha256: fa9e3e29b459a40b30b45828621368521254cecdcc1950c5c385229abececc79
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/315293/000119312526187428/aon-20260428.htm
+  title: DEF 14A 0001193125-26-187428
+  published_at: '2026-04-28'
+  retrieved_at: '2026-11-12T20:38:49.767426+00:00'
+  sha256: 8916f56639c3dd3b02f5d854761186d1af3357409d7a2f275f2000b17d201aa3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/315293/000162828026008116/aon-20251231.htm
+  title: 10-K 0001628280-26-008116
+  published_at: '2026-02-13'
+  retrieved_at: '2026-11-12T20:38:48.147664+00:00'
+  sha256: baa5a40dc9bc41527cd07a3026b9e12db30f28afdd6fc52b3c488728c48b7fe8
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/315293/000110465917058092/a17-22333_18ka.htm
+  title: 8-K/A 0001104659-17-058092
+  published_at: '2017-09-20'
+  retrieved_at: '2026-11-12T20:38:46.711020+00:00'
+  sha256: 331a8b43a646d5deb084a7d451d762e1fb0186f0631128b4fd93ced4297e20f8
 issuer_classification:
   cik: 0000315293
   classification_status: reported_sic
@@ -525,13 +555,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/315293/000110465917058092/0001104659-17-058092-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 139c2af961e86ea80f8e22a415deafa0e4fb271c3655cc7347f0ac6d09726c12
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -555,17 +596,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-29, L63:
+
+> This report contains certain statements related to future results, or states our intentions, beliefs, and expectations or predictions for the future, all of which are forward-looking statements as that term is defined in the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, (the “Securities Act”) and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements represent management’s expectations or forecasts of future events. These statements include statements about our plans, objectives, strategies, financial performance and outlook, trends, prospects or other future events and involve known and unknown risks that are difficult to predict. Forward-looking statements are typically identified by words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “project,” “positioned,” “intend,” “plan,” “potential,” “continue,” “target,” and other similar terms, and future or conditional tense verbs like “could,” “may,” “might,” “should,” “will,” and “would.” You can also identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. For example, we may use forward-looking statements when addressing topics such as: market, industry and geopolitical conditions, including competitive and pricing trends; changes in our … [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-29, L1160:
+
+> Reportable segments were determined using a management approach. They are consistent with how the CODM assesses the performance of the Company and allocates resources based on two segments: Risk Capital and Human Capital. This segmentation allows the CODM, who is our Chief Executive Officer and President, to align the assessment of performance and allocation of resources, based on segment operating income and operating margin, with how the Company addresses client need, accelerating its Aon United strategy through growth in Risk Capital and Human Capital and maximizing value for Aon and its shareholders. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-29, L63:
+
+> This report contains certain statements related to future results, or states our intentions, beliefs, and expectations or predictions for the future, all of which are forward-looking statements as that term is defined in the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, (the “Securities Act”) and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements represent management’s expectations or forecasts of future events. These statements include statements about our plans, objectives, strategies, financial performance and outlook, trends, prospects or other future events and involve known and unknown risks that are difficult to predict. Forward-looking statements are typically identified by words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “project,” “positioned,” “intend,” “plan,” “potential,” “continue,” “target,” and other similar terms, and future or conditional tense verbs like “could,” “may,” “might,” “should,” “will,” and “would.” You can also identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. For example, we may use forward-looking statements when addressing topics such as: market, industry and geopolitical conditions, including competitive and pricing trends; changes in our … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-13, L408:
+
+> In addition, we provide a variety of guarantees and indemnifications to our customers and others. In the event of a default, our potential exposure is equal to the amount of the guarantee or indemnification. [S71]
 
 ## Industry and value chain
 
@@ -573,17 +630,33 @@ SEC-reported SIC **6411**: Insurance Agents, Brokers & Service. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L1210:
+
+> Vice President and Global Chief Information Officer of Dell, Inc., a global technology company (March 2010 to September 2014). Previously spent over 20 years with General Motors Company and Ford Motor Company in various international leadership positions, including global production planning, computer integrated manufacturing, and supply chain operations. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-28, L2540:
+
+> Industry-related criteria used as guidelines for identifying peers include global financial services companies and major professional services firms that we compete with for executive talent and/or financial capital. Size-related criteria used as guidelines for identifying peers include companies that are one-fourth to four times our size in average market capitalization (calculated over the most recent eight quarters to reduce volatility) and in trailing four-quarter revenues, and that have latest year total assets less than $500 billion. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-29, L76:
+
+> •failure to protect intellectual property rights or allegations that we have infringed on the intellectual property rights of others; [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-29, L1340:
+
+> Reinsurance Solutions revenue increased $23 million, or 3%, in the second quarter of 2026, compared to $688 million in the second quarter of 2025. Organic revenue growth was 5% in the second quarter of 2026, reflecting growth in treaty placements, driven by net new business and strong retention, and double-digit increases in facultative placements and our Strategy and Technology Group. Net market impact was unfavorable in the quarter. For the first six months of 2026, revenue increased $113 million, or 6%, compared to $1.9 billion in the first six months of 2025. Organic revenue growth was 4% in the first six months of 2026, reflecting growth in treaty placements, driven by net new business and strong retention, and double-digit increases in facultative placements and our Strategy and Technology Group. Market impact had an unfavorable impact in the first half of the year. [S69]
 
 ## Financial performance
 
@@ -1213,6 +1286,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L900:
+
+> Aon has a share repurchase program authorized by the Company’s Board of Directors (“the Repurchase Program”). The Repurchase Program was established in April 2012 with $5.0 billion in authorized repurchases, and was increased by $5.0 billion in authorized repurchases in each of November 2014, June 2017, and November 2020. In each of February 2022 and June 2026, authorized repurchases were increased by an additional $7.5 billion, for a total of $35.0 billion in repurchase authorizations. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1225,6 +1302,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L92:
+
+> Further information about factors that could materially affect Aon, including our results of operations and financial condition, is contained in our filings with the SEC, including the “Risk Factors” section in Part I, Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2025. These factors may be revised or supplemented in our subsequent periodic filings with the SEC. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1234,25 +1315,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1315,6 +1396,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-17 | 4 | 0001193125-26-110806 | — | [S65] |
 | 2026-03-17 | 4 | 0001193125-26-110782 | — | [S66] |
 | 2026-03-02 | 4 | 0001193125-26-085374 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-28, L10601:
+
+> The Audit Committee pre-approves all audit and permissible non-audit services provided by the independent registered public accounting firm. These services may include audit services, audit-related services, tax services and other services. Each pre-approval provides details regarding the particular service or category of service to be provided. The Audit Committee requires that the independent registered public accounting firm and management report on the actual fees charged by the independent registered public accounting firm for each category of service at Audit Committee meetings held during the year. [S70]
 
 ## Sources and change log
 
@@ -1451,5 +1536,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0001193125-26-110782](https://www.sec.gov/Archives/edgar/data/315293/000119312526110782/0001193125-26-110782-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001193125-26-085374](https://www.sec.gov/Archives/edgar/data/315293/000119312526085374/0001193125-26-085374-index.html) — published 2026-03-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-397203](https://www.sec.gov/Archives/edgar/data/315293/000119312526397203/d38875d8k.htm) — published 2026-09-22; retrieved 2026-11-12T20:38:53.157906+00:00.
+
+[S69] [10-Q 0001628280-26-050610](https://www.sec.gov/Archives/edgar/data/315293/000162828026050610/aon-20260630.htm) — published 2026-07-29; retrieved 2026-11-12T20:38:51.824485+00:00.
+
+[S70] [DEF 14A 0001193125-26-187428](https://www.sec.gov/Archives/edgar/data/315293/000119312526187428/aon-20260428.htm) — published 2026-04-28; retrieved 2026-11-12T20:38:49.767426+00:00.
+
+[S71] [10-K 0001628280-26-008116](https://www.sec.gov/Archives/edgar/data/315293/000162828026008116/aon-20251231.htm) — published 2026-02-13; retrieved 2026-11-12T20:38:48.147664+00:00.
+
+[S72] [8-K/A 0001104659-17-058092](https://www.sec.gov/Archives/edgar/data/315293/000110465917058092/a17-22333_18ka.htm) — published 2017-09-20; retrieved 2026-11-12T20:38:46.711020+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

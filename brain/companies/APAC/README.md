@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -393,6 +393,24 @@ sources:
   published_at: '2025-09-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/2043630/000143774926030772/apac20260921_8k.htm
+  title: 8-K 0001437749-26-030772
+  published_at: '2026-09-21'
+  retrieved_at: '2026-11-12T20:39:53.389795+00:00'
+  sha256: 92bb3505c9f2e7383acdfb2c0db02c337d55cec2722298901507a31f54ba7efc
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/2043630/000143774926027919/apac20260630c_10q.htm
+  title: 10-Q 0001437749-26-027919
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-12T20:39:52.024324+00:00'
+  sha256: ba80972cce4ca360679f0657347a8553c563da71c6c5052447e25c11279a3b39
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/2043630/000182912626002474/stonebridgeacq2_10k.htm
+  title: 10-K 0001829126-26-002474
+  published_at: '2026-03-18'
+  retrieved_at: '2026-11-12T20:39:50.437361+00:00'
+  sha256: 6bea2881141c01a87eb637988749522d474e48c9839afb8b039bd109107aac3e
 issuer_classification:
   cik: '0002043630'
   classification_status: reported_sic
@@ -426,13 +444,21 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2043630/000143774926030772/0001437749-26-030772-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f561681e7cee71c1238661301082ece1f3eee6921d62a39e46bb3c308aa6540c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -456,9 +482,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1553:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the auditor attestation requirements of Section 404 of the Sarbanes-Oxley Act of 2002, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S58]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L2022:
+
+> Management does not believe that any recently issued, but not yet effective, accounting pronouncements, if currently adopted, would have a material effect on the Company’s unaudited condensed financial statements. The Company adopted ASU 2023-07, Segment Reporting (Topic 280) — Improvements to Reportable Segment Disclosures, effective for interim periods beginning after December 15, 2024; as the Company operates as a single reportable segment, adoption had no material impact. The Company adopted ASU 2023-09, Income Taxes (Topic 740) — Improvements to Income Tax Disclosures, effective January 1, 2026; given the Company is incorporated in the Cayman Islands and is not subject to income taxes, this standard had no impact on the unaudited condensed financial statements. ASU 2024-03, Income Statement — Expense Disaggregation Disclosures, is effective for annual periods beginning after December 15, 2026 and is not expected to have a material effect on the Company’s financial statements. [S58]
 
 ## Products and services
 
@@ -474,9 +508,17 @@ SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1543:
+
+> Certain countries, including the United States, have also provided and may continue to provide military aid or other assistance to Ukraine and to Israel, increasing geopolitical tensions among a number of nations. The invasion of Ukraine by Russia, the escalation of the Israel-Hamas conflict and the expansion of regional hostilities involving Iran and the resulting measures that have been taken, and could be taken in the future, by NATO, the United States, the United Kingdom, the European Union, Israel and its neighboring states and other countries have created global security concerns that could have a lasting impact on regional and global economies. Although the length and impact of these conflicts are highly unpredictable, they could lead to market disruptions, including significant volatility in commodity prices, credit and capital markets, as well as supply chain interruptions, disruptions to global energy and shipping routes, and increased cyber-attacks against U.S. companies. Additionally, any resulting sanctions could adversely affect the global economy and financial markets and lead to instability and lack of liquidity in capital markets. [S58]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-18, L363:
+
+> In identifying, evaluating and selecting a target business for our initial business combination, we may encounter competition from other entities having a business objective similar to ours, including other special purpose acquisition companies, or SPACs, other blank check companies, private equity groups and leveraged buyout funds, public companies and operating businesses seeking strategic acquisitions. Many of these entities are well established and have extensive experience identifying and effecting business combinations directly or through affiliates. Moreover, many of these competitors possess similar or greater financial, technical, human and other resources than us. Our ability to acquire larger target businesses will be limited by our available financial resources. This inherent limitation gives others an advantage in pursuing the acquisition of a target business. Furthermore, our obligation to pay cash in connection with our public shareholders who exercise their redemption rights may reduce the resources available to us for our initial business combination and our issued and outstanding rights, and the future dilution they potentially represent, may not be viewed favorably by certain target businesses. Either of these factors may place us at a competitive disadvantage in successfully negotiating an initial business combination. In addition, as the number of SPACs … [S59]
 
 ## Moat and differentiation
 
@@ -485,6 +527,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-03-18, L840:
+
+> \| limitations on our ability to borrow additional amounts for expenses, capital expenditures, acquisitions, debt service requirements, execution of our strategy and other purposes and other disadvantages compared to our competitors who have less debt. [S59]
 
 ## Financial performance
 
@@ -611,6 +657,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1528:
+
+> The Sponsor has agreed to (i) waive its redemption rights with respect to its private placement shares in connection with the completion of an initial Business Combination, (ii) waive its redemption rights with respect to its private placement shares in connection with a shareholder vote to approve an amendment to the amended and restated memorandum and articles of association (A) to modify the substance or timing of the obligation to allow redemption in connection with the initial Business Combination or to redeem 100% of the public shares if the Company fails to complete the initial Business Combination within 18 months from the closing of the Initial Public Offering (or up to 24 months from the closing of the Initial Public Offering if the Company extends the period of time to consummate an initial Business Combination by the full amount of time, as described in more detail below) or such earlier liquidation date as the Company’s board of directors may approve or (B) with respect to any other provision relating to shareholders’ rights or pre-initial Business Combination activity and (iii) waive its rights to liquidating distributions from the Trust Account with respect to its private placement shares if the Company fails to complete the initial Business Combination within the prescribed timeframe. In addition, the Sponsor has agreed to vote any private placement shares held … [S58]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -623,6 +673,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L1588:
+
+> Financial instruments that potentially subject the Company to concentration of credit risk consist of a cash account in a financial institution which, at times may exceed the Federal depository insurance coverage of $250,000. The Company has not experienced losses on this account and management believes the Company is not exposed to significant risks on such account. [S58]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -632,25 +686,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -714,6 +768,10 @@ Latest 50 filing metadata records of 64 retained records. A filing link is evide
 | 2025-09-25 | CORRESP | 0001829126-25-007651 | — | [S54] |
 | 2025-09-17 | CORRESP | 0001829126-25-007454 | — | [S55] |
 | 2025-09-16 | UPLOAD | 0000000000-25-010044 | — | [S56] |
+
+Source excerpt — 10-Q, filed 2026-08-14, L2368:
+
+> The Company evaluated subsequent events and transactions that occurred after the unaudited condensed balance sheet date up to August 14, 2026, the date that the unaudited condensed financial statements were available to be issued. Based upon this review, the Company did not identify any other subsequent events that would have required adjustment or disclosure in the unaudited condensed financial statements. [S58]
 
 ## Sources and change log
 
@@ -828,5 +886,11 @@ Latest 50 filing metadata records of 64 retained records. A filing link is evide
 [S55] [CORRESP 0001829126-25-007454](https://www.sec.gov/Archives/edgar/data/2043630/000182912625007454/0001829126-25-007454-index.html) — published 2025-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S56] [UPLOAD 0000000000-25-010044](https://www.sec.gov/Archives/edgar/data/2043630/000000000025010044/0000000000-25-010044-index.html) — published 2025-09-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S57] [8-K 0001437749-26-030772](https://www.sec.gov/Archives/edgar/data/2043630/000143774926030772/apac20260921_8k.htm) — published 2026-09-21; retrieved 2026-11-12T20:39:53.389795+00:00.
+
+[S58] [10-Q 0001437749-26-027919](https://www.sec.gov/Archives/edgar/data/2043630/000143774926027919/apac20260630c_10q.htm) — published 2026-08-14; retrieved 2026-11-12T20:39:52.024324+00:00.
+
+[S59] [10-K 0001829126-26-002474](https://www.sec.gov/Archives/edgar/data/2043630/000182912626002474/stonebridgeacq2_10k.htm) — published 2026-03-18; retrieved 2026-11-12T20:39:50.437361+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

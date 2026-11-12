@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -465,6 +465,42 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/784199/000162828026054746/aort-20260630.htm
+  title: 10-Q 0001628280-26-054746
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-12T20:39:03.511339+00:00'
+  sha256: cd42555ad5f4c8c3fb8a1373f0af0e624d89f08a232e63d99c49933ce4987831
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/784199/000162828026054294/aort-20260806.htm
+  title: 8-K 0001628280-26-054294
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-12T20:39:00.731659+00:00'
+  sha256: dca97a25a159faf2d593e502672d0170a4e9fa99c385e0f82eea02c6b5dfc878
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/784199/000199937126007510/artivion-def14a_051226.htm
+  title: DEF 14A 0001999371-26-007510
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-12T20:38:59.337427+00:00'
+  sha256: a9784fef2c36276669d7d114573b6fdf37df008d65d293c5d44a29104873f0fa
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/784199/000162828026009046/aort-20251231.htm
+  title: 10-K 0001628280-26-009046
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-12T20:38:57.832111+00:00'
+  sha256: c77fa276c6d8429da0e7fd4957e78eee1546357f7ae7d2eaa9eded15493423cc
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/784199/000119312518048639/d503121d8ka.htm
+  title: 8-K/A 0001193125-18-048639
+  published_at: '2018-02-16'
+  retrieved_at: '2026-11-12T20:38:56.510524+00:00'
+  sha256: e620efb978d769cbb67b3b7934a04e9db81383033b0a31791370755debcf947c
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/784199/000078419917000078/c199-20170810x8ka.htm
+  title: 8-K/A 0000784199-17-000078
+  published_at: '2017-08-10'
+  retrieved_at: '2026-11-12T20:38:55.137627+00:00'
+  sha256: 8f4adbdb8b1001162c0e9d23c2bb06665efe55aa3de0cb0a563652a8752419ae
 issuer_classification:
   cik: 0000784199
   classification_status: reported_sic
@@ -510,13 +546,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/784199/000078419917000078/0000784199-17-000078-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 13445fbd9d961f5774a589c090befed65d666bbb7be737fc1cbbd11a705bc1aa
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -540,17 +587,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L812:
+
+> •The potential impact of general global, regional, or national economic downturns and macroeconomic trends, including heightened inflation, interest rate, currency fluctuations, and proposed and enacted tariffs, as well as general or localized economic slowdowns or recessions may have on demand for and sales of our products and services, including ordering trends for international distributors based on currency fluctuations against the US dollar, and our business operations, manufacturing operations, supply chain, and workforce; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L766:
+
+> We have two reportable segments organized according to our products and services: Medical Devices and Preservation Services. The Medical Devices segment includes external revenues from product sales of aortic stent grafts, On-X®, surgical sealants, and other product revenues. Aortic stent grafts include aortic arch stent grafts, abdominal stent grafts, and synthetic vascular grafts. Aortic arch stent grafts include our E-vita® Open NEO, E-vita Open Plus, Arcevo LSA, AMDSTM, the NEXUS ONETM, NEXUS DUOTM, and NEXUS TRETM aortic arch stent graft systems (the “NEXUS family of products”), and E-vita Thoracic 3G. Abdominal stent grafts include our E-xtra Design Engineering, E-nsideTM, ArtivexTM, E-tegraTM, E-ventusTM BX, TuvaTM BX, and E-liacTM products. Surgical sealants include BioGlue® Surgical Adhesive products. The Preservation Services segment includes external services revenues from the preservation of cardiac and vascular tissues. There are no intersegment revenues. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L489:
+
+> On May 18, 2026 (the “Acquisition Date”), we acquired 100% of the outstanding securities of Endospan Ltd. (“Endospan”) from its securityholders (the “Endospan Acquisition”). The Endospan Acquisition was completed through the exercise of our purchase option pursuant to the Securities Purchase Option Agreement, dated September 11, 2019, as amended on July 1, 2024 and January 9, 2026 (the “Agreement”). Endospan designs, develops, manufactures, and commercializes the NEXUS™ family of aortic arch stent graft systems. The Endospan Acquisition expands our aortic arch product portfolio and provides us with ownership of the NEXUS platform and related product-development pipeline. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L817:
+
+> •Our beliefs about the future regulatory status of our medical devices and processed tissues, our compliance with applicable laws and regulations, and our ability to make timely transitions to our Notified Bodies and obtain renewals for our Conformité Européenne Mark (“CE Mark”) product certification impacted by the transition to the Medical Device Regulation in Europe, and the impact these transitions, renewals, and related processes may have on our business, including any impact on our customers’ ordering patterns and our ability to supply products; [S67]
 
 ## Industry and value chain
 
@@ -558,17 +621,33 @@ SEC-reported SIC **3841**: Surgical & Medical Instruments & Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L811:
+
+> •The potential impact that public health crises and geopolitical conflicts may have on demand for and sales of our products and services, business operations, manufacturing operations, supply chain, cash flow, workforce, clinical and regulatory timelines, and our research and development projects; [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-07, L840:
+
+> •Other statements regarding projections of future financial and business performance; anticipated growth and trends in our business and the markets relevant to our business, including how our growth relates to our competitors; the robustness and reliability of our workforce and supply chain; future production capacity and product supply; the availability and benefits of our products in the future; and the expected timing and impact of our strategic initiatives. [S67]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L613:
+
+> The definite lived intangible assets balance includes balances related to acquired technology, customer relationships, distribution and manufacturing rights and know-how, patents, and other definite lived intangible assets. The major intangible asset classes consist of the following (in thousands, except weighted average useful life): [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1171:
+
+> •Meet demand and manage inventory for aortic stent grafts as we seek to expand our business globally; and [S67]
 
 ## Financial performance
 
@@ -1195,6 +1274,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L652:
+
+> Our effective income tax rate was (15)% and (6)% for the three and six months ended June 30, 2026, respectively, as compared to 61% and 29% for the three and six months ended June 30, 2025, respectively. Our income tax rate in each period varied from the US statutory rate of 21% predominately due to state income taxes, non-deductible executive compensation, changes in our valuation allowance for current period losses and changes in estimates of our expected recovery of net deferred tax assets, excess tax deductions on stock-based compensation, and foreign withholding taxes. The year-over-year changes to the effective income tax rate were largely attributable to the shift from pre-tax book income in each respective period in 2025 to pre-tax book losses in each respective period in 2026. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1207,6 +1290,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L841:
+
+> These and other forward-looking statements reflect the views of management at the time and such statements are originally made based on certain assumptions and analyses made by us in light of our experience and our perception of historical trends, current conditions, and expected future developments as well as other factors we believe are appropriate in the circumstances and are subject to a number of risks, uncertainties, estimates, and assumptions. Whether actual results and developments will conform with our expectations and predictions is subject to a number of risks and uncertainties which could cause actual results to differ materially and adversely from our expectations, including, without limitation, in addition to those specified in the text surrounding such statements, the risks described in Part II, Item 1A, “Risk Factors” in this Form 10-Q and elsewhere throughout this report, the risks described in our other filings with the Securities and Exchange Commission including the risks described in Part I, Item 1A, “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2025 and elsewhere throughout that report, and other risks which we may not be able to identify in advance, many of which are beyond our control. Consequently, all of the forward-looking statements made in this Form 10-Q are qualified by these cautionary statements, and there can … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1216,25 +1303,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1298,6 +1385,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-03 | 144 | 0001959173-26-001850 | — | [S64] |
 | 2026-03-03 | 144 | 0001959173-26-001846 | — | [S65] |
 | 2026-03-03 | 144 | 0001959173-26-001845 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-07, L1198:
+
+> As an example of these risks, in 2019 we lost our supply of handpieces for cardiac laser therapy resulting from a manufacturing location change at our supplier that ultimately required a Premarket Approval (“PMA”) supplement and FDA approval before handpiece manufacturing and distribution could resume. Even though the FDA approved the PMA-S, due to supply-related factors outside of our control, we eventually abandoned the business as of June 2023 resulting in a write-off of all of our CardioGenesis cardiac laser therapy assets and a recorded expense of $0.4 million during the year ended December 31, 2023 in our Consolidated Statements of Operations and Comprehensive Loss. [S67]
 
 ## Sources and change log
 
@@ -1432,5 +1523,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [144 0001959173-26-001846](https://www.sec.gov/Archives/edgar/data/784199/000195917326001846/0001959173-26-001846-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [144 0001959173-26-001845](https://www.sec.gov/Archives/edgar/data/784199/000195917326001845/0001959173-26-001845-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [10-Q 0001628280-26-054746](https://www.sec.gov/Archives/edgar/data/784199/000162828026054746/aort-20260630.htm) — published 2026-08-07; retrieved 2026-11-12T20:39:03.511339+00:00.
+
+[S68] [8-K 0001628280-26-054294](https://www.sec.gov/Archives/edgar/data/784199/000162828026054294/aort-20260806.htm) — published 2026-08-06; retrieved 2026-11-12T20:39:00.731659+00:00.
+
+[S69] [DEF 14A 0001999371-26-007510](https://www.sec.gov/Archives/edgar/data/784199/000199937126007510/artivion-def14a_051226.htm) — published 2026-04-01; retrieved 2026-11-12T20:38:59.337427+00:00.
+
+[S70] [10-K 0001628280-26-009046](https://www.sec.gov/Archives/edgar/data/784199/000162828026009046/aort-20251231.htm) — published 2026-02-18; retrieved 2026-11-12T20:38:57.832111+00:00.
+
+[S71] [8-K/A 0001193125-18-048639](https://www.sec.gov/Archives/edgar/data/784199/000119312518048639/d503121d8ka.htm) — published 2018-02-16; retrieved 2026-11-12T20:38:56.510524+00:00.
+
+[S72] [8-K/A 0000784199-17-000078](https://www.sec.gov/Archives/edgar/data/784199/000078419917000078/c199-20170810x8ka.htm) — published 2017-08-10; retrieved 2026-11-12T20:38:55.137627+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

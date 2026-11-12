@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -467,6 +467,42 @@ sources:
   published_at: '2026-04-29'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465926114035/tm2627036d1_8k.htm
+  title: 8-K 0001104659-26-114035
+  published_at: '2026-10-06'
+  retrieved_at: '2026-11-12T20:41:02.035604+00:00'
+  sha256: 0ab7ae41130f787b3307c55c2162a703bfa0ebde7fc4111b8689a44ba633c90b
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465926089194/aph-20260630x10q.htm
+  title: 10-Q 0001104659-26-089194
+  published_at: '2026-07-31'
+  retrieved_at: '2026-11-12T20:41:00.553230+00:00'
+  sha256: 8346518b9ef8f72b10ac422f70eb7ed6bf6c4ac8dde67ad78b57a97f9e8cf751
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465926040688/tm261344-1_def14a.htm
+  title: DEF 14A 0001104659-26-040688
+  published_at: '2026-04-08'
+  retrieved_at: '2026-11-12T20:40:59.033440+00:00'
+  sha256: 0488d7967540c4bb83bd95a8d46b7c407f2f1e76e80151766e36cd14853a2673
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465926036173/aph-20260109x8ka.htm
+  title: 8-K/A 0001104659-26-036173
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-12T20:40:57.578276+00:00'
+  sha256: 0eb3306ef3c817966e62ca17b67499249aeee14e5bc2274a11494cd2de3113b2
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm
+  title: 10-K 0001104659-26-013549
+  published_at: '2026-02-11'
+  retrieved_at: '2026-11-12T20:40:56.067720+00:00'
+  sha256: 8fc4308b29ea551e847a1a1705dc411255025c7fb19a9bcc4b3f6716113c3a57
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/820313/000110465922062882/tm2216061d1_8ka.htm
+  title: 8-K/A 0001104659-22-062882
+  published_at: '2022-05-19'
+  retrieved_at: '2026-11-12T20:40:54.556005+00:00'
+  sha256: 2e984077e6cc67225658d483379acbaf277acabd603ae9f842628fe018b8f7bd
 issuer_classification:
   cik: 0000820313
   classification_status: reported_sic
@@ -512,13 +548,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/820313/000110465922062882/0001104659-22-062882-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 018560e7f5e7ee01a8bf0dece42f145b0aaa6216e55b64cc92866a29877ea8af
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -542,17 +589,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-31, L13928:
+
+> A further description of these uncertainties and other risks can be found in the 2025 Annual Report, Quarterly Reports on Form 10-Q and the Company’s other reports filed with the Securities and Exchange Commission. These or other uncertainties not identified in these documents (that we either currently do not expect to have an adverse effect on our business or that we are unable to predict or identify at this time) may cause the Company’s actual future results to be materially different from those expressed in any forward-looking statements. Our forward-looking statements may also be impacted by, among other things, future tax, regulatory and other legal changes that may arise in any of the jurisdictions in which we operate. The Company undertakes no obligation to update or revise any forward-looking statements except as required by law. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-11, L727:
+
+> The Company’s strategy is to provide our customers with comprehensive design capabilities, a broad selection of products and a high level of quality and service on a worldwide basis, while maintaining continuing programs of productivity improvement and cost control. The Company aligns its businesses into three reportable business segments: (i) Communications Solutions, (ii) Harsh Environment Solutions and (iii) Interconnect and Sensor Systems. This alignment and segment structure reinforces the Company’s entrepreneurial culture and enables clear accountability of each of our business unit general managers, while enhancing the scalability of Amphenol’s business for the future. The Company has three segment managers who lead their respective reportable business segments, each reporting directly to the Company’s Chief Executive Officer. All segment information throughout this Annual Report is presented under our three reportable segments. [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-31, L12544:
+
+> While the Company typically offers standard product warranty coverage that provides assurance that our products will conform to the contractually agreed-upon specifications for a limited period from the date of shipment, the Company’s warranty liabilities as of June 30, 2026 and December 31, 2025, and related warranty expense for the three and six months ended June 30, 2026 and 2025, have not been and were not material in the accompanying Condensed Consolidated Financial Statements. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-31, L11040:
+
+> ●Communications Solutions – the Communications Solutions segment designs, manufactures and markets a broad range of connector and interconnect systems, including high speed, radio frequency, power, fiber optic and other interconnect products; coaxial, fiber optic and high-speed cable; antennas; and other products for use in the information technology and data communications, mobile devices, industrial, communications networks, automotive, commercial aerospace and defense end markets. [S68]
 
 ## Industry and value chain
 
@@ -560,17 +623,33 @@ SEC-reported SIC **3678**: Electronic Connectors. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-08, L1576:
+
+> At Amphenol, we are committed to creating innovative products that enable our customers to improve the lives of people around the world, supporting the well-being of our employees and communities and sustaining the health of our planet. We believe that making sustainable business choices, building strong relationships with our stakeholders and engaging in good corporate governance create long-term value for our Company. We have always believed that it is not just good stewardship, but good business, to focus on the long-term sustainability of Amphenol, whether through reducing our and our partners’ environmental footprint, following humane labor practices, supporting the development of our global team, ensuring the strength and integrity of our supply chain or giving back to our communities. To that end, we publish a sustainability report on an annual basis (the “Sustainability Report”) to highlight our progress and success in sustainability matters most significant to our business. Our most recent Sustainability Report is available on our website at https://amphenol.com/sustainability. For the avoidance of doubt, neither our Sustainability Report nor other materials available on our website are incorporated into this proxy statement by reference. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-08, L7557:
+
+> In conjunction with accepting each stock option award, all option award recipients, including each of the named executive officers, becomes party to a stock option agreement with the Company which contemplates, among other things, that a terminated employee may be paid, at the Company’s discretion, fifty percent of base salary in the form of salary continuation following his/her termination for up to two years, in exchange for a firm undertaking from the terminated employee not to compete with the business of the Company. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-08, L1568:
+
+> As the revolution in electronics continues to accelerate, new innovations creating exciting growth opportunities for Amphenol across each of our diversified end markets have emerged, and Amphenol has continued to expand our range of high-technology interconnect products, both through our organic innovation efforts as well as through our successful acquisition program. Amphenol’s unique culture of entrepreneurship, along with our expanded technology position, has strengthened our competitive advantage. Our team leveraged that competitive advantage throughout 2025 and created sustained financial strength, which established an excellent base for Amphenol’s future performance. We believe in the ability of our outstanding entrepreneurial management team to dynamically adjust to changing market conditions, capitalize on the wide array of growth opportunities that arise in all market cycles and generate sustainable long-term value for our shareholders and other stakeholders. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-08, L1568:
+
+> As the revolution in electronics continues to accelerate, new innovations creating exciting growth opportunities for Amphenol across each of our diversified end markets have emerged, and Amphenol has continued to expand our range of high-technology interconnect products, both through our organic innovation efforts as well as through our successful acquisition program. Amphenol’s unique culture of entrepreneurship, along with our expanded technology position, has strengthened our competitive advantage. Our team leveraged that competitive advantage throughout 2025 and created sustained financial strength, which established an excellent base for Amphenol’s future performance. We believe in the ability of our outstanding entrepreneurial management team to dynamically adjust to changing market conditions, capitalize on the wide array of growth opportunities that arise in all market cycles and generate sustainable long-term value for our shareholders and other stakeholders. [S69]
 
 ## Financial performance
 
@@ -1200,6 +1279,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-31, L4301:
+
+> Amounts available under the Commercial Paper Programs may be borrowed, repaid and re-borrowed from time to time. In conjunction with the Revolving Credit Facility, as of June 30, 2026, the authorization from our Board of Directors (the “Board”) limits the maximum aggregate principal amount outstanding of USCP Notes, ECP Notes, and any other commercial paper or similar programs, along with outstanding amounts under the Revolving Credit Facility, at any time to $3,000.0 in the aggregate. The Commercial Paper Programs are rated A-2 by Standard & Poor’s and P-2 by Moody’s and, based on the Board’s authorization described above, are currently backstopped by the Revolving Credit Facility, as amounts undrawn under the Revolving Credit Facility are available to repay Commercial Paper, if necessary. Net proceeds of the issuances of Commercial Paper are expected to be used for general corporate purposes. Any outstanding Commercial Paper is classified as long-term debt in the accompanying Condensed Consolidated Balance Sheets since the Company has the intent and ability to refinance the Commercial Paper on a long-term basis using the Company’s Revolving Credit Facility. The carrying value of Commercial Paper approximates its fair value, primarily due to its market interest rates, and is classified as Level 2 in the fair value hierarchy (Note 5). [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1212,6 +1295,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-31, L13878:
+
+> The Company is party to a number of legal and/or regulatory actions arising out of the normal course of its business. The Company records a loss contingency liability when, in the opinion of management after seeking legal advice, a loss is considered probable and the amount can be reasonably estimated. Based on information currently available and management’s evaluation of such information, the Company does not believe that the resolution of any existing legal or regulatory action is expected to have a material adverse effect on the Company’s financial condition, results of operations or cash flows. The Company’s legal costs associated with defending itself are recorded to expense as incurred. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1221,25 +1308,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1302,6 +1389,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-01 | 144 | 0001950047-26-003901 | — | [S64] |
 | 2026-05-01 | 10-Q | 0001104659-26-054128 | — | [S65] |
 | 2026-04-29 | SCHEDULE 13G | 0002100119-26-000108 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-07-31, L10372:
+
+> During the year ended December 31, 2025, the Company completed five acquisitions (collectively, the “2025 Acquisitions”), including (i) the acquisition of the Outdoor Wireless Networks segment and Distributed Antenna Systems business (collectively, “Andrew”) from Vistance and (ii) the acquisition of Trexon, for approximately $3,818.6, net of cash acquired. The Andrew acquisition is included in the Communications Solutions segment, three acquisitions, including Trexon, are included in the Harsh Environment Solutions segment, and one acquisition is included in the Interconnect and Sensor Systems segment. The 2025 Acquisitions were each funded using cash on hand, proceeds from senior notes, borrowings under the U.S. Commercial Paper Program, or a combination thereof. [S68]
 
 ## Sources and change log
 
@@ -1436,5 +1527,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [10-Q 0001104659-26-054128](https://www.sec.gov/Archives/edgar/data/820313/000110465926054128/0001104659-26-054128-index.html) — published 2026-05-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [SCHEDULE 13G 0002100119-26-000108](https://www.sec.gov/Archives/edgar/data/820313/000210011926000108/0002100119-26-000108-index.html) — published 2026-04-29; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-114035](https://www.sec.gov/Archives/edgar/data/820313/000110465926114035/tm2627036d1_8k.htm) — published 2026-10-06; retrieved 2026-11-12T20:41:02.035604+00:00.
+
+[S68] [10-Q 0001104659-26-089194](https://www.sec.gov/Archives/edgar/data/820313/000110465926089194/aph-20260630x10q.htm) — published 2026-07-31; retrieved 2026-11-12T20:41:00.553230+00:00.
+
+[S69] [DEF 14A 0001104659-26-040688](https://www.sec.gov/Archives/edgar/data/820313/000110465926040688/tm261344-1_def14a.htm) — published 2026-04-08; retrieved 2026-11-12T20:40:59.033440+00:00.
+
+[S70] [8-K/A 0001104659-26-036173](https://www.sec.gov/Archives/edgar/data/820313/000110465926036173/aph-20260109x8ka.htm) — published 2026-03-27; retrieved 2026-11-12T20:40:57.578276+00:00.
+
+[S71] [10-K 0001104659-26-013549](https://www.sec.gov/Archives/edgar/data/820313/000110465926013549/aph-20251231x10k.htm) — published 2026-02-11; retrieved 2026-11-12T20:40:56.067720+00:00.
+
+[S72] [8-K/A 0001104659-22-062882](https://www.sec.gov/Archives/edgar/data/820313/000110465922062882/tm2216061d1_8ka.htm) — published 2022-05-19; retrieved 2026-11-12T20:40:54.556005+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

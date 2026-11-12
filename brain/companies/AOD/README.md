@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -416,11 +416,11 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1379400/000110465926100910/0001104659-26-100910-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 1d22ec19a80063d624b6010909ad8447d9bdbc5fc15759394a4d3c6de3e680fd
-  last_attempt_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-13T20:35:06.924881+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 0
@@ -510,7 +510,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.

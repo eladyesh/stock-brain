@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: ce343a6d2661d5e53e8ca52f8b7b829df31d97c0
+source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -480,6 +480,36 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1796209/000162828026050806/apg-20260730.htm
+  title: 8-K 0001628280-26-050806
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-12T20:40:51.272566+00:00'
+  sha256: c016474ba5f11d9eeb513a29bcf24593ab068b714a63f225cb1f2ce8bea377e8
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1796209/000162828026051007/apg-20260630.htm
+  title: 10-Q 0001628280-26-051007
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-12T20:40:52.760979+00:00'
+  sha256: d5cd41982cb206e39bca3b78c60f3ecc5fc3538e519bc1df537c4fe902e55eec
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1796209/000162828026023528/apg-20260331.htm
+  title: DEF 14A 0001628280-26-023528
+  published_at: '2026-04-03'
+  retrieved_at: '2026-11-12T20:40:49.913782+00:00'
+  sha256: 01b4b4a2d645a99865e713507157be737dcb02d4513ef5597bc5eb9db2922b42
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1796209/000162828026011620/apg-20251231.htm
+  title: 10-K 0001628280-26-011620
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-12T20:40:48.479921+00:00'
+  sha256: e65a65a0817e5445624f3cf7ea32ef13fba01a88e47f4f6b9f50a88a8efc7b4e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1796209/000119312522143752/d352414d8ka.htm
+  title: 8-K/A 0001193125-22-143752
+  published_at: '2022-05-06'
+  retrieved_at: '2026-11-12T20:40:46.907689+00:00'
+  sha256: d38660329ed256953594f4a2d39dd1fca82030dd6781adbb1177be537503ff27
 issuer_classification:
   cik: 0001796209
   classification_status: reported_sic
@@ -521,13 +551,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1796209/000119312522143752/0001193125-22-143752-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e85594a0dc33dee2fefb5a28c439751e6602d26294e6e0aa67f186334f2161c8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-12T20:35:06.924881+00:00'
+  last_success_at: '2026-11-12T20:35:06.924881+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -551,17 +592,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1265:
+
+> •our beliefs regarding the future demand for our services, the seasonal and cyclical volatility of our business, financial condition, results of operations, and cash flows; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L582:
+
+> The following table provides disclosure of goodwill by segment as of June 30, 2026 and December 31, 2025. The changes in the carrying amount of goodwill by reportable segment for the six months ended June 30, 2026 are as follows: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1265:
+
+> •our beliefs regarding the future demand for our services, the seasonal and cyclical volatility of our business, financial condition, results of operations, and cash flows; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-30, L1019:
+
+> The Safety Services segment focuses on fire and life safety solutions, electronic security systems, and elevators and escalators, including the design, installation, inspection, service, and monitoring of these systems. The work performed within this segment spans across a diverse mix of end markets with a focus on high tech services, advanced manufacturing, healthcare, fulfillment and distribution centers, and critical infrastructure. [S68]
 
 ## Industry and value chain
 
@@ -569,17 +626,33 @@ SEC-reported SIC **7340**: Services-To Dwellings & Other Buildings. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L1339:
+
+> We closely monitor the effects of general changes in economic and market conditions on our customers. General economic and market conditions can positively or negatively affect demand for our customers’ products and services, which can impact their planned capital and maintenance budgets in certain end markets. Market, regulatory, and industry factors could affect demand for our services. Availability of transportation and transmission capacity and fluctuations in market prices for energy and other fuel sources can also affect demand for our services for pipeline and power generation construction services. These fluctuations, as well as the highly competitive nature of our industries, have resulted, and may continue to result, in lower proposals and lower profit on the services we provide. Increased volatility in the global economy, and the increased tariffs on imported goods by the United States, Canada, and other countries, may also impact the financial results of some of our businesses. These tariffs have a direct impact on the cost of certain materials utilized in the services we provide and will increase the overall cost of projects which could lower project activity and impact the demand for our services. In the face of increased cost pressure on key materials or other market developments, we strive to maintain our profit margins through productivity improvements, cost … [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-30, L1339:
+
+> We closely monitor the effects of general changes in economic and market conditions on our customers. General economic and market conditions can positively or negatively affect demand for our customers’ products and services, which can impact their planned capital and maintenance budgets in certain end markets. Market, regulatory, and industry factors could affect demand for our services. Availability of transportation and transmission capacity and fluctuations in market prices for energy and other fuel sources can also affect demand for our services for pipeline and power generation construction services. These fluctuations, as well as the highly competitive nature of our industries, have resulted, and may continue to result, in lower proposals and lower profit on the services we provide. Increased volatility in the global economy, and the increased tariffs on imported goods by the United States, Canada, and other countries, may also impact the financial results of some of our businesses. These tariffs have a direct impact on the cost of certain materials utilized in the services we provide and will increase the overall cost of projects which could lower project activity and impact the demand for our services. In the face of increased cost pressure on key materials or other market developments, we strive to maintain our profit margins through productivity improvements, cost … [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-25, L337:
+
+> Our business activities are subject to national, regional, state, and local laws and regulations in each country in which we conduct business. These laws and regulations involve matters including compliance with codes or regulations governing our services, licensing and certification requirements, environmental and substance control, workplace safety, privacy, data use, data security and protection of personal information, data storage and retention, biometrics, intellectual property, advertising, marketing, distribution, electronic contracts and other communications, competition, taxation, economic or other trade prohibitions or sanctions, anti-corruption and political law compliance, securities law compliance, and financial services. In some cases, laws and regulations outside of the U.S. impose different obligations or are more restrictive than those in the U.S. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L1663:
+
+> Our exposure to fluctuations in foreign currency exchange rates has increased as a result of our international presence and may continue to increase in the future as we continue to expand our operations outside of the U.S. We seek to manage foreign currency exposure by minimizing our consolidated net assets and liability positions in currencies other than the functional currency of our foreign subsidiaries. However, we believe that our exposure to transactional gains or losses resulting from fluctuations in foreign currencies is limited because our foreign operations primarily invoice and collect receivables in their respective local or functional currencies, and the expenses associated with these transactions are generally contracted and paid for in the same local currencies. In order to manage foreign currency risk related to transactions in foreign currencies and the intercompany financing structure, we entered into cross-currency swaps to manage the foreign currency risk of certain intercompany loans. We also use foreign currency forward contracts as a way to mitigate foreign currency exposure. [S68]
 
 ## Financial performance
 
@@ -1209,6 +1282,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L961:
+
+> Most of the Company’s employees in the U.S. and Canada, including named executive officers, are eligible to participate in the Company’s Employee Stock Purchase Plan (the “ESPP”). Sales of shares of the Company’s common stock under the ESPP are generally made pursuant to offerings that are intended to satisfy the requirements of Section 423 of the Internal Revenue Code. The ESPP permits employees of the Company to purchase common stock at a price equal to 85% of the lesser of (i) the market value of the common stock on the first day of the offering period, or (ii) the market value of the common stock on the purchase date, whichever is lower. Participants are subject to eligibility requirements and may not purchase more than 500 shares in any offering period or more than ten thousand dollars of common stock in a year under the ESPP. The Company recognized $3 and $2 of expense during the three months ended June 30, 2026 and 2025, respectively, and $5 and $4 of expense during the six months ended June 30, 2026 and 2025, respectively. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1221,6 +1298,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L966:
+
+> The Company is involved in various litigation matters and is subject to claims from time to time from customers and various government entities. While it is not feasible to determine the outcome of any of these uncertainties, it is the opinion of management that their outcomes will not have a material adverse effect on the financial position, results of operations, or cash flows of the Company. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1230,25 +1311,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1311,6 +1392,10 @@ Latest 50 filing metadata records of 539 retained records. A filing link is evid
 | 2026-02-26 | 4 | 0001628280-26-012374 | — | [S64] |
 | 2026-02-26 | 4 | 0001628280-26-012373 | — | [S65] |
 | 2026-02-26 | 4 | 0001628280-26-012372 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-07-30, L431:
+
+> During the year ended December 31, 2025, the Company completed 14 acquisitions for total net consideration transferred of $225, made up of cash paid at closing of $186, cash deposited into escrow of $17, and accrued consideration of $22. The results of operations of these acquisitions are included in the Company's consolidated statements of operations from their respective dates of acquisition and were not material. [S68]
 
 ## Sources and change log
 
@@ -1445,5 +1530,15 @@ Latest 50 filing metadata records of 539 retained records. A filing link is evid
 [S65] [4 0001628280-26-012373](https://www.sec.gov/Archives/edgar/data/1796209/000162828026012373/0001628280-26-012373-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001628280-26-012372](https://www.sec.gov/Archives/edgar/data/1796209/000162828026012372/0001628280-26-012372-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001628280-26-050806](https://www.sec.gov/Archives/edgar/data/1796209/000162828026050806/apg-20260730.htm) — published 2026-07-30; retrieved 2026-11-12T20:40:51.272566+00:00.
+
+[S68] [10-Q 0001628280-26-051007](https://www.sec.gov/Archives/edgar/data/1796209/000162828026051007/apg-20260630.htm) — published 2026-07-30; retrieved 2026-11-12T20:40:52.760979+00:00.
+
+[S69] [DEF 14A 0001628280-26-023528](https://www.sec.gov/Archives/edgar/data/1796209/000162828026023528/apg-20260331.htm) — published 2026-04-03; retrieved 2026-11-12T20:40:49.913782+00:00.
+
+[S70] [10-K 0001628280-26-011620](https://www.sec.gov/Archives/edgar/data/1796209/000162828026011620/apg-20251231.htm) — published 2026-02-25; retrieved 2026-11-12T20:40:48.479921+00:00.
+
+[S71] [8-K/A 0001193125-22-143752](https://www.sec.gov/Archives/edgar/data/1796209/000119312522143752/d352414d8ka.htm) — published 2022-05-06; retrieved 2026-11-12T20:40:46.907689+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
