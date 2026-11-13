@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -106,6 +106,18 @@ sources:
   published_at: '2026-09-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1944885/000119312526345197/d133013d6k.htm
+  title: 6-K 0001193125-26-345197
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-13T20:13:17.310461+00:00'
+  sha256: 9995f132101d8f35067fc77da74e9dcd43f029468b5de5aa250e3bf95c458e10
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1944885/000119312526177357/aplm-20251231.htm
+  title: 20-F 0001193125-26-177357
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-13T20:13:15.401161+00:00'
+  sha256: 2072465b627e5210020d75cdb19503ee6f8016dc9a8ed03494e3cf194f4fbe6d
 issuer_classification:
   cik: 0001944885
   classification_status: reported_sic
@@ -133,13 +145,23 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1944885/000119312526345197/0001193125-26-345197-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 25e80ff54464f00658e39876f60379812e364e82b9a2547e716ea2448a061b98
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -154,15 +176,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001944885.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLM/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLM/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APLM — Apollomics Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLM/README.md)
 
 ## Business overview
 
@@ -176,13 +198,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-24, L797:
+
+> Except where the context otherwise requires or where otherwise indicated in this annual report (this “Annual Report”), the terms “Apollomics,” the “Company,” “we,” “us,” “our,” “our company” and “our business” refer to Apollomics Inc., together with its consolidated subsidiaries as a consolidated entity. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 20-F, filed 2026-04-24, L4449:
+
+> We may seek to raise any necessary additional capital through a combination of public or private equity offerings, debt financings, collaborations, strategic alliances, licensing arrangements and other marketing and distribution arrangements. There can be no assurance that we will be successful in acquiring additional funding at levels sufficient to fund our operations or on terms favorable to us. If we are unable to obtain adequate financing when needed, we may have to delay, reduce the scope of or suspend one or more of our preclinical studies and clinical trials, R&D programs or commercialization efforts. Because of the numerous risks and uncertainties associated with the development and commercialization of our product candidates and the extent to which we may enter into additional collaborations with third parties to participate in their development and commercialization, we are unable to estimate the amounts of increased capital outlays and operating expenditures associated with our current and anticipated preclinical studies and clinical trials. To the extent that we raise additional capital through additional collaborations, strategic alliances, or licensing arrangements with third parties, we may have to relinquish valuable rights to our product candidates, future revenue streams, research programs or product candidates or to grant licenses on terms that may not be … [S54]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 20-F, filed 2026-04-24, L816:
+
+> Our ability to obtain regulatory approval for our products, and any related restrictions or limitations of any approved products; [S54]
 
 ## Customers and end markets
 
@@ -194,19 +228,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-24, L1214:
+
+> From time to time, we may be involved in claims, disputes and legal proceedings in our ordinary course of business. These may concern issues relating to, among others, product liability, employment or labor disputes, breach of contract, infringement, misappropriation, violation or ownership of intellectual property rights and environmental matters. Any claims, disputes or legal proceedings initiated by us or brought against us, with or without merit, may result in substantial costs and diversion of resources, and could materially harm our reputation. Furthermore, claims, disputes or legal proceedings against us may be due to defective supplies sold to us by our suppliers, who may not be able to indemnify us in a timely manner, or at all, for any costs that we incur as a result of such claims, disputes and legal proceedings. For example, as further described in Item 8.A. under “Financial Information—Legal and Arbitration Proceedings,” we recently entered into a definitive settlement agreement regarding a Writ and Statement of Claim issued in the Grand Court of the Cayman Islands by two minority investors (the TWVC Entities), which requires us to pay a total of $5.0 million in settlement installments plus approximately $0.9 million in legal fees over 24 months, materially impacting our cash flow. Additionally, we are currently engaged in active litigation with Medpace, Inc., a … [S54]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2026-04-24, L989:
+
+> We may either develop internal sales, marketing and commercial distribution capabilities for any or all of our product candidates or pursue collaboration or partnership arrangements regarding the sales and marketing of our product candidates. However, there can be no assurance that we will be able to establish or maintain such collaboration or partnership arrangements, or if we are able to do so, that they will have effective sales forces. If we pursue our own sales, marketing and distribution capabilities, we will have to compete with other pharmaceutical and biopharmaceutical companies to recruit, hire, train and retain marketing and sales personnel. In addition, if we commercialize our product candidates, if approved, via such collaboration or partnership arrangements, revenue we receive from the sale of our products will depend upon the efforts of such third parties. We may have little or no control over the marketing and sales efforts of such third parties, and our revenue from product sales may be lower than if we had commercialized our product candidates ourselves. We also face competition in our search for third parties to assist us with the sales and marketing efforts for our product candidates. [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-24, L820:
+
+> Our ability to obtain licensing of third-party intellectual property rights for future discovery and development of Apollomics’ oncology projects; [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-24, L806:
+
+> This Annual Report includes forward-looking statements, principally in the sections entitled Item 3.D. “Key Information—Risk Factors,” Item 4. “Information on the Company,” and Item 5. “Operating and Financial Review and Prospects.” In some cases, these forward-looking statements can be identified by words or phrases such as “may,” “might,” “will,” “could,” “would,” “should,” “expect,” “plan,” “anticipate,” “intend,” “seek,” “believe,” “estimate,” “predict,” “potential,” “continue,” “contemplate,” “possible” or similar words. Statements regarding our future results of operations and financial position, growth strategy and plans and objectives of management for future operations, including, among others, expansion in new and existing markets, are forward-looking statements. [S54]
 
 ## Financial performance
 
@@ -220,6 +270,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 6-K, filed 2026-08-12, L39:
+
+> Agreements”) with certain accredited investors, including certain executive officers and directors of the Company (or their affiliates) (collectively, the “Investors”), for a private placement (the “Private Placement”) [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -231,6 +285,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-24, L800:
+
+> Unless otherwise indicated, information contained in this Annual Report concerning Apollomics’ industry and the regions in which it operates, including Apollomics’ general expectations and market position, market opportunity, market share and other management estimates, is based on information obtained from various independent publicly available sources and reports provided to us. Apollomics has not independently verified the accuracy or completeness of any third-party information. Similarly, internal surveys, industry forecasts and market research, which Apollomics believes to be reliable based upon its management’s knowledge of the industry, have not been independently verified. While Apollomics believes that the market data, industry forecasts and similar information included in this Annual Report are generally reliable, such information is inherently imprecise. In addition, assumptions and estimates of Apollomics’ future performance and growth objectives and the future performance of its industry and the markets in which it operates are necessarily subject to a high degree of uncertainty and risk due to a variety of factors, including those discussed under the headings “Cautionary Statement Regarding Forward-Looking Statements”, Item 3.D. “Key Information—Risk Factors” and Item 5. “Operating and Financial Review and Prospects” in this Annual Report. [S54]
 
 ## Scenarios and open questions
 
@@ -244,25 +302,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -298,6 +356,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [4 0001193125-26-394805](https://www.sec.gov/Archives/edgar/data/1944885/000119312526394805/0001193125-26-394805-index.html) — published 2026-09-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLM/README.md).
+[S53] [6-K 0001193125-26-345197](https://www.sec.gov/Archives/edgar/data/1944885/000119312526345197/d133013d6k.htm) — published 2026-08-12; retrieved 2026-11-13T20:13:17.310461+00:00.
+
+[S54] [20-F 0001193125-26-177357](https://www.sec.gov/Archives/edgar/data/1944885/000119312526177357/aplm-20251231.htm) — published 2026-04-24; retrieved 2026-11-13T20:13:15.401161+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

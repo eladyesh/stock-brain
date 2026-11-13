@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -136,6 +136,24 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/6845/000000684526000103/apog-20260829.htm
+  title: 10-Q 0000006845-26-000103
+  published_at: '2026-10-06'
+  retrieved_at: '2026-11-13T20:14:05.139249+00:00'
+  sha256: 8b4becbee18b42cef5475c3f87f7738aad6e7272e1d1e3832dafdf06e62aa2dd
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/6845/000000684526000036/apog-20260512.htm
+  title: DEF 14A 0000006845-26-000036
+  published_at: '2026-05-12'
+  retrieved_at: '2026-11-13T20:14:01.981356+00:00'
+  sha256: 6bc87eb16c49490fa77a97d05766b79f03b249d82d4c490b5ccfde8c55bf14c9
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/6845/000000684526000023/apog-20260228.htm
+  title: 10-K 0000006845-26-000023
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-13T20:14:00.278095+00:00'
+  sha256: b5d3d6c3b7c5a5ca6b3bd18d24f03f99b579746c3ed6b0cdf37f2c108ae64005
 issuer_classification:
   cik: 0000006845
   classification_status: reported_sic
@@ -205,13 +223,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/6845/000119312517062755/0001193125-17-062755-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3e3ab7167517e8c4c78edfd895dd8b5f93803de7c1c40be239f88b8d6fd43cf4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -226,15 +255,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000006845.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APOG/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APOG/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APOG — APOGEE ENTERPRISES, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APOG/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APOG/README.md)
 
 ## Business overview
 
@@ -248,17 +277,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-06, L430:
+
+> The time period between when performance obligations are complete and payment is due is not significant. In certain parts of our business that recognize revenue over time, progress billings follow an agreed-upon schedule of values. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-06, L653:
+
+> We have four operating segments which are also reportable segments. Each of our four segments has distinct economic characteristics, including products and services provided, production processes and varying ranges in performance and results: [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-10-06, L580:
+
+> The Company is a party to various legal proceedings incidental to its normal operating activities. In particular, like others in the construction supply and services industry, the Company is routinely involved in various disputes and claims arising out of construction projects, sometimes involving significant monetary damages or product replacement. We have in the past and are currently subject to product liability and warranty claims, including certain legal claims related to a commercial sealant product formerly incorporated into our products. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-10-06, L429:
+
+> Contract assets consist of retainage, costs and earnings in excess of billings and other unbilled amounts typically generated when revenue recognized exceeds the amount billed to the customer. Retainage on construction contracts represents amounts withheld by our customers on long-term projects until the project reaches a level of completion where amounts are released to us from the customer. Contract liabilities consist of billings in excess of costs and earnings and other deferred revenue on contracts. [S69]
 
 ## Industry and value chain
 
@@ -266,19 +311,35 @@ SEC-reported SIC **3231**: Glass Products, Made of  Purchased Glass. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-04-24, L273:
+
+> •Customers and distribution channels - Our customers are mainly glazing subcontractors and general contractors, with project design being influenced by architects and building owners. Our windows, curtainwall, storefront and entrance systems are sold using a combination of direct sales forces, independent sales representatives, and distributors. Our installation services are sold by a direct sales force in certain metropolitan areas in the U.S. and Canada. Our high-performance architectural glass is sold using both a direct sales force and independent sales representatives. [S71]
+
 Navigation sector: **materials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-04-24, L288:
+
+> In our Architectural Glass Segment, we compete with regional glass fabricators and international competitors who can provide certain products with attributes similar to ours. We differentiate by providing a wider range of high-quality products, including several proprietary offerings, that we can bundle together into customized solutions. We work to maintain strong relationships with architects, developers, and other industry stakeholders, and provide strong customer service and reliable delivery. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-04-24, L296:
+
+> We have several patents, trademarks, trade names, trade secrets and proprietary technologies and customer relationships that we believe constitute valuable assets, but we do not regard our business as being materially dependent on any single item or category of intellectual property. We take measures to protect our intellectual property to the extent such intellectual property can be protected. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-05-12, L1378:
+
+> Our Strategy. Throughout fiscal 2026, we executed the strategy introduced in November 2021, which strengthened our organization through the implementation of the Apogee Management System, drove improvements to our cost structure and manufacturing footprint, and increased leverage of administrative functions across the enterprise. This strategy also contributed to meaningful safety improvements and a more focused product and service portfolio, leading to margin and profitability improvement. Building on this foundation, we are refining our strategic framework to further enhance execution and position Apogee as a more growth-oriented organization with an increased focus on delivering customer value. [S70]
 
 ## Financial performance
 
@@ -406,6 +467,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-06, L595:
+
+> During fiscal 2004, the Board of Directors authorized a share repurchase program allowing us to repurchase shares of our outstanding common stock, with subsequent increases in authorization. During the six months ended August 29, 2026, we repurchased 428,220 shares under the program, for a total of $16.1 million. No shares were repurchased during the six months ended August 30, 2025. We have repurchased a total of 12,880,009 shares, at a total cost of $469.3 million, since the inception of this program in fiscal 2004. We have remaining authority to repurchase 1,369,991 shares under this program, which has no expiration date. We may elect to repurchase additional shares of common stock under our authorization, subject to limitations contained in our debt agreements and based upon our assessment of a number of factors, including share price, trading volume and general market conditions, working capital requirements, general business conditions, financial conditions, any applicable contractual limitations, and other factors, including alternative investment opportunities. We may finance share repurchases with available cash, additional debt or other sources of financing. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -418,6 +483,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-06, L581:
+
+> The Company is also subject to litigation arising out of areas such as employment practices, workers compensation and general liability matters. Although it is very difficult to accurately predict the outcome of any such proceedings, facts currently available indicate that no matters will result in losses that would have a material adverse effect on the results of operations, cash flows or financial condition of the Company. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -427,25 +496,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -487,6 +556,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001799209-26-000010](https://www.sec.gov/Archives/edgar/data/6845/000179920926000010/0001799209-26-000010-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APOG/README.md).
+[S69] [10-Q 0000006845-26-000103](https://www.sec.gov/Archives/edgar/data/6845/000000684526000103/apog-20260829.htm) — published 2026-10-06; retrieved 2026-11-13T20:14:05.139249+00:00.
+
+[S70] [DEF 14A 0000006845-26-000036](https://www.sec.gov/Archives/edgar/data/6845/000000684526000036/apog-20260512.htm) — published 2026-05-12; retrieved 2026-11-13T20:14:01.981356+00:00.
+
+[S71] [10-K 0000006845-26-000023](https://www.sec.gov/Archives/edgar/data/6845/000000684526000023/apog-20260228.htm) — published 2026-04-24; retrieved 2026-11-13T20:14:00.278095+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APOG/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

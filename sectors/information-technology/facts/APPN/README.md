@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -143,6 +143,24 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1441683/000144168326000053/appn-20260630.htm
+  title: 10-Q 0001441683-26-000053
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-13T20:14:50.244253+00:00'
+  sha256: 117ee890ac73045bc7f07176a9d70f81d4ff41a60da832b3a016f011f0255a0e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1441683/000144168326000021/appn-20260421.htm
+  title: DEF 14A 0001441683-26-000021
+  published_at: '2026-04-22'
+  retrieved_at: '2026-11-13T20:14:46.819130+00:00'
+  sha256: 8868bef26d8fe62182161fb3b0b57598ad5f9dec36caf42781d41fbd828c3350
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1441683/000144168326000013/appn-20251231.htm
+  title: 10-K 0001441683-26-000013
+  published_at: '2026-02-19'
+  retrieved_at: '2026-11-13T20:14:45.189675+00:00'
+  sha256: 9810740382ad62d6e02f557f683162bc6d302bfd63b49fd658bb71ab3c77f4b3
 issuer_classification:
   cik: 0001441683
   classification_status: reported_sic
@@ -184,13 +202,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1441683/000144168318000021/0001441683-18-000021-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c150222c9b50a06097d3c3c66410454fcd5327b9aa90d0c7e54341a909aa6ffb
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -205,15 +234,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001441683.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APPN/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APPN/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APPN — APPIAN CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APPN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APPN/README.md)
 
 ## Business overview
 
@@ -227,17 +256,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L398:
+
+> Appian Corporation (together with its subsidiaries, “Appian,” the “Company,” “we,” or “our”) provides process automation technology. For over 25 years, our highly reliable and scalable platform has been leveraged by large enterprises and governments. Combining leading edge process orchestration and intelligence, we provide everything an organization needs to design, automate, and optimize critical processes, facilitating continuous adaptation in changing environments. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L720:
+
+> We have one operating and one reportable segment, representing our consolidated business that helps organizations design, automate, and optimize important business processes from start to finish. We generate revenue from customers primarily through the sale of cloud and other subscriptions bundled with maintenance and support as well as professional services revenue from fees for our consulting services and training related to our platform. Our reportable segment determination is based on our management and internal reporting structure, the nature of the subscriptions and services we offer, and the financial information evaluated regularly by our CODM. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L820:
+
+> •Investments in Growth - We have made, and plan to continue to make, investments for long-term growth, including investing in our platform and infrastructure to continuously maximize their power and speed, meet the evolving needs of our customers, and take advantage of our market opportunity. In addition, we may pursue strategic acquisitions that enhance our product offerings. We also intend to continue to invest in sales and marketing as we further expand our sales teams, increase our marketing activities, and grow our international operations. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L411:
+
+> Our financial instruments exposed to concentration of credit and customer risk consist primarily of cash, cash equivalents, accounts receivable, and short-term investments and marketable securities. Deposits held with banks may exceed the amount of insurance provided on such deposits; however, we believe the financial institutions holding our cash deposits are financially sound and, accordingly, minimal credit risk exists with respect to these balances. With regard to our customers, credit evaluation and account monitoring procedures are used to minimize the risk of loss. [S68]
 
 ## Industry and value chain
 
@@ -245,19 +290,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-19, L358:
+
+> including through unauthorized and/or malicious activity by one of our employees, could result in the loss of information, litigation, regulatory investigations, penalties, indemnity obligations and other costs, expenses, and liabilities, which could exceed our existing insurance coverage and could result in a substantial financial loss. While we have security measures in place designed to protect customer information and prevent data loss and other security breaches, there can be no assurance these measures will be completely effective in protecting against malicious unauthorized access to our platform or our customers’ information. Similarly, if cyber incidents such as phishing attacks, viruses, denial of service attacks, supply chain attacks, malware installation, ransomware attacks, server malfunction, software or hardware failures, loss of data or other computer assets, adware, or other similar issues impair the integrity or availability of our systems by affecting our data or reducing access to or shutting down one or more of our computing systems or our IT network, we may be subject to negative treatment by our customers, our business partners, the press, and the public at large. Further, even though we have security measures in place that are tested and verified by third parties, because the techniques used to obtain unauthorized access or sabotage systems change … [S70]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-22, L841:
+
+> Messrs. Calkins, Kramer, and Zamudio-Ramirez have, and Mr. Lynch had, entered into the standard employment agreement all of our employees agree to when commencing employment with the Company. The terms of the standard employment agreement state the employee is an “at-will” employee and include provisions regarding non-competition, confidential information, and intellectual property. There are no provisions for additional payments upon termination or a change-of-control of the Company. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1375:
+
+> Under the Credit Agreement, the Company may elect whether amounts drawn bear interest on the outstanding principal amount at a rate per annum equal to either (a) the higher of the Prime rate or the Federal Funds Effective rate plus 0.5% (“Base Rate”), or (b) the forward-looking term rate based on the secured overnight financing rate (“Term SOFR”), plus a margin. The additional interest rate margin ranges from 0.25% to 1% in the case of Base Rate advances and from 1.25% to 2% in the case of Term SOFR advances, depending on the Company’s Consolidated Total Net Leverage Ratio (as defined in the Credit Agreement). The Company’s obligations are secured on a senior lien basis by a security interest, in all of the Company’s right, title, and interest in, to and under substantially all of its assets, including its intellectual property, subject to limited exceptions, including permitted liens. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L817:
+
+> •Market Adoption of Our Platform - Our ability to grow our customer base and drive market adoption of our platform is affected by the pace at which organizations automate processes. We expect our revenue growth will be primarily driven by the pace of adoption and penetration of our platform. We offer a leading process automation platform and intend to continue to invest to expand our customer base. The degree to which prospective customers recognize the need for our software platform and its ability to enable their organizations to automate processes, and subsequently allocate budget dollars to purchase our software, will drive our ability to acquire new customers and increase sales to existing customers, which, in turn, will affect our future financial performance. [S68]
 
 ## Financial performance
 
@@ -379,6 +440,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L660:
+
+> In June 2022, our Board of Directors granted to our Chief Executive Officer (“CEO”) a stock option award that is eligible to vest based on the achievement of various stock price appreciation targets. This option grant (the “2022 CEO option grant”) is our only outstanding stock-based award that vests based on the achievement of market conditions. For awards with market-based conditions, compensation expense is measured using a Monte Carlo simulation, and expense is recognized using the accelerated attribution method over the derived service period based on the expected market performance as of the grant date. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +456,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L632:
+
+> In addition, the Credit Agreement contains other customary representations, warranties, and covenants, including covenants by us limiting additional indebtedness, guarantees, liens, fundamental changes, mergers and consolidations, dispositions of assets, investments, paying dividends on capital stock or redeeming, repurchasing, or retiring capital stock, prepaying certain junior indebtedness and preferred stock, certain corporate changes, and transactions with affiliates. The Credit Agreement also provides for customary events of default, including but not limited to, non-payment, breaches, or defaults in the performance of covenants, insolvency, bankruptcy, and the occurrence of a material adverse effect on us. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +469,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -462,6 +531,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001958161-26-000013](https://www.sec.gov/Archives/edgar/data/1441683/000195816126000013/0001958161-26-000013-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APPN/README.md).
+[S68] [10-Q 0001441683-26-000053](https://www.sec.gov/Archives/edgar/data/1441683/000144168326000053/appn-20260630.htm) — published 2026-08-06; retrieved 2026-11-13T20:14:50.244253+00:00.
+
+[S69] [DEF 14A 0001441683-26-000021](https://www.sec.gov/Archives/edgar/data/1441683/000144168326000021/appn-20260421.htm) — published 2026-04-22; retrieved 2026-11-13T20:14:46.819130+00:00.
+
+[S70] [10-K 0001441683-26-000013](https://www.sec.gov/Archives/edgar/data/1441683/000144168326000013/appn-20251231.htm) — published 2026-02-19; retrieved 2026-11-13T20:14:45.189675+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APPN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

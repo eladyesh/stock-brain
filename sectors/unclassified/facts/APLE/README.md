@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -141,6 +141,24 @@ sources:
   published_at: '2026-09-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1418121/000119312526335151/aple-20260630.htm
+  title: 10-Q 0001193125-26-335151
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-13T20:13:11.348739+00:00'
+  sha256: 7fb03c8da35081d9cdef12223c538847111644b08375c7b14af912cceb4d50f2
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1418121/000119312526140145/aple-20260331.htm
+  title: DEF 14A 0001193125-26-140145
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-13T20:13:09.405020+00:00'
+  sha256: f44093a55ef3db39dbaf737e96f8f8363f35704e582dcbb15940221a8f2dfeee
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1418121/000119312526064008/aple-20251231.htm
+  title: 10-K 0001193125-26-064008
+  published_at: '2026-02-23'
+  retrieved_at: '2026-11-13T20:13:07.126977+00:00'
+  sha256: f63d3623d15366b1b0297ad9d208dcc9b569cc72e06d8acf51fedb16e784a1c3
 issuer_classification:
   cik: 0001418121
   classification_status: reported_sic
@@ -194,13 +212,21 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1418121/000118518516005806/0001185185-16-005806-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7cb56cdc66dca180245d7432ce6f44aecabac399b79c2355270aef682968ff4e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -212,15 +238,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLE/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLE/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APLE — Apple Hospitality REIT, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLE/README.md)
 
 ## Business overview
 
@@ -238,6 +264,10 @@ Not available: a reviewed explanation of the business, products, customers and c
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-05, L3178:
+
+> Apple Hospitality REIT, Inc., formed in November 2007 as a Virginia corporation, together with its wholly-owned subsidiaries (the “Company”), is a self-advised real estate investment trust (“REIT”) that invests in income-producing real estate, primarily in the lodging sector, in the United States (“U.S.”). The Company’s fiscal year end is December 31. The Company has no foreign operations or assets, and its operating structure includes only one reportable segment. The consolidated financial statements include the accounts of the Company and its subsidiaries. All intercompany accounts and transactions have been eliminated. Although the Company has interests in potential variable interest entities through its purchase commitments, it is not the primary beneficiary as the Company does not have any elements of power in the decision-making process of these entities; therefore, the Company does not consolidate the entities. As of June 30, 2026, the Company owned 216 hotels with an aggregate of 29,459 guest rooms located in 37 states and the District of Columbia (“D.C.”). The Company’s common shares are listed on the New York Stock Exchange (“NYSE”) under the ticker symbol “APLE.” [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
@@ -252,19 +282,35 @@ SEC-reported SIC **6798**: Real Estate Investment Trusts. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L13430:
+
+> Management routinely monitors the condition and operations of its hotels and plans renovations and other improvements as it deems prudent. The Company is committed to maintaining and enhancing each property’s competitive position in its market. The Company has invested in and plans to continue to reinvest in its hotels. Under certain loan agreements, the Company is required to place in escrow funds for the repair, replacement and refurbishment of furniture, fixtures, and equipment at the applicable hotels, based on a percentage of the hotel’s gross revenues, to be used for capital expenditures with respect to those hotels. As of June 30, 2026, the Company held approximately $5.3 million in reserves related to these properties. During the six months ended June 30, 2026, the Company invested approximately $39.8 million in capital expenditures. The Company anticipates spending approximately $85 million to $95 million during 2026, which includes various comprehensive renovation projects for approximately 18 properties. The increase of $5.0 million from the Company’s previous estimate and the change in the number of comprehensive renovation projects are primarily a result of prioritizing two larger projects: the renovation of its Embassy Suites in Anchorage, Alaska and the rebranding of the Residence Inn in Seattle, Washington. The Company’s expectations reflect its ongoing … [S68]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-23, L915:
+
+> Competition in the markets where the Company owns hotels may adversely affect the Company’s results of operations. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-23, L353:
+
+> The Company has generally acquired fee simple ownership of its properties, with a focus on hotels that have or have the potential to have diverse demand generators, strong brand recognition, high levels of customer satisfaction and strong operating margins. Due to their efficient operating model and strong consumer preference, the Company concentrates on the acquisition of rooms-focused hotels. The Company’s acquisitions have been in broadly diversified markets across the U.S. to limit dependence on any one geographic area or demand generator. With an emphasis on upscale rooms-focused hotels, the Company utilizes its asset management experience and expertise to improve the quality and performance of its hotels by working with its property managers to aggressively manage revenue and expenses by benchmarking with internal and external data, using the Company’s scale to help negotiate favorable vendor contracts, engaging industry leaders in hotel management, and franchising the hotels with leading brands and actively participating with the franchisors to strengthen the brands. To maintain its competitive advantage in each market, the Company continually reinvests in its hotels. With its depth of ownership in many upscale and upper midscale rooms-focused brands and extensive experience with the Hilton and Marriott rooms-focused brands, the Company has been able to enhance its … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L81:
+
+> We remain steadfast in our commitment to maximizing long-term value for our shareholders through strong operational performance, disciplined capital allocation, strategic growth and leading corporate governance. On behalf of our Board of Directors and our corporate team, thank you for your investment in Apple Hospitality REIT. As we look ahead to our future, we are confident that through our strategy, intentionally designed to mitigate risks of investing in the lodging industry and maximize operating results through all market conditions, we are well positioned for continued outperformance. [S69]
 
 ## Financial performance
 
@@ -383,6 +429,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L5385:
+
+> In May 2026, the Company’s Board of Directors approved a one-year extension of its existing share repurchase program, authorizing share repurchases up to an aggregate of $242.5 million (the “Share Repurchase Program”). The Share Repurchase Program may be suspended or terminated at any time by the Company and will end in July 2027 if not terminated or extended earlier. The Company previously entered into, and expects to continue to enter into, written trading plans as part of the Share Repurchase Program that provide for share repurchases in open market transactions that are intended to comply with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended (the “Exchange Act”). The Company did not repurchase any common shares under the Share Repurchase Program during the three and six months ended June 30, 2026. During the three months ended June 30, 2025, the Company purchased, under its Share Repurchase Program, approximately 1.4 million of its common shares at a weighted-average market purchase price of approximately $11.78 per common share for an aggregate purchase price, including commissions, of approximately $16.9 million, bringing the total share repurchases for the six months ended June 30, 2025, to approximately 3.4 million common shares at a weighted-average market purchase price of approximately $12.83 per common share for an aggregate purchase price, … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -395,6 +445,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L6189:
+
+> Such factors include, but are not limited to, the ability of the Company to effectively acquire and dispose of properties and redeploy proceeds; the anticipated timing and frequency of shareholder distributions; the ability of the Company to fund capital obligations; the ability of the Company to successfully integrate pending transactions and implement its operating strategy; changes in general political, economic and competitive conditions and specific market conditions (including the potential effects of tariffs, inflation or a recessionary environment); reduced business and leisure travel due to geopolitical uncertainty, including terrorism and acts of war; travel-related health concerns, including widespread outbreaks of infectious or contagious diseases in the U.S.; inclement weather conditions, including natural disasters such as hurricanes, earthquakes and wildfires; government shutdowns, airline strikes or equipment failures, or other disruptions; adverse changes in the real estate and real estate capital markets; financing risks; changes in interest rates; litigation risks; regulatory proceedings or inquiries; and changes in laws or regulations or interpretations of current laws and regulations that impact the Company’s business, assets or classification as a real estate investment trust (“REIT”). Although the Company believes that the assumptions underlying the … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -404,25 +458,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -466,6 +520,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001193125-26-380272](https://www.sec.gov/Archives/edgar/data/1418121/000119312526380272/0001193125-26-380272-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APLE/README.md).
+[S68] [10-Q 0001193125-26-335151](https://www.sec.gov/Archives/edgar/data/1418121/000119312526335151/aple-20260630.htm) — published 2026-08-05; retrieved 2026-11-13T20:13:11.348739+00:00.
+
+[S69] [DEF 14A 0001193125-26-140145](https://www.sec.gov/Archives/edgar/data/1418121/000119312526140145/aple-20260331.htm) — published 2026-04-02; retrieved 2026-11-13T20:13:09.405020+00:00.
+
+[S70] [10-K 0001193125-26-064008](https://www.sec.gov/Archives/edgar/data/1418121/000119312526064008/aple-20251231.htm) — published 2026-02-23; retrieved 2026-11-13T20:13:07.126977+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APLE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

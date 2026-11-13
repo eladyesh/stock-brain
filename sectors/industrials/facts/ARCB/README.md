@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -130,6 +130,18 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/894405/000110465926088612/arcb-20260630x10q.htm
+  title: 10-Q 0001104659-26-088612
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-13T20:19:14.833431+00:00'
+  sha256: 163cb4ee17410e9477c921d359909c2473181dcd670d69c31f8a0a205a42e9c9
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/894405/000110465926027357/tmb-20260424xdef14a.htm
+  title: DEF 14A 0001104659-26-027357
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-13T20:19:11.389788+00:00'
+  sha256: 6d0b4aa0d635e11198233aea6639691131407276912b1b2e78c29fc5bb3d2953
 issuer_classification:
   cik: 0000894405
   classification_status: reported_sic
@@ -187,13 +199,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/894405/000110465917058560/0001104659-17-058560-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 2a23c7d12b33479ab1b012da4aa30d8d7ab83cf798527463d205ffb2290c4b39
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -208,15 +231,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000894405.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCB/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCB/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARCB — ARCBEST CORP /TX/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCB/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCB/README.md)
 
 ## Business overview
 
@@ -230,17 +253,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L13329:
+
+> production and manufacturing and consumer spending could negatively impact demand for our services and have an adverse effect on our results of operations, financial condition, and cash flows. Changes in fuel prices can significantly affect our operating expenses, and while we strive to offset these costs through fuel surcharges and pricing strategies, sustained increases may still impact our margins and overall financial performance. There can be no assurance that we will be able to secure adequate prices from new or existing customers to maintain or improve our operating results. Significant declines in our business levels or other changes in cash flow assumptions or other factors that negatively impact the fair value of the operations of our reporting units could result in impairment and a resulting noncash write-off of a significant portion of the goodwill and intangible assets of our Asset-Light segment, which would have an adverse effect on our financial condition and operating results. During second quarter 2026, we recorded an asset impairment charge related to our indefinite-lived Panther trade name within the Asset-Light reporting unit. See Notes B and C to our consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for further discussion of the impairment valuation. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L8667:
+
+> The Company’s other business activities and operations that are not reportable segments include ArcBest Corporation (the parent holding company) and certain subsidiaries. Certain costs incurred by the parent holding company and the Company’s shared services subsidiary are allocated to the reporting segments. The Company eliminates intercompany transactions in consolidation. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-30, L13329:
+
+> production and manufacturing and consumer spending could negatively impact demand for our services and have an adverse effect on our results of operations, financial condition, and cash flows. Changes in fuel prices can significantly affect our operating expenses, and while we strive to offset these costs through fuel surcharges and pricing strategies, sustained increases may still impact our margins and overall financial performance. There can be no assurance that we will be able to secure adequate prices from new or existing customers to maintain or improve our operating results. Significant declines in our business levels or other changes in cash flow assumptions or other factors that negatively impact the fair value of the operations of our reporting units could result in impairment and a resulting noncash write-off of a significant portion of the goodwill and intangible assets of our Asset-Light segment, which would have an adverse effect on our financial condition and operating results. During second quarter 2026, we recorded an asset impairment charge related to our indefinite-lived Panther trade name within the Asset-Light reporting unit. See Notes B and C to our consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for further discussion of the impairment valuation. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-30, L11745:
+
+> The Asset-Based segment consists of ABF Freight, one of North America’s largest less-than-truckload (“LTL”) carriers and a wholly owned subsidiary of the Company, and certain other subsidiaries. Our customers have relied on ABF Freight’s LTL solutions for over a century, trusting our unwavering commitment to quality, safety, and customer service to solve their transportation challenges, including through market disruptions and rapidly changing economic conditions. We are strategically investing in our Asset-Based operations to leverage technology that enhances efficiency and productivity, along with capital investments to renovate and modernize our service centers to strengthen our network infrastructure and support our operations. [S68]
 
 ## Industry and value chain
 
@@ -248,19 +287,35 @@ SEC-reported SIC **4213**: Trucking (No Local). [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5218:
+
+> ArcBest Corporation™ (the “Company”) is a multibillion-dollar integrated logistics company that leverages technology and a full suite of shipping and logistics solutions across multiple modes of transportation to meet customers’ supply chain needs. The Company, which started over a century ago as a local freight hauler, serves as a single end-to-end logistics partner with global reach. The Company’s operations are conducted through its two reportable operating segments: Asset‑Based, which consists of ABF Freight System, Inc. and certain other subsidiaries (“ABF Freight”) and Asset-Light, the Company’s logistics operations. References to the Company in this Quarterly Report on Form 10-Q are primarily to the Company and its subsidiaries on a consolidated basis. [S68]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L5364:
+
+> In addition, the clawback policy allows for the recovery of covered compensation in the event of (i) an overpayment as the result of an error, including errors in determination of performance metric results or in the calculation of an officer’s covered compensation; or (ii) an act of misconduct by the officer. Under the policy, an “act of misconduct” means the officer (i) has committed an act of (a) gross misconduct or fraud in the performance of the officer’s duties to the Company or any Subsidiary, (b) embezzlement, fraud or dishonesty, (c) material theft or misappropriation of Company or subsidiary property, (d) nonpayment of any obligation owed to the Company or any subsidiary, (e) breach of fiduciary duty, or (f) violation of Company ethics policy or Code of Conduct, deliberate disregard of Company or subsidiary policies; (ii) is convicted of or enters into a guilty plea or plea of nolo contendere with regard to any felony or act of moral turpitude; (iii) makes an unauthorized disclosure of any Company or subsidiary trade secret or confidential information; (iv) solicits any employee or service provider to leave the employ or cease providing services to the Company or any subsidiary; (v) breaches any intellectual property or assignment of inventions covenant; (vi) engages in any conduct constituting unfair competition or breaches any non-competition agreement; (vii) … [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-30, L6745:
+
+> \| (1) \| Represents non-cash asset impairment charges of $1.1 million, included as asset impairment charges within “Other and eliminations,” to write off patents utilized in the Vaux Freight Movement System (see Note A). Also includes the write-off of the MoLo trade name, which was fully amortized as of December 31, 2025. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L12611:
+
+> Our Asset-Light segment is a key component of our strategy to provide customers with a single, integrated source of logistics solutions that satisfies increasingly complex supply chain requirements. Through strategic investments in our Asset-Light segment, we continue to enhance service offerings and improve productivity. Across the segment, we are seeking opportunities to expand our revenues by deepening existing customer relationships, securing new customers, and broadening capacity options available to shippers. [S68]
 
 ## Financial performance
 
@@ -388,6 +443,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L8151:
+
+> On July 24, 2026, the Company announced its Board of Directors declared a dividend of $0.12 per share to stockholders of record as of August 7, 2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -400,6 +459,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L10908:
+
+> The Company's commitments and contingencies are described in Note N to the consolidated financial statements in the Company's 2025 Annual Report on Form 10-K. The Company continues to be subject to routine legal matters and contractual obligations incurred in the normal course of business and maintains liability insurance against certain risks arising out of the normal course of its business, subject to certain self-insurance retention limits. Management does not believe that these matters will have a material adverse effect on the Company's financial condition, results of operations, or cash flows. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -409,25 +472,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -469,6 +532,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [SCHEDULE 13G/A 0000052388-26-000207](https://www.sec.gov/Archives/edgar/data/894405/000005238826000207/0000052388-26-000207-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCB/README.md).
+[S68] [10-Q 0001104659-26-088612](https://www.sec.gov/Archives/edgar/data/894405/000110465926088612/arcb-20260630x10q.htm) — published 2026-07-30; retrieved 2026-11-13T20:19:14.833431+00:00.
+
+[S70] [DEF 14A 0001104659-26-027357](https://www.sec.gov/Archives/edgar/data/894405/000110465926027357/tmb-20260424xdef14a.htm) — published 2026-03-13; retrieved 2026-11-13T20:19:11.389788+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCB/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

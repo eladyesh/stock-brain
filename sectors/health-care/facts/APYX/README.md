@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -164,6 +164,18 @@ sources:
   published_at: '2026-03-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/719135/000143774926026346/apyx20260630_10q.htm
+  title: 10-Q 0001437749-26-026346
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-13T20:17:16.951424+00:00'
+  sha256: 8f2da2a893f039c7328625de807026f5ed3a1e1f689ae5ef9fe272cc0d1800d3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/719135/000143774926021840/apyx20260603_def14a.htm
+  title: DEF 14A 0001437749-26-021840
+  published_at: '2026-06-26'
+  retrieved_at: '2026-11-13T20:17:15.346464+00:00'
+  sha256: 3970a9cbb7b1bb297d6d29af56fd53464a5cba721ab88c13c887f887aa80f5bc
 issuer_classification:
   cik: 0000719135
   classification_status: reported_sic
@@ -225,13 +237,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/719135/000114420407023687/0001144204-07-023687-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d5588d88d49d5027640d6ff814c3006b44dc1c58f807cfec98ad5a73f05bac82
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -246,15 +269,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000719135.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APYX/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APYX/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APYX — Apyx Medical Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APYX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APYX/README.md)
 
 ## Business overview
 
@@ -268,17 +291,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1295:
+
+> We operate in two business segments: OEM and Surgical Aesthetics, formerly known as Advanced Energy. The OEM segment is primarily development and manufacturing contracts and product driven. The Surgical Aesthetics segment sells both capital equipment and consumables in the form of a single-use handpiece. Sales of handpiece units are a substantial portion of our business and for the six months ended June 30, 2026 and 2025, we sold approximately 48,000 and 40,000 units, respectively. In the U.S., handpiece revenue accounts for more than 50% of our total Surgical Aesthetics revenue. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1018:
+
+> Operating segments are aggregated into reportable segments only if they exhibit similar economic characteristics. In addition to similar economic characteristics, the Company also considers the following factors in determining the reportable segments: the nature of business activities, the management structure directly accountable to its Chief Operating Decision Maker (“CODM”) for operating and administrative activities, availability of discrete financial information and information presented to the Board of Directors and investors. Charles D. Goodwin, CEO, is the Company's CODM. The CODM uses gross profit to assess segment performance and allocate resources, including employees and capital resources. The Company has included additional financial measures regularly reported to the CODM on a segment basis in the tables below along with a reconciliation between these measures and net income (loss). All other operating expenses are not regularly reported to the CODM on a segment basis. Asset information is not reviewed by the CODM by segment and is not available by segment. Accordingly, the Company has not presented a measure of assets by segment. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1298:
+
+> We believe the increased use of GLP-1s had an initial negative impact on revenue for plastic and cosmetic surgeons and created uncertainty in the aesthetic space. However, we believe, that the use of these drugs will have a ripple effect which will drive people towards plastic surgery and may provide a tailwind for sales of our Renuvion products. Rapid weight loss caused by these drugs can contribute to loose skin. To address this, the cosmetic surgery market focuses on body contouring. Body contouring is a customizable treatment for patients to target specific fat deposits, engage in the transfer of fat, and treatments to address loose or lax skin. Renuvion is the only FDA-approved device for the treatment of this issue post liposuction. Additionally, Renuvion may be used to treat skin laxity without the use of liposuction, potentially increasing the total available market for our products. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L2465:
+
+> We maintain a reserve for uncollectible accounts receivable. When evaluating the adequacy of the allowance for credit losses, we analyze historical bad debt experience, the composition of outstanding receivables by customer class, and the age of outstanding balances, and we make estimates in connection with establishing the allowance for credit losses, including the expected impacts of changes in the operating environment in multiple countries as well as the credit terms being offered to customers, to determine where adjustments to historical experience are warranted. The economic uncertainty in the capital equipment market being experienced in the aesthetic space as a result of the disruption from GLP-1's has resulted in the granting of extended credit terms. Accordingly, we believe that there is additional exposure in our outstanding receivables and have adjusted our accounts receivable allowance for this expectation. Changes in estimates are reflected in the period they are made. If the financial condition of our customers deteriorates, resulting in an inability to make payments, additional allowances may be required. [S69]
 
 ## Industry and value chain
 
@@ -286,19 +325,35 @@ SEC-reported SIC **3841**: Surgical & Medical Instruments & Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1309:
+
+> The consequences of global supply chain instability, inflationary cost increases, potential and actual tariffs, and their adverse impact to the global economy, continue to evolve. Accordingly, the significance of the future impact to our business and financial statements remains subject to significant uncertainty. We continue to work on initiatives to mitigate the effects of inflation, including finding alternative suppliers that meet our quality standards, streamlining our supplier network to reduce the use of middlemen and redesigning some components to achieve better volume purchase prices. Inflation has not, to date, materially impacted our operations or financial performance. However, as these trends continue for raw materials, freight, and labor costs, our future financial performance could be adversely impacted. [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1297:
+
+> The GLP market continues to rapidly evolve from a niche, high priced injectable drug segment to a broad competitive and increasingly accessible metabolic health platform. Recent approvals are expanding indications (beyond diabetes into obesity and cardiovascular risk) are significantly increasing the addressable market, while the emergence of oral versions is lowering barriers to adoption and bringing these therapies into more mainstream, primary care use. At the same time, growing competition and policy pressure are driving prices down, shifting the market from a premium, supply-constrained model to one focused on volume and access. Overall, we believe the landscape is moving toward large-scale, chronic use with wider patient reach, more treatment options, and intensifying competition shaping both innovation and affordability. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1006:
+
+> On July 20, 2026, a patent infringement lawsuit was filed against the Company in the United States District Court for the District of Maryland. The complaint alleges that certain Company products infringe upon certain patents and seeks unspecified monetary damages and injunctive relief. The Company intends to defend itself vigorously against this lawsuit. Due to the early stages of the litigation, the Company cannot reasonably estimate the possible loss or range of loss, if any, that may result from this matter. Accordingly, no loss contingency has been accrued in the accompanying consolidated financial statements. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-06-26, L943:
+
+> Historically, the Compensation Committee has set performance-based cash incentive bonus targets, which are designed to provide an opportunity for our senior executives, including our NEOs, to earn an annual incentive, paid in cash, based on the achievement of certain financial targets and/or strategic priorities. An executive’s incentive target is a percentage of their base salary. In 2025, there was no formal bonus program. The table below discloses the annual incentive targets for each NEO for 2025: [S70]
 
 ## Financial performance
 
@@ -411,6 +466,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L942:
+
+> Under the Company’s stock option plans, the Board of Directors may grant restricted stock and options to purchase common shares to the Company’s employees, officers, directors and consultants. The Company accounts for stock options in accordance with FASB ASC Topic 718, Compensation - Stock Compensation, with stock-based compensation expense recognized over the vesting period based on the fair value on the grant date utilizing the Black-Scholes model, which includes a number of estimates that affect the grant date fair value and the amount of expense to recognize. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -423,6 +482,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1002:
+
+> The Company is involved in a number of legal actions relating to the use of its Helium Plasma Platform Technology, which actions are being defended by the Company’s insurance carrier-appointed counsel. The outcomes of these legal actions are not within the Company’s control and may not be known for prolonged periods of time. Management has not yet received from carrier-appointed defense counsel the estimates of the net potential range of losses in all of these cases, as would be required to confirm whether all of the claims in total are adequately covered by the varying levels of aggregate insurance coverage available for each relevant insurance policy period. Notwithstanding the foregoing, in the opinion of management, the Company has meritorious defenses, and such claims are not expected, individually or in the aggregate, to result in a material, adverse effect on its financial condition, results of operations and cash flows. However, in the event that damages exceed the aggregate coverage limits of the Company’s policies or if its insurance carriers disclaim coverage, management believes it is possible that costs associated with these claims could have a material adverse impact on the consolidated financial condition, results of operations and cash flows. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -432,25 +495,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -496,6 +559,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S43] [10-K 0001437749-26-007471](https://www.sec.gov/Archives/edgar/data/719135/000143774926007471/0001437749-26-007471-index.html) — published 2026-03-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APYX/README.md).
+[S69] [10-Q 0001437749-26-026346](https://www.sec.gov/Archives/edgar/data/719135/000143774926026346/apyx20260630_10q.htm) — published 2026-08-06; retrieved 2026-11-13T20:17:16.951424+00:00.
+
+[S70] [DEF 14A 0001437749-26-021840](https://www.sec.gov/Archives/edgar/data/719135/000143774926021840/apyx20260603_def14a.htm) — published 2026-06-26; retrieved 2026-11-13T20:17:15.346464+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APYX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

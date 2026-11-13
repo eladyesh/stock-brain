@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -107,6 +107,12 @@ sources:
   published_at: '2026-05-13'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S34
+  url: https://www.sec.gov/Archives/edgar/data/2083910/000121390026089169/ea0299928-10q_archimedes3.htm
+  title: 10-Q 0001213900-26-089169
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-13T20:19:20.059859+00:00'
+  sha256: 3f6c1e2c6c26c46b21e27e45d31b5711f60d93e7a29a5700999a744d3cde4afb
 issuer_classification:
   cik: 0002083910
   classification_status: reported_sic
@@ -135,13 +141,19 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2083910/000121390026079130/0001213900-26-079130-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3448f648a892c8a18259247c0d4e3078343cee042a5873044cd77be39bd874b4
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -153,15 +165,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCI/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCI/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARCI — Archimedes Tech SPAC Partners III Co.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCI/README.md)
 
 ## Business overview
 
@@ -175,9 +187,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L663:
+
+> The Company is an “emerging growth company,” as defined in Section 2(a) of the Securities Act, as modified by the Jumpstart Our Business Startups Act of 2012 (the “JOBS Act”), and it may take advantage of certain exemptions from various reporting requirements that are applicable to other public companies that are not emerging growth companies including, but not limited to, not being required to comply with the independent registered public accounting firm attestation requirements of Section 404 of the Sarbanes-Oxley Act, reduced disclosure obligations regarding executive compensation in its periodic reports and proxy statements, and exemptions from the requirements of holding a nonbinding advisory vote on executive compensation and shareholder approval of any golden parachute payments not previously approved. [S34]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L818:
+
+> The Company’s CODM has been identified as the Chief Financial Officer, who reviews the operating results for the Company as a whole to make decisions about allocating resources and assessing financial performance. Accordingly, management has determined that the Company only has one reportable segment. [S34]
 
 ## Products and services
 
@@ -192,6 +212,10 @@ Not available: substantive research has not been completed. Describe buyers, use
 SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — 10-Q, filed 2026-08-13, L766:
+
+> The Company’s ability to complete an initial business combination may be adversely affected by various factors, many of which are beyond the Company’s control. The Company’s ability to consummate an initial business combination could be impacted by, among other things, changes in laws or regulations, downturns in the financial markets or in economic conditions, inflation, fluctuations in interest rates, increases in tariffs, supply chain disruptions, declines in consumer confidence and spending, public health considerations, and geopolitical instability, such as the military conflicts in Ukraine and the Middle East. The Company cannot at this time predict the likelihood of one or more of the above events, their duration or magnitude or the extent to which they may negatively impact the Company’s ability to complete an initial business combination. [S34]
 
 Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or unmapped reported industry; company-specific review is required.
 
@@ -267,6 +291,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L642:
+
+> The Company will have until 24 months from the closing of the Initial Public Offering, or until such earlier liquidation date as the Company’s board of directors may approve, or such other time period in which the Company must complete an initial Business Combination pursuant to an amendment to its amended and restated memorandum and articles of association to complete a Business Combination (the “Completion Window”). If the Company has not completed a Business Combination within the Completion Window, the Company will (i) cease all operations except for the purpose of winding up, (ii) as promptly as reasonably possible but not more than ten business days thereafter, redeem the public shares, at a per-share price, payable in cash, equal to the aggregate amount then on deposit in the Trust Account, including interest earned on the funds held in the Trust Account (net of permitted withdrawals and up to $100,000 of interest to pay dissolution expenses), divided by the number of then outstanding public shares, which redemption will completely extinguish public shareholders’ rights as shareholders (including the right to receive further liquidating distributions, if any), and (iii) as promptly as reasonably possible following such redemption, subject to the approval of the Company’s remaining shareholders and the board of directors, liquidate and dissolve, subject, in each case, to … [S34]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -279,6 +307,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L850:
+
+> This Quarterly Report includes “forward-looking statements” for purposes of the federal securities laws. All statements, other than statements of historical fact included in this Form 10-Q including, without limitation, statements in this “Management’s Discussion and Analysis of Financial Condition and Results of Operations” regarding the Company’s financial position, business strategy and the plans and objectives of management for future operations, are forward-looking statements. Words such as “expect,” “believe,” “anticipate,” “intend,” “estimate,” “seek” and variations and similar words and expressions are intended to identify such forward-looking statements. Such forward-looking statements relate to future events or future performance, but reflect management’s current beliefs, based on information currently available. A number of factors could cause actual events, performance or results to differ materially from the events, performance and results discussed in the forward-looking statements. For information identifying important factors that could cause actual results to differ materially from those anticipated in the forward-looking statements, please refer to the Risk Factors section of the Company’s final prospectus for its Initial Public Offering filed with the U.S. Securities and Exchange Commission (the “SEC”). The Company’s filings with the SEC can be accessed on … [S34]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -288,25 +320,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -346,6 +378,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S10] [SCHEDULE 13G 0000919574-26-002910](https://www.sec.gov/Archives/edgar/data/2083910/000091957426002910/0000919574-26-002910-index.html) — published 2026-05-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARCI/README.md).
+[S34] [10-Q 0001213900-26-089169](https://www.sec.gov/Archives/edgar/data/2083910/000121390026089169/ea0299928-10q_archimedes3.htm) — published 2026-08-13; retrieved 2026-11-13T20:19:20.059859+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARCI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

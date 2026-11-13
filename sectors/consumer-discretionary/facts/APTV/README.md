@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -141,6 +141,12 @@ sources:
   published_at: '2026-08-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1521332/000152133226000061/aptv-20260630.htm
+  title: 10-Q 0001521332-26-000061
+  published_at: '2026-08-04'
+  retrieved_at: '2026-11-13T20:15:55.660296+00:00'
+  sha256: ce2607ee4ab6549b42aff55870c7e8436397d3dbfebcd62a8ddb1f280eccbdf7
 issuer_classification:
   cik: '0001521332'
   classification_status: reported_sic
@@ -182,13 +188,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1521332/000152133226000037/0001521332-26-000037-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ac08a50618f68e51d6680941d05dc68136eee0ecd4c6e65e6e233d0049c7a906
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -203,15 +220,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001521332.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APTV/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APTV/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APTV — Aptiv PLC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APTV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APTV/README.md)
 
 ## Business overview
 
@@ -225,17 +242,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1959:
+
+> We are focused on maintaining a low fixed cost structure that provides us flexibility to remain profitable at all points of the traditional vehicle industry production cycle, including during periods of reduced industry volumes. Accordingly, we will continue to adjust our cost structure and optimize our manufacturing footprint in response to changes in the global and regional automotive markets and in order to increase investment in advanced technologies and engineering as conditions permit. As we operate in a cyclical industry that is impacted by movements in the global and regional economies, we continually evaluate opportunities to further refine our cost structure, as evidenced by our ongoing restructuring programs focused on the continued rotation of our manufacturing footprint to best cost locations and on reducing our global overhead costs, as described in Note 7. Restructuring to the consolidated financial statements contained herein. We believe our strong balance sheet coupled with our flexible cost structure will position us to capitalize on improvements in OEM production volumes as economic conditions improve. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-04, L602:
+
+> In the first quarter of 2026, due to the realignment of the business structure within the Intelligent Systems segment, including how management views and manages this business, we reassessed the composition of our reporting units. As a result of the reassessment, our former Wind River reporting unit is now managed as part of our Intelligent Systems reporting unit. Upon realignment of our reporting units, we tested goodwill related to the impacted reporting units immediately before the reassessment. The Company performed a qualitative assessment (step 0) for its former AS&UX Core reporting unit, concluding that sufficient evidence existed to assert qualitatively that it was more likely than not that the estimated fair value remained in excess of its carrying value, and performed a quantitative assessment (step 1) for its former Wind River reporting unit, concluding that its fair value exceeded its carrying value, indicating no goodwill impairment existed. Immediately after the reassessment, the Company performed a quantitative assessment (step 1) for its Intelligent Systems reporting unit, concluding that its fair value exceeded its carrying value, indicating no goodwill impairment existed. The realignment of the Company’s reporting units did not change the composition of our reportable segments. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-04, L611:
+
+> Customer concentrations—We sell our products and services to the major global automotive OEMs in every region of the world. Our ten largest customers accounted for approximately 44% and 41% of our total net sales for the three and six months ended June 30, 2026, respectively, which included approximately 10% and 11%, respectively, to an individual Global OEM. Our ten largest customers accounted for approximately 40% and 40% for the three and six months ended June 30, 2025, respectively, which included approximately 12% and 12%, respectively, to an individual Global OEM. During the three and six months ended June 30, 2026, our Intelligent Systems segment recognized net sales to nine of our ten largest customers and our Engineered Components segment recognized net sales to each of our ten largest customers. During the three and six months ended June 30, 2025, our Intelligent Systems segment recognized net sales to each of our ten largest customers, and our Engineered Components segment recognized net sales to nine of our ten largest customers. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-04, L572:
+
+> Nature of operations—Aptiv is a global industrial technology company delivering advanced solutions across automotive, commercial vehicle, aerospace and defense, telecom and datacom, and other diversified industrial end markets. Our differentiated portfolio enables devices and systems to sense, think, act, and continuously optimize performance. Building on decades of innovation, Aptiv brings global scale and a resilient, localized value chain to customers across the globe. Aptiv operates manufacturing facilities and technical centers utilizing a regional service model that enables the Company to efficiently and effectively serve its global customers from best cost countries. [S68]
 
 ## Industry and value chain
 
@@ -243,19 +276,35 @@ SEC-reported SIC **3714**: Motor Vehicle Parts & Accessories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1963:
+
+> Global supply chain disruptions. Global supply chain disruptions have in the past and could in the future lead to interruptions in our production, which could impact our ability to fully meet the vehicle production demands of OEMs at times due to events which are outside our control. For example, as a result of the rapidly evolving trade policies and tariff actions, the uncertainty in the automotive industry has increased, which could adversely affect our business and financial results. We will continue to actively monitor our global supply chain and will seek to aggressively mitigate and minimize the impact of any future disruptions on our business. [S68]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-04, L1972:
+
+> Evolving technology areas related to the trends of automation, electrification, and digitalization present numerous risks, including high development costs, uncertainty regarding the timing of customer and consumer adoption, increased competition from entrants outside our traditional industries, and evolving regulations, such as the guidance for automated driving systems published by the U.S. Department of Transportation. While we believe we are well-positioned across our markets, the high development cost of various technologies may result in a higher risk of exposure to the success of new or disruptive technologies different than those being developed by us or our partners, and ultimately there can be no assurance that we will be successful in our efforts to develop these technologies. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-04, L598:
+
+> Intangible assets—Intangible assets were $1,875 million and $1,997 million as of June 30, 2026 and December 31, 2025, respectively. The Company amortizes definite-lived intangible assets over their estimated useful lives. The Company has definite-lived intangible assets related to patents and developed technology, customer relationships and trade names. Indefinite-lived in-process research and development intangible assets are not amortized, but are tested for impairment annually, or more frequently when indicators of potential impairment exist, until the completion or abandonment of the associated research and development efforts. Upon completion of the projects, the assets will be amortized over the expected economic life of the asset, which will be determined on that date. Should the project be determined to be abandoned, and if the asset developed has no alternative use, the full value of the asset will be charged to expense. The Company also has intangible assets related to acquired trade names that are classified as indefinite-lived when there are no foreseeable limits on the periods of time over which they are expected to contribute cash flows. These indefinite-lived trade name assets are tested for impairment annually, or more frequently when indicators of potential impairment exist. Costs to renew or extend the term of acquired intangible assets are recognized as … [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-04, L1973:
+
+> Key growth regions. We believe our strong global presence has positioned us to generate strong growth rates over the long-term. We continue to expand our established presence in key growth regions, positioning us to benefit from the expected long-term growth opportunities in these regions. We are capitalizing on our long-standing relationships with the global OEMs and further enhancing our positions with OEMs in key growth regions to continue expanding our worldwide leadership. We believe that our presence in best cost countries positions us to realize incremental margin improvements as the global balance of automotive production shifts towards these key growth regions. In addition, we continue to build upon our extensive geographic reach, enabled by our leadership in the automotive market, to capitalize on opportunities in key growth markets, including aerospace and defense, telecom and datacom, and diversified industries. [S68]
 
 ## Financial performance
 
@@ -365,6 +414,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-04, L987:
+
+> In July 2024, the Board of Directors authorized a share repurchase program of up to $5.0 billion of ordinary shares, which commenced in August 2024 following completion of the Company’s $2.0 billion January 2019 share repurchase program. This share repurchase program provides for share purchases in the open market or in privately negotiated transactions (which may include derivative transactions, including an accelerated share repurchase program (“ASR”)), depending on share price, market conditions and other factors, as determined by the Company. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -377,6 +430,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-04, L601:
+
+> When a quantitative assessment is required, the estimated fair value of the Company’s reporting units is primarily determined using discounted cash flow projections. Forecasts of future cash flows are based on management’s best estimates. The discount rate is determined using a weighted average cost of capital adjusted for risk factors specific to the reporting unit. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -386,25 +443,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -448,6 +505,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001193125-26-344586](https://www.sec.gov/Archives/edgar/data/1521332/000119312526344586/0001193125-26-344586-index.html) — published 2026-08-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/APTV/README.md).
+[S68] [10-Q 0001521332-26-000061](https://www.sec.gov/Archives/edgar/data/1521332/000152133226000061/aptv-20260630.htm) — published 2026-08-04; retrieved 2026-11-13T20:15:55.660296+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/APTV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

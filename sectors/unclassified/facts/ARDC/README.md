@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -117,6 +117,18 @@ sources:
   published_at: '2026-09-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1515324/000110465926039907/tm268984d1_def14a.htm
+  title: DEF 14A 0001104659-26-039907
+  published_at: '2026-04-06'
+  retrieved_at: '2026-11-13T20:19:55.476333+00:00'
+  sha256: 061952f56b2e0d40f7b424ba04674c5c05d76c67c81344cf4f571464ae8d2d41
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1515324/000110465920059594/a20-19264_18k.htm
+  title: 8-K 0001104659-20-059594
+  published_at: '2020-05-11'
+  retrieved_at: '2026-11-13T20:19:53.880143+00:00'
+  sha256: e43ba3dff4348a9297798c963ed8d4a0ea2f0897ab82cf508cd8c6d16d3e725a
 issuer_classification:
   cik: '0001515324'
   classification_status: missing_or_invalid_sic
@@ -148,13 +160,16 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1515324/000110465918059140/0001104659-18-059140-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 93f2fdf56273d702138e68c1bf25012cf6c663665e4c4c714d011606ff48001b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - industry-and-value-chain
+  - management-and-governance
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -166,15 +181,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARDC/README.md
-full_history_commit: bba0a6d83003768658985dd56dce0e9f590a48b8
+full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARDC/README.md
+full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARDC — Ares Dynamic Credit Allocation Fund, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARDC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARDC/README.md)
 
 ## Business overview
 
@@ -204,6 +219,10 @@ Not available: substantive research has not been completed. Describe buyers, use
 
 Not available: substantive research has not been completed. Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 
+Source excerpt — DEF 14A, filed 2026-04-06, L202:
+
+> TCW Transform 500 ETF; TCW Transform Climate ETF; TCW Transform Supply Chain ETF; CION Ares Diversified Credit Fund [S53]
+
 Navigation sector: **unclassified**. Method: `unresolved`. Fund reporting signal requires instrument review before operating-sector classification.
 
 ## Competitive landscape
@@ -230,6 +249,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-06, L55:
+
+> After reviewing the matter carefully, the Board of Directors recommends that you vote FOR the election of each of the nominees. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -241,6 +264,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 8-K, filed 2020-05-11, L75:
+
+> manage and divest investments on behalf of the Fund and pursue the Fund’s investment objectives and strategies. Similar consequences could arise with respect to other infectious diseases. The disruptions associated with the COVID-19 pandemic may lead to a significant economic downturn or recession, increased market volatility, increased market closures, higher default rates and material adverse effects on the values and liquidity of securities or other assets which in turn could materially adversely affect the valuation and performance of the Fund’s investments. In addition, such disruptions could have adverse consequences on the Fund’s liquidity and its ability to meet its obligations. Further, in certain cases, an exchange or market may close or issue trading halts on specific securities or even the entire market, which may result in the Fund being, among other things, unable to buy or sell certain securities or financial instruments or to accurately price its investments. [S54]
 
 ## Scenarios and open questions
 
@@ -254,22 +281,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -308,6 +335,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [N-CSRS 0001104659-26-104671](https://www.sec.gov/Archives/edgar/data/1515324/000110465926104671/0001104659-26-104671-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/bba0a6d83003768658985dd56dce0e9f590a48b8/brain/companies/ARDC/README.md).
+[S53] [DEF 14A 0001104659-26-039907](https://www.sec.gov/Archives/edgar/data/1515324/000110465926039907/tm268984d1_def14a.htm) — published 2026-04-06; retrieved 2026-11-13T20:19:55.476333+00:00.
+
+[S54] [8-K 0001104659-20-059594](https://www.sec.gov/Archives/edgar/data/1515324/000110465920059594/a20-19264_18k.htm) — published 2020-05-11; retrieved 2026-11-13T20:19:53.880143+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARDC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
