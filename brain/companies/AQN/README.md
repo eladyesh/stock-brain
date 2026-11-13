@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -382,6 +382,36 @@ sources:
   published_at: '2025-01-31'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1174169/000117416926000038/a6-kcondorfilingcover.htm
+  title: 6-K 0001174169-26-000038
+  published_at: '2026-08-28'
+  retrieved_at: '2026-11-13T20:17:44.509378+00:00'
+  sha256: 4a0386bf2f3cf626825a98a09c1c1c3aa62297042ab0eecc9152faec040ee497
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1174169/000117416926000015/aqunf-20251231_d2.htm
+  title: 40-F 0001174169-26-000015
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-13T20:17:43.017260+00:00'
+  sha256: 6391b25495b33d875b41714797fa2add8152f2076ce4428903e8f1f51a78b876
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1174169/000117416923000023/aqunf-20221231.htm
+  title: 40-F/A 0001174169-23-000023
+  published_at: '2023-03-21'
+  retrieved_at: '2026-11-13T20:17:41.549346+00:00'
+  sha256: 28794dd6e257486a7f69e19ef688dbe1eb23d9e93ec0f6534d812d0437843ccf
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1174169/000117416923000002/a6-kcoverinvestorupdatecal.htm
+  title: 6-K/A 0001174169-23-000002
+  published_at: '2023-01-03'
+  retrieved_at: '2026-11-13T20:17:37.896415+00:00'
+  sha256: 56efad900eb42da897304511fb93ab3adc71badb9f251f91c56ca9b9f9eb53d2
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1174169/000117416922000027/form6-kaxatlantica20fa.htm
+  title: 6-K/A 0001174169-22-000027
+  published_at: '2022-03-24'
+  retrieved_at: '2026-11-13T20:17:36.357784+00:00'
+  sha256: 850d403011eb78bdb19d715b2a79d1e62810cb711e2090fdf570a12452676a23
 issuer_classification:
   cik: 0001174169
   classification_status: reported_sic
@@ -421,13 +451,15 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1174169/000117416922000027/0001174169-22-000027-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 458a79bc359837e86125fcf0c4bc7c1991154a8311eb560251f506d7f3986b0f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -493,6 +525,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-06, L89:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the Registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -517,7 +553,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -529,13 +565,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -599,6 +635,10 @@ Latest 50 filing metadata records of 637 retained records. A filing link is evid
 | 2025-02-12 | SCHEDULE 13G | 0000318989-25-000114 | — | [S50] |
 | 2025-02-06 | SCHEDULE 13G | 0002012383-25-001593 | — | [S51] |
 | 2025-01-31 | 6-K | 0001174169-25-000010 | — | [S52] |
+
+Source excerpt — 40-F, filed 2026-03-06, L124:
+
+> Forward-looking information contained herein (including any financial outlook) is provided for the purposes of assisting the reader in understanding the Company and its business, operations, risks, financial performance, financial position and cash flows as at and for the periods indicated and to present information about management’s current expectations and plans relating to the future and the reader is cautioned that such information may not be appropriate for other purposes. Forward-looking information contained herein is made as of the date of this document and based on the plans, beliefs, estimates, projections, expectations, opinions and assumptions of management on the date hereof. There can be no assurance that forward-looking information will prove to be accurate, as actual results and future events could differ materially from those anticipated in such forward-looking information. Accordingly, readers should not place undue reliance on forward-looking information. While subsequent events and developments may cause the Company’s views to change, the Company disclaims any obligation to update any forward-looking information or to explain any material difference between subsequent actual events and such forward-looking information, except to the extent required by applicable law. All forward-looking information contained herein is qualified by these cautionary … [S54]
 
 ## Sources and change log
 
@@ -705,5 +745,15 @@ Latest 50 filing metadata records of 637 retained records. A filing link is evid
 [S51] [SCHEDULE 13G 0002012383-25-001593](https://www.sec.gov/Archives/edgar/data/1174169/000201238325001593/0002012383-25-001593-index.html) — published 2025-02-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001174169-25-000010](https://www.sec.gov/Archives/edgar/data/1174169/000117416925000010/0001174169-25-000010-index.html) — published 2025-01-31; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001174169-26-000038](https://www.sec.gov/Archives/edgar/data/1174169/000117416926000038/a6-kcondorfilingcover.htm) — published 2026-08-28; retrieved 2026-11-13T20:17:44.509378+00:00.
+
+[S54] [40-F 0001174169-26-000015](https://www.sec.gov/Archives/edgar/data/1174169/000117416926000015/aqunf-20251231_d2.htm) — published 2026-03-06; retrieved 2026-11-13T20:17:43.017260+00:00.
+
+[S55] [40-F/A 0001174169-23-000023](https://www.sec.gov/Archives/edgar/data/1174169/000117416923000023/aqunf-20221231.htm) — published 2023-03-21; retrieved 2026-11-13T20:17:41.549346+00:00.
+
+[S56] [6-K/A 0001174169-23-000002](https://www.sec.gov/Archives/edgar/data/1174169/000117416923000002/a6-kcoverinvestorupdatecal.htm) — published 2023-01-03; retrieved 2026-11-13T20:17:37.896415+00:00.
+
+[S57] [6-K/A 0001174169-22-000027](https://www.sec.gov/Archives/edgar/data/1174169/000117416922000027/form6-kaxatlantica20fa.htm) — published 2022-03-24; retrieved 2026-11-13T20:17:36.357784+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

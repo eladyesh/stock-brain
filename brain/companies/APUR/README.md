@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 131b0b6ed0d2bea3ed29b4a8ed7a56210d933ab8
+source_commit: da985d7cdd310eab261be4fd3662836a26873702
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -369,6 +369,18 @@ sources:
   published_at: '2025-11-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/2093524/000121390026107391/ea0307889-8k425_aperture.htm
+  title: 8-K 0001213900-26-107391
+  published_at: '2026-10-07'
+  retrieved_at: '2026-11-13T20:15:59.417188+00:00'
+  sha256: c191c9a988e07ed0c333ac8bd7378e999250e63b24a01b7deeff619f26b873d9
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/2093524/000121390026089102/ea0301492-10q_aperture.htm
+  title: 10-Q 0001213900-26-089102
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-13T20:15:57.949503+00:00'
+  sha256: f3b4d5a5e4939ae0dbdf46e1fabe6121ae9e7d5ccbc977e5af31e1ca484cf1ef
 issuer_classification:
   cik: 0002093524
   classification_status: reported_sic
@@ -397,13 +409,20 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2093524/000121390026107391/0001213900-26-107391-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: fa0d99980a7d1e72d5b59d85ecf827b706c2fb1c00580822919021dc843761f8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-13T20:12:14.550899+00:00'
+  last_success_at: '2026-11-13T20:12:14.550899+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -427,9 +446,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L124:
+
+> \| \| ● \| “Founder Shares” are (i) to the 3,828,082 Class B Ordinary Shares initially purchased by our Sponsor prior to the Initial Public Offering and (ii) Class A Ordinary Shares that will be issued upon the automatic conversion of the Class B Ordinary Shares (x) at the time of our Business Combination as described in the IPO Registration Statement (as defined below) or (y) earlier at the option of the holders thereof, as described in the IPO Registration Statement; for the avoidance of doubt, such Class A Ordinary Shares will not be “Public Shares” (as defined below); [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L743:
+
+> In November 2023, the FASB issued ASU Topic 2023-07, “Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures” (“ASU 2023-07”). The amendments in ASU 2023-07 require disclosures, on an annual and interim basis, of significant segment expenses that are regularly provided to the chief operating decision maker (“CODM”), as well as the aggregate amount of other segment items included in the reported measure of segment profit or loss. ASU 2023-07 requires that a public entity disclose the title and position of the CODM and an explanation of how the CODM uses the reported measure(s) of segment profit or loss in assessing segment performance and deciding how to allocate resources. Public entities will be required to provide all annual disclosures currently required by FASB ASC Topic 280, “Segment Reporting,” (“ASC 280”) in interim periods, and entities with a single reportable segment are required to provide all the disclosures required by the amendments in ASU 2023-07 and existing segment disclosures in ASC 280. ASU 2023-07 is effective for fiscal years beginning after December 15, 2023, and interim periods within fiscal years beginning after December 15, 2024, with early adoption permitted. The Company adopted ASU 2023-07 on September 10, 2025, the date of its incorporation. [S54]
 
 ## Products and services
 
@@ -445,6 +472,10 @@ SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 8-K, filed 2026-10-07, L175:
+
+> equipment supply chain among a limited number of suppliers; Atlantic holds all mined digital assets in self-custody without a third-party [S53]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
@@ -456,6 +487,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 8-K, filed 2026-10-07, L173:
+
+> its growth strategy and respond to operational demands; Atlantic’s fixed-delivery hashrate purchase and sale arrangements and the [S53]
 
 ## Financial performance
 
@@ -545,6 +580,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-07, L126:
+
+> their respective directors and executive officers may be considered participants in the solicitation of proxies with respect to the Proposed [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -557,6 +596,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-10-07, L179:
+
+> to AI/HPC use and the resulting effect on mining revenue; and those risk factors discussed in the Registration Statement and the other [S53]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -566,25 +609,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -645,6 +688,10 @@ Latest 47 filing metadata records of 47 retained records. A filing link is evide
 | 2026-04-06 | S-1/A | 0001213900-26-040086 | — | [S50] |
 | 2026-01-30 | S-1/A | 0001213900-26-010147 | — | [S51] |
 | 2025-11-17 | S-1 | 0001213900-25-111383 | — | [S52] |
+
+Source excerpt — 8-K, filed 2026-10-07, L185:
+
+> or forecasts of future events and views as of the date of this press release. Aperture and Atlantic anticipate that subsequent events [S53]
 
 ## Sources and change log
 
@@ -751,5 +798,9 @@ Latest 47 filing metadata records of 47 retained records. A filing link is evide
 [S51] [S-1/A 0001213900-26-010147](https://www.sec.gov/Archives/edgar/data/2093524/000121390026010147/0001213900-26-010147-index.html) — published 2026-01-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [S-1 0001213900-25-111383](https://www.sec.gov/Archives/edgar/data/2093524/000121390025111383/0001213900-25-111383-index.html) — published 2025-11-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [8-K 0001213900-26-107391](https://www.sec.gov/Archives/edgar/data/2093524/000121390026107391/ea0307889-8k425_aperture.htm) — published 2026-10-07; retrieved 2026-11-13T20:15:59.417188+00:00.
+
+[S54] [10-Q 0001213900-26-089102](https://www.sec.gov/Archives/edgar/data/2093524/000121390026089102/ea0301492-10q_aperture.htm) — published 2026-08-13; retrieved 2026-11-13T20:15:57.949503+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
