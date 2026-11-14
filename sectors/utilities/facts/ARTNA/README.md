@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -140,6 +140,24 @@ sources:
   published_at: '2026-03-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/863110/000086311026000076/artna-20260630.htm
+  title: 10-Q 0000863110-26-000076
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-14T18:45:10.764006+00:00'
+  sha256: af5262b5ed23df35ceea69361ed3145de509aa92e9eb32eb67e1410f62611192
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/863110/000086311026000034/f10k-a2025.htm
+  title: 10-K/A 0000863110-26-000034
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-14T18:45:07.389209+00:00'
+  sha256: 68c49c630516f300cdc702106625d4e68fd29baa2edcdc2ebf31dc9f54f66d2f
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm
+  title: 10-K 0000863110-26-000025
+  published_at: '2026-03-16'
+  retrieved_at: '2026-11-14T18:45:05.522595+00:00'
+  sha256: f2aee12d71b01a9c8ef68fcb5ff900954abb741fca865599f5d47a15abe59c19
 issuer_classification:
   cik: 0000863110
   classification_status: reported_sic
@@ -182,13 +200,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/863110/000086311025000013/0000863110-25-000013-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f73e684e7d251424cb92b6c42780bc54e744ac61fc7438d101d8313272075627
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -203,15 +231,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000863110.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARTNA/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARTNA/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARTNA — ARTESIAN RESOURCES CORP
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARTNA/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARTNA/README.md)
 
 ## Business overview
 
@@ -225,17 +253,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1719:
+
+> water and sewer SLP Plans and other services we provide. Our contract operations, SLP Plans and other [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1523:
+
+> The Company’s operating segments are comprised of its businesses which generate revenues and incur expenses, for which separate operational financial information is available and is regularly evaluated by management for the purpose of making operating decisions, assessing performance, and allocating resources. The Company operates its businesses primarily through one reportable segment, the Regulated Utility segment. The Regulated Utility segment is the largest component of the Company’s business and includes an aggregation of our five regulated utility subsidiaries that are in the business of providing regulated water and wastewater services on the Delmarva Peninsula. Our regulated water utility services include treating, distributing, and selling water to residential, commercial, industrial, governmental, municipal and utility customers throughout the State of Delaware and in Cecil County, Maryland and to a residential community in Chester County, Pennsylvania. Our regulated wastewater utility services include the treatment and disposal of wastewater for customers in Sussex County, Delaware. The Company is subject to regulations as to its rates, services, and other matters by the states of Delaware, Maryland and Pennsylvania with respect to utility service within these states. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-16, L442:
+
+> Contamination of our water supply or wastewater operational malfunctions may result in disruption in our services and could lead to litigation that may adversely affect our business, operating results and financial condition. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1214:
+
+> The deferred income taxes will be amortized over future years as the tax effects of temporary differences that previously flowed through to our customers are reversed. [S68]
 
 ## Industry and value chain
 
@@ -243,11 +287,19 @@ SEC-reported SIC **4941**: Water Supply. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-16, L368:
+
+> We are dependent upon the ability of our suppliers and independent contractors to meet performance specifications, quality standards and delivery schedules at our anticipated costs. While we maintain an extensive qualification and performance review system to control risk associated with such reliance on third parties, failure of suppliers or independent contractors to meet commitments could adversely affect construction and maintenance schedules. We are also dependent on the availability of electricity and purchased water at affordable prices. Our electric costs and purchased water costs are at a fixed price under contract. [S71]
+
 Navigation sector: **utilities**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-16, L361:
+
+> Our business in our franchised service areas is substantially free from direct competition with other public utilities, municipalities and other entities. However, our ability to provide additional water and wastewater services is subject to competition from other public utilities, municipalities and other entities. Even though our regulated subsidiaries have been granted an exclusive franchise for each of our existing community water and wastewater systems, our ability to expand service areas can be affected by the DEPSC, the MDPSC or the Pennsylvania Public Utility Commission, or PAPUC, awarding franchises to other regulated water or wastewater utilities with whom we compete for such franchises. As the sole regional regulated wastewater utility [S71]
 
 ## Moat and differentiation
 
@@ -256,6 +308,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1734:
+
+> required to maintain, improve and expand our service capability. The cumulative effect of inflation results in [S68]
 
 ## Financial performance
 
@@ -380,6 +436,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K/A, filed 2026-04-01, L94:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to §240.10D-1(b) ☐ [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -392,6 +452,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2467:
+
+> In addition to the other information set forth in this report, you should carefully consider the factors discussed in Part I, "Item 1A. Risk Factors" in our Annual Report on Form 10-K for the year ended December 31, 2025, which could materially affect our business, financial condition or future results. There have been no material changes to the risk factors described in such Annual Report on Form 10-K. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -401,25 +465,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -465,6 +529,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S57] [10-K 0000863110-26-000025](https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/0000863110-26-000025-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARTNA/README.md).
+[S68] [10-Q 0000863110-26-000076](https://www.sec.gov/Archives/edgar/data/863110/000086311026000076/artna-20260630.htm) — published 2026-08-12; retrieved 2026-11-14T18:45:10.764006+00:00.
+
+[S70] [10-K/A 0000863110-26-000034](https://www.sec.gov/Archives/edgar/data/863110/000086311026000034/f10k-a2025.htm) — published 2026-04-01; retrieved 2026-11-14T18:45:07.389209+00:00.
+
+[S71] [10-K 0000863110-26-000025](https://www.sec.gov/Archives/edgar/data/863110/000086311026000025/form10k.htm) — published 2026-03-16; retrieved 2026-11-14T18:45:05.522595+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARTNA/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

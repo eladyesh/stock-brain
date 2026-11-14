@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -171,15 +171,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/MXE/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/MXE/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # MXE — MEXICO EQUITY & INCOME FUND INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/MXE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/MXE/README.md)
 
 ## Business overview
 
@@ -313,6 +313,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [N-CEN 0000910472-26-015763](https://www.sec.gov/Archives/edgar/data/863900/000091047226015763/0000910472-26-015763-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/MXE/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/MXE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

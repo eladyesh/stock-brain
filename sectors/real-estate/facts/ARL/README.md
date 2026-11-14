@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -140,6 +140,24 @@ sources:
   published_at: '2026-05-07'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1102238/000199937126022712/arl-def14a_111126.htm
+  title: DEF 14A 0001999371-26-022712
+  published_at: '2026-10-14'
+  retrieved_at: '2026-11-14T18:42:41.765753+00:00'
+  sha256: 1fecb2e0ba76bb06d1c7b8611e5248f3f133d8a6364c99f5ab76531a0e63a66f
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1102238/000162828026057878/arl-20251231.htm
+  title: 10-K/A 0001628280-26-057878
+  published_at: '2026-08-19'
+  retrieved_at: '2026-11-14T18:42:39.540682+00:00'
+  sha256: 0d53cac57e0f4a7fbb545540d5dfb19df8c0c06c65cfb57e766ba2969e75ec35
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1102238/000162828026054101/arl-20260630.htm
+  title: 10-Q 0001628280-26-054101
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:42:35.809240+00:00'
+  sha256: 20bc064c7cd7456e9b16009c064c72c188b1580a6521830e63f118c68969ad27
 issuer_classification:
   cik: 0001102238
   classification_status: reported_sic
@@ -202,13 +220,20 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1102238/000089924302002650/0000899243-02-002650-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d8ff72fd0a3c64728e68a95eaf23588bb696f497e594bed84d626fe91a294341
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -223,15 +248,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001102238.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARL/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARL/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARL — AMERICAN REALTY INVESTORS INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARL/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARL/README.md)
 
 ## Business overview
 
@@ -245,13 +270,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K/A, filed 2026-08-19, L235:
+
+> American Realty Investors, Inc. (the “Company”), a Nevada Corporation, is a fully integrated externally managed real estate company. We operate high quality multifamily and commercial properties throughout the Southern United States. We also invest in mortgage notes receivable and in land that is either held for appreciation or development. As used herein, the terms “ARL”, “the Company”, “We”, “Our”, or “Us” refer to the Company. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-K/A, filed 2026-08-19, L277:
+
+> We operate two business segments: the acquisition, development, ownership and management of multifamily properties, and the acquisition, development, ownership and management of commercial properties; which are primarily office properties. The services for our commercial segment include primarily rental of office space and other tenant services, including parking and storage space rental. The services for our multifamily segment include primarily rental of apartments and other tenant services, including parking and storage space rental. See Note 5 to our consolidated financial statements in Item 8 of this Report for more information regarding our segments. [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L367:
+
+> Our day-to-day operations are managed by Pillar Income Asset Management, Inc. (“Pillar”). Pillar's duties include, but are not limited to, locating, evaluating and recommending real estate-related investment opportunities, asset management, property development, construction management and arranging debt and equity financing. We have no employees; all of our services are performed by Pillar employees. Three of our commercial properties are managed by Regis Realty Prime, LLC (“Regis”). Our multifamily properties and one of our commercial properties are managed by outside management companies. Pillar and Regis are considered to be related parties (See Note 12 – Related Party Transactions). [S69]
 
 ## Customers and end markets
 
@@ -268,6 +305,10 @@ Navigation sector: **real-estate**. Method: `project_sic_rule`. Project navigati
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K/A, filed 2026-08-19, L242:
+
+> In addition, as described in Part III, Item 13. “Certain Relationships and Related Transactions, and Director Independence”, we compete with related parties of Pillar having similar investment objectives related to the acquisition, development, disposition, leasing and financing of real estate and real estate-related investments. In resolving any potential conflicts of [S68]
 
 ## Moat and differentiation
 
@@ -388,6 +429,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-14, L129:
+
+> Board of Directors of American Realty Investors, Inc. (the “Company,” or “we” or “us” or “our”) is soliciting [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -400,6 +445,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K/A, filed 2026-08-19, L231:
+
+> Certain Statements in this Form 10-K are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, and Section 21E of the Securities Exchange Act of 1934. The words “estimate,” “plan,” “intend,” “expect,” “anticipate,” “believe,” and similar expressions are intended to identify forward-looking statements. The forward-looking statements are found at various places throughout this Report and in the documents incorporated herein by reference. The Company disclaims any intention or obligations to update or revise any forward-looking statements, whether as a result of new information, future events or otherwise. Although we believe that our expectations are based upon reasonable assumptions, we can give no assurance that our goals will be achieved. Important factors that could cause our actual results to differ from estimates or projections contained in any forward-looking statements are described in Part I, Item 1A. “Risk Factors”. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -409,25 +458,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -471,6 +520,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001628280-26-031851](https://www.sec.gov/Archives/edgar/data/1102238/000162828026031851/0001628280-26-031851-index.html) — published 2026-05-07; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARL/README.md).
+[S67] [DEF 14A 0001999371-26-022712](https://www.sec.gov/Archives/edgar/data/1102238/000199937126022712/arl-def14a_111126.htm) — published 2026-10-14; retrieved 2026-11-14T18:42:41.765753+00:00.
+
+[S68] [10-K/A 0001628280-26-057878](https://www.sec.gov/Archives/edgar/data/1102238/000162828026057878/arl-20251231.htm) — published 2026-08-19; retrieved 2026-11-14T18:42:39.540682+00:00.
+
+[S69] [10-Q 0001628280-26-054101](https://www.sec.gov/Archives/edgar/data/1102238/000162828026054101/arl-20260630.htm) — published 2026-08-06; retrieved 2026-11-14T18:42:35.809240+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARL/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

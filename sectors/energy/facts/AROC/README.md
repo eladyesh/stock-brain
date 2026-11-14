@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -147,6 +147,24 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1389050/000138905026000028/aroc-20260630x10q.htm
+  title: 10-Q 0001389050-26-000028
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-14T18:43:39.608751+00:00'
+  sha256: 88fa4cf539c8ffa4d18498b6299a57cf019d2bde4eb3f2c014d0b62761728e93
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1389050/000110465926029581/aroc-20260430xdef14a.htm
+  title: DEF 14A 0001104659-26-029581
+  published_at: '2026-03-17'
+  retrieved_at: '2026-11-14T18:43:37.747378+00:00'
+  sha256: d286bf996f85e57807206e84343adfc93853d79ce5e79e5322f37db585959796
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1389050/000138905026000009/aroc-20251231x10k.htm
+  title: 10-K 0001389050-26-000009
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-14T18:43:35.691972+00:00'
+  sha256: aab4349d809d059c8794ebc6f082f68343f216f24b2a4aaca53dc78c3133c9c4
 issuer_classification:
   cik: 0001389050
   classification_status: reported_sic
@@ -192,13 +210,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1389050/000138905017000078/0001389050-17-000078-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cbc144178e475eff9916430544ca8e1b72a269b3edbaeacd4d9ea14015d61bd1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -213,15 +241,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001389050.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AROC/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AROC/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AROC — Archrock, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AROC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AROC/README.md)
 
 ## Business overview
 
@@ -235,17 +263,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L547:
+
+> This Form 10-Q contains “forward-looking statements” intended to qualify for the safe harbors from liability established by the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact contained in this Form 10-Q are forward-looking statements within the meaning of the Exchange Act, including, without limitation, statements regarding our business growth strategy and projected costs; future financial position; the sufficiency of available cash flows to fund continuing operations and pay dividends; the expected amount of our capital expenditures; anticipated cost savings; future revenue, adjusted gross margin and other financial or operational measures related to our business; the future value of our equipment; and plans and objectives of our management for our future operations. You can identify many of these statements by words such as “believe,” “expect,” “intend,” “project,” “anticipate,” “estimate,” “will continue,” or similar words or the negative thereof. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-26, L8246:
+
+> In November 2023, the FASB issued ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures, which requires disclosures of significant expenses for each reportable segment, as well as certain other disclosures to help investors understand how the CODM evaluates segment expenses and operating results. ASU 2023-07 allows disclosure of multiple measures of segment profitability if those measures are used to allocate resources and assess performance. We adopted ASU 2023-07 retrospectively during the year ended December 31, 2024. See Note 28 (“Segments”) for further details. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L4819:
+
+> The amount of goodwill resulting from the NGCS Acquisition is attributable to the expansion of our services in the Permian Basin where we currently operate and was allocated to our contract operations segment. The goodwill recorded is considered to have an indefinite life and will be reviewed annually for impairment or more frequently if indicators of potential impairment exist. None of the goodwill recorded for the NGCS Acquisition is expected to be deductible for U.S. federal income tax purposes. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L548:
+
+> Such forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from those anticipated as of the date of this Form 10-Q. Although we believe that the expectations reflected in these forward-looking statements are based on reasonable assumptions, no assurance can be given that these expectations will prove to be correct. Known material factors that could cause our actual results to differ materially from the expectations reflected in these forward-looking statements include the risk factors described in our 2025 Form 10-K and those set forth from time to time in our filings with the SEC, which are available through our website at www.archrock.com and through the SEC’s website at www.sec.gov. These risk factors include, but are not limited to, risks related to macroeconomic conditions, including an increase in inflation and trade tensions; pandemics and other public health crises; ongoing international conflicts and tensions; risks related to our operations; competitive pressures; risks of acquisitions or mergers to reduce our ability to make distributions to our common stockholders; inability to make acquisitions on economically acceptable terms; inability to achieve the expected benefits of the NGCS Acquisition and difficulties integrating NGCS; risks related to our sustainability initiatives; uncertainty to … [S68]
 
 ## Industry and value chain
 
@@ -253,11 +297,19 @@ SEC-reported SIC **4922**: Natural Gas Transmission. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-26, L1115:
+
+> Technology Deployment. We are focused on harnessing technology across all aspects of our business to drive operational efficiencies and enhance our value proposition to our customers. This includes the automation of workflows, integration of digital and mobile tools for our field service technicians, expanded remote monitoring capabilities of our compression fleet and emissions solutions. We believe these efforts, among other things, will help us achieve increased asset uptime, improve the efficiency of our field service technicians, improve our supply chain and inventory management and reduce our emissions and carbon footprint, thereby improving our profitability as discussed further below in “Business Strategies.” [S70]
+
 Navigation sector: **energy**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-03-17, L4245:
+
+> 1 Specific performance targets with respect to underlying business objectives are not disclosed because they are derived from internal analyses reflecting our business strategy. We believe their disclosure would provide our competitors, customers and other third parties with significant insights regarding our confidential business strategies that could cause us substantial competitive harm. [S69]
 
 ## Moat and differentiation
 
@@ -266,6 +318,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L547:
+
+> This Form 10-Q contains “forward-looking statements” intended to qualify for the safe harbors from liability established by the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact contained in this Form 10-Q are forward-looking statements within the meaning of the Exchange Act, including, without limitation, statements regarding our business growth strategy and projected costs; future financial position; the sufficiency of available cash flows to fund continuing operations and pay dividends; the expected amount of our capital expenditures; anticipated cost savings; future revenue, adjusted gross margin and other financial or operational measures related to our business; the future value of our equipment; and plans and objectives of our management for our future operations. You can identify many of these statements by words such as “believe,” “expect,” “intend,” “project,” “anticipate,” “estimate,” “will continue,” or similar words or the negative thereof. [S68]
 
 ## Financial performance
 
@@ -381,6 +437,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L503:
+
+> Share repurchase program approved by our Board of Directors that allows us to repurchase outstanding common stock and retire shares repurchased for a designated amount and period of time [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -393,6 +453,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L548:
+
+> Such forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from those anticipated as of the date of this Form 10-Q. Although we believe that the expectations reflected in these forward-looking statements are based on reasonable assumptions, no assurance can be given that these expectations will prove to be correct. Known material factors that could cause our actual results to differ materially from the expectations reflected in these forward-looking statements include the risk factors described in our 2025 Form 10-K and those set forth from time to time in our filings with the SEC, which are available through our website at www.archrock.com and through the SEC’s website at www.sec.gov. These risk factors include, but are not limited to, risks related to macroeconomic conditions, including an increase in inflation and trade tensions; pandemics and other public health crises; ongoing international conflicts and tensions; risks related to our operations; competitive pressures; risks of acquisitions or mergers to reduce our ability to make distributions to our common stockholders; inability to make acquisitions on economically acceptable terms; inability to achieve the expected benefits of the NGCS Acquisition and difficulties integrating NGCS; risks related to our sustainability initiatives; uncertainty to … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -402,25 +466,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -466,6 +530,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S48] [10-K 0001389050-26-000009](https://www.sec.gov/Archives/edgar/data/1389050/000138905026000009/0001389050-26-000009-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AROC/README.md).
+[S68] [10-Q 0001389050-26-000028](https://www.sec.gov/Archives/edgar/data/1389050/000138905026000028/aroc-20260630x10q.htm) — published 2026-08-05; retrieved 2026-11-14T18:43:39.608751+00:00.
+
+[S69] [DEF 14A 0001104659-26-029581](https://www.sec.gov/Archives/edgar/data/1389050/000110465926029581/aroc-20260430xdef14a.htm) — published 2026-03-17; retrieved 2026-11-14T18:43:37.747378+00:00.
+
+[S70] [10-K 0001389050-26-000009](https://www.sec.gov/Archives/edgar/data/1389050/000138905026000009/aroc-20251231x10k.htm) — published 2026-02-26; retrieved 2026-11-14T18:43:35.691972+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AROC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

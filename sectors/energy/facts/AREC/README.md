@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -146,6 +146,24 @@ sources:
   published_at: '2026-07-29'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793226004585/arec_8ka.htm
+  title: 8-K/A 0001477932-26-004585
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-14T18:41:04.783689+00:00'
+  sha256: bb0c4296a4c3df5340c8fbf50b1086a6b4b88e1bd2a6adafdee5dd4be186be24
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793226003317/arec_10k.htm
+  title: 10-K 0001477932-26-003317
+  published_at: '2026-05-20'
+  retrieved_at: '2026-11-14T18:41:02.965265+00:00'
+  sha256: 2545229dd63d1cd62b035be42287ac49e4959c853bb77d50b6e5470419fb4824
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793225008406/arec_10qa.htm
+  title: 10-Q/A 0001477932-25-008406
+  published_at: '2025-11-17'
+  retrieved_at: '2026-11-14T18:40:59.238956+00:00'
+  sha256: 2009ab56b4a44e11bf6de6555d463e7d1bf7bdb1d911bda260af843eb96b1db1
 issuer_classification:
   cik: 0001590715
   classification_status: reported_sic
@@ -216,13 +234,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007000/0001477932-19-007000-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7a34c7654776f88ade02b5898c57893408ad1b195b7c0cfcccd1f79ce720a0c3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -237,15 +265,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001590715.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AREC/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AREC/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AREC — American Resources Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AREC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AREC/README.md)
 
 ## Business overview
 
@@ -259,17 +287,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-05-20, L8091:
+
+> Revenue and costs are generally directly attributed to our segments. However, due to the integrated structure of our business, certain revenue recognized and costs incurred by one segment may benefit other segments. Revenue from certain contracts is allocated among the segments based on the relative value of the underlying products and services, which can include allocation based on actual prices charged, prices when sold separately, or estimated costs plus a profit margin. Cost of revenue is allocated in certain cases based on a relative revenue methodology. Operating expenses that are allocated primarily include those relating to marketing of products and services from which multiple segments benefit and are generally allocated based on relative gross margin. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-05-20, L365:
+
+> Efforts to diversify revenue streams have led to the establishment of additional subsidiaries; Electrified Materials Corporation (EMC) which is focused on the aggregation, recovery and sale of recovered metal and steel and American Rare Earth LLC (ARE) which is focused on the purification and monetization of critical and rare earth element deposits and end of life magnets and batteries. During 2024, American Rare Earth LLC changed its name to ReElement Technologies LLC (ReElement). During 2024, ReElement filed and changed from a limited liability company to a corporation. The Company also looks for opportunities to invest and operate new and innovate technologies within the mineral and infrastructure industry. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q/A, filed 2025-11-17, L8268:
+
+> RLMT - provider of final-stage, separated and purified rare earth and critical elements to the electrification industry supply chain. Our products, separated and purified rare earth and critical elements, are used to manufacture permanent magnets and battery materials for high efficiency electric motors and lithium-ion batteries. [S72]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-05-20, L362:
+
+> When we formed our company, our focus was to (i) construct and/or purchase and manage a chain of combined gasoline, diesel and natural gas (NG) fueling and service stations (initially, in the Miami, FL area); (ii) construct conversion factories to convert NG to liquefied natural gas (LNG) and compressed natural gas (CNG); and (iii) construct conversion factories to retrofit vehicles currently using gasoline or diesel fuel to also run on NG in the United States and also to build a convenience store to serve our customers in each of our locations. [S70]
 
 ## Industry and value chain
 
@@ -277,15 +321,27 @@ SEC-reported SIC **1220**: Silver Ores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-05-20, L1520:
+
+> Courtenay serves as Director of American Resources Corporation. He brings over 40 years of experience of sourcing and supplying iron ore, coke and metallurgical coal to the steel industry to assist American Resources with their supply chain, logistics, customers, overall corporate strategy. He has a vast knowledge of both the global and domestic marketplace where he works with both suppliers and consumers. Courtenay is currently Managing Director of Compass Point Resources, LLC which he founded in 2007. Mr. Taplin also acts as Managing Director for Clay Resources LLC, a commodities firm trading in African origin minerals and metals with sales to the world’s merchant consumers from its offices in the U. S. and Durban, South Africa. His prior experience includes Crown Coal & Coke Company and Pickands Mather & Company out of Cleveland, OH. Mr. Taplin attended Hobart College and received his degree from Case Western Reserve University. The Board nominated Courtenay to serve as a director because of his experience and relationships in the raw materials and coking sector and his experience in managing growing businesses. He has no direct or indirect material interest in any transaction required to be disclosed pursuant to Item 404(a) of Regulation S-K. [S70]
+
 Navigation sector: **energy**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-05-20, L374:
+
+> The global commodity industry for critical minerals, rare earth element and coal is intensely competitive. When evaluating areas of competition, the most important factors on which the Company competes are mineral quality, delivered costs to the customer and reliability of supply. Principal domestic competitors are MP Materials, Lithium Americas, Ramaco Resources, Arch Resources, Contura Energy, and Warrior Met Coal. Many of these coal producers may have greater financial resources and larger coal deposit bases than we do. We also compete in international markets directly with domestic companies and with companies that produce coal from one or more foreign countries, such as China, Australia, Colombia, Indonesia and South Africa. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2026-05-20, L2987:
+
+> On August 30, 2022, the Company entered into a purchase agreement under which it sold exclusive rights to certain patents previously included in the Graphene Development Agreement in exchange for 4,000,000 shares of Novusterra’s common stock, with a fair value of $1.78 million at the transaction date. In connection with this transaction, Andrew Weeraratne resigned as Novusterra’s Chief Executive Officer and director, and Gregory Jensen, the Company’s general counsel, was appointed Chief Executive Officer and director of Novusterra. Mr. Jensen also resigned as Chairman of Novusterra’s Board of Directors. [S70]
 
 ## Growth drivers
 
@@ -387,6 +443,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-07-29, L104:
+
+> On June 30, 2026, the Audit Committee (the “Audit Committee”) of the Board of Directors of American Resources Corporation (or the “Company”) approved the dismissal of GreenGrowth CPA’s (“GreenGrowth”) as the Company’s independent registered public accounting firm. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -399,6 +459,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-05-20, L8076:
+
+> In the course of normal operations, the Company is involved in various claims and litigation matters that management intends to defend. The range of loss, if any, from all potential claims cannot be reasonably estimated. However, management believes the ultimate resolution of matters not disclosed below will not have a material adverse impact on the Company’s business or financial position. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -408,25 +472,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -470,6 +534,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K/A 0001477932-26-004585](https://www.sec.gov/Archives/edgar/data/1590715/000147793226004585/0001477932-26-004585-index.html) — published 2026-07-29; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/AREC/README.md).
+[S69] [8-K/A 0001477932-26-004585](https://www.sec.gov/Archives/edgar/data/1590715/000147793226004585/arec_8ka.htm) — published 2026-07-29; retrieved 2026-11-14T18:41:04.783689+00:00.
+
+[S70] [10-K 0001477932-26-003317](https://www.sec.gov/Archives/edgar/data/1590715/000147793226003317/arec_10k.htm) — published 2026-05-20; retrieved 2026-11-14T18:41:02.965265+00:00.
+
+[S72] [10-Q/A 0001477932-25-008406](https://www.sec.gov/Archives/edgar/data/1590715/000147793225008406/arec_10qa.htm) — published 2025-11-17; retrieved 2026-11-14T18:40:59.238956+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/AREC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

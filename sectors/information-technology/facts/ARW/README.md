@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -133,6 +133,18 @@ sources:
   published_at: '2026-09-15'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/7536/000110465926091983/arw-20260704x10q.htm
+  title: 10-Q 0001104659-26-091983
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:46:08.446646+00:00'
+  sha256: 4ea0cbbc3b178953f6ecc38d89db3bd05c2c63cadc60a823a8a2f0046e7eea72
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/7536/000110465926036516/arw-20260512xdef14a.htm
+  title: DEF 14A 0001104659-26-036516
+  published_at: '2026-03-30'
+  retrieved_at: '2026-11-14T18:46:06.365216+00:00'
+  sha256: 71542e7ae96ecc8e92915937a250b5dc81d1d53c5e9c681eae7ca16d85192ca6
 issuer_classification:
   cik: '0000007536'
   classification_status: reported_sic
@@ -194,13 +206,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/7536/000115752317002546/0001157523-17-002546-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e93963ddbc9322ce5b822345ac3eb734b97f7d95b3f63fefa2b5678d80324d09
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -215,15 +238,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000007536.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARW/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARW/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARW — ARROW ELECTRONICS, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARW/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARW/README.md)
 
 ## Business overview
 
@@ -237,17 +260,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-30, L222:
+
+> Arrow’s differentiated capabilities remain a distinct competitive advantage. We operate at the intersection of electronic components and enterprise IT, serving large and expanding end markets with long-term secular tailwinds. Both our Global Components and Enterprise Computing Solutions (“ECS”) businesses are well positioned to benefit from growth in cloud, AI, and data center infrastructure, particularly where our technical expertise extends our role from fulfillment to embedded partnership with our customers and suppliers. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L11129:
+
+> In addition to disclosing financial results that are determined in accordance with GAAP, the company also discloses certain non-GAAP financial information in the sections below captioned “Sales by Reportable Segment,” “Gross Profit,” “Operating Expenses,” “Operating Income,” “Income Tax,” and “Net Income Attributable to Shareholders.” Refer to these sections below for reconciliations of non-GAAP financial measures to the most directly comparable reported GAAP financial measures. Non-GAAP financial information includes the following: [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L11142:
+
+> The company sources and engineers technology for thousands of leading manufacturers, services providers, and users of enterprise computing solutions. The company has one of the world’s broadest portfolios of product offerings available from leading electronic components and enterprise computing solutions suppliers. The company’s revenues originate primarily from the sales of semiconductor products, IP&E components, and IT hardware and software. Equipped with a range of services, solutions, and tools, the company enables its suppliers to distribute their technologies and helps its industrial and commercial customers source, build, and leverage these technologies, reduce their time to market, grow their businesses, and enhance their overall competitiveness. The company is a trusted partner in a complex value chain and is uniquely positioned through its electronic components and IT content portfolios to enhance value and market opportunities for stakeholders. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-30, L222:
+
+> Arrow’s differentiated capabilities remain a distinct competitive advantage. We operate at the intersection of electronic components and enterprise IT, serving large and expanding end markets with long-term secular tailwinds. Both our Global Components and Enterprise Computing Solutions (“ECS”) businesses are well positioned to benefit from growth in cloud, AI, and data center infrastructure, particularly where our technical expertise extends our role from fulfillment to embedded partnership with our customers and suppliers. [S70]
 
 ## Industry and value chain
 
@@ -255,19 +294,35 @@ SEC-reported SIC **5065**: Wholesale-Electronic Parts & Equipment, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4949:
+
+> Accounts receivable includes balances related to inventory purchased by the company on the request of and behalf of its customers as part of its Global Components supply chain services offerings. In these transactions, receivables are disproportionate to the fees the company recognizes as revenue for its services. The company generally carries corresponding accounts payable on its balance sheet with some differences due to timing of settlement. [S69]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L11127:
+
+> This report includes “forward-looking statements,” as the term is defined under the federal securities laws. Forward-looking statements are those statements which are not statements of historical or current fact. These forward-looking statements can be identified by forward-looking words such as “expects,” “anticipates,” “intends,” “plans,” “may,” “will,” “would,” “could,” “believes,” “seeks,” “projected,” “potential,” “estimates,” and similar expressions. These forward-looking statements are subject to numerous assumptions, risks, and uncertainties, which could cause actual results or facts to differ materially from such statements for a variety of reasons, including, but not limited to: unfavorable economic conditions or changes, including those that may occur in connection with recession, inflation, tax rates, foreign currency exchange rates, or the availability of capital; impacts of military conflict and sanctions; political instability and changes; trade protection measures, tariffs, increased trade tensions, trade agreements and policies, and other restrictions, duties, and value-added taxes, and the associated macroeconomic impacts; disruptions, shortages, or inefficiencies in the supply chain; non-compliance with certain laws, regulations, or executive orders, such as trade, export, antitrust, and anti-corruption laws, or regulatory restrictions relating to the … [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L8401:
+
+> From time to time, in the normal course of business, the company may become liable with respect to other pending and threatened litigation, environmental, regulatory, labor, product, intellectual property, and tax matters. While such matters are subject to inherent uncertainties, it is not currently anticipated that any such matters will materially impact the company’s consolidated financial position, liquidity, or results of operations. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-30, L223:
+
+> Expanding value-added services, such as supply chain services, engineering and design, and integration services, remains central to our long-term value creation strategy. We have made great progress this past year in deepening customer engagement and delivering profitable growth. In 2025, value-added services grew as a share of total operating income, and this deliberate shift toward more margin-accretive solutions is strengthening the durability and earnings power of Arrow. Our distribution capabilities remain a fundamental part of our strategy, and our value-added services are a natural extension for Arrow. [S70]
 
 ## Financial performance
 
@@ -395,6 +450,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L8247:
+
+> Effective May 12, 2026, the Board of Directors replaced the company’s previous share repurchase program that was authorized in January 2023 (“January 2023 program”) with a new share repurchase program (“May 2026 program”) pursuant to which Arrow may purchase an aggregate value of shares up to, but not to exceed, $1.0 billion, inclusive of any fees, commissions, taxes, or other expenses related to such repurchases, and with no expiration date. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -407,6 +466,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L8399:
+
+> It is reasonably possible that the company will need to adjust the liabilities noted above to reflect the effects of new or additional information, to the extent that such information impacts the costs, timing, or duration of the required actions. Future changes in estimates of the costs, timing, or duration of the required actions could have a material adverse effect on the company’s consolidated financial position, results of operations, or cash flows. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -416,25 +479,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -476,6 +539,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0000007536-26-000142](https://www.sec.gov/Archives/edgar/data/7536/000000753626000142/0000007536-26-000142-index.html) — published 2026-09-15; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARW/README.md).
+[S69] [10-Q 0001104659-26-091983](https://www.sec.gov/Archives/edgar/data/7536/000110465926091983/arw-20260704x10q.htm) — published 2026-08-06; retrieved 2026-11-14T18:46:08.446646+00:00.
+
+[S70] [DEF 14A 0001104659-26-036516](https://www.sec.gov/Archives/edgar/data/7536/000110465926036516/arw-20260512xdef14a.htm) — published 2026-03-30; retrieved 2026-11-14T18:46:06.365216+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARW/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

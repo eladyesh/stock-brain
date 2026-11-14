@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -138,6 +138,24 @@ sources:
   published_at: '2026-08-06'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1875444/000187544426000030/arhs-20260630.htm
+  title: 10-Q 0001875444-26-000030
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:41:27.735220+00:00'
+  sha256: 38dbfc40401dcc570313fed26b5efbbafd5f4b7516734b8029e817f18c9d403a
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1875444/000119312526138942/d45561ddef14a.htm
+  title: DEF 14A 0001193125-26-138942
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-14T18:41:25.315653+00:00'
+  sha256: ffd8829b6e96cc29e2f025ef331c42e3ae2c3bacc35ed2dce9b281ed0297ec28
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1875444/000187544426000010/arhs-20251231.htm
+  title: 10-K 0001875444-26-000010
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-14T18:41:23.464056+00:00'
+  sha256: e6fc3ca7a7722be1cf2508a7560f2ef001f428803d58a130e7c0c56634983691
 issuer_classification:
   cik: 0001875444
   classification_status: reported_sic
@@ -175,13 +193,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1875444/000187544426000032/0001875444-26-000032-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 24fba854108bc80e849d2bb8eaa36282b9b3fb141f9ebe6cfae35b837a5a99c5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -196,15 +225,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001875444.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARHS/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARHS/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARHS — Arhaus, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARHS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARHS/README.md)
 
 ## Business overview
 
@@ -218,17 +247,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L708:
+
+> Our chief operating decision maker (“CODM”) is our Chief Executive Officer (“CEO”), who reviews financial information presented on a consolidated basis for purposes of making decisions, assessing financial performance and allocating resources. We operate our business as one operating segment and therefore we have one reportable segment that offers an assortment of merchandise across a broad range of categories, including furniture, outdoor, bath, lighting, textiles, and décor. The assortment of merchandise can be purchased through our Retail and eCommerce sales channels. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L708:
+
+> Our chief operating decision maker (“CODM”) is our Chief Executive Officer (“CEO”), who reviews financial information presented on a consolidated basis for purposes of making decisions, assessing financial performance and allocating resources. We operate our business as one operating segment and therefore we have one reportable segment that offers an assortment of merchandise across a broad range of categories, including furniture, outdoor, bath, lighting, textiles, and décor. The assortment of merchandise can be purchased through our Retail and eCommerce sales channels. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L962:
+
+> Net revenue increased $29.4 million, or 4.4%, to $699.2 million in the six months ended June 30, 2026 compared to $669.8 million in the six months ended June 30, 2025. The increase was driven primarily by $20.2 million of revenue growth related to new Showrooms opened in 2026 and 2025, with the remainder due to increased demand for our products. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-26, L728:
+
+> We are undertaking a multi-year process of upgrading our technology, including implementing a new enterprise resource planning (“ERP”) system, which is a major transformation that will modernize and replace many of our existing operating and financial systems, some of which are dated. Our dated systems could impact functionality and reliability and increase the risk of a disruption. The new ERP is critical to our ability to gather important information, source and deliver products, fulfill contractual obligations, maintain books and records, provide accurate, timely and reliable reports on our financial and operating results, and otherwise operate our business. ERP implementations are complex, time-consuming, labor intensive, and involve substantial expenditures and adjustments to internal processes. Such implementations involve risks, including loss of information and potential disruption in operations. Any disruptions, delays or deficiencies in the design or implementation of the new ERP and related systems could result in significantly greater capital expenditures and management time and attention than currently contemplated and could adversely affect our ability to operate our business, including our ability to timely deliver products to our customers. Additionally, until all of our business functions, including our Showroom operations, are operating on or are fully … [S70]
 
 ## Industry and value chain
 
@@ -236,19 +281,35 @@ SEC-reported SIC **5712**: Retail-Furniture Stores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L720:
+
+> Our CODM uses net income to determine the allocation of resources for investments in retail Showrooms, information technology and systems infrastructure, as well as supply chain investments. Net income is also used as a method for planning and forecasting overall expected performance and for evaluating, on a quarterly and annual basis, actual results against such expectations. [S68]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-26, L445:
+
+> The United States home furnishings and décor market is highly fragmented and competitive, with approximately 23,000 retail establishments as of 2024, according to the Bureau of Labor Statistics. We compete with national, regional, and local home furnishing retailers, as well as department stores, mail-order catalogs, online retailers focused on home furnishings, interior design trade and specialty Showrooms, antique dealers and other merchants that provide unique items and custom-designed product offerings. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1157:
+
+> From time to time, we have and we may become involved in legal proceedings arising in the ordinary course of business, including claims related to our employment practices, claims of intellectual property infringement and claims related to personal injuries and product liability for the products that we sell and in the Showrooms we operate. Any claims could result in litigation against us and could result in regulatory proceedings being brought against us by various federal and state agencies that regulate our business. Defending such litigation is costly and can impose significant burdens on management and employees. Further, we could receive unfavorable preliminary or interim rulings in the course of litigation, and there can be no assurance that favorable final outcomes will be obtained. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L331:
+
+> Andrea Hyde has served as a member of our Board since 2021 and served as a member of the Board of Directors of Arhaus, LLC since January 2018. Ms. Hyde is the founder and President of Hyde & Chic Inc., a business growth strategy consulting firm, and has been a director of Awake Chocolate since 2022. Prior to founding Hyde & Chic Inc. in January 2018, Ms. Hyde was Chief Executive Officer of Draper James from 2014 to 2017. Prior to her role at Draper James, Ms. Hyde held the positions of President of Burch Creative Capital and President & Chief Executive Officer of French Connection USA. Ms. Hyde held senior management positions at Kenneth Cole and The Gap, where she oversaw the marketing departments and was part of the initial concept and development team for Old Navy. Early in her career she worked for Estee Lauder and Calvin Klein. [S69]
 
 ## Financial performance
 
@@ -376,6 +437,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L673:
+
+> Per the 2021 Plan, each RSU and PSU represents a contingent right to receive one share of the Company’s Class A common stock upon vesting. The RSUs granted to award recipients will vest over two to five years (depending on the terms of the award) on each anniversary of the grant date, provided that the award recipient continues to serve the Company through the applicable vesting date (“Continuous Service”). If the award recipient’s Continuous Service terminates for any reason other than death, disability or in connection with a change in control (as such terms are defined in the 2021 Plan), unless the Compensation Committee of the Board of Directors determines otherwise, all RSUs that are unvested at the time of such termination shall be forfeited and cancelled immediately without consideration. RSU and PSU awards contain forfeitable rights to dividend equivalents. Dividend equivalents for outstanding awards are accrued when [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +453,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L788:
+
+> The Company is involved in litigation and claims that are incidental to its business. Although the outcome of these matters cannot be determined at the present time, management of the Company believes that the ultimate resolution of these matters will not have a material adverse effect on the Company’s consolidated financial position, results of operations or cash flows. As of June 30, 2026 and December 31, 2025, the Company has accrued legal costs of $6.8 million and $6.5 million, respectively, that are included in accrued other expenses within our condensed consolidated balance sheets. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +466,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -457,6 +526,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [10-Q 0001875444-26-000030](https://www.sec.gov/Archives/edgar/data/1875444/000187544426000030/0001875444-26-000030-index.html) — published 2026-08-06; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARHS/README.md).
+[S68] [10-Q 0001875444-26-000030](https://www.sec.gov/Archives/edgar/data/1875444/000187544426000030/arhs-20260630.htm) — published 2026-08-06; retrieved 2026-11-14T18:41:27.735220+00:00.
+
+[S69] [DEF 14A 0001193125-26-138942](https://www.sec.gov/Archives/edgar/data/1875444/000119312526138942/d45561ddef14a.htm) — published 2026-04-02; retrieved 2026-11-14T18:41:25.315653+00:00.
+
+[S70] [10-K 0001875444-26-000010](https://www.sec.gov/Archives/edgar/data/1875444/000187544426000010/arhs-20251231.htm) — published 2026-02-26; retrieved 2026-11-14T18:41:23.464056+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARHS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -131,6 +131,24 @@ sources:
   published_at: '2026-10-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1428205/000142820526000125/arr-20260930.htm
+  title: 10-Q 0001428205-26-000125
+  published_at: '2026-10-21'
+  retrieved_at: '2026-11-14T18:44:38.689704+00:00'
+  sha256: 59168b9de71bdea01b5504a569c2f00b6a706b80db8cd2be9697e4366d3c50b0
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1428205/000142820526000040/arr-20260319.htm
+  title: DEF 14A 0001428205-26-000040
+  published_at: '2026-03-19'
+  retrieved_at: '2026-11-14T18:44:36.764170+00:00'
+  sha256: 68fb19be8d6845ff4258d292f07f8e80dcdb810d927640ec986152afc4618ba2
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1428205/000142820526000029/arr-20251231.htm
+  title: 10-K 0001428205-26-000029
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-14T18:44:34.829109+00:00'
+  sha256: 195dd954b092807c95731a1d95fffd949e5ed7cfd0da40dcdc6f3d2762d3db85
 issuer_classification:
   cik: 0001428205
   classification_status: reported_sic
@@ -168,13 +186,20 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1428205/000142820526000126/0001428205-26-000126-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: a4f1a75a126b4898d1dda9d1f0546ad0f85f646cc100e33cfb3d4be7ed39d96e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -186,15 +211,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARR/README.md
-full_history_commit: 6e1c8271c74cf7335265700a5a223e692b47544f
+full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARR/README.md
+full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARR — Armour Residential REIT, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARR/README.md)
 
 ## Business overview
 
@@ -208,9 +233,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-10-21, L967:
+
+> BUCKLER's operating agreement (as may be amended and restated from time to time, the "BUCKLER operating agreement") contains certain provisions to benefit and protect the Company, including (1) sharing in any (a) defined profits realized by BUCKLER from the anticipated financing spreads resulting from repurchase financing facilitated by BUCKLER, and (b) distributions from BUCKLER to its members of net cash receipts, and (2) the realization of anticipated savings from reduced clearing, brokerage, trading and administrative fees. Other protective provisions in the BUCKLER operating agreement include (1) the requirement for the approval from the independent directors of the Company of any third-party business engaged by BUCKLER so long as any loan amount or indebtedness remains outstanding under the on demand subordinated loan agreements (as described more fully below) and (2) the independent directors may under certain circumstances cause BUCKLER to wind up and dissolve and promptly return certain on demand subordinated loans we provide to BUCKLER as regulatory capital. For the three and nine months ended September 30, 2026, we earned $0 and $20 from BUCKLER as an allocated share of Financing Gross Profit for a reduction of interest on repurchase agreements charged to the Company. Financing Gross Profit is defined in the BUCKLER operating agreement. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-10-21, L979:
+
+> We operate in the U.S. and invest primarily in fixed rate residential, adjustable rate and hybrid adjustable rate residential MBS issued or guaranteed by U.S. GSEs or guaranteed by Ginnie Mae. From time to time, we may also invest in U.S. Treasury Securities and money market instruments. Resources and financial performance are assessed by our CEO and Co-Chief Investment Officers who collectively are the Company’s Chief Operating Decision Maker (“CODM”), based on total assets reported on the consolidated balance sheets and net income (loss) as reported on the consolidated statements of operations. Our CODM views consolidated expense information related to interest expense, management fees, compensation and other operating expenses as disclosed on our consolidated statement of operations as significant. The CODM manages our investment portfolio as a whole and decisions regarding investments and hedging are made collectively based on the inputs above. Accordingly, the Company consists of a single operating and reportable segment and the consolidated financial statements and notes thereto are presented as a single reportable segment. Since the Company operates in a single segment, the segment information is consistent with the consolidated financial statements. Therefore, no reconciliation is necessary. [S67]
 
 ## Products and services
 
@@ -232,6 +265,10 @@ Navigation sector: **unclassified**. Method: `unresolved`. Missing, ambiguous or
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-03-19, L503:
+
+> Our success is dependent, in large part, on our ability through our Management Agreement with ACM and our equity incentive program to attract, motivate and retain high-performing executives who are committed to our core values of stockholder value, prudent risk-taking and integrity. The REIT and mortgage investment industry is highly competitive and attracting and retaining experienced professionals represents a comparative advantage. We compete with a large number of REIT companies, funds, financial institutions and specialty finance companies for executive talent which has significant career mobility. Many of those companies are privately owned and/or have significantly larger market capitalization than we do. Accordingly, they may have significantly more flexibility and resources as it relates to compensating their key professionals. We are a specialized company in a highly competitive industry and our ability to attract, retain and reward our executive officers and other key professionals is essential to maintaining our competitive position. We strongly believe that offering incentives in the form of equity awards is critical to our ability to do so and aligns the interests of our named executive officers and other key professionals with those of our stockholders. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -239,6 +276,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-18, L560:
+
+> We rely on the exclusion from the definition of “investment company” provided by Section 3(c)(5)(C) of the 1940 Act. To qualify for the exclusion, we make investments so that at least 55% of the assets we own consist of “qualifying assets” and so that at least 80% of the assets we own consist of qualifying assets and other real estate related assets. We generally expect that our investments in our target assets will be treated as either qualifying assets or real estate related assets under Section 3(c)(5)(C) of the 1940 Act in a manner consistent with SEC staff no-action letters. Qualifying assets for this purpose include mortgage loans and other assets, such as whole pool Agency Securities that are considered the functional equivalent of mortgage loans for purposes of the 1940 Act. We invest at least 55% of our assets in whole pool Agency Securities that constitute qualifying assets in accordance with SEC staff guidance and at least 80% of our assets in qualifying assets plus other real estate related assets. Other real estate related assets would consist primarily of Agency Securities that are not whole pools, such as CMOs and CMBS. As a result of the foregoing restrictions, we are limited in our ability to make or dispose of certain investments. To the extent that the SEC staff publishes new or different guidance with respect to these matters, we may be required to adjust … [S70]
 
 ## Financial performance
 
@@ -342,6 +383,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-10-21, L790:
+
+> (1) During the nine months ended September 30, 2026, 500 RSUs were granted to our executive officers and other ACM employees and approximately 120 RSUs were granted to the Board. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -354,6 +399,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-10-21, L1411:
+
+> The forward-looking statements in this report are based on our beliefs, assumptions and expectations of our future performance, taking into account all information currently available to us. These beliefs, assumptions and expectations are subject to risks and uncertainties and can change as a result of many possible events or factors, not all of which are known to us. If a change occurs, our business, financial condition, liquidity and results of operations may vary materially from those expressed in our forward-looking statements. See Part II, Item 1A. "Risk Factors" of this Quarterly Report on Form 10-Q and Part I, Item 1A. "Risk Factors" of our most recent Annual Report on Form 10-K. You should carefully consider these risks before you make an investment decision with respect to our stock, along with the following factors that could cause actual results to vary from our forward-looking statements: [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -363,25 +412,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -425,6 +474,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001428205-26-000117](https://www.sec.gov/Archives/edgar/data/1428205/000142820526000117/0001428205-26-000117-index.html) — published 2026-10-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/6e1c8271c74cf7335265700a5a223e692b47544f/brain/companies/ARR/README.md).
+[S67] [10-Q 0001428205-26-000125](https://www.sec.gov/Archives/edgar/data/1428205/000142820526000125/arr-20260930.htm) — published 2026-10-21; retrieved 2026-11-14T18:44:38.689704+00:00.
+
+[S69] [DEF 14A 0001428205-26-000040](https://www.sec.gov/Archives/edgar/data/1428205/000142820526000040/arr-20260319.htm) — published 2026-03-19; retrieved 2026-11-14T18:44:36.764170+00:00.
+
+[S70] [10-K 0001428205-26-000029](https://www.sec.gov/Archives/edgar/data/1428205/000142820526000029/arr-20251231.htm) — published 2026-02-18; retrieved 2026-11-14T18:44:34.829109+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ARR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
