@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -387,6 +387,42 @@ sources:
   published_at: '2026-03-24'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033426001665/artl_8k.htm
+  title: 8-K 0001640334-26-001665
+  published_at: '2026-10-09'
+  retrieved_at: '2026-11-14T18:45:01.560650+00:00'
+  sha256: 6f60d837530fcfe7b68f17bfe71e87dd5e60b3c749c216c895d25daf09b3b575
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033426001400/artl_10qa.htm
+  title: 10-Q/A 0001640334-26-001400
+  published_at: '2026-08-20'
+  retrieved_at: '2026-11-14T18:44:59.936115+00:00'
+  sha256: aa83c0d254b576b5fa4ecf805e6810b77159f5f920e9e89ab886544e80907f08
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033426001323/artl_10q.htm
+  title: 10-Q 0001640334-26-001323
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-14T18:44:58.017298+00:00'
+  sha256: 89dafdb0264d8517b4db2b2f38dce42cb6711fb90a7233131605308f87a4fb01
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033426001007/artl_def14a.htm
+  title: DEF 14A 0001640334-26-001007
+  published_at: '2026-06-05'
+  retrieved_at: '2026-11-14T18:44:56.238625+00:00'
+  sha256: 4f6ca35da81a2776aa6e027e52e42dca70e7c6e42d880d0b66af484a0c6bf920
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033426000368/artl_10k.htm
+  title: 10-K 0001640334-26-000368
+  published_at: '2026-02-24'
+  retrieved_at: '2026-11-14T18:44:54.323376+00:00'
+  sha256: 8572c4515d92ae4faf88b0645c490948855be7b2db6a8bbb1994bdd0f788640e
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1621221/000164033417002100/artl_8ka.htm
+  title: 8-K/A 0001640334-17-002100
+  published_at: '2017-10-03'
+  retrieved_at: '2026-11-14T18:44:52.538692+00:00'
+  sha256: 70b7f4694eedf73fefc4f38a062aa0e1d5f411b146b3d164df1ce3a7a1204542
 issuer_classification:
   cik: '0001621221'
   classification_status: reported_sic
@@ -433,13 +469,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1621221/000164033417002100/0001640334-17-002100-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 2bf9032f5511ffab71e12d36a564d194254464fa121d43e92102c524b4f5a811
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -463,6 +509,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2086:
+
+> Businesses have been and will continue to be impacted by a number of challenging global and national events and circumstances that continue to evolve, including conflicts in Eastern Europe, the Middle East and in other areas, tariffs, trade disputes, extreme weather conditions, increased economic uncertainty, inflation, interest rate fluctuation, and any potential future financial institution failures. The extent of the impact of these events and circumstances on our business, operations and development timelines and plans remains uncertain, and will depend on certain developments, including the duration and scope of the events and their impact on our development activities, third-party manufacturers, and other third parties with whom we do business, as well as its impact on regulatory authorities and our key scientific and management personnel. We have been and continue to actively monitor the potential impacts that these various events and circumstances may have on our business, and we take steps, where warranted, to minimize any potential negative impacts on our business resulting from these events and circumstances. The ultimate impact of these global and national events and circumstances, either individually or in aggregate, is highly uncertain and subject to change. [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -471,9 +521,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-12, L3419:
+
+> the scope of protection we are able to establish and maintain for intellectual property rights covering our products and technology; [S55]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-24, L989:
+
+> Efforts to ensure that our current and future business arrangements with third parties will comply with applicable healthcare laws and regulations may involve substantial costs. It is possible that governmental authorities may conclude that some of our business practices, including our promotional activities and interactions with our customers do not comply with current or future statutes, regulations, agency guidance or case law involving applicable healthcare laws. If our operations are found to be in violation of any of these or any other health regulatory laws that may apply to us, we may be subject to significant penalties, including the imposition of significant civil, criminal and administrative penalties, damages, monetary fines, disgorgement, individual imprisonment, possible exclusion from participation in Medicare, Medicaid and other U.S. healthcare programs, additional integrity reporting and oversight obligations, contractual damages, reputational harm, diminished profits and future earnings, and curtailment or restructuring of our operations, any of which could adversely affect our ability to operate our business and our results of operations. Defending against any such actions can be costly, time-consuming and may require significant financial and personnel resources. Therefore, even if we are successful in defending against any such actions that may be brought … [S57]
 
 ## Industry and value chain
 
@@ -481,17 +539,33 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-24, L1332:
+
+> The Company may experience delays in providing sufficient product for future testing of our candidates due to prior and any future supply chain limitations caused by pandemics. [S57]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L2115:
+
+> The Company tests its intangible assets for impairment at least annually and whenever events or circumstances change that indicate impairment may have occurred. A significant amount of judgment is involved in determining if an indicator of impairment has occurred. Such indicators may include, among others and without limitation: a significant decline in the Company’s expected future cash flows; a sustained, significant decline in the Company’s stock price and market capitalization; a significant adverse change in legal factors or in the business climate of the Company’s segments; unanticipated competition; and slower growth rates. The Company determined that there was no impairment of its intangible assets at June 30, 2026, and December 31, 2025. [S55]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-12, L3419:
+
+> the scope of protection we are able to establish and maintain for intellectual property rights covering our products and technology; [S55]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-24, L747:
+
+> We intend to create, acquire, and develop a broad spectrum of therapeutics, each of which has the potential to modulate lipid signaling for human health. The principal scientific platforms of our strategy are as follows: [S57]
 
 ## Financial performance
 
@@ -505,6 +579,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L2088:
+
+> On June 12, 2025, the Company filed with the Secretary of State of the State of Nevada a Certificate of Change, pursuant to Nevada Revised Statutes 78.209, to effect a one-for-six (1-for-6) reverse stock split of the Company’s issued and outstanding common stock, par value $0.001 per share. The reverse stock split was effective as of 12:01 a.m. Eastern Time on June 13, 2025. Pursuant to the Nevada Revised Statutes 78.207, the Company’s board of directors has the authority to effect a reverse stock split without stockholder approval if the number of authorized shares of common stock and the number of outstanding shares of common stock are proportionally reduced. [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -516,6 +594,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-08-12, L3484:
+
+> In some cases, you can identify these statements by terms such as “anticipate,” “believe,” “could,” “estimate,” “expects,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “will,” “would” or the negative of these terms or other comparable expressions that convey uncertainty of future events or outcomes, although not all forward-looking statements contain these terms. These statements are only predictions. You should not place undue reliance on forward-looking statements because they involve known and unknown risks, uncertainties and other factors, which are, in some cases, beyond our control and which could materially affect results. Factors that may cause actual results to differ materially from current expectations include, among other things, those listed under Item 1A. “Risk Factors” in our Annual Report on Form 10-K. If one or more of these risks or uncertainties occur, or if our underlying assumptions prove to be incorrect, actual events or results may vary significantly from those implied or projected by the forward-looking statements. No forward-looking statement is a guarantee of future performance. [S55]
 
 ## Scenarios and open questions
 
@@ -529,25 +611,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -611,6 +693,10 @@ Latest 50 filing metadata records of 465 retained records. A filing link is evid
 | 2026-03-25 | EFFECT | 9999999995-26-000932 | — | [S50] |
 | 2026-03-25 | CORRESP | 0001640334-26-000547 | — | [S51] |
 | 2026-03-24 | S-1 | 0001640334-26-000543 | — | [S52] |
+
+Source excerpt — 10-Q/A, filed 2026-08-20, L106:
+
+> Except as described above, this Amendment makes no other changes to the Original Report. This Amendment does not reflect subsequent events occurring after the original filing of the Original Report or modify or update in any way those disclosures that may be affected by subsequent events. Accordingly, this Amendment should be read in conjunction with the Original Report and our other filings with the SEC. [S54]
 
 ## Sources and change log
 
@@ -717,5 +803,17 @@ Latest 50 filing metadata records of 465 retained records. A filing link is evid
 [S51] [CORRESP 0001640334-26-000547](https://www.sec.gov/Archives/edgar/data/1621221/000164033426000547/0001640334-26-000547-index.html) — published 2026-03-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [S-1 0001640334-26-000543](https://www.sec.gov/Archives/edgar/data/1621221/000164033426000543/0001640334-26-000543-index.html) — published 2026-03-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [8-K 0001640334-26-001665](https://www.sec.gov/Archives/edgar/data/1621221/000164033426001665/artl_8k.htm) — published 2026-10-09; retrieved 2026-11-14T18:45:01.560650+00:00.
+
+[S54] [10-Q/A 0001640334-26-001400](https://www.sec.gov/Archives/edgar/data/1621221/000164033426001400/artl_10qa.htm) — published 2026-08-20; retrieved 2026-11-14T18:44:59.936115+00:00.
+
+[S55] [10-Q 0001640334-26-001323](https://www.sec.gov/Archives/edgar/data/1621221/000164033426001323/artl_10q.htm) — published 2026-08-12; retrieved 2026-11-14T18:44:58.017298+00:00.
+
+[S56] [DEF 14A 0001640334-26-001007](https://www.sec.gov/Archives/edgar/data/1621221/000164033426001007/artl_def14a.htm) — published 2026-06-05; retrieved 2026-11-14T18:44:56.238625+00:00.
+
+[S57] [10-K 0001640334-26-000368](https://www.sec.gov/Archives/edgar/data/1621221/000164033426000368/artl_10k.htm) — published 2026-02-24; retrieved 2026-11-14T18:44:54.323376+00:00.
+
+[S58] [8-K/A 0001640334-17-002100](https://www.sec.gov/Archives/edgar/data/1621221/000164033417002100/artl_8ka.htm) — published 2017-10-03; retrieved 2026-11-14T18:44:52.538692+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

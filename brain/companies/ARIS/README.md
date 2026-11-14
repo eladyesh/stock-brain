@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -363,6 +363,18 @@ sources:
   published_at: '2025-10-07'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1964504/000175392626001974/g085995_6k.htm
+  title: 6-K 0001753926-26-001974
+  published_at: '2026-10-21'
+  retrieved_at: '2026-11-14T18:41:51.576023+00:00'
+  sha256: 2f3c82691def2ab2bbc0e70a4c6abd7830688ce0a087df630e809bb5aee12de4
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1964504/000196450426000012/aris-20251231_d2.htm
+  title: 40-F 0001964504-26-000012
+  published_at: '2026-03-11'
+  retrieved_at: '2026-11-14T18:41:49.897029+00:00'
+  sha256: c97b73e444337133f953757646a034c3a5c8cedd7df67eb44d79cd34cf7f3eb7
 issuer_classification:
   cik: 0001964504
   classification_status: reported_sic
@@ -390,13 +402,18 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1964504/000175392626001974/0001753926-26-001974-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 4effeec072bef4a6892fec44e541754c234f56dd18beddfade435b7f1acd17c1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - competitive-landscape
+  - industry-and-value-chain
+  - management-and-governance
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -424,6 +441,10 @@ Not available: a reviewed explanation of the business, products, customers and c
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 40-F, filed 2026-03-11, L208:
+
+> This Policy applies in the event of any restatement (“Restatement”) of the Company’s financial results due to its material non-compliance with financial reporting requirements under the securities laws. This Policy does not apply to restatements that are not caused by non-compliance with financial reporting requirements, such as, but not limited to, a retrospective: (1) application of a change in accounting principles; (2) revision to reportable segment information due to a change in the structure of the Company’s internal organization; (3) reclassification due to a discontinued operation; (4) application of a change in reporting entity, such as from a reorganization of entities under common control; (5) adjustment to provision amounts in connection with a prior business combination; and (6) revision for stock splits, reverse stock splits, dividends or other changes in capital structure (collectively the “Restatement Exclusions”). [S54]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
@@ -438,9 +459,17 @@ SEC-reported SIC **1040**: Gold and Silver Ores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 40-F, filed 2026-03-11, L76:
+
+> Certain statements in this annual report on Form 40-F of Aris Mining Corporation (“the Company” or “Aris Mining”) constitute forward-looking information. Often, but not always, forward-looking statements use words or phrases such as: “anticipate”, “believe”, “continue”, “estimate”, “expect”, “future”, “goal”, “guidance”, “intend”, “likely”, “objective”, “opportunity”, “plan”, “possible”, “potential”, “probable”, “project”, “target” or state that certain actions, events or results “may”, “could”, “would”, “might” or “will” be taken, occur or be achieved. Such forward-looking statements, include but are not limited to statements with respect to local environmental and regulatory requirements and delays in obtaining required environmental and other licenses, changes in national and local government legislation, taxation, controls, regulations and political or economic developments, uncertainties and hazards associated with gold exploration, development and mining, risks associated with tailings and water management, risks associated with costs, supply chain disruptions, and financial risks due to changes in tariffs, trade policies, international trade disputes, or regulatory shifts, risks associated with operating in foreign jurisdictions, risks associated with capital and operating cost estimates, dependence of operations on construction and maintenance of adequate … [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 40-F, filed 2026-03-11, L76:
+
+> Certain statements in this annual report on Form 40-F of Aris Mining Corporation (“the Company” or “Aris Mining”) constitute forward-looking information. Often, but not always, forward-looking statements use words or phrases such as: “anticipate”, “believe”, “continue”, “estimate”, “expect”, “future”, “goal”, “guidance”, “intend”, “likely”, “objective”, “opportunity”, “plan”, “possible”, “potential”, “probable”, “project”, “target” or state that certain actions, events or results “may”, “could”, “would”, “might” or “will” be taken, occur or be achieved. Such forward-looking statements, include but are not limited to statements with respect to local environmental and regulatory requirements and delays in obtaining required environmental and other licenses, changes in national and local government legislation, taxation, controls, regulations and political or economic developments, uncertainties and hazards associated with gold exploration, development and mining, risks associated with tailings and water management, risks associated with costs, supply chain disruptions, and financial risks due to changes in tariffs, trade policies, international trade disputes, or regulatory shifts, risks associated with operating in foreign jurisdictions, risks associated with capital and operating cost estimates, dependence of operations on construction and maintenance of adequate … [S54]
 
 ## Moat and differentiation
 
@@ -462,6 +491,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-11, L74:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -473,6 +506,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 40-F, filed 2026-03-11, L76:
+
+> Certain statements in this annual report on Form 40-F of Aris Mining Corporation (“the Company” or “Aris Mining”) constitute forward-looking information. Often, but not always, forward-looking statements use words or phrases such as: “anticipate”, “believe”, “continue”, “estimate”, “expect”, “future”, “goal”, “guidance”, “intend”, “likely”, “objective”, “opportunity”, “plan”, “possible”, “potential”, “probable”, “project”, “target” or state that certain actions, events or results “may”, “could”, “would”, “might” or “will” be taken, occur or be achieved. Such forward-looking statements, include but are not limited to statements with respect to local environmental and regulatory requirements and delays in obtaining required environmental and other licenses, changes in national and local government legislation, taxation, controls, regulations and political or economic developments, uncertainties and hazards associated with gold exploration, development and mining, risks associated with tailings and water management, risks associated with costs, supply chain disruptions, and financial risks due to changes in tariffs, trade policies, international trade disputes, or regulatory shifts, risks associated with operating in foreign jurisdictions, risks associated with capital and operating cost estimates, dependence of operations on construction and maintenance of adequate … [S54]
 
 ## Scenarios and open questions
 
@@ -486,22 +523,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -674,5 +711,9 @@ Latest 50 filing metadata records of 137 retained records. A filing link is evid
 [S51] [6-K 0001279569-25-001147](https://www.sec.gov/Archives/edgar/data/1964504/000127956925001147/0001279569-25-001147-index.html) — published 2025-10-23; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001279569-25-001099](https://www.sec.gov/Archives/edgar/data/1964504/000127956925001099/0001279569-25-001099-index.html) — published 2025-10-07; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001753926-26-001974](https://www.sec.gov/Archives/edgar/data/1964504/000175392626001974/g085995_6k.htm) — published 2026-10-21; retrieved 2026-11-14T18:41:51.576023+00:00.
+
+[S54] [40-F 0001964504-26-000012](https://www.sec.gov/Archives/edgar/data/1964504/000196450426000012/aris-20251231_d2.htm) — published 2026-03-11; retrieved 2026-11-14T18:41:49.897029+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

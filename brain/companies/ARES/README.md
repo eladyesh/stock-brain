@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,30 @@ sources:
   published_at: '2026-02-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1176948/000162828026063870/ares-20260930.htm
+  title: 8-K 0001628280-26-063870
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-14T18:41:15.855107+00:00'
+  sha256: 9b5ab123e3c6a242408dbd20565c7c3924573e25396d4a0aa0de983fd5f24964
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm
+  title: 10-Q 0001628280-26-054538
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-14T18:41:13.653885+00:00'
+  sha256: 7faeb5bde476c6b9d2c59bcd6e6c8b39fcd0ae2e8ac22fcfc8e81faff3a87811
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1176948/000162828026026286/ares-20260420.htm
+  title: DEF 14A 0001628280-26-026286
+  published_at: '2026-04-21'
+  retrieved_at: '2026-11-14T18:41:11.334385+00:00'
+  sha256: e98110c9f21aa6fe58b682ea8af02b412df6aeaf67382c483a067dbfd68114a0
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1176948/000162828026011413/ares-20251231.htm
+  title: 10-K 0001628280-26-011413
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-14T18:41:09.032331+00:00'
+  sha256: 2f22da08b5571f0dca7a826d8f0ad6b616c64fac8b2945e9ea3ac379e5f7a76b
 issuer_classification:
   cik: 0001176948
   classification_status: reported_sic
@@ -506,13 +530,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1176948/000162828026063870/0001628280-26-063870-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f22ea48c5a810b0dcfdf093d2844682d75bca2a47c45b84fa0d8391effd5d08d
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -536,13 +570,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L2466:
+
+> We believe that our disciplined investment philosophy across our distinct but complementary investment groups contributes to the stability of our performance throughout market cycles. For the three months ended June 30, 2026, 94% of our management fees were derived from perpetual capital vehicles or long-dated funds. Our funds have a stable base of committed capital enabling us to invest in assets with a long-term focus over different points in a market cycle and to take advantage of market volatility. However, our results from operations, including the fair value of our AUM, are affected by a variety of factors. Conditions in the global financial markets and economic and political environments may impact our business, particularly in the U.S., Europe and Asia-Pacific (“APAC”). [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-07, L3058:
+
+> The following table sets forth FRE and RI by reportable segment and the OMG ($ in thousands): [S68]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-02-25, L224:
+
+> Ares is a leading global alternative investment manager with $622.5 billion of assets under management and over 4,250 employees in over 55 offices in more than 25 countries. We offer our investors a range of investment strategies and seek to deliver attractive performance to an investor base that includes over 2,850 direct institutional relationships and a significant retail investor base across our publicly-traded funds, sub-advised accounts and perpetual wealth vehicles. Since our inception in 1997, we have adhered to a disciplined investment philosophy that focuses on delivering strong risk-adjusted investment returns through market cycles. Ares believes each of its distinct but complementary investment groups in Credit, Real Assets, Secondaries and Private Equity is a market leader based on assets under management and investment performance. We believe we create value for our stakeholders not only through our investment performance, but also by expanding our product offerings, enhancing our distribution channels, increasing our global presence, investing in our non-investment functions, securing strategic partnerships and completing strategic acquisitions and portfolio purchases. [S70]
 
 ## Customers and end markets
 
@@ -554,17 +600,33 @@ SEC-reported SIC **6282**: Investment Advice. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-25, L224:
+
+> Ares is a leading global alternative investment manager with $622.5 billion of assets under management and over 4,250 employees in over 55 offices in more than 25 countries. We offer our investors a range of investment strategies and seek to deliver attractive performance to an investor base that includes over 2,850 direct institutional relationships and a significant retail investor base across our publicly-traded funds, sub-advised accounts and perpetual wealth vehicles. Since our inception in 1997, we have adhered to a disciplined investment philosophy that focuses on delivering strong risk-adjusted investment returns through market cycles. Ares believes each of its distinct but complementary investment groups in Credit, Real Assets, Secondaries and Private Equity is a market leader based on assets under management and investment performance. We believe we create value for our stakeholders not only through our investment performance, but also by expanding our product offerings, enhancing our distribution channels, increasing our global presence, investing in our non-investment functions, securing strategic partnerships and completing strategic acquisitions and portfolio purchases. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-25, L506:
+
+> We face competition both in the pursuit of fund investors and investment opportunities. Generally, our competition varies across business lines, geographies and financial markets. We compete for outside investors based on a variety of factors, including investment performance, investor perception of investment managers’ drive, focus and alignment of interest, quality of service provided to and duration of relationship with investors, breadth of our product offering, business reputation and the level of fees and expenses charged for services. We compete for investment opportunities both at our funds and for strategic acquisitions by us based on a variety of factors, including breadth of market coverage and relationships, access to capital, transaction execution skills, the range of products and services offered, innovation and price. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-25, L507:
+
+> We face competition in our direct lending, trading, acquisitions and other investment activities primarily from traditional asset managers, business development companies, specialized funds, investment managers and other financial institutions, and we expect that competition will continue to increase. Many of these competitors in some of our businesses are substantially larger and have considerably greater financial, technical and marketing resources than are available to us. Many of these competitors have similar investment objectives to us, which may create additional competition for investment opportunities. Some of these competitors may also have a lower cost of capital and access to funding sources that are not available to us, which may create competitive disadvantages for us with respect to investment opportunities. In addition, some of these competitors may have higher risk tolerances, different risk assessments or lower return thresholds, which could allow them to consider a wider variety of investments and to bid more aggressively than us for investments that we want to make. Corporate buyers may be able to achieve synergistic cost savings with regard to an investment that may provide them with a competitive advantage in bidding for an investment. Additionally, institutional and individual investors are allocating increasing amounts of capital to alternative … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 8-K, filed 2026-09-30, L54:
+
+> Statements included herein contain forward-looking statements within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act, which reflect our current views with respect to realized net performance income. You can identify these forward-looking statements by the use of forward-looking words such as “outlook,” “believes,” “expects,” “potential,” “continues,” “may,” “will,” “should,” “seeks,” “predicts,” “intends,” “plans,” “estimates,” “anticipates,” “foresees” or negative versions of those words, other comparable words or other statements that do not relate to historical or factual matters. The forward-looking statements are based on our beliefs, assumptions and expectations of our future performance, taking into account all information currently available to us. Such forward-looking statements are subject to various risks and uncertainties and assumptions relating to our operations, financial results, financial condition, business prospects, growth strategy and liquidity. Actual results may vary materially from those indicated in these forward-looking statements as a result of a number of factors, including those described from time to time in our filings with the Securities and Exchange Commission. The Company does not undertake any obligation to publicly update or review any forward-looking statement, whether as a result of new information, … [S67]
 
 ## Financial performance
 
@@ -1173,6 +1235,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L135:
+
+> Under generally accepted accounting principles in the United States (“U.S.”) (“GAAP”), we are required to consolidate (i) entities other than limited partnerships and entities similar to limited partnerships in which we hold a majority voting interest or have majority ownership and control over the operational, financial and investing decisions of that entity, including Ares-affiliates and affiliated funds and co-investment vehicles, for which we are presumed to have controlling financial interests, and (ii) entities that we concluded are variable interest entities (“VIEs”), including limited partnerships and collateralized loan obligations, for which we are deemed to be the primary beneficiary. When an entity is consolidated, we reflect the assets, liabilities, revenues, expenses and cash flows of the entity in our unaudited condensed consolidated financial statements on a gross basis, subject to eliminations from consolidation, including the elimination of the management fees, carried interest, incentive fees and other fees that we earn from the entity. However, the presentation of performance related compensation and other expenses associated with generating such revenues is not affected by the consolidation process. In addition, as a result of the consolidation process, the net income attributable to third-party investors in consolidated entities is presented as net income … [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1185,6 +1251,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L132:
+
+> This report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which reflect our current views with respect to, among other things, future events, operations and financial performance. You can identify these forward-looking statements by the use of forward-looking words such as “outlook,” “believes,” “expects,” “potential,” “continues,” “may,” “will,” “should,” “seeks,” “predicts,” “intends,” “plans,” “estimates,” “anticipates,” “foresees” or negative versions of those words, other comparable words or other statements that do not relate to historical or factual matters. The forward-looking statements are based on our beliefs, assumptions and expectations of our future performance, taking into account all information currently available to us. Such forward-looking statements are subject to various risks and uncertainties and assumptions relating to our operations, financial results, financial condition, business prospects, growth strategy and liquidity. Some of these factors are described in this report and in our Annual Report on Form 10-K for the year ended December 31, 2025, under the headings “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations” and “Item 1A. … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1194,25 +1264,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1276,6 +1346,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-03 | 4 | 0001756898-26-000004 | — | [S64] |
 | 2026-02-03 | 4 | 0001576312-26-000002 | — | [S65] |
 | 2026-02-03 | 4 | 0001304471-26-000002 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-07, L2455:
+
+> The Company evaluated all events or transactions that occurred after June 30, 2026 through the date the unaudited condensed consolidated financial statements were issued. During this period, the Company had the following material subsequent events that require disclosure: [S68]
 
 ## Sources and change log
 
@@ -1410,5 +1484,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001576312-26-000002](https://www.sec.gov/Archives/edgar/data/1176948/000157631226000002/0001576312-26-000002-index.html) — published 2026-02-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001304471-26-000002](https://www.sec.gov/Archives/edgar/data/1176948/000130447126000002/0001304471-26-000002-index.html) — published 2026-02-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001628280-26-063870](https://www.sec.gov/Archives/edgar/data/1176948/000162828026063870/ares-20260930.htm) — published 2026-09-30; retrieved 2026-11-14T18:41:15.855107+00:00.
+
+[S68] [10-Q 0001628280-26-054538](https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm) — published 2026-08-07; retrieved 2026-11-14T18:41:13.653885+00:00.
+
+[S69] [DEF 14A 0001628280-26-026286](https://www.sec.gov/Archives/edgar/data/1176948/000162828026026286/ares-20260420.htm) — published 2026-04-21; retrieved 2026-11-14T18:41:11.334385+00:00.
+
+[S70] [10-K 0001628280-26-011413](https://www.sec.gov/Archives/edgar/data/1176948/000162828026011413/ares-20251231.htm) — published 2026-02-25; retrieved 2026-11-14T18:41:09.032331+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -467,6 +467,30 @@ sources:
   published_at: '2026-03-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1736946/000173694626000058/arlo-20260806.htm
+  title: 8-K 0001736946-26-000058
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:42:47.743422+00:00'
+  sha256: 5f06210e1e6298655a873e257c32e4751b9a97a22ff7b580ebd2aac2f7247efe
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1736946/000173694626000060/arlo-20260628.htm
+  title: 10-Q 0001736946-26-000060
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:42:49.536246+00:00'
+  sha256: 75bf60f632be16ebe0ea41d1d9b45cd00217b5a35fc54657b4dc67a5733cb626
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1736946/000114036126016680/ny20064332x1_def14a.htm
+  title: DEF 14A 0001140361-26-016680
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-14T18:42:45.933985+00:00'
+  sha256: 2b00713a47308a56ab355437bd24dbcd81226a1fd66a92f9d1738382fcb20ce8
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1736946/000173694626000031/arlo-20251231.htm
+  title: 10-K 0001736946-26-000031
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-14T18:42:44.091726+00:00'
+  sha256: 885becd780a98094503aad3d755232c0115baf371db9e94f94325cf097062489
 issuer_classification:
   cik: 0001736946
   classification_status: reported_sic
@@ -504,13 +528,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1736946/000173694626000058/0001736946-26-000058-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 03905c7d87b831a7a41c05af03d95f6ef15723bc33588a231ec68d96ac3f8930
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 6
   model_draft: false
   reviewed: false
@@ -534,17 +569,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L445:
+
+> We disaggregate our revenue into three geographic regions: the Americas, EMEA, and APAC, where we conduct our business. The following table presents revenue disaggregated by geographic region. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L898:
+
+> We operate as one operating and reportable segment. Our Chief Executive Officer (“CEO”) is identified as the Chief Operating Decision Maker (“CODM”), who reviews financial information presented on a consolidated basis and considers budget-to-actual variances quarterly for allocation of operating and capital resources and evaluation of financial performance. The CODM does not review segment assets at a different asset level and category. The consolidated net income (loss) is the measure of segment net income (loss) that is most consistent with U.S. GAAP. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L407:
+
+> Revenue from all sales is recognized at transaction price, the amount we expect to be entitled to in exchange for providing services or transferring goods. Transaction price is calculated as selling price net of variable consideration which includes estimates for sales incentives and sales returns related to current period products revenue. Sales incentives are determined based on a combination of the actual amounts committed and estimated future expenditure based upon historical customary business practice. Sales returns are estimated by analyzing certain factors, including historical sales and returns data, channel inventory levels, current economic trends, and changes in customer demand for our products. Variable consideration estimates are based on predictive historical data or future commitments that we plan and control. However, we continue to assess variable consideration estimates such that it is probable that a significant reversal of revenue will not occur. The following tables provide activities related to sales incentives and sales returns that are recognized as contra-revenue. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-24, L1374:
+
+> Over the past several years, we have significantly accelerated our subscription-based business through expanded data and application-driven solutions offerings. This transition has been guided by our desire to enhance the customer experience and maximize the value proposition that we provide our customers. By transforming our business model and SaaS solutions portfolio to focus on data-driven insights and the application experience, we offer customers the value and convenience of a consolidated full stack solution, while providing stockholders with the confidence that the majority of our business is generated from a stable, recurring and predictable revenue model. We believe the industry is just beginning the mass-market adoption phase which provides a large runway for growth by efficiently executing on the delivery of smart-security solutions to homes and businesses both through our retail channel partners as well as our strategic partnerships. [S69]
 
 ## Industry and value chain
 
@@ -552,17 +603,33 @@ SEC-reported SIC **7381**: Services-Detective, Guard & Armored Car Services. [S0
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L757:
+
+> As of June 28, 2026, an additional $32.8 million of purchase orders beyond contractual termination periods have been issued to supply chain partners in anticipation of demand requirements. Consequently, we may incur expenses for the materials and components, such as chipsets already purchased by the supplier to fulfill our orders if the purchase order is cancelled. Expenses incurred have historically not been material relative to the original order value. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-24, L4472:
+
+> We purposely set these targets at rigorous levels. Revealing these metrics, including the reasoning for setting targets at specific levels, could potentially reveal sensitive information about our strategic objectives that our competitors could use against us in the marketplace for similar products. We believe each of these target levels was challenging but attainable under assumed conditions if we continued to deliver outstanding operational and financial results. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L765:
+
+> We are, and from time to time, we may become involved in disputes, litigation, and other legal actions in the ordinary course of business. At each reporting period, we evaluate whether or not a potential loss amount or a potential range of loss is probable and reasonably estimable under the provisions of the authoritative guidance that addresses accounting for contingencies. Significant judgment is required to determine both the probability and the estimated amount of loss. In such cases, we accrue for the amount or, if a range, we accrue the low end of the range, only if there is not a better estimate than any other amount within the range, as litigation reserves in other operating expense on the unaudited condensed consolidated statements of operations and comprehensive income (loss). We monitor developments in these legal matters that could affect the estimate we had previously accrued. We currently believe that there are no existing claims or proceedings that are likely to have a material adverse effect on our financial position within the next 12 months. There are many uncertainties associated with any litigation, and these actions or other third-party claims against us may cause us to incur costly litigation and/or substantial settlement charges. In addition, the resolution of any intellectual property litigation may require us to make royalty payments, which could have … [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L465:
+
+> On March 11, 2026, we entered into and simultaneously closed an Asset Purchase Agreement with Canary Connect, Inc. (“Canary”), a New York-based Internet of Things (“IoT”) company that designs and sells smart home security devices and SaaS solutions. The purpose of this transaction is to expand our presence in the AI-driven smart home security market. The transaction is accounted for as a business combination in accordance with ASC 805, Business Combinations. As a result of the transaction, we obtained control of Canary by obtaining the ability to direct its ongoing operations and to receive substantially all of the economic benefits associated with Canary. [S68]
 
 ## Financial performance
 
@@ -1180,6 +1247,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L705:
+
+> During the first fiscal quarter of 2026, we sold our investment in connection with a privately held company’s acquisition by a public company. This investment was accounted for as an equity security without a readily determinable fair value and was measured at cost, less impairment, adjusted for observable price changes in orderly transactions for the identical or similar investment in the same issuer in accordance with ASC 321, Investments-Equity Securities. Upon completion of the sale, we received total cash proceeds of $18.9 million and recognized a realized gain of $6.4 million, representing the excess of proceeds received over the carrying value of the investment. The gain from the sale of the investment is included in other income (expense), net on the unaudited condensed consolidated statements of operations and comprehensive income (loss). Our Chief Executive Officer served on the board of directors of the privately held company and, as a result, the investee is considered a related party and the sale of our investment is a related party transaction. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1192,6 +1263,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L765:
+
+> We are, and from time to time, we may become involved in disputes, litigation, and other legal actions in the ordinary course of business. At each reporting period, we evaluate whether or not a potential loss amount or a potential range of loss is probable and reasonably estimable under the provisions of the authoritative guidance that addresses accounting for contingencies. Significant judgment is required to determine both the probability and the estimated amount of loss. In such cases, we accrue for the amount or, if a range, we accrue the low end of the range, only if there is not a better estimate than any other amount within the range, as litigation reserves in other operating expense on the unaudited condensed consolidated statements of operations and comprehensive income (loss). We monitor developments in these legal matters that could affect the estimate we had previously accrued. We currently believe that there are no existing claims or proceedings that are likely to have a material adverse effect on our financial position within the next 12 months. There are many uncertainties associated with any litigation, and these actions or other third-party claims against us may cause us to incur costly litigation and/or substantial settlement charges. In addition, the resolution of any intellectual property litigation may require us to make royalty payments, which could have … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1201,25 +1276,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1283,6 +1358,10 @@ Latest 50 filing metadata records of 591 retained records. A filing link is evid
 | 2026-03-12 | 4 | 0001654737-26-000008 | — | [S64] |
 | 2026-03-12 | 4 | 0001654733-26-000007 | — | [S65] |
 | 2026-03-05 | 4 | 0001654737-26-000007 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-24, L8474:
+
+> The charter of the Audit Committee requires the Audit Committee to submit its appointment of Deloitte as our independent registered public accounting firm to the stockholders for their non-binding ratification. If the stockholders fail to ratify the appointment, the Audit Committee will reconsider whether or not to retain that firm. Even if the appointment is ratified, the Audit Committee in its discretion may direct the appointment of different independent auditors at any time during the year if they determine that such a change would be in the best interests of us and our stockholders. [S69]
 
 ## Sources and change log
 
@@ -1417,5 +1496,13 @@ Latest 50 filing metadata records of 591 retained records. A filing link is evid
 [S65] [4 0001654733-26-000007](https://www.sec.gov/Archives/edgar/data/1736946/000165473326000007/0001654733-26-000007-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001654737-26-000007](https://www.sec.gov/Archives/edgar/data/1736946/000165473726000007/0001654737-26-000007-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001736946-26-000058](https://www.sec.gov/Archives/edgar/data/1736946/000173694626000058/arlo-20260806.htm) — published 2026-08-06; retrieved 2026-11-14T18:42:47.743422+00:00.
+
+[S68] [10-Q 0001736946-26-000060](https://www.sec.gov/Archives/edgar/data/1736946/000173694626000060/arlo-20260628.htm) — published 2026-08-06; retrieved 2026-11-14T18:42:49.536246+00:00.
+
+[S69] [DEF 14A 0001140361-26-016680](https://www.sec.gov/Archives/edgar/data/1736946/000114036126016680/ny20064332x1_def14a.htm) — published 2026-04-24; retrieved 2026-11-14T18:42:45.933985+00:00.
+
+[S70] [10-K 0001736946-26-000031](https://www.sec.gov/Archives/edgar/data/1736946/000173694626000031/arlo-20251231.htm) — published 2026-02-27; retrieved 2026-11-14T18:42:44.091726+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

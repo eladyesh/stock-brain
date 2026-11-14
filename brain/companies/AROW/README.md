@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -458,6 +458,48 @@ sources:
   published_at: '2026-05-21'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000127/arow-20260701.htm
+  title: 8-K/A 0000717538-26-000127
+  published_at: '2026-09-14'
+  retrieved_at: '2026-11-14T18:43:55.602427+00:00'
+  sha256: c7ae20b19f3467b3bc5de88b3a7e9b562d8aeec8a6ed9a9bf8da7cfe9c859593
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000123/arow-20260910.htm
+  title: 8-K 0000717538-26-000123
+  published_at: '2026-09-10'
+  retrieved_at: '2026-11-14T18:43:54.040584+00:00'
+  sha256: a0e270493632ed47187b3ef3cb901614e7f0429171da388dfa66496f11a7fb80
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000117/arow-20260630.htm
+  title: 10-Q 0000717538-26-000117
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-14T18:43:51.886255+00:00'
+  sha256: 13e8cfcf37fc6cc4ff82e9062b5bc89d898ea8c48a66f9a56e98688b5f5c4a85
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000045/arow-20260423.htm
+  title: DEF 14A 0000717538-26-000045
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-14T18:43:49.575143+00:00'
+  sha256: 89d061ee0ea4633122e91a179b95ccb813fea12b3516b7aa47094a41dd0e9730
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000041/arow-20251231.htm
+  title: 10-K/A 0000717538-26-000041
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-14T18:43:47.623040+00:00'
+  sha256: d63100c30db88b84f6f43249c0f6cc62b36e0b00f903eb58d649bd333b203e83
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753826000037/arow-20251231.htm
+  title: 10-K 0000717538-26-000037
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-14T18:43:45.461011+00:00'
+  sha256: 53b68600258ebdd3407b056882d296336e2723e76e79b516b457812b773d7bbd
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/717538/000071753817000123/form8-kasayonpay.htm
+  title: 8-K/A 0000717538-17-000123
+  published_at: '2017-08-01'
+  retrieved_at: '2026-11-14T18:43:43.742989+00:00'
+  sha256: a3d900d83be3340150d8515454caaab5770caf409995cf7476b0a3880af602c7
 issuer_classification:
   cik: 0000717538
   classification_status: reported_sic
@@ -508,13 +550,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/717538/000071753817000123/0000717538-17-000123-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7a667bdee21a636c75274cb522bb476915d75631041becfd072c1642ab447612
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -538,17 +590,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2856:
+
+> There have been no material changes in the risk factors set forth in Arrow's Annual Report on Form 10-K for the year ended December 31, 2025, as filed with the Securities and Exchange Commission. Additional risks not presently known to us, or that we currently deem immaterial, may adversely affect our business, financial condition, or results of operations. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1872:
+
+> All of the Company's financial results are considered by the Executive Management Team to be aggregated into one reportable segment which is community banking. While the Company does designate management responsibilities by certain business-lines, the Company's CODM evaluates financial performance on a Company-wide basis. The primary source of Arrow's revenue is from its community banking operation. All of Arrow's designated business lines have either similar characteristics, products and services, or are complementary products. Therefore, the operations of the Company are managed and considered by the Executive Management Team as one reportable segment. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-04-23, L732:
+
+> The starting point for our peer group analysis is the New York Bankers Association ("NYBA") Pearl Meyer Survey Report, supplemented by additional data from appropriate peers based on comparable attributes such as size, product offerings and geographical location. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-23, L28:
+
+> As we reflect on 2025, Arrow Financial Corporation delivered a year of disciplined execution, strong financial performance and meaningful progress on our strategic priorities. This was our first full year operating as Arrow Bank National Association®, or Arrow Bank™, and the successful integration of our former subsidiary banks marked an important milestone. In July, we completed the “One Bank Weekend” conversion and officially launched our unified brand on all platforms. This effort, years in the making, brought our people, systems and identity together under one name, one mission and one commitment to serving our customers and communities. [S68]
 
 ## Industry and value chain
 
@@ -560,13 +628,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L570:
+
+> •The effect of other external factors such as the regulatory, legal and technological environments; competition; and events such as natural disasters; [S67]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-06, L362:
+
+> In particular the use or implementation of artificial intelligence (AI) applications and generative AI technologies are a recent example of an emerging technology providing significant value to operations and service that also present additional risks for consideration. AI models may rely on complex algorithms and vast datasets. Errors, biases, or generating false information in these models, or unexpected system failures, could lead to flawed decisions, financial losses, compliance failures, or degraded customer experiences, impacting profitability and client retention. AI systems also may process sensitive customer data, and security breaches or unauthorized access to these systems could result in data theft, loss of intellectual property, and significant penalties and damages to customer trust. In addition to risks associated with direct adoption of AI applications by us, we face the risk of associates utilizing unauthorized publicly sourced AI tools to complete business functions. Unauthorized use of AI tools could lead to the unintended exposure of confidential data, use of inaccurate results, and a number of other risks. Additionally, third-party service providers are quickly embedding AI capabilities in their technology to provide more robust and efficient services. Some embedded AI capabilities could risk the exposure of confidential company data if being used in a … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-23, L28:
+
+> As we reflect on 2025, Arrow Financial Corporation delivered a year of disciplined execution, strong financial performance and meaningful progress on our strategic priorities. This was our first full year operating as Arrow Bank National Association®, or Arrow Bank™, and the successful integration of our former subsidiary banks marked an important milestone. In July, we completed the “One Bank Weekend” conversion and officially launched our unified brand on all platforms. This effort, years in the making, brought our people, systems and identity together under one name, one mission and one commitment to serving our customers and communities. [S68]
 
 ## Financial performance
 
@@ -1178,6 +1258,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1422:
+
+> The LTIP provides for the grant of incentive stock options, non-qualified stock options, restricted stock awards, restricted stock units, performance units and performance shares. The Compensation Committee of the Board of Directors administers the LTIP. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1190,6 +1274,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L556:
+
+> Arrow utilizes regression analyses of peer data where observed credit losses and selected economic factors were utilized to determine suitable loss drivers for modeling lifetime probability of default (PD) rates. Arrow uses the discounted cash flow (DCF) method to estimate expected credit losses for the commercial, commercial real estate, and residential segments. For each of these loan segments, Arrow generates cash flow projections at the instrument level wherein payment expectations are adjusted for estimated prepayment speed, curtailments, time to recovery, PD, and segment-specific loss given default (LGD) risk factors. The modeling of expected prepayment speeds, curtailment rates, and time to recovery are based on historical internal data and adjusted, if necessary, based on the reasonable and supportable forecast of economic conditions. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1199,25 +1287,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1281,6 +1369,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-06-01 | 8-K | 0000717538-26-000070 | — | [S62] |
 | 2026-05-27 | 4 | 0001575917-26-000006 | — | [S63] |
 | 2026-05-21 | 4 | 0002044126-26-000016 | — | [S64] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L1875:
+
+> The Company evaluated subsequent events through August 6, 2026, the date the consolidated financial statements were issued. On July 1, 2026, Arrow completed its acquisition of Adirondack Bancorp, Inc. (“Adirondack”), the parent company of Adirondack Bank, a New York-chartered community bank. At the effective time, Adirondack Bank merged into Arrow Bank. Arrow expects systems conversion and other integration activities to be completed later in 2026. [S67]
 
 ## Sources and change log
 
@@ -1411,5 +1503,19 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S63] [4 0001575917-26-000006](https://www.sec.gov/Archives/edgar/data/717538/000157591726000006/0001575917-26-000006-index.html) — published 2026-05-27; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S64] [4 0002044126-26-000016](https://www.sec.gov/Archives/edgar/data/717538/000204412626000016/0002044126-26-000016-index.html) — published 2026-05-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S65] [8-K/A 0000717538-26-000127](https://www.sec.gov/Archives/edgar/data/717538/000071753826000127/arow-20260701.htm) — published 2026-09-14; retrieved 2026-11-14T18:43:55.602427+00:00.
+
+[S66] [8-K 0000717538-26-000123](https://www.sec.gov/Archives/edgar/data/717538/000071753826000123/arow-20260910.htm) — published 2026-09-10; retrieved 2026-11-14T18:43:54.040584+00:00.
+
+[S67] [10-Q 0000717538-26-000117](https://www.sec.gov/Archives/edgar/data/717538/000071753826000117/arow-20260630.htm) — published 2026-08-06; retrieved 2026-11-14T18:43:51.886255+00:00.
+
+[S68] [DEF 14A 0000717538-26-000045](https://www.sec.gov/Archives/edgar/data/717538/000071753826000045/arow-20260423.htm) — published 2026-04-23; retrieved 2026-11-14T18:43:49.575143+00:00.
+
+[S69] [10-K/A 0000717538-26-000041](https://www.sec.gov/Archives/edgar/data/717538/000071753826000041/arow-20251231.htm) — published 2026-03-27; retrieved 2026-11-14T18:43:47.623040+00:00.
+
+[S70] [10-K 0000717538-26-000037](https://www.sec.gov/Archives/edgar/data/717538/000071753826000037/arow-20251231.htm) — published 2026-03-06; retrieved 2026-11-14T18:43:45.461011+00:00.
+
+[S71] [8-K/A 0000717538-17-000123](https://www.sec.gov/Archives/edgar/data/717538/000071753817000123/form8-kasayonpay.htm) — published 2017-08-01; retrieved 2026-11-14T18:43:43.742989+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

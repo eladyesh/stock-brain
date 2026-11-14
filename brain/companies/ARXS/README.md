@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -362,6 +362,18 @@ sources:
   published_at: '2025-11-24'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S52
+  url: https://www.sec.gov/Archives/edgar/data/2093536/000119312526354774/arxs-20260818.htm
+  title: 8-K 0001193125-26-354774
+  published_at: '2026-08-18'
+  retrieved_at: '2026-11-14T18:46:36.014363+00:00'
+  sha256: 4ada3278b55a7bf1e32f94b5cb00c78036e2ce90578be8c158ac39d71134a38c
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/2093536/000119312526325027/arxs-20260630.htm
+  title: 10-Q 0001193125-26-325027
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-14T18:46:34.212446+00:00'
+  sha256: 0f1096581776dee4fca145d9c1a16efe1c8fa185ec38e114ac5672664bb78ae5
 issuer_classification:
   cik: 0002093536
   classification_status: reported_sic
@@ -390,13 +402,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2093536/000119312526354774/0001193125-26-354774-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 00d0d9e9103afac0cddefa8f221661d4499c615c5df145b397ae81e7f4016462
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -420,17 +442,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5632:
+
+> As of June 30, 2026 and December 31, 2025, $44,867 and $45,015, respectively, were accrued for these environmental investigation and remediation activities in Other long-term liabilities. The aggregate undiscounted amount has been accrued because it represents the Company’s best estimate of the cost, but the timing of payments is not considered to be fixed and reliably determinable. There can be no assurance that this matter would not have an adverse impact on our business, financial condition, results of operations and/or cash flows. [S53]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L3496:
+
+> The Company has two reportable segments, Electronic Components and Mechanical Components. The Company’s segment reporting structure is consistent with how the Chief Operating Decision Maker ("CODM") reviews the business, makes investment and resource-allocation decisions, and assesses operating performance. [S53]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5974:
+
+> This Quarterly Report on Form 10-Q, including the exhibits being filed as part of this report, as well as other statements made by Arxis, Inc. (“Arxis,” the “Company,” “we,” “us” and “our”), contain forward-looking statements that reflect, when made, the Company’s current views with respect to current events, certain investments and acquisitions and financial performance. Such forward-looking statements are subject to many risks, uncertainties and factors relating to the Company’s operations and business environment, which may cause the actual results of the Company to be materially different from any future results, express or implied, by such forward-looking statements. All statements that address future operating, financial or business performance or the Company’s strategies or expectations are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “intends,” “anticipates,” “believes,” “estimates,” “predicts,” “projects,” “potential,” “outlook” or “continue,” and other comparable terminology. Factors that could cause actual results to differ materially from these forward-looking statements include, but are not limited to, the following: the concentration of our business on the aerospace and defense industries; the unique business risks of supplying products to … [S53]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-30, L2926:
+
+> Arxis designs, manufactures, and sells highly engineered electronic and mechanical components primarily used in mission-critical applications. The Company serves diverse end markets including defense and space, commercial aerospace, and industrial technology, and operates highly specialized manufacturing facilities globally, with a focus on domestic manufacturing. [S53]
 
 ## Industry and value chain
 
@@ -438,17 +476,33 @@ SEC-reported SIC **3728**: Aircraft Parts & Auxiliary Equipment, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5974:
+
+> This Quarterly Report on Form 10-Q, including the exhibits being filed as part of this report, as well as other statements made by Arxis, Inc. (“Arxis,” the “Company,” “we,” “us” and “our”), contain forward-looking statements that reflect, when made, the Company’s current views with respect to current events, certain investments and acquisitions and financial performance. Such forward-looking statements are subject to many risks, uncertainties and factors relating to the Company’s operations and business environment, which may cause the actual results of the Company to be materially different from any future results, express or implied, by such forward-looking statements. All statements that address future operating, financial or business performance or the Company’s strategies or expectations are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “intends,” “anticipates,” “believes,” “estimates,” “predicts,” “projects,” “potential,” “outlook” or “continue,” and other comparable terminology. Factors that could cause actual results to differ materially from these forward-looking statements include, but are not limited to, the following: the concentration of our business on the aerospace and defense industries; the unique business risks of supplying products to … [S53]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-30, L5974:
+
+> This Quarterly Report on Form 10-Q, including the exhibits being filed as part of this report, as well as other statements made by Arxis, Inc. (“Arxis,” the “Company,” “we,” “us” and “our”), contain forward-looking statements that reflect, when made, the Company’s current views with respect to current events, certain investments and acquisitions and financial performance. Such forward-looking statements are subject to many risks, uncertainties and factors relating to the Company’s operations and business environment, which may cause the actual results of the Company to be materially different from any future results, express or implied, by such forward-looking statements. All statements that address future operating, financial or business performance or the Company’s strategies or expectations are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “intends,” “anticipates,” “believes,” “estimates,” “predicts,” “projects,” “potential,” “outlook” or “continue,” and other comparable terminology. Factors that could cause actual results to differ materially from these forward-looking statements include, but are not limited to, the following: the concentration of our business on the aerospace and defense industries; the unique business risks of supplying products to … [S53]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5974:
+
+> This Quarterly Report on Form 10-Q, including the exhibits being filed as part of this report, as well as other statements made by Arxis, Inc. (“Arxis,” the “Company,” “we,” “us” and “our”), contain forward-looking statements that reflect, when made, the Company’s current views with respect to current events, certain investments and acquisitions and financial performance. Such forward-looking statements are subject to many risks, uncertainties and factors relating to the Company’s operations and business environment, which may cause the actual results of the Company to be materially different from any future results, express or implied, by such forward-looking statements. All statements that address future operating, financial or business performance or the Company’s strategies or expectations are forward-looking statements. In some cases, you can identify these statements by forward-looking words such as “may,” “might,” “will,” “should,” “expects,” “plans,” “intends,” “anticipates,” “believes,” “estimates,” “predicts,” “projects,” “potential,” “outlook” or “continue,” and other comparable terminology. Factors that could cause actual results to differ materially from these forward-looking statements include, but are not limited to, the following: the concentration of our business on the aerospace and defense industries; the unique business risks of supplying products to … [S53]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L7704:
+
+> Historically, our primary sources of liquidity have been cash and cash equivalents, cash flows from our operating activities and borrowings under our credit agreements, including revolving credit facilities. In April 2026, the Company completed its IPO of shares of Class A common stock. Net proceeds from the IPO were $1,220.6 million, after deducting underwriting discounts, commissions and offering costs. A portion of the net proceeds was used to repay $946.0 million of outstanding indebtedness under the Company’s Term Loan Credit Facility, with the remainder to be used for working capital and general corporate purposes. Our principal historical liquidity requirements have been for acquisitions, capital expenditures, servicing indebtedness and working capital needs. As we continue to expand our business, we may require additional working capital in the future for increased costs, and although we believe that we will be able to fully fund our ongoing capital expenditures, working capital requirements and other capital needs for the foreseeable future through cash on hand and cash flows from our operating activities, we may choose to use borrowings under our credit facilities to finance our operating and investing activities. Based on our current outlook, we believe that net cash provided by operating activities and available borrowings under our credit agreements will be … [S53]
 
 ## Financial performance
 
@@ -538,6 +592,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5732:
+
+> Prior to the Reorganization, Arcline Engineered Polymer Topco, L.P., Hawkeye TopCo, L.P., Connector TopCo, L.P., and Ovation TopCo, L.P. established Management Equity Plans (the “ME Plans”), Growth Participation Plans (“GPP”) and the Value Creation Bonus (“VCB”) Plan, under which the Board of Directors of each entity’s plan had the authority to grant Management Incentive Units (“MIUs”), Growth Participation Units (“GPUs”) and VCBs, respectively. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -550,6 +608,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L5699:
+
+> The Company is subject to commercial matters and legal proceedings and claims that arise in the normal course of business. While the outcome of these matters cannot be predicted with certainty, the Company does not have any knowledge of any such matters that would have a material adverse effect on the condensed consolidated financial statements, except as disclosed below. [S53]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -559,22 +621,22 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -741,5 +803,9 @@ Latest 46 filing metadata records of 46 retained records. A filing link is evide
 [S50] [DRS/A 0001193125-26-024901](https://www.sec.gov/Archives/edgar/data/2093536/000119312526024901/0001193125-26-024901-index.html) — published 2026-01-27; retrieved 2026-10-24T13:22:51.759433+00:00.
 
 [S51] [DRS 0001193125-25-293517](https://www.sec.gov/Archives/edgar/data/2093536/000119312525293517/0001193125-25-293517-index.html) — published 2025-11-24; retrieved 2026-10-24T13:22:51.759433+00:00.
+
+[S52] [8-K 0001193125-26-354774](https://www.sec.gov/Archives/edgar/data/2093536/000119312526354774/arxs-20260818.htm) — published 2026-08-18; retrieved 2026-11-14T18:46:36.014363+00:00.
+
+[S53] [10-Q 0001193125-26-325027](https://www.sec.gov/Archives/edgar/data/2093536/000119312526325027/arxs-20260630.htm) — published 2026-07-30; retrieved 2026-11-14T18:46:34.212446+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

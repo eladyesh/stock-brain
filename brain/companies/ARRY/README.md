@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -483,6 +483,36 @@ sources:
   published_at: '2026-03-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1820721/000162828026059584/arry-20260831.htm
+  title: 8-K 0001628280-26-059584
+  published_at: '2026-08-31'
+  retrieved_at: '2026-11-14T18:44:50.399622+00:00'
+  sha256: b5a21b98ec3c71ffc68496476adbbeb8f3f3d9c912df2f7f26a84337d6e927c8
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1820721/000162828026053517/arry-20260630.htm
+  title: 10-Q 0001628280-26-053517
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-14T18:44:48.559466+00:00'
+  sha256: 0195e82e3981ce3e0a97af0cb0a16b5f966b7666b91b8a10ced6322744e57cdb
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1820721/000114036126013682/ny20063454x2_def14a.htm
+  title: DEF 14A 0001140361-26-013682
+  published_at: '2026-04-07'
+  retrieved_at: '2026-11-14T18:44:46.546880+00:00'
+  sha256: 91662a30ffcce75f04d5236c69698df8630a6c96e1b3e45290ca2af55953cb52
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm
+  title: 10-K 0001820721-26-000008
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-14T18:44:44.530636+00:00'
+  sha256: 718404638fbc339c8af9aabc14bdf84e5499b5db7e2209f02e5374ebd2399021
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1820721/000182072124000066/arry-20240924.htm
+  title: 8-K/A 0001820721-24-000066
+  published_at: '2024-10-04'
+  retrieved_at: '2026-11-14T18:44:42.686545+00:00'
+  sha256: 16198639b04666f74e2b4745d0042261da38daf4582d40ed8118ce2bb4017fb1
 issuer_classification:
   cik: 0001820721
   classification_status: reported_sic
@@ -524,13 +554,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1820721/000182072124000066/0001820721-24-000066-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1ff89ec0454f432c5aecab042f407a192d0d960fd2e116082a79bc648fb3b47a
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -554,17 +595,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1249:
+
+> APA designs, engineers, and manufactures solar racking, mounting and foundation systems. Integrating such systems into our business model through the acquisition of APA expands our product portfolio to better serve the evolving needs of the solar industry and our customers. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L988:
+
+> The Company has two separate operating segments, Array Legacy Operations and STI Operations, which are also reportable segments. Array Legacy Operations consists primarily of amounts earned from the design and delivery of solar arrays in the United States, and STI Operations consists primarily of amounts earned from the design and delivery of solar arrays outside of the United States. APA is a component of the Array Legacy Operations reportable segment. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1226:
+
+> Our actual results and the timing of events could materially differ from those anticipated in such forward-looking statements as a result of certain risks, uncertainties and other factors, including without limitation: changes in growth or the rate of growth in demand for solar energy projects; factors outside of our control affecting the variability and demand for solar energy, including but not limited to, the retail price of electricity, availability of in-demand components like high-voltage breakers, various policies related to the permitting and interconnection costs of solar plants, and the availability of incentives for solar energy and solar energy production systems, which makes it difficult to predict our future prospects; competitive pressures within our industry; competition from conventional and renewable energy sources; a loss of one or more of our significant customers, their inability to perform under their contracts, or their default in payment; a drop in the price of electricity derived from the utility grid or from alternative energy sources; fluctuations in our results of operations across fiscal periods, which could make our future performance difficult to predict and could cause our results of operations for a particular period to fall below expectations; any increase in interest rates, or a reduction in the availability of tax equity or project debt … [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L433:
+
+> Headquartered in Albuquerque, New Mexico, Array Technologies, Inc. (the “Company”) is a leading global provider of solar tracking technology and fixed-tilt systems to utility-scale and distributed generation customers who construct, develop, and operate solar photovoltaic (“PV”) sites. With solutions engineered to withstand harsh weather conditions, the Company’s high-quality solar trackers, fixed-tilt systems, software platforms, foundation solutions, and field services combine to optimize energy production and deliver value to our customers for the entire lifecycle of a project. [S69]
 
 ## Industry and value chain
 
@@ -572,17 +629,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L473:
+
+> A majority of our revenue is recognized over time as work progresses, and for single performance obligations, we use an input measure, the cost-to-cost method, to determine progress. We review and update the contract related estimates on an ongoing basis and recognize adjustments for any project specific facts and circumstances that could impact the measurement of the extent of progress such as the total costs to complete the contracts, under the cumulative catch-up method. Due to the relatively short duration of our outstanding performance obligations, and our ability to estimate the remaining costs to be incurred, which are substantially all material costs covered under our material supply agreements with our suppliers, we have not recorded any material catch-up adjustments for the periods presented that would have impacted revenues or earnings per share (“EPS”) related to revisions in our measurement of remaining progress of our performance obligations. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1225:
+
+> This report contains forward-looking statements that are based on our management’s beliefs and assumptions and on information currently available to our management. Forward-looking statements include information concerning our possible or assumed future results of operations, business strategies, technology or product developments, financing and investment plans, dividend policy, competitive position, industry and regulatory environment, including potential regulatory reform related to energy credits, uncertainty relating to the implementation of tariffs and changes in trade policy, including the reduction or elimination of certain government incentives, ability to provide 100% domestic content trackers, expectations regarding the macroeconomic environment and geopolitical developments, including the effects of tariffs and changes in trade policy, potential growth opportunities and the effects of competition. Forward-looking statements include statements that are not historical facts and can be identified by terms such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” “would,” “positioned,” “designed to” or similar expressions and the negatives of those terms. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1228:
+
+> changes in the global trade environment, including the continuation or imposition of import tariffs or other import restrictions; geopolitical, macroeconomic and other market conditions unrelated to our operating performance including but not limited to a pandemic, the Russia-Ukraine war, attacks on shipping in the Red Sea and Strait of Hormuz, conflict in the Middle East (including, but not limited to, the war in Iran), changing trade policies, inflation and interest rates; our ability to convert our orders in backlog into revenue; the reduction, elimination or expiration, or our failure to optimize the benefits of government incentives for, or regulations mandating the use of, renewable energy and solar energy, particularly in relation to our competitors, which could reduce demand for solar energy systems; failure to, or incurrence of significant costs in order to, obtain, maintain, protect, defend or enforce, our intellectual property and other proprietary rights; delays in construction projects and any failure to manage our inventory; significant changes in the cost of raw materials; disruptions to transportation and logistics, including increases in shipping costs; defects or performance problems in our products, which could result in loss of customers, reputational damage and decreased revenue; delays, disruptions or quality control problems in our product development … [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1294:
+
+> Inflationary pressure may continue to negatively impact our results of operations in the near-term. To mitigate these pressures on our business, and the volatility in steel and aluminum prices, we have continued to accelerate our productivity initiatives, expand our supplier base, and execute on our overhead cost-containment practices. [S69]
 
 ## Financial performance
 
@@ -1203,6 +1276,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L936:
+
+> Pursuant to the A&R 2020 Plan, the Company grants time-based restricted stock units (“RSUs”) to employees and members of the Company’s board of directors. The fair value of the RSUs is determined using the market value of the Company’s common stock on the grant date and is recognized on a straight-line basis over the vesting term of the awards. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1215,6 +1292,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L884:
+
+> The Company is party to various other legal proceedings, claims, governmental and/or regulatory inspections, inquiries and investigations arising out of the ordinary course of its business. The Company believes that there are no other proceedings or claims pending against it, the ultimate resolution of which could have a material adverse effect on its financial condition or results of operations. In all cases, at each reporting period, the Company evaluates whether or not a potential loss amount or a potential range of loss is probable and reasonably estimable under ASC 450, Contingencies. Legal costs are expensed as incurred. It is possible that future results for any particular quarter or annual period may be materially affected by changes in our assumption or the effectiveness of the Company’s strategies relating to these proceedings. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1224,25 +1305,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1306,6 +1387,10 @@ Latest 50 filing metadata records of 470 retained records. A filing link is evid
 | 2026-03-19 | 8-K | 0001193125-26-116240 | — | [S65] |
 | 2026-03-16 | 4 | 0001628280-26-018312 | — | [S66] |
 | 2026-03-16 | 4 | 0001628280-26-018310 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-05, L467:
+
+> The Company invested $1.0 million in additional future SAFEs subsequent to June 30, 2026, upon the technology company’s achievement of defined milestones. Refer to Note 18 – Subsequent Events for additional details. As of June 30, 2026, no additional commitments have been recognized, and no impairment indicators have been identified. [S69]
 
 ## Sources and change log
 
@@ -1442,5 +1527,15 @@ Latest 50 filing metadata records of 470 retained records. A filing link is evid
 [S66] [4 0001628280-26-018312](https://www.sec.gov/Archives/edgar/data/1820721/000162828026018312/0001628280-26-018312-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001628280-26-018310](https://www.sec.gov/Archives/edgar/data/1820721/000162828026018310/0001628280-26-018310-index.html) — published 2026-03-16; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001628280-26-059584](https://www.sec.gov/Archives/edgar/data/1820721/000162828026059584/arry-20260831.htm) — published 2026-08-31; retrieved 2026-11-14T18:44:50.399622+00:00.
+
+[S69] [10-Q 0001628280-26-053517](https://www.sec.gov/Archives/edgar/data/1820721/000162828026053517/arry-20260630.htm) — published 2026-08-05; retrieved 2026-11-14T18:44:48.559466+00:00.
+
+[S70] [DEF 14A 0001140361-26-013682](https://www.sec.gov/Archives/edgar/data/1820721/000114036126013682/ny20063454x2_def14a.htm) — published 2026-04-07; retrieved 2026-11-14T18:44:46.546880+00:00.
+
+[S71] [10-K 0001820721-26-000008](https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm) — published 2026-02-25; retrieved 2026-11-14T18:44:44.530636+00:00.
+
+[S72] [8-K/A 0001820721-24-000066](https://www.sec.gov/Archives/edgar/data/1820721/000182072124000066/arry-20240924.htm) — published 2024-10-04; retrieved 2026-11-14T18:44:42.686545+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

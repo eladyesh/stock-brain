@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -373,6 +373,18 @@ sources:
   published_at: '2026-10-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1859690/000110465926114690/tm2627283d1_6k.htm
+  title: 6-K 0001104659-26-114690
+  published_at: '2026-10-08'
+  retrieved_at: '2026-11-14T18:44:22.230444+00:00'
+  sha256: 4429c6b8491f38e35d9465123847ced9522b80b253c8b0901d05534b181014d9
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1859690/000110465925119500/arqq-20250930x20f.htm
+  title: 20-F 0001104659-25-119500
+  published_at: '2025-12-09'
+  retrieved_at: '2026-11-14T18:44:20.150871+00:00'
+  sha256: 0b0c4f12d291a88f656d26a5ef7fbe8a083b5ab37b4a45dbff6763c33ed4c3b4
 issuer_classification:
   cik: 0001859690
   classification_status: reported_sic
@@ -400,13 +412,22 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1859690/000110465926114690/0001104659-26-114690-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7a2f637db8d94bfd7d06e8dbc9aa37bf4aa50b02807db1ac2e42c979984b70f1
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -430,13 +451,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2025-12-09, L732:
+
+> You should carefully consider the risks described below, together with all of the other information included in this Annual Report, in evaluating us and our shares. Our business, financial condition or results of operations could be materially and adversely affected by any of these risks. The trading price and value of our ordinary shares could decline due to any of these risks, and you may lose all or part of your investment. This Annual Report also contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those anticipated in these forward-looking statements as a result of certain factors, including the risks faced by us described below and elsewhere in this Annual Report. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 20-F, filed 2025-12-09, L7220:
+
+> \| \| ● \| IFRIC Agenda Decision - Disclosure of Revenues and Expenses for Reportable Segments (IFRS 8) [S54]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 20-F, filed 2025-12-09, L776:
+
+> While Arqit has invested substantial resources in technological development, and believes that its product is a unique innovation, continuing technological changes in quantum technology and changes in the markets for its products could adversely affect adoption of its products, either generally or for particular applications. Arqit’s future success will depend upon its ability to develop and introduce a variety of new capabilities and innovations to its product offerings, as well as to introduce a variety of new product offerings, to address the changing needs of the markets in which Arqit offers its products. Delays in delivering new products that meet customer requirements could damage its relationships with customers and lead them to seek alternative sources of supply. Delays in introducing products and innovations, the failure to choose correctly among technical alternatives or the failure to offer innovative products or configurations at competitive prices may cause existing and potential customers to purchase its competitors’ products or turn to alternative technology. [S54]
 
 ## Customers and end markets
 
@@ -452,13 +485,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 20-F, filed 2025-12-09, L759:
+
+> Participants in Arqit’s industry typically protect their technology, especially embedded software, through copyrights and trade secrets in addition to patents. As a result, there is frequent litigation based on allegations of infringement, misappropriation or other violations of intellectual property rights. Arqit may in the future receive inquiries from other intellectual property holders and may become subject to claims that it infringes their intellectual property rights, particularly as Arqit expands its presence in the market, expands to new use cases and faces increasing competition. In addition, parties may claim that the names and branding of Arqit’s products infringe their trademark rights in certain countries or territories. If such a claim were to prevail, Arqit may have to change the names and branding of its products in the affected territories and could incur other costs. [S54]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2025-12-09, L701:
+
+> \| \| ● \| The Company may not be able to adequately protect or enforce its intellectual property rights or prevent unauthorized parties from copying or reverse engineering its products or technology. Its efforts to protect and enforce its intellectual property rights and prevent third parties from violating its rights may be costly. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2025-12-09, L886:
+
+> If Arqit fails to develop and maintain effective internal controls and procedures and disclosure procedures and controls, it may be unable to provide financial information and required SEC reports that a U.S. publicly traded company is required to provide in a timely and reliable fashion. Any such delays or deficiencies could penalize Arqit, including by limiting its ability to obtain financing, either in the public capital markets or from private sources and hurt its reputation and could thereby impede its ability to implement its growth strategy. [S54]
 
 ## Financial performance
 
@@ -472,6 +517,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2025-12-09, L120:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -483,6 +532,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2025-12-09, L630:
+
+> Industry publications, research, studies and forecasts generally state that the information they contain has been obtained from sources believed to be reliable, but that the accuracy and completeness of such information is not guaranteed. Forecasts and other forward-looking information obtained from these sources are subject to the same qualifications and uncertainties as the other forward-looking statements in this Annual Report. These forecasts and forward-looking information are subject to uncertainty and risk due to a variety of factors, including those described under “Risk Factors.” These and other factors could cause results to differ materially from those expressed in any forecasts or estimates. [S54]
 
 ## Scenarios and open questions
 
@@ -496,25 +549,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -578,6 +631,10 @@ Latest 50 filing metadata records of 495 retained records. A filing link is evid
 | 2026-10-05 | 4 | 0001859690-26-000163 | — | [S50] |
 | 2026-10-05 | 4 | 0001859690-26-000162 | — | [S51] |
 | 2026-10-02 | 144 | 0001959173-26-007226 | — | [S52] |
+
+Source excerpt — 20-F, filed 2025-12-09, L1135:
+
+> During the year ended September 30, 2025, an error was identified in the application of IFRS 2 Share-based Payment relating to the recognition and measurement of the share-based payment expense for Restricted Stock Units (RSUs). This resulted in an understatement of share based payment expense in profit or loss and an understatement of equity in prior periods. In accordance with IAS 8 Accounting Policies, Changes in Accounting Estimates and Errors, the error has been corrected retrospectively. The correction is an accounting restatement and non-cash in nature, accordingly, there is no impact on the Arqit’s cash position arising from this correction. See Note 21 to the audited consolidated financial statements for additional detail. [S54]
 
 ## Sources and change log
 
@@ -684,5 +741,9 @@ Latest 50 filing metadata records of 495 retained records. A filing link is evid
 [S51] [4 0001859690-26-000162](https://www.sec.gov/Archives/edgar/data/1859690/000185969026000162/0001859690-26-000162-index.html) — published 2026-10-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [144 0001959173-26-007226](https://www.sec.gov/Archives/edgar/data/1859690/000195917326007226/0001959173-26-007226-index.html) — published 2026-10-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001104659-26-114690](https://www.sec.gov/Archives/edgar/data/1859690/000110465926114690/tm2627283d1_6k.htm) — published 2026-10-08; retrieved 2026-11-14T18:44:22.230444+00:00.
+
+[S54] [20-F 0001104659-25-119500](https://www.sec.gov/Archives/edgar/data/1859690/000110465925119500/arqq-20250930x20f.htm) — published 2025-12-09; retrieved 2026-11-14T18:44:20.150871+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

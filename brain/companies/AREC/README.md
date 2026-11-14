@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: da985d7cdd310eab261be4fd3662836a26873702
+source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -482,6 +482,78 @@ sources:
   published_at: '2025-10-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000165495426008834/arec_8k.htm
+  title: 8-K 0001654954-26-008834
+  published_at: '2026-10-07'
+  retrieved_at: '2026-11-14T18:41:06.544665+00:00'
+  sha256: cb7585755b6cd944f12ede0ae609c2c14a6f3e4c34cc86d04961cece8da33f05
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793226004585/arec_8ka.htm
+  title: 8-K/A 0001477932-26-004585
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-14T18:41:04.783689+00:00'
+  sha256: bb0c4296a4c3df5340c8fbf50b1086a6b4b88e1bd2a6adafdee5dd4be186be24
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793226003317/arec_10k.htm
+  title: 10-K 0001477932-26-003317
+  published_at: '2026-05-20'
+  retrieved_at: '2026-11-14T18:41:02.965265+00:00'
+  sha256: 2545229dd63d1cd62b035be42287ac49e4959c853bb77d50b6e5470419fb4824
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000165495426001995/arec_def14a.htm
+  title: DEF 14A 0001654954-26-001995
+  published_at: '2026-03-09'
+  retrieved_at: '2026-11-14T18:41:01.192628+00:00'
+  sha256: 2eea4c0843e71d37c22b543ba09a629364b1ac6bcb95336d086e95b903f33051
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793225008406/arec_10qa.htm
+  title: 10-Q/A 0001477932-25-008406
+  published_at: '2025-11-17'
+  retrieved_at: '2026-11-14T18:40:59.238956+00:00'
+  sha256: 2009ab56b4a44e11bf6de6555d463e7d1bf7bdb1d911bda260af843eb96b1db1
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793225008333/arec_10q.htm
+  title: 10-Q 0001477932-25-008333
+  published_at: '2025-11-14'
+  retrieved_at: '2026-11-14T18:40:57.037125+00:00'
+  sha256: 2ded2aba7a6cdc3897dd35b45d835b0489d6d263a2b6f7e7460b8c4cca8fc64f
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000165495425011782/arec_8ka.htm
+  title: 8-K/A 0001654954-25-011782
+  published_at: '2025-10-15'
+  retrieved_at: '2026-11-14T18:40:55.334428+00:00'
+  sha256: 6bf5c25713b8ae561cf546e9b90575f54c17d01b03b37f997f371a689f8a7faa
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000165495420003389/arec_8ka.htm
+  title: 8-K/A 0001654954-20-003389
+  published_at: '2020-03-27'
+  retrieved_at: '2026-11-14T18:40:53.652839+00:00'
+  sha256: eaf7f0deae38abd5c3057c63ad929549c09d8dbfb93c344af9945419ea15d92d
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007000/arc_8ka.htm
+  title: 8-K/A 0001477932-19-007000
+  published_at: '2019-12-09'
+  retrieved_at: '2026-11-14T18:40:46.969418+00:00'
+  sha256: 4811dd2dbfe00cd491640c267f2b68d102052ab2f6d5e8decf184957c2e795f2
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007003/arc_8ka.htm
+  title: 8-K/A 0001477932-19-007003
+  published_at: '2019-12-09'
+  retrieved_at: '2026-11-14T18:40:48.758800+00:00'
+  sha256: 4811dd2dbfe00cd491640c267f2b68d102052ab2f6d5e8decf184957c2e795f2
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007011/arc_8ka.htm
+  title: 8-K/A 0001477932-19-007011
+  published_at: '2019-12-09'
+  retrieved_at: '2026-11-14T18:40:50.288829+00:00'
+  sha256: 0b7f301badaab145c090cb8f72889cea5a9005007fce0c9a423555d71662dc88
+- id: S79
+  url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007019/arc_8ka.htm
+  title: 8-K/A 0001477932-19-007019
+  published_at: '2019-12-09'
+  retrieved_at: '2026-11-14T18:40:52.077549+00:00'
+  sha256: 82e67c5f6a3cef199e15fcc75ab221c37968897b8a6324a73205de78c02b1825
 issuer_classification:
   cik: 0001590715
   classification_status: reported_sic
@@ -552,13 +624,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1590715/000147793219007000/0001477932-19-007000-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7a34c7654776f88ade02b5898c57893408ad1b195b7c0cfcccd1f79ce720a0c3
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-14T18:39:40.176158+00:00'
+  last_success_at: '2026-11-14T18:39:40.176158+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -582,17 +664,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-05-20, L8091:
+
+> Revenue and costs are generally directly attributed to our segments. However, due to the integrated structure of our business, certain revenue recognized and costs incurred by one segment may benefit other segments. Revenue from certain contracts is allocated among the segments based on the relative value of the underlying products and services, which can include allocation based on actual prices charged, prices when sold separately, or estimated costs plus a profit margin. Cost of revenue is allocated in certain cases based on a relative revenue methodology. Operating expenses that are allocated primarily include those relating to marketing of products and services from which multiple segments benefit and are generally allocated based on relative gross margin. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-05-20, L365:
+
+> Efforts to diversify revenue streams have led to the establishment of additional subsidiaries; Electrified Materials Corporation (EMC) which is focused on the aggregation, recovery and sale of recovered metal and steel and American Rare Earth LLC (ARE) which is focused on the purification and monetization of critical and rare earth element deposits and end of life magnets and batteries. During 2024, American Rare Earth LLC changed its name to ReElement Technologies LLC (ReElement). During 2024, ReElement filed and changed from a limited liability company to a corporation. The Company also looks for opportunities to invest and operate new and innovate technologies within the mineral and infrastructure industry. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q/A, filed 2025-11-17, L8268:
+
+> RLMT - provider of final-stage, separated and purified rare earth and critical elements to the electrification industry supply chain. Our products, separated and purified rare earth and critical elements, are used to manufacture permanent magnets and battery materials for high efficiency electric motors and lithium-ion batteries. [S72]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-05-20, L362:
+
+> When we formed our company, our focus was to (i) construct and/or purchase and manage a chain of combined gasoline, diesel and natural gas (NG) fueling and service stations (initially, in the Miami, FL area); (ii) construct conversion factories to convert NG to liquefied natural gas (LNG) and compressed natural gas (CNG); and (iii) construct conversion factories to retrofit vehicles currently using gasoline or diesel fuel to also run on NG in the United States and also to build a convenience store to serve our customers in each of our locations. [S70]
 
 ## Industry and value chain
 
@@ -600,13 +698,25 @@ SEC-reported SIC **1220**: Silver Ores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-05-20, L1520:
+
+> Courtenay serves as Director of American Resources Corporation. He brings over 40 years of experience of sourcing and supplying iron ore, coke and metallurgical coal to the steel industry to assist American Resources with their supply chain, logistics, customers, overall corporate strategy. He has a vast knowledge of both the global and domestic marketplace where he works with both suppliers and consumers. Courtenay is currently Managing Director of Compass Point Resources, LLC which he founded in 2007. Mr. Taplin also acts as Managing Director for Clay Resources LLC, a commodities firm trading in African origin minerals and metals with sales to the world’s merchant consumers from its offices in the U. S. and Durban, South Africa. His prior experience includes Crown Coal & Coke Company and Pickands Mather & Company out of Cleveland, OH. Mr. Taplin attended Hobart College and received his degree from Case Western Reserve University. The Board nominated Courtenay to serve as a director because of his experience and relationships in the raw materials and coking sector and his experience in managing growing businesses. He has no direct or indirect material interest in any transaction required to be disclosed pursuant to Item 404(a) of Regulation S-K. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-05-20, L374:
+
+> The global commodity industry for critical minerals, rare earth element and coal is intensely competitive. When evaluating areas of competition, the most important factors on which the Company competes are mineral quality, delivered costs to the customer and reliability of supply. Principal domestic competitors are MP Materials, Lithium Americas, Ramaco Resources, Arch Resources, Contura Energy, and Warrior Met Coal. Many of these coal producers may have greater financial resources and larger coal deposit bases than we do. We also compete in international markets directly with domestic companies and with companies that produce coal from one or more foreign countries, such as China, Australia, Colombia, Indonesia and South Africa. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2026-05-20, L2987:
+
+> On August 30, 2022, the Company entered into a purchase agreement under which it sold exclusive rights to certain patents previously included in the Graphene Development Agreement in exchange for 4,000,000 shares of Novusterra’s common stock, with a fair value of $1.78 million at the transaction date. In connection with this transaction, Andrew Weeraratne resigned as Novusterra’s Chief Executive Officer and director, and Gregory Jensen, the Company’s general counsel, was appointed Chief Executive Officer and director of Novusterra. Mr. Jensen also resigned as Chairman of Novusterra’s Board of Directors. [S70]
 
 ## Growth drivers
 
@@ -1210,6 +1320,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-07-29, L104:
+
+> On June 30, 2026, the Audit Committee (the “Audit Committee”) of the Board of Directors of American Resources Corporation (or the “Company”) approved the dismissal of GreenGrowth CPA’s (“GreenGrowth”) as the Company’s independent registered public accounting firm. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1222,6 +1336,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-05-20, L8076:
+
+> In the course of normal operations, the Company is involved in various claims and litigation matters that management intends to defend. The range of loss, if any, from all potential claims cannot be reasonably estimated. However, management believes the ultimate resolution of matters not disclosed below will not have a material adverse impact on the Company’s business or financial position. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1231,25 +1349,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1313,6 +1431,10 @@ Latest 50 filing metadata records of 579 retained records. A filing link is evid
 | 2025-10-16 | 144 | 0001477932-25-007615 | — | [S65] |
 | 2025-10-15 | 8-K/A | 0001654954-25-011782 | — | [S66] |
 | 2025-10-14 | 8-K | 0001654954-25-011720 | — | [S67] |
+
+Source excerpt — 10-K, filed 2026-05-20, L1312:
+
+> Total other expense increased to $6.5 million for the year ended December 31, 2025, compared to $1.7 million in 2024. The increase was primarily driven by a $5.1 million loss recognized on the extinguishment of debt during 2025. In addition, net equity method losses declined year over year as losses from equity‑method investees decreased compared to the prior year. Interest income increased due to higher average cash balances and investment yields during 2025, while interest expense increased primarily as a result of additional financing obligations entered into during the year. Other income and expense fluctuated modestly and was not a significant contributor to the overall change year over year. [S70]
 
 ## Sources and change log
 
@@ -1449,5 +1571,29 @@ Latest 50 filing metadata records of 579 retained records. A filing link is evid
 [S66] [8-K/A 0001654954-25-011782](https://www.sec.gov/Archives/edgar/data/1590715/000165495425011782/0001654954-25-011782-index.html) — published 2025-10-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [8-K 0001654954-25-011720](https://www.sec.gov/Archives/edgar/data/1590715/000165495425011720/0001654954-25-011720-index.html) — published 2025-10-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001654954-26-008834](https://www.sec.gov/Archives/edgar/data/1590715/000165495426008834/arec_8k.htm) — published 2026-10-07; retrieved 2026-11-14T18:41:06.544665+00:00.
+
+[S69] [8-K/A 0001477932-26-004585](https://www.sec.gov/Archives/edgar/data/1590715/000147793226004585/arec_8ka.htm) — published 2026-07-29; retrieved 2026-11-14T18:41:04.783689+00:00.
+
+[S70] [10-K 0001477932-26-003317](https://www.sec.gov/Archives/edgar/data/1590715/000147793226003317/arec_10k.htm) — published 2026-05-20; retrieved 2026-11-14T18:41:02.965265+00:00.
+
+[S71] [DEF 14A 0001654954-26-001995](https://www.sec.gov/Archives/edgar/data/1590715/000165495426001995/arec_def14a.htm) — published 2026-03-09; retrieved 2026-11-14T18:41:01.192628+00:00.
+
+[S72] [10-Q/A 0001477932-25-008406](https://www.sec.gov/Archives/edgar/data/1590715/000147793225008406/arec_10qa.htm) — published 2025-11-17; retrieved 2026-11-14T18:40:59.238956+00:00.
+
+[S73] [10-Q 0001477932-25-008333](https://www.sec.gov/Archives/edgar/data/1590715/000147793225008333/arec_10q.htm) — published 2025-11-14; retrieved 2026-11-14T18:40:57.037125+00:00.
+
+[S74] [8-K/A 0001654954-25-011782](https://www.sec.gov/Archives/edgar/data/1590715/000165495425011782/arec_8ka.htm) — published 2025-10-15; retrieved 2026-11-14T18:40:55.334428+00:00.
+
+[S75] [8-K/A 0001654954-20-003389](https://www.sec.gov/Archives/edgar/data/1590715/000165495420003389/arec_8ka.htm) — published 2020-03-27; retrieved 2026-11-14T18:40:53.652839+00:00.
+
+[S76] [8-K/A 0001477932-19-007000](https://www.sec.gov/Archives/edgar/data/1590715/000147793219007000/arc_8ka.htm) — published 2019-12-09; retrieved 2026-11-14T18:40:46.969418+00:00.
+
+[S77] [8-K/A 0001477932-19-007003](https://www.sec.gov/Archives/edgar/data/1590715/000147793219007003/arc_8ka.htm) — published 2019-12-09; retrieved 2026-11-14T18:40:48.758800+00:00.
+
+[S78] [8-K/A 0001477932-19-007011](https://www.sec.gov/Archives/edgar/data/1590715/000147793219007011/arc_8ka.htm) — published 2019-12-09; retrieved 2026-11-14T18:40:50.288829+00:00.
+
+[S79] [8-K/A 0001477932-19-007019](https://www.sec.gov/Archives/edgar/data/1590715/000147793219007019/arc_8ka.htm) — published 2019-12-09; retrieved 2026-11-14T18:40:52.077549+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
