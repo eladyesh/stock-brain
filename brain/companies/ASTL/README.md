@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -374,6 +374,18 @@ sources:
   published_at: '2025-07-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1860805/000119312526423116/d115283d6k.htm
+  title: 6-K 0001193125-26-423116
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-15T19:20:14.479606+00:00'
+  sha256: 06322c29463fab092d906822b1a25ab05fc41b963c77706b744611b2f3d6971e
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1860805/000119312526102628/d92446d40f.htm
+  title: 40-F 0001193125-26-102628
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-15T19:20:13.052945+00:00'
+  sha256: b4724de052951cfd8435c9d604fea5767ad5e306680fb231c4518f058fb80c18
 issuer_classification:
   cik: 0001860805
   classification_status: reported_sic
@@ -401,13 +413,16 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1860805/000119312526423116/0001193125-26-423116-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 66f12824adfdd99cc6746fcad721e3ef914bb381a9ae682c076c486bb24c4e23
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - industry-and-value-chain
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -449,6 +464,10 @@ SEC-reported SIC **3312**: Steel Works, Blast Furnaces & Rolling Mills (Coke Ove
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 40-F, filed 2026-03-12, L114:
+
+> (this “Annual Report”) of Algoma Steel Group Inc. (the “Company”) includes or incorporates by reference “forward-looking statements” within the meaning of the U.S. Private Securities Litigation Reform Act of 1995 and “forward-looking information” under applicable Canadian securities legislation (collectively, “forward-looking statements”), that are subject to risks and uncertainties. These forward-looking statements include information about imposed and threatened tariffs, including the impact, timing and resolution thereof, trends in the pricing of steel, the Company’s transition to EAF (defined below) steelmaking, including the progress, costs and timing of completion of the Company’s EAF project, expected timing for a complete transition to EAF steelmaking, the Company’s expected annual raw steel production capacity and reduction in carbon emissions following completion of the EAF project, the Company’s future as a leading producer of green steel, the potential impacts of inflationary pressures, the Company’s ability to preserve and strengthen near-term liquidity and financial flexibility, including labor availability, global supply chain disruptions on costs, the Company’s modernization of its plate mill facilities, transformation journey, ability to deliver greater and long-term value, ability to offer North America a secure steel supply and a sustainable future, and … [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
@@ -472,6 +491,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 ## Management and governance
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+
+Source excerpt — 40-F, filed 2026-03-12, L108:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to [S54]
 
 ## Valuation context
 
@@ -497,25 +520,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
 - **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -579,6 +602,10 @@ Latest 50 filing metadata records of 309 retained records. A filing link is evid
 | 2025-07-24 | 6-K | 0001193125-25-164142 | — | [S50] |
 | 2025-07-18 | 6-K | 0001193125-25-161055 | — | [S51] |
 | 2025-07-18 | SUPPL | 0001193125-25-161008 | — | [S52] |
+
+Source excerpt — 40-F, filed 2026-03-12, L451:
+
+> The Company was not required by Rule 104 of Regulation BTR to send any notices to any of its directors or executive officers during the year ended December 31, 2025. [S54]
 
 ## Sources and change log
 
@@ -685,5 +712,9 @@ Latest 50 filing metadata records of 309 retained records. A filing link is evid
 [S51] [6-K 0001193125-25-161055](https://www.sec.gov/Archives/edgar/data/1860805/000119312525161055/0001193125-25-161055-index.html) — published 2025-07-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [SUPPL 0001193125-25-161008](https://www.sec.gov/Archives/edgar/data/1860805/000119312525161008/0001193125-25-161008-index.html) — published 2025-07-18; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001193125-26-423116](https://www.sec.gov/Archives/edgar/data/1860805/000119312526423116/d115283d6k.htm) — published 2026-10-16; retrieved 2026-11-15T19:20:14.479606+00:00.
+
+[S54] [40-F 0001193125-26-102628](https://www.sec.gov/Archives/edgar/data/1860805/000119312526102628/d92446d40f.htm) — published 2026-03-12; retrieved 2026-11-15T19:20:13.052945+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -475,6 +475,30 @@ sources:
   published_at: '2026-02-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1754170/000110465926111023/asle-20260925x8k.htm
+  title: 8-K 0001104659-26-111023
+  published_at: '2026-09-25'
+  retrieved_at: '2026-11-15T19:16:38.856042+00:00'
+  sha256: a8d92e69e9f7ebb53a136ddb364cb3312d0d82c281a7410bc8afe995688f3336
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1754170/000110465926092710/asle-20260630x10q.htm
+  title: 10-Q 0001104659-26-092710
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-15T19:16:36.991791+00:00'
+  sha256: e89166f11c54dbc98f961102291d4cd750130f2ba36d84f2eac85b16c2e9be3c
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1754170/000110465926050451/asle-20260611xdef14a.htm
+  title: DEF 14A 0001104659-26-050451
+  published_at: '2026-04-28'
+  retrieved_at: '2026-11-15T19:16:35.282245+00:00'
+  sha256: c81efb490101c4bb5af8cb7b46e2a923b4183daa8b35207e37495531f36b35dd
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1754170/000110465926025574/asle-20251231x10k.htm
+  title: 10-K 0001104659-26-025574
+  published_at: '2026-03-10'
+  retrieved_at: '2026-11-15T19:16:33.404603+00:00'
+  sha256: 243cecf9490de77801fcab8b991ca449bd541f30e52373ac3fe310020a6e0274
 issuer_classification:
   cik: '0001754170'
   classification_status: reported_sic
@@ -512,13 +536,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1754170/000110465926111023/0001104659-26-111023-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: adad22adc5eee1cb46b145e4ff0e57ba82aa5656014d907e1a5f4255095b5f41
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -542,17 +577,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L270:
+
+> Moreover, we operate in an evolving environment. New risk factors and uncertainties may emerge from time to time, and it is not possible for management to predict all risk factors and uncertainties. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L6575:
+
+> The Chairman and Chief Executive Officer is our Chief Operating Decision Maker (“CODM”). We report operational data to our CODM at the segment level, which the CODM uses to evaluate performance and allocate resources based on gross profit and income (loss) from operations by segment. The CODM utilizes segment gross profit when making strategic decisions which include considerations of pursuing additional capacity and technical capabilities or acquiring additional Flight Equipment. Additionally, the CODM utilizes segment income (loss) from operations when comparing actual results to budgets and making decisions regarding personnel and capital allocations. While the Company believes there are synergies between the two business segments, they are managed separately because they have different risks and opportunities. The two reportable segments are: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L268:
+
+> This Quarterly Report on Form 10-Q for the quarterly period ended June 30, 2026 (this “Quarterly Report”) contains forward-looking statements. We intend such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements other than statements of historical facts contained in this Quarterly Report may constitute forward-looking statements, and may include, but are not limited to, changes in the market for our services; changes in applicable laws or regulations; the ability to launch new services and products or to profitably expand into new markets; the sufficiency of our liquidity; our recovery of insurance proceeds for casualty losses; and expectations of other economic, business and/or competitive factors. These statements involve known and unknown risks, uncertainties and other important factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by the forward-looking statements. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L3552:
+
+> For most service contracts, our performance obligations are satisfied over time as work progresses or at a point in time based on transfer of control of products and services to our customers. We receive payments from our customers based on billing schedules or other terms as written in our contracts. [S68]
 
 ## Industry and value chain
 
@@ -560,17 +611,33 @@ SEC-reported SIC **5080**: Wholesale-Machinery, Equipment & Supplies. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L620:
+
+> Lt. General Fedder has served on our Board since July 2022. At the time of her retirement after nearly 35 years of active duty Air Force service, Lt. General Fedder served as Deputy Chief of Staff for Logistics, Installations and Mission Support, Headquarters U.S. Air Force, Washington, D.C. In that role, she was responsible to the Air Force Chief of Staff for leadership, management and integration of Air Force logistics readiness, aircraft, munitions, and missile maintenance, with emphasis on combat readiness and weapon system availability. Her portfolio also included setting policy and preparing budget estimates for Air Force civil engineering and security forces functions. Following her military career, Lt. General Fedder was a Senior Director at The Boeing Company for Global Sales and Marketing, Integrated Logistics, Boeing Defense. In that role, she secured capture of after-market services for military fighter and helicopter platforms and supply chain. She is currently a Senior Advisor at the Boston Consulting Group. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-28, L3005:
+
+> The Company’s compensation program generally consisting of base salary, annual performance based compensation and long term equity based primarily on performance with a retention element is within the median range consistent with competition in the industry. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-10, L368:
+
+> \| \| ● \| lack of ownership of certain intellectual property and tooling that is important to our business; [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-28, L2462:
+
+> Our recruitment programs involve partnerships with college programs, such as Embry-Riddle Aeronautical School, to provide internships and jobs. We are currently continuing to develop a scholarship program to focus on underrepresented graduates. Our program also includes summer internships for high school students who have demonstrated academic achievement and are pursuing careers in aviation and business. It is our intent to continue with these programs and partnerships in order to continue to expand our outreach. As we have expanded our workforce in our heavy MRO facilities we have partnered with a recruiting agency specialized in placing veterans in the civilian workforce. [S69]
 
 ## Financial performance
 
@@ -1197,6 +1264,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L5940:
+
+> The Company maintains a 2020 Equity Incentive Plan (the “2020 Plan”) and has 10,200,000 shares of common stock issuable under the 2020 Plan. The 2020 Plan authorizes discretionary grants of incentive stock options to employees of the Company and its qualifying subsidiaries. The 2020 Plan also authorizes discretionary grants of non-qualified stock options, stock appreciation rights, restricted stock, restricted stock units, dividend equivalents or other equity or cash-based awards to employees and consultants of the Company and its subsidiaries and to members of the Board of Directors (the [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1209,6 +1280,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L270:
+
+> Moreover, we operate in an evolving environment. New risk factors and uncertainties may emerge from time to time, and it is not possible for management to predict all risk factors and uncertainties. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1218,25 +1293,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1300,6 +1375,10 @@ Latest 50 filing metadata records of 517 retained records. A filing link is evid
 | 2026-03-10 | 10-K | 0001104659-26-025574 | — | [S64] |
 | 2026-03-05 | 8-K | 0001104659-26-024101 | — | [S65] |
 | 2026-02-04 | SCHEDULE 13G/A | 0001398344-26-002189 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-07, L5377:
+
+> Warrants to purchase a total of 623,834 shares of the Company’s common stock (the “Private Warrants”) expired unexercised during the year ended December 31, 2025. [S68]
 
 ## Sources and change log
 
@@ -1434,5 +1513,13 @@ Latest 50 filing metadata records of 517 retained records. A filing link is evid
 [S65] [8-K 0001104659-26-024101](https://www.sec.gov/Archives/edgar/data/1754170/000110465926024101/0001104659-26-024101-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [SCHEDULE 13G/A 0001398344-26-002189](https://www.sec.gov/Archives/edgar/data/1754170/000139834426002189/0001398344-26-002189-index.html) — published 2026-02-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-111023](https://www.sec.gov/Archives/edgar/data/1754170/000110465926111023/asle-20260925x8k.htm) — published 2026-09-25; retrieved 2026-11-15T19:16:38.856042+00:00.
+
+[S68] [10-Q 0001104659-26-092710](https://www.sec.gov/Archives/edgar/data/1754170/000110465926092710/asle-20260630x10q.htm) — published 2026-08-07; retrieved 2026-11-15T19:16:36.991791+00:00.
+
+[S69] [DEF 14A 0001104659-26-050451](https://www.sec.gov/Archives/edgar/data/1754170/000110465926050451/asle-20260611xdef14a.htm) — published 2026-04-28; retrieved 2026-11-15T19:16:35.282245+00:00.
+
+[S70] [10-K 0001104659-26-025574](https://www.sec.gov/Archives/edgar/data/1754170/000110465926025574/asle-20251231x10k.htm) — published 2026-03-10; retrieved 2026-11-15T19:16:33.404603+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

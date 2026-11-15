@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -497,6 +497,78 @@ sources:
   published_at: '2026-03-09'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465926109822/tm2625986d1_8k.htm
+  title: 8-K 0001104659-26-109822
+  published_at: '2026-09-23'
+  retrieved_at: '2026-11-15T19:20:03.567734+00:00'
+  sha256: 1ed7f8b2be26e21bba15950a2bbc96d34bb3b39e3ba1af5125006a3410210302
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000119312526342631/asth-20260630.htm
+  title: 10-Q 0001193125-26-342631
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-15T19:20:01.839062+00:00'
+  sha256: 27603555030d591f18fe17697efc066005e9276aab9595bda4fb4642f262bd0a
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465926044536/tm261568d1_def14a.htm
+  title: DEF 14A 0001104659-26-044536
+  published_at: '2026-04-17'
+  retrieved_at: '2026-11-15T19:20:00.123117+00:00'
+  sha256: 080ad7b692561aaad4f8dfb2b878b3055c36fd997295abb63fcdc824c1d7eabf
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000119312526103128/asth-20251231.htm
+  title: 10-K 0001193125-26-103128
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-15T19:19:52.949976+00:00'
+  sha256: dbdebd2ec6deefe378cf183b34fb3bea6314e27f171f96c918e29969bf71e810
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465925089230/tm2525148d1_8ka.htm
+  title: 8-K/A 0001104659-25-089230
+  published_at: '2025-09-11'
+  retrieved_at: '2026-11-15T19:19:41.661647+00:00'
+  sha256: 69a83189cccac862c2a50a1cd180c3243e240be5895107d5ea9d7c22df3fb275
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465925023741/tm259062d1_8ka.htm
+  title: 8-K/A 0001104659-25-023741
+  published_at: '2025-03-14'
+  retrieved_at: '2026-11-15T19:19:39.183005+00:00'
+  sha256: be9bc7e351167e52d346346bdbf1e499801a470d7e0748db3b620c0b559490f5
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465923089366/tm2323203d1_8ka.htm
+  title: 8-K/A 0001104659-23-089366
+  published_at: '2023-08-09'
+  retrieved_at: '2026-11-15T19:19:35.388841+00:00'
+  sha256: 7547f6e6bc9a2d397b91de39ea25e1de2dfa0b5b3625ccc5498f02103709afd0
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000110465922117642/tm2230365d1_8ka.htm
+  title: 8-K/A 0001104659-22-117642
+  published_at: '2022-11-14'
+  retrieved_at: '2026-11-15T19:19:33.053061+00:00'
+  sha256: 6599dd096947d5ea6a38218c761be125e361b788a4e0146191cccd276ca9c274
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000162828022013644/ameh-20220505.htm
+  title: 8-K/A 0001628280-22-013644
+  published_at: '2022-05-10'
+  retrieved_at: '2026-11-15T19:19:30.928694+00:00'
+  sha256: 34556bbf113751232271f755fb32f7ce87b4260174feb0f0324cd6b43869a290
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000162828019011600/ameh8-kaaccountable.htm
+  title: 8-K/A 0001628280-19-011600
+  published_at: '2019-09-11'
+  retrieved_at: '2026-11-15T19:19:29.050657+00:00'
+  sha256: 320180999b344fe4ad7baaa01a55f024d2a10aa8e2ce94ead8cb566bc4f5be07
+- id: S79
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000155335019000065/ameh_8k.htm
+  title: 8-K/A 0001553350-19-000065
+  published_at: '2019-01-17'
+  retrieved_at: '2026-11-15T19:19:27.516956+00:00'
+  sha256: 29dabcea2dd4ca7b17c89f683dd60f59ccb2453bc8a3663bdcb890f99508250e
+- id: S80
+  url: https://www.sec.gov/Archives/edgar/data/1083446/000114420418010585/tv486368_8ka.htm
+  title: 8-K/A 0001144204-18-010585
+  published_at: '2018-02-23'
+  retrieved_at: '2026-11-15T19:19:26.064082+00:00'
+  sha256: 7f37bf95f4913da3728f3539a9fe7f5b46d7d97f2c6f3d41498e63dac4b81742
 issuer_classification:
   cik: 0001083446
   classification_status: reported_sic
@@ -566,13 +638,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1083446/000114420418010585/0001144204-18-010585-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: dc37c5112412f786f46e8904b75d0d4e794262cc6a68fc6af3c488ecdd66c413
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -596,13 +677,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L321:
+
+> This Quarterly Report on Form 10-Q contains “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). All statements other than statements of historical fact are “forward-looking statements” for purposes of federal and state securities laws, including, but not limited to, any statements about our business, financial condition, operating results, plans, objectives, expectations, and intentions; any projections of earnings, revenue, earnings before interest, taxes, depreciation, and amortization (“EBITDA”), Adjusted EBITDA, Adjusted EBITDA margin, adjusted earnings per share (“EPS”) – diluted, free cash flow, or other financial items, such as our projected capitation from CMS, our forward-looking guidance, and our future liquidity; any statements of any plans, strategies, and objectives of management for future operations, such as the material opportunities that we believe exist for our Company; any statements concerning proposed services, developments, mergers, acquisitions, or dispositions; any statements relating to our completed acquisition of certain businesses and assets of Prospect Medical Holdings, Inc. (“Prospect”); any statements with respect to dividends or … [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-10, L3889:
+
+> The Company’s three reportable segments are Care Partners, Care Delivery, and Care Enablement, which are described as follows: [S70]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-K, filed 2026-03-12, L568:
+
+> The healthcare industry is highly competitive and fragmented. We compete for customers across all of our services with other healthcare management companies, including MSOs and healthcare providers, such as local, regional, and national networks of physicians, medical groups, and hospitals, many of which are substantially larger than us and have significantly greater financial and other resources, including personnel, than we have. [S72]
 
 ## Customers and end markets
 
@@ -614,9 +707,17 @@ SEC-reported SIC **8742**: Services-Management Consulting Services. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-03-12, L729:
+
+> In the future, we may require additional capital to grow our business and may have to raise additional funds by selling equity, issuing debt, borrowing funds, refinancing our existing debt, or selling assets or subsidiaries. We may not be able to obtain additional debt or equity financing on favorable terms, in a timely manner, or at all. If we raise additional equity financing, our security holders may experience significant dilution of their ownership interests. If we engage in additional debt financing, we may be required to accept terms that restrict our ability to incur additional indebtedness, force us to maintain specified liquidity or other ratios, or restrict our ability to pay dividends or make acquisitions. In addition, the covenants in our Second Amended and Restated Credit Agreement may limit our ability to obtain additional debt or issue additional equity securities, and any failure to adhere to these covenants could result in penalties or defaults that could further restrict our liquidity or limit our ability to obtain financing. Furthermore, our ability to obtain additional capital may be adversely impacted by factors beyond our control, such as the market demand for our securities, the state of financial markets generally, and other relevant factors, including potential worsening global economic conditions resulting from high inflation and interest rates, … [S72]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-03-12, L570:
+
+> Our affiliated IPAs compete with other IPAs, medical groups, and hospitals, many of which have greater finances, personnel, and other resources. In the greater Los Angeles area, such competitors include Regal Medical Group and Lakeside Medical Group, which are part of Heritage Provider Network (“Heritage”), as well as Optum, a subsidiary of UnitedHealth Group. [S72]
 
 ## Moat and differentiation
 
@@ -625,6 +726,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-17, L937:
+
+> advice to and oversight of management, as well as their ability to identify strategic priorities and lead the Board’s discussions [S71]
 
 ## Financial performance
 
@@ -1254,6 +1359,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L12732:
+
+> In December 2022, Astrana’s Board of Directors approved a share repurchase program authorizing the Company to repurchase up to $50.0 million of its shares of common stock. In February 2026, the Board of Directors increased the total authorization under the share repurchase program to $100.0 million of its shares of common stock, including the $35.9 million that remained available under the previously announced stock repurchase program. Repurchases may be made through a variety of methods, which could include open market purchases, accelerated share repurchase transactions, negotiated block transactions, 10b5-1 plans, other transactions that may be structured through investment banking institutions or privately negotiated, or a combination of the foregoing. This share repurchase program has no expiration date. The Board may suspend, modify, or discontinue the repurchase program at any time. This repurchase program does not obligate the Company to make additional repurchases at any specific time or in any specific situation. During the three months ended June 30, 2026, no shares were repurchased under the Company’s share repurchase program. As of June 30, 2026, $83.1 million remained available under the repurchase program. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1266,6 +1375,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L322:
+
+> Forward-looking statements involve risks and uncertainties, many of which are difficult to predict, are outside of our control, and are based on the current beliefs, expectations, and certain assumptions of management. Some or all of such beliefs, expectations, and assumptions may not materialize or may vary significantly from actual results. Such statements are qualified by important economic, competitive, governmental, and technological factors that could cause our business, strategy, or actual results or events to differ materially from those in our forward-looking statements. Factors that might cause or contribute to such differences include, but are not limited to, those discussed in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the SEC on March 12, 2026, including the risk factors discussed under the heading “Risk Factors” in Part I, Item 1A thereof. Although we believe the expectations reflected in our forward-looking statements are reasonable, actual results could differ materially from those projected or assumed in any of our forward-looking statements. Our future financial condition and results of operations, as well as any forward-looking statements, are subject to change. Significant risks and uncertainties could cause actual conditions, outcomes, and results to differ materially from those indicated by such statements. Any … [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1275,25 +1388,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1356,6 +1469,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-12 | 10-K | 0001193125-26-103128 | — | [S66] |
 | 2026-03-09 | 4 | 0001104659-26-025236 | — | [S67] |
 | 2026-03-09 | 4 | 0001104659-26-025234 | — | [S68] |
+
+Source excerpt — DEF 14A, filed 2026-04-17, L1360:
+
+> a board member of Third Way Health Inc (“Third Way Health”). During the year ended December 31, 2025, the Company incurred [S71]
 
 ## Sources and change log
 
@@ -1494,5 +1611,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S67] [4 0001104659-26-025236](https://www.sec.gov/Archives/edgar/data/1083446/000110465926025236/0001104659-26-025236-index.html) — published 2026-03-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [4 0001104659-26-025234](https://www.sec.gov/Archives/edgar/data/1083446/000110465926025234/0001104659-26-025234-index.html) — published 2026-03-09; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [8-K 0001104659-26-109822](https://www.sec.gov/Archives/edgar/data/1083446/000110465926109822/tm2625986d1_8k.htm) — published 2026-09-23; retrieved 2026-11-15T19:20:03.567734+00:00.
+
+[S70] [10-Q 0001193125-26-342631](https://www.sec.gov/Archives/edgar/data/1083446/000119312526342631/asth-20260630.htm) — published 2026-08-10; retrieved 2026-11-15T19:20:01.839062+00:00.
+
+[S71] [DEF 14A 0001104659-26-044536](https://www.sec.gov/Archives/edgar/data/1083446/000110465926044536/tm261568d1_def14a.htm) — published 2026-04-17; retrieved 2026-11-15T19:20:00.123117+00:00.
+
+[S72] [10-K 0001193125-26-103128](https://www.sec.gov/Archives/edgar/data/1083446/000119312526103128/asth-20251231.htm) — published 2026-03-12; retrieved 2026-11-15T19:19:52.949976+00:00.
+
+[S73] [8-K/A 0001104659-25-089230](https://www.sec.gov/Archives/edgar/data/1083446/000110465925089230/tm2525148d1_8ka.htm) — published 2025-09-11; retrieved 2026-11-15T19:19:41.661647+00:00.
+
+[S74] [8-K/A 0001104659-25-023741](https://www.sec.gov/Archives/edgar/data/1083446/000110465925023741/tm259062d1_8ka.htm) — published 2025-03-14; retrieved 2026-11-15T19:19:39.183005+00:00.
+
+[S75] [8-K/A 0001104659-23-089366](https://www.sec.gov/Archives/edgar/data/1083446/000110465923089366/tm2323203d1_8ka.htm) — published 2023-08-09; retrieved 2026-11-15T19:19:35.388841+00:00.
+
+[S76] [8-K/A 0001104659-22-117642](https://www.sec.gov/Archives/edgar/data/1083446/000110465922117642/tm2230365d1_8ka.htm) — published 2022-11-14; retrieved 2026-11-15T19:19:33.053061+00:00.
+
+[S77] [8-K/A 0001628280-22-013644](https://www.sec.gov/Archives/edgar/data/1083446/000162828022013644/ameh-20220505.htm) — published 2022-05-10; retrieved 2026-11-15T19:19:30.928694+00:00.
+
+[S78] [8-K/A 0001628280-19-011600](https://www.sec.gov/Archives/edgar/data/1083446/000162828019011600/ameh8-kaaccountable.htm) — published 2019-09-11; retrieved 2026-11-15T19:19:29.050657+00:00.
+
+[S79] [8-K/A 0001553350-19-000065](https://www.sec.gov/Archives/edgar/data/1083446/000155335019000065/ameh_8k.htm) — published 2019-01-17; retrieved 2026-11-15T19:19:27.516956+00:00.
+
+[S80] [8-K/A 0001144204-18-010585](https://www.sec.gov/Archives/edgar/data/1083446/000114420418010585/tv486368_8ka.htm) — published 2018-02-23; retrieved 2026-11-15T19:19:26.064082+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

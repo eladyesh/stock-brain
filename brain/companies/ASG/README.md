@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -395,6 +395,12 @@ sources:
   published_at: '2024-09-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/786035/000139834426011254/fp0099418-1_def14a.htm
+  title: DEF 14A 0001398344-26-011254
+  published_at: '2026-06-25'
+  retrieved_at: '2026-11-15T19:15:51.243146+00:00'
+  sha256: 503ecbcfdf1dc0fbfeacd36fc80d47d2da03f856ae7c441caf2bf12acf119191
 issuer_classification:
   cik: 0000786035
   classification_status: missing_or_invalid_sic
@@ -418,13 +424,15 @@ research_filings:
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/786035/000139834426011254/0001398344-26-011254-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3fc109a77643edb49cb0692da27651c501954450960a6f533cc68f8f7ca557c5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -488,6 +496,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-06-25, L79:
+
+> By order of the Board of Trustees of the Equity Fund and the Board of Directors of the Growth Fund, [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -512,7 +524,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -524,13 +536,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -594,6 +606,10 @@ Latest 50 filing metadata records of 756 retained records. A filing link is evid
 | 2024-11-22 | N-30B-2 | 0001398344-24-021353 | — | [S50] |
 | 2024-11-13 | SC 13G | 0001072613-24-000834 | — | [S51] |
 | 2024-09-03 | 3 | 0001085146-24-004531 | — | [S52] |
+
+Source excerpt — DEF 14A, filed 2026-06-25, L923:
+
+> Neither the nominee nor any immediate family member of the nominee is permitted to have accepted directly or indirectly, during the year of the election for which the nominee’s name was submitted, during the immediately preceding calendar year, or during the year when the nominee’s name was submitted, any consulting, advisory, or other compensatory fee from the nominating shareholder or any member of a nominating shareholder group. [S53]
 
 ## Sources and change log
 
@@ -700,5 +716,7 @@ Latest 50 filing metadata records of 756 retained records. A filing link is evid
 [S51] [SC 13G 0001072613-24-000834](https://www.sec.gov/Archives/edgar/data/786035/000107261324000834/0001072613-24-000834-index.html) — published 2024-11-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [3 0001085146-24-004531](https://www.sec.gov/Archives/edgar/data/786035/000108514624004531/0001085146-24-004531-index.html) — published 2024-09-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [DEF 14A 0001398344-26-011254](https://www.sec.gov/Archives/edgar/data/786035/000139834426011254/fp0099418-1_def14a.htm) — published 2026-06-25; retrieved 2026-11-15T19:15:51.243146+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

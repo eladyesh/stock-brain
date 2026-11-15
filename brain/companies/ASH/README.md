@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,78 @@ sources:
   published_at: '2026-01-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000119312526402900/ash-20260924.htm
+  title: 8-K 0001193125-26-402900
+  published_at: '2026-09-25'
+  retrieved_at: '2026-11-15T19:16:16.906589+00:00'
+  sha256: 52041c8fbfb0133d40128da044c183bd89817df8ee7daca228ca6f14535c2080
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000119312526342480/ash-20260727.htm
+  title: 8-K/A 0001193125-26-342480
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-15T19:16:15.369545+00:00'
+  sha256: 58b0c063250e78a46329b25f0f00b10597a736ee75f490d9fc251ab8eddc0eff
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000119312526324226/ash-20260630.htm
+  title: 10-Q 0001193125-26-324226
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-15T19:16:13.343563+00:00'
+  sha256: b5092e0c7108a26fa8d3d6b1f09abb5583e0be20019a822174ce643e4a78d456
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000119312525312753/ash-20251209.htm
+  title: DEF 14A 0001193125-25-312753
+  published_at: '2025-12-09'
+  retrieved_at: '2026-11-15T19:16:11.315000+00:00'
+  sha256: b0e2f6278d98ce579cfa1524564f25e83b70166a4ee2987a0ea305804c5c62b5
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000119312525289248/ash-20250930.htm
+  title: 10-K 0001193125-25-289248
+  published_at: '2025-11-20'
+  retrieved_at: '2026-11-15T19:16:09.103982+00:00'
+  sha256: 6a1e0b349ec2210eedd7338c56be8e13261cc52e232f44c65b6721b5d0aff8bc
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000095017025099279/ash-20250718.htm
+  title: 8-K/A 0000950170-25-099279
+  published_at: '2025-07-28'
+  retrieved_at: '2026-11-15T19:16:07.213192+00:00'
+  sha256: 030d1b1f07afde61773eb8dae782464f019c303f3eb708147cc9b9977508252e
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000095017023001508/ash-20230124.htm
+  title: 8-K/A 0000950170-23-001508
+  published_at: '2023-01-31'
+  retrieved_at: '2026-11-15T19:16:05.396565+00:00'
+  sha256: ffa16977196dbb06fd941fb236616f3e54821ee9652423b0b6e854e49e7eb11e
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000095017022015108/ash-20220609.htm
+  title: 8-K/A 0000950170-22-015108
+  published_at: '2022-08-05'
+  retrieved_at: '2026-11-15T19:16:03.769367+00:00'
+  sha256: 01036592f5b4eed421b929acbfb13b344d56705c03035efb30ecc09e1d8278ef
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000095017022002825/ash-20220228.htm
+  title: 8-K/A 0000950170-22-002825
+  published_at: '2022-03-03'
+  retrieved_at: '2026-11-15T19:16:02.139720+00:00'
+  sha256: a5e00419c9780290138c262bced92702f3d184aaf12ec9eda0f99ecc8d45e1a6
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000095017021001910/ash-20210927.htm
+  title: 8-K/A 0000950170-21-001910
+  published_at: '2021-09-28'
+  retrieved_at: '2026-11-15T19:16:00.372710+00:00'
+  sha256: 63fa65f711598abdbd7c3970fc255b3e26f9b74b4e18d8c03b78a7e4954a9e76
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000156459019020180/ash-8ka_20190425.htm
+  title: 8-K/A 0001564590-19-020180
+  published_at: '2019-05-22'
+  retrieved_at: '2026-11-15T19:15:58.818549+00:00'
+  sha256: 7931d4ddbb479fb4ecceefce0eb887dd3e2d6f1a0fb75e051669baa981fa29c1
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1674862/000167486217000019/form8k.htm
+  title: 8-K/A 0001674862-17-000019
+  published_at: '2017-03-20'
+  retrieved_at: '2026-11-15T19:15:57.339068+00:00'
+  sha256: 74a50049bb9f2fb9839d1a57ef6d313f2880380f1756343cd2ee4c0614e1ad35
 issuer_classification:
   cik: 0001674862
   classification_status: reported_sic
@@ -537,13 +609,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1674862/000167486217000019/0001674862-17-000019-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7c682e18066dcdbe91827799cde967d272a7f9cd5f4227af0ab22751b25c492e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -567,17 +650,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-29, L12948:
+
+> from China, the E.U., India, and other countries which has resulted in the imposition of retaliatory measures against U.S. goods. During fiscal 2026, certain previously announced tariff measures have been modified, suspended, challenged, or reversed, while additional trade actions remain under consideration, contributing to continued uncertainty regarding the future trade policy environment and its potential impact on our business. As a global business, we are exposed to risks associated with tariffs and other trade conflicts. Such risks may include, but are not limited to, (i) changes to and strains on the global supply chain and our ability to source materials; (ii) increased sourcing and manufacturing costs; (iii) decreased demand for Ashland’s products in affected markets; and (iv) other impacts on Ashland’s ability to operate optimally. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-29, L2048:
+
+> Ashland is comprised of the following reportable segments: Life Sciences, Personal Care, Specialty Additives and Intermediates. Unallocated and other includes corporate governance activities and certain legacy matters. For additional information about Ashland's reportable segments, see Note Q. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-29, L12952:
+
+> Ashland does not have manufacturing operations in Iran, Israel, Russia, Ukraine, Venezuela or Belarus. Ashland sells (or previously sold) additives and specialty ingredients to manufacturers in these countries for their use in pharmaceuticals, personal care, and coatings applications. Sales to Russia and Belarus were previously limited and our products were primarily used in products and applications that are essential to the population's well-being and currently support our customers' humanitarian efforts. We have sales controls in place to ensure that future potential sales into the region are only to support critical pharmaceutical or personal hygiene products which are essential for the general population and in accordance with any applicable sanctions. Sales to Israel, Ukraine, Russia, and Belarus represent less than 1% of total consolidated sales and less than 1% of total consolidated assets (related to accounts receivable). Ashland has no sales activity with Iran. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-29, L10329:
+
+> Life Sciences is comprised of pharmaceuticals, nutrition, agricultural chemicals, diagnostic films (formerly known as advanced materials) and fine chemicals. Pharmaceutical solutions include controlled release polymers, disintegrants, tablet coatings, thickeners, solubilizers and tablet binders. Nutrition solutions include thickeners, stabilizers, emulsifiers and additives for enhancing mouthfeel, controlling moisture migration, reducing oil uptake and binding structured foods. Customers include pharmaceutical, food, beverage, hospitals and radiologists manufacturers. [S69]
 
 ## Industry and value chain
 
@@ -585,17 +684,33 @@ SEC-reported SIC **5160**: Wholesale-Chemicals & Allied Products. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L2051:
+
+> Ashland’s results are affected by domestic and international economic, political, legislative, regulatory and legal actions. Economic conditions, such as recessionary trends, inflation, interest and monetary exchange rates, government fiscal policies and changes in the prices of certain key raw materials, can have a significant effect on operations. While Ashland maintains reserves for anticipated liabilities and carries various levels of insurance, Ashland could be affected by civil, criminal, regulatory or administrative actions, claims or proceedings relating to asbestos, environmental remediation, income taxes or other matters. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2025-11-20, L463:
+
+> Ashland competes in the highly fragmented additives and specialty ingredients industries. The participants in these industries offer a varied and broad array of product lines designed to meet specific customer requirements. Participants compete with service and product offerings on a global, regional and/or local level subject to the nature of the businesses and products, as well as the end-markets and customers served. Competition is based on several key criteria, including product performance and quality, product price, product availability and security of supply, responsiveness of product development in cooperation with customers, customer service, industry knowledge and technical capability. Certain key competitors are significantly larger than Ashland and have greater financial resources, leading to greater operating and financial flexibility. The industry has become increasingly global as participants have focused on establishing and maintaining leadership positions outside of their home markets. Many of these segments’ product lines face domestic and international competition, due to industry consolidation, pricing pressures and competing technologies. Through a more focused approach, the Company is leveraging the Ashland brand and global scale to [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-29, L4502:
+
+> Other intangible assets principally consist of trademarks and trade names, intellectual property and customer lists. Intangible assets classified as finite are amortized on a straight-line basis over their estimated useful lives. The cost of trademarks and trade names is amortized principally over 3 to 20 years, intellectual property over 3 to 20 years, and customer lists over 10 to 24 years. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2025-12-09, L1990:
+
+> The G&N Committee strives to select individuals as director nominees who exhibit the highest personal and professional integrity, who have demonstrated exceptional ability and judgment and who shall be most effective in serving the interests of Ashland’s stockholders. The following matrix identifies certain skills and experience that the G&N Committee and the Board believe that the Board, as a collective group must have for the effective oversight of Ashland and our strategy. The table is intended to serve as a high-level summary and not an exhaustive list of each director nominee's skills, capabilities or contributions to the Board. The biographies of the director nominees on page 20 includes more information about our directors’ relevant skills, experience and qualifications. [S70]
 
 ## Financial performance
 
@@ -1204,6 +1319,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2026-08-10, L88:
+
+> This Current Report on Form 8-K/A (this "Amendment") amends the Current Report on Form 8-K filed by Ashland Inc. (the "Company") with the Securities and Exchange Commission on July 28, 2026 (the "Original Form 8-K"), which reported, among other matters, the appointment of Allen A. Spizzo and Peter T. Thomas to the Board of Directors of the Company (the "Board"), effective July 27, 2026. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1216,6 +1335,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L22376:
+
+> During the period covered by this report, there were no material changes from the risk factors previously disclosed in Ashland’s Annual Report on Form 10-K for the fiscal year ended September 30, 2025. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1225,25 +1348,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1307,6 +1430,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-01-22 | 4 | 0001193125-26-019514 | — | [S64] |
 | 2026-01-22 | 8-K | 0001193125-26-019509 | — | [S65] |
 | 2026-01-22 | 4 | 0001193125-26-019507 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2025-12-09, L12924:
+
+> The stockholders are being asked to ratify the Audit Committee’s appointment of EY. Ratification of the appointment of EY requires approval by a majority of the votes cast by the stockholders entitled to vote thereon who are present in person or by proxy. Abstentions will not be counted as votes cast either for or against the proposal. As this proposal is considered a “routine” matter by the New York Stock Exchange, there should not be any broker non-votes cast in connection with this proposal. If the stockholders fail to ratify this appointment, the Audit Committee may, but is not required to, reconsider whether to retain EY. Even if the appointment is ratified, the Audit Committee in its discretion may direct the appointment of a different accounting firm at any time during the year if it determines that such a change would be in the best interests of Ashland and its stockholders. [S70]
 
 ## Sources and change log
 
@@ -1441,5 +1568,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [8-K 0001193125-26-019509](https://www.sec.gov/Archives/edgar/data/1674862/000119312526019509/0001193125-26-019509-index.html) — published 2026-01-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001193125-26-019507](https://www.sec.gov/Archives/edgar/data/1674862/000119312526019507/0001193125-26-019507-index.html) — published 2026-01-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001193125-26-402900](https://www.sec.gov/Archives/edgar/data/1674862/000119312526402900/ash-20260924.htm) — published 2026-09-25; retrieved 2026-11-15T19:16:16.906589+00:00.
+
+[S68] [8-K/A 0001193125-26-342480](https://www.sec.gov/Archives/edgar/data/1674862/000119312526342480/ash-20260727.htm) — published 2026-08-10; retrieved 2026-11-15T19:16:15.369545+00:00.
+
+[S69] [10-Q 0001193125-26-324226](https://www.sec.gov/Archives/edgar/data/1674862/000119312526324226/ash-20260630.htm) — published 2026-07-29; retrieved 2026-11-15T19:16:13.343563+00:00.
+
+[S70] [DEF 14A 0001193125-25-312753](https://www.sec.gov/Archives/edgar/data/1674862/000119312525312753/ash-20251209.htm) — published 2025-12-09; retrieved 2026-11-15T19:16:11.315000+00:00.
+
+[S71] [10-K 0001193125-25-289248](https://www.sec.gov/Archives/edgar/data/1674862/000119312525289248/ash-20250930.htm) — published 2025-11-20; retrieved 2026-11-15T19:16:09.103982+00:00.
+
+[S72] [8-K/A 0000950170-25-099279](https://www.sec.gov/Archives/edgar/data/1674862/000095017025099279/ash-20250718.htm) — published 2025-07-28; retrieved 2026-11-15T19:16:07.213192+00:00.
+
+[S73] [8-K/A 0000950170-23-001508](https://www.sec.gov/Archives/edgar/data/1674862/000095017023001508/ash-20230124.htm) — published 2023-01-31; retrieved 2026-11-15T19:16:05.396565+00:00.
+
+[S74] [8-K/A 0000950170-22-015108](https://www.sec.gov/Archives/edgar/data/1674862/000095017022015108/ash-20220609.htm) — published 2022-08-05; retrieved 2026-11-15T19:16:03.769367+00:00.
+
+[S75] [8-K/A 0000950170-22-002825](https://www.sec.gov/Archives/edgar/data/1674862/000095017022002825/ash-20220228.htm) — published 2022-03-03; retrieved 2026-11-15T19:16:02.139720+00:00.
+
+[S76] [8-K/A 0000950170-21-001910](https://www.sec.gov/Archives/edgar/data/1674862/000095017021001910/ash-20210927.htm) — published 2021-09-28; retrieved 2026-11-15T19:16:00.372710+00:00.
+
+[S77] [8-K/A 0001564590-19-020180](https://www.sec.gov/Archives/edgar/data/1674862/000156459019020180/ash-8ka_20190425.htm) — published 2019-05-22; retrieved 2026-11-15T19:15:58.818549+00:00.
+
+[S78] [8-K/A 0001674862-17-000019](https://www.sec.gov/Archives/edgar/data/1674862/000167486217000019/form8k.htm) — published 2017-03-20; retrieved 2026-11-15T19:15:57.339068+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

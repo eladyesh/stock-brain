@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -374,6 +374,42 @@ sources:
   published_at: '2025-07-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000110465926087836/asc-20260729x6k.htm
+  title: 6-K 0001104659-26-087836
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-15T19:15:49.025825+00:00'
+  sha256: ea6c60468974e0dadadc345713c3130b5154b010b72d8bd1a5d90ff51bd9544b
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000110465926024690/asc-20251231x20f.htm
+  title: 20-F 0001104659-26-024690
+  published_at: '2026-03-06'
+  retrieved_at: '2026-11-15T19:15:47.256105+00:00'
+  sha256: 5942c7c4b74c7ddf023e4bce9f4fb5152a2af81be538d421ac8505b57fe8a19d
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000114420419037268/tv526264-20fa.htm
+  title: 20-F/A 0001144204-19-037268
+  published_at: '2019-08-02'
+  retrieved_at: '2026-11-15T19:15:43.715666+00:00'
+  sha256: a07736e3b3d07a5b055682ff6507eaae232cc7026da2a256d191ea8fd3d2f7f3
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000114420419037272/tv526258_6ka.htm
+  title: 6-K/A 0001144204-19-037272
+  published_at: '2019-08-02'
+  retrieved_at: '2026-11-15T19:15:45.533195+00:00'
+  sha256: 0708005f802bf29411e0698fa921db0202b728ae930b52656e8ba0e341deae3b
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000114420416093358/v436523_20fa.htm
+  title: 20-F/A 0001144204-16-093358
+  published_at: '2016-04-08'
+  retrieved_at: '2026-11-15T19:15:41.984223+00:00'
+  sha256: 8060c22a045b06c7c135403a9fcb353205838d46388615df865f4faf07d286b4
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1577437/000119312515135744/d885598d20fa.htm
+  title: 20-F/A 0001193125-15-135744
+  published_at: '2015-04-17'
+  retrieved_at: '2026-11-15T19:15:39.943091+00:00'
+  sha256: 1225291b618624f3340277598143e6cfe7e7bfd1dafa506a4478d666d8e33344
 issuer_classification:
   cik: '0001577437'
   classification_status: reported_sic
@@ -417,13 +453,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1577437/000114420419037272/0001144204-19-037272-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: b1ae40add300aa33a4f0bd8bae12609c72b916b3f3137adb19643b753cd96daf
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -447,17 +494,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-03-06, L385:
+
+> \| \| ● \| our business and growth strategies and other plans, and related potential benefits and opportunities; [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-03-06, L13186:
+
+> The Chieft Operatinng Decision Maker (“CODM”) reviews overall operating results on a fleet-wide basis using time charter equivalent rates (“TCE”) and consolidated expenses. When the Company charters-out a vessel, the charterer is free to trade the vessel worldwide (subject to certain sanctions-related restrictions and certain operational-related constraints), making the disclosure of geographic information impracticable. The Company operates under one reportable segment for its vessel operations, based on how internally reported financial information is reviewed by the CODM to analyze performance, make decisions, and allocate resources. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-03-06, L484:
+
+> \| \| ● \| Changes in the oil, oil products, and chemical markets could result in decreased demand for our services. [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-03-06, L597:
+
+> Any inability to prevent security breaches (including the inability of our third-party vendors, suppliers or counterparties to prevent security breaches) could also cause existing clients to lose confidence in our information systems and harm our reputation, cause losses to us or our customers, damage our brand, and increase our costs. Any vulnerabilities attributable to third-party vendors, suppliers or counterparties relating to artificial intelligence tools or other products or services we may purchase or use might not be identified or discovered by them or by us, and such vulnerabilities could increase our exposure to security breaches and cyber-attacks.In addition, the unavailability of the information systems or the failure of these systems to perform as anticipated for any reason could disrupt our business and could result in decreased performance and increased operating costs. Any significant interruption or failure of our information systems or any significant breach of security could adversely affect our business, results of operations, and financial condition. [S54]
 
 ## Industry and value chain
 
@@ -465,17 +528,33 @@ SEC-reported SIC **4412**: Deep Sea Foreign Transportation of  Freight. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-03-06, L843:
+
+> Fleet renewal and expansion may include the purchase or ordering of additional vessels. In order to maximize fleet performance and efficiency, we plan to invest from time to time in new technologies to be installed on our fleet. However, the delivery and installation of any new equipment depends on a number of factors, some of which are within our control, such as the location of the vessels on a given date, and other factors which are outside of our control, such as the delivery due date, the availability of qualified personnel to install new equipment, and potential bottlenecks in the supply chain. Depending on the type of new equipment to be installed, we may need to co-ordinate delivery and installation in line with vessel drydockings. Any delays in the delivery or installation of new equipment could result in an increase in the number of drydock days and adversely impact our results of operations. [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-03-06, L661:
+
+> The market values of tankers have historically experienced high volatility. The market value of our vessels will fluctuate depending on general economic and market conditions affecting the shipping industry and prevailing charter hire rates, competition from other shipping companies, and other modes of transportation, the types, sizes, and ages of vessels, applicable governmental and environmental regulations and the cost of newbuildings. [S54]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F/A, filed 2015-04-17, L6548:
+
+> believe that our well-maintained, high-quality vessels provide us with a competitive advantage in the current environment of increasing regulation and customer emphasis on quality. [S58]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-03-06, L808:
+
+> \| \| ● \| improve or expand our operating, financial and accounting systems, and controls; and [S54]
 
 ## Financial performance
 
@@ -489,6 +568,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-03-06, L181:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -500,6 +583,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-03-06, L409:
+
+> Many of these statements are based on our assumptions about factors that are beyond our ability to control or predict and are subject to risks and uncertainties that are described more fully under the “Risk Factors” section of this Annual Report. Any of these factors or a combination of these factors could materially affect our business, results of operations and financial condition and the ultimate accuracy of the forward-looking statements. Factors that might cause future results to differ include, among others, the following: [S54]
 
 ## Scenarios and open questions
 
@@ -513,25 +600,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -595,6 +682,10 @@ Latest 50 filing metadata records of 488 retained records. A filing link is evid
 | 2025-08-05 | 144 | 0001972481-25-000166 | — | [S50] |
 | 2025-07-30 | 6-K | 0001558370-25-009775 | — | [S51] |
 | 2025-07-30 | 6-K | 0001558370-25-009774 | — | [S52] |
+
+Source excerpt — 20-F, filed 2026-03-06, L1120:
+
+> If we or our subsidiaries were not entitled to exemption under Section 883 of the Code for any taxable year, we or our subsidiaries would be subject for such year to a 4% U.S. federal income tax on 50% of the shipping income we or our subsidiaries derive during the year which is attributable to the transport of cargoes to or from the United States. The imposition of this taxation would have a negative effect on our business and would decrease our earnings available for distribution to our shareholders. For a discussion of the U.S. federal income tax treatment of our operating income, please read “Additional Information—Taxation of Holders—U.S. Federal Income Tax Considerations—U.S. Federal Income Taxation of Operating Income: In General.” [S54]
 
 ## Sources and change log
 
@@ -701,5 +792,17 @@ Latest 50 filing metadata records of 488 retained records. A filing link is evid
 [S51] [6-K 0001558370-25-009775](https://www.sec.gov/Archives/edgar/data/1577437/000155837025009775/0001558370-25-009775-index.html) — published 2025-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001558370-25-009774](https://www.sec.gov/Archives/edgar/data/1577437/000155837025009774/0001558370-25-009774-index.html) — published 2025-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001104659-26-087836](https://www.sec.gov/Archives/edgar/data/1577437/000110465926087836/asc-20260729x6k.htm) — published 2026-07-29; retrieved 2026-11-15T19:15:49.025825+00:00.
+
+[S54] [20-F 0001104659-26-024690](https://www.sec.gov/Archives/edgar/data/1577437/000110465926024690/asc-20251231x20f.htm) — published 2026-03-06; retrieved 2026-11-15T19:15:47.256105+00:00.
+
+[S55] [20-F/A 0001144204-19-037268](https://www.sec.gov/Archives/edgar/data/1577437/000114420419037268/tv526264-20fa.htm) — published 2019-08-02; retrieved 2026-11-15T19:15:43.715666+00:00.
+
+[S56] [6-K/A 0001144204-19-037272](https://www.sec.gov/Archives/edgar/data/1577437/000114420419037272/tv526258_6ka.htm) — published 2019-08-02; retrieved 2026-11-15T19:15:45.533195+00:00.
+
+[S57] [20-F/A 0001144204-16-093358](https://www.sec.gov/Archives/edgar/data/1577437/000114420416093358/v436523_20fa.htm) — published 2016-04-08; retrieved 2026-11-15T19:15:41.984223+00:00.
+
+[S58] [20-F/A 0001193125-15-135744](https://www.sec.gov/Archives/edgar/data/1577437/000119312515135744/d885598d20fa.htm) — published 2015-04-17; retrieved 2026-11-15T19:15:39.943091+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

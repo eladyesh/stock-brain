@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -484,6 +484,78 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/884144/000110465926116616/tm2627663d1_8k.htm
+  title: 8-K 0001104659-26-116616
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-15T19:20:47.465928+00:00'
+  sha256: 1edf08ed73fe12b338e163190e88a557218a224b509cbe602dce7f2bb3a1b0e7
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/884144/000162828026051066/asur-20260630.htm
+  title: 10-Q 0001628280-26-051066
+  published_at: '2026-07-30'
+  retrieved_at: '2026-11-15T19:20:45.888116+00:00'
+  sha256: 9882d681beb1d8d2900a346b1a63352761d9c48abf1c799a02fec16dda2548c6
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/884144/000162828026023137/asur-20260402.htm
+  title: DEF 14A 0001628280-26-023137
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-15T19:20:44.171263+00:00'
+  sha256: 68ca9a30cd00c14af13f097812ed4431e1bdd5285b00ba31b8fefa8c0f43fa27
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/884144/000162828026012270/asur-20251231.htm
+  title: 10-K 0001628280-26-012270
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-15T19:20:42.531640+00:00'
+  sha256: 6a131a266bf3521d0be00260aca37eee245cbd2e212f98a0d174b3dee876dc5c
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/884144/000088414423000057/asur-20231113.htm
+  title: 8-K/A 0000884144-23-000057
+  published_at: '2023-11-14'
+  retrieved_at: '2026-11-15T19:20:40.796501+00:00'
+  sha256: eeb0d4c18bf879b6652faa2a03971f60a57c750527513084369c687eb7fbbc79
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/884144/000162828021004644/asur-20210311.htm
+  title: 8-K/A 0001628280-21-004644
+  published_at: '2021-03-12'
+  retrieved_at: '2026-11-15T19:20:39.213046+00:00'
+  sha256: c9462656f775d1ec3e44ec4e302a562d5e3a776f2ddde439390a15bdb68b46eb
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518520000789/asure20200602_8ka.htm
+  title: 8-K/A 0001185185-20-000789
+  published_at: '2020-06-02'
+  retrieved_at: '2026-11-15T19:20:37.737418+00:00'
+  sha256: 8445b74f1b776f578850ca0d9f4cf7f4a780a56cd05a9a46d6e4272de57e658f
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518517002656/asuresoftware8ka122117.htm
+  title: 8-K/A 0001185185-17-002656
+  published_at: '2017-12-21'
+  retrieved_at: '2026-11-15T19:20:35.984489+00:00'
+  sha256: d7242622d86452fcb83550d0000ef2d5f2e4ce82982f5bf3f9b3de7d5f2a9f3e
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518517001681/asuresoftware8ka080817.htm
+  title: 8-K/A 0001185185-17-001681
+  published_at: '2017-08-09'
+  retrieved_at: '2026-11-15T19:20:34.181585+00:00'
+  sha256: cf58366456140cd6f512d52eb23e77e4a7d38f0f879baadfbeeeab6d0781a8f4
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518517001558/asuresoftware8ka071717.htm
+  title: 8-K/A 0001185185-17-001558
+  published_at: '2017-07-17'
+  retrieved_at: '2026-11-15T19:20:31.714179+00:00'
+  sha256: 6c12499583be4500cf75be2beb029a5e08d74f28228ec5a299788f40b40bd4f5
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518517000611/asuresoftware8ka031617.htm
+  title: 8-K/A 0001185185-17-000611
+  published_at: '2017-03-20'
+  retrieved_at: '2026-11-15T19:20:30.130049+00:00'
+  sha256: a3cd6f7305df028a8caae5f5cce090eeeaeb8cf3131ec35c9127d551282a3dc8
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/884144/000118518516004503/asuresoftware8ka051016.htm
+  title: 8-K/A 0001185185-16-004503
+  published_at: '2016-05-12'
+  retrieved_at: '2026-11-15T19:20:28.564159+00:00'
+  sha256: 3030c969ea826066303197713624642cfd1a7756b73fb21e7a73ca71a6cea336
 issuer_classification:
   cik: 0000884144
   classification_status: reported_sic
@@ -553,13 +625,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/884144/000118518516004503/0001185185-16-004503-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ba7ec95afa06b8064cbe2d305410ac0aed45b3bb9c9e868656ca62748c5d937f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 2
   model_draft: false
   reviewed: false
@@ -583,17 +666,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-30, L394:
+
+> Asure Software, Inc. (“Asure”, the “Company”, “we” and “our”), a Delaware corporation, is a provider of cloud-based Human Capital Management (“HCM”) software solutions delivered as Software-as-a-Service (“SaaS”) to businesses of all sizes. We offer human resources (“HR”) tools necessary to build a thriving workforce, provide the resources to stay compliant with dynamic federal, state, and local tax jurisdictions and their respective labor laws, freeing cash flows so these businesses can spend their financial capital on growing their businesses rather than administrative overhead that can impede growth. Our solutions also provide new ways for employers to connect with their employees and strengthen relationships with their talent. At the core of our offering is the Asure HCM platform—a SaaS-based system that includes Payroll & Tax filing, HR management tools, Time & Attendance software, Recruiting, and Insurance and Benefits Administration. This platform serves as the foundation for delivering both our core software and a range of complementary, technology-enabled services. These include AsureMarketplace™, which automates data exchange between our HCM system and third-party providers to increase efficiency, accuracy, and breadth of services. Our HR Compliance services combine expert guidance with scalable digital delivery. AsurePay™, our payroll card, which we provide in … [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-30, L404:
+
+> Our chief operating decision maker is our Chairman and Chief Executive Officer, Patrick Goepel, who reviews financial information presented on a company-wide basis. Thus, in accordance with Financial Accounting Standards Board (“FASB”) Accounting Standards Codification (“ASC”) 280, we determined that we have a single reportable segment that primarily derives our revenue in the United States by providing payroll services to customers. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-30, L395:
+
+> We strive to be the most trusted HCM resource. Our solutions solve three primary challenges that prevent businesses from growing: HR complexity, allocation of human and financial capital, and the ability to build great teams. We sell our solutions through both direct and partner channels. We supplement our direct sales efforts with partner programs that afford us access to opportunities in various geographic and industry niches. Asure has two types of partners: Reseller Partners that white label our products while providing value-added services to their clients (our indirect clients) and Referral Partners that provide us with client leads but do not resell our solutions. We have and will continue to invest in research and development to expand our solutions. Our solutions reduce the administrative burden on employers and increase employee productivity while managing the employment lifecycle. The Asure HCM suite includes eight product lines: Asure Payroll & Tax, Asure HR Compliance, Asure Time & Attendance, AsureRecruiting™, Asure Insurance and Benefits Administration, AsurePay™, Asure Tax Management Solutions, and AsureMarketplace™ . [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-26, L262:
+
+> •Our business depends substantially on clients renewing their agreements with us, purchasing additional products from us or adding additional users. If our customers do not renew their agreements with us or reduce the services purchased, our revenue will decline and our business, operating results and financial condition may be adversely affected. [S70]
 
 ## Industry and value chain
 
@@ -601,17 +700,33 @@ SEC-reported SIC **7373**: Services-Computer Integrated Systems Design. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L398:
+
+> Asure’s “Labor and Human Rights Policy” formalizes the Company’s commitment to preserving and promoting the fundamental rights of others as reflected in our commitment to labor and human rights. Our codes, standards and programs are built around the recognition that everything we do in connection with our work must reflect the highest possible standards of ethical business conduct and all employees must be treated with respect and dignity. Our commitment to international human rights standards and local laws are rooted in our core values and reinforced through our “Code of Business Conduct and Ethics” and other company policies. We support the aim of the International Labor Organization (“ILO”), the Universal Declaration of Human Rights (“UDHR”), the International Bill of Human Rights, and the UN Guiding Principles on Business and Human Rights to arrive at universally accepted labor standards and have therefore adopted internal policies, standards, procedures, and guidelines that are aligned with these policies. Asure’s management is strongly committed to ensuring the continuing development and implementation of our “Labor and Human Rights Policy” and will continue to regularly evaluate these policies to ensure an effective outcome and adherence by our employees as well as holding our suppliers and vendors to the same standards. Additionally, Asure will ensure all employees … [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-26, L335:
+
+> The market for HCM solutions is competitive and subject to evolving technology, shifting client needs, and regular introduction of new products and services. Our competitors range from regional payroll companies to large, well-established companies with multiple product offerings. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L386:
+
+> We have adopted a Code of Business Conduct and Ethics that applies to all of our directors, officers, and employees, including the Chief Executive Officer, Chief Financial Officer and Principal Accounting Officer. These individuals are required to abide by the Code of Business Conduct and Ethics to ensure that our business is conducted in a consistently legal and ethical manner. The Company’s Code of Business Conduct and Ethics covers all areas of professional conduct, including employment policies, conflicts of interest, intellectual property, and the protection of confidential information, as well as strict adherence to all laws and regulations applicable to the conduct of its business. Any waivers of the Code of Business Conduct and Ethics for directors or executive officers must be approved by the board of directors. The full text of the Company’s Code of Business Conduct and Ethics is published on our website at https://investor.asuresoftware.com/corporate-governance. We intend to disclose future amendments to, or waivers from, provisions of our Code of Business Conduct and Ethics on our website within four business days following the date of such amendment or waiver. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-30, L395:
+
+> We strive to be the most trusted HCM resource. Our solutions solve three primary challenges that prevent businesses from growing: HR complexity, allocation of human and financial capital, and the ability to build great teams. We sell our solutions through both direct and partner channels. We supplement our direct sales efforts with partner programs that afford us access to opportunities in various geographic and industry niches. Asure has two types of partners: Reseller Partners that white label our products while providing value-added services to their clients (our indirect clients) and Referral Partners that provide us with client leads but do not resell our solutions. We have and will continue to invest in research and development to expand our solutions. Our solutions reduce the administrative burden on employers and increase employee productivity while managing the employment lifecycle. The Asure HCM suite includes eight product lines: Asure Payroll & Tax, Asure HR Compliance, Asure Time & Attendance, AsureRecruiting™, Asure Insurance and Benefits Administration, AsurePay™, Asure Tax Management Solutions, and AsureMarketplace™ . [S68]
 
 ## Financial performance
 
@@ -1217,6 +1332,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L32:
+
+> 1.To elect seven directors to the board of directors, each to hold office until the 2027 Annual Meeting or until his/her respective successor is duly elected and qualified; [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1229,6 +1348,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-30, L865:
+
+> There have been no material changes from the risk factors previously disclosed in the Company’s 2025 Annual Report on Form 10-K, filed with the SEC on February 26, 2026, and investors are encouraged to review these risk factors prior to making an investment in the Company. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1238,25 +1361,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1320,6 +1443,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-03 | 4 | 0001628280-26-014038 | — | [S64] |
 | 2026-03-03 | 4 | 0001628280-26-014027 | — | [S65] |
 | 2026-03-03 | 4 | 0001628280-26-014014 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-07-30, L448:
+
+> During the year ended December 31, 2025, we completed seven customer relationship asset acquisitions. The total purchase price of these acquisitions was $20,523, which consisted of $16,019 of cash paid during the year ended December 31, 2025, $56 of cash paid during the six months ended June 30, 2026, the delivery of promissory notes in the amount of $3,492, net of discounts, and the delivery of 124 shares of Asure common stock, which had an aggregate fair value of $956 at the acquisition dates. The purchase prices for certain of these acquisitions are subject to adjustments for contingent events which are generally expected to occur over the next twelve months following June 30, 2026, including revenue generated from the acquired assets. The acquired customer relationships are recorded as intangible assets and are being amortized on a straight-line basis over eight years. [S68]
 
 ## Sources and change log
 
@@ -1454,5 +1581,29 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001628280-26-014027](https://www.sec.gov/Archives/edgar/data/884144/000162828026014027/0001628280-26-014027-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001628280-26-014014](https://www.sec.gov/Archives/edgar/data/884144/000162828026014014/0001628280-26-014014-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001104659-26-116616](https://www.sec.gov/Archives/edgar/data/884144/000110465926116616/tm2627663d1_8k.htm) — published 2026-10-16; retrieved 2026-11-15T19:20:47.465928+00:00.
+
+[S68] [10-Q 0001628280-26-051066](https://www.sec.gov/Archives/edgar/data/884144/000162828026051066/asur-20260630.htm) — published 2026-07-30; retrieved 2026-11-15T19:20:45.888116+00:00.
+
+[S69] [DEF 14A 0001628280-26-023137](https://www.sec.gov/Archives/edgar/data/884144/000162828026023137/asur-20260402.htm) — published 2026-04-02; retrieved 2026-11-15T19:20:44.171263+00:00.
+
+[S70] [10-K 0001628280-26-012270](https://www.sec.gov/Archives/edgar/data/884144/000162828026012270/asur-20251231.htm) — published 2026-02-26; retrieved 2026-11-15T19:20:42.531640+00:00.
+
+[S71] [8-K/A 0000884144-23-000057](https://www.sec.gov/Archives/edgar/data/884144/000088414423000057/asur-20231113.htm) — published 2023-11-14; retrieved 2026-11-15T19:20:40.796501+00:00.
+
+[S72] [8-K/A 0001628280-21-004644](https://www.sec.gov/Archives/edgar/data/884144/000162828021004644/asur-20210311.htm) — published 2021-03-12; retrieved 2026-11-15T19:20:39.213046+00:00.
+
+[S73] [8-K/A 0001185185-20-000789](https://www.sec.gov/Archives/edgar/data/884144/000118518520000789/asure20200602_8ka.htm) — published 2020-06-02; retrieved 2026-11-15T19:20:37.737418+00:00.
+
+[S74] [8-K/A 0001185185-17-002656](https://www.sec.gov/Archives/edgar/data/884144/000118518517002656/asuresoftware8ka122117.htm) — published 2017-12-21; retrieved 2026-11-15T19:20:35.984489+00:00.
+
+[S75] [8-K/A 0001185185-17-001681](https://www.sec.gov/Archives/edgar/data/884144/000118518517001681/asuresoftware8ka080817.htm) — published 2017-08-09; retrieved 2026-11-15T19:20:34.181585+00:00.
+
+[S76] [8-K/A 0001185185-17-001558](https://www.sec.gov/Archives/edgar/data/884144/000118518517001558/asuresoftware8ka071717.htm) — published 2017-07-17; retrieved 2026-11-15T19:20:31.714179+00:00.
+
+[S77] [8-K/A 0001185185-17-000611](https://www.sec.gov/Archives/edgar/data/884144/000118518517000611/asuresoftware8ka031617.htm) — published 2017-03-20; retrieved 2026-11-15T19:20:30.130049+00:00.
+
+[S78] [8-K/A 0001185185-16-004503](https://www.sec.gov/Archives/edgar/data/884144/000118518516004503/asuresoftware8ka051016.htm) — published 2016-05-12; retrieved 2026-11-15T19:20:28.564159+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

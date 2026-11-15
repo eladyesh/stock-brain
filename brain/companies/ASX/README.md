@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -387,6 +387,48 @@ sources:
   published_at: '2026-04-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010326015458/dp254866_6k.htm
+  title: 6-K 0000950103-26-015458
+  published_at: '2026-10-13'
+  retrieved_at: '2026-11-15T19:21:16.493747+00:00'
+  sha256: 9d0eaacded420be2b1f9b8bddad6dfb2ceaeb76ec63315f69c96eb261f4a015e
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010326007005/dp246492_6ka.htm
+  title: 6-K/A 0000950103-26-007005
+  published_at: '2026-05-08'
+  retrieved_at: '2026-11-15T19:21:15.042312+00:00'
+  sha256: 03c4e186c1682de205692970dc1b1f2aa92a078995472da277ad5300421ee9ef
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm
+  title: 20-F 0001193125-26-135585
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-15T19:21:12.591505+00:00'
+  sha256: 94214bb7f175cbe5effb5969968a2a10e380e943ab68dba33b2c8d59e4a90877
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010325004448/dp227317_6ka.htm
+  title: 6-K/A 0000950103-25-004448
+  published_at: '2025-04-07'
+  retrieved_at: '2026-11-15T19:20:57.558356+00:00'
+  sha256: 091b8e5898e3d46ba33de80773322db334e4879e673e2cb2db9f8703e8252447
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010320009583/dp127776_20fa.htm
+  title: 20-F/A 0000950103-20-009583
+  published_at: '2020-05-15'
+  retrieved_at: '2026-11-15T19:20:55.368742+00:00'
+  sha256: f52b7dfda43ae25b884326bff11f5be0c2e7985ef0ff4d34aa54d36af87636a5
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010311001429/dp22109_6ka.htm
+  title: 6-K/A 0000950103-11-001429
+  published_at: '2011-04-15'
+  retrieved_at: '2026-11-15T19:20:53.276307+00:00'
+  sha256: 19138ccec58c2b8765065a9bd4c462ed1aa8a0eddd619280935cf859c81625e7
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1122411/000095010307001728/dp06184e_20fa.htm
+  title: 20-F/A 0000950103-07-001728
+  published_at: '2007-07-05'
+  retrieved_at: '2026-11-15T19:20:50.385158+00:00'
+  sha256: c8e59ecdf3c06e36aa562aaf2ff20304c5c63e07e6ef39a8ed53b8677deccb0a
 issuer_classification:
   cik: '0001122411'
   classification_status: reported_sic
@@ -434,13 +476,24 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/1122411/000095010311001429/0000950103-11-001429-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 80aa4739b97e3c1c79e654721ac1a99c29a127c027f39671db8275d05c3bc127
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -464,17 +517,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-04-01, L983:
+
+> This annual report on Form 20-F contains “forward-looking statements” within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act. Although these forward-looking statements, which may include statements regarding our future results of operations, financial condition, or business prospects, are based on our own information and information from other sources we believe to be reliable, you should not place undue reliance on these forward-looking statements, which apply only as of the date of this annual report. The words “anticipate,” “believe,” “estimate,” “expect,” “intend,” “plan” and similar expressions, as they relate to us, are intended to identify these forward-looking statements in this annual report. Our actual results of operations, financial condition or business prospects may differ materially from those expressed or implied in these forward-looking statements for a variety of reasons, including risks associated with cyclicality and market conditions in the semiconductor or electronics industry; changes in our regulatory environment, including our ability to comply with new or stricter environmental regulations and to resolve environmental liabilities; demand for the outsourced semiconductor packaging, testing and EMS we offer and for such outsourced services generally; the highly competitive semiconductor or manufacturing industry we … [S55]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 20-F, filed 2026-04-01, L73037:
+
+> The Group has the following reportable segments: Packaging, Testing and EMS. The Group packages bare semiconductors into finished semiconductors with enhanced electrical and thermal characteristics; provides testing services, including front-end engineering testing, wafer probing and final testing services; engages in the designing, assembling, manufacturing and sale of electronic components and telecommunications equipment motherboards. Information about other business activities and operating segments that are not reportable are combined and disclosed in “Others.” The Group engages in other activities such as substrate production as well as sale and leasing of real estate properties. [S55]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 20-F, filed 2026-04-01, L1004:
+
+> Since we are dependent on the highly cyclical semiconductor and electronics industries and conditions in the markets for the end-use applications of our products, our revenues and net income may fluctuate significantly. [S55]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 20-F, filed 2026-04-01, L1132:
+
+> Our business is affected by market conditions in the highly cyclical semiconductor and electronics industries. Most of our customers operate in this industry, and variations in order levels from our customers and service fee rates may result in volatility in our revenues and net income. From time to time, the semiconductor and electronics industries experience significant, and sometimes prolonged, downturns. As our business is, and will continue to be, dependent on the requirements for independent packaging, testing and EMS, any future downturn in the industry would reduce demand for our services. If we cannot reduce our costs or adjust our product mix to sufficiently offset any decline in sales volumes, our profitability will suffer, and we may incur losses. [S55]
 
 ## Industry and value chain
 
@@ -482,17 +551,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-04-01, L1049:
+
+> Our revenues and profitability may decline if we are unable to obtain adequate supplies of raw materials and energy in a timely manner and at a reasonable price. [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-04-01, L1135:
+
+> Market conditions in the semiconductor and electronics industries depend to a large degree on conditions in the markets for the end-use applications of various products, such as communications, computing, and consumer electronics products. Any deterioration of conditions in the markets for the end-use applications would reduce demand for our services and would likely have a material adverse effect on our financial condition and results of operations. In 2025, approximately 45.8%, 24.0% and 30.2% of our operating revenues from packaging and testing of semiconductors were attributed to communications, computing and consumer electronics/industrial/automotive/other applications, respectively. In the same year, approximately 31.0%, 10.2%, 35.7%, 12.8% and 10.3% of our operating revenues from EMS were attributed to communications, computing, consumer electronics applications, industrial, and automotive applications and others, respectively. Across end-use applications, our customers face intense competition and significant shifts in demand, which could put pricing pressure on our services and may adversely affect our revenues and net income. [S55]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-04-01, L1352:
+
+> In addition to the Director Removal Case, on July 8, 2021, SFIPC filed an additional class action to request Dr. Tien Wu and other three defendants of the aforementioned criminal proceeding of insider trading to be jointly liable for the damages caused by the alleged insider trading activities. The Intellectual Property and Commercial Court of the R.O.C. ruled in favor of SFIPC and portion of the damages was awarded on August 18, 2022, and all defendants of this class action filed appeals against the August 18 judgment. The Supreme Court of the R.O.C. reversed the August 18 judgment and remanded the case to the Intellectual Property and Commercial Court on March 14, 2024, where it is now being tried. The proceedings in connection with this incident, or potential regulatory scrutiny, might attract further media attention. Any negative publicity in connection with the legal proceedings may adversely affect our brand and reputation, which might result in a material adverse impact on our business operations and prospects. [S55]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-04-01, L1287:
+
+> Our future success may depend on acquiring businesses and technologies, making investments, or forming joint ventures that complement, enhance, or expand our current product offerings or otherwise offer growth opportunities. In pursuing such acquisitions, we may face competition from other companies in the semiconductor industry. Mergers and acquisitions involve certain integration risks and uncertainties, including the difficulty in integrating technologies, systems, products, policies and operations, coordinating geographically separate organizations and combining different corporate cultures, utilizing capital and other resources in an optimal manner and addressing unanticipated costs or liabilities. Furthermore, our ability to acquire or invest in suitable targets may be limited by applicable laws and regulations in the R.O.C., P.R.C., U.S., European countries, and other jurisdictions where we do business. Even if the businesses we acquire are successfully integrated with our existing business, the benefits of such transactions may not be realized within the anticipated time frame or at all. Each of these risks could have a material adverse effect on our business, financial condition, and results of operations. [S55]
 
 ## Financial performance
 
@@ -506,6 +591,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-04-01, L139:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -517,6 +606,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-04-01, L983:
+
+> This annual report on Form 20-F contains “forward-looking statements” within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act. Although these forward-looking statements, which may include statements regarding our future results of operations, financial condition, or business prospects, are based on our own information and information from other sources we believe to be reliable, you should not place undue reliance on these forward-looking statements, which apply only as of the date of this annual report. The words “anticipate,” “believe,” “estimate,” “expect,” “intend,” “plan” and similar expressions, as they relate to us, are intended to identify these forward-looking statements in this annual report. Our actual results of operations, financial condition or business prospects may differ materially from those expressed or implied in these forward-looking statements for a variety of reasons, including risks associated with cyclicality and market conditions in the semiconductor or electronics industry; changes in our regulatory environment, including our ability to comply with new or stricter environmental regulations and to resolve environmental liabilities; demand for the outsourced semiconductor packaging, testing and EMS we offer and for such outsourced services generally; the highly competitive semiconductor or manufacturing industry we … [S55]
 
 ## Scenarios and open questions
 
@@ -530,25 +623,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -612,6 +705,10 @@ Latest 50 filing metadata records of 943 retained records. A filing link is evid
 | 2026-04-15 | 4 | 0000950103-26-005721 | — | [S50] |
 | 2026-04-13 | 4 | 0000950103-26-005636 | — | [S51] |
 | 2026-04-10 | 4 | 0000950103-26-005592 | — | [S52] |
+
+Source excerpt — 20-F, filed 2026-04-01, L7432:
+
+> As of December 31, 2025, we had total debts of NT$272,944.9 million (US$8,700.8 million), of which NT$43,328.3 million (US$1,381.2 million) were short-term debts, NT$6,687.8 million (US$213.2 million) were current portions of long-term debts, NT$8,848.1 million (US$282.0 million) were lease liabilities (including current and non-current), and NT$214,080.7 million (US$6,824.4 million) were long-term debts. In 2025, the maximum amount of our short-term and current portion of long-term debts was NT$88,265.5 million (US$2,813.7 million) and the average amount of our short-term and current portion of long-term debts was NT$74,287.3 million (US$2,368.1 million). The fluctuation was primarily because our working capital balance periodically fluctuated during 2025. The annual interest rate for short-term bank loans and current hedging financial liabilities ranged from 1.70% to 8.04% during the year ended December 31, 2025. Our short-term debts consist of bank loans, bills payable and hedging financial liabilities. Our short-term bank loans are primarily revolving facilities with a term of one year, each of which may be extended on an annual basis with lender consent. Our long-term debts consist of bonds payable and bank loans. Our long-term and current portion of bonds payable and bank loans typically carried variable annual interest rates which ranged from 1.70% to 4.48% in the year … [S55]
 
 ## Sources and change log
 
@@ -718,5 +815,19 @@ Latest 50 filing metadata records of 943 retained records. A filing link is evid
 [S51] [4 0000950103-26-005636](https://www.sec.gov/Archives/edgar/data/1122411/000095010326005636/0000950103-26-005636-index.html) — published 2026-04-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [4 0000950103-26-005592](https://www.sec.gov/Archives/edgar/data/1122411/000095010326005592/0000950103-26-005592-index.html) — published 2026-04-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0000950103-26-015458](https://www.sec.gov/Archives/edgar/data/1122411/000095010326015458/dp254866_6k.htm) — published 2026-10-13; retrieved 2026-11-15T19:21:16.493747+00:00.
+
+[S54] [6-K/A 0000950103-26-007005](https://www.sec.gov/Archives/edgar/data/1122411/000095010326007005/dp246492_6ka.htm) — published 2026-05-08; retrieved 2026-11-15T19:21:15.042312+00:00.
+
+[S55] [20-F 0001193125-26-135585](https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm) — published 2026-04-01; retrieved 2026-11-15T19:21:12.591505+00:00.
+
+[S56] [6-K/A 0000950103-25-004448](https://www.sec.gov/Archives/edgar/data/1122411/000095010325004448/dp227317_6ka.htm) — published 2025-04-07; retrieved 2026-11-15T19:20:57.558356+00:00.
+
+[S57] [20-F/A 0000950103-20-009583](https://www.sec.gov/Archives/edgar/data/1122411/000095010320009583/dp127776_20fa.htm) — published 2020-05-15; retrieved 2026-11-15T19:20:55.368742+00:00.
+
+[S58] [6-K/A 0000950103-11-001429](https://www.sec.gov/Archives/edgar/data/1122411/000095010311001429/dp22109_6ka.htm) — published 2011-04-15; retrieved 2026-11-15T19:20:53.276307+00:00.
+
+[S59] [20-F/A 0000950103-07-001728](https://www.sec.gov/Archives/edgar/data/1122411/000095010307001728/dp06184e_20fa.htm) — published 2007-07-05; retrieved 2026-11-15T19:20:50.385158+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

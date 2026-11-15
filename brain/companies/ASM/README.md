@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -371,6 +371,78 @@ sources:
   published_at: '2025-05-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793226006245/avino_6k.htm
+  title: 6-K 0001477932-26-006245
+  published_at: '2026-10-15'
+  retrieved_at: '2026-11-15T19:16:58.246535+00:00'
+  sha256: 37bc288148d14bc03110b79c698dce77255e5b946b170122a84634ffb947704d
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793226002475/avino_6ka.htm
+  title: 6-K/A 0001477932-26-002475
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-15T19:16:56.545466+00:00'
+  sha256: cff7af7e30c7fc9aeb87f16559cf5316dba3e0fedacfd3033d335100e1a14c45
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793226001629/avino_40f.htm
+  title: 40-F 0001477932-26-001629
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-15T19:16:55.119341+00:00'
+  sha256: b26aac6ceb87f57d1976928a40e2d4f3b888e19a3422532a80daeecd6e3eb07a
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793225006211/avino_6ka.htm
+  title: 6-K/A 0001477932-25-006211
+  published_at: '2025-08-25'
+  retrieved_at: '2026-11-15T19:16:53.272927+00:00'
+  sha256: ef1e24287e46fac700febcb992dcbf95e9258aa54f966c4cf71c6d7c5f9d8ff9
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793225003204/avino_6ka.htm
+  title: 6-K/A 0001477932-25-003204
+  published_at: '2025-05-01'
+  retrieved_at: '2026-11-15T19:16:51.874984+00:00'
+  sha256: 9671f0b121eed073a351c2eb34885e19a962241df5e756e1be98c6bef9fb6b09
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793224007229/avino_6k.htm
+  title: 6-K/A 0001477932-24-007229
+  published_at: '2024-11-14'
+  retrieved_at: '2026-11-15T19:16:50.235613+00:00'
+  sha256: 2615b6cc9f0f9870f2b7a4570d137a4c394a818747c33ec0c24acac62bef12a2
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793222008646/avino_6k.htm
+  title: 6-K/A 0001477932-22-008646
+  published_at: '2022-11-15'
+  retrieved_at: '2026-11-15T19:16:48.759802+00:00'
+  sha256: 78852a66248f477520db0997d3addb08e0627c1005d17b8b77acc532d1b775d6
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793222006133/avino_6ka.htm
+  title: 6-K/A 0001477932-22-006133
+  published_at: '2022-08-15'
+  retrieved_at: '2026-11-15T19:16:47.328380+00:00'
+  sha256: da5185e1deabbe6961b5f04d1d53edefaaf4f485b61090e385498534b8dc13fd
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793221005728/avino_6ka.htm
+  title: 6-K/A 0001477932-21-005728
+  published_at: '2021-08-18'
+  retrieved_at: '2026-11-15T19:16:45.544995+00:00'
+  sha256: 352091a08d94a27cb04f324493a6e19613f477a1b2d5157364de941fe82fb34f
+- id: S62
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793220001798/avino_6ka.htm
+  title: 6-K/A 0001477932-20-001798
+  published_at: '2020-04-02'
+  retrieved_at: '2026-11-15T19:16:44.021784+00:00'
+  sha256: 48c3c34a5d4f24ae351c25847ed8ec2473bff79113a6c3c4d1209c1aea50cd63
+- id: S63
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793219002486/avino_6ka.htm
+  title: 6-K/A 0001477932-19-002486
+  published_at: '2019-05-09'
+  retrieved_at: '2026-11-15T19:16:42.359461+00:00'
+  sha256: aaf8ef09fd4fa5fa35cc744b9312e9b3bdbbf6e8d567c5f9bb6979fcf07639a4
+- id: S64
+  url: https://www.sec.gov/Archives/edgar/data/316888/000147793219000202/avino_6ka.htm
+  title: 6-K/A 0001477932-19-000202
+  published_at: '2019-01-17'
+  retrieved_at: '2026-11-15T19:16:40.986032+00:00'
+  sha256: 60bf90150a95a25d17908131beaae641fdfee10077eef4aa4737c22d8161632d
 issuer_classification:
   cik: 0000316888
   classification_status: reported_sic
@@ -438,13 +510,16 @@ research_filings:
   form: 6-K/A
   url: https://www.sec.gov/Archives/edgar/data/316888/000147793219000202/0001477932-19-000202-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 694159d6bab0ce23c175cd8277ca06aa69c77c9ca452312654c6b049c0f94bcf
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -510,6 +585,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 40-F, filed 2026-03-27, L72:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S55]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -521,6 +600,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 40-F, filed 2026-03-27, L83:
+
+> Important factors that could cause actual results to differ materially from the forward-looking statements we make in this Annual Report set forth under the caption “Risk Factors” contain in our Annual Information Form (“AIF”) filed as Exhibit 99.1. We undertake no obligation to update any of the forward-looking statements after the date of this Annual Report to conform those statements to reflect the occurrence of unanticipated events, except as required by applicable law. You should read this Annual Report with the understanding that our actual future results, levels of activity, performance and achievements may be materially different from what we expect. We qualify all our forward-looking statements by these cautionary statements. [S55]
 
 ## Scenarios and open questions
 
@@ -534,7 +617,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -546,13 +629,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -616,6 +699,10 @@ Latest 50 filing metadata records of 816 retained records. A filing link is evid
 | 2025-05-27 | F-10/A | 0001477932-25-004174 | — | [S50] |
 | 2025-05-14 | F-X | 0001477932-25-003667 | — | [S51] |
 | 2025-05-14 | F-10 | 0001477932-25-003647 | — | [S52] |
+
+Source excerpt — 40-F, filed 2026-03-27, L122:
+
+> During the year ended December 31, 2025 there were no changes in the Company’s internal control over financial reporting that have materially affected, or are reasonable likely to materially affect, its internal control over financial reporting. [S55]
 
 ## Sources and change log
 
@@ -722,5 +809,29 @@ Latest 50 filing metadata records of 816 retained records. A filing link is evid
 [S51] [F-X 0001477932-25-003667](https://www.sec.gov/Archives/edgar/data/316888/000147793225003667/0001477932-25-003667-index.html) — published 2025-05-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [F-10 0001477932-25-003647](https://www.sec.gov/Archives/edgar/data/316888/000147793225003647/0001477932-25-003647-index.html) — published 2025-05-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001477932-26-006245](https://www.sec.gov/Archives/edgar/data/316888/000147793226006245/avino_6k.htm) — published 2026-10-15; retrieved 2026-11-15T19:16:58.246535+00:00.
+
+[S54] [6-K/A 0001477932-26-002475](https://www.sec.gov/Archives/edgar/data/316888/000147793226002475/avino_6ka.htm) — published 2026-04-23; retrieved 2026-11-15T19:16:56.545466+00:00.
+
+[S55] [40-F 0001477932-26-001629](https://www.sec.gov/Archives/edgar/data/316888/000147793226001629/avino_40f.htm) — published 2026-03-27; retrieved 2026-11-15T19:16:55.119341+00:00.
+
+[S56] [6-K/A 0001477932-25-006211](https://www.sec.gov/Archives/edgar/data/316888/000147793225006211/avino_6ka.htm) — published 2025-08-25; retrieved 2026-11-15T19:16:53.272927+00:00.
+
+[S57] [6-K/A 0001477932-25-003204](https://www.sec.gov/Archives/edgar/data/316888/000147793225003204/avino_6ka.htm) — published 2025-05-01; retrieved 2026-11-15T19:16:51.874984+00:00.
+
+[S58] [6-K/A 0001477932-24-007229](https://www.sec.gov/Archives/edgar/data/316888/000147793224007229/avino_6k.htm) — published 2024-11-14; retrieved 2026-11-15T19:16:50.235613+00:00.
+
+[S59] [6-K/A 0001477932-22-008646](https://www.sec.gov/Archives/edgar/data/316888/000147793222008646/avino_6k.htm) — published 2022-11-15; retrieved 2026-11-15T19:16:48.759802+00:00.
+
+[S60] [6-K/A 0001477932-22-006133](https://www.sec.gov/Archives/edgar/data/316888/000147793222006133/avino_6ka.htm) — published 2022-08-15; retrieved 2026-11-15T19:16:47.328380+00:00.
+
+[S61] [6-K/A 0001477932-21-005728](https://www.sec.gov/Archives/edgar/data/316888/000147793221005728/avino_6ka.htm) — published 2021-08-18; retrieved 2026-11-15T19:16:45.544995+00:00.
+
+[S62] [6-K/A 0001477932-20-001798](https://www.sec.gov/Archives/edgar/data/316888/000147793220001798/avino_6ka.htm) — published 2020-04-02; retrieved 2026-11-15T19:16:44.021784+00:00.
+
+[S63] [6-K/A 0001477932-19-002486](https://www.sec.gov/Archives/edgar/data/316888/000147793219002486/avino_6ka.htm) — published 2019-05-09; retrieved 2026-11-15T19:16:42.359461+00:00.
+
+[S64] [6-K/A 0001477932-19-000202](https://www.sec.gov/Archives/edgar/data/316888/000147793219000202/avino_6ka.htm) — published 2019-01-17; retrieved 2026-11-15T19:16:40.986032+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

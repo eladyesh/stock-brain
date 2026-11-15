@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -494,6 +494,36 @@ sources:
   published_at: '2025-09-15'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1145986/000117184326006048/f8k_091526.htm
+  title: 8-K 0001171843-26-006048
+  published_at: '2026-09-15'
+  retrieved_at: '2026-11-15T19:18:06.728523+00:00'
+  sha256: 6edee77a4876236953e99abff9894af08baa8242e5c7f873c722e3dc7d95ab03
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1145986/000119312526340275/aspn-20260630.htm
+  title: 10-Q 0001193125-26-340275
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-15T19:18:05.091631+00:00'
+  sha256: 9944302b9a15d398c2f06bec641426e02260dd955f8a91636c44b9269fe9c66e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1145986/000119312526129161/aspn-20260326.htm
+  title: DEF 14A 0001193125-26-129161
+  published_at: '2026-03-27'
+  retrieved_at: '2026-11-15T19:18:00.426385+00:00'
+  sha256: 57dc69fa915350abccceabafd040526731545e096e34348b58803e18b58e6c82
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1145986/000119312526119892/aspn-20251231.htm
+  title: 10-K/A 0001193125-26-119892
+  published_at: '2026-03-23'
+  retrieved_at: '2026-11-15T19:17:57.203905+00:00'
+  sha256: f6c1cebaaae66a1adbc16c4b3e506b8c7cf8331916487257ae1b36ce1603fb4e
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1145986/000119312526106453/aspn-20251231.htm
+  title: 10-K 0001193125-26-106453
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-15T19:17:52.602527+00:00'
+  sha256: c9fe94d735ac9f1561a7000d9050e28c081ce69246ac6a41e398b75db4d40c96
 issuer_classification:
   cik: 0001145986
   classification_status: reported_sic
@@ -536,13 +566,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1145986/000117184326006048/0001171843-26-006048-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 65a108b7c3084175689ce70b56d047348e6e81fa7789b6ede920d05d37922c73
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -566,17 +607,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L6417:
+
+> Our actual results and the timing of certain events may differ materially from the results discussed, projected, anticipated, or indicated in any forward-looking statements. We caution you that forward-looking statements are not guarantees of future performance and that our actual results of operations, financial condition and liquidity, and the development of the industry in which we operate may differ materially from the forward-looking statements contained in this Quarterly Report on Form 10-Q. In addition, even if our results of operations, financial condition and liquidity, and the development of the industry in which we operate are consistent with the forward-looking statements contained in this Quarterly Report on Form 10-Q, they may not be predictive of results or developments in future periods. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L2914:
+
+> Aspen Aerogels, Inc. (the Company) is an aerogel technology company that designs, develops and manufactures innovative, high-performance aerogel materials used primarily in the energy industrial, sustainable insulation materials, and electric vehicle (EV) markets. The Company has provided high-performance aerogel insulation to the energy industrial and sustainable insulation markets for nearly two decades. The Company has developed and commercialized its proprietary line of PyroThin® aerogel thermal barriers for use in battery packs in EVs. The Company's core business is organized into two reportable segments: Thermal Barrier and Energy Industrial. [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L6422:
+
+> Our core businesses are organized into two reportable segments: Thermal Barrier and Energy Industrial. The following describes our key product offerings and new product innovations by reportable segment. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L6426:
+
+> We have entered into multi-year production contracts with a number of automotive EV original equipment manufacturer (OEM) customers to supply fabricated, multi-part thermal barriers for use in the battery systems of their EV models. These customers include General Motors LLC (GM), Toyota, Scania, Automotive Cells Company, which is a battery cell joint venture between Stellantis N.V., Saft-TotalEnergies and Mercedes-Benz (collectively, ACC), Volvo, and Volvo Truck. We are currently supplying thermal barrier production parts to GM, Toyota, and ACC, and thermal barrier prototype parts to a number of global manufacturers of EVs, grid storage and home battery systems. During 2025, 2024 and 2023, we sold $168.9 million, $306.8 million and $110.1 million, respectively, of our PyroThin thermal barriers, primarily to GM. [S70]
 
 ## Industry and value chain
 
@@ -584,17 +641,33 @@ SEC-reported SIC **5030**: Wholesale-Lumber & Other Construction Materials. [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L6815:
+
+> Material is a significant component of cost of product revenue and includes fibrous batting, silica materials and additives. Material costs as a percentage of product revenue vary from product to product due to differences in average selling prices, material requirements, product thicknesses, and manufacturing yields. In addition, we provide warranties for our products and record the estimated cost within cost of revenue in the period that the related revenue is recorded or when we become aware that a potential warranty claim is probable and can be reasonably estimated. As a result of these factors, material costs as a percentage of product revenue will vary from period to period due to changes in the volume and mix of aerogel products sold, the costs of our raw materials or the estimated cost of warranties. In addition, global supply chain disturbances, increased reliance on foreign materials procurement, industrial gas supply constraints, increases in the cost of our raw materials, engineering changes, higher prototype sales and other factors may significantly impact our material costs and have a material impact on our operations. During 2026, we expect to incur increased costs of revenue primarily due to the supply disruptions and mitigation efforts resulting from the operational disruptions from the East Providence Incidents. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-03-27, L1986:
+
+> Effective November 4, 2025 we entered into amended and restated executive employment agreements with Messrs. Whitaker and Landes. Effective October 1, 2025, we entered into an executive employment agreement with Mr. Thoele, and effective September 22, 2025, we entered into an executive employment agreement with Mr. Deegan. The employment agreements establish base salary and target annual bonus amounts for each executive, subject to increase as determined by the Board or the Compensation Committee. Each of the employment agreements with Messrs. Whitaker, Landes, Thoele and Deegan has a one-year term with a provision for successive automatic one-year automatic renewals, unless either the Company or the executive provides written notice of non-renewal at least 60 days before the applicable annual expiration date. All of the employment agreements contain customary confidentiality, non-disclosure, non-competition, non-solicitation, non-recruitment, trade secrets, intellectual property ownership, and cooperation provisions. [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-07, L9479:
+
+> On May 21, 2026 and June 18, 2026, the Korean IP High Court issued decisions in our appeals of the Korean Intellectual Property Trial and Appeal Board invalidity rulings against the process and composition patents we asserted in Korea against Beerenberg Services AS, Beerenberg Korea Ltd., and Bronx (China) Co., Ltd. The Court found our asserted process patent claims valid and our asserted composition patent claims invalid. We disagree with the Court’s finding regarding our composition patents, which is subject to appeal to the Korean Supreme Court. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L2922:
+
+> The Company expects its existing cash balance will be sufficient to support current operating requirements and capital expenditures required to support the Company’s existing business in the EV and energy industrial markets for at least the next twelve months from the date of this Quarterly Report on Form 10-Q. However, the Company expects that it will need to supplement its cash balance with anticipated cash flow from operations, as well as potential equity financings, debt financings, equipment leasing, sale-leaseback transactions, customer prepayments, or government grant and loan programs to provide the additional capital necessary to support the Company’s long-term growth strategy. [S70]
 
 ## Financial performance
 
@@ -1218,6 +1291,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L4914:
+
+> The Company’s stockholders approved the Aspen Aerogels Amended and Restated 2023 Equity Incentive Plan (the 2023 Plan) at the Company's 2025 Annual Meeting of Stockholders held on April 30, 2025 (the 2025 Annual Meeting). The 2023 Plan was previously approved by the Company’s Board of Directors (the Board). As amended and restated, the number of shares of the Company’s common stock reserved for issuance under the 2023 Plan was increased by 3,850,000 shares to 16,971,994 shares and the term of the 2023 Plan was extended until April 29, 2035. As of June 30, 2026, 5,435,213 shares of common stock were reserved for issuance upon the exercise or vesting of outstanding stock-based awards granted under the Company’s equity incentive plans. Any cancellations or forfeitures of awards outstanding under the 2023 Plan, the Company's 2014 Employee, Director and Consultant Equity Incentive Plan or the Company's 2001 Equity Incentive Plan, as amended, will result in the shares reserved for issuance pursuant to such awards becoming available for grant under the 2023 Plan. As of June 30, 2026, the Company has either reserved in connection with statutory tax withholdings or issued a total of 6,976,559 shares under the Company’s equity incentive plans. As of June 30, 2026, there were 4,560,222 shares of common stock available for future grant under the 2023 Plan. [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1230,6 +1307,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L6418:
+
+> The following information and any forward-looking statements should be considered in light of factors discussed elsewhere in this Quarterly Report on Form 10-Q, including Part I, Item 1 “Financial Statements,” which includes our financial statements and related notes, and under the sections titled “Risk Factors” in Item 1A of the Annual Report, our Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, and this Quarterly Report on Form 10-Q. [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1239,25 +1320,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1321,6 +1402,10 @@ Latest 50 filing metadata records of 867 retained records. A filing link is evid
 | 2025-10-02 | 3 | 0001193125-25-228693 | — | [S66] |
 | 2025-09-25 | 3 | 0001193125-25-217809 | — | [S67] |
 | 2025-09-15 | 4 | 0001193125-25-203735 | — | [S68] |
+
+Source excerpt — 10-Q, filed 2026-08-07, L2925:
+
+> In the opinion of the Company’s management, the unaudited interim consolidated financial statements have been prepared on the same basis as the audited consolidated financial statements and include all adjustments that are of a normal recurring nature and necessary for the fair statement of the Company’s financial position as of June 30, 2026 and the results of its operations and stockholders’ equity for the three and six months ended June 30, 2026 and 2025 and the cash flows for the six-month periods then ended. The Company has evaluated subsequent events through the date of this filing. [S70]
 
 ## Sources and change log
 
@@ -1459,5 +1544,15 @@ Latest 50 filing metadata records of 867 retained records. A filing link is evid
 [S67] [3 0001193125-25-217809](https://www.sec.gov/Archives/edgar/data/1145986/000119312525217809/0001193125-25-217809-index.html) — published 2025-09-25; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [4 0001193125-25-203735](https://www.sec.gov/Archives/edgar/data/1145986/000119312525203735/0001193125-25-203735-index.html) — published 2025-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [8-K 0001171843-26-006048](https://www.sec.gov/Archives/edgar/data/1145986/000117184326006048/f8k_091526.htm) — published 2026-09-15; retrieved 2026-11-15T19:18:06.728523+00:00.
+
+[S70] [10-Q 0001193125-26-340275](https://www.sec.gov/Archives/edgar/data/1145986/000119312526340275/aspn-20260630.htm) — published 2026-08-07; retrieved 2026-11-15T19:18:05.091631+00:00.
+
+[S71] [DEF 14A 0001193125-26-129161](https://www.sec.gov/Archives/edgar/data/1145986/000119312526129161/aspn-20260326.htm) — published 2026-03-27; retrieved 2026-11-15T19:18:00.426385+00:00.
+
+[S72] [10-K/A 0001193125-26-119892](https://www.sec.gov/Archives/edgar/data/1145986/000119312526119892/aspn-20251231.htm) — published 2026-03-23; retrieved 2026-11-15T19:17:57.203905+00:00.
+
+[S73] [10-K 0001193125-26-106453](https://www.sec.gov/Archives/edgar/data/1145986/000119312526106453/aspn-20251231.htm) — published 2026-03-13; retrieved 2026-11-15T19:17:52.602527+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

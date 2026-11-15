@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -479,6 +479,72 @@ sources:
   published_at: '2026-02-24'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000146241826000045/asps-20260630.htm
+  title: 10-Q 0001462418-26-000045
+  published_at: '2026-07-23'
+  retrieved_at: '2026-11-15T19:18:37.139049+00:00'
+  sha256: 589988208f4cc91356de63e7ac924681d60478121ea4895590b77941f81f9be9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000146241826000047/asps-20260723.htm
+  title: 8-K 0001462418-26-000047
+  published_at: '2026-07-23'
+  retrieved_at: '2026-11-15T19:18:40.762937+00:00'
+  sha256: e99705c9598ed4d1b06856087eb4c9359e855ae8aa8fbcce1314f9b5e1f32d28
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000114036126013648/edge20065937x2_def14a.htm
+  title: DEF 14A 0001140361-26-013648
+  published_at: '2026-04-07'
+  retrieved_at: '2026-11-15T19:18:30.111793+00:00'
+  sha256: 6d3172b59dc0df54d5c47a28528fce6033ac31a571bb4d2fc3fd6202d43fa836
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000146241826000019/asps-20251231.htm
+  title: 10-K 0001462418-26-000019
+  published_at: '2026-03-04'
+  retrieved_at: '2026-11-15T19:18:25.244874+00:00'
+  sha256: ca9ff618d08aed11da58b29c744e74cb61e52d157f06a83bca407f26283b13b3
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000146241825000098/asps-20250513.htm
+  title: 8-K/A 0001462418-25-000098
+  published_at: '2025-08-08'
+  retrieved_at: '2026-11-15T19:18:22.137325+00:00'
+  sha256: b846d842a94f21bd72a475b57b13ac5fbcd6d0a396d466c9cb0bb48b25544974
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000146241825000099/asps-20250523.htm
+  title: 8-K/A 0001462418-25-000099
+  published_at: '2025-08-08'
+  retrieved_at: '2026-11-15T19:18:23.794059+00:00'
+  sha256: e4bcb33bb91cb464bfb9a9eaddbf0aa054a9b0d5ff4855a8cc3969a44b5aaac6
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000110465914005304/a14-3911_18ka.htm
+  title: 8-K/A 0001104659-14-005304
+  published_at: '2014-01-30'
+  retrieved_at: '2026-11-15T19:18:20.614092+00:00'
+  sha256: cced63d67d9f2b8908b2399e4f82617c24a72a4669696c8c2cccd920d3a1aec2
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000110465913051577/a13-15481_18ka.htm
+  title: 8-K/A 0001104659-13-051577
+  published_at: '2013-06-26'
+  retrieved_at: '2026-11-15T19:18:18.038747+00:00'
+  sha256: 772a6057a1108dacddb929bd2aeed783769abc517848123f49d6b9e242b39f5a
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000110465913048590/a13-14675_18ka.htm
+  title: 8-K/A 0001104659-13-048590
+  published_at: '2013-06-12'
+  retrieved_at: '2026-11-15T19:18:11.712363+00:00'
+  sha256: b6049d41408f79c4726840dde4374f0032edb5d703a022cbff61ca46bd2cbb51
+- id: S77
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000110465913033681/a13-10951_18ka.htm
+  title: 8-K/A 0001104659-13-033681
+  published_at: '2013-04-29'
+  retrieved_at: '2026-11-15T19:18:10.241488+00:00'
+  sha256: 860d128e86a2f70fa57d5520ea7f0aa1c7b407acb56bfd7ed4f5d1bdd25a43fb
+- id: S78
+  url: https://www.sec.gov/Archives/edgar/data/1462418/000095012311089408/c23225e8vkza.htm
+  title: 8-K/A 0000950123-11-089408
+  published_at: '2011-10-11'
+  retrieved_at: '2026-11-15T19:18:08.639071+00:00'
+  sha256: f06805a5a92fbb1b56aee384cc184ac3e0bd8a3d0130e54cf53790d2286f75c9
 issuer_classification:
   cik: 0001462418
   classification_status: reported_sic
@@ -544,13 +610,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1462418/000095012311089408/0000950123-11-089408-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 90cdbbfb036f08421ced6de01d7866e53c720abc54333508f79beba44ba1a182
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -574,17 +650,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-23, L453:
+
+> We conduct our operations through two reportable segments: Servicer and Real Estate and Origination. In addition, we report Corporate and Others separately (see Note 22 for a description of our business segments). [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-23, L453:
+
+> We conduct our operations through two reportable segments: Servicer and Real Estate and Origination. In addition, we report Corporate and Others separately (see Note 22 for a description of our business segments). [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-23, L944:
+
+> We classify revenue in three categories: service revenue, revenue from reimbursable expenses and non-controlling interests. Service revenue consists of amounts attributable to our fee-based services. Reimbursable expenses and non-controlling interests are pass-through items for which we earn no margin. Reimbursable expenses consist of amounts we incur on behalf of our customers in performing our fee-based services that we pass directly on to our customers without a markup. Non-controlling interests represent the earnings of Lenders One, a consolidated entity that is a mortgage cooperative managed, but not owned, by Altisource. Lenders One’s earnings are included in revenue and reduced from net (loss) income to arrive at net (loss) income attributable to Altisource (see Note 1). Our services are provided to customers primarily located in the United States. The components of revenue were as follows: [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-23, L527:
+
+> We are exposed to credit losses through our sales of products and services to our customers which are recorded as accounts receivable, net on the Company’s condensed consolidated financial statements. We monitor and estimate the allowance for credit losses based on our historical write-offs, historical collections, our analysis of past due accounts based on the contractual terms of the receivables, relevant market and industry reports and our assessment of the economic status of our customers, if known. Estimated credit losses are written off in the period in which the financial asset is determined to be no longer collectible. There can be no assurance that actual results will not differ from estimates or that consideration of these factors in the future will not result in an increase or decrease to our allowance for credit losses. [S68]
 
 ## Industry and value chain
 
@@ -596,13 +688,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-07-23, L1916:
+
+> discontinue products, be acquired by a competitor or become controlled by a party whose interests do not align with ours, or otherwise limit our access to their products, technologies, platforms, services or underlying data, we may be unable to continue offering those products to our customers or may only be able to do so at reduced margins. In some cases, a competitor that acquires or controls a product, technology or platform that we market, use, distribute or resell may have incentives to favor its own competing offerings, increase pricing, limit investment in products, platforms or technologies made available to us, restrict our access, reduce functionality or support, or make the products, platforms or technologies available to us on less favorable terms, any of which could adversely affect our business, financial condition and results of operations. Third-party providers may also seek to market or distribute their products, platforms or technologies directly to our customers, reduce the role of resellers, intermediaries, cooperatives or distribution partners, or otherwise compete with us for customer relationships. If we are unable to maintain access to competitive products, platforms, technologies, services or pricing, or customers increasingly obtain such products directly from providers, demand for certain of our offerings could decline. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-07, L4775:
+
+> The employment agreements also contain a covenant prohibiting the disclosure of the Company’s confidential information and requiring the signing of an intellectual property agreement. In addition, the agreements include non-competition covenants for a minimum period of one (1) year, and non-solicitation covenants for two (2) years, or one (1) year in the case of the Chief Executive Officer, following the termination of the agreement. These agreements are governed by, interpreted under, and subject to the limitations of the laws of the Grand Duchy of Luxembourg. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-23, L1369:
+
+> We are focused on becoming the premier provider of mortgage and real estate marketplaces and related technology enabled solutions to a broad and diversified customer base of residential real estate and loan investors, servicers, and originators. The real estate and mortgage marketplaces represent very large markets, and we believe our scale and suite of offerings provide us with competitive advantages that could support our growth. As we navigate the current state of the economy, interest rate environment, housing supply, and other macro-economic trends, we continue to evaluate our strategy and core businesses and seek to position our businesses to provide long term value to our customers and shareholders. [S68]
 
 ## Financial performance
 
@@ -1217,6 +1321,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-23, L773:
+
+> Deer Park Road Management Company, LP (together with its affiliates and managed funds, “Deer Park”), a related party, owned approximately 13% of Altisource’s common stock as of June 30, 2026 and December 31, 2025, and $19.8 million of Altisource debt as of June 30, 2026 and December 31, 2025, respectively. An employee of Deer Park is a member of Altisource’s Board of Directors. During the six months ended June 30, 2026 and 2025, Deer Park received interest of $0.7 million and $1.1 million, respectively ($0.4 million for the second quarters of 2026 and 2025, respectively) from Altisource. On April 3, 2025, Altisource Portfolio Solutions S.A. issued Deer Park Stakeholder Warrants to purchase 1.9 million shares of common stock for $9.5998 per share, which was its pro-rata share of the Stakeholder Warrants issued to all holders of common stock, restricted share units (“RSUs”) and Penny Warrants (as defined in Note 11) as of the record date for the issuance of Stakeholder Warrants. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1229,6 +1337,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-23, L1141:
+
+> If any of the following events occurred, Altisource’s revenue could be significantly reduced and our results of operations could be materially adversely affected, including from the possible impairment or write-off of goodwill, intangible assets, property and equipment, other assets and accounts receivable: [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1238,25 +1350,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1320,6 +1432,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-02-26 | 4/A | 0001621907-26-000003 | — | [S65] |
 | 2026-02-24 | 4 | 0001621907-26-000002 | — | [S66] |
 | 2026-02-24 | 4 | 0001544019-26-000003 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-07-23, L884:
+
+> On May 16, 2023, our shareholders approved the renewal and amendment of the share repurchase program previously approved by our shareholders on May 15, 2018. Under the program, we are authorized to purchase up to 0.4 million shares of our common stock, based on a limit of 15% of the outstanding shares of common stock on the date of approval, at a minimum price of $8.00 per share and a maximum price of $200.00 per share, until May 16, 2028. As of June 30, 2026, approximately 0.4 million shares of common stock remain available for repurchase under the program. In connection with the elimination of the fractional shares resulting from the Share Consolidation, the Company purchased 204 shares of common stock during the second quarter of the year ended December 31, 2025 (no comparative amount for the six months ended June 30, 2026). There were no other purchases of shares of common stock during the year ended December 31, 2025 or the six months ended June 30, 2026. Under the New Facility and the Super Senior Facility, we are not permitted to repurchase shares except under limited circumstances. [S68]
 
 ## Sources and change log
 
@@ -1456,5 +1572,27 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0001621907-26-000002](https://www.sec.gov/Archives/edgar/data/1462418/000162190726000002/0001621907-26-000002-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001544019-26-000003](https://www.sec.gov/Archives/edgar/data/1462418/000154401926000003/0001544019-26-000003-index.html) — published 2026-02-24; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [10-Q 0001462418-26-000045](https://www.sec.gov/Archives/edgar/data/1462418/000146241826000045/asps-20260630.htm) — published 2026-07-23; retrieved 2026-11-15T19:18:37.139049+00:00.
+
+[S69] [8-K 0001462418-26-000047](https://www.sec.gov/Archives/edgar/data/1462418/000146241826000047/asps-20260723.htm) — published 2026-07-23; retrieved 2026-11-15T19:18:40.762937+00:00.
+
+[S70] [DEF 14A 0001140361-26-013648](https://www.sec.gov/Archives/edgar/data/1462418/000114036126013648/edge20065937x2_def14a.htm) — published 2026-04-07; retrieved 2026-11-15T19:18:30.111793+00:00.
+
+[S71] [10-K 0001462418-26-000019](https://www.sec.gov/Archives/edgar/data/1462418/000146241826000019/asps-20251231.htm) — published 2026-03-04; retrieved 2026-11-15T19:18:25.244874+00:00.
+
+[S72] [8-K/A 0001462418-25-000098](https://www.sec.gov/Archives/edgar/data/1462418/000146241825000098/asps-20250513.htm) — published 2025-08-08; retrieved 2026-11-15T19:18:22.137325+00:00.
+
+[S73] [8-K/A 0001462418-25-000099](https://www.sec.gov/Archives/edgar/data/1462418/000146241825000099/asps-20250523.htm) — published 2025-08-08; retrieved 2026-11-15T19:18:23.794059+00:00.
+
+[S74] [8-K/A 0001104659-14-005304](https://www.sec.gov/Archives/edgar/data/1462418/000110465914005304/a14-3911_18ka.htm) — published 2014-01-30; retrieved 2026-11-15T19:18:20.614092+00:00.
+
+[S75] [8-K/A 0001104659-13-051577](https://www.sec.gov/Archives/edgar/data/1462418/000110465913051577/a13-15481_18ka.htm) — published 2013-06-26; retrieved 2026-11-15T19:18:18.038747+00:00.
+
+[S76] [8-K/A 0001104659-13-048590](https://www.sec.gov/Archives/edgar/data/1462418/000110465913048590/a13-14675_18ka.htm) — published 2013-06-12; retrieved 2026-11-15T19:18:11.712363+00:00.
+
+[S77] [8-K/A 0001104659-13-033681](https://www.sec.gov/Archives/edgar/data/1462418/000110465913033681/a13-10951_18ka.htm) — published 2013-04-29; retrieved 2026-11-15T19:18:10.241488+00:00.
+
+[S78] [8-K/A 0000950123-11-089408](https://www.sec.gov/Archives/edgar/data/1462418/000095012311089408/c23225e8vkza.htm) — published 2011-10-11; retrieved 2026-11-15T19:18:08.639071+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

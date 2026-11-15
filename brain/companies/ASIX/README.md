@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -464,6 +464,30 @@ sources:
   published_at: '2025-12-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1673985/000095015726000916/form8-k.htm
+  title: 8-K 0000950157-26-000916
+  published_at: '2026-08-17'
+  retrieved_at: '2026-11-15T19:16:31.256434+00:00'
+  sha256: cbc3aca61e4a3383c18e752e5881454fd84b0d854159fd521a52925bbb86a0f4
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1673985/000167398526000049/asix-20260630.htm
+  title: 10-Q 0001673985-26-000049
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-15T19:16:29.756174+00:00'
+  sha256: 919c97c8494b43ef24285a2b59014f61c10018eb376746eedad5ba964b183ecf
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1673985/000167398526000022/asix-20260429.htm
+  title: DEF 14A 0001673985-26-000022
+  published_at: '2026-04-29'
+  retrieved_at: '2026-11-15T19:16:28.193458+00:00'
+  sha256: 7ca2f5c193c926c6aebca3c3f8847d136bf0185a50542f29d4d57df2c4aed9a3
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1673985/000167398526000008/asix-20251231.htm
+  title: 10-K 0001673985-26-000008
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-15T19:16:26.352620+00:00'
+  sha256: eca63bff5ee064191ea569e53b42f1340ed684862b5ac79503abf3d615b189c1
 issuer_classification:
   cik: 0001673985
   classification_status: reported_sic
@@ -501,13 +525,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1673985/000095015726000916/0000950157-26-000916-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 8d5fb2dbe028f95fde40fbcabefd43112b8178f8b052b1a35ea3b5dc9d4e0803
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -531,17 +566,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-07, L437:
+
+> It is our practice to establish actual quarterly closing dates using a predetermined fiscal calendar, which requires our businesses to close their books on a Saturday in order to minimize the potentially disruptive effects of quarterly closing on our business processes. Historically, the effects of this practice have generally not been significant to reported results for any quarter and only existed within a reporting year. In the event that differences in actual closing dates are material to year-over-year comparisons of quarterly or year-to-date results, we will provide the appropriate disclosures. Our actual closing dates for the three and six months ended June 30, 2026 and 2025 were July 4, 2026 and June 28, 2025, respectively, which resulted in six additional reporting days in the six month period from our normal quarterly closing procedures. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L608:
+
+> The Company has concluded that it is a single operating segment and a single reportable segment: chemical manufacturing. Its larger manufacturing sites are vertically integrated and leverage cross-plant resources, including centralized supply chain and procurement functions. This production process uses one key raw material, cumene, as the input to products produced for sale through the sales channels and end markets the Company serves. Production rates and output volumes are managed across locations to align with the Company’s overall operating plan. Additionally, the Company’s operating results, which are evaluated regularly to make decisions about resource allocation and performance assessment by the chief operating decision maker ("CODM"), our CEO and President, are on a consolidated basis. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-07, L580:
+
+> Our qualitative and quantitative assessment reflects our best estimates of the impacts of the cyclical nature of the industries in which we operate, as well as the cycles of fluctuating supply and demand for each of our products resulting in changes in selling prices and margins. It is possible that in the future there may be changes in industry trends, estimates and assumptions, including the timing and amount of future cash flows, margins, growth rates, market participant assumptions, comparable benchmark companies and related multiples and discount rates, which could impact estimates of fair value. Significant and adverse changes to any one or more of the above-noted estimates and assumptions could result in an impairment. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-07, L433:
+
+> AdvanSix Inc. ("AdvanSix," the "Company," "we" or "our") is a vertically integrated chemistry company that produces essential materials for diverse end markets. Our value chain of our five U.S.-based manufacturing facilities plays a critical role in global supply chains and enables us to innovate and deliver essential products for our customers across building and construction, fertilizers, agrochemicals, plastics, solvents, packaging, paints, coatings, adhesives, electronics and other end markets. Guided by our core values of Safety, Integrity, Accountability and Respect, AdvanSix strives to deliver best-in-class customer experiences and differentiated products in the industries of nylon solutions, plant nutrients and chemical intermediates. [S69]
 
 ## Industry and value chain
 
@@ -549,17 +600,33 @@ SEC-reported SIC **2821**: Plastic Materials, Synth Resins & Nonvulcan Elastomer
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L605:
+
+> The Company has entered into a supply chain finance program with a financial intermediary providing participating suppliers the option to be paid by the intermediary earlier than the original invoice due date. AdvanSix’s responsibility is limited to making payments to the intermediary based upon payment terms negotiated with the suppliers, regardless of whether the intermediary pays the supplier in advance of the original due date. The Company’s payment terms with suppliers are consistent, regardless of whether a vendor participates in the supply chain finance program or not. All related agreements are terminable by either party upon at least 30 days’ notice. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-04-29, L1099:
+
+> Guard against competitive harm by obtaining our executives’ agreement to non-competition compensation forfeiture clauses and other restrictive covenants [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-29, L720:
+
+> \| Committee \| • \| Litigation, labor issues, intellectual property infringement, regulatory issues such as Foreign Corrupt Practices Act ("FCPA"), and product liability [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-29, L1043:
+
+> We seek to establish annual and long-term incentive compensation program designs that are reflective of our pay-for-performance culture and adopt performance metrics under our short-term incentive compensation program and for our PSUs which are designed to align with the key elements of our strategy to grow stockholder value. [S70]
 
 ## Financial performance
 
@@ -1183,6 +1250,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L439:
+
+> As of June 30, 2026, the Company has repurchased a total of 6,391,880 shares of common stock, including 1,146,424 shares withheld to cover tax withholding obligations in connection with the vesting of awards, for an aggregate of $195.5 million at a weighted average market price of $30.58 per share. As of June 30, 2026, approximately $62.0 million remained available for share repurchases under the current authorization approved by the Company's Board of Directors (the "Board") on February 17, 2023. The Company has not repurchased any shares under the currently authorized repurchase program since June 2024. During the period July 1, 2026 through July 31, 2026, no additional shares were repurchased for tax withholding obligations or under the repurchase program. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1195,6 +1266,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L593:
+
+> Given the uncertainty inherent in such lawsuits, investigations and disputes, the Company does not believe it is possible to develop estimates of reasonably possible loss in excess of current accruals for these matters. Considering the Company’s past experience and existing accruals, the Company does not expect the outcome of these matters, either individually or in the aggregate, to have a material adverse effect on the Company’s consolidated financial position or results of operations. Potential liabilities are subject to change due to new developments, changes in settlement strategy or the impact of evidentiary requirements, which could cause the Company to pay damage awards or settlements (or become subject to equitable remedies) [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1204,25 +1279,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1286,6 +1361,10 @@ Latest 50 filing metadata records of 710 retained records. A filing link is evid
 | 2025-12-22 | 8-K | 0001673985-25-000139 | — | [S65] |
 | 2025-12-17 | 4 | 0001338883-25-000006 | — | [S66] |
 | 2025-12-17 | 4 | 0001282236-25-000006 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-29, L694:
+
+> AdvanSix’s policy with respect to its annual equity awards for all eligible employees, including the NEOs, is to grant the awards and set the grant price, which is used to calculate the number of shares covered by awards, at the C&LD Committee’s regularly scheduled February meeting each year, which typically falls within an open trading window. Off-cycle grants during the year, such as for a hiring or promotion, are typically approved by the CEO pursuant to a delegation of authority granted by the C&LD Committee at its regularly scheduled meeting in February each year, with the exception of off-cycle grants made to executive officers, whose awards are approved by the C&LD Committee. Off-cycle grants are typically granted during open windows or, in the case of sign-on grants, on or around an employee's start date. The Company does not currently have a practice of granting stock options to its employees, and we have not granted stock options to our NEOs since 2023. The C&LD Committee does not take material nonpublic information into account when determining the timing and terms of equity awards, and the Company does not time the disclosure of material nonpublic information for the purpose of affecting the value of executive compensation. [S70]
 
 ## Sources and change log
 
@@ -1422,5 +1501,13 @@ Latest 50 filing metadata records of 710 retained records. A filing link is evid
 [S66] [4 0001338883-25-000006](https://www.sec.gov/Archives/edgar/data/1673985/000133888325000006/0001338883-25-000006-index.html) — published 2025-12-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0001282236-25-000006](https://www.sec.gov/Archives/edgar/data/1673985/000128223625000006/0001282236-25-000006-index.html) — published 2025-12-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0000950157-26-000916](https://www.sec.gov/Archives/edgar/data/1673985/000095015726000916/form8-k.htm) — published 2026-08-17; retrieved 2026-11-15T19:16:31.256434+00:00.
+
+[S69] [10-Q 0001673985-26-000049](https://www.sec.gov/Archives/edgar/data/1673985/000167398526000049/asix-20260630.htm) — published 2026-08-07; retrieved 2026-11-15T19:16:29.756174+00:00.
+
+[S70] [DEF 14A 0001673985-26-000022](https://www.sec.gov/Archives/edgar/data/1673985/000167398526000022/asix-20260429.htm) — published 2026-04-29; retrieved 2026-11-15T19:16:28.193458+00:00.
+
+[S71] [10-K 0001673985-26-000008](https://www.sec.gov/Archives/edgar/data/1673985/000167398526000008/asix-20251231.htm) — published 2026-02-20; retrieved 2026-11-15T19:16:26.352620+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

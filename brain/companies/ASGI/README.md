@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -381,6 +381,18 @@ sources:
   published_at: '2025-02-28'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1793855/000110465926116525/tm2627717d1_8k.htm
+  title: 8-K 0001104659-26-116525
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-15T19:15:55.054192+00:00'
+  sha256: a0774935bb2ef09cfcbeeaf9446a6905a2227c94931c0b390220089107f37f74
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1793855/000110465926038574/tm2610134d13_def14a.htm
+  title: DEF 14A 0001104659-26-038574
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-15T19:15:53.523425+00:00'
+  sha256: db2d5338f677084ce651ae735a3fb15e6d73b2bc6afa46ce7620046e5a05fc04
 issuer_classification:
   cik: 0001793855
   classification_status: missing_or_invalid_sic
@@ -408,13 +420,14 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1793855/000110465926116525/0001104659-26-116525-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 280e8d7713809eecb914ec72b95217ef4badbe288445f7b7c2772d083174875f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -478,6 +491,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-01, L748:
+
+> The executive officers of the Fund are appointed by the Board annually to hold office until the next year and until their successors are chosen and qualified. "Aberdeen" in the chart below refers to the companies within Aberdeen Group plc, parent company of the investment manager and administrator. The current executive officers of the Fund who do not concurrently serve as a Trustee are: [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -502,7 +519,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -514,7 +531,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
@@ -690,5 +707,9 @@ Latest 50 filing metadata records of 250 retained records. A filing link is evid
 [S51] [SCHEDULE 13D/A 0001062993-25-005231](https://www.sec.gov/Archives/edgar/data/1793855/000106299325005231/0001062993-25-005231-index.html) — published 2025-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [NPORT-P 0001752724-25-047951](https://www.sec.gov/Archives/edgar/data/1793855/000175272425047951/0001752724-25-047951-index.html) — published 2025-02-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [8-K 0001104659-26-116525](https://www.sec.gov/Archives/edgar/data/1793855/000110465926116525/tm2627717d1_8k.htm) — published 2026-10-16; retrieved 2026-11-15T19:15:55.054192+00:00.
+
+[S54] [DEF 14A 0001104659-26-038574](https://www.sec.gov/Archives/edgar/data/1793855/000110465926038574/tm2610134d13_def14a.htm) — published 2026-04-01; retrieved 2026-11-15T19:15:53.523425+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
