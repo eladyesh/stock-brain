@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -142,6 +142,18 @@ sources:
   published_at: '2026-10-09'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S65
+  url: https://www.sec.gov/Archives/edgar/data/1477720/000162828026063720/asan-20260925.htm
+  title: 8-K 0001628280-26-063720
+  published_at: '2026-09-28'
+  retrieved_at: '2026-11-15T19:15:15.844450+00:00'
+  sha256: 3a70eecf6b05c79a4798d2e24fba67001cb3891b806612dd073f499e688f154c
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1477720/000147772026000060/asan-20260731.htm
+  title: 10-Q 0001477720-26-000060
+  published_at: '2026-09-03'
+  retrieved_at: '2026-11-15T19:15:14.178228+00:00'
+  sha256: ee073ffbb5d9a49ebce458c6f4d3d6c56264ffb19b7929ac2ce7e3ca170e1f74
 issuer_classification:
   cik: '0001477720'
   classification_status: reported_sic
@@ -187,13 +199,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1477720/000147772022000039/0001477720-22-000039-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0fcd1d1006001a632bd84290dda81a228fc01401b87d0da91b94974ff770c2eb
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -208,15 +231,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001477720.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASAN/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASAN/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASAN — Asana, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASAN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASAN/README.md)
 
 ## Business overview
 
@@ -230,17 +253,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-03, L169:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which statements involve substantial risk and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our future results of operations or financial condition; business strategy and plans; and objectives of management for future operations are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” or “would” or the negative of these words or other similar terms or expressions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: our ability to grow or maintain our dollar-based net retention rate, expand usage of our platform within organizations, and sell subscriptions to our platform; our ability to effectively shift our pricing model to include consumption-based billing; our ability to convert individuals, teams, and … [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-03, L544:
+
+> The Company manages its operations and allocates resources as a single operating and reportable segment. The Company primarily generates revenues from subscriptions from paying customers accessing its cloud-based platform. [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-03, L186:
+
+> •We operate in a highly competitive industry, and competition presents an ongoing threat to the success of our business. Our ability to compete and ensure our success requires developments in our technology, including the successful deployment of AI in our products. [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-03, L1175:
+
+> Our reported dollar-based net retention rate equals the simple arithmetic average of our quarterly dollar-based net retention rate for the four quarters ending with the most recent fiscal quarter. We calculate our dollar-based net retention rate by comparing our revenues from the same set of customers in a given quarter, relative to the comparable prior-year period. To calculate our dollar-based net retention rate for a given quarter, we start with the revenues in that quarter from customers that generated revenues in the same quarter of the prior year. We then divide that amount by the revenues attributable to that same group of customers in the prior-year quarter. Current period revenues include any upsells and are net of contraction or attrition over the trailing 12 months, but exclude revenues from new customers in the current period. We expect our dollar-based net retention rate to fluctuate due to a number of factors, including the expected growth of our revenue base, the level of penetration within our customer base, our ability to retain our customers, and the macroeconomic environment. For example, macroeconomic conditions have affected customers’ renewal decisions, which has impacted our dollar-based net retention rate in recent periods. [S66]
 
 ## Industry and value chain
 
@@ -248,19 +287,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-03, L516:
+
+> Global macroeconomic events including inflation, fluctuating interest rates, bank failures, supply chain disruptions, fluctuations in currency exchange rates, tariffs and changes in trade agreements, and international armed conflicts have led to economic uncertainty. These macroeconomic conditions have and are likely to continue to have adverse effects on the rate of global information technology (“IT”) spending, including the buying patterns of the Company’s customers and prospective customers. [S66]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-09-03, L169:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which statements involve substantial risk and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our future results of operations or financial condition; business strategy and plans; and objectives of management for future operations are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” or “would” or the negative of these words or other similar terms or expressions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: our ability to grow or maintain our dollar-based net retention rate, expand usage of our platform within organizations, and sell subscriptions to our platform; our ability to effectively shift our pricing model to include consumption-based billing; our ability to convert individuals, teams, and … [S66]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-09-03, L169:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which statements involve substantial risk and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our future results of operations or financial condition; business strategy and plans; and objectives of management for future operations are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” or “would” or the negative of these words or other similar terms or expressions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: our ability to grow or maintain our dollar-based net retention rate, expand usage of our platform within organizations, and sell subscriptions to our platform; our ability to effectively shift our pricing model to include consumption-based billing; our ability to convert individuals, teams, and … [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-03, L169:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which statements involve substantial risk and uncertainties. All statements other than statements of historical facts contained in this Quarterly Report on Form 10-Q, including statements regarding our future results of operations or financial condition; business strategy and plans; and objectives of management for future operations are forward-looking statements. In some cases, you can identify forward-looking statements because they contain words such as “anticipate,” “believe,” “contemplate,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” or “would” or the negative of these words or other similar terms or expressions. Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: our ability to grow or maintain our dollar-based net retention rate, expand usage of our platform within organizations, and sell subscriptions to our platform; our ability to effectively shift our pricing model to include consumption-based billing; our ability to convert individuals, teams, and … [S66]
 
 ## Financial performance
 
@@ -379,6 +434,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-28, L76:
+
+> On September 25, 2026 the Board of Directors (the “Board”) of Asana, Inc. (the “Company”) appointed Dan Rogers, the Company’s Chief Executive Officer and a Class III director, as Chair of the Board to succeed Dustin Moskovitz in that role. As a current employee of the Company, Mr. Rogers is not eligible to receive compensation for his Board service under the Company’s Non-Employee Director Compensation Policy (the “Compensation Policy”). Krista Anderson-Copperman will remain in her position as Lead Independent Director. [S65]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +450,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-03, L170:
+
+> You should not rely on forward-looking statements as predictions of future events. We have based the forward-looking statements contained in this Quarterly Report on Form 10-Q primarily on our current expectations and projections about future events and trends that we believe may affect our business, financial condition, and operating results. The outcome of the events described in these forward-looking statements is subject to risks, uncertainties, and other factors described in the section titled Risk Factors and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a very competitive and rapidly changing environment. New risks and uncertainties emerge from time to time, and it is not possible for us to predict all risks and uncertainties that could have an impact on the forward-looking statements contained in this Quarterly Report on Form 10-Q. The results, events, and circumstances reflected in the forward-looking statements may not be achieved or occur, and actual results, events, or circumstances could differ materially from those described in the forward-looking statements. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +463,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -462,6 +525,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S19] [144 0001950047-26-010140](https://www.sec.gov/Archives/edgar/data/1477720/000195004726010140/0001950047-26-010140-index.html) — published 2026-10-09; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASAN/README.md).
+[S65] [8-K 0001628280-26-063720](https://www.sec.gov/Archives/edgar/data/1477720/000162828026063720/asan-20260925.htm) — published 2026-09-28; retrieved 2026-11-15T19:15:15.844450+00:00.
+
+[S66] [10-Q 0001477720-26-000060](https://www.sec.gov/Archives/edgar/data/1477720/000147772026000060/asan-20260731.htm) — published 2026-09-03; retrieved 2026-11-15T19:15:14.178228+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASAN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

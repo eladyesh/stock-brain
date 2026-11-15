@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -144,6 +144,18 @@ sources:
   published_at: '2026-03-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/707605/000110465926096940/asrv-20260630x10q.htm
+  title: 10-Q 0001104659-26-096940
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-15T19:18:57.395682+00:00'
+  sha256: b393a3cd3c9f76f9266786041c1898b47f1c30c8988c880005cd1f69397018ac
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/707605/000114036126024337/ny20070905x1_def14a.htm
+  title: DEF 14A 0001140361-26-024337
+  published_at: '2026-06-08'
+  retrieved_at: '2026-11-15T19:18:48.595471+00:00'
+  sha256: f71a4f8aac25c0e8acfd40752d070ef9f7646526221199d5cbd02f283f169ade
 issuer_classification:
   cik: '0000707605'
   classification_status: reported_sic
@@ -181,13 +193,21 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/707605/000110465926117984/0001104659-26-117984-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0a67f3c99ca3888ed2d7f8d525f9b62edaaea3821355768af679bd5b39dedae5
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -202,15 +222,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000707605.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASRV/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASRV/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASRV — AMERISERV FINANCIAL INC /PA/
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASRV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASRV/README.md)
 
 ## Business overview
 
@@ -224,9 +244,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-06-08, L1326:
+
+> emphasize the enhancement of shareholder value while effectively managing the Company for all key stakeholder groups which also includes customers, employees, and the communities in which we operate; [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-14, L4082:
+
+> \| \| ● \| Other non-interest income - Other non-interest income consists of other recurring revenue streams such as safe deposit box rental fees, gain (loss) on sale of other real estate owned, VISA debit card fees, and other miscellaneous revenue streams. Safe deposit box rental fees are charged to the customer on an annual basis and recognized when billed. However, if the safe deposit box rental fee is prepaid (i.e. paid prior to issuance of the annual bill), the revenue is recognized upon receipt of payment. The Company has determined that since rentals and renewals occur consistently over time, revenue is recognized on a basis consistent with the duration of the performance obligation. Gains and losses on the sale of other real estate owned are recognized at the completion of the property sale when the buyer obtains control of the real estate and all the performance obligations of the Company have been satisfied. The Company offers VISA debit cards to deposit account holders, which allows our customers to access their account electronically at POS terminals. Fees related to VISA debit card transactions are recognized when the transactions are completed and the Company has satisfied its performance obligation. [S69]
 
 ## Products and services
 
@@ -235,6 +263,10 @@ Not available: substantive research has not been completed. Describe the main pr
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-14, L4082:
+
+> \| \| ● \| Other non-interest income - Other non-interest income consists of other recurring revenue streams such as safe deposit box rental fees, gain (loss) on sale of other real estate owned, VISA debit card fees, and other miscellaneous revenue streams. Safe deposit box rental fees are charged to the customer on an annual basis and recognized when billed. However, if the safe deposit box rental fee is prepaid (i.e. paid prior to issuance of the annual bill), the revenue is recognized upon receipt of payment. The Company has determined that since rentals and renewals occur consistently over time, revenue is recognized on a basis consistent with the duration of the performance obligation. Gains and losses on the sale of other real estate owned are recognized at the completion of the property sale when the buyer obtains control of the real estate and all the performance obligations of the Company have been satisfied. The Company offers VISA debit cards to deposit account holders, which allows our customers to access their account electronically at POS terminals. Fees related to VISA debit card transactions are recognized when the transactions are completed and the Company has satisfied its performance obligation. [S69]
 
 ## Industry and value chain
 
@@ -248,6 +280,10 @@ Navigation sector: **financials**. Method: `project_sic_rule`. Project navigatio
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-06-08, L2117:
+
+> We enter into employment contracts and change in control agreements with certain of our employees, including the Named Executive Officers, when we determine that an employment or change in control agreement is warranted in order to ensure the executive’s continued employment in light of prevailing market competition for the particular position held by the executive officer, or where it is determined it is necessary in light of the prior experience of the executive or our practices with respect to other similarly situated employees. [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
@@ -255,6 +291,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-06-08, L248:
+
+> Board refreshment efforts have been intentional in adding relevant expertise to our strategy and areas of growth, such as Directors with finance and labor union experience, as well as expertise in evolving topic areas, such as cyber security, data privacy, and regulatory matters. [S70]
 
 ## Financial performance
 
@@ -367,6 +407,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-14, L8199:
+
+> The segments of the Company’s loan portfolio are disaggregated into classes that allow management to monitor risk and performance. The loan classes used are consistent with the internal reports evaluated by the Company’s management and Board of Directors to monitor risk and performance within various segments of its loan portfolio. The commercial loan segment includes both the owner occupied commercial real estate loan and the commercial and industrial loan classes. The commercial real estate loan segment includes the non-owner occupied commercial real estate loan classes of retail, multi-family, and other. The residential mortgage loan segment is comprised of first lien amortizing residential mortgage loans while the consumer loan segment consists primarily of home equity loans secured by residential real estate, installment loans, and overdraft lines of credit associated with customer deposit accounts. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -379,6 +423,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-14, L22903:
+
+> Additionally, the Company is subject to a number of asserted and unasserted potential claims encountered in the normal course of business. In the opinion of the Company, neither the resolution of these claims nor the funding of these credit commitments is expected to have a material adverse effect on the Company’s consolidated financial position, results of operations or cash flows. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -388,25 +436,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -452,6 +500,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S61] [10-K 0001104659-26-031270](https://www.sec.gov/Archives/edgar/data/707605/000110465926031270/0001104659-26-031270-index.html) — published 2026-03-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASRV/README.md).
+[S69] [10-Q 0001104659-26-096940](https://www.sec.gov/Archives/edgar/data/707605/000110465926096940/asrv-20260630x10q.htm) — published 2026-08-14; retrieved 2026-11-15T19:18:57.395682+00:00.
+
+[S70] [DEF 14A 0001140361-26-024337](https://www.sec.gov/Archives/edgar/data/707605/000114036126024337/ny20070905x1_def14a.htm) — published 2026-06-08; retrieved 2026-11-15T19:18:48.595471+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASRV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

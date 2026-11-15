@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -156,15 +156,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/FXHO/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/FXHO/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # FXHO — UTime Ltd
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/FXHO/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/FXHO/README.md)
 
 ## Business overview
 
@@ -300,6 +300,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001493152-26-042573](https://www.sec.gov/Archives/edgar/data/1789299/000149315226042573/0001493152-26-042573-index.html) — published 2026-09-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/FXHO/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/FXHO/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -154,6 +154,30 @@ sources:
   published_at: '2026-09-28'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1780312/000149315226047766/form8-k.htm
+  title: 8-K 0001493152-26-047766
+  published_at: '2026-10-20'
+  retrieved_at: '2026-11-15T19:20:26.460846+00:00'
+  sha256: cbec8dfcbbc5f6180a5f5c213528fca8d9e30df932242568c73c82bd1dd0fa41
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/asts-20260630.htm
+  title: 10-Q 0001193125-26-342550
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-15T19:20:24.862480+00:00'
+  sha256: 6059650a80680f8bc4b4d25bd6062d4da4dfa754595e8e1dff026969e19ee5e3
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1780312/000149315226019384/formdef14a.htm
+  title: DEF 14A 0001493152-26-019384
+  published_at: '2026-04-28'
+  retrieved_at: '2026-11-15T19:20:23.164953+00:00'
+  sha256: 485f3d24834d5fd9c7fa23b08e1b8948425d8b5828fc965f60bd0b3dd3667747
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm
+  title: 10-K 0001780312-26-000006
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-15T19:20:21.549680+00:00'
+  sha256: d087559b796ef2f400be31ad888a028046cfa19cc3902403468499fa0c709291
 issuer_classification:
   cik: 0001780312
   classification_status: reported_sic
@@ -203,13 +227,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1780312/000149315221009600/0001493152-21-009600-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 73c7f46efbba8c5f697c8cda7c7733812c418b3a8c4f9fc92b589843ea955bdc
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -224,15 +259,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001780312.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTS/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTS/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASTS — AST SpaceMobile, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTS/README.md)
 
 ## Business overview
 
@@ -246,17 +281,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L8173:
+
+> our strategies and future financial performance, including our business plans or objectives, products and services, pricing, marketing plans, operating expenses, market trends, revenues, liquidity, cash flows and uses of cash and capital expenditures; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L9780:
+
+> Until such time, if ever, as we can generate substantial revenues to support our cost structure, we expect to finance cash needs through the issuance of equity, equity-linked or debt securities (secured or unsecured), secured or unsecured loans or other debt facilities, and credit from government or financial institutions or commercial partners. To the extent that we raise additional capital through the sale of equity or convertible debt securities, the ownership interest of stockholders will be, or could be, diluted, and the terms of these securities may include liquidation or other preferences that adversely affect the rights of common stockholders. Debt financing and equity financing, if available, may involve agreements that include covenants limiting or restricting our ability to take specific actions, such as incurring additional debt, making capital expenditures or declaring dividends. If we raise funds through commercial agreements, or other similar arrangements with third parties, we may have to relinquish valuable rights to our technologies and/or future revenue streams, or grant licenses on terms that may not be favorable to us and/or may reduce the value of our common stock. Also, our ability to raise necessary financing could be impacted by geopolitical events, higher interest rates and inflationary economic conditions and their effects on the market conditions. … [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-02, L480:
+
+> Focus on Providing Services to Mobile Network Operators. In addition to seeking complementary relationships with MNOs, we will also seek to sell our services on a revenue share basis to MNOs who then offer this capability directly to their customer base. We believe this focus will enable us to avoid competing with existing MNOs and reduce the complexity of our operations, thereby significantly reducing our overhead, marketing costs, customer acquisition costs, billing infrastructure and other customer support operations. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-02, L670:
+
+> Our ability to provide service to our customers and generate revenues could be harmed by adverse governmental regulatory actions. [S71]
 
 ## Industry and value chain
 
@@ -264,19 +315,35 @@ SEC-reported SIC **4899**: Communications Services, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L8243:
+
+> We continue to closely monitor the impact of macroeconomic conditions, including inflation expectations, changes to fiscal and monetary policies, changes in interest rates, volatility in the capital markets, supply chain challenges, changes in U.S. trade policy, including with respect to tariffs, and geopolitical conflicts on all aspects of our business across geographies, including how it has and may continue to impact our operations, workforce, suppliers, and our ability to raise additional capital to fund operating and capital expenditures. [S69]
+
 Navigation sector: **communication-services**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-28, L2029:
+
+> include covenants not to solicit employees, customers, potential customers, vendors or independent contractors from, or compete with, [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-10, L5964:
+
+> AST SpaceMobile, Inc., collectively with its subsidiaries (“SpaceMobile” or the “Company”) is currently designing, developing and manufacturing the constellation of BlueBird (“BB”) satellites and has begun launching its planned space-based Cellular Broadband network distributed through a constellation of low Earth orbit (“LEO”) satellites. Once deployed and operational, the BB satellites are designed to provide connectivity directly to off-the-shelf and unmodified devices at broadband speeds (the “SpaceMobile Service”), and be accessible for other applications for government use. The Company intends to offer the SpaceMobile Service to cellular subscribers and others through wholesale commercial agreements with cellular service providers. The Company also intends to leverage its patented technology, including large phased array and high power capability of its BB satellites, for a variety of applications in the government sector. The Company is headquartered in Texas where it operates satellite assembly, integration and testing (“AIT”) facilities. The Company also has engineering and development centers elsewhere in the United States, India and Scotland, and engineering, development and production centers in Spain and Israel. The Company’s global footprint was approximately 500,000 square feet as of June 30, 2026. The Company’s intellectual property (“IP”) portfolio is diverse, … [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L8232:
+
+> We are developing a phased satellite deployment plan and a corresponding commercial launch plan of the SpaceMobile Service based on targeted geographical markets to provide the SpaceMobile Service to the most commercially attractive MNO markets. This prioritization of coverage is designed to minimize the capital required to initiate and operate commercial service that generates cash flows from operating activities sooner. We expect that such a successful commercial service would enable us to attract additional capital to continue to assemble and launch additional BB satellites to expand our capacity and geographic coverage area, although there can be no assurance that such capital would be available on terms acceptable to us, or at all. [S69]
 
 ## Financial performance
 
@@ -374,6 +441,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-20, L109:
+
+> less than $250,000, subject to annual review by the Compensation Committee of the Board of Directors (the “Compensation Committee”), [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -386,6 +457,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L6806:
+
+> The Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have not been fully adjudicated. In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss in excess of any recorded accrual, with respect to loss contingencies. However, the outcome of litigation is inherently uncertain. Therefore, although management considers the likelihood of such an outcome to be remote, if one or more of these legal matters were resolved against the Company in a reporting period for amounts in excess of management’s expectations, the Company’s consolidated financial statements for that reporting period could be materially adversely affected. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -395,25 +470,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -457,6 +532,14 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [8-K 0001493152-26-044647](https://www.sec.gov/Archives/edgar/data/1780312/000149315226044647/0001493152-26-044647-index.html) — published 2026-09-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTS/README.md).
+[S68] [8-K 0001493152-26-047766](https://www.sec.gov/Archives/edgar/data/1780312/000149315226047766/form8-k.htm) — published 2026-10-20; retrieved 2026-11-15T19:20:26.460846+00:00.
+
+[S69] [10-Q 0001193125-26-342550](https://www.sec.gov/Archives/edgar/data/1780312/000119312526342550/asts-20260630.htm) — published 2026-08-10; retrieved 2026-11-15T19:20:24.862480+00:00.
+
+[S70] [DEF 14A 0001493152-26-019384](https://www.sec.gov/Archives/edgar/data/1780312/000149315226019384/formdef14a.htm) — published 2026-04-28; retrieved 2026-11-15T19:20:23.164953+00:00.
+
+[S71] [10-K 0001780312-26-000006](https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm) — published 2026-03-02; retrieved 2026-11-15T19:20:21.549680+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

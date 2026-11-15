@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -163,6 +163,18 @@ sources:
   published_at: '2026-03-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1350102/000119312526338219/asti-20260630.htm
+  title: 10-Q 0001193125-26-338219
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-15T19:20:10.679809+00:00'
+  sha256: 14f2a1864e1d44c17fbaba4ef88221ef4da5faad9a43eb4457155e56bd6204c8
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1350102/000107997326000543/asti_def14a.htm
+  title: DEF 14A 0001079973-26-000543
+  published_at: '2026-04-27'
+  retrieved_at: '2026-11-15T19:20:07.497189+00:00'
+  sha256: a1fc34325933e8fce1d1c9cef38c27b01c38f73395ebbe0cb8d809357fd684c6
 issuer_classification:
   cik: '0001350102'
   classification_status: reported_sic
@@ -200,13 +212,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1350102/000107997326000881/0001079973-26-000881-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 619ac4c297cc612de71002bac68a2901cfe7eb38652216f1b1c5f6c5c4620dbc
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -221,15 +243,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001350102.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTI/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTI/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASTI — Ascent Solar Technologies, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTI/README.md)
 
 ## Business overview
 
@@ -243,13 +265,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L257:
+
+> Our ability to attract and retain qualified personnel to implement our business plan and corporate growth strategies; [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4348:
+
+> Segment Reporting: The Company has one reportable segment, PV. The PV segment sells PV products and engineering services and currently, is primarily selling it in North America. The Company’s chief operating decision maker (“CODM”), who is the Company’s Chief Executive Officer, makes significant operating decisions and assesses the performance of the Company as a single business segment. [S67]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4938:
+
+> The integration of Ascent's solar modules into space, near space, and aeronautic vehicles with ultra-lightweight and flexible solar modules is an important market opportunity for the Company. Customers in this market have historically required a high level of durability, high voltage and conversion efficiency from solar module suppliers, and we believe our products are well suited to compete in this premium market and will fill a void in the satellite market with a lower cost, lighter module and a product that, if struck by an object in space, will create limited space debris. [S67]
 
 ## Customers and end markets
 
@@ -261,19 +295,35 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L275:
+
+> The supply, availability and price of equipment, components and raw materials, including the elements needed to produce our photovoltaic modules; [S67]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-27, L1471:
+
+> includes customary non-competition and non-solicitation provisions that Mr. Warley must comply with for a period of 12 months after termination [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L277:
+
+> Our ability to expand and protect the intellectual property portfolio that relates to our photovoltaic modules and processes; [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4355:
+
+> The Company has limited industrial scale production capabilities in its Thornton facility and continues to focus on its research and development activities to improve its PV products. Management does not expect that sales, revenue and cash flows will be sufficient to support operations and cash requirements until it has fully implemented our strategy of selling high value PV products and manufacturing at full industrial scale. During the six months ended June 30, 2026, the Company used $3,809,122 in cash for operations. As of June 30, 2026, the Company has $2,425,123 in current liabilities. [S67]
 
 ## Financial performance
 
@@ -386,6 +436,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4680:
+
+> Holders of Series A Preferred Stock are entitled to cumulative dividends at a rate of 8% per annum when and if declared by the Board of Directors at its sole discretion. The dividends may be paid in cash or in the form of common stock (valued at 10% below market price, but not to exceed the lowest closing price during the applicable measurement period), at the discretion of the Board of Directors. The dividend rate on the Series A Preferred Stock is indexed to the Company's stock price and subject to adjustment. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -398,6 +452,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L251:
+
+> These forward-looking statements are subject to risks, uncertainties and other factors, many of which are outside of our control, that could cause actual results to differ materially from the results discussed in the forward-looking statements, including, among other things, the matters discussed in this Quarterly Report in the sections captioned “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” Factors you should consider that could cause these differences are: [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -407,25 +465,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -471,6 +529,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S47] [10-K 0001193125-26-117839](https://www.sec.gov/Archives/edgar/data/1350102/000119312526117839/0001193125-26-117839-index.html) — published 2026-03-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTI/README.md).
+[S67] [10-Q 0001193125-26-338219](https://www.sec.gov/Archives/edgar/data/1350102/000119312526338219/asti-20260630.htm) — published 2026-08-06; retrieved 2026-11-15T19:20:10.679809+00:00.
+
+[S69] [DEF 14A 0001079973-26-000543](https://www.sec.gov/Archives/edgar/data/1350102/000107997326000543/asti_def14a.htm) — published 2026-04-27; retrieved 2026-11-15T19:20:07.497189+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

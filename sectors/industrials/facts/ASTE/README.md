@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 19d922c3a340e07ae75733aff6f0ed5f91038456
+source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -129,6 +129,24 @@ sources:
   published_at: '2026-09-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/792987/000079298726000044/aste-20260630.htm
+  title: 10-Q 0000792987-26-000044
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-15T19:19:23.879490+00:00'
+  sha256: 64f334fbca13172144f936e498c8cadabe3dc09c5b9b28bacaf02b12010194ee
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/792987/000110465926027745/tm261360-1_def14a.htm
+  title: DEF 14A 0001104659-26-027745
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-15T19:19:20.614690+00:00'
+  sha256: 35e00ca29de854c009d96ec9800b79bdf9eb74602dc3768e9eb0eb2a0904d9e8
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/792987/000079298726000011/aste-20251231.htm
+  title: 10-K 0000792987-26-000011
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-15T19:19:18.642830+00:00'
+  sha256: ba1f42794e920f4d5b4d00f60de19d9b09691842c29c53ce6890cc50842f490c
 issuer_classification:
   cik: 0000792987
   classification_status: reported_sic
@@ -178,13 +196,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/792987/000079298720000013/0000792987-20-000013-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: e9c55002076d191adf0214bf5c1764ca096cdd148860d638cf78cfb21a2d1dac
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-15T19:14:21.222490+00:00'
+  last_success_at: '2026-11-15T19:14:21.222490+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -199,15 +228,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000792987.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTE/README.md
-full_history_commit: 2f077c0023bcb685dbbb970d68a962dd99ff31fe
+full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTE/README.md
+full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ASTE — ASTEC INDUSTRIES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTE/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTE/README.md)
 
 ## Business overview
 
@@ -221,17 +250,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L972:
+
+> This Quarterly Report on Form 10-Q, particularly the following discussion and analysis of our results of operations, financial condition and liquidity in this "Management's Discussion and Analysis of Financial Condition and Results of Operations," contains forward-looking statements within the meaning of the Securities Act of 1933, as amended, the Securities Exchange Act of 1934, as amended (the "Exchange Act"), and the Private Securities Litigation Reform Act of 1995. Such statements relate to, among other things, income, earnings, cash flows, changes in operations, operating improvements, businesses in which we operate and the United States and global economies. Statements in this Quarterly Report on Form 10-Q that are not historical are hereby identified as "forward-looking statements" and may be indicated by words or phrases such as "anticipates," "supports," "plans," "projects," "expects," "believes," "should," "would," "could," "forecast," "management is of the opinion," or use of the future tense and similar words or phrases. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-05, L530:
+
+> The Company operates in two reportable segments - Infrastructure Solutions and Materials Solutions. The Company's two reportable business segments comprise sites based upon the nature of the products produced or services provided, the type of customer for the products, the similarity of economic characteristics, the manner in which management reviews results and the nature of the production process, among other considerations. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L529:
+
+> Astec Industries, Inc. ("Astec" or the "Company") is a Tennessee corporation which was incorporated in 1972. The Company designs, engineers, manufactures, markets and services equipment and components used primarily in asphalt and concrete road building and related construction activities, as well as other products discussed below. The Company's products are used in each phase of road building, from quarrying and crushing the aggregate to application of the road surface. The Company's product portfolio includes both asphalt and concrete equipment. The Company also manufactures certain equipment and components unrelated to road construction, including equipment for the mining, quarrying, construction, demolition, land clearing, energy, hydro-electric and recycling industries and port and rail yard operators; industrial heat transfer equipment; commercial whole-tree pulpwood chippers; horizontal grinders; blower trucks; commercial and industrial burners; and combustion control systems. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-13, L66:
+
+> At the 2026 Annual Meeting, with Mr. Gehl’s retirement we will be asking you to re-elect the two director nominees named in the attached proxy statement to our Board. As discussed throughout the proxy statement, our Board remains committed to strong governance practices and our Core Values of (i) Safety, (ii) Devotion, (iii) Integrity, (iv) Respect, and (v) Innovation. Under the guidance of our Board, we remain committed to investing in our employees, focusing on our customers and developing innovative solutions, and in doing so, generating long-term financial return to our shareholders. You will find detailed information in this proxy statement about the qualifications of our director nominees and why we believe they are the right people to represent your interests. [S69]
 
 ## Industry and value chain
 
@@ -239,19 +284,35 @@ SEC-reported SIC **3531**: Construction Machinery & Equip. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L1373:
+
+> Recycling: Reusing materials increases profitability through cost savings, minimizes unneeded waste, and conserves natural resources further up the supply chain. [S69]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-05, L992:
+
+> Whenever possible, we attempt to cover increased costs of production by adjusting the prices of our products. The markets we serve are competitive in nature, and competition limits our ability to pass through cost increases in many cases. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L1415:
+
+> Talent and Diversity are key components of our OneASTEC business model. We strive to create an environment that attracts top talent and where high performance is fostered and thrives, continuous learning is engrained, diverse experience is leveraged as a competitive advantage and careers are propelled forward. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-25, L305:
+
+> Astec Digital - Astec Digital leverages our market leadership and installed equipment base to expand our presence in controls and automation. Our Signal platform aggregates operational data from this connected asset base, delivering insights that improve efficiency, uptime and profitability. This foundation of connected equipment positions us to develop advanced digital capabilities including digital twins and future innovations in robotics, machine learning and artificial intelligence. [S70]
 
 ## Financial performance
 
@@ -379,6 +440,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-03-13, L64:
+
+> On behalf of the Board of Directors of Astec Industries, Inc. (“Astec”), thank you for your investment and continued confidence in Astec. We cordially invite you to join us for the 2026 Annual Meeting of Shareholders of Astec Industries, Inc. (“Astec” or the “Company”) to be held on Friday, April 24, 2026 at 10:00 a.m. EDT virtually over the Internet at https://web.viewproxy.com/astec/2026. We will hold the 2026 Annual Meeting as a virtual meeting because we believe that it will offer expanded access to shareholders who may otherwise not attend. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -391,6 +456,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L747:
+
+> Based upon currently available information and with the advice of counsel, management believes that the ultimate outcome of its current claims and legal proceedings, individually and in the aggregate, will not have a material adverse effect on the Company's financial position, cash flows or results of operations. However, claims and legal proceedings are subject to inherent uncertainties, and rulings unfavorable to the Company could occur. If an unfavorable ruling were to occur, there exists the possibility of a material adverse effect on the Company's financial position, cash flows or results of operations. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -400,25 +469,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -460,6 +529,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [4 0001986754-26-000004](https://www.sec.gov/Archives/edgar/data/792987/000198675426000004/0001986754-26-000004-index.html) — published 2026-09-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/2f077c0023bcb685dbbb970d68a962dd99ff31fe/brain/companies/ASTE/README.md).
+[S68] [10-Q 0000792987-26-000044](https://www.sec.gov/Archives/edgar/data/792987/000079298726000044/aste-20260630.htm) — published 2026-08-05; retrieved 2026-11-15T19:19:23.879490+00:00.
+
+[S69] [DEF 14A 0001104659-26-027745](https://www.sec.gov/Archives/edgar/data/792987/000110465926027745/tm261360-1_def14a.htm) — published 2026-03-13; retrieved 2026-11-15T19:19:20.614690+00:00.
+
+[S70] [10-K 0000792987-26-000011](https://www.sec.gov/Archives/edgar/data/792987/000079298726000011/aste-20251231.htm) — published 2026-02-25; retrieved 2026-11-15T19:19:18.642830+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ASTE/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
