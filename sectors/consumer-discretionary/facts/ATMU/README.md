@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -138,6 +138,12 @@ sources:
   published_at: '2026-08-13'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1921963/000192196326000015/atmu-20251231.htm
+  title: 10-K 0001921963-26-000015
+  published_at: '2026-02-13'
+  retrieved_at: '2026-11-16T22:50:27.360368+00:00'
+  sha256: bdbeacebfa4e218873fcfd568dfae53d20a0a3219ddf3c0715f94c94bb816478
 issuer_classification:
   cik: 0001921963
   classification_status: reported_sic
@@ -175,13 +181,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1921963/000192196326000071/0001921963-26-000071-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: d2aab4a0f8ee9768619f1971167ae5dc3c1f380eb7476381ec4811125eda23e8
-  last_attempt_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-17T22:41:59.123544+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -196,15 +213,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001921963.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATMU/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATMU/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ATMU — Atmus Filtration Technologies Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATMU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATMU/README.md)
 
 ## Business overview
 
@@ -218,17 +235,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-02-13, L371; prior source set, update pending:
+
+> These risk factors could materially affect our business, financial condition, results of operations and cash flows. These risk factors are not exhaustive and investors are encouraged to perform their own investigation with respect to the business, financial condition and prospects of our business. You should carefully consider the following risk factors in addition to the other information included in this Annual Report on Form 10-K for the fiscal-year ended December 31, 2025, and should also carefully consider the matters addressed in the section herein entitled “Cautionary Statements and Risk Factor Summary.” We may face additional risks and uncertainties that are not presently known to us, or that we currently deem immaterial, which may also impair our business, financial condition, results of operation or cash flows. The following discussion should be read in conjunction with the “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our financial statements and notes to the financial statements included herein. [S66]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-13, L261; prior source set, update pending:
+
+> Atmus has a strong history as a supplier to leading OEMs, including Cummins, Daimler, Deere, Doosan, Foton, Komatsu, Paccar/DAF, the Traton Group, Stellantis and Volvo. Atmus sells both first-fit and aftermarket products to these customers and has been selling to each of them for at least 10 years. These customers in the aggregate accounted for approximately 70% of Atmus’ net sales in 2025 and have consistently accounted for more than 67% of Atmus’ net sales in each of the last five years. Atmus has written agreements with most of its key customers that specify certain purchase parameters, but do not obligate them to specific volumes. Atmus invests in its relationships and utilizes its technical strengths to win first-fit business with these OEMs, which drives Atmus’ installed base, yielding strong recurring revenue streams in the aftermarket. The OEMs also provide Atmus with early insight into technological developments and evolving product requirements within the broader engine and industrial application industry, allowing Atmus to be well positioned as the world shifts towards more complex modular filtration systems and filtration for other power sources. [S66]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-13, L426; prior source set, update pending:
+
+> Cummins historically did not seek competitive bids for filtration products. However, prior to the completion of the IPO, Cummins initiated a competitive process to source a selective group of future first-fit programs and associated aftermarket products from its filtration product suppliers, including us. Subsequently, we were successful in being awarded this business. In the future, we expect that Cummins will continue to seek competitive bids for new filtration products. While we will have a preferred supplier relationship with Cummins, we will have to successfully win bids through Cummins’ bidding process in order to maintain or grow our current level of sales to Cummins and cannot guarantee that Cummins will always select our products. The loss of, or any substantial reduction in sales to, Cummins would have a material adverse effect on our business, financial condition, results of operations and cash flows. In addition, our association with Cummins has contributed to the relationships we have with certain significant customers due to the relationship those customers had with Cummins. We may not be able to attract new customers of Cummins, or retain existing customers, without Cummins’ support. [S66]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-13, L270; prior source set, update pending:
+
+> In addition, independent distributors and retailers enable Atmus to reach a broader end-user market and create additional points of sale or service. Atmus also works directly with major customers of its channel partners (such as large fleets or mining companies), across its end markets, to create strong brand preference, which, in turn, leads to strong demand for its products and generates recurring revenue. Atmus continues to increase geographic coverage within regions to better serve its customers by investing in distribution expansion. [S66]
 
 ## Industry and value chain
 
@@ -236,19 +269,35 @@ SEC-reported SIC **3714**: Motor Vehicle Parts & Accessories. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-13, L275; prior source set, update pending:
+
+> The performance of the end-to-end supply chain, extending through to Atmus’ suppliers, is foundational to its ability to meet customers’ expectations and support long-term growth. Atmus is committed to having a robust strategy for how it selects and manages its suppliers to enable a market focused supply chain. This requires Atmus to continuously evaluate and upgrade its supply base, as necessary, as Atmus strives to ensure it is meeting the needs of its customers. [S66]
+
 Navigation sector: **consumer-discretionary**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-02-13, L301; prior source set, update pending:
+
+> Principal methods of competition in the filtration markets are product quality and performance, price, geographic and application coverage, availability, customer service, ease of doing business and brand reputation. Atmus believes it is a market leader within many of its product lines, including filters in Atmus’ on-highway and off-highway markets, and that its success in the market is due to its technology, its iconic Fleetguard brand, its global footprint, strong customer relationships and the talent within its organization. [S66]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-13, L250; prior source set, update pending:
+
+> Atmus offers a full spectrum of filtration solutions that enable lower emissions and provide superior asset protection. Atmus’ filtration products provide comprehensive and differentiated solutions, which allow its end-users to extend service intervals, reduce maintenance costs and increase uptime. Atmus’ products include fuel filters, lube filters, air filters, crankcase ventilation, hydraulic filters and coolants and other chemicals. Atmus’ broad range of products in each of its core markets enables one-stop shopping, which Atmus believes is a key competitive advantage. [S66]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-13, L441; prior source set, update pending:
+
+> For example, Cummins, our largest customer, has established 2030 environmental sustainability goals to, among other things, reduce its Scope 3 absolute lifetime GHG emissions from newly sold products, and partner with its customers to reduce its indirect GHG emissions from its products. These goals may result in Cummins preferring products that reduce its direct and/or indirect GHG emissions. As a result of these risks, and as we have seen OEMs begin to invest in these new technologies and launch new non internal combustion engines, we have been working, and continue to work, to expand our product offerings across industries and application types. However, there can be no assurance that we will be successful in doing so, or even if we are successful, that such new products will generate the same revenue or margin as internal combustion engine filtration products. Some of these technologies, such as battery electric vehicles, may not utilize as much filtration content. Additionally, there can be no assurance that our expectations regarding new and developing alternate fuel technologies, including with respect to which technologies will prevail and the development of filtration [S66]
 
 ## Financial performance
 
@@ -376,6 +425,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2026-02-13, L47; prior source set, update pending:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). o [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +441,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2026-02-13, L371; prior source set, update pending:
+
+> These risk factors could materially affect our business, financial condition, results of operations and cash flows. These risk factors are not exhaustive and investors are encouraged to perform their own investigation with respect to the business, financial condition and prospects of our business. You should carefully consider the following risk factors in addition to the other information included in this Annual Report on Form 10-K for the fiscal-year ended December 31, 2025, and should also carefully consider the matters addressed in the section herein entitled “Cautionary Statements and Risk Factor Summary.” We may face additional risks and uncertainties that are not presently known to us, or that we currently deem immaterial, which may also impair our business, financial condition, results of operation or cash flows. The following discussion should be read in conjunction with the “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our financial statements and notes to the financial statements included herein. [S66]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +454,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -457,6 +514,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S20] [SCHEDULE 13G 0000914208-26-000271](https://www.sec.gov/Archives/edgar/data/1921963/000091420826000271/0000914208-26-000271-index.html) — published 2026-08-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATMU/README.md).
+[S66] [10-K 0001921963-26-000015](https://www.sec.gov/Archives/edgar/data/1921963/000192196326000015/atmu-20251231.htm) — published 2026-02-13; retrieved 2026-11-16T22:50:27.360368+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATMU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

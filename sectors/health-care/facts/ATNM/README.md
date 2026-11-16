@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -155,6 +155,18 @@ sources:
   published_at: '2026-03-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1388320/000121390026110022/ea0306048-01.htm
+  title: DEF 14A 0001213900-26-110022
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-16T22:52:58.828488+00:00'
+  sha256: d697be45c0d2acdeab6940760ddf856326f9443846900b81fef6030e4b26acee
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1388320/000121390026086769/ea0298254-10q_actinium.htm
+  title: 10-Q 0001213900-26-086769
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-16T22:52:54.921576+00:00'
+  sha256: 5dbf97d59fbc58722298cfb24ac8e1da010dbf1ec7deadca6b0ced0233c2d4e2
 issuer_classification:
   cik: 0001388320
   classification_status: reported_sic
@@ -208,13 +220,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1388320/000121390013000029/0001213900-13-000029-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 2622d6bad41edaa4d02f637dea3d62ad99d2ea6606e368af76f3a0968f79319c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -229,15 +251,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001388320.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATNM/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATNM/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ATNM — Actinium Pharmaceuticals, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATNM/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATNM/README.md)
 
 ## Business overview
 
@@ -251,13 +273,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L325:
+
+> Our Board oversees our business affairs and monitors the performance of management. In accordance with our corporate governance principles, our Board does not involve itself in day-to-day operations. The directors keep themselves informed through discussions with the Chairman and Chief Executive Officer, other key executives, and by reading the reports and other materials that we send them and by participating in Board and committee meetings. Biographical information about our directors is provided in the section “Directors and Executive Officers”. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-08-07, L854:
+
+> Segment Information - The Company operates as a single operating and reportable segment for the purposes of assessing performance and allocating resources. The Company’s chief operating decision maker is its Chief Executive Officer, who reviews total assets in the consolidated balance sheets and net income/(loss) and its components in the consolidated statements of operations; research and development expenses, general and administrative expenses, and interest income, for the purposes of making operating decisions, assessing financial performance, and allocating resources. Virtually all of the Company’s assets are located in the United States, with an immaterial amount held by its wholly owned Australian subsidiary, Actinium Pharmaceuticals Australia Pty Ltd, which supports certain international clinical development activities.’ [S70]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-08-07, L1847:
+
+> with employees, consultants, advisors, and collaborative partners. We also rely on regulatory exclusivity to protect our products from [S70]
 
 ## Customers and end markets
 
@@ -269,19 +303,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L850:
+
+> Dr. Shetty has been a Director of the Company since March 2017. Dr. Shetty is also a member of our Audit Committee, Compensation Committee, and Chairman of our Nominating and Corporate Governance Committee. Dr. Shetty joined Janssen Pharmaceutical, Inc. (“Janssen”) in 1976 ultimately rising to the position of president in 1986 where he led the establishment of Janssen’s business in the U.S. From 1999 to 2008 he was managing director of Janssen, during this time the Janssen Group of companies’ global sales grew from $1 billion to $8 billion, and from 2004 until 2012 he was chairman of the board of directors. In Dr. Shetty’s most recent role at Johnson & Johnson he was head of Enterprise Supply Chain, where he reported to the chief executive officer and was responsible for the transformation and optimization of Johnson & Johnson’s supply chain. Dr. Shetty earned a Ph.D. in Metallurgy and B.A. Natural Sciences from Trinity College, Cambridge University and a Master of Business Administration from Carnegie Mellon University. In 2007, Dr. Shetty was bestowed the title of Baron by King Albert II of Belgium for his exceptional merits. In addition, he was elected Manager of the Year in 2004 in Flanders and received a Life-Time Achievement Award in India in 2010. In 2016, Dr. Shetty was named as chairperson of the Vlaams Instituut voor Biotechnologie (VIB), a Belgium based life … [S68]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L383:
+
+> We adopted a Code of Business Conduct and Ethics that applies to all of our directors, officers and employees, including our principal executive officer and principal financial and accounting officer. The Code of Business Conduct and Ethics addresses, among other things, competition and fair dealing, conflicts of interest, protection and proper use of Company assets, government relations, compliance with laws, rules and regulations and the process for reporting violations of the Code of Business Conduct and Ethics, employee misconduct, improper conflicts of interest or other violations. A copy of the Code of Business Conduct and Ethics is available on the Investor section of our website at www.actiniumpharma.com. We will post on our website any amendment to our Code of Business Conduct and Ethics or waivers of our Code of Business Conduct and Ethics for directors and executive officers. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L806:
+
+> Mr. Seth has 25 plus years of experience in investment banking (Laidlaw& Co (UK) Ltd., Cowen & Co.), equity research (Bear Stearns, Commonwealth Associates) and in the pharma industry (Pfizer, Warner-Lambert, SmithKline in strategic planning, business development and R&D project management). Mr. Seth was chairman of Relmada Therapeutics Inc., a specialty pharma company focused on CNS therapeutics, which he helped co-found. Mr. Seth has an MBA in Finance from New York University; an M.S. in the Pharmaceutical Sciences from the University of Oklahoma Health Center and a B.Sc. in Chemistry from Bombay University. He has published several scientific articles and was awarded the University Regents Award for Research Excellence at the University of Oklahoma. Mr. Seth was designated as Regulatory Affairs Certified by the Regulatory Affairs Professionals Society which signifies proficiency with U.S. FDA regulations. He has several patents related to the use of radiopharmaceuticals as conditioning agents for adoptive cell therapies and as therapeutic combinations. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-07, L2471:
+
+> our business strategy and may modify our strategy as necessary to respond to developments in our business and other factors, and [S70]
 
 ## Financial performance
 
@@ -391,6 +441,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L71:
+
+> Your vote is very important, regardless of the number of shares of our voting securities that you own. Whether or not you expect to be present at the Annual Meeting, after receiving the Notice of Annual Meeting please vote as promptly as possible to ensure your representation and the presence of a quorum at the Annual Meeting. As an alternative to voting in person at the Annual Meeting, you may vote via the Internet, by telephone, or by signing, dating and returning the proxy card that is enclosed with the Notice of Annual Meeting. If your shares are held in the name of a broker, trust, bank or other nominee, and you receive these materials through your broker or through another intermediary, please complete and return the materials in accordance with the instructions provided to you by such broker or other intermediary or contact your broker directly in order to obtain a proxy issued to you by your nominee holder to attend the Annual Meeting and vote in person at the Annual Meeting. Failure to do so may result in your shares not being eligible to be voted by proxy at the Annual Meeting. On behalf of the Board of Directors, I urge you to submit your vote as soon as possible, even if you currently plan to attend the meeting in person. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -403,6 +457,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-16, L379:
+
+> Our Board is responsible for overseeing the Company’s risk management processes. The Board receives reports from management concerning the Company’s assessment of risks and considers the Company’s risk profile. The Board focuses on the most significant risks facing the Company and the Company’s general risk management strategy. In addition, as part of its oversight of our Company’s executive compensation program, the Board considers the impact of such program, and the incentives created by the compensation awards that it administers, on our Company’s risk profile. In addition, the Board, based on the Compensation Committee’s review of all of our compensation policies and procedures, considers the incentives that they create and factors that may reduce the likelihood of excessive risk taking and determines whether they present a significant risk to our Company. The Board has determined that, for all employees, our compensation programs do not encourage excessive risk and instead encourage behaviors that support sustainable value creation. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -412,25 +470,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -476,6 +534,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S37] [10-K 0001213900-26-036504](https://www.sec.gov/Archives/edgar/data/1388320/000121390026036504/0001213900-26-036504-index.html) — published 2026-03-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATNM/README.md).
+[S68] [DEF 14A 0001213900-26-110022](https://www.sec.gov/Archives/edgar/data/1388320/000121390026110022/ea0306048-01.htm) — published 2026-10-16; retrieved 2026-11-16T22:52:58.828488+00:00.
+
+[S70] [10-Q 0001213900-26-086769](https://www.sec.gov/Archives/edgar/data/1388320/000121390026086769/ea0298254-10q_actinium.htm) — published 2026-08-07; retrieved 2026-11-16T22:52:54.921576+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATNM/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

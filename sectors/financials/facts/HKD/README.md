@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -165,15 +165,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001809691.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/HKD/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/HKD/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # HKD — AMTD Digital Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/HKD/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/HKD/README.md)
 
 ## Business overview
 
@@ -351,6 +351,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [20-F 0001213900-26-021555](https://www.sec.gov/Archives/edgar/data/1809691/000121390026021555/ea0276786-20f_amtd.htm) — published 2026-02-27; retrieved 2026-10-27T15:43:25.773800+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/HKD/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/HKD/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

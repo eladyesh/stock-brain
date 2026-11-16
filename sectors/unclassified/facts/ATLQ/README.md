@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -111,6 +111,12 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S41
+  url: https://www.sec.gov/Archives/edgar/data/2128739/000121390026102690/ea0304590-02.htm
+  title: DEF 14A 0001213900-26-102690
+  published_at: '2026-09-23'
+  retrieved_at: '2026-11-16T22:49:34.656817+00:00'
+  sha256: e33d850baad262438769f6d9cf166729ecba7262b96f0790152b4a316a21f9eb
 issuer_classification:
   cik: 0002128739
   classification_status: reported_sic
@@ -143,13 +149,17 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2128739/000121390026092644/0001213900-26-092644-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1530b0f58e64ac72a2e77f42b5db262867dda1a6be83bc279d2aefa3ca7e1d91
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - management-and-governance
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -161,15 +171,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLQ/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLQ/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ATLQ — JAB Acquisition Corp I
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLQ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLQ/README.md)
 
 ## Business overview
 
@@ -182,6 +192,10 @@ The directory links the following current stock listings to this issuer. Classif
 | ATLQ | NASDAQ | common_stock | 1 | [S01] |
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
+
+Source excerpt — DEF 14A, filed 2026-09-23, L256:
+
+> You should carefully consider all of the risks described in our IPO Prospectus, and all supplements thereto, all subsequent Quarterly Reports on Form 10-Q filed with the SEC and in the other reports we file with the SEC before making a decision to invest in our securities. Furthermore, if any of the following events occur, our business, financial condition and operating results may be materially adversely affected or we could face liquidation. In that event, the trading price of our securities could decline, and you could lose all or part of your investment. The risks and uncertainties described in the aforementioned filings and below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business, financial condition and operating results or result in our liquidation. [S41]
 
 ## Revenue model and segments
 
@@ -273,6 +287,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L119:
+
+> Your Board of Directors recommends that you vote “FOR” the Name Change Proposal, “FOR” the Amended and Restated Memorandum and Articles of Association Proposal and “FOR” the Adjournment Proposal. [S41]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -285,6 +303,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-09-23, L256:
+
+> You should carefully consider all of the risks described in our IPO Prospectus, and all supplements thereto, all subsequent Quarterly Reports on Form 10-Q filed with the SEC and in the other reports we file with the SEC before making a decision to invest in our securities. Furthermore, if any of the following events occur, our business, financial condition and operating results may be materially adversely affected or we could face liquidation. In that event, the trading price of our securities could decline, and you could lose all or part of your investment. The risks and uncertainties described in the aforementioned filings and below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business, financial condition and operating results or result in our liquidation. [S41]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -294,9 +316,9 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
@@ -306,13 +328,13 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -352,6 +374,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S09] [SCHEDULE 13G/A 0001193125-26-352529](https://www.sec.gov/Archives/edgar/data/2128739/000119312526352529/0001193125-26-352529-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLQ/README.md).
+[S41] [DEF 14A 0001213900-26-102690](https://www.sec.gov/Archives/edgar/data/2128739/000121390026102690/ea0304590-02.htm) — published 2026-09-23; retrieved 2026-11-16T22:49:34.656817+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLQ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -200,15 +200,15 @@ sector_assignment:
   rule_version: 1
   reason: Missing, ambiguous or unmapped reported industry; company-specific review
     is required.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/APAC/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/APAC/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # APAC — StoneBridge Acquisition II Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/APAC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/APAC/README.md)
 
 ## Business overview
 
@@ -470,6 +470,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S59] [10-K 0001829126-26-002474](https://www.sec.gov/Archives/edgar/data/2043630/000182912626002474/stonebridgeacq2_10k.htm) — published 2026-03-18; retrieved 2026-11-12T20:39:50.437361+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/APAC/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/APAC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

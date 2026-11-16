@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -153,6 +153,18 @@ sources:
   published_at: '2026-03-12'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1464343/000143774926032179/atlc20261006_8k.htm
+  title: 8-K 0001437749-26-032179
+  published_at: '2026-10-06'
+  retrieved_at: '2026-11-16T22:48:53.107530+00:00'
+  sha256: 22b28b255fa677119a0fe05c3dc07340b09a4262a9cc1e4101fbbf22a4969c49
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1464343/000143774926026279/atlc20260630_10q.htm
+  title: 10-Q 0001437749-26-026279
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-16T22:48:51.223497+00:00'
+  sha256: ee510824efa9236e2828fdb8a84190d830b463a3742c5948132cf2dd4f87b0dd
 issuer_classification:
   cik: '0001464343'
   classification_status: reported_sic
@@ -210,13 +222,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1464343/000146434310000043/0001464343-10-000043-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1dc995ac89616c9d77883ed8ae258fc8fea648b65b3ea7c9a69abe6e61e3eb19
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 3
   model_draft: false
   reviewed: false
@@ -231,15 +254,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001464343.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLC/README.md
-full_history_commit: 8c5afb0854b43beae818b88ec42b173c9411d269
+full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLC/README.md
+full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ATLC — Atlanticus Holdings Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLC/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLC/README.md)
 
 ## Business overview
 
@@ -253,17 +276,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1558:
+
+> We are a purpose driven financial technology company. We are primarily focused on facilitating consumer credit through the use of our financial technology and related services. We provide technology and other support services to lenders who offer an array of financial products and services, including private label and general purpose card products, to consumers who may have been declined by other providers of credit. Private label and general purpose card products are originated by The Bank of Missouri, WebBank and First Bank and Trust (collectively, our “bank partners”). Our bank partners originate these accounts through multiple channels, including retail and healthcare point-of-sale locations, direct mail solicitation, digital marketing and partnerships with third parties. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1562:
+
+> We service the underlying receivables on behalf of our bank partners by providing and/or managing the ongoing customer service activities in the form of processing payments, providing regular notices of statement activity, and resolving customer complaints, billing disputes, and fraud claims. Our bank partners continue to own the underlying consumer accounts that they originate and provide regulatory oversight in the form of reviewing and approving the development of consumer finance programs and approving all related marketing materials, establishing the policies and procedures that govern the operation of the consumer finance programs, reviewing and approving customer complaint correspondence, performing ongoing compliance monitoring and testing and audits of the consumer finance programs, and providing settlement services between us and our retail partners. From time to time, we also purchase receivables portfolios from third parties other than our bank partners. These products and services are reported through two reportable segments, Credit as a Service ("CaaS") and Auto Finance. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2346:
+
+> Loans at Fair Value. The fair value of Loans at fair value is based on the present value of future cash flows using a valuation model of expected cash flows and the estimated cost to service and collect those cash flows. We estimate the present value of these future cash flows using internally-developed estimates of assumptions third-party market participants would use in determining fair value, including estimates of credit losses, payment rates, servicing costs, discount rates and yields earned on private label credit and general purpose credit card receivables. We forecast the cash flows underlying our fair value assessment based on the individual offer type (in the case of general purpose credit cards) or by specific offers at our retail partners (for private label credit). While overall product return requirements among the offer types may be similar, the individual product offerings necessary to achieve those returns is often unique to each offer and retailer based on several factors, including acceptance rates of the offers by consumers and underlying consumer performance data which varies by offer type. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1809:
+
+> The majority of our revenue is earned from financial instruments and is not included within the scope of ASC 606, "Revenue from Contracts with Customers". We have determined that revenue from contracts with customers would primarily consist of merchant fees and interchange revenues in our CaaS segment and servicing revenue and other customer-related fees in both our CaaS segment and our Auto Finance segment. Interchange fees are earned when our customers’ cards are used over established card networks. We earn a portion of the interchange fee the card networks charge merchants for the transaction and these fees are settled daily. Additionally, within interchange revenues are network incentives which are earned when credit card transactions, associated with accounts we service, are processed through interchange networks. Servicing revenue is generated by meeting contractual performance obligations related to the collection of amounts due on receivables, and is settled with the customer net of our fee, which can be settled daily or monthly. Service charges and other customer related fees are earned from customers based on the occurrence of specific services and are paid by customers per the terms of their credit agreement. Merchant fees paid or received associated with the acquisition of Fair Value Receivables are recognized when the merchant confirms the transaction with us, … [S68]
 
 ## Industry and value chain
 
@@ -271,19 +310,35 @@ SEC-reported SIC **6141**: Personal Credit Institutions. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6299:
+
+> Receivables purchased during period. Receivables purchased during period reflect the gross amount of investments we have made in a given period, net of any credits issued to consumers during that same period. For 2025 we noted increases in the amount of receivables purchased associated with our general purpose credit card receivables and also a larger increase in receivables purchased associated with our private label credit receivables. This growth in Private Label Credit Receivables purchased primarily relates to growth in purchases associated with our largest retail partner. We may experience periodic declines in these acquisitions due to: the loss of one or more retail partners; seasonal purchase activity by consumers; labor shortages and supply chain disruptions; or the timing of new customer originations by our issuing bank partners. Private label credit receivable acquisitions in the first quarter of 2026 were similar to those in the third quarter of 2025. As discussed above, we expect some retail partner programs to moderate in the third quarter of 2026 which will result in slower receivable acquisitions during that period, when compared to the same period in 2025. Our general purpose credit card receivable acquisitions tend to have more volatility based on the issuance of new credit card accounts by our issuing bank partners. As a result, the timing of new receivable … [S68]
+
 Navigation sector: **financials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L7408:
+
+> Managed receivables. Stress noted at some dealer locations resulted in higher than anticipated credit losses associated with floorplan loans during 2024. When coupled with increased delinquencies associated with the underlying consumers loans, we have experienced period-over-period declines in our managed receivables for the first and second quarters of 2025. For the third and fourth quarters of 2025, we continued to grow the portfolio as we continued to recover from the above noted floorplan loan losses experienced in 2024. We noted typical seasonal declines in managed receivables in the first quarter of 2026 resulting from expected increases in payment rates associated with tax refunds for many consumers. While receivable levels continued to decline in the second quarter due to slower sales at dealer locations, we expect modest growth in the level of our managed receivables for 2026 as CAR continues to rebuild its receivables base, expands within its current geographic footprint and continues plans for service area expansion. Although we continue to expand our CAR operations, the Auto Finance segment faces strong competition from other specialty finance lenders, as well as the indirect effects on us of our buy-here, pay-here dealership partners’ competition with other franchise dealerships for consumers interested in purchasing automobiles. We continually evaluate bulk … [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 8-K, filed 2026-10-06, L97:
+
+> On September 30, 2026, Atlanticus Holdings Corporation (the “Company”), through its subsidiary Mercury Financial, LLC, completed the sale and assignment of the MERCURY word mark and certain related intellectual property rights to an unaffiliated third party for $27.5 million in cash. The transaction did not include the underlying consumer credit card receivables associated with the MERCURY-branded program, which remain with the Company. [S67]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L3720:
+
+> The relative mix of receivable acquisitions can lead to some variation in our corresponding revenue as general purpose credit card receivables typically generate higher gross yields than private label credit receivables do. We experienced period-over-period increases in private label credit and general purpose credit card receivables. During 2025, we experienced higher growth rates for our private label credit receivables than for our general purpose credit card receivables. While the products are designed to provide for similar net returns, private label credit receivables typically generate lower gross yields and lower gross losses than our general purpose credit card receivables. As our private label credit receivables growth is typically strongest during the second and third quarters of each year, we expect seasonal contraction in receivable acquisitions for that portfolio in other quarters. Growth in our general purpose credit card receivables is expected to continue throughout 2026 and to outpace growth in our private label credit receivables as we continue to expand our marketing efforts. We currently expect our private label credit receivable balance to increase modestly in 2026 as volumes of receivables acquisitions, for which we have limited loss exposure due to agreements with retail partners, are expected to slow. Additionally, as part of our acquisition of … [S68]
 
 ## Financial performance
 
@@ -390,6 +445,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L2220:
+
+> Our preferred stock consists of 7.625% Series B Cumulative Perpetual Preferred Stock (the "Series B preferred stock"), liquidation preference of $25.00 per share. We pay cumulative cash dividends on the Series B Preferred Stock, when and as declared by our Board of Directors, in the amount of $1.90625 per share each year, which is equivalent to 7.625% of the $25.00 liquidation preference per share. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -402,6 +461,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3115:
+
+> This Management’s Discussion and Analysis of Financial Condition and Results of Operations includes forward-looking statements. We base these forward-looking statements on our current plans, expectations and beliefs about future events. There are risks, including the factors discussed in "Risk Factors" in Part II, Item 1A and elsewhere in this Report, that our actual experience will differ materially from these expectations. For more information, see "Cautionary Notice Regarding Forward-Looking Statements" below. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -411,25 +474,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -475,6 +538,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S65] [10-K 0001437749-26-007972](https://www.sec.gov/Archives/edgar/data/1464343/000143774926007972/0001437749-26-007972-index.html) — published 2026-03-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/8c5afb0854b43beae818b88ec42b173c9411d269/brain/companies/ATLC/README.md).
+[S67] [8-K 0001437749-26-032179](https://www.sec.gov/Archives/edgar/data/1464343/000143774926032179/atlc20261006_8k.htm) — published 2026-10-06; retrieved 2026-11-16T22:48:53.107530+00:00.
+
+[S68] [10-Q 0001437749-26-026279](https://www.sec.gov/Archives/edgar/data/1464343/000143774926026279/atlc20260630_10q.htm) — published 2026-08-06; retrieved 2026-11-16T22:48:51.223497+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ATLC/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
