@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -382,6 +382,18 @@ sources:
   published_at: '2026-08-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/2058707/000119312526380215/atto-20260902.htm
+  title: 8-K 0001193125-26-380215
+  published_at: '2026-09-02'
+  retrieved_at: '2026-11-16T22:58:14.066926+00:00'
+  sha256: 5d88f8f69075e441a33fb33baf3460f131fb31911cec1a109de0ad7bf6898476
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/2058707/000119312526380228/atto-20260630.htm
+  title: 10-Q 0001193125-26-380228
+  published_at: '2026-09-02'
+  retrieved_at: '2026-11-16T22:58:15.943332+00:00'
+  sha256: d10fe1d2d53edfcbbdb392222513d7686582bb5e0f502719078b47953cb2f1e1
 issuer_classification:
   cik: 0002058707
   classification_status: reported_sic
@@ -410,13 +422,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2058707/000119312526380215/0001193125-26-380215-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: ce84c7315ce75ffe52c1d2a7129ac2dd49c62cf5941bdf03c29fd9e5d6bc316e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -440,13 +462,25 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-02, L246:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended, and Section 27A of the Securities Act of 1933, as amended. In some cases, you can identify forward-looking statements by terms such as “believe,” “may,” “will,” “potentially,” “estimate,” “continue,” “anticipate,” “intend,” “could,” “would,” “project,” “plan,” “expect” and similar expressions that convey uncertainty of future events or outcomes, although not all forward-looking statements contain these words. These forward-looking statements are subject to a number of risks, uncertainties and assumptions, including those described in the section titled “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a competitive and rapidly changing environment, and new risks emerge from time to time. It is not possible for our management to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks, uncertainties and assumptions, the forward-looking events and circumstances discussed in this Quarterly Report on Form 10-Q may not occur and actual results could differ materially … [S56]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 
+Source excerpt — 10-Q, filed 2026-09-02, L3334:
+
+> Operating segments are defined as components of an entity for which separate financial information is available and regularly utilized by the Chief Operating Decision Maker (“CODM”) to assess the Company’s performance for capital and resource allocation decisions. The Company’s CODM is its Chief Executive Officer, who reviews such financial information on an aggregate company-level basis (see Note 14). The Company has determined it operates as a single operating segment and has one reportable segment, which is the research and development of therapeutic products in the fields of immune-mediated diseases. Revenue is generated exclusively from transactions with a party located in the United States of America. All long-lived assets are maintained in the United States. [S56]
+
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
+
+Source excerpt — 10-Q, filed 2026-09-02, L317:
+
+> If we are unable to obtain and maintain patent protection or other necessary rights for any of our current or future product candidates and technology, or if the scope of the patent protection obtained is not sufficiently broad or our rights under our patents are not sufficiently broad, our competitors could develop and commercialize products and technology similar or identical to ours, and our ability to successfully commercialize our products and technology may be adversely affected. [S56]
 
 ## Customers and end markets
 
@@ -458,17 +492,33 @@ SEC-reported SIC **2836**: Biological Products, (No Diagnostic Substances). [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-02, L277:
+
+> general global macroeconomic, industry and market conditions in either domestic or international markets, as well as economic conditions specifically affecting industries in which we operate, including but not limited to, actual or perceived instability in the global banking industry, potential uncertainty with respect to the U.S. federal debt ceiling and budget and potential government shutdowns related thereto, labor shortages, supply chain disruptions, potential recession, inflation and changing interest rates; [S56]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-09-02, L313:
+
+> We face substantial competition, which may result in others discovering, developing or commercializing products before or more successfully than we do. [S56]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-09-02, L269:
+
+> our ability to operate our business without infringing, misappropriating or otherwise violating the intellectual property rights and proprietary technology of third parties; [S56]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-02, L309:
+
+> We expect to expand our development, clinical and regulatory capabilities and operations as we grow, and as a result, we may encounter difficulties in managing our growth, which could disrupt our operations. [S56]
 
 ## Financial performance
 
@@ -524,6 +574,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-09-02, L3327:
+
+> On July 22, 2026, the board of directors approved, and on July 29, 2026, the Company effected, a reverse stock split of the shares of the Company’s outstanding common stock at a ratio of 1-for-9.29 (the “Reverse Stock Split”). The number of authorized shares and par value per share were not adjusted as a result of the Reverse Stock Split. All references to shares, options to purchase common stock, share amounts, per share amounts, and related information contained in the condensed consolidated financial statements have been retrospectively adjusted to reflect the effect of the Reverse Stock Split for all periods presented. The shares of common stock underlying outstanding stock options and other equity instruments were proportionately reduced and the respective exercise prices, if applicable, were proportionately increased in accordance with the terms of the agreements governing such securities. In addition, the conversion ratios for each series of the Company’s redeemable convertible preferred stock, which automatically converted into shares of common stock upon the closing of the Company’s IPO of common stock, were proportionally adjusted. No fractional shares were issued in connection with the Reverse Stock Split. [S56]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -536,6 +590,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-02, L246:
+
+> This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended, and Section 27A of the Securities Act of 1933, as amended. In some cases, you can identify forward-looking statements by terms such as “believe,” “may,” “will,” “potentially,” “estimate,” “continue,” “anticipate,” “intend,” “could,” “would,” “project,” “plan,” “expect” and similar expressions that convey uncertainty of future events or outcomes, although not all forward-looking statements contain these words. These forward-looking statements are subject to a number of risks, uncertainties and assumptions, including those described in the section titled “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q. Moreover, we operate in a competitive and rapidly changing environment, and new risks emerge from time to time. It is not possible for our management to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. In light of these risks, uncertainties and assumptions, the forward-looking events and circumstances discussed in this Quarterly Report on Form 10-Q may not occur and actual results could differ materially … [S56]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -545,25 +603,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: No annual period is available for comparison.
 
@@ -627,6 +685,10 @@ Latest 50 filing metadata records of 56 retained records. A filing link is evide
 | 2026-08-04 | 3 | 0001104659-26-090604 | — | [S52] |
 | 2026-08-04 | 3 | 0000905148-26-003465 | — | [S53] |
 | 2026-08-04 | 3 | 0000886982-26-000301 | — | [S54] |
+
+Source excerpt — 10-Q, filed 2026-09-02, L5718:
+
+> Milestone payments are contingent consideration and are accrued when it becomes probable that the underlying milestone will be achieved. We recorded $0.3 million as research and development expenses in our consolidated statements of operations during the year ended December 31, 2025, related to the achievement of a development milestone for ATTO-3712, a prior product candidate that ATTO-2306 is designed to improve upon. The remaining milestones were considered not probable to be achieved as of June 30, 2026 and December 31, 2025. Royalties will be recognized as cost of sales when products are sold and royalties are payable. [S56]
 
 ## Sources and change log
 
@@ -737,5 +799,9 @@ Latest 50 filing metadata records of 56 retained records. A filing link is evide
 [S53] [3 0000905148-26-003465](https://www.sec.gov/Archives/edgar/data/2058707/000090514826003465/0000905148-26-003465-index.html) — published 2026-08-04; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S54] [3 0000886982-26-000301](https://www.sec.gov/Archives/edgar/data/2058707/000088698226000301/0000886982-26-000301-index.html) — published 2026-08-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S55] [8-K 0001193125-26-380215](https://www.sec.gov/Archives/edgar/data/2058707/000119312526380215/atto-20260902.htm) — published 2026-09-02; retrieved 2026-11-16T22:58:14.066926+00:00.
+
+[S56] [10-Q 0001193125-26-380228](https://www.sec.gov/Archives/edgar/data/2058707/000119312526380228/atto-20260630.htm) — published 2026-09-02; retrieved 2026-11-16T22:58:15.943332+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

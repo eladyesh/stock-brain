@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -481,6 +481,42 @@ sources:
   published_at: '2026-06-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449226000053/atex-20260916.htm
+  title: 8-K 0001304492-26-000053
+  published_at: '2026-09-18'
+  retrieved_at: '2026-11-16T22:45:50.657761+00:00'
+  sha256: d6f02eac658e9e5afcfc178a68280ee26f857cc87de13c7c10a234a4d6f863d8
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449226000046/atex-20260630.htm
+  title: 10-Q 0001304492-26-000046
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-16T22:45:48.678215+00:00'
+  sha256: 739bf31d00b49917b35a172a2a7cf4c1c3ce88ea6913e728916ee0bade3c9fba
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449226000027/atex-20260331.htm
+  title: 10-K 0001304492-26-000027
+  published_at: '2026-06-25'
+  retrieved_at: '2026-11-16T22:45:34.152776+00:00'
+  sha256: 974c06f33ff1be60297ee39845dfa21b9711979e0dacafc00f2875a5fbd0b65c
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449226000029/atex-20260625.htm
+  title: DEF 14A 0001304492-26-000029
+  published_at: '2026-06-25'
+  retrieved_at: '2026-11-16T22:45:36.300647+00:00'
+  sha256: ea51ebf1808ccc462d920fe61043e6b5ebaa6a62dea0a92c912eb0250ba77022
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449226000022/atex-20260421.htm
+  title: 8-K/A 0001304492-26-000022
+  published_at: '2026-04-21'
+  retrieved_at: '2026-11-16T22:45:32.433018+00:00'
+  sha256: 7d397f0e125e2e3d61fee85f97fcdbed5d8712b8a941be7a9924cb4bfc22e141
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1304492/000130449221000040/atex-20210810x8ka.htm
+  title: 8-K/A 0001304492-21-000040
+  published_at: '2021-08-12'
+  retrieved_at: '2026-11-16T22:45:30.586707+00:00'
+  sha256: 43549c75d2664a23852f04234d88b270871e6d26a47ef871b9813ebf6147c8d4
 issuer_classification:
   cik: 0001304492
   classification_status: reported_sic
@@ -526,13 +562,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1304492/000130449221000040/0001304492-21-000040-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: c040cd2d5a454dcca954dbb7332a5d49b687b921c3f0b7c1d6ca36fa7af6616b
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -556,9 +602,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-11, L164:
+
+> •our ability to successfully commercialize our spectrum assets to our targeted utility and critical infrastructure customers on a timely basis, and on commercially favorable terms, including our ability to monetize our spectrum on financial terms consistent with our business plan and assumptions; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-11, L572:
+
+> The Company operates as a single operating and reportable segment. The Company’s chief operating decision maker (“CODM”) is its President and Chief Executive Officer, who manages the business on a consolidated basis. All of the Company’s identifiable assets are located in the United States. The Company did not generate any revenue from sources outside of the United States. Accounting Standards Codification, Segment Reporting (“ASC 280”) defines operating segments as components of an enterprise for which separate financial information is available that is regularly evaluated by the Company’s CODM in deciding how to allocate resources and assess performance. [S68]
 
 ## Products and services
 
@@ -568,23 +622,43 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-Q, filed 2026-08-11, L165:
+
+> •our ability to satisfy our obligations, including the delivery of cleared spectrum and broadband licenses, and the other contingencies required by our commercial agreements with our customers on a timely basis and on commercially reasonable terms; [S68]
+
 ## Industry and value chain
 
 SEC-reported SIC **4813**: Telephone Communications (No Radiotelephone). [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-06-25, L610:
+
+> Our ability to successfully commercialize our spectrum assets will also depend on the continued commercial availability of technology, products and solutions that can both utilize the broadband licenses we secure and satisfy our customers’ demands. Our spectrum assets are located within the 3GPP global standard of Band 8 (also known as the E-GSM band, or 880 - 915 MHz paired with 925 - 960 MHz). Band 8 is currently being utilized in LTE and 5G networks, with a specific designation for the US under Band 106 and n106. However, chipmakers and other technology, product and solution manufacturers and vendors may not continue to develop the technology, products and solutions required to satisfy our customers’ various use cases and meet the technical specifications established in the Report and Order. Further, adverse economic conditions, including as a result of inflation, trade restrictions and tariffs, regulatory actions and policy changes, wars and other geopolitical matters, may result in supply chain issues which limit our customer’s ability to obtain the necessary technology and products to deploy an LTE or 5G wireless broadband network utilizing our spectrum. If such technologies, products and solutions are not available, not competitively priced or are significantly delayed, our targeted customers may decide not to pursue 900 MHz broadband licenses with us on acceptable … [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-06-25, L272:
+
+> •we may not be successful in competing against other spectrum holders who offer spectrum to our target customers, including the buyer of T-Mobile’s 800 MHz spectrum. In addition, many of the third parties who offer spectrum and communication technologies, products, services and solutions to our targeted customers have existing long-term relationships with these targeted customers and have significantly more resources and greater political and regulatory influence than we do, and we may not be able to successfully compete with these third parties; [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-06-25, L554:
+
+> We rely on a combination of patent, copyright, trademark and trade-secret laws, as well as confidentiality provisions in our contracts, to protect our intellectual property. We have several trademarks and service marks to protect our current and future corporate name, services offerings, goodwill and brand. There are currently no claims or litigation regarding these trademarks, patents, copyrights, or service marks. We also rely on trade secret protection of our intellectual property. We enter into confidentiality agreements with third parties, employees and consultants when appropriate. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-11, L803:
+
+> During fiscal 2026, we evolved our business strategy. Building on our foundational 900 MHz spectrum position, we transitioned from a model focused predominantly on long-term spectrum leasing to a broader operating model. In the ordinary course of business, we now secure and expand our spectrum position, clear and retune spectrum, monetize spectrum through both sales and long-term leases, and develop a growing portfolio of products and services offerings around our spectrum that are designed to generate recurring revenue. Together, these activities form the foundation of how we generate revenue today and how we expect to generate revenue over time. [S68]
 
 ## Financial performance
 
@@ -1199,6 +1273,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-09-18, L41:
+
+> On September 16, 2026, the Board of Directors of Anterix Inc. (the “Company”) authorized a share repurchase program (the “Share Repurchase Program”) to be effective starting September 22, 2026 following the expiration of the Company’s previous share repurchase program on September 21, 2026. Pursuant to the Share Repurchase Program, the Company may repurchase up to $250,000,000 of the Company’s common stock, $0.0001 par value per share (“Common Stock”), on or before September 22, 2029. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1211,6 +1289,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-11, L163:
+
+> This Quarterly Report on Form 10-Q (the “Quarterly Report”) includes statements of our expectations, intentions, plans, projections, guidance and beliefs that constitute “forward-looking statements.” These forward-looking statements are principally, but not solely, contained in the section captioned “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” These statements include, but are not limited to, statements about our strategies, plans, objectives, expectations, projections, guidance, intentions, expenditures and assumptions and other statements contained herein that are not historical facts. Our forward-looking statements are generally, but not always, accompanied by words such as, but not limited to, “aim,” “anticipate,” “believe,” “can,” “continue,” “could,” “estimate,” “expect,” “goal,” “intend,” “may,” “might,” “ongoing,” “plan,” “possible,” “potential,” “predict,” “project,” “seek,” “should,” “strategy,” “target,” “will,” “would” and similar expressions or phrases, or the negative of those expressions or phrases, or other words that convey the uncertainty of future events or outcomes, which are intended to identify forward-looking statements, although not all forward-looking statements contain these words. We have based these forward-looking statements on our current expectations, guidance and projections and related assumptions … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1220,25 +1302,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1302,6 +1384,10 @@ Latest 50 filing metadata records of 924 retained records. A filing link is evid
 | 2026-06-17 | 4 | 0002036507-26-000004 | — | [S64] |
 | 2026-06-17 | 144 | 0001950047-26-006246 | — | [S65] |
 | 2026-06-17 | 4 | 0001828490-26-000008 | — | [S66] |
+
+Source excerpt — 10-K, filed 2026-06-25, L1006:
+
+> We are obligated under certain lease agreements for office space with lease terms expiring on various dates from June 30, 2027 through January 31, 2029, which includes a three to ten-year lease extension for our corporate offices. We have also entered into multiple lease agreements for tower space related to our spectrum holdings. These lease expiration dates range from April 8, 2026 to February 28, 2033. Total estimated payments for these lease agreements are approximately $5.1 million (exclusive of real estate taxes, utilities, maintenance and other costs borne by us). We also had an obligation to clear the tower site locations, for which we previously recorded an asset retirement obligation (the “ARO”). During the year ended March 31, 2026, we cleared its tower site locations that were associated with its ARO balances and as a result, we no longer have an ARO [S69]
 
 ## Sources and change log
 
@@ -1436,5 +1522,17 @@ Latest 50 filing metadata records of 924 retained records. A filing link is evid
 [S65] [144 0001950047-26-006246](https://www.sec.gov/Archives/edgar/data/1304492/000195004726006246/0001950047-26-006246-index.html) — published 2026-06-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001828490-26-000008](https://www.sec.gov/Archives/edgar/data/1304492/000182849026000008/0001828490-26-000008-index.html) — published 2026-06-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001304492-26-000053](https://www.sec.gov/Archives/edgar/data/1304492/000130449226000053/atex-20260916.htm) — published 2026-09-18; retrieved 2026-11-16T22:45:50.657761+00:00.
+
+[S68] [10-Q 0001304492-26-000046](https://www.sec.gov/Archives/edgar/data/1304492/000130449226000046/atex-20260630.htm) — published 2026-08-11; retrieved 2026-11-16T22:45:48.678215+00:00.
+
+[S69] [10-K 0001304492-26-000027](https://www.sec.gov/Archives/edgar/data/1304492/000130449226000027/atex-20260331.htm) — published 2026-06-25; retrieved 2026-11-16T22:45:34.152776+00:00.
+
+[S70] [DEF 14A 0001304492-26-000029](https://www.sec.gov/Archives/edgar/data/1304492/000130449226000029/atex-20260625.htm) — published 2026-06-25; retrieved 2026-11-16T22:45:36.300647+00:00.
+
+[S71] [8-K/A 0001304492-26-000022](https://www.sec.gov/Archives/edgar/data/1304492/000130449226000022/atex-20260421.htm) — published 2026-04-21; retrieved 2026-11-16T22:45:32.433018+00:00.
+
+[S72] [8-K/A 0001304492-21-000040](https://www.sec.gov/Archives/edgar/data/1304492/000130449221000040/atex-20210810x8ka.htm) — published 2021-08-12; retrieved 2026-11-16T22:45:30.586707+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

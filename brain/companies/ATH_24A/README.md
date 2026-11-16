@@ -15,7 +15,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -487,6 +487,48 @@ sources:
   published_at: '2025-07-02'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746926000073/ahl-20261005.htm
+  title: 8-K 0001527469-26-000073
+  published_at: '2026-10-05'
+  retrieved_at: '2026-11-16T22:47:11.902205+00:00'
+  sha256: 1de9883dcabfd4af31f921269676f8dae17506dbfd8b4733a0729b025b50e604
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/ahl-20260630.htm
+  title: 10-Q 0001527469-26-000056
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-16T22:47:09.667464+00:00'
+  sha256: 783925af746e02aac64d6129dfabdfc818e44041dfd7dc655fbf4df281d15c15
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746926000013/ahl-20251231.htm
+  title: 10-K 0001527469-26-000013
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-16T22:46:55.242607+00:00'
+  sha256: 8894a6490362f2b12563b99aca02114f4b1668c6293ef7cf2f295a38f54d3154
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746924000097/ahl-20241114.htm
+  title: 8-K/A 0001527469-24-000097
+  published_at: '2024-11-15'
+  retrieved_at: '2026-11-16T22:46:53.038863+00:00'
+  sha256: b5f5e33469dd7242dc9337a829b8dd2f77edc3bd73464d00d3fa951b70d16606
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746924000043/ahl-20240509.htm
+  title: 8-K/A 0001527469-24-000043
+  published_at: '2024-05-09'
+  retrieved_at: '2026-11-16T22:46:42.375946+00:00'
+  sha256: 64546c844dde935344283cf99110f50c09c566e49cbfd3e3d190a78756e0f32b
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746922000014/ahl-20220107.htm
+  title: 8-K/A 0001527469-22-000014
+  published_at: '2022-02-18'
+  retrieved_at: '2026-11-16T22:46:40.614526+00:00'
+  sha256: d00ee8eb3636805a696c30613456cfafe2a7d291661d219acbd4219c9fc1416a
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1527469/000152746921000052/a2021proxy.htm
+  title: DEF 14A 0001527469-21-000052
+  published_at: '2021-07-22'
+  retrieved_at: '2026-11-16T22:46:18.755045+00:00'
+  sha256: 6491f39721fbe08f1d8c71bf8b5f64d01168e31d5d8cc6351ebd76c285c8ead5
 issuer_classification:
   cik: 0001527469
   classification_status: reported_sic
@@ -545,13 +587,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1527469/000152746922000014/0001527469-22-000014-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7e01d9d65fac918e9acd4cab6106b1e0318de6d02bb6352a179f7dd6eccf486a
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -578,17 +631,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-10, L137:
+
+> Certain statements in this report are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended (Securities Act), and Section 21E of the Securities Exchange Act of 1934, as amended (Exchange Act). You can identify forward-looking statements by the fact that they do not relate strictly to historical or current facts. These statements may include words such as “anticipate,” “estimate,” “expect,” “project,” “plan,” “intend,” “seek,” “assume,” “believe,” “may,” “will,” “should,” “could,” “would,” “likely” and other words and terms of similar meaning, including the negative of these or similar words and terms, in connection with any discussion of the timing or nature of future operating or financial performance or other events. However, not all forward-looking statements contain these identifying words. Forward-looking statements appear in a number of places throughout and give our current expectations and projections relating to our business, financial condition, results of operations, plans, strategies, objectives, future performance and other matters. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-10, L2545:
+
+> Deferred costs related to universal life-type policies and investment contracts with significant revenue streams from sources other than investment of the policyholder funds, including traditional deferred annuities and indexed annuities, are amortized on a constant-level basis for a cohort of contracts using initial premium or deposit. Significant inputs and assumptions are required for determining the expected duration of the cohort and involves using accepted actuarial methods to determine decrement rates related to policyholder behavior for lapses, withdrawals (surrenders) and mortality. The assumptions used to determine the amortization of DAC and DSI are consistent with those used to estimate the related liability balance. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-10, L145:
+
+> •the impact of general economic conditions on our ability to sell our products and on the fair value of our investments; [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-25, L438:
+
+> •Expand Our Product Offering – We seek to build products that meet our policyholders’ retirement savings objectives, such as accumulation, income and legacy planning. Our products are customized for each of the retail channels through which we distribute, including independent marketing organizations (IMOs), banks, and independent broker dealers, and represent innovative solutions that meet the needs of policyholders in each of these channels. We continue to release updated or new products to meet the evolving needs of policyholders. Our diverse Fixed Indexed Annuity (FIA) product offerings are complemented by a number of innovative custom indices, which allow our customers to gain access to sophisticated strategies that are designed for better performance within our products. During 2025, approximately 55% of sales went to custom indices that are only available through our products. In 2025, Athene was recognized for its indexed annuity lineup by winning “Deal of the Year - FIA” for its Athene Protector product from Structured Retail Products and “Best Carrier” from Structured Product Intelligence. [S69]
 
 ## Industry and value chain
 
@@ -596,17 +665,33 @@ SEC-reported SIC **6311**: Life Insurance. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L3414:
+
+> intend to continue to grow organically by expanding each of our distribution channels. We believe that we have the right people, infrastructure, scale and capital discipline to position us for continued growth. [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-10, L144:
+
+> •the activities of our competitors and our ability to grow our retail business in a highly competitive environment; [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-25, L682:
+
+> Finally, we experience competition in the market for acquisition targets and profitable blocks of insurance. Such competition has intensified as insurance businesses become more attractive acquisition targets for both other insurance companies and financial institutions and as the already substantial consolidation in the financial services industry continues. We compete for potential acquisition and block reinsurance opportunities based on a number of factors including perceived financial strength, brand recognition, reputation and the pricing we are able to offer, which, to the extent we determine to finance a transaction, is in turn dependent on our ability to do so on suitable terms. We have demonstrated patience in only pursuing transactions that meet our internal risk and return objectives. With the backdrop of increasing competition, we believe our demonstrated ability to source and consummate large and complex transactions and our inroads in other adjacent markets, including the Japanese savings market, is a competitive advantage over other potential acquirers. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-10, L3416:
+
+> Within our flow reinsurance channel, we target reinsurance business consistent with our preferred liability characteristics, which provides us another channel to source liabilities with attractive crediting rates. We generated inflows through our flow reinsurance channel of $6.4 billion and $7.0 billion for the six months ended June 30, 2026 and 2025, respectively. The decrease in our flow reinsurance channel from record inflows in 2025 was primarily attributable to increased competitive dynamics within the Japanese market, partially offset by inflows from the establishment of a new APAC partnership in 2026. We continue to look to expand our presence in Asia with increased partnerships and growing product offerings. We expect that our credit profile and our reputation as a solutions provider will help us continue to source additional reinsurance partners, which will further diversify our flow reinsurance channel. [S68]
 
 ## Financial performance
 
@@ -1221,6 +1306,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L3211:
+
+> Governance – We have an investment and asset liability committee, which includes members of our senior management and reports to the risk committee of our board of directors. The committee focuses on strategic decisions involving our investment portfolio, such as approving investment limits, new asset classes and our allocation strategy, reviewing large asset transactions, as well as monitoring our credit risk, and the management of our assets and liabilities. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1233,6 +1322,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L138:
+
+> We caution you that forward-looking statements are not guarantees of future performance and that our actual consolidated financial condition, results of operations, liquidity, cash flows and performance may differ materially from that made in or suggested by the forward-looking statements contained in this report. A number of important factors could cause actual results or conditions to differ materially from those contained or implied by the forward-looking statements, including the risks discussed in Part II–Item 1A. Risk Factors included in this report and Part I–Item 1A. Risk Factors included in our Annual Report on Form 10-K for the year ended December 31, 2025 (2025 Annual Report). Factors that could cause actual results or conditions to differ from those reflected in the forward-looking statements contained in this report include: [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1242,25 +1335,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1324,6 +1417,10 @@ Latest 50 filing metadata records of 896 retained records. A filing link is evid
 | 2025-07-02 | 4 | 0000905148-25-002324 | — | [S64] |
 | 2025-07-02 | 4 | 0000905148-25-002323 | — | [S65] |
 | 2025-07-02 | 4 | 0000905148-25-002322 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-10, L3558:
+
+> Net investment income increased by $1.3 billion to $9.8 billion in 2026 from $8.4 billion in 2025, primarily driven by significant growth in our investment portfolio attributable to strong net flows during the previous twelve months and higher rates on new deployment in comparison to our existing portfolio related to the higher interest rate environment. These impacts were partially offset by lower floating rate income, higher investment management fees driven by the significant growth in our investment portfolio over the previous twelve months, later deployment into assets during the year compared to 2025 and run-off of higher-yielding assets. [S68]
 
 ## Sources and change log
 
@@ -1458,5 +1555,19 @@ Latest 50 filing metadata records of 896 retained records. A filing link is evid
 [S65] [4 0000905148-25-002323](https://www.sec.gov/Archives/edgar/data/1527469/000090514825002323/0000905148-25-002323-index.html) — published 2025-07-02; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0000905148-25-002322](https://www.sec.gov/Archives/edgar/data/1527469/000090514825002322/0000905148-25-002322-index.html) — published 2025-07-02; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001527469-26-000073](https://www.sec.gov/Archives/edgar/data/1527469/000152746926000073/ahl-20261005.htm) — published 2026-10-05; retrieved 2026-11-16T22:47:11.902205+00:00.
+
+[S68] [10-Q 0001527469-26-000056](https://www.sec.gov/Archives/edgar/data/1527469/000152746926000056/ahl-20260630.htm) — published 2026-08-10; retrieved 2026-11-16T22:47:09.667464+00:00.
+
+[S69] [10-K 0001527469-26-000013](https://www.sec.gov/Archives/edgar/data/1527469/000152746926000013/ahl-20251231.htm) — published 2026-02-25; retrieved 2026-11-16T22:46:55.242607+00:00.
+
+[S70] [8-K/A 0001527469-24-000097](https://www.sec.gov/Archives/edgar/data/1527469/000152746924000097/ahl-20241114.htm) — published 2024-11-15; retrieved 2026-11-16T22:46:53.038863+00:00.
+
+[S71] [8-K/A 0001527469-24-000043](https://www.sec.gov/Archives/edgar/data/1527469/000152746924000043/ahl-20240509.htm) — published 2024-05-09; retrieved 2026-11-16T22:46:42.375946+00:00.
+
+[S72] [8-K/A 0001527469-22-000014](https://www.sec.gov/Archives/edgar/data/1527469/000152746922000014/ahl-20220107.htm) — published 2022-02-18; retrieved 2026-11-16T22:46:40.614526+00:00.
+
+[S73] [DEF 14A 0001527469-21-000052](https://www.sec.gov/Archives/edgar/data/1527469/000152746921000052/a2021proxy.htm) — published 2021-07-22; retrieved 2026-11-16T22:46:18.755045+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

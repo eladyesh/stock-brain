@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -465,6 +465,48 @@ sources:
   published_at: '2026-03-05'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/8063/000000806326000043/atro-20260704.htm
+  title: 10-Q 0000008063-26-000043
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-16T22:58:11.637376+00:00'
+  sha256: 4aec8edef1df5c6a87bb9e5ca63f060545e9f41f274312d154d88466e3304951
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/8063/000000806326000037/atro-20260811.htm
+  title: 8-K 0000008063-26-000037
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-16T22:57:51.775921+00:00'
+  sha256: 1a795b93028bec471a0e4e12da2bd4ed09a9f33c3539ddd0a81f4086e37186d3
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/8063/000114036126015301/ny20063632x1_def14a.htm
+  title: DEF 14A 0001140361-26-015301
+  published_at: '2026-04-17'
+  retrieved_at: '2026-11-16T22:57:49.914381+00:00'
+  sha256: 7040b12c23bdfaca9cf328ded5301e1f710d10161963005eb2ec76ff92e2315a
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/8063/000000806326000021/atro-20251231.htm
+  title: 10-K 0000008063-26-000021
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-16T22:57:48.070994+00:00'
+  sha256: 2dff81fc49c38c7a87f786c05695bf5a76f3973291e09afe1d93d67e6176e14b
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/8063/000000806322000018/atro-20220506.htm
+  title: 8-K/A 0000008063-22-000018
+  published_at: '2022-05-06'
+  retrieved_at: '2026-11-16T22:57:46.476567+00:00'
+  sha256: 8fc1ddda999440bf17137838ac0baf600d055e50d4550e97e2268384be668af9
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/8063/000000806319000038/a8ka92019.htm
+  title: 8-K/A 0000008063-19-000038
+  published_at: '2019-09-20'
+  retrieved_at: '2026-11-16T22:57:26.441271+00:00'
+  sha256: 782ace39ed32aa2b7da1bcab8079fbcda1358ba3597f56f15f61708edd2953c9
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/8063/000119312514293826/d767624d8ka.htm
+  title: 8-K/A 0001193125-14-293826
+  published_at: '2014-08-05'
+  retrieved_at: '2026-11-16T22:56:42.708084+00:00'
+  sha256: e4361e42e04510a85a5c6c32e3ee1834403651c68d58b8021841d43a71c248e0
 issuer_classification:
   cik: 0000008063
   classification_status: reported_sic
@@ -514,13 +556,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/8063/000119312514293826/0001193125-14-293826-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 3b17b2407e7922dc36bb12346cbe0e99ce3b2a69f263537cf3e4f126801eeb06
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -544,17 +597,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1024:
+
+> We are monitoring the ongoing conflicts between Russia and Ukraine, conflicts in the Middle East, as well as other geopolitical tensions and conflicts around the world, and the potential impact of related export controls, financial and economic sanctions, and other restrictions imposed by the U.S., the U.K., the European Union, and other countries. While these conflict have not resulted in a direct material adverse impact on our business to date, the implications of global conflicts in the short-term and long-term are difficult to predict. Factors such as increased energy costs, disruptions in the availability of certain raw materials, restrictions on air travel or trade with affected regions, sanctions on companies or industries, shifts in customer stability, and broader impacts on the global economy and aviation sector could pose risks to our operations and financial performance. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L553:
+
+> The Company has two reportable segments, Aerospace and Test Systems. The Aerospace segment designs and manufactures products for the global aerospace and defense industry. Our Test Systems segment designs, develops, manufactures and maintains automated test systems that support the aerospace and defense, communications and mass transit industries. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-12, L551:
+
+> Astronics Corporation (“Astronics” or the “Company”) is a leading provider of advanced technologies to the global aerospace, defense, and electronics industries. Our products and services include advanced, high-performance inflight entertainment and connectivity products and services, lighting and safety systems, flight critical electrical power generation and distribution systems, seat motion systems and automated test systems. [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1015:
+
+> Important factors affecting our growth and profitability are the rate at which new aircraft are produced, government funding and timing of awards of military programs, our ability to have our products designed into new aircraft, the rates at which aircraft owners, including commercial airlines, refurbish or install upgrades to their aircraft and supply chain and labor market pressures. New aircraft build rates and aircraft owners’ spending on upgrades and refurbishments is cyclical and dependent on the strength of the global economy. Once one of our products is designed into a new aircraft, the spare parts business associated thereto is also frequently retained by the Company. Future growth and profitability of the Test Systems business is dependent on developing and procuring new and follow-on business. The nature of our Test Systems business is such that it pursues large, often multi-year, projects. There can be significant periods of time between orders in this business, which may result in large fluctuations of sales and profit levels and backlog from period to period. Test Systems segment customers include the USDOW, prime contractors to the USDOW, mass transit operators and prime contractors to mass transit operators. [S67]
 
 ## Industry and value chain
 
@@ -562,17 +631,33 @@ SEC-reported SIC **3728**: Aircraft Parts & Auxiliary Equipment, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L1015:
+
+> Important factors affecting our growth and profitability are the rate at which new aircraft are produced, government funding and timing of awards of military programs, our ability to have our products designed into new aircraft, the rates at which aircraft owners, including commercial airlines, refurbish or install upgrades to their aircraft and supply chain and labor market pressures. New aircraft build rates and aircraft owners’ spending on upgrades and refurbishments is cyclical and dependent on the strength of the global economy. Once one of our products is designed into a new aircraft, the spare parts business associated thereto is also frequently retained by the Company. Future growth and profitability of the Test Systems business is dependent on developing and procuring new and follow-on business. The nature of our Test Systems business is such that it pursues large, often multi-year, projects. There can be significant periods of time between orders in this business, which may result in large fluctuations of sales and profit levels and backlog from period to period. Test Systems segment customers include the USDOW, prime contractors to the USDOW, mass transit operators and prime contractors to mass transit operators. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-26, L178:
+
+> •our dependence on government contracts and subcontracts with defense prime contractors and subcontractors, and the possibility that these contracts may be terminated, not fully funded or awarded to our competitors; [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-26, L184:
+
+> •our ability to adequately enforce and protect our intellectual property and defend against assertions of infringement; [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L1014:
+
+> Our strategy is to increase our value by developing technologies and capabilities, either internally or through acquisition, and using those capabilities to provide innovative solutions to our targeted markets where our technology can be beneficial. [S67]
 
 ## Financial performance
 
@@ -1193,6 +1278,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L849:
+
+> The Company’s Board of Directors from time to time authorizes the repurchase of common stock, which allows the Company to purchase shares of its common stock in accordance with applicable securities laws on the open market or through privately negotiated transactions. The Company has the capacity under the currently authorized program to repurchase additional shares of its common stock with a maximum dollar value of $41.5 million. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1205,6 +1294,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L894:
+
+> Other than these proceedings, we are not party to any significant pending legal proceedings that management believes will result in a material adverse effect on our financial condition or results of operations. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1214,25 +1307,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1296,6 +1389,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-05 | 3 | 0001628280-26-015255 | — | [S64] |
 | 2026-03-05 | 4 | 0001628280-26-015227 | — | [S65] |
 | 2026-03-05 | 4 | 0001628280-26-015226 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-17, L1871:
+
+> The Board of Directors and its Committees meet regularly throughout the year and also hold special meetings and act by written consent from time to time as appropriate. All directors are expected to attend each meeting of the Board of Directors and the Committees on which such director serves, and are also invited, but not required, to attend the Annual Meeting. During the year ended December 31, 2025, the Board of Directors held four meetings. Each director attended at least 75% of the total aggregate number of meetings of the Board of Directors and the Board Committees on which such director served in 2025. Only Mr. Gundermann attended the Annual Meeting in 2025. [S69]
 
 ## Sources and change log
 
@@ -1430,5 +1527,19 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001628280-26-015227](https://www.sec.gov/Archives/edgar/data/8063/000162828026015227/0001628280-26-015227-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001628280-26-015226](https://www.sec.gov/Archives/edgar/data/8063/000162828026015226/0001628280-26-015226-index.html) — published 2026-03-05; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [10-Q 0000008063-26-000043](https://www.sec.gov/Archives/edgar/data/8063/000000806326000043/atro-20260704.htm) — published 2026-08-12; retrieved 2026-11-16T22:58:11.637376+00:00.
+
+[S68] [8-K 0000008063-26-000037](https://www.sec.gov/Archives/edgar/data/8063/000000806326000037/atro-20260811.htm) — published 2026-08-11; retrieved 2026-11-16T22:57:51.775921+00:00.
+
+[S69] [DEF 14A 0001140361-26-015301](https://www.sec.gov/Archives/edgar/data/8063/000114036126015301/ny20063632x1_def14a.htm) — published 2026-04-17; retrieved 2026-11-16T22:57:49.914381+00:00.
+
+[S70] [10-K 0000008063-26-000021](https://www.sec.gov/Archives/edgar/data/8063/000000806326000021/atro-20251231.htm) — published 2026-02-26; retrieved 2026-11-16T22:57:48.070994+00:00.
+
+[S71] [8-K/A 0000008063-22-000018](https://www.sec.gov/Archives/edgar/data/8063/000000806322000018/atro-20220506.htm) — published 2022-05-06; retrieved 2026-11-16T22:57:46.476567+00:00.
+
+[S72] [8-K/A 0000008063-19-000038](https://www.sec.gov/Archives/edgar/data/8063/000000806319000038/a8ka92019.htm) — published 2019-09-20; retrieved 2026-11-16T22:57:26.441271+00:00.
+
+[S73] [8-K/A 0001193125-14-293826](https://www.sec.gov/Archives/edgar/data/8063/000119312514293826/d767624d8ka.htm) — published 2014-08-05; retrieved 2026-11-16T22:56:42.708084+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

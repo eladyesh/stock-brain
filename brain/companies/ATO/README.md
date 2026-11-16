@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -475,6 +475,30 @@ sources:
   published_at: '2026-03-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/731802/000119312526419084/d174816d8k.htm
+  title: 8-K 0001193125-26-419084
+  published_at: '2026-10-09'
+  retrieved_at: '2026-11-16T22:53:06.460236+00:00'
+  sha256: a308bb51a1fc788d42d048405d1e5130d4fe34e63a03be369cda9c1d5c9736d8
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/731802/000073180226000102/ato-20260630.htm
+  title: 10-Q 0000731802-26-000102
+  published_at: '2026-08-05'
+  retrieved_at: '2026-11-16T22:53:04.747726+00:00'
+  sha256: d8fb738adab1ec8ba5b5992d185e1dd83ca5369b9cebb800cbfc99a7389bbc0d
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/731802/000073180225000076/ato-20251218.htm
+  title: DEF 14A 0000731802-25-000076
+  published_at: '2025-12-19'
+  retrieved_at: '2026-11-16T22:53:03.026089+00:00'
+  sha256: e3269c9c756890ef06034407293d631d2770ef416712796fe91c83c8abb4656d
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/731802/000073180225000056/ato-20250930.htm
+  title: 10-K 0000731802-25-000056
+  published_at: '2025-11-14'
+  retrieved_at: '2026-11-16T22:53:01.089843+00:00'
+  sha256: 2c48e2090815161a396a1a1ef870c34a48c418bd0088a3f823a336b1de88f821
 issuer_classification:
   cik: 0000731802
   classification_status: reported_sic
@@ -512,13 +536,23 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/731802/000119312526419084/0001193125-26-419084-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 0ff2cb18080ada7abfaf564a2d180d5b555dd0ff80e1032de4e20cdb428f433e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -542,17 +576,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-05, L767:
+
+> These credit facilities and our public indentures contain usual and customary covenants for our business, including covenants substantially limiting liens, substantial asset sales, and mergers. Additionally, our public debt indentures relating to our senior notes and debentures, as well as certain of our revolving credit agreements, each contain a default provision that is triggered if outstanding indebtedness arising out of any other credit agreements in amounts ranging from in excess of $15 million to in excess of $100 million becomes due by acceleration or if not paid at maturity. We were in compliance with all of our debt covenants as of June 30, 2026. If we were unable to comply with our debt covenants, we would likely be required to repay our outstanding balances on demand, provide additional collateral or take other corrective actions. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2025-11-14, L1722:
+
+> In November 2023, the Financial Accounting Standards Board (FASB) issued guidance which provides updates to qualitative and quantitative reportable segment disclosure requirements, including enhanced disclosures about significant segment expenses and increased interim disclosure requirements, among others. We adopted this amendment as of September 30, 2025 and applied it retrospectively for all periods presented. See Note 4 for further discussion. [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1595:
+
+> Our internally generated funds may change in the future due to a number of factors, some of which we cannot control. These factors include regulatory changes, the price for our services, demand for such products and services, margin requirements resulting from significant changes in commodity prices, operational risks, and other factors. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-05, L626:
+
+> Accounts receivable arise from natural gas sales to residential, commercial, industrial, public authority, and other customers. Our accounts receivable balance includes unbilled amounts which represent a customer’s consumption of gas from the date of the last cycle billing through the last day of the month. Our policy related to the accounting for our accounts receivable and allowance for uncollectible accounts is fully described in Note 2 to the consolidated financial statements in our Annual Report on Form 10-K for the fiscal year ended September 30, 2025. During the nine months ended June 30, 2026, there were no material changes to this policy. Rollforwards of our allowance for uncollectible accounts for the three and nine months ended June 30, 2026 and 2025 are presented in the table below. The allowance excludes the gas cost portion of customers’ bills for approximately 89 percent of our customers as we have the ability to collect these gas costs through our gas cost recovery mechanisms in most of our jurisdictions. [S69]
 
 ## Industry and value chain
 
@@ -560,9 +610,17 @@ SEC-reported SIC **4924**: Natural Gas Distribution. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2025-11-14, L248:
+
+> Supply arrangements consist of both base load and peaking quantities and are contracted from our suppliers on a firm basis with various terms at market prices. Base load quantities are those that flow at a constant level throughout the month and peaking quantities provide the flexibility to change daily quantities to match increases or decreases in requirements related to weather conditions. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1219:
+
+> The statements contained in this Quarterly Report on Form 10-Q may contain “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. All statements other than statements of historical fact included in this Report are forward-looking statements made in good faith by us and are intended to qualify for the safe harbor from liability established by the Private Securities Litigation Reform Act of 1995. When used in this Report, or any other of our documents or oral presentations, the words “anticipate”, “believe”, “estimate”, “expect”, “forecast”, “goal”, “intend”, “objective”, “plan”, “projection”, “seek”, “strategy”, or similar words are intended to identify forward-looking statements. Such forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially from those expressed or implied in the statements relating to our strategy, operations, markets, services, rates, recovery of costs, availability of gas supply, and other factors. These risks and uncertainties include the following: federal, state, and local regulatory and political trends and decisions, including the impact of rate proceedings before various state regulatory commissions; increased federal regulatory oversight and potential penalties; possible increased federal, state, … [S69]
 
 ## Moat and differentiation
 
@@ -571,6 +629,10 @@ Not available: substantive research has not been completed. Separate evidence fr
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-05, L1219:
+
+> The statements contained in this Quarterly Report on Form 10-Q may contain “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934. All statements other than statements of historical fact included in this Report are forward-looking statements made in good faith by us and are intended to qualify for the safe harbor from liability established by the Private Securities Litigation Reform Act of 1995. When used in this Report, or any other of our documents or oral presentations, the words “anticipate”, “believe”, “estimate”, “expect”, “forecast”, “goal”, “intend”, “objective”, “plan”, “projection”, “seek”, “strategy”, or similar words are intended to identify forward-looking statements. Such forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially from those expressed or implied in the statements relating to our strategy, operations, markets, services, rates, recovery of costs, availability of gas supply, and other factors. These risks and uncertainties include the following: federal, state, and local regulatory and political trends and decisions, including the impact of rate proceedings before various state regulatory commissions; increased federal regulatory oversight and potential penalties; possible increased federal, state, … [S69]
 
 ## Financial performance
 
@@ -1194,6 +1256,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1233:
+
+> Our critical accounting policies are reviewed periodically by the Audit Committee of our Board of Directors. There were no significant changes to these critical accounting policies during the nine months ended June 30, 2026. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1206,6 +1272,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-05, L1008:
+
+> In the normal course of business, we are subject to various legal and regulatory proceedings. For such matters, we record liabilities when they are considered probable and estimable, based on currently available facts, our historical experience and our estimates of the ultimate outcome or resolution of the liability in the future. While the outcome of these proceedings is uncertain and a loss in excess of the amount we have accrued is possible though not reasonably estimable, it is the opinion of management that any amounts exceeding the accruals will not have a material adverse impact on our financial position, results of operations or cash flows. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1215,25 +1285,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 - **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1297,6 +1367,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-10 | 4 | 0000731802-26-000051 | — | [S65] |
 | 2026-03-10 | 4 | 0000731802-26-000049 | — | [S66] |
 | 2026-03-10 | 4 | 0000731802-26-000047 | — | [S67] |
+
+Source excerpt — 10-K, filed 2025-11-14, L903:
+
+> During the year ended September 30, 2025, we implemented ratemaking regulatory actions which resulted in an increase in annual operating income of $333.6 million. Excluding the impact of the refund of excess deferred income taxes resulting from previously enacted tax reform legislation, our total fiscal 2025 rate outcomes were $322.8 million. Additionally, we had ratemaking efforts in progress at September 30, 2025, seeking a total increase in annual operating income of $231.1 million. [S71]
 
 ## Sources and change log
 
@@ -1433,5 +1507,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0000731802-26-000049](https://www.sec.gov/Archives/edgar/data/731802/000073180226000049/0000731802-26-000049-index.html) — published 2026-03-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0000731802-26-000047](https://www.sec.gov/Archives/edgar/data/731802/000073180226000047/0000731802-26-000047-index.html) — published 2026-03-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-419084](https://www.sec.gov/Archives/edgar/data/731802/000119312526419084/d174816d8k.htm) — published 2026-10-09; retrieved 2026-11-16T22:53:06.460236+00:00.
+
+[S69] [10-Q 0000731802-26-000102](https://www.sec.gov/Archives/edgar/data/731802/000073180226000102/ato-20260630.htm) — published 2026-08-05; retrieved 2026-11-16T22:53:04.747726+00:00.
+
+[S70] [DEF 14A 0000731802-25-000076](https://www.sec.gov/Archives/edgar/data/731802/000073180225000076/ato-20251218.htm) — published 2025-12-19; retrieved 2026-11-16T22:53:03.026089+00:00.
+
+[S71] [10-K 0000731802-25-000056](https://www.sec.gov/Archives/edgar/data/731802/000073180225000056/ato-20250930.htm) — published 2025-11-14; retrieved 2026-11-16T22:53:01.089843+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

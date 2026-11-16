@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -458,6 +458,42 @@ sources:
   published_at: '2026-05-11'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000162828026053856/ati-20260806.htm
+  title: 8-K 0001628280-26-053856
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-16T22:47:35.492581+00:00'
+  sha256: d5830d2859f9d4540f3cc577c9ab5821361ba21e229ad501b57ccebb2213ca37
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000162828026054233/ati-20260628.htm
+  title: 10-Q 0001628280-26-054233
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-16T22:47:37.631613+00:00'
+  sha256: 04b1c00d7a3029baaa58e0499dbea03095b4ec05c2564d993a063cc30f82202c
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000119312526121340/d932857ddef14a.htm
+  title: DEF 14A 0001193125-26-121340
+  published_at: '2026-03-24'
+  retrieved_at: '2026-11-16T22:47:33.682226+00:00'
+  sha256: a3ffb159ba5739a5d3689c7be4022909b26c0ca85334f3c647395bf24dfff87b
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm
+  title: 10-K 0001628280-26-010140
+  published_at: '2026-02-20'
+  retrieved_at: '2026-11-16T22:47:31.069414+00:00'
+  sha256: e5ecb9c4e35437847f4f553ba04ea970f41ee7e9940ab03373d6e58e267238a5
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000119312522262984/d382673d8ka.htm
+  title: 8-K/A 0001193125-22-262984
+  published_at: '2022-10-14'
+  retrieved_at: '2026-11-16T22:47:29.272261+00:00'
+  sha256: 8dab7c3915e0f30dc5db57ded1a8422c5da76b7a561962d61802b1e4310851dd
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1018963/000119312515197066/d931964d8ka.htm
+  title: 8-K/A 0001193125-15-197066
+  published_at: '2015-05-21'
+  retrieved_at: '2026-11-16T22:47:20.801325+00:00'
+  sha256: 727134e93f080fefbe4fd37ddb5d889828cb336b74c37bd32a2d01ca0132f538
 issuer_classification:
   cik: 0001018963
   classification_status: reported_sic
@@ -503,13 +539,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1018963/000119312515197066/0001193125-15-197066-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 066d47d7d5b78ca802ccc40471a2009fdb956444d7ba64984b61ac3e6d0af11c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -533,17 +580,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1035:
+
+> We operate in two business segments: High Performance Materials & Components (HPMC) and Advanced Alloys & Solutions (AA&S). HPMC produces a wide range of high performance materials, components, and advanced metallic powder alloys. These products are made from nickel-based alloys and superalloys, titanium and titanium-based alloys, and a variety of other specialty materials. HPMC’s capabilities range from cast/wrought and powder alloy development to production of highly engineered finished components, and 3D-printed aerospace products. The HPMC segment’s primary focus is on maximizing jet engine materials and components growth, with approximately 93% of its revenue derived from the aerospace & defense markets, including approximately 71% from products for commercial jet engines. [S67]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L801:
+
+> (2) Other segment items for each reportable segment include: cost of sales, general and administrative expenses, and gain/loss on asset sales. General & administrative expenses consist of non-manufacturing payroll and benefits, office expenses, professional service and legal expenses, occupancy expenses including rent and lease expense, and travel expense. [S67]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1396:
+
+> From time to time, we have made and may continue to make “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. Certain statements in this report relate to future events and expectations and, as such, constitute forward-looking statements. Forward-looking statements include those containing such words as “anticipates,” “believes,” “estimates,” “expects,” “would,” “should,” “will,” “will likely result,” “forecast,” “outlook,” “projects,” and similar expressions. Forward-looking statements are based on management’s current expectations and include known and unknown risks, uncertainties and other factors, many of which we are unable to predict or control, that may cause our actual results, performance or achievements to differ materially from those expressed or implied in the forward-looking statements. Important factors that could cause actual results to differ materially from those in the forward-looking statements include: (a) material adverse changes in economic or industry conditions generally, including global supply and demand conditions and prices for our specialty materials and changes in international trade duties and other aspects of international trade policy; (b) material adverse changes in the markets we serve; (c) our inability to achieve the level of cost savings, productivity improvements, synergies, growth or … [S67]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1034:
+
+> ATI produces specialty materials, highly differentiated by our materials science expertise and advanced process technologies. Aerospace & defense, our largest end markets, represented 69% of sales for the year-to-date period ended June 28, 2026, led by products for jet engines and airframes in addition to a wide range of defense applications. Additionally, we have a strong presence in the specialty energy market and serve customers in several other markets including conventional energy, medical, electronics and other industrial markets. [S67]
 
 ## Industry and value chain
 
@@ -551,17 +614,33 @@ SEC-reported SIC **3317**: Steel Pipe & Tubes. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L621:
+
+> The Company sometimes uses futures and swap contracts to manage exposure to changes in prices for forecasted purchases of raw materials, such as nickel, and natural gas. Under these contracts, which are generally accounted for as cash flow hedges, the price of the item being hedged is fixed at the time that the contract is entered into, and the Company is obligated to make or entitled to receive a payment equal to the net change between this fixed price and the market price at the date the contract matures. [S67]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-20, L277:
+
+> Risks Associated with the Commercial Aerospace Industry. A significant portion of our sales represent products sold to customers in the commercial aerospace industry. Fulfilling contractual arrangements to provide various products to customers in this industry often involves meeting highly exacting performance requirements and product specifications, and our failure to meet those requirements and specifications on a timely and cost-efficient basis could have a material adverse effect on our results of operations, business and financial condition. The commercial aerospace industry has historically been cyclical due to factors both external and internal to the airline industry. These factors include general economic conditions, airline profitability, consumer demand for air travel, varying fuel and labor costs, changes in projected build rates, price competition, and international and domestic political conditions such as military conflict and the threat of terrorism. The length and degree of cyclical fluctuation are influenced by these factors and therefore are difficult to predict with certainty. Demand for our products is subject to these cyclical trends. Cyclical and event-driven downturns in the commercial aerospace industry have had, and may in the future have, an adverse effect on the prices at which we are able to sell our products, and our results of operations, … [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-03-24, L167:
+
+> To meet demand responsibly, we are maintaining a return-focused approach to capital allocation. Beginning in 2024, we expanded titanium melt capacity, supported by customer commitments. We are now advancing disciplined growth plans in highly differentiated nickel melt capacity. Each investment is evaluated through a rigorous return framework designed to enhance competitive advantage while preserving balance sheet strength and financial flexibility. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L166:
+
+> Our evolution into a focused aerospace and defense leader continues to gain momentum. Aerospace and defense represented 68% of full-year sales in 2025, surpassing our prior 65% target. We participate in every major commercial airframe and engine program and continue to expand our presence across critical defense platforms. Demand for mission-critical materials remains robust, and our differentiated capabilities position ATI as a strategic supplier across long-cycle programs and next-generation technologies. [S68]
 
 ## Financial performance
 
@@ -1185,6 +1264,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L888:
+
+> Periodically, the Company’s Board of Directors authorizes the repurchase of ATI common stock (the Share Repurchase Program), most recently authorizing the repurchase of up to $700 million, as announced in September 2024, and an additional $500 million, as announced in February 2026. Repurchases under these programs are made in the open market or in privately negotiated transactions, with the amount and timing of repurchases depending on market conditions and corporate needs. Open market repurchases are structured to occur within the pricing and volume requirements of SEC Rule 10b-18. In the quarter and year-to-date periods ended June 28, 2026, ATI used $50.0 million and $125.0 million to repurchase 0.3 million shares and 0.8 million shares, respectively, of its common stock under the Share Repurchase Program. At June 28, 2026, the Company has utilized all of the $700 million in repurchase authority announced in September 2024, and $5 million of the $500 million in repurchase authority announced in February 2026. As of June 28, 2026, total share repurchase authorization remaining under the Company’s active Share Repurchase Program was $495 million. In the quarter and year-to-date period ended June 29, 2025, ATI used $250.0 million and $320.0 million to repurchase 3.2 million and 4.4 million, respectively, of its common stock under the Share Repurchase Program. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1197,6 +1280,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1020:
+
+> Environmental liabilities are recorded when the Company’s liability is probable and the costs are reasonably estimable. In many cases, however, the Company is not able to determine whether it is liable or, if liability is probable, to reasonably estimate the loss or range of loss. Estimates of the Company’s liability remain subject to additional uncertainties, including the nature and extent of site contamination, available remediation alternatives, the extent of corrective actions that may be required, and the number, participation, and financial condition of other potentially responsible parties (PRPs). The Company adjusts its accruals to reflect new information as appropriate. Future adjustments could have a material adverse effect on the Company’s consolidated results of operations in a given period, but the Company cannot reliably predict the amounts of such future adjustments. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1206,25 +1293,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1288,6 +1375,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-14 | SCHEDULE 13G/A | 0001422849-26-000060 | — | [S63] |
 | 2026-05-12 | 4 | 0001193125-26-220013 | — | [S64] |
 | 2026-05-11 | 144 | 0001959173-26-003455 | — | [S65] |
+
+Source excerpt — 10-Q, filed 2026-08-06, L531:
+
+> During the first quarter of 2025, the Company completed the sale of certain immaterial, non-core operations in Birmingham, UK and Dusseldorf, Germany, which were part of our European business in the HPMC Segment. A $3.7 million loss on sale of these operations is reported in gain/loss on asset sales and sales of businesses, net, on the consolidated statement of operations for the year-to-date period ended June 29, 2025, and is excluded from segment results. The Company received proceeds, net of transaction costs, of $5.0 million during fiscal year 2025. As of December 28, 2025, the Company expected to receive additional proceeds of $4.9 million, of which, $1.6 million was received during the year-to-date period ended June 28, 2026. These proceeds are reported as an investing activity on the consolidated statement of cash flows. [S67]
 
 ## Sources and change log
 
@@ -1420,5 +1511,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S64] [4 0001193125-26-220013](https://www.sec.gov/Archives/edgar/data/1018963/000119312526220013/0001193125-26-220013-index.html) — published 2026-05-12; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S65] [144 0001959173-26-003455](https://www.sec.gov/Archives/edgar/data/1018963/000195917326003455/0001959173-26-003455-index.html) — published 2026-05-11; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S66] [8-K 0001628280-26-053856](https://www.sec.gov/Archives/edgar/data/1018963/000162828026053856/ati-20260806.htm) — published 2026-08-06; retrieved 2026-11-16T22:47:35.492581+00:00.
+
+[S67] [10-Q 0001628280-26-054233](https://www.sec.gov/Archives/edgar/data/1018963/000162828026054233/ati-20260628.htm) — published 2026-08-06; retrieved 2026-11-16T22:47:37.631613+00:00.
+
+[S68] [DEF 14A 0001193125-26-121340](https://www.sec.gov/Archives/edgar/data/1018963/000119312526121340/d932857ddef14a.htm) — published 2026-03-24; retrieved 2026-11-16T22:47:33.682226+00:00.
+
+[S69] [10-K 0001628280-26-010140](https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm) — published 2026-02-20; retrieved 2026-11-16T22:47:31.069414+00:00.
+
+[S70] [8-K/A 0001193125-22-262984](https://www.sec.gov/Archives/edgar/data/1018963/000119312522262984/d382673d8ka.htm) — published 2022-10-14; retrieved 2026-11-16T22:47:29.272261+00:00.
+
+[S71] [8-K/A 0001193125-15-197066](https://www.sec.gov/Archives/edgar/data/1018963/000119312515197066/d931964d8ka.htm) — published 2015-05-21; retrieved 2026-11-16T22:47:20.801325+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

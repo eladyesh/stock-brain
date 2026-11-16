@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -460,6 +460,42 @@ sources:
   published_at: '2025-12-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000143774926032805/atlo20260824_8k.htm
+  title: 8-K 0001437749-26-032805
+  published_at: '2026-10-16'
+  retrieved_at: '2026-11-16T22:49:16.119641+00:00'
+  sha256: 5b29c2619385093f4750c83e9f5ee37a6927fceeec3f5fbb51787612d0efa7c2
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000143774926026572/atlo20260630_10q.htm
+  title: 10-Q 0001437749-26-026572
+  published_at: '2026-08-07'
+  retrieved_at: '2026-11-16T22:49:14.074251+00:00'
+  sha256: b41a75900cb5b921adfc5435d08b4af13b94561ea219aca3fad26c9c53ba763b
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000143774926008067/atlo20260310_def14a.htm
+  title: DEF 14A 0001437749-26-008067
+  published_at: '2026-03-13'
+  retrieved_at: '2026-11-16T22:49:12.397504+00:00'
+  sha256: 23b8f54d79400b1d0cbdd379bccdc8bf051682a321259ddbb77bc57490cea015
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000143774926007976/atlo20251231_10k.htm
+  title: 10-K 0001437749-26-007976
+  published_at: '2026-03-12'
+  retrieved_at: '2026-11-16T22:49:10.296002+00:00'
+  sha256: 0766091a3afa961818eaa790d857f89db91039b6511c9cee9daa5f127bcb3406
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000143774923014170/atlo20230512_8ka.htm
+  title: 8-K/A 0001437749-23-014170
+  published_at: '2023-05-12'
+  retrieved_at: '2026-11-16T22:49:08.544187+00:00'
+  sha256: 3277bba7c864e549d2e49a75489e2fdc16eb3c856c7df0e1e23d5b4ae6d8652c
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1132651/000114036111026971/form8k_a.htm
+  title: 8-K/A 0001140361-11-026971
+  published_at: '2011-05-12'
+  retrieved_at: '2026-11-16T22:48:55.340558+00:00'
+  sha256: f14299f59259ca2204f44d1b7b2f00fa8b0bf69a275df99747b802f11a109cea
 issuer_classification:
   cik: '0001132651'
   classification_status: reported_sic
@@ -505,13 +541,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1132651/000114036111026971/0001140361-11-026971-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 592d17d68d13cda0c55662d00d99e7cd42a3a91bc7bae8b2a8b23d17dc6d204f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -535,17 +580,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2026-03-12, L463:
+
+> Our earnings and financial condition are affected by general business, economic and political conditions. For example, a depressed economic environment increases the likelihood of lower employment levels and recession, which could adversely affect our earnings and financial condition. General business and economic conditions that could affect us include short-term and long-term interest rates, inflation, fluctuations in both debt and equity capital markets and the strength of the national and local economies in which we operate. Political conditions can also affect our earnings through the introduction of new regulatory policies, changes in tax laws and changes in trade policies. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-07, L8461:
+
+> The Company adopted ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures on January 1, 2024. The Company has determined that its bank operating model is structured whereby all banking locations serve a similar base of customers utilizing a company-wide offering of similar products and services managed through similar processes and technology platforms that are collectively reviewed by the Company’s Chief Executive Officer, who has been designated as the chief operating decision maker (“CODM”). The CODM regularly assesses performance of the aggregated single banking segment in determining how to allocate resources. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-03-12, L173:
+
+> The Banks offer a full range of deposit services that are typically available in most financial institutions, including checking accounts, savings accounts and time deposits of various types, ranging from money market accounts to longer-term certificates of deposit. One major goal in developing the Banks' product mix is to keep the product offerings as simple as possible, both in terms of the number of products and the features and benefits of the individual services. The transaction accounts and time certificates are tailored to each Bank's principal market area at rates competitive in that Bank’s market. In addition, retirement accounts such as Individual Retirement Accounts (IRAs) are available. The FDIC insures all deposit accounts up to the maximum coverage limits. The Banks solicit these accounts from small-to-medium sized businesses in their respective primary trade areas, from individuals who live and/or work within these areas, and from public entities within these areas. No material portion of the Banks' deposits has been obtained from a single person or from a few persons. Therefore, the Company believes that the loss of the deposits of any person or of a few persons would not have an adverse effect on the Banks' operations or erode their deposit base. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-12, L263:
+
+> As part of our compensation philosophy, we believe that we must offer and maintain market competitive compensation and benefit programs for our employees in order to attract and retain talent. The goal of our compensation program is to create superior long-term value for our stockholders by attracting, motivating and retaining outstanding employees who serve our customers while generating financial performance that is consistently better than our peers. In addition to competitive base wages, the Company provides its employees with a comprehensive program of benefits, including comprehensive medical, vision and dental plans, long-term and short-term disability coverage, employee assistance programs, a 401(k) plan, and a cash bonus based on bank performance. Our approach also produces longevity in our workforce. The average tenure of our employees is approximately eleven years. [S70]
 
 ## Industry and value chain
 
@@ -557,9 +618,17 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-07, L11650:
+
+> Deposits totaled $1.853 billion and $1.855 billion as of June 30, 2026 and December 31, 2025, respectively. The decrease in deposits is primarily due to a decrease in retail and commercial interest-bearing deposits, partially offset by an increase in public funds. Securities sold under agreements to repurchase decreased to $30.9 million as of June 30, 2026 compared to $38.8 million as of December 31, 2025. Securities sold under agreements to repurchase and deposit balances fluctuate as customers’ liquidity needs vary and could be impacted by prevailing market interest rates, competition, and economic conditions. Approximately 14% of deposits are tied to external indexes as of June 30, 2026. Deposit interest expense related to these deposits can be more volatile than other deposit products in a changing interest rate environment. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-Q, filed 2026-08-07, L8474:
+
+> The Company’s primary competitive strategy is to utilize seasoned and competent Bank management and local decision making authority to provide customers with faster response times and more flexibility in the products and services offered. This strategy is viewed as providing an opportunity to increase revenues through creating a competitive advantage over other financial institutions. The Company also strives to remain operationally efficient to provide better profitability while enabling the Company to offer more competitive loan and deposit rates. [S68]
 
 ## Growth drivers
 
@@ -1175,6 +1244,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-07, L4712:
+
+> The Company originates 1-4 family real estate loans utilizing credit reports to supplement the underwriting process. The Company’s underwriting standards for 1-4 family loans are generally in accordance with FHLMC and FNMA manual underwriting guidelines. Properties securing 1-4 family real estate loans are appraised by either staff appraisers or fee appraisers, both of which are independent of the loan origination function and have been approved by the Board of Directors. The loan-to-value ratios normally do not exceed 90% without credit enhancements such as mortgage insurance. The Company will lend up to 100% of the lesser of the appraised value or purchase price for conventional 1-4 family real estate loans, provided private mortgage insurance is obtained. The Company’s 1-4 family real estate loans are secured primarily by properties located in its primary market area. The national unemployment rate is a key economic forecast used in estimating expected credit losses for this segment. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1187,6 +1260,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-07, L11970:
+
+> The Private Securities Litigation Reform Act of 1995 provides the Company with the opportunity to make cautionary statements regarding forward-looking statements contained in this Quarterly Report, including forward-looking statements concerning the Company’s future performance and asset quality. Forward-looking statements contained in this Quarterly Report are not historical facts and are based on management’s current beliefs, assumptions, predictions and expectations of future events, including the Company’s future performance, taking into account all information currently available to management. These beliefs, assumptions, predictions and expectations are subject to numerous risks and uncertainties and can change as a result of many possible events or factors, not all of which are known to management and many of which are beyond management’s control. If a change occurs, the Company’s business, financial condition, liquidity, results of operations, asset quality, plans and objectives may vary materially from those expressed in the forward-looking statements. Accordingly, investors are cautioned not to place undue reliance on such forward-looking statements. These statements are often, but not always, made through the use of words or phrases such as “anticipates,” “believes,” “can,” “could,” “may,” “predicts,” “potential,” “should,” “will,” “estimate,” “plans,” “projects,” … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1196,25 +1273,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1278,6 +1355,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-01-22 | 4 | 0001191921-26-000001 | — | [S64] |
 | 2025-12-10 | 4 | 0002015957-25-000002 | — | [S65] |
 | 2025-12-03 | 4 | 0001391715-25-000002 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-07, L2103:
+
+> Subsequent Events: The Company has evaluated subsequent events through the filing date of this Quarterly Report on Form 10-Q with the SEC. [S68]
 
 ## Sources and change log
 
@@ -1412,5 +1493,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0002015957-25-000002](https://www.sec.gov/Archives/edgar/data/1132651/000201595725000002/0002015957-25-000002-index.html) — published 2025-12-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001391715-25-000002](https://www.sec.gov/Archives/edgar/data/1132651/000139171525000002/0001391715-25-000002-index.html) — published 2025-12-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001437749-26-032805](https://www.sec.gov/Archives/edgar/data/1132651/000143774926032805/atlo20260824_8k.htm) — published 2026-10-16; retrieved 2026-11-16T22:49:16.119641+00:00.
+
+[S68] [10-Q 0001437749-26-026572](https://www.sec.gov/Archives/edgar/data/1132651/000143774926026572/atlo20260630_10q.htm) — published 2026-08-07; retrieved 2026-11-16T22:49:14.074251+00:00.
+
+[S69] [DEF 14A 0001437749-26-008067](https://www.sec.gov/Archives/edgar/data/1132651/000143774926008067/atlo20260310_def14a.htm) — published 2026-03-13; retrieved 2026-11-16T22:49:12.397504+00:00.
+
+[S70] [10-K 0001437749-26-007976](https://www.sec.gov/Archives/edgar/data/1132651/000143774926007976/atlo20251231_10k.htm) — published 2026-03-12; retrieved 2026-11-16T22:49:10.296002+00:00.
+
+[S71] [8-K/A 0001437749-23-014170](https://www.sec.gov/Archives/edgar/data/1132651/000143774923014170/atlo20230512_8ka.htm) — published 2023-05-12; retrieved 2026-11-16T22:49:08.544187+00:00.
+
+[S72] [8-K/A 0001140361-11-026971](https://www.sec.gov/Archives/edgar/data/1132651/000114036111026971/form8k_a.htm) — published 2011-05-12; retrieved 2026-11-16T22:48:55.340558+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

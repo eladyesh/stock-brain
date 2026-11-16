@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 234e59eb75b5e3b9e02d4dd8de10d83fc60c027c
+source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,30 @@ sources:
   published_at: '2026-03-04'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1604464/000119312526346857/atra-20260812.htm
+  title: 8-K 0001193125-26-346857
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-16T22:55:16.579919+00:00'
+  sha256: 9c8b9a70c6f3c1f2a8ca8b524f98610e9814f5676dee9ac0f54b0b6e8e07f304
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1604464/000119312526346885/atra-20260630.htm
+  title: 10-Q 0001193125-26-346885
+  published_at: '2026-08-12'
+  retrieved_at: '2026-11-16T22:55:18.461219+00:00'
+  sha256: d9480f4e2a7c26f4532624ddc9a7c7d33edc3a9a991f21aa3adb4a01776de5b9
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1604464/000119312526177285/atra-20260424.htm
+  title: DEF 14A 0001193125-26-177285
+  published_at: '2026-04-24'
+  retrieved_at: '2026-11-16T22:55:14.879656+00:00'
+  sha256: 85e9fd12174a3b3f02efcdd16f7fe6b615516e66d0cc21dbc340824bd5dd099f
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1604464/000119312526108361/atra-20251231.htm
+  title: 10-K 0001193125-26-108361
+  published_at: '2026-03-16'
+  retrieved_at: '2026-11-16T22:55:11.818357+00:00'
+  sha256: fd1871016ff95d22e734e00851dbdc62e5bf79444bd1b04a48c94cc4ecf25f17
 issuer_classification:
   cik: '0001604464'
   classification_status: reported_sic
@@ -506,13 +530,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1604464/000119312526346857/0001193125-26-346857-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 49243b8204486bf741d59b9a3d2f9c260c2c9dd8f484c7151112a9087942ce59
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-16T22:41:59.123544+00:00'
+  last_success_at: '2026-11-16T22:41:59.123544+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -536,17 +571,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-12, L324:
+
+> the impact of public health emergencies to our business and operations, as well as the businesses and operations of third parties on which we rely; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-12, L3175:
+
+> We operate and manage our business as one operating and reportable segment, which is the business of developing therapeutics. Our President & Chief Executive Officer, who is our chief operating decision maker (CODM), reviews financial information on an aggregate basis for purposes of allocating resources and evaluating financial performance. The CODM assesses performance for the business and decides how to allocate resources based on net income (loss) that also is reported on the income statement as consolidated net income (loss). The CODM uses net income (loss) to monitor expenditures and budget versus actual results. The measure of segment assets is reported on the balance sheet as total consolidated assets. The following tables represent information provided to the chief operating decision maker: [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-12, L6661:
+
+> We have incurred losses and negative cash flows from operations in each year since inception and have generated limited commercialization revenues from the A&R Commercialization Agreement, following the December 2022 EU regulatory approval of Ebvallo, which is subject to the terms of the HCRx Agreement. We do not maintain any meaningful milestone or royalty payments from Pierre Fabre relative to the Initial Territory until the applicable royalty cap under the HCRx Agreement is met, if at all. We continue to incur significant research and development and other expenses related to our ongoing operations and expect to incur losses for the foreseeable future. As a result, we will need additional capital to fund our operations, which we may raise through a combination of equity offerings, debt financings, other third party funding and other collaborations, strategic alliances and partnering arrangements. We may borrow funds on terms that may include restrictive covenants, including covenants that restrict the operation of our business, liens on assets, high effective interest rates and repayment provisions that reduce cash resources and limit future access to capital markets. In addition, we expect to continue to opportunistically seek access to additional funds through additional public or private equity offerings or debt financings including by utilizing the 2023 ATM Facility, … [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-12, L7512:
+
+> The actual or perceived failure by us, our customers, or vendors to comply with increasingly stringent laws, regulations and contractual obligations relating to privacy, data protection, and data security could harm our reputation, and subject us to significant fines and liability. [S68]
 
 ## Industry and value chain
 
@@ -554,17 +605,33 @@ SEC-reported SIC **2836**: Biological Products, (No Diagnostic Substances). [S02
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L359:
+
+> maintaining clinical and commercial timelines is dependent on our partner's end-to-end supply chain network to support manufacturing; if they experience problems with their third party suppliers or CMOs, development and/or commercialization of tab-cel may be adversely affected; [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-12, L6875:
+
+> Our revenues from Ebvallo will be dependent, in part, upon the size of the markets in the territories for which we gain regulatory approval, the accepted price for the product, the ability to get reimbursement at any price, and the terms and conditions of our commercialization agreement with Pierre Fabre for that territory. We do not retain any meaningful milestones or royalty payments from Pierre Fabre for Ebvallo in the Initial Territory until the applicable royalty cap under the HCRx Agreement is met, which could take many years, if at all. If the number of our addressable disease patients is not as significant as we estimate, the indication approved by regulatory authorities is narrower than we expect, or the reasonably accepted population for treatment is narrowed by competition, physician choice, treatment guidelines or a reduction in the incidence of the addressable disease, Pierre Fabre may not successfully commercialize tab-cel, even if approved. The timing and amount of any milestone and royalty payments we may receive from Pierre Fabre, as well as the commercial success of tab-cel will depend on, among other things, the efforts, allocation of resources, negotiation of pricing and reimbursement and successful commercialization by Pierre Fabre. As a result, even if we generate product revenues, we may not become profitable and may need to obtain additional funding to … [S68]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-12, L314:
+
+> the scope of protection we are able to obtain and maintain for the intellectual property rights covering tab-cel; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-12, L3162:
+
+> In June 2026, we executed a reduction in force of, at that time, approximately 23% of our total workforce, retaining approximately 10 employees essential to executing on our strategic priorities. We recognized approximately $0.8 million in [S68]
 
 ## Financial performance
 
@@ -1167,6 +1234,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-12, L337:
+
+> our board of directors may determine to pursue a liquidation and dissolution or other wind down of our business, and in such event, the amount of cash available for distribution to our stockholders, if any, will depend heavily on the timing of such liquidation as well as the amount of cash that will need to be reserved for commitments and contingent liabilities; [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1179,6 +1250,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-12, L329:
+
+> These statements are only current predictions and are subject to known and unknown risks and uncertainties, including, without limitation, risks and uncertainties associated with the costly and time-consuming pharmaceutical product development process and the uncertainty of clinical success; the sufficiency of our cash resources and need for additional capital; and other factors that may cause our or our industry’s actual results, levels of activity, performance or achievements to be materially different from those anticipated by the forward-looking statements. We discuss many of these risks in this report in greater detail under the heading “1A. Risk Factors” and elsewhere in this report. You should not rely upon forward-looking statements as predictions of future events. New risk factors and uncertainties may emerge from time to time, and it is not possible for management to predict all risks and uncertainties. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1188,25 +1263,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1270,6 +1345,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-11 | 4 | 0000905148-26-001225 | — | [S64] |
 | 2026-03-11 | 4 | 0000905148-26-001224 | — | [S65] |
 | 2026-03-04 | 4 | 0000905148-26-001144 | — | [S66] |
+
+Source excerpt — 10-Q, filed 2026-08-12, L5132:
+
+> During the third quarter of 2024, MSK sent us a notice alleging that under the terms of our license agreements with MSK, MSK is entitled to $6.0 million of sub-licensing fees as a result of the $60.0 million we received from Pierre Fabre related to the Additional Territory upfront and milestone payments in 2024 pursuant to the A&R Commercialization Agreement. We paid the $6.0 million to MSK under protest in the third quarter of 2024 in order to proceed with the dispute process per the terms of the license agreements. We recorded this cost in research and development expenses on the consolidated statements of operations and comprehensive income (loss) during the year ended December 31, 2024. [S68]
 
 ## Sources and change log
 
@@ -1404,5 +1483,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0000905148-26-001224](https://www.sec.gov/Archives/edgar/data/1604464/000090514826001224/0000905148-26-001224-index.html) — published 2026-03-11; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0000905148-26-001144](https://www.sec.gov/Archives/edgar/data/1604464/000090514826001144/0000905148-26-001144-index.html) — published 2026-03-04; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001193125-26-346857](https://www.sec.gov/Archives/edgar/data/1604464/000119312526346857/atra-20260812.htm) — published 2026-08-12; retrieved 2026-11-16T22:55:16.579919+00:00.
+
+[S68] [10-Q 0001193125-26-346885](https://www.sec.gov/Archives/edgar/data/1604464/000119312526346885/atra-20260630.htm) — published 2026-08-12; retrieved 2026-11-16T22:55:18.461219+00:00.
+
+[S69] [DEF 14A 0001193125-26-177285](https://www.sec.gov/Archives/edgar/data/1604464/000119312526177285/atra-20260424.htm) — published 2026-04-24; retrieved 2026-11-16T22:55:14.879656+00:00.
+
+[S70] [10-K 0001193125-26-108361](https://www.sec.gov/Archives/edgar/data/1604464/000119312526108361/atra-20251231.htm) — published 2026-03-16; retrieved 2026-11-16T22:55:11.818357+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
