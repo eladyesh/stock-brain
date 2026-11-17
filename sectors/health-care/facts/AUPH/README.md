@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -150,6 +150,24 @@ sources:
   published_at: '2026-02-26'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1600620/000160062026000062/auph-20260630.htm
+  title: 10-Q 0001600620-26-000062
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-17T21:32:40.106202+00:00'
+  sha256: 419067ffe92df12d3a6782848935fd8f18f6c31ff41dc99d26da218512b09ec1
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1600620/000160062026000039/auph-20260421.htm
+  title: DEF 14A 0001600620-26-000039
+  published_at: '2026-04-21'
+  retrieved_at: '2026-11-17T21:32:38.187820+00:00'
+  sha256: d8c26862bd271124db9ed70fb531fd4a9dd30114f383d4366a3d4cf7fdf9e1a0
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1600620/000160062026000017/auph-20251231.htm
+  title: 10-K 0001600620-26-000017
+  published_at: '2026-02-26'
+  retrieved_at: '2026-11-17T21:32:34.325637+00:00'
+  sha256: 302e7c032f9dc59bbe5f3f5ab5557fe903535d556c2cf8bd97d0baff4e3a1986
 issuer_classification:
   cik: '0001600620'
   classification_status: reported_sic
@@ -195,13 +213,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1600620/000162828021018843/0001628280-21-018843-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 404d281fae8611aa6b887d47610a11f85b5a53ad7635f0c2e73e9dbdc444f662
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -216,15 +244,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001600620.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUPH/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUPH/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AUPH — Aurinia Pharmaceuticals Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUPH/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUPH/README.md)
 
 ## Business overview
 
@@ -238,17 +266,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-04-21, L513:
+
+> Although the say-on-pay vote is not binding on either the Company, the Board or the Compensation Committee, the Board will carefully assess the voting results. Our Board values the opinions of our shareholders, and will consider our shareholders’ concerns and evaluate what actions may be appropriate to address those concerns as our compensation practices evolve with our business. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-02-26, L1607:
+
+> In November 2023, the FASB issued ASU No. 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures which requires public entities to disclose significant segment expenses regularly provided to the CODM. Public entities with a single reporting segment have to provide all disclosures required by ASC 280, including the significant segment expense disclosures. For public business entities, the guidance is effective for annual periods beginning after December 15, 2023. The Company adopted this standard during 2024 and it did not have an impact on the consolidated financial statements. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-26, L474:
+
+> Our ability to successfully commercialize products depends in part on the extent to which reimbursement for the costs of our products and related treatments will be available in the U.S. and worldwide from government health administration authorities, private health insurers and other organizations. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L821:
+
+> Aurinia sells LUPKYNIS to two specialty pharmacies and a specialty distributor in the United States (the “U.S.”), and Aurinia sells LUPKYNIS inventory to its collaboration partner, Otsuka Pharmaceutical Co., Ltd. (“Otsuka”), for the European and Japanese market. The two specialty pharmacies, specialty distributor and Otsuka are considered our customers for accounting purposes. [S67]
 
 ## Industry and value chain
 
@@ -256,15 +300,27 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-26, L408:
+
+> Aurinia employs an experienced sales and marketing team dedicated to the commercialization of LUPKYNIS, supported by professionals in commercial operations, commercial supply chain, patient services and market access functions. [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-21, L1121:
+
+> We had written employment agreements with each of our 2025 NEOs, other than Dr. Keenan. Each of these employment agreements set forth the initial compensation arrangements for the 2025 NEO, including an initial base salary, an annual performance incentive consisting of cash-based awards, and an equity award recommendation. These agreements and the proprietary information and invention assignment agreements each 2025 NEO executed upon commencing employment at the Company also set forth the rights and responsibilities of each party and included, among other rights and responsibilities, the prohibition on the executive officer from engaging directly or indirectly in competition with us, soliciting any of our employees, or disclosing our confidential information. [S68]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — DEF 14A, filed 2026-04-21, L1124:
+
+> On April 11, 2019, Mr. Greenleaf entered into an employment agreement with the Company for the position of President and Chief Executive Officer commencing on April 29, 2019. The agreement provided that he will devote his sole skill and efforts to discharging his duties to the Company on a full-time and exclusive basis and that he would serve as a member of the Board. He was eligible to receive an annual performance incentive with a target payment of 70% of his base salary if the Board, on the recommendation of the Compensation Committee, in its sole discretion, determines that the Company’s performance had met certain short-term and long-term business performance objectives established from time to time by the Board, on the recommendation of the Compensation Committee, subject to any rules the Company developed regarding the incentive scheme. In addition, he was entitled to participate in the Company’s benefits programs and was paid vacation of 30 business days per year. Mr. Greenleaf’s base salary was reviewed annually by the Board, on the recommendation of the Compensation Committee. He agreed to non-competition, non-solicitation, non-disclosure and assignment of intellectual property provisions in favor of the Company. [S68]
 
 ## Growth drivers
 
@@ -387,6 +443,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L672:
+
+> In March 2012, the Company entered into arrangements with certain former executive officers, whereby the Company is required to make payments to such former officers based on net revenues of voclosporin for a certain period of time. As of June 30, 2026 and December 31, 2025, the Company recorded other noncurrent liabilities of $0.9 million and $6.7 million, respectively. During the three months ended June 30, 2026, the Company made a one-time payment to fully settle all future obligations under one former officer’s arrangement. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -399,6 +459,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L773:
+
+> We discuss a number of risks, uncertainties and other factors in greater detail under the heading “Risk Factors” in Part I, Item 1A of the Form 10-K as well as in Part II, Item 1A of this Quarterly Report. Given these risks, uncertainties and other factors, you should not place undue reliance on these forward-looking statements. Also, these forward-looking statements represent our estimates and assumptions only as of the date of this filing. You should read this discussion completely and with the understanding that our actual future results may be materially different from what we expect. We hereby qualify our forward-looking statements by our cautionary statements. Except as required by law, we assume no obligation to update our forward-looking statements publicly, or to update the reasons that actual results could differ materially from those anticipated in these forward-looking statements, even if new information becomes available in the future. [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -408,25 +472,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -472,6 +536,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S58] [10-K 0001600620-26-000017](https://www.sec.gov/Archives/edgar/data/1600620/000160062026000017/0001600620-26-000017-index.html) — published 2026-02-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUPH/README.md).
+[S67] [10-Q 0001600620-26-000062](https://www.sec.gov/Archives/edgar/data/1600620/000160062026000062/auph-20260630.htm) — published 2026-08-06; retrieved 2026-11-17T21:32:40.106202+00:00.
+
+[S68] [DEF 14A 0001600620-26-000039](https://www.sec.gov/Archives/edgar/data/1600620/000160062026000039/auph-20260421.htm) — published 2026-04-21; retrieved 2026-11-17T21:32:38.187820+00:00.
+
+[S69] [10-K 0001600620-26-000017](https://www.sec.gov/Archives/edgar/data/1600620/000160062026000017/auph-20251231.htm) — published 2026-02-26; retrieved 2026-11-17T21:32:34.325637+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUPH/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -152,15 +152,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001964504.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ARIS/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/ARIS/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # ARIS — Aris Mining Corp
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ARIS/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/ARIS/README.md)
 
 ## Business overview
 
@@ -318,6 +318,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [40-F 0001964504-26-000012](https://www.sec.gov/Archives/edgar/data/1964504/000196450426000012/aris-20251231_d2.htm) — published 2026-03-11; retrieved 2026-11-14T18:41:49.897029+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/ARIS/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/ARIS/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

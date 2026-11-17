@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -147,13 +147,14 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1219120/000182126825000274/0001821268-25-000274-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 840c22943542f892834ddce017e7a06da52e84dc0e64d674a1d0283ee59802ad
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -165,15 +166,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVK/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVK/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AVK — ADVENT CONVERTIBLE & INCOME FUND
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVK/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVK/README.md)
 
 ## Business overview
 
@@ -253,7 +254,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -271,7 +272,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -307,6 +308,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [NPORT-P 0000940400-26-026147](https://www.sec.gov/Archives/edgar/data/1219120/000094040026026147/0000940400-26-026147-index.html) — published 2026-06-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVK/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVK/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -133,6 +133,12 @@ sources:
   published_at: '2026-03-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S66
+  url: https://www.sec.gov/Archives/edgar/data/750574/000119312526345021/d163146d10q.htm
+  title: 10-Q 0001193125-26-345021
+  published_at: '2026-08-11'
+  retrieved_at: '2026-11-17T21:31:20.702154+00:00'
+  sha256: c9aad86cc25f4e895d175baae6d65c69b8ad5886f54b83ad3a1d03d45df2e776
 issuer_classification:
   cik: '0000750574'
   classification_status: reported_sic
@@ -186,13 +192,14 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/750574/000119312510056149/0001193125-10-056149-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: d2ca172f1d580ccae622ddd1edc3bd7401a1d527e0c7585eb2757e292fdd3048
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -207,15 +214,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000750574.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUBN/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUBN/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AUBN — AUBURN NATIONAL BANCORPORATION, INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUBN/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUBN/README.md)
 
 ## Business overview
 
@@ -372,6 +379,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-11, L7518:
+
+> (1) On March 17, 2026, the Company announced that its Board of Directors had approved a stock repurchase program authorizing the [S66]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -393,7 +404,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -405,7 +416,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
@@ -457,6 +468,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S53] [10-K 0001193125-26-111012](https://www.sec.gov/Archives/edgar/data/750574/000119312526111012/0001193125-26-111012-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUBN/README.md).
+[S66] [10-Q 0001193125-26-345021](https://www.sec.gov/Archives/edgar/data/750574/000119312526345021/d163146d10q.htm) — published 2026-08-11; retrieved 2026-11-17T21:31:20.702154+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUBN/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

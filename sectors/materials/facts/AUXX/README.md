@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -103,12 +103,12 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1961592/000106299326005326/0001062993-26-005326-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: db331f2b32759d926c561aa3646207a3564d8ed30c92877f208785741d798071
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
+  source_set_current: true
   evidence_topics: []
   derived_observations: 0
   model_draft: false
@@ -124,15 +124,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001961592.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUXX/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUXX/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AUXX — Gold X2 Mining Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUXX/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUXX/README.md)
 
 ## Business overview
 
@@ -214,7 +214,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -268,6 +268,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [6-K 0001062993-26-004881](https://www.sec.gov/Archives/edgar/data/1961592/000106299326004881/0001062993-26-004881-index.html) — published 2026-09-10; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AUXX/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AUXX/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

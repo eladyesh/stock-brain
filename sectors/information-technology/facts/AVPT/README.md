@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -151,6 +151,12 @@ sources:
   published_at: '2026-10-08'
   retrieved_at: '2026-10-24T13:22:51.759433+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1777921/000143774926026267/avpt20260630_10q.htm
+  title: 10-Q 0001437749-26-026267
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-17T21:36:16.531467+00:00'
+  sha256: ba1fd19e3dc42eb47cb30a1b55f0c43d22ed703cf60f6dfca1edefc7238802df
 issuer_classification:
   cik: 0001777921
   classification_status: reported_sic
@@ -196,13 +202,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1777921/000143774921019307/0001437749-21-019307-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: faa9636253b83c82c2e144a771d84dcfb35d815e10d97d2ceaa57ec4400ea9b9
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -217,15 +233,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001777921.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVPT/README.md
-full_history_commit: f81b764147af733010a8998a7ef6ae7a2798c226
+full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVPT/README.md
+full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AVPT — AvePoint, Inc.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVPT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVPT/README.md)
 
 ## Business overview
 
@@ -239,6 +255,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L119:
+
+> This Quarterly Report on Form 10-Q (this “Quarterly Report”) of AvePoint, Inc. (hereinafter referred to as the “Company,” “AvePoint,” “we," “us” and “our”) includes estimates, projections, statements relating to our business plans, objectives, and expected operating results that may constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements, as well as descriptions of the risks and uncertainties that could cause actual results and events to differ materially, may appear throughout this Quarterly Report, including in the following sections: “Management’s Discussion and Analysis of Financial Condition and Results of Operations” (Part I, Item 2 of this Quarterly Report), “Quantitative and Qualitative Disclosures about Market Risk” (Part I, Item 3 of this Quarterly Report), and “Risk Factors” (Part II, Item 1A of this Quarterly Report). These risks and uncertainties also include, but are not limited to, those described from time to time in the Company’s reports filed with the Securities and Exchange Commission (“SEC”). [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -247,9 +267,17 @@ Not available: substantive research has not been completed. Describe revenue str
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L4226:
+
+> Cost of services consists of salaries, benefits, stock-based compensation and related expenses for our services organization, overhead, technology necessary to service our customers, and depreciation and amortization. We recognize these expenses as they are incurred. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4205:
+
+> Growth in ARR is driven by both new customer acquisitions and the expansion of existing customer relationships. ARR should be viewed independently of revenue and deferred revenue and is not intended to be combined with or replace these items. ARR is not a forecast of future revenue, and the active contracts used in calculating ARR may or may not be extended or renewed by our customers. [S69]
 
 ## Industry and value chain
 
@@ -257,19 +285,35 @@ SEC-reported SIC **7372**: Services-Prepackaged Software. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6917:
+
+> Additionally, the demand for our software and services is correlated to global macroeconomic and geopolitical factors, which remain dynamic and where the outcomes and consequences are not possible to predict, and could materially adversely affect global trade, currency exchange rates, regional economies and the global economy. These in turn could increase our costs, disrupt our supply chain, reduce our sales and earnings, impair our ability to raise additional capital when needed on acceptable terms, if at all, or otherwise adversely affect our business, financial condition, and results of operations. [S69]
+
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-Q, filed 2026-08-06, L6915:
+
+> The markets for software and cloud-based services are dynamic and highly competitive. Our competitors are developing new software while also deploying competing cloud-based services for consumers and businesses. Customer preferences evolve rapidly, and choices in hardware, products, and devices can and do influence how users access services in the cloud, and in some cases, the user’s choice of which suite of cloud-based services to use. We must continue to evolve and adapt to keep pace with this changing environment. The investments we are making in infrastructure, research and development, marketing, and geographic expansion will continue to increase our operating costs and may decrease our operating margins. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3419:
+
+> The Company maintains a loan and security agreement (the “Loan Agreement”) with HSBC Bank USA, National Association (“HSBC”), as lender, for a revolving line of credit of up to $30.0 million, with an accordion feature that provides up to $20.0 million of additional borrowing capacity the Company may draw upon at its request. Of the $30.0 million line of credit, a sublimit of approximately $9.3 million is designated to facilitate the issuance of bank guarantees, including letters of credit. The line bears interest at a rate equal to term SOFR plus 3.0% to 3.3% depending on the Consolidated Total Leverage Ratio (as defined in the Loan Agreement). The line carries an unused fee at a rate equal to 0.5%. The line will mature on November 3, 2026. The Company is required to maintain a minimum Consolidated Fixed Charge Coverage Ratio (as defined in the Loan Agreement) as well as a maximum Consolidated Total Leverage Ratio, tested by HSBC each quarter. The Company pledged, assigned and granted HSBC a security interest in all shares of its subsidiaries, future proceeds and assets (except for excluded assets, including material intellectual property) as security for the performance of the Loan Agreement obligations. As of June 30, 2026, the Company is compliant with all covenants and had no borrowings outstanding under the Loan Agreement. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L4235:
+
+> Gross profit has been and will continue to be affected by various factors, including the mix of our revenue, the costs associated with third-party cloud-based hosting services for our cloud-based subscriptions, and the extent to which we expand our customer support and services organizations. We expect that our gross margin will fluctuate from period to period depending on the interplay of these various factors but should increase in the long term as SaaS revenue continues to increase as a percentage of total revenue. [S69]
 
 ## Financial performance
 
@@ -394,6 +438,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L3585:
+
+> Pursuant to the Company’s Third Amended and Restated Certificate of Incorporation, the Company is authorized to issue up to 1,000,000,000 shares of common stock at $0.0001 par value. There were 211,430,823 and 215,076,033 shares issued and outstanding as of June 30, 2026 and December 31, 2025, respectively. Each share of common stock is entitled to one vote. The holders of common stock are also entitled to receive dividends whenever funds are legally available and when declared by the Company’s Board of Directors. The Company’s Board of Directors has not declared common stock dividends since inception. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -406,6 +454,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L119:
+
+> This Quarterly Report on Form 10-Q (this “Quarterly Report”) of AvePoint, Inc. (hereinafter referred to as the “Company,” “AvePoint,” “we," “us” and “our”) includes estimates, projections, statements relating to our business plans, objectives, and expected operating results that may constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Forward-looking statements, as well as descriptions of the risks and uncertainties that could cause actual results and events to differ materially, may appear throughout this Quarterly Report, including in the following sections: “Management’s Discussion and Analysis of Financial Condition and Results of Operations” (Part I, Item 2 of this Quarterly Report), “Quantitative and Qualitative Disclosures about Market Risk” (Part I, Item 3 of this Quarterly Report), and “Risk Factors” (Part II, Item 1A of this Quarterly Report). These risks and uncertainties also include, but are not limited to, those described from time to time in the Company’s reports filed with the Securities and Exchange Commission (“SEC”). [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -415,25 +467,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -477,6 +529,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S22] [4 0001437749-26-032381](https://www.sec.gov/Archives/edgar/data/1777921/000143774926032381/0001437749-26-032381-index.html) — published 2026-10-08; retrieved 2026-10-24T13:22:51.759433+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/f81b764147af733010a8998a7ef6ae7a2798c226/brain/companies/AVPT/README.md).
+[S69] [10-Q 0001437749-26-026267](https://www.sec.gov/Archives/edgar/data/1777921/000143774926026267/avpt20260630_10q.htm) — published 2026-08-06; retrieved 2026-11-17T21:36:16.531467+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVPT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
