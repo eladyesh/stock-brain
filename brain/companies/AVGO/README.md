@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/231e22e6f144af83428cd9a6ca5f5f51c1d1744d/sectors/information-technology/companies/AVGO/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11/sectors/information-technology/companies/AVGO/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: information-technology
@@ -486,6 +486,42 @@ sources:
   published_at: '2026-06-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm
+  title: 10-Q 0001730168-26-000080
+  published_at: '2026-09-10'
+  retrieved_at: '2026-11-17T21:35:12.401485+00:00'
+  sha256: 7bb98f08030bc28c278864103f38108d339c5d2ddbd7616e842843e6bf3fa0c9
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm
+  title: 8-K 0001730168-26-000076
+  published_at: '2026-09-02'
+  retrieved_at: '2026-11-17T21:35:10.536614+00:00'
+  sha256: d67bb2b6e67cdc57a7b57efe5ea384ab464d179adfedce8c724d489dc5a80d4e
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000119312526085691/d49254ddef14a.htm
+  title: DEF 14A 0001193125-26-085691
+  published_at: '2026-03-02'
+  retrieved_at: '2026-11-17T21:35:08.948563+00:00'
+  sha256: 33f7335cfd94c9103c5e805182eb43f2316fefa95fd4027506b633a64e383428
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm
+  title: 10-K 0001730168-25-000121
+  published_at: '2025-12-18'
+  retrieved_at: '2026-11-17T21:35:06.845350+00:00'
+  sha256: 34952484518c4df6f3602749e254f098603ccad87c43a3f712fccfcfb4bae44d
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000114036124006447/ef20018945_8ka.htm
+  title: 8-K/A 0001140361-24-006447
+  published_at: '2024-02-08'
+  retrieved_at: '2026-11-17T21:35:04.986506+00:00'
+  sha256: f1f486b07b981db2f4eedbd109619cab02fe0a4771c7e2fe72f6e1d82de1c625
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1730168/000119312519009086/d641494d8ka.htm
+  title: 8-K/A 0001193125-19-009086
+  published_at: '2019-01-14'
+  retrieved_at: '2026-11-17T21:35:03.359596+00:00'
+  sha256: c5122d3f4abeeae5bc06cdedc9a19bea5edd0671e53452ca035f23153bb9ecd9
 issuer_classification:
   cik: 0001730168
   classification_status: reported_sic
@@ -531,13 +567,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1730168/000119312519009086/0001193125-19-009086-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7cf35e38e7deebdffcbcd61153cf80e542d0c878ecef6ed719509442b4617349
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -561,17 +608,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-09-10, L512:
+
+> We operate on a 52- or 53-week fiscal year ending on the Sunday closest to October 31. Our fiscal years ending November 1, 2026 (“fiscal year 2026”) and November 2, 2025 (“fiscal year 2025”) are both 52-week fiscal years. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-09-10, L526:
+
+> We have considered (1) information that is regularly reviewed by our Chief Executive Officer, who has been identified as the chief operating decision maker (the “CODM”) as defined by the authoritative guidance on segment reporting, in evaluating financial performance and (2) disclosures presented outside of our financial statements in our earnings releases and used in investor presentations to disaggregate revenues. The principal category we use to disaggregate revenues is the nature of our products and subscriptions and services, as presented in our condensed consolidated statements of operations. In addition, revenues by reportable segment are presented in Note 9. “Segment Information.” [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-09-10, L526:
+
+> We have considered (1) information that is regularly reviewed by our Chief Executive Officer, who has been identified as the chief operating decision maker (the “CODM”) as defined by the authoritative guidance on segment reporting, in evaluating financial performance and (2) disclosures presented outside of our financial statements in our earnings releases and used in investor presentations to disaggregate revenues. The principal category we use to disaggregate revenues is the nature of our products and subscriptions and services, as presented in our condensed consolidated statements of operations. In addition, revenues by reportable segment are presented in Note 9. “Segment Information.” [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-09-10, L510:
+
+> Broadcom Inc. (“Broadcom”), a Delaware corporation, is a global technology leader that designs, develops and supplies a broad range of semiconductor and semiconductor-based solutions and infrastructure software solutions. Our semiconductor and semiconductor-based solutions include a broad portfolio of complex digital and mixed signal devices based on silicon wafers with complementary metal oxide semiconductor transistors, III-V based devices, network interface cards and other modules, switches, and subsystems. Our solutions are used in a wide array of environments, end products and applications, such as enterprise and artificial intelligence (“AI”) data centers, servers and networking and connectivity equipment, as well as storage systems, home connectivity devices, set-top boxes, broadband access, telecommunication equipment, wireless devices and base stations, factory automation, power generation and alternative energy systems, and electronic displays. Our infrastructure software solutions help enterprises simplify their information technology (“IT”) environments. Our customers rely on our infrastructure and security software solutions to modernize, optimize, and secure the most complex private cloud, hybrid cloud and edge environments. This enables scalability, agility, automation, insights, resiliency and security, making it easy for customers to run their mission-critical … [S69]
 
 ## Industry and value chain
 
@@ -579,17 +642,33 @@ SEC-reported SIC **3674**: Semiconductors & Related Devices. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-09-10, L1174:
+
+> As is customary in our industry and as provided for in local law in the U.S. and other jurisdictions, many of our standard contracts provide remedies to our customers and others with whom we enter into contracts, such as defense, settlement, or payment of judgment for IP claims related to the use of our products. From time to time, we indemnify customers, as well as our suppliers, contractors, lessors, lessees, companies that purchase our businesses or assets and others with whom we enter into contracts, against combinations of loss, expense, or liability arising from various triggering events related to the sale and the use of our products, the use of their goods and services, the use of facilities and state of our owned facilities, the state of the assets and businesses that we sell and other matters covered by such contracts, usually up to a specified maximum amount. In addition, from time to time we also provide protection to these parties against claims related to undiscovered liabilities, additional product liabilities or environmental obligations. In our experience, claims made under such indemnifications are rare and the associated estimated fair value of the liability is not material. [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-09-10, L1527:
+
+> We have historically depended on a small number of end customers, original equipment manufacturers (“OEMs”), their respective contract manufacturers (“CMs”) and certain distributors for a majority of our business and revenue. For the three fiscal quarters ended August 2, 2026, sales to distributors accounted for 56% of our net revenue. We believe aggregate sales, through all channels, to our top five end customers accounted for approximately 50% of our net revenue for the three fiscal quarters ended August 2, 2026. This customer concentration increases the risk of quarterly fluctuations in our operating results and our sensitivity to any material adverse developments experienced by these customers. In addition, some customers may cancel, reduce or delay their orders or decline to purchase from us due to reduced capital expenditure spending, changes in their business strategy, lack of access to sufficient capital, delayed or cancelled AI infrastructure buildouts, downturn in their business, governmental actions such as being designated a “supply chain risk,” purchases from our competitors or their internal development of competing products or customer-owned tooling. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-09-10, L587:
+
+> Remaining performance obligations do not include contracts for software, subscriptions or services where the customer is not committed. The customer is not considered committed when the customer contract permits termination for convenience. For contracts with termination for convenience rights, our customers generally do not exercise those rights. Additionally, as a practical expedient, we have not included contracts that have an original duration of one year or less, nor have we included contracts with sales-based or usage-based royalties promised in exchange for a license of intellectual property (“IP”). Accordingly, our remaining performance obligations disclosed above are not indicative of revenue for future periods. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-09-10, L1595:
+
+> If demand, adoption and continued usage of our software is significantly less than anticipated or we fail to realize the expected returns on our business strategy, the investments we have made to implement our strategy may be of no or limited value, we may lose significant customers and our business, financial condition, results of operations and cash flows may be adversely affected. [S69]
 
 ## Financial performance
 
@@ -1210,6 +1289,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-09-10, L1053:
+
+> In April 2025, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025, which was subsequently extended through December 31, 2026 and increased to $11 billion. In March 2026, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock from time to time through December 31, 2026. During the three fiscal quarters ended August 2, 2026 and August 3, 2025, we repurchased and retired 25 million and 16 million shares for $8,450 million and $2,450 million, respectively. As of August 2, 2026, $10.1 billion of the authorized amount remained available for repurchase. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1222,6 +1305,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-09-10, L1169:
+
+> From time to time, we are involved in litigation that we believe is of the type common to companies engaged in our lines of business, including but not limited to commercial disputes, employment issues, tax disputes and disputes involving claims by third parties that our activities infringe their patent, copyright, trademark or other IP rights, as well as regulatory investigations or inquiries. Legal proceedings and regulatory investigations or inquiries are often complex, may require the expenditure of significant funds and other resources, and the outcomes of such proceedings are inherently uncertain, with material adverse outcomes possible. IP claims generally involve the demand by a third-party that we cease the manufacture, use or sale of the allegedly infringing products, processes or technologies and/or pay substantial damages or royalties for past, present and future use of the allegedly infringing IP. Claims that our products or processes infringe or misappropriate any third-party IP rights (including claims arising through our contractual indemnification of our customers) often involve highly complex, technical issues, the outcome of which is inherently uncertain. Moreover, from time to time, we pursue litigation to assert our IP rights. Regardless of the merit or resolution of any such litigation, complex IP litigation is generally costly and diverts the efforts and … [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1229,29 +1316,29 @@ Not available: substantive research has not been completed. Describe operational
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:35:19.084963+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/231e22e6f144af83428cd9a6ca5f5f51c1d1744d/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11/sectors/information-technology/companies/AVGO/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Net margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1315,6 +1402,10 @@ Latest 50 filing metadata records of 998 retained records. A filing link is evid
 | 2026-06-09 | S-4 | 0001193125-26-263128 | — | [S66] |
 | 2026-06-09 | S-4 | 0001193125-26-263125 | — | [S67] |
 | 2026-06-03 | 8-K | 0001730168-26-000051 | — | [S68] |
+
+Source excerpt — DEF 14A, filed 2026-03-02, L2499:
+
+> Our stockholders are not required to ratify the appointment of PwC as our independent registered public accounting firm. However, we are submitting the appointment of PwC to our stockholders for ratification as a matter of good corporate practice. In the event of a negative vote, the Audit Committee will reconsider whether or not to continue to retain PwC. Even if the appointment is ratified, the Audit Committee, in its discretion, may change the appointment at any time during the year if it determines that such a change would be in the best interests of Broadcom and our stockholders. [S71]
 
 ## Sources and change log
 
@@ -1453,5 +1544,17 @@ Latest 50 filing metadata records of 998 retained records. A filing link is evid
 [S67] [S-4 0001193125-26-263125](https://www.sec.gov/Archives/edgar/data/1730168/000119312526263125/0001193125-26-263125-index.html) — published 2026-06-09; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S68] [8-K 0001730168-26-000051](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/0001730168-26-000051-index.html) — published 2026-06-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S69] [10-Q 0001730168-26-000080](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm) — published 2026-09-10; retrieved 2026-11-17T21:35:12.401485+00:00.
+
+[S70] [8-K 0001730168-26-000076](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm) — published 2026-09-02; retrieved 2026-11-17T21:35:10.536614+00:00.
+
+[S71] [DEF 14A 0001193125-26-085691](https://www.sec.gov/Archives/edgar/data/1730168/000119312526085691/d49254ddef14a.htm) — published 2026-03-02; retrieved 2026-11-17T21:35:08.948563+00:00.
+
+[S72] [10-K 0001730168-25-000121](https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm) — published 2025-12-18; retrieved 2026-11-17T21:35:06.845350+00:00.
+
+[S73] [8-K/A 0001140361-24-006447](https://www.sec.gov/Archives/edgar/data/1730168/000114036124006447/ef20018945_8ka.htm) — published 2024-02-08; retrieved 2026-11-17T21:35:04.986506+00:00.
+
+[S74] [8-K/A 0001193125-19-009086](https://www.sec.gov/Archives/edgar/data/1730168/000119312519009086/d641494d8ka.htm) — published 2019-01-14; retrieved 2026-11-17T21:35:03.359596+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

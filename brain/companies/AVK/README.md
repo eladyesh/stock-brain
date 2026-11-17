@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -390,6 +390,18 @@ sources:
   published_at: '2024-06-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1219120/000182126826000147/gug90109avk.htm
+  title: DEF 14A 0001821268-26-000147
+  published_at: '2026-08-19'
+  retrieved_at: '2026-11-17T21:35:23.541732+00:00'
+  sha256: d67ea5762cb19338f77534d9e48bde669e6bf342f1b0729e460d6bc85a357927
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1219120/000182126825000274/gug89497avk8k.htm
+  title: 8-K 0001821268-25-000274
+  published_at: '2025-12-18'
+  retrieved_at: '2026-11-17T21:35:22.025175+00:00'
+  sha256: 8e7a40fc4c1b300532e78c874fac47145fa4df582077a997635654b067e51be1
 issuer_classification:
   cik: 0001219120
   classification_status: missing_or_invalid_sic
@@ -417,13 +429,14 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/1219120/000182126825000274/0001821268-25-000274-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 840c22943542f892834ddce017e7a06da52e84dc0e64d674a1d0283ee59802ad
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - recent-developments
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -511,7 +524,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -529,7 +542,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -593,6 +606,10 @@ Latest 50 filing metadata records of 512 retained records. A filing link is evid
 | 2024-06-20 | 40-17G | 0001821268-24-000111 | — | [S50] |
 | 2024-06-20 | 40-17G | 0001821268-24-000110 | — | [S51] |
 | 2024-06-20 | 40-17G | 0001821268-24-000109 | — | [S52] |
+
+Source excerpt — DEF 14A, filed 2026-08-19, L1972:
+
+> changes thereto and results periodically during the year and review the results of the year-end audit of the Trust, including any comments [S53]
 
 ## Sources and change log
 
@@ -699,5 +716,9 @@ Latest 50 filing metadata records of 512 retained records. A filing link is evid
 [S51] [40-17G 0001821268-24-000110](https://www.sec.gov/Archives/edgar/data/1219120/000182126824000110/0001821268-24-000110-index.html) — published 2024-06-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [40-17G 0001821268-24-000109](https://www.sec.gov/Archives/edgar/data/1219120/000182126824000109/0001821268-24-000109-index.html) — published 2024-06-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [DEF 14A 0001821268-26-000147](https://www.sec.gov/Archives/edgar/data/1219120/000182126826000147/gug90109avk.htm) — published 2026-08-19; retrieved 2026-11-17T21:35:23.541732+00:00.
+
+[S54] [8-K 0001821268-25-000274](https://www.sec.gov/Archives/edgar/data/1219120/000182126825000274/gug89497avk8k.htm) — published 2025-12-18; retrieved 2026-11-17T21:35:22.025175+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

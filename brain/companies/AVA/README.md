@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -468,6 +468,30 @@ sources:
   published_at: '2026-03-17'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/104918/000119312526357089/ava-20260817.htm
+  title: 8-K 0001193125-26-357089
+  published_at: '2026-08-19'
+  retrieved_at: '2026-11-17T21:33:37.291760+00:00'
+  sha256: 5323e0bbae336e062e7094b35e09c65717551ec8fd5c4dd8e964ff9f152904c5
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/104918/000119312526329083/ava-20260630.htm
+  title: 10-Q 0001193125-26-329083
+  published_at: '2026-08-03'
+  retrieved_at: '2026-11-17T21:33:35.653516+00:00'
+  sha256: 3fa6028f7a5cc35138b5b7da69ba0e7ea0186dad74388c93f19d23c443449f71
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/104918/000119312526138034/d853530ddef14a.htm
+  title: DEF 14A 0001193125-26-138034
+  published_at: '2026-04-01'
+  retrieved_at: '2026-11-17T21:33:33.945686+00:00'
+  sha256: c8e0853b0fb1b85e19e11693b64d37af3bff5b872e04a0a7cc21d48cd46b780d
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/104918/000119312526067872/ava-20251231.htm
+  title: 10-K 0001193125-26-067872
+  published_at: '2026-02-25'
+  retrieved_at: '2026-11-17T21:33:31.681684+00:00'
+  sha256: a7ce9f8512784338b6daa9f555ee1184d8bf7bfa609d769651169ef7bc05803f
 issuer_classification:
   cik: 0000104918
   classification_status: reported_sic
@@ -505,13 +529,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/104918/000119312526357089/0001193125-26-357089-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 162d9a23cd26b85ff0749be7e152051d32c4e591ad00c7e5da2476bc4166ccca
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -535,17 +570,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-03, L772:
+
+> pandemics, which could disrupt our business, as well as the global, national and local economy, resulting in a decline in customer demand, deterioration in the creditworthiness of our customers, increases in operating and capital costs, workforce shortages, losses or disruptions in our workforce due to vaccine mandates, delays in capital projects, disruption in supply chains, and disruption, weakness and volatility in capital markets. In addition, any of these factors could negatively impact our liquidity and limit our access to capital, among other implications; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-03, L9515:
+
+> The business segment presentation reflects the information reviewed by the Company's Chief Operating Decision Maker (CODM, the Company's President and Chief Executive Officer). Such information is the basis for the analysis of segment performance and the allocation of resources. Performance is evaluated based on net income (loss) and variances of actual performance from the Company's budget and/or forecast when making decisions. The accounting policies of the segments are the same as those described in the summary of significant accounting policies. Avista Utilities' business is managed based on the total regulated utility operation; therefore, it is considered one segment. AEL&P is a separate reportable business segment since it has separate financial information and its operations and risks are sufficiently different from Avista Utilities and the other businesses at AERC that it cannot be aggregated with other operating segments. The Other category, which is not a reportable segment, includes other investments and operations of various subsidiaries, as well as certain other operations of Avista Capital. Decisions by the CODM are made in consultation with other members of management, as appropriate, and are subject to the general oversight and strategic direction of the Board of Directors. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-03, L819:
+
+> growth or decline of our customer base due to new uses for our services or decline in existing services, including, but not limited to, the effect of the trend toward distributed generation at customer sites; [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-03, L762:
+
+> interruptions in the delivery of natural gas by our suppliers, including physical problems with pipelines themselves, can disrupt our service of natural gas to our customers and/or impair our ability to operate gas-fired electric generating facilities; [S69]
 
 ## Industry and value chain
 
@@ -553,17 +604,33 @@ SEC-reported SIC **4931**: Electric & Other Services Combined. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-03, L762:
+
+> interruptions in the delivery of natural gas by our suppliers, including physical problems with pipelines themselves, can disrupt our service of natural gas to our customers and/or impair our ability to operate gas-fired electric generating facilities; [S69]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-08-03, L828:
+
+> wholesale and retail competition including alternative energy sources, growth in customer-owned power resource technologies that displace utility-supplied energy or may be sold back to the utility, and alternative energy suppliers and delivery arrangements; [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-03, L812:
+
+> changes in the use, perception, or regulation of generative artificial intelligence technologies, which could limit our ability to utilize such technology, create risk of enhanced regulatory scrutiny, generate uncertainty around intellectual property ownership, licensing or use, or which could otherwise result in risk of damage to our business, reputation or financial results; [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-K, filed 2026-02-25, L1395:
+
+> Competitive pay and benefits, or total rewards, are a key component of our strategy to attract and retain talented employees. The Company is committed to equitable and market-competitive compensation and has well-established practices to create competitive offers, reward performance, and support employee retention. The Company regularly monitors the benefits market and manages benefit costs through a comprehensive program that supports our employees’ physical, mental, and financial well-being. [S71]
 
 ## Financial performance
 
@@ -1193,6 +1260,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-08-19, L88:
+
+> On August 17, 2026 the Board of Directors of Avista Corporation (Avista Corp. or the Company) amended Article III, Section 2 of the Company's Bylaws to increase the age at which a director can be elected or re-elected from 72 to 75 years. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1205,6 +1276,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-03, L13583:
+
+> Refer to the 2025 Form 10-K for disclosure of risk factors that could have a significant impact on our results of operations, financial condition or cash flows and could cause actual results or outcomes to differ materially from those discussed in our reports filed with the SEC (including this Quarterly Report on Form 10-Q), and elsewhere. These risk factors have not materially changed from the disclosures provided in the 2025 Form 10-K. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1214,25 +1289,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 
 ## Relationships and themes
@@ -1295,6 +1370,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-01 | DEF 14A | 0001193125-26-138034 | — | [S65] |
 | 2026-03-26 | SCHEDULE 13G/A | 0000102909-26-000720 | — | [S66] |
 | 2026-03-17 | 4 | 0000104918-26-000045 | — | [S67] |
+
+Source excerpt — 10-Q, filed 2026-08-03, L5824:
+
+> Avista Corp. plans for sufficient natural gas delivery capacity to serve its retail customers for a theoretical peak-day event. Avista Corp. generally has more pipeline and storage capacity than is needed during periods other than a peak-day. Avista Corp. optimizes its natural gas resources by using market opportunities to generate economic value that mitigates the fixed costs. Avista Corp. also optimizes its natural gas storage capacity by purchasing and storing natural gas when prices are traditionally lower, typically in the summer, and withdrawing during higher priced months, typically during the winter. However, if market conditions and prices indicate that Avista Corp. should buy or sell natural gas at other times during the year, Avista Corp. engages in optimization transactions to capture value in the marketplace. Natural gas optimization activities include, but are not limited to, wholesale market sales of surplus natural gas supplies, purchases and sales of natural gas to optimize use of pipeline and storage capacity, and participation in the transportation capacity release market. [S69]
 
 ## Sources and change log
 
@@ -1431,5 +1510,13 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [SCHEDULE 13G/A 0000102909-26-000720](https://www.sec.gov/Archives/edgar/data/104918/000010290926000720/0000102909-26-000720-index.html) — published 2026-03-26; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4 0000104918-26-000045](https://www.sec.gov/Archives/edgar/data/104918/000010491826000045/0000104918-26-000045-index.html) — published 2026-03-17; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-357089](https://www.sec.gov/Archives/edgar/data/104918/000119312526357089/ava-20260817.htm) — published 2026-08-19; retrieved 2026-11-17T21:33:37.291760+00:00.
+
+[S69] [10-Q 0001193125-26-329083](https://www.sec.gov/Archives/edgar/data/104918/000119312526329083/ava-20260630.htm) — published 2026-08-03; retrieved 2026-11-17T21:33:35.653516+00:00.
+
+[S70] [DEF 14A 0001193125-26-138034](https://www.sec.gov/Archives/edgar/data/104918/000119312526138034/d853530ddef14a.htm) — published 2026-04-01; retrieved 2026-11-17T21:33:33.945686+00:00.
+
+[S71] [10-K 0001193125-26-067872](https://www.sec.gov/Archives/edgar/data/104918/000119312526067872/ava-20251231.htm) — published 2026-02-25; retrieved 2026-11-17T21:33:31.681684+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

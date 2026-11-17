@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -362,6 +362,18 @@ sources:
   published_at: '2023-08-10'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1817740/000110465926091322/aust-20260630x6k.htm
+  title: 6-K 0001104659-26-091322
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-17T21:33:10.207498+00:00'
+  sha256: 30866df1896724849124575007f44b8826a7a5bfa62182065279986ed2976426
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1817740/000110465926035225/aust-20251231x20f.htm
+  title: 20-F 0001104659-26-035225
+  published_at: '2026-03-26'
+  retrieved_at: '2026-11-17T21:33:08.519990+00:00'
+  sha256: 59e45266f9931af44fb94bc499d500daf0d6064cd7969ea2e5c99fed03cc4a06
 issuer_classification:
   cik: 0001817740
   classification_status: reported_sic
@@ -389,13 +401,21 @@ research_filings:
   form: 6-K
   url: https://www.sec.gov/Archives/edgar/data/1817740/000110465926091322/0001104659-26-091322-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 234608bcde3aa3ad59179322d850670d33ad3cbf8fabc1a98fc83c2ad501abb7
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -419,6 +439,10 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 20-F, filed 2026-03-26, L616:
+
+> We and our business are subject to material risks, which could cause actual results, performance and achievements to differ materially from those anticipated. Refer to the risk factors set forth in the section entitled “Risk Factors” in this Annual Report. These risks can be summarized as follows: [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -437,17 +461,33 @@ SEC-reported SIC **1040**: Gold and Silver Ores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 20-F, filed 2026-03-26, L865:
+
+> Regulations and pending legislation governing issues involving climate change could result in increased operating costs, which could have a material adverse effect on our business. A number of governments or governmental bodies have introduced or are contemplating regulatory changes in response to climate and its potential impacts. Legislation and increased regulation regarding climate change could impose significant costs on us, our venture partners and our suppliers, including costs related to increased energy requirements, capital equipment, environmental monitoring and reporting and other costs to comply with such regulations. Any adopted climate change regulations could also negatively impact our ability to compete with companies situated in areas not subject to such regulations. Given the emotion, political significance and uncertainty around the impact of climate change and how it should be dealt with, we cannot predict how legislation and regulation will affect our financial condition, operating performance and ability to compete. Furthermore, even without such regulation, increased awareness and any adverse publicity in the global marketplace about potential impacts on climate change by us or other companies in the natural resources industry could harm our reputation. [S54]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 20-F, filed 2026-03-26, L611:
+
+> Shareholders, potential shareholders and other prospective investors should be aware that these statements are subject to known and unknown risks, uncertainties and other factors that could cause actual results to differ materially from those suggested by the forward - looking statements. Such factors include, but are not limited to: risks relating to estimates of mineral reserves proving to be inaccurate, fluctuations in the gold price, risks and hazards associated with the business of mineral exploration, development and mining (including environmental hazards, industrial accidents, unusual or unexpected geological or structural formations, pressures, power outages, explosions, landslides, cave - ins and flooding), risks relating to the credit worthiness or financial condition of suppliers, refiners and other parties with whom the Company does business; inadequate insurance, or inability to obtain insurance, to cover these risks and hazards, employee relations; relationships with and claims by local communities and indigenous populations; political risk; risks related to natural disasters, terrorism, civil unrest, public health concerns (including health epidemics or outbreaks of communicable diseases such as the coronavirus); availability and increasing costs associated with mining inputs and labor; the speculative nature of mineral exploration and development, including … [S54]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 20-F, filed 2026-03-26, L911:
+
+> AI systems may produce inaccurate, biased, or otherwise unreliable outputs and may present privacy, cybersecurity, intellectual property, and human rights risks. Our reliance on third-party AI providers may limit our visibility into training data, model design, and risk controls. Failure to manage these risks effectively, or to provide appropriate disclosure regarding our use of AI, could result in legal liability, reputational harm, regulatory investigations, or adverse impacts on our business, financial condition, and results of operations. [S54]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 20-F, filed 2026-03-26, L685:
+
+> We may be subject to currency rate risk. Our reporting currency is the USD, which is exposed to fluctuations against other currencies. Our properties are located in the USA with corporate operations in Canada. Should we expand our operations into other countries, our expenditures and obligations may be incurred in foreign currencies. As such, our results of operations may become subject to foreign currency fluctuation risks and such fluctuations may adversely affect the financial position and our operating results. At this time, we have not implemented measures to mitigate transactional volatility in the CAD. We may, however, enter into foreign currency forward contracts in order to match or partially offset existing currency exposures. [S54]
 
 ## Financial performance
 
@@ -461,6 +501,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 20-F, filed 2026-03-26, L119:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -472,6 +516,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 20-F, filed 2026-03-26, L616:
+
+> We and our business are subject to material risks, which could cause actual results, performance and achievements to differ materially from those anticipated. Refer to the risk factors set forth in the section entitled “Risk Factors” in this Annual Report. These risks can be summarized as follows: [S54]
 
 ## Scenarios and open questions
 
@@ -485,25 +533,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -567,6 +615,10 @@ Latest 50 filing metadata records of 109 retained records. A filing link is evid
 | 2023-10-11 | 6-K | 0001062993-23-019218 | — | [S50] |
 | 2023-09-20 | 6-K | 0001062993-23-018328 | — | [S51] |
 | 2023-08-10 | 6-K | 0001062993-23-016211 | — | [S52] |
+
+Source excerpt — 20-F, filed 2026-03-26, L4838:
+
+> Any bonuses paid are allocated on an individual basis and are based on review by the Board of the work planned during the year and the work achieved during the year, including work related to mineral exploration, administration, financing, shareholder relations and overall performance. At the time of this Annual Report, the Company does not have a formal bonus plan. As at the date of this Annual Report, the Company has adopted an Incentive Compensation Recovery Policy (as defined below) to allow the Company to claw-back bonuses or any other payments for inappropriate behavior, including financial statement misstatements. [S54]
 
 ## Sources and change log
 
@@ -673,5 +725,9 @@ Latest 50 filing metadata records of 109 retained records. A filing link is evid
 [S51] [6-K 0001062993-23-018328](https://www.sec.gov/Archives/edgar/data/1817740/000106299323018328/0001062993-23-018328-index.html) — published 2023-09-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [6-K 0001062993-23-016211](https://www.sec.gov/Archives/edgar/data/1817740/000106299323016211/0001062993-23-016211-index.html) — published 2023-08-10; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [6-K 0001104659-26-091322](https://www.sec.gov/Archives/edgar/data/1817740/000110465926091322/aust-20260630x6k.htm) — published 2026-08-06; retrieved 2026-11-17T21:33:10.207498+00:00.
+
+[S54] [20-F 0001104659-26-035225](https://www.sec.gov/Archives/edgar/data/1817740/000110465926035225/aust-20251231x20f.htm) — published 2026-03-26; retrieved 2026-11-17T21:33:08.519990+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

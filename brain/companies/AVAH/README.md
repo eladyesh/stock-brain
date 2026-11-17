@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -472,6 +472,48 @@ sources:
   published_at: '2026-03-19'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000119312526412540/avah-20261001.htm
+  title: 8-K 0001193125-26-412540
+  published_at: '2026-10-02'
+  retrieved_at: '2026-11-17T21:33:54.292475+00:00'
+  sha256: c5b5e879c7e670efeb4e330130f3e87e72e988560725842eb810ec048c13a575
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000119312526347842/avah-20260704.htm
+  title: 10-Q 0001193125-26-347842
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-17T21:33:52.847509+00:00'
+  sha256: a7c20f445dd9bf7533594921ee25401afc7c1eb94fbd17843e5abb1da454ada5
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000119312526161632/d798829ddef14a.htm
+  title: DEF 14A 0001193125-26-161632
+  published_at: '2026-04-17'
+  retrieved_at: '2026-11-17T21:33:51.272981+00:00'
+  sha256: 438962e5807320a3b159ca6bbfe3cf935e59c94191f91294e464b6011b442ae5
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000119312526115851/avah-20260103.htm
+  title: 10-K 0001193125-26-115851
+  published_at: '2026-03-19'
+  retrieved_at: '2026-11-17T21:33:49.415654+00:00'
+  sha256: 3d6e8eabdd92303d76a32ea76200ff61c6273234c014c05348e4acc3dd8bc751
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000095017025081394/avah-20250401.htm
+  title: 8-K/A 0000950170-25-081394
+  published_at: '2025-06-04'
+  retrieved_at: '2026-11-17T21:33:47.387106+00:00'
+  sha256: e1ac2f74b61d344d9ae137e6398e7926f2bb284448d0344cefb03450a9bbbffb
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000119312522311515/d440177d8ka.htm
+  title: 8-K/A 0001193125-22-311515
+  published_at: '2022-12-23'
+  retrieved_at: '2026-11-17T21:33:45.953727+00:00'
+  sha256: 2b6a8eeeb63c4ecf3d9a44aedbb9ceb0f4b65123936e098b4dfb0bb2ebe56435
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/1832332/000095017022002025/avah-20211210.htm
+  title: 8-K/A 0000950170-22-002025
+  published_at: '2022-02-25'
+  retrieved_at: '2026-11-17T21:33:39.135467+00:00'
+  sha256: 3b0ab9bf7d94d8238192a26d351b56ce7c2320d7aa091369f5e7176aa544cf72
 issuer_classification:
   cik: 0001832332
   classification_status: reported_sic
@@ -521,13 +563,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1832332/000095017022002025/0000950170-22-002025-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: cae80cd8dd62b231524866557b29bc6ed2609e4187b771e72e807ae2bb9fee71
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -551,17 +603,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L283:
+
+> the possibility that our business, financial condition and results of operations may be materially adversely affected by public health emergencies, such as a pandemic or other infectious disease outbreak; [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L3633:
+
+> The Company’s operating segments have been identified based upon how management has organized the business by services provided to customers and how the chief operating decision maker ("CODM") manages the business and allocates resources. The CODM for the Company is the Chief Executive Officer. The Company has three operating segments and three reportable segments, Private Duty Services, Home Health & Hospice, and Medical Solutions. The PDS segment predominantly includes private duty skilled nursing services, non-clinical and personal care services, and pediatric therapy services and is primarily reimbursed by Medicaid and Medicaid MCO. The HHH segment provides home health and hospice services to predominately elderly patients and is primarily reimbursed by Medicare. Through the MS segment, the Company provides enteral nutrition and other products to adults and children, delivered on a periodic or as-needed basis and is primarily reimbursed by Medicaid and Medicaid MCO. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-13, L4611:
+
+> We deliver our services to patients through three segments: Private Duty Services (“PDS”); Home Health & Hospice (“HHH”); and Medical Solutions (“MS”). [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-19, L459:
+
+> We believe that our platform differentiates us from our competitors and enables us to serve our stakeholders and grow rapidly in a range of home care end markets. Key elements of our platform include: [S71]
 
 ## Industry and value chain
 
@@ -573,13 +641,25 @@ This is reported industry metadata, not an official GICS assignment or a complet
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-19, L392:
+
+> Competition for labor. The home health and hospice industries have historically experienced shortages in qualified employees and management, and competition for qualified personnel may increase our labor costs and reduce profitability; [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-03-19, L476:
+
+> We believe our scale enables a virtuous cycle of network effects and competitive advantages for our business. First, our local market density creates a network effect where more nurses and higher quality of care translate into the ability to staff cases quickly and find the right match, which in turn, drives more referrals and higher branch profit. This creates a virtuous cycle of scale advantage where higher volumes for Aveanna enable more platform reinvestment, more capital for acquisitions and de novo expansions, and greater payer and referral preference, further driving volumes. These platform investments in turn allow us to develop and maintain advantaged capabilities, technology and infrastructure that create more value for our customers and reinforce our advantages vs. competitors. In particular, we believe that (1) our larger nursing panel and one stop shop service offering translate into higher referent satisfaction levels, higher win rates and more case volumes, (2) our advantaged nurse recruiting, training and staffing capability translate into higher case fill rates and a higher quality of care, (3) our large and sophisticated business development team translates into higher rates of referent penetration in local hospitals, as well as better relationships with payers allowing for meaningful partnerships that help drive volume and rate while creating value-based … [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-17, L899:
+
+> Mr. Windley, in his role as Chairman, presides over meetings of the Board and brings his strong operational experience, extensive knowledge of our industry, and innovative leadership skills to support management’s execution of our strategy and focus our directors’ attention on the most critical matters affecting our business. [S70]
 
 ## Financial performance
 
@@ -1200,6 +1280,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-02, L88:
+
+> On October 1, 2026, Steven E. Rodgers, a Class II director of Aveanna Healthcare Holdings Inc. (the "Company"), notified the Company of his decision to resign from the Company's Board of Directors, effective immediately. Mr. Rodgers‘ decision to resign was not due to any disagreement with the Company on any matter relating to its operations, policies, or practices. Prior to his resignation, Mr. Rodgers was an independent director, serving on both the Audit Committee and the Compensation Committee of the Board of Directors. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1212,6 +1296,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L283:
+
+> the possibility that our business, financial condition and results of operations may be materially adversely affected by public health emergencies, such as a pandemic or other infectious disease outbreak; [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1221,25 +1309,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 - **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1303,6 +1391,10 @@ Latest 50 filing metadata records of 411 retained records. A filing link is evid
 | 2026-03-20 | 8-K | 0001832332-26-000002 | — | [S65] |
 | 2026-03-19 | S-8 | 0001193125-26-115976 | — | [S66] |
 | 2026-03-19 | S-8 | 0001193125-26-115975 | — | [S67] |
+
+Source excerpt — DEF 14A, filed 2026-04-17, L1163:
+
+> The Audit Committee of the Board of Directors has appointed Ernst & Young LLP (“Ernst & Young” or “EY”) as the Company’s independent registered public accounting firm for the fiscal year ending January 2, 2027. The submission of this matter for ratification by stockholders is not legally required; however, our Board of Directors believes that such submission is consistent with best practices in corporate governance and is an opportunity for stockholders to provide direct feedback to the Audit Committee and the Board of Directors on an important matter of corporate governance. If the selection is not ratified, the Audit Committee will consider whether it is appropriate to select another independent registered public accounting firm as our Company’s external auditor. Even if the selection is ratified, the Audit Committee in its discretion may select a different independent registered public accounting firm to be our Company’s external auditor at any time during the year if it determines that such a change would be in the best interests of our Company and our stockholders. [S70]
 
 ## Sources and change log
 
@@ -1439,5 +1531,19 @@ Latest 50 filing metadata records of 411 retained records. A filing link is evid
 [S66] [S-8 0001193125-26-115976](https://www.sec.gov/Archives/edgar/data/1832332/000119312526115976/0001193125-26-115976-index.html) — published 2026-03-19; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [S-8 0001193125-26-115975](https://www.sec.gov/Archives/edgar/data/1832332/000119312526115975/0001193125-26-115975-index.html) — published 2026-03-19; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-412540](https://www.sec.gov/Archives/edgar/data/1832332/000119312526412540/avah-20261001.htm) — published 2026-10-02; retrieved 2026-11-17T21:33:54.292475+00:00.
+
+[S69] [10-Q 0001193125-26-347842](https://www.sec.gov/Archives/edgar/data/1832332/000119312526347842/avah-20260704.htm) — published 2026-08-13; retrieved 2026-11-17T21:33:52.847509+00:00.
+
+[S70] [DEF 14A 0001193125-26-161632](https://www.sec.gov/Archives/edgar/data/1832332/000119312526161632/d798829ddef14a.htm) — published 2026-04-17; retrieved 2026-11-17T21:33:51.272981+00:00.
+
+[S71] [10-K 0001193125-26-115851](https://www.sec.gov/Archives/edgar/data/1832332/000119312526115851/avah-20260103.htm) — published 2026-03-19; retrieved 2026-11-17T21:33:49.415654+00:00.
+
+[S72] [8-K/A 0000950170-25-081394](https://www.sec.gov/Archives/edgar/data/1832332/000095017025081394/avah-20250401.htm) — published 2025-06-04; retrieved 2026-11-17T21:33:47.387106+00:00.
+
+[S73] [8-K/A 0001193125-22-311515](https://www.sec.gov/Archives/edgar/data/1832332/000119312522311515/d440177d8ka.htm) — published 2022-12-23; retrieved 2026-11-17T21:33:45.953727+00:00.
+
+[S74] [8-K/A 0000950170-22-002025](https://www.sec.gov/Archives/edgar/data/1832332/000095017022002025/avah-20211210.htm) — published 2022-02-25; retrieved 2026-11-17T21:33:39.135467+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

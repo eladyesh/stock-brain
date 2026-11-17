@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -470,6 +470,36 @@ sources:
   published_at: '2025-08-13'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/5981/000119312526409777/d197526d8k.htm
+  title: 8-K 0001193125-26-409777
+  published_at: '2026-10-01'
+  retrieved_at: '2026-11-17T21:34:57.525722+00:00'
+  sha256: e7489941cffd63c845c7e724f1c4fe7c5c0063486746b2a5bebcba42b04c2118
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/5981/000119312526409138/d942957d10ka.htm
+  title: 10-K/A 0001193125-26-409138
+  published_at: '2026-09-30'
+  retrieved_at: '2026-11-17T21:34:55.651935+00:00'
+  sha256: 5d0c0b11e00cd6a7df563001c96e8461183f887594957f11a8e1b9a7c4ae7479
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/5981/000119312526342489/avd-20260630.htm
+  title: 10-Q 0001193125-26-342489
+  published_at: '2026-08-10'
+  retrieved_at: '2026-11-17T21:34:53.903371+00:00'
+  sha256: 76dba161ec69a4b1fb0688e44f9ff0e5b2eb139d300c68d04dbf1493514f2da4
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/5981/000119312526173620/avd-20260423.htm
+  title: DEF 14A 0001193125-26-173620
+  published_at: '2026-04-23'
+  retrieved_at: '2026-11-17T21:34:50.135965+00:00'
+  sha256: 64881ae915d3c21365fa66f6a6a6bf0374873092eeebdf687525795b5d451467
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/5981/000119312526108593/avd-20251231.htm
+  title: 10-K 0001193125-26-108593
+  published_at: '2026-03-16'
+  retrieved_at: '2026-11-17T21:34:47.162737+00:00'
+  sha256: 71c291a191676f91f626fc1ed2246d698bf8f70de4c3bfc5363da564eb82fe55
 issuer_classification:
   cik: 0000005981
   classification_status: reported_sic
@@ -512,13 +542,24 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/5981/000119312526409777/0001193125-26-409777-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: be357204e6c380e585bb5014348bb02f60cea5cbc1b8d6fbbbd65e9a3fbf7932
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -542,17 +583,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K/A, filed 2026-09-30, L5460:
+
+> Gross domestic federal and state NOLs available across all jurisdictions in which we operate were $76,166 and $30,062 as of December 31, 2025 and 2024, respectively. The Company’s federal NOL can be carried forward indefinitely and is subject to annual limitations in accordance with IRC Section 382. The Company’s state NOLs expire over varying intervals in the future and are subject to annual limitations in accordance with IRC Section 382. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K/A, filed 2026-09-30, L3257:
+
+> American Vanguard Corporation (the “Company” or “AVD”) is primarily a specialty solutions manufacturer that develops and markets safe synthetic, biological and biorational products for agricultural, commercial and consumer uses. The consolidated financial statements include the accounts of the Company and its subsidiaries. All significant intercompany accounts and transactions have been eliminated in consolidation. The Company’s Chief Executive Officer is the Chief Operating Decision Maker (CODM), and the Company operates within a single operating and reportable segment. The Company’s CODM makes strategic decisions based on the Company’s consolidated financial statements, and market opportunities and synergies across the entire organization. Therefore, the Company’s CODM allocates resources and assesses financial performance on a consolidated basis. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K/A, filed 2026-09-30, L5853:
+
+> On October 5, 2023, the Company completed the acquisition of all outstanding stock of Punto Verde S.A. Punversa (Punto Verde), a well-established distributor in Guayaquil, Ecuador, to strengthen its product portfolio and market access in the Latin American region. The Company paid cash consideration of $4,492, which was net of cash acquired of $233. The acquisition was accounted for as a business combination and the purchase consideration was allocated as follows: [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-03-16, L715:
+
+> Our business is subject to fluctuations and volatility in the global economy. The Company’s global business operations give rise to market risk exposure related to changes in inflation, foreign currency exchange rates, including the impact of foreign currency exchange rates resulting from highly inflationary economies interest rates, commodity prices and other market factors such as equity prices. In addition, any volatility and disruption of financial markets could limit the ability of our customers and suppliers to obtain adequate financing to maintain operations, which could result in a decrease in sales volume and have a negative impact on the Company’s results of operations. If the Company fails to effectively manage such risks, it could have a negative impact on its results of operations. [S72]
 
 ## Industry and value chain
 
@@ -560,17 +617,33 @@ SEC-reported SIC **2870**: Agricultural Chemicals. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-10, L6757:
+
+> The domestic crop protection market for the first half of 2026 was stable; channel inventories were low, and demand was generally consistent with seasonal need. With the farm economy continuing to feel the effects of high cost of capital coupled and higher costs of fuel and fertilizer (largely due to military activity in the Middle East), the distribution channel persisted in following conservative procurement practices, buying goods closer to time-of-need and minimizing carrying costs. The domestic Specialty market was strong during the six-month period with stable sales performance across multiple segments (ornamental, pest control, turf and landscape). However, in the face of adverse weather and increased raw materials prices, the International markets were not as strong. Thus, on a consolidated basis, the Company’s net sales performance for the first half of 2026 was flat to slightly down, operating profit was up, and, with substantially higher interest expense, net income declined. [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K/A, filed 2026-09-30, L3698:
+
+> Intangible Assets—The primary identifiable intangible assets of the Company relate to assets associated with its product and business acquisitions. All the Company’s intangible assets are amortizing assets with finite lives. The estimated useful life of an identifiable intangible asset is based upon several factors including the effects of demand, competition, and expected changes in the marketability of the Company’s products. [S69]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K/A, filed 2026-09-30, L3680:
+
+> Contract Assets—Contract assets relate to royalties earned on certain functional licenses granted for the use of the Company’s intellectual property. At December 31, 2025, the contract assets amounted to $8,250 and are included in other assets on the consolidated balance sheets. The Company did not have any contract assets as of December 31, 2024. [S69]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-23, L519:
+
+> Compensation – as highlighted in our strategy, compensation is a pivotal component of our human capital approach. We consistently motivate our workforce through competitive compensation and comprehensive welfare benefits. Additionally, we proactively educate our employees on the totality of their compensation, encompassing wages, cash incentives, equity, health benefits, and paid time off. [S71]
 
 ## Financial performance
 
@@ -1185,6 +1258,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-01, L79:
+
+> On October 1, 2026, the board of directors (the “Board”) of American Vanguard Corporation (“Registrant” or the “Company”) appointed Matthew Horwath, age 43, to the position of Chief Financial Officer following the completion of an executive search, effective October 1, 2026 (the “Effective Date”). [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1197,6 +1274,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-10, L5735:
+
+> The Company, from time-to-time, may discuss forward-looking statements including assumptions concerning the Company’s operations, future results and prospects. Generally, “may,” “could,” “will,” “would,” “expect,” “believe,” “estimate,” “anticipate,” “intend,” “continue” and similar words identify forward-looking statements. Forward-looking statements appearing in this report are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements are based on our current expectations and are subject to risks and uncertainties that can cause actual results and events to differ materially from those set forth in or implied by the forward-looking statements and related assumptions contained in the entire report. Such factors include, but are not limited to: product demand and market acceptance risks; the effect of economic conditions; weather conditions; military activity and other geopolitical activity; changes in regulatory policy; the impact of competitive products and pricing; changes in foreign exchange rates; product development and commercialization difficulties; capacity and supply constraints or difficulties; availability of capital resources given that interest rate and inflation affect the debt market; and general business regulations, including taxes and other risks as detailed from time-to-time in the … [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1206,25 +1287,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1288,6 +1369,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2025-08-19 | 8-K | 0001193125-25-183463 | — | [S65] |
 | 2025-08-14 | 4 | 0000950170-25-108796 | — | [S66] |
 | 2025-08-13 | 4/A | 0000897069-25-001314 | — | [S67] |
+
+Source excerpt — 10-K/A, filed 2026-09-30, L3702:
+
+> As of October 1, 2025, the Company conducted its most recent annual impairment test by quantitatively testing its goodwill which relates entirely to its international reporting unit. Based on the results of the quantitative test, the carrying value of the international reporting unit exceeded its respective fair value by $23,816. As a result, the Company recorded a full impairment charge of its remaining goodwill balance in the amount of $21,040 during the year ended December 31, 2025. [S69]
 
 ## Sources and change log
 
@@ -1424,5 +1509,15 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S66] [4 0000950170-25-108796](https://www.sec.gov/Archives/edgar/data/5981/000095017025108796/0000950170-25-108796-index.html) — published 2025-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [4/A 0000897069-25-001314](https://www.sec.gov/Archives/edgar/data/5981/000089706925001314/0000897069-25-001314-index.html) — published 2025-08-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K 0001193125-26-409777](https://www.sec.gov/Archives/edgar/data/5981/000119312526409777/d197526d8k.htm) — published 2026-10-01; retrieved 2026-11-17T21:34:57.525722+00:00.
+
+[S69] [10-K/A 0001193125-26-409138](https://www.sec.gov/Archives/edgar/data/5981/000119312526409138/d942957d10ka.htm) — published 2026-09-30; retrieved 2026-11-17T21:34:55.651935+00:00.
+
+[S70] [10-Q 0001193125-26-342489](https://www.sec.gov/Archives/edgar/data/5981/000119312526342489/avd-20260630.htm) — published 2026-08-10; retrieved 2026-11-17T21:34:53.903371+00:00.
+
+[S71] [DEF 14A 0001193125-26-173620](https://www.sec.gov/Archives/edgar/data/5981/000119312526173620/avd-20260423.htm) — published 2026-04-23; retrieved 2026-11-17T21:34:50.135965+00:00.
+
+[S72] [10-K 0001193125-26-108593](https://www.sec.gov/Archives/edgar/data/5981/000119312526108593/avd-20251231.htm) — published 2026-03-16; retrieved 2026-11-17T21:34:47.162737+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

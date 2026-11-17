@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 231e22e6f144af83428cd9a6ca5f5f51c1d1744d
+source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -475,6 +475,42 @@ sources:
   published_at: '2026-05-22'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000182810826000082/aur-20260923.htm
+  title: 8-K 0001828108-26-000082
+  published_at: '2026-09-23'
+  retrieved_at: '2026-11-17T21:32:52.965477+00:00'
+  sha256: ee284cd956cfaffd2863e8dbd18ec3fbdf3314bb2350233bed87cb33d04824c6
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000182810826000077/aur-20260630.htm
+  title: 10-Q 0001828108-26-000077
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-17T21:32:51.530879+00:00'
+  sha256: 1984c855bb84896da4f47ea326ab4dd0b4512c0d91b67137bb43e229d734b43f
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000182810826000044/aur-20260402.htm
+  title: DEF 14A 0001828108-26-000044
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-17T21:32:50.026820+00:00'
+  sha256: 9672f44d463b48a1461f48b9891855b1cf07c1a26f67369468643dbac2f50ed1
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000182810826000016/aur-20251231.htm
+  title: 10-K 0001828108-26-000016
+  published_at: '2026-02-11'
+  retrieved_at: '2026-11-17T21:32:48.563329+00:00'
+  sha256: 5cdc212ed9e5b3041a3643ad6e2aed13c13cae8f748f08b6a3f89bd6beff8b94
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000182810823000190/aur-20230612.htm
+  title: 8-K/A 0001828108-23-000190
+  published_at: '2023-09-01'
+  retrieved_at: '2026-11-17T21:32:47.266126+00:00'
+  sha256: ae8559c7b4a87d1ff36dadc2f0f1549474e5286e58b32f2ef1d03d480934496e
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1828108/000119312521330051/d357184d8ka.htm
+  title: 8-K/A 0001193125-21-330051
+  published_at: '2021-11-15'
+  retrieved_at: '2026-11-17T21:32:45.605986+00:00'
+  sha256: 24fa12dddea8b8c053ca0892373b46bfc891e7451ebcf1b9f0a36ed96a63d095
 issuer_classification:
   cik: 0001828108
   classification_status: reported_sic
@@ -520,13 +556,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1828108/000119312521330051/0001193125-21-330051-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 7c3252d96d48c6ce130d5420d2093ba5486d4f0dd6a70a4cd2b8ffd82897a9c8
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-17T21:29:10.535348+00:00'
+  last_success_at: '2026-11-17T21:29:10.535348+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -550,17 +597,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-29, L176:
+
+> •anticipated trends, growth rates, and challenges in our business and in the markets in which we operate; [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-29, L940:
+
+> The Company has one reportable segment managed on a consolidated basis by the Chief Executive Officer (CEO) who is the chief operating decision maker (“CODM”). In identifying one reportable segment, the Company considered the basis of organization for the continued development of the Aurora Driver, an advanced and scalable suite of self-driving hardware, software and data services designed as a platform to adapt and interoperate amongst vehicle types and applications. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L512:
+
+> Chris Urmson serves as our Chief Executive Officer and Chairman. We believe that Mr. Urmson’s combined role enables strong leadership, creates clear accountability and enhances our ability to communicate our message and strategy clearly and consistently to our stockholders. As one of our founders, Mr. Urmson has extensive knowledge of all aspects of our business, industry and our products, and is best positioned to identify strategic priorities, lead critical discussions and [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L851:
+
+> •Pay-for-performance values. A significant portion of compensation payable to our named executive officers is contingent on meeting performance criteria related to key milestones and corporate strategic objectives, including launching our driverless trucking product — Aurora Driver for Freight, increasing the value of our product for our customers, executing on our scaling strategy, maintaining fiscal strength, and continuing to build external support and advocacy. [S69]
 
 ## Industry and value chain
 
@@ -568,17 +631,33 @@ SEC-reported SIC **7373**: Services-Computer Integrated Systems Design. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-11, L280:
+
+> •Commercial. As a critical part of the United States economy, responsible for moving a significant portion of goods, the trucking industry is a large market opportunity. The trucking industry also faces a number of ongoing challenges that the Aurora Driver can help solve. The industry has experienced a persistent driver shortage, resulting in high driver turnover. Growth in e-commerce increases customer expectations for same- or next-day delivery, while service restrictions on driver operating hours create inherent limitations to optimally fast and responsive supply chains. These constraints increase the cost to transport goods and create supply chain inefficiencies. By enabling greater efficiency, autonomous trucks can have a significant positive impact. For these reasons, the US Department of Transportation has stated that autonomous trucking has the potential to be meaningfully additive to US GDP over time. We believe our technology can help solve key pain points of fleet owners by providing a consistent driver supply, the ability to offer fast and efficient transport, and fuel efficiency. In turn, we believe this creates significant demand and willingness to pay for our product. Additionally, the design and road construction of highways is more standardized and defined across the United States interstate highway system than are local roads, and a very significant amount of … [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-11, L256:
+
+> We have also invested in our next-generation sensing suite, which combines the best of camera, radar, and lidar. This includes developing our Aurora FirstLight Lidar, which uses proprietary frequency modulated continuous wave (“FMCW”) technology that enables long-range sensing, and simultaneous detection of both the position and velocity of objects. We believe that when combined with our industry-leading sensor suite and perception system, this technology uniquely enables safe operation at highway speeds and is unmatched by our competitors’ alternative solutions. We believe this unlocks the global trucking market, as trucks must be capable of operating at up to 65 miles per hour and 80,000 pounds gross vehicle weight, necessitating redundant long-range sensing in order to plan and take action appropriately. High-speed operation is also key to unlocking the full opportunity set across passenger mobility and local goods delivery, where a significant percentage of trips require operation on highways and other high-speed roads. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-02-11, L307:
+
+> Aurora was founded in 2017 by Chris Urmson, Sterling Anderson, and Drew Bagnell, three leaders in the self-driving space. Before co-founding Aurora, Chris led the Google self-driving car team and was technology director for Carnegie Mellon when it won the 2007 DARPA Urban Challenge. Before co-founding Aurora, Sterling developed MIT’s Intelligent CoPilot, then launched Tesla’s Model X and Autopilot. Before co-founding Aurora, Drew worked for two decades at the intersection of artificial intelligence, machine learning and robotics across industry and academia at Carnegie Mellon. As of December 31, 2025, Aurora has assembled an approximately 1,900-person team, of whom approximately 1,600 focus on engineering and product. Our company consists of world-leaders in robotics, artificial intelligence, machine learning, hardware design, software engineering, systems engineering, and safety. Aurora has over 2,000 awarded and pending patents worldwide. In 2021, Aurora acquired and integrated Uber’s self-driving unit, strengthening our team, our technology, and our intellectual property. The acquisition added to the breadth and depth of talent we have to deliver on our mission. We foster a high-performance and mission-driven culture which drives successful execution, and we believe this makes us an employer of choice in our industry. [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-04-02, L487:
+
+> Lara Caimi. Ms. Caimi most recently served as President of Worldwide Field Operations at Samsara Inc. from May 2023 to March 2025, where she led the company’s global go-to-market organization across sales, customer success, partnerships, and revenue operations. Prior to joining Samsara, Ms. Caimi served in senior executive roles at ServiceNow from 2017 to 2023, including as Chief Customer and Partner Officer and Chief Strategy Officer, where she helped scale the company’s global enterprise software platform and partner ecosystem. Earlier in her career, Ms. Caimi was a Partner at Bain & Company, advising technology companies on growth strategy, go-to-market execution, and mergers and acquisitions. Ms. Caimi served on the Board of Directors of Confluent, Inc. since 2020. Ms. Caimi holds a bachelor’s degree in Economics and English Literature from St. Olaf College, a Master of International Business from the University of Sydney as a Fulbright Scholar, and an M.B.A. from Harvard Business School. [S69]
 
 ## Financial performance
 
@@ -1190,6 +1269,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L40:
+
+> On behalf of our Board of Directors, we would like to express our appreciation for your continued support of and interest in Aurora. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1202,6 +1285,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L188:
+
+> •other factors detailed under the section entitled "Risk Factors" in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 and this Quarterly Report. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1211,25 +1298,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1293,6 +1380,10 @@ Latest 50 filing metadata records of 621 retained records. A filing link is evid
 | 2026-05-22 | 4 | 0001828108-26-000054 | — | [S64] |
 | 2026-05-22 | 4 | 0001691284-26-000002 | — | [S65] |
 | 2026-05-22 | 4 | 0001628280-26-037879 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-02, L1347:
+
+> termination, the Eligible Employee executes a separation agreement and provides an effective release of claims (the “Release Requirement”), the Eligible Employee is entitled to receive: (1) a lump sum severance payment in cash equal to 100% of Eligible Employee’s annual base salary, (2) a lump sum payment in cash equal to 100% of the target bonus in effect for the fiscal year in which such termination occurs, prorated for the number of full months of employment occurring during the year of termination, (3) payment or reimbursement for medical insurance premiums under the Consolidated Omnibus Budget Reconciliation Act of 1985, as amended (“COBRA”) for up to 12 months and (4) accelerated vesting as to 100% of the Eligible Employee’s outstanding unvested equity awards that are subject to time-based vesting. [S69]
 
 ## Sources and change log
 
@@ -1427,5 +1518,17 @@ Latest 50 filing metadata records of 621 retained records. A filing link is evid
 [S65] [4 0001691284-26-000002](https://www.sec.gov/Archives/edgar/data/1828108/000169128426000002/0001691284-26-000002-index.html) — published 2026-05-22; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001628280-26-037879](https://www.sec.gov/Archives/edgar/data/1828108/000162828026037879/0001628280-26-037879-index.html) — published 2026-05-22; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001828108-26-000082](https://www.sec.gov/Archives/edgar/data/1828108/000182810826000082/aur-20260923.htm) — published 2026-09-23; retrieved 2026-11-17T21:32:52.965477+00:00.
+
+[S68] [10-Q 0001828108-26-000077](https://www.sec.gov/Archives/edgar/data/1828108/000182810826000077/aur-20260630.htm) — published 2026-07-29; retrieved 2026-11-17T21:32:51.530879+00:00.
+
+[S69] [DEF 14A 0001828108-26-000044](https://www.sec.gov/Archives/edgar/data/1828108/000182810826000044/aur-20260402.htm) — published 2026-04-02; retrieved 2026-11-17T21:32:50.026820+00:00.
+
+[S70] [10-K 0001828108-26-000016](https://www.sec.gov/Archives/edgar/data/1828108/000182810826000016/aur-20251231.htm) — published 2026-02-11; retrieved 2026-11-17T21:32:48.563329+00:00.
+
+[S71] [8-K/A 0001828108-23-000190](https://www.sec.gov/Archives/edgar/data/1828108/000182810823000190/aur-20230612.htm) — published 2023-09-01; retrieved 2026-11-17T21:32:47.266126+00:00.
+
+[S72] [8-K/A 0001193125-21-330051](https://www.sec.gov/Archives/edgar/data/1828108/000119312521330051/d357184d8ka.htm) — published 2021-11-15; retrieved 2026-11-17T21:32:45.605986+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
