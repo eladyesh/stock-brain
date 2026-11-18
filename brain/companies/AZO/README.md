@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -480,6 +480,24 @@ sources:
   published_at: '2026-03-03'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm
+  title: 10-K 0001104659-25-102611
+  published_at: '2025-10-27'
+  retrieved_at: '2026-11-18T21:06:31.675456+00:00'
+  sha256: 87b1fbc43698f6ed4dee9449f88fb666ac6470b859040f256654799375c25fe5
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/866787/000117184318004652/f8ka_061418.htm
+  title: 8-K/A 0001171843-18-004652
+  published_at: '2018-06-14'
+  retrieved_at: '2026-11-18T21:06:30.193451+00:00'
+  sha256: 933054cc46389671c0c1039ebc484b9c8c2fa9ede0827d298c14085ce5922723
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/866787/000117184318001527/f8ka_022818.htm
+  title: 8-K/A 0001171843-18-001527
+  published_at: '2018-02-28'
+  retrieved_at: '2026-11-18T21:06:28.568671+00:00'
+  sha256: f0ec92a8c80da29dc5f6c77d517a6986728d434f95d8b6ee4b4a1729da74749f
 issuer_classification:
   cik: 0000866787
   classification_status: reported_sic
@@ -525,13 +543,23 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/866787/000117184318001527/0001171843-18-001527-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: ebef36146eae5a59cbf067381e651967600bf7685eae3e64323c5a36a7208e0e
-  last_attempt_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-19T21:00:27.361756+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 9
   model_draft: false
   reviewed: false
@@ -555,17 +583,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-K, filed 2025-10-27, L412; prior source set, update pending:
+
+> Certain statements herein constitute forward-looking statements that are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements typically use words such as “believe,” “anticipate,” “should,” “intend,” “plan,” “will,” “expect,” “estimate,” “project,” “positioned,” “strategy,” “seek,” “may,” “could” and similar expressions. These statements are based on assumptions and assessments made by our management in light of experience, historical trends, current conditions, expected future developments and other factors that we believe appropriate. These forward-looking statements are subject to a number of risks and uncertainties, including without limitation: product demand, due to changes in fuel prices, miles driven or otherwise; energy prices; weather, including extreme temperatures and natural disasters; competition; credit market conditions; cash flows; access to financing on favorable terms; future stock repurchases; the impact of recessionary conditions; consumer debt levels; changes in laws or regulations; risks associated with self-insurance; war and the prospect of war, including terrorist activity; public health issues; inflation, including wage inflation; exchange rates; the ability to hire, train and retain qualified employees, including members of management; construction delays; failure or interruption of … [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2025-10-27, L9276; prior source set, update pending:
+
+> In November 2023, the FASB issued ASU 2023-07, Segment Reporting (Topic 280). The amendments in this ASU require disclosures, on an annual and interim basis, of significant segment expenses that are regularly provided to the chief operating decision maker (CODM), as well as the aggregate amount of other segment items included in the reported measure of segment profit or loss. This ASU requires that a public entity disclose the title and position of the CODM and an explanation of how the CODM uses the reported measure(s) of segment profit or loss. Public entities will be required to provide all annual disclosures currently required by Topic 280 in interim periods, and entities with a single reportable segment are required to provide all the disclosures required by the amendments in the update and existing segment disclosures in Topic 280. ASU 2023-07 is effective for fiscal years beginning after December 15, 2023, and interim periods within fiscal years beginning after December 15, 2024, and requires retrospective adoption. Early adoption is permitted. The Company adopted this standard in the fourth quarter ended August 30, 2025. The adoption of this guidance resulted in incremental disclosures in the Company’s financial statements, but did not have any impact on its consolidated financial statements. (Refer to “Note P – Segment Reporting” for additional information.) [S70]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2025-10-27, L1011; prior source set, update pending:
+
+> We want to be the value leader in our industry, by consistently providing quality merchandise at the right price, backed by a satisfactory warranty and outstanding customer service. For many of our products, we offer multiple value choices in a good/better/best assortment, with appropriate price and quality differences from the “good” products to the “better” and “best” products. A key differentiating component versus our competitors is our exclusive line of in-house brands, which includes Duralast and the family of Duralast brands, Econocraft, ProElite, ShopPro, SureBilt, TotalPro, TruGrade and Valucraft. We believe that our overall value compares favorably to that of our competitors. [S70]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2025-10-27, L420; prior source set, update pending:
+
+> We believe the foundation of our success is our culture, which is deeply rooted in our Pledge and Values: Puts Customers First, Cares About People, Strives for Exceptional Performance, Energizes Others, Embraces Diversity and Helps Teams Succeed. Our Pledge and Values define how our employees (“AutoZoners”) take care of customers and fellow AutoZoners by fostering a strong, unique culture of teamwork and customer service. Each AutoZoner works hard to Live the Pledge, remain committed to our values, share their passion for WOW! Customer Service and Go the Extra Mile every day to continue building and growing AutoZone for our customers. [S70]
 
 ## Industry and value chain
 
@@ -573,13 +617,25 @@ SEC-reported SIC **5531**: Retail-Auto & Home Supply Stores. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2025-10-27, L412; prior source set, update pending:
+
+> Certain statements herein constitute forward-looking statements that are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements typically use words such as “believe,” “anticipate,” “should,” “intend,” “plan,” “will,” “expect,” “estimate,” “project,” “positioned,” “strategy,” “seek,” “may,” “could” and similar expressions. These statements are based on assumptions and assessments made by our management in light of experience, historical trends, current conditions, expected future developments and other factors that we believe appropriate. These forward-looking statements are subject to a number of risks and uncertainties, including without limitation: product demand, due to changes in fuel prices, miles driven or otherwise; energy prices; weather, including extreme temperatures and natural disasters; competition; credit market conditions; cash flows; access to financing on favorable terms; future stock repurchases; the impact of recessionary conditions; consumer debt levels; changes in laws or regulations; risks associated with self-insurance; war and the prospect of war, including terrorist activity; public health issues; inflation, including wage inflation; exchange rates; the ability to hire, train and retain qualified employees, including members of management; construction delays; failure or interruption of … [S70]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2025-10-27, L412; prior source set, update pending:
+
+> Certain statements herein constitute forward-looking statements that are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements typically use words such as “believe,” “anticipate,” “should,” “intend,” “plan,” “will,” “expect,” “estimate,” “project,” “positioned,” “strategy,” “seek,” “may,” “could” and similar expressions. These statements are based on assumptions and assessments made by our management in light of experience, historical trends, current conditions, expected future developments and other factors that we believe appropriate. These forward-looking statements are subject to a number of risks and uncertainties, including without limitation: product demand, due to changes in fuel prices, miles driven or otherwise; energy prices; weather, including extreme temperatures and natural disasters; competition; credit market conditions; cash flows; access to financing on favorable terms; future stock repurchases; the impact of recessionary conditions; consumer debt levels; changes in laws or regulations; risks associated with self-insurance; war and the prospect of war, including terrorist activity; public health issues; inflation, including wage inflation; exchange rates; the ability to hire, train and retain qualified employees, including members of management; construction delays; failure or interruption of … [S70]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2025-10-27, L1028; prior source set, update pending:
+
+> We regard our trademarks, service marks, patents, domain names, trade dress, trade secrets and other intellectual property as critical to our success and important components of our marketing and merchandising strategies. We have registered several trademarks and service marks in the U.S. Patent and Trademark Office as well as in certain other countries, including without limitation: “AutoZone,” “AutoZone Rewards,” “Get in the Zone,” “Zone,” “Duralast,” “Econocraft,” “ProElite,” “ShopPro,” “SureBilt,” “TotalPro,” “TruGrade,” “Valucraft,” and “ALLDATA,” along with variations of these trademarks. Our trademark registrations have various expiration dates; however, assuming that the trademarks are properly maintained and in use, such registrations may typically be renewed indefinitely. [S70]
 
 ## Growth drivers
 
@@ -1210,6 +1266,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-K, filed 2025-10-27, L129; prior source set, update pending:
+
+> Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ [S70]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1222,6 +1282,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-K, filed 2025-10-27, L412; prior source set, update pending:
+
+> Certain statements herein constitute forward-looking statements that are subject to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Forward-looking statements typically use words such as “believe,” “anticipate,” “should,” “intend,” “plan,” “will,” “expect,” “estimate,” “project,” “positioned,” “strategy,” “seek,” “may,” “could” and similar expressions. These statements are based on assumptions and assessments made by our management in light of experience, historical trends, current conditions, expected future developments and other factors that we believe appropriate. These forward-looking statements are subject to a number of risks and uncertainties, including without limitation: product demand, due to changes in fuel prices, miles driven or otherwise; energy prices; weather, including extreme temperatures and natural disasters; competition; credit market conditions; cash flows; access to financing on favorable terms; future stock repurchases; the impact of recessionary conditions; consumer debt levels; changes in laws or regulations; risks associated with self-insurance; war and the prospect of war, including terrorist activity; public health issues; inflation, including wage inflation; exchange rates; the ability to hire, train and retain qualified employees, including members of management; construction delays; failure or interruption of … [S70]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1231,25 +1295,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required.
 
@@ -1313,6 +1377,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-03-26 | SCHEDULE 13G/A | 0000102909-26-000760 | — | [S67] |
 | 2026-03-20 | 10-Q | 0001104659-26-032757 | — | [S68] |
 | 2026-03-03 | 8-K | 0001171843-26-001288 | — | [S69] |
+
+Source excerpt — 10-K, filed 2025-10-27, L3346; prior source set, update pending:
+
+> Net cash used in financing activities was $1.7 billion, $1.7 billion and $2.1 billion in fiscal 2025, 2024 and 2023, respectively. The net cash used in financing activities reflected purchases of treasury stock, which totaled $1.6 billion, $3.1 billion and $3.7 billion for fiscal 2025, 2024 and 2023, respectively. The treasury stock purchases in fiscal 2025, 2024 and 2023 were primarily funded by cash flows from operations and increased borrowings in fiscal 2024 and 2023. During the year ended August 30, 2025, we repaid our $400 million 3.250% Senior Notes and $500 million 3.625% Senior Notes due April 2025 and issued $500 million of new debt compared to $2.3 billion in 2024 and $1.8 billion in 2023. In fiscal years 2025 and 2023 the proceeds from the issuance of debt were used for general corporate purposes. In fiscal year 2024 the proceeds from the issuance of debt were used to repay a portion of our commercial paper borrowings and for general corporate purposes. [S70]
 
 ## Sources and change log
 
@@ -1453,5 +1521,11 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S68] [10-Q 0001104659-26-032757](https://www.sec.gov/Archives/edgar/data/866787/000110465926032757/0001104659-26-032757-index.html) — published 2026-03-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S69] [8-K 0001171843-26-001288](https://www.sec.gov/Archives/edgar/data/866787/000117184326001288/0001171843-26-001288-index.html) — published 2026-03-03; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S70] [10-K 0001104659-25-102611](https://www.sec.gov/Archives/edgar/data/866787/000110465925102611/azo-20250830x10k.htm) — published 2025-10-27; retrieved 2026-11-18T21:06:31.675456+00:00.
+
+[S71] [8-K/A 0001171843-18-004652](https://www.sec.gov/Archives/edgar/data/866787/000117184318004652/f8ka_061418.htm) — published 2018-06-14; retrieved 2026-11-18T21:06:30.193451+00:00.
+
+[S72] [8-K/A 0001171843-18-001527](https://www.sec.gov/Archives/edgar/data/866787/000117184318001527/f8ka_022818.htm) — published 2018-02-28; retrieved 2026-11-18T21:06:28.568671+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

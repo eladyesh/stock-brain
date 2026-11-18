@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -469,6 +469,42 @@ sources:
   published_at: '2026-05-13'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000141063626000143/awk-20260915.htm
+  title: 8-K 0001410636-26-000143
+  published_at: '2026-09-17'
+  retrieved_at: '2026-11-18T21:02:57.346252+00:00'
+  sha256: 8c0fe3681c65d02a2558557a93939419f124f2afabb5324f294ddd03ff59a78f
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000141063626000120/awk-20260630.htm
+  title: 10-Q 0001410636-26-000120
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-18T21:02:55.813301+00:00'
+  sha256: ddd4fb13cbbcac01990944a46147a26600ce295583af2267bee01bbdfdb28320
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000141063626000113/awk-20260701.htm
+  title: 8-K/A 0001410636-26-000113
+  published_at: '2026-07-06'
+  retrieved_at: '2026-11-18T21:02:54.299699+00:00'
+  sha256: 77ea33eb608cca7194cee7d79ae69986e4e6d703db8687b8d2db801a9d18910c
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000119312526120668/d21438ddef14a.htm
+  title: DEF 14A 0001193125-26-120668
+  published_at: '2026-03-24'
+  retrieved_at: '2026-11-18T21:02:52.852812+00:00'
+  sha256: 8f9e1e3ed39f893151f0c3032d2aec077616cfa53e0da4c3ebe9ee52f96a1d8b
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm
+  title: 10-K 0001410636-26-000034
+  published_at: '2026-02-18'
+  retrieved_at: '2026-11-18T21:02:51.143561+00:00'
+  sha256: 416168e8c2bebc473ae75053ddc5d7f20122ebf9dc66cfaba0f1ecc9457a03d4
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/1410636/000156459015009508/awk-8ka_20151104.htm
+  title: 8-K/A 0001564590-15-009508
+  published_at: '2015-11-05'
+  retrieved_at: '2026-11-18T21:02:49.586806+00:00'
+  sha256: 5c70b5a97b1d737a870460e95720bffc69da81a760ed7c9c8d3bfd0fe7e93bdd
 issuer_classification:
   cik: '0001410636'
   classification_status: reported_sic
@@ -514,13 +550,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1410636/000156459015009508/0001564590-15-009508-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: f33b0f8abf600dc7fe49ac2aed69cd902f4a29fcca060b3118ae5494a9d6c8c9
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -544,17 +591,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-03-24, L193:
+
+> American Water is the largest and most geographically diverse, publicly traded water and wastewater utility company in the United States, as measured by both operating revenues and population served. We provide drinking water, wastewater and other related services to approximately 14 million people in 24 states. [S70]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-29, L958:
+
+> The Company’s operating segments are comprised of its businesses which generate revenue, incur expense and have separate financial information which is regularly used by the chief operating decision maker to make operating decisions, assess performance and allocate resources. The Company operates its businesses primarily through one reportable segment, the Regulated Businesses segment. The Regulated Businesses segment also includes inter-segment revenues, costs and interest which are eliminated to reconcile to the Consolidated Statements of Operations. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-02-18, L612:
+
+> •restricting our ability to terminate our services to customers who owe us money for services previously provided or limiting our bill collection efforts; [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L195:
+
+> Our strategy spans three core areas of execution for our business: operations, capital and regulatory. Operational execution involves the day-to-day management of our water and wastewater systems that provide safe, clean, reliable and affordable service. We focus on the quality of execution and the need to operate our systems safely, efficiently and in compliance with all environmental requirements, for the benefit of our customers. [S70]
 
 ## Industry and value chain
 
@@ -562,17 +625,33 @@ SEC-reported SIC **4941**: Water Supply. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L148:
+
+> •the Company’s ability to obtain and have delivered adequate and cost-effective supplies of pipe, equipment (including personal protective equipment), chemicals, power and other fuel, water and other raw materials, and to address or mitigate supply chain constraints that may result in delays or shortages in, as well as increased costs of, supplies, products and materials that are critical to or used in the Company’s business operations; [S68]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L4097:
+
+> Through its review of relevant benchmarking data and executive compensation trends presented by its independent compensation consultant, the ED&CC is able to assess competitive market compensation practices. Two of the primary ways that the ED&CC evaluates and benchmarks our executive compensation arrangements and practices are to review them against companies in our compensation peer group, as described below, as well as market data in a Willis Towers Watson study comprised of 60 percent weighting on publicly traded utilities and 40 percent weighting on general industry companies. The ED&CC believes that there is a strong likelihood that a NEO’s skills will be transferable among these companies, and thus we would expect to compete with these companies and others for NEO talent. The ED&CC referred to all of this benchmarking data as part of its review of compensation practices and trends. [S70]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-29, L172:
+
+> •the Company’s ability to successfully develop and implement new technologies and to protect related intellectual property; [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-03-24, L195:
+
+> Our strategy spans three core areas of execution for our business: operations, capital and regulatory. Operational execution involves the day-to-day management of our water and wastewater systems that provide safe, clean, reliable and affordable service. We focus on the quality of execution and the need to operate our systems safely, efficiently and in compliance with all environmental requirements, for the benefit of our customers. [S70]
 
 ## Financial performance
 
@@ -1196,6 +1275,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L697:
+
+> On July 29, 2026, the Company’s Board of Directors declared a quarterly cash dividend payment of $0.8950 per share, payable on September 1, 2026, to shareholders of record as of August 11, 2026. Future dividends, when and as declared at the discretion of the Board of Directors, will be dependent upon future earnings and cash flows, compliance with various regulatory, financial and legal requirements, and other factors. See Note 9—Shareholders’ Equity in the Notes to Consolidated Financial Statements in the Company’s Form 10-K for additional information regarding the payment of dividends on the Company’s common stock. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1208,6 +1291,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 8-K, filed 2026-09-17, L58:
+
+> These forward-looking statements are qualified by, and should be read together with, the risks and uncertainties set forth above and the risk factors included in American Water’s and Essential Utilities’ respective annual and quarterly reports as filed with the SEC and in the definitive joint proxy statement/prospectus, as filed with the SEC on December 31, 2025 (available at: https://www.sec.gov/Archives/edgar/data/1410636/000119312525337598/d15683d424b3.htm), and readers should refer to such risks, uncertainties and risk factors in evaluating such forward-looking statements. Any forward-looking statements speak only as of the date this communication is first used or given. Neither American Water nor Essential Utilities has any obligation or intention to update or revise any forward-looking statement, whether as a result of new information, future events, changed circumstances or otherwise, except as otherwise required by the federal securities laws. New factors emerge from time to time, and it is not possible for American Water or Essential Utilities to predict all such factors. Furthermore, it may not be possible to assess the impact of any such factor on American Water’s or Essential Utilities’ businesses, viewed independently or together, or the extent to which any factor, or combination of factors, may cause results to differ materially from those contained in any … [S67]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1217,25 +1304,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Stock compensation / revenue: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1299,6 +1386,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-05-13 | 4 | 0001410636-26-000080 | — | [S64] |
 | 2026-05-13 | 4 | 0001410636-26-000079 | — | [S65] |
 | 2026-05-13 | 4 | 0001410636-26-000078 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-03-24, L2128:
+
+> \| significant internal review of financial and operational performance metrics and performance reviews during the year regarding the operation of our business, as well as an audit of our financial statements by our independent registered public accounting firm; and [S70]
 
 ## Sources and change log
 
@@ -1433,5 +1524,17 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [4 0001410636-26-000079](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000079/0001410636-26-000079-index.html) — published 2026-05-13; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [4 0001410636-26-000078](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000078/0001410636-26-000078-index.html) — published 2026-05-13; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0001410636-26-000143](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000143/awk-20260915.htm) — published 2026-09-17; retrieved 2026-11-18T21:02:57.346252+00:00.
+
+[S68] [10-Q 0001410636-26-000120](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000120/awk-20260630.htm) — published 2026-07-29; retrieved 2026-11-18T21:02:55.813301+00:00.
+
+[S69] [8-K/A 0001410636-26-000113](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000113/awk-20260701.htm) — published 2026-07-06; retrieved 2026-11-18T21:02:54.299699+00:00.
+
+[S70] [DEF 14A 0001193125-26-120668](https://www.sec.gov/Archives/edgar/data/1410636/000119312526120668/d21438ddef14a.htm) — published 2026-03-24; retrieved 2026-11-18T21:02:52.852812+00:00.
+
+[S71] [10-K 0001410636-26-000034](https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm) — published 2026-02-18; retrieved 2026-11-18T21:02:51.143561+00:00.
+
+[S72] [8-K/A 0001564590-15-009508](https://www.sec.gov/Archives/edgar/data/1410636/000156459015009508/awk-8ka_20151104.htm) — published 2015-11-05; retrieved 2026-11-18T21:02:49.586806+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

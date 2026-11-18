@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -478,6 +478,18 @@ sources:
   published_at: '2025-07-21'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/6207/000000620705000011/axr8ka050305.htm
+  title: 8-K/A 0000006207-05-000011
+  published_at: '2005-05-10'
+  retrieved_at: '2026-11-18T21:04:37.855077+00:00'
+  sha256: 6e5dfdd4b343bafbadf186817d93bc1585c0deb378e64e26233fcc08bf19f0c5
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/6207/000000620703000008/amrepcover.txt
+  title: 8-K/A 0000006207-03-000008
+  published_at: '2003-07-18'
+  retrieved_at: '2026-11-18T21:04:36.457488+00:00'
+  sha256: 13e6d25cffea5e8dec810a23562a7f3a59cd3ac4e94ed1f531d9a2ecda1d25c7
 issuer_classification:
   cik: '0000006207'
   classification_status: reported_sic
@@ -547,11 +559,11 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/6207/000000620703000008/0000006207-03-000008-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: 1432d62ab2e5e06b8b8a11996d92418cd3bc3122bc27f05a60584479af15d631
-  last_attempt_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-19T21:00:27.361756+00:00'
   source_set_current: false
   evidence_topics: []
   derived_observations: 10
@@ -1256,7 +1268,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -1473,5 +1485,9 @@ Latest 50 filing metadata records of 855 retained records. A filing link is evid
 [S66] [4 0001104659-25-069345](https://www.sec.gov/Archives/edgar/data/6207/000110465925069345/0001104659-25-069345-index.html) — published 2025-07-21; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S67] [8-K 0001104659-25-069331](https://www.sec.gov/Archives/edgar/data/6207/000110465925069331/0001104659-25-069331-index.html) — published 2025-07-21; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S68] [8-K/A 0000006207-05-000011](https://www.sec.gov/Archives/edgar/data/6207/000000620705000011/axr8ka050305.htm) — published 2005-05-10; retrieved 2026-11-18T21:04:37.855077+00:00.
+
+[S69] [8-K/A 0000006207-03-000008](https://www.sec.gov/Archives/edgar/data/6207/000000620703000008/amrepcover.txt) — published 2003-07-18; retrieved 2026-11-18T21:04:36.457488+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

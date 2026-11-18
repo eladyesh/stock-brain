@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -472,6 +472,66 @@ sources:
   published_at: '2026-04-28'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/805928/000080592826000104/axgn-20261001.htm
+  title: 8-K 0000805928-26-000104
+  published_at: '2026-10-01'
+  retrieved_at: '2026-11-18T21:04:05.010900+00:00'
+  sha256: d701262a8c6383e3f92b2186e37b34ad7244783bfc6a1f5812faaba21488857f
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/805928/000162828026061393/axgn-20260909.htm
+  title: 8-K/A 0001628280-26-061393
+  published_at: '2026-09-10'
+  retrieved_at: '2026-11-18T21:04:03.284259+00:00'
+  sha256: 342f65bcf1ae61d9eb7c167cb5f7c1513f340cc5e4560f22965216c8edf9c2a5
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/805928/000080592826000094/axgn-20260630.htm
+  title: 10-Q 0000805928-26-000094
+  published_at: '2026-07-29'
+  retrieved_at: '2026-11-18T21:04:02.032677+00:00'
+  sha256: 3ecbee6d51168a1b12b49c5172dee9fa4c6e93c3f73f7d0f348933ec0cb58f67
+- id: S70
+  url: https://www.sec.gov/Archives/edgar/data/805928/000080592826000057/axgn-20260429.htm
+  title: DEF 14A 0000805928-26-000057
+  published_at: '2026-04-29'
+  retrieved_at: '2026-11-18T21:04:00.538794+00:00'
+  sha256: bb2f45668def27285be959f6ea3ba2a5cea76617deaebe839a3644542bfd1a27
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/805928/000080592826000031/axgn-20251231.htm
+  title: 10-K 0000805928-26-000031
+  published_at: '2026-02-24'
+  retrieved_at: '2026-11-18T21:03:58.977024+00:00'
+  sha256: 209ab4b6b723b05411892e72388009d9af60e27d7942504d67d310de8504ed11
+- id: S72
+  url: https://www.sec.gov/Archives/edgar/data/805928/000119312524157679/d741251d8ka.htm
+  title: 8-K/A 0001193125-24-157679
+  published_at: '2024-06-10'
+  retrieved_at: '2026-11-18T21:03:56.307341+00:00'
+  sha256: bce5f943e2505ffcbb87bc046eb2deef5c9f84eb979c5d84744a163fc39c3fda
+- id: S73
+  url: https://www.sec.gov/Archives/edgar/data/805928/000080592824000011/axgn-20231204.htm
+  title: 8-K/A 0000805928-24-000011
+  published_at: '2024-01-05'
+  retrieved_at: '2026-11-18T21:03:54.981001+00:00'
+  sha256: 2699b2e647bdbde18350042a9e1ce2f9356ad573ab3e30a3c16bb595f769d489
+- id: S74
+  url: https://www.sec.gov/Archives/edgar/data/805928/000155837018005151/f8-ka.htm
+  title: 8-K/A 0001558370-18-005151
+  published_at: '2018-06-06'
+  retrieved_at: '2026-11-18T21:03:52.897943+00:00'
+  sha256: 3c371ec039409d873cb568a75c49fd47d73c3cdb5f7ebbbc9aa98b4274235c36
+- id: S75
+  url: https://www.sec.gov/Archives/edgar/data/805928/000155837017005219/f8-ka.htm
+  title: 8-K/A 0001558370-17-005219
+  published_at: '2017-07-20'
+  retrieved_at: '2026-11-18T21:03:51.301662+00:00'
+  sha256: 7ad0dc51601f6563ec6d4e4c90119cd41f4fb59af7fbc2e911f275666e2ef382
+- id: S76
+  url: https://www.sec.gov/Archives/edgar/data/805928/000110465915006646/a15-3271_18ka.htm
+  title: 8-K/A 0001104659-15-006646
+  published_at: '2015-02-04'
+  retrieved_at: '2026-11-18T21:03:49.883232+00:00'
+  sha256: 7453876b97c6c1fccbd816cefe9fb725599dde4283ee784ff577eb9afa000650
 issuer_classification:
   cik: 0000805928
   classification_status: reported_sic
@@ -533,13 +593,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/805928/000110465915006646/0001104659-15-006646-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 5702e6f35cf2e94d97a4152868fe1c33739bfde58a234e5f128ca9feb94893dd
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 7
   model_draft: false
   reviewed: false
@@ -563,17 +634,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-29, L171:
+
+> •Our expectations around the potential positive impact on our business of expanded coverage and reimbursement for peripheral nerve injuries using synthetic conduits or allografts; and [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-29, L696:
+
+> The Company determines its operating segments in accordance with FASB ASC 280, Segment Reporting (“ASC 280”). ASC 280 defines operating segments as components where discrete financial information is regularly reviewed by the chief operating decision maker (“CODM”), which for the Company is the Chief Executive Officer, to determine resource allocation and assess performance. As such, based on the way the CODM monitors and makes decisions affecting operations, the Company has concluded that it has one operating and reportable segment. The CODM is regularly provided with only the consolidated expenses as noted on the face of the Condensed Consolidated Statements of Operations. As the Company has only one operating segment and is managed on a consolidated basis, the measure of profit or loss is consolidated net income or loss. The metrics are used to review operating trends, to perform analytical comparisons between periods and to monitor budget to actual variances. [S69]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-29, L172:
+
+> •Our belief that our existing cash and cash equivalents and investments, as well as cash provided by sales of our products will allow us to fund our operations through at least the next twelve months. [S69]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-02-24, L745:
+
+> We transitioned the Avance Nerve Graft tissue processing and packaging to the APC Facility in November of 2023 but expect to continue to rely on the Dayton Facility for the processing of Avive+ Soft Tissue Matrix. We have experienced unanticipated operating challenges as we commenced processing operations at the APC Facility. Such challenges have negatively impacted our gross margins. Such challenges, if prolonged, could also cause a significant disruption in service to our customers if we were to lose, even temporarily, the availability of our production or distribution facilities. If we are not able to comply with the applicable regulatory requirements or produce products that meet our requirements and specifications, we will be subject to the same risks that would arise should third parties be unable to comply with the applicable regulatory requirements or produce products meeting our requirements or specifications, as described above. If we continue to experience operating challenges or fail to achieve the operating efficiencies that we anticipate, our business, results of operations, financial condition, and prospects could be adversely impacted. [S71]
 
 ## Industry and value chain
 
@@ -581,17 +668,33 @@ SEC-reported SIC **3845**: Electromedical & Electrotherapeutic Apparatus. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-K, filed 2026-02-24, L293:
+
+> Commercial availability of Avance is expected early in the second quarter of 2026. In alignment with prior agreements with the FDA, we will transition Avance Products from a human tissue product under Section 361 of the PHS Act (“361 HCT/P”) to a licensed biologic product under Section 351 of the PHS Act. Products that began manufacturing prior to the BLA approval will continue to be distributed as a 361 HCT/P under 21 CFR Part 1271 requirements. Per our agreed upon transition plan with the FDA, this product may remain in the supply chain until its labeled expiration date. Production of Avance under BLA standards began following BLA approval. In the meantime, Avance remains available under the current tissue framework. [S71]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-K, filed 2026-02-24, L475:
+
+> The medical device and biotechnology industries are characterized by rapidly advancing technologies, intense competition, and a strong emphasis on proprietary products. As such, we cannot predict what products may be offered in the future that may compete with our products. In the peripheral nerve repair market, we compete primarily against all transected and non-transected peripheral nerve repair approaches, including direct suture repair, autograft, and hollow-tube nerve conduits and materials used to wrap and protect damaged peripheral nerve tissue. [S71]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-29, L662:
+
+> Marc Began has served as Executive Vice President, General Counsel and Chief Compliance Officer since March 2023. Mr. Began brings more than 25 years of experience representing life science companies as in-house and external counsel. From June 2018 until its acquisition in December 2022 by Johnson and Johnson, Inc. (NYSE: JNJ), Mr. Began served as Executive Vice President, General Counsel and Secretary of Abiomed, Inc. (Nasdaq: ABMD), a publicly traded med-tech company specializing in heart, lung and kidney recovery and was responsible for leading its legal, compliance and business development functions. While at Abiomed, Mr. Began oversaw the acquisitions of new companies and new products. From August 2017 to June 2018, Mr. Began was Vice President of Legal and Intellectual Property at Boehringer Ingelheim, a privately held pharmaceutical and biologics company, where he was responsible for medical device, pharmaceutical and biologic legal and intellectual property issues. Before joining Boehringer Ingelheim, Mr. Began held various positions of increasing responsibility over a 15-year period at Novo Nordisk (NYSE: NVO), a publicly traded company specializing in metabolic and endocrinological diseases. Prior to becoming an in-house lawyer for Novo Nordisk, Mr. Began was in private practice at the law firms of Sullivan & Cromwell LLP and White & Case LLP in New York, where he … [S70]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-29, L758:
+
+> Our strategy remains focused on deepening our presence in high-potential accounts, specifically Level 1 trauma centers and academic-affiliated hospitals with a high number of trained microsurgeons. We will drive growth in these accounts through [S69]
 
 ## Financial performance
 
@@ -1212,6 +1315,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-29, L620:
+
+> During the six months ended June 30, 2026, the following stock-based awards were granted to directors, executive officers and other employees. All awards were granted under the 2019 Amended and Restated Long-Term Incentive Plan. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -1224,6 +1331,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-29, L173:
+
+> The forward-looking statements are and will be subject to risks and uncertainties, which may cause actual results to differ materially from those expressed or implied in such forward-looking statements. Forward-looking statements contained in this Quarterly Report on Form 10-Q should be evaluated together with the many risks and uncertainties that affect the Company’s business and its market, particularly those discussed in the risk factors and cautionary statements set forth in the Company’s filings with the SEC, including as described in “Risk Factors” included in Item 1A and “Risk Factor Summary” included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. Forward-looking statements are not guarantees of future performance, and actual results may differ materially from those projected. The forward-looking statements are representative only as of the date they are made and, except as required by applicable law, the Company assumes no responsibility to publicly update or revise any forward-looking statements, whether as a result of new information, future events, changed circumstances or otherwise. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -1233,25 +1344,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -1315,6 +1426,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-04-29 | DEF 14A | 0000805928-26-000057 | — | [S64] |
 | 2026-04-28 | 10-Q | 0000805928-26-000053 | — | [S65] |
 | 2026-04-28 | 8-K | 0000805928-26-000051 | — | [S66] |
+
+Source excerpt — DEF 14A, filed 2026-04-29, L566:
+
+> Periodically, the Company may make contributions to the Global Nerve Foundation (“GNF”), a related party, due to certain executives of the Company being members of GNF’s board of directors. Marc Began, the Company’s Executive Vice President and General Counsel, and Erick DeVinney, the Company’s Chief Innovation Officer, served on GNF’s board of directors during the year ended December 31, 2025. GNF was incorporated in 2021 exclusively for charitable, educational, and scientific purposes and qualifies under Internal Revenue Code 501(c)(3) as an exempt private foundation. Under its charter, GNF engages in activities that focus on improving the awareness and care of patients with peripheral nerve injuries through grants, contributions and other appropriate means. GNF is a separate legal entity and is not a subsidiary of the Company. On July 20, 2024, the Company entered into a Qualified Founding Partner Agreement (the “Agreement”) which grants certain benefits to the Company related to GNF's programming and marketing. The Agreement terminates on December 31, 2031. The Company may terminate the Agreement early by giving notice of termination between January 2 and January 31 in any calendar year; however, if the Company terminates the Agreement early, it will be required to make the next two payments per the payment schedule in a total amount not to exceed $100,000. Per the terms … [S70]
 
 ## Sources and change log
 
@@ -1449,5 +1564,25 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S65] [10-Q 0000805928-26-000053](https://www.sec.gov/Archives/edgar/data/805928/000080592826000053/0000805928-26-000053-index.html) — published 2026-04-28; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S66] [8-K 0000805928-26-000051](https://www.sec.gov/Archives/edgar/data/805928/000080592826000051/0000805928-26-000051-index.html) — published 2026-04-28; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S67] [8-K 0000805928-26-000104](https://www.sec.gov/Archives/edgar/data/805928/000080592826000104/axgn-20261001.htm) — published 2026-10-01; retrieved 2026-11-18T21:04:05.010900+00:00.
+
+[S68] [8-K/A 0001628280-26-061393](https://www.sec.gov/Archives/edgar/data/805928/000162828026061393/axgn-20260909.htm) — published 2026-09-10; retrieved 2026-11-18T21:04:03.284259+00:00.
+
+[S69] [10-Q 0000805928-26-000094](https://www.sec.gov/Archives/edgar/data/805928/000080592826000094/axgn-20260630.htm) — published 2026-07-29; retrieved 2026-11-18T21:04:02.032677+00:00.
+
+[S70] [DEF 14A 0000805928-26-000057](https://www.sec.gov/Archives/edgar/data/805928/000080592826000057/axgn-20260429.htm) — published 2026-04-29; retrieved 2026-11-18T21:04:00.538794+00:00.
+
+[S71] [10-K 0000805928-26-000031](https://www.sec.gov/Archives/edgar/data/805928/000080592826000031/axgn-20251231.htm) — published 2026-02-24; retrieved 2026-11-18T21:03:58.977024+00:00.
+
+[S72] [8-K/A 0001193125-24-157679](https://www.sec.gov/Archives/edgar/data/805928/000119312524157679/d741251d8ka.htm) — published 2024-06-10; retrieved 2026-11-18T21:03:56.307341+00:00.
+
+[S73] [8-K/A 0000805928-24-000011](https://www.sec.gov/Archives/edgar/data/805928/000080592824000011/axgn-20231204.htm) — published 2024-01-05; retrieved 2026-11-18T21:03:54.981001+00:00.
+
+[S74] [8-K/A 0001558370-18-005151](https://www.sec.gov/Archives/edgar/data/805928/000155837018005151/f8-ka.htm) — published 2018-06-06; retrieved 2026-11-18T21:03:52.897943+00:00.
+
+[S75] [8-K/A 0001558370-17-005219](https://www.sec.gov/Archives/edgar/data/805928/000155837017005219/f8-ka.htm) — published 2017-07-20; retrieved 2026-11-18T21:03:51.301662+00:00.
+
+[S76] [8-K/A 0001104659-15-006646](https://www.sec.gov/Archives/edgar/data/805928/000110465915006646/a15-3271_18ka.htm) — published 2015-02-04; retrieved 2026-11-18T21:03:49.883232+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

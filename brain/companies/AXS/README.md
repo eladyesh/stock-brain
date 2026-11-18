@@ -13,7 +13,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -380,6 +380,60 @@ sources:
   published_at: '2026-01-20'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000121481626000201/axs-20260728.htm
+  title: 8-K 0001214816-26-000201
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-18T21:05:06.544171+00:00'
+  sha256: 760a341227675a94662419d5df022bf7da58f741ed7deba1d0557d823e273868
+- id: S54
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000121481626000203/axs-20260630.htm
+  title: 10-Q 0001214816-26-000203
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-18T21:05:08.148225+00:00'
+  sha256: eba29bb6a0f7d0432ed6f1b78d7486c045c4bef0365969e47606fb260c3691e9
+- id: S55
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000121481626000149/axs-20260401.htm
+  title: DEF 14A 0001214816-26-000149
+  published_at: '2026-04-02'
+  retrieved_at: '2026-11-18T21:05:05.202594+00:00'
+  sha256: fe0cb49fe3e2529647bbfe7e3679ebd66affe56e7644b3c7c3b1a060f9f00f26
+- id: S56
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000121481626000097/axs-20251231.htm
+  title: 10-K 0001214816-26-000097
+  published_at: '2026-02-27'
+  retrieved_at: '2026-11-18T21:05:03.393639+00:00'
+  sha256: 4a9aa18f895877305d75bafeac807e67b53f47cfecbcff2c6ae724c59f92b484
+- id: S57
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000110465925011171/tm256144d1_8ka.htm
+  title: 8-K/A 0001104659-25-011171
+  published_at: '2025-02-11'
+  retrieved_at: '2026-11-18T21:05:01.309583+00:00'
+  sha256: eb888376849927d22a461d92d9bc0aedc4196f28960791b999d7947a768ffada
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000121481623000039/axs-20221216.htm
+  title: 8-K/A 0001214816-23-000039
+  published_at: '2023-04-14'
+  retrieved_at: '2026-11-18T21:04:59.783826+00:00'
+  sha256: 286432894f3964744669d01efc36d58f16487ac0949fdfd9a2e4aa3ea9aa9d1a
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000110465923007556/tm234669d1_8ka.htm
+  title: 8-K/A 0001104659-23-007556
+  published_at: '2023-01-27'
+  retrieved_at: '2026-11-18T21:04:58.294027+00:00'
+  sha256: ece1048262b847a5a2e85b5e02d03158c2c54bb77c05d04bdc036c17ae5a0b3a
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000119312522128062/d353238d8ka.htm
+  title: 8-K/A 0001193125-22-128062
+  published_at: '2022-04-29'
+  retrieved_at: '2026-11-18T21:04:56.853831+00:00'
+  sha256: a17a5f56ba1171611d26bf15cc9bad7e5a60bb30a1bd43f7b059e89b33120630
+- id: S61
+  url: https://www.sec.gov/Archives/edgar/data/1214816/000119312517369532/d485322d8ka.htm
+  title: 8-K/A 0001193125-17-369532
+  published_at: '2017-12-14'
+  retrieved_at: '2026-11-18T21:04:55.570825+00:00'
+  sha256: 8fba999a06d68fb52809daa96374d4ffe70b6065ede997df62681eb1c3d9143d
 issuer_classification:
   cik: 0001214816
   classification_status: reported_sic
@@ -440,13 +494,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1214816/000119312517369532/0001193125-17-369532-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: db75302bedb7289d15aaaab79bb7fb2ee44c2f104681b2dee90c41680f7e8fae
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -471,17 +536,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-28, L110:
+
+> Forward-looking statements made in this report, such as those related to our performance, pricing, growth prospects, fee income, the outcome of our strategic initiatives, our expectations relating to our ability to successfully implement and manage technology initiatives – including artificial intelligence, our expectations about the current trade and geopolitical environment on our business, economic and market conditions, and other statements that are not historical facts, reflect our current views with respect to future events and financial performance and are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. [S54]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-28, L584:
+
+> The Company's underwriting operations are organized around its global underwriting platforms, AXIS Insurance and AXIS Re. The Company has determined that it has two reportable segments, insurance and reinsurance. [S54]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-28, L2253:
+
+> •leveraging our global platform to introduce our products and services to new regions including the continued expansion of our North America product capabilities; [S54]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-28, L2256:
+
+> •investing in data and technology, together with AI capabilities and tools, to enhance productivity, empower our teammates and enhance the service that we provide to our customers; [S54]
 
 ## Industry and value chain
 
@@ -489,17 +570,33 @@ SEC-reported SIC **6331**: Fire, Marine & Casualty Insurance. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L1096:
+
+> •Held executive leadership and management roles at Verizon over the course of his 33-year tenure in the areas of digital technology and platforms, cybersecurity, supply chain management, sales, marketing, and operations, including President of Verizon Global Wholesale Group, President of Verizon Digital Media Service, Area President of Verizon Midwest Region, and Senior Vice President of Verizon Enterprise Operations. [S55]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+
+Source excerpt — 10-Q, filed 2026-07-28, L113:
+
+> Strategic Risk: industry competition and consolidation; failure to keep the pace or manage technology developments, including artificial intelligence; general economic, capital, and credit market conditions, including market illiquidity, fluctuations in interest rates, credit spreads, equity securities' prices, foreign currency exchange rates, and evolving impacts of tariffs, sanctions, and international trade tensions; our ability to increase the use of data and analytics, and technology as part of our business strategy and adapt to new technologies; changes in the political environment of certain countries where we operate or underwrite business; loss of business provided to us by major brokers; rating agency actions; key personnel changes; potential strategic opportunities including acquisitions and our ability to achieve them; evolving expectations regarding environmental, social, and governance matters; and the effect of contagious diseases on our business. [S54]
 
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — DEF 14A, filed 2026-04-02, L3263:
+
+> We provide our NEOs with benefits and severance payments if we terminate them without cause and if they terminate their employment for good reason. These benefits add a level of security to each NEO’s position. We believe these benefits are needed to attract and retain talented executives. These provisions encourage individuals to move from other firms and help attract individuals new to our industry, which is generally more volatile. In addition, we face significant competition within our industry for experienced leaders, and we believe these benefits are needed to remain competitive as an employer as it is a common feature in many of our competitors’ compensation programs. Furthermore, we provide these benefits in part so that we can obtain valuable agreements from the NEOs to assign to us certain intellectual property rights and maintain the confidentiality of our information, and not to compete with us or solicit our teammates or customers for a certain period of time after leaving. Moreover, providing payments upon termination allows us to obtain a release of claims from the NEO upon the NEO's departure from AXIS, which we consider a valuable benefit to us. [S55]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-28, L2262:
+
+> AXIS is executing with clarity and conviction in our strategy to be a leading global specialty underwriter, delivering durable, profitable growth across market cycles. Our differentiated market positioning – anchored by a diversified specialty portfolio, deep underwriting expertise, a global operating platform, strong claims and risk management capabilities, and global multivariate distribution model – provides a powerful foundation for continued value creation. This is reinforced by a conservative, high‑quality investment portfolio that enhances earnings resilience and capital flexibility. [S54]
 
 ## Financial performance
 
@@ -513,6 +610,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-07-28, L1993:
+
+> On September 17, 2025, the Company's Board of Directors approved a new share repurchase program for up to $400 million of the Company's common shares. The new share repurchase program is open-ended, allowing the Company to repurchase its shares from time to time in the open market or privately negotiated transactions, depending on market conditions. At June 30, 2026, remaining authorization under this plan was exhausted. [S54]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -524,6 +625,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — 10-Q, filed 2026-07-28, L119:
+
+> Readers should carefully consider these risks alongside those detailed in Item 1A, 'Risk Factors' of our most recent Annual Report on Form 10-K filed with the Securities and Exchange Commission ("SEC"), and in subsequent filings available at www.sec.gov. [S54]
 
 ## Scenarios and open questions
 
@@ -537,25 +642,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Validated financial history is missing.
 
@@ -619,6 +724,10 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 | 2026-01-28 | 8-K | 0001214816-26-000067 | — | [S50] |
 | 2026-01-20 | 4 | 0001214816-26-000051 | — | [S51] |
 | 2026-01-20 | 4 | 0001214816-26-000049 | — | [S52] |
+
+Source excerpt — DEF 14A, filed 2026-04-02, L1555:
+
+> •We have a $20 million investment in Stone Point Credit Corporation. In 2025, $0.7 million in fees were paid relating to this investment. In addition, we previously had a $18 million investment in Stone Point Credit Corporation bonds. These bonds were repaid in full during the year ended December 31, 2025. In 2025, AXIS earned $1 million in interest in connection with this transaction. The coupon rate on the bonds was 5.83%. [S55]
 
 ## Sources and change log
 
@@ -725,5 +834,23 @@ Latest 50 filing metadata records of 1000 retained records. A filing link is evi
 [S51] [4 0001214816-26-000051](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000051/0001214816-26-000051-index.html) — published 2026-01-20; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S52] [4 0001214816-26-000049](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000049/0001214816-26-000049-index.html) — published 2026-01-20; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S53] [8-K 0001214816-26-000201](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000201/axs-20260728.htm) — published 2026-07-28; retrieved 2026-11-18T21:05:06.544171+00:00.
+
+[S54] [10-Q 0001214816-26-000203](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000203/axs-20260630.htm) — published 2026-07-28; retrieved 2026-11-18T21:05:08.148225+00:00.
+
+[S55] [DEF 14A 0001214816-26-000149](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000149/axs-20260401.htm) — published 2026-04-02; retrieved 2026-11-18T21:05:05.202594+00:00.
+
+[S56] [10-K 0001214816-26-000097](https://www.sec.gov/Archives/edgar/data/1214816/000121481626000097/axs-20251231.htm) — published 2026-02-27; retrieved 2026-11-18T21:05:03.393639+00:00.
+
+[S57] [8-K/A 0001104659-25-011171](https://www.sec.gov/Archives/edgar/data/1214816/000110465925011171/tm256144d1_8ka.htm) — published 2025-02-11; retrieved 2026-11-18T21:05:01.309583+00:00.
+
+[S58] [8-K/A 0001214816-23-000039](https://www.sec.gov/Archives/edgar/data/1214816/000121481623000039/axs-20221216.htm) — published 2023-04-14; retrieved 2026-11-18T21:04:59.783826+00:00.
+
+[S59] [8-K/A 0001104659-23-007556](https://www.sec.gov/Archives/edgar/data/1214816/000110465923007556/tm234669d1_8ka.htm) — published 2023-01-27; retrieved 2026-11-18T21:04:58.294027+00:00.
+
+[S60] [8-K/A 0001193125-22-128062](https://www.sec.gov/Archives/edgar/data/1214816/000119312522128062/d353238d8ka.htm) — published 2022-04-29; retrieved 2026-11-18T21:04:56.853831+00:00.
+
+[S61] [8-K/A 0001193125-17-369532](https://www.sec.gov/Archives/edgar/data/1214816/000119312517369532/d485322d8ka.htm) — published 2017-12-14; retrieved 2026-11-18T21:04:55.570825+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.

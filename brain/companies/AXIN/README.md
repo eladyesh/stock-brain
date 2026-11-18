@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -402,6 +402,24 @@ sources:
   published_at: '2025-05-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S58
+  url: https://www.sec.gov/Archives/edgar/data/2057030/000121390026089150/ea0300990-10q_axiom1.htm
+  title: 10-Q 0001213900-26-089150
+  published_at: '2026-08-13'
+  retrieved_at: '2026-11-18T21:04:17.932848+00:00'
+  sha256: a27e7e23110e81148a7334251c6a87eaacc57e4fb3d91edc0479ec4aab8f16fa
+- id: S59
+  url: https://www.sec.gov/Archives/edgar/data/2057030/000121390026082395/ea0299366-8k_axiom1.htm
+  title: 8-K 0001213900-26-082395
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-18T21:04:15.826964+00:00'
+  sha256: 36c6169bfddfb4d75ee3f2dff6c51bd129cd88a742cdaa1030f6a726e2c1cc3c
+- id: S60
+  url: https://www.sec.gov/Archives/edgar/data/2057030/000121390026034193/ea0282953-10k_axiom1.htm
+  title: 10-K 0001213900-26-034193
+  published_at: '2026-03-25'
+  retrieved_at: '2026-11-18T21:04:14.485118+00:00'
+  sha256: 5c4a6b7097089be4ce962c4164f6ef8acc5aae84600cfcba79cdc9eedbd36d0f
 issuer_classification:
   cik: '0002057030'
   classification_status: reported_sic
@@ -435,13 +453,21 @@ research_filings:
   form: 8-K
   url: https://www.sec.gov/Archives/edgar/data/2057030/000121390026082395/0001213900-26-082395-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 215bee6794e4273395e91b539d2baa2ce4bcf20e7f980d68899b47e15cb6930f
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 1
   model_draft: false
   reviewed: false
@@ -465,9 +491,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-13, L122:
+
+> \| \| ● \| “Founder Shares” are to the (i) Class B Ordinary Shares initially purchased by our Sponsor prior to the Initial Public Offering and (ii) Class A Ordinary Shares that will be issued upon the automatic conversion of the Class B Ordinary Shares (x) at the time of our Business Combination as described in the IPO Registration Statement (as defined below) or (y) earlier at the option of the holders thereof, as described in the IPO Registration Statement; for the avoidance of doubt, such Class A Ordinary Shares will not be “Public Shares” (as defined below); [S58]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-13, L1390:
+
+> The Company’s CODM has been identified as the Chief Financial Officer, who reviews the assets, operating results, and financial metrics for the Company as a whole to make decisions about allocating resources and assessing financial performance. Accordingly, Management has determined that there is only one reportable segment. [S58]
 
 ## Products and services
 
@@ -483,13 +517,25 @@ SEC-reported SIC **6770**: Blank Checks. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1343:
+
+> The Company’s ability to complete an initial Business Combination may be adversely affected by various factors, many of which are beyond the Company’s control. The Company’s ability to consummate an initial Business Combination could be impacted by, among other things, changes in laws or regulations, downturns in the financial markets or in economic conditions, inflation, fluctuations in interest rates, increases in tariffs, supply chain disruptions, declines in consumer confidence and spending, public health considerations, and geopolitical instability, such as the military conflicts in Ukraine and the Middle East. The Company cannot at this time predict the likelihood of one or more of the above events, their duration or magnitude or the extent to which they may negatively impact the Company’s ability to complete an initial Business Combination. [S58]
+
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-03-25, L583:
+
+> route networks and greater competition between airlines have resulted in more options and lower fares for consumers. We also believe that [S60]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2026-03-25, L2268:
+
+> of intellectual property protections to creative workers and companies. From May 2010 to September 2024, he served as the Managing [S60]
 
 ## Growth drivers
 
@@ -756,6 +802,10 @@ Not available: reviewed debt maturity, acquisition, dividend and repurchase anal
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-13, L130:
+
+> \| \| ● \| “Management” or our “Management Team” are to our executive officers and non-independent directors; [S58]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -768,6 +818,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-13, L1141:
+
+> The obligations of the Company and Terra Quantum to consummate the Terra Quantum Business Combination are subject to certain closing conditions, including, but not limited to, (i) the Proxy/Registration Statement has become effective; (ii) the approval by the Company shareholders and the shareholders of Terra Quantum (or Swiss HoldCo shareholders, as applicable) of the transactions contemplated by the Business Combination Agreement and the other transaction proposals has been obtained; (iii) (a) PubCo’s listing application with Nasdaq is approved and (b) the PubCo Ordinary Shares to be issued in connection with the Terra Quantum Business Combination shall have been approved for listing on Nasdaq, subject to official notice of issuance; (iv) the accuracy of representations and warranties to various standards; (v) material compliance with pre-closing covenants; (vi)the establishment and securing of a combined company directors’ and officers’ liability insurance policy providing tail coverage for the Company; (vii) the bring-down to closing of a representation that no material adverse effect has occurred (both for the Company and Terra Quantum); (viii) the absence of a legal prohibition on consummating the transaction; (ix) compliance by Sponsor with certain provisions in the Sponsor Support Agreement (as defined below); (x) compliance by the shareholders of Terra Quantum with … [S58]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -777,25 +831,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
 - **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Operating margin: compatible positive revenue and usable inputs are required. Net margin: compatible positive revenue and usable inputs are required. Free cash flow margin: compatible positive revenue and usable inputs are required. Stock compensation / revenue: compatible positive revenue and usable inputs are required. revenue: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -859,6 +913,10 @@ Latest 50 filing metadata records of 55 retained records. A filing link is evide
 | 2025-06-02 | S-1/A | 0001213900-25-049590 | — | [S55] |
 | 2025-05-14 | CORRESP | 0001213900-25-043399 | — | [S56] |
 | 2025-05-14 | S-1 | 0001213900-25-043394 | — | [S57] |
+
+Source excerpt — 10-Q, filed 2026-08-13, L1434:
+
+> The Company evaluated subsequent events and transactions that occurred after the accompanying condensed balance sheet date up to the date that the accompanying unaudited condensed financial statements were issued. Based upon this review, other than as described below, the Company did not identify any subsequent events that would have required adjustment or disclosure in the accompanying unaudited condensed financial statements. [S58]
 
 ## Sources and change log
 
@@ -975,5 +1033,11 @@ Latest 50 filing metadata records of 55 retained records. A filing link is evide
 [S56] [CORRESP 0001213900-25-043399](https://www.sec.gov/Archives/edgar/data/2057030/000121390025043399/0001213900-25-043399-index.html) — published 2025-05-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
 [S57] [S-1 0001213900-25-043394](https://www.sec.gov/Archives/edgar/data/2057030/000121390025043394/0001213900-25-043394-index.html) — published 2025-05-14; retrieved 2026-10-23T08:33:02.691743+00:00.
+
+[S58] [10-Q 0001213900-26-089150](https://www.sec.gov/Archives/edgar/data/2057030/000121390026089150/ea0300990-10q_axiom1.htm) — published 2026-08-13; retrieved 2026-11-18T21:04:17.932848+00:00.
+
+[S59] [8-K 0001213900-26-082395](https://www.sec.gov/Archives/edgar/data/2057030/000121390026082395/ea0299366-8k_axiom1.htm) — published 2026-07-28; retrieved 2026-11-18T21:04:15.826964+00:00.
+
+[S60] [10-K 0001213900-26-034193](https://www.sec.gov/Archives/edgar/data/2057030/000121390026034193/ea0282953-10k_axiom1.htm) — published 2026-03-25; retrieved 2026-11-18T21:04:14.485118+00:00.
 
 Source release: `coverage-20261101-41324509967-1`. Dated research changes remain in Git history; review is never inferred from collection.
