@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -162,15 +162,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/NFJ/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/NFJ/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # NFJ — Virtus Dividend, Interest & Premium Strategy Fund
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/NFJ/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/NFJ/README.md)
 
 ## Business overview
 
@@ -306,6 +306,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [N-CSRS 0001193125-26-417813](https://www.sec.gov/Archives/edgar/data/1260563/000119312526417813/0001193125-26-417813-index.html) — published 2026-10-08; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/NFJ/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/NFJ/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

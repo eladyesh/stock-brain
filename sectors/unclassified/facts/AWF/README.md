@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: false
 curated_research: null
 financial_gap:
@@ -111,6 +111,12 @@ sources:
   published_at: '2026-07-16'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S53
+  url: https://www.sec.gov/Archives/edgar/data/906013/000119312526279644/d136590ddef14a.htm
+  title: DEF 14A 0001193125-26-279644
+  published_at: '2026-06-23'
+  retrieved_at: '2026-11-18T21:02:35.944960+00:00'
+  sha256: 256e1a750e0724be5160543b03ee11d90c3e85ff7f32f44aed41d904ebede739
 issuer_classification:
   cik: 0000906013
   classification_status: missing_or_invalid_sic
@@ -134,13 +140,15 @@ research_filings:
   form: DEF 14A
   url: https://www.sec.gov/Archives/edgar/data/906013/000119312526279644/0001193125-26-279644-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 88d40fdc515cb5720529209f0d4b364ca6a0c98cd3ffbe7a9d48fc039cda004c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - management-and-governance
+  - risks-and-thesis-breakers
   derived_observations: 0
   model_draft: false
   reviewed: false
@@ -152,15 +160,15 @@ sector_assignment:
   rule_version: 1
   reason: Fund reporting signal requires instrument review before operating-sector
     classification.
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWF/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWF/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AWF — ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWF/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWF/README.md)
 
 ## Business overview
 
@@ -216,6 +224,10 @@ Not available: substantive research has not been completed. Describe cash, debt,
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-06-23, L368:
+
+> “FOR” the Proposal. The enclosed proxy for each Fund is being solicited on behalf of the Board of Directors of that Fund. [S53]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -227,6 +239,10 @@ Not available: substantive research has not been completed. List dated events, t
 ## Risks and thesis breakers
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+
+Source excerpt — DEF 14A, filed 2026-06-23, L1301:
+
+> the anticipated implementation of the Merger Agreement and the Adviser’s representation that it did not anticipate that such implementation would affect the management or structure of the Adviser, have a material adverse effect on the Adviser, [S53]
 
 ## Scenarios and open questions
 
@@ -240,7 +256,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -252,10 +268,10 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
 - **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
@@ -294,6 +310,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S07] [DEFA14A 0001193125-26-305991](https://www.sec.gov/Archives/edgar/data/906013/000119312526305991/0001193125-26-305991-index.html) — published 2026-07-16; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWF/README.md).
+[S53] [DEF 14A 0001193125-26-279644](https://www.sec.gov/Archives/edgar/data/906013/000119312526279644/d136590ddef14a.htm) — published 2026-06-23; retrieved 2026-11-18T21:02:35.944960+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWF/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

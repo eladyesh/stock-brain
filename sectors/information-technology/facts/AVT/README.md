@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -134,6 +134,18 @@ sources:
   published_at: '2026-08-14'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/8858/000110465926114038/tm2625052-1_def14a.htm
+  title: DEF 14A 0001104659-26-114038
+  published_at: '2026-10-06'
+  retrieved_at: '2026-11-18T21:01:03.081370+00:00'
+  sha256: a7eeeb1ee5c1500c542c9ad267a459f8aad1801b480f26bb11f15698f4be49f4
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/avt-20260627x10k.htm
+  title: 10-K 0001104659-26-096346
+  published_at: '2026-08-14'
+  retrieved_at: '2026-11-18T21:01:01.384267+00:00'
+  sha256: 1c7f2c90e797cfabd06629dd1099f99c0f7ee701eb16c28dc259c79bf1ede272
 issuer_classification:
   cik: 0000008858
   classification_status: reported_sic
@@ -175,13 +187,22 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/8858/000000885817000042/0000008858-17-000042-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 732891d7a7e059232076cc93b3c34591f7b7903dda270865fee6e9abd63809fc
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -196,15 +217,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000008858.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVT/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVT/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AVT — AVNET INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVT/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVT/README.md)
 
 ## Business overview
 
@@ -218,9 +239,17 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-06, L13747:
+
+> A special meeting is an extraordinary event that should be reserved for urgent matters that cannot await our next annual meeting. Special meetings impose significant costs, including legal, printing, mailing, proxy solicitation, and administrative expenses. The Board, management, and our employees must devote significant time and attention to preparing for a special meeting, which takes their time and attention away from their primary focus of overseeing and operating our business. One or a small minority of shareholders should not be entitled to cause such significant expense and distraction to advance their own special interests, which may not be shared more broadly by shareholders. Rather, special meetings should only be called where a substantial portion of shareholders agree that a matter is sufficiently critical and time-sensitive so that it cannot be delayed until the Company’s next annual meeting. A failure to receive 25% support to convene a special meeting is a strong indicator that the issue is unduly narrow and not deemed critical by our shareholders generally. The Company’s annual meeting provides all shareholders with a regular, predictable opportunity to weigh in on director elections and other matters of importance to shareholders. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-08-14, L7464:
+
+> The following table presents the change in goodwill balances by reportable segment for fiscal year 2026. [S69]
 
 ## Products and services
 
@@ -230,11 +259,19 @@ Not available: substantive research has not been completed. Describe the main pr
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
 
+Source excerpt — 10-K, filed 2026-08-14, L481:
+
+> EC provides embedded solutions, including technical design and integration and assembly of embedded products, systems, and solutions for a variety of end markets, including industrial and healthcare. EC also provides embedded display solutions, including touch and passive displays. In addition, EC develops and produces standard board and industrial subsystems and application-specific devices that enable it to produce specialized systems tailored to specific customer requirements. EC serves OEMs that require embedded systems and solutions, including engineering, product prototyping, integration, and other value-added services in the medical, telecommunications, industrial, and digital editing markets. [S69]
+
 ## Industry and value chain
 
 SEC-reported SIC **5065**: Wholesale-Electronic Parts & Equipment, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
+
+Source excerpt — DEF 14A, filed 2026-10-06, L1771:
+
+> MISSION: We deliver superior service by holding ourselves accountable to our stakeholders, enabling design and supply chain technology solutions that improve life experiences globally, while staying grounded in our Core Values. [S68]
 
 Navigation sector: **information-technology**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
@@ -242,9 +279,17 @@ Navigation sector: **information-technology**. Method: `project_sic_rule`. Proje
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-08-14, L811:
+
+> The market for the Company’s products and services is very competitive and subject to technological advances (including artificial intelligence), new competitors, non-traditional competitors, and changes in industry standards. The Company competes with other global and regional distributors, as well as some of the Company’s own suppliers that maintain direct sales efforts. In addition, as the Company expands its offerings and geographies, the Company may encounter increased competition from current or new competitors. The Company’s failure to maintain and enhance its competitive position, including by adopting or enhancing digital capabilities, could adversely affect its business and prospects. Furthermore, the Company’s efforts to compete in the marketplace could cause deterioration of gross profit margins and, thus, overall profitability. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+
+Source excerpt — 10-K, filed 2026-08-14, L482:
+
+> EC also provides integrated solutions and services for software companies that bring their intellectual property to market via hardware solutions, including custom-built servers. [S69]
 
 ## Growth drivers
 
@@ -376,6 +421,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-06, L131:
+
+> The Board of Directors has fixed the close of business on September 21, 2026, as the record date for the Annual Meeting. Only holders of record of shares of Avnet’s common stock at the close of business on such date shall be entitled to notice of and to vote at the Annual Meeting or any adjournment thereof. [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -388,6 +437,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-06, L6088:
+
+> Conducts Annual Compensation Risk Assessment. The Committee annually reviews an assessment of the Company’s compensation programs and determines whether the Company’s policies and practices create risks that are reasonably likely to have a material adverse effect on the Company. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -397,25 +450,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
 - **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -457,6 +510,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S54] [10-K 0001104659-26-096346](https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/0001104659-26-096346-index.html) — published 2026-08-14; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVT/README.md).
+[S68] [DEF 14A 0001104659-26-114038](https://www.sec.gov/Archives/edgar/data/8858/000110465926114038/tm2625052-1_def14a.htm) — published 2026-10-06; retrieved 2026-11-18T21:01:03.081370+00:00.
+
+[S69] [10-K 0001104659-26-096346](https://www.sec.gov/Archives/edgar/data/8858/000110465926096346/avt-20260627x10k.htm) — published 2026-08-14; retrieved 2026-11-18T21:01:01.384267+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVT/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

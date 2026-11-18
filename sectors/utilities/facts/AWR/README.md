@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -129,6 +129,12 @@ sources:
   published_at: '2026-08-18'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/1056903/000110465917048742/a17-18790_18ka.htm
+  title: 8-K/A 0001104659-17-048742
+  published_at: '2017-08-02'
+  retrieved_at: '2026-11-18T21:03:03.391352+00:00'
+  sha256: 8db22833b2e67b0b282dfe1a774fbaa66a536be001d2dd45ab369f705e206506
 issuer_classification:
   cik: 0001056903
   classification_status: reported_sic
@@ -170,13 +176,14 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1056903/000110465917048742/0001104659-17-048742-index.html
 research_progress:
-  stage: pending
+  stage: retry
   input_sha256: cd55d4bcc36b0fd4ea11f950777019b59c6689fd745dabcc035a32bbd7c70701
-  last_attempt_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
   last_success_at: null
-  next_retry_at: null
+  next_retry_at: '2026-11-19T21:00:27.361756+00:00'
   source_set_current: false
-  evidence_topics: []
+  evidence_topics:
+  - management-and-governance
   derived_observations: 4
   model_draft: false
   reviewed: false
@@ -191,15 +198,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001056903.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWR/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWR/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AWR — AMERICAN STATES WATER CO
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWR/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWR/README.md)
 
 ## Business overview
 
@@ -353,6 +360,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K/A, filed 2017-08-02, L53; prior source set, update pending:
+
+> This Form 8-K/A amends and supplements the Current Report on Form 8-K of the Company originally filed with the Securities and Exchange Commission on May 25, 2017. The sole purpose for filing this Form 8-K/A is to disclose the Company’s determination with respect to the frequency of future non-binding advisory votes on the Company’s executive compensation by the Company’s shareholders (each a “say-on-pay” vote) as reflected in the second to last paragraph of Item 5.07 below. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -374,7 +385,7 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **retry**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
 - **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
 - **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
@@ -386,7 +397,7 @@ Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. 
 - **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
 - **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
@@ -436,6 +447,8 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [144 0001949846-26-000524](https://www.sec.gov/Archives/edgar/data/1056903/000194984626000524/0001949846-26-000524-index.html) — published 2026-08-18; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWR/README.md).
+[S67] [8-K/A 0001104659-17-048742](https://www.sec.gov/Archives/edgar/data/1056903/000110465917048742/a17-18790_18ka.htm) — published 2017-08-02; retrieved 2026-11-18T21:03:03.391352+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWR/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

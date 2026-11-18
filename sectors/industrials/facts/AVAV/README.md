@@ -12,10 +12,10 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research:
-  url: https://github.com/eladyesh/stock-brain/blob/00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11/sectors/industrials/companies/AVAV/README.md
+  url: https://github.com/eladyesh/stock-brain/blob/ddae9173dac59b8f117d07d566c062594b1014b4/sectors/industrials/companies/AVAV/README.md
   status: reviewed
   as_of: '2026-10-18'
   sector: industrials
@@ -253,16 +253,16 @@ sector_assignment:
   rule_version: 1
   reason: Uses the dated curated profile assignment; automatic data does not renew
     its review.
-  source_url: https://github.com/eladyesh/stock-brain/blob/00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11/sectors/industrials/companies/AVAV/README.md
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVAV/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+  source_url: https://github.com/eladyesh/stock-brain/blob/ddae9173dac59b8f117d07d566c062594b1014b4/sectors/industrials/companies/AVAV/README.md
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVAV/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AVAV — AeroVironment Inc
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVAV/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVAV/README.md)
 
 ## Business overview
 
@@ -466,7 +466,7 @@ Source excerpt — 10-Q, filed 2026-09-10, L9159:
 - Prices, news, consensus, ownership, valuation and company relationships require separately dated evidence.
 - Collector status: quality_review_required; last action: new_financial_filing; last checked: 2026-10-24T13:32:51.984129+00:00.
 
-Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11/sectors/industrials/companies/AVAV/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
+Dated curated research is maintained separately: [profile at source commit](https://github.com/eladyesh/stock-brain/blob/ddae9173dac59b8f117d07d566c062594b1014b4/sectors/industrials/companies/AVAV/README.md) (status reviewed, as of 2026-10-18). Automatic facts never change its review date.
 
 ### Research work queue
 
@@ -536,6 +536,6 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S70] [DEF 14A 0001104659-26-096689](https://www.sec.gov/Archives/edgar/data/1368622/000110465926096689/tm264166-4_def14a.htm) — published 2026-08-14; retrieved 2026-11-17T21:34:13.707858+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AVAV/README.md).
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AVAV/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

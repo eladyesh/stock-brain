@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -139,6 +139,18 @@ sources:
   published_at: '2026-09-15'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/1069183/000162828026053646/axon-20260630.htm
+  title: 10-Q 0001628280-26-053646
+  published_at: '2026-08-06'
+  retrieved_at: '2026-11-18T21:04:33.118957+00:00'
+  sha256: 9e9a1c942c7fba1be51f897c70a81f1b18fea73a68a05201082b32678311b30e
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1069183/000162828026025521/axon-20260416.htm
+  title: DEF 14A 0001628280-26-025521
+  published_at: '2026-04-16'
+  retrieved_at: '2026-11-18T21:04:31.747972+00:00'
+  sha256: 179daf7f8802257ea7cce0316fa0a8249ffb34aa1218b80e757c911e5888b38a
 issuer_classification:
   cik: 0001069183
   classification_status: reported_sic
@@ -196,13 +208,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1069183/000106918323000049/0001069183-23-000049-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 46f2bc49a89411cc2688d9fc0d8dd61e4141a4cd0c9f9013eb71860687b451db
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 10
   model_draft: false
   reviewed: false
@@ -217,15 +240,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001069183.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AXON/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AXON/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AXON — AXON ENTERPRISE, INC.
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AXON/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AXON/README.md)
 
 ## Business overview
 
@@ -239,17 +262,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-08-06, L1318:
+
+> To date, we have not engaged in any currency hedging activities. However, we may enter into foreign currency forward and option contracts with financial institutions to protect against foreign exchange risks associated with certain existing assets and liabilities, certain firmly committed transactions, forecasted future cash flows and net investments in foreign subsidiaries. However, we may choose not to hedge certain foreign exchange exposures for a variety of reasons, including, but not limited to, the prohibitive economic cost of hedging particular exposures. As such, fluctuations in currency exchange rates could harm our business in the future. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-08-06, L399:
+
+> As described further within our 2025 Annual Report on Form 10-K, we have two reportable segments: Connected Devices and Software and Services. Our chief operating decision maker (“CODM”) is our Chief Executive Officer. The segment measure of profit and loss is adjusted gross margin, as the CODM allocates resources and assesses performance based on review of adjusted gross margin by segment. Assets and other expense items, such as research and development and selling, general, and administrative expenses, are not provided to the CODM by segment, as our CODM does not evaluate our operating segments using this discrete information. For additional details, refer to Note 13. [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-08-06, L795:
+
+> As a manufacturer of weapons and other law enforcement tools used in high-risk field environments, we are often the subject of product liability litigation concerning the use of our products. We are currently named as a defendant in two such lawsuits in which the plaintiffs allege either wrongful death or personal injury in situations in which a TASER CED was used by law enforcement officers in connection with arrests or training. While the facts vary from case to case, these product liability claims typically allege defective product design, manufacturing, and/or failure to warn. They seek compensatory and sometimes punitive damages, often in unspecified amounts. [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-08-06, L1317:
+
+> Our results of operations and cash flows are subject to fluctuations due to changes in foreign currency exchange rates, in each case compared to the U.S. dollar, related to transactions by our foreign subsidiaries. The majority of our sales to international customers are transacted in foreign currencies and therefore are subject to exchange rate fluctuations on these transactions. The cost of our products to our customers increases when the U.S. dollar strengthens against their local currency, and we may have more sales and expenses denominated in foreign currencies in future years which could increase our foreign exchange rate risk. Additionally, intercompany sales to our non-U.S. dollar functional currency international subsidiaries are transacted in U.S. dollars which could increase our foreign exchange rate risk caused by foreign currency transaction gains and losses. [S68]
 
 ## Industry and value chain
 
@@ -257,19 +296,35 @@ SEC-reported SIC **3480**: Ordnance & Accessories, (No Vehicles/Guided Missiles)
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-04-16, L811:
+
+> discrimination and ethical supply chain standards, including the prohibition of forced labor, human trafficking and child [S69]
+
 Navigation sector: **industrials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-16, L4554:
+
+> (if applicable) non-competition with the Company for a period of 12 months after termination of employment. [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-08-06, L799:
+
+> Pending in the Eastern District of Virginia (Case No. 1:24-CV-01625) is a patent infringement suit filed by Airspace Systems, Inc. (“Airspace”) against Dedrone and us involving certain drone technology. Airspace seeks injunctive relief and treble damages in an unspecified amount. Infringement is denied and the litigation is stayed pending our validity challenges to all three asserted patents in the United States Patent and Trademark Office, which instituted review last fall. A decision is expected in October 2026. Separately, pending in the Western District of Texas (Case No. 1:24-cv-1497) is a patent infringement suit filed by CentralSquare Technologies LLC (“CST”) against Carbyne, Inc. and Carbyne, LTD (jointly “Carbyne”) relating to 911 technology. CST seeks injunctive relief and damages in an unspecified amount. Carbyne, which we acquired on February 18, 2026, denies infringement and has countersued CST for infringement of its own patent. Trial is set for May 2027. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-08-06, L788:
+
+> As of June 30, 2026, there were approximately 1.0 million shares remaining. We utilize the net proceeds from this offering program for general corporate purposes, which may include providing capital to satisfy a portion of the tax obligations related to the vesting and settlement of stock compensation awards granted to our employees under our stock plans and funding ongoing strategic investments and acquisitions as we continue to expand our product ecosystem. [S68]
 
 ## Financial performance
 
@@ -397,6 +452,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 10-Q, filed 2026-08-06, L750:
+
+> On January 23, 2026, the Compensation Committee of the Board of Directors approved the addition of two incremental tranches to the Employee XSP. Consistent with prior tranches, Tranches 8 and 9 are performance-based and contingent upon achievement of stock price goals, operational goals, and minimum service requirements. These three independent vesting conditions are described in the following table: [S68]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -409,6 +468,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-08-06, L154:
+
+> We cannot guarantee that any forward-looking statement will be realized, although we believe we have been prudent in our plans and assumptions. Achievement of future results is subject to risks, uncertainties and potentially inaccurate assumptions. Many events beyond our control may determine whether results we anticipate will be achieved. Should known or unknown risks or uncertainties materialize, or should underlying assumptions prove inaccurate, actual results could differ materially from past results and those anticipated, estimated or projected. The material factors, which could cause our actual results to differ from our forward-looking statements, are set forth in our description of risk factors included in Part I, Item 1A, “Risk Factors” in our 2025 Annual Report on Form 10-K for the year ended December 31, 2025, which should be read in conjunction with the forward-looking statements in this Quarterly Report on Form 10-Q. These factors are intended as cautionary statements for investors within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act. You should understand that it is not possible to predict or identify all such factors. Consequently, you should not consider any such list to be a complete set of all potential risks or uncertainties. [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -418,25 +481,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 ## Relationships and themes
 
@@ -478,6 +541,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [305B2 0001193125-26-391326](https://www.sec.gov/Archives/edgar/data/1069183/000119312526391326/0001193125-26-391326-index.html) — published 2026-09-15; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AXON/README.md).
+[S68] [10-Q 0001628280-26-053646](https://www.sec.gov/Archives/edgar/data/1069183/000162828026053646/axon-20260630.htm) — published 2026-08-06; retrieved 2026-11-18T21:04:33.118957+00:00.
+
+[S69] [DEF 14A 0001628280-26-025521](https://www.sec.gov/Archives/edgar/data/1069183/000162828026025521/axon-20260416.htm) — published 2026-04-16; retrieved 2026-11-18T21:04:31.747972+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AXON/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -161,6 +161,18 @@ sources:
   published_at: '2026-07-30'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/1385818/000143774926033276/aytu20260817_def14a.htm
+  title: DEF 14A 0001437749-26-033276
+  published_at: '2026-10-22'
+  retrieved_at: '2026-11-18T21:06:01.668867+00:00'
+  sha256: 2b2709578db3a401fb6f0a1806b6c30f88d42576db0913442b051abda23cef2f
+- id: S71
+  url: https://www.sec.gov/Archives/edgar/data/1385818/000143774926030908/aytu20260630_10k.htm
+  title: 10-K 0001437749-26-030908
+  published_at: '2026-09-22'
+  retrieved_at: '2026-11-18T21:06:00.076393+00:00'
+  sha256: 97d1145f5b4d5a1f33029083a81efdbf853c2de256aa827be94890ae96258926
 issuer_classification:
   cik: 0001385818
   classification_status: reported_sic
@@ -230,13 +242,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/1385818/000119312515270863/0001193125-15-270863-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 60a64f0fed5306aa0410d705c7f4584b8bb447630664ce6aed5b7bf1756cde7c
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 5
   model_draft: false
   reviewed: false
@@ -251,15 +274,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0001385818.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AYTU/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AYTU/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AYTU — AYTU BIOPHARMA, INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AYTU/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AYTU/README.md)
 
 ## Business overview
 
@@ -273,17 +296,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — DEF 14A, filed 2026-10-22, L451:
+
+> We anticipate the proposed 500,000-share increase will provide us with a pool of shares we expect will last for approximately two to three years. A change in business conditions, our business strategy or equity market performance could alter this projection. If this proposal is approved, we intend to register the additional shares available for grant under the 2023 Equity Incentive Plan on Form S-8 prior to making awards of such additional shares. [S69]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-K, filed 2026-09-22, L2957:
+
+> In the first quarter of fiscal 2025 the Company completed the previously announced wind down of its Consumer Health business and on July 31, 2024, the Company entered into a definitive agreement to divest its Consumer Health business to a private, e-commerce focused company affiliated with the Company’s former Vice President of Consumer Health, Jonathan Hughes. Pursuant to the definitive agreement, Mr. Hughes resigned from the Company effective July 31, 2024. The divested business encompassed the established e-commerce platform, certain inventory and associated consumer brands, intellectual property, contracts and liabilities and provided for the Company to receive up to $0.5 million of revenue-based royalty payments and recovery of cost on certain future sales of former Consumer Health business products. The accounting requirements for reporting the Consumer Health business as a discontinued operation were met when the wind down and divestiture was completed on July 31, 2024. Accordingly, the Company’s consolidated financial statements for fiscal 2025 reflect the Consumer Health business as a discontinued operation and the Company determined that its continuing operations now operate in a single operating and reportable segment (see Note 20 - Discontinued Operations and the Segment Information section within Note 2 - Summary of Significant Accounting Policies for further … [S71]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-K, filed 2026-09-22, L344:
+
+> We rely on third parties to manufacture our products, and third-party manufacturing risks and inefficiencies may result in costs and delays that prevent us from successfully commercializing products and adversely affect our ability to produce our products. [S71]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-K, filed 2026-09-22, L359:
+
+> If third-party payors do not reimburse our customers for the products we sell or if reimbursement levels are set too low for us to sell our products at a profit, our ability to sell those products and our results of operations will be harmed. [S71]
 
 ## Industry and value chain
 
@@ -291,19 +330,35 @@ SEC-reported SIC **2834**: Pharmaceutical Preparations. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-22, L412:
+
+> Mr. Donofrio joined our Board of Directors in July 2016 and was appointed as Chairman of the Board of Directors in November 2024. He is a senior pharmaceutical executive with over 30 years of experience in the industry across a broad range of areas, including President, Chief Financial Officer, and Chief Operating Officer positions. Mr. Donofrio has significant finance experience in consolidated financial reporting, international accounting and internal controls, financial systems development and implementation, cost accounting, inventory management, supply chain, transfer pricing, budget and forecast planning, integration of mergers and acquisitions and business development. Mr. Donofrio is the founder of Riverside Consulting LLC, an advisory firm providing strategic and financial advisory services to life sciences companies. Prior to founding Riverside Consulting LLC, he served as Executive Vice President, Chief Operating Officer of Novan, Inc., a specialty dermatology company and was President of Novan, Inc.’s wholly owned subsidiary EPI Health. From March 2019 until its acquisition by Novan, Inc. in March 2022, Mr. Donofrio served as EPI Health’s President. Mr. Donofrio previously served as Chief Financial Officer and Head of Business Development at TrialCard (now Mercalis) from March 2018 to March 2019. Mercalis is a technology-driven pharmaceutical services company … [S69]
+
 Navigation sector: **health-care**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — 10-K, filed 2026-09-22, L719:
+
+> If we are unable to differentiate our products from branded drugs or existing generic therapies for similar treatments, or if the FDA or other applicable regulatory authorities approve additional generic products that compete with any of our products, our ability to successfully commercialize such products would be adversely affected. [S71]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-K, filed 2026-09-22, L298:
+
+> This Form 10-K refers to registered trademarks that we currently own or license, such as Aytu, Aytu BioPharma, Aytu RxConnect, Neos Therapeutics, EXXUA, Adzenys, Adzenys ER, Adzenys XR-ODT, Cotempla, Cotempla XR-ODT, and Karbinal, which are protected under applicable intellectual property laws and are our licensed or owned property or the property of our subsidiaries. This Form 10-K also contains trademarks, service marks, copyrights and trade names of other companies, which are the property of their respective owners. Solely for convenience, our trademarks and tradenames referred to in this Form 10-K may appear without the ® or ™ symbols, but such references are not intended to indicate in any way that we will not assert, to the fullest extent under applicable law, our rights to these trademarks and tradenames. We obtained statistical data, market and product data, and forecasts used throughout this Form 10-K from market research, publicly available information and industry publications. [S71]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — DEF 14A, filed 2026-10-22, L1098:
+
+> Our executive officers are compensated based on performance, and in a manner consistent with our strategy, competitive practice, sound corporate governance principles, and Company and stockholder interests. We believe our compensation program is strongly aligned with the long-term interests of the Company and our stockholders. Compensation of our executive officers is designed to enable us to attract and retain talented and experienced senior executives to lead our Company successfully in a competitive environment. [S69]
 
 ## Financial performance
 
@@ -416,6 +471,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — DEF 14A, filed 2026-10-22, L65:
+
+> Our board of directors (the “Board” or the “Board of Directors”) has fixed the close of business on October 13, 2026, as the record date for the determination of stockholders entitled to notice of and to vote at the Annual Meeting, or any adjournment thereof. A list of stockholders eligible to vote at the Annual Meeting will be available for review during our regular business hours at our principal offices in Denver, Colorado for 10 days prior to the Annual Meeting. [S69]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -428,6 +487,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — DEF 14A, filed 2026-10-22, L1429:
+
+> Our Board of Directors is responsible for our Company’s risk oversight. In fulfilling that role, our Board focuses on our general risk-management strategy and the most significant risks facing our Company and ensures that risk-mitigation strategies are implemented by management. Our Compensation Committee oversees risks related to our compensation and benefit plans and policies to ensure sound pay practices that do not cause risks to arise that are reasonably likely to have a material adverse effect on our Company. Our Board seeks to minimize risks related to governance structure by implementing sound corporate governance principles and practices. [S69]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -437,25 +500,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: operating_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. net_income: annual growth withheld because periods, definitions or a positive prior denominator are not verified. operating_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -497,6 +560,10 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S23] [4 0001437749-26-025083](https://www.sec.gov/Archives/edgar/data/1385818/000143774926025083/0001437749-26-025083-index.html) — published 2026-07-30; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AYTU/README.md).
+[S69] [DEF 14A 0001437749-26-033276](https://www.sec.gov/Archives/edgar/data/1385818/000143774926033276/aytu20260817_def14a.htm) — published 2026-10-22; retrieved 2026-11-18T21:06:01.668867+00:00.
+
+[S71] [10-K 0001437749-26-030908](https://www.sec.gov/Archives/edgar/data/1385818/000143774926030908/aytu20260630_10k.htm) — published 2026-09-22; retrieved 2026-11-18T21:06:00.076393+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AYTU/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.

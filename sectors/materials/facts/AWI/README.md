@@ -12,7 +12,7 @@ as_of: '2026-11-01'
 updated_at: '2026-11-01T16:11:48.803754+00:00'
 reviewed_at: null
 coverage_release: coverage-20261101-41324509967-1
-source_commit: 00ea836101d6c3061ba4aa1d3cd9c1b6b5393f11
+source_commit: ddae9173dac59b8f117d07d566c062594b1014b4
 financial_history_available: true
 curated_research: null
 financial_gap:
@@ -134,6 +134,24 @@ sources:
   published_at: '2026-09-01'
   retrieved_at: '2026-10-23T08:33:02.691743+00:00'
   sha256: null
+- id: S67
+  url: https://www.sec.gov/Archives/edgar/data/7431/000119312526427906/awi-20261021.htm
+  title: 8-K 0001193125-26-427906
+  published_at: '2026-10-21'
+  retrieved_at: '2026-11-18T21:02:47.738981+00:00'
+  sha256: a03feee26944ab8c8cf6594936f217ba5dd9b0a40b956a313c194c39ef743b8e
+- id: S68
+  url: https://www.sec.gov/Archives/edgar/data/7431/000119312526318838/awi-20260630.htm
+  title: 10-Q 0001193125-26-318838
+  published_at: '2026-07-28'
+  retrieved_at: '2026-11-18T21:02:46.237141+00:00'
+  sha256: 713dcb785dd35e1f99716e0824f961b9fe10e354a963beb456295030345eb785
+- id: S69
+  url: https://www.sec.gov/Archives/edgar/data/7431/000119312526193741/d93199ddef14a.htm
+  title: DEF 14A 0001193125-26-193741
+  published_at: '2026-04-30'
+  retrieved_at: '2026-11-18T21:02:44.358036+00:00'
+  sha256: 611d37751dde7f4b2d46be1c78b796c051d598259219851ffa5784b0b5bc4728
 issuer_classification:
   cik: '0000007431'
   classification_status: reported_sic
@@ -183,13 +201,24 @@ research_filings:
   form: 8-K/A
   url: https://www.sec.gov/Archives/edgar/data/7431/000119312519262733/0001193125-19-262733-index.html
 research_progress:
-  stage: pending
+  stage: evidence_collected
   input_sha256: 1276c1ae6c76fb540c9fca070c5a68fec26200fd954e000441aa1b4525d5519e
-  last_attempt_at: null
-  last_success_at: null
+  last_attempt_at: '2026-11-18T21:00:27.361756+00:00'
+  last_success_at: '2026-11-18T21:00:27.361756+00:00'
   next_retry_at: null
-  source_set_current: false
-  evidence_topics: []
+  source_set_current: true
+  evidence_topics:
+  - business-overview
+  - competitive-landscape
+  - customers-and-end-markets
+  - growth-drivers
+  - industry-and-value-chain
+  - management-and-governance
+  - moat-and-differentiation
+  - products-and-services
+  - recent-developments
+  - revenue-model-and-segments
+  - risks-and-thesis-breakers
   derived_observations: 8
   model_draft: false
   reviewed: false
@@ -204,15 +233,15 @@ sector_assignment:
     mixed-activity, blank-check, investment-fund and ambiguous REIT codes require
     company-specific review.
   source_url: https://data.sec.gov/submissions/CIK0000007431.json
-full_history_url: https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWI/README.md
-full_history_commit: 4221fdf1cbfcbe1be4425ff7f3389bba890abacf
+full_history_url: https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWI/README.md
+full_history_commit: b9d67ef2f16565081e0df464efbaff4348778881
 view: latest_available_annual_quarterly_ttm_and_five_filings
 ---
 # AWI — ARMSTRONG WORLD INDUSTRIES INC
 
 > Automatically maintained factual profile. Research status: stub. Missing research is explicit.
 
-[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWI/README.md)
+[Sector index](../../INDEX.md) · [All sectors](../../../README.md) · [Full financial history](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWI/README.md)
 
 ## Business overview
 
@@ -226,17 +255,33 @@ The directory links the following current stock listings to this issuer. Classif
 
 Not available: a reviewed explanation of the business, products, customers and competitive position.
 
+Source excerpt — 10-Q, filed 2026-07-28, L7160:
+
+> In the ordinary course of business, we provide corporate guarantees and obtain surety bonds in support of underlying contractual commitments to our customers. As of June 30, 2026 and December 31, 2025, there were $28.6 million and $31.4 million, respectively, of outstanding surety bonds associated with custom manufacturing projects that were issued by reputable surety providers. In the event of our non-performance, we may be required to reimburse surety providers to cover qualifying financial loss up to the bond amounts. We believe the risk of financial loss associated with our outstanding guarantees and surety bonds is remote and as such, have recorded no liabilities associated with such commitments on our Condensed Consolidated Balance Sheets. [S68]
+
 ## Revenue model and segments
 
 Not available: substantive research has not been completed. Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+
+Source excerpt — 10-Q, filed 2026-07-28, L9715:
+
+> Mineral Fiber – produces suspended mineral fiber and fiberglass ceiling systems. Our mineral fiber products offer various performance attributes such as acoustical control, rated fire protection, and energy efficiency, along with other health and sustainability features and aesthetic appeal. Ceiling products are primarily sold to resale distributors, ceiling systems contractors and wholesalers, and retailers (including large home centers). The Mineral Fiber segment also includes the results of WAVE, which manufactures and sells suspension system (grid) products and ceiling component products that are invoiced by both AWI and WAVE. Segment results relating to WAVE consist primarily of equity earnings and reflect our 50% equity interest in the joint venture. Ceiling component products consist of ceiling perimeters and trim, in addition to grid products that support drywall ceiling systems, structural and walkable grid systems. For some customers, WAVE sells its suspension system products to AWI for resale to customers. Mineral Fiber segment results reflect those sales transactions. The Mineral Fiber segment also includes all assets and liabilities not specifically allocated to our Architectural Specialties or Unallocated Corporate segment, including all property and related depreciation associated with our Lancaster, Pennsylvania headquarters. Operating results for the Mineral … [S68]
 
 ## Products and services
 
 Not available: substantive research has not been completed. Describe the main products, customer problems solved, distribution, and product dependencies.
 
+Source excerpt — 10-Q, filed 2026-07-28, L222:
+
+> Certain statements in this Quarterly Report on Form 10-Q and the documents incorporated by reference herein may constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. Those forward-looking statements are subject to various risks and uncertainties and include all statements that are not historical statements of fact and those regarding our intent, belief or expectations, including, but not limited to, our expectations concerning our markets and demand for our products, tariffs, broader economic conditions and their effect on our operating results; our expectations regarding the payment of dividends and stock repurchases; and our ability to increase revenues, earnings and earnings before interest, taxes, depreciation and amortization. Words such as “anticipate,” “estimate,” “expect,” “project,” “intend,” “plan,” “believe,” “outlook,” “target,” “predict,” “may,” “will,” “would,” “could,” “should,” “seek,” and similar expressions are intended to identify such forward-looking statements. These statements are based on management’s current expectations and beliefs and are subject to a number of factors that could lead to actual results materially different from those described in the forward-looking statements. Although we believe that the assumptions underlying the forward-looking statements are reasonable, we can give no … [S68]
+
 ## Customers and end markets
 
 Not available: substantive research has not been completed. Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+
+Source excerpt — 10-Q, filed 2026-07-28, L7160:
+
+> In the ordinary course of business, we provide corporate guarantees and obtain surety bonds in support of underlying contractual commitments to our customers. As of June 30, 2026 and December 31, 2025, there were $28.6 million and $31.4 million, respectively, of outstanding surety bonds associated with custom manufacturing projects that were issued by reputable surety providers. In the event of our non-performance, we may be required to reimburse surety providers to cover qualifying financial loss up to the bond amounts. We believe the risk of financial loss associated with our outstanding guarantees and surety bonds is remote and as such, have recorded no liabilities associated with such commitments on our Condensed Consolidated Balance Sheets. [S68]
 
 ## Industry and value chain
 
@@ -244,19 +289,35 @@ SEC-reported SIC **3089**: Plastics Products, NEC. [S02]
 
 This is reported industry metadata, not an official GICS assignment or a completed analysis of the value chain. Suppliers, competitors and customers still require separate evidence.
 
+Source excerpt — 10-Q, filed 2026-07-28, L227:
+
+> availability and costs of manufacturing inputs or sourced products, which may be impacted by governmental trade policies, including tariffs, geopolitical events, and other supply chain disruptions or inflationary pressures; [S68]
+
 Navigation sector: **materials**. Method: `project_sic_rule`. Project navigation rules based on reported SEC SIC. These are provisional broad sector groupings, not licensed or official GICS classifications. Unlisted, mixed-activity, blank-check, investment-fund and ambiguous REIT codes require company-specific review.
 
 ## Competitive landscape
 
 Not available: substantive research has not been completed. Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
 
+Source excerpt — DEF 14A, filed 2026-04-30, L6047:
+
+> \| become engaged in any business or activity which is directly in competition with any services or products sold by, or any business or activity engaged in by, the Company or any of its affiliates; [S69]
+
 ## Moat and differentiation
 
 Not available: substantive research has not been completed. Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
 
+Source excerpt — 10-Q, filed 2026-07-28, L9578:
+
+> From time to time, we are involved in other various lawsuits, claims, proceedings, disputes, inquiries, investigations and other legal matters that arise in the ordinary course of business, including matters involving our products, intellectual property, contracts, employees, relationships with suppliers, relationships with distributors, other customers or end users, relationships with competitors, compliance with laws, statutes and regulations and other matters. In connection with those matters, and in addition to our defenses to them, we may have rights of indemnity, contribution or reimbursement from other parties or coverage under applicable insurance policies. When applicable and appropriate, we will seek indemnity, contribution or reimbursement from other parties and pursue coverage and recoveries under those policies, but we are unable to predict the outcome of those demands. While complete assurance cannot be given to the outcome of any proceedings relating to these matters, including the success of our defenses, we do not believe that any current claims, individually or in the aggregate, will have a material adverse effect on our financial condition, liquidity or results of operations. [S68]
+
 ## Growth drivers
 
 Not available: substantive research has not been completed. Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+
+Source excerpt — 10-Q, filed 2026-07-28, L5676:
+
+> Goodwill from the Eventscape, Parallel and Geometrik acquisitions relates to many factors, including the technical competencies and capabilities of the acquired workforce and our strategic intent to integrate and leverage those competencies and capabilities to advance and expand our portfolio of solutions and offerings. The acquired goodwill associated with the Parallel acquisition is deductible for tax purposes. [S68]
 
 ## Financial performance
 
@@ -378,6 +439,10 @@ This view retains the latest available annual, quarterly and TTM periods. Full r
 
 Not available: substantive research has not been completed. Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 
+Source excerpt — 8-K, filed 2026-10-21, L101:
+
+> On October 21, 2026, Armstrong World Industries, Inc. (the “Company”) issued a press release announcing that its Board of Directors has declared a quarterly cash dividend of $0.373 per share of outstanding common stock payable on November 19, 2026 to stockholders of record as of the close of business on November 5, 2026. A copy of the press release is attached as Exhibit 99.1 hereto and incorporated herein by reference. [S67]
+
 ## Valuation context
 
 Not available: substantive research has not been completed. Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
@@ -390,6 +455,10 @@ Not available: substantive research has not been completed. List dated events, t
 
 Not available: substantive research has not been completed. Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 
+Source excerpt — 10-Q, filed 2026-07-28, L222:
+
+> Certain statements in this Quarterly Report on Form 10-Q and the documents incorporated by reference herein may constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. Those forward-looking statements are subject to various risks and uncertainties and include all statements that are not historical statements of fact and those regarding our intent, belief or expectations, including, but not limited to, our expectations concerning our markets and demand for our products, tariffs, broader economic conditions and their effect on our operating results; our expectations regarding the payment of dividends and stock repurchases; and our ability to increase revenues, earnings and earnings before interest, taxes, depreciation and amortization. Words such as “anticipate,” “estimate,” “expect,” “project,” “intend,” “plan,” “believe,” “outlook,” “target,” “predict,” “may,” “will,” “would,” “could,” “should,” “seek,” and similar expressions are intended to identify such forward-looking statements. These statements are based on management’s current expectations and beliefs and are subject to a number of factors that could lead to actual results materially different from those described in the forward-looking statements. Although we believe that the assumptions underlying the forward-looking statements are reasonable, we can give no … [S68]
+
 ## Scenarios and open questions
 
 - Research remains a stub; automation does not approve an investment thesis.
@@ -399,25 +468,25 @@ Not available: substantive research has not been completed. Describe operational
 
 ### Research work queue
 
-Collection stage: **pending**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
+Collection stage: **evidence_collected**. Extracted evidence is not a reviewed conclusion. Daily collection resumes from durable state; unchanged accessions are reused.
 
-- **Business overview** (evidence or analysis still needed): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
-- **Revenue model and segments** (evidence or analysis still needed): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
-- **Products and services** (evidence or analysis still needed): Describe the main products, customer problems solved, distribution, and product dependencies.
-- **Customers and end markets** (evidence or analysis still needed): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
-- **Industry and value chain** (evidence or analysis still needed): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
-- **Competitive landscape** (evidence or analysis still needed): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
-- **Moat and differentiation** (evidence or analysis still needed): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
-- **Growth drivers** (evidence or analysis still needed): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
+- **Business overview** (source excerpts available; assess the claim): Explain what the company does, who pays it, and why the business exists. Cite primary sources.
+- **Revenue model and segments** (source excerpts available; assess the claim): Describe revenue streams, segments, geographic exposure, pricing, and recurring versus transactional revenue. Date every mix figure.
+- **Products and services** (source excerpts available; assess the claim): Describe the main products, customer problems solved, distribution, and product dependencies.
+- **Customers and end markets** (source excerpts available; assess the claim): Describe buyers, use cases, concentration, contract duration, and end-market exposure. Do not infer undisclosed customer names.
+- **Industry and value chain** (source excerpts available; assess the claim): Place the company among suppliers, distribution channels, customers, and substitutes. Explain cyclicality and supply constraints.
+- **Competitive landscape** (source excerpts available; assess the claim): Identify direct competitors and alternatives. Compare specific products or business segments, with sources.
+- **Moat and differentiation** (source excerpts available; assess the claim): Separate evidence from interpretation when assessing switching costs, cost advantages, intellectual property, scale, or network effects.
+- **Growth drivers** (source excerpts available; assess the claim): Explain the mechanisms behind possible growth, their dependencies, and what would disprove them. Label forecasts and assumptions.
 - **Financial performance** (evidence or analysis still needed): Record revenue, margins, earnings, cash flow, and relevant sector metrics. Every number needs period, units, currency, accounting basis, and source. Separate reported results, guidance, consensus, and estimates.
 - **Balance sheet and capital allocation** (evidence or analysis still needed): Describe cash, debt, maturities, dilution, stock compensation, investment, acquisitions, dividends, and repurchases with dates and sources.
-- **Management and governance** (evidence or analysis still needed): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
+- **Management and governance** (source excerpts available; assess the claim): Describe leadership, ownership, incentives, governance, and execution history. Verify current roles and date the evidence.
 - **Valuation context** (evidence or analysis still needed): Explain suitable valuation metrics and assumptions. Timestamp prices, share counts, net debt, and multiples; distinguish historical, current, and forward figures. Do not present an undated fair value.
 - **Catalysts** (evidence or analysis still needed): List dated events, the mechanism by which they matter, uncertainty, and the next evidence to monitor. A scheduled event is not a guaranteed outcome.
-- **Risks and thesis breakers** (evidence or analysis still needed): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
+- **Risks and thesis breakers** (source excerpts available; assess the claim): Describe operational, financial, regulatory, and competitive risks and measurable conditions that would invalidate an interpretation.
 - **Scenarios and open questions** (evidence or analysis still needed): Separate bull, base, and bear assumptions from facts. Record missing data, disputed evidence, and research questions without inventing answers.
 - **Relationships and themes** (evidence or analysis still needed): Link relevant companies and cross-sector themes. State the relationship type and supporting source; never imply all theme members are competitors.
-- **Recent developments** (evidence or analysis still needed): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
+- **Recent developments** (source excerpts available; assess the claim): Keep a dated, source-backed log of material changes. Distinguish the event date from the article date and explain what changed in the profile.
 
 Calculation gaps: Free cash flow margin: compatible positive revenue and usable inputs are required. free_cash_flow: annual growth withheld because periods, definitions or a positive prior denominator are not verified.
 
@@ -461,6 +530,12 @@ Latest five available filing metadata records; document bodies have not been ana
 
 [S21] [8-K 0001193125-26-377194](https://www.sec.gov/Archives/edgar/data/7431/000119312526377194/0001193125-26-377194-index.html) — published 2026-09-01; retrieved 2026-10-23T08:33:02.691743+00:00.
 
-Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/4221fdf1cbfcbe1be4425ff7f3389bba890abacf/brain/companies/AWI/README.md).
+[S67] [8-K 0001193125-26-427906](https://www.sec.gov/Archives/edgar/data/7431/000119312526427906/awi-20261021.htm) — published 2026-10-21; retrieved 2026-11-18T21:02:47.738981+00:00.
+
+[S68] [10-Q 0001193125-26-318838](https://www.sec.gov/Archives/edgar/data/7431/000119312526318838/awi-20260630.htm) — published 2026-07-28; retrieved 2026-11-18T21:02:46.237141+00:00.
+
+[S69] [DEF 14A 0001193125-26-193741](https://www.sec.gov/Archives/edgar/data/7431/000119312526193741/d93199ddef14a.htm) — published 2026-04-30; retrieved 2026-11-18T21:02:44.358036+00:00.
+
+Source release: `coverage-20261101-41324509967-1`. [Complete financial history and original evidence hashes](https://github.com/eladyesh/stock-brain/blob/b9d67ef2f16565081e0df464efbaff4348778881/brain/companies/AWI/README.md).
 
 Changes remain in main Git history. This generated factual profile does not promote or replace curated research.
